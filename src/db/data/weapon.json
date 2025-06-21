@@ -1,0 +1,235 @@
+[
+  {
+    "level": 29,
+    "name": "Lance à un 110",
+    "category": "Lance",
+    "stats": {
+      "undefined": 12,
+      "health": 20,
+      "chance": 40,
+      "waterDamage": 4
+    }
+  },
+  {
+    "level": 53,
+    "name": "Trident du Kanigrou",
+    "category": "Lance",
+    "stats": {
+      "undefined": 18,
+      "health": 35,
+      "strength": 35,
+      "chance": 35,
+      "agility": 35
+    }
+  },
+  {
+    "level": 81,
+    "name": "Lance d'Aga Dou",
+    "category": "Lance",
+    "stats": {
+      "undefined": 27,
+      "health": 60,
+      "strength": 50,
+      "wisdom": 30,
+      "range": 1,
+      "summon": 1,
+      "lock": 5
+    }
+  },
+  {
+    "level": 60,
+    "name": "Taille-haie primitif du Wobot",
+    "panoply": "Panoplie du Wabbit",
+    "category": "Lance",
+    "stats": {
+      "undefined": 23,
+      "health": 50,
+      "power": 20,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10
+    }
+  },
+  {
+    "level": 102,
+    "name": "Fourbasse-Ton",
+    "panoply": "Panoplie Fourbasse",
+    "category": "Lance",
+    "stats": {
+      "undefined": 12,
+      "health": 100,
+      "strength": 45,
+      "chance": 35,
+      "wisdom": 25,
+      "summon": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "fireResistPer": 7,
+      "lock": 4,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 76,
+    "name": "Fourche de Farle",
+    "panoply": "Panoplie de Farle Ingalsse",
+    "category": "Lance",
+    "stats": {
+      "undefined": 3,
+      "health": 70,
+      "strength": 80,
+      "power": 15,
+      "criticalChance": 3,
+      "damage": 3,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 80,
+    "name": "Binette de Shika",
+    "panoply": "Panoplie de Shika Ingalsse",
+    "category": "Lance",
+    "stats": {
+      "undefined": 3,
+      "health": 70,
+      "intelligence": 60,
+      "chance": 20,
+      "power": 15,
+      "criticalChance": 5,
+      "damage": 3,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 154,
+    "name": "Lance du Harpirate",
+    "panoply": "Panoplie du Harpirate",
+    "category": "Lance",
+    "stats": {
+      "undefined": 22,
+      "health": 200,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "summon": 1,
+      "fireDamage": 7,
+      "airDamage": 10,
+      "heal": 7,
+      "prospecting": 15,
+      "initiative": 250,
+      "airResistPer": 7,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Lance corrompue",
+    "category": "Lance",
+    "stats": {
+      "undefined": 8,
+      "health": 400,
+      "strength": 70,
+      "agility": 70,
+      "wisdom": 30,
+      "criticalChance": 0,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "airDamage": 20,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "lock": 10,
+      "apResist": 6,
+      "pushbackDamage": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Lance Horselé",
+    "panoply": "Panoplie Submergée",
+    "category": "Lance",
+    "stats": {
+      "undefined": 25,
+      "health": 350,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "summon": 1,
+      "airDamage": 12,
+      "neutralResistPer": 7,
+      "fireResistPer": 10,
+      "dodge": 7,
+      "apReduction": 7,
+      "criticalDamage": 12,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Pertuisane d'Hell Mina",
+    "panoply": "Panoplie d'Hell Mina",
+    "category": "Lance",
+    "stats": {
+      "undefined": 6,
+      "health": 300,
+      "intelligence": 60,
+      "wisdom": 30,
+      "fireDamage": 10,
+      "fireResistPer": 10,
+      "airResistPer": 7,
+      "lock": 5,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 50,
+    "name": "Lance de guerrier albueran",
+    "panoply": "Panoplie de guerrier albueran",
+    "category": "Lance",
+    "stats": {
+      "undefined": 4,
+      "health": 40,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "waterDamage": 3
+    }
+  },
+  {
+    "level": 50,
+    "name": "Lance de trappeur albueran",
+    "panoply": "Panoplie de trappeur albueran",
+    "category": "Lance",
+    "stats": {
+      "undefined": 12,
+      "health": 40,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 10,
+      "heal": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pilier d'Ephedrya",
+    "panoply": "Maléfices d'Ephedrya",
+    "category": "Lance",
+    "stats": {
+      "undefined": 0,
+      "health": 450,
+      "wisdom": 50,
+      "power": 90,
+      "criticalChance": 0,
+      "neutralDamage": 0,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "criticalResist": 25
+    }
+  }
+]

@@ -1,0 +1,4980 @@
+[
+  {
+    "level": 9,
+    "name": "Anneau de Sagesse",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 10
+    }
+  },
+  {
+    "level": 9,
+    "name": "Anneau de Chance",
+    "category": "Anneau",
+    "stats": {
+      "chance": 10
+    }
+  },
+  {
+    "level": 9,
+    "name": "Anneau d'Agilité",
+    "category": "Anneau",
+    "stats": {
+      "agility": 10
+    }
+  },
+  {
+    "level": 11,
+    "name": "Anneau des Rocheuses",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "agility": 10
+    }
+  },
+  {
+    "level": 17,
+    "name": "Anneau Rak",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "chance": 11,
+      "waterDamage": 0
+    }
+  },
+  {
+    "level": 12,
+    "name": "L'Anneau de Valeur",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "chance": 15,
+      "lock": 3
+    }
+  },
+  {
+    "level": 29,
+    "name": "L'Ecaliseur",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "chance": 15,
+      "damage": 0
+    }
+  },
+  {
+    "level": 26,
+    "name": "Alliance de Silimelle",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 25,
+      "earthDamage": 0,
+      "fireDamage": 0,
+      "waterDamage": 0,
+      "airDamage": 0,
+      "apReduction": 0,
+      "mpReduction": 0
+    }
+  },
+  {
+    "level": 6,
+    "name": "Gantie Royal",
+    "category": "Anneau",
+    "stats": {
+      "strength": 7
+    }
+  },
+  {
+    "level": 4,
+    "name": "Camaïneux",
+    "category": "Anneau",
+    "stats": {
+      "health": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Anneau Fortifiant",
+    "category": "Anneau",
+    "stats": {
+      "strength": 10
+    }
+  },
+  {
+    "level": 1,
+    "name": "Anneau Rexik",
+    "category": "Anneau",
+    "stats": {
+      "agility": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Abranneau",
+    "panoply": "Abranoplie",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 0,
+      "range": 0
+    }
+  },
+  {
+    "level": 8,
+    "name": "Anneau de Satisfaction",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 0
+    }
+  },
+  {
+    "level": 2,
+    "name": "Anneau Forcesque",
+    "category": "Anneau",
+    "stats": {
+      "strength": 5
+    }
+  },
+  {
+    "level": 2,
+    "name": "Anneau Agilesque",
+    "category": "Anneau",
+    "stats": {
+      "agility": 5
+    }
+  },
+  {
+    "level": 2,
+    "name": "Anneau Vitalesque",
+    "category": "Anneau",
+    "stats": {
+      "health": 10
+    }
+  },
+  {
+    "level": 1,
+    "name": "Petit Anneau Magique",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 7
+    }
+  },
+  {
+    "level": 1,
+    "name": "Petit Anneau du Chanceux",
+    "category": "Anneau",
+    "stats": {
+      "chance": 7
+    }
+  },
+  {
+    "level": 14,
+    "name": "Anneau du Mental",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 15
+    }
+  },
+  {
+    "level": 15,
+    "name": "Blessure du Sacrieur",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "strength": 10
+    }
+  },
+  {
+    "level": 15,
+    "name": "Le Bagueur",
+    "category": "Anneau",
+    "stats": {
+      "health": 10,
+      "chance": 10,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 36,
+    "name": "L'Anneau Dhyn",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "agility": 20,
+      "criticalChance": 4,
+      "damage": 4
+    }
+  },
+  {
+    "level": 20,
+    "name": "Chance d'Ecaflip",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 7,
+      "chance": 7,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 30,
+    "name": "Passé de Xélor",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "intelligence": 15,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 30,
+    "name": "Souvenir d'Enutrof",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "chance": 15,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 59,
+    "name": "L'Enutrofion",
+    "category": "Anneau",
+    "stats": {
+      "chance": 40,
+      "prospecting": 15,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 1,
+    "name": "Alliance",
+    "category": "Anneau",
+    "stats": {}
+  },
+  {
+    "level": 46,
+    "name": "Abranneau Mou",
+    "panoply": "Abranoplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "range": 0,
+      "summon": 0
+    }
+  },
+  {
+    "level": 48,
+    "name": "Abranneau Sombre",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "intelligence": 15,
+      "chance": 15,
+      "agility": 15,
+      "wisdom": 5
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Feu",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Terre",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Air",
+    "category": "Anneau",
+    "stats": {
+      "agility": 0,
+      "wisdom": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Eau",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "chance": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Lumière",
+    "category": "Anneau",
+    "stats": {
+      "agility": 0,
+      "wisdom": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Artefact Vie",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "chance": 0
+    }
+  },
+  {
+    "level": 26,
+    "name": "Fécaliseur du Magicien",
+    "category": "Anneau",
+    "stats": {
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 26,
+    "name": "Fécaliseur du Guerrier",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "neutralResistPer": 0,
+      "earthResistPer": 0
+    }
+  },
+  {
+    "level": 40,
+    "name": "Force de Crocoburio",
+    "panoply": "Âme de Crocoburio",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "strength": 30,
+      "neutralDamage": 0,
+      "earthDamage": 0
+    }
+  },
+  {
+    "level": 25,
+    "name": "Anneau Mèr",
+    "category": "Anneau",
+    "stats": {
+      "health": 60,
+      "lock": 3
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bague De Sendar",
+    "category": "Anneau",
+    "stats": {
+      "neutralResist": 0,
+      "earthResist": 0,
+      "fireResist": 0,
+      "waterResist": 0,
+      "airResist": 0
+    }
+  },
+  {
+    "level": 42,
+    "name": "Kwakanneau de Flammes",
+    "panoply": "Panoplie du Kwak de Flammes",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 20,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 20,
+    "name": "Anneau de Bouze le Clerc",
+    "panoply": "Panoplie du Bouftou",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 40,
+    "name": "Anobra",
+    "panoply": "Panoplie de l'Abraknyde",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "criticalChance": 3,
+      "damage": 3
+    }
+  },
+  {
+    "level": 31,
+    "name": "Anneau Royal du Bouftou",
+    "panoply": "Panoplie du Bouftou Royal",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "damage": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Gelano",
+    "panoply": "Panoplie Gelax",
+    "category": "Anneau",
+    "stats": {
+      "AP": 0
+    }
+  },
+  {
+    "level": 4,
+    "name": "Anneau de l'Aventurier",
+    "panoply": "Panoplie du Jeune Aventurier",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0
+    }
+  },
+  {
+    "level": 51,
+    "name": "Anneau Tribal",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 10,
+      "criticalChance": 3,
+      "summon": 0,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 44,
+    "name": "Anneau Forain",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "chance": 25,
+      "power": 5,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 40,
+    "name": "Anneau de l'Invocateur Satisfait",
+    "category": "Anneau",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 0,
+      "summon": 0
+    }
+  },
+  {
+    "level": 71,
+    "name": "Anneau de Loopine",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "damage": 0,
+      "prospecting": 10,
+      "initiative": 100,
+      "earthResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 67,
+    "name": "Anneau Nime",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "chance": 25,
+      "wisdom": 10,
+      "prospecting": 10,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anneau du Jeune Vald",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "strength": 25,
+      "agility": 25,
+      "fireResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 87,
+    "name": "Alliance de Farle",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "strength": 30,
+      "wisdom": 20,
+      "power": 5,
+      "criticalChance": 3,
+      "damage": 3,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 84,
+    "name": "Anneau du Mineur Gogorifiant",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "wisdom": 20,
+      "waterDamage": 3,
+      "prospecting": 15,
+      "initiative": 100,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 20,
+    "name": "Alliance de l'Homme Ours",
+    "panoply": "Panoplie de l'Homme Ours",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "fireDamage": 0,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 42,
+    "name": "Kwakanneau de Glace",
+    "panoply": "Panoplie du Kwak de Glace",
+    "category": "Anneau",
+    "stats": {
+      "chance": 20,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 104,
+    "name": "Fourballiance",
+    "panoply": "Panoplie Fourbasse",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "neutralDamage": 4,
+      "earthDamage": 4,
+      "waterDamage": 4,
+      "neutralResist": 7,
+      "fireResist": 7,
+      "airResist": 7
+    }
+  },
+  {
+    "level": 42,
+    "name": "Kwakanneau de Terre",
+    "panoply": "Panoplie du Kwak de Terre",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Kwakanneau de Vent",
+    "panoply": "Panoplie du Kwak de Vent",
+    "category": "Anneau",
+    "stats": {
+      "agility": 20,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 79,
+    "name": "Bracelet Magique de Farle",
+    "panoply": "Panoplie de Farle Ingalsse",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "intelligence": 20,
+      "agility": 20,
+      "wisdom": 10,
+      "power": 5,
+      "fireResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 15,
+    "name": "Anneau Champêtre",
+    "panoply": "Panoplie Champêtre",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "agility": 20
+    }
+  },
+  {
+    "level": 25,
+    "name": "Anneau Thé",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "wisdom": 5,
+      "power": 10
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bracelet du Chef Bwork",
+    "panoply": "Panoplie du Chef Bwork",
+    "category": "Anneau",
+    "stats": {
+      "health": 60,
+      "strength": 35,
+      "agility": 35,
+      "power": 5,
+      "prospecting": 5,
+      "earthResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 70,
+    "name": "Bracelet du Chef Crocodaille",
+    "panoply": "Panoplie du Chef Crocodaille",
+    "category": "Anneau",
+    "stats": {
+      "chance": 30,
+      "agility": 30,
+      "criticalChance": 0,
+      "prospecting": 3,
+      "earthResistPer": 0,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 19,
+    "name": "Anneau du Sanglier",
+    "panoply": "Panoplie du Sanglier",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 9,
+    "name": "Araknoton",
+    "panoply": "Panoplie Arakne",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 21,
+    "name": "Mos Kitano",
+    "panoply": "Panoplie Moskito",
+    "category": "Anneau",
+    "stats": {
+      "chance": 15,
+      "waterDamage": 0,
+      "heal": 0
+    }
+  },
+  {
+    "level": 13,
+    "name": "Anneau du Champ Champ",
+    "panoply": "Panoplie Champ Champ",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "lock": 0
+    }
+  },
+  {
+    "level": 11,
+    "name": "Alliance Du Champ Champ",
+    "panoply": "Panoplie Champ Champ",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 38,
+    "name": "Anneau du Prespic",
+    "panoply": "Panoplie du Prespic",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "intelligence": 15,
+      "wisdom": 10,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 43,
+    "name": "Scaranneau Vert",
+    "panoply": "Panoplie du Scarafeuille Vert",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "strength": 20,
+      "criticalChance": 0,
+      "earthResistPer": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Scaranneau Rouge",
+    "panoply": "Panoplie du Scarafeuille Rouge",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "intelligence": 20,
+      "criticalChance": 0,
+      "fireResistPer": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Scaranneau Blanc",
+    "panoply": "Panoplie du Scarafeuille Blanc",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "agility": 20,
+      "criticalChance": 0,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Scaranneau Bleu",
+    "panoply": "Panoplie du Scarafeuille Bleu",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "chance": 20,
+      "criticalChance": 0,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 51,
+    "name": "Anneau du Mulou",
+    "panoply": "Panoplie du Mulou",
+    "category": "Anneau",
+    "stats": {
+      "strength": 25,
+      "agility": 25,
+      "wisdom": 15,
+      "prospecting": 3
+    }
+  },
+  {
+    "level": 17,
+    "name": "Anneau du Bandit",
+    "panoply": "Panoplie du Bandit",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 48,
+    "name": "Anneau Stradamus",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "heal": 15,
+      "earthResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 65,
+    "name": "Anneau Fioutioure",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "wisdom": 20,
+      "heal": 6,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 119,
+    "name": "Alliance d'Elya Wood",
+    "panoply": "Panoplie d'Elya Wood",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "intelligence": 35,
+      "heal": 6,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "earthResist": 12,
+      "fireResist": 12
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anneau Merta",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 25,
+      "agility": 25,
+      "criticalChance": 3,
+      "heal": 3,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 53,
+    "name": "Alliance Ethnique",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 88,
+    "name": "Anneau K'Tuelle",
+    "category": "Anneau",
+    "stats": {
+      "health": 60,
+      "chance": 30,
+      "agility": 30,
+      "damage": 3,
+      "prospecting": 10,
+      "fireResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 58,
+    "name": "Anneau Ha",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "agility": 30,
+      "criticalChance": 3,
+      "damage": 3
+    }
+  },
+  {
+    "level": 44,
+    "name": "Anneau Hé",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "wisdom": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 50,
+    "name": "Anneau Zocomial",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "power": 15,
+      "initiative": 150,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 18,
+    "name": "Anneau Vice",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "lock": 0,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 68,
+    "name": "Anneau Bsène",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "summon": 0,
+      "damage": 3,
+      "heal": 3,
+      "fireResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 54,
+    "name": "Anneau Karina",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "strength": 20,
+      "agility": 20,
+      "earthResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 56,
+    "name": "Anneau Piaume",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 25,
+      "criticalChance": 4,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 49,
+    "name": "Anneau Rigami",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 37,
+    "name": "Alliance Akwadala",
+    "panoply": "Panoplie Akwadala",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "chance": 10,
+      "initiative": 150,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 77,
+    "name": "Alliance Terrdala",
+    "panoply": "Panoplie Terrdala",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "wisdom": 25,
+      "damage": 4,
+      "earthResistPer": 3,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 81,
+    "name": "Alliance Feudala",
+    "panoply": "Panoplie Feudala",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "intelligence": 35,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "heal": 5,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 57,
+    "name": "Alliance Aerdala",
+    "panoply": "Panoplie Aerdala",
+    "category": "Anneau",
+    "stats": {
+      "agility": 30,
+      "wisdom": 25,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 55,
+    "name": "Anneau du Kitsou",
+    "panoply": "Panoplie du Kitsou",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "earthResistPer": 5,
+      "waterResist": 6,
+      "airResist": 6
+    }
+  },
+  {
+    "level": 50,
+    "name": "Anodindo",
+    "panoply": "Panoplie Dindo",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "intelligence": 15,
+      "chance": 15,
+      "agility": 15,
+      "wisdom": 10
+    }
+  },
+  {
+    "level": 86,
+    "name": "Anneau du Boufcoul",
+    "panoply": "Panoplie du Boufcoul",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "strength": 20,
+      "intelligence": 20,
+      "agility": 20,
+      "wisdom": 7,
+      "heal": 6,
+      "initiative": 0,
+      "earthResistPer": 3,
+      "fireResistPer": 3
+    }
+  },
+  {
+    "level": 1,
+    "name": "Le Diviseur (MJ)",
+    "category": "Anneau",
+    "stats": {}
+  },
+  {
+    "level": 53,
+    "name": "Anneau du Koalak",
+    "panoply": "Panoplie du Koalak",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "summon": 0,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 21,
+    "name": "Anneau du Tofu",
+    "panoply": "Panoplie du Tofu",
+    "category": "Anneau",
+    "stats": {
+      "agility": 15,
+      "wisdom": 10
+    }
+  },
+  {
+    "level": 43,
+    "name": "Anneau du Scarabosse Doré",
+    "panoply": "Panoplie du Scarabosse Doré",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "intelligence": 15,
+      "agility": 15,
+      "damage": 0,
+      "heal": 6
+    }
+  },
+  {
+    "level": 12,
+    "name": "Mitaines Mitées du Paysan",
+    "panoply": "Panoplie du Paysan",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "summon": 0
+    }
+  },
+  {
+    "level": 48,
+    "name": "Scaranneau Noir",
+    "panoply": "Panoplie du Scarafeuille Noir",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "criticalChance": 3,
+      "heal": 5,
+      "neutralResistPer": 3
+    }
+  },
+  {
+    "level": 72,
+    "name": "Craquanneau Légendaire",
+    "panoply": "Panoplie du Craqueleur Légendaire",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 20,
+      "agility": 20,
+      "range": 0,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 10,
+    "name": "Anneau du Piou Rouge",
+    "panoply": "Panoplie du Piou Rouge",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "intelligence": 20
+    }
+  },
+  {
+    "level": 9,
+    "name": "Anneau du Piou Bleu",
+    "panoply": "Panoplie du Piou Bleu",
+    "category": "Anneau",
+    "stats": {
+      "chance": 20,
+      "waterDamage": 0
+    }
+  },
+  {
+    "level": 8,
+    "name": "Anneau du Piou Violet",
+    "panoply": "Panoplie du Piou Violet",
+    "category": "Anneau",
+    "stats": {
+      "power": 10,
+      "initiative": 50
+    }
+  },
+  {
+    "level": 12,
+    "name": "Anneau du Piou Jaune",
+    "panoply": "Panoplie du Piou Jaune",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 10,
+      "airDamage": 0
+    }
+  },
+  {
+    "level": 11,
+    "name": "Anneau du Piou Vert",
+    "panoply": "Panoplie du Piou Vert",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 7,
+    "name": "Anneau du Piou Rose",
+    "panoply": "Panoplie du Piou Rose",
+    "category": "Anneau",
+    "stats": {
+      "heal": 0,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 20,
+    "name": "Anneau en Mousse",
+    "panoply": "Panoplie en Mousse",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "airDamage": 3,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 126,
+    "name": "Anneau du Meulou",
+    "panoply": "Panoplie du Meulou",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "strength": 40,
+      "agility": 30,
+      "range": 0,
+      "damage": 5,
+      "prospecting": 15,
+      "initiative": 200,
+      "fireResistPer": 7,
+      "neutralResist": 6
+    }
+  },
+  {
+    "level": 112,
+    "name": "Anneau du Minotoror",
+    "panoply": "Panoplie du Minotoror",
+    "category": "Anneau",
+    "stats": {
+      "health": 80,
+      "wisdom": 25,
+      "criticalChance": 2,
+      "summon": 0,
+      "heal": 5,
+      "prospecting": 10,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "criticalDamage": 5,
+      "pushbackDamage": 5
+    }
+  },
+  {
+    "level": 149,
+    "name": "Bracelet du Minotot",
+    "panoply": "Panoplie du Minotot",
+    "category": "Anneau",
+    "stats": {
+      "health": 130,
+      "chance": 40,
+      "wisdom": 30,
+      "power": 10,
+      "damage": 6,
+      "heal": 6,
+      "prospecting": 20,
+      "initiative": 200,
+      "waterResistPer": 6,
+      "earthResist": 7,
+      "fireResist": 7
+    }
+  },
+  {
+    "level": 108,
+    "name": "Anneau du Dragon Cochon",
+    "panoply": "Panoplie du Dragon Cochon",
+    "category": "Anneau",
+    "stats": {
+      "health": 80,
+      "wisdom": 15,
+      "power": 30,
+      "criticalChance": 3,
+      "damage": 4,
+      "prospecting": 6,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 127,
+    "name": "Anneau du Dragoeuf",
+    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "power": 20,
+      "range": 0,
+      "heal": 10,
+      "initiative": 250,
+      "dodge": 6,
+      "apResist": 7
+    }
+  },
+  {
+    "level": 73,
+    "name": "Bracelet Magique de Shika",
+    "panoply": "Panoplie de Shika Ingalsse",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "intelligence": 25,
+      "chance": 15,
+      "agility": 15,
+      "wisdom": 10,
+      "power": 10,
+      "earthResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 111,
+    "name": "Alliance du Mominotor",
+    "panoply": "Panoplie du Mominotor",
+    "category": "Anneau",
+    "stats": {
+      "health": 80,
+      "wisdom": 25,
+      "range": 0,
+      "prospecting": 10,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "lock": 3,
+      "apReduction": 3,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 98,
+    "name": "Gant du Rat Noir",
+    "panoply": "Panoplie du Rat Noir",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 4,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "lock": 5
+    }
+  },
+  {
+    "level": 101,
+    "name": "Gant du Rat Blanc",
+    "panoply": "Panoplie du Rat Blanc",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 15,
+      "range": 0,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "heal": 5,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 131,
+    "name": "Anneau Cérémonial du Seigneur des Rats",
+    "panoply": "Panoplie Cérémoniale",
+    "category": "Anneau",
+    "stats": {
+      "health": 130,
+      "agility": 40,
+      "power": 10,
+      "criticalChance": 4,
+      "damage": 6,
+      "prospecting": 15,
+      "airResistPer": 7,
+      "earthResist": 7,
+      "fireResist": 7
+    }
+  },
+  {
+    "level": 113,
+    "name": "Anneau Ancestral",
+    "panoply": "Panoplie Ancestrale",
+    "category": "Anneau",
+    "stats": {
+      "health": 130,
+      "strength": 30,
+      "chance": 40,
+      "wisdom": 35,
+      "prospecting": 10,
+      "earthResistPer": 6,
+      "waterResistPer": 6
+    }
+  },
+  {
+    "level": 139,
+    "name": "Anneau du Chêne Mou",
+    "panoply": "Panoplie du Chêne Mou",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 25,
+      "criticalChance": 2,
+      "damage": 6,
+      "prospecting": 10,
+      "neutralResistPer": 6,
+      "earthResistPer": 6,
+      "fireResistPer": 6
+    }
+  },
+  {
+    "level": 1,
+    "name": "Le Plussain",
+    "panoply": "Panoplie du Boune",
+    "category": "Anneau",
+    "stats": {
+      "strength": 6,
+      "agility": 6
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Bhli",
+    "panoply": "Panoplie du Prince des voleurs",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Bague Houx",
+    "panoply": "Panoplie de Gouttière",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Bague Héra",
+    "panoply": "Panoplie de l'Innombrable",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Bague Harre",
+    "panoply": "Panoplie Téméraire",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Tassion",
+    "panoply": "Panoplie Indestructible",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Stalgik",
+    "panoply": "Panoplie Vénérable",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Zamour",
+    "panoply": "Panoplie Altruiste",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Raille",
+    "panoply": "Panoplie Ethylique",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Hell",
+    "panoply": "Panoplie Criminelle",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Tilus",
+    "panoply": "Panoplie Intemporelle",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Pwal",
+    "panoply": "Panoplie Sauvage",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Pitale",
+    "panoply": "Panoplie Exsangue",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 158,
+    "name": "Sceau Souverain du Roissingue",
+    "panoply": "Panoplie Souveraine",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 35,
+      "range": 0,
+      "damage": 7,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "earthResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 60,
+    "name": "Alliance de Corail",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "strength": 20,
+      "chance": 20,
+      "wisdom": 10,
+      "waterResistPer": 3,
+      "criticalDamage": 3
+    }
+  },
+  {
+    "level": 115,
+    "name": "Anneau Skargo",
+    "panoply": "Panoplie Baveuse",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "chance": 35,
+      "criticalChance": 3,
+      "damage": 6,
+      "prospecting": 10,
+      "waterResistPer": 7,
+      "waterResist": 7
+    }
+  },
+  {
+    "level": 46,
+    "name": "Palmano",
+    "category": "Anneau",
+    "stats": {
+      "agility": 20,
+      "summon": 0,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 199,
+    "name": "Kralano",
+    "panoply": "Panoplie Ventouse",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 0,
+      "damage": 6,
+      "heal": 10,
+      "prospecting": 10,
+      "neutralResistPer": 10,
+      "neutralResist": 10
+    }
+  },
+  {
+    "level": 66,
+    "name": "Anneau Poli",
+    "panoply": "Panoplie des Herboricoles",
+    "category": "Anneau",
+    "stats": {
+      "health": 60,
+      "strength": 15,
+      "intelligence": 15,
+      "chance": 15,
+      "agility": 15,
+      "power": 15,
+      "range": 0,
+      "damage": 5,
+      "initiative": 200,
+      "neutralResistPer": 0,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 31,
+    "name": "Anneau Solo",
+    "category": "Anneau",
+    "stats": {
+      "strength": 10,
+      "agility": 10,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 189,
+    "name": "Annolamour",
+    "panoply": "Panoplie Ventouse",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 50,
+      "power": 20,
+      "damage": 10,
+      "prospecting": 15,
+      "initiative": 700,
+      "fireResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 1,
+    "name": "Annobusé de Maître Jarbo",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "wisdom": 0,
+      "AP": 0,
+      "MP": 0,
+      "summon": 0,
+      "damage": 0
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopanneau Griotte",
+    "panoply": "Panoplie Blop Griotte",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 20,
+      "range": 0
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopanneau Reinette",
+    "panoply": "Panoplie Blop Reinette",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "range": 0
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopanneau Coco",
+    "panoply": "Panoplie Blop Coco",
+    "category": "Anneau",
+    "stats": {
+      "agility": 20,
+      "range": 0
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopanneau Indigo",
+    "panoply": "Panoplie Blop Indigo",
+    "category": "Anneau",
+    "stats": {
+      "chance": 20,
+      "range": 0
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopanneau Griotte Royal",
+    "panoply": "Panoplie Blop Griotte Royale",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "intelligence": 30,
+      "wisdom": 15,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopanneau Reinette Royal",
+    "panoply": "Panoplie Blop Reinette Royale",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "strength": 30,
+      "wisdom": 15,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopanneau Coco Royal",
+    "panoply": "Panoplie Blop Coco Royale",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "agility": 30,
+      "wisdom": 15,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopanneau Indigo Royal",
+    "panoply": "Panoplie Blop Indigo Royale",
+    "category": "Anneau",
+    "stats": {
+      "health": 35,
+      "chance": 30,
+      "wisdom": 15,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 188,
+    "name": "Anneau Colerette",
+    "panoply": "Panoplignon",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 0,
+      "damage": 7,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "waterResist": 10,
+      "trapDamage": 20
+    }
+  },
+  {
+    "level": 180,
+    "name": "Anneau Chevelu",
+    "panoply": "Panoplycélium",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "damage": 5,
+      "prospecting": 20,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "earthResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 186,
+    "name": "Alliance Boletée",
+    "panoply": "Panoplie Tue-Mouche",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 40,
+      "summon": 0,
+      "damage": 5,
+      "heal": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "neutralResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 90,
+    "name": "Blopanneau Multicolore Royal",
+    "panoply": "Panoplie Blop Multicolore Royale",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "wisdom": 25,
+      "power": 25,
+      "summon": 0,
+      "heal": 5,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 179,
+    "name": "Bracelet Ventré",
+    "panoply": "Panoplie du Bworker Berserker",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResistPer": 10,
+      "fireResist": 10
+    }
+  },
+  {
+    "level": 174,
+    "name": "Anneau Bliteré",
+    "panoply": "Panoplie du Bworker Gladiateur",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "earthResistPer": 10,
+      "earthResist": 10
+    }
+  },
+  {
+    "level": 45,
+    "name": "Anneau Paupayahn",
+    "panoply": "Panoplie Paupayahn",
+    "category": "Anneau",
+    "stats": {
+      "health": 10,
+      "strength": 15,
+      "wisdom": 10,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 1,
+    "name": "Le sceau des Zewouan",
+    "category": "Anneau",
+    "stats": {}
+  },
+  {
+    "level": 40,
+    "name": "Jambanneau",
+    "panoply": "Panoplie de Peggy la Porkass",
+    "category": "Anneau",
+    "stats": {
+      "power": 10,
+      "damage": 5
+    }
+  },
+  {
+    "level": 20,
+    "name": "Anneau Zest",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 10,
+      "chance": 10
+    }
+  },
+  {
+    "level": 37,
+    "name": "Bague Cristalline",
+    "panoply": "Panoplie Cristalline",
+    "category": "Anneau",
+    "stats": {
+      "chance": 15,
+      "wisdom": 15,
+      "apResist": 2
+    }
+  },
+  {
+    "level": 30,
+    "name": "Pompanneau",
+    "panoply": "Pompanoplie",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 15,
+      "wisdom": 15,
+      "fireDamage": 2
+    }
+  },
+  {
+    "level": 40,
+    "name": "Grosse Bagouze du Parrain",
+    "panoply": "Panoplie du Parrain",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "agility": 15,
+      "wisdom": 10,
+      "damage": 0
+    }
+  },
+  {
+    "level": 43,
+    "name": "Anneau de Slait",
+    "panoply": "Panoplie de Slait",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "agility": 15,
+      "wisdom": 20,
+      "heal": 2,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bague du hibou",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 45,
+    "name": "Bracelet du Tétounik",
+    "panoply": "Panoplie du Tétounik",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "range": 0,
+      "heal": 3
+    }
+  },
+  {
+    "level": 44,
+    "name": "Fulgu au poing",
+    "panoply": "Golpanoplie",
+    "category": "Anneau",
+    "stats": {
+      "chance": 25,
+      "criticalChance": 2,
+      "damage": 3,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 36,
+    "name": "Anneau de la mort",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "strength": 25,
+      "damage": 2
+    }
+  },
+  {
+    "level": 42,
+    "name": "Anneau du Vampyre",
+    "panoply": "Panoplie du Vampyre maudit",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "power": 20,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 44,
+    "name": "Mitaines de Chisp",
+    "panoply": "Chispanoplie",
+    "category": "Anneau",
+    "stats": {
+      "agility": 30,
+      "damage": 3,
+      "dodge": 2
+    }
+  },
+  {
+    "level": 41,
+    "name": "Anneau solaire",
+    "category": "Anneau",
+    "stats": {
+      "chance": 10,
+      "wisdom": 0,
+      "range": 0
+    }
+  },
+  {
+    "level": 37,
+    "name": "Oxano",
+    "panoply": "Panoplie de la Denrée",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "criticalChance": 2,
+      "summon": 0,
+      "heal": 2
+    }
+  },
+  {
+    "level": 43,
+    "name": "Gantelet du Real Boitar",
+    "panoply": "Panoplie du Real Boitar",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "chance": 15,
+      "range": 0,
+      "fireResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 43,
+    "name": "Gantelet des Bouftons Rouges",
+    "panoply": "Panoplie des Bouftons Rouges",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 15,
+      "agility": 15,
+      "range": 0,
+      "earthResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 41,
+    "name": "Anneau de Kocksis",
+    "panoply": "Panoplie de Kocksis",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "wisdom": 10,
+      "summon": 0
+    }
+  },
+  {
+    "level": 44,
+    "name": "Anneau de Gobeuf",
+    "panoply": "Panoplie de Gobeuf",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "agility": 25,
+      "wisdom": 10,
+      "pushbackDamage": 6
+    }
+  },
+  {
+    "level": 42,
+    "name": "Anneau de Laikteur",
+    "panoply": "Panoplie de Laikteur",
+    "category": "Anneau",
+    "stats": {
+      "chance": 25,
+      "wisdom": 10,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Anneau de Grizou",
+    "panoply": "Panoplie de Grizou",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "chance": 25,
+      "criticalChance": 2,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 51,
+    "name": "Anneau du Roks Or",
+    "panoply": "Panoplie du Roks Or",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "power": 15,
+      "heal": 2
+    }
+  },
+  {
+    "level": 1,
+    "name": "Anneau de l'intrépide",
+    "panoply": "Panoplie de l'intrépide",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "initiative": 0,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 54,
+    "name": "Anneau de Klüme",
+    "panoply": "Panoplie de Klüme",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "wisdom": 20,
+      "damage": 2,
+      "earthDamage": 3,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 51,
+    "name": "Anneau de Kloug",
+    "panoply": "Panoplie de Kloug",
+    "category": "Anneau",
+    "stats": {
+      "chance": 20,
+      "wisdom": 15,
+      "power": 10,
+      "criticalChance": 3,
+      "dodge": 4,
+      "mpReduction": 2
+    }
+  },
+  {
+    "level": 33,
+    "name": "Anneau du Corbeau Noir",
+    "panoply": "Panoplie du Corbeau Noir",
+    "category": "Anneau",
+    "stats": {
+      "agility": 20,
+      "wisdom": 10,
+      "airDamage": 3
+    }
+  },
+  {
+    "level": 33,
+    "name": "Anneau de Phong Huss",
+    "panoply": "Panoplie de Phong Huss",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "wisdom": 10,
+      "earthDamage": 3
+    }
+  },
+  {
+    "level": 32,
+    "name": "Anneau d'Hectaupe",
+    "panoply": "Panoplie d'Hectaupe",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "agility": 10,
+      "summon": 0
+    }
+  },
+  {
+    "level": 43,
+    "name": "Anneau Pomdeupin",
+    "panoply": "Panoplie Pomdeupin",
+    "category": "Anneau",
+    "stats": {
+      "strength": 20,
+      "criticalChance": 3,
+      "earthDamage": 5
+    }
+  },
+  {
+    "level": 31,
+    "name": "Bague de Boufbowl",
+    "panoply": "Panoplie de Boufbowl",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "undefined": 150,
+      "lock": 3,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 49,
+    "name": "Anneau de Gadjète",
+    "panoply": "Panoplie de Gadjète",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "criticalChance": 3,
+      "undefined": 150
+    }
+  },
+  {
+    "level": 56,
+    "name": "Anneau d'Ougicle",
+    "panoply": "Panoplie d'Ougicle",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "agility": 25,
+      "wisdom": 10,
+      "airDamage": 3,
+      "initiative": 150,
+      "lock": 3
+    }
+  },
+  {
+    "level": 48,
+    "name": "Anneau de Karotz",
+    "panoply": "Panoplie de Karotz",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "chance": 20,
+      "wisdom": 15,
+      "waterDamage": 3,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 46,
+    "name": "Anneau de Grouillot",
+    "panoply": "Panoplie de Grouillot",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "intelligence": 20,
+      "fireDamage": 4,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anneau de Piggy Paupe",
+    "panoply": "Panoplie de Piggy Paupe",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "chance": 15,
+      "wisdom": 10,
+      "range": 0,
+      "lock": 3
+    }
+  },
+  {
+    "level": 58,
+    "name": "Anoppinz",
+    "panoply": "Panoppinz",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "intelligence": 20,
+      "chance": 15,
+      "damage": 3,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anauffe-souris",
+    "panoply": "Panoplie Chauffe-souris",
+    "category": "Anneau",
+    "stats": {
+      "chance": 25,
+      "agility": 15,
+      "wisdom": 15,
+      "damage": 4
+    }
+  },
+  {
+    "level": 61,
+    "name": "Anokio",
+    "panoply": "Panoplinokio",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "agility": 25,
+      "wisdom": 10,
+      "power": 10,
+      "summon": 0
+    }
+  },
+  {
+    "level": 195,
+    "name": "Frimanneau",
+    "panoply": "Frimanoplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "damage": 12,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 10,
+      "neutralResist": 10,
+      "fireResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 196,
+    "name": "Grésilanneau",
+    "panoply": "Panoplie Grésil",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 40,
+      "power": 40,
+      "range": 0,
+      "damage": 10,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "fireResist": 10
+    }
+  },
+  {
+    "level": 140,
+    "name": "Anneau du Mansot Royal",
+    "panoply": "Panoplie du Mansot Royal",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "strength": 30,
+      "wisdom": 30,
+      "power": 20,
+      "criticalChance": 3,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "neutralResist": 7,
+      "fireResist": 7,
+      "airResist": 7,
+      "lock": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 155,
+    "name": "Crochet de Ben le Ripate",
+    "panoply": "Panoplie de Ben le Ripate",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 0,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "prospecting": 10,
+      "neutralResist": 10,
+      "fireResist": 10,
+      "lock": 5,
+      "dodge": -5,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 161,
+    "name": "Bague de l'Obsidiantre",
+    "panoply": "Panoplie de l'Obsidiantre",
+    "category": "Anneau",
+    "stats": {
+      "health": 170,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "heal": 7,
+      "dodge": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 148,
+    "name": "Anneau Frage",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "summon": 0,
+      "heal": 10,
+      "initiative": 300,
+      "neutralResist": 7,
+      "earthResist": 7,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 141,
+    "name": "Anneau Made",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "agility": 40,
+      "wisdom": 30,
+      "airDamage": 7,
+      "heal": 7,
+      "prospecting": 10,
+      "initiative": 200,
+      "neutralResist": 7,
+      "pushbackDamage": 7
+    }
+  },
+  {
+    "level": 146,
+    "name": "Anneau Nobstant",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "wisdom": 40,
+      "power": 50,
+      "criticalChance": 4,
+      "prospecting": 15,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 166,
+    "name": "Anneau Tabéné",
+    "panoply": "Panoplie Abrégée",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "range": 0,
+      "neutralDamage": 9,
+      "earthDamage": 9,
+      "waterDamage": 9,
+      "airResistPer": 7,
+      "neutralResist": 10,
+      "waterResist": 10,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 176,
+    "name": "Anneau du Korriandre",
+    "panoply": "Panoplie du Korriandre",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "fireResist": 10,
+      "airResist": 10,
+      "apReduction": 4,
+      "criticalResist": 6
+    }
+  },
+  {
+    "level": 190,
+    "name": "Anneau de Kolosso",
+    "panoply": "Panoplie de Kolosso",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "power": 30,
+      "criticalChance": 4,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "prospecting": 10,
+      "initiative": 200,
+      "neutralResist": 12,
+      "lock": 6,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 167,
+    "name": "Alliance Hestrale",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 35,
+      "agility": 25,
+      "wisdom": 35,
+      "power": 15,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "heal": 5,
+      "initiative": 300,
+      "earthResist": 7,
+      "waterResist": 7,
+      "mpReduction": -10,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 187,
+    "name": "Alliance Sorcelée",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "intelligence": 40,
+      "wisdom": 25,
+      "range": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 8,
+      "prospecting": 10,
+      "dodge": -5,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 197,
+    "name": "Bracelet Ming",
+    "category": "Anneau",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "range": 0,
+      "initiative": 400,
+      "lock": 8,
+      "dodge": 8
+    }
+  },
+  {
+    "level": 194,
+    "name": "Anneau Aimgéroks",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 40,
+      "power": 40,
+      "criticalChance": 3,
+      "AP": 0,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "waterDamage": 7,
+      "airDamage": 7
+    }
+  },
+  {
+    "level": 43,
+    "name": "Alliance du Kanniboul Ebil",
+    "panoply": "Panoplie du Kanniboul Ebil",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "fireDamage": 6,
+      "dodge": 3,
+      "apReduction": 6
+    }
+  },
+  {
+    "level": 44,
+    "name": "Anneau du Boostache",
+    "panoply": "Panoplie du Boostache",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "waterDamage": 6,
+      "lock": 3,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 52,
+    "name": "Kwakwanneau",
+    "panoply": "Panoplie du Kwakwa",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "mpReduction": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 52,
+    "name": "Kwakwalliance",
+    "panoply": "Panoplie du Kwakwa",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "apReduction": 5,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 56,
+    "name": "Anneau de Mirh",
+    "panoply": "Panoplie de Mirh",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "chance": 15,
+      "agility": 25,
+      "airDamage": 4,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 50,
+    "name": "Anneau de Logram",
+    "panoply": "Panoplie de Logram",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 15,
+      "criticalChance": 3,
+      "heal": 3,
+      "apResist": 3,
+      "criticalResist": 4
+    }
+  },
+  {
+    "level": 53,
+    "name": "Alliance d'Hichète",
+    "panoply": "Panoplie d'Hichète",
+    "category": "Anneau",
+    "stats": {
+      "agility": 25,
+      "wisdom": 10,
+      "criticalChance": 3,
+      "airDamage": 4,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 46,
+    "name": "Anneau d'Haku",
+    "panoply": "Panoplie d'Haku",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 20,
+      "fireDamage": 4,
+      "initiative": 100,
+      "apResist": 2,
+      "criticalResist": 4
+    }
+  },
+  {
+    "level": 127,
+    "name": "Anneau Moutheur",
+    "panoply": "Panoplie Moutheuze",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "agility": 40,
+      "wisdom": 20,
+      "airDamage": 10,
+      "prospecting": 20,
+      "waterResist": 15,
+      "apReduction": 5,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 121,
+    "name": "Bague Moutheuze",
+    "panoply": "Panoplie Moutheuze",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "waterDamage": 10,
+      "airResist": 15,
+      "mpReduction": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 144,
+    "name": "Anneau de Frigostine",
+    "panoply": "Panoplie de Frigostine",
+    "category": "Anneau",
+    "stats": {
+      "health": 140,
+      "strength": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "range": 0,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "airDamage": 10,
+      "prospecting": 10,
+      "waterResistPer": 5,
+      "neutralResist": 10,
+      "dodge": 6,
+      "lock": -6
+    }
+  },
+  {
+    "level": 153,
+    "name": "Anneau de Cantile",
+    "panoply": "Panoplie de Cantile",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "agility": 30,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "airDamage": 7,
+      "prospecting": 10,
+      "initiative": 200,
+      "lock": 3,
+      "criticalResist": 12
+    }
+  },
+  {
+    "level": 168,
+    "name": "Anneau des Prophètes",
+    "panoply": "Panoplie des Prophètes",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 35,
+      "chance": 35,
+      "wisdom": 35,
+      "range": 0,
+      "summon": 0,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "neutralResist": 10,
+      "dodge": 4,
+      "mpReduction": 4
+    }
+  },
+  {
+    "level": 175,
+    "name": "Anneau de Guten Tak",
+    "panoply": "Panoplie de Guten Tak",
+    "category": "Anneau",
+    "stats": {
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "summon": 2,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 10,
+      "initiative": 400,
+      "apReduction": 10,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 173,
+    "name": "Alliance de Guten Tak",
+    "panoply": "Panoplie de Guten Tak",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "range": 0,
+      "prospecting": 10,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "fireResist": 20,
+      "airResist": 20,
+      "dodge": 10,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 183,
+    "name": "Bague de Boréale",
+    "panoply": "Panoplie de Boréale",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "wisdom": 40,
+      "summon": 0,
+      "waterDamage": 20,
+      "fireResist": 25,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 191,
+    "name": "Anneau du Professeur Xa",
+    "panoply": "Panoplie du Professeur Xa",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "wisdom": 40,
+      "MP": 0,
+      "range": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 10,
+      "airResist": 15,
+      "dodge": 5,
+      "apReduction": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 198,
+    "name": "Alliance Gloursonne",
+    "panoply": "Panoplie Gloursonne",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "range": 0,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 10,
+      "initiative": 400,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "lock": 5
+    }
+  },
+  {
+    "level": 197,
+    "name": "Bague Gloursonne",
+    "panoply": "Panoplie Gloursonne",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "heal": 8,
+      "prospecting": 10,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 5
+    }
+  },
+  {
+    "level": 192,
+    "name": "Anneau de la Fuji Givrefoux",
+    "panoply": "Panoplie de la Fuji Givrefoux",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 35,
+      "power": 40,
+      "criticalChance": 2,
+      "summon": 2,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "initiative": 300,
+      "earthResist": 10,
+      "fireResist": 10,
+      "airResist": 10,
+      "lock": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 97,
+    "name": "Gantelet du Gorgouille",
+    "panoply": "Panoplie du Gorgouille",
+    "category": "Anneau",
+    "stats": {
+      "health": 60,
+      "wisdom": 15,
+      "power": 25,
+      "summon": 0,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "lock": 3,
+      "mpReduction": 3,
+      "pushbackDamage": 3
+    }
+  },
+  {
+    "level": 54,
+    "name": "Bracilozité",
+    "panoply": "Panoplilozité",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 15,
+      "earthDamage": 4,
+      "waterDamage": 4,
+      "pushbackDamage": 4
+    }
+  },
+  {
+    "level": 150,
+    "name": "Mitaine Aibre",
+    "panoply": "Panoplie Explosive",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Bracelet Jande",
+    "panoply": "Panoplie Lunatique",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 54,
+    "name": "Anneau du Vulkain",
+    "panoply": "Panoplie du Vulkain",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 10,
+      "criticalChance": 3,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 58,
+    "name": "Bracelet du Vulkain",
+    "panoply": "Panoplie du Vulkain",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "fireDamage": 5,
+      "heal": 15,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 10,
+    "name": "Anneau Tétriste",
+    "panoply": "Panoplie Tétriste",
+    "category": "Anneau",
+    "stats": {
+      "summon": 0,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 59,
+    "name": "Boracelet",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "agility": 20,
+      "wisdom": 10,
+      "airDamage": 3,
+      "initiative": 150,
+      "lock": 2
+    }
+  },
+  {
+    "level": 10,
+    "name": "Anneau de l'Envahisseur",
+    "panoply": "Panoplie de l'Envahisseur",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 10,
+      "heal": 3
+    }
+  },
+  {
+    "level": 39,
+    "name": "Cosmobracelet",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 10,
+      "damage": 3,
+      "fireDamage": 4,
+      "criticalResist": 4
+    }
+  },
+  {
+    "level": 5,
+    "name": "Sac à Main",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 25,
+    "name": "Bracelet du Glutin",
+    "panoply": "Panoplie du Glutin",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "chance": 10,
+      "agility": 10,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 197,
+    "name": "Bracelet du Minotoboule",
+    "category": "Anneau",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "range": 0,
+      "initiative": 400,
+      "lock": 8,
+      "dodge": 8
+    }
+  },
+  {
+    "level": 198,
+    "name": "Anneau de Brouce",
+    "panoply": "Panoplie de Brouce Boulgoure",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "wisdom": 30,
+      "range": 0,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireResistPer": 10,
+      "dodge": 5,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 197,
+    "name": "Anneau d'Allister",
+    "panoply": "Panoplie d'Allister",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "agility": 75,
+      "wisdom": 45,
+      "criticalChance": 5,
+      "summon": 0,
+      "airDamage": 15,
+      "prospecting": 15,
+      "apResist": 6,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 150,
+    "name": "Steamanneau Maître",
+    "panoply": "Panoplie Submersible",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bague Rafe",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "lock": 3,
+      "pushbackDamage": 4
+    }
+  },
+  {
+    "level": 48,
+    "name": "Bracelet Gume",
+    "panoply": "Panoplie Mijotée",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 20,
+      "summon": 0,
+      "airDamage": 3
+    }
+  },
+  {
+    "level": 54,
+    "name": "Annokami",
+    "panoply": "Panokami",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "intelligence": 20,
+      "summon": 0,
+      "fireDamage": 4,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 57,
+    "name": "Diplanneau",
+    "panoply": "Diplanoplie",
+    "category": "Anneau",
+    "stats": {
+      "wisdom": 15,
+      "criticalChance": 3,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "waterDamage": 5
+    }
+  },
+  {
+    "level": 196,
+    "name": "Anneau d'Henual",
+    "panoply": "Panoplie d'Henual",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 40,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "neutralResist": 12,
+      "earthResist": 12,
+      "fireResist": 12,
+      "dodge": 8,
+      "mpReduction": -6,
+      "criticalResist": -10
+    }
+  },
+  {
+    "level": 197,
+    "name": "Anneau de Padgref",
+    "panoply": "Panoplie de Padgref Demoël",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "range": 0,
+      "summon": 0,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 8,
+      "earthResist": 10,
+      "airResist": 10,
+      "lock": -6,
+      "mpResist": -4,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 55,
+    "name": "Glaglano",
+    "panoply": "Glaglanoplie",
+    "category": "Anneau",
+    "stats": {
+      "agility": 25,
+      "wisdom": 10,
+      "criticalChance": 4,
+      "airDamage": 5
+    }
+  },
+  {
+    "level": 198,
+    "name": "Anneau Tamie",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "intelligence": 75,
+      "wisdom": 40,
+      "range": 0,
+      "fireDamage": 15,
+      "lock": 15,
+      "mpReduction": 8
+    }
+  },
+  {
+    "level": 150,
+    "name": "Infernano",
+    "panoply": "Panoplie Infernale",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "fireDamage": 10,
+      "initiative": 350,
+      "fireResistPer": 10,
+      "waterResistPer": -10,
+      "fireResist": 15
+    }
+  },
+  {
+    "level": 150,
+    "name": "Styxano",
+    "panoply": "Panoplie Fluviale",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "waterDamage": 10,
+      "initiative": 350,
+      "waterResistPer": 10,
+      "fireResistPer": -10,
+      "waterResist": 15
+    }
+  },
+  {
+    "level": 150,
+    "name": "Mandrano",
+    "panoply": "Panoplie Contrebandière",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "earthDamage": 10,
+      "initiative": 350,
+      "earthResistPer": 10,
+      "airResistPer": -10,
+      "earthResist": 15
+    }
+  },
+  {
+    "level": 150,
+    "name": "Willkillsano",
+    "panoply": "Panoplie Meurtrière",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "airDamage": 10,
+      "initiative": 350,
+      "airResistPer": 10,
+      "earthResistPer": -10,
+      "airResist": 15
+    }
+  },
+  {
+    "level": 196,
+    "name": "Bague Nostik",
+    "panoply": "Panoplie Superstitieuse",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 0,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 199,
+    "name": "Anneau Vicieux",
+    "panoply": "Panoplie Vicieuse",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 20,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "range": 0,
+      "airDamage": 10,
+      "initiative": 400,
+      "earthResist": 15,
+      "mpReduction": 6,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 197,
+    "name": "Anneau Glacial",
+    "panoply": "Panoplie Glaciale",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "dodge": 8,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 198,
+    "name": "Alliance de Missiz Frizz",
+    "panoply": "Panoplie de Missiz Frizz",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "heal": 10,
+      "earthResist": 10,
+      "dodge": -10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 199,
+    "name": "Bague Instable",
+    "panoply": "Panoplie Instable",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "wisdom": 50,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "airDamage": 5,
+      "lock": 15,
+      "apResist": 12,
+      "pushbackDamage": 40
+    }
+  },
+  {
+    "level": 199,
+    "name": "Anneau Instable",
+    "panoply": "Panoplie Instable",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "wisdom": 50,
+      "neutralResist": 5,
+      "earthResist": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5,
+      "dodge": 15,
+      "mpResist": 12,
+      "pushbackResist": 40
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau du Comte Harebourg",
+    "panoply": "Panoplie du Comte Harebourg",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "wisdom": 50,
+      "criticalChance": 7,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "initiative": -500,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Cryochrone",
+    "panoply": "Panoplie Cryochrone",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "range": 0,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau du Cycloïde",
+    "panoply": "Panoplie du Cycloïde",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "agility": 40,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "initiative": 300,
+      "waterResistPer": 8,
+      "lock": 6
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anneau Stroplante",
+    "panoply": "Panoplie Stroplante",
+    "category": "Anneau",
+    "stats": {
+      "strength": 15,
+      "agility": 20,
+      "range": 0,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 60,
+    "name": "Justanneau",
+    "category": "Anneau",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "criticalChance": 3,
+      "airDamage": 4,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 84,
+    "name": "Bracelet du Blanc Pa Wabbit",
+    "panoply": "Panoplie du Blanc Pa Wabbit",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "summon": 0,
+      "waterDamage": 5,
+      "heal": 7,
+      "initiative": 100,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 122,
+    "name": "Anneau du Wabbit Céphale",
+    "panoply": "Panoplie du Wabbit Céphale",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "chance": 30,
+      "agility": 30,
+      "range": 0,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "heal": 10,
+      "mpReduction": 6,
+      "apResist": -6
+    }
+  },
+  {
+    "level": 104,
+    "name": "Bracelet Tmotiv",
+    "panoply": "Panoplie Dramatik",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "power": 30,
+      "criticalChance": 4,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "airDamage": 6
+    }
+  },
+  {
+    "level": 10,
+    "name": "Anomen Tengu",
+    "category": "Anneau",
+    "stats": {
+      "agility": 10,
+      "airDamage": 2
+    }
+  },
+  {
+    "level": 10,
+    "name": "Geishanneau",
+    "category": "Anneau",
+    "stats": {
+      "health": 10,
+      "power": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Kouinkano Noir",
+    "category": "Anneau",
+    "stats": {
+      "health": 10,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 10,
+    "name": "Kouinkano Jaune",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "fireDamage": 3
+    }
+  },
+  {
+    "level": 136,
+    "name": "Nageanneau",
+    "panoply": "Panoplie Engloutie",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 40,
+      "power": 15,
+      "range": 0,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "earthResistPer": 7,
+      "earthResist": 7,
+      "fireResist": 7,
+      "lock": -5
+    }
+  },
+  {
+    "level": 10,
+    "name": "Annolita",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "criticalChance": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Tique",
+    "panoply": "Panoplie des Abysses",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "range": 0,
+      "fireDamage": 10,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "prospecting": 25,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "lock": 5,
+      "criticalResist": -30,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 195,
+    "name": "Pikano",
+    "panoply": "Pikoplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 25,
+      "power": 15,
+      "criticalChance": 5,
+      "summon": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": -5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 196,
+    "name": "Anneau Kturne",
+    "panoply": "Panoplie d'Ombre",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 30,
+      "criticalChance": 0,
+      "range": 0,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "airResistPer": 7,
+      "lock": 5
+    }
+  },
+  {
+    "level": 199,
+    "name": "Anneau du Père Fwetar",
+    "panoply": "Panoplie du Père Fwetar",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 30,
+      "power": 40,
+      "criticalChance": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "dodge": -6,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 162,
+    "name": "Anneau du Kaniblou",
+    "panoply": "Panoplie du Kaniblou",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 0,
+      "summon": 0,
+      "waterDamage": 10,
+      "airResistPer": 5,
+      "dodge": 7,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau de Nidas",
+    "panoply": "Panoplie de Nidas",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "intelligence": 40,
+      "wisdom": 50,
+      "summon": 0,
+      "fireDamage": 12,
+      "heal": 10,
+      "earthResistPer": 10,
+      "dodge": 10,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bracelet du Piloztère",
+    "panoply": "Panoplie du Piloztère",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "power": 50,
+      "criticalChance": 4,
+      "range": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "neutralResistPer": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Alliance du Lévitrof",
+    "panoply": "Panoplie du Lévitrof",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 40,
+      "summon": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "initiative": 300,
+      "fireResistPer": 6
+    }
+  },
+  {
+    "level": 130,
+    "name": "Anneau Truche",
+    "panoply": "Panoplie Truche",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "intelligence": 30,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "fireDamage": 10,
+      "prospecting": 15,
+      "fireResist": 12,
+      "airResist": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau du Katcheur",
+    "panoply": "Panoplie du Katcheur",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 400
+    }
+  },
+  {
+    "level": 132,
+    "name": "Gant du Capitaine Ekarlatte",
+    "panoply": "Panoplie du Capitaine Ekarlatte",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "agility": 30,
+      "wisdom": 30,
+      "power": 15,
+      "criticalChance": 3,
+      "summon": 0,
+      "criticalDamage": 15,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 32,
+    "name": "Gant de Frakacia",
+    "panoply": "Panoplie de Frakacia Leukocytine",
+    "category": "Anneau",
+    "stats": {
+      "health": 20,
+      "chance": 20,
+      "waterDamage": 0,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau de Pol Ouatnos",
+    "panoply": "Panoplie de Pol Ouatnos",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 0,
+      "range": 0,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau des égarés",
+    "panoply": "Panoplie des égarés",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "power": 15,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "fireResistPer": 10,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 171,
+    "name": "Anneau de XLII",
+    "panoply": "Panoplie de XLII",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "earthDamage": 6,
+      "airDamage": 6,
+      "neutralResistPer": 7,
+      "lock": 7,
+      "criticalResist": 12
+    }
+  },
+  {
+    "level": 120,
+    "name": "Anneau de Fraktale",
+    "panoply": "Panoplie de Fraktale",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "neutralDamage": 4,
+      "earthDamage": 4,
+      "fireDamage": 4,
+      "lock": 4,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 117,
+    "name": "Anneau Xélomorphe",
+    "panoply": "Panoplie Xélomorphe",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "intelligence": 40,
+      "chance": 30,
+      "wisdom": 25,
+      "summon": 0,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "heal": 7,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 36,
+    "name": "Anneau Bille",
+    "panoply": "Microplie",
+    "category": "Anneau",
+    "stats": {
+      "agility": 25,
+      "wisdom": 10,
+      "power": 10
+    }
+  },
+  {
+    "level": 59,
+    "name": "Alliance Apaisante",
+    "panoply": "Panoplie Palliative",
+    "category": "Anneau",
+    "stats": {
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "fireDamage": 3,
+      "waterDamage": 3
+    }
+  },
+  {
+    "level": 129,
+    "name": "Anneau Tranchant",
+    "panoply": "Panoplie de la Voleuse",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "wisdom": 25,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "initiative": 200,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bracelet des Fonds marins",
+    "panoply": "Panoplie des Fonds marins",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 0,
+      "waterDamage": 12,
+      "fireResistPer": 10,
+      "lock": 10,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Vae",
+    "panoply": "Panoplie Transcendante",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 93,
+    "name": "Anneau Tissé",
+    "panoply": "Panoplie de la Tisseuse",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "chance": 40,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 90,
+    "name": "Alliance des Forestiers",
+    "category": "Anneau",
+    "stats": {
+      "health": 80,
+      "intelligence": 40,
+      "wisdom": 15,
+      "range": 0,
+      "fireDamage": 5,
+      "dodge": 5,
+      "lock": 0,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "Printanneau",
+    "panoply": "Printanoplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 15,
+      "strength": 15,
+      "wisdom": 15,
+      "power": 15,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 12,
+    "name": "Bracelet de Kardorim",
+    "panoply": "Panoplie de Kardorim",
+    "category": "Anneau",
+    "stats": {
+      "chance": 15,
+      "waterDamage": 0
+    }
+  },
+  {
+    "level": 8,
+    "name": "Sac à Main Renforcé",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 100
+    }
+  },
+  {
+    "level": 94,
+    "name": "Alliance du Capitaine Pirate",
+    "panoply": "Panoplie du Capitaine Pirate",
+    "category": "Anneau",
+    "stats": {
+      "health": 90,
+      "chance": 35,
+      "agility": 25,
+      "wisdom": 20,
+      "waterDamage": 4,
+      "airDamage": 3,
+      "dodge": 3,
+      "mpResist": 3,
+      "pushbackDamage": 3
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Riginel",
+    "panoply": "Panoplie Quadramentale",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 59,
+    "name": "Anneau Welle",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "fireDamage": 3,
+      "heal": 2
+    }
+  },
+  {
+    "level": 200,
+    "name": "Chevalière du Roi Joueur",
+    "panoply": "Panoplie du Roi Joueur",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "prospecting": 10,
+      "fireResistPer": 10,
+      "dodge": 0,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Gant du Valet Veinard",
+    "panoply": "Panoplie du Valet Veinard",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "agility": 60,
+      "wisdom": 40,
+      "range": 0,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "mpResist": 6,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 161,
+    "name": "Anneau des Matougarous",
+    "panoply": "Panoplie des Matougarous",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 25,
+      "summon": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "mpReduction": 4,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 114,
+    "name": "Bague des Ecaflipuces",
+    "panoply": "Panoplie des Ecaflipuces",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "intelligence": 30,
+      "agility": 30,
+      "wisdom": 25,
+      "fireDamage": 6,
+      "airDamage": 6,
+      "earthResistPer": 6,
+      "lock": 3
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Crustique",
+    "panoply": "Panoplie des Tréfonds",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "strength": 80,
+      "wisdom": 40,
+      "criticalChance": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterResistPer": 7,
+      "lock": 10,
+      "apReduction": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bague Trithon",
+    "panoply": "Panoplie Trithon",
+    "category": "Anneau",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 10,
+      "apResist": 10,
+      "criticalDamage": 20,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Rifique",
+    "panoply": "Panoplie de R'lyugluglu",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "agility": 80,
+      "wisdom": 40,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "heal": 15,
+      "neutralResistPer": 10,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 80,
+    "name": "Anneau Ouroboulos",
+    "panoply": "Panoplie Ouroboulos",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "chance": 25,
+      "range": 0,
+      "damage": 3,
+      "initiative": 0,
+      "fireResistPer": 0,
+      "lock": 3
+    }
+  },
+  {
+    "level": 130,
+    "name": "Anneau d'El Piko",
+    "panoply": "Panoplie d'El Piko",
+    "category": "Anneau",
+    "stats": {
+      "health": 150,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "airDamage": 5,
+      "lock": 7,
+      "apResist": 7
+    }
+  },
+  {
+    "level": 169,
+    "name": "Veranneau",
+    "panoply": "Pernoplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "wisdom": 30,
+      "criticalChance": 0,
+      "summon": 0,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "dodge": 5,
+      "apResist": 5,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Baguistik",
+    "panoply": "Panoplistik",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 0,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "heal": 10,
+      "waterResistPer": 7,
+      "criticalResist": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneauræus",
+    "panoply": "Panoplie des Maudits",
+    "category": "Anneau",
+    "stats": {
+      "health": 400,
+      "intelligence": 70,
+      "wisdom": 40,
+      "criticalChance": 0,
+      "fireDamage": 12,
+      "heal": 12,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "apResist": 10,
+      "criticalResist": 0
+    }
+  },
+  {
+    "level": 150,
+    "name": "Anneau Nos",
+    "panoply": "Panoplie Enragée",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Goulano",
+    "panoply": "Panoplie de la Goule",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "waterDamage": 7,
+      "earthResistPer": 10,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 88,
+    "name": "Anneau Riktus",
+    "panoply": "Panoplie Riktus",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "intelligence": 40,
+      "wisdom": 15,
+      "fireDamage": 6,
+      "heal": 7,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 200,
+    "name": "Alliance Brûlâme",
+    "panoply": "Panoplie Brûlâme",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Lavanneau",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "range": 0,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 12,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Toriété",
+    "panoply": "Panoplie Noyée",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 40,
+      "power": 40,
+      "MP": 0,
+      "fireResistPer": 7,
+      "waterResistPer": 7
+    }
+  },
+  {
+    "level": 1,
+    "name": "Anneau de l'Audacieux",
+    "category": "Anneau",
+    "stats": {
+      "power": 4
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau en Grithril",
+    "panoply": "Grithriloplie",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "waterDamage": 8,
+      "waterResistPer": 10,
+      "lock": 7,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Volkorne",
+    "panoply": "Panoplie Volkorne",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 100,
+      "criticalChance": 5,
+      "waterDamage": 20,
+      "waterResistPer": 10
+    }
+  },
+  {
+    "level": 56,
+    "name": "Rondelle de Waddict",
+    "panoply": "Panoplie du Mawabouaino",
+    "category": "Anneau",
+    "stats": {
+      "health": 25,
+      "chance": 40,
+      "wisdom": 8,
+      "dodge": 8
+    }
+  },
+  {
+    "level": 200,
+    "name": "Crocanneau",
+    "panoply": "Panoplie de Crocuzko",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "wisdom": 25,
+      "power": 40,
+      "criticalChance": 5,
+      "AP": 0,
+      "criticalResist": 20,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Lunaire",
+    "panoply": "Panoplie Lunaire",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 30,
+      "power": 50,
+      "summon": 0,
+      "earthDamage": 15,
+      "prospecting": 15,
+      "initiative": 150,
+      "apReduction": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Convoitise de Misère",
+    "panoply": "Panoplie de Misère",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "airResistPer": 10,
+      "lock": 0,
+      "apResist": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceste de Guerre",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "fireDamage": 10,
+      "heal": 0,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bague de Corruption",
+    "panoply": "Panoplie de Corruption",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "wisdom": 20,
+      "criticalChance": 7,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterResistPer": 10,
+      "apResist": 0,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Alliance de Corruption",
+    "panoply": "Panoplie de Corruption",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "range": 0,
+      "summon": 0,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "mpReduction": 7
+    }
+  },
+  {
+    "level": 126,
+    "name": "Les Casse-noisettes",
+    "panoply": "Panoplie Tanuki",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "strength": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "prospecting": 8,
+      "waterResistPer": 4,
+      "earthResist": 10,
+      "dodge": 6,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 136,
+    "name": "Alliance des Firefoux",
+    "panoply": "Panoplie Firefoux",
+    "category": "Anneau",
+    "stats": {
+      "health": 120,
+      "intelligence": 50,
+      "wisdom": 20,
+      "summon": 0,
+      "fireDamage": 4,
+      "heal": 10,
+      "prospecting": 10,
+      "airResistPer": 3,
+      "fireResist": 8,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Sacrifice volontaire",
+    "category": "Anneau",
+    "stats": {
+      "health": 0,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 164,
+    "name": "Anneau de Koumiho",
+    "panoply": "Panoplie des Tombeaux",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "range": 0,
+      "fireDamage": 10,
+      "waterResistPer": 5,
+      "earthResist": 10,
+      "waterResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Menclatur",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "agility": 70,
+      "criticalChance": 4,
+      "airDamage": 10,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 0,
+      "mpResist": 8,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Rtograf",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "intelligence": 60,
+      "chance": 60,
+      "agility": 60,
+      "criticalChance": 3,
+      "range": 0,
+      "fireDamage": 9,
+      "waterDamage": 9,
+      "airDamage": 9,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "dodge": 6,
+      "mpResist": 0,
+      "criticalDamage": 9
+    }
+  },
+  {
+    "level": 200,
+    "name": "Anneau Possédé",
+    "panoply": "Panoplie Possédée",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "agility": 60,
+      "criticalChance": 2,
+      "range": 0,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "airDamage": 8,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "mpReduction": 8
+    }
+  },
+  {
+    "level": 200,
+    "name": "Alliance du Pandamonium",
+    "panoply": "Panoplie du Pandamonium",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "wisdom": 20,
+      "summon": 0,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "initiative": 300,
+      "earthResistPer": 7,
+      "dodge": 8,
+      "apResist": 10,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 110,
+    "name": "Anneau du rat brâkmarien",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "agility": 30,
+      "wisdom": 20,
+      "power": 10,
+      "criticalChance": 5,
+      "range": 0,
+      "airDamage": 5,
+      "initiative": 200,
+      "mpResist": 0
+    }
+  },
+  {
+    "level": 110,
+    "name": "Anneau du rat bontarien",
+    "category": "Anneau",
+    "stats": {
+      "health": 100,
+      "chance": 30,
+      "wisdom": 20,
+      "power": 10,
+      "range": 0,
+      "waterDamage": 5,
+      "initiative": 200,
+      "mpReduction": 5,
+      "criticalResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceste de Ravageur",
+    "panoply": "Panoplie des Ravageurs",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "agility": 60,
+      "criticalChance": 2,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "mpResist": 8,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Dernière Aube",
+    "panoply": "Reliques de l'Aurore Pourpre",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 25,
+      "intelligence": 25,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 20,
+      "earthDamage": 4,
+      "fireDamage": 4,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 0,
+      "airResistPer": 0,
+      "lock": 3,
+      "dodge": 0,
+      "apResist": 0,
+      "mpResist": 2,
+      "criticalResist": 12,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Mort du Centoror",
+    "panoply": "Reliques de l'Aurore Pourpre",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 25,
+      "agility": 25,
+      "wisdom": 20,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "waterDamage": 4,
+      "airDamage": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "dodge": 3,
+      "lock": 0,
+      "apResist": 2,
+      "mpResist": 0,
+      "criticalResist": 0,
+      "pushbackResist": 12
+    }
+  },
+  {
+    "level": 146,
+    "name": "Anneau poli de Malter",
+    "panoply": "Panoplie des Malters",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "wisdom": 30,
+      "range": 0,
+      "heal": 10,
+      "neutralResistPer": 7,
+      "lock": 10,
+      "dodge": 0,
+      "apReduction": 7,
+      "mpReduction": 7
+    }
+  },
+  {
+    "level": 146,
+    "name": "Alliance d'Hell Mina",
+    "panoply": "Panoplie d'Hell Mina",
+    "category": "Anneau",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "wisdom": 20,
+      "fireDamage": 10,
+      "neutralResistPer": 7,
+      "lock": 7,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 40,
+    "name": "Anneau Ocre",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Gelano Ankarton",
+    "panoply": "Panoplie Ankarton",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 1000
+    }
+  },
+  {
+    "level": 200,
+    "name": "Triste Sceau",
+    "panoply": "Malédiction de Cire Momore",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "wisdom": 20,
+      "power": 40,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 10,
+      "lock": 7,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 48,
+    "name": "Alliance des Rebelles",
+    "panoply": "Panoplie des Rebelles",
+    "category": "Anneau",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "intelligence": 25,
+      "wisdom": 15,
+      "criticalChance": 0,
+      "earthDamage": 5,
+      "fireDamage": 5
+    }
+  },
+  {
+    "level": 194,
+    "name": "Anneau Clochecuivre",
+    "panoply": "Panoplie Clochecuivre",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "intelligence": 40,
+      "agility": 50,
+      "wisdom": 20,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 8,
+      "airDamage": 10,
+      "heal": 10,
+      "prospecting": 10,
+      "initiative": 0,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 52,
+    "name": "Anneau de guerrier albueran",
+    "panoply": "Panoplie de guerrier albueran",
+    "category": "Anneau",
+    "stats": {
+      "health": 30,
+      "strength": 50,
+      "chance": 50,
+      "lock": 0,
+      "mpReduction": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Cruauté de Belladone",
+    "panoply": "Maléfices d'Ephedrya",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "wisdom": 30,
+      "power": 60,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "initiative": 500,
+      "neutralResistPer": 10,
+      "lock": 0,
+      "dodge": 0,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amertume de Belladone",
+    "panoply": "Maléfices d'Ephedrya",
+    "category": "Anneau",
+    "stats": {
+      "health": 250,
+      "wisdom": 45,
+      "power": 30,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "dodge": 10,
+      "lock": 0,
+      "apReduction": 20,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Tendresse de Belladone",
+    "panoply": "Maléfices d'Ephedrya",
+    "category": "Anneau",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "power": 30,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "lock": 10,
+      "dodge": 0,
+      "apResist": 20,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 150,
+    "name": "Gants Tologie",
+    "panoply": "Panoplie de l'Héritage",
+    "category": "Anneau",
+    "stats": {
+      "undefined": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Alliance du Dark Vlad",
+    "category": "Anneau",
+    "stats": {
+      "health": 300,
+      "intelligence": 66,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "fireDamage": 12,
+      "earthResistPer": 6,
+      "fireResistPer": 6,
+      "dodge": 9,
+      "pushbackDamage": 25
+    }
+  }
+]

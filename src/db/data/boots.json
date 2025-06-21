@@ -1,0 +1,5475 @@
+[
+  {
+    "level": 50,
+    "name": "Bottes de Bowisse",
+    "panoply": "Panoplie de Bowisse",
+    "category": "Bottes",
+    "stats": {
+      "chance": 20,
+      "MP": 1,
+      "prospecting": 3,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 27,
+    "name": "L'Ecrabouilleur de Iop",
+    "category": "Bottes",
+    "stats": {
+      "strength": 25,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 25,
+      "earthDamage": 2,
+      "airDamage": 2
+    }
+  },
+  {
+    "level": 3,
+    "name": "Sandales Tofuesques",
+    "category": "Bottes",
+    "stats": {
+      "chance": 5,
+      "dodge": 1
+    }
+  },
+  {
+    "level": 24,
+    "name": "Bottes de Faillete",
+    "category": "Bottes",
+    "stats": {
+      "criticalChance": 6,
+      "criticalDamage": 2
+    }
+  },
+  {
+    "level": 53,
+    "name": "Bottes de Céleri-Thé",
+    "category": "Bottes",
+    "stats": {
+      "strength": 0,
+      "chance": 20,
+      "MP": 1,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 49,
+    "name": "Bottes de Ragalde",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "intelligence": 20,
+      "chance": 30,
+      "agility": 20,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 5,
+    "name": "Einekeineux",
+    "category": "Bottes",
+    "stats": {
+      "chance": 7
+    }
+  },
+  {
+    "level": 4,
+    "name": "Bottes du Chat Buté",
+    "category": "Bottes",
+    "stats": {
+      "chance": 7
+    }
+  },
+  {
+    "level": 7,
+    "name": "Bottes de Kluh",
+    "category": "Bottes",
+    "stats": {
+      "strength": 10,
+      "earthDamage": 1
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bottes de Force",
+    "category": "Bottes",
+    "stats": {
+      "strength": 6
+    }
+  },
+  {
+    "level": 6,
+    "name": "Sandales d'Intelligence",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 10,
+      "fireDamage": 1
+    }
+  },
+  {
+    "level": 6,
+    "name": "Bottes Agilesques",
+    "category": "Bottes",
+    "stats": {
+      "agility": 10
+    }
+  },
+  {
+    "level": 7,
+    "name": "Bottes de Chance",
+    "category": "Bottes",
+    "stats": {
+      "chance": 10,
+      "waterDamage": 1
+    }
+  },
+  {
+    "level": 27,
+    "name": "Bottes de Concentration",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 4,
+    "name": "Bottes du Bouftou",
+    "category": "Bottes",
+    "stats": {
+      "agility": 7
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes de Klime",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "strength": 30,
+      "agility": 25
+    }
+  },
+  {
+    "level": 39,
+    "name": "Bottes de Poursuite",
+    "category": "Bottes",
+    "stats": {
+      "chance": 20,
+      "MP": 1,
+      "range": 0,
+      "lock": 0
+    }
+  },
+  {
+    "level": 75,
+    "name": "Bottes d'Hogmeiser",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 1,
+      "damage": 3
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bottes Usées d'Hogmeiser",
+    "category": "Bottes",
+    "stats": {
+      "AP": 0,
+      "MP": 0
+    }
+  },
+  {
+    "level": 95,
+    "name": "Bottes Dorées d'Hogmeiser",
+    "category": "Bottes",
+    "stats": {
+      "health": 70,
+      "agility": 50,
+      "wisdom": 20,
+      "summon": 2,
+      "damage": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 12,
+    "name": "Puissantes Bottes de Klime",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "strength": -1,
+      "agility": 25
+    }
+  },
+  {
+    "level": 22,
+    "name": "Bottes de Maîtrise",
+    "category": "Bottes",
+    "stats": {
+      "strength": 0,
+      "intelligence": 25,
+      "chance": 0,
+      "agility": 25
+    }
+  },
+  {
+    "level": 16,
+    "name": "Bottes de Puissance",
+    "category": "Bottes",
+    "stats": {
+      "strength": 25,
+      "chance": 25,
+      "power": 5
+    }
+  },
+  {
+    "level": 22,
+    "name": "Bottes d'Anticipation",
+    "category": "Bottes",
+    "stats": {
+      "strength": 25,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 25
+    }
+  },
+  {
+    "level": 8,
+    "name": "Bottes de Nexus",
+    "category": "Bottes",
+    "stats": {
+      "health": 15,
+      "lock": 3
+    }
+  },
+  {
+    "level": 50,
+    "name": "Bottes d'Apprentissage",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "intelligence": 30,
+      "wisdom": 25,
+      "power": 20,
+      "heal": 5
+    }
+  },
+  {
+    "level": 51,
+    "name": "Bottes de l'Apprenti Invocateur",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "MP": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 42,
+    "name": "Esprit de Crocoburio",
+    "panoply": "Âme de Crocoburio",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 40,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes Volatiles",
+    "category": "Bottes",
+    "stats": {
+      "strength": 40,
+      "agility": 40,
+      "range": 0,
+      "earthResistPer": 4,
+      "airResistPer": 4,
+      "dodge": 7
+    }
+  },
+  {
+    "level": 39,
+    "name": "Bottes de Lymphe a Tik",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "intelligence": 0,
+      "chance": 40,
+      "summon": 1,
+      "initiative": 50,
+      "waterResistPer": 5,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 62,
+    "name": "Moon Boutse",
+    "category": "Bottes",
+    "stats": {
+      "health": 80,
+      "intelligence": 0,
+      "agility": 50,
+      "wisdom": 30,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 38,
+    "name": "Bottes Tarsy",
+    "category": "Bottes",
+    "stats": {
+      "health": 35,
+      "intelligence": 0,
+      "chance": 40,
+      "agility": 0,
+      "wisdom": 15,
+      "range": 0,
+      "neutralDamage": 3,
+      "waterDamage": 3,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 72,
+    "name": "Bottes Orino",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "wisdom": 10,
+      "power": 10,
+      "MP": 1,
+      "earthResistPer": 2
+    }
+  },
+  {
+    "level": 94,
+    "name": "Bottes Animales",
+    "category": "Bottes",
+    "stats": {
+      "health": 70,
+      "intelligence": 45,
+      "wisdom": 30,
+      "MP": 1,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 122,
+    "name": "Bottes Animales Sombres",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "wisdom": 30,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 5,
+      "fireResist": 15,
+      "waterResist": 15,
+      "airResist": 15
+    }
+  },
+  {
+    "level": 40,
+    "name": "Kwakobottes de Flammes",
+    "panoply": "Panoplie du Kwak de Flammes",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "intelligence": 30,
+      "damage": 1,
+      "fireResistPer": 4
+    }
+  },
+  {
+    "level": 20,
+    "name": "Boufbottes",
+    "panoply": "Panoplie du Bouftou",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "power": 15
+    }
+  },
+  {
+    "level": 45,
+    "name": "Abrabottes",
+    "panoply": "Panoplie de l'Abraknyde",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "heal": 5,
+      "lock": 5
+    }
+  },
+  {
+    "level": 44,
+    "name": "L'Eni Kère",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "strength": 0,
+      "chance": 0,
+      "agility": 40,
+      "summon": 1,
+      "heal": 10,
+      "prospecting": 6
+    }
+  },
+  {
+    "level": 30,
+    "name": "Boufbottes Royales",
+    "panoply": "Panoplie du Bouftou Royal",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "damage": 4,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Gelobottes",
+    "panoply": "Panoplie Gelax",
+    "category": "Bottes",
+    "stats": {
+      "MP": 1,
+      "prospecting": 15
+    }
+  },
+  {
+    "level": 7,
+    "name": "Bottes de l'Aventurier",
+    "panoply": "Panoplie du Jeune Aventurier",
+    "category": "Bottes",
+    "stats": {
+      "strength": 5,
+      "intelligence": 5,
+      "chance": 5,
+      "agility": 5
+    }
+  },
+  {
+    "level": 43,
+    "name": "Mégabottes",
+    "panoply": "Méganoplie",
+    "category": "Bottes",
+    "stats": {
+      "chance": 25,
+      "power": 15,
+      "initiative": 100,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bottes Vioutifoule",
+    "panoply": "Panoplie Vioutifoule",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 20,
+      "power": 10,
+      "criticalChance": 3,
+      "initiative": 100,
+      "fireResistPer": 4
+    }
+  },
+  {
+    "level": 60,
+    "name": "Carabottes",
+    "panoply": "Panoplie Tortue",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "chance": 60,
+      "summon": 1,
+      "heal": 6,
+      "prospecting": 7
+    }
+  },
+  {
+    "level": 104,
+    "name": "Corbottes",
+    "panoply": "Panoplie du Corbac",
+    "category": "Bottes",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 15,
+      "MP": 1,
+      "fireDamage": 6,
+      "airDamage": 6,
+      "lock": 6,
+      "pushbackDamage": 8
+    }
+  },
+  {
+    "level": 12,
+    "name": "Bottes de Satisfaction",
+    "category": "Bottes",
+    "stats": {
+      "strength": -21,
+      "intelligence": -21,
+      "chance": -21,
+      "agility": -21,
+      "MP": 1
+    }
+  },
+  {
+    "level": 64,
+    "name": "Bottes de l'Eleveur de Bouftous",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "chance": 20,
+      "MP": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 30,
+    "name": "Souliers Vernis de Porkass",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 10,
+      "intelligence": 10,
+      "chance": 10,
+      "agility": 10,
+      "dodge": 2
+    }
+  },
+  {
+    "level": 60,
+    "name": "Tongues Wabbits",
+    "panoply": "Panoplie de la Cawotte",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 45,
+      "fireDamage": 8,
+      "initiative": 100,
+      "earthResistPer": 5,
+      "dodge": 8
+    }
+  },
+  {
+    "level": 83,
+    "name": "Bottes du Gardien des Égouts",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "power": 15,
+      "criticalChance": 3,
+      "MP": 1,
+      "damage": 5,
+      "prospecting": 7
+    }
+  },
+  {
+    "level": 20,
+    "name": "Bottes de l'Homme Ours",
+    "panoply": "Panoplie de l'Homme Ours",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 10,
+      "criticalChance": 4
+    }
+  },
+  {
+    "level": 104,
+    "name": "Fourbabottes",
+    "panoply": "Panoplie du Chasseur Embusqué",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "intelligence": 45,
+      "agility": 35,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 6,
+      "airDamage": 6,
+      "waterResistPer": 7
+    }
+  },
+  {
+    "level": 40,
+    "name": "Kwakobottes de Glace",
+    "panoply": "Panoplie du Kwak de Glace",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "chance": 30,
+      "damage": 1,
+      "waterResistPer": 4
+    }
+  },
+  {
+    "level": 40,
+    "name": "Kwakobottes de Terre",
+    "panoply": "Panoplie du Kwak de Terre",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "strength": 30,
+      "damage": 1,
+      "earthResistPer": 4
+    }
+  },
+  {
+    "level": 40,
+    "name": "Kwakobottes de Vent",
+    "panoply": "Panoplie du Kwak de Vent",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "damage": 1,
+      "airResistPer": 4
+    }
+  },
+  {
+    "level": 80,
+    "name": "Sabots de Farle",
+    "panoply": "Panoplie de Farle Ingalsse",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "strength": 25,
+      "agility": 25,
+      "MP": 1,
+      "damage": 2,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 14,
+    "name": "Bottes Champêtres",
+    "panoply": "Panoplie Champêtre",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "power": 12
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes du Chef Bwork",
+    "panoply": "Panoplie du Chef Bwork",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "intelligence": 35,
+      "agility": 35,
+      "wisdom": 20,
+      "MP": 1,
+      "prospecting": 5,
+      "earthResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2
+    }
+  },
+  {
+    "level": 69,
+    "name": "Pantoufles Crochues du Chef Crocodaille",
+    "panoply": "Panoplie du Chef Crocodaille",
+    "category": "Bottes",
+    "stats": {
+      "agility": 20,
+      "MP": 1,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 22,
+    "name": "Pieds du Sanglier",
+    "panoply": "Panoplie du Sanglier",
+    "category": "Bottes",
+    "stats": {
+      "health": 15,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "criticalChance": 4,
+      "summon": 1
+    }
+  },
+  {
+    "level": 59,
+    "name": "Bottes du Craqueleur",
+    "panoply": "Panoplie du Craqueleur",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 10,
+      "chance": 10,
+      "MP": 1,
+      "earthResistPer": 3,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 61,
+    "name": "Bottines du Mulou",
+    "panoply": "Panoplie du Mulou",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "agility": 20,
+      "MP": 1,
+      "earthResistPer": 2
+    }
+  },
+  {
+    "level": 63,
+    "name": "Tongues Baques",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "intelligence": 30,
+      "wisdom": 20,
+      "power": 15,
+      "heal": 5,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 33,
+    "name": "Larvabottes",
+    "panoply": "Panoplie Larvesque",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "agility": 20,
+      "heal": 5
+    }
+  },
+  {
+    "level": 30,
+    "name": "Sandales Macien",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 25,
+      "criticalChance": 2,
+      "lock": 3
+    }
+  },
+  {
+    "level": 116,
+    "name": "Sandales Humeuses",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 35,
+      "MP": 1,
+      "prospecting": 15,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 58,
+    "name": "Sandales Koliques",
+    "category": "Bottes",
+    "stats": {
+      "wisdom": 15,
+      "criticalChance": 2,
+      "MP": 1
+    }
+  },
+  {
+    "level": 159,
+    "name": "Sandales Hambic",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "wisdom": 35,
+      "MP": 1,
+      "damage": 6,
+      "heal": 6,
+      "prospecting": 20,
+      "fireResistPer": 5,
+      "airResistPer": -4,
+      "trapDamage": 25
+    }
+  },
+  {
+    "level": 76,
+    "name": "Sandales Adin",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "wisdom": 20,
+      "power": 20,
+      "criticalChance": 5,
+      "damage": 6
+    }
+  },
+  {
+    "level": 56,
+    "name": "Sandales Ailuya",
+    "category": "Bottes",
+    "stats": {
+      "strength": 25,
+      "intelligence": 25,
+      "chance": 25,
+      "agility": 25,
+      "wisdom": 20
+    }
+  },
+  {
+    "level": 35,
+    "name": "Geta Akwadala",
+    "panoply": "Panoplie Akwadala",
+    "category": "Bottes",
+    "stats": {
+      "chance": 30,
+      "agility": 30,
+      "power": 10
+    }
+  },
+  {
+    "level": 76,
+    "name": "Geta Terrdala",
+    "panoply": "Panoplie Terrdala",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "MP": 1,
+      "fireResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 68,
+    "name": "Geta Feudala",
+    "panoply": "Panoplie Feudala",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "criticalChance": 3,
+      "MP": 1
+    }
+  },
+  {
+    "level": 57,
+    "name": "Geta Aerdala",
+    "panoply": "Panoplie Aerdala",
+    "category": "Bottes",
+    "stats": {
+      "agility": 25,
+      "MP": 1
+    }
+  },
+  {
+    "level": 122,
+    "name": "Sandales Titude",
+    "category": "Bottes",
+    "stats": {
+      "health": 175,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 35,
+      "MP": 1,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7
+    }
+  },
+  {
+    "level": 123,
+    "name": "Bottes Harry",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "agility": 50,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "initiative": 300,
+      "fireResistPer": 8
+    }
+  },
+  {
+    "level": 50,
+    "name": "Botodindo",
+    "panoply": "Panoplie Dindo",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "summon": 1,
+      "damage": 6,
+      "heal": 6
+    }
+  },
+  {
+    "level": 87,
+    "name": "Bottes du Boufcoul",
+    "panoply": "Panoplie du Boufcoul",
+    "category": "Bottes",
+    "stats": {
+      "health": 70,
+      "wisdom": 15,
+      "power": 30,
+      "MP": 1,
+      "initiative": 0,
+      "earthResistPer": 3,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 73,
+    "name": "Bottes du Koulosse",
+    "panoply": "Panoplie du Koulosse",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "wisdom": 10,
+      "MP": 1,
+      "summon": 1,
+      "heal": 20,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "lock": 10
+    }
+  },
+  {
+    "level": 60,
+    "name": "Bottes du Koalak",
+    "panoply": "Panoplie du Koalak",
+    "category": "Bottes",
+    "stats": {
+      "MP": 1,
+      "heal": 2,
+      "neutralResistPer": 5
+    }
+  },
+  {
+    "level": 23,
+    "name": "Pantoufles du Tofu",
+    "panoply": "Panoplie du Tofu",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 15,
+      "agility": 15
+    }
+  },
+  {
+    "level": 54,
+    "name": "Scarabottes Dorées",
+    "panoply": "Panoplie du Scarabosse Doré",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "wisdom": 10,
+      "MP": 1
+    }
+  },
+  {
+    "level": 19,
+    "name": "Bottes Paysannes",
+    "panoply": "Panoplie du Paysan",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "chance": 10,
+      "wisdom": 5
+    }
+  },
+  {
+    "level": 86,
+    "name": "Bottes du Craqueleur Légendaire",
+    "panoply": "Panoplie du Craqueleur Légendaire",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 25,
+      "agility": 25,
+      "MP": 1,
+      "damage": 5,
+      "heal": 5,
+      "earthResist": 7,
+      "waterResist": 7
+    }
+  },
+  {
+    "level": 9,
+    "name": "Sandales du Piou Rouge",
+    "panoply": "Panoplie du Piou Rouge",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 20,
+      "fireDamage": 1
+    }
+  },
+  {
+    "level": 8,
+    "name": "Sandales du Piou Bleu",
+    "panoply": "Panoplie du Piou Bleu",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "summon": 1
+    }
+  },
+  {
+    "level": 7,
+    "name": "Sandales du Piou Violet",
+    "panoply": "Panoplie du Piou Violet",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "summon": 1
+    }
+  },
+  {
+    "level": 11,
+    "name": "Sandales du Piou Jaune",
+    "panoply": "Panoplie du Piou Jaune",
+    "category": "Bottes",
+    "stats": {
+      "agility": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 10,
+    "name": "Sandales du Piou Vert",
+    "panoply": "Panoplie du Piou Vert",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "strength": 20
+    }
+  },
+  {
+    "level": 12,
+    "name": "Sandales du Piou Rose",
+    "panoply": "Panoplie du Piou Rose",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "summon": 1
+    }
+  },
+  {
+    "level": 20,
+    "name": "Bottes en Mousse",
+    "panoply": "Panoplie en Mousse",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "agility": 20,
+      "dodge": 2
+    }
+  },
+  {
+    "level": 131,
+    "name": "Bottes du Meulou",
+    "panoply": "Panoplie du Meulou",
+    "category": "Bottes",
+    "stats": {
+      "health": 120,
+      "strength": 50,
+      "wisdom": 30,
+      "power": 5,
+      "criticalChance": 3,
+      "MP": 1,
+      "summon": 2,
+      "prospecting": 15,
+      "initiative": 200,
+      "pods": 300,
+      "waterResistPer": 9,
+      "airResistPer": 9,
+      "earthResistPer": -4,
+      "neutralResist": 8,
+      "earthResist": 8,
+      "fireResist": 8,
+      "waterResist": 8,
+      "airResist": 8
+    }
+  },
+  {
+    "level": 113,
+    "name": "Bottes du Minotoror",
+    "panoply": "Panoplie du Minotoror",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "wisdom": 35,
+      "criticalChance": 3,
+      "MP": 1,
+      "heal": 10,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "airResistPer": 10,
+      "criticalDamage": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 160,
+    "name": "Sandales du Minotot",
+    "panoply": "Panoplie du Minotot",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 30,
+      "wisdom": 20,
+      "MP": 1,
+      "range": 1,
+      "damage": 10,
+      "heal": 6,
+      "prospecting": 20,
+      "airResistPer": -4
+    }
+  },
+  {
+    "level": 94,
+    "name": "Mules du Dragon Cochon",
+    "panoply": "Panoplie du Dragon Cochon",
+    "category": "Bottes",
+    "stats": {
+      "health": 80,
+      "wisdom": 20,
+      "power": 30,
+      "MP": 1,
+      "summon": 1,
+      "prospecting": 10,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 128,
+    "name": "Bottes du Dragoeuf",
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 20,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "MP": 1,
+      "neutralResistPer": 3,
+      "waterResistPer": 3,
+      "earthResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 80,
+    "name": "Sabots de Shika",
+    "panoply": "Panoplie de Shika Ingalsse",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "intelligence": 25,
+      "chance": 25,
+      "MP": 1,
+      "damage": 2,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bottananas",
+    "category": "Bottes",
+    "stats": {
+      "strength": 6
+    }
+  },
+  {
+    "level": 110,
+    "name": "Bottes du Mominotor",
+    "panoply": "Panoplie du Mominotor",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "wisdom": 35,
+      "MP": 1,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "airResistPer": 10,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  {
+    "level": 101,
+    "name": "Bottes du Rat Noir",
+    "panoply": "Panoplie du Rat Noir",
+    "category": "Bottes",
+    "stats": {
+      "health": 120,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "MP": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "airDamage": 6,
+      "prospecting": 10,
+      "lock": 4
+    }
+  },
+  {
+    "level": 99,
+    "name": "Bottes du Rat Blanc",
+    "panoply": "Panoplie du Rat Blanc",
+    "category": "Bottes",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 20,
+      "MP": 1,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "prospecting": 10,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 134,
+    "name": "Bottes Cérémoniales du Seigneur des Rats",
+    "panoply": "Panoplie Cérémoniale",
+    "category": "Bottes",
+    "stats": {
+      "health": 170,
+      "intelligence": 35,
+      "agility": 40,
+      "wisdom": 25,
+      "MP": 1,
+      "damage": 7,
+      "heal": 7,
+      "prospecting": 10,
+      "neutralResistPer": 6,
+      "earthResistPer": 6,
+      "neutralResist": 6
+    }
+  },
+  {
+    "level": 110,
+    "name": "Protège-Tibias Ancestraux",
+    "panoply": "Panoplie Ancestrale",
+    "category": "Bottes",
+    "stats": {
+      "health": 130,
+      "strength": 35,
+      "chance": 50,
+      "wisdom": 35,
+      "MP": 1,
+      "damage": 6,
+      "prospecting": 15,
+      "fireResist": 7
+    }
+  },
+  {
+    "level": 136,
+    "name": "Tongues du dimanche du Chêne Mou",
+    "panoply": "Panoplie du Chêne Mou",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "power": 10,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "earthResistPer": 6,
+      "fireResistPer": 6,
+      "neutralResist": 10
+    }
+  },
+  {
+    "level": 14,
+    "name": "Gobtroteur",
+    "category": "Bottes",
+    "stats": {
+      "health": 15,
+      "strength": 7,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 1,
+    "name": "Les Incrustes",
+    "panoply": "Panoplie du Boune",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 6,
+      "chance": 6
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Antrin",
+    "panoply": "Panoplie Téméraire",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13126,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Charentaises à poils",
+    "panoply": "Panoplie de Gouttière",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12869,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Hox",
+    "panoply": "Panoplie Criminelle",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12907,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Hairo",
+    "panoply": "Panoplie Intemporelle",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13291,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Ulisme",
+    "panoply": "Panoplie Altruiste",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 25881,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Hanik",
+    "panoply": "Panoplie Sauvage",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13563,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Tong Aclou",
+    "panoply": "Panoplie Exsangue",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12764,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Swana",
+    "panoply": "Panoplie de l'Innombrable",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12554,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Geta Bernacle",
+    "panoply": "Panoplie Ethylique",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12814,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Chaussures Lepon-Davignon",
+    "panoply": "Panoplie Vénérable",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13329,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Antouche",
+    "panoply": "Panoplie Indestructible",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 12984,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Deuradi",
+    "panoply": "Panoplie du Prince des voleurs",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13074,
+      "MP": 1
+    }
+  },
+  {
+    "level": 102,
+    "name": "Bottes Horchons",
+    "panoply": "Panoplie Vassale",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 15,
+      "MP": 1,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "waterDamage": 3,
+      "prospecting": 6,
+      "waterResistPer": 3,
+      "lock": 5,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 195,
+    "name": "Sandales Circulaires du Kimbo",
+    "panoply": "Panoplie du Kimbo",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "waterResistPer": 10
+    }
+  },
+  {
+    "level": 135,
+    "name": "Bottines en bois d'abrakleur",
+    "panoply": "Panoplie Claire",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 35,
+      "MP": 1,
+      "damage": 8,
+      "waterResistPer": 10,
+      "neutralResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 172,
+    "name": "Bottines des sous-bois",
+    "panoply": "Panoplie des Sous-bois",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 10,
+      "MP": 1,
+      "range": 1,
+      "damage": 7,
+      "prospecting": 30,
+      "initiative": 700,
+      "neutralResistPer": 10
+    }
+  },
+  {
+    "level": 181,
+    "name": "Chaussons Pignons",
+    "panoply": "Panoplycélium",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "wisdom": 50,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "earthResistPer": 10,
+      "fireResist": 10,
+      "airResist": 10
+    }
+  },
+  {
+    "level": 50,
+    "name": "Bloptes Griottes",
+    "panoply": "Panoplie Blop Griotte",
+    "category": "Bottes",
+    "stats": {
+      "health": 35,
+      "intelligence": 15,
+      "power": 15,
+      "summon": 1,
+      "prospecting": 5,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 50,
+    "name": "Bloptes Reinette",
+    "panoply": "Panoplie Blop Reinette",
+    "category": "Bottes",
+    "stats": {
+      "health": 35,
+      "strength": 15,
+      "power": 15,
+      "summon": 1,
+      "prospecting": 5,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 50,
+    "name": "Bloptes Coco",
+    "panoply": "Panoplie Blop Coco",
+    "category": "Bottes",
+    "stats": {
+      "health": 35,
+      "agility": 15,
+      "power": 15,
+      "summon": 1,
+      "prospecting": 5,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 50,
+    "name": "Bloptes Indigo",
+    "panoply": "Panoplie Blop Indigo",
+    "category": "Bottes",
+    "stats": {
+      "health": 35,
+      "chance": 15,
+      "power": 15,
+      "summon": 1,
+      "prospecting": 5,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 80,
+    "name": "Bloptes Griotte Royales",
+    "panoply": "Panoplie Blop Griotte Royale",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "MP": 1,
+      "range": 1,
+      "fireResistPer": 3
+    }
+  },
+  {
+    "level": 80,
+    "name": "Bloptes Reinette Royales",
+    "panoply": "Panoplie Blop Reinette Royale",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "MP": 1,
+      "range": 1,
+      "earthResistPer": 3
+    }
+  },
+  {
+    "level": 80,
+    "name": "Bloptes Coco Royales",
+    "panoply": "Panoplie Blop Coco Royale",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "MP": 1,
+      "range": 1,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 80,
+    "name": "Bloptes Indigo Royales",
+    "panoply": "Panoplie Blop Indigo Royale",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "MP": 1,
+      "range": 1,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 90,
+    "name": "Bloptes Multicolores Royales",
+    "panoply": "Panoplie Blop Multicolore Royale",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "wisdom": 25,
+      "power": 30,
+      "MP": 1,
+      "damage": 3,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 184,
+    "name": "Bottes Répané",
+    "panoply": "Panoplie du Bworker Gladiateur",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "MP": 1,
+      "summon": 2,
+      "damage": 10,
+      "heal": 10,
+      "prospecting": 10,
+      "neutralResistPer": 10
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bottes Paupayahn",
+    "panoply": "Panoplie Paupayahn",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "power": 10,
+      "criticalChance": 3,
+      "initiative": 100,
+      "airResistPer": 4
+    }
+  },
+  {
+    "level": 34,
+    "name": "Pantoufrelons",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "wisdom": 15,
+      "criticalChance": 4
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes du bois de l'est",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "strength": 10,
+      "intelligence": 10,
+      "chance": 10,
+      "agility": 10
+    }
+  },
+  {
+    "level": 40,
+    "name": "Souliers laqués du Parrain",
+    "panoply": "Panoplie du Parrain",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "chance": 20,
+      "agility": 20,
+      "summon": 1
+    }
+  },
+  {
+    "level": 47,
+    "name": "Bottines du Black Wab",
+    "panoply": "Panoplie du Black Wab",
+    "category": "Bottes",
+    "stats": {
+      "wisdom": 15,
+      "power": 15,
+      "criticalChance": 2,
+      "range": 1
+    }
+  },
+  {
+    "level": 49,
+    "name": "Sandales Papayou",
+    "panoply": "Panoplie Papayou",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "wisdom": 15,
+      "damage": 6
+    }
+  },
+  {
+    "level": 43,
+    "name": "Les Sleumpettes",
+    "panoply": "Panoplie Sleump",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "criticalChance": 3,
+      "summon": 1,
+      "damage": 2
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bottes de Slait",
+    "panoply": "Panoplie de Slait",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 20,
+      "agility": 20,
+      "fireDamage": 3,
+      "airDamage": 3,
+      "heal": 3,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Chaussures du Tétounik",
+    "panoply": "Panoplie du Tétounik",
+    "category": "Bottes",
+    "stats": {
+      "power": 20,
+      "summon": 1,
+      "heal": 10,
+      "lock": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Golbottes",
+    "panoply": "Golpanoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "chance": 30,
+      "criticalChance": 3,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes Siks Won Naïne",
+    "panoply": "Panoplie Siks Won Naïne",
+    "category": "Bottes",
+    "stats": {
+      "wisdom": 15,
+      "power": 15,
+      "summon": 1,
+      "damage": 3,
+      "heal": 1
+    }
+  },
+  {
+    "level": 43,
+    "name": "Les Chaplures",
+    "panoply": "Chapanoplie",
+    "category": "Bottes",
+    "stats": {
+      "chance": 25,
+      "wisdom": 15,
+      "range": 1
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes du Vampyre",
+    "panoply": "Panoplie du Vampyre maudit",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "criticalChance": 3,
+      "damage": 3,
+      "undefined": 1
+    }
+  },
+  {
+    "level": 41,
+    "name": "Yugoufle",
+    "panoply": "Yugoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "power": 20,
+      "damage": 3,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 42,
+    "name": "Chispottes",
+    "panoply": "Chispanoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "power": 15,
+      "damage": 3
+    }
+  },
+  {
+    "level": 39,
+    "name": "Libottes",
+    "panoply": "Panoplie Mace",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 35,
+      "wisdom": 15,
+      "initiative": 100,
+      "lock": 7
+    }
+  },
+  {
+    "level": 38,
+    "name": "Bottines de la Denrée",
+    "panoply": "Panoplie de la Denrée",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 20,
+      "summon": 1,
+      "damage": 2
+    }
+  },
+  {
+    "level": 161,
+    "name": "Les Maidartes",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "initiative": 300,
+      "fireResist": 7,
+      "airResist": 7,
+      "dodge": -11,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes du Real Boitar",
+    "panoply": "Panoplie du Real Boitar",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "chance": 25,
+      "damage": 3
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes des Bouftons Rouges",
+    "panoply": "Panoplie des Bouftons Rouges",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "intelligence": 25,
+      "agility": 25,
+      "damage": 3
+    }
+  },
+  {
+    "level": 44,
+    "name": "Bottes de Grüt",
+    "panoply": "Panoplie de Grüt",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "strength": 25,
+      "wisdom": 10,
+      "range": 1
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes de Kocksis",
+    "panoply": "Panoplie de Kocksis",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "damage": 3,
+      "lock": 4,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bottes de Laikteur",
+    "panoply": "Panoplie de Laikteur",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "chance": 25,
+      "range": 1
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes de Rekto Topi",
+    "panoply": "Panoplie de Rekto Topi",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 25,
+      "agility": 25,
+      "power": 10,
+      "criticalChance": 3,
+      "heal": 3
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes de Grizou",
+    "panoply": "Panoplie de Grizou",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "chance": 25,
+      "agility": 25,
+      "airDamage": 3,
+      "mpResist": 2
+    }
+  },
+  {
+    "level": 1,
+    "name": "Bottes de l'intrépide",
+    "panoply": "Panoplie de l'intrépide",
+    "category": "Bottes",
+    "stats": {
+      "health": 1,
+      "initiative": 1,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 53,
+    "name": "Bottes d'Hulkrap",
+    "panoply": "Panoplie d'Hulkrap",
+    "category": "Bottes",
+    "stats": {
+      "health": 0,
+      "strength": 0,
+      "chance": 0,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 4
+    }
+  },
+  {
+    "level": 52,
+    "name": "Bottes de Klüme",
+    "panoply": "Panoplie de Klüme",
+    "category": "Bottes",
+    "stats": {
+      "health": 0,
+      "intelligence": 0,
+      "agility": 0,
+      "MP": 1,
+      "summon": 1,
+      "earthDamage": 4
+    }
+  },
+  {
+    "level": 32,
+    "name": "Bottes du Corbeau Noir",
+    "panoply": "Panoplie du Corbeau Noir",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "agility": 25,
+      "power": 10,
+      "airDamage": 3
+    }
+  },
+  {
+    "level": 32,
+    "name": "Bottes de Rapine",
+    "panoply": "Panoplie de Rapine",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "fireDamage": 3,
+      "heal": 3,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 32,
+    "name": "Bottes de Phong Huss",
+    "panoply": "Panoplie de Phong Huss",
+    "category": "Bottes",
+    "stats": {
+      "strength": 20,
+      "range": 1,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 33,
+    "name": "Givrabottes",
+    "panoply": "Givranoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "summon": 1,
+      "damage": 3
+    }
+  },
+  {
+    "level": 34,
+    "name": "Clémentobottes",
+    "panoply": "Clémentopanoplie",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 10,
+      "fireResistPer": 4
+    }
+  },
+  {
+    "level": 55,
+    "name": "Bottes de Lonne",
+    "category": "Bottes",
+    "stats": {
+      "chance": 25,
+      "MP": 1
+    }
+  },
+  {
+    "level": 28,
+    "name": "Bottes de Boufbowl",
+    "panoply": "Panoplie de Boufbowl",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "power": 10,
+      "damage": 2,
+      "lock": 3,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 46,
+    "name": "Bottes de Grilliane",
+    "panoply": "Panoplie de Grilliane",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 20,
+      "wisdom": 20,
+      "summon": 1,
+      "fireDamage": 2,
+      "waterDamage": 2,
+      "heal": 2
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes de Rapiat",
+    "panoply": "Panoplie de Rapiat",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "strength": 25,
+      "earthDamage": 4,
+      "initiative": 100,
+      "apResist": 4
+    }
+  },
+  {
+    "level": 51,
+    "name": "Bottes de Karotz",
+    "panoply": "Panoplie de Karotz",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "chance": 20,
+      "MP": 1,
+      "dodge": 4,
+      "lock": 0
+    }
+  },
+  {
+    "level": 44,
+    "name": "Bottes de Grouillot",
+    "panoply": "Panoplie de Grouillot",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 20,
+      "range": 1,
+      "fireDamage": 3,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 45,
+    "name": "Bottes de Kubitus",
+    "panoply": "Panoplie de Kubitus",
+    "category": "Bottes",
+    "stats": {
+      "agility": 20,
+      "MP": 1,
+      "airDamage": 3,
+      "lock": 0,
+      "apResist": 0
+    }
+  },
+  {
+    "level": 56,
+    "name": "Plumodales",
+    "panoply": "Plumoplie",
+    "category": "Bottes",
+    "stats": {
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 5,
+      "heal": 10,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 59,
+    "name": "Bottoppinz",
+    "panoply": "Panoppinz",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "intelligence": 40,
+      "chance": 25,
+      "wisdom": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 57,
+    "name": "Bottauffe-souris",
+    "panoply": "Panoplie Chauffe-souris",
+    "category": "Bottes",
+    "stats": {
+      "chance": 30,
+      "agility": 25,
+      "wisdom": 15,
+      "waterDamage": 4,
+      "airDamage": 4,
+      "heal": 4,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 58,
+    "name": "Bottinokio",
+    "panoply": "Panoplinokio",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "range": 1,
+      "damage": 5
+    }
+  },
+  {
+    "level": 58,
+    "name": "Bottes de Kabroule",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "strength": 25,
+      "intelligence": 30,
+      "summon": 1,
+      "damage": 4
+    }
+  },
+  {
+    "level": 190,
+    "name": "Grésilobottes",
+    "panoply": "Panoplie Grésil",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "earthResist": 13,
+      "waterResist": 13
+    }
+  },
+  {
+    "level": 118,
+    "name": "Bottes du Royalmouth",
+    "panoply": "Panoplie du Royalmouth",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "MP": 1,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "heal": 8,
+      "prospecting": 10,
+      "neutralResist": 8,
+      "airResist": 8,
+      "dodge": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 167,
+    "name": "Bottes de l'Obsidiantre",
+    "panoply": "Panoplie de l'Obsidiantre",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "prospecting": 20,
+      "airResistPer": 6,
+      "earthResist": 6,
+      "fireResist": 6,
+      "dodge": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 138,
+    "name": "Bottes Hoktone usées",
+    "category": "Bottes",
+    "stats": {}
+  },
+  {
+    "level": 146,
+    "name": "Sandales Gorithme",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "airDamage": 7,
+      "prospecting": 10,
+      "initiative": 300,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "earthResist": 10,
+      "dodge": 5,
+      "lock": -4
+    }
+  },
+  {
+    "level": 166,
+    "name": "Sandales Binosse",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "airDamage": 10,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "airResist": 10,
+      "lock": -11
+    }
+  },
+  {
+    "level": 138,
+    "name": "Bottes Hoktone",
+    "panoply": "Panoplie Autochtone",
+    "category": "Bottes",
+    "stats": {
+      "health": 160,
+      "chance": 50,
+      "wisdom": 30,
+      "MP": 1,
+      "range": 1,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 20,
+      "airResistPer": 10,
+      "fireResist": 10,
+      "waterResist": 10,
+      "lock": -7,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 173,
+    "name": "Bottes du Tengu Givrefoux",
+    "panoply": "Panoplie du Tengu Givrefoux",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "heal": 7,
+      "prospecting": 20,
+      "fireResist": 12,
+      "dodge": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 196,
+    "name": "Bottes du Glourséleste",
+    "panoply": "Panoplie du Glourséleste",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 40,
+      "power": 30,
+      "criticalChance": 3,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "initiative": 400,
+      "neutralResist": 12,
+      "earthResist": 12,
+      "dodge": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 169,
+    "name": "Bottines Hertie",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 45,
+      "agility": 45,
+      "wisdom": 35,
+      "power": 15,
+      "criticalChance": 2,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 6,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "fireResist": 10,
+      "airResist": 10,
+      "lock": 5,
+      "dodge": -4,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 181,
+    "name": "Bottines Hodore",
+    "panoply": "Panoplie du frigostien douteux",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 30,
+      "neutralResist": 10,
+      "fireResist": 10,
+      "airResist": 10,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 194,
+    "name": "Sandales Pinistes",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "initiative": 400,
+      "waterResist": 15,
+      "lock": 8,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes en peau de Prespic",
+    "category": "Bottes",
+    "stats": {
+      "health": 50,
+      "wisdom": 5,
+      "power": 10,
+      "initiative": 50
+    }
+  },
+  {
+    "level": 45,
+    "name": "Bottes de Stroud",
+    "panoply": "Panoplie de Stroud",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "wisdom": 10,
+      "power": 25,
+      "criticalChance": 3,
+      "apReduction": 4
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes du Kanniboul Ebil",
+    "panoply": "Panoplie du Kanniboul Ebil",
+    "category": "Bottes",
+    "stats": {
+      "summon": 2,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Bottes de Traçon",
+    "panoply": "Panoplie de Traçon",
+    "category": "Bottes",
+    "stats": {
+      "chance": 25,
+      "range": 1,
+      "waterDamage": 4,
+      "dodge": 3,
+      "apReduction": 2
+    }
+  },
+  {
+    "level": 53,
+    "name": "Geta de Logram",
+    "panoply": "Panoplie de Logram",
+    "category": "Bottes",
+    "stats": {
+      "MP": 1,
+      "fireDamage": 5,
+      "neutralResistPer": 0,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 39,
+    "name": "Botte de Kalkanéus",
+    "panoply": "Panoplie de Kalkanéus",
+    "category": "Bottes",
+    "stats": {
+      "wisdom": 10,
+      "range": 1,
+      "neutralDamage": 5,
+      "pushbackResist": 5
+    }
+  },
+  {
+    "level": 48,
+    "name": "Bottes d'Haku",
+    "panoply": "Panoplie d'Haku",
+    "category": "Bottes",
+    "stats": {
+      "MP": 1,
+      "fireDamage": 4,
+      "waterResistPer": 0,
+      "apResist": 3
+    }
+  },
+  {
+    "level": 74,
+    "name": "Bottes de Nelween",
+    "panoply": "Panoplie de Nelween",
+    "category": "Bottes",
+    "stats": {
+      "health": 80,
+      "neutralDamage": 10,
+      "dodge": 10,
+      "mpResist": 10,
+      "pushbackDamage": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 142,
+    "name": "Bottes de Frigostine",
+    "panoply": "Panoplie de Frigostine",
+    "category": "Bottes",
+    "stats": {
+      "health": 175,
+      "chance": 50,
+      "agility": 40,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "MP": 1,
+      "summon": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "fireResist": 10,
+      "waterResist": 10,
+      "dodge": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 156,
+    "name": "Bottes de Cantile",
+    "panoply": "Panoplie de Cantile",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "strength": 30,
+      "wisdom": 40,
+      "power": 30,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "waterResist": 10,
+      "airResist": 10,
+      "lock": 5,
+      "apResist": 4
+    }
+  },
+  {
+    "level": 189,
+    "name": "Bottes de Boréale",
+    "panoply": "Panoplie de Boréale",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "MP": 1,
+      "airDamage": 20,
+      "prospecting": 25,
+      "waterResist": 25,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 193,
+    "name": "Bottes du Professeur Xa",
+    "panoply": "Panoplie du Professeur Xa",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 50,
+      "criticalChance": 2,
+      "AP": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "heal": 10,
+      "prospecting": 15,
+      "neutralResist": 15,
+      "earthResist": 15,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 194,
+    "name": "Bottes de la Fuji Givrefoux",
+    "panoply": "Panoplie de la Fuji Givrefoux",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResist": 15,
+      "waterResist": 15,
+      "lock": 5
+    }
+  },
+  {
+    "level": 103,
+    "name": "Bottes du Gorgouille",
+    "panoply": "Panoplie du Gorgouille",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "strength": 35,
+      "intelligence": 35,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "MP": 1,
+      "neutralDamage": 4,
+      "earthDamage": 4,
+      "fireDamage": 4,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "neutralResist": 8,
+      "apResist": 3,
+      "pushbackDamage": 8
+    }
+  },
+  {
+    "level": 56,
+    "name": "Bottilozité",
+    "panoply": "Panoplilozité",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "MP": 1,
+      "earthDamage": 2,
+      "waterDamage": 2,
+      "pushbackDamage": 4
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Opsy",
+    "panoply": "Panoplie Explosive",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13472,
+      "MP": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Sabots Taj",
+    "panoply": "Panoplie Lunatique",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13394,
+      "MP": 1
+    }
+  },
+  {
+    "level": 56,
+    "name": "Bottes du Vulkain",
+    "panoply": "Panoplie du Vulkain",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 15,
+      "MP": 1,
+      "heal": 3
+    }
+  },
+  {
+    "level": 155,
+    "name": "Bottes de Grozilla",
+    "panoply": "Panoplie de Grozilla",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "MP": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "dodge": 5,
+      "apResist": 3,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 58,
+    "name": "Souliers Vernis Bruns",
+    "category": "Bottes",
+    "stats": {
+      "health": 0,
+      "agility": 15,
+      "wisdom": 10,
+      "MP": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 56,
+    "name": "Sabottes de Danioule",
+    "panoply": "Panoplie de Danioule",
+    "category": "Bottes",
+    "stats": {
+      "strength": 30,
+      "MP": 1,
+      "earthDamage": 3,
+      "dodge": 3,
+      "mpResist": 0
+    }
+  },
+  {
+    "level": 10,
+    "name": "Pacmabottes",
+    "panoply": "Pacmanoplie",
+    "category": "Bottes",
+    "stats": {
+      "initiative": 100,
+      "mpResist": 2
+    }
+  },
+  {
+    "level": 107,
+    "name": "Raquettes Dugraal",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "airDamage": 6,
+      "prospecting": 10,
+      "neutralResist": 8,
+      "waterResist": 8,
+      "mpResist": 4,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 150,
+    "name": "Bottes du Nowel Cauchemardesque",
+    "panoply": "Panoplie du Nowel Cauchemardesque",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "wisdom": 30,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "airResist": 20,
+      "lock": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 85,
+    "name": "Sabots de Redolphe",
+    "panoply": "Panoplie de Redolphe",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "agility": 30,
+      "MP": 1,
+      "fireDamage": 2,
+      "waterDamage": 2,
+      "mpResist": 3,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "Mes Petits Sabots",
+    "panoply": "Ma petite panoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "prospecting": 10,
+      "lock": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "Gladiabottes",
+    "panoply": "Gladianoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "airDamage": 5,
+      "mpResist": 3,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 60,
+    "name": "Bottoduvet",
+    "panoply": "Panoplie à plumes",
+    "category": "Bottes",
+    "stats": {
+      "strength": 15,
+      "intelligence": 15,
+      "chance": 15,
+      "agility": 15,
+      "MP": 1
+    }
+  },
+  {
+    "level": 50,
+    "name": "Sabots Aiguilles de Féline",
+    "panoply": "Panoplie de Féline",
+    "category": "Bottes",
+    "stats": {
+      "strength": 30,
+      "MP": 1,
+      "lock": 0
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes du Chafer Primitif",
+    "panoply": "Panoplie des Anciens Chafers",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "wisdom": 7,
+      "neutralDamage": 4,
+      "earthDamage": 4
+    }
+  },
+  {
+    "level": 197,
+    "name": "Bottes de Brouce",
+    "panoply": "Panoplie de Brouce Boulgoure",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 90,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 18,
+      "earthDamage": 18,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "airResist": 15,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 192,
+    "name": "Bottes d'Otomaï",
+    "panoply": "Panoplie d'Otomaï",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "wisdom": 45,
+      "criticalChance": 3,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 16,
+      "heal": 8,
+      "earthResistPer": 10,
+      "lock": 8,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 191,
+    "name": "Bottes d'Allister",
+    "panoply": "Panoplie d'Allister",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "airDamage": 18,
+      "prospecting": 15,
+      "initiative": 300,
+      "neutralResist": 15,
+      "waterResist": 15,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 194,
+    "name": "Bottes de Léthaline",
+    "panoply": "Panoplie de Léthaline Sigisbul",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "heal": 15,
+      "initiative": 500,
+      "neutralResistPer": 12,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 53,
+    "name": "Boffes Cottre",
+    "panoply": "Panoplie Coffre",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "criticalChance": 2,
+      "MP": 1,
+      "airDamage": 3,
+      "mpResist": 3,
+      "criticalResist": 0,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Omates",
+    "panoply": "Panoplie Submersible",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13871,
+      "MP": 1
+    }
+  },
+  {
+    "level": 43,
+    "name": "Bottes O'Feu",
+    "panoply": "Panoplie Mijotée",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 25,
+      "wisdom": 10,
+      "power": 10,
+      "lock": 3,
+      "apReduction": 3,
+      "criticalResist": 4
+    }
+  },
+  {
+    "level": 47,
+    "name": "Bottes Hédivines",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "criticalChance": 4,
+      "heal": 4,
+      "initiative": 100,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 56,
+    "name": "Bottokami",
+    "panoply": "Panokami",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "range": 1,
+      "airDamage": 3,
+      "initiative": 150,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 100,
+    "name": "Krosmaussures",
+    "panoply": "Krosmanoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 60,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "MP": 1,
+      "range": 0,
+      "waterDamage": 5,
+      "airDamage": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 51,
+    "name": "Ballerines Roses",
+    "panoply": "Panoplie Rose",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "criticalChance": 4,
+      "damage": 3,
+      "initiative": 200,
+      "dodge": 5,
+      "criticalDamage": 7
+    }
+  },
+  {
+    "level": 199,
+    "name": "Bottes d'Oshimo",
+    "panoply": "Panoplie d'Oshimo",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "range": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "initiative": 400,
+      "fireResistPer": 10,
+      "lock": 10,
+      "apReduction": 8
+    }
+  },
+  {
+    "level": 195,
+    "name": "Bottes de Théodoran Ax",
+    "panoply": "Panoplie de Théodoran Ax",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 35,
+      "MP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "criticalDamage": -16,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 196,
+    "name": "Getas de Padgref",
+    "panoply": "Panoplie de Padgref Demoël",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "MP": 1,
+      "fireDamage": 8,
+      "airDamage": 8,
+      "heal": 12,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "lock": -6,
+      "mpResist": -4,
+      "criticalDamage": 20,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 196,
+    "name": "Pantoufles Émar",
+    "panoply": "Panoplit",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "MP": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "heal": 6,
+      "airResistPer": 10,
+      "dodge": -6,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 196,
+    "name": "Sabots Minables",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "wisdom": 40,
+      "AP": 1,
+      "MP": 1,
+      "range": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "prospecting": 10,
+      "waterResistPer": 8,
+      "airResistPer": 8,
+      "earthResist": 12,
+      "dodge": 8
+    }
+  },
+  {
+    "level": 120,
+    "name": "Bottes d'Inferno",
+    "panoply": "Panoplie Infernale",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 25,
+      "MP": 1,
+      "fireDamage": 12,
+      "prospecting": 15,
+      "initiative": 350,
+      "fireResistPer": 10,
+      "waterResistPer": -7,
+      "fireResist": 15,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 120,
+    "name": "Bottes de Styx",
+    "panoply": "Panoplie Fluviale",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "chance": 50,
+      "wisdom": 25,
+      "MP": 1,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "initiative": 350,
+      "waterResistPer": 10,
+      "fireResistPer": -7,
+      "waterResist": 15,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 120,
+    "name": "Bottes de Mandrin",
+    "panoply": "Panoplie Contrebandière",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "wisdom": 25,
+      "MP": 1,
+      "earthDamage": 12,
+      "prospecting": 15,
+      "initiative": 350,
+      "earthResistPer": 10,
+      "airResistPer": -7,
+      "earthResist": 15,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 120,
+    "name": "Bottes de Will Killson",
+    "panoply": "Panoplie Meurtrière",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "agility": 50,
+      "wisdom": 25,
+      "MP": 1,
+      "airDamage": 12,
+      "prospecting": 15,
+      "initiative": 350,
+      "airResistPer": 10,
+      "earthResistPer": -7,
+      "airResist": 15,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 198,
+    "name": "Bottes Vicieuses",
+    "panoply": "Panoplie Vicieuse",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 25,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "MP": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResist": 14,
+      "airResist": 14,
+      "criticalDamage": 8
+    }
+  },
+  {
+    "level": 196,
+    "name": "Bottes de Missiz Frizz",
+    "panoply": "Panoplie de Missiz Frizz",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 50,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "initiative": -201,
+      "neutralResist": 12,
+      "waterResist": 12,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 199,
+    "name": "Bottes de Nileza",
+    "panoply": "Panoplie de Nileza",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "MP": 1,
+      "fireDamage": 18,
+      "prospecting": 15,
+      "earthResist": 12,
+      "fireResist": 12,
+      "airResist": 12,
+      "dodge": 10,
+      "apReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Comte Harebourg",
+    "panoply": "Panoplie du Comte Harebourg",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "strength": 80,
+      "wisdom": 50,
+      "MP": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "neutralResist": 30,
+      "lock": 15,
+      "mpResist": -7,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Sinistrofu",
+    "panoply": "Panoplie du Sinistrofu",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "chance": 80,
+      "wisdom": 20,
+      "MP": 1,
+      "earthDamage": -16,
+      "waterDamage": 18,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "neutralResist": 15,
+      "waterResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Cycloïde",
+    "panoply": "Panoplie du Cycloïde",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "airResistPer": 10,
+      "earthResist": 15,
+      "criticalDamage": 10,
+      "pushbackDamage": -21
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Strigide",
+    "panoply": "Panoplie du Strigide",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "power": 75,
+      "MP": 1,
+      "neutralDamage": 13,
+      "earthDamage": 13,
+      "fireDamage": 13,
+      "waterDamage": 13,
+      "airDamage": 13,
+      "fireResistPer": 8,
+      "apResist": 8,
+      "criticalResist": -16
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Nocturlabe",
+    "panoply": "Panoplie du Nocturlabe",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 100,
+      "wisdom": 50,
+      "MP": 1,
+      "range": 1,
+      "waterDamage": 15,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 10,
+      "airResist": 20,
+      "criticalDamage": -11
+    }
+  },
+  {
+    "level": 195,
+    "name": "Sandales Ouzi",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "waterDamage": 18,
+      "airDamage": 18,
+      "earthResist": 20,
+      "airResist": 20,
+      "apResist": -6,
+      "mpResist": 8,
+      "criticalResist": -11,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Dogues",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 30,
+      "MP": 2,
+      "summon": 2,
+      "earthDamage": 14,
+      "fireDamage": 14,
+      "heal": 15,
+      "prospecting": 15,
+      "apReduction": 7
+    }
+  },
+  {
+    "level": 59,
+    "name": "Justobottes",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 40,
+      "criticalChance": 2,
+      "MP": 1,
+      "fireDamage": 3,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 119,
+    "name": "Bottes du Wabbit Céphale",
+    "panoply": "Panoplie du Wabbit Céphale",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 30,
+      "MP": 1,
+      "range": 1,
+      "waterResistPer": 10,
+      "airResist": 7,
+      "mpReduction": 5,
+      "apResist": -4
+    }
+  },
+  {
+    "level": 121,
+    "name": "Bottes du Wabbit Garou",
+    "panoply": "Panoplie du Wabbit Garou",
+    "category": "Bottes",
+    "stats": {
+      "health": 120,
+      "strength": 60,
+      "MP": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireResistPer": 6,
+      "waterResist": 6,
+      "apResist": 7,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ailobottes",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 10,
+      "agility": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Dragoubottes Roses",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "power": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Bottes Nō",
+    "category": "Bottes",
+    "stats": {
+      "health": 15,
+      "lock": 4
+    }
+  },
+  {
+    "level": 198,
+    "name": "Pikottes",
+    "panoply": "Pikoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "initiative": 500,
+      "neutralResistPer": 7,
+      "fireResist": 12,
+      "dodge": -5,
+      "mpReduction": 7,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 196,
+    "name": "Chaussures Hau",
+    "panoply": "Panoplie Obscure",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "apResist": 7,
+      "mpResist": -4
+    }
+  },
+  {
+    "level": 198,
+    "name": "Bottes Refois",
+    "panoply": "Panoplie d'Ombre",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "fireResistPer": 10,
+      "earthResist": 12,
+      "lock": 5,
+      "mpResist": 6
+    }
+  },
+  {
+    "level": 197,
+    "name": "Bottes du Père Fwetar",
+    "panoply": "Panoplie du Père Fwetar",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 20,
+      "intelligence": 20,
+      "chance": 20,
+      "agility": 20,
+      "wisdom": 30,
+      "power": 50,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "dodge": -4,
+      "criticalResist": 30
+    }
+  },
+  {
+    "level": 41,
+    "name": "Bottes Donion",
+    "panoply": "Panoplie d'Ambi Guman",
+    "category": "Bottes",
+    "stats": {
+      "health": 25,
+      "intelligence": 25,
+      "chance": 25,
+      "wisdom": 10,
+      "fireDamage": 3,
+      "waterDamage": 3
+    }
+  },
+  {
+    "level": 20,
+    "name": "Bottes Karnaval",
+    "panoply": "Panoplie Karnaval",
+    "category": "Bottes",
+    "stats": {
+      "health": 15,
+      "power": 10,
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "fireDamage": 2,
+      "waterDamage": 2,
+      "airDamage": 2
+    }
+  },
+  {
+    "level": 200,
+    "name": "Tongues de Nidas",
+    "panoply": "Panoplie de Nidas",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "wisdom": 50,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 15,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "airResist": 12,
+      "dodge": 10,
+      "mpReduction": 5,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pantoufles du Piloztère",
+    "panoply": "Panoplie du Piloztère",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 7,
+      "dodge": 10,
+      "apResist": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Lévitrof",
+    "panoply": "Panoplie du Lévitrof",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "earthResistPer": 8,
+      "dodge": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Kamasterisk",
+    "panoply": "Panoplie du Kamasterisk",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 25,
+      "fireResistPer": 10,
+      "waterResist": 12,
+      "lock": -10,
+      "mpReduction": 5,
+      "criticalResist": 15,
+      "pushbackResist": -11
+    }
+  },
+  {
+    "level": 151,
+    "name": "Bottes Phossiles",
+    "panoply": "Panoplie Phossile",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "wisdom": 30,
+      "power": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 98,
+    "name": "Bottes Précieuses",
+    "panoply": "Panoplie Précieuse",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "waterDamage": 2,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 102,
+    "name": "Bottes du Berserkoffre",
+    "panoply": "Panoplie du Berserkoffre",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 6,
+      "airDamage": 6,
+      "lock": 7
+    }
+  },
+  {
+    "level": 1,
+    "name": "Kamatongues",
+    "category": "Bottes",
+    "stats": {
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 127,
+    "name": "Gruchaussures",
+    "panoply": "Gruchoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "wisdom": 30,
+      "power": 40,
+      "criticalChance": 2,
+      "MP": 1,
+      "range": 1,
+      "airDamage": 7,
+      "prospecting": 20,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de la Cour Sombre",
+    "panoply": "Panoplie de la Cour Sombre",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "prospecting": 20,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de la Reine des Voleurs",
+    "panoply": "Panoplie de la Reine des Voleurs",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "waterResistPer": 10,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes des Malveilleurs",
+    "panoply": "Panoplie des Malveilleurs",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "lock": 10,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Katcheur",
+    "panoply": "Panoplie du Katcheur",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "initiative": 600
+    }
+  },
+  {
+    "level": 177,
+    "name": "Bottes Nécrotiques",
+    "panoply": "Panoplie Nécrotique",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "dodge": 5,
+      "apReduction": 6,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 180,
+    "name": "Bottes de Dremoan",
+    "panoply": "Panoplie de Dremoan",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "wisdom": 40,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 15,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 130,
+    "name": "Bottes du Capitaine Ekarlatte",
+    "panoply": "Panoplie du Capitaine Ekarlatte",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 30,
+      "wisdom": 30,
+      "power": 15,
+      "criticalChance": 3,
+      "MP": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "airResistPer": 7
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes de Frakacia",
+    "panoply": "Panoplie de Frakacia Leukocytine",
+    "category": "Bottes",
+    "stats": {
+      "chance": 25,
+      "wisdom": 15,
+      "waterDamage": 4,
+      "initiative": 70
+    }
+  },
+  {
+    "level": 200,
+    "name": "Baleinabottes",
+    "panoply": "Panoplie de la Baleine",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "AP": 1,
+      "MP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "dodge": 7,
+      "apResist": 0,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pataugastrique",
+    "panoply": "Panoplie des Krobes",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "AP": 1,
+      "MP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airResistPer": 10,
+      "lock": 15,
+      "apReduction": 5,
+      "criticalDamage": 15,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes des égarés",
+    "panoply": "Panoplie des égarés",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "agility": 70,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "MP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "dodge": 5,
+      "mpResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sabots de Vortex",
+    "panoply": "Panoplie de Vortex",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "heal": 12,
+      "waterResistPer": 10,
+      "apReduction": 5,
+      "mpResist": 0,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottarpille",
+    "panoply": "Harpinoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "heal": 15,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "lock": 20,
+      "mpResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Owesli",
+    "panoply": "Panoplie Pnose",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 176,
+    "name": "Bottes de XLII",
+    "panoply": "Panoplie de XLII",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 35,
+      "MP": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "airDamage": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 10,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 174,
+    "name": "Pantoufles de Soissanth",
+    "panoply": "Panoplie de Soissanth",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterResistPer": 10,
+      "waterResist": 10,
+      "airResist": 10,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 123,
+    "name": "Bottes Xélomorphes",
+    "panoply": "Panoplie Xélomorphe",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "power": 15,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "heal": 7,
+      "prospecting": 15,
+      "initiative": 300,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 10,
+    "name": "Bottes de Fouduglen",
+    "panoply": "Panoplie Fouduglen",
+    "category": "Bottes",
+    "stats": {
+      "dodge": 4,
+      "pushbackDamage": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sandales des Fonds marins",
+    "panoply": "Panoplie des Fonds marins",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "lock": 10,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Ransitoires",
+    "panoply": "Panoplie Transcendante",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 14596,
+      "MP": 1
+    }
+  },
+  {
+    "level": 93,
+    "name": "Bottes Soyeuses",
+    "panoply": "Panoplie de la Tisseuse",
+    "category": "Bottes",
+    "stats": {
+      "health": 70,
+      "chance": 30,
+      "wisdom": 10,
+      "MP": 1,
+      "range": 1,
+      "waterDamage": 3,
+      "prospecting": 5,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 47,
+    "name": "Printatanes",
+    "panoply": "Printanoplie",
+    "category": "Bottes",
+    "stats": {
+      "power": 15,
+      "MP": 1,
+      "range": 0,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 40,
+    "name": "Cocobottes",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "intelligence": 20,
+      "range": 1,
+      "mpResist": 3
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Voldelor",
+    "panoply": "Panoplie de Voldelor",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 10,
+      "MP": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "dodge": 7,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 180,
+    "name": "Bottes du K.O.",
+    "panoply": "Panoplie du K.O.",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "fireResist": 12,
+      "waterResist": 12,
+      "dodge": 7,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 60,
+    "name": "Bottes des 1001 Griffes",
+    "panoply": "Panoplie des 1001 Griffes",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "MP": 1,
+      "prospecting": 10,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes des Grocoricos",
+    "panoply": "Panoplie des Grocoricos",
+    "category": "Bottes",
+    "stats": {
+      "strength": 20,
+      "chance": 20,
+      "range": 1,
+      "mpResist": 0,
+      "criticalResist": 0
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes des Redroz",
+    "panoply": "Panoplie des Redroz",
+    "category": "Bottes",
+    "stats": {
+      "health": 0,
+      "intelligence": 20,
+      "agility": 20,
+      "criticalChance": 0,
+      "range": 1
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes des Pamous",
+    "panoply": "Panoplie des Pamous",
+    "category": "Bottes",
+    "stats": {
+      "chance": 20,
+      "agility": 20,
+      "range": 1,
+      "lock": 0,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes des Zoblaks",
+    "panoply": "Panoplie des Zoblaks",
+    "category": "Bottes",
+    "stats": {
+      "strength": 20,
+      "intelligence": 20,
+      "range": 1,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "apResist": 0
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Initiales",
+    "panoply": "Panoplie Quadramentale",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13719,
+      "MP": 1
+    }
+  },
+  {
+    "level": 59,
+    "name": "Souliers Pineux",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "intelligence": 20,
+      "earthDamage": 4,
+      "fireDamage": 4
+    }
+  },
+  {
+    "level": 30,
+    "name": "Bottes de Marline",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15,
+      "fireDamage": 4
+    }
+  },
+  {
+    "level": 40,
+    "name": "Bottes du Monarque",
+    "panoply": "Panoplie du Monarque",
+    "category": "Bottes",
+    "stats": {
+      "health": 40,
+      "intelligence": 30,
+      "criticalChance": 4,
+      "lock": 3
+    }
+  },
+  {
+    "level": 38,
+    "name": "Bottes du Garde Royal",
+    "panoply": "Panoplie du Garde Royal",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "agility": 20,
+      "MP": 1,
+      "initiative": 0,
+      "lock": 0,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 2,
+    "name": "Fecaflip",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Roi Joueur",
+    "panoply": "Panoplie du Roi Joueur",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "dodge": 0,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de la Dame du Hasard",
+    "panoply": "Panoplie de la Dame du Hasard",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airResistPer": 10,
+      "dodge": 6,
+      "mpReduction": 6,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Chalœil",
+    "panoply": "Panoplie du Chalœil",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "power": 10,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "fireResistPer": 10,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sandales d'Atcham",
+    "panoply": "Panoplie d'Atcham",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "apReduction": 7,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 163,
+    "name": "Bottes de Ush",
+    "panoply": "Panoplie de Ush Galesh",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "initiative": 300,
+      "earthResistPer": 7,
+      "pushbackDamage": 12
+    }
+  },
+  {
+    "level": 118,
+    "name": "Bottes du Pounicheur",
+    "panoply": "Panoplie du Pounicheur",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "wisdom": 25,
+      "power": 15,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 10,
+      "heal": 10,
+      "initiative": 300,
+      "dodge": 7
+    }
+  },
+  {
+    "level": 40,
+    "name": "Bottes Dragocourse",
+    "panoply": "Panoplie Dragocourse",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "wisdom": 15,
+      "power": 15,
+      "summon": 1
+    }
+  },
+  {
+    "level": 40,
+    "name": "Sandalnéaires",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "criticalChance": 0,
+      "MP": 1,
+      "range": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Innommables",
+    "panoply": "Panoplie des Profondeurs",
+    "category": "Bottes",
+    "stats": {
+      "health": 500,
+      "intelligence": 100,
+      "wisdom": 60,
+      "MP": 1,
+      "fireDamage": 18,
+      "heal": 15,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Palmes Trithons",
+    "panoply": "Panoplie des Abîmes",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "agility": 100,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "MP": 1,
+      "airDamage": 20,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "mpResist": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Tentassons",
+    "panoply": "Poulplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "lock": 7,
+      "apReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de Meno",
+    "panoply": "Panoplie de Meno",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 12,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de l'Indicible",
+    "panoply": "Panoplie de l'Indicible",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "MP": 1,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "airDamage": 20,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Trithon",
+    "panoply": "Panoplie Trithon",
+    "category": "Bottes",
+    "stats": {
+      "health": 500,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "range": 1,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "lock": 10,
+      "apResist": 7,
+      "criticalDamage": 25,
+      "pushbackDamage": 30
+    }
+  },
+  {
+    "level": 83,
+    "name": "Bottes Ouroboulos",
+    "panoply": "Panoplie Ouroboulos",
+    "category": "Bottes",
+    "stats": {
+      "health": 80,
+      "strength": 25,
+      "chance": 25,
+      "wisdom": 10,
+      "MP": 1,
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "waterDamage": 2,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 50,
+    "name": "Chaussettenlaine",
+    "panoply": "Panoplienlaine",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "MP": 1,
+      "waterResistPer": 2,
+      "apResist": 0
+    }
+  },
+  {
+    "level": 173,
+    "name": "Chaussquales",
+    "panoply": "Pernoplie",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airResistPer": 7,
+      "dodge": 5,
+      "apResist": 5,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sandales de Tal Kasha",
+    "panoply": "Panoplie de Tal Kasha",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "MP": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "apReduction": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottistik",
+    "panoply": "Panoplistik",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 35,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 12,
+      "airResistPer": 10,
+      "criticalResist": 30,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 100,
+    "name": "Bottes Harcie",
+    "panoply": "Panoplie Enragée",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 13790,
+      "MP": 1
+    }
+  },
+  {
+    "level": 193,
+    "name": "Chaussons du Comte Razof",
+    "panoply": "Panoplie du Comte Razof",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterResistPer": 10,
+      "lock": 7,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 195,
+    "name": "Chaussures Face",
+    "panoply": "Panoplie des Chassouilleurs",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "MP": 1,
+      "range": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "mpReduction": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Goulbottes",
+    "panoply": "Panoplie de la Goule",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "MP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 92,
+    "name": "Bottes de Choudini",
+    "panoply": "Panoplie de Choudini",
+    "category": "Bottes",
+    "stats": {
+      "intelligence": 40,
+      "chance": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "initiative": 0,
+      "dodge": 4,
+      "criticalDamage": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Cœur Vaillant",
+    "panoply": "Panoplie du Cœur Vaillant",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Cœur Saignant",
+    "panoply": "Panoplie du Cœur Saignant",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 90,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 7,
+      "dodge": 0,
+      "mpReduction": 7,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de l'Esprit Salvateur",
+    "panoply": "Panoplie de l'Esprit Salvateur",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 60,
+      "criticalChance": 0,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de l'Esprit Malsain",
+    "panoply": "Panoplie de l'Esprit Malsain",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 15,
+      "fireResistPer": 10,
+      "lock": 12,
+      "mpResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pompes Funèbres",
+    "panoply": "Panoplie Brûlâme",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "criticalChance": 2,
+      "MP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Chaussures Ardentes",
+    "panoply": "Panoplie Ardente",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 40,
+      "criticalChance": 0,
+      "MP": 1,
+      "summon": 1,
+      "fireDamage": 15,
+      "heal": 12,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "lock": 7,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sabots Volcaniques",
+    "panoply": "Panoplie Volcanique",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "MP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 12,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 7,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Chaussons de Macrab",
+    "panoply": "Panoplie de Bethel",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 12,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Honyme",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "AP": 1,
+      "MP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airResistPer": 10,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes de Mille Lieues",
+    "category": "Bottes",
+    "stats": {
+      "health": 300,
+      "wisdom": 40,
+      "power": 80,
+      "MP": 1,
+      "initiative": 600,
+      "airResistPer": 10,
+      "dodge": 20,
+      "lock": 0,
+      "mpResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Cul Botté",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 40,
+      "MP": 1,
+      "range": 0,
+      "neutralResistPer": 2,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2,
+      "mpReduction": 20,
+      "pushbackDamage": 40
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sandales Paztek",
+    "panoply": "Panoplie Paztek",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "intelligence": 80,
+      "chance": 80,
+      "wisdom": 40,
+      "criticalChance": 0,
+      "MP": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "neutralResistPer": 10,
+      "fireResistPer": 10,
+      "lock": 10,
+      "criticalResist": 0,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 57,
+    "name": "Mawabottes",
+    "panoply": "Panoplie du Mawabouaino",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "chance": 15,
+      "MP": 1,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 126,
+    "name": "Bottes Croquantes",
+    "panoply": "Panoplie Croquante",
+    "category": "Bottes",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "MP": 1,
+      "waterDamage": 6,
+      "prospecting": 15,
+      "initiative": 250,
+      "dodge": 7,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes Lunaires",
+    "panoply": "Panoplie Lunaire",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 70,
+      "MP": 1,
+      "fireDamage": 18,
+      "waterDamage": 18,
+      "heal": 8,
+      "initiative": 400,
+      "apReduction": 10,
+      "mpReduction": 10,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Solerets de Misère",
+    "panoply": "Panoplie de Misère",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "power": 70,
+      "criticalChance": 3,
+      "MP": 1,
+      "range": 1,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "waterResistPer": 10,
+      "lock": 0,
+      "mpResist": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Solerets de Guerre",
+    "panoply": "Panoplie de Guerre",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "intelligence": 100,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 20,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 20,
+      "dodge": 0,
+      "mpReduction": 10,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 106,
+    "name": "Boutures",
+    "panoply": "Panoplie Plantala",
+    "category": "Bottes",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 15,
+      "MP": 1,
+      "prospecting": 5,
+      "earthResistPer": 3,
+      "neutralResist": 8,
+      "lock": 5,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 156,
+    "name": "Bottes de Brume",
+    "panoply": "Panoplie de Brume",
+    "category": "Bottes",
+    "stats": {
+      "health": 150,
+      "strength": 30,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 25,
+      "criticalChance": 0,
+      "MP": 1,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 30,
+      "earthResistPer": 4,
+      "lock": 6,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 166,
+    "name": "Geta des Tombeaux",
+    "panoply": "Panoplie des Tombeaux",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "MP": 1,
+      "fireDamage": 10,
+      "heal": 5,
+      "initiative": 300,
+      "airResistPer": 7,
+      "fireResist": 10,
+      "airResist": 10,
+      "mpResist": 5,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Solerets Kritur",
+    "panoply": "Panoplie du Wukin",
+    "category": "Bottes",
+    "stats": {
+      "health": 500,
+      "intelligence": 80,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "MP": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "apReduction": 12,
+      "mpReduction": 0,
+      "apResist": 0,
+      "mpResist": 10,
+      "criticalResist": 0,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ciel de Foudre Noire",
+    "panoply": "Reliques de l'Aurore Pourpre",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "intelligence": 70,
+      "chance": 35,
+      "agility": 35,
+      "wisdom": 30,
+      "MP": 1,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "waterResistPer": 8,
+      "airResistPer": 8,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "dodge": 4,
+      "lock": 0,
+      "apResist": 4,
+      "mpResist": 0,
+      "criticalResist": 0,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 148,
+    "name": "Bottes Crépitantes de Malter",
+    "panoply": "Panoplie des Malters",
+    "category": "Bottes",
+    "stats": {
+      "health": 250,
+      "wisdom": 25,
+      "MP": 1,
+      "heal": 20,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "apReduction": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Bottes du Directeur Grunob",
+    "panoply": "Panoplie du Directeur Grunob",
+    "category": "Bottes",
+    "stats": {
+      "health": 20,
+      "power": 15,
+      "MP": 1,
+      "lock": 0,
+      "pushbackDamage": 5
+    }
+  },
+  {
+    "level": 125,
+    "name": "Geta Ankarton",
+    "panoply": "Panoplie Ankarton",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 1000
+    }
+  },
+  {
+    "level": 200,
+    "name": "Éternelle Poursuite",
+    "panoply": "Malédiction de Cire Momore",
+    "category": "Bottes",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "power": 50,
+      "MP": 1,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 10,
+      "fireResistPer": 10,
+      "lock": 10,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 52,
+    "name": "Bottes des Rebelles",
+    "panoply": "Panoplie des Rebelles",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "strength": 15,
+      "intelligence": 15,
+      "wisdom": 10,
+      "criticalChance": 0,
+      "MP": 1
+    }
+  },
+  {
+    "level": 54,
+    "name": "Bottes de trappeur albueran",
+    "panoply": "Panoplie de trappeur albueran",
+    "category": "Bottes",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "agility": 25,
+      "MP": 1,
+      "dodge": 0,
+      "apReduction": 0
+    }
+  },
+  {
+    "level": 100,
+    "name": "Jambières Hitaj",
+    "panoply": "Panoplie de l'Héritage",
+    "category": "Bottes",
+    "stats": {
+      "undefined": 23738,
+      "MP": 1
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bottes du Captain Chafer",
+    "panoply": "Panoplie du Captain Chafer",
+    "category": "Bottes",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "MP": 1,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "initiative": 400,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 10,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 1,
+    "name": "Les Crâmptés",
+    "panoply": "Il n'y a pas de pano",
+    "category": "Bottes",
+    "stats": {}
+  }
+]

@@ -1,0 +1,5138 @@
+[
+  {
+    "level": 31,
+    "name": "Ceinture de Puissance",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "chance": 40,
+      "agility": 0,
+      "criticalChance": 2,
+      "waterDamage": 2
+    }
+  },
+  {
+    "level": 33,
+    "name": "Ceinture du Tot",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "intelligence": 0,
+      "criticalChance": 5,
+      "damage": 3
+    }
+  },
+  {
+    "level": 9,
+    "name": "Ceinture Vitalesque",
+    "category": "Ceinture",
+    "stats": {
+      "health": 35
+    }
+  },
+  {
+    "level": 8,
+    "name": "Ceinture Forcesque",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 12,
+      "earthDamage": 1
+    }
+  },
+  {
+    "level": 8,
+    "name": "Ceinture Agilesque",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 12,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 27,
+    "name": "Ceinture d'Endurance",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "strength": 40,
+      "agility": 0
+    }
+  },
+  {
+    "level": 17,
+    "name": "Ceinture de Sécurité",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 1,
+    "name": "Ceinture du Kobeer",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 2,
+      "agility": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Ceinture de Chance",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 7
+    }
+  },
+  {
+    "level": 50,
+    "name": "Ceinture Fulgurante",
+    "panoply": "Panoplie Fulgurante",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "wisdom": 30,
+      "AP": 1,
+      "damage": 3
+    }
+  },
+  {
+    "level": 48,
+    "name": "L'Adelus",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 25,
+      "power": 10,
+      "criticalChance": 4,
+      "damage": 4
+    }
+  },
+  {
+    "level": 50,
+    "name": "Ceinture Luthuthu",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "agility": -21,
+      "power": 10,
+      "range": 1,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 55,
+    "name": "Ceinture du Dodu Trembleur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "chance": 0,
+      "agility": 0,
+      "power": 10,
+      "summon": 1,
+      "neutralResistPer": 2,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 84,
+    "name": "Ceinture des Vents",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 15,
+      "criticalChance": 5,
+      "range": 1,
+      "damage": 6
+    }
+  },
+  {
+    "level": 27,
+    "name": "Ceinture de Célérité",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 30,
+      "wisdom": 0,
+      "airResistPer": 2,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 13,
+    "name": "Ceinture de Poche",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 10,
+      "pods": 110
+    }
+  },
+  {
+    "level": 34,
+    "name": "Puissance de Crocoburio",
+    "panoply": "Âme de Crocoburio",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "power": 15,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 28,
+    "name": "La Croqueuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 0,
+      "intelligence": 40,
+      "heal": 10,
+      "fireResistPer": 2,
+      "neutralResistPer": 0
+    }
+  },
+  {
+    "level": 37,
+    "name": "L'Ami Léhunui",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "wisdom": 25,
+      "power": 20,
+      "undefined": 0,
+      "waterResistPer": 5,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 36,
+    "name": "Ramoume l'Eternelle",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "wisdom": 25,
+      "power": 15,
+      "undefined": 0,
+      "airResistPer": 5,
+      "earthResistPer": 0
+    }
+  },
+  {
+    "level": 80,
+    "name": "Puissante Ceinture Fulgurante",
+    "panoply": "Puissante Panoplie Fulgurante",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "damage": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "La Végète Hâtif",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 25,
+      "agility": 25,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "fireResistPer": 0,
+      "waterResistPer": 0
+    }
+  },
+  {
+    "level": 27,
+    "name": "La Mouthmou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "summon": 1,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 49,
+    "name": "Chtévu",
+    "category": "Ceinture",
+    "stats": {
+      "criticalChance": 3,
+      "range": 1,
+      "neutralResistPer": 5
+    }
+  },
+  {
+    "level": 55,
+    "name": "Ceinture du Rat",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "initiative": 200,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "Kwakture de Flammes",
+    "panoply": "Panoplie du Kwak de Flammes",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "fireResistPer": 5,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 20,
+    "name": "Ceinture du Bouftou",
+    "panoply": "Panoplie du Bouftou",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 15,
+      "intelligence": 15,
+      "pods": 500
+    }
+  },
+  {
+    "level": 45,
+    "name": "Abrature",
+    "panoply": "Panoplie de l'Abraknyde",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "pods": 150,
+      "neutralResistPer": 6
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture Royale du Bouftou",
+    "panoply": "Panoplie du Bouftou Royal",
+    "category": "Ceinture",
+    "stats": {
+      "health": 70,
+      "criticalChance": 2,
+      "pods": 200
+    }
+  },
+  {
+    "level": 60,
+    "name": "Geloture",
+    "panoply": "Panoplie Gelax",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "intelligence": 50,
+      "criticalChance": 5,
+      "dodge": 7
+    }
+  },
+  {
+    "level": 6,
+    "name": "Ceinture de l'aventurier",
+    "panoply": "Panoplie du Jeune Aventurier",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 5,
+      "intelligence": 5,
+      "chance": 5,
+      "agility": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "Mégature",
+    "panoply": "Méganoplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "wisdom": 15,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 46,
+    "name": "Ceinture Vioutifoule",
+    "panoply": "Panoplie Vioutifoule",
+    "category": "Ceinture",
+    "stats": {
+      "health": 35,
+      "wisdom": 15,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 41,
+    "name": "Kwakture de Glace",
+    "panoply": "Panoplie du Kwak de Glace",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "waterResistPer": 5,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 120,
+    "name": "Ceinture Corbaquiale",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 50,
+      "wisdom": 40,
+      "prospecting": 10,
+      "initiative": 330,
+      "earthResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 96,
+    "name": "Ceinture Chouqueuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "strength": 50,
+      "power": 15,
+      "damage": 7,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture Kokokette",
+    "category": "Ceinture",
+    "stats": {
+      "health": 15,
+      "strength": 30,
+      "intelligence": 30,
+      "neutralResistPer": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture Tortue Jaune",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "agility": 40,
+      "range": 1,
+      "prospecting": 10,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture Tortue Bleue",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "chance": 40,
+      "range": 1,
+      "prospecting": 10,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture Tortue Verte",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "range": 1,
+      "prospecting": 10,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture Tortue Rouge",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 40,
+      "range": 1,
+      "prospecting": 10,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 50,
+    "name": "Ceinture Kolante",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "power": 15,
+      "criticalChance": 4,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 29,
+    "name": "Ceinture Banisation",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 32,
+    "name": "Ceinture Banisation Sauvage",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "criticalChance": 5,
+      "initiative": 65
+    }
+  },
+  {
+    "level": 7,
+    "name": "Ceinture du Kwabe",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 7,
+      "waterDamage": 2
+    }
+  },
+  {
+    "level": 81,
+    "name": "Ceinture Mulante",
+    "category": "Ceinture",
+    "stats": {
+      "health": 70,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "initiative": 200,
+      "earthResistPer": 3,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 129,
+    "name": "Ceinture Meulante",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "wisdom": 50,
+      "damage": 10,
+      "initiative": 600,
+      "earthResist": 15,
+      "fireResist": 15,
+      "waterResist": 15,
+      "airResist": 15
+    }
+  },
+  {
+    "level": 96,
+    "name": "Ceinture Dracochoune",
+    "panoply": "Panoplie du Dragon Cochon",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "chance": 20,
+      "wisdom": 20,
+      "power": 20,
+      "range": 1,
+      "summon": 1,
+      "damage": 3,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 49,
+    "name": "Ceinture Chafeuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "strength": 40,
+      "criticalChance": 5,
+      "criticalDamage": 5
+    }
+  },
+  {
+    "level": 26,
+    "name": "Ceinture Piquante",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 15,
+      "criticalChance": 3,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 65,
+    "name": "Ceinture Ouginakale",
+    "panoply": "Panoplie Ouginakale",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 25,
+      "agility": 25,
+      "power": 15,
+      "fireResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 53,
+    "name": "Ceinture Bontarienne",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 30,
+      "initiative": 150,
+      "fireResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 53,
+    "name": "Ceinture Brâkmarienne",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 40,
+      "earthDamage": 3,
+      "initiative": 300,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 67,
+    "name": "La Xerbo",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "summon": 1,
+      "damage": 2,
+      "pods": 150,
+      "airResistPer": 2
+    }
+  },
+  {
+    "level": 117,
+    "name": "Ceinture de l'Amant d'Ha",
+    "category": "Ceinture",
+    "stats": {
+      "health": 100,
+      "wisdom": 50,
+      "damage": 8,
+      "prospecting": 13,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10
+    }
+  },
+  {
+    "level": 59,
+    "name": "Slip Kangouwou du Wabbit GM",
+    "panoply": "Panoplie du Wabbit",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "wisdom": 30,
+      "criticalChance": 9,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 20,
+    "name": "Ceinture de l'Homme Ours",
+    "panoply": "Panoplie de l'Homme Ours",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "heal": 2
+    }
+  },
+  {
+    "level": 103,
+    "name": "Ceinture Fourbissante",
+    "panoply": "Panoplie Fourbasse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 120,
+      "strength": 35,
+      "chance": 45,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "airResistPer": 7,
+      "lock": 4
+    }
+  },
+  {
+    "level": 41,
+    "name": "Kwakture de Terre",
+    "panoply": "Panoplie du Kwak de Terre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "earthResistPer": 5,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 41,
+    "name": "Kwakture de Vent",
+    "panoply": "Panoplie du Kwak de Vent",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "airResistPer": 5,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 80,
+    "name": "Farlature",
+    "panoply": "Panoplie de Farle Ingalsse",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "wisdom": 15,
+      "power": 10,
+      "prospecting": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 13,
+    "name": "Ceinture Fleurie",
+    "panoply": "Panoplie Champêtre",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20
+    }
+  },
+  {
+    "level": 100,
+    "name": "Slip du Chef Bwork",
+    "panoply": "Panoplie du Chef Bwork",
+    "category": "Ceinture",
+    "stats": {
+      "health": 45,
+      "strength": 35,
+      "agility": 35,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "damage": 4,
+      "prospecting": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "fireResistPer": -4
+    }
+  },
+  {
+    "level": 66,
+    "name": "Ceinture du Chef Crocodaille",
+    "panoply": "Panoplie du Chef Crocodaille",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 30,
+      "agility": 30,
+      "power": 15,
+      "fireResistPer": 5,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 18,
+    "name": "Sanglature",
+    "panoply": "Panoplie du Sanglier",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "criticalChance": 2,
+      "heal": 5
+    }
+  },
+  {
+    "level": 11,
+    "name": "Araknoture",
+    "panoply": "Panoplie Arakne",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "agility": 10
+    }
+  },
+  {
+    "level": 15,
+    "name": "Ceinture du Bandit",
+    "panoply": "Panoplie du Bandit",
+    "category": "Ceinture",
+    "stats": {
+      "health": 10,
+      "criticalChance": 2,
+      "neutralDamage": 1,
+      "earthDamage": 1,
+      "fireDamage": 1,
+      "waterDamage": 1,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 33,
+    "name": "Ceinture du Prespic",
+    "panoply": "Panoplie du Prespic",
+    "category": "Ceinture",
+    "stats": {
+      "range": 1,
+      "fireDamage": 3,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture du Craqueleur",
+    "panoply": "Panoplie du Craqueleur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "chance": 20,
+      "wisdom": 15,
+      "pods": 300,
+      "airResistPer": 5,
+      "lock": 7,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 46,
+    "name": "Scarature Verte",
+    "panoply": "Panoplie du Scarafeuille Vert",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "wisdom": 15,
+      "earthResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Scarature Blanche",
+    "panoply": "Panoplie du Scarafeuille Blanc",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "wisdom": 15,
+      "airResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Scarature Rouge",
+    "panoply": "Panoplie du Scarafeuille Rouge",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "wisdom": 15,
+      "fireResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Scarature Bleue",
+    "panoply": "Panoplie du Scarafeuille Bleu",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "wisdom": 15,
+      "waterResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
+    }
+  },
+  {
+    "level": 49,
+    "name": "String du Mulou",
+    "panoply": "Panoplie du Mulou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "chance": 25,
+      "damage": 3,
+      "earthResistPer": 3
+    }
+  },
+  {
+    "level": 86,
+    "name": "Ceinture de Sangroku",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "agility": 60,
+      "heal": 15,
+      "prospecting": 15,
+      "waterResistPer": 5,
+      "dodge": 7
+    }
+  },
+  {
+    "level": 47,
+    "name": "Ceinture Noire de Frank Lee Bruce",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 125,
+    "name": "Ceinture Sula",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "agility": 50,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "neutralResist": 12,
+      "trapPower": 20,
+      "trapDamage": 20
+    }
+  },
+  {
+    "level": 125,
+    "name": "Xénature",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 50,
+      "heal": 5,
+      "prospecting": 20,
+      "initiative": 300,
+      "neutralResistPer": 5,
+      "fireResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture Akwadala",
+    "panoply": "Panoplie Akwadala",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "wisdom": 20,
+      "pods": 150,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Ceinture Terrdala",
+    "panoply": "Panoplie Terrdala",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "strength": 40,
+      "summon": 2,
+      "damage": 4,
+      "pods": 200,
+      "earthResistPer": 10
+    }
+  },
+  {
+    "level": 81,
+    "name": "Ceinture Feudala",
+    "panoply": "Panoplie Feudala",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "intelligence": 40,
+      "wisdom": 10,
+      "criticalChance": 5,
+      "damage": 5,
+      "heal": 20
+    }
+  },
+  {
+    "level": 70,
+    "name": "Ceinture Aerdala",
+    "panoply": "Panoplie Aerdala",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "agility": 40,
+      "wisdom": 20,
+      "fireResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 164,
+    "name": "Goldoture",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "wisdom": 50,
+      "power": 25,
+      "criticalChance": 4,
+      "summon": 2,
+      "damage": 10,
+      "prospecting": 20,
+      "neutralResist": 10
+    }
+  },
+  {
+    "level": 85,
+    "name": "Ceinture du Boufcoul",
+    "panoply": "Panoplie du Boufcoul",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "intelligence": 30,
+      "agility": 30,
+      "wisdom": 12,
+      "summon": 1,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "airDamage": 3,
+      "initiative": 0,
+      "pods": 300,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 71,
+    "name": "Ceinture d'une Femme en Or",
+    "category": "Ceinture",
+    "stats": {
+      "health": 70,
+      "intelligence": 40,
+      "summon": 1,
+      "prospecting": 15,
+      "pods": 500
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinture du Koalak",
+    "panoply": "Panoplie du Koalak",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 10,
+      "summon": 1,
+      "heal": 7,
+      "prospecting": 15,
+      "initiative": 300,
+      "pods": 200
+    }
+  },
+  {
+    "level": 22,
+    "name": "Ceinture du Tofu",
+    "panoply": "Panoplie du Tofu",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 10,
+      "agility": 10,
+      "pods": 200
+    }
+  },
+  {
+    "level": 51,
+    "name": "Scarature Dorée",
+    "panoply": "Panoplie du Scarabosse Doré",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "criticalChance": 2,
+      "heal": 7,
+      "neutralResistPer": 5
+    }
+  },
+  {
+    "level": 20,
+    "name": "Ceinturemuda du Paysan",
+    "panoply": "Panoplie du Paysan",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "chance": 20,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Scarature Noire",
+    "panoply": "Panoplie du Scarafeuille Noir",
+    "category": "Ceinture",
+    "stats": {
+      "criticalChance": 4,
+      "summon": 1,
+      "prospecting": 10,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 79,
+    "name": "Ceinture du Craqueleur Légendaire",
+    "panoply": "Panoplie du Craqueleur Légendaire",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "agility": 30,
+      "wisdom": 25,
+      "summon": 1,
+      "damage": 5,
+      "initiative": 150,
+      "pods": 300
+    }
+  },
+  {
+    "level": 7,
+    "name": "Ceinture du Piou Rouge",
+    "panoply": "Panoplie du Piou Rouge",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "fireDamage": 1
+    }
+  },
+  {
+    "level": 12,
+    "name": "Ceinture du Piou Bleu",
+    "panoply": "Panoplie du Piou Bleu",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 10,
+      "waterDamage": 1
+    }
+  },
+  {
+    "level": 11,
+    "name": "Ceinture du Piou Violet",
+    "panoply": "Panoplie du Piou Violet",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 10,
+      "initiative": 50
+    }
+  },
+  {
+    "level": 9,
+    "name": "Ceinture du Piou Jaune",
+    "panoply": "Panoplie du Piou Jaune",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 8,
+    "name": "Ceinture du Piou Vert",
+    "panoply": "Panoplie du Piou Vert",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "summon": 1
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ceinture du Piou Rose",
+    "panoply": "Panoplie du Piou Rose",
+    "category": "Ceinture",
+    "stats": {
+      "wisdom": 10,
+      "heal": 1
+    }
+  },
+  {
+    "level": 20,
+    "name": "Ceinture en Mousse",
+    "panoply": "Panoplie en Mousse",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 30,
+      "dodge": 2
+    }
+  },
+  {
+    "level": 125,
+    "name": "Ceinture du Meulou",
+    "panoply": "Panoplie du Meulou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "wisdom": 40,
+      "range": 1,
+      "damage": 6,
+      "prospecting": 20,
+      "neutralResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": -4
+    }
+  },
+  {
+    "level": 109,
+    "name": "Ceinture du Minotoror",
+    "panoply": "Panoplie du Minotoror",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "summon": 1,
+      "heal": 10,
+      "prospecting": 10,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "waterResistPer": 10,
+      "criticalDamage": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 149,
+    "name": "Ceinture du Minotot",
+    "panoply": "Panoplie du Minotot",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 15,
+      "summon": 1,
+      "heal": 8,
+      "prospecting": 25,
+      "pods": 500,
+      "neutralResist": 6,
+      "earthResist": 6,
+      "airResist": 6
+    }
+  },
+  {
+    "level": 126,
+    "name": "Ceinture du Dragoeuf",
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "chance": 20,
+      "wisdom": 20,
+      "summon": 1,
+      "pods": 350,
+      "fireResistPer": 3,
+      "airResistPer": 3,
+      "fireResist": 10,
+      "airResist": 10,
+      "criticalDamage": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 80,
+    "name": "Shikature",
+    "panoply": "Panoplie de Shika Ingalsse",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15,
+      "power": 10,
+      "prospecting": 5,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 112,
+    "name": "Ceinture du Mominotor",
+    "panoply": "Panoplie du Mominotor",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "wisdom": 40,
+      "range": 1,
+      "prospecting": 10,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "waterResistPer": 10,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  {
+    "level": 101,
+    "name": "Ceinture du Rat Noir",
+    "panoply": "Panoplie du Rat Noir",
+    "category": "Ceinture",
+    "stats": {
+      "health": 140,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 15,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "prospecting": 5,
+      "initiative": 150,
+      "fireResistPer": 7,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 102,
+    "name": "Ceinture du Rat Blanc",
+    "panoply": "Panoplie du Rat Blanc",
+    "category": "Ceinture",
+    "stats": {
+      "health": 120,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 15,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "prospecting": 5,
+      "initiative": 150,
+      "airResistPer": 7,
+      "apReduction": 4
+    }
+  },
+  {
+    "level": 133,
+    "name": "Ceinture Cérémoniale du Seigneur des Rats",
+    "panoply": "Panoplie Cérémoniale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "intelligence": 30,
+      "agility": 50,
+      "wisdom": 25,
+      "power": 10,
+      "summon": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "pods": 500,
+      "waterResistPer": 8,
+      "neutralResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 111,
+    "name": "Abrature Ancestrale",
+    "panoply": "Panoplie Ancestrale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 35,
+      "chance": 45,
+      "wisdom": 20,
+      "criticalChance": 4,
+      "damage": 6,
+      "prospecting": 15,
+      "neutralResist": 6,
+      "earthResist": 6,
+      "fireResist": 6,
+      "waterResist": 6,
+      "airResist": 6
+    }
+  },
+  {
+    "level": 141,
+    "name": "String Automnal du Chêne Mou",
+    "panoply": "Panoplie du Chêne Mou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 20,
+      "criticalChance": 4,
+      "range": 1,
+      "damage": 10,
+      "heal": 4,
+      "prospecting": 15,
+      "initiative": 200,
+      "pods": 600,
+      "neutralResist": 10,
+      "airResist": 10
+    }
+  },
+  {
+    "level": 1,
+    "name": "La Spamette",
+    "panoply": "Panoplie du Boune",
+    "category": "Ceinture",
+    "stats": {
+      "health": 10,
+      "intelligence": 6
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Hynère",
+    "panoply": "Panoplie Téméraire",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13146
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Buhlent",
+    "panoply": "Panoplie de Gouttière",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 14311
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Glinglin",
+    "panoply": "Panoplie Criminelle",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 12911
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Lupine",
+    "panoply": "Panoplie Intemporelle",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 14651
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Holon",
+    "panoply": "Panoplie Altruiste",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 25864
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Luthe",
+    "panoply": "Panoplie Sauvage",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13522
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Hans",
+    "panoply": "Panoplie Exsangue",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 12765
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Bodiézèle",
+    "panoply": "Panoplie de l'Innombrable",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 12608
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Huée",
+    "panoply": "Panoplie Ethylique",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 12798
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Cible",
+    "panoply": "Panoplie du Prince des voleurs",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13066
+    }
+  },
+  {
+    "level": 130,
+    "name": "Gaine Hage",
+    "panoply": "Panoplie Indestructible",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13017
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Gessant",
+    "panoply": "Panoplie Vénérable",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13366
+    }
+  },
+  {
+    "level": 182,
+    "name": "Ceinture Rasboulaire du Rasboul",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "agility": 60,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 6,
+      "range": 1,
+      "damage": 7,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "waterResistPer": 10
+    }
+  },
+  {
+    "level": 148,
+    "name": "Ceinture Bitoufale de Prosper Youpla",
+    "panoply": "Panoplie Bitoufale",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 2,
+      "damage": 5,
+      "heal": 5,
+      "prospecting": 20,
+      "initiative": 300,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 128,
+    "name": "Ceinture sombre en Abrakleur",
+    "panoply": "Panoplie Sombre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "damage": 5,
+      "heal": 7,
+      "prospecting": 10,
+      "airResistPer": 6,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 126,
+    "name": "Ceinture Claire en Abrakleur",
+    "panoply": "Panoplie Claire",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 45,
+      "agility": 45,
+      "wisdom": 40,
+      "power": 10,
+      "prospecting": 20,
+      "initiative": 300,
+      "neutralResistPer": 10,
+      "fireResistPer": 10
+    }
+  },
+  {
+    "level": 39,
+    "name": "Krustoture",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "agility": 25,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 192,
+    "name": "String Tue-Mouche",
+    "panoply": "Panoplie Tue-Mouche",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "damage": 5,
+      "heal": 10,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 7,
+      "fireResistPer": 7
+    }
+  },
+  {
+    "level": 177,
+    "name": "Ceinture Mycosine",
+    "panoply": "Panoplycélium",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 1,
+      "damage": 5,
+      "prospecting": 20,
+      "initiative": 500,
+      "fireResistPer": 10,
+      "earthResist": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 179,
+    "name": "Tranche des Sous-bois",
+    "panoply": "Panoplie des Sous-bois",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "chance": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "summon": 1,
+      "damage": 10,
+      "prospecting": 30,
+      "earthResistPer": 10
+    }
+  },
+  {
+    "level": 185,
+    "name": "Ougature",
+    "panoply": "Panoplie du Ougah",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "power": 40,
+      "range": 1,
+      "summon": 2,
+      "damage": 10,
+      "prospecting": 20,
+      "earthResistPer": 10
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopture Griotte",
+    "panoply": "Panoplie Blop Griotte",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "intelligence": 35,
+      "wisdom": 15,
+      "fireDamage": 3,
+      "pods": 300
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopture Reinette",
+    "panoply": "Panoplie Blop Reinette",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "strength": 35,
+      "wisdom": 15,
+      "earthDamage": 3,
+      "pods": 300
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopture Coco",
+    "panoply": "Panoplie Blop Coco",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "agility": 35,
+      "wisdom": 15,
+      "airDamage": 3,
+      "pods": 300
+    }
+  },
+  {
+    "level": 50,
+    "name": "Blopture Indigo",
+    "panoply": "Panoplie Blop Indigo",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "chance": 35,
+      "wisdom": 15,
+      "waterDamage": 3,
+      "pods": 300
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopture Griotte Royale",
+    "panoply": "Panoplie Blop Griotte Royale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 45,
+      "intelligence": 30,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "prospecting": 10,
+      "pods": 400,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopture Reinette Royale",
+    "panoply": "Panoplie Blop Reinette Royale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 45,
+      "strength": 30,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "prospecting": 10,
+      "pods": 400,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopture Coco Royale",
+    "panoply": "Panoplie Blop Coco Royale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 45,
+      "agility": 30,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "prospecting": 10,
+      "pods": 400,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Blopture Indigo Royale",
+    "panoply": "Panoplie Blop Indigo Royale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 45,
+      "chance": 30,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "prospecting": 10,
+      "pods": 400,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 88,
+    "name": "Blopture Multicolore Royale",
+    "panoply": "Panoplie Blop Multicolore Royale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 100,
+      "wisdom": 30,
+      "power": 35,
+      "damage": 7,
+      "heal": 10,
+      "earthResistPer": 3
+    }
+  },
+  {
+    "level": 181,
+    "name": "Ceinture Toré",
+    "panoply": "Panoplie du Bworker Gladiateur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "power": 10,
+      "criticalChance": 2,
+      "range": 1,
+      "damage": 5,
+      "heal": 5,
+      "prospecting": 20,
+      "neutralResistPer": 10,
+      "neutralResist": 10
+    }
+  },
+  {
+    "level": 48,
+    "name": "Ceinture de Flash Gorgone",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "damage": 3,
+      "initiative": 200,
+      "dodge": 10,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "Beignature",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "neutralResistPer": 4,
+      "earthResistPer": 4,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 49,
+    "name": "Tutu Rose",
+    "panoply": "Panoplie Rose",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "wisdom": 25,
+      "criticalChance": 7
+    }
+  },
+  {
+    "level": 39,
+    "name": "Ceinture Lardière",
+    "panoply": "Panoplie de Peggy la Porkass",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "agility": 25,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 32,
+    "name": "Ceinture du bois de l'est",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "criticalChance": 5,
+      "initiative": 65
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture Cristalline",
+    "panoply": "Panoplie Cristalline",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "wisdom": 15,
+      "power": 20,
+      "summon": 1,
+      "damage": 5,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 48,
+    "name": "Caleçon à bretelles du Parrain",
+    "panoply": "Panoplie du Parrain",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 25,
+      "agility": 25,
+      "wisdom": 20,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Ceinture du Black Wab",
+    "panoply": "Panoplie du Black Wab",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "wisdom": 20,
+      "damage": 5,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 38,
+    "name": "Ceinture du Tétounik",
+    "panoply": "Panoplie du Tétounik",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "intelligence": 35,
+      "heal": 5,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture Siks Won Naïne",
+    "panoply": "Panoplie Siks Won Naïne",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "power": 20,
+      "criticalChance": 2,
+      "damage": 2
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture du Vampyre",
+    "panoply": "Panoplie du Vampyre maudit",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "waterDamage": 5,
+      "initiative": 300,
+      "undefined": 1
+    }
+  },
+  {
+    "level": 43,
+    "name": "Yugure",
+    "panoply": "Yugoplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "damage": 3,
+      "initiative": 60,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 37,
+    "name": "L'oxolature",
+    "panoply": "Panoplie de la Denrée",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "wisdom": 10,
+      "summon": 1,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture de Tolot",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 25,
+      "chance": 25,
+      "wisdom": 15,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture de Mounu",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 25,
+      "agility": 25,
+      "wisdom": 15,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture de Grüt",
+    "panoply": "Panoplie de Grüt",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "strength": 20,
+      "damage": 3
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture de Kocksis",
+    "panoply": "Panoplie de Kocksis",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "criticalChance": 2,
+      "range": 1
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture de Gobeuf",
+    "panoply": "Panoplie de Gobeuf",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 25,
+      "damage": 3
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture de Rekto Topi",
+    "panoply": "Panoplie de Rekto Topi",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 25,
+      "wisdom": 15,
+      "heal": 2
+    }
+  },
+  {
+    "level": 43,
+    "name": "Ceinture de Grizou",
+    "panoply": "Panoplie de Grizou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "chance": 25,
+      "damage": 2
+    }
+  },
+  {
+    "level": 53,
+    "name": "Ceinture du Roks Or",
+    "panoply": "Panoplie du Roks Or",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "wisdom": 15,
+      "power": 20,
+      "range": 1
+    }
+  },
+  {
+    "level": 1,
+    "name": "Ceinture de l'intrépide",
+    "panoply": "Panoplie de l'intrépide",
+    "category": "Ceinture",
+    "stats": {
+      "health": 1,
+      "initiative": 1,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 51,
+    "name": "Ceinture d'Hulkrap",
+    "panoply": "Panoplie d'Hulkrap",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 25,
+      "criticalChance": 4,
+      "damage": 3
+    }
+  },
+  {
+    "level": 52,
+    "name": "Ceinture de Klüme",
+    "panoply": "Panoplie de Klüme",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "strength": 35,
+      "power": 15,
+      "range": 1
+    }
+  },
+  {
+    "level": 51,
+    "name": "Ceinture de Kloug",
+    "panoply": "Panoplie de Kloug",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "chance": 30,
+      "range": 1,
+      "pods": 300
+    }
+  },
+  {
+    "level": 31,
+    "name": "Ceinture de Rapine",
+    "panoply": "Panoplie de Rapine",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 20,
+      "agility": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture de Phong Huss",
+    "panoply": "Panoplie de Phong Huss",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 25,
+      "damage": 2
+    }
+  },
+  {
+    "level": 32,
+    "name": "Ceinture d'Hectaupe",
+    "panoply": "Panoplie d'Hectaupe",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "damage": 1
+    }
+  },
+  {
+    "level": 35,
+    "name": "Givrature",
+    "panoply": "Givranoplie",
+    "category": "Ceinture",
+    "stats": {
+      "power": 15,
+      "range": 1
+    }
+  },
+  {
+    "level": 40,
+    "name": "Cordon Père au gnon",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20,
+      "agility": 20,
+      "range": 1
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture Pomdeupin",
+    "panoply": "Panoplie Pomdeupin",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 49,
+    "name": "Ceinture de Gadjète",
+    "panoply": "Panoplie de Gadjète",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "strength": 30,
+      "power": 20,
+      "initiative": 200,
+      "pods": 150
+    }
+  },
+  {
+    "level": 39,
+    "name": "Ceinture de Rapiat",
+    "panoply": "Panoplie de Rapiat",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "wisdom": 10,
+      "earthDamage": 4
+    }
+  },
+  {
+    "level": 57,
+    "name": "Ceinture d'Ougicle",
+    "panoply": "Panoplie d'Ougicle",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "summon": 1,
+      "airDamage": 5
+    }
+  },
+  {
+    "level": 43,
+    "name": "Ceinture de Grouillot",
+    "panoply": "Panoplie de Grouillot",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "fireDamage": 5,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture de Kubitus",
+    "panoply": "Panoplie de Kubitus",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 25,
+      "airDamage": 4,
+      "initiative": 150,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 56,
+    "name": "Ceinture de Piggy Paupe",
+    "panoply": "Panoplie de Piggy Paupe",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "criticalChance": 3,
+      "summon": 1,
+      "waterDamage": 4,
+      "lock": 4,
+      "criticalResist": 4
+    }
+  },
+  {
+    "level": 61,
+    "name": "Slipapier",
+    "panoply": "Panopapier",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "chance": 30,
+      "damage": 3,
+      "prospecting": 10,
+      "lock": 10,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 58,
+    "name": "Ceintusonnier",
+    "panoply": "Panoplisonnier",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "agility": 30,
+      "criticalChance": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 197,
+    "name": "Frimature",
+    "panoply": "Frimanoplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "summon": 2,
+      "damage": 10,
+      "prospecting": 10,
+      "neutralResist": 15,
+      "earthResist": 15,
+      "airResist": 15
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture du Royalmouth",
+    "panoply": "Panoplie du Royalmouth",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "range": 1,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "heal": 5,
+      "prospecting": 15,
+      "waterResistPer": 7,
+      "fireResist": 7,
+      "airResist": 7,
+      "dodge": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 157,
+    "name": "Ceinture de Ben le Ripate",
+    "panoply": "Panoplie de Ben le Ripate",
+    "category": "Ceinture",
+    "stats": {
+      "health": 230,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "heal": 10,
+      "prospecting": 15,
+      "fireResist": 10,
+      "waterResist": 10,
+      "lock": 5,
+      "dodge": -4,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 138,
+    "name": "Pagniglou défectueux",
+    "category": "Ceinture",
+    "stats": {}
+  },
+  {
+    "level": 152,
+    "name": "Slip Hie",
+    "panoply": "Panoplie Yéyé",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "chance": 40,
+      "agility": 40,
+      "power": 15,
+      "criticalChance": 3,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 5
+    }
+  },
+  {
+    "level": 162,
+    "name": "Slip Noze",
+    "panoply": "Panoplie du frigostien envoûtant",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "criticalChance": 5,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "prospecting": 20,
+      "initiative": 300,
+      "waterResistPer": 7,
+      "earthResist": 10,
+      "fireResist": 10,
+      "dodge": -7
+    }
+  },
+  {
+    "level": 137,
+    "name": "Pagniglou",
+    "panoply": "Panoplie des Pins Perdus",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "chance": 45,
+      "wisdom": 40,
+      "power": 15,
+      "range": 1,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 20,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "waterResist": 10,
+      "dodge": 5,
+      "pushbackDamage": -7
+    }
+  },
+  {
+    "level": 177,
+    "name": "Ceinture du Tengu Givrefoux",
+    "panoply": "Panoplie du Tengu Givrefoux",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "initiative": 300,
+      "airResistPer": 7,
+      "neutralResist": 7,
+      "waterResist": 7,
+      "dodge": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 187,
+    "name": "Ceinture de Kolosso",
+    "panoply": "Panoplie de Kolosso",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 30,
+      "wisdom": 40,
+      "power": 30,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "prospecting": 25,
+      "earthResist": 10,
+      "airResist": 10,
+      "lock": 6,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 195,
+    "name": "Ceinture du Glourséleste",
+    "panoply": "Panoplie du Glourséleste",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 2,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "neutralResist": 12,
+      "earthResist": 12,
+      "fireResist": 12,
+      "waterResist": 12,
+      "airResist": 12,
+      "dodge": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 175,
+    "name": "Pagne du Soryo Givrefoux",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": -3,
+      "range": 2,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 25,
+      "fireResistPer": 7,
+      "dodge": -4,
+      "apReduction": 4,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 183,
+    "name": "Ceinture Bine encrassée",
+    "category": "Ceinture",
+    "stats": {}
+  },
+  {
+    "level": 194,
+    "name": "Ceinture Hanium",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "heal": 6,
+      "prospecting": 20,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 45,
+    "name": "Ceinture de Percimol",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "power": 15,
+      "criticalChance": 2,
+      "neutralResistPer": 3
+    }
+  },
+  {
+    "level": 178,
+    "name": "Slip Iholo",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "wisdom": 30,
+      "power": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "heal": 6,
+      "prospecting": 15,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "lock": -6,
+      "dodge": -6,
+      "mpResist": -6,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 41,
+    "name": "Ceinture de Stroud",
+    "panoply": "Panoplie de Stroud",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "chance": 30,
+      "initiative": 100,
+      "pods": 150
+    }
+  },
+  {
+    "level": 45,
+    "name": "Ceinture du Boostache",
+    "panoply": "Panoplie du Boostache",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "airDamage": 5,
+      "pushbackDamage": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 43,
+    "name": "Ceinture de Traçon",
+    "panoply": "Panoplie de Traçon",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "chance": 25,
+      "wisdom": 10,
+      "dodge": 2,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 55,
+    "name": "Ceinture de Mirh",
+    "panoply": "Panoplie de Mirh",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 40,
+      "criticalChance": 3,
+      "airDamage": 5,
+      "prospecting": 10,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Slip de Kalkanéus",
+    "panoply": "Panoplie de Kalkanéus",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "summon": 1,
+      "neutralDamage": 6,
+      "lock": 4
+    }
+  },
+  {
+    "level": 56,
+    "name": "Ceinture d'Hichète",
+    "panoply": "Panoplie d'Hichète",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "agility": 30,
+      "range": 1,
+      "dodge": 4,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 183,
+    "name": "Ceinture Bine",
+    "panoply": "Panoplie du frigostien approximatif",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 25,
+      "waterResist": 12,
+      "airResist": 12,
+      "dodge": 5,
+      "mpResist": 5,
+      "pushbackDamage": -7
+    }
+  },
+  {
+    "level": 78,
+    "name": "Ceinture de Nelween",
+    "panoply": "Panoplie de Nelween",
+    "category": "Ceinture",
+    "stats": {
+      "health": 100,
+      "neutralDamage": 10,
+      "lock": 10,
+      "mpReduction": 10,
+      "pushbackDamage": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 140,
+    "name": "Ceinture de Frigostine",
+    "panoply": "Panoplie de Frigostine",
+    "category": "Ceinture",
+    "stats": {
+      "health": 225,
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "airDamage": 12,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "airResist": 15,
+      "lock": -4,
+      "criticalResist": 10,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 163,
+    "name": "Ceinture des Prophètes",
+    "panoply": "Panoplie des Prophètes",
+    "category": "Ceinture",
+    "stats": {
+      "health": 230,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 20,
+      "earthResist": 15,
+      "airResist": 15,
+      "dodge": 5,
+      "mpReduction": 4,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 185,
+    "name": "Ceinture de Boréale",
+    "panoply": "Panoplie de Boréale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 80,
+      "wisdom": 40,
+      "earthDamage": 20,
+      "prospecting": 25,
+      "initiative": 600,
+      "airResist": 25,
+      "lock": 10
+    }
+  },
+  {
+    "level": 130,
+    "name": "Sangle Hyssérine",
+    "panoply": "Panoplie Explosive",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13479
+    }
+  },
+  {
+    "level": 130,
+    "name": "Corde Ure",
+    "panoply": "Panoplie Lunatique",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13400
+    }
+  },
+  {
+    "level": 104,
+    "name": "Ceinture du Krokilleur",
+    "panoply": "Panoplie du Krokilleur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 100,
+      "strength": 40,
+      "wisdom": 25,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "prospecting": 10,
+      "fireResistPer": 6,
+      "earthResist": 6,
+      "airResist": 6,
+      "lock": 4,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 158,
+    "name": "Ceinture de Grozilla",
+    "panoply": "Panoplie de Grozilla",
+    "category": "Ceinture",
+    "stats": {
+      "health": 220,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "summon": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResist": 15,
+      "earthResist": 15,
+      "airResist": 15,
+      "lock": -4,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 57,
+    "name": "Slip Vert",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "wisdom": 25,
+      "airDamage": 5,
+      "fireResist": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 53,
+    "name": "Ceinture de Pandalida",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 25,
+      "wisdom": 15,
+      "heal": 5,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ceinture de l'Envahisseur",
+    "panoply": "Panoplie de l'Envahisseur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 15,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 54,
+    "name": "Ceinture de Danioule",
+    "panoply": "Panoplie de Danioule",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "wisdom": 15,
+      "earthDamage": 10,
+      "earthResistPer": 4
+    }
+  },
+  {
+    "level": 82,
+    "name": "Pagne de Daïgoro",
+    "panoply": "Panoplie de Daïgoro",
+    "category": "Ceinture",
+    "stats": {
+      "health": 70,
+      "chance": 30,
+      "wisdom": 20,
+      "range": 1,
+      "waterDamage": 5,
+      "earthResistPer": 4,
+      "pushbackDamage": 7,
+      "pushbackResist": 8
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ceinturong",
+    "panoply": "Panoplong",
+    "category": "Ceinture",
+    "stats": {
+      "health": 15,
+      "damage": 2
+    }
+  },
+  {
+    "level": 114,
+    "name": "Ceinture Abdominable",
+    "category": "Ceinture",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "summon": 1,
+      "neutralDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "prospecting": 10,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "airResist": 12,
+      "lock": 4,
+      "apReduction": -3,
+      "criticalResist": 12
+    }
+  },
+  {
+    "level": 25,
+    "name": "Caleçon Fourré du Glutin",
+    "panoply": "Panoplie du Glutin",
+    "category": "Ceinture",
+    "stats": {
+      "range": 1
+    }
+  },
+  {
+    "level": 46,
+    "name": "Gladialeçon",
+    "panoply": "Gladianoplie",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 20,
+      "range": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 60,
+    "name": "Ceinturoduvet",
+    "panoply": "Panoplie à plumes",
+    "category": "Ceinture",
+    "stats": {
+      "health": 20,
+      "power": 20,
+      "summon": 1,
+      "prospecting": 10,
+      "waterResistPer": 5,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "Pagne du Chafer Rōnin",
+    "panoply": "Panoplie des Anciens Chafers",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "wisdom": 15,
+      "neutralDamage": 6,
+      "criticalResist": 5,
+      "pushbackResist": 5
+    }
+  },
+  {
+    "level": 194,
+    "name": "Ceinture de Brouce",
+    "panoply": "Panoplie de Brouce Boulgoure",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 100,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "range": 2,
+      "neutralDamage": 18,
+      "earthDamage": 18,
+      "neutralResist": 15,
+      "mpResist": 7,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 188,
+    "name": "Ceinture de Danathor",
+    "panoply": "Panoplie de Danathor",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "chance": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "summon": 1,
+      "waterDamage": 18,
+      "prospecting": 30,
+      "apReduction": 7,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 194,
+    "name": "Ceinture de Léthaline",
+    "panoply": "Panoplie de Léthaline Sigisbul",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "criticalChance": 9,
+      "range": 1,
+      "heal": 15,
+      "prospecting": 20,
+      "initiative": 400,
+      "dodge": 10,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 195,
+    "name": "Ceinture d'Ogivol",
+    "panoply": "Panoplie d'Ogivol Scalarcin",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 7,
+      "airResist": 15,
+      "lock": 5,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 51,
+    "name": "Ceinture de Coffreté",
+    "panoply": "Panoplie Coffre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "power": 25,
+      "criticalChance": 2,
+      "fireDamage": 5,
+      "dodge": 5,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Blot",
+    "panoply": "Panoplie Submersible",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13873
+    }
+  },
+  {
+    "level": 45,
+    "name": "Ceinture Nikoti",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 30,
+      "criticalChance": 5,
+      "earthDamage": 5,
+      "apResist": 4
+    }
+  },
+  {
+    "level": 42,
+    "name": "Ceinture Teule",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 35,
+      "wisdom": 15,
+      "dodge": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 106,
+    "name": "Ceintrouille",
+    "panoply": "Panoplitrouille",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "intelligence": 30,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "fireDamage": 4,
+      "waterDamage": 6,
+      "prospecting": 8,
+      "initiative": 150,
+      "fireResistPer": 5,
+      "airResist": 8,
+      "apResist": 3,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 9,
+    "name": "Slip de Rechange du Captain Chafer",
+    "category": "Ceinture",
+    "stats": {
+      "health": 0,
+      "summon": 1
+    }
+  },
+  {
+    "level": 100,
+    "name": "Krosmangle",
+    "panoply": "Krosmanoplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 20,
+      "power": 25,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "initiative": 300,
+      "dodge": 4,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 197,
+    "name": "Ceinture d'Henual",
+    "panoply": "Panoplie d'Henual",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "prospecting": 20,
+      "earthResistPer": 8,
+      "neutralResist": 8,
+      "waterResist": 8,
+      "dodge": 10,
+      "mpReduction": -7,
+      "criticalResist": -11
+    }
+  },
+  {
+    "level": 195,
+    "name": "Ceinture de Nevark",
+    "panoply": "Panoplie de Nevark",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "range": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "airDamage": 20,
+      "neutralResistPer": 15,
+      "dodge": 15,
+      "criticalDamage": -16
+    }
+  },
+  {
+    "level": 153,
+    "name": "Ceinture du Frelon Noir",
+    "panoply": "Panoplie du Frelon Noir",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "range": 0,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "airDamage": 8,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 6,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 198,
+    "name": "Ceinture de Klime",
+    "panoply": "Panoplie de Klime",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "agility": 80,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResistPer": 10,
+      "fireResist": 20,
+      "dodge": 10,
+      "apResist": 7,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 196,
+    "name": "Ceinture Glaciale",
+    "panoply": "Panoplie Glaciale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "wisdom": 50,
+      "waterDamage": 20,
+      "initiative": 500,
+      "waterResistPer": 9,
+      "airResistPer": 9,
+      "mpReduction": 7,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 196,
+    "name": "Ceinture Instable",
+    "panoply": "Panoplie Instable",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "wisdom": 60,
+      "criticalChance": 12,
+      "range": 2,
+      "summon": 1,
+      "heal": 12,
+      "prospecting": 20,
+      "apReduction": 12,
+      "mpReduction": 12
+    }
+  },
+  {
+    "level": 195,
+    "name": "Sangle de Sylargh",
+    "panoply": "Panoplie de Sylargh",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 16,
+      "earthDamage": 16,
+      "prospecting": 10,
+      "airResistPer": 10,
+      "earthResist": 15,
+      "airResist": 15,
+      "lock": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Séculaire",
+    "panoply": "Panoplie Séculaire",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "agility": 40,
+      "wisdom": 50,
+      "criticalChance": 7,
+      "range": 1,
+      "fireDamage": 10,
+      "heal": 10,
+      "initiative": 300,
+      "airResistPer": 10,
+      "dodge": 15,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture du Strigide",
+    "panoply": "Panoplie du Strigide",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "power": 60,
+      "criticalChance": 7,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "heal": 7,
+      "initiative": 400,
+      "neutralResistPer": 8,
+      "lock": 10,
+      "criticalDamage": 15,
+      "criticalResist": -16
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture du Nocturlabe",
+    "panoply": "Panoplie du Nocturlabe",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "agility": 100,
+      "wisdom": 60,
+      "criticalChance": 7,
+      "range": 0,
+      "airDamage": 15,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "earthResist": 20,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sangle Aise",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 20,
+      "dodge": -16,
+      "mpResist": 8,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sangle Ouare",
+    "panoply": "Panoplie du Bonimenteur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "chance": 40,
+      "wisdom": 30,
+      "power": 40,
+      "MP": 1,
+      "summon": 2,
+      "prospecting": 15,
+      "initiative": -301,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "lock": 15,
+      "mpResist": -6,
+      "criticalDamage": 25,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 195,
+    "name": "Slip du Roi de Bonta",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "power": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "dodge": 16,
+      "mpResist": 8
+    }
+  },
+  {
+    "level": 100,
+    "name": "Ceinture Ding Dong",
+    "panoply": "Panoplie de Maître Nabur",
+    "category": "Ceinture",
+    "stats": {
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "fireResistPer": 6,
+      "airResistPer": 6,
+      "lock": 7,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 195,
+    "name": "Ceinture Hyolite",
+    "panoply": "Panoplie Magmatique",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "fireDamage": 20,
+      "prospecting": 15,
+      "earthResistPer": 6,
+      "airResistPer": 6,
+      "waterResist": 10,
+      "mpResist": -11
+    }
+  },
+  {
+    "level": 83,
+    "name": "Ceinture du Wa Wobot",
+    "panoply": "Panoplie du Wa Wobot",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 20,
+      "intelligence": 20,
+      "wisdom": 30,
+      "earthDamage": 5,
+      "fireDamage": 5,
+      "heal": 7,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 83,
+    "name": "Ceinture du Blanc Pa Wabbit",
+    "panoply": "Panoplie du Blanc Pa Wabbit",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "chance": 30,
+      "wisdom": 20,
+      "range": 1,
+      "heal": 7,
+      "earthResistPer": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 123,
+    "name": "Ceinture du Wabbit Garou",
+    "panoply": "Panoplie du Wabbit Garou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "wisdom": 30,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterResistPer": 6,
+      "apResist": 7,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 101,
+    "name": "Ceinture Hétorique",
+    "panoply": "Panoplie Dramatik",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 15,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "apResist": 5,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 97,
+    "name": "Brighellanière",
+    "panoply": "Panoplie Talienne",
+    "category": "Ceinture",
+    "stats": {
+      "health": 100,
+      "chance": 40,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "waterDamage": 3,
+      "prospecting": 15,
+      "airResistPer": 5,
+      "lock": 7,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ceintulotté",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 15,
+      "fireDamage": 2
+    }
+  },
+  {
+    "level": 10,
+    "name": "Slipwaïï",
+    "category": "Ceinture",
+    "stats": {
+      "health": 15,
+      "chance": 15
+    }
+  },
+  {
+    "level": 10,
+    "name": "Makiture",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 10,
+      "chance": 10,
+      "wisdom": 5
+    }
+  },
+  {
+    "level": 144,
+    "name": "Nageoiture",
+    "panoply": "Panoplie Engloutie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "chance": 30,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 1,
+      "waterDamage": 12,
+      "airDamage": 7,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "earthResist": 12,
+      "lock": -4
+    }
+  },
+  {
+    "level": 10,
+    "name": "Soubretture",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 15,
+      "heal": 3
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ceinture du Samouraï",
+    "category": "Ceinture",
+    "stats": {
+      "criticalChance": 2,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 195,
+    "name": "Obscture",
+    "panoply": "Panoplie Obscure",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 5,
+      "apResist": 7,
+      "mpResist": -4
+    }
+  },
+  {
+    "level": 198,
+    "name": "Ceinture du Père Fwetar",
+    "panoply": "Panoplie du Père Fwetar",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "wisdom": 40,
+      "power": 50,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "dodge": -4,
+      "apResist": 6,
+      "criticalResist": 30
+    }
+  },
+  {
+    "level": 158,
+    "name": "Ceinture du Kaniblou",
+    "panoply": "Panoplie du Kaniblou",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "waterDamage": 6,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "airResist": 12,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 158,
+    "name": "Ceinture de l'Orfélin",
+    "panoply": "Panoplie de l'Orfélin",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "agility": 60,
+      "wisdom": 30,
+      "power": 15,
+      "criticalChance": 4,
+      "range": 1,
+      "airDamage": 7,
+      "fireResistPer": 5,
+      "waterResistPer": 7,
+      "waterResist": 12,
+      "mpReduction": 5,
+      "pushbackDamage": 12
+    }
+  },
+  {
+    "level": 20,
+    "name": "Ceinture Karnaval",
+    "panoply": "Panoplie Karnaval",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "summon": 1,
+      "apReduction": 5,
+      "criticalDamage": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture du Barbétoal",
+    "panoply": "Panoplie du Barbétoal",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "summon": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "fireResistPer": 7
+    }
+  },
+  {
+    "level": 147,
+    "name": "Ceinture Phossile",
+    "panoply": "Panoplie Phossile",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "power": 40,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "earthResistPer": 6,
+      "airResistPer": 6,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 154,
+    "name": "Ceinture du Père Phorreur",
+    "panoply": "Panoplie du Père Phorreur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airResistPer": 7,
+      "earthResist": 10,
+      "lock": 10
+    }
+  },
+  {
+    "level": 101,
+    "name": "Ceinture Précieuse",
+    "panoply": "Panoplie Précieuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "chance": 40,
+      "range": 2,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "prospecting": 15,
+      "airResistPer": 7
+    }
+  },
+  {
+    "level": 100,
+    "name": "Ceinture du Berserkoffre",
+    "panoply": "Panoplie du Berserkoffre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "fireDamage": 5,
+      "airDamage": 5,
+      "prospecting": 15,
+      "earthResistPer": 3,
+      "lock": 7
+    }
+  },
+  {
+    "level": 1,
+    "name": "Kamature",
+    "category": "Ceinture",
+    "stats": {
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 128,
+    "name": "Ceintruche",
+    "panoply": "Panoplie Truche",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "wisdom": 25,
+      "summon": 1,
+      "fireDamage": 7,
+      "initiative": 600,
+      "neutralResistPer": 10,
+      "waterResist": 12,
+      "lock": 10,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de la Cour Sombre",
+    "panoply": "Panoplie de la Cour Sombre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "prospecting": 15,
+      "initiative": 600,
+      "fireResistPer": 10,
+      "lock": 15,
+      "apReduction": 6,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de Gein",
+    "panoply": "Panoplie de Gein",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "prospecting": 15,
+      "fireResistPer": 15,
+      "dodge": 10,
+      "criticalDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de la Reine des Voleurs",
+    "panoply": "Panoplie de la Reine des Voleurs",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "criticalResist": 30
+    }
+  },
+  {
+    "level": 128,
+    "name": "Ceinture du Capitaine Ekarlatte",
+    "panoply": "Panoplie du Capitaine Ekarlatte",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 30,
+      "power": 15,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "fireResistPer": 7
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture Verréhor",
+    "panoply": "Panoplie Verréhor",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20,
+      "agility": 20,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceintacé",
+    "panoply": "Panoplie de la Baleine",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "prospecting": 15,
+      "neutralResistPer": 10,
+      "waterResistPer": 10,
+      "dodge": 0,
+      "mpResist": 7,
+      "criticalDamage": 20,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Protopagne",
+    "panoply": "Panoplie des Krobes",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "MP": 1,
+      "summon": 1,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "lock": 0,
+      "apResist": 10,
+      "mpResist": 10,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de Vortex",
+    "panoply": "Panoplie de Vortex",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "heal": 12,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceintrigue",
+    "panoply": "Panoplie Pnose",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "heal": 15,
+      "airResistPer": 10,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 170,
+    "name": "Ceinture de XLII",
+    "panoply": "Panoplie de XLII",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "summon": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "airDamage": 7,
+      "initiative": 500,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": 7
+    }
+  },
+  {
+    "level": 171,
+    "name": "Ceinture de Soissanth",
+    "panoply": "Panoplie de Soissanth",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "airResist": 10
+    }
+  },
+  {
+    "level": 122,
+    "name": "Ceinture de Fraktale",
+    "panoply": "Panoplie de Fraktale",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 35,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 7,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 62,
+    "name": "Ceinture Anesthésiante",
+    "panoply": "Panoplie Palliative",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 40,
+      "wisdom": 25,
+      "range": 1,
+      "fireDamage": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 128,
+    "name": "String Fouetteur",
+    "panoply": "Panoplie de la Voleuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Billonnante",
+    "panoply": "Panoplie Transcendante",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 14611
+    }
+  },
+  {
+    "level": 90,
+    "name": "Gaine Nyée",
+    "panoply": "Panoplie de la Pondeuse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 80,
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 25,
+      "summon": 1,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "waterResistPer": 3,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture du chasseur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 30,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 162,
+    "name": "Ceinture du Bretteur Céleste",
+    "panoply": "Panoplie du Bretteur Céleste",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "summon": 1,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "fireResist": 15,
+      "airResist": 15,
+      "dodge": 7,
+      "mpResist": 6,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 153,
+    "name": "Ceinture de Zatoïshwan",
+    "panoply": "Panoplie de Zatoïshwan",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 7,
+      "initiative": 300,
+      "fireResistPer": 7,
+      "fireResist": 10,
+      "lock": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Voldelor",
+    "panoply": "Panoplie de Voldelor",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 50,
+      "range": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "dodge": 7,
+      "mpResist": -5,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de Kongoku",
+    "panoply": "Panoplie de Kongoku",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 30,
+      "criticalChance": 5,
+      "range": 1,
+      "prospecting": 15,
+      "initiative": 600,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 12,
+      "mpReduction": 7,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 183,
+    "name": "Ceinture du K.O.",
+    "panoply": "Panoplie du K.O.",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "initiative": 400,
+      "waterResistPer": 7,
+      "apResist": 5,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 60,
+    "name": "Culotte des 1001 Griffes",
+    "panoply": "Panoplie des 1001 Griffes",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "chance": 40,
+      "power": 15,
+      "dodge": 10,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture des Grocoricos",
+    "panoply": "Panoplie des Grocoricos",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20,
+      "chance": 20,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture des Redroz",
+    "panoply": "Panoplie des Redroz",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 30,
+      "agility": 30,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture des Pamous",
+    "panoply": "Panoplie des Pamous",
+    "category": "Ceinture",
+    "stats": {
+      "chance": 20,
+      "agility": 20,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 30,
+    "name": "Ceinture des Zoblaks",
+    "panoply": "Panoplie des Zoblaks",
+    "category": "Ceinture",
+    "stats": {
+      "strength": 20,
+      "intelligence": 20,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 130,
+    "name": "L'Élémenture",
+    "panoply": "Panoplie Quadramentale",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13713
+    }
+  },
+  {
+    "level": 10,
+    "name": "Slip de Khan Karkass",
+    "panoply": "Panoplie de Khan Karkass",
+    "category": "Ceinture",
+    "stats": {
+      "earthDamage": 4,
+      "lock": 3
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture du Monarque",
+    "panoply": "Panoplie du Monarque",
+    "category": "Ceinture",
+    "stats": {
+      "intelligence": 40,
+      "wisdom": 15,
+      "pods": 200
+    }
+  },
+  {
+    "level": 38,
+    "name": "Ceinture du Garde Royal",
+    "panoply": "Panoplie du Garde Royal",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 160,
+    "name": "Ceinture des Matougarous",
+    "panoply": "Panoplie des Matougarous",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "fireResistPer": 7,
+      "mpReduction": 5,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 114,
+    "name": "Ceinture du Pounicheur",
+    "panoply": "Panoplie du Pounicheur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "wisdom": 25,
+      "power": 15,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "heal": 6,
+      "pods": 400,
+      "dodge": 10,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ceinture Dragocourse",
+    "panoply": "Panoplie Dragocourse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "power": 15,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 200,
+    "name": "Poulpagne",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "AP": 1,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "apResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Menoture",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "AP": 1,
+      "airDamage": 20,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "apReduction": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceintouse",
+    "panoply": "Poulplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "lock": 10,
+      "apReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de l'Indicible",
+    "panoply": "Panoplie de l'Indicible",
+    "category": "Ceinture",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Luminescente",
+    "panoply": "Panoplie Luminescente",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "lock": 10,
+      "mpReduction": 5,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 50,
+    "name": "Ceinturonce",
+    "panoply": "Panoplie de ronces",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "strength": 20,
+      "chance": 20,
+      "earthDamage": 4,
+      "waterDamage": 4,
+      "lock": 6,
+      "dodge": -2
+    }
+  },
+  {
+    "level": 80,
+    "name": "String Léolhyène",
+    "panoply": "Panoplie du Désert",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "agility": 40,
+      "wisdom": 15,
+      "summon": 1,
+      "airDamage": 3,
+      "prospecting": 10,
+      "neutralResistPer": 4,
+      "apReduction": 3,
+      "mpResist": 3
+    }
+  },
+  {
+    "level": 133,
+    "name": "Cacture",
+    "panoply": "Panoplie Cacterre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 120,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "summon": 1,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "airDamage": 5,
+      "prospecting": 10,
+      "neutralResistPer": 7,
+      "dodge": 5,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 47,
+    "name": "Lainture",
+    "panoply": "Panoplienlaine",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 40,
+      "fireDamage": 7,
+      "waterResistPer": 3
+    }
+  },
+  {
+    "level": 173,
+    "name": "Ceintrémorse",
+    "panoply": "Vernoplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "heal": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "mpReduction": 6,
+      "pushbackResist": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pagne du Rykaon",
+    "panoply": "Panoplie des Maudits",
+    "category": "Ceinture",
+    "stats": {
+      "health": 500,
+      "chance": 80,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "range": 1,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "dodge": 15,
+      "apResist": 12,
+      "mpResist": 0,
+      "criticalDamage": 20
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Leumant",
+    "panoply": "Panoplie Enragée",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 13781
+    }
+  },
+  {
+    "level": 31,
+    "name": "Ceinture du Molosse",
+    "panoply": "Panoplie du Molosse",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "agility": 40,
+      "range": 0,
+      "airDamage": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 195,
+    "name": "Ceinture du Comte Razof",
+    "panoply": "Panoplie du Comte Razof",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 12,
+      "airResistPer": 10,
+      "lock": 10,
+      "apReduction": 7
+    }
+  },
+  {
+    "level": 40,
+    "name": "Magture",
+    "category": "Ceinture",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "intelligence": 20,
+      "earthDamage": 5,
+      "fireDamage": 5
+    }
+  },
+  {
+    "level": 97,
+    "name": "Pagne du Muloubar",
+    "panoply": "Panoplie du Muloubar",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "strength": 35,
+      "agility": 35,
+      "wisdom": 15,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "airDamage": 3,
+      "waterResistPer": 5,
+      "lock": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de l'Esprit Salvateur",
+    "panoply": "Panoplie de l'Esprit Salvateur",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "power": 70,
+      "criticalChance": 0,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture de l'Esprit Malsain",
+    "panoply": "Panoplie de l'Esprit Malsain",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "mpResist": 7,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Gence",
+    "panoply": "Panoplie du Fourneau",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 80,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "AP": 1,
+      "neutralDamage": 18,
+      "earthDamage": 18,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "lock": 0,
+      "mpResist": 15,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sangle Oriole",
+    "panoply": "Panoplie Submergée",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "waterResistPer": 10,
+      "apResist": 10,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Culotte de Bethel",
+    "panoply": "Panoplie de Bethel",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "dodge": 10,
+      "lock": 0,
+      "apReduction": 7,
+      "pushbackResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture en Grithril",
+    "panoply": "Grithriloplie",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "airResistPer": 15,
+      "lock": 7,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Volkorne",
+    "panoply": "Panoplie Volkorne",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 100,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "neutralResistPer": 10,
+      "earthResistPer": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Audace de Dodge",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "intelligence": 80,
+      "chance": 80,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 0,
+      "apReduction": 0,
+      "mpResist": 20,
+      "pushbackDamage": 40
+    }
+  },
+  {
+    "level": 200,
+    "name": "Courage de Dame Jhessica",
+    "category": "Ceinture",
+    "stats": {
+      "health": 500,
+      "chance": 100,
+      "agility": 100,
+      "wisdom": 60,
+      "criticalChance": 0,
+      "dodge": 0,
+      "pushbackResist": 30,
+      "meleeResistPer": 10,
+      "spellDamagePer": 2
+    }
+  },
+  {
+    "level": 53,
+    "name": "Ceinture Amincissante",
+    "panoply": "Panoplie du Mawabouaino",
+    "category": "Ceinture",
+    "stats": {
+      "health": 60,
+      "chance": 40,
+      "criticalChance": 3,
+      "waterDamage": 4,
+      "initiative": 30,
+      "dodge": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture des Chocomanciens",
+    "panoply": "Panoplie des Chocomanciens",
+    "category": "Ceinture",
+    "stats": {
+      "health": 450,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 30,
+      "range": 1,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 15,
+      "mpReduction": 15,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Croture",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 20,
+      "earthResistPer": 12,
+      "waterResistPer": 12,
+      "lock": 8,
+      "mpResist": 5,
+      "pushbackDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Corset de Misère",
+    "panoply": "Panoplie de Misère",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "lock": 0,
+      "apResist": 10,
+      "mpResist": 10,
+      "criticalDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinturonce de Corruption",
+    "panoply": "Panoplie de Corruption",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 7,
+      "mpReduction": 10,
+      "apResist": 0,
+      "criticalDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Étreinte de Servitude",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 100,
+      "chance": 100,
+      "wisdom": 50,
+      "summon": 2,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "initiative": 500,
+      "lock": 20,
+      "apResist": 0,
+      "criticalResist": 0,
+      "pushbackResist": 40,
+      "rangedResistPer": 10
+    }
+  },
+  {
+    "level": 130,
+    "name": "Ceinture Pitude",
+    "panoply": "Panoplie Tanuki",
+    "category": "Ceinture",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "prospecting": 10,
+      "waterResistPer": 4,
+      "earthResist": 10,
+      "dodge": 8,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 138,
+    "name": "Ceinture d'artifices",
+    "panoply": "Panoplie Firefoux",
+    "category": "Ceinture",
+    "stats": {
+      "health": 200,
+      "intelligence": 60,
+      "wisdom": 30,
+      "fireDamage": 8,
+      "heal": 20,
+      "prospecting": 20,
+      "initiative": 200,
+      "fireResistPer": 5,
+      "fireResist": 10,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 158,
+    "name": "Ceinture de Tsukinochi",
+    "panoply": "Panoplie de Brume",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 20,
+      "wisdom": 35,
+      "criticalChance": 0,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 5,
+      "prospecting": 25,
+      "waterResistPer": 6,
+      "lock": 5,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 168,
+    "name": "Ceinture d'Onigori",
+    "panoply": "Panoplie des Tombeaux",
+    "category": "Ceinture",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "wisdom": 35,
+      "summon": 1,
+      "fireDamage": 10,
+      "heal": 6,
+      "initiative": 400,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "neutralResist": 10,
+      "mpResist": 7,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Sangle Icisme",
+    "panoply": "Panoplie du Wukin",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "lock": 12,
+      "dodge": 0,
+      "apReduction": 10,
+      "mpReduction": 0,
+      "apResist": 0,
+      "mpResist": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Ceinture Possédée",
+    "panoply": "Panoplie Possédée",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "earthResistPer": 15,
+      "mpReduction": 6,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Bois de la Liche",
+    "panoply": "Reliques de l'Aurore Pourpre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "strength": 90,
+      "intelligence": 90,
+      "chance": 45,
+      "agility": 45,
+      "wisdom": 25,
+      "earthDamage": 20,
+      "fireDamage": 20,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "dodge": 5,
+      "lock": 0,
+      "apResist": 3,
+      "mpResist": 0,
+      "criticalResist": 0,
+      "pushbackResist": 8
+    }
+  },
+  {
+    "level": 36,
+    "name": "Ceinture du Directeur Grunob",
+    "panoply": "Panoplie du Directeur Grunob",
+    "category": "Ceinture",
+    "stats": {
+      "health": 50,
+      "damage": 3,
+      "initiative": 60,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 150,
+    "name": "Ceinture du Meulou Ankarton",
+    "panoply": "Panoplie Ankarton",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 1000
+    }
+  },
+  {
+    "level": 52,
+    "name": "Ceinture de trappeur albueran",
+    "panoply": "Panoplie de trappeur albueran",
+    "category": "Ceinture",
+    "stats": {
+      "health": 40,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 15,
+      "heal": 10,
+      "dodge": 0,
+      "apReduction": 0
+    }
+  },
+  {
+    "level": 192,
+    "name": "Subligar de Barbéryl",
+    "panoply": "Panoplie de Barbéryl Clochecuivre",
+    "category": "Ceinture",
+    "stats": {
+      "health": 350,
+      "chance": 80,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "range": 1,
+      "waterDamage": 12,
+      "prospecting": 20,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 7,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 130,
+    "name": "Baudrier Popée",
+    "panoply": "Panoplie de l'Héritage",
+    "category": "Ceinture",
+    "stats": {
+      "undefined": 23319
+    }
+  },
+  {
+    "level": 200,
+    "name": "Slip du Captain Chafer",
+    "panoply": "Panoplie du Captain Chafer",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "range": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "initiative": 500,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "dodge": 7,
+      "mpResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Tabard du Dark Vlad",
+    "panoply": "Panoplie du Dark Vlad",
+    "category": "Ceinture",
+    "stats": {
+      "health": 400,
+      "intelligence": 66,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "fireDamage": 18,
+      "fireResistPer": 12,
+      "airResistPer": 9,
+      "waterResistPer": 0,
+      "dodge": 9,
+      "pushbackDamage": 30,
+      "waterResist": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "Sangle Ougou-Gagak",
+    "panoply": "Il n'y a pas de pano",
+    "category": "Ceinture",
+    "stats": {}
+  }
+]

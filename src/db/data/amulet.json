@@ -1,0 +1,4772 @@
+[
+  {
+    "level": 8,
+    "name": "Amulette du Hibou",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 13
+    }
+  },
+  {
+    "level": 8,
+    "name": "Amulette de l'Ours",
+    "category": "Amulette",
+    "stats": {
+      "strength": 13
+    }
+  },
+  {
+    "level": 8,
+    "name": "Amulette du Mulou",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "heal": 4
+    }
+  },
+  {
+    "level": 17,
+    "name": "La Gougnole",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "intelligence": 15,
+      "heal": 3
+    }
+  },
+  {
+    "level": 12,
+    "name": "La Destinée Dorée",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "agility": 10,
+      "lock": 2
+    }
+  },
+  {
+    "level": 40,
+    "name": "La Broche Céleste",
+    "category": "Amulette",
+    "stats": {
+      "health": 0,
+      "AP": 1,
+      "initiative": 0
+    }
+  },
+  {
+    "level": 61,
+    "name": "Le Flan des Étoiles",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "intelligence": 20,
+      "wisdom": 15,
+      "AP": 1
+    }
+  },
+  {
+    "level": 27,
+    "name": "La Célébrité",
+    "category": "Amulette",
+    "stats": {
+      "health": 4,
+      "range": 1
+    }
+  },
+  {
+    "level": 5,
+    "name": "La Larme du Bouftou",
+    "category": "Amulette",
+    "stats": {
+      "chance": 7
+    }
+  },
+  {
+    "level": 9,
+    "name": "Collier de l'Arc en Ciel",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "chance": 10
+    }
+  },
+  {
+    "level": 43,
+    "name": "Amulette du Kam Assutra",
+    "category": "Amulette",
+    "stats": {
+      "AP": 1,
+      "initiative": 0
+    }
+  },
+  {
+    "level": 9,
+    "name": "Amulette de Krokette",
+    "category": "Amulette",
+    "stats": {
+      "chance": 7,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 7,
+    "name": "Amulette du Sram",
+    "category": "Amulette",
+    "stats": {
+      "agility": 7,
+      "airDamage": 2
+    }
+  },
+  {
+    "level": 33,
+    "name": "Amulette Deulegarnoulle",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "summon": 2
+    }
+  },
+  {
+    "level": 19,
+    "name": "Amulette du Chafer",
+    "category": "Amulette",
+    "stats": {
+      "strength": 10,
+      "chance": 10,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 24,
+    "name": "Amulette en Crabe",
+    "category": "Amulette",
+    "stats": {
+      "range": 1
+    }
+  },
+  {
+    "level": 22,
+    "name": "Amulette du Marin",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 30
+    }
+  },
+  {
+    "level": 41,
+    "name": "Amulette du Pirate",
+    "category": "Amulette",
+    "stats": {
+      "health": 35,
+      "strength": 35,
+      "criticalChance": 3,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 35,
+    "name": "Amulette du Pêcheur de Somoon",
+    "category": "Amulette",
+    "stats": {
+      "chance": 41
+    }
+  },
+  {
+    "level": 47,
+    "name": "Amulette des Abîmes",
+    "category": "Amulette",
+    "stats": {
+      "chance": 30,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "criticalDamage": 5
+    }
+  },
+  {
+    "level": 1,
+    "name": "Koliet Aclou",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "neutralDamage": 1,
+      "earthDamage": 1,
+      "fireDamage": 1,
+      "waterDamage": 1,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 22,
+    "name": "Amulette du Bûcheron",
+    "category": "Amulette",
+    "stats": {
+      "strength": 15,
+      "agility": 15,
+      "lock": 3
+    }
+  },
+  {
+    "level": 3,
+    "name": "Pendentif du Hibou Chétif",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 10,
+      "lock": 3
+    }
+  },
+  {
+    "level": 1,
+    "name": "Grenouillette",
+    "category": "Amulette",
+    "stats": {
+      "agility": 1
+    }
+  },
+  {
+    "level": 32,
+    "name": "Dragolyre",
+    "category": "Amulette",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 37,
+    "name": "Amulette de Silicate",
+    "category": "Amulette",
+    "stats": {
+      "health": 0,
+      "criticalChance": 4,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2
+    }
+  },
+  {
+    "level": 89,
+    "name": "La Feuille d'Automne",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 50,
+      "agility": 50,
+      "criticalChance": 10,
+      "range": 2,
+      "prospecting": 15
+    }
+  },
+  {
+    "level": 51,
+    "name": "Médaille Oly",
+    "category": "Amulette",
+    "stats": {
+      "strength": 30,
+      "power": 10,
+      "criticalChance": 5,
+      "earthDamage": 3,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 52,
+    "name": "Amulette de Xélor",
+    "category": "Amulette",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "criticalChance": 3,
+      "AP": 1,
+      "damage": 3
+    }
+  },
+  {
+    "level": 47,
+    "name": "Amulette du Craqueleur",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "strength": 25,
+      "intelligence": 25,
+      "agility": 25,
+      "damage": 3
+    }
+  },
+  {
+    "level": 44,
+    "name": "Chance à Mulette",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 35,
+      "prospecting": 10,
+      "dodge": 10
+    }
+  },
+  {
+    "level": 47,
+    "name": "Harmonie",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "strength": 15,
+      "intelligence": 15,
+      "chance": 15,
+      "agility": 15,
+      "wisdom": 15,
+      "power": 15
+    }
+  },
+  {
+    "level": 38,
+    "name": "Accord",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 10,
+      "intelligence": 10,
+      "chance": 10,
+      "agility": 10,
+      "wisdom": 10,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 23,
+    "name": "Entente",
+    "category": "Amulette",
+    "stats": {
+      "strength": 10,
+      "intelligence": 10,
+      "chance": 10,
+      "agility": 10,
+      "wisdom": 3
+    }
+  },
+  {
+    "level": 41,
+    "name": "Emblème Livide",
+    "category": "Amulette",
+    "stats": {
+      "strength": 60,
+      "agility": 0,
+      "wisdom": 20,
+      "damage": 2,
+      "lock": 6
+    }
+  },
+  {
+    "level": 29,
+    "name": "Kabale",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15
+    }
+  },
+  {
+    "level": 12,
+    "name": "Amulette Itby",
+    "category": "Amulette",
+    "stats": {
+      "agility": 20
+    }
+  },
+  {
+    "level": 22,
+    "name": "La Reinette",
+    "category": "Amulette",
+    "stats": {
+      "chance": 20,
+      "agility": 20
+    }
+  },
+  {
+    "level": 31,
+    "name": "Médaille Holy",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "lock": 3
+    }
+  },
+  {
+    "level": 130,
+    "name": "Plimclik",
+    "category": "Amulette",
+    "stats": {
+      "AP": 1,
+      "MP": 1,
+      "range": 1
+    }
+  },
+  {
+    "level": 28,
+    "name": "La Broche Hète",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "wisdom": 20,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 13,
+    "name": "La Chaîne Nhanor Kibrill",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 10,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 45,
+    "name": "Chaîne de la Liche",
+    "category": "Amulette",
+    "stats": {
+      "health": 0,
+      "chance": 30,
+      "wisdom": 10,
+      "summon": 2
+    }
+  },
+  {
+    "level": 46,
+    "name": "Abramu",
+    "panoply": "Abranoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 100,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "wisdom": 20,
+      "AP": 1,
+      "damage": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Ambramulette Moskito",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 0,
+      "chance": 30,
+      "damage": 5,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 34,
+    "name": "Ambramulette Arakne",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "strength": 0,
+      "intelligence": 20,
+      "chance": 20,
+      "agility": 0,
+      "heal": 10,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 1,
+    "name": "Amulette de Jiva",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "AP": 4
+    }
+  },
+  {
+    "level": 44,
+    "name": "L'Amulette du Puzzle de la Griffe",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 30,
+      "criticalChance": 4,
+      "fireDamage": 5,
+      "initiative": 200
+    }
+  },
+  {
+    "level": 32,
+    "name": "Amulette du Badoul",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "power": 15,
+      "damage": 4
+    }
+  },
+  {
+    "level": 49,
+    "name": "Amulette de la Boule",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 35,
+      "neutralResistPer": 7
+    }
+  },
+  {
+    "level": 83,
+    "name": "Amulette de la Bouboule",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 20,
+      "power": 15,
+      "AP": 1,
+      "summon": 2,
+      "prospecting": 15,
+      "neutralResistPer": 4,
+      "waterResistPer": 4
+    }
+  },
+  {
+    "level": 42,
+    "name": "Dragolyre Remaniée",
+    "category": "Amulette",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 1,
+      "summon": 1
+    }
+  },
+  {
+    "level": 17,
+    "name": "Omelette Amulette",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "summon": 1
+    }
+  },
+  {
+    "level": 32,
+    "name": "La Bourgeonette",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "agility": 0,
+      "earthResistPer": 5,
+      "airResistPer": 0,
+      "lock": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Le foulard du Lard Fou",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "chance": 20,
+      "agility": 20,
+      "neutralResistPer": 3
+    }
+  },
+  {
+    "level": 15,
+    "name": "La Lou Ptiote",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 25
+    }
+  },
+  {
+    "level": 30,
+    "name": "La Bibelaw",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2
+    }
+  },
+  {
+    "level": 52,
+    "name": "L'Œil de Kanigrou",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "criticalChance": 5,
+      "damage": 5,
+      "neutralResistPer": 4,
+      "criticalDamage": 5
+    }
+  },
+  {
+    "level": 11,
+    "name": "La Veaux Doux",
+    "category": "Amulette",
+    "stats": {
+      "strength": 17
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amukwak de Flammes",
+    "panoply": "Panoplie du Kwak de Flammes",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "intelligence": 30,
+      "criticalChance": 2,
+      "fireResistPer": 5
+    }
+  },
+  {
+    "level": 20,
+    "name": "Amulette du Bouftou",
+    "panoply": "Panoplie du Bouftou",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "strength": 15,
+      "intelligence": 15
+    }
+  },
+  {
+    "level": 40,
+    "name": "Araknamu",
+    "panoply": "Panoplie de l'Abraknyde",
+    "category": "Amulette",
+    "stats": {
+      "strength": 30,
+      "range": 1
+    }
+  },
+  {
+    "level": 28,
+    "name": "Amulette Royale du Bouftou",
+    "panoply": "Panoplie du Bouftou Royal",
+    "category": "Amulette",
+    "stats": {
+      "strength": 20,
+      "intelligence": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Gelamu",
+    "panoply": "Panoplie Gelax",
+    "category": "Amulette",
+    "stats": {
+      "range": 1,
+      "summon": 2,
+      "initiative": 300
+    }
+  },
+  {
+    "level": 5,
+    "name": "Amulette de l'Aventurier",
+    "panoply": "Panoplie du Jeune Aventurier",
+    "category": "Amulette",
+    "stats": {
+      "strength": 5,
+      "intelligence": 5,
+      "chance": 5,
+      "agility": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Vegamu",
+    "panoply": "Panoplie Végétatif",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "intelligence": 0,
+      "chance": 0,
+      "range": 2
+    }
+  },
+  {
+    "level": 82,
+    "name": "Amulette Argie",
+    "category": "Amulette",
+    "stats": {
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "earthResist": 10,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10
+    }
+  },
+  {
+    "level": 52,
+    "name": "Amulette du Craqueleur des Plaines",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "intelligence": 25,
+      "chance": 25,
+      "agility": 25,
+      "neutralResist": 8,
+      "earthResist": 8
+    }
+  },
+  {
+    "level": 69,
+    "name": "La Maîtrise des Poupées",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "AP": 1,
+      "summon": 2,
+      "neutralResistPer": 2,
+      "earthResistPer": 2
+    }
+  },
+  {
+    "level": 118,
+    "name": "Amulette du Renouveau",
+    "category": "Amulette",
+    "stats": {
+      "health": 70,
+      "strength": 50,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 63,
+    "name": "Amulette Turquoise",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "intelligence": 40,
+      "chance": 25,
+      "agility": 25,
+      "range": 1,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 39,
+    "name": "Amulette du Mineur Sombre",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "chance": 35,
+      "wisdom": 10,
+      "power": 20,
+      "prospecting": 10,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "waterResistPer": 0,
+      "airResistPer": 0
+    }
+  },
+  {
+    "level": 95,
+    "name": "La Feuille d'Hiver",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "chance": 50,
+      "wisdom": 20,
+      "power": 20,
+      "damage": 7,
+      "prospecting": 15,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 123,
+    "name": "La Feuille de Printemps",
+    "category": "Amulette",
+    "stats": {
+      "health": 70,
+      "chance": 50,
+      "agility": 50,
+      "AP": 1,
+      "range": 2,
+      "damage": 10,
+      "prospecting": 15,
+      "fireResistPer": 5,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 45,
+    "name": "La Feuille d'Eté",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "intelligence": 40,
+      "chance": 40,
+      "range": 1,
+      "prospecting": 10,
+      "earthResistPer": 0,
+      "fireResistPer": 0,
+      "airResistPer": 0,
+      "apReduction": 5,
+      "mpReduction": 5
+    }
+  },
+  {
+    "level": 29,
+    "name": "Amulette de Shika",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "wisdom": 10,
+      "initiative": 160,
+      "lock": 3
+    }
+  },
+  {
+    "level": 60,
+    "name": "Amulette \"Dents de Wabbits\"",
+    "panoply": "Panoplie du Wabbit",
+    "category": "Amulette",
+    "stats": {
+      "strength": 20,
+      "chance": 20,
+      "agility": 20,
+      "range": 1,
+      "summon": 1,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 20,
+    "name": "Amulette de l'Homme Ours",
+    "panoply": "Panoplie de l'Homme Ours",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 7,
+      "range": 1,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amukwak de Glace",
+    "panoply": "Panoplie du Kwak de Glace",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "chance": 30,
+      "criticalChance": 2,
+      "waterResistPer": 5
+    }
+  },
+  {
+    "level": 103,
+    "name": "Fourbamulette",
+    "panoply": "Panoplie Fourbasse",
+    "category": "Amulette",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "criticalChance": 4,
+      "AP": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "neutralResistPer": 7
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amukwak de Terre",
+    "panoply": "Panoplie du Kwak de Terre",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "strength": 30,
+      "criticalChance": 2,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amukwak de Vent",
+    "panoply": "Panoplie du Kwak de Vent",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "agility": 30,
+      "criticalChance": 2,
+      "airResistPer": 5
+    }
+  },
+  {
+    "level": 75,
+    "name": "Epis de Farle",
+    "panoply": "Panoplie de Farle Ingalsse",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "wisdom": 10,
+      "AP": 1,
+      "summon": 1,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 1,
+    "name": "Amulette Tude",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 1,
+      "initiative": 5
+    }
+  },
+  {
+    "level": 15,
+    "name": "Amulette des Champs",
+    "panoply": "Panoplie Champêtre",
+    "category": "Amulette",
+    "stats": {
+      "summon": 1,
+      "initiative": 100,
+      "lock": 0
+    }
+  },
+  {
+    "level": 100,
+    "name": "Amulette du Chef Bwork",
+    "panoply": "Panoplie du Chef Bwork",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "strength": 20,
+      "chance": 30,
+      "wisdom": 10,
+      "criticalChance": 3,
+      "AP": 1,
+      "earthResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 70,
+    "name": "Amulette du Chef Crocodaille",
+    "panoply": "Panoplie du Chef Crocodaille",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "AP": 1,
+      "summon": 1,
+      "waterResistPer": 2,
+      "airResistPer": 2
+    }
+  },
+  {
+    "level": 15,
+    "name": "Amulette du Moskito",
+    "panoply": "Panoplie Moskito",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "chance": 20
+    }
+  },
+  {
+    "level": 16,
+    "name": "Amulette du Bandit",
+    "panoply": "Panoplie du Bandit",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "criticalChance": 2,
+      "neutralDamage": 1,
+      "earthDamage": 1,
+      "fireDamage": 1,
+      "waterDamage": 1,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 58,
+    "name": "Craquamulette",
+    "panoply": "Panoplie du Craqueleur",
+    "category": "Amulette",
+    "stats": {
+      "strength": 15,
+      "chance": 15,
+      "AP": 1,
+      "earthResistPer": 2,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 31,
+    "name": "Médaille Lahilama",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "intelligence": 20,
+      "wisdom": 15,
+      "heal": 5
+    }
+  },
+  {
+    "level": 40,
+    "name": "Bambamulette",
+    "category": "Amulette",
+    "stats": {
+      "health": 80,
+      "strength": 0,
+      "intelligence": 0,
+      "summon": 1,
+      "heal": 10,
+      "initiative": 150,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 55,
+    "name": "Talisman du Faucheur d'Avoine",
+    "category": "Amulette",
+    "stats": {
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 15,
+      "earthDamage": 2,
+      "fireDamage": 2,
+      "apReduction": 5,
+      "criticalDamage": 0
+    }
+  },
+  {
+    "level": 94,
+    "name": "La Résinette",
+    "category": "Amulette",
+    "stats": {
+      "health": 90,
+      "wisdom": 25,
+      "damage": 5,
+      "heal": 15,
+      "prospecting": 15,
+      "neutralResistPer": 4,
+      "fireResistPer": 4
+    }
+  },
+  {
+    "level": 135,
+    "name": "Talisman d'Elya Wood",
+    "panoply": "Panoplie d'Elya Wood",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "intelligence": 30,
+      "wisdom": 40,
+      "AP": 1,
+      "heal": 10,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "earthResist": 13,
+      "fireResist": 13
+    }
+  },
+  {
+    "level": 77,
+    "name": "La Doubitch O'Boul",
+    "panoply": "Panoplie O'Boul",
+    "category": "Amulette",
+    "stats": {
+      "health": 70,
+      "intelligence": 40,
+      "AP": 1,
+      "prospecting": 15
+    }
+  },
+  {
+    "level": 46,
+    "name": "Pendule du Gudule",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "agility": 30,
+      "criticalChance": 3,
+      "damage": 3
+    }
+  },
+  {
+    "level": 26,
+    "name": "Larvamulette",
+    "panoply": "Panoplie Larvesque",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "intelligence": 20,
+      "agility": 20
+    }
+  },
+  {
+    "level": 125,
+    "name": "Médaille Kido",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "prospecting": 20,
+      "fireResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 152,
+    "name": "Collier du Tanukouï San",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 40,
+      "AP": 1,
+      "damage": 10,
+      "heal": 10,
+      "initiative": 700,
+      "neutralResistPer": 10,
+      "neutralResist": 10
+    }
+  },
+  {
+    "level": 41,
+    "name": "Amulette Akwadala",
+    "panoply": "Panoplie Akwadala",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "criticalChance": 3,
+      "damage": 2
+    }
+  },
+  {
+    "level": 78,
+    "name": "Amulette Terrdala",
+    "panoply": "Panoplie Terrdala",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "wisdom": 20,
+      "AP": 1,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 91,
+    "name": "Amulette Feudala",
+    "panoply": "Panoplie Feudala",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 40,
+      "chance": 40,
+      "AP": 1,
+      "heal": 10,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 62,
+    "name": "Amulette Aerdala",
+    "panoply": "Panoplie Aerdala",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "agility": 30,
+      "AP": 1,
+      "airDamage": 3
+    }
+  },
+  {
+    "level": 58,
+    "name": "Amulette du Kitsou",
+    "panoply": "Panoplie du Kitsou",
+    "category": "Amulette",
+    "stats": {
+      "health": 100,
+      "range": 1,
+      "initiative": 300,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 84,
+    "name": "Amulette du Boufcoul",
+    "panoply": "Panoplie du Boufcoul",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "strength": 25,
+      "intelligence": 25,
+      "agility": 25,
+      "wisdom": 10,
+      "AP": 1,
+      "earthDamage": 2,
+      "fireDamage": 2,
+      "airDamage": 2,
+      "heal": 6,
+      "initiative": 0
+    }
+  },
+  {
+    "level": 60,
+    "name": "Amulette du Koalak",
+    "panoply": "Panoplie du Koalak",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 20,
+      "range": 1,
+      "initiative": 0,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "criticalDamage": 6
+    }
+  },
+  {
+    "level": 22,
+    "name": "Amulette du Tofu",
+    "panoply": "Panoplie du Tofu",
+    "category": "Amulette",
+    "stats": {
+      "agility": 15,
+      "criticalChance": 3,
+      "dodge": 2
+    }
+  },
+  {
+    "level": 45,
+    "name": "Amulette du Scarabosse Doré",
+    "panoply": "Panoplie du Scarabosse Doré",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15,
+      "range": 1
+    }
+  },
+  {
+    "level": 20,
+    "name": "Amulette Paysanne",
+    "panoply": "Panoplie du Paysan",
+    "category": "Amulette",
+    "stats": {
+      "chance": 15,
+      "waterDamage": 2,
+      "initiative": 100,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 57,
+    "name": "Amuloumulette",
+    "panoply": "Panoplie du Mulou",
+    "category": "Amulette",
+    "stats": {
+      "agility": 30,
+      "criticalChance": 5,
+      "damage": 5,
+      "prospecting": 10
+    }
+  },
+  {
+    "level": 84,
+    "name": "Amulette du Craqueleur Légendaire",
+    "panoply": "Panoplie du Craqueleur Légendaire",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 25,
+      "agility": 25,
+      "wisdom": 25,
+      "AP": 1,
+      "earthResist": 5,
+      "waterResist": 5
+    }
+  },
+  {
+    "level": 11,
+    "name": "Amulette du Piou Rouge",
+    "panoply": "Panoplie du Piou Rouge",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 10,
+    "name": "Amulette du Piou Bleu",
+    "panoply": "Panoplie du Piou Bleu",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "chance": 20
+    }
+  },
+  {
+    "level": 9,
+    "name": "Amulette du Piou Violet",
+    "panoply": "Panoplie du Piou Violet",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "power": 10
+    }
+  },
+  {
+    "level": 7,
+    "name": "Amulette du Piou Jaune",
+    "panoply": "Panoplie du Piou Jaune",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "airDamage": 1
+    }
+  },
+  {
+    "level": 12,
+    "name": "Amulette du Piou Vert",
+    "panoply": "Panoplie du Piou Vert",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 10,
+      "earthDamage": 1
+    }
+  },
+  {
+    "level": 8,
+    "name": "Amulette du Piou Rose",
+    "panoply": "Panoplie du Piou Rose",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 20,
+    "name": "Amulette en Mousse",
+    "panoply": "Panoplie en Mousse",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "chance": 20,
+      "criticalChance": 2
+    }
+  },
+  {
+    "level": 143,
+    "name": "La Meulette",
+    "panoply": "Panoplie du Meulou",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "wisdom": 30,
+      "power": 15,
+      "criticalChance": 3,
+      "AP": 1,
+      "damage": 4,
+      "prospecting": 20,
+      "waterResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 111,
+    "name": "Collier du Minotoror",
+    "panoply": "Panoplie du Minotoror",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "wisdom": 45,
+      "criticalChance": 3,
+      "AP": 1,
+      "heal": 10,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "criticalDamage": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 158,
+    "name": "Collier du Minotot",
+    "panoply": "Panoplie du Minotot",
+    "category": "Amulette",
+    "stats": {
+      "health": 230,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 25
+    }
+  },
+  {
+    "level": 100,
+    "name": "Collier du Dragon Cochon",
+    "panoply": "Panoplie du Dragon Cochon",
+    "category": "Amulette",
+    "stats": {
+      "health": 120,
+      "wisdom": 15,
+      "power": 30,
+      "criticalChance": 2,
+      "AP": 1,
+      "damage": 3,
+      "heal": 6
+    }
+  },
+  {
+    "level": 124,
+    "name": "Amulette du Dragoeuf",
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "agility": 40,
+      "power": 30,
+      "AP": 1,
+      "initiative": 200,
+      "earthResistPer": 4,
+      "waterResist": 10,
+      "apResist": 6,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 76,
+    "name": "Epis de Shika",
+    "panoply": "Panoplie de Shika Ingalsse",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "AP": 1,
+      "summon": 1,
+      "prospecting": 5
+    }
+  },
+  {
+    "level": 111,
+    "name": "Pendentif du Mominotor",
+    "panoply": "Panoplie du Mominotor",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "wisdom": 45,
+      "AP": 1,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  {
+    "level": 103,
+    "name": "Collier du Rat Noir",
+    "panoply": "Panoplie du Rat Noir",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "AP": 1,
+      "neutralDamage": 4,
+      "earthDamage": 4,
+      "airDamage": 4,
+      "prospecting": 6,
+      "lock": 5
+    }
+  },
+  {
+    "level": 102,
+    "name": "Collier du Rat Blanc",
+    "panoply": "Panoplie du Rat Blanc",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 20,
+      "AP": 1,
+      "fireDamage": 4,
+      "waterDamage": 4,
+      "heal": 5,
+      "prospecting": 6,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 134,
+    "name": "Collier Cérémonial du Seigneur des Rats",
+    "panoply": "Panoplie Cérémoniale",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "intelligence": 30,
+      "agility": 40,
+      "wisdom": 25,
+      "AP": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "initiative": 400,
+      "neutralResistPer": 10
+    }
+  },
+  {
+    "level": 110,
+    "name": "Torque Ancestral",
+    "panoply": "Panoplie Ancestrale",
+    "category": "Amulette",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "chance": 40,
+      "wisdom": 20,
+      "AP": 1,
+      "damage": 6,
+      "prospecting": 10,
+      "fireResistPer": 10,
+      "fireResist": 7
+    }
+  },
+  {
+    "level": 138,
+    "name": "Talisman du Chêne Mou",
+    "panoply": "Panoplie du Chêne Mou",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 25,
+      "AP": 1,
+      "damage": 10,
+      "heal": 8,
+      "prospecting": 15,
+      "initiative": 300
+    }
+  },
+  {
+    "level": 1,
+    "name": "Le S'Mesme",
+    "panoply": "Panoplie du Boune",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "chance": 6
+    }
+  },
+  {
+    "level": 159,
+    "name": "Zothulette",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "wisdom": 50,
+      "power": 50,
+      "criticalChance": 5,
+      "AP": 1,
+      "damage": 10,
+      "heal": 10,
+      "prospecting": 20,
+      "neutralResistPer": 10,
+      "fireResistPer": 10
+    }
+  },
+  {
+    "level": 105,
+    "name": "Ouassulette",
+    "panoply": "Panoplie Vassale",
+    "category": "Amulette",
+    "stats": {
+      "health": 110,
+      "strength": 35,
+      "chance": 35,
+      "wisdom": 20,
+      "AP": 1,
+      "heal": 6,
+      "prospecting": 5,
+      "earthResistPer": 3,
+      "lock": 5,
+      "mpReduction": 4
+    }
+  },
+  {
+    "level": 83,
+    "name": "Amufafah",
+    "panoply": "Panoplie des Herboricoles",
+    "category": "Amulette",
+    "stats": {
+      "strength": 25,
+      "agility": 25,
+      "wisdom": 15,
+      "MP": 1,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "criticalDamage": 5
+    }
+  },
+  {
+    "level": 181,
+    "name": "Ougamulette",
+    "panoply": "Panoplie du Ougah",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "wisdom": 50,
+      "power": 40,
+      "AP": 1,
+      "damage": 7,
+      "prospecting": 20,
+      "initiative": 600,
+      "waterResistPer": 10
+    }
+  },
+  {
+    "level": 50,
+    "name": "Amublop Griotte",
+    "panoply": "Panoplie Blop Griotte",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 35,
+      "wisdom": 15,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 50,
+    "name": "Amublop Reinette",
+    "panoply": "Panoplie Blop Reinette",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "strength": 35,
+      "wisdom": 15,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 50,
+    "name": "Amublop Coco",
+    "panoply": "Panoplie Blop Coco",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "agility": 35,
+      "wisdom": 15,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 50,
+    "name": "Amublop Indigo",
+    "panoply": "Panoplie Blop Indigo",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "chance": 35,
+      "wisdom": 15,
+      "criticalChance": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Amublop Griotte Royale",
+    "panoply": "Panoplie Blop Griotte Royale",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "intelligence": 30,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Amublop Reinette Royale",
+    "panoply": "Panoplie Blop Reinette Royale",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "AP": 1,
+      "summon": 1,
+      "earthDamage": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Amublop Coco Royale",
+    "panoply": "Panoplie Blop Coco Royale",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "AP": 1,
+      "summon": 1,
+      "airDamage": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 80,
+    "name": "Amublop Indigo Royale",
+    "panoply": "Panoplie Blop Indigo Royale",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "AP": 1,
+      "summon": 1,
+      "waterDamage": 5,
+      "heal": 5
+    }
+  },
+  {
+    "level": 90,
+    "name": "Amublop Multicolore Royale",
+    "panoply": "Panoplie Blop Multicolore Royale",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "wisdom": 20,
+      "power": 25,
+      "AP": 1,
+      "damage": 5,
+      "fireResistPer": 3
+    }
+  },
+  {
+    "level": 184,
+    "name": "Amulette Ripage",
+    "panoply": "Panoplie du Bworker Berserker",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "AP": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResist": 10,
+      "trapPower": 20
+    }
+  },
+  {
+    "level": 43,
+    "name": "Tartamulette",
+    "category": "Amulette",
+    "stats": {
+      "strength": 20,
+      "power": 10,
+      "criticalChance": 3,
+      "initiative": 50,
+      "earthResistPer": 5
+    }
+  },
+  {
+    "level": 27,
+    "name": "Pompamulette",
+    "panoply": "Pompanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 4,
+      "range": 1
+    }
+  },
+  {
+    "level": 189,
+    "name": "Amunite",
+    "panoply": "Panoplie Tue-Mouche",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 50,
+      "power": 10,
+      "AP": 1,
+      "damage": 10,
+      "heal": 10,
+      "prospecting": 20,
+      "earthResist": 10,
+      "fireResist": 10
+    }
+  },
+  {
+    "level": 194,
+    "name": "Kralamansion",
+    "panoply": "Panoplie Ventouse",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 30,
+      "criticalChance": 5,
+      "AP": 1,
+      "range": 2,
+      "summon": 2,
+      "damage": 15,
+      "heal": 10,
+      "prospecting": 30
+    }
+  },
+  {
+    "level": 47,
+    "name": "Amulette Papayou",
+    "panoply": "Panoplie Papayou",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "damage": 4,
+      "apReduction": 3
+    }
+  },
+  {
+    "level": 43,
+    "name": "Collier Sleump",
+    "panoply": "Panoplie Sleump",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "agility": 15,
+      "criticalChance": 3,
+      "summon": 1,
+      "heal": 2
+    }
+  },
+  {
+    "level": 43,
+    "name": "La Chaplivate",
+    "panoply": "Chapanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 20,
+      "chance": 25,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 45,
+    "name": "Amulette du Vampyre",
+    "panoply": "Panoplie du Vampyre maudit",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "strength": 20,
+      "wisdom": 10,
+      "summon": 2,
+      "undefined": 1
+    }
+  },
+  {
+    "level": 43,
+    "name": "Yugolette",
+    "panoply": "Yugoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "damage": 4,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 42,
+    "name": "Collertue",
+    "panoply": "Panoplie Mace",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 35,
+      "damage": 4,
+      "apResist": 2,
+      "criticalDamage": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "L'Esteban",
+    "category": "Amulette",
+    "stats": {
+      "health": 35,
+      "chance": 35,
+      "wisdom": 10,
+      "power": 10,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 41,
+    "name": "Collier de Noké",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 35,
+      "criticalChance": 3,
+      "damage": 2
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amulette de Grüt",
+    "panoply": "Panoplie de Grüt",
+    "category": "Amulette",
+    "stats": {
+      "strength": 30,
+      "wisdom": 10,
+      "power": 10,
+      "damage": 2,
+      "lock": 4
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amulette de Gobeuf",
+    "panoply": "Panoplie de Gobeuf",
+    "category": "Amulette",
+    "stats": {
+      "agility": 25,
+      "power": 12,
+      "criticalChance": 4,
+      "mpResist": 3
+    }
+  },
+  {
+    "level": 41,
+    "name": "Amulette de Laikteur",
+    "panoply": "Panoplie de Laikteur",
+    "category": "Amulette",
+    "stats": {
+      "chance": 25,
+      "range": 1,
+      "damage": 2
+    }
+  },
+  {
+    "level": 41,
+    "name": "Amulette de Rekto Topi",
+    "panoply": "Panoplie de Rekto Topi",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 25,
+      "range": 1,
+      "heal": 2
+    }
+  },
+  {
+    "level": 1,
+    "name": "Amulette de l'intrépide",
+    "panoply": "Panoplie de l'intrépide",
+    "category": "Amulette",
+    "stats": {
+      "health": 1,
+      "initiative": 1,
+      "undefined": 0
+    }
+  },
+  {
+    "level": 64,
+    "name": "Boufbamu",
+    "category": "Amulette",
+    "stats": {
+      "chance": 10,
+      "AP": 1,
+      "range": 1
+    }
+  },
+  {
+    "level": 53,
+    "name": "Amulette d'Hulkrap",
+    "panoply": "Panoplie d'Hulkrap",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 15,
+      "AP": 1,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 53,
+    "name": "Amulette de Kloug",
+    "panoply": "Panoplie de Kloug",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 15,
+      "chance": 30,
+      "summon": 1,
+      "fireDamage": 5,
+      "mpResist": 4
+    }
+  },
+  {
+    "level": 31,
+    "name": "Amulette de Rapine",
+    "panoply": "Panoplie de Rapine",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "intelligence": 20,
+      "damage": 3
+    }
+  },
+  {
+    "level": 32,
+    "name": "Amulette d'Hectaupe",
+    "panoply": "Panoplie d'Hectaupe",
+    "category": "Amulette",
+    "stats": {
+      "agility": 15,
+      "range": 1
+    }
+  },
+  {
+    "level": 32,
+    "name": "Clémentamulette",
+    "panoply": "Clémentopanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 20,
+      "criticalChance": 3
+    }
+  },
+  {
+    "level": 45,
+    "name": "Amulette de Grilliane",
+    "panoply": "Panoplie de Grilliane",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 25,
+      "chance": 15,
+      "criticalChance": 4,
+      "heal": 2
+    }
+  },
+  {
+    "level": 42,
+    "name": "Amulette de Rapiat",
+    "panoply": "Panoplie de Rapiat",
+    "category": "Amulette",
+    "stats": {
+      "strength": 15,
+      "agility": 0,
+      "criticalChance": 0,
+      "AP": 1
+    }
+  },
+  {
+    "level": 54,
+    "name": "Amulette d'Ougicle",
+    "panoply": "Panoplie d'Ougicle",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "agility": 20,
+      "wisdom": 0,
+      "AP": 1
+    }
+  },
+  {
+    "level": 49,
+    "name": "Amulette de Karotz",
+    "panoply": "Panoplie de Karotz",
+    "category": "Amulette",
+    "stats": {
+      "chance": 30,
+      "wisdom": 15,
+      "criticalChance": 4,
+      "initiative": 100,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 41,
+    "name": "Amulette de Kubitus",
+    "panoply": "Panoplie de Kubitus",
+    "category": "Amulette",
+    "stats": {
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 4,
+      "dodge": 3
+    }
+  },
+  {
+    "level": 58,
+    "name": "Amulette de Piggy Paupe",
+    "panoply": "Panoplie de Piggy Paupe",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "chance": 15,
+      "wisdom": 8,
+      "AP": 1,
+      "lock": 3
+    }
+  },
+  {
+    "level": 62,
+    "name": "Amupapier",
+    "panoply": "Panopapier",
+    "category": "Amulette",
+    "stats": {
+      "chance": 30,
+      "wisdom": 15,
+      "criticalChance": 4,
+      "waterDamage": 5,
+      "prospecting": 15,
+      "initiative": 150
+    }
+  },
+  {
+    "level": 59,
+    "name": "Plumamulette",
+    "panoply": "Plumoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 25,
+      "agility": 25,
+      "wisdom": 15,
+      "summon": 1,
+      "heal": 4
+    }
+  },
+  {
+    "level": 54,
+    "name": "Amusonnier",
+    "panoply": "Panoplisonnier",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 25,
+      "agility": 25,
+      "criticalChance": 3,
+      "damage": 4
+    }
+  },
+  {
+    "level": 192,
+    "name": "Frimamulette",
+    "panoply": "Frimanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "AP": 1,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 200,
+      "airResistPer": 10,
+      "waterResist": 10
+    }
+  },
+  {
+    "level": 127,
+    "name": "Amulette Ementaire",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 58,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "AP": 1,
+      "range": 1,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "airDamage": 3,
+      "earthResistPer": 8,
+      "fireResistPer": 8,
+      "waterResistPer": 8,
+      "airResistPer": 8
+    }
+  },
+  {
+    "level": 128,
+    "name": "Amulette du Royalmouth",
+    "panoply": "Panoplie du Royalmouth",
+    "category": "Amulette",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 2,
+      "AP": 1,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "heal": 6,
+      "prospecting": 15,
+      "earthResist": 10,
+      "fireResist": 10,
+      "dodge": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 164,
+    "name": "Amulette de l'Obsidiantre",
+    "panoply": "Panoplie de l'Obsidiantre",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 50,
+      "AP": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "heal": 7,
+      "neutralResist": 7,
+      "earthResist": 7,
+      "fireResist": 7,
+      "dodge": 5,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 160,
+    "name": "Collier Yé",
+    "panoply": "Panoplie Yéyé",
+    "category": "Amulette",
+    "stats": {
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "summon": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 200,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "fireResist": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 154,
+    "name": "Talisman Choh",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "intelligence": 45,
+      "agility": 45,
+      "wisdom": 35,
+      "AP": 1,
+      "range": 1,
+      "summon": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "earthResist": 10,
+      "airResist": 10,
+      "criticalResist": -7,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 137,
+    "name": "Talisman Doline",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "criticalChance": -1,
+      "AP": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "airDamage": 8,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "fireResist": 10,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 182,
+    "name": "Amulette du Korriandre",
+    "panoply": "Panoplie du Korriandre",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "apReduction": 5,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 198,
+    "name": "Amulette du Glourséleste",
+    "panoply": "Panoplie du Glourséleste",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "MP": 1,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "dodge": 5,
+      "mpReduction": 5,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 173,
+    "name": "Amulette Cætera",
+    "panoply": "Panoplie Abrégée",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 25,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 25,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 185,
+    "name": "Amulette Héroclite",
+    "panoply": "Panoplie du frigostien curieux",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "wisdom": 50,
+      "power": 25,
+      "criticalChance": 4,
+      "AP": 1,
+      "summon": 2,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 197,
+    "name": "Amulette Hendart",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "heal": 10,
+      "initiative": 400,
+      "apResist": 5,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 163,
+    "name": "Amulette Ementaire Deluxe",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 59,
+      "strength": 70,
+      "intelligence": 70,
+      "chance": 70,
+      "agility": 70,
+      "AP": 1,
+      "range": 2,
+      "summon": 2,
+      "earthDamage": 5,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "airDamage": 5,
+      "earthResistPer": 8,
+      "fireResistPer": 8,
+      "waterResistPer": 8,
+      "airResistPer": 8
+    }
+  },
+  {
+    "level": 186,
+    "name": "Racine Hueuse",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 61,
+      "health": 250,
+      "wisdom": 40,
+      "power": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "range": 1,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "lock": 5
+    }
+  },
+  {
+    "level": 48,
+    "name": "Amulette du Boostache",
+    "panoply": "Panoplie du Boostache",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "range": 1,
+      "waterDamage": 6,
+      "apResist": 6
+    }
+  },
+  {
+    "level": 45,
+    "name": "Amulette de Traçon",
+    "panoply": "Panoplie de Traçon",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "criticalChance": 3,
+      "damage": 3,
+      "waterDamage": 5,
+      "apReduction": 4
+    }
+  },
+  {
+    "level": 53,
+    "name": "Amulette de Mirh",
+    "panoply": "Panoplie de Mirh",
+    "category": "Amulette",
+    "stats": {
+      "agility": 10,
+      "AP": 1,
+      "heal": 3,
+      "initiative": 100
+    }
+  },
+  {
+    "level": 49,
+    "name": "Amulette de Logram",
+    "panoply": "Panoplie de Logram",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 35,
+      "damage": 3,
+      "lock": 4,
+      "apResist": 4
+    }
+  },
+  {
+    "level": 43,
+    "name": "Amulette de Kalkanéus",
+    "panoply": "Panoplie de Kalkanéus",
+    "category": "Amulette",
+    "stats": {
+      "strength": 30,
+      "criticalChance": 4,
+      "neutralDamage": 4,
+      "initiative": 100,
+      "lock": 4
+    }
+  },
+  {
+    "level": 57,
+    "name": "Amulette d'Hichète",
+    "panoply": "Panoplie d'Hichète",
+    "category": "Amulette",
+    "stats": {
+      "agility": 15,
+      "AP": 1,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 46,
+    "name": "Amulette d'Haku",
+    "panoply": "Panoplie d'Haku",
+    "category": "Amulette",
+    "stats": {
+      "health": 35,
+      "intelligence": 35,
+      "criticalChance": 5,
+      "fireDamage": 5
+    }
+  },
+  {
+    "level": 74,
+    "name": "Amulette de Nelween",
+    "panoply": "Panoplie de Nelween",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "neutralDamage": 7,
+      "lock": 10,
+      "apReduction": 10,
+      "criticalDamage": 10,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 147,
+    "name": "Amulette de Frigostine",
+    "panoply": "Panoplie de Frigostine",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "agility": 40,
+      "wisdom": 30,
+      "power": 25,
+      "criticalChance": 3,
+      "AP": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 10,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "earthResist": 12,
+      "dodge": 5
+    }
+  },
+  {
+    "level": 156,
+    "name": "Amulette de Cantile",
+    "panoply": "Panoplie de Cantile",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "neutralResist": 15,
+      "lock": 4,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 177,
+    "name": "Amulette de Guten Tak",
+    "panoply": "Panoplie de Guten Tak",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 30,
+      "power": 30,
+      "AP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "initiative": 300,
+      "neutralResist": 20,
+      "apReduction": 5
+    }
+  },
+  {
+    "level": 195,
+    "name": "Amulette du Professeur Xa",
+    "panoply": "Panoplie du Professeur Xa",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 40,
+      "power": 30,
+      "MP": 1,
+      "range": 2,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "heal": 10,
+      "prospecting": 20,
+      "initiative": 600,
+      "dodge": 5,
+      "apReduction": 5,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 60,
+    "name": "Amourlette Hernel",
+    "category": "Amulette",
+    "stats": {}
+  },
+  {
+    "level": 60,
+    "name": "Amourlette Hernelle",
+    "category": "Amulette",
+    "stats": {}
+  },
+  {
+    "level": 96,
+    "name": "Amulette du Gorgouille",
+    "panoply": "Panoplie du Gorgouille",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 10,
+      "AP": 1,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "initiative": 100,
+      "lock": 3,
+      "mpReduction": 3,
+      "pushbackDamage": 7
+    }
+  },
+  {
+    "level": 107,
+    "name": "Amulette du Krokilleur",
+    "panoply": "Panoplie du Krokilleur",
+    "category": "Amulette",
+    "stats": {
+      "health": 80,
+      "strength": 40,
+      "wisdom": 25,
+      "power": 15,
+      "criticalChance": 3,
+      "AP": 1,
+      "neutralDamage": 4,
+      "earthDamage": 4,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "mpReduction": 3,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 151,
+    "name": "Amulette de Grozilla",
+    "panoply": "Panoplie de Grozilla",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 10,
+      "earthResist": 15,
+      "fireResist": 15,
+      "mpReduction": 3,
+      "apResist": 3,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Amulette Tétriste",
+    "panoply": "Panoplie Tétriste",
+    "category": "Amulette",
+    "stats": {
+      "strength": 0,
+      "intelligence": 0,
+      "chance": 0,
+      "agility": 0,
+      "range": 1
+    }
+  },
+  {
+    "level": 41,
+    "name": "Snarmulette",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15,
+      "fireDamage": 4,
+      "earthResist": 4,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 86,
+    "name": "Collier Rouge de Daïgoro",
+    "panoply": "Panoplie de Daïgoro",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 30,
+      "wisdom": 20,
+      "AP": 1,
+      "fireDamage": 5,
+      "dodge": 3,
+      "criticalResist": 8
+    }
+  },
+  {
+    "level": 10,
+    "name": "Amulettong",
+    "panoply": "Panoplong",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 0,
+      "summon": 1
+    }
+  },
+  {
+    "level": 10,
+    "name": "Pacmamulette",
+    "panoply": "Pacmanoplie",
+    "category": "Amulette",
+    "stats": {
+      "wisdom": 5,
+      "power": 10
+    }
+  },
+  {
+    "level": 150,
+    "name": "Porte-Malheur du Nowel Cauchemardesque",
+    "panoply": "Panoplie du Nowel Cauchemardesque",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "agility": 50,
+      "wisdom": 30,
+      "AP": 1,
+      "summon": 2,
+      "earthDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResist": 20,
+      "apResist": 5,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 85,
+    "name": "Licol de Redolphe",
+    "panoply": "Panoplie de Redolphe",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "intelligence": 30,
+      "chance": 30,
+      "AP": 1,
+      "earthDamage": 2,
+      "airDamage": 2,
+      "heal": 3,
+      "apResist": 3,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 42,
+    "name": "Peignentif",
+    "panoply": "Ma petite panoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "chance": 20,
+      "criticalChance": 4,
+      "waterDamage": 4,
+      "mpResist": 3
+    }
+  },
+  {
+    "level": 53,
+    "name": "Collier de Féline",
+    "panoply": "Panoplie de Féline",
+    "category": "Amulette",
+    "stats": {
+      "health": 35,
+      "strength": 35,
+      "wisdom": 15,
+      "criticalChance": 2,
+      "initiative": 150,
+      "criticalResist": 5
+    }
+  },
+  {
+    "level": 197,
+    "name": "Amulette d'Otomaï",
+    "panoply": "Panoplie d'Otomaï",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "AP": 1,
+      "fireDamage": 18,
+      "heal": 12,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 6
+    }
+  },
+  {
+    "level": 194,
+    "name": "Amulette de Danathor",
+    "panoply": "Panoplie de Danathor",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "chance": 75,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 18,
+      "initiative": 500,
+      "airResist": 20,
+      "lock": 8,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 56,
+    "name": "Pendentiffre",
+    "panoply": "Panoplie Coffre",
+    "category": "Amulette",
+    "stats": {
+      "power": 15,
+      "AP": 1,
+      "range": 0,
+      "waterDamage": 5,
+      "mpReduction": 3
+    }
+  },
+  {
+    "level": 53,
+    "name": "Amulette de Pwâk",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 90,
+      "health": 30,
+      "wisdom": 15,
+      "power": 15,
+      "damage": 4,
+      "prospecting": 10,
+      "dodge": 4
+    }
+  },
+  {
+    "level": 55,
+    "name": "Diplamu",
+    "panoply": "Diplanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "strength": 25,
+      "chance": 25,
+      "prospecting": 5,
+      "airResistPer": 4,
+      "dodge": 3,
+      "pushbackDamage": 5
+    }
+  },
+  {
+    "level": 196,
+    "name": "Amulette d'Oshimo",
+    "panoply": "Panoplie d'Oshimo",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "AP": 1,
+      "range": 0,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 10,
+      "initiative": 300,
+      "neutralResist": 20,
+      "lock": 10,
+      "apReduction": 10,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 194,
+    "name": "Amulette de Nevark",
+    "panoply": "Panoplie de Nevark",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "AP": 1,
+      "neutralDamage": 25,
+      "earthDamage": 25,
+      "airDamage": 25,
+      "prospecting": 15,
+      "waterResist": 15,
+      "mpResist": 8,
+      "criticalDamage": -21
+    }
+  },
+  {
+    "level": 193,
+    "name": "Amulette de Théodoran Ax",
+    "panoply": "Panoplie de Théodoran Ax",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 35,
+      "criticalChance": 3,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "heal": 15,
+      "prospecting": 10,
+      "neutralResist": 15,
+      "airResist": 15,
+      "dodge": 6,
+      "criticalDamage": -11
+    }
+  },
+  {
+    "level": 195,
+    "name": "Amulette d'Hel Munster",
+    "panoply": "Panoplie d'Hel Munster",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "waterDamage": 14,
+      "airDamage": 14,
+      "prospecting": 15,
+      "initiative": -201,
+      "earthResist": 15,
+      "dodge": -12,
+      "apResist": -4,
+      "criticalResist": 15,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 57,
+    "name": "Glaglamu",
+    "panoply": "Glaglanoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "wisdom": 15,
+      "criticalChance": 5,
+      "fireDamage": 5,
+      "apResist": 2
+    }
+  },
+  {
+    "level": 196,
+    "name": "Amulette de Nileza",
+    "panoply": "Panoplie de Nileza",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 70,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "fireDamage": 20,
+      "prospecting": 10,
+      "neutralResistPer": 10,
+      "fireResistPer": 10,
+      "criticalDamage": 12
+    }
+  },
+  {
+    "level": 196,
+    "name": "Amulette du Kanimate",
+    "panoply": "Panoplie du Kanimate",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "AP": 1,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "heal": 10,
+      "initiative": -301,
+      "fireResist": 20,
+      "airResist": 20,
+      "lock": 10,
+      "apResist": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Séculaire",
+    "panoply": "Panoplie Séculaire",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "agility": 25,
+      "wisdom": 40,
+      "AP": 1,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResistPer": 8,
+      "fireResistPer": 8,
+      "criticalResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Granduk",
+    "panoply": "Panoplie du Granduk",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "agility": 100,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 0,
+      "summon": 1,
+      "airDamage": 15,
+      "prospecting": 15,
+      "waterResist": 20,
+      "airResist": 20,
+      "lock": 10,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Sinistrofu",
+    "panoply": "Panoplie du Sinistrofu",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "AP": 1,
+      "range": 1,
+      "earthDamage": -16,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "airResist": 20,
+      "mpResist": 7,
+      "criticalResist": 15,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Cryochrone",
+    "panoply": "Panoplie Cryochrone",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "fireDamage": 14,
+      "waterDamage": 14,
+      "prospecting": 10,
+      "initiative": 300,
+      "earthResistPer": 8,
+      "airResistPer": 8,
+      "lock": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Cycloïde",
+    "panoply": "Panoplie du Cycloïde",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "AP": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "neutralResistPer": 8,
+      "fireResistPer": 8,
+      "lock": 8,
+      "apResist": -6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Strigide",
+    "panoply": "Panoplie du Strigide",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "power": 70,
+      "criticalChance": 6,
+      "AP": 1,
+      "earthResistPer": 8,
+      "airResistPer": 8,
+      "lock": 15,
+      "apResist": 6,
+      "criticalDamage": 25,
+      "criticalResist": -16
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Nocturlabe",
+    "panoply": "Panoplie du Nocturlabe",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 100,
+      "wisdom": 40,
+      "criticalChance": -5,
+      "AP": 1,
+      "earthDamage": 15,
+      "prospecting": 20,
+      "airResistPer": 10,
+      "waterResist": 20,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 196,
+    "name": "Amulette Rangleur",
+    "panoply": "Panoplie Superstitieuse",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "agility": 50,
+      "power": 25,
+      "AP": 1,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "heal": 8,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "earthResist": 14,
+      "lock": 6,
+      "criticalResist": -11
+    }
+  },
+  {
+    "level": 200,
+    "name": "Talisman Songe",
+    "panoply": "Panoplie du Bonimenteur",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "AP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "airResistPer": 8,
+      "fireResist": 15,
+      "lock": 10,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 50,
+    "name": "Dés de la Chance",
+    "category": "Amulette",
+    "stats": {
+      "strength": 20,
+      "chance": 20,
+      "AP": 1,
+      "criticalResist": 0
+    }
+  },
+  {
+    "level": 197,
+    "name": "Phylactère Mic",
+    "panoply": "Panoplie Magmatique",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "wisdom": 35,
+      "criticalChance": 2,
+      "AP": 1,
+      "neutralDamage": 18,
+      "earthDamage": 18,
+      "fireDamage": 18,
+      "prospecting": 15,
+      "lock": 10,
+      "criticalResist": 10
+    }
+  },
+  {
+    "level": 194,
+    "name": "Pendentif Oton",
+    "panoply": "Panoplie Quartzésienne",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "power": 25,
+      "criticalChance": 6,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "heal": 12,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "apResist": -11
+    }
+  },
+  {
+    "level": 58,
+    "name": "Amulette Stroplante",
+    "panoply": "Panoplie Stroplante",
+    "category": "Amulette",
+    "stats": {
+      "strength": 20,
+      "agility": 20,
+      "AP": 1
+    }
+  },
+  {
+    "level": 116,
+    "name": "Amulette du Wabbit Céphale",
+    "panoply": "Panoplie du Wabbit Céphale",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "AP": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "mpReduction": 6,
+      "apResist": -6
+    }
+  },
+  {
+    "level": 10,
+    "name": "Shinchamu",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "strength": 10,
+      "earthDamage": 2
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ninjamu Blanche",
+    "category": "Amulette",
+    "stats": {
+      "health": 15,
+      "agility": 10,
+      "criticalChance": 1
+    }
+  },
+  {
+    "level": 10,
+    "name": "Ninjamu Noire",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 15,
+      "criticalChance": 1
+    }
+  },
+  {
+    "level": 106,
+    "name": "Insigne de Keukeuf",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 149,
+      "health": 200,
+      "wisdom": 30,
+      "AP": 1,
+      "airResistPer": 10,
+      "lock": 7,
+      "mpResist": 5,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Talisman Glouti",
+    "panoply": "Panoplie des Abysses",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "chance": 50,
+      "wisdom": 35,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "fireDamage": 6,
+      "waterDamage": 10,
+      "airDamage": 6,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "lock": 7,
+      "criticalResist": -21,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 196,
+    "name": "Amulette Ikête",
+    "panoply": "Panoplie du Cartographe",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "heal": 12,
+      "prospecting": 25,
+      "fireResistPer": 10,
+      "neutralResist": 15,
+      "dodge": -9,
+      "criticalDamage": -16,
+      "criticalResist": 15,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 197,
+    "name": "Amulule",
+    "panoply": "Panoplie Obscure",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "AP": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "dodge": 10,
+      "apResist": 7,
+      "mpResist": -4
+    }
+  },
+  {
+    "level": 157,
+    "name": "Amulette de l'Orfélin",
+    "panoply": "Panoplie de l'Orfélin",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "AP": 1,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "mpReduction": 5,
+      "apResist": -5,
+      "pushbackDamage": 12
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Piloztère",
+    "panoply": "Panoplie du Piloztère",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "apResist": 20,
+      "criticalResist": 30,
+      "pushbackResist": -21
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Kamasterisk",
+    "panoply": "Panoplie du Kamasterisk",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "AP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "waterResistPer": 10,
+      "lock": -5,
+      "mpReduction": 5,
+      "apResist": 8,
+      "criticalResist": 20,
+      "pushbackResist": -21
+    }
+  },
+  {
+    "level": 152,
+    "name": "Amulette du Père Phorreur",
+    "panoply": "Panoplie du Père Phorreur",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "AP": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 20,
+      "fireResistPer": 7,
+      "lock": 10
+    }
+  },
+  {
+    "level": 131,
+    "name": "Gruchette",
+    "panoply": "Gruchoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "AP": 1,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de Gein",
+    "panoply": "Panoplie de Gein",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "dodge": 6,
+      "criticalDamage": 25
+    }
+  },
+  {
+    "level": 178,
+    "name": "Amulette Nécrotique",
+    "panoply": "Panoplie Nécrotique",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "waterResistPer": 10
+    }
+  },
+  {
+    "level": 133,
+    "name": "Amulette d'Ali Grothor",
+    "panoply": "Panoplie d'Ali Grothor",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "wisdom": 30,
+      "AP": 1,
+      "initiative": 500,
+      "waterResistPer": 10,
+      "airResistPer": 7,
+      "lock": 10,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 30,
+    "name": "Amulette Verréhor",
+    "panoply": "Panoplie Verréhor",
+    "category": "Amulette",
+    "stats": {
+      "strength": 15,
+      "agility": 15,
+      "range": 1,
+      "waterResistPer": 0,
+      "apResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de Pol Ouatnos",
+    "panoply": "Panoplie de Pol Ouatnos",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 70,
+      "criticalChance": 3,
+      "AP": 1,
+      "MP": 1,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "criticalResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amibou",
+    "panoply": "Panoplibou",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "airDamage": 15,
+      "prospecting": 15,
+      "neutralResistPer": 10,
+      "waterResistPer": 7,
+      "lock": 0,
+      "mpReduction": 5,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Harpendentif",
+    "panoply": "Harpinoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "range": 2,
+      "airResistPer": 10,
+      "dodge": 15,
+      "apResist": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Talisman Igans",
+    "panoply": "Panoplie Pnose",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "neutralResistPer": 7,
+      "earthResistPer": 7
+    }
+  },
+  {
+    "level": 10,
+    "name": "Amulette de Fouduglen",
+    "panoply": "Panoplie Fouduglen",
+    "category": "Amulette",
+    "stats": {
+      "agility": 10,
+      "pushbackDamage": 4
+    }
+  },
+  {
+    "level": 37,
+    "name": "Amulette Perle",
+    "panoply": "Microplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "strength": 25,
+      "power": 10,
+      "summon": 1
+    }
+  },
+  {
+    "level": 60,
+    "name": "Pendentif Curatif",
+    "panoply": "Panoplie Palliative",
+    "category": "Amulette",
+    "stats": {
+      "chance": 35,
+      "AP": 1,
+      "summon": 1,
+      "heal": 5,
+      "earthResistPer": 0,
+      "fireResistPer": 0
+    }
+  },
+  {
+    "level": 92,
+    "name": "Amulette des Huit Yeux",
+    "panoply": "Panoplie de la Pondeuse",
+    "category": "Amulette",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "agility": 30,
+      "AP": 1,
+      "summon": 1,
+      "earthDamage": 2,
+      "airDamage": 2,
+      "airResistPer": 3
+    }
+  },
+  {
+    "level": 7,
+    "name": "Animulette",
+    "panoply": "Panoplie des Âmes",
+    "category": "Amulette",
+    "stats": {
+      "criticalChance": 0,
+      "summon": 1
+    }
+  },
+  {
+    "level": 102,
+    "name": "Amulette de Moon",
+    "panoply": "Panoplie de Moon",
+    "category": "Amulette",
+    "stats": {
+      "health": 120,
+      "intelligence": 35,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 7,
+      "waterResistPer": 7,
+      "waterResist": 7,
+      "dodge": 4,
+      "mpResist": 4,
+      "criticalDamage": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Voldelor",
+    "panoply": "Panoplie de Voldelor",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "AP": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "dodge": 7,
+      "mpResist": -5,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 181,
+    "name": "Amulette du K.O.",
+    "panoply": "Panoplie du K.O.",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 35,
+      "power": 15,
+      "criticalChance": 4,
+      "AP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "fireResistPer": 10,
+      "dodge": 5,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 10,
+    "name": "Collier de Khan Karkass",
+    "panoply": "Panoplie de Khan Karkass",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "strength": 20
+    }
+  },
+  {
+    "level": 40,
+    "name": "Torque du Monarque",
+    "panoply": "Panoplie du Monarque",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "criticalChance": 3,
+      "heal": 3,
+      "pushbackDamage": 4
+    }
+  },
+  {
+    "level": 60,
+    "name": "Torque des 1001 Griffes",
+    "panoply": "Panoplie des 1001 Griffes",
+    "category": "Amulette",
+    "stats": {
+      "health": 50,
+      "damage": 4,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "mpResist": 4,
+      "pushbackDamage": 10
+    }
+  },
+  {
+    "level": 10,
+    "name": "Collier de Lilotte",
+    "category": "Amulette",
+    "stats": {
+      "health": 10,
+      "chance": 10,
+      "waterDamage": 3
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier de la Dame du Hasard",
+    "panoply": "Panoplie de la Dame du Hasard",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 6,
+      "mpReduction": 7,
+      "criticalDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier du Valet Veinard",
+    "panoply": "Panoplie du Valet Veinard",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "agility": 80,
+      "wisdom": 50,
+      "criticalChance": 0,
+      "AP": 1,
+      "range": 1,
+      "airDamage": 20,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 7,
+      "mpResist": 7,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 164,
+    "name": "Col de Ush",
+    "panoply": "Panoplie de Ush Galesh",
+    "category": "Amulette",
+    "stats": {
+      "health": 200,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "AP": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "waterResistPer": 7,
+      "mpResist": 5,
+      "pushbackDamage": 12
+    }
+  },
+  {
+    "level": 114,
+    "name": "Collier des Ecaflipuces",
+    "panoply": "Panoplie des Ecaflipuces",
+    "category": "Amulette",
+    "stats": {
+      "health": 140,
+      "intelligence": 30,
+      "agility": 50,
+      "wisdom": 35,
+      "AP": 1,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 7,
+      "lock": 4
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier de Tourthon",
+    "panoply": "Panoplie des Tréfonds",
+    "category": "Amulette",
+    "stats": {
+      "health": 500,
+      "strength": 100,
+      "wisdom": 50,
+      "AP": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "lock": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pendentif affamé",
+    "panoply": "Panoplie des Profondeurs",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "intelligence": 100,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "fireDamage": 15,
+      "heal": 10,
+      "earthResistPer": 10,
+      "dodge": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de Shokkoth",
+    "panoply": "Panoplie de la Fosse",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "chance": 100,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "AP": 1,
+      "range": 2,
+      "summon": 1,
+      "waterDamage": 20,
+      "airResistPer": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de l'Indicible",
+    "panoply": "Panoplie de l'Indicible",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "airResistPer": 10,
+      "dodge": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Luminescente",
+    "panoply": "Panoplie Luminescente",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "AP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "earthResistPer": 10,
+      "lock": 10,
+      "mpReduction": 6,
+      "pushbackDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Pendentif mignon de Koutoulou",
+    "panoply": "Panoplie de R'lyugluglu",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "intelligence": 80,
+      "agility": 80,
+      "wisdom": 40,
+      "AP": 1,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "criticalResist": 20
+    }
+  },
+  {
+    "level": 50,
+    "name": "Amuronce",
+    "panoply": "Panoplie de ronces",
+    "category": "Amulette",
+    "stats": {
+      "health": 25,
+      "strength": 15,
+      "chance": 15,
+      "wisdom": 0,
+      "criticalChance": 0,
+      "AP": 1
+    }
+  },
+  {
+    "level": 132,
+    "name": "Amulette d'El Piko",
+    "panoply": "Panoplie d'El Piko",
+    "category": "Amulette",
+    "stats": {
+      "health": 100,
+      "intelligence": 25,
+      "chance": 25,
+      "agility": 25,
+      "wisdom": 40,
+      "AP": 1,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "lock": 5,
+      "apResist": 5
+    }
+  },
+  {
+    "level": 169,
+    "name": "Crolier",
+    "panoply": "Vernoplie",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 2,
+      "AP": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "heal": 15,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "mpReduction": 6
+    }
+  },
+  {
+    "level": 200,
+    "name": "Torquistik",
+    "panoply": "Panoplistik",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 10,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "criticalResist": 20,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 31,
+    "name": "Amulette du Molosse",
+    "panoply": "Panoplie du Molosse",
+    "category": "Amulette",
+    "stats": {
+      "agility": 25,
+      "criticalChance": 2,
+      "lock": 4,
+      "mpResist": 3
+    }
+  },
+  {
+    "level": 193,
+    "name": "Amulette Hale",
+    "panoply": "Panoplie des Chassouilleurs",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 5,
+      "fireResistPer": 10,
+      "mpReduction": 7
+    }
+  },
+  {
+    "level": 72,
+    "name": "Amulette du Scorbute",
+    "panoply": "Panoplie du Scorbute",
+    "category": "Amulette",
+    "stats": {
+      "intelligence": 35,
+      "agility": 35,
+      "AP": 1,
+      "fireDamage": 2,
+      "airDamage": 2,
+      "initiative": 0,
+      "lock": 3
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Cœur Vaillant",
+    "panoply": "Panoplie du Cœur Vaillant",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "apReduction": 7,
+      "pushbackDamage": 25
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Cœur Saignant",
+    "panoply": "Panoplie du Cœur Saignant",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "strength": 80,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "AP": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "lock": 7,
+      "dodge": 0,
+      "mpReduction": 7,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de l'Œil Attentif",
+    "panoply": "Panoplie de l'Œil Attentif",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "AP": 1,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "dodge": 7,
+      "apResist": 7
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de l'Œil Putride",
+    "panoply": "Panoplie de l'Œil Putride",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "AP": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "dodge": 7,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette d'Ilyzaelle",
+    "panoply": "Panoplie d'Ilyzaelle",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "chance": 80,
+      "agility": 80,
+      "wisdom": 30,
+      "criticalChance": 0,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "neutralResistPer": 10,
+      "fireResistPer": 10,
+      "mpResist": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Volcanique",
+    "panoply": "Panoplie Volcanique",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "airResistPer": 10,
+      "mpReduction": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier Rophante",
+    "panoply": "Panoplie Noyée",
+    "category": "Amulette",
+    "stats": {
+      "health": 500,
+      "wisdom": 50,
+      "AP": 1,
+      "MP": 1,
+      "summon": 1,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "lock": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Martegel",
+    "panoply": "Panoplie Martegel",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "agility": 80,
+      "wisdom": 50,
+      "criticalChance": 0,
+      "AP": 1,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 10,
+      "apResist": 10,
+      "pushbackResist": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Volkorne",
+    "panoply": "Panoplie Volkorne",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "intelligence": 100,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "summon": 1,
+      "fireDamage": 20,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "mpResist": 10,
+      "criticalDamage": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette des Chocomanciens",
+    "panoply": "Panoplie des Chocomanciens",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "AP": 1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 10,
+      "airResistPer": 7,
+      "lock": 15,
+      "mpReduction": 15,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier Lunaire",
+    "panoply": "Panoplie Lunaire",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "wisdom": 40,
+      "power": 70,
+      "AP": 1,
+      "neutralDamage": 20,
+      "airDamage": 20,
+      "prospecting": 20,
+      "initiative": 250,
+      "dodge": 10,
+      "mpReduction": 10
+    }
+  },
+  {
+    "level": 200,
+    "name": "Écharpe de Servitude",
+    "panoply": "Panoplie de Servitude",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "chance": 100,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 20,
+      "initiative": 500,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 5,
+      "dodge": 0,
+      "apReduction": 0,
+      "mpResist": 5,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Collier de Bavdur",
+    "category": "Amulette",
+    "stats": {
+      "health": 500,
+      "wisdom": 40,
+      "AP": 2,
+      "range": 0,
+      "initiative": 1000,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "lock": 20,
+      "mpResist": 7
+    }
+  },
+  {
+    "level": 108,
+    "name": "Plantamulette",
+    "panoply": "Panoplie Plantala",
+    "category": "Amulette",
+    "stats": {
+      "health": 80,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "AP": 1,
+      "prospecting": 5,
+      "earthResistPer": 2,
+      "neutralResist": 8,
+      "mpResist": 5
+    }
+  },
+  {
+    "level": 132,
+    "name": "Larme de Nagate",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "chance": 50,
+      "wisdom": 30,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 4,
+      "heal": 6,
+      "prospecting": 15,
+      "earthResistPer": 3,
+      "mpResist": 6
+    }
+  },
+  {
+    "level": 130,
+    "name": "Collier de perlouzes",
+    "panoply": "Panoplie Kozaru",
+    "category": "Amulette",
+    "stats": {
+      "health": 150,
+      "agility": 50,
+      "wisdom": 25,
+      "AP": 1,
+      "heal": 6,
+      "prospecting": 12,
+      "neutralResistPer": 4,
+      "airResist": 10,
+      "mpResist": 7,
+      "criticalDamage": 8
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Rinne",
+    "panoply": "Panoplie du Wukin",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "lock": 10,
+      "dodge": 0,
+      "apReduction": 15,
+      "mpReduction": 0,
+      "criticalResist": 0,
+      "pushbackResist": 15
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette de Wulan",
+    "panoply": "Panoplie de Wulan",
+    "category": "Amulette",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 0,
+      "apReduction": 0,
+      "mpReduction": 6,
+      "criticalDamage": 20
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette Possédée",
+    "panoply": "Panoplie Possédée",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "AP": 1,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "pushbackDamage": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Amulette du Pandamonium",
+    "panoply": "Panoplie du Pandamonium",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "wisdom": 40,
+      "AP": 1,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "heal": 20,
+      "initiative": 500,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "apResist": 8
+    }
+  },
+  {
+    "level": 200,
+    "name": "Torque de Ravageur",
+    "panoply": "Panoplie des Ravageurs",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "AP": 1,
+      "range": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 5,
+      "pushbackDamage": 30
+    }
+  },
+  {
+    "level": 200,
+    "name": "Chant du Nécromant",
+    "panoply": "Reliques de l'Aurore Pourpre",
+    "category": "Amulette",
+    "stats": {
+      "health": 350,
+      "strength": 35,
+      "intelligence": 35,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 30,
+      "AP": 1,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "earthResistPer": 8,
+      "fireResistPer": 8,
+      "waterResistPer": 0,
+      "airResistPer": 0,
+      "lock": 4,
+      "dodge": 0,
+      "apResist": 0,
+      "mpResist": 4,
+      "criticalResist": 10,
+      "pushbackResist": 0
+    }
+  },
+  {
+    "level": 175,
+    "name": "La Broche Céleste Ankarton",
+    "panoply": "Panoplie Ankarton",
+    "category": "Amulette",
+    "stats": {
+      "undefined": 1000
+    }
+  },
+  {
+    "level": 200,
+    "name": "Lourd Fardeau",
+    "panoply": "Malédiction de Cire Momore",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "power": 50,
+      "AP": 1,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "waterResistPer": 10,
+      "lock": 20,
+      "pushbackResist": 20
+    }
+  },
+  {
+    "level": 54,
+    "name": "Amulette de guerrier albueran",
+    "panoply": "Panoplie de guerrier albueran",
+    "category": "Amulette",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "chance": 20,
+      "AP": 1,
+      "lock": 0,
+      "mpReduction": 0
+    }
+  },
+  {
+    "level": 192,
+    "name": "Collier Gris",
+    "panoply": "Panoplie des Marteaux-Aigris",
+    "category": "Amulette",
+    "stats": {
+      "health": 250,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "AP": 1,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "waterResistPer": 5,
+      "lock": 10,
+      "dodge": 0
+    }
+  },
+  {
+    "level": 200,
+    "name": "Col du Dark Vlad",
+    "panoply": "Panoplie du Dark Vlad",
+    "category": "Amulette",
+    "stats": {
+      "health": 400,
+      "intelligence": 66,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "AP": 1,
+      "fireDamage": 18,
+      "earthResistPer": 9,
+      "fireResistPer": 9,
+      "waterResistPer": 0,
+      "dodge": 12,
+      "pushbackDamage": 30,
+      "waterResist": 0
+    }
+  },
+  {
+    "level": 1,
+    "name": "L'amugus",
+    "panoply": "Il n'y a pas de pano",
+    "category": "Amulette",
+    "stats": {}
+  }
+]
