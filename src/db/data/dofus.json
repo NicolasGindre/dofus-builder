@@ -207,5 +207,1952 @@
     "stats": {
       "health": 20
     }
+  },
+  "Tacleur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "lock": 4
+    }
+  },
+  "Tacleur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "lock": 8
+    }
+  },
+  "Tacleur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "lock": 16
+    }
+  },
+  "Fuyard mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 4
+    }
+  },
+  "Fuyard": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 8
+    }
+  },
+  "Fuyard majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 16
+    }
+  },
+  "Ralentisseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 3
+    }
+  },
+  "Ralentisseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 6
+    }
+  },
+  "Ralentisseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 12
+    }
+  },
+  "Engourdisseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 3
+    }
+  },
+  "Engourdisseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 6
+    }
+  },
+  "Engourdisseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 12
+    }
+  },
+  "Fugitif mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 4
+    }
+  },
+  "Fugitif": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 8
+    }
+  },
+  "Fugitif majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 16
+    }
+  },
+  "Insaisissable mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 4
+    }
+  },
+  "Insaisissable": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 8
+    }
+  },
+  "Insaisissable majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 16
+    }
+  },
+  "Pousseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 8
+    }
+  },
+  "Pousseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 16
+    }
+  },
+  "Pousseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 32
+    }
+  },
+  "Adamantin mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 12
+    }
+  },
+  "Adamantin": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 24
+    }
+  },
+  "Adamantin majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 48
+    }
+  },
+  "Rempart mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 3
+    }
+  },
+  "Rempart": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 6
+    }
+  },
+  "Rempart majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 12
+    }
+  },
+  "Cuirassé Air mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airResist": 6
+    }
+  },
+  "Cuirassé Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airResist": 12
+    }
+  },
+  "Cuirassé Air majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airResist": 24
+    }
+  },
+  "Cuirassé Eau mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterResist": 6
+    }
+  },
+  "Cuirassé Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterResist": 12
+    }
+  },
+  "Cuirassé Eau majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterResist": 24
+    }
+  },
+  "Cuirassé Feu mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireResist": 6
+    }
+  },
+  "Cuirassé Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireResist": 12
+    }
+  },
+  "Cuirassé Feu majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireResist": 24
+    }
+  },
+  "Cuirassé Terre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthResist": 6
+    }
+  },
+  "Cuirassé Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthResist": 12
+    }
+  },
+  "Cuirassé Terre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthResist": 24
+    }
+  },
+  "Cuirassé Neutre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralResist": 6
+    }
+  },
+  "Cuirassé Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralResist": 12
+    }
+  },
+  "Cuirassé Neutre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralResist": 24
+    }
+  },
+  "Ravageur Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 6
+    }
+  },
+  "Ravageur Air majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 12
+    }
+  },
+  "Ravageur Air mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 3
+    }
+  },
+  "Ravageur Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 6
+    }
+  },
+  "Ravageur Eau majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 12
+    }
+  },
+  "Ravageur Eau mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 3
+    }
+  },
+  "Ravageur Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 6
+    }
+  },
+  "Ravageur Feu majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 12
+    }
+  },
+  "Ravageur Feu mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 3
+    }
+  },
+  "Ravageur Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 6
+    }
+  },
+  "Ravageur Neutre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 3
+    }
+  },
+  "Ravageur Neutre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 12
+    }
+  },
+  "Ravageur Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 6
+    }
+  },
+  "Initiateur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 200
+    }
+  },
+  "Initiateur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 100
+    }
+  },
+  "Initiateur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 400
+    }
+  },
+  "Porteur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "pods": 250
+    }
+  },
+  "Porteur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "pods": 500
+    }
+  },
+  "Porteur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "pods": 1000
+    }
+  },
+  "Soigneur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "heal": 4
+    }
+  },
+  "Soigneur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "heal": 16
+    }
+  },
+  "Soigneur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "heal": 8
+    }
+  },
+  "Acrobate mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "agility": 15
+    }
+  },
+  "Acrobate": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "agility": 30
+    }
+  },
+  "Acrobate majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "agility": 60
+    }
+  },
+  "Joueur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "chance": 30
+    }
+  },
+  "Joueur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "chance": 60
+    }
+  },
+  "Joueur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "chance": 15
+    }
+  },
+  "Savant mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 15
+    }
+  },
+  "Savant majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 60
+    }
+  },
+  "Savant": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 30
+    }
+  },
+  "Furibond mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "strength": 15
+    }
+  },
+  "Furibond": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "strength": 30
+    }
+  },
+  "Furibond majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "strength": 60
+    }
+  },
+  "Survivant": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": 80
+    }
+  },
+  "Survivant majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": 160
+    }
+  },
+  "Survivant mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": 40
+    }
+  },
+  "Ravageur Terre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 12
+    }
+  },
+  "Ravageur Terre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 3
+    }
+  },
+  "Bloqueur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "lock": 8,
+      "dodge": -8
+    }
+  },
+  "Bloqueur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "lock": 16,
+      "dodge": -16
+    }
+  },
+  "Bloqueur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "lock": 32,
+      "dodge": -32
+    }
+  },
+  "Vagabond mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 8,
+      "lock": -8
+    }
+  },
+  "Vagabond": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 16,
+      "lock": -16
+    }
+  },
+  "Vagabond majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 32,
+      "lock": -32
+    }
+  },
+  "Docteur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "heal": 8
+    }
+  },
+  "Docteur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "heal": 16
+    }
+  },
+  "Docteur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -200,
+      "heal": 32
+    }
+  },
+  "Forcené mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "strength": 25
+    }
+  },
+  "Forcené": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "strength": 50
+    }
+  },
+  "Forcené majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -200,
+      "strength": 100
+    }
+  },
+  "Astucieux mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "intelligence": 25
+    }
+  },
+  "Astucieux": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "intelligence": 50
+    }
+  },
+  "Astucieux majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -200,
+      "intelligence": 100
+    }
+  },
+  "Equilibriste mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "agility": 25
+    }
+  },
+  "Equilibriste": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "agility": 50
+    }
+  },
+  "Equilibriste majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -200,
+      "agility": 100
+    }
+  },
+  "Taquin mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "chance": 25
+    }
+  },
+  "Taquin": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "chance": 50
+    }
+  },
+  "Taquin majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -200,
+      "chance": 100
+    }
+  },
+  "Bastion mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "criticalDamage": -8,
+      "criticalResist": 8
+    }
+  },
+  "Bastion": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "criticalDamage": -16,
+      "criticalResist": 16
+    }
+  },
+  "Bastion majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "criticalDamage": -32,
+      "criticalResist": 32
+    }
+  },
+  "Saccageur Terre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 5,
+      "airResistPer": -2
+    }
+  },
+  "Saccageur Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 10,
+      "airResistPer": -4
+    }
+  },
+  "Saccageur Terre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 20,
+      "airResistPer": -8
+    }
+  },
+  "Saccageur Neutre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 5,
+      "waterResistPer": -2
+    }
+  },
+  "Saccageur Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 10,
+      "waterResistPer": -4
+    }
+  },
+  "Saccageur Neutre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 20,
+      "waterResistPer": -8
+    }
+  },
+  "Saccageur Feu mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 5,
+      "earthResistPer": -2
+    }
+  },
+  "Saccageur Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 10,
+      "earthResistPer": -4
+    }
+  },
+  "Saccageur Feu majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 20,
+      "earthResistPer": -8
+    }
+  },
+  "Saccageur Eau mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 5,
+      "neutralResistPer": -2
+    }
+  },
+  "Saccageur Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 10,
+      "neutralResistPer": -4
+    }
+  },
+  "Saccageur Eau majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 20,
+      "neutralResistPer": -8
+    }
+  },
+  "Saccageur Air mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 5,
+      "fireResistPer": -2
+    }
+  },
+  "Saccageur Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 10,
+      "fireResistPer": -4
+    }
+  },
+  "Saccageur Air majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 20,
+      "fireResistPer": -8
+    }
+  },
+  "Entraveur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 6,
+      "apResist": -6
+    }
+  },
+  "Entraveur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 12,
+      "apResist": -12
+    }
+  },
+  "Entraveur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 24,
+      "apResist": -24
+    }
+  },
+  "Paralyseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 6,
+      "mpResist": -6
+    }
+  },
+  "Paralyseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 12,
+      "mpResist": -12
+    }
+  },
+  "Paralyseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 24,
+      "mpResist": -24
+    }
+  },
+  "Imprenable mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 8,
+      "mpResist": -8
+    }
+  },
+  "Imprenable": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 16,
+      "mpResist": -16
+    }
+  },
+  "Imprenable majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 32,
+      "mpResist": -32
+    }
+  },
+  "Evanescent mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apResist": -8,
+      "mpResist": 8
+    }
+  },
+  "Evanescent": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apResist": -16,
+      "mpResist": 16
+    }
+  },
+  "Evanescent majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apResist": -32,
+      "mpResist": 32
+    }
+  },
+  "Bousculeur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "lock": -8,
+      "pushbackDamage": 16
+    }
+  },
+  "Bousculeur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "lock": -16,
+      "pushbackDamage": 32
+    }
+  },
+  "Bousculeur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "lock": -32,
+      "pushbackDamage": 64
+    }
+  },
+  "Inflexible mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "dodge": -8,
+      "pushbackResist": 24
+    }
+  },
+  "Inflexible": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "dodge": -16,
+      "pushbackResist": 48
+    }
+  },
+  "Inflexible majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "dodge": -32,
+      "pushbackResist": 96
+    }
+  },
+  "Précurseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": -25,
+      "initiative": 200
+    }
+  },
+  "Précurseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": -50,
+      "initiative": 400
+    }
+  },
+  "Précurseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": -100,
+      "initiative": 800
+    }
+  },
+  "Muraille Terre mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": -2,
+      "earthResist": 10
+    }
+  },
+  "Muraille Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": -4,
+      "earthResist": 20
+    }
+  },
+  "Muraille Terre majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": -8,
+      "earthResist": 40
+    }
+  },
+  "Muraille Neutre mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": -2,
+      "neutralResist": 10
+    }
+  },
+  "Muraille Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": -4,
+      "neutralResist": 20
+    }
+  },
+  "Muraille Neutre majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": -8,
+      "neutralResist": 40
+    }
+  },
+  "Muraille Feu mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": -2,
+      "fireResist": 10
+    }
+  },
+  "Muraille Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": -4,
+      "fireResist": 20
+    }
+  },
+  "Muraille Feu majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": -8,
+      "fireResist": 40
+    }
+  },
+  "Muraille Eau mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": -2,
+      "waterResist": 10
+    }
+  },
+  "Muraille Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": -4,
+      "waterResist": 20
+    }
+  },
+  "Muraille Eau majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": -8,
+      "waterResist": 40
+    }
+  },
+  "Muraille Air mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": -2,
+      "airResist": 10
+    }
+  },
+  "Muraille Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": -4,
+      "airResist": 20
+    }
+  },
+  "Muraille Air majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": -8,
+      "airResist": 40
+    }
+  },
+  "Puissant mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "power": 10
+    }
+  },
+  "Puissant": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "power": 20
+    }
+  },
+  "Puissant majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "power": 40
+    }
+  },
+  "Robuste mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "power": 20,
+      "criticalChance": -3
+    }
+  },
+  "Robuste": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "power": 40,
+      "criticalChance": -6
+    }
+  },
+  "Robuste majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "power": 80,
+      "criticalChance": -12
+    }
+  },
+  "Turbulent": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "AP": 1,
+      "MP": -1
+    }
+  },
+  "Voyageur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "MP": 1,
+      "lock": -30,
+      "dodge": -30
+    }
+  },
+  "Examinateur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "range": 1
+    }
+  },
+  "Féroce mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "airDamage": 3,
+      "criticalDamage": -6
+    }
+  },
+  "Féroce": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "criticalDamage": -12
+    }
+  },
+  "Féroce majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "criticalDamage": -24
+    }
+  },
+  "Obstructeur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "lock": 8
+    }
+  },
+  "Obstructeur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "lock": 16
+    }
+  },
+  "Obstructeur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "lock": 32
+    }
+  },
+  "Déserteur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 8
+    }
+  },
+  "Déserteur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 16
+    }
+  },
+  "Déserteur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "dodge": 32
+    }
+  },
+  "Guérisseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "heal": 8
+    }
+  },
+  "Guérisseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "heal": 16
+    }
+  },
+  "Guérisseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "heal": 32
+    }
+  },
+  "Miraculé mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "health": 80
+    }
+  },
+  "Miraculé": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "health": 160
+    }
+  },
+  "Miraculé majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "health": 320
+    }
+  },
+  "Enragé mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "strength": 25
+    }
+  },
+  "Enragé": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "strength": 50
+    }
+  },
+  "Enragé majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "strength": 100
+    }
+  },
+  "Érudit mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 25
+    }
+  },
+  "Érudit": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 50
+    }
+  },
+  "Érudit majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "intelligence": 100
+    }
+  },
+  "Cascadeur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "agility": 25
+    }
+  },
+  "Cascadeur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "agility": 50
+    }
+  },
+  "Cascadeur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "agility": 100
+    }
+  },
+  "Chanceux mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "chance": 25
+    }
+  },
+  "Chanceux": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "chance": 50
+    }
+  },
+  "Chanceux majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "chance": 100
+    }
+  },
+  "Fortification mineure": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 8
+    }
+  },
+  "Fortification": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 16
+    }
+  },
+  "Fortification majeure": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "criticalResist": 32
+    }
+  },
+  "Dévastateur Terre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 5
+    }
+  },
+  "Dévastateur Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 10
+    }
+  },
+  "Dévastateur Terre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthDamage": 20
+    }
+  },
+  "Dévastateur Neutre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 5
+    }
+  },
+  "Dévastateur Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 10
+    }
+  },
+  "Dévastateur Neutre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 20
+    }
+  },
+  "Dévastateur Feu mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 5
+    }
+  },
+  "Dévastateur Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 10
+    }
+  },
+  "Dévastateur Feu majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireDamage": 20
+    }
+  },
+  "Dévastateur Eau mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 5
+    }
+  },
+  "Dévastateur Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 10
+    }
+  },
+  "Dévastateur Eau majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterDamage": 20
+    }
+  },
+  "Dévastateur Air mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 5
+    }
+  },
+  "Dévastateur Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 10
+    }
+  },
+  "Dévastateur Air majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airDamage": 20
+    }
+  },
+  "Temporiseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 6
+    }
+  },
+  "Temporiseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 12
+    }
+  },
+  "Temporiseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "mpReduction": 24
+    }
+  },
+  "Étourdisseur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 6
+    }
+  },
+  "Étourdisseur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 12
+    }
+  },
+  "Étourdisseur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apReduction": 24
+    }
+  },
+  "Évasif mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 8
+    }
+  },
+  "Évasif": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 16
+    }
+  },
+  "Évasif majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "apResist": 32
+    }
+  },
+  "Cavaleur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 8
+    }
+  },
+  "Cavaleur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 16
+    }
+  },
+  "Cavaleur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "mpResist": 32
+    }
+  },
+  "Culbuteur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 16
+    }
+  },
+  "Culbuteur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 32
+    }
+  },
+  "Culbuteur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "pushbackDamage": 64
+    }
+  },
+  "Solide mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 24
+    }
+  },
+  "Solide": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 48
+    }
+  },
+  "Solide majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "pushbackResist": 96
+    }
+  },
+  "Fonceur mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 200
+    }
+  },
+  "Fonceur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 400
+    }
+  },
+  "Fonceur majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "initiative": 800
+    }
+  },
+  "Carapace Terre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": 3
+    }
+  },
+  "Carapace Terre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": 6
+    }
+  },
+  "Carapace Terre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "earthResistPer": 12
+    }
+  },
+  "Carapace Neutre mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": 3
+    }
+  },
+  "Carapace Neutre": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": 6
+    }
+  },
+  "Carapace Neutre majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralResistPer": 12
+    }
+  },
+  "Carapace Feu mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": 3
+    }
+  },
+  "Carapace Feu": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": 6
+    }
+  },
+  "Carapace Feu majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "fireResistPer": 12
+    }
+  },
+  "Carapace Eau mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": 3
+    }
+  },
+  "Carapace Eau": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": 6
+    }
+  },
+  "Carapace Eau majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "waterResistPer": 12
+    }
+  },
+  "Carapace Air mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": 3
+    }
+  },
+  "Carapace Air": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": 6
+    }
+  },
+  "Carapace Air majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "airResistPer": 12
+    }
+  },
+  "Vigoureux mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "power": 20
+    }
+  },
+  "Vigoureux": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "power": 40
+    }
+  },
+  "Vigoureux majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "power": 80
+    }
+  },
+  "Remueur": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "AP": 1
+    }
+  },
+  "Nomade": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "MP": 1
+    }
+  },
+  "Observateur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "range": 2
+    }
+  },
+  "Sanguinaire mineur": {
+    "level": 50,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "airDamage": 3
+    }
+  },
+  "Sanguinaire": {
+    "level": 100,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "airDamage": 6
+    }
+  },
+  "Sanguinaire majeur": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12
+    }
+  },
+  "Prudent": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "rangedResistPer": 6,
+      "rangedDamagePer": -9,
+      "meleeDamagePer": -9
+    }
+  },
+  "Audacieux": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "meleeResistPer": 6,
+      "rangedDamagePer": -9,
+      "meleeDamagePer": -9
+    }
+  },
+  "Impétueux": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "rangedDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Pugiliste": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "meleeDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Arcaniste": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "spellDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Barbare": {
+    "level": 150,
+    "category": "Trophée",
+    "stats": {
+      "weaponDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
   }
 }

@@ -1,13 +1,26 @@
 import type { Context } from 'hono'
 import { logError } from '../error'
-import * as item from "../db/item"
+import * as itemDB from "../db/item"
+import * as builder from "../builder/builder"
 
 export async function loadItemsDofusDB(c: Context) {
 
     try {
-        await item.downloadItems()
+        await itemDB.downloadItems()
     } catch (err) {
         logError('Download items failed', err)
+        return c.text('Internal Server Error', 500)
+    }
+
+    return c.body(null, 200)
+}
+
+export async function getBestBuilds(c: Context) {
+
+    try {
+        await builder.calculateBestBuilds()
+    } catch (err) {
+        logError('Calculate best builds failed', err)
         return c.text('Internal Server Error', 500)
     }
 

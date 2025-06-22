@@ -1,4 +1,8707 @@
 {
+  "Arc de Boisaille": {
+    "level": 7,
+    "category": "Arc",
+    "stats": {
+      "health": 20,
+      "lock": 2
+    }
+  },
+  "Arc Déroutant": {
+    "level": 19,
+    "category": "Arc",
+    "stats": {
+      "health": 20,
+      "chance": 15,
+      "wisdom": 5,
+      "prospecting": 3
+    }
+  },
+  "Xaveur": {
+    "level": 58,
+    "category": "Arc",
+    "stats": {
+      "health": 50,
+      "strength": -40,
+      "agility": 40,
+      "power": 20,
+      "criticalChance": 5,
+      "damage": 3,
+      "dodge": 3
+    }
+  },
+  "Nomoon": {
+    "level": 28,
+    "category": "Arc",
+    "stats": {
+      "health": 60,
+      "strength": -10,
+      "intelligence": -10,
+      "chance": 10,
+      "agility": 10,
+      "criticalChance": 3
+    }
+  },
+  "La Corde de Yamato": {
+    "level": 31,
+    "category": "Arc",
+    "stats": {
+      "strength": 20,
+      "intelligence": -20,
+      "range": 1
+    }
+  },
+  "Arc de Triomphe": {
+    "level": 27,
+    "category": "Arc",
+    "stats": {
+      "strength": -10,
+      "intelligence": -10,
+      "chance": 20,
+      "agility": 20,
+      "criticalChance": 2,
+      "waterDamage": 2,
+      "airDamage": 2
+    }
+  },
+  "Arc Hancihaile": {
+    "level": 22,
+    "category": "Arc",
+    "stats": {
+      "health": 30,
+      "chance": 30
+    }
+  },
+  "Arc de Jeanne": {
+    "level": 30,
+    "category": "Arc",
+    "stats": {
+      "range": 1
+    }
+  },
+  "Arc du Bwork Archer": {
+    "level": 20,
+    "category": "Arc",
+    "stats": {
+      "strength": 20,
+      "earthDamage": 1
+    }
+  },
+  "Arc en Racine d'Abraknyde": {
+    "level": 25,
+    "category": "Arc",
+    "stats": {
+      "AP": 1,
+      "initiative": -100,
+      "lock": -15,
+      "dodge": -15
+    }
+  },
+  "Corde d'Ivan Nowé": {
+    "level": 36,
+    "category": "Arc",
+    "stats": {
+      "strength": 20,
+      "intelligence": 20,
+      "chance": 20,
+      "damage": 2
+    }
+  },
+  "Arc des Rivages": {
+    "level": 46,
+    "category": "Arc",
+    "stats": {
+      "agility": 40,
+      "power": 20,
+      "range": 1,
+      "dodge": -10
+    }
+  },
+  "Arc Sifflant": {
+    "level": 11,
+    "category": "Arc",
+    "stats": {
+      "power": 10,
+      "dodge": 4
+    }
+  },
+  "Arc Hade": {
+    "level": 5,
+    "category": "Arc",
+    "stats": {
+      "intelligence": 10
+    }
+  },
+  "Arc Buse": {
+    "level": 24,
+    "category": "Arc",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "chance": -40,
+      "agility": 20,
+      "criticalChance": 2
+    }
+  },
+  "Arc en Corne de Bouftou": {
+    "level": 38,
+    "category": "Arc",
+    "stats": {
+      "health": 20,
+      "strength": 20,
+      "range": 1
+    }
+  },
+  "Arc dit Kéha, version standard": {
+    "level": 47,
+    "category": "Arc",
+    "stats": {
+      "strength": 35,
+      "intelligence": 35,
+      "agility": 50,
+      "wisdom": -30
+    }
+  },
+  "Arc Ecologique": {
+    "level": 33,
+    "category": "Arc",
+    "stats": {
+      "health": 30,
+      "intelligence": 25,
+      "chance": -50,
+      "agility": 25,
+      "criticalChance": 3
+    }
+  },
+  "Arc de Cristal": {
+    "level": 56,
+    "category": "Arc",
+    "stats": {
+      "intelligence": 40,
+      "heal": -10,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "dodge": -10
+    }
+  },
+  "Arc du Roi des Borins": {
+    "level": 72,
+    "category": "Arc",
+    "stats": {
+      "health": 60,
+      "strength": 50,
+      "chance": -50,
+      "agility": 50,
+      "criticalChance": 5,
+      "damage": 5
+    }
+  },
+  "Arc Holic": {
+    "level": 13,
+    "category": "Arc",
+    "stats": {
+      "health": 20,
+      "chance": 15
+    }
+  },
+  "Arc du Xueluom": {
+    "level": 30,
+    "category": "Arc",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "dodge": 5
+    }
+  },
+  "Arc de Boo": {
+    "level": 52,
+    "category": "Arc",
+    "stats": {
+      "health": 40,
+      "intelligence": -30,
+      "agility": -30,
+      "power": 30,
+      "criticalChance": 5,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "waterDamage": 5,
+      "dodge": 3
+    }
+  },
+  "Arc à Poulie Sciée": {
+    "level": 41,
+    "category": "Arc",
+    "stats": {
+      "health": 40,
+      "intelligence": 25,
+      "wisdom": 10,
+      "criticalChance": 3,
+      "fireDamage": 5
+    }
+  },
+  "L'Arc à Hick": {
+    "level": 49,
+    "category": "Arc",
+    "stats": {
+      "agility": -1,
+      "wisdom": 5,
+      "neutralResist": 3,
+      "earthResist": 3
+    }
+  },
+  "Arc Hidsad": {
+    "level": 40,
+    "category": "Arc",
+    "stats": {
+      "intelligence": 30,
+      "agility": 30,
+      "criticalChance": 2,
+      "heal": 6
+    }
+  },
+  "Abrarc": {
+    "level": 39,
+    "panoply": "Abranoplie",
+    "category": "Arc",
+    "stats": {
+      "chance": 30,
+      "summon": 1,
+      "dodge": 7
+    }
+  },
+  "Arc de Chasse": {
+    "level": 1,
+    "category": "Arc",
+    "stats": {}
+  },
+  "Arc de Mech Riorraw": {
+    "level": 90,
+    "category": "Arc",
+    "stats": {
+      "agility": -150
+    }
+  },
+  "Arc de Mulic Bere": {
+    "level": 10,
+    "category": "Arc",
+    "stats": {
+      "strength": -150
+    }
+  },
+  "Arc Boutant": {
+    "level": 80,
+    "category": "Arc",
+    "stats": {
+      "health": 70,
+      "chance": 60,
+      "power": 15,
+      "criticalChance": 4,
+      "damage": 3,
+      "fireResistPer": 5
+    }
+  },
+  "Arc Chiduc": {
+    "level": 87,
+    "category": "Arc",
+    "stats": {
+      "health": 80,
+      "wisdom": 25,
+      "power": 30,
+      "range": 1,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  "Arc Ange": {
+    "level": 82,
+    "category": "Arc",
+    "stats": {
+      "health": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 20,
+      "initiative": 200,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2
+    }
+  },
+  "Arc Chitecte": {
+    "level": 111,
+    "category": "Arc",
+    "stats": {
+      "strength": 45,
+      "agility": 45,
+      "wisdom": 35,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "airResistPer": 5
+    }
+  },
+  "Arc du Pêcheur": {
+    "level": 70,
+    "category": "Arc",
+    "stats": {
+      "strength": 40,
+      "power": 15,
+      "criticalChance": 5,
+      "range": 1,
+      "initiative": 200
+    }
+  },
+  "Arc du Sram Archer": {
+    "level": 89,
+    "category": "Arc",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 15,
+      "power": 20,
+      "criticalChance": -5,
+      "range": 1,
+      "neutralDamage": 10,
+      "airDamage": 10
+    }
+  },
+  "Arc du Chafer Archer": {
+    "level": 115,
+    "category": "Arc",
+    "stats": {
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "range": 1,
+      "damage": 8,
+      "prospecting": 15
+    }
+  },
+  "Le Tronknydum": {
+    "level": 57,
+    "category": "Arc",
+    "stats": {
+      "health": 40,
+      "power": 15,
+      "summon": 2,
+      "damage": 3,
+      "dodge": 3
+    }
+  },
+  "Arc de l'initié": {
+    "level": 12,
+    "category": "Arc",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Arc de Kuri": {
+    "level": 55,
+    "category": "Arc",
+    "stats": {
+      "health": 30,
+      "intelligence": 40,
+      "fireDamage": 5,
+      "heal": 20,
+      "dodge": 5
+    }
+  },
+  "Arc Hanne": {
+    "level": 120,
+    "category": "Arc",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 35,
+      "damage": 10,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Arc Assin": {
+    "level": 100,
+    "category": "Arc",
+    "stats": {
+      "intelligence": 50,
+      "agility": 50,
+      "criticalChance": 5,
+      "prospecting": 15,
+      "neutralResistPer": 5,
+      "fireResistPer": 5
+    }
+  },
+  "Arc Lavoine": {
+    "level": 130,
+    "category": "Arc",
+    "stats": {
+      "chance": 40,
+      "agility": 40,
+      "damage": 6
+    }
+  },
+  "Arc Huledela": {
+    "level": 123,
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "agility": 45,
+      "criticalChance": 6,
+      "damage": 7,
+      "neutralResistPer": 5
+    }
+  },
+  "Arc Hisedaisange": {
+    "level": 142,
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "damage": 10,
+      "airResistPer": 10
+    }
+  },
+  "Jakchir Arc": {
+    "level": 124,
+    "category": "Arc",
+    "stats": {
+      "health": 150,
+      "chance": 50,
+      "power": 20
+    }
+  },
+  "Arc Anum": {
+    "level": 96,
+    "category": "Arc",
+    "stats": {
+      "health": 120,
+      "intelligence": 50,
+      "agility": 50,
+      "neutralDamage": 7,
+      "fireDamage": 7,
+      "initiative": 250,
+      "neutralResistPer": 3,
+      "fireResistPer": 3
+    }
+  },
+  "Arc du Koalak": {
+    "level": 61,
+    "panoply": "Panoplie du Koalak",
+    "category": "Arc",
+    "stats": {
+      "agility": 60,
+      "criticalChance": 4,
+      "damage": 4,
+      "criticalDamage": 7
+    }
+  },
+  "Arc Rainier": {
+    "level": 121,
+    "category": "Arc",
+    "stats": {
+      "health": 90,
+      "strength": 35,
+      "intelligence": 35,
+      "chance": 35,
+      "agility": 35,
+      "wisdom": 40,
+      "power": 20,
+      "damage": 7
+    }
+  },
+  "Arc Chtelion": {
+    "level": 129,
+    "category": "Arc",
+    "stats": {
+      "health": 100,
+      "intelligence": 35,
+      "range": 1,
+      "damage": 6,
+      "prospecting": 15,
+      "initiative": 200,
+      "earthResistPer": 8,
+      "waterResistPer": 8
+    }
+  },
+  "Arc du Dragoeuf": {
+    "level": 118,
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "wisdom": 20,
+      "power": 10,
+      "criticalChance": 5,
+      "summon": 1,
+      "earthDamage": 6,
+      "prospecting": 15,
+      "waterResistPer": 4,
+      "fireResist": 5,
+      "dodge": 5
+    }
+  },
+  "Geish'Arc": {
+    "level": 81,
+    "category": "Arc",
+    "stats": {
+      "health": 50,
+      "agility": 70,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "damage": 5
+    }
+  },
+  "Le Kikoularc": {
+    "level": 79,
+    "category": "Arc",
+    "stats": {
+      "intelligence": 35,
+      "chance": 35,
+      "AP": 1,
+      "damage": 5
+    }
+  },
+  "Kask'Arc Go": {
+    "level": 122,
+    "panoply": "Panoplie Baveuse",
+    "category": "Arc",
+    "stats": {
+      "health": 150,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 15,
+      "range": 1,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "neutralResist": 10,
+      "waterResist": 10
+    }
+  },
+  "Arc à Chon": {
+    "level": 147,
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "damage": 10,
+      "prospecting": 20,
+      "fireResist": 10,
+      "airResist": 10
+    }
+  },
+  "Arc Oleptik": {
+    "level": 185,
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "range": 1,
+      "damage": 7,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResistPer": 6,
+      "airResistPer": 6
+    }
+  },
+  "Arc à Lamelles": {
+    "level": 183,
+    "category": "Arc",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "damage": 7,
+      "prospecting": 20,
+      "initiative": 400
+    }
+  },
+  "Arc Tangente": {
+    "level": 167,
+    "category": "Arc",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "range": 1,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "dodge": 3
+    }
+  },
+  "Arc Ontanporin": {
+    "level": 175,
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "chance": 30,
+      "wisdom": 40,
+      "power": 30,
+      "criticalChance": 4,
+      "neutralDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "airResist": 10,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  "Arc Hétype": {
+    "level": 184,
+    "category": "Arc",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 10,
+      "heal": 10,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "airResist": 10,
+      "dodge": 5,
+      "mpReduction": 5
+    }
+  },
+  "Arc Ahique": {
+    "level": 196,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "summon": 1,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 25,
+      "neutralResist": 10,
+      "airResist": 10,
+      "dodge": 5,
+      "criticalResist": 10
+    }
+  },
+  "Arc de Guten Tak": {
+    "level": 173,
+    "panoply": "Panoplie de Guten Tak",
+    "category": "Arc",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "earthResist": 15,
+      "waterResist": 15,
+      "dodge": 5,
+      "apReduction": 5,
+      "criticalResist": 15
+    }
+  },
+  "Arc Honte": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 50,
+      "power": 50,
+      "criticalChance": -6,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "initiative": 300,
+      "neutralResistPer": 8,
+      "waterResistPer": 8,
+      "airResistPer": 8,
+      "dodge": 10,
+      "mpReduction": 7
+    }
+  },
+  "Arc Lequin": {
+    "level": 104,
+    "panoply": "Panoplie Talienne",
+    "category": "Arc",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "summon": 1,
+      "waterDamage": 6,
+      "prospecting": 20,
+      "lock": 6,
+      "pushbackResist": 10
+    }
+  },
+  "Arc de Flèche Mauve": {
+    "level": 107,
+    "panoply": "Panoplie de Flèche Mauve",
+    "category": "Arc",
+    "stats": {
+      "health": 200,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "heal": 10,
+      "prospecting": 15,
+      "initiative": 500,
+      "airResistPer": 7,
+      "dodge": 10,
+      "mpResist": 5
+    }
+  },
+  "Arc Nécrotique": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": -1,
+      "summon": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "airResistPer": 10,
+      "apReduction": 5
+    }
+  },
+  "Arc du Chalœil": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 400,
+      "strength": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireResistPer": 10,
+      "airResistPer": 7,
+      "lock": -30,
+      "mpResist": 10,
+      "pushbackDamage": 25
+    }
+  },
+  "Arc de Koutoulou": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 2,
+      "range": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "apResist": 15
+    }
+  },
+  "Arc corrompu": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 15,
+      "prospecting": 15,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 10,
+      "apReduction": 7,
+      "criticalResist": 25
+    }
+  },
+  "Arc Volkorne": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 70,
+      "criticalChance": 5,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "neutralResistPer": 5,
+      "dodge": 10
+    }
+  },
+  "Plume de Buhorado": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "agility": 120,
+      "wisdom": 60,
+      "criticalChance": 10,
+      "range": 1,
+      "airResistPer": 10,
+      "mpResist": -20,
+      "pushbackDamage": 30
+    }
+  },
+  "Arc de Wulan": {
+    "level": 200,
+    "panoply": "Panoplie de Wulan",
+    "category": "Arc",
+    "stats": {
+      "health": 350,
+      "strength": 80,
+      "chance": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "earthResistPer": 12,
+      "airResistPer": 6,
+      "dodge": -10,
+      "apReduction": -10,
+      "mpReduction": 8,
+      "criticalDamage": 15
+    }
+  },
+  "Kanji Jirark": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 400,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "summon": 1,
+      "waterDamage": 20,
+      "prospecting": 25,
+      "initiative": 500,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 12
+    }
+  },
+  "Yaularc": {
+    "level": 200,
+    "category": "Arc",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "prospecting": 20,
+      "neutralResistPer": 5,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "dodge": 10,
+      "lock": -10,
+      "criticalDamage": 12,
+      "pushbackResist": -15
+    }
+  },
+  "Baguette de Boisaille": {
+    "level": 3,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 5
+    }
+  },
+  "Baguette de Glace": {
+    "level": 11,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 12,
+      "fireDamage": 1
+    }
+  },
+  "La Baguette des Limbes": {
+    "level": 105,
+    "category": "Baguette",
+    "stats": {
+      "strength": -11,
+      "intelligence": 40,
+      "wisdom": 40,
+      "AP": 1,
+      "MP": 1,
+      "range": 1
+    }
+  },
+  "Baguette des Cieux": {
+    "level": 51,
+    "category": "Baguette",
+    "stats": {
+      "health": 55,
+      "strength": -10,
+      "intelligence": -10,
+      "chance": -10,
+      "agility": 40,
+      "range": 1,
+      "lock": 3,
+      "dodge": 3
+    }
+  },
+  "Baguette Deuh-Pain": {
+    "level": 50,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "strength": -20,
+      "chance": 20,
+      "wisdom": 30,
+      "range": 1
+    }
+  },
+  "Baguette de Liriel": {
+    "level": 20,
+    "category": "Baguette",
+    "stats": {
+      "agility": 15,
+      "criticalChance": 3
+    }
+  },
+  "Baguette en Racine d'Abraknyde": {
+    "level": 33,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "chance": -20,
+      "agility": -20,
+      "wisdom": 20,
+      "criticalChance": 3
+    }
+  },
+  "Baguette d'Intelligence": {
+    "level": 29,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "strength": -30,
+      "intelligence": 40,
+      "heal": 5,
+      "dodge": 5
+    }
+  },
+  "Baguette de Sagesse": {
+    "level": 27,
+    "category": "Baguette",
+    "stats": {
+      "health": 60,
+      "strength": -10,
+      "intelligence": -10,
+      "chance": -10,
+      "agility": -10,
+      "wisdom": 25,
+      "lock": 4,
+      "dodge": 4
+    }
+  },
+  "Baguette Heure": {
+    "level": 30,
+    "category": "Baguette",
+    "stats": {
+      "strength": 30,
+      "intelligence": 30
+    }
+  },
+  "Baguette d'Eglise": {
+    "level": 52,
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "intelligence": 40,
+      "criticalChance": 3
+    }
+  },
+  "Baguette Ni'Ninnin": {
+    "level": 50,
+    "category": "Baguette",
+    "stats": {
+      "health": 90,
+      "intelligence": -90,
+      "wisdom": 20,
+      "AP": 1
+    }
+  },
+  "Baguette à Pans": {
+    "level": 45,
+    "category": "Baguette",
+    "stats": {
+      "health": 45,
+      "intelligence": 45,
+      "lock": 5,
+      "mpReduction": 5
+    }
+  },
+  "Baguette d'Houvette": {
+    "level": 55,
+    "category": "Baguette",
+    "stats": {
+      "health": -60,
+      "intelligence": 40,
+      "chance": 20,
+      "wisdom": 20,
+      "range": 1
+    }
+  },
+  "Baguette Meneuse": {
+    "level": 71,
+    "category": "Baguette",
+    "stats": {
+      "health": 60,
+      "strength": 35,
+      "intelligence": 65,
+      "agility": -35,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  "Demi-Baguette": {
+    "level": 1,
+    "category": "Baguette",
+    "stats": {
+      "chance": 4
+    }
+  },
+  "Daguette": {
+    "level": 35,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "strength": -20,
+      "intelligence": -20,
+      "chance": -20,
+      "agility": 30,
+      "wisdom": 10,
+      "range": 1
+    }
+  },
+  "Le Tison Fûté": {
+    "level": 59,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "intelligence": 30,
+      "chance": -30,
+      "agility": 20,
+      "criticalChance": 5,
+      "fireDamage": 5,
+      "dodge": 5
+    }
+  },
+  "L'Hyldegarde": {
+    "level": 48,
+    "category": "Baguette",
+    "stats": {
+      "health": -60,
+      "intelligence": 40,
+      "chance": 30,
+      "fireDamage": 3,
+      "waterDamage": 7,
+      "heal": 7
+    }
+  },
+  "Baguette Sylvien": {
+    "level": 43,
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "strength": -20,
+      "chance": 20,
+      "wisdom": 15,
+      "range": 1
+    }
+  },
+  "Pieu Vampirique": {
+    "level": 65,
+    "category": "Baguette",
+    "stats": {
+      "health": 60,
+      "intelligence": 40,
+      "criticalChance": 5,
+      "summon": 1,
+      "heal": 10
+    }
+  },
+  "Baguette de Feu Follesque": {
+    "level": 10,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 7,
+      "criticalChance": 2
+    }
+  },
+  "Baguette Affeulante": {
+    "level": 80,
+    "category": "Baguette",
+    "stats": {
+      "health": 80,
+      "strength": -60,
+      "intelligence": 60,
+      "wisdom": 20,
+      "range": 1,
+      "initiative": 300,
+      "waterResistPer": 5
+    }
+  },
+  "Baguette Helles": {
+    "level": 75,
+    "category": "Baguette",
+    "stats": {
+      "health": 50,
+      "intelligence": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "fireDamage": 5,
+      "neutralResistPer": 5
+    }
+  },
+  "Baguette Molle": {
+    "level": 83,
+    "category": "Baguette",
+    "stats": {
+      "health": 80,
+      "wisdom": 30,
+      "power": 30,
+      "criticalChance": 3,
+      "damage": 10,
+      "prospecting": 10,
+      "initiative": -400
+    }
+  },
+  "Baguette Irréelle": {
+    "level": 90,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 50,
+      "wisdom": 15,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "criticalResist": 10
+    }
+  },
+  "Baguette Velue": {
+    "level": 95,
+    "category": "Baguette",
+    "stats": {
+      "health": 100,
+      "heal": 7,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "dodge": 7
+    }
+  },
+  "Baguette d'Elya Wood": {
+    "level": 117,
+    "panoply": "Panoplie d'Elya Wood",
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 40,
+      "wisdom": 40,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 10,
+      "waterResistPer": 5
+    }
+  },
+  "Baguette du Chêne Mou": {
+    "level": 171,
+    "category": "Baguette",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 50,
+      "heal": 10,
+      "initiative": 200,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "earthResistPer": -6,
+      "airResistPer": -6
+    }
+  },
+  "Baguette en Racine d'Abraknyde Sombre": {
+    "level": 67,
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "strength": -40,
+      "intelligence": 60,
+      "chance": -40,
+      "agility": -40,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "dodge": 5,
+      "criticalDamage": 20
+    }
+  },
+  "Balgourde des Clairettes": {
+    "level": 63,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 50,
+      "power": 15,
+      "range": 1,
+      "dodge": 6,
+      "apResist": 5,
+      "mpResist": -5
+    }
+  },
+  "Amrothiline": {
+    "level": 113,
+    "category": "Baguette",
+    "stats": {
+      "health": 80,
+      "intelligence": 40,
+      "wisdom": 30,
+      "power": 15,
+      "prospecting": 10,
+      "airResistPer": 5
+    }
+  },
+  "Baguette de Kouartz": {
+    "level": 78,
+    "category": "Baguette",
+    "stats": {
+      "health": 80,
+      "intelligence": 50,
+      "wisdom": 25,
+      "power": 15,
+      "criticalChance": 3,
+      "initiative": 400
+    }
+  },
+  "La Migraine": {
+    "level": 84,
+    "category": "Baguette",
+    "stats": {
+      "health": 90,
+      "wisdom": 20,
+      "power": 25,
+      "damage": 5,
+      "initiative": 350,
+      "neutralResistPer": 3,
+      "earthResistPer": 3
+    }
+  },
+  "Baguette de l'initié": {
+    "level": 12,
+    "category": "Baguette",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "La Xyothine": {
+    "level": 145,
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "heal": 7
+    }
+  },
+  "Baguette Larvesque": {
+    "level": 40,
+    "panoply": "Panoplie Larvesque",
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "agility": 20,
+      "summon": 1,
+      "heal": 10
+    }
+  },
+  "Baguette Nah": {
+    "level": 102,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 40,
+      "heal": 6,
+      "neutralResistPer": 7,
+      "neutralResist": 7
+    }
+  },
+  "Baguette Cetera": {
+    "level": 43,
+    "category": "Baguette",
+    "stats": {
+      "health": 60,
+      "damage": 5,
+      "heal": 5,
+      "initiative": 300
+    }
+  },
+  "Baguette Hylique": {
+    "level": 63,
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 50,
+      "power": 15,
+      "neutralDamage": 5,
+      "fireDamage": 5,
+      "heal": 10,
+      "mpReduction": 5
+    }
+  },
+  "Baguette Hincelle": {
+    "level": 81,
+    "category": "Baguette",
+    "stats": {
+      "health": 80,
+      "intelligence": 50,
+      "neutralDamage": 7,
+      "fireDamage": 7,
+      "heal": 10,
+      "fireResistPer": 5,
+      "dodge": 5
+    }
+  },
+  "Baguette Houffe-Craitien": {
+    "level": 112,
+    "category": "Baguette",
+    "stats": {
+      "health": 70,
+      "intelligence": 40,
+      "wisdom": 35,
+      "criticalChance": 6,
+      "heal": 6,
+      "initiative": 250
+    }
+  },
+  "Baguette Ourderie": {
+    "level": 127,
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "agility": 50,
+      "MP": 1,
+      "heal": 6,
+      "earthResistPer": 6,
+      "fireResistPer": 6
+    }
+  },
+  "Baguette Rhon": {
+    "level": 105,
+    "category": "Baguette",
+    "stats": {
+      "health": 130,
+      "intelligence": 35,
+      "wisdom": 35
+    }
+  },
+  "Baguette Rangleuse": {
+    "level": 27,
+    "category": "Baguette",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "heal": 7
+    }
+  },
+  "Baguette Houalle": {
+    "level": 125,
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "intelligence": 35,
+      "wisdom": 40,
+      "heal": 5,
+      "prospecting": 15,
+      "initiative": 400
+    }
+  },
+  "Baguette Gyver": {
+    "level": 128,
+    "category": "Baguette",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "wisdom": 40,
+      "range": 1,
+      "heal": 7,
+      "earthResistPer": 8
+    }
+  },
+  "Baguette Iots": {
+    "level": 138,
+    "category": "Baguette",
+    "stats": {
+      "health": 200,
+      "strength": 35,
+      "intelligence": 35,
+      "chance": 35,
+      "agility": 35,
+      "wisdom": 40,
+      "heal": 7,
+      "prospecting": 10,
+      "fireResist": 8,
+      "airResist": 8
+    }
+  },
+  "Baguette du Tofu": {
+    "level": 25,
+    "panoply": "Panoplie du Tofu",
+    "category": "Baguette",
+    "stats": {
+      "agility": 10,
+      "range": 1
+    }
+  },
+  "Baguette du Scarabosse Doré": {
+    "level": 59,
+    "panoply": "Panoplie du Scarabosse Doré",
+    "category": "Baguette",
+    "stats": {
+      "intelligence": 30,
+      "agility": 15,
+      "power": 20,
+      "summon": 1,
+      "heal": 15
+    }
+  },
+  "Baguette du Dragoeuf": {
+    "level": 124,
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Baguette",
+    "stats": {
+      "health": 200,
+      "agility": 50,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "airDamage": 5,
+      "heal": 6,
+      "prospecting": 10,
+      "initiative": 200,
+      "neutralResistPer": 4,
+      "fireResist": 10,
+      "waterResist": 10,
+      "criticalDamage": 10
+    }
+  },
+  "Bagdette Café": {
+    "level": 69,
+    "category": "Baguette",
+    "stats": {
+      "health": 50,
+      "intelligence": 35,
+      "chance": 35,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "heal": 5,
+      "criticalDamage": 10
+    }
+  },
+  "La Bidjiz": {
+    "level": 74,
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "agility": 40,
+      "wisdom": 15,
+      "criticalChance": 2,
+      "MP": 1
+    }
+  },
+  "Flûte de Sarr Ys": {
+    "level": 1,
+    "category": "Baguette",
+    "stats": {}
+  },
+  "Branche de l'Abrakleur sombre": {
+    "level": 130,
+    "panoply": "Panoplie Sombre",
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 20,
+      "damage": 7,
+      "heal": 6,
+      "earthResistPer": 6,
+      "dodge": 5
+    }
+  },
+  "Branche de l'Abrakleur clair": {
+    "level": 132,
+    "panoply": "Panoplie Claire",
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "prospecting": 15,
+      "neutralResistPer": 8,
+      "airResistPer": 8
+    }
+  },
+  "Baguetterelle": {
+    "level": 180,
+    "category": "Baguette",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "power": 15,
+      "damage": 5,
+      "heal": 10,
+      "prospecting": 10
+    }
+  },
+  "Baguette Hernuement": {
+    "level": 163,
+    "category": "Baguette",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "heal": 10,
+      "initiative": 200,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "neutralResist": 10,
+      "lock": 5
+    }
+  },
+  "Baguette Nolog": {
+    "level": 177,
+    "panoply": "Panoplie du frigostien curieux",
+    "category": "Baguette",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 7,
+      "prospecting": 10,
+      "neutralResistPer": 10,
+      "dodge": 5,
+      "apResist": 5
+    }
+  },
+  "Baguette Hernelle": {
+    "level": 187,
+    "category": "Baguette",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "range": 1,
+      "neutralDamage": 10,
+      "fireDamage": 12,
+      "airDamage": 10,
+      "heal": 10,
+      "earthResist": 10,
+      "waterResist": 10,
+      "dodge": -4,
+      "mpResist": 5,
+      "pushbackDamage": 10
+    }
+  },
+  "Baguette Hique": {
+    "level": 193,
+    "category": "Baguette",
+    "stats": {
+      "health": 300,
+      "intelligence": 45,
+      "chance": 45,
+      "wisdom": 45,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 6,
+      "mpReduction": 6
+    }
+  },
+  "Baguette de Frigostine": {
+    "level": 149,
+    "panoply": "Panoplie de Frigostine",
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "agility": 30,
+      "wisdom": 25,
+      "power": 30,
+      "neutralDamage": 8,
+      "fireDamage": 12,
+      "airDamage": 8,
+      "heal": 7,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 5,
+      "apResist": 5,
+      "mpResist": -4,
+      "criticalResist": 10
+    }
+  },
+  "Baguette du Grand Glucid": {
+    "level": 134,
+    "category": "Baguette",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "summon": 2,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "heal": 10,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "mpReduction": 4
+    }
+  },
+  "Bâtonnet Ronien": {
+    "level": 198,
+    "panoply": "Panoplie Quartzésienne",
+    "category": "Baguette",
+    "stats": {
+      "health": 300,
+      "agility": 50,
+      "wisdom": 45,
+      "power": 25,
+      "criticalChance": 2,
+      "summon": 1,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "heal": 12,
+      "earthResistPer": 10,
+      "fireResist": 15,
+      "waterResist": 15,
+      "mpReduction": 6
+    }
+  },
+  "Baguette de Malléfisk": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "wisdom": 40,
+      "power": 60,
+      "criticalChance": 4,
+      "range": -1,
+      "heal": 20,
+      "prospecting": 15,
+      "initiative": 600,
+      "waterResistPer": 7,
+      "airResistPer": 10,
+      "mpResist": 10,
+      "pushbackResist": 20
+    }
+  },
+  "Baguette des égarés": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": -5,
+      "range": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "mpResist": 10,
+      "pushbackResist": 20
+    }
+  },
+  "Baguette Rikiki": {
+    "level": 40,
+    "category": "Baguette",
+    "stats": {
+      "health": 40,
+      "chance": 15,
+      "wisdom": 10,
+      "criticalChance": 2,
+      "waterDamage": 4,
+      "dodge": 5
+    }
+  },
+  "Baguette Osseuse": {
+    "level": 173,
+    "category": "Baguette",
+    "stats": {}
+  },
+  "Baguette Range": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "earthResistPer": 7,
+      "waterResistPer": 10,
+      "dodge": 7,
+      "mpReduction": 5,
+      "criticalResist": 25
+    }
+  },
+  "Pyraguette": {
+    "level": 200,
+    "panoply": "Panoplie des Maudits",
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": -10,
+      "range": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "heal": 15,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 15,
+      "criticalResist": 15
+    }
+  },
+  "Baguette Héroclite": {
+    "level": 200,
+    "panoply": "Panoplie Ensevelie",
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "chance": 60,
+      "wisdom": 40,
+      "waterDamage": 15,
+      "heal": 15,
+      "airResistPer": 10,
+      "lock": 12,
+      "mpResist": 12,
+      "pushbackResist": 25
+    }
+  },
+  "Frisson de Brumaire": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 400,
+      "chance": 120,
+      "wisdom": 50,
+      "waterDamage": 10,
+      "waterResistPer": 10,
+      "dodge": 20,
+      "lock": -40,
+      "apReduction": 10,
+      "pushbackResist": -60
+    }
+  },
+  "Baguette de Torkélonia": {
+    "level": 200,
+    "panoply": "Panoplie de Torkélonia",
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "power": 30,
+      "criticalChance": 6,
+      "summon": 1,
+      "earthDamage": 20,
+      "airDamage": 20,
+      "prospecting": 25,
+      "earthResist": 15,
+      "waterResist": 15,
+      "criticalDamage": 20
+    }
+  },
+  "Balance-Fléau de Misère": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "power": 100,
+      "criticalChance": 5,
+      "range": -1,
+      "initiative": -300,
+      "earthResistPer": 10,
+      "waterResistPer": -5,
+      "dodge": -20,
+      "apResist": 15,
+      "mpResist": 15,
+      "criticalDamage": 10
+    }
+  },
+  "Baguette Bainkuite": {
+    "level": 132,
+    "category": "Baguette",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 3,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "prospecting": 10,
+      "initiative": 300,
+      "earthResist": 6,
+      "waterResist": 6,
+      "mpReduction": 4
+    }
+  },
+  "Baguette Imologie": {
+    "level": 200,
+    "category": "Baguette",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "fireDamage": 15,
+      "heal": 12,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "dodge": 7,
+      "criticalDamage": 15,
+      "pushbackDamage": 30
+    }
+  },
+  "Baguette du Pandamonium": {
+    "level": 200,
+    "panoply": "Panoplie du Pandamonium",
+    "category": "Baguette",
+    "stats": {
+      "health": 350,
+      "strength": 80,
+      "wisdom": 30,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "heal": 15,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 10,
+      "apResist": 12,
+      "pushbackResist": 20
+    }
+  },
+  "Bâton de Boisaille": {
+    "level": 9,
+    "category": "Bâton",
+    "stats": {
+      "strength": 10,
+      "earthDamage": 1
+    }
+  },
+  "Bâton Feuillu": {
+    "level": 12,
+    "category": "Bâton",
+    "stats": {
+      "strength": 15,
+      "lock": 3
+    }
+  },
+  "Bâton Kouyu": {
+    "level": 8,
+    "category": "Bâton",
+    "stats": {
+      "wisdom": 10
+    }
+  },
+  "Bâton Spirituel": {
+    "level": 16,
+    "category": "Bâton",
+    "stats": {
+      "health": 20,
+      "intelligence": 15,
+      "criticalChance": 1
+    }
+  },
+  "God Rod": {
+    "level": 67,
+    "category": "Bâton",
+    "stats": {
+      "health": 40,
+      "agility": -40,
+      "wisdom": 25,
+      "criticalChance": 1,
+      "AP": 1
+    }
+  },
+  "Hook": {
+    "level": 55,
+    "category": "Bâton",
+    "stats": {
+      "strength": -1,
+      "chance": 40,
+      "wisdom": 30,
+      "range": 1
+    }
+  },
+  "Kryst O'Boul": {
+    "level": 68,
+    "panoply": "Panoplie O'Boul",
+    "category": "Bâton",
+    "stats": {
+      "health": -11,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 30,
+      "criticalChance": 5
+    }
+  },
+  "Bâton du Tabi": {
+    "level": 40,
+    "category": "Bâton",
+    "stats": {
+      "health": 50,
+      "agility": 50,
+      "lock": 5
+    }
+  },
+  "Bâton du Bwork Mage": {
+    "level": 58,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "strength": -30,
+      "chance": 30,
+      "criticalChance": 5,
+      "range": 1,
+      "prospecting": 10
+    }
+  },
+  "Bâton du Grand Pa Wabbit": {
+    "level": 32,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "wisdom": 15,
+      "criticalChance": 5
+    }
+  },
+  "Bâton en Racine d'Abraknyde": {
+    "level": 30,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "chance": 25,
+      "criticalChance": 3
+    }
+  },
+  "Bâton du Maître des Bouftous": {
+    "level": 85,
+    "category": "Bâton",
+    "stats": {
+      "strength": -50,
+      "agility": 50,
+      "power": 15,
+      "criticalChance": 5,
+      "summon": 3,
+      "damage": 3
+    }
+  },
+  "Bâton du Maître des Tofus": {
+    "level": 56,
+    "category": "Bâton",
+    "stats": {
+      "health": 35,
+      "wisdom": 25,
+      "summon": 2,
+      "lock": 3,
+      "dodge": 3
+    }
+  },
+  "Bâton du Maître des Tabis": {
+    "level": 34,
+    "category": "Bâton",
+    "stats": {
+      "health": 60,
+      "power": 15,
+      "summon": 1
+    }
+  },
+  "Bâton Cornu": {
+    "level": 29,
+    "category": "Bâton",
+    "stats": {
+      "chance": 40,
+      "agility": -1
+    }
+  },
+  "Abraknydi Vivitus": {
+    "level": 34,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "chance": 20,
+      "wisdom": 15
+    }
+  },
+  "Bâton du Wa Wabbit": {
+    "level": 60,
+    "panoply": "Panoplie du Wa",
+    "category": "Bâton",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "intelligence": -30,
+      "chance": 30,
+      "agility": -30,
+      "wisdom": 20,
+      "power": 15,
+      "lock": 10
+    }
+  },
+  "Bâton de fausse magie": {
+    "level": 35,
+    "category": "Bâton",
+    "stats": {
+      "intelligence": 35,
+      "agility": 30
+    }
+  },
+  "Bâton Dakn": {
+    "level": 37,
+    "category": "Bâton",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "chance": -40,
+      "criticalChance": 2,
+      "damage": 2,
+      "lock": 4
+    }
+  },
+  "Bâton-Boule de Voyante": {
+    "level": 50,
+    "category": "Bâton",
+    "stats": {
+      "chance": 50,
+      "wisdom": 15,
+      "range": 1,
+      "lock": -5
+    }
+  },
+  "Bâton des Rois": {
+    "level": 60,
+    "category": "Bâton",
+    "stats": {
+      "health": 40,
+      "strength": -75,
+      "intelligence": 70,
+      "criticalChance": 3,
+      "neutralDamage": 5,
+      "fireDamage": 5,
+      "fireResistPer": 3,
+      "dodge": 5
+    }
+  },
+  "Bâton Tont'Ata": {
+    "level": 40,
+    "category": "Bâton",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "chance": -30,
+      "wisdom": 20,
+      "power": 10,
+      "lock": 3
+    }
+  },
+  "Bâton d'Oubli": {
+    "level": 30,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "intelligence": -30,
+      "agility": 30,
+      "wisdom": 20,
+      "criticalChance": 2
+    }
+  },
+  "La Canne Hête": {
+    "level": 20,
+    "category": "Bâton",
+    "stats": {
+      "health": 25,
+      "intelligence": 20,
+      "fireDamage": 2
+    }
+  },
+  "Bâton de Bouftier": {
+    "level": 12,
+    "category": "Bâton",
+    "stats": {
+      "health": 15,
+      "strength": 7,
+      "intelligence": 7
+    }
+  },
+  "Bâton de Dina, dit 'le Mythe'": {
+    "level": 40,
+    "category": "Bâton",
+    "stats": {
+      "intelligence": 30,
+      "agility": 20,
+      "neutralResistPer": 2,
+      "earthResistPer": 2
+    }
+  },
+  "Abraton": {
+    "level": 45,
+    "panoply": "Panoplie de l'Abraknyde",
+    "category": "Bâton",
+    "stats": {
+      "health": 60,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "initiative": 200,
+      "apReduction": 5,
+      "apResist": 5
+    }
+  },
+  "Bâton Carnivore": {
+    "level": 30,
+    "panoply": "Panoplie de Toady",
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "heal": 5,
+      "dodge": 3
+    }
+  },
+  "Bâton de Marie Aigue": {
+    "level": 109,
+    "category": "Bâton",
+    "stats": {
+      "intelligence": 50,
+      "agility": 40,
+      "wisdom": 35,
+      "power": 10,
+      "criticalChance": 10,
+      "prospecting": 10,
+      "airResistPer": 5
+    }
+  },
+  "Abraton Sombre": {
+    "level": 87,
+    "category": "Bâton",
+    "stats": {
+      "strength": 35,
+      "intelligence": 35,
+      "agility": 35,
+      "summon": 1,
+      "damage": 5
+    }
+  },
+  "Kelinobranche": {
+    "level": 129,
+    "category": "Bâton",
+    "stats": {
+      "health": 80,
+      "strength": 50,
+      "wisdom": 40,
+      "damage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 5
+    }
+  },
+  "La Racine Cinati": {
+    "level": 116,
+    "category": "Bâton",
+    "stats": {
+      "health": 80,
+      "strength": 50,
+      "intelligence": 50,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 15
+    }
+  },
+  "La Racine Hagogue": {
+    "level": 120,
+    "category": "Bâton",
+    "stats": {
+      "health": 80,
+      "strength": 30,
+      "wisdom": 35,
+      "range": 1,
+      "summon": 6,
+      "damage": 10,
+      "initiative": 250
+    }
+  },
+  "Racine Sauvageonne": {
+    "level": 54,
+    "category": "Bâton",
+    "stats": {
+      "health": 50,
+      "summon": 2,
+      "damage": 5
+    }
+  },
+  "Bâton du Féca": {
+    "level": 94,
+    "category": "Bâton",
+    "stats": {
+      "health": 40,
+      "intelligence": 40,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Bâton de l'Homme Ours": {
+    "level": 20,
+    "panoply": "Panoplie de l'Homme Ours",
+    "category": "Bâton",
+    "stats": {
+      "intelligence": 7,
+      "summon": 1
+    }
+  },
+  "Bâton de l'initié": {
+    "level": 12,
+    "category": "Bâton",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "La Plantouze des Champs": {
+    "level": 15,
+    "panoply": "Panoplie Champêtre",
+    "category": "Bâton",
+    "stats": {
+      "health": 25,
+      "strength": 10,
+      "earthDamage": 2
+    }
+  },
+  "Bâton de Sangroku": {
+    "level": 120,
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "agility": 45,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "initiative": 200,
+      "airResistPer": 10,
+      "airResist": 8
+    }
+  },
+  "Canne de Mamie Bonbon": {
+    "level": 98,
+    "category": "Bâton",
+    "stats": {
+      "health": 110,
+      "chance": 50,
+      "wisdom": 30,
+      "power": 30,
+      "neutralDamage": 7,
+      "waterDamage": 5,
+      "prospecting": 15,
+      "dodge": 7
+    }
+  },
+  "Racine Cithi": {
+    "level": 143,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "power": 20,
+      "criticalChance": 6,
+      "prospecting": 15,
+      "airResistPer": 7
+    }
+  },
+  "Racine Horodon": {
+    "level": 86,
+    "category": "Bâton",
+    "stats": {
+      "health": 45,
+      "intelligence": 45,
+      "wisdom": 25,
+      "power": 15,
+      "summon": 1,
+      "damage": 5,
+      "heal": 15
+    }
+  },
+  "Racine Sémilla": {
+    "level": 106,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "wisdom": 35
+    }
+  },
+  "Racine Hécouanone": {
+    "level": 103,
+    "category": "Bâton",
+    "stats": {
+      "health": 130,
+      "intelligence": 40,
+      "power": 20,
+      "criticalChance": 5,
+      "damage": 3,
+      "initiative": 200
+    }
+  },
+  "Racine Huzohide": {
+    "level": 88,
+    "category": "Bâton",
+    "stats": {
+      "health": 100,
+      "intelligence": 60,
+      "wisdom": 25,
+      "neutralDamage": 4,
+      "fireDamage": 4,
+      "heal": 20,
+      "apReduction": 5
+    }
+  },
+  "Racine Histre": {
+    "level": 86,
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "wisdom": 20,
+      "power": 30,
+      "range": 1,
+      "damage": 5
+    }
+  },
+  "Racine Hécure": {
+    "level": 101,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "power": 25,
+      "criticalChance": 7,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Rod Gerse": {
+    "level": 176,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 35,
+      "damage": 10,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  "Bâton du Shodanwa": {
+    "level": 46,
+    "category": "Bâton",
+    "stats": {
+      "health": 60,
+      "wisdom": 20,
+      "power": 30,
+      "neutralDamage": 5
+    }
+  },
+  "Bâton du Nidanwa": {
+    "level": 62,
+    "category": "Bâton",
+    "stats": {
+      "health": 45,
+      "strength": 45,
+      "range": 1,
+      "damage": 4
+    }
+  },
+  "Bâton du Sandanwa": {
+    "level": 77,
+    "category": "Bâton",
+    "stats": {
+      "health": 70,
+      "intelligence": 45,
+      "agility": 45,
+      "heal": 15,
+      "initiative": 300,
+      "dodge": 5
+    }
+  },
+  "Bâton du Yondanwa": {
+    "level": 93,
+    "category": "Bâton",
+    "stats": {
+      "health": 90,
+      "strength": 60,
+      "wisdom": 25,
+      "power": 20,
+      "criticalChance": 6,
+      "range": 1
+    }
+  },
+  "Bâton Akwadala": {
+    "level": 43,
+    "panoply": "Panoplie Akwadala",
+    "category": "Bâton",
+    "stats": {
+      "health": 20,
+      "chance": 40,
+      "criticalChance": 3,
+      "damage": 3
+    }
+  },
+  "Bâton du Koulosse": {
+    "level": 73,
+    "panoply": "Panoplie du Koulosse",
+    "category": "Bâton",
+    "stats": {
+      "health": 300,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
+      "damage": 10,
+      "heal": 20,
+      "airResistPer": 5,
+      "lock": 15,
+      "apReduction": 10,
+      "pushbackResist": 5
+    }
+  },
+  "Bâton des Caraïbes": {
+    "level": 114,
+    "category": "Bâton",
+    "stats": {
+      "health": 100,
+      "intelligence": 40,
+      "wisdom": 30,
+      "summon": 1,
+      "heal": 6,
+      "prospecting": 10
+    }
+  },
+  "La Canne Bière": {
+    "level": 133,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "strength": 35,
+      "intelligence": 35,
+      "agility": 35,
+      "wisdom": 25,
+      "damage": 5,
+      "prospecting": 15
+    }
+  },
+  "Sceptre du Minotot": {
+    "level": 151,
+    "panoply": "Panoplie du Minotot",
+    "category": "Bâton",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 20,
+      "heal": 6,
+      "prospecting": 25,
+      "waterResistPer": 12
+    }
+  },
+  "Bâton du Dragoeuf": {
+    "level": 124,
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "strength": 35,
+      "agility": 35,
+      "wisdom": 25,
+      "earthDamage": 3,
+      "airDamage": 3,
+      "prospecting": 10,
+      "initiative": 400,
+      "neutralResistPer": 6,
+      "fireResistPer": 6,
+      "apResist": 4
+    }
+  },
+  "Le Ramboton": {
+    "level": 200,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 30,
+      "wisdom": 40,
+      "power": 25,
+      "criticalChance": 5,
+      "MP": 1,
+      "range": 1,
+      "damage": 10
+    }
+  },
+  "Le Bâton Cloutay": {
+    "level": 107,
+    "category": "Bâton",
+    "stats": {
+      "health": 100,
+      "intelligence": 40,
+      "agility": 40,
+      "heal": 6,
+      "prospecting": 10,
+      "airResistPer": 10
+    }
+  },
+  "La Bastonneuze": {
+    "level": 85,
+    "category": "Bâton",
+    "stats": {
+      "health": 130,
+      "wisdom": 30,
+      "power": 35,
+      "criticalChance": 5,
+      "range": 1
+    }
+  },
+  "Tige du Brouture": {
+    "level": 119,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "intelligence": 45,
+      "agility": 45,
+      "criticalChance": 4,
+      "heal": 6,
+      "fireResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  "Bâton du Maître Zoth": {
+    "level": 158,
+    "panoply": "Panoplie du Zothuliste",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 50,
+      "wisdom": 40,
+      "damage": 10,
+      "prospecting": 15,
+      "neutralResistPer": 10
+    }
+  },
+  "Rhizome du Tynril": {
+    "level": 164,
+    "panoply": "Panoplie du Tynril",
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "heal": 8,
+      "prospecting": 10,
+      "neutralResistPer": 4,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4
+    }
+  },
+  "Racine de Fécorce": {
+    "level": 136,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "summon": 1,
+      "damage": 7,
+      "prospecting": 20,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "earthResistPer": -4,
+      "airResistPer": -4,
+      "fireResist": 10,
+      "waterResist": 10
+    }
+  },
+  "Racine de Floribonde": {
+    "level": 144,
+    "category": "Bâton",
+    "stats": {
+      "health": 300,
+      "agility": 60,
+      "wisdom": 60,
+      "damage": 10,
+      "prospecting": 20
+    }
+  },
+  "Bâton Champmanique": {
+    "level": 191,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "summon": 1,
+      "damage": 5,
+      "prospecting": 15,
+      "neutralResistPer": 10
+    }
+  },
+  "Bâton de l'apprenti pélerin": {
+    "level": 1,
+    "category": "Bâton",
+    "stats": {}
+  },
+  "Grésilosceptre": {
+    "level": 192,
+    "category": "Bâton",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "range": 1,
+      "damage": 7,
+      "prospecting": 30,
+      "initiative": 400,
+      "fireResistPer": 10,
+      "neutralResist": 10
+    }
+  },
+  "Bâton K'Tueuh": {
+    "level": 161,
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "MP": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "heal": 10,
+      "prospecting": 15,
+      "fireResist": 10,
+      "airResist": 10,
+      "dodge": 5
+    }
+  },
+  "Bâton du Shamansot": {
+    "level": 130,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 7,
+      "heal": 5,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": -4,
+      "criticalResist": 10
+    }
+  },
+  "Le Thanos rongé": {
+    "level": 172,
+    "category": "Bâton",
+    "stats": {}
+  },
+  "Bâton Brelle": {
+    "level": 188,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "neutralDamage": 12,
+      "airDamage": 12,
+      "prospecting": 25,
+      "initiative": 300,
+      "neutralResistPer": 7,
+      "apResist": 5,
+      "criticalResist": 15
+    }
+  },
+  "Bâton Brageut": {
+    "level": 195,
+    "category": "Bâton",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "wisdom": 50,
+      "power": 25,
+      "criticalChance": 5,
+      "neutralDamage": 12,
+      "fireDamage": 12,
+      "prospecting": 25,
+      "initiative": 400,
+      "dodge": 7,
+      "apReduction": 5,
+      "pushbackResist": 10
+    }
+  },
+  "Sceptre du Kanniboul Ebil": {
+    "level": 47,
+    "panoply": "Panoplie du Kanniboul Ebil",
+    "category": "Bâton",
+    "stats": {
+      "strength": 20,
+      "intelligence": 20,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "prospecting": 10
+    }
+  },
+  "Le Thanos": {
+    "level": 172,
+    "category": "Bâton",
+    "stats": {
+      "health": 300,
+      "intelligence": 60,
+      "wisdom": 50,
+      "range": 1,
+      "summon": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "heal": 10,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "airResist": 10,
+      "dodge": 7,
+      "pushbackDamage": -16
+    }
+  },
+  "Bâton des Prophètes": {
+    "level": 169,
+    "panoply": "Panoplie des Prophètes",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 5,
+      "prospecting": 15,
+      "neutralResist": 10,
+      "mpReduction": 4,
+      "criticalResist": 10
+    }
+  },
+  "Bâton de Daïgoro": {
+    "level": 88,
+    "panoply": "Panoplie de Daïgoro",
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "wisdom": 15,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "neutralResistPer": 4,
+      "airResistPer": 4,
+      "mpResist": 3
+    }
+  },
+  "Canne Hassukre Édulcorée": {
+    "level": 165,
+    "category": "Bâton",
+    "stats": {
+      "health": 180,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "criticalChance": 10,
+      "range": 1,
+      "summon": 1,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 7,
+      "initiative": 200,
+      "fireResistPer": -4,
+      "mpReduction": 4
+    }
+  },
+  "Canne Hassukre": {
+    "level": 165,
+    "category": "Bâton",
+    "stats": {
+      "health": 180,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "heal": 7,
+      "initiative": 200,
+      "fireResistPer": -4,
+      "mpReduction": 4,
+      "criticalResist": 10
+    }
+  },
+  "Rouleau à Pâtisserie d'Aermyne": {
+    "level": 194,
+    "panoply": "Panoplie d'Aermyne",
+    "category": "Bâton",
+    "stats": {
+      "health": 350,
+      "strength": -71,
+      "intelligence": -71,
+      "chance": -71,
+      "agility": -71,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "range": 1,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "lock": 10,
+      "apResist": 6,
+      "criticalDamage": -11
+    }
+  },
+  "Canne Harr": {
+    "level": 197,
+    "category": "Bâton",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "fireDamage": 12,
+      "airDamage": 18,
+      "prospecting": 10,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "airResist": 10,
+      "lock": 6,
+      "pushbackResist": -11
+    }
+  },
+  "Bâton Beau": {
+    "level": 197,
+    "category": "Bâton",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "power": 75,
+      "criticalChance": 4,
+      "range": 1,
+      "prospecting": 15,
+      "neutralResist": 20,
+      "waterResist": 20,
+      "dodge": -11,
+      "criticalDamage": 20,
+      "pushbackResist": 20
+    }
+  },
+  "Bâton Fracass": {
+    "level": 126,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "range": 1,
+      "waterDamage": 12,
+      "initiative": 500,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "airResist": 10,
+      "lock": 7,
+      "mpReduction": 5,
+      "apResist": -4,
+      "criticalDamage": 10
+    }
+  },
+  "Kalypsoton": {
+    "level": 139,
+    "panoply": "Panoplie Engloutie",
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "summon": 1,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "earthResistPer": 10,
+      "fireResist": 15,
+      "lock": -4,
+      "apResist": 6
+    }
+  },
+  "Vieille Branche du Chêne Mou": {
+    "level": 140,
+    "panoply": "Panoplie du Chêne Mou",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "heal": 15,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": -10
+    }
+  },
+  "Bâton de Zatoïshwan": {
+    "level": 150,
+    "panoply": "Panoplie de Zatoïshwan",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "waterDamage": 10,
+      "fireResist": 12,
+      "airResist": 12,
+      "lock": 5,
+      "mpResist": 6,
+      "criticalDamage": 10
+    }
+  },
+  "Sceptre du Roi Joueur": {
+    "level": 200,
+    "category": "Bâton",
+    "stats": {
+      "health": 400,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "summon": 1,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 10,
+      "dodge": 10,
+      "apReduction": 7,
+      "criticalDamage": 10
+    }
+  },
+  "Bâthon": {
+    "level": 200,
+    "category": "Bâton",
+    "stats": {
+      "health": 350,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "heal": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "lock": 10,
+      "mpReduction": 7
+    }
+  },
+  "Sceptre Zor": {
+    "level": 61,
+    "category": "Bâton",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "agility": 20,
+      "wisdom": 45,
+      "power": 20,
+      "initiative": 100
+    }
+  },
+  "Nun-Charang": {
+    "level": 126,
+    "panoply": "Panoplie Kozaru",
+    "category": "Bâton",
+    "stats": {
+      "health": 200,
+      "agility": 60,
+      "wisdom": 30,
+      "summon": 1,
+      "airDamage": 7,
+      "heal": 10,
+      "prospecting": 15,
+      "neutralResistPer": 6,
+      "airResist": 10,
+      "criticalDamage": 6
+    }
+  },
+  "Bâton de Hanshi": {
+    "level": 142,
+    "category": "Bâton",
+    "stats": {
+      "health": 250,
+      "agility": 70,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 1,
+      "airDamage": 6,
+      "prospecting": 15,
+      "neutralResistPer": 4,
+      "lock": 6,
+      "mpResist": 6,
+      "criticalResist": 10
+    }
+  },
+  "Bâton en bambou spirituel": {
+    "level": 110,
+    "category": "Bâton",
+    "stats": {
+      "health": 150,
+      "wisdom": 20,
+      "power": 30,
+      "criticalChance": 5,
+      "range": 1,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4
+    }
+  },
+  "La Batte Sunémicu": {
+    "level": 1,
+    "panoply": "Il n'y a pas de pano",
+    "category": "Bâton",
+    "stats": {}
+  },
+  "Dagues de Boisaille": {
+    "level": 7,
+    "category": "Dague",
+    "stats": {
+      "agility": 10,
+      "airDamage": 1
+    }
+  },
+  "Dagues de Fouraille": {
+    "level": 13,
+    "category": "Dague",
+    "stats": {
+      "strength": 10,
+      "criticalChance": 2,
+      "earthDamage": 1
+    }
+  },
+  "Dagues de Croclage": {
+    "level": 17,
+    "category": "Dague",
+    "stats": {
+      "health": 25,
+      "agility": 20
+    }
+  },
+  "Bashers": {
+    "level": 29,
+    "category": "Dague",
+    "stats": {
+      "agility": 30,
+      "criticalChance": 4
+    }
+  },
+  "Blessdags": {
+    "level": 64,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "strength": -11,
+      "chance": 40,
+      "agility": 40,
+      "criticalChance": 6
+    }
+  },
+  "Chakra Style": {
+    "level": 73,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "wisdom": 15,
+      "AP": 1,
+      "waterDamage": 5
+    }
+  },
+  "Leurnettes": {
+    "level": 12,
+    "category": "Dague",
+    "stats": {
+      "health": 15,
+      "strength": 10
+    }
+  },
+  "Dagues Eurfolles": {
+    "level": 46,
+    "category": "Dague",
+    "stats": {
+      "MP": 1
+    }
+  },
+  "Dagues Sylvestres": {
+    "level": 27,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "intelligence": 20,
+      "agility": 20,
+      "dodge": -4
+    }
+  },
+  "Dagues Aiguisées": {
+    "level": 39,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "intelligence": -20,
+      "wisdom": 15,
+      "criticalChance": 5,
+      "damage": 3
+    }
+  },
+  "Dagues Ancestrales": {
+    "level": 34,
+    "category": "Dague",
+    "stats": {
+      "health": 20,
+      "strength": -40,
+      "intelligence": 50,
+      "wisdom": 10,
+      "summon": 1,
+      "initiative": -200
+    }
+  },
+  "Couteau à Stek": {
+    "level": 41,
+    "category": "Dague",
+    "stats": {
+      "health": 60,
+      "chance": -50,
+      "agility": 40,
+      "dodge": 10,
+      "pushbackDamage": 10
+    }
+  },
+  "Queues de Chatons": {
+    "level": 25,
+    "category": "Dague",
+    "stats": {
+      "health": -25,
+      "chance": 25,
+      "agility": 25
+    }
+  },
+  "Dagues Cruelles d'Elorie Entuwan": {
+    "level": 40,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "agility": 40,
+      "airDamage": 5,
+      "dodge": 5
+    }
+  },
+  "Lame de Fon": {
+    "level": 56,
+    "category": "Dague",
+    "stats": {
+      "chance": 35,
+      "agility": 40,
+      "criticalChance": 3,
+      "waterDamage": 3,
+      "airDamage": 3,
+      "dodge": 3
+    }
+  },
+  "Dagues Fourbesques": {
+    "level": 67,
+    "category": "Dague",
+    "stats": {
+      "health": 70,
+      "strength": -35,
+      "intelligence": -35,
+      "agility": 70,
+      "wisdom": 15,
+      "criticalChance": 5,
+      "dodge": 5,
+      "criticalDamage": 10
+    }
+  },
+  "Lames sanglantes d'Ortimus Contrari": {
+    "level": 80,
+    "category": "Dague",
+    "stats": {
+      "health": 30,
+      "agility": 50,
+      "wisdom": 15,
+      "criticalChance": 2,
+      "MP": 1,
+      "neutralDamage": 3,
+      "airDamage": 3
+    }
+  },
+  "Épée Cassée du Chevalier Malchanceux": {
+    "level": 35,
+    "category": "Dague",
+    "stats": {
+      "health": 15,
+      "strength": 20,
+      "agility": -20
+    }
+  },
+  "Les Lames en Table": {
+    "level": 33,
+    "category": "Dague",
+    "stats": {
+      "agility": 40,
+      "criticalChance": 3,
+      "dodge": 5,
+      "lock": -5
+    }
+  },
+  "L'Ergot Mina": {
+    "level": 20,
+    "category": "Dague",
+    "stats": {
+      "health": 10,
+      "chance": 20,
+      "criticalChance": 2
+    }
+  },
+  "Dagues Eulasse": {
+    "level": 40,
+    "category": "Dague",
+    "stats": {
+      "strength": 20,
+      "chance": 20,
+      "neutralResistPer": 2,
+      "earthResistPer": 2,
+      "waterResistPer": 2
+    }
+  },
+  "Dagues Aj'Deh'Là": {
+    "level": 44,
+    "category": "Dague",
+    "stats": {
+      "health": 45,
+      "intelligence": -50,
+      "MP": 1
+    }
+  },
+  "Le Rasoir Infernal": {
+    "level": 30,
+    "category": "Dague",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "criticalChance": 2,
+      "dodge": 2
+    }
+  },
+  "Dagues Tylo": {
+    "level": 30,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "agility": -30,
+      "criticalChance": -4,
+      "summon": 1,
+      "neutralDamage": 4,
+      "earthDamage": 4
+    }
+  },
+  "Dagues O'Bert": {
+    "level": 30,
+    "category": "Dague",
+    "stats": {
+      "health": 20,
+      "agility": 20
+    }
+  },
+  "Couteau de Chasse": {
+    "level": 1,
+    "category": "Dague",
+    "stats": {}
+  },
+  "La Thor-Boyaux": {
+    "level": 83,
+    "category": "Dague",
+    "stats": {
+      "health": 70,
+      "strength": 40,
+      "agility": 40,
+      "range": 1,
+      "damage": 5,
+      "mpReduction": 5
+    }
+  },
+  "Daguette du Captain Chafer": {
+    "level": 83,
+    "category": "Dague",
+    "stats": {
+      "health": 60,
+      "agility": 60,
+      "wisdom": 20,
+      "power": 15,
+      "criticalChance": 5,
+      "initiative": 200,
+      "apResist": 5
+    }
+  },
+  "Dague Rafeuse": {
+    "level": 91,
+    "category": "Dague",
+    "stats": {
+      "strength": 60,
+      "chance": 40,
+      "agility": 40,
+      "damage": 6,
+      "prospecting": 10,
+      "neutralResistPer": 2,
+      "earthResistPer": 2
+    }
+  },
+  "Dague Régah": {
+    "level": 119,
+    "category": "Dague",
+    "stats": {
+      "strength": 40,
+      "agility": 40,
+      "damage": 10,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  "Dague Lutination": {
+    "level": 90,
+    "category": "Dague",
+    "stats": {
+      "health": 60,
+      "agility": 60,
+      "wisdom": 25,
+      "range": 1,
+      "initiative": 400,
+      "neutralResistPer": 5
+    }
+  },
+  "Dagues R'Hoh": {
+    "level": 121,
+    "category": "Dague",
+    "stats": {
+      "health": 80,
+      "agility": 50,
+      "wisdom": 30,
+      "power": 15,
+      "range": 1,
+      "prospecting": 10
+    }
+  },
+  "Dagues Hischantes": {
+    "level": 80,
+    "category": "Dague",
+    "stats": {
+      "health": 60,
+      "strength": 25,
+      "agility": 50,
+      "range": 1,
+      "neutralDamage": 10,
+      "heal": 10
+    }
+  },
+  "Lorsotheuses": {
+    "level": 100,
+    "category": "Dague",
+    "stats": {
+      "health": 70,
+      "strength": 70,
+      "agility": 40,
+      "criticalChance": 3,
+      "AP": 1,
+      "dodge": 7
+    }
+  },
+  "Dagues de l'initié": {
+    "level": 12,
+    "category": "Dague",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Dagues du Bandit": {
+    "level": 12,
+    "panoply": "Panoplie du Bandit",
+    "category": "Dague",
+    "stats": {
+      "health": 20,
+      "power": 10
+    }
+  },
+  "Dagues Lassay": {
+    "level": 150,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "MP": 1,
+      "damage": 10,
+      "initiative": 300,
+      "trapPower": 25,
+      "trapDamage": 20
+    }
+  },
+  "Dagues Honies": {
+    "level": 46,
+    "category": "Dague",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "wisdom": 15,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  "Dagues Réceuses": {
+    "level": 143,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 40,
+      "power": 25,
+      "range": 1,
+      "neutralResistPer": 10,
+      "neutralResist": 8
+    }
+  },
+  "Dagues de l'Apprenti Tueur de Bouftons": {
+    "level": 113,
+    "category": "Dague",
+    "stats": {
+      "health": 100,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "prospecting": 10
+    }
+  },
+  "Dagues Rhumes": {
+    "level": 113,
+    "category": "Dague",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "agility": 40,
+      "range": 1,
+      "damage": 5,
+      "heal": 5
+    }
+  },
+  "Dagues Maydhyn China": {
+    "level": 100,
+    "category": "Dague",
+    "stats": {
+      "health": 80,
+      "agility": 60,
+      "criticalChance": 5,
+      "MP": 1,
+      "neutralDamage": 5,
+      "airDamage": 5,
+      "initiative": 200
+    }
+  },
+  "Sertisseur de Ramougre": {
+    "level": 127,
+    "category": "Dague",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "agility": 50,
+      "criticalChance": 6,
+      "trapDamage": 20
+    }
+  },
+  "Dagues Aerdala": {
+    "level": 62,
+    "panoply": "Panoplie Aerdala",
+    "category": "Dague",
+    "stats": {
+      "health": 70,
+      "agility": 30,
+      "criticalChance": 3,
+      "initiative": 200,
+      "fireResistPer": 3,
+      "airResistPer": 3
+    }
+  },
+  "Les Dagues du Bouwin": {
+    "level": 134,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 30,
+      "power": 10,
+      "damage": 10,
+      "neutralResist": 10,
+      "airResist": 10,
+      "trapPower": 20
+    }
+  },
+  "Dagues du Dragoeuf": {
+    "level": 128,
+    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "category": "Dague",
+    "stats": {
+      "health": 130,
+      "strength": 40,
+      "intelligence": 40,
+      "agility": 40,
+      "criticalChance": 3,
+      "AP": 1,
+      "earthDamage": 2,
+      "fireDamage": 2,
+      "airDamage": 2,
+      "heal": 6
+    }
+  },
+  "Dagues du Rat Noir": {
+    "level": 108,
+    "panoply": "Panoplie du Rat Noir",
+    "category": "Dague",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "airDamage": 6,
+      "prospecting": 6,
+      "initiative": 150,
+      "apResist": 5,
+      "mpResist": 5
+    }
+  },
+  "Scalpel de Bworknroll": {
+    "level": 40,
+    "category": "Dague",
+    "stats": {
+      "health": 10,
+      "strength": -21,
+      "initiative": -51
+    }
+  },
+  "Dagues Ruyère": {
+    "level": 67,
+    "category": "Dague",
+    "stats": {
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "apReduction": 5
+    }
+  },
+  "Griffettes": {
+    "level": 69,
+    "category": "Dague",
+    "stats": {
+      "health": 50,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 30
+    }
+  },
+  "Dagues Adou": {
+    "level": 175,
+    "category": "Dague",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "damage": 6,
+      "prospecting": 20,
+      "fireResist": 10,
+      "airResist": 10,
+      "trapPower": 30
+    }
+  },
+  "Dagues Eudin": {
+    "level": 171,
+    "category": "Dague",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "agility": 50,
+      "criticalChance": 4,
+      "damage": 10,
+      "prospecting": 10,
+      "initiative": 400,
+      "earthResistPer": 10,
+      "trapPower": 30,
+      "trapDamage": 20
+    }
+  },
+  "Dagues Ruik": {
+    "level": 158,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "damage": 10,
+      "neutralResistPer": 10,
+      "neutralResist": 10,
+      "trapPower": 40
+    }
+  },
+  "Kriss Toubal": {
+    "level": 149,
+    "category": "Dague",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 30,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "summon": 2,
+      "damage": 6,
+      "prospecting": 20,
+      "fireResist": 10,
+      "waterResist": 10
+    }
+  },
+  "Couteaux à Champignons": {
+    "level": 187,
+    "panoply": "Panoplignon",
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "damage": 7,
+      "prospecting": 15,
+      "initiative": 400,
+      "trapPower": 50
+    }
+  },
+  "Lame Assacre": {
+    "level": 182,
+    "panoply": "Panoplie du Bworker Gladiateur",
+    "category": "Dague",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "chance": 50,
+      "criticalChance": 3,
+      "damage": 6,
+      "airResistPer": 10,
+      "airResist": 10
+    }
+  },
+  "Tailladeuse de Manche": {
+    "level": 2,
+    "category": "Dague",
+    "stats": {
+      "health": 7
+    }
+  },
+  "Youyettes": {
+    "level": 164,
+    "category": "Dague",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 400,
+      "airResistPer": 10,
+      "lock": -7,
+      "criticalResist": 10,
+      "trapPower": 25
+    }
+  },
+  "Dagues Imauve": {
+    "level": 176,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 50,
+      "summon": 1,
+      "neutralDamage": 10,
+      "fireDamage": 10,
+      "heal": 7,
+      "prospecting": 25,
+      "initiative": 300
+    }
+  },
+  "Dagues Açantes": {
+    "level": 183,
+    "category": "Dague",
+    "stats": {
+      "health": 250,
+      "chance": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 30,
+      "airResistPer": 10,
+      "waterResist": 10,
+      "dodge": 7,
+      "apReduction": -3,
+      "mpReduction": 4
+    }
+  },
+  "Dagues Hirr": {
+    "level": 197,
+    "category": "Dague",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "range": 1,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "initiative": 300,
+      "neutralResistPer": 7,
+      "lock": 4,
+      "criticalResist": 10
+    }
+  },
+  "Couteau de Mer": {
+    "level": 124,
+    "panoply": "Panoplie Autochtone",
+    "category": "Dague",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "waterDamage": 7,
+      "prospecting": 10,
+      "initiative": 300,
+      "neutralResistPer": 10,
+      "waterResist": 15,
+      "lock": 6,
+      "apResist": -2,
+      "criticalDamage": 7
+    }
+  },
+  "Dagues Ricol": {
+    "level": 198,
+    "category": "Dague",
+    "stats": {
+      "health": 300,
+      "intelligence": 75,
+      "wisdom": 45,
+      "range": -1,
+      "earthDamage": 15,
+      "fireDamage": 10,
+      "heal": -7,
+      "prospecting": 10,
+      "initiative": 400,
+      "neutralResistPer": 10,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": 15,
+      "criticalDamage": 10
+    }
+  },
+  "Dagues Érhy": {
+    "level": 200,
+    "category": "Dague",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 1,
+      "summon": 2,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "waterResistPer": 10,
+      "dodge": 10,
+      "criticalResist": 15
+    }
+  },
+  "Dagues de Srambad": {
+    "level": 200,
+    "category": "Dague",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "waterDamage": 20,
+      "fireResistPer": 10,
+      "criticalResist": 25
+    }
+  },
+  "Couteaux sacrés": {
+    "level": 200,
+    "category": "Dague",
+    "stats": {}
+  },
+  "Dagoulinantes": {
+    "level": 200,
+    "panoply": "Panoplie de la Fosse",
+    "category": "Dague",
+    "stats": {
+      "health": 400,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "range": 1,
+      "waterDamage": 20,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "apReduction": 10
+    }
+  },
+  "Dagues Cacterre": {
+    "level": 130,
+    "category": "Dague",
+    "stats": {
+      "health": 120,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "fireResistPer": 10,
+      "dodge": 10
+    }
+  },
+  "Hachoirs de Viandargh": {
+    "level": 195,
+    "category": "Dague",
+    "stats": {
+      "health": 350,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "dodge": 10,
+      "mpReduction": 7,
+      "criticalDamage": 10,
+      "pushbackDamage": 30
+    }
+  },
+  "Dagues d'Ilyzaelle": {
+    "level": 200,
+    "category": "Dague",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "dodge": -20,
+      "mpReduction": 7,
+      "criticalDamage": 15,
+      "pushbackResist": 40
+    }
+  },
+  "Ciseaux du Destin": {
+    "level": 200,
+    "category": "Dague",
+    "stats": {
+      "health": 450,
+      "strength": 120,
+      "wisdom": 50,
+      "initiative": 400,
+      "neutralResistPer": 10,
+      "lock": 20,
+      "dodge": -20,
+      "mpResist": 20,
+      "meleeResistPer": -5
+    }
+  },
+  "Couteaux Sacrificiels": {
+    "level": 200,
+    "panoply": "Panoplie Paztek",
+    "category": "Dague",
+    "stats": {
+      "health": 400,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 30,
+      "range": -1,
+      "summon": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "lock": 10,
+      "mpResist": 10,
+      "criticalResist": -30
+    }
+  },
+  "Éventails de Shihan": {
+    "level": 142,
+    "category": "Dague",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "waterDamage": 4,
+      "airDamage": 4,
+      "initiative": 300,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "dodge": 6,
+      "criticalDamage": 10
+    }
+  },
+  "Tonfas de Barbéryl": {
+    "level": 194,
+    "panoply": "Panoplie de Barbéryl Clochecuivre",
+    "category": "Dague",
+    "stats": {
+      "health": 350,
+      "chance": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "initiative": 600,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "dodge": 10,
+      "criticalDamage": 12
+    }
+  },
+  "Poignards du Captain Chafer": {
+    "level": 200,
+    "panoply": "Panoplie du Captain Chafer",
+    "category": "Dague",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 30,
+      "summon": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 20,
+      "initiative": 300,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 7,
+      "mpResist": 7
+    }
+  },
+  "Épée de Boisaille": {
+    "level": 7,
+    "category": "Épée",
+    "stats": {
+      "strength": 10,
+      "earthDamage": 1
+    }
+  },
+  "Épée de Fouraille": {
+    "level": 15,
+    "category": "Épée",
+    "stats": {
+      "health": 15,
+      "strength": 10,
+      "neutralDamage": 2,
+      "earthDamage": 2
+    }
+  },
+  "Épée d'Alle": {
+    "level": 26,
+    "category": "Épée",
+    "stats": {
+      "health": -20,
+      "strength": 20,
+      "intelligence": 20,
+      "dodge": 5
+    }
+  },
+  "La Triste Lame": {
+    "level": 21,
+    "category": "Épée",
+    "stats": {
+      "criticalChance": 6
+    }
+  },
+  "Épée d'Ha": {
+    "level": 17,
+    "category": "Épée",
+    "stats": {
+      "health": 20,
+      "strength": 10,
+      "dodge": 4
+    }
+  },
+  "Goultard": {
+    "level": 40,
+    "category": "Épée",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "agility": 30,
+      "lock": 3
+    }
+  },
+  "La crinière de Badoul": {
+    "level": 33,
+    "category": "Épée",
+    "stats": {
+      "MP": 1,
+      "lock": -12,
+      "dodge": -12
+    }
+  },
+  "Le Tranchant Infernal": {
+    "level": 22,
+    "category": "Épée",
+    "stats": {
+      "health": 40,
+      "agility": 25,
+      "heal": -10,
+      "dodge": 3
+    }
+  },
+  "Razielle": {
+    "level": 52,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 40,
+      "intelligence": -25,
+      "chance": -25,
+      "agility": 40,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "airDamage": 3,
+      "lock": 3
+    }
+  },
+  "Lame du Gob-Trotteur": {
+    "level": 16,
+    "category": "Épée",
+    "stats": {
+      "strength": 20,
+      "dodge": 3
+    }
+  },
+  "Koupe-koupe": {
+    "level": 18,
+    "category": "Épée",
+    "stats": {
+      "agility": 25,
+      "criticalChance": 2
+    }
+  },
+  "Lame du Chafer": {
+    "level": 27,
+    "category": "Épée",
+    "stats": {
+      "health": 40,
+      "intelligence": -30,
+      "chance": 30,
+      "criticalChance": 3
+    }
+  },
+  "La Klebik": {
+    "level": 25,
+    "category": "Épée",
+    "stats": {
+      "strength": 40,
+      "chance": -40,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "dodge": -8
+    }
+  },
+  "La Queue": {
+    "level": 13,
+    "category": "Épée",
+    "stats": {
+      "health": 25,
+      "agility": 10,
+      "airDamage": 1
+    }
+  },
+  "La Queue Infernale": {
+    "level": 21,
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "chance": -20,
+      "agility": 20,
+      "pushbackDamage": 10
+    }
+  },
+  "Découpeuse de Kralamoure": {
+    "level": 61,
+    "category": "Épée",
+    "stats": {
+      "strength": 30,
+      "intelligence": -1,
+      "criticalChance": 2,
+      "damage": 6
+    }
+  },
+  "Épée Sacrée": {
+    "level": 17,
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "criticalChance": 3
+    }
+  },
+  "Épée du Chevalier": {
+    "level": 26,
+    "category": "Épée",
+    "stats": {
+      "health": 25,
+      "chance": 30,
+      "lock": 3
+    }
+  },
+  "Lame du Bwork": {
+    "level": 26,
+    "category": "Épée",
+    "stats": {
+      "health": -30,
+      "agility": 30,
+      "neutralDamage": 3,
+      "airDamage": 3,
+      "dodge": 3
+    }
+  },
+  "Lame d'Ogralimde": {
+    "level": 45,
+    "category": "Épée",
+    "stats": {
+      "strength": 40,
+      "range": 1
+    }
+  },
+  "La Zulie Lame": {
+    "level": 60,
+    "category": "Épée",
+    "stats": {
+      "chance": 40,
+      "agility": 40,
+      "power": 15,
+      "criticalChance": 3,
+      "waterDamage": 3,
+      "airDamage": 3
+    }
+  },
+  "Neuf Queues": {
+    "level": 99,
+    "category": "Épée",
+    "stats": {
+      "health": 99,
+      "strength": 29,
+      "agility": 29,
+      "range": -1,
+      "fireResistPer": 9,
+      "airResistPer": 9,
+      "lock": 9,
+      "criticalDamage": 9
+    }
+  },
+  "Découpeuse de Yench": {
+    "level": 60,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 40,
+      "chance": -40,
+      "agility": -40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "criticalDamage": 7
+    }
+  },
+  "Étoile du soir": {
+    "level": 52,
+    "category": "Épée",
+    "stats": {
+      "health": 40,
+      "strength": -20,
+      "agility": 30,
+      "wisdom": 15,
+      "neutralResistPer": 3,
+      "airResistPer": 3,
+      "dodge": 5
+    }
+  },
+  "Le Cutter": {
+    "level": 64,
+    "category": "Épée",
+    "stats": {
+      "strength": 65,
+      "intelligence": -65,
+      "chance": 20,
+      "agility": 35,
+      "damage": 5,
+      "initiative": 300
+    }
+  },
+  "Épée de Justice": {
+    "level": 1,
+    "category": "Épée",
+    "stats": {}
+  },
+  "Kwaklame de Flammes": {
+    "level": 41,
+    "panoply": "Panoplie du Kwak de Flammes",
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "criticalChance": 3,
+      "fireResistPer": 3
+    }
+  },
+  "Épée Royale du Bouftou": {
+    "level": 30,
+    "panoply": "Panoplie du Bouftou Royal",
+    "category": "Épée",
+    "stats": {
+      "health": 40,
+      "power": 30,
+      "lock": 3
+    }
+  },
+  "Corbalame": {
+    "level": 110,
+    "panoply": "Panoplie du Corbac",
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 20,
+      "criticalChance": 2,
+      "fireDamage": 6,
+      "airDamage": 6,
+      "neutralResistPer": 3,
+      "airResistPer": 3,
+      "pushbackDamage": 12
+    }
+  },
+  "La Griffe": {
+    "level": 35,
+    "category": "Épée",
+    "stats": {
+      "health": -50,
+      "strength": 30,
+      "agility": 30,
+      "initiative": 150
+    }
+  },
+  "La Griffe Aiguisée": {
+    "level": 68,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "agility": 30,
+      "damage": 3,
+      "initiative": 300,
+      "dodge": 10
+    }
+  },
+  "Fausse Griffe de Ceangal": {
+    "level": 95,
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "strength": 50,
+      "agility": 50,
+      "criticalChance": 5,
+      "damage": 5,
+      "prospecting": 5,
+      "initiative": 400
+    }
+  },
+  "Griffe Rose": {
+    "level": 100,
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "strength": 80,
+      "wisdom": 35,
+      "criticalChance": 3,
+      "summon": 1,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "pushbackDamage": 10
+    }
+  },
+  "Eventail Tranchant": {
+    "level": 75,
+    "category": "Épée",
+    "stats": {
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "power": 5,
+      "damage": 3
+    }
+  },
+  "Pic à Glace": {
+    "level": 85,
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "chance": 50,
+      "criticalChance": 5,
+      "damage": 5,
+      "waterResistPer": 5,
+      "fireResistPer": -5,
+      "dodge": 3,
+      "criticalDamage": 10
+    }
+  },
+  "Kwaklame de Glace": {
+    "level": 41,
+    "panoply": "Panoplie du Kwak de Glace",
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "chance": 30,
+      "criticalChance": 3,
+      "waterResistPer": 3
+    }
+  },
+  "Kwaklame de Terre": {
+    "level": 41,
+    "panoply": "Panoplie du Kwak de Terre",
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "criticalChance": 3,
+      "earthResistPer": 3
+    }
+  },
+  "Kwaklame de Vent": {
+    "level": 41,
+    "panoply": "Panoplie du Kwak de Vent",
+    "category": "Épée",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "criticalChance": 3,
+      "airResistPer": 3
+    }
+  },
+  "Épée de l'initié": {
+    "level": 12,
+    "category": "Épée",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Lame du Chef Bwork": {
+    "level": 100,
+    "panoply": "Panoplie du Chef Bwork",
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "strength": 50,
+      "agility": 50,
+      "power": 15,
+      "damage": 5,
+      "prospecting": 10,
+      "waterResistPer": 5,
+      "lock": 5
+    }
+  },
+  "Lame du Chef Crocodaille": {
+    "level": 70,
+    "panoply": "Panoplie du Chef Crocodaille",
+    "category": "Épée",
+    "stats": {
+      "health": 55,
+      "chance": 50,
+      "agility": 50,
+      "summon": 1,
+      "damage": 3
+    }
+  },
+  "Épée de Yingnitié": {
+    "level": 1,
+    "category": "Épée",
+    "stats": {
+      "initiative": 10
+    }
+  },
+  "Épée de Yanguru": {
+    "level": 1,
+    "category": "Épée",
+    "stats": {
+      "initiative": 10
+    }
+  },
+  "Lame du Craqueleur": {
+    "level": 64,
+    "panoply": "Panoplie du Craqueleur",
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "chance": 30,
+      "wisdom": 10,
+      "power": 10,
+      "criticalChance": 3,
+      "neutralResistPer": 5,
+      "dodge": -10
+    }
+  },
+  "Épée du Chevalier de Glace": {
+    "level": 20,
+    "category": "Épée",
+    "stats": {
+      "health": 20,
+      "intelligence": 15,
+      "heal": 5,
+      "lock": 2
+    }
+  },
+  "Griffe de Grizmine": {
+    "level": 111,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "agility": 50,
+      "damage": 5,
+      "neutralResistPer": 7
+    }
+  },
+  "Épée du Dark Vlad": {
+    "level": 126,
+    "category": "Épée",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 40,
+      "power": 20,
+      "prospecting": 15,
+      "fireResistPer": 6,
+      "airResistPer": 6
+    }
+  },
+  "Karnak": {
+    "level": 158,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "agility": 50,
+      "wisdom": 35,
+      "MP": 1,
+      "damage": 8,
+      "neutralResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  "Razoir du Soir": {
+    "level": 105,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 35,
+      "criticalChance": 7
+    }
+  },
+  "Glaive Icération": {
+    "level": 130,
+    "category": "Épée",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "agility": 50,
+      "initiative": 300,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7
+    }
+  },
+  "Sabre Shodanwa": {
+    "level": 40,
+    "category": "Épée",
+    "stats": {
+      "strength": 30,
+      "agility": 30,
+      "summon": 1
+    }
+  },
+  "Sabre Nidanwa": {
+    "level": 66,
+    "category": "Épée",
+    "stats": {
+      "health": 45,
+      "agility": 45,
+      "wisdom": 25,
+      "criticalChance": 7,
+      "lock": 3
+    }
+  },
+  "Sabre Sandanwa": {
+    "level": 83,
+    "category": "Épée",
+    "stats": {
+      "health": 80,
+      "strength": 70,
+      "power": 30,
+      "damage": 8,
+      "lock": 5
+    }
+  },
+  "Sabre Yondanwa": {
+    "level": 92,
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "strength": 30,
+      "agility": 40,
+      "wisdom": 25,
+      "power": 20,
+      "criticalChance": 3,
+      "damage": 5,
+      "lock": 5
+    }
+  },
+  "Sabre Feudala": {
+    "level": 76,
+    "panoply": "Panoplie Feudala",
+    "category": "Épée",
+    "stats": {
+      "health": 75,
+      "intelligence": 50,
+      "criticalChance": 4,
+      "earthResistPer": 5,
+      "fireResistPer": 5
+    }
+  },
+  "L'Epée Rilleuse": {
+    "level": 169,
+    "category": "Épée",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 20
+    }
+  },
+  "Le Sabre Ayassalama": {
+    "level": 143,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 30,
+      "damage": 10,
+      "initiative": 400,
+      "neutralResist": 10
+    }
+  },
+  "Épée du Dragoeuf": {
+    "level": 127,
+    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "category": "Épée",
+    "stats": {
+      "health": 100,
+      "strength": 45,
+      "agility": 45,
+      "wisdom": 25,
+      "power": 15,
+      "prospecting": 10,
+      "fireResistPer": 6,
+      "waterResistPer": 6,
+      "criticalDamage": 9,
+      "criticalResist": 7
+    }
+  },
+  "Épée de Nowel": {
+    "level": 1,
+    "category": "Épée",
+    "stats": {}
+  },
+  "Rapière du Rat Blanc": {
+    "level": 109,
+    "panoply": "Panoplie du Rat Blanc",
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 20,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "heal": 4,
+      "prospecting": 6,
+      "initiative": 150,
+      "apReduction": 5,
+      "mpReduction": 5
+    }
+  },
+  "Griffe Pourpre": {
+    "level": 145,
+    "category": "Épée",
+    "stats": {
+      "health": 200,
+      "wisdom": 35,
+      "power": 50,
+      "criticalChance": 4,
+      "damage": 8,
+      "fireResistPer": 6
+    }
+  },
+  "Épée Doncule": {
+    "level": 97,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "intelligence": -31,
+      "chance": -31,
+      "agility": -31,
+      "wisdom": 35,
+      "fireResistPer": 10
+    }
+  },
+  "Épée Zervatif": {
+    "level": 73,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 35,
+      "intelligence": 35,
+      "agility": 35,
+      "wisdom": 20,
+      "damage": 3
+    }
+  },
+  "L'Épée Nice": {
+    "level": 177,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "agility": 40,
+      "criticalChance": 6,
+      "MP": 1,
+      "initiative": 200,
+      "fireResistPer": 8,
+      "waterResistPer": 8,
+      "airResistPer": 8,
+      "neutralResist": 10,
+      "earthResist": 10
+    }
+  },
+  "Épée Choh": {
+    "level": 95,
+    "category": "Épée",
+    "stats": {
+      "health": 45,
+      "strength": 45,
+      "agility": 45,
+      "prospecting": 5,
+      "initiative": 400
+    }
+  },
+  "Fuschia": {
+    "level": 163,
+    "category": "Épée",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 1,
+      "heal": 8,
+      "fireResistPer": 8,
+      "airResistPer": 8
+    }
+  },
+  "Az'tech": {
+    "level": 186,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "damage": 5,
+      "prospecting": 15,
+      "waterResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  "Kukri Kura": {
+    "level": 179,
+    "category": "Épée",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "agility": 30,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "damage": 7,
+      "prospecting": 15,
+      "initiative": 500,
+      "neutralResistPer": 10,
+      "neutralResist": 10
+    }
+  },
+  "Patte d'Ecaflip": {
+    "level": 100,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 70,
+      "wisdom": 40
+    }
+  },
+  "Patte d'Ecaflip Parfaite": {
+    "level": 100,
+    "category": "Épée",
+    "stats": {
+      "health": 60,
+      "strength": 70,
+      "wisdom": 40
+    }
+  },
+  "Épée Maudite du Saigneur Guerrier": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 165,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 30,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Épée Loponèze": {
+    "level": 184,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "range": 1,
+      "damage": 10,
+      "initiative": 700,
+      "waterResistPer": 10,
+      "airResistPer": 10
+    }
+  },
+  "Épée Tulante": {
+    "level": 1,
+    "panoply": "Panoplie de l'intrépide",
+    "category": "Épée",
+    "stats": {
+      "health": 1,
+      "initiative": 1
+    }
+  },
+  "Épée Tillante": {
+    "level": 49,
+    "category": "Épée",
+    "stats": {
+      "health": 50,
+      "strength": 40,
+      "power": 15,
+      "neutralDamage": 5,
+      "earthDamage": 5
+    }
+  },
+  "Sabre de Ben le Ripate": {
+    "level": 152,
+    "panoply": "Panoplie de Ben le Ripate",
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 50,
+      "power": 25,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 5,
+      "dodge": -4,
+      "criticalResist": 10
+    }
+  },
+  "Sabre Heutelle": {
+    "level": 144,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "wisdom": 40,
+      "power": 20,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "earthResist": 10,
+      "airResist": 10,
+      "pushbackDamage": 10
+    }
+  },
+  "Épée Kadille": {
+    "level": 177,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "heal": 10,
+      "prospecting": 15,
+      "waterResist": 10,
+      "airResist": 10,
+      "dodge": 5,
+      "mpResist": 5
+    }
+  },
+  "Épée Kari": {
+    "level": 184,
+    "category": "Épée",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "power": 75,
+      "range": 1,
+      "prospecting": 25,
+      "lock": 10,
+      "dodge": -10
+    }
+  },
+  "Épée Toche": {
+    "level": 196,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "prospecting": 15,
+      "initiative": 300,
+      "earthResistPer": 10,
+      "waterResist": 10,
+      "mpReduction": 5
+    }
+  },
+  "Kwakwalame": {
+    "level": 56,
+    "panoply": "Panoplie du Kwakwa",
+    "category": "Épée",
+    "stats": {
+      "earthDamage": 5,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "airDamage": 5,
+      "dodge": 8,
+      "pushbackDamage": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Épée Gloursonne": {
+    "level": 199,
+    "panoply": "Panoplie Gloursonne",
+    "category": "Épée",
+    "stats": {
+      "health": 300,
+      "wisdom": 50,
+      "criticalChance": 8,
+      "prospecting": 25,
+      "initiative": 500,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10,
+      "lock": 15,
+      "criticalResist": 10
+    }
+  },
+  "Épée d'Otomaï": {
+    "level": 196,
+    "panoply": "Panoplie d'Otomaï",
+    "category": "Épée",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "range": 1,
+      "summon": 1,
+      "fireDamage": 18,
+      "prospecting": 15,
+      "initiative": 400,
+      "neutralResist": 20,
+      "waterResist": 20,
+      "lock": 10,
+      "apResist": 6
+    }
+  },
+  "Épée du Granduk": {
+    "level": 200,
+    "panoply": "Panoplie du Granduk",
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "range": -1,
+      "airDamage": 18,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResist": 15,
+      "lock": 10,
+      "mpResist": 10,
+      "criticalResist": 20
+    }
+  },
+  "Rapière aux Glyphes": {
+    "level": 197,
+    "category": "Épée",
+    "stats": {
+      "health": 300,
+      "chance": 80,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "waterDamage": 13,
+      "prospecting": 15,
+      "initiative": -301,
+      "earthResistPer": 8,
+      "airResistPer": 8,
+      "neutralResist": 20,
+      "dodge": 8,
+      "mpResist": 8
+    }
+  },
+  "Épée de la Reine des Voleurs": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 50,
+      "MP": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "fireResistPer": 10,
+      "dodge": 15,
+      "apResist": -15,
+      "mpResist": -25,
+      "criticalDamage": 20
+    }
+  },
+  "Épée du Bretteur Céleste": {
+    "level": 160,
+    "panoply": "Panoplie du Bretteur Céleste",
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "power": 15,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "neutralResist": 15,
+      "dodge": 10,
+      "mpResist": 5,
+      "criticalDamage": 10,
+      "criticalResist": 15
+    }
+  },
+  "Bouquet de Roses démoniaques": {
+    "level": 30,
+    "category": "Épée",
+    "stats": {
+      "health": 20
+    }
+  },
+  "Sabres d'Atcham": {
+    "level": 200,
+    "panoply": "Panoplie d'Atcham",
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 5,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "fireResistPer": 10,
+      "dodge": 7,
+      "apReduction": 7,
+      "criticalDamage": 15
+    }
+  },
+  "Épée de Ush": {
+    "level": 165,
+    "panoply": "Panoplie de Ush Galesh",
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 35,
+      "power": 15,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "neutralResistPer": 7,
+      "dodge": 5,
+      "pushbackDamage": 12
+    }
+  },
+  "Épouvante": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "lock": 10,
+      "mpResist": 12
+    }
+  },
+  "Maracassabre": {
+    "level": 130,
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 30,
+      "agility": 30,
+      "wisdom": 35,
+      "summon": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 7,
+      "lock": 10,
+      "criticalResist": 25
+    }
+  },
+  "Épée Langue de Feu": {
+    "level": 160,
+    "category": "Épée",
+    "stats": {
+      "health": 300,
+      "power": 60,
+      "earthResistPer": 6,
+      "airResistPer": 6
+    }
+  },
+  "Épée Langue de Feu Réanimée": {
+    "level": 160,
+    "category": "Épée",
+    "stats": {}
+  },
+  "Épée Brûlâme": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "intelligence": 70,
+      "chance": 70,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "lock": 15,
+      "mpResist": -10,
+      "criticalDamage": 12
+    }
+  },
+  "Épée Nécronyx": {
+    "level": 50,
+    "category": "Épée",
+    "stats": {}
+  },
+  "Crocobur": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 500,
+      "strength": 100,
+      "intelligence": 50,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "airDamage": 20,
+      "lock": 20,
+      "apResist": -30,
+      "mpResist": -30
+    }
+  },
+  "Katana de la Flamme": {
+    "level": 120,
+    "category": "Épée",
+    "stats": {
+      "intelligence": 80,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "fireDamage": 12,
+      "fireResistPer": 10,
+      "lock": 7,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -10
+    }
+  },
+  "Katana de la Tempête": {
+    "level": 120,
+    "category": "Épée",
+    "stats": {
+      "agility": 80,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "airDamage": 12,
+      "airResistPer": 10,
+      "lock": 7,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -10
+    }
+  },
+  "Katana de la Marée": {
+    "level": 120,
+    "category": "Épée",
+    "stats": {
+      "chance": 80,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "waterDamage": 12,
+      "waterResistPer": 10,
+      "lock": 7,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -10
+    }
+  },
+  "Katana de la Roche": {
+    "level": 120,
+    "category": "Épée",
+    "stats": {
+      "strength": 80,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "earthDamage": 12,
+      "earthResistPer": 10,
+      "lock": 7,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -10
+    }
+  },
+  "Katana de la Feuille": {
+    "level": 120,
+    "category": "Épée",
+    "stats": {
+      "wisdom": 30,
+      "power": 60,
+      "criticalChance": 6,
+      "earthDamage": 4,
+      "fireDamage": 4,
+      "waterDamage": 4,
+      "airDamage": 4,
+      "neutralResistPer": 10,
+      "lock": 7,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -10
+    }
+  },
+  "Musamune": {
+    "level": 160,
+    "category": "Épée",
+    "stats": {
+      "health": 80,
+      "strength": 100,
+      "wisdom": 50,
+      "criticalChance": 8,
+      "neutralDamage": 15,
+      "neutralResistPer": 12,
+      "neutralResist": 15,
+      "lock": 10,
+      "dodge": -20,
+      "weaponDamagePer": 10,
+      "rangedDamagePer": -15
+    }
+  },
+  "Katana de Spiritueur": {
+    "level": 157,
+    "panoply": "Panoplie des Spiritueurs",
+    "category": "Épée",
+    "stats": {
+      "health": 150,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "MP": 1,
+      "range": -2,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "fireDamage": 5,
+      "airDamage": 5,
+      "airResistPer": 5,
+      "dodge": -20,
+      "criticalDamage": 15,
+      "criticalResist": -10
+    }
+  },
+  "Lame de Danaba": {
+    "level": 180,
+    "category": "Épée",
+    "stats": {
+      "health": 250,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Épée Diablotine": {
+    "level": 200,
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "wisdom": 30,
+      "power": 30,
+      "criticalChance": 5,
+      "summon": 1,
+      "fireDamage": 15,
+      "heal": 15,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "lock": 10,
+      "mpReduction": 7,
+      "criticalDamage": 12
+    }
+  },
+  "Goultard Ankarton": {
+    "level": 50,
+    "panoply": "Panoplie Ankarton",
+    "category": "Épée",
+    "stats": {}
+  },
+  "Claymomore": {
+    "level": 200,
+    "panoply": "Malédiction de Cire Momore",
+    "category": "Épée",
+    "stats": {
+      "health": 500,
+      "wisdom": 40,
+      "power": 50,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "lock": 15,
+      "pushbackResist": 20
+    }
+  },
+  "Bounihimée": {
+    "level": 1,
+    "panoply": "Panoplie du Boune",
+    "category": "Épée",
+    "stats": {
+      "damage": 1
+    }
+  },
+  "Flamberge du Dark Vlad": {
+    "level": 200,
+    "panoply": "Panoplie du Dark Vlad",
+    "category": "Épée",
+    "stats": {
+      "health": 350,
+      "intelligence": 99,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "fireDamage": 12,
+      "neutralResistPer": 9,
+      "fireResistPer": 12,
+      "waterResistPer": -3,
+      "dodge": 12,
+      "pushbackDamage": 30,
+      "waterResist": -11
+    }
+  },
+  "Marteau de Boisaille": {
+    "level": 6,
+    "category": "Marteau",
+    "stats": {
+      "health": 10,
+      "criticalChance": 2
+    }
+  },
+  "Marteau de Raclage": {
+    "level": 15,
+    "category": "Marteau",
+    "stats": {
+      "health": 20,
+      "intelligence": 10,
+      "power": 7
+    }
+  },
+  "Marteau d'Ivoire": {
+    "level": 19,
+    "category": "Marteau",
+    "stats": {
+      "health": 30,
+      "fireDamage": 2,
+      "dodge": 3,
+      "criticalDamage": 2,
+      "criticalResist": 3
+    }
+  },
+  "Kaiser": {
+    "level": 104,
+    "panoply": "Panoplie du Dragon Cochon",
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "strength": 20,
+      "wisdom": 20,
+      "power": 20,
+      "criticalChance": 3,
+      "damage": 6,
+      "earthResistPer": 3,
+      "criticalDamage": 8
+    }
+  },
+  "Ragnarok": {
+    "level": 66,
+    "category": "Marteau",
+    "stats": {
+      "health": 20,
+      "intelligence": 45,
+      "wisdom": 45,
+      "summon": 1
+    }
+  },
+  "Cerberus": {
+    "level": 16,
+    "category": "Marteau",
+    "stats": {
+      "agility": 20,
+      "lock": 3
+    }
+  },
+  "Barabas": {
+    "level": 23,
+    "category": "Marteau",
+    "stats": {
+      "health": 30,
+      "agility": 30
+    }
+  },
+  "Sargasse": {
+    "level": 27,
+    "category": "Marteau",
+    "stats": {
+      "health": 60,
+      "strength": -40,
+      "chance": 40,
+      "waterDamage": 3
+    }
+  },
+  "Le Marteau du Chafer": {
+    "level": 21,
+    "category": "Marteau",
+    "stats": {
+      "criticalChance": 1
+    }
+  },
+  "Marteau Pickeur": {
+    "level": 18,
+    "category": "Marteau",
+    "stats": {
+      "strength": 25,
+      "criticalChance": 2
+    }
+  },
+  "Marteau de l'Aurore": {
+    "level": 26,
+    "category": "Marteau",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "intelligence": -20,
+      "chance": 20,
+      "agility": -20,
+      "criticalChance": 2
+    }
+  },
+  "Masse d'Ha": {
+    "level": 24,
+    "category": "Marteau",
+    "stats": {
+      "health": 20,
+      "strength": 20,
+      "chance": 10,
+      "power": 5
+    }
+  },
+  "Marteau R'unique": {
+    "level": 30,
+    "category": "Marteau",
+    "stats": {
+      "health": 45,
+      "intelligence": 30,
+      "heal": 6
+    }
+  },
+  "Masse Tmosfer": {
+    "level": 43,
+    "category": "Marteau",
+    "stats": {
+      "health": 40,
+      "strength": 30,
+      "chance": -20,
+      "agility": 20,
+      "wisdom": 10,
+      "neutralDamage": 5,
+      "lock": 3
+    }
+  },
+  "Marteau Outar": {
+    "level": 48,
+    "category": "Marteau",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "chance": 20,
+      "damage": 3,
+      "lock": 5
+    }
+  },
+  "Masse Aj Taye": {
+    "level": 51,
+    "category": "Marteau",
+    "stats": {
+      "health": 40,
+      "intelligence": 40,
+      "wisdom": 10,
+      "criticalChance": 3,
+      "initiative": 200
+    }
+  },
+  "Marteau Pospodrol": {
+    "level": 70,
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": -40,
+      "summon": 1,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Marteau à Torts": {
+    "level": 81,
+    "category": "Marteau",
+    "stats": {
+      "health": -50,
+      "intelligence": 55,
+      "chance": 45,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "initiative": 350
+    }
+  },
+  "Marteau des Falistos": {
+    "level": 79,
+    "category": "Marteau",
+    "stats": {
+      "health": 50,
+      "strength": 80,
+      "wisdom": 25,
+      "range": -1
+    }
+  },
+  "Le Scrounnchhh": {
+    "level": 35,
+    "category": "Marteau",
+    "stats": {
+      "health": 40,
+      "intelligence": -40,
+      "agility": 40,
+      "wisdom": 10,
+      "criticalChance": 3
+    }
+  },
+  "Marteau Re'Thu": {
+    "level": 55,
+    "category": "Marteau",
+    "stats": {
+      "health": 30,
+      "strength": 30,
+      "chance": 30,
+      "agility": 30,
+      "power": 15,
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "waterDamage": 2,
+      "airDamage": 2,
+      "initiative": -300
+    }
+  },
+  "Le Matronome": {
+    "level": 54,
+    "category": "Marteau",
+    "stats": {
+      "intelligence": 30,
+      "wisdom": 15,
+      "range": 1,
+      "apReduction": 5
+    }
+  },
+  "Maillet Aclou": {
+    "level": 15,
+    "category": "Marteau",
+    "stats": {
+      "neutralDamage": 2,
+      "earthDamage": 2,
+      "fireDamage": 2,
+      "waterDamage": 2,
+      "airDamage": 2
+    }
+  },
+  "Marteau Tau": {
+    "level": 23,
+    "category": "Marteau",
+    "stats": {
+      "intelligence": -40,
+      "agility": 40,
+      "lock": 5,
+      "pushbackDamage": 7
+    }
+  },
+  "Marteau Toh'Lo": {
+    "level": 35,
+    "category": "Marteau",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "agility": -30,
+      "summon": 1
+    }
+  },
+  "Le Twote en Carton": {
+    "level": 46,
+    "category": "Marteau",
+    "stats": {
+      "health": 55,
+      "strength": -40,
+      "intelligence": 40,
+      "agility": 30,
+      "neutralDamage": 3,
+      "fireDamage": 3,
+      "airDamage": 3
+    }
+  },
+  "Marteau du Bouftou": {
+    "level": 20,
+    "panoply": "Panoplie du Bouftou",
+    "category": "Marteau",
+    "stats": {
+      "health": 20,
+      "summon": 1
+    }
+  },
+  "Marteau Tape Doigts": {
+    "level": 49,
+    "category": "Marteau",
+    "stats": {
+      "strength": 25,
+      "intelligence": 25,
+      "power": 15,
+      "neutralDamage": 3,
+      "initiative": 300
+    }
+  },
+  "Marteau Polpoulette": {
+    "level": 57,
+    "category": "Marteau",
+    "stats": {
+      "intelligence": 30,
+      "power": 15,
+      "summon": 1,
+      "heal": 5,
+      "initiative": 200,
+      "lock": 5
+    }
+  },
+  "Marteau Fantal": {
+    "level": 81,
+    "category": "Marteau",
+    "stats": {
+      "health": 70,
+      "strength": 55,
+      "wisdom": 25,
+      "summon": 2,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "prospecting": 5
+    }
+  },
+  "Marteau Réhadaure": {
+    "level": 100,
+    "category": "Marteau",
+    "stats": {
+      "health": 100,
+      "chance": 60,
+      "wisdom": 30,
+      "range": 1,
+      "summon": 1,
+      "damage": 5,
+      "dodge": 6
+    }
+  },
+  "Marteau de la Terps": {
+    "level": 90,
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "strength": 30,
+      "intelligence": 50,
+      "wisdom": 10,
+      "range": 1,
+      "summon": 1,
+      "neutralDamage": 7,
+      "fireDamage": 5
+    }
+  },
+  "Marteau Pinambour": {
+    "level": 50,
+    "category": "Marteau",
+    "stats": {
+      "health": 100,
+      "summon": 2
+    }
+  },
+  "Marteau R'Ticolis": {
+    "level": 120,
+    "category": "Marteau",
+    "stats": {
+      "wisdom": 35,
+      "range": 1,
+      "summon": 3,
+      "damage": 9,
+      "prospecting": 5,
+      "fireResistPer": 5
+    }
+  },
+  "Marteau Kahr": {
+    "level": 117,
+    "category": "Marteau",
+    "stats": {
+      "health": 60,
+      "chance": 50,
+      "wisdom": 35,
+      "prospecting": 10,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "fireResist": 8,
+      "waterResist": 8,
+      "airResist": 8
+    }
+  },
+  "Marteau Ridhe": {
+    "level": 114,
+    "category": "Marteau",
+    "stats": {
+      "strength": 50,
+      "intelligence": 50,
+      "power": 15,
+      "prospecting": 10,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "neutralResist": 8,
+      "earthResist": 8
+    }
+  },
+  "Marteau Nitruhant": {
+    "level": 82,
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "intelligence": 40,
+      "chance": 50,
+      "criticalChance": 3,
+      "range": 1,
+      "damage": 3
+    }
+  },
+  "Marteau Réfacteur": {
+    "level": 55,
+    "category": "Marteau",
+    "stats": {
+      "health": 30,
+      "agility": 30,
+      "power": 10,
+      "summon": 1,
+      "dodge": 5,
+      "mpReduction": 5
+    }
+  },
+  "Marteau de l'initié": {
+    "level": 12,
+    "category": "Marteau",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Marteau Hubohu": {
+    "level": 126,
+    "category": "Marteau",
+    "stats": {
+      "health": 200,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "prospecting": 15
+    }
+  },
+  "Marteau M'Pouce": {
+    "level": 107,
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 5
+    }
+  },
+  "Marteau Nairedeubrest": {
+    "level": 113,
+    "category": "Marteau",
+    "stats": {
+      "health": 200,
+      "wisdom": 40
+    }
+  },
+  "Marteau Ronto": {
+    "level": 104,
+    "category": "Marteau",
+    "stats": {
+      "health": 200,
+      "intelligence": 40,
+      "wisdom": 40,
+      "summon": 2
+    }
+  },
+  "Marteau Ksain": {
+    "level": 124,
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "wisdom": 35,
+      "neutralResistPer": 5,
+      "fireResistPer": 5,
+      "neutralResist": 7,
+      "fireResist": 7
+    }
+  },
+  "Marteau Lahre": {
+    "level": 141,
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "damage": 6
+    }
+  },
+  "Marteau Pinière": {
+    "level": 135,
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 25,
+      "range": 1,
+      "neutralResistPer": 7,
+      "neutralResist": 7
+    }
+  },
+  "Marteau Bleuronne": {
+    "level": 148,
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "intelligence": 50,
+      "wisdom": 40
+    }
+  },
+  "Marteau du Boufcoul": {
+    "level": 88,
+    "panoply": "Panoplie du Boufcoul",
+    "category": "Marteau",
+    "stats": {
+      "health": 70,
+      "strength": 30,
+      "intelligence": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "summon": 1,
+      "earthDamage": 3,
+      "fireDamage": 3,
+      "airDamage": 3,
+      "initiative": -50,
+      "neutralResistPer": 3
+    }
+  },
+  "Marteau Mawoque": {
+    "level": 140,
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 40,
+      "power": 25,
+      "damage": 10,
+      "neutralResistPer": 7,
+      "earthResistPer": 7
+    }
+  },
+  "Marteau Xiko": {
+    "level": 129,
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "criticalChance": 5,
+      "MP": 1,
+      "summon": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "initiative": 200
+    }
+  },
+  "Marteau du Craqueleur Légendaire": {
+    "level": 81,
+    "panoply": "Panoplie du Craqueleur Légendaire",
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "intelligence": 45,
+      "agility": 45,
+      "power": 15,
+      "damage": 7,
+      "lock": 5
+    }
+  },
+  "Marteau du Dragoeuf": {
+    "level": 123,
+    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "earthDamage": 4,
+      "fireDamage": 4,
+      "heal": 8,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "lock": 6
+    }
+  },
+  "Marteau du Mominotor": {
+    "level": 112,
+    "panoply": "Panoplie du Mominotor",
+    "category": "Marteau",
+    "stats": {
+      "health": 150,
+      "wisdom": 40,
+      "prospecting": 25,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 10,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  "Marteau Mato": {
+    "level": 83,
+    "category": "Marteau",
+    "stats": {
+      "health": 120,
+      "intelligence": 70,
+      "wisdom": 30,
+      "summon": 1,
+      "heal": 15
+    }
+  },
+  "Marteau Minokers": {
+    "level": 178,
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "intelligence": 50,
+      "wisdom": 40,
+      "summon": 2,
+      "damage": 7,
+      "heal": 7
+    }
+  },
+  "Masse du Corailleur Magistral": {
+    "level": 125,
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "damage": 5,
+      "prospecting": 15
+    }
+  },
+  "Marteau de la Gamine Zoth": {
+    "level": 132,
+    "panoply": "Panoplie du Zoth Zotheur",
+    "category": "Marteau",
+    "stats": {
+      "health": 120,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "neutralResistPer": 10
+    }
+  },
+  "Masse du Corailleur": {
+    "level": 85,
+    "category": "Marteau",
+    "stats": {
+      "health": 80,
+      "chance": 55,
+      "agility": 55,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "damage": 3
+    }
+  },
+  "Kidorteau": {
+    "level": 77,
+    "panoply": "Panoplie des Herboricoles",
+    "category": "Marteau",
+    "stats": {
+      "health": 40,
+      "wisdom": 25,
+      "power": 15,
+      "summon": 3,
+      "damage": 3
+    }
+  },
+  "Ougarteau": {
+    "level": 180,
+    "panoply": "Panoplie du Ougah",
+    "category": "Marteau",
+    "stats": {
+      "health": 400,
+      "wisdom": 40,
+      "power": 40,
+      "damage": 10,
+      "prospecting": 10
+    }
+  },
+  "Marteau Martel": {
+    "level": 1,
+    "category": "Marteau",
+    "stats": {
+      "strength": 5,
+      "earthDamage": 1
+    }
+  },
+  "Marteau de Forgeur de Grattoir": {
+    "level": 2,
+    "category": "Marteau",
+    "stats": {
+      "chance": 6,
+      "waterDamage": 1
+    }
+  },
+  "Marteau R'Gnole": {
+    "level": 166,
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 35,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "heal": 5,
+      "prospecting": 15,
+      "initiative": 200,
+      "earthResist": 10,
+      "waterResist": 10,
+      "criticalResist": 10
+    }
+  },
+  "Marteau de la Vigie Pirate": {
+    "level": 156,
+    "panoply": "Panoplie du Grolandais",
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "strength": 40,
+      "wisdom": 30,
+      "power": 20,
+      "neutralDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "earthResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Marteau Racle": {
+    "level": 173,
+    "category": "Marteau",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResistPer": 10,
+      "airResist": 10,
+      "mpReduction": 5
+    }
+  },
+  "Marteau Reine": {
+    "level": 187,
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "agility": 30,
+      "wisdom": 50,
+      "power": 30,
+      "criticalChance": 4,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 12,
+      "prospecting": 25,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 5
+    }
+  },
+  "Marteau du Glouragan": {
+    "level": 195,
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "intelligence": 45,
+      "chance": 45,
+      "agility": 45,
+      "wisdom": 45,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "heal": 6,
+      "prospecting": 15,
+      "apResist": 5,
+      "criticalResist": 15
+    }
+  },
+  "Marteau de Percimol ramolli": {
+    "level": 49,
+    "category": "Marteau",
+    "stats": {}
+  },
+  "Mourtheau": {
+    "level": 122,
+    "panoply": "Panoplie Moutheuze",
+    "category": "Marteau",
+    "stats": {
+      "health": 200,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "prospecting": 10,
+      "initiative": 200,
+      "earthResist": 15,
+      "fireResist": 15,
+      "lock": 4,
+      "criticalResist": 10
+    }
+  },
+  "Marteau du Chafer Draugr": {
+    "level": 43,
+    "panoply": "Panoplie des Anciens Chafers",
+    "category": "Marteau",
+    "stats": {
+      "health": 35,
+      "strength": 30,
+      "wisdom": 15,
+      "neutralDamage": 5,
+      "earthDamage": 5
+    }
+  },
+  "Marteau d'Henual": {
+    "level": 193,
+    "panoply": "Panoplie d'Henual",
+    "category": "Marteau",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 50,
+      "range": 2,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "heal": 6,
+      "prospecting": 20,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 12,
+      "mpReduction": -7,
+      "criticalResist": -11
+    }
+  },
+  "Masse Ossiale": {
+    "level": 199,
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "intelligence": 40,
+      "chance": 60,
+      "wisdom": 40,
+      "range": 1,
+      "fireDamage": 10,
+      "waterDamage": 15,
+      "heal": 5,
+      "prospecting": 20,
+      "airResistPer": 10,
+      "fireResist": 15,
+      "dodge": -11,
+      "apReduction": 8,
+      "pushbackDamage": 20
+    }
+  },
+  "Marteau du Juge Lou": {
+    "level": 151,
+    "category": "Marteau",
+    "stats": {
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 7,
+      "range": 1,
+      "waterDamage": 12,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "fireResist": 12,
+      "dodge": 10,
+      "apReduction": 6,
+      "criticalDamage": 10
+    }
+  },
+  "Marteau des Anciens Steamers": {
+    "level": 197,
+    "category": "Marteau",
+    "stats": {
+      "health": 350,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": -1,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 500,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "fireResist": 15,
+      "dodge": 7,
+      "pushbackResist": -21
+    }
+  },
+  "Marteau Phossile": {
+    "level": 200,
+    "category": "Marteau",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "airResist": 15,
+      "apResist": 10
+    }
+  },
+  "Marteau des égarés": {
+    "level": 200,
+    "category": "Marteau",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 50,
+      "power": 15,
+      "criticalChance": 6,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "apResist": 7
+    }
+  },
+  "Marteau de Hargnok": {
+    "level": 8,
+    "category": "Marteau",
+    "stats": {
+      "health": 10,
+      "power": 10
+    }
+  },
+  "Marteau de Moon": {
+    "level": 103,
+    "panoply": "Panoplie de Moon",
+    "category": "Marteau",
+    "stats": {
+      "intelligence": 40,
+      "wisdom": 30,
+      "criticalChance": 10,
+      "waterResistPer": 7,
+      "waterResist": 10,
+      "dodge": 6,
+      "mpResist": 4
+    }
+  },
+  "Marteau d'Ereziah": {
+    "level": 100,
+    "category": "Marteau",
+    "stats": {}
+  },
+  "Marteau R'ture": {
+    "level": 200,
+    "panoply": "Panoplie des Tréfonds",
+    "category": "Marteau",
+    "stats": {
+      "health": 400,
+      "strength": 80,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 20,
+      "earthDamage": 20,
+      "airResistPer": 10,
+      "dodge": 12,
+      "mpReduction": 10,
+      "pushbackResist": 25
+    }
+  },
+  "Masse Boulépique": {
+    "level": 80,
+    "category": "Marteau",
+    "stats": {
+      "intelligence": 30,
+      "agility": 30,
+      "range": 1,
+      "summon": 1,
+      "fireDamage": 3,
+      "airDamage": 3,
+      "heal": 5,
+      "prospecting": 5,
+      "lock": 5
+    }
+  },
+  "Marteau de Katrepat": {
+    "level": 200,
+    "category": "Marteau",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "waterResistPer": 10,
+      "lock": 12
+    }
+  },
+  "Massier": {
+    "level": 200,
+    "panoply": "Panoplie de la Fournaise",
+    "category": "Marteau",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "fireDamage": 20,
+      "heal": 12,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "apResist": 15
+    }
+  },
+  "Fléau d'armes": {
+    "level": 1,
+    "category": "Marteau",
+    "stats": {}
+  },
+  "Marteau de boisaille fortifié": {
+    "level": 112,
+    "category": "Marteau",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Maillet Pitaf": {
+    "level": 200,
+    "category": "Marteau",
+    "stats": {
+      "health": 450,
+      "intelligence": 75,
+      "wisdom": 40,
+      "summon": 1,
+      "fireDamage": 18,
+      "initiative": 300,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "lock": 12,
+      "mpResist": 12,
+      "pushbackResist": 25
+    }
+  },
+  "Marteau Possédé": {
+    "level": 200,
+    "category": "Marteau",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "wisdom": 60,
+      "power": 50,
+      "criticalChance": 3,
+      "summon": 1,
+      "fireDamage": 12,
+      "heal": 20,
+      "prospecting": 10,
+      "initiative": -300,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "dodge": 7,
+      "lock": -6,
+      "criticalResist": 15
+    }
+  },
+  "Masse Clochecuivre": {
+    "level": 196,
+    "panoply": "Panoplie Clochecuivre",
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 40,
+      "agility": 50,
+      "wisdom": 25,
+      "neutralDamage": 14,
+      "earthDamage": 14,
+      "fireDamage": 10,
+      "airDamage": 12,
+      "prospecting": 12,
+      "initiative": -300,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": 7,
+      "dodge": -7,
+      "pushbackDamage": 14
+    }
+  },
+  "Marteau Aigri": {
+    "level": 190,
+    "panoply": "Panoplie des Marteaux-Aigris",
+    "category": "Marteau",
+    "stats": {
+      "health": 300,
+      "chance": 60,
+      "wisdom": 40,
+      "power": 40,
+      "criticalChance": 6,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "lock": 15
+    }
+  },
+  "Rouleau de Mama Ayuto": {
+    "level": 200,
+    "panoply": "Panoplie de Mama Ayuto",
+    "category": "Marteau",
+    "stats": {
+      "health": 450,
+      "strength": 90,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "heal": 10,
+      "waterResistPer": 7,
+      "airResistPer": 5,
+      "lock": 10,
+      "pushbackDamage": 20
+    }
+  },
+  "Masse Étacée": {
+    "level": 200,
+    "panoply": "Panoplie de la Baleine",
+    "category": "Marteau",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "chance": 70,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 12,
+      "airDamage": 15,
+      "prospecting": 20,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 8,
+      "apResist": 15,
+      "mpResist": -7
+    }
+  },
+  "Pelle de Boisaille": {
+    "level": 6,
+    "category": "Pelle",
+    "stats": {
+      "chance": 10
+    }
+  },
+  "Pelle de Crapouille": {
+    "level": 17,
+    "category": "Pelle",
+    "stats": {
+      "health": 30,
+      "chance": 12
+    }
+  },
+  "Pelle de Rapage": {
+    "level": 19,
+    "category": "Pelle",
+    "stats": {
+      "health": 15,
+      "chance": 15,
+      "agility": 15
+    }
+  },
+  "Ares": {
+    "level": 72,
+    "category": "Pelle",
+    "stats": {
+      "health": 30,
+      "chance": 20,
+      "AP": 1,
+      "summon": 1,
+      "waterDamage": 5
+    }
+  },
+  "Barbe Grise": {
+    "level": 20,
+    "category": "Pelle",
+    "stats": {
+      "health": 25,
+      "lock": 3
+    }
+  },
+  "Pelle du Craqueleur": {
+    "level": 29,
+    "category": "Pelle",
+    "stats": {
+      "intelligence": -9,
+      "agility": 11,
+      "wisdom": 11
+    }
+  },
+  "Rhizome Doré": {
+    "level": 40,
+    "category": "Pelle",
+    "stats": {
+      "health": 40,
+      "intelligence": -1,
+      "chance": 40
+    }
+  },
+  "Pelle Teuze": {
+    "level": 31,
+    "category": "Pelle",
+    "stats": {
+      "health": 25,
+      "strength": 30,
+      "criticalChance": 3
+    }
+  },
+  "Pelle de Bois Dormant": {
+    "level": 43,
+    "category": "Pelle",
+    "stats": {
+      "health": 60,
+      "agility": -60,
+      "wisdom": 15,
+      "damage": 3,
+      "heal": 5,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Pelle Melle": {
+    "level": 50,
+    "category": "Pelle",
+    "stats": {
+      "health": 60,
+      "strength": 40,
+      "intelligence": -40,
+      "chance": 20,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "waterDamage": 3,
+      "heal": 10
+    }
+  },
+  "Pelle Woukuis": {
+    "level": 64,
+    "category": "Pelle",
+    "stats": {
+      "health": -50,
+      "strength": 50,
+      "intelligence": 50,
+      "criticalChance": 4,
+      "neutralDamage": 3,
+      "earthDamage": 3,
+      "waterDamage": 3
+    }
+  },
+  "Cruelle Pelle-Truelle": {
+    "level": 53,
+    "category": "Pelle",
+    "stats": {
+      "strength": -60,
+      "intelligence": -60,
+      "agility": 60,
+      "MP": 1,
+      "airDamage": 6
+    }
+  },
+  "Pelle de Koutoulou": {
+    "level": 34,
+    "category": "Pelle",
+    "stats": {
+      "health": 40,
+      "strength": -30,
+      "intelligence": 30,
+      "wisdom": 15,
+      "criticalChance": 3
+    }
+  },
+  "Pelle des Champs": {
+    "level": 15,
+    "category": "Pelle",
+    "stats": {
+      "health": 25,
+      "intelligence": 15
+    }
+  },
+  "Pelle à Thart'": {
+    "level": 24,
+    "category": "Pelle",
+    "stats": {
+      "health": 40,
+      "intelligence": -30,
+      "chance": 30,
+      "lock": 5
+    }
+  },
+  "Pelle Zébuth": {
+    "level": 55,
+    "category": "Pelle",
+    "stats": {
+      "health": 60,
+      "chance": 50,
+      "agility": -40,
+      "criticalChance": 5,
+      "waterDamage": 3,
+      "prospecting": 5,
+      "criticalDamage": 7
+    }
+  },
+  "Pelle Mechba": {
+    "level": 60,
+    "category": "Pelle",
+    "stats": {
+      "health": -30,
+      "intelligence": 30,
+      "chance": 30,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "lock": 5,
+      "dodge": 5
+    }
+  },
+  "Pelle Houze": {
+    "level": 21,
+    "category": "Pelle",
+    "stats": {
+      "health": -50,
+      "strength": 30,
+      "intelligence": -30,
+      "range": 1,
+      "heal": -15
+    }
+  },
+  "Pelle Sécutrice": {
+    "level": 60,
+    "category": "Pelle",
+    "stats": {
+      "health": 60,
+      "chance": 60,
+      "summon": 1,
+      "neutralDamage": 3,
+      "waterDamage": 3,
+      "lock": 5
+    }
+  },
+  "La Pelle du Large": {
+    "level": 80,
+    "category": "Pelle",
+    "stats": {
+      "health": 100,
+      "intelligence": 60,
+      "chance": 31,
+      "agility": -60,
+      "fireDamage": 10,
+      "waterDamage": 5,
+      "initiative": 400,
+      "dodge": 5
+    }
+  },
+  "Pelle Ikan": {
+    "level": 50,
+    "category": "Pelle",
+    "stats": {
+      "health": -50,
+      "chance": 40,
+      "agility": 30,
+      "wisdom": 20,
+      "apReduction": 3,
+      "mpReduction": 3
+    }
+  },
+  "Pelle Doudesque": {
+    "level": 52,
+    "category": "Pelle",
+    "stats": {
+      "health": 40,
+      "chance": 40,
+      "damage": 3,
+      "neutralDamage": 3,
+      "waterDamage": 3,
+      "lock": 3,
+      "criticalDamage": 5
+    }
+  },
+  "Pelle Hébuse": {
+    "level": 94,
+    "category": "Pelle",
+    "stats": {
+      "health": 70,
+      "chance": 50,
+      "wisdom": 30,
+      "range": 1,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10
+    }
+  },
+  "Pelle Musicale": {
+    "level": 52,
+    "category": "Pelle",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "fireResistPer": 3,
+      "waterResistPer": 3
+    }
+  },
+  "Pelle Rinage": {
+    "level": 88,
+    "category": "Pelle",
+    "stats": {
+      "health": 60,
+      "intelligence": 45,
+      "chance": 45,
+      "wisdom": 20,
+      "power": 10,
+      "summon": 1,
+      "neutralDamage": 3,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "prospecting": 10
+    }
+  },
+  "Pelle Hikule": {
+    "level": 121,
+    "category": "Pelle",
+    "stats": {
+      "health": 80,
+      "chance": 50,
+      "wisdom": 30,
+      "power": 15,
+      "damage": 10,
+      "prospecting": 15
+    }
+  },
+  "Pelle du Mineur Sombre": {
+    "level": 118,
+    "category": "Pelle",
+    "stats": {
+      "health": 80,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 8,
+      "prospecting": 15,
+      "initiative": 400
+    }
+  },
+  "Pelle Mairhe": {
+    "level": 88,
+    "category": "Pelle",
+    "stats": {
+      "health": 100,
+      "chance": 50,
+      "agility": 50,
+      "range": 1,
+      "summon": 1,
+      "prospecting": 10
+    }
+  },
+  "Pelle Vaidaire": {
+    "level": 84,
+    "category": "Pelle",
+    "stats": {
+      "health": 70,
+      "chance": 40,
+      "range": 2,
+      "damage": 6
+    }
+  },
+  "Pelle Gicque": {
+    "level": 71,
+    "category": "Pelle",
+    "stats": {
+      "health": 70,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 20,
+      "heal": 10,
+      "dodge": 7
+    }
+  },
+  "La Pelle Hélabète": {
+    "level": 86,
+    "category": "Pelle",
+    "stats": {
+      "health": 30,
+      "chance": 70,
+      "neutralDamage": 5,
+      "waterDamage": 5,
+      "prospecting": 10,
+      "initiative": 200,
+      "neutralResistPer": 4,
+      "earthResistPer": 4
+    }
+  },
+  "Pelle de l'initié": {
+    "level": 12,
+    "category": "Pelle",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Pelle Rhon": {
+    "level": 142,
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "wisdom": 45,
+      "power": 20,
+      "prospecting": 20
+    }
+  },
+  "Pelle en Mousse": {
+    "level": 20,
+    "panoply": "Panoplie en Mousse",
+    "category": "Pelle",
+    "stats": {
+      "health": 10,
+      "chance": 20,
+      "criticalChance": 2
+    }
+  },
+  "Pelle à Gâteau": {
+    "level": 131,
+    "category": "Pelle",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "chance": 40,
+      "power": 10,
+      "damage": 5,
+      "prospecting": 15,
+      "neutralResistPer": -5,
+      "fireResistPer": -5,
+      "earthResist": 7,
+      "waterResist": 7,
+      "airResist": 7
+    }
+  },
+  "Pelle Moh": {
+    "level": 115,
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "chance": 40,
+      "wisdom": 30,
+      "prospecting": 15,
+      "initiative": 150
+    }
+  },
+  "Pelle Dragoeuf": {
+    "level": 127,
+    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "category": "Pelle",
+    "stats": {
+      "health": 150,
+      "chance": 40,
+      "wisdom": 20,
+      "waterDamage": 4,
+      "prospecting": 15,
+      "initiative": 150,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "earthResist": 5,
+      "airResist": 5,
+      "mpResist": 5,
+      "criticalDamage": 15,
+      "pushbackResist": 10
+    }
+  },
+  "Pelle Minstère": {
+    "level": 70,
+    "category": "Pelle",
+    "stats": {
+      "health": 80,
+      "chance": 50,
+      "wisdom": 15,
+      "power": 15,
+      "damage": 7
+    }
+  },
+  "Pelle Ripe": {
+    "level": 66,
+    "category": "Pelle",
+    "stats": {
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "criticalChance": 3,
+      "range": 1
+    }
+  },
+  "La Bêche à Mel": {
+    "level": 172,
+    "category": "Pelle",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "waterResistPer": 8
+    }
+  },
+  "Pelle Shattkitou": {
+    "level": 136,
+    "category": "Pelle",
+    "stats": {
+      "health": 100,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "power": 10,
+      "criticalChance": 5,
+      "damage": 5,
+      "prospecting": 20,
+      "airResistPer": 7,
+      "airResist": 7
+    }
+  },
+  "Pelle Aigante": {
+    "level": 155,
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 40,
+      "summon": 2,
+      "heal": 7,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 7,
+      "fireResistPer": 7
+    }
+  },
+  "Pelle Emélaka": {
+    "level": 191,
+    "category": "Pelle",
+    "stats": {
+      "health": 300,
+      "chance": 60,
+      "wisdom": 40,
+      "damage": 10,
+      "prospecting": 30,
+      "fireResistPer": 10
+    }
+  },
+  "Pelle Hectrochoc": {
+    "level": 179,
+    "category": "Pelle",
+    "stats": {
+      "AP": -1
+    }
+  },
+  "Pelle Tonedjone": {
+    "level": 147,
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "strength": 30,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "waterDamage": 7,
+      "prospecting": 25,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "criticalResist": 10
+    }
+  },
+  "Pelle Dorado": {
+    "level": 178,
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "neutralDamage": 7,
+      "waterDamage": 14,
+      "prospecting": 30,
+      "waterResistPer": 7,
+      "fireResist": 7,
+      "airResist": 7,
+      "mpReduction": 5,
+      "criticalResist": 7
+    }
+  },
+  "Pelle Fik": {
+    "level": 197,
+    "category": "Pelle",
+    "stats": {
+      "health": 300,
+      "chance": 60,
+      "wisdom": 50,
+      "summon": 2,
+      "neutralDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 30,
+      "neutralResistPer": 6,
+      "waterResist": 15,
+      "airResist": 15,
+      "apReduction": 5,
+      "apResist": -7
+    }
+  },
+  "Pelle Vétik": {
+    "level": 181,
+    "category": "Pelle",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 25,
+      "initiative": 400,
+      "apResist": 5
+    }
+  },
+  "Pelle de Stroud émoussée": {
+    "level": 50,
+    "category": "Pelle",
+    "stats": {
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30
+    }
+  },
+  "Pelle du Professeur Xa": {
+    "level": 191,
+    "panoply": "Panoplie du Professeur Xa",
+    "category": "Pelle",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "criticalChance": 5,
+      "AP": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "prospecting": 20,
+      "airResistPer": 10,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  "Râtrouille": {
+    "level": 102,
+    "panoply": "Panoplitrouille",
+    "category": "Pelle",
+    "stats": {
+      "health": 100,
+      "intelligence": 35,
+      "chance": 35,
+      "range": 1,
+      "fireDamage": 5,
+      "waterDamage": 5,
+      "heal": 6,
+      "prospecting": 10,
+      "airResistPer": 5,
+      "earthResist": 8,
+      "dodge": 4,
+      "mpReduction": 4
+    }
+  },
+  "Bêche Asse": {
+    "level": 197,
+    "category": "Pelle",
+    "stats": {
+      "health": 300,
+      "strength": 75,
+      "wisdom": 40,
+      "criticalChance": -6,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "earthResistPer": 10,
+      "airResistPer": 10,
+      "mpReduction": 5,
+      "criticalDamage": 10
+    }
+  },
+  "Pelle Vice": {
+    "level": 199,
+    "category": "Pelle",
+    "stats": {
+      "health": 300,
+      "intelligence": 75,
+      "chance": 50,
+      "wisdom": 25,
+      "criticalChance": -4,
+      "fireDamage": 15,
+      "waterDamage": 20,
+      "heal": 10,
+      "prospecting": 25,
+      "initiative": 300,
+      "airResist": 15,
+      "apReduction": 10
+    }
+  },
+  "Clef à Molette": {
+    "level": 106,
+    "category": "Pelle",
+    "stats": {
+      "health": 120,
+      "agility": 40,
+      "wisdom": 20,
+      "criticalChance": 4,
+      "range": 1,
+      "airDamage": 6,
+      "earthResistPer": 6,
+      "waterResistPer": 6,
+      "dodge": -9,
+      "mpReduction": 6,
+      "pushbackDamage": 10
+    }
+  },
+  "Pelle de Nidas": {
+    "level": 200,
+    "category": "Pelle",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "power": 20,
+      "criticalChance": 6,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "fireResistPer": 10,
+      "mpReduction": 6,
+      "criticalResist": 12
+    }
+  },
+  "Pelle de la Cour Sombre": {
+    "level": 200,
+    "category": "Pelle",
+    "stats": {
+      "health": 300,
+      "agility": 80,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 1,
+      "airDamage": 12,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "waterResistPer": 10,
+      "dodge": -11,
+      "apResist": 10,
+      "pushbackResist": 30
+    }
+  },
+  "Harpelle": {
+    "level": 200,
+    "panoply": "Panoplie des Profondeurs",
+    "category": "Pelle",
+    "stats": {
+      "health": 400,
+      "intelligence": 80,
+      "wisdom": 50,
+      "criticalChance": 2,
+      "fireDamage": 7,
+      "heal": 15,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "lock": 15,
+      "criticalDamage": 20
+    }
+  },
+  "Pelle de Katrepat": {
+    "level": 200,
+    "category": "Pelle",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "heal": 12,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "apResist": 15
+    }
+  },
+  "Spatule Tranche-Gourmands": {
+    "level": 200,
+    "category": "Pelle",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 10,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 12,
+      "dodge": -15,
+      "mpReduction": 10
+    }
+  },
+  "Bêche de Corruption": {
+    "level": 200,
+    "category": "Pelle",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "initiative": -200,
+      "fireResistPer": 10,
+      "dodge": 7,
+      "apReduction": 10
+    }
+  },
+  "Tueuse de Chênes": {
+    "level": 33,
+    "category": "Hache",
+    "stats": {
+      "health": -6,
+      "strength": 35,
+      "agility": 35
+    }
+  },
+  "Élagueuse de Charme": {
+    "level": 47,
+    "category": "Hache",
+    "stats": {
+      "health": 45,
+      "strength": -40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 20
+    }
+  },
+  "Trancheuse d'If": {
+    "level": 17,
+    "category": "Hache",
+    "stats": {
+      "intelligence": 30
+    }
+  },
+  "Boulgourde des Clairières": {
+    "level": 62,
+    "category": "Hache",
+    "stats": {
+      "health": 50,
+      "wisdom": 20,
+      "power": 15,
+      "range": 1,
+      "earthResistPer": 5
+    }
+  },
+  "Mangeuse de Châtaignier": {
+    "level": 8,
+    "category": "Hache",
+    "stats": {
+      "agility": 10,
+      "airDamage": 1
+    }
+  },
+  "Fendeuse de Merisier": {
+    "level": 32,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "power": 20,
+      "criticalChance": 3,
+      "lock": 3
+    }
+  },
+  "Trancheuse de Noyer": {
+    "level": 21,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "strength": 10,
+      "intelligence": 10,
+      "lock": 2
+    }
+  },
+  "Mangeuse d'Érable": {
+    "level": 25,
+    "category": "Hache",
+    "stats": {
+      "agility": 20,
+      "criticalChance": -5,
+      "range": 1
+    }
+  },
+  "Mangeuse de Frêne": {
+    "level": 8,
+    "category": "Hache",
+    "stats": {
+      "chance": 10,
+      "criticalChance": 2
+    }
+  },
+  "Agride": {
+    "level": 27,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "strength": 20,
+      "wisdom": 15
+    }
+  },
+  "Fendeuse d'Abraknyde": {
+    "level": 74,
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "strength": 60,
+      "intelligence": -60,
+      "wisdom": 25,
+      "power": 15,
+      "criticalChance": 4,
+      "neutralDamage": 5,
+      "earthDamage": 5
+    }
+  },
+  "Fendeuse d'Abraknyde Ancestral": {
+    "level": 93,
+    "category": "Hache",
+    "stats": {
+      "health": -50,
+      "strength": 50,
+      "intelligence": 50,
+      "power": 30,
+      "criticalChance": 10,
+      "criticalDamage": 10
+    }
+  },
+  "Hache Térophyle": {
+    "level": 15,
+    "category": "Hache",
+    "stats": {
+      "strength": 25
+    }
+  },
+  "Hache Heuvante": {
+    "level": 35,
+    "category": "Hache",
+    "stats": {
+      "health": 60,
+      "strength": 20,
+      "chance": 20,
+      "agility": -80,
+      "range": 1
+    }
+  },
+  "Hache Huré": {
+    "level": 22,
+    "category": "Hache",
+    "stats": {
+      "strength": -11,
+      "chance": 30
+    }
+  },
+  "Francisque à Brêles": {
+    "level": 28,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "agility": 30,
+      "airDamage": 3
+    }
+  },
+  "Hache Hémal": {
+    "level": 1,
+    "category": "Hache",
+    "stats": {}
+  },
+  "Hachette de Bûcheron": {
+    "level": 1,
+    "category": "Hache",
+    "stats": {
+      "health": 10
+    }
+  },
+  "Hachette Hévlalav": {
+    "level": 5,
+    "category": "Hache",
+    "stats": {
+      "health": 7,
+      "strength": 7
+    }
+  },
+  "Hache Vôr'Om": {
+    "level": 12,
+    "category": "Hache",
+    "stats": {
+      "health": 25,
+      "agility": 10
+    }
+  },
+  "Coupeuse de Bombu": {
+    "level": 39,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "intelligence": 30,
+      "wisdom": 15,
+      "pushbackDamage": 10
+    }
+  },
+  "Elagueuse d'Oliviolet": {
+    "level": 42,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "strength": 20,
+      "intelligence": 20,
+      "wisdom": 20,
+      "apReduction": 3
+    }
+  },
+  "Hache de Pierre": {
+    "level": 51,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "wisdom": 20,
+      "initiative": 200,
+      "lock": 5
+    }
+  },
+  "Hache de Brèche": {
+    "level": 54,
+    "category": "Hache",
+    "stats": {
+      "health": 60,
+      "strength": 30,
+      "intelligence": 30,
+      "neutralDamage": 5,
+      "earthDamage": 4,
+      "fireDamage": 4
+    }
+  },
+  "Coupeuse de Sifflet": {
+    "level": 66,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 20,
+      "power": 15
+    }
+  },
+  "Hache Darsson": {
+    "level": 57,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "chance": 30,
+      "agility": 30,
+      "initiative": -100,
+      "neutralResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "dodge": -6
+    }
+  },
+  "Trancheuse de Partie": {
+    "level": 66,
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "strength": 50,
+      "wisdom": 30,
+      "power": 20,
+      "range": -1,
+      "damage": 4
+    }
+  },
+  "Bardiche du Milicien": {
+    "level": 78,
+    "category": "Hache",
+    "stats": {
+      "health": 60,
+      "strength": 50,
+      "intelligence": -50,
+      "chance": 50,
+      "wisdom": 15,
+      "summon": 1,
+      "lock": 7,
+      "mpReduction": 5
+    }
+  },
+  "Hachette Savante": {
+    "level": 81,
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "strength": -50,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 15,
+      "power": 30,
+      "damage": 7,
+      "initiative": -200,
+      "dodge": 5
+    }
+  },
+  "Francisque Basquaise": {
+    "level": 84,
+    "category": "Hache",
+    "stats": {
+      "health": 50,
+      "strength": 70,
+      "criticalChance": 5,
+      "neutralDamage": 5,
+      "earthDamage": 5,
+      "dodge": 10,
+      "pushbackDamage": 10
+    }
+  },
+  "Vouge à Poisson": {
+    "level": 87,
+    "category": "Hache",
+    "stats": {
+      "health": 120,
+      "strength": 60,
+      "chance": -40,
+      "agility": 60,
+      "power": 20,
+      "criticalChance": 3,
+      "damage": 5
+    }
+  },
+  "Hache de Dame Oise": {
+    "level": 89,
+    "category": "Hache",
+    "stats": {
+      "health": 120,
+      "strength": 60,
+      "summon": 1,
+      "damage": 5,
+      "initiative": -500,
+      "apResist": 7,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Hache de Lookabeer": {
+    "level": 96,
+    "category": "Hache",
+    "stats": {
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30,
+      "wisdom": 20,
+      "power": 30,
+      "damage": 7,
+      "criticalDamage": 6
+    }
+  },
+  "Halle de Barde": {
+    "level": 99,
+    "category": "Hache",
+    "stats": {
+      "health": 70,
+      "strength": 70,
+      "power": 20,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "heal": 7,
+      "neutralResistPer": 5,
+      "lock": 10
+    }
+  },
+  "La Trancheuse d'Arakne": {
+    "level": 11,
+    "panoply": "Panoplie Arakne",
+    "category": "Hache",
+    "stats": {
+      "health": 15,
+      "agility": 12
+    }
+  },
+  "Hache du Shodanwa": {
+    "level": 36,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "intelligence": 20,
+      "chance": 20,
+      "heal": 5,
+      "dodge": 3
+    }
+  },
+  "Hache du Nidanwa": {
+    "level": 59,
+    "category": "Hache",
+    "stats": {
+      "strength": 30,
+      "agility": 30,
+      "damage": 4
+    }
+  },
+  "Hache du Sandanwa": {
+    "level": 83,
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "wisdom": 25,
+      "power": 30,
+      "criticalChance": 6,
+      "damage": 4,
+      "initiative": 200
+    }
+  },
+  "Hache du Yondanwa": {
+    "level": 98,
+    "category": "Hache",
+    "stats": {
+      "health": 130,
+      "intelligence": 60,
+      "wisdom": 45,
+      "power": 20,
+      "damage": 7,
+      "lock": 7
+    }
+  },
+  "La Trancheuse de Bambou": {
+    "level": 26,
+    "category": "Hache",
+    "stats": {
+      "health": 30,
+      "power": 15,
+      "criticalChance": 3
+    }
+  },
+  "Hache Terrdala": {
+    "level": 83,
+    "panoply": "Panoplie Terrdala",
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "strength": 60,
+      "power": 20,
+      "criticalChance": 4,
+      "neutralResistPer": 5,
+      "dodge": 5
+    }
+  },
+  "Lame Usicke": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 450,
+      "chance": 80,
+      "wisdom": 40,
+      "waterDamage": 15,
+      "prospecting": 25,
+      "earthResistPer": 10,
+      "fireResistPer": 7,
+      "mpReduction": 7,
+      "apResist": 12,
+      "pushbackResist": 15
+    }
+  },
+  "La Hache Menbien": {
+    "level": 116,
+    "category": "Hache",
+    "stats": {
+      "agility": 50,
+      "wisdom": 20,
+      "damage": 6,
+      "prospecting": 15,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10
+    }
+  },
+  "La Hache Ticot": {
+    "level": 110,
+    "category": "Hache",
+    "stats": {
+      "health": 100,
+      "strength": 40,
+      "wisdom": 25,
+      "power": 10,
+      "criticalChance": 3,
+      "range": 1,
+      "prospecting": 10,
+      "initiative": 400,
+      "neutralResist": 6,
+      "fireResist": 6
+    }
+  },
+  "Le Fendoir Tichaud": {
+    "level": 128,
+    "category": "Hache",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "damage": 10,
+      "heal": 6,
+      "prospecting": 10,
+      "fireResistPer": 6
+    }
+  },
+  "Hache du Mulou": {
+    "level": 55,
+    "panoply": "Panoplie du Mulou",
+    "category": "Hache",
+    "stats": {
+      "health": 65,
+      "strength": 40,
+      "wisdom": 15,
+      "criticalChance": 3,
+      "neutralDamage": 3,
+      "earthDamage": 3
+    }
+  },
+  "Hache du Minotoror": {
+    "level": 109,
+    "panoply": "Panoplie du Minotoror",
+    "category": "Hache",
+    "stats": {
+      "health": 150,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "heal": 10,
+      "prospecting": 25,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 10,
+      "criticalDamage": 10,
+      "pushbackDamage": 10
+    }
+  },
+  "Hache du Dragoeuf": {
+    "level": 126,
+    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "category": "Hache",
+    "stats": {
+      "health": 130,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 15,
+      "power": 15,
+      "criticalChance": 4,
+      "fireDamage": 3,
+      "waterDamage": 3,
+      "initiative": 200,
+      "neutralResistPer": 6,
+      "apReduction": 4,
+      "mpResist": 6
+    }
+  },
+  "Hache Ebbah": {
+    "level": 62,
+    "category": "Hache",
+    "stats": {
+      "health": 150,
+      "wisdom": 30,
+      "power": 20,
+      "neutralDamage": 3,
+      "lock": 7
+    }
+  },
+  "Hache Eulouh": {
+    "level": 80,
+    "category": "Hache",
+    "stats": {
+      "health": 40,
+      "chance": 50,
+      "agility": 30,
+      "wisdom": 25,
+      "damage": 5,
+      "prospecting": 10,
+      "initiative": 200
+    }
+  },
+  "Hache du Guerrier Zoth": {
+    "level": 139,
+    "panoply": "Panoplie du Zothicien",
+    "category": "Hache",
+    "stats": {
+      "health": 300,
+      "wisdom": 35,
+      "AP": 1,
+      "damage": 4,
+      "prospecting": 15
+    }
+  },
+  "Poolache": {
+    "level": 137,
+    "panoply": "Panoplie du Poolay",
+    "category": "Hache",
+    "stats": {
+      "health": 150,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "prospecting": 10,
+      "earthResistPer": 10,
+      "fireResistPer": 10
+    }
+  },
+  "Hache Sueur Rance": {
+    "level": 162,
+    "category": "Hache",
+    "stats": {
+      "health": 200,
+      "strength": 45,
+      "wisdom": 40,
+      "criticalChance": 7,
+      "damage": 10,
+      "prospecting": 15
+    }
+  },
+  "Hache Harnée": {
+    "level": 158,
+    "category": "Hache",
+    "stats": {
+      "health": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "range": 1,
+      "prospecting": 20,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  "Hache à Lamelles": {
+    "level": 157,
+    "panoply": "Panoplie des Sous-bois",
+    "category": "Hache",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "range": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "earthResist": 10
+    }
+  },
+  "Hache de l'initié": {
+    "level": 12,
+    "category": "Hache",
+    "stats": {
+      "health": 10,
+      "initiative": 10
+    }
+  },
+  "Hache Haimenu": {
+    "level": 154,
+    "category": "Hache",
+    "stats": {
+      "health": 200,
+      "intelligence": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "neutralDamage": 10,
+      "fireDamage": 10,
+      "heal": 10,
+      "prospecting": 10,
+      "waterResist": 10,
+      "airResist": 10,
+      "lock": 5,
+      "criticalResist": 10
+    }
+  },
+  "Hache du Fancrôme": {
+    "level": 153,
+    "panoply": "Panoplie du Grolandais",
+    "category": "Hache",
+    "stats": {
+      "health": 200,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "neutralDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 400,
+      "airResistPer": 7,
+      "earthResist": 7,
+      "waterResist": 7,
+      "lock": 5,
+      "criticalResist": 10
+    }
+  },
+  "Hache du Korriandre": {
+    "level": 188,
+    "panoply": "Panoplie du Korriandre",
+    "category": "Hache",
+    "stats": {
+      "health": 250,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 30,
+      "initiative": 400,
+      "apReduction": 5,
+      "criticalResist": 10
+    }
+  },
+  "Hache Achinecride": {
+    "level": 170,
+    "category": "Hache",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "range": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "airDamage": 8,
+      "prospecting": 20,
+      "waterResistPer": 7,
+      "fireResist": 7,
+      "apReduction": 5,
+      "pushbackDamage": 10
+    }
+  },
+  "Hache Téroïde": {
+    "level": 194,
+    "category": "Hache",
+    "stats": {
+      "health": 300,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 30,
+      "power": 30,
+      "criticalChance": 4,
+      "summon": 2,
+      "prospecting": 10,
+      "fireResistPer": 5,
+      "airResistPer": 5,
+      "neutralResist": 5,
+      "earthResist": 5,
+      "waterResist": 5,
+      "apResist": 7
+    }
+  },
+  "Hache Hélème": {
+    "level": 185,
+    "category": "Hache",
+    "stats": {
+      "health": 300,
+      "intelligence": 60,
+      "agility": 40,
+      "wisdom": 45,
+      "range": 1,
+      "fireDamage": 12,
+      "airDamage": 8,
+      "prospecting": 25,
+      "fireResistPer": 7,
+      "earthResist": 7,
+      "waterResist": 7,
+      "mpReduction": 5
+    }
+  },
+  "Hache Ériphe": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "agility": 60,
+      "criticalChance": 5,
+      "range": 1,
+      "neutralDamage": 18,
+      "earthDamage": 18,
+      "airDamage": 18,
+      "prospecting": 15,
+      "initiative": -301,
+      "neutralResistPer": 10,
+      "airResistPer": 10,
+      "dodge": 10,
+      "pushbackDamage": 20
+    }
+  },
+  "Hache Euvale": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "range": -1,
+      "neutralDamage": 16,
+      "earthDamage": 16,
+      "waterDamage": 16,
+      "fireResistPer": 10,
+      "neutralResist": 20,
+      "airResist": 15,
+      "pushbackDamage": 20
+    }
+  },
+  "Hache Rot": {
+    "level": 192,
+    "category": "Hache",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "wisdom": 30,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "earthResist": 15,
+      "airResist": 15,
+      "dodge": -11,
+      "apResist": 8,
+      "criticalDamage": 15
+    }
+  },
+  "Plumeau Bil": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "summon": 1,
+      "fireDamage": 10,
+      "heal": 15,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "lock": 15,
+      "criticalResist": 25
+    }
+  },
+  "Hache du Chalœil": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 400,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 15,
+      "criticalChance": 4,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "dodge": 15,
+      "criticalDamage": 15
+    }
+  },
+  "Manthache": {
+    "level": 200,
+    "panoply": "Panoplie des Abîmes",
+    "category": "Hache",
+    "stats": {
+      "health": 400,
+      "agility": 80,
+      "wisdom": 40,
+      "airDamage": 15,
+      "waterResistPer": 10,
+      "dodge": 12,
+      "apResist": 10,
+      "criticalResist": 30
+    }
+  },
+  "Hache du Mantiscore": {
+    "level": 80,
+    "category": "Hache",
+    "stats": {
+      "chance": 60,
+      "wisdom": 15,
+      "criticalChance": 4,
+      "waterDamage": 3,
+      "heal": 10,
+      "airResistPer": 3,
+      "lock": 7
+    }
+  },
+  "Héqache": {
+    "level": 200,
+    "panoply": "Panoplie de la Pyramide",
+    "category": "Hache",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": -1,
+      "summon": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 15,
+      "pushbackDamage": 25
+    }
+  },
+  "Lav'Hache": {
+    "level": 200,
+    "panoply": "Panoplie du Fourneau",
+    "category": "Hache",
+    "stats": {
+      "health": 350,
+      "strength": 80,
+      "wisdom": 40,
+      "summon": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "waterResistPer": 10,
+      "lock": 12,
+      "apReduction": 7,
+      "pushbackDamage": 25
+    }
+  },
+  "Hachebarde de Guerre": {
+    "level": 200,
+    "category": "Hache",
+    "stats": {
+      "health": 450,
+      "intelligence": 120,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "range": -2,
+      "fireDamage": 10,
+      "heal": -40,
+      "initiative": 500,
+      "fireResistPer": 10,
+      "lock": 20,
+      "mpReduction": 15
+    }
+  },
+  "Kwache": {
+    "level": 130,
+    "panoply": "Panoplie Kwapa",
+    "category": "Hache",
+    "stats": {
+      "health": 200,
+      "chance": 50,
+      "wisdom": 30,
+      "summon": 1,
+      "waterDamage": 10,
+      "prospecting": 15,
+      "initiative": 350,
+      "fireResistPer": 4,
+      "waterResist": 10,
+      "lock": 10
+    }
+  },
+  "Hachoir de Ravageur": {
+    "level": 200,
+    "panoply": "Panoplie des Ravageurs",
+    "category": "Hache",
+    "stats": {
+      "health": 350,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "fireResistPer": 5,
+      "waterResistPer": 7,
+      "airResistPer": 5,
+      "dodge": 7,
+      "mpResist": 10,
+      "pushbackDamage": 25
+    }
+  },
+  "Potence d'Ephedrya": {
+    "level": 200,
+    "panoply": "Maléfices d'Ephedrya",
+    "category": "Hache",
+    "stats": {
+      "health": 500,
+      "wisdom": 50,
+      "power": 80,
+      "criticalChance": -10,
+      "neutralDamage": -200,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "criticalResist": 25
+    }
+  },
+  "Faux de Farle Ingalsse": {
+    "level": 13,
+    "category": "Faux",
+    "stats": {
+      "health": 15,
+      "chance": 15
+    }
+  },
+  "Faux usée du Paysan": {
+    "level": 17,
+    "panoply": "Panoplie du Paysan",
+    "category": "Faux",
+    "stats": {
+      "health": 20,
+      "criticalChance": 3,
+      "waterDamage": 2
+    }
+  },
+  "Faux Maudite du Saigneur Guerrier": {
+    "level": 200,
+    "category": "Faux",
+    "stats": {
+      "health": 40,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Faux Nème": {
+    "level": 200,
+    "panoply": "Panoplie du Wukang",
+    "category": "Faux",
+    "stats": {
+      "health": 500,
+      "strength": 80,
+      "agility": 80,
+      "wisdom": 50,
+      "criticalChance": -3,
+      "earthDamage": 15,
+      "airDamage": 15,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "apReduction": -12,
+      "mpReduction": 12,
+      "apResist": 10,
+      "mpResist": -10,
+      "criticalResist": 25,
+      "pushbackResist": -20
+    }
+  },
+  "Faux Nétik": {
+    "level": 200,
+    "category": "Faux",
+    "stats": {
+      "health": 450,
+      "agility": 70,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": -1,
+      "summon": 1,
+      "airDamage": 20,
+      "heal": 6,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "lock": 10,
+      "mpResist": 10,
+      "pushbackResist": 25
+    }
+  },
+  "Faux Séraphine": {
+    "level": 200,
+    "category": "Faux",
+    "stats": {
+      "health": 350,
+      "chance": 60,
+      "wisdom": 30,
+      "power": 30,
+      "criticalChance": 5,
+      "summon": 1,
+      "waterDamage": 15,
+      "heal": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 10,
+      "apReduction": 7,
+      "criticalDamage": 12
+    }
+  },
+  "Faux Chaotique": {
+    "level": 200,
+    "category": "Faux",
+    "stats": {
+      "health": 350,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 35,
+      "power": 20,
+      "MP": 1,
+      "range": -1,
+      "fireDamage": 18,
+      "waterDamage": 18,
+      "heal": 12,
+      "initiative": 300,
+      "waterResistPer": 10,
+      "lock": 12,
+      "criticalDamage": -15
+    }
+  },
+  "Faux Enracinée de Malter": {
+    "level": 150,
+    "panoply": "Panoplie des Malters",
+    "category": "Faux",
+    "stats": {
+      "health": 250,
+      "wisdom": 40,
+      "summon": 1,
+      "heal": 30,
+      "initiative": 400,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "apReduction": 4,
+      "mpReduction": 4,
+      "apResist": -4,
+      "mpResist": -4
+    }
+  },
+  "Faux du Directeur Grunob": {
+    "level": 38,
+    "panoply": "Panoplie du Directeur Grunob",
+    "category": "Faux",
+    "stats": {
+      "health": 40,
+      "power": 35,
+      "initiative": 100,
+      "pushbackDamage": 10
+    }
+  },
+  "Serpe de Rakoopeur": {
+    "level": 52,
+    "panoply": "Panoplie de Rakoopeur",
+    "category": "Faux",
+    "stats": {
+      "health": 50,
+      "strength": 35,
+      "agility": 35,
+      "wisdom": 10,
+      "range": -2,
+      "earthDamage": 5,
+      "airDamage": 5
+    }
+  },
+  "Serpe Aigrie": {
+    "level": 190,
+    "panoply": "Panoplie des Marteaux-Aigris",
+    "category": "Faux",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "wisdom": 40,
+      "power": 40,
+      "criticalChance": 6,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 15
+    }
+  },
   "Lance à un 110": {
     "level": 29,
     "category": "Lance",

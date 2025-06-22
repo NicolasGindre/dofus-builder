@@ -1,4 +1,2411 @@
 {
+  "Chienchien": {
+    "level": 1,
+    "category": "Familier",
+    "stats": {
+      "wisdom": 20
+    }
+  },
+  "Chacha": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "dodge": 40
+    }
+  },
+  "Wabbit": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "criticalResist": 100
+    }
+  },
+  "Bwak de Feu": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "fireResistPer": 25
+    }
+  },
+  "Bwak d'Eau": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "waterResistPer": 25
+    }
+  },
+  "Bwak d'Air": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "airResistPer": 25
+    }
+  },
+  "Bwak de Terre": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "earthResistPer": 25
+    }
+  },
+  "Kouin-Kouin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 20,
+      "initiative": 200
+    }
+  },
+  "Nomoon": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Chienchien Noir": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 15
+    }
+  },
+  "Chacha Blanc": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 15
+    }
+  },
+  "Surpuissant Chacha de Combat (MJ)": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 1000,
+      "strength": 600,
+      "intelligence": 600,
+      "chance": 600,
+      "agility": 600,
+      "wisdom": 600,
+      "AP": 3,
+      "MP": 2,
+      "summon": 10,
+      "damage": 40
+    }
+  },
+  "Petit Chacha de Combat (MJ)": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 300,
+      "strength": 300,
+      "intelligence": 300,
+      "chance": 300,
+      "agility": 300,
+      "wisdom": 300,
+      "AP": 2,
+      "MP": 1,
+      "summon": 5,
+      "damage": 10
+    }
+  },
+  "Péki": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "pushbackDamage": 80
+    }
+  },
+  "Petit Chacha Blanc": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "initiative": 2000,
+      "apResist": 50
+    }
+  },
+  "Petit Chienchien Noir": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "pushbackDamage": 80
+    }
+  },
+  "Fotome": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "dodge": 40
+    }
+  },
+  "Dragoune Rose": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "dodge": 50,
+      "apReduction": 40
+    }
+  },
+  "Croum": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "neutralResistPer": 25
+    }
+  },
+  "Minimino": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "apReduction": 40
+    }
+  },
+  "Chachatte Rousse": {
+    "level": 1,
+    "category": "Familier",
+    "stats": {
+      "health": 15
+    }
+  },
+  "Chacha Tigré": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "pushbackResist": 100
+    }
+  },
+  "Vilain Petit Corbac": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Écureuil Chenapan": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "dodge": 40
+    }
+  },
+  "Léopardo": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "mpReduction": 40
+    }
+  },
+  "Bilby": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "lock": 50
+    }
+  },
+  "Marcassin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "lock": 40
+    }
+  },
+  "Pioute bleu": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "chance": 120,
+      "criticalDamage": 40
+    }
+  },
+  "Pioute jaune": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "agility": 120,
+      "criticalDamage": 40
+    }
+  },
+  "Pioute rose": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "range": 2
+    }
+  },
+  "Pioute rouge": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "intelligence": 120,
+      "criticalDamage": 40
+    }
+  },
+  "Pioute vert": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "criticalDamage": 40
+    }
+  },
+  "Pioute violet": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "summon": 2
+    }
+  },
+  "Atouin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "apResist": 50
+    }
+  },
+  "Mini Wa": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "chance": 120,
+      "agility": 120
+    }
+  },
+  "Willy le Relou": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "intelligence": 120,
+      "agility": 120
+    }
+  },
+  "Koalak Sanguin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "apReduction": 40
+    }
+  },
+  "Bworky": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Bouloute": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "apResist": 40
+    }
+  },
+  "Abra Kadabra": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "mpResist": 50
+    }
+  },
+  "El Scarador": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Tifoux": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Walk": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "intelligence": 120,
+      "chance": 120
+    }
+  },
+  "Bébé Pandawa": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "chance": 120
+    }
+  },
+  "Ross": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "apReduction": 40
+    }
+  },
+  "Fëanor": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "AP": 1
+    }
+  },
+  "Bouloute du Parrain": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "apResist": 40
+    }
+  },
+  "Chacha Angora": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "criticalDamage": 40
+    }
+  },
+  "Tiwabbit Kiafin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "airResist": 80
+    }
+  },
+  "Miniminotot": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "waterResist": 80
+    }
+  },
+  "Crocodaille": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "fireResist": 80
+    }
+  },
+  "Dragoune Noire": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "mpResist": 50
+    }
+  },
+  "Shushu de Rushu": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "summon": 2,
+      "initiative": 2000
+    }
+  },
+  "Vampyrette": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "dodge": 40
+    }
+  },
+  "Chauffe-souris": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Gelutin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "pushbackDamage": 80
+    }
+  },
+  "Chercheur d'Ogrines": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "pushbackDamage": 80
+    }
+  },
+  "Dragoune Dorée": {
+    "level": 20,
+    "panoply": "Panoplie du Roks Or",
+    "category": "Familier",
+    "stats": {
+      "range": 2,
+      "apResist": 40
+    }
+  },
+  "Raknaille": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "apResist": 40,
+      "criticalResist": 100
+    }
+  },
+  "Meuch": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "dodge": 50
+    }
+  },
+  "Tofoudre": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "agility": 120,
+      "pushbackDamage": 80
+    }
+  },
+  "Pykur": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Chacha des Glaces": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalChance": 15,
+      "pushbackResist": 100
+    }
+  },
+  "Tifoux Tigré": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Chienchien Tigré": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "AP": 1,
+      "apResist": 50
+    }
+  },
+  "Kouin-Kouin Noir": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "dodge": 50,
+      "apReduction": 40
+    }
+  },
+  "Chauffe-souris Délavée": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalDamage": 50,
+      "pushbackResist": 100
+    }
+  },
+  "Gupin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "neutralResistPer": 10
+    }
+  },
+  "Kouin-Kouin amélioré": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 22,
+      "initiative": 220
+    }
+  },
+  "Cromeugnon": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "intelligence": 120
+    }
+  },
+  "Médugivre": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "mpReduction": 40
+    }
+  },
+  "Écumouth": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "chance": 120,
+      "pushbackDamage": 80
+    }
+  },
+  "Givrefoux": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "initiative": 2000,
+      "lock": 50
+    }
+  },
+  "Gwo Tofu Ventripotent": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "mpReduction": 40
+    }
+  },
+  "Kanigloups": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "chance": 120,
+      "waterDamage": 20
+    }
+  },
+  "Bulbisou": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "earthDamage": 20
+    }
+  },
+  "Blérodoudou": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "agility": 120,
+      "airDamage": 20
+    }
+  },
+  "Bisouglours": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "intelligence": 120,
+      "fireDamage": 20
+    }
+  },
+  "Platypus": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "lock": 40
+    }
+  },
+  "Serpète": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "neutralResist": 80
+    }
+  },
+  "Tofüm": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "criticalDamage": 40
+    }
+  },
+  "Tofu Givré": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "initiative": 2000,
+      "dodge": 50
+    }
+  },
+  "Sourisette": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "range": 2,
+      "initiative": 2000
+    }
+  },
+  "Scarakiri": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "intelligence": 120,
+      "pushbackDamage": 80
+    }
+  },
+  "Rauleur": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "apResist": 50
+    }
+  },
+  "Meulourd": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "mpResist": 40,
+      "criticalResist": 100
+    }
+  },
+  "Mékrabe": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "agility": 120
+    }
+  },
+  "Ploup": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "heal": 50,
+      "mpResist": 50
+    }
+  },
+  "Kroliméa": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "range": 2
+    }
+  },
+  "Kafarce": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalChance": 15,
+      "pushbackDamage": 80
+    }
+  },
+  "Bulbouture": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Kokulte": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalChance": 15,
+      "criticalDamage": 40
+    }
+  },
+  "Toukancre": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 50,
+      "earthResist": 80
+    }
+  },
+  "Boskito": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "apReduction": 40
+    }
+  },
+  "Fosfo": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Chachyène": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "MP": 1,
+      "summon": 2
+    }
+  },
+  "Black Tiwabbit": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "strength": 120,
+      "pushbackDamage": 80
+    }
+  },
+  "Snouffle": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Phortiche": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "MP": 1,
+      "range": 2
+    }
+  },
+  "Homlett": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "mpResist": 40
+    }
+  },
+  "Tatouf": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalResist": 100,
+      "pushbackDamage": 100
+    }
+  },
+  "Blokus": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "lock": 50,
+      "mpReduction": 40
+    }
+  },
+  "Eliôme": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "fireResistPer": 10
+    }
+  },
+  "Drakopin": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "lock": 50,
+      "apReduction": 40
+    }
+  },
+  "Tanuk": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "AP": 1,
+      "mpResist": 50
+    }
+  },
+  "Bloalak": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Moumoute": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "apResist": 40
+    }
+  },
+  "Bontique": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "criticalResist": 50
+    }
+  },
+  "Brâkarien": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "pushbackResist": 50
+    }
+  },
+  "Titard": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "earthResistPer": 10
+    }
+  },
+  "Minikrone": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "summon": 2,
+      "mpResist": 40
+    }
+  },
+  "Chaperlipopette": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "criticalChance": 15,
+      "initiative": 2000
+    }
+  },
+  "Tirubim": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Glub": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Titcham": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "mpResist": 40
+    }
+  },
+  "Dauge": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "waterResistPer": 10
+    }
+  },
+  "La Chose": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "airResistPer": 10
+    }
+  },
+  "Molosk": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "health": 400,
+      "criticalDamage": 40
+    }
+  },
+  "Jeune Boufton Céleste": {
+    "level": 1,
+    "category": "Familier",
+    "stats": {
+      "wisdom": 20
+    }
+  },
+  "Booftrool blanc": {
+    "level": 20,
+    "category": "Familier",
+    "stats": {
+      "power": 70,
+      "criticalChance": 15
+    }
+  },
+  "Kwak Oubeh": {
+    "level": 1,
+    "panoply": "Il n'y a pas de pano",
+    "category": "Familier",
+    "stats": {}
+  },
+  "Chienchiengue": {
+    "level": 1,
+    "panoply": "Il n'y a pas de pano",
+    "category": "Familier",
+    "stats": {}
+  },
+  "Certificat de Monture": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {}
+  },
+  "Dragodinde Amande Sauvage": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {}
+  },
+  "Dragodinde Ebène": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "agility": 100
+    }
+  },
+  "Dragodinde Rousse Sauvage": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {}
+  },
+  "Dragodinde Ebène et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "power": 50,
+      "agility": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "heal": 50,
+      "health": 300
+    }
+  },
+  "Dragodinde Ivoire et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "heal": 35,
+      "power": 50,
+      "health": 300
+    }
+  },
+  "Dragodinde Ebène et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "agility": 70,
+      "health": 300,
+      "heal": 35
+    }
+  },
+  "Dragodinde Turquoise": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "prospecting": 80,
+      "health": 300
+    }
+  },
+  "Dragodinde Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "power": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "chance": 100,
+      "health": 300
+    }
+  },
+  "Dragodinde Dorée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "summon": 2,
+      "health": 300
+    }
+  },
+  "Dragodinde Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 100,
+      "health": 300
+    }
+  },
+  "Dragodinde Amande": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "initiative": 1500,
+      "health": 300
+    }
+  },
+  "Dragodinde Emeraude": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 12,
+      "health": 300
+    }
+  },
+  "Dragodinde Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "intelligence": 100,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "range": 2,
+      "health": 300
+    }
+  },
+  "Dragodinde Amande et Dorée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "summon": 1,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Amande et Ebène": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "agility": 70,
+      "initiative": 1000,
+      "health": 300
+    }
+  },
+  "Dragodinde Amande et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "initiative": 1000,
+      "criticalChance": 8,
+      "health": 300
+    }
+  },
+  "Dragodinde Amande et Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "chance": 70,
+      "health": 300,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Amande et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "power": 50,
+      "health": 300,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Amande et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "initiative": 1000,
+      "heal": 35
+    }
+  },
+  "Dragodinde Amande et Turquoise": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "prospecting": 60,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Amande et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "intelligence": 70,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Amande et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "initiative": 1000
+    }
+  },
+  "Dragodinde Dorée et Ebène": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "agility": 70,
+      "summon": 1,
+      "health": 300
+    }
+  },
+  "Dragodinde Dorée et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "criticalChance": 8,
+      "summon": 1
+    }
+  },
+  "Dragodinde Dorée et Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "chance": 70,
+      "health": 300,
+      "summon": 1
+    }
+  },
+  "Dragodinde Dorée et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "summon": 1,
+      "power": 50,
+      "health": 300
+    }
+  },
+  "Dragodinde Dorée et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "heal": 35,
+      "summon": 1
+    }
+  },
+  "Dragodinde Dorée et Turquoise": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "prospecting": 60,
+      "summon": 1
+    }
+  },
+  "Dragodinde Dorée et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "summon": 1,
+      "intelligence": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Dorée et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 70,
+      "summon": 1,
+      "health": 300
+    }
+  },
+  "Dragodinde Ebène et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "agility": 70
+    }
+  },
+  "Dragodinde Ebène et Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "chance": 70,
+      "health": 300,
+      "agility": 70
+    }
+  },
+  "Dragodinde Ebène et Turquoise": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "agility": 70,
+      "prospecting": 60
+    }
+  },
+  "Dragodinde Ebène et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "intelligence": 70,
+      "health": 300,
+      "agility": 70
+    }
+  },
+  "Dragodinde Ebène et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 70,
+      "health": 300,
+      "agility": 70
+    }
+  },
+  "Dragodinde Emeraude et Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "chance": 70
+    }
+  },
+  "Dragodinde Emeraude et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "power": 50,
+      "criticalChance": 8
+    }
+  },
+  "Dragodinde Emeraude et Rousse": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "heal": 35
+    }
+  },
+  "Dragodinde Emeraude et Turquoise": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "prospecting": 60
+    }
+  },
+  "Dragodinde Emeraude et Orchidée": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "intelligence": 70
+    }
+  },
+  "Dragodinde Emeraude et Pourpre": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "criticalChance": 8,
+      "health": 300,
+      "strength": 70
+    }
+  },
+  "Dragodinde Indigo et Ivoire": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "chance": 70,
+      "health": 300,
+      "power": 50
+    }
+  },
+  "Dragodinde Indigo et Rousse": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "heal": 35,
+      "health": 300,
+      "chance": 70
+    }
+  },
+  "Dragodinde Indigo et Turquoise": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "chance": 70,
+      "prospecting": 60
+    }
+  },
+  "Dragodinde Indigo et Orchidée": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "intelligence": 70,
+      "chance": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Indigo et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 70,
+      "health": 300,
+      "chance": 70
+    }
+  },
+  "Dragodinde Ivoire et Turquoise": {
+    "level": 1,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "prospecting": 60,
+      "health": 300,
+      "power": 50
+    }
+  },
+  "Dragodinde Ivoire et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "intelligence": 70,
+      "power": 50,
+      "health": 300
+    }
+  },
+  "Dragodinde Ivoire et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "power": 50
+    }
+  },
+  "Dragodinde Turquoise et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "prospecting": 60,
+      "heal": 35
+    }
+  },
+  "Dragodinde Orchidée et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "heal": 35,
+      "intelligence": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Pourpre et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 70,
+      "heal": 35,
+      "health": 300
+    }
+  },
+  "Dragodinde Turquoise et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "prospecting": 60,
+      "intelligence": 70
+    }
+  },
+  "Dragodinde Turquoise et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "strength": 70,
+      "health": 300,
+      "prospecting": 60
+    }
+  },
+  "Dragodinde Dorée Sauvage": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {}
+  },
+  "Dragodinde Orchidée et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "strength": 70,
+      "intelligence": 70
+    }
+  },
+  "Dragodinde Prune et Amande": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "initiative": 1000,
+      "range": 1
+    }
+  },
+  "Dragodinde Prune et Dorée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "range": 1,
+      "summon": 1
+    }
+  },
+  "Dragodinde Prune et Ebène": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "agility": 70,
+      "range": 1,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "range": 1,
+      "criticalChance": 8,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune et Indigo": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "range": 1,
+      "chance": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "power": 50,
+      "range": 1,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune et Rousse": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "range": 1,
+      "heal": 35
+    }
+  },
+  "Dragodinde Prune et Turquoise": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "health": 300,
+      "range": 1,
+      "prospecting": 60
+    }
+  },
+  "Dragodinde Prune et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "range": 1,
+      "intelligence": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde Prune et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "range": 1,
+      "strength": 70,
+      "health": 300
+    }
+  },
+  "Dragodinde en armure": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "power": 50,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "neutralResistPer": 5
+    }
+  },
+  "Dragodinde à Plumes": {
+    "level": 60,
+    "category": "Certificat de Dragodinde",
+    "stats": {
+      "reflect": 10,
+      "health": 100
+    }
+  },
+  "Dragouf": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "power": 70,
+      "summon": 2
+    }
+  },
+  "Hurledent": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "prospecting": 120
+    }
+  },
+  "Kramkram": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "power": 50,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
+    }
+  },
+  "Sakochère": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "AP": 1,
+      "criticalDamage": 50
+    }
+  },
+  "Balafreux": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "MP": 1,
+      "pushbackDamage": 100
+    }
+  },
+  "Kwaltess": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "power": 25,
+      "AP": 1
+    }
+  },
+  "Siroko": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "agility": 160
+    }
+  },
+  "Dehluge": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "chance": 160
+    }
+  },
+  "Kompost": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "strength": 160
+    }
+  },
+  "Brûlih": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "intelligence": 160
+    }
+  },
+  "Phorror": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "criticalChance": 10,
+      "MP": 1
+    }
+  },
+  "Kougnard": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "AP": 1,
+      "initiative": 2000
+    }
+  },
+  "Kougnard Albâtre": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "power": 70,
+      "criticalDamage": 40
+    }
+  },
+  "Bouftor": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "criticalResist": 100,
+      "pushbackResist": 100
+    }
+  },
+  "Bouflux": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "criticalDamage": 50,
+      "pushbackDamage": 100
+    }
+  },
+  "Teh'Niak": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "summon": 2,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15
+    }
+  },
+  "Tortikoli": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "lock": 40,
+      "pushbackResist": 80
+    }
+  },
+  "Koliphant Mamukil": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "strength": 120,
+      "criticalChance": 15
+    }
+  },
+  "Koliphant de Lexandre": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "intelligence": 120,
+      "criticalChance": 15
+    }
+  },
+  "Koliphant de Tarkaj": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "agility": 120,
+      "criticalChance": 15
+    }
+  },
+  "Koliphant Zenusha": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "chance": 120,
+      "criticalChance": 15
+    }
+  },
+  "Zarfuyar": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "dodge": 50,
+      "mpReduction": 40
+    }
+  },
+  "Kobrapid": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "initiative": 2000,
+      "mpResist": 50
+    }
+  },
+  "Gowelan": {
+    "level": 60,
+    "category": "Montilier",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "Muldo Ebène et Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "waterResistPer": 8,
+      "MP": 1,
+      "airResistPer": 8
+    }
+  },
+  "Muldo Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 16,
+      "MP": 1
+    }
+  },
+  "Muldo Ebène": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 16,
+      "MP": 1
+    }
+  },
+  "Muldo Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "waterResistPer": 16
+    }
+  },
+  "Muldo Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "earthResistPer": 16
+    }
+  },
+  "Muldo Doré": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "power": 50,
+      "MP": 1
+    }
+  },
+  "Muldo Roux": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "lock": 40
+    }
+  },
+  "Muldo Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 40,
+      "MP": 1
+    }
+  },
+  "Muldo Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "apResist": 40,
+      "MP": 1
+    }
+  },
+  "Muldo Turquoise": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "mpResist": 40,
+      "MP": 1
+    }
+  },
+  "Muldo Prune": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "criticalChance": 10
+    }
+  },
+  "Muldo Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "criticalDamage": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Doré et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "earthResistPer": 8,
+      "MP": 1,
+      "power": 40
+    }
+  },
+  "Muldo Indigo et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "earthResistPer": 8,
+      "MP": 1,
+      "waterResistPer": 8
+    }
+  },
+  "Muldo Ebène et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "airResistPer": 8,
+      "earthResistPer": 8
+    }
+  },
+  "Muldo Orchidée et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "earthResistPer": 8,
+      "fireResistPer": 8
+    }
+  },
+  "Muldo Doré et Ebène": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 8,
+      "MP": 1,
+      "power": 40
+    }
+  },
+  "Muldo Indigo et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "fireResistPer": 8,
+      "waterResistPer": 8
+    }
+  },
+  "Muldo Ebène et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 8,
+      "MP": 1,
+      "fireResistPer": 8
+    }
+  },
+  "Muldo Doré et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 8,
+      "MP": 1,
+      "power": 40
+    }
+  },
+  "Muldo Roux et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "earthResistPer": 8,
+      "lock": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Roux et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "lock": 30,
+      "fireResistPer": 8
+    }
+  },
+  "Muldo Roux et Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "waterResistPer": 8,
+      "lock": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Roux et Ebène": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "lock": 30,
+      "MP": 1,
+      "airResistPer": 8
+    }
+  },
+  "Muldo Roux et Doré": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "power": 40,
+      "MP": 1,
+      "lock": 30
+    }
+  },
+  "Muldo Roux et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "lock": 30,
+      "MP": 1,
+      "dodge": 30
+    }
+  },
+  "Muldo Pourpre et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "earthResistPer": 8,
+      "MP": 1
+    }
+  },
+  "Muldo Orchidée et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "MP": 1,
+      "fireResistPer": 8
+    }
+  },
+  "Muldo Indigo et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "waterResistPer": 8,
+      "dodge": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Ebène et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "MP": 1,
+      "airResistPer": 8
+    }
+  },
+  "Muldo Doré et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "power": 40,
+      "MP": 1,
+      "dodge": 30
+    }
+  },
+  "Muldo Pourpre et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "earthResistPer": 8,
+      "apResist": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Orchidée et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 8,
+      "apResist": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Indigo et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "apResist": 30,
+      "waterResistPer": 8
+    }
+  },
+  "Muldo Ebène et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 8,
+      "MP": 1,
+      "apResist": 30
+    }
+  },
+  "Muldo Doré et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "apResist": 30,
+      "power": 40
+    }
+  },
+  "Muldo Roux et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "lock": 30,
+      "apResist": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Amande et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "MP": 1,
+      "apResist": 30
+    }
+  },
+  "Muldo Turquoise et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "mpResist": 30,
+      "apResist": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Turquoise et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "mpResist": 30,
+      "earthResistPer": 8
+    }
+  },
+  "Muldo Turquoise et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 8,
+      "MP": 1,
+      "mpResist": 30
+    }
+  },
+  "Muldo Turquoise et Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "waterResistPer": 8,
+      "mpResist": 30
+    }
+  },
+  "Muldo Turquoise et Ebène": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "mpResist": 30,
+      "airResistPer": 8,
+      "MP": 1
+    }
+  },
+  "Muldo Turquoise et Roux": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "lock": 30,
+      "MP": 1,
+      "mpResist": 30
+    }
+  },
+  "Muldo Turquoise et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "mpResist": 30,
+      "MP": 1,
+      "dodge": 30
+    }
+  },
+  "Muldo Turquoise et Doré": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "power": 40,
+      "mpResist": 30,
+      "MP": 1
+    }
+  },
+  "Muldo Prune et Pourpre": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "criticalChance": 6,
+      "earthResistPer": 8,
+      "MP": 1
+    }
+  },
+  "Muldo Prune et Orchidée": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 8,
+      "criticalChance": 6,
+      "MP": 1
+    }
+  },
+  "Muldo Prune et Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "criticalChance": 6,
+      "MP": 1,
+      "waterResistPer": 8
+    }
+  },
+  "Muldo Prune et Ebène": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "criticalChance": 6,
+      "airResistPer": 8
+    }
+  },
+  "Muldo Prune et Doré": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "power": 40,
+      "criticalChance": 6
+    }
+  },
+  "Muldo Prune et Roux": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "criticalChance": 6,
+      "MP": 1,
+      "lock": 30
+    }
+  },
+  "Muldo Prune et Amande": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "MP": 1,
+      "criticalChance": 6
+    }
+  },
+  "Muldo Prune et Ivoire": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "apResist": 30,
+      "criticalChance": 6,
+      "MP": 1
+    }
+  },
+  "Muldo Prune et Turquoise": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "criticalChance": 6,
+      "mpResist": 30
+    }
+  },
+  "Muldo Prune et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "criticalDamage": 20,
+      "criticalChance": 6,
+      "MP": 1
+    }
+  },
+  "Muldo Pourpre et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "earthResistPer": 8,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Orchidée et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "fireResistPer": 8,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Indigo et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "waterResistPer": 8,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Ebène et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 8,
+      "criticalDamage": 20,
+      "MP": 1
+    }
+  },
+  "Muldo Doré et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "MP": 1,
+      "power": 40,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Roux et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "lock": 30,
+      "criticalDamage": 20,
+      "MP": 1
+    }
+  },
+  "Muldo Amande et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "dodge": 30,
+      "MP": 1,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Ivoire et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "apResist": 30,
+      "MP": 1,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Turquoise et Emeraude": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "mpResist": 30,
+      "MP": 1,
+      "criticalDamage": 20
+    }
+  },
+  "Muldo Doré et Indigo": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "power": 40,
+      "waterResistPer": 8,
+      "MP": 1
+    }
+  },
+  "Muldo Ebène Sauvage": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "airResistPer": 22
+    }
+  },
+  "Muldo Indigo Sauvage": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "waterResistPer": 22
+    }
+  },
+  "Muldo Orchidée Sauvage": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 22
+    }
+  },
+  "Muldo Pourpre Sauvage": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {
+      "fireResistPer": 22
+    }
+  },
+  "Muldo Doré Sauvage": {
+    "level": 60,
+    "category": "Certificat de Muldo",
+    "stats": {}
+  },
   "Volkorne Pourpre sauvage": {
     "level": 60,
     "category": "Certificat de Volkorne",

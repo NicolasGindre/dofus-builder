@@ -3,21 +3,30 @@ import * as dofusDB from "../clients/dofusDB"
 
 const dbPath = "./src/db/data"
 
-// export let items: Items = Object.fromEntries(
-//     ITEM_CATEGORIES.map((category): [ItemCategory, Item[]] => [category, []])
-// ) as Items
+export let itemsCategory: Record<ItemCategory, Items> = Object.fromEntries(
+  ITEM_CATEGORIES.map(cat => [cat, {}])
+) as Record<ItemCategory, Items>
 
 export let items: Items = {}
 export let panoplies: Panoplies = {}
 
-export async function loadItems() {
-    const content = await Bun.file(`${dbPath}/panoplies.json`).json()
-    panoplies = await JSON.parse(content)
+export async function loadItems(levelMin: number, levelMax: number): Promise<void> {
+
+    panoplies = await Bun.file(`${dbPath}/panoplies.json`).json()
 
     for (const category of ITEM_CATEGORIES) {
-        const content = await Bun.file(`${dbPath}/${category}.json`).json()
-        items[category] = await JSON.parse(content)
+        const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json()
+
+        for (const [itemName, item] of Object.entries(itemsCategoryDB)) {
+            if (item.level >= levelMin && item.level <= levelMax) {
+                items[itemName] = item
+                itemsCategory[category][itemName] = item
+            }
+        }
+
+        console.log("Loaded "+ Object.keys(itemsCategory[category]).length + " " + category)
     }
+    console.log("Loaded "+ Object.keys(items).length + " items")
 }
 
 export async function saveItems(category: ItemCategory, items: Record<string, Item>): Promise<void> {

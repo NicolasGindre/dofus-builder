@@ -46,7 +46,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     const url = new URL(`${dofusDBUrl}/items`);
 
     for (const categoryId of CATEGORY_ID_DOFUSDB[category]) {
-        url.searchParams.set("typeId", categoryId.toString())
+        url.searchParams.append("typeId[$in][]", categoryId.toString())
     }
     url.searchParams.set("$limit", "50")
 

@@ -9,6 +9,7 @@ export type ItemCategory = typeof ITEM_CATEGORIES[number]
 
 export type Item = {
     level : number
+    // value : number | undefined
     panoply : string | undefined
     category : ItemCategory
     stats : ItemStats
@@ -16,7 +17,6 @@ export type Item = {
 export type ItemStats = Partial<Stats>
 
 export type Items = Record<string, Item>
-// [key in ItemCategory]: Record<string, Item>
 
 export type Panoply = {
     items : string[]

@@ -1,29 +1,30 @@
 import type { Item } from "../types/item"
 
 export type Character = {
-    amulet : Item
-    ring1 : Item
-    ring2 : Item
-    hat : Item
-    cloak : Item
-    belt : Item
-    boots : Item
+    amulet : ItemSlot
+    ring1 : ItemSlot
+    ring2 : ItemSlot
+    hat : ItemSlot
+    cloak : ItemSlot
+    belt : ItemSlot
+    boots : ItemSlot
 
-    weapon : Item
-    shield : Item
+    weapon : ItemSlot
+    shield : ItemSlot
 
-    pet : Item
+    pet : ItemSlot
 
-    dofus1 : Item
-    dofus2 : Item
-    dofus3 : Item
-    dofus4 : Item
-    dofus5 : Item
-    dofus6 : Item
+    dofus1 : ItemSlot
+    dofus2 : ItemSlot
+    dofus3 : ItemSlot
+    dofus4 : ItemSlot
+    dofus5 : ItemSlot
+    dofus6 : ItemSlot
 
     baseStats : Partial<Stats>
     stats : Stats
 }
+export type ItemSlot = Item | undefined
 
 export type Stats = Record<StatKey, number>
 
