@@ -1,109 +1,97 @@
-[
-  {
+{
+  "Chapeau Pointu": {
     "level": 21,
-    "name": "Chapeau Pointu",
     "category": "Chapeau",
     "stats": {
       "health": 45,
       "initiative": 200
     }
   },
-  {
+  "La Coiffe du Ploukosse": {
     "level": 20,
-    "name": "La Coiffe du Ploukosse",
     "category": "Chapeau",
     "stats": {
       "power": 20,
       "criticalChance": 2
     }
   },
-  {
+  "Makroute": {
     "level": 6,
-    "name": "Makroute",
     "category": "Chapeau",
     "stats": {
       "strength": 10
     }
   },
-  {
+  "Choipo Podlard": {
     "level": 33,
-    "name": "Choipo Podlard",
     "category": "Chapeau",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -20,
+      "intelligence": -20,
+      "chance": -20,
+      "agility": -20,
       "range": 2
     }
   },
-  {
+  "Le Troma": {
     "level": 22,
-    "name": "Le Troma",
     "category": "Chapeau",
     "stats": {
       "health": 60,
       "power": 15
     }
   },
-  {
+  "Pandawa": {
     "level": 7,
-    "name": "Pandawa",
     "category": "Chapeau",
     "stats": {
-      "health": 0,
+      "health": -80,
       "summon": 1
     }
   },
-  {
+  "Le Oiram": {
     "level": 22,
-    "name": "Le Oiram",
     "category": "Chapeau",
     "stats": {
       "health": 25,
       "chance": 30
     }
   },
-  {
+  "Kritter": {
     "level": 30,
-    "name": "Kritter",
     "category": "Chapeau",
     "stats": {
       "criticalChance": 8
     }
   },
-  {
+  "Dora": {
     "level": 36,
-    "name": "Dora",
     "category": "Chapeau",
     "stats": {
       "strength": 50,
       "intelligence": 50,
-      "chance": 0,
-      "agility": 0
+      "chance": -25,
+      "agility": -25
     }
   },
-  {
+  "Dantgoule": {
     "level": 36,
-    "name": "Dantgoule",
     "category": "Chapeau",
     "stats": {
       "health": 50,
       "agility": 50
     }
   },
-  {
+  "Masque Tromatisant": {
     "level": 47,
-    "name": "Masque Tromatisant",
     "category": "Chapeau",
     "stats": {
       "strength": 60,
       "damage": 5
     }
   },
-  {
+  "Crystal O'Boul": {
     "level": 72,
-    "name": "Crystal O'Boul",
     "panoply": "Panoplie O'Boul",
     "category": "Chapeau",
     "stats": {
@@ -115,9 +103,8 @@
       "heal": 7
     }
   },
-  {
+  "Minotokorno": {
     "level": 110,
-    "name": "Minotokorno",
     "panoply": "Panoplie du Minotoror",
     "category": "Chapeau",
     "stats": {
@@ -133,18 +120,16 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Houde": {
     "level": 30,
-    "name": "Houde",
     "category": "Chapeau",
     "stats": {
       "chance": 40,
       "criticalChance": 2
     }
   },
-  {
+  "Lorko Kasko": {
     "level": 37,
-    "name": "Lorko Kasko",
     "category": "Chapeau",
     "stats": {
       "health": 40,
@@ -152,28 +137,25 @@
       "intelligence": 30
     }
   },
-  {
+  "Korko Klako": {
     "level": 17,
-    "name": "Korko Klako",
     "category": "Chapeau",
     "stats": {
       "health": 15,
       "summon": 1
     }
   },
-  {
+  "Jouik Krampe": {
     "level": 26,
-    "name": "Jouik Krampe",
     "category": "Chapeau",
     "stats": {
       "intelligence": 40,
-      "agility": 0,
+      "agility": -40,
       "summon": 1
     }
   },
-  {
+  "Gulliver": {
     "level": 32,
-    "name": "Gulliver",
     "category": "Chapeau",
     "stats": {
       "health": 45,
@@ -181,26 +163,23 @@
       "initiative": 100
     }
   },
-  {
+  "Louffeur": {
     "level": 1,
-    "name": "Louffeur",
     "category": "Chapeau",
     "stats": {
       "neutralResist": 1,
       "earthResist": 1
     }
   },
-  {
+  "Bandeau Komintot": {
     "level": 3,
-    "name": "Bandeau Komintot",
     "category": "Chapeau",
     "stats": {
       "wisdom": 5
     }
   },
-  {
+  "Lisseur": {
     "level": 2,
-    "name": "Lisseur",
     "category": "Chapeau",
     "stats": {
       "fireResist": 1,
@@ -208,34 +187,31 @@
       "airResist": 1
     }
   },
-  {
+  "Bandeau de Vitalité": {
     "level": 3,
-    "name": "Bandeau de Vitalité",
     "category": "Chapeau",
     "stats": {
       "health": 15
     }
   },
-  {
+  "Couronne du Wa Wabbit": {
     "level": 60,
-    "name": "Couronne du Wa Wabbit",
     "panoply": "Panoplie du Wa",
     "category": "Chapeau",
     "stats": {
       "health": 100,
-      "strength": 0,
+      "strength": -30,
       "intelligence": 30,
-      "chance": 0,
+      "chance": -30,
       "agility": 30,
       "criticalChance": 3,
-      "range": 0,
+      "range": -1,
       "lock": 10,
       "mpResist": 10
     }
   },
-  {
+  "Citwouille": {
     "level": 20,
-    "name": "Citwouille",
     "category": "Chapeau",
     "stats": {
       "neutralResist": 3,
@@ -245,9 +221,8 @@
       "airResist": 3
     }
   },
-  {
+  "Casque": {
     "level": 20,
-    "name": "Casque",
     "panoply": "Panoplie prototype du pilote",
     "category": "Chapeau",
     "stats": {
@@ -255,9 +230,8 @@
       "dodge": 10
     }
   },
-  {
+  "Masque Kanniboul": {
     "level": 50,
-    "name": "Masque Kanniboul",
     "category": "Chapeau",
     "stats": {
       "health": 20,
@@ -268,9 +242,8 @@
       "airDamage": 7
     }
   },
-  {
+  "Dragocoiffe Calcaire": {
     "level": 63,
-    "name": "Dragocoiffe Calcaire",
     "category": "Chapeau",
     "stats": {
       "health": 40,
@@ -281,36 +254,33 @@
       "airResistPer": 3
     }
   },
-  {
+  "Casque du Chafer": {
     "level": 49,
-    "name": "Casque du Chafer",
     "category": "Chapeau",
     "stats": {
       "health": 100,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -50,
+      "intelligence": -50,
+      "chance": -50,
+      "agility": -50,
       "criticalChance": 5,
       "AP": 1,
       "summon": 1
     }
   },
-  {
+  "Shako": {
     "level": 34,
-    "name": "Shako",
     "category": "Chapeau",
     "stats": {
       "health": 50,
-      "strength": 0,
+      "strength": -10,
       "intelligence": 50,
-      "earthDamage": 0,
+      "earthDamage": -3,
       "fireDamage": 3
     }
   },
-  {
+  "Makroute Sombre": {
     "level": 50,
-    "name": "Makroute Sombre",
     "category": "Chapeau",
     "stats": {
       "health": 30,
@@ -320,32 +290,29 @@
       "fireResistPer": 2,
       "waterResistPer": 2,
       "airResistPer": 2,
-      "lock": 0
+      "lock": -5
     }
   },
-  {
+  "Le Ours": {
     "level": 35,
-    "name": "Le Ours",
     "category": "Chapeau",
     "stats": {
       "health": 30,
       "strength": 50,
-      "intelligence": 0,
+      "intelligence": -20,
       "wisdom": 15
     }
   },
-  {
+  "Dora Sombre de Brave": {
     "level": 37,
-    "name": "Dora Sombre de Brave",
     "category": "Chapeau",
     "stats": {
       "intelligence": 50,
       "wisdom": 20
     }
   },
-  {
+  "Champo": {
     "level": 43,
-    "name": "Champo",
     "category": "Chapeau",
     "stats": {
       "health": 40,
@@ -353,9 +320,8 @@
       "damage": 3
     }
   },
-  {
+  "Kraignosse": {
     "level": 48,
-    "name": "Kraignosse",
     "category": "Chapeau",
     "stats": {
       "health": 80,
@@ -364,9 +330,8 @@
       "damage": 5
     }
   },
-  {
+  "Kwakoiffe de Flammes": {
     "level": 41,
-    "name": "Kwakoiffe de Flammes",
     "panoply": "Panoplie du Kwak de Flammes",
     "category": "Chapeau",
     "stats": {
@@ -376,21 +341,19 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Abracaska": {
     "level": 45,
-    "name": "Abracaska",
     "panoply": "Panoplie de l'Abraknyde",
     "category": "Chapeau",
     "stats": {
       "health": 70,
       "AP": 1,
       "heal": 5,
-      "dodge": 0
+      "dodge": -20
     }
   },
-  {
+  "Coiffe du Bouftou": {
     "level": 20,
-    "name": "Coiffe du Bouftou",
     "panoply": "Panoplie du Bouftou",
     "category": "Chapeau",
     "stats": {
@@ -398,9 +361,8 @@
       "intelligence": 20
     }
   },
-  {
+  "Boufcoiffe Royale": {
     "level": 32,
-    "name": "Boufcoiffe Royale",
     "panoply": "Panoplie du Bouftou Royal",
     "category": "Chapeau",
     "stats": {
@@ -408,9 +370,8 @@
       "intelligence": 30
     }
   },
-  {
+  "Gelocoiffe": {
     "level": 60,
-    "name": "Gelocoiffe",
     "panoply": "Panoplie Gelax",
     "category": "Chapeau",
     "stats": {
@@ -421,9 +382,8 @@
       "prospecting": 20
     }
   },
-  {
+  "Chapeau de l'Aventurier": {
     "level": 9,
-    "name": "Chapeau de l'Aventurier",
     "panoply": "Panoplie du Jeune Aventurier",
     "category": "Chapeau",
     "stats": {
@@ -433,9 +393,8 @@
       "agility": 5
     }
   },
-  {
+  "Végacoiffe": {
     "level": 40,
-    "name": "Végacoiffe",
     "panoply": "Panoplie Végétatif",
     "category": "Chapeau",
     "stats": {
@@ -445,9 +404,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Caracoiffe": {
     "level": 60,
-    "name": "Caracoiffe",
     "panoply": "Panoplie Tortue",
     "category": "Chapeau",
     "stats": {
@@ -455,9 +413,8 @@
       "AP": 1
     }
   },
-  {
+  "Kwakoiffe de Glace": {
     "level": 41,
-    "name": "Kwakoiffe de Glace",
     "panoply": "Panoplie du Kwak de Glace",
     "category": "Chapeau",
     "stats": {
@@ -467,9 +424,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Corbacoiffe": {
     "level": 106,
-    "name": "Corbacoiffe",
     "panoply": "Panoplie du Corbac",
     "category": "Chapeau",
     "stats": {
@@ -484,18 +440,16 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Toady": {
     "level": 30,
-    "name": "Toady",
     "panoply": "Panoplie de Toady",
     "category": "Chapeau",
     "stats": {
       "agility": 50
     }
   },
-  {
+  "Dragocoiffe Argile": {
     "level": 63,
-    "name": "Dragocoiffe Argile",
     "category": "Chapeau",
     "stats": {
       "health": 25,
@@ -508,9 +462,8 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Dragocoiffe Ardoise": {
     "level": 63,
-    "name": "Dragocoiffe Ardoise",
     "category": "Chapeau",
     "stats": {
       "health": 30,
@@ -521,9 +474,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Dragocoiffe Charbon": {
     "level": 63,
-    "name": "Dragocoiffe Charbon",
     "category": "Chapeau",
     "stats": {
       "health": 35,
@@ -535,9 +487,8 @@
       "dodge": 8
     }
   },
-  {
+  "Chapeau du Mineur Sombre": {
     "level": 103,
-    "name": "Chapeau du Mineur Sombre",
     "category": "Chapeau",
     "stats": {
       "chance": 50,
@@ -550,9 +501,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Dora Bora": {
     "level": 120,
-    "name": "Dora Bora",
     "category": "Chapeau",
     "stats": {
       "strength": 80,
@@ -565,9 +515,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Korko Kousto": {
     "level": 73,
-    "name": "Korko Kousto",
     "category": "Chapeau",
     "stats": {
       "health": 20,
@@ -578,9 +527,8 @@
       "damage": 2
     }
   },
-  {
+  "Casque du Bwork de Bronze": {
     "level": 144,
-    "name": "Casque du Bwork de Bronze",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -593,9 +541,8 @@
       "fireResist": 20
     }
   },
-  {
+  "Oreilles de Wabbits": {
     "level": 59,
-    "name": "Oreilles de Wabbits",
     "panoply": "Panoplie de la Cawotte",
     "category": "Chapeau",
     "stats": {
@@ -606,21 +553,18 @@
       "fireDamage": 5
     }
   },
-  {
+  "Chapeau du Marié": {
     "level": 1,
-    "name": "Chapeau du Marié",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Chapeau de la Mariée": {
     "level": 1,
-    "name": "Chapeau de la Mariée",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Coiffe de l'Homme Ours": {
     "level": 20,
-    "name": "Coiffe de l'Homme Ours",
     "panoply": "Panoplie de l'Homme Ours",
     "category": "Chapeau",
     "stats": {
@@ -628,9 +572,8 @@
       "intelligence": 30
     }
   },
-  {
+  "Kwakoiffe de Terre": {
     "level": 41,
-    "name": "Kwakoiffe de Terre",
     "panoply": "Panoplie du Kwak de Terre",
     "category": "Chapeau",
     "stats": {
@@ -640,9 +583,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Kwakoiffe de Vent": {
     "level": 41,
-    "name": "Kwakoiffe de Vent",
     "panoply": "Panoplie du Kwak de Vent",
     "category": "Chapeau",
     "stats": {
@@ -652,9 +594,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Fourbacoiffe": {
     "level": 100,
-    "name": "Fourbacoiffe",
     "panoply": "Panoplie du Chasseur Embusqué",
     "category": "Chapeau",
     "stats": {
@@ -671,9 +612,8 @@
       "lock": 4
     }
   },
-  {
+  "Farlacoiffe": {
     "level": 78,
-    "name": "Farlacoiffe",
     "panoply": "Panoplie de Farle Ingalsse",
     "category": "Chapeau",
     "stats": {
@@ -685,9 +625,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Coiffe Champêtre": {
     "level": 14,
-    "name": "Coiffe Champêtre",
     "panoply": "Panoplie Champêtre",
     "category": "Chapeau",
     "stats": {
@@ -695,9 +634,8 @@
       "power": 15
     }
   },
-  {
+  "Casque du Chef Bwork": {
     "level": 100,
-    "name": "Casque du Chef Bwork",
     "panoply": "Panoplie du Chef Bwork",
     "category": "Chapeau",
     "stats": {
@@ -713,9 +651,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Coiffe du Chef Crocodaille": {
     "level": 70,
-    "name": "Coiffe du Chef Crocodaille",
     "panoply": "Panoplie du Chef Crocodaille",
     "category": "Chapeau",
     "stats": {
@@ -728,15 +665,13 @@
       "fireResistPer": 2
     }
   },
-  {
+  "Casque des Mercenaires d'Astrub": {
     "level": 1,
-    "name": "Casque des Mercenaires d'Astrub",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "L'Araknacoiffe": {
     "level": 10,
-    "name": "L'Araknacoiffe",
     "panoply": "Panoplie Arakne",
     "category": "Chapeau",
     "stats": {
@@ -744,18 +679,16 @@
       "criticalChance": 2
     }
   },
-  {
+  "Moskitogalurette": {
     "level": 15,
-    "name": "Moskitogalurette",
     "panoply": "Panoplie Moskito",
     "category": "Chapeau",
     "stats": {
       "chance": 25
     }
   },
-  {
+  "Champcoiffe": {
     "level": 12,
-    "name": "Champcoiffe",
     "panoply": "Panoplie Champ Champ",
     "category": "Chapeau",
     "stats": {
@@ -763,9 +696,8 @@
       "lock": 4
     }
   },
-  {
+  "Coiffe du Prespic": {
     "level": 36,
-    "name": "Coiffe du Prespic",
     "panoply": "Panoplie du Prespic",
     "category": "Chapeau",
     "stats": {
@@ -776,9 +708,8 @@
       "dodge": 3
     }
   },
-  {
+  "Casque du Craqueleur": {
     "level": 62,
-    "name": "Casque du Craqueleur",
     "panoply": "Panoplie du Craqueleur",
     "category": "Chapeau",
     "stats": {
@@ -786,16 +717,15 @@
       "strength": 30,
       "chance": 30,
       "wisdom": 20,
-      "range": 0,
+      "range": -1,
       "prospecting": 10,
       "waterResistPer": 5,
       "lock": 7,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "Scaracoiffe Verte": {
     "level": 44,
-    "name": "Scaracoiffe Verte",
     "panoply": "Panoplie du Scarafeuille Vert",
     "category": "Chapeau",
     "stats": {
@@ -805,9 +735,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Scaracoiffe Rouge": {
     "level": 44,
-    "name": "Scaracoiffe Rouge",
     "panoply": "Panoplie du Scarafeuille Rouge",
     "category": "Chapeau",
     "stats": {
@@ -817,9 +746,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Scaracoiffe Blanche": {
     "level": 44,
-    "name": "Scaracoiffe Blanche",
     "panoply": "Panoplie du Scarafeuille Blanc",
     "category": "Chapeau",
     "stats": {
@@ -829,9 +757,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Scaracoiffe Bleue": {
     "level": 44,
-    "name": "Scaracoiffe Bleue",
     "panoply": "Panoplie du Scarafeuille Bleu",
     "category": "Chapeau",
     "stats": {
@@ -841,9 +768,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Coiffe du Mulou": {
     "level": 61,
-    "name": "Coiffe du Mulou",
     "panoply": "Panoplie du Mulou",
     "category": "Chapeau",
     "stats": {
@@ -855,9 +781,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Sulik": {
     "level": 167,
-    "name": "Sulik",
     "category": "Chapeau",
     "stats": {
       "health": 400,
@@ -866,9 +791,8 @@
       "reflect": 25
     }
   },
-  {
+  "Krokop": {
     "level": 117,
-    "name": "Krokop",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -880,9 +804,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Phalène": {
     "level": 113,
-    "name": "Phalène",
     "category": "Chapeau",
     "stats": {
       "health": 150,
@@ -893,9 +816,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Goyave": {
     "level": 46,
-    "name": "Goyave",
     "category": "Chapeau",
     "stats": {
       "health": 40,
@@ -905,9 +827,8 @@
       "lock": 5
     }
   },
-  {
+  "Kannipiou": {
     "level": 55,
-    "name": "Kannipiou",
     "category": "Chapeau",
     "stats": {
       "health": 45,
@@ -916,13 +837,12 @@
       "chance": 20,
       "agility": 20,
       "wisdom": 25,
-      "range": 0,
+      "range": -1,
       "heal": 10
     }
   },
-  {
+  "Casque de Maître Nabur": {
     "level": 97,
-    "name": "Casque de Maître Nabur",
     "panoply": "Panoplie de Maître Nabur",
     "category": "Chapeau",
     "stats": {
@@ -934,9 +854,8 @@
       "waterResistPer": 7
     }
   },
-  {
+  "Couronne du Roi Gelax": {
     "level": 79,
-    "name": "Couronne du Roi Gelax",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -946,9 +865,8 @@
       "dodge": 5
     }
   },
-  {
+  "Krépite": {
     "level": 149,
-    "name": "Krépite",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -960,9 +878,8 @@
       "airResist": 15
     }
   },
-  {
+  "Octovius": {
     "level": 77,
-    "name": "Octovius",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -972,9 +889,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Larvacoiffe": {
     "level": 34,
-    "name": "Larvacoiffe",
     "panoply": "Panoplie Larvesque",
     "category": "Chapeau",
     "stats": {
@@ -985,9 +901,8 @@
       "dodge": 5
     }
   },
-  {
+  "Holoune": {
     "level": 122,
-    "name": "Holoune",
     "panoply": "Panododo",
     "category": "Chapeau",
     "stats": {
@@ -1000,9 +915,8 @@
       "fireResistPer": 10
     }
   },
-  {
+  "Piruk": {
     "level": 145,
-    "name": "Piruk",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -1016,9 +930,8 @@
       "airResist": 10
     }
   },
-  {
+  "Solomonk": {
     "level": 118,
-    "name": "Solomonk",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -1031,9 +944,8 @@
       "trapDamage": 30
     }
   },
-  {
+  "Blémiche": {
     "level": 108,
-    "name": "Blémiche",
     "category": "Chapeau",
     "stats": {
       "health": 150,
@@ -1043,9 +955,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Coiffe du Gaddie": {
     "level": 106,
-    "name": "Coiffe du Gaddie",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -1055,9 +966,8 @@
       "waterResist": 10
     }
   },
-  {
+  "La Bertheuze": {
     "level": 81,
-    "name": "La Bertheuze",
     "category": "Chapeau",
     "stats": {
       "health": 120,
@@ -1068,9 +978,8 @@
       "waterResistPer": 4
     }
   },
-  {
+  "La Bekille": {
     "level": 111,
-    "name": "La Bekille",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -1082,9 +991,8 @@
       "waterResistPer": 8
     }
   },
-  {
+  "Koloss": {
     "level": 116,
-    "name": "Koloss",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -1097,9 +1005,8 @@
       "trapDamage": 15
     }
   },
-  {
+  "Kanistère": {
     "level": 115,
-    "name": "Kanistère",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -1108,18 +1015,16 @@
       "initiative": 1500
     }
   },
-  {
+  "Bandeau Pandawushu": {
     "level": 4,
-    "name": "Bandeau Pandawushu",
     "category": "Chapeau",
     "stats": {
       "initiative": 100,
       "dodge": 4
     }
   },
-  {
+  "Chapeau Akwadala": {
     "level": 43,
-    "name": "Chapeau Akwadala",
     "panoply": "Panoplie Akwadala",
     "category": "Chapeau",
     "stats": {
@@ -1128,9 +1033,8 @@
       "damage": 3
     }
   },
-  {
+  "Chapeau Terrdala": {
     "level": 75,
-    "name": "Chapeau Terrdala",
     "panoply": "Panoplie Terrdala",
     "category": "Chapeau",
     "stats": {
@@ -1142,9 +1046,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Chapeau Feudala": {
     "level": 98,
-    "name": "Chapeau Feudala",
     "panoply": "Panoplie Feudala",
     "category": "Chapeau",
     "stats": {
@@ -1156,9 +1059,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Chapeau Aerdala": {
     "level": 64,
-    "name": "Chapeau Aerdala",
     "panoply": "Panoplie Aerdala",
     "category": "Chapeau",
     "stats": {
@@ -1170,9 +1072,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Coiffe du Kitsou": {
     "level": 61,
-    "name": "Coiffe du Kitsou",
     "panoply": "Panoplie du Kitsou",
     "category": "Chapeau",
     "stats": {
@@ -1182,9 +1083,8 @@
       "waterResistPer": 4
     }
   },
-  {
+  "Coiffe du Bimd'Oule": {
     "level": 110,
-    "name": "Coiffe du Bimd'Oule",
     "category": "Chapeau",
     "stats": {
       "health": 150,
@@ -1200,9 +1100,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Chapodindo": {
     "level": 50,
-    "name": "Chapodindo",
     "panoply": "Panoplie Dindo",
     "category": "Chapeau",
     "stats": {
@@ -1212,9 +1111,8 @@
       "prospecting": 15
     }
   },
-  {
+  "Ougalurette": {
     "level": 178,
-    "name": "Ougalurette",
     "panoply": "Panoplie du Ougah",
     "category": "Chapeau",
     "stats": {
@@ -1226,9 +1124,8 @@
       "neutralResistPer": 10
     }
   },
-  {
+  "Coiffe du Boufcoul": {
     "level": 89,
-    "name": "Coiffe du Boufcoul",
     "panoply": "Panoplie du Boufcoul",
     "category": "Chapeau",
     "stats": {
@@ -1241,22 +1138,21 @@
       "fireDamage": 3,
       "airDamage": 3,
       "heal": 6,
-      "initiative": 0,
+      "initiative": -50,
       "earthResistPer": 3,
       "fireResistPer": 3
     }
   },
-  {
+  "Coiffe du Koulosse": {
     "level": 82,
-    "name": "Coiffe du Koulosse",
     "panoply": "Panoplie du Koulosse",
     "category": "Chapeau",
     "stats": {
       "health": 300,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
       "wisdom": 30,
       "range": 1,
       "summon": 1,
@@ -1267,9 +1163,8 @@
       "lock": 10
     }
   },
-  {
+  "Couronne du Tofu Royal": {
     "level": 128,
-    "name": "Couronne du Tofu Royal",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -1280,9 +1175,8 @@
       "earthResistPer": -6
     }
   },
-  {
+  "Coiffe du Koalak": {
     "level": 60,
-    "name": "Coiffe du Koalak",
     "panoply": "Panoplie du Koalak",
     "category": "Chapeau",
     "stats": {
@@ -1292,9 +1186,8 @@
       "damage": 6
     }
   },
-  {
+  "Kaskofu": {
     "level": 23,
-    "name": "Kaskofu",
     "panoply": "Panoplie du Tofu",
     "category": "Chapeau",
     "stats": {
@@ -1303,9 +1196,8 @@
       "dodge": 5
     }
   },
-  {
+  "Scaracoiffe Dorée": {
     "level": 58,
-    "name": "Scaracoiffe Dorée",
     "panoply": "Panoplie du Scarabosse Doré",
     "category": "Chapeau",
     "stats": {
@@ -1317,9 +1209,8 @@
       "neutralResistPer": 3
     }
   },
-  {
+  "Bob du Paysan": {
     "level": 19,
-    "name": "Bob du Paysan",
     "panoply": "Panoplie du Paysan",
     "category": "Chapeau",
     "stats": {
@@ -1327,9 +1218,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Scaracoiffe Noire": {
     "level": 53,
-    "name": "Scaracoiffe Noire",
     "panoply": "Panoplie du Scarafeuille Noir",
     "category": "Chapeau",
     "stats": {
@@ -1339,9 +1229,8 @@
       "damage": 4
     }
   },
-  {
+  "Casque du Craqueleur Légendaire": {
     "level": 80,
-    "name": "Casque du Craqueleur Légendaire",
     "panoply": "Panoplie du Craqueleur Légendaire",
     "category": "Chapeau",
     "stats": {
@@ -1354,18 +1243,16 @@
       "initiative": 200
     }
   },
-  {
+  "Tête de Citwouille": {
     "level": 1,
-    "name": "Tête de Citwouille",
     "category": "Chapeau",
     "stats": {
       "health": 5,
       "initiative": 10
     }
   },
-  {
+  "Kabuto": {
     "level": 101,
-    "name": "Kabuto",
     "category": "Chapeau",
     "stats": {
       "health": 100,
@@ -1378,9 +1265,8 @@
       "waterResistPer": 6
     }
   },
-  {
+  "Chapeau du Piou Rouge": {
     "level": 12,
-    "name": "Chapeau du Piou Rouge",
     "panoply": "Panoplie du Piou Rouge",
     "category": "Chapeau",
     "stats": {
@@ -1388,9 +1274,8 @@
       "fireDamage": 1
     }
   },
-  {
+  "Chapeau du Piou Bleu": {
     "level": 11,
-    "name": "Chapeau du Piou Bleu",
     "panoply": "Panoplie du Piou Bleu",
     "category": "Chapeau",
     "stats": {
@@ -1398,9 +1283,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Chapeau du Piou Violet": {
     "level": 10,
-    "name": "Chapeau du Piou Violet",
     "panoply": "Panoplie du Piou Violet",
     "category": "Chapeau",
     "stats": {
@@ -1408,9 +1292,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Chapeau du Piou Jaune": {
     "level": 8,
-    "name": "Chapeau du Piou Jaune",
     "panoply": "Panoplie du Piou Jaune",
     "category": "Chapeau",
     "stats": {
@@ -1418,9 +1301,8 @@
       "summon": 1
     }
   },
-  {
+  "Chapeau du Piou Vert": {
     "level": 7,
-    "name": "Chapeau du Piou Vert",
     "panoply": "Panoplie du Piou Vert",
     "category": "Chapeau",
     "stats": {
@@ -1428,9 +1310,8 @@
       "earthDamage": 1
     }
   },
-  {
+  "Chapeau du Piou Rose": {
     "level": 9,
-    "name": "Chapeau du Piou Rose",
     "panoply": "Panoplie du Piou Rose",
     "category": "Chapeau",
     "stats": {
@@ -1438,9 +1319,8 @@
       "dodge": 2
     }
   },
-  {
+  "Coiffe en Mousse": {
     "level": 20,
-    "name": "Coiffe en Mousse",
     "panoply": "Panoplie en Mousse",
     "category": "Chapeau",
     "stats": {
@@ -1450,9 +1330,8 @@
       "dodge": 3
     }
   },
-  {
+  "Bandeau Kaliptus": {
     "level": 133,
-    "name": "Bandeau Kaliptus",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -1469,9 +1348,8 @@
       "waterResistPer": -4
     }
   },
-  {
+  "Coiffe du Meulou": {
     "level": 141,
-    "name": "Coiffe du Meulou",
     "panoply": "Panoplie du Meulou",
     "category": "Chapeau",
     "stats": {
@@ -1487,9 +1365,8 @@
       "neutralResistPer": 4
     }
   },
-  {
+  "Coiffe du Minotot": {
     "level": 157,
-    "name": "Coiffe du Minotot",
     "panoply": "Panoplie du Minotot",
     "category": "Chapeau",
     "stats": {
@@ -1505,9 +1382,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Coiffe du Dragon Cochon": {
     "level": 96,
-    "name": "Coiffe du Dragon Cochon",
     "panoply": "Panoplie du Dragon Cochon",
     "category": "Chapeau",
     "stats": {
@@ -1521,9 +1397,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Casque Dragoeuf": {
     "level": 129,
-    "name": "Casque Dragoeuf",
     "panoply": "Panoplie du Dragoeuf Cuirassé",
     "category": "Chapeau",
     "stats": {
@@ -1535,9 +1410,8 @@
       "airResistPer": 13
     }
   },
-  {
+  "Shikacoiffe": {
     "level": 80,
-    "name": "Shikacoiffe",
     "panoply": "Panoplie de Shika Ingalsse",
     "category": "Chapeau",
     "stats": {
@@ -1549,9 +1423,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Coiffe du Mominotor": {
     "level": 110,
-    "name": "Coiffe du Mominotor",
     "panoply": "Panoplie du Mominotor",
     "category": "Chapeau",
     "stats": {
@@ -1566,9 +1439,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Coiffe du Draguaindrop": {
     "level": 109,
-    "name": "Coiffe du Draguaindrop",
     "category": "Chapeau",
     "stats": {
       "health": 150,
@@ -1581,9 +1453,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Coiffe de la Dragueuse": {
     "level": 109,
-    "name": "Coiffe de la Dragueuse",
     "category": "Chapeau",
     "stats": {
       "health": 100,
@@ -1599,9 +1470,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Chapeau du Papa Nowel": {
     "level": 22,
-    "name": "Chapeau du Papa Nowel",
     "panoply": "Panoplie de Nowel",
     "category": "Chapeau",
     "stats": {
@@ -1610,9 +1480,8 @@
       "pods": 150
     }
   },
-  {
+  "Billréole": {
     "level": 100,
-    "name": "Billréole",
     "category": "Chapeau",
     "stats": {
       "health": 100,
@@ -1622,9 +1491,8 @@
       "initiative": 1000
     }
   },
-  {
+  "Masque du Rat Noir": {
     "level": 102,
-    "name": "Masque du Rat Noir",
     "panoply": "Panoplie du Rat Noir",
     "category": "Chapeau",
     "stats": {
@@ -1639,9 +1507,8 @@
       "waterResistPer": 7
     }
   },
-  {
+  "Couvre-chef du Rat Blanc": {
     "level": 105,
-    "name": "Couvre-chef du Rat Blanc",
     "panoply": "Panoplie du Rat Blanc",
     "category": "Chapeau",
     "stats": {
@@ -1655,9 +1522,8 @@
       "earthResistPer": 7
     }
   },
-  {
+  "Coiffe Cérémoniale du Seigneur des Rats": {
     "level": 133,
-    "name": "Coiffe Cérémoniale du Seigneur des Rats",
     "panoply": "Panoplie Cérémoniale",
     "category": "Chapeau",
     "stats": {
@@ -1675,9 +1541,8 @@
       "waterResist": 6
     }
   },
-  {
+  "Abracaska Ancestral": {
     "level": 114,
-    "name": "Abracaska Ancestral",
     "panoply": "Panoplie Ancestrale",
     "category": "Chapeau",
     "stats": {
@@ -1691,9 +1556,8 @@
       "fireResistPer": 7
     }
   },
-  {
+  "Coiffe du Chêne Mou": {
     "level": 145,
-    "name": "Coiffe du Chêne Mou",
     "panoply": "Panoplie du Chêne Mou",
     "category": "Chapeau",
     "stats": {
@@ -1710,9 +1574,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Ruskauffe": {
     "level": 151,
-    "name": "Ruskauffe",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -1726,9 +1589,8 @@
       "earthResistPer": 10
     }
   },
-  {
+  "Le Floude": {
     "level": 1,
-    "name": "Le Floude",
     "panoply": "Panoplie du Boune",
     "category": "Chapeau",
     "stats": {
@@ -1736,9 +1598,8 @@
       "wisdom": 4
     }
   },
-  {
+  "Doro le Blak": {
     "level": 129,
-    "name": "Doro le Blak",
     "category": "Chapeau",
     "stats": {
       "chance": 60,
@@ -1749,115 +1610,102 @@
       "fireResistPer": 10
     }
   },
-  {
+  "Casque Keutumedi": {
     "level": 40,
-    "name": "Casque Keutumedi",
     "panoply": "Panoplie Téméraire",
     "category": "Chapeau",
     "stats": {
       "undefined": 13148
     }
   },
-  {
+  "Chapeau Leufère": {
     "level": 40,
-    "name": "Chapeau Leufère",
     "panoply": "Panoplie de Gouttière",
     "category": "Chapeau",
     "stats": {
       "undefined": 12841
     }
   },
-  {
+  "Chapeau Grave": {
     "level": 40,
-    "name": "Chapeau Grave",
     "panoply": "Panoplie Criminelle",
     "category": "Chapeau",
     "stats": {
       "undefined": 12943
     }
   },
-  {
+  "Bonnet Nufar": {
     "level": 40,
-    "name": "Bonnet Nufar",
     "panoply": "Panoplie Intemporelle",
     "category": "Chapeau",
     "stats": {
       "undefined": 13245
     }
   },
-  {
+  "Coiffe Fère": {
     "level": 40,
-    "name": "Coiffe Fère",
     "panoply": "Panoplie Altruiste",
     "category": "Chapeau",
     "stats": {
       "undefined": 25856
     }
   },
-  {
+  "Chapeau Tyron": {
     "level": 40,
-    "name": "Chapeau Tyron",
     "panoply": "Panoplie Sauvage",
     "category": "Chapeau",
     "stats": {
       "undefined": 13526
     }
   },
-  {
+  "Bonnet Spairance": {
     "level": 40,
-    "name": "Bonnet Spairance",
     "panoply": "Panoplie Exsangue",
     "category": "Chapeau",
     "stats": {
       "undefined": 12763
     }
   },
-  {
+  "Capuche Apin": {
     "level": 40,
-    "name": "Capuche Apin",
     "panoply": "Panoplie de l'Innombrable",
     "category": "Chapeau",
     "stats": {
       "undefined": 14022
     }
   },
-  {
+  "Chapeau Lithique": {
     "level": 40,
-    "name": "Chapeau Lithique",
     "panoply": "Panoplie Ethylique",
     "category": "Chapeau",
     "stats": {
       "undefined": 12789
     }
   },
-  {
+  "Coiffe de Robbie Capuche": {
     "level": 40,
-    "name": "Coiffe de Robbie Capuche",
     "panoply": "Panoplie du Prince des voleurs",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Bonnet Toual": {
     "level": 40,
-    "name": "Bonnet Toual",
     "panoply": "Panoplie Indestructible",
     "category": "Chapeau",
     "stats": {
       "undefined": 12981
     }
   },
-  {
+  "Chapeau Taufeu": {
     "level": 40,
-    "name": "Chapeau Taufeu",
     "panoply": "Panoplie Vénérable",
     "category": "Chapeau",
     "stats": {
       "undefined": 13332
     }
   },
-  {
+  "Coiffe du Tynril": {
     "level": 164,
-    "name": "Coiffe du Tynril",
     "panoply": "Panoplie du Tynril",
     "category": "Chapeau",
     "stats": {
@@ -1872,9 +1720,8 @@
       "airResist": 8
     }
   },
-  {
+  "Le Nahitse": {
     "level": 159,
-    "name": "Le Nahitse",
     "category": "Chapeau",
     "stats": {
       "intelligence": 60,
@@ -1889,9 +1736,8 @@
       "airResist": 12
     }
   },
-  {
+  "Masque du Sergent Zoth": {
     "level": 133,
-    "name": "Masque du Sergent Zoth",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -1906,9 +1752,8 @@
       "neutralResistPer": -6
     }
   },
-  {
+  "Coiffe du Disciple Zoth": {
     "level": 128,
-    "name": "Coiffe du Disciple Zoth",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -1923,9 +1768,8 @@
       "airResistPer": -6
     }
   },
-  {
+  "Masque de l'Abrakleur clair": {
     "level": 134,
-    "name": "Masque de l'Abrakleur clair",
     "panoply": "Panoplie Claire",
     "category": "Chapeau",
     "stats": {
@@ -1940,9 +1784,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Masque de l'Abrakleur sombre": {
     "level": 126,
-    "name": "Masque de l'Abrakleur sombre",
     "panoply": "Panoplie Sombre",
     "category": "Chapeau",
     "stats": {
@@ -1957,9 +1800,8 @@
       "waterResistPer": 6
     }
   },
-  {
+  "Kaskargo": {
     "level": 123,
-    "name": "Kaskargo",
     "panoply": "Panoplie Baveuse",
     "category": "Chapeau",
     "stats": {
@@ -1974,9 +1816,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Perruque du Poolay": {
     "level": 142,
-    "name": "Perruque du Poolay",
     "panoply": "Panoplie du Poolay",
     "category": "Chapeau",
     "stats": {
@@ -1989,9 +1830,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Chapeau de Barbroussa": {
     "level": 74,
-    "name": "Chapeau de Barbroussa",
     "category": "Chapeau",
     "stats": {
       "agility": 40,
@@ -2003,9 +1843,8 @@
       "criticalDamage": 7
     }
   },
-  {
+  "Masque Vaudou Eth": {
     "level": 158,
-    "name": "Masque Vaudou Eth",
     "category": "Chapeau",
     "stats": {
       "health": -101,
@@ -2021,9 +1860,8 @@
       "earthResist": 14
     }
   },
-  {
+  "Masque Vaudou Jav": {
     "level": 158,
-    "name": "Masque Vaudou Jav",
     "category": "Chapeau",
     "stats": {
       "health": -101,
@@ -2039,9 +1877,8 @@
       "waterResist": 14
     }
   },
-  {
+  "Masque Vaudou Sarbak": {
     "level": 158,
-    "name": "Masque Vaudou Sarbak",
     "category": "Chapeau",
     "stats": {
       "health": -101,
@@ -2057,9 +1894,8 @@
       "airResist": 14
     }
   },
-  {
+  "Masque Vaudou Ark": {
     "level": 158,
-    "name": "Masque Vaudou Ark",
     "category": "Chapeau",
     "stats": {
       "health": -101,
@@ -2075,9 +1911,8 @@
       "fireResist": 14
     }
   },
-  {
+  "Chapeau de Crocodaille Dandi": {
     "level": 180,
-    "name": "Chapeau de Crocodaille Dandi",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -2093,9 +1928,8 @@
       "neutralResist": 10
     }
   },
-  {
+  "Capuche Souveraine du Roissingue": {
     "level": 168,
-    "name": "Capuche Souveraine du Roissingue",
     "panoply": "Panoplie Souveraine",
     "category": "Chapeau",
     "stats": {
@@ -2111,9 +1945,8 @@
       "airResist": 10
     }
   },
-  {
+  "Capuche de la Ouassingue": {
     "level": 104,
-    "name": "Capuche de la Ouassingue",
     "panoply": "Panoplie Vassale",
     "category": "Chapeau",
     "stats": {
@@ -2130,12 +1963,11 @@
       "waterResistPer": 3,
       "lock": 5,
       "mpReduction": 5,
-      "criticalResist": 0
+      "criticalResist": -10
     }
   },
-  {
+  "Chapeau de la Gamine Zoth": {
     "level": 128,
-    "name": "Chapeau de la Gamine Zoth",
     "panoply": "Panoplie du Zoth Zotheur",
     "category": "Chapeau",
     "stats": {
@@ -2149,9 +1981,8 @@
       "airResist": 10
     }
   },
-  {
+  "Casque du Guerrier Zoth": {
     "level": 134,
-    "name": "Casque du Guerrier Zoth",
     "panoply": "Panoplie du Zothicien",
     "category": "Chapeau",
     "stats": {
@@ -2164,9 +1995,8 @@
       "earthResist": 10
     }
   },
-  {
+  "Coiffe du Maître Zoth": {
     "level": 156,
-    "name": "Coiffe du Maître Zoth",
     "panoply": "Panoplie du Zothuliste",
     "category": "Chapeau",
     "stats": {
@@ -2180,17 +2010,15 @@
       "prospecting": 25
     }
   },
-  {
+  "Crack Sparrow's Own Withered Hat": {
     "level": 1,
-    "name": "Crack Sparrow's Own Withered Hat",
     "category": "Chapeau",
     "stats": {
       "health": 61
     }
   },
-  {
+  "Casque amélioré": {
     "level": 30,
-    "name": "Casque amélioré",
     "panoply": "Panoplie améliorée du pilote",
     "category": "Chapeau",
     "stats": {
@@ -2199,9 +2027,8 @@
       "dodge": 15
     }
   },
-  {
+  "Casque du Bitouf Aérien": {
     "level": 154,
-    "name": "Casque du Bitouf Aérien",
     "panoply": "Panoplie Bitoufale",
     "category": "Chapeau",
     "stats": {
@@ -2218,9 +2045,8 @@
       "airResist": 6
     }
   },
-  {
+  "Chapignon": {
     "level": 183,
-    "name": "Chapignon",
     "panoply": "Panoplignon",
     "category": "Chapeau",
     "stats": {
@@ -2237,9 +2063,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Casque Harnage": {
     "level": 189,
-    "name": "Casque Harnage",
     "panoply": "Panoplie du Bworker Gladiateur",
     "category": "Chapeau",
     "stats": {
@@ -2255,9 +2080,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Chapblopignon": {
     "level": 152,
-    "name": "Chapblopignon",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -2271,9 +2095,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Blopronne Royale": {
     "level": 161,
-    "name": "Blopronne Royale",
     "category": "Chapeau",
     "stats": {
       "health": 200,
@@ -2288,9 +2111,8 @@
       "airResistPer": 7
     }
   },
-  {
+  "Le Kim": {
     "level": 196,
-    "name": "Le Kim",
     "panoply": "Panoplie du Kimbo",
     "category": "Chapeau",
     "stats": {
@@ -2306,9 +2128,8 @@
       "airResist": 10
     }
   },
-  {
+  "Masque du Vampyre": {
     "level": 42,
-    "name": "Masque du Vampyre",
     "panoply": "Panoplie du Vampyre maudit",
     "category": "Chapeau",
     "stats": {
@@ -2318,9 +2139,8 @@
       "undefined": 1
     }
   },
-  {
+  "Casque du Roks Or": {
     "level": 52,
-    "name": "Casque du Roks Or",
     "panoply": "Panoplie du Roks Or",
     "category": "Chapeau",
     "stats": {
@@ -2330,9 +2150,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Chapeau de l'intrépide": {
     "level": 1,
-    "name": "Chapeau de l'intrépide",
     "panoply": "Panoplie de l'intrépide",
     "category": "Chapeau",
     "stats": {
@@ -2341,9 +2160,8 @@
       "undefined": 0
     }
   },
-  {
+  "Casque de Boufbowl": {
     "level": 29,
-    "name": "Casque de Boufbowl",
     "panoply": "Panoplie de Boufbowl",
     "category": "Chapeau",
     "stats": {
@@ -2352,18 +2170,16 @@
       "earthResistPer": 3
     }
   },
-  {
+  "Coiffe Wouaf": {
     "level": 10,
-    "name": "Coiffe Wouaf",
     "category": "Chapeau",
     "stats": {
       "health": 30,
       "initiative": 50
     }
   },
-  {
+  "Frimacoiffe": {
     "level": 188,
-    "name": "Frimacoiffe",
     "panoply": "Frimanoplie",
     "category": "Chapeau",
     "stats": {
@@ -2378,9 +2194,8 @@
       "airResist": 12
     }
   },
-  {
+  "Coiffe du Royalmouth": {
     "level": 125,
-    "name": "Coiffe du Royalmouth",
     "panoply": "Panoplie du Royalmouth",
     "category": "Chapeau",
     "stats": {
@@ -2399,9 +2214,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Couronne du Mansot Royal": {
     "level": 136,
-    "name": "Couronne du Mansot Royal",
     "panoply": "Panoplie du Mansot Royal",
     "category": "Chapeau",
     "stats": {
@@ -2420,9 +2234,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Chapeau de Ben le Ripate": {
     "level": 154,
-    "name": "Chapeau de Ben le Ripate",
     "panoply": "Panoplie de Ben le Ripate",
     "category": "Chapeau",
     "stats": {
@@ -2442,9 +2255,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Casque de l'Obsidiantre": {
     "level": 166,
-    "name": "Casque de l'Obsidiantre",
     "panoply": "Panoplie de l'Obsidiantre",
     "category": "Chapeau",
     "stats": {
@@ -2463,9 +2275,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Casque de l'Écumouth": {
     "level": 127,
-    "name": "Casque de l'Écumouth",
     "panoply": "Panoplie des Pins Perdus",
     "category": "Chapeau",
     "stats": {
@@ -2482,9 +2293,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Coiffe du Fricochère": {
     "level": 130,
-    "name": "Coiffe du Fricochère",
     "panoply": "Panoplie des Pins Perdus",
     "category": "Chapeau",
     "stats": {
@@ -2505,9 +2315,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Fantômasque": {
     "level": 156,
-    "name": "Fantômasque",
     "panoply": "Panoplie du Grolandais",
     "category": "Chapeau",
     "stats": {
@@ -2528,9 +2337,8 @@
       "dodge": 5
     }
   },
-  {
+  "Masque du Harpirate": {
     "level": 155,
-    "name": "Masque du Harpirate",
     "panoply": "Panoplie du Harpirate",
     "category": "Chapeau",
     "stats": {
@@ -2545,9 +2353,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Chapeau Pourih": {
     "level": 174,
-    "name": "Chapeau Pourih",
     "panoply": "Panoplie du frigostien douteux",
     "category": "Chapeau",
     "stats": {
@@ -2564,15 +2371,13 @@
       "criticalResist": 10
     }
   },
-  {
+  "Chapeau Tiche troué": {
     "level": 174,
-    "name": "Chapeau Tiche troué",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Chapeau Stapokaliptik": {
     "level": 169,
-    "name": "Chapeau Stapokaliptik",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -2591,9 +2396,8 @@
       "pushbackDamage": -5
     }
   },
-  {
+  "Chapeau Tiche": {
     "level": 174,
-    "name": "Chapeau Tiche",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -2613,9 +2417,8 @@
       "dodge": 5
     }
   },
-  {
+  "Coiffe de Tengu Givrefoux": {
     "level": 175,
-    "name": "Coiffe de Tengu Givrefoux",
     "panoply": "Panoplie du Tengu Givrefoux",
     "category": "Chapeau",
     "stats": {
@@ -2635,9 +2438,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Coiffe de Kolosso": {
     "level": 193,
-    "name": "Coiffe de Kolosso",
     "panoply": "Panoplie de Kolosso",
     "category": "Chapeau",
     "stats": {
@@ -2655,9 +2457,8 @@
       "apResist": 6
     }
   },
-  {
+  "Masque du Glourséleste": {
     "level": 199,
-    "name": "Masque du Glourséleste",
     "panoply": "Panoplie du Glourséleste",
     "category": "Chapeau",
     "stats": {
@@ -2677,9 +2478,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Chapeau Lichinelle": {
     "level": 172,
-    "name": "Chapeau Lichinelle",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -2697,9 +2497,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Chapeau Lisson": {
     "level": 184,
-    "name": "Chapeau Lisson",
     "category": "Chapeau",
     "stats": {
       "health": 250,
@@ -2720,9 +2519,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Chapeau Lochon": {
     "level": 195,
-    "name": "Chapeau Lochon",
     "panoply": "Panoplit",
     "category": "Chapeau",
     "stats": {
@@ -2740,9 +2538,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Masque du Kanniboul Ebil": {
     "level": 46,
-    "name": "Masque du Kanniboul Ebil",
     "panoply": "Panoplie du Kanniboul Ebil",
     "category": "Chapeau",
     "stats": {
@@ -2755,9 +2552,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Kwakwaffe": {
     "level": 54,
-    "name": "Kwakwaffe",
     "panoply": "Panoplie du Kwakwa",
     "category": "Chapeau",
     "stats": {
@@ -2771,9 +2567,8 @@
       "lock": 5
     }
   },
-  {
+  "Coiffe de Boréale": {
     "level": 187,
-    "name": "Coiffe de Boréale",
     "panoply": "Panoplie de Boréale",
     "category": "Chapeau",
     "stats": {
@@ -2788,9 +2583,8 @@
       "dodge": 10
     }
   },
-  {
+  "Coiffe du Glourséleste": {
     "level": 195,
-    "name": "Coiffe du Glourséleste",
     "category": "Chapeau",
     "stats": {
       "health": 350,
@@ -2812,9 +2606,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Coiffe de la Fuji Givrefoux": {
     "level": 195,
-    "name": "Coiffe de la Fuji Givrefoux",
     "panoply": "Panoplie de la Fuji Givrefoux",
     "category": "Chapeau",
     "stats": {
@@ -2835,27 +2628,24 @@
       "mpReduction": 5
     }
   },
-  {
+  "Coiffe Ainte": {
     "level": 40,
-    "name": "Coiffe Ainte",
     "panoply": "Panoplie Explosive",
     "category": "Chapeau",
     "stats": {
       "undefined": 13469
     }
   },
-  {
+  "Masque Arpone": {
     "level": 40,
-    "name": "Masque Arpone",
     "panoply": "Panoplie Lunatique",
     "category": "Chapeau",
     "stats": {
       "undefined": 13415
     }
   },
-  {
+  "Chapeau du Vulkain": {
     "level": 52,
-    "name": "Chapeau du Vulkain",
     "panoply": "Panoplie du Vulkain",
     "category": "Chapeau",
     "stats": {
@@ -2866,9 +2656,8 @@
       "criticalResist": 7
     }
   },
-  {
+  "Coiffe de Grozilla": {
     "level": 154,
-    "name": "Coiffe de Grozilla",
     "panoply": "Panoplie de Grozilla",
     "category": "Chapeau",
     "stats": {
@@ -2887,9 +2676,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Coiffe de Daïgoro": {
     "level": 83,
-    "name": "Coiffe de Daïgoro",
     "panoply": "Panoplie de Daïgoro",
     "category": "Chapeau",
     "stats": {
@@ -2905,9 +2693,8 @@
       "apResist": 3
     }
   },
-  {
+  "Bonnet du Glutin": {
     "level": 25,
-    "name": "Bonnet du Glutin",
     "panoply": "Panoplie du Glutin",
     "category": "Chapeau",
     "stats": {
@@ -2917,9 +2704,8 @@
       "dodge": 4
     }
   },
-  {
+  "Masque du Nowel Cauchemardesque": {
     "level": 150,
-    "name": "Masque du Nowel Cauchemardesque",
     "panoply": "Panoplie du Nowel Cauchemardesque",
     "category": "Chapeau",
     "stats": {
@@ -2935,9 +2721,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Coiffe de Redolphe": {
     "level": 85,
-    "name": "Coiffe de Redolphe",
     "panoply": "Panoplie de Redolphe",
     "category": "Chapeau",
     "stats": {
@@ -2952,9 +2737,8 @@
       "apResist": 4
     }
   },
-  {
+  "Katar Strophe": {
     "level": 162,
-    "name": "Katar Strophe",
     "category": "Chapeau",
     "stats": {
       "health": 220,
@@ -2973,9 +2757,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Kabuto du Chafer Rōnin": {
     "level": 44,
-    "name": "Kabuto du Chafer Rōnin",
     "panoply": "Panoplie des Anciens Chafers",
     "category": "Chapeau",
     "stats": {
@@ -2987,9 +2770,8 @@
       "pushbackResist": 5
     }
   },
-  {
+  "Bandeau Rokwa": {
     "level": 45,
-    "name": "Bandeau Rokwa",
     "category": "Chapeau",
     "stats": {
       "undefined": 0,
@@ -2998,9 +2780,8 @@
       "initiative": 110
     }
   },
-  {
+  "Coiffe de Danathor": {
     "level": 196,
-    "name": "Coiffe de Danathor",
     "panoply": "Panoplie de Danathor",
     "category": "Chapeau",
     "stats": {
@@ -3016,9 +2797,8 @@
       "apResist": 10
     }
   },
-  {
+  "Couronne d'Allister": {
     "level": 196,
-    "name": "Couronne d'Allister",
     "panoply": "Panoplie d'Allister",
     "category": "Chapeau",
     "stats": {
@@ -3034,9 +2814,8 @@
       "mpResist": 8
     }
   },
-  {
+  "Coiffe d'Ogivol": {
     "level": 193,
-    "name": "Coiffe d'Ogivol",
     "panoply": "Panoplie d'Ogivol Scalarcin",
     "category": "Chapeau",
     "stats": {
@@ -3056,9 +2835,8 @@
       "mpReduction": 6
     }
   },
-  {
+  "Casque de Metag Robill": {
     "level": 160,
-    "name": "Casque de Metag Robill",
     "category": "Chapeau",
     "stats": {
       "undefined": 91,
@@ -3074,9 +2852,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Caskoffre": {
     "level": 55,
-    "name": "Caskoffre",
     "panoply": "Panoplie Coffre",
     "category": "Chapeau",
     "stats": {
@@ -3089,9 +2866,8 @@
       "apResist": 3
     }
   },
-  {
+  "Chapeau Potin": {
     "level": 199,
-    "name": "Chapeau Potin",
     "category": "Chapeau",
     "stats": {
       "undefined": 94,
@@ -3108,18 +2884,16 @@
       "criticalResist": 15
     }
   },
-  {
+  "Scaphandre Ojine": {
     "level": 40,
-    "name": "Scaphandre Ojine",
     "panoply": "Panoplie Submersible",
     "category": "Chapeau",
     "stats": {
       "undefined": 13870
     }
   },
-  {
+  "Chapitrouille": {
     "level": 104,
-    "name": "Chapitrouille",
     "panoply": "Panoplitrouille",
     "category": "Chapeau",
     "stats": {
@@ -3138,23 +2912,21 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Troma du Vieux John": {
     "level": 10,
-    "name": "Troma du Vieux John",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Araknacoiffe Velue": {
     "level": 106,
-    "name": "Araknacoiffe Velue",
     "category": "Chapeau",
     "stats": {
       "health": 150,
       "wisdom": 30,
       "power": 30,
-      "range": 0,
+      "range": -1,
       "prospecting": 10,
       "initiative": 300,
       "dodge": 5,
@@ -3162,9 +2934,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Coiffe d'Oshimo": {
     "level": 198,
-    "name": "Coiffe d'Oshimo",
     "panoply": "Panoplie d'Oshimo",
     "category": "Chapeau",
     "stats": {
@@ -3173,7 +2944,7 @@
       "chance": 40,
       "wisdom": 40,
       "criticalChance": 3,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 15,
       "earthDamage": 15,
       "waterDamage": 15,
@@ -3184,9 +2955,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Coiffe de Padgref": {
     "level": 198,
-    "name": "Coiffe de Padgref",
     "panoply": "Panoplie de Padgref Demoël",
     "category": "Chapeau",
     "stats": {
@@ -3209,9 +2979,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Coiffe d'Hel Munster": {
     "level": 198,
-    "name": "Coiffe d'Hel Munster",
     "panoply": "Panoplie d'Hel Munster",
     "category": "Chapeau",
     "stats": {
@@ -3233,9 +3002,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Coiffe d'Aermyne": {
     "level": 198,
-    "name": "Coiffe d'Aermyne",
     "panoply": "Panoplie d'Aermyne",
     "category": "Chapeau",
     "stats": {
@@ -3255,9 +3023,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Masque du Frelon Noir": {
     "level": 156,
-    "name": "Masque du Frelon Noir",
     "panoply": "Panoplie du Frelon Noir",
     "category": "Chapeau",
     "stats": {
@@ -3265,7 +3032,7 @@
       "strength": 50,
       "agility": 50,
       "wisdom": 40,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "airDamage": 10,
@@ -3276,16 +3043,15 @@
       "criticalResist": 15
     }
   },
-  {
+  "Bonnet Ko": {
     "level": 151,
-    "name": "Bonnet Ko",
     "category": "Chapeau",
     "stats": {
       "health": 300,
       "wisdom": 40,
       "power": 50,
       "AP": 1,
-      "MP": 0,
+      "MP": -1,
       "initiative": 400,
       "fireResistPer": 10,
       "fireResist": 10,
@@ -3294,21 +3060,19 @@
       "criticalResist": 10
     }
   },
-  {
+  "Scaphandre Magmatique": {
     "level": 100,
-    "name": "Scaphandre Magmatique",
     "category": "Chapeau",
     "stats": {
-      "range": 0,
-      "initiative": 0,
-      "apResist": 0,
-      "mpResist": 0,
+      "range": -3,
+      "initiative": -1000,
+      "apResist": -5,
+      "mpResist": -5,
       "undefined": 0
     }
   },
-  {
+  "Masque de Klime": {
     "level": 196,
-    "name": "Masque de Klime",
     "panoply": "Panoplie de Klime",
     "category": "Chapeau",
     "stats": {
@@ -3324,9 +3088,8 @@
       "apResist": 8
     }
   },
-  {
+  "Bonnet Vicieux": {
     "level": 197,
-    "name": "Bonnet Vicieux",
     "panoply": "Panoplie Vicieuse",
     "category": "Chapeau",
     "stats": {
@@ -3344,9 +3107,8 @@
       "dodge": 7
     }
   },
-  {
+  "Casque de Missiz Frizz": {
     "level": 196,
-    "name": "Casque de Missiz Frizz",
     "panoply": "Panoplie de Missiz Frizz",
     "category": "Chapeau",
     "stats": {
@@ -3366,9 +3128,8 @@
       "mpResist": 8
     }
   },
-  {
+  "Coiffe Ranshi": {
     "level": 200,
-    "name": "Coiffe Ranshi",
     "category": "Chapeau",
     "stats": {
       "health": 400,
@@ -3383,9 +3144,8 @@
       "criticalDamage": -16
     }
   },
-  {
+  "Capuche de Sylargh": {
     "level": 196,
-    "name": "Capuche de Sylargh",
     "panoply": "Panoplie de Sylargh",
     "category": "Chapeau",
     "stats": {
@@ -3402,9 +3162,8 @@
       "lock": 10
     }
   },
-  {
+  "Coiffe du Kanimate": {
     "level": 197,
-    "name": "Coiffe du Kanimate",
     "panoply": "Panoplie du Kanimate",
     "category": "Chapeau",
     "stats": {
@@ -3425,9 +3184,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Coiffe du Comte Harebourg": {
     "level": 200,
-    "name": "Coiffe du Comte Harebourg",
     "panoply": "Panoplie du Comte Harebourg",
     "category": "Chapeau",
     "stats": {
@@ -3447,9 +3205,8 @@
       "apReduction": 8
     }
   },
-  {
+  "Coiffe Séculaire": {
     "level": 200,
-    "name": "Coiffe Séculaire",
     "panoply": "Panoplie Séculaire",
     "category": "Chapeau",
     "stats": {
@@ -3467,9 +3224,8 @@
       "airResist": 15
     }
   },
-  {
+  "Masque du Granduk": {
     "level": 200,
-    "name": "Masque du Granduk",
     "panoply": "Panoplie du Granduk",
     "category": "Chapeau",
     "stats": {
@@ -3477,7 +3233,7 @@
       "agility": 80,
       "wisdom": 60,
       "criticalChance": 4,
-      "range": 0,
+      "range": -1,
       "airDamage": 18,
       "prospecting": 15,
       "initiative": 400,
@@ -3486,9 +3242,8 @@
       "apReduction": 6
     }
   },
-  {
+  "Coiffe Cryochrone": {
     "level": 200,
-    "name": "Coiffe Cryochrone",
     "panoply": "Panoplie Cryochrone",
     "category": "Chapeau",
     "stats": {
@@ -3508,9 +3263,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bandeau Ktriné": {
     "level": 200,
-    "name": "Bandeau Ktriné",
     "category": "Chapeau",
     "stats": {
       "health": 400,
@@ -3528,9 +3282,8 @@
       "lock": 8
     }
   },
-  {
+  "Calotte Spot": {
     "level": 196,
-    "name": "Calotte Spot",
     "panoply": "Panoplie Magmatique",
     "category": "Chapeau",
     "stats": {
@@ -3547,9 +3300,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Binocle Airvoyant": {
     "level": 192,
-    "name": "Binocle Airvoyant",
     "panoply": "Panoplie Quartzésienne",
     "category": "Chapeau",
     "stats": {
@@ -3568,9 +3320,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Couronne du Wa Wobot": {
     "level": 80,
-    "name": "Couronne du Wa Wobot",
     "panoply": "Panoplie du Wa Wobot",
     "category": "Chapeau",
     "stats": {
@@ -3584,9 +3335,8 @@
       "dodge": 10
     }
   },
-  {
+  "Casque du Blanc Pa Wabbit": {
     "level": 82,
-    "name": "Casque du Blanc Pa Wabbit",
     "panoply": "Panoplie du Blanc Pa Wabbit",
     "category": "Chapeau",
     "stats": {
@@ -3600,9 +3350,8 @@
       "apResist": 6
     }
   },
-  {
+  "Perruque de Iop": {
     "level": 66,
-    "name": "Perruque de Iop",
     "category": "Chapeau",
     "stats": {
       "power": 50,
@@ -3612,9 +3361,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Masque Iproquo": {
     "level": 102,
-    "name": "Masque Iproquo",
     "panoply": "Panoplie Dramatik",
     "category": "Chapeau",
     "stats": {
@@ -3628,9 +3376,8 @@
       "apResist": 5
     }
   },
-  {
+  "Scaramouchapeau": {
     "level": 102,
-    "name": "Scaramouchapeau",
     "panoply": "Panoplie Talienne",
     "category": "Chapeau",
     "stats": {
@@ -3644,9 +3391,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Coiffe Médusoïde": {
     "level": 138,
-    "name": "Coiffe Médusoïde",
     "panoply": "Panoplie Engloutie",
     "category": "Chapeau",
     "stats": {
@@ -3664,9 +3410,8 @@
       "apResist": 7
     }
   },
-  {
+  "Koinkoiffe Rose": {
     "level": 170,
-    "name": "Koinkoiffe Rose",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -3684,9 +3429,8 @@
       "criticalDamage": 8
     }
   },
-  {
+  "Dorabysses": {
     "level": 200,
-    "name": "Dorabysses",
     "panoply": "Panoplie des Abysses",
     "category": "Chapeau",
     "stats": {
@@ -3707,9 +3451,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Casquipik": {
     "level": 196,
-    "name": "Casquipik",
     "panoply": "Pikoplie",
     "category": "Chapeau",
     "stats": {
@@ -3729,9 +3472,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Bandeau Culaire": {
     "level": 199,
-    "name": "Bandeau Culaire",
     "panoply": "Panoplie du Cartographe",
     "category": "Chapeau",
     "stats": {
@@ -3752,9 +3494,8 @@
       "pushbackResist": 25
     }
   },
-  {
+  "Casqnoar": {
     "level": 195,
-    "name": "Casqnoar",
     "panoply": "Panoplie d'Ombre",
     "category": "Chapeau",
     "stats": {
@@ -3772,9 +3513,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Casque de Flèche Mauve": {
     "level": 110,
-    "name": "Casque de Flèche Mauve",
     "panoply": "Panoplie de Flèche Mauve",
     "category": "Chapeau",
     "stats": {
@@ -3787,9 +3527,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Chaponion": {
     "level": 42,
-    "name": "Chaponion",
     "panoply": "Panoplie d'Ambi Guman",
     "category": "Chapeau",
     "stats": {
@@ -3798,9 +3537,8 @@
       "range": 1
     }
   },
-  {
+  "Coiffe de l'Orfélin": {
     "level": 160,
-    "name": "Coiffe de l'Orfélin",
     "panoply": "Panoplie de l'Orfélin",
     "category": "Chapeau",
     "stats": {
@@ -3816,17 +3554,15 @@
       "pushbackDamage": 12
     }
   },
-  {
+  "Casquête": {
     "level": 10,
-    "name": "Casquête",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Masque du Barbétoal": {
     "level": 200,
-    "name": "Masque du Barbétoal",
     "panoply": "Panoplie du Barbétoal",
     "category": "Chapeau",
     "stats": {
@@ -3844,9 +3580,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Couronne de Nidas": {
     "level": 200,
-    "name": "Couronne de Nidas",
     "panoply": "Panoplie de Nidas",
     "category": "Chapeau",
     "stats": {
@@ -3863,9 +3598,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Coiffe du Lévitrof": {
     "level": 200,
-    "name": "Coiffe du Lévitrof",
     "panoply": "Panoplie du Lévitrof",
     "category": "Chapeau",
     "stats": {
@@ -3887,9 +3621,8 @@
       "criticalResist": -21
     }
   },
-  {
+  "Casque du Berserkoffre": {
     "level": 105,
-    "name": "Casque du Berserkoffre",
     "panoply": "Panoplie du Berserkoffre",
     "category": "Chapeau",
     "stats": {
@@ -3904,9 +3637,8 @@
       "lock": 7
     }
   },
-  {
+  "Chapeau Truche": {
     "level": 133,
-    "name": "Chapeau Truche",
     "panoply": "Panoplie Truche",
     "category": "Chapeau",
     "stats": {
@@ -3923,9 +3655,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Chapeau de Gein": {
     "level": 200,
-    "name": "Chapeau de Gein",
     "panoply": "Panoplie de Gein",
     "category": "Chapeau",
     "stats": {
@@ -3943,9 +3674,8 @@
       "dodge": 10
     }
   },
-  {
+  "Coiffe de la Reine des Voleurs": {
     "level": 200,
-    "name": "Coiffe de la Reine des Voleurs",
     "panoply": "Panoplie de la Reine des Voleurs",
     "category": "Chapeau",
     "stats": {
@@ -3962,9 +3692,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Chapeau des Malveilleurs": {
     "level": 200,
-    "name": "Chapeau des Malveilleurs",
     "panoply": "Panoplie des Malveilleurs",
     "category": "Chapeau",
     "stats": {
@@ -3983,9 +3712,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Masque du Katcheur": {
     "level": 200,
-    "name": "Masque du Katcheur",
     "panoply": "Panoplie du Katcheur",
     "category": "Chapeau",
     "stats": {
@@ -4005,9 +3733,8 @@
       "initiative": 600
     }
   },
-  {
+  "Chapeau de Dremoan": {
     "level": 176,
-    "name": "Chapeau de Dremoan",
     "panoply": "Panoplie de Dremoan",
     "category": "Chapeau",
     "stats": {
@@ -4023,9 +3750,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Casque d'Ali Grothor": {
     "level": 132,
-    "name": "Casque d'Ali Grothor",
     "panoply": "Panoplie d'Ali Grothor",
     "category": "Chapeau",
     "stats": {
@@ -4039,9 +3765,8 @@
       "lock": 10
     }
   },
-  {
+  "Masque de Frakacia": {
     "level": 28,
-    "name": "Masque de Frakacia",
     "panoply": "Panoplie de Frakacia Leukocytine",
     "category": "Chapeau",
     "stats": {
@@ -4051,9 +3776,8 @@
       "lock": 5
     }
   },
-  {
+  "Kidibonnet": {
     "level": 200,
-    "name": "Kidibonnet",
     "panoply": "Panoplie de la Baleine",
     "category": "Chapeau",
     "stats": {
@@ -4071,9 +3795,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Maskrobe": {
     "level": 200,
-    "name": "Maskrobe",
     "panoply": "Panoplie des Krobes",
     "category": "Chapeau",
     "stats": {
@@ -4090,13 +3813,12 @@
       "airDamage": 12,
       "dodge": 7,
       "mpReduction": 6,
-      "apResist": 0,
+      "apResist": -10,
       "pushbackResist": 20
     }
   },
-  {
+  "Chapibou": {
     "level": 200,
-    "name": "Chapibou",
     "panoply": "Panoplibou",
     "category": "Chapeau",
     "stats": {
@@ -4110,15 +3832,14 @@
       "fireResistPer": 7,
       "neutralResist": 15,
       "fireResist": 15,
-      "lock": 0,
+      "lock": -10,
       "mpReduction": 5,
       "criticalDamage": 10,
       "pushbackDamage": 20
     }
   },
-  {
+  "Casque des égarés": {
     "level": 200,
-    "name": "Casque des égarés",
     "panoply": "Panoplie des égarés",
     "category": "Chapeau",
     "stats": {
@@ -4136,9 +3857,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Cagoule de Vortex": {
     "level": 200,
-    "name": "Cagoule de Vortex",
     "panoply": "Panoplie de Vortex",
     "category": "Chapeau",
     "stats": {
@@ -4157,9 +3877,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Coiffe de Soissanth": {
     "level": 173,
-    "name": "Coiffe de Soissanth",
     "panoply": "Panoplie de Soissanth",
     "category": "Chapeau",
     "stats": {
@@ -4177,9 +3896,8 @@
       "airResist": 10
     }
   },
-  {
+  "Coiffe de Fraktale": {
     "level": 124,
-    "name": "Coiffe de Fraktale",
     "panoply": "Panoplie de Fraktale",
     "category": "Chapeau",
     "stats": {
@@ -4196,9 +3914,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Coiffe de Fouduglen": {
     "level": 10,
-    "name": "Coiffe de Fouduglen",
     "panoply": "Panoplie Fouduglen",
     "category": "Chapeau",
     "stats": {
@@ -4206,9 +3923,8 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Casque Noix": {
     "level": 40,
-    "name": "Casque Noix",
     "panoply": "Microplie",
     "category": "Chapeau",
     "stats": {
@@ -4218,9 +3934,8 @@
       "dodge": 5
     }
   },
-  {
+  "Masque de Pantèroz": {
     "level": 133,
-    "name": "Masque de Pantèroz",
     "panoply": "Panoplie de la Voleuse",
     "category": "Chapeau",
     "stats": {
@@ -4235,9 +3950,8 @@
       "dodge": 7
     }
   },
-  {
+  "Masque des Fonds marins": {
     "level": 200,
-    "name": "Masque des Fonds marins",
     "panoply": "Panoplie des Fonds marins",
     "category": "Chapeau",
     "stats": {
@@ -4254,18 +3968,16 @@
       "mpResist": 7
     }
   },
-  {
+  "Masque Rosmique": {
     "level": 40,
-    "name": "Masque Rosmique",
     "panoply": "Panoplie Transcendante",
     "category": "Chapeau",
     "stats": {
       "undefined": 14606
     }
   },
-  {
+  "Coiffe Invisible": {
     "level": 20,
-    "name": "Coiffe Invisible",
     "panoply": "Panoplie Invisible",
     "category": "Chapeau",
     "stats": {
@@ -4274,9 +3986,8 @@
       "dodge": 3
     }
   },
-  {
+  "Coiffe de la Néfileuse": {
     "level": 90,
-    "name": "Coiffe de la Néfileuse",
     "panoply": "Panoplie de la Tisseuse",
     "category": "Chapeau",
     "stats": {
@@ -4291,9 +4002,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Casque de Kardorim": {
     "level": 12,
-    "name": "Casque de Kardorim",
     "panoply": "Panoplie de Kardorim",
     "category": "Chapeau",
     "stats": {
@@ -4301,9 +4011,8 @@
       "earthDamage": 2
     }
   },
-  {
+  "Coiffe Antôme": {
     "level": 8,
-    "name": "Coiffe Antôme",
     "panoply": "Panoplie des Âmes",
     "category": "Chapeau",
     "stats": {
@@ -4311,9 +4020,8 @@
       "wisdom": 7
     }
   },
-  {
+  "Masque Vaudou Tam": {
     "level": 158,
-    "name": "Masque Vaudou Tam",
     "category": "Chapeau",
     "stats": {
       "health": -101,
@@ -4328,9 +4036,8 @@
       "neutralResist": 14
     }
   },
-  {
+  "Barbe de Zatoïshwan": {
     "level": 154,
-    "name": "Barbe de Zatoïshwan",
     "panoply": "Panoplie de Zatoïshwan",
     "category": "Chapeau",
     "stats": {
@@ -4349,9 +4056,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Boucle d'oreille de Kongoku": {
     "level": 200,
-    "name": "Boucle d'oreille de Kongoku",
     "panoply": "Panoplie de Kongoku",
     "category": "Chapeau",
     "stats": {
@@ -4368,9 +4074,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Chapeau du Capitaine Pirate": {
     "level": 93,
-    "name": "Chapeau du Capitaine Pirate",
     "panoply": "Panoplie du Capitaine Pirate",
     "category": "Chapeau",
     "stats": {
@@ -4387,18 +4092,16 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Coiffe Ondamentale": {
     "level": 40,
-    "name": "Coiffe Ondamentale",
     "panoply": "Panoplie Quadramentale",
     "category": "Chapeau",
     "stats": {
       "undefined": 13725
     }
   },
-  {
+  "Couronne du Roi Joueur": {
     "level": 200,
-    "name": "Couronne du Roi Joueur",
     "panoply": "Panoplie du Roi Joueur",
     "category": "Chapeau",
     "stats": {
@@ -4413,14 +4116,13 @@
       "fireDamage": 12,
       "prospecting": 15,
       "airResistPer": 10,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 6,
       "criticalResist": 25
     }
   },
-  {
+  "Casque du Chalœil": {
     "level": 200,
-    "name": "Casque du Chalœil",
     "panoply": "Panoplie du Chalœil",
     "category": "Chapeau",
     "stats": {
@@ -4444,9 +4146,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Scalp du Pounicheur": {
     "level": 117,
-    "name": "Scalp du Pounicheur",
     "panoply": "Panoplie du Pounicheur",
     "category": "Chapeau",
     "stats": {
@@ -4463,25 +4164,22 @@
       "apReduction": 6
     }
   },
-  {
+  "Loupe d'improbabilité": {
     "level": 80,
-    "name": "Loupe d'improbabilité",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Casque isolant": {
     "level": 1,
-    "name": "Casque isolant",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Masque de Koutoulou": {
     "level": 200,
-    "name": "Masque de Koutoulou",
     "category": "Chapeau",
     "stats": {
       "health": 350,
@@ -4496,9 +4194,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Chapoulpe": {
     "level": 200,
-    "name": "Chapoulpe",
     "panoply": "Poulplie",
     "category": "Chapeau",
     "stats": {
@@ -4517,9 +4214,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Casquette de Meno": {
     "level": 200,
-    "name": "Casquette de Meno",
     "panoply": "Panoplie de Meno",
     "category": "Chapeau",
     "stats": {
@@ -4538,9 +4234,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Masque Trithon": {
     "level": 200,
-    "name": "Masque Trithon",
     "panoply": "Panoplie Trithon",
     "category": "Chapeau",
     "stats": {
@@ -4557,9 +4252,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Casque Cyclopéen": {
     "level": 200,
-    "name": "Casque Cyclopéen",
     "panoply": "Panoplie de R'lyugluglu",
     "category": "Chapeau",
     "stats": {
@@ -4578,15 +4272,13 @@
       "criticalResist": 20
     }
   },
-  {
+  "Chapeau Transparent": {
     "level": 1,
-    "name": "Chapeau Transparent",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Coiffennex": {
     "level": 82,
-    "name": "Coiffennex",
     "panoply": "Panoplie du Désert",
     "category": "Chapeau",
     "stats": {
@@ -4600,9 +4292,8 @@
       "dodge": 5
     }
   },
-  {
+  "Cascterre": {
     "level": 131,
-    "name": "Cascterre",
     "panoply": "Panoplie Cacterre",
     "category": "Chapeau",
     "stats": {
@@ -4618,9 +4309,8 @@
       "fireResistPer": 7
     }
   },
-  {
+  "Sombrero d'El Piko": {
     "level": 128,
-    "name": "Sombrero d'El Piko",
     "panoply": "Panoplie d'El Piko",
     "category": "Chapeau",
     "stats": {
@@ -4639,9 +4329,8 @@
       "apReduction": 7
     }
   },
-  {
+  "Le Dorado": {
     "level": 200,
-    "name": "Le Dorado",
     "category": "Chapeau",
     "stats": {
       "health": 350,
@@ -4661,9 +4350,8 @@
       "apResist": 10
     }
   },
-  {
+  "Casquoporth": {
     "level": 171,
-    "name": "Casquoporth",
     "panoply": "Vernoplie",
     "category": "Chapeau",
     "stats": {
@@ -4672,7 +4360,7 @@
       "agility": 70,
       "wisdom": 25,
       "criticalChance": 4,
-      "range": 0,
+      "range": -1,
       "summon": 1,
       "waterDamage": 10,
       "airDamage": 10,
@@ -4682,9 +4370,8 @@
       "mpReduction": 6
     }
   },
-  {
+  "Némès de Tal Kasha": {
     "level": 200,
-    "name": "Némès de Tal Kasha",
     "panoply": "Panoplie de Tal Kasha",
     "category": "Chapeau",
     "stats": {
@@ -4698,14 +4385,13 @@
       "airDamage": 20,
       "earthResistPer": 10,
       "fireResistPer": 7,
-      "dodge": 0,
+      "dodge": -7,
       "apReduction": 7,
       "criticalDamage": 15
     }
   },
-  {
+  "Capuche de Moum-Ra": {
     "level": 200,
-    "name": "Capuche de Moum-Ra",
     "panoply": "Panoplie de la Pyramide",
     "category": "Chapeau",
     "stats": {
@@ -4718,23 +4404,21 @@
       "prospecting": 15,
       "fireResistPer": 10,
       "waterResistPer": 10,
-      "dodge": 0,
+      "dodge": -30,
       "apResist": 12,
       "pushbackResist": 20
     }
   },
-  {
+  "Chapeau Devin": {
     "level": 40,
-    "name": "Chapeau Devin",
     "panoply": "Panoplie Enragée",
     "category": "Chapeau",
     "stats": {
       "undefined": 13762
     }
   },
-  {
+  "Chapeau du Comte Razof": {
     "level": 197,
-    "name": "Chapeau du Comte Razof",
     "panoply": "Panoplie du Comte Razof",
     "category": "Chapeau",
     "stats": {
@@ -4753,9 +4437,8 @@
       "apReduction": 7
     }
   },
-  {
+  "Masque d'Anerice": {
     "level": 200,
-    "name": "Masque d'Anerice",
     "panoply": "Panoplie d'Anerice",
     "category": "Chapeau",
     "stats": {
@@ -4772,9 +4455,8 @@
       "mpResist": 12
     }
   },
-  {
+  "Casque du Scorbute": {
     "level": 68,
-    "name": "Casque du Scorbute",
     "panoply": "Panoplie du Scorbute",
     "category": "Chapeau",
     "stats": {
@@ -4787,9 +4469,8 @@
       "airDamage": 2
     }
   },
-  {
+  "Masque de Choudini": {
     "level": 88,
-    "name": "Masque de Choudini",
     "panoply": "Panoplie de Choudini",
     "category": "Chapeau",
     "stats": {
@@ -4804,9 +4485,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Masque Riktus": {
     "level": 92,
-    "name": "Masque Riktus",
     "panoply": "Panoplie Riktus",
     "category": "Chapeau",
     "stats": {
@@ -4820,9 +4500,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Coiffe du Muloubar": {
     "level": 103,
-    "name": "Coiffe du Muloubar",
     "panoply": "Panoplie du Muloubar",
     "category": "Chapeau",
     "stats": {
@@ -4838,24 +4517,22 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Masque mortuaire": {
     "level": 180,
-    "name": "Masque mortuaire",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Masque de l'Esprit Salvateur": {
     "level": 200,
-    "name": "Masque de l'Esprit Salvateur",
     "panoply": "Panoplie de l'Esprit Salvateur",
     "category": "Chapeau",
     "stats": {
       "health": 350,
       "wisdom": 50,
       "power": 80,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "summon": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
@@ -4867,9 +4544,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Masque de l'Esprit Malsain": {
     "level": 200,
-    "name": "Masque de l'Esprit Malsain",
     "panoply": "Panoplie de l'Esprit Malsain",
     "category": "Chapeau",
     "stats": {
@@ -4887,9 +4563,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Capuche de l'Œil Attentif": {
     "level": 200,
-    "name": "Capuche de l'Œil Attentif",
     "panoply": "Panoplie de l'Œil Attentif",
     "category": "Chapeau",
     "stats": {
@@ -4906,9 +4581,8 @@
       "apResist": 10
     }
   },
-  {
+  "Capuche de l'Œil Putride": {
     "level": 200,
-    "name": "Capuche de l'Œil Putride",
     "panoply": "Panoplie de l'Œil Putride",
     "category": "Chapeau",
     "stats": {
@@ -4926,9 +4600,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Casque d'Ilyzaelle": {
     "level": 200,
-    "name": "Casque d'Ilyzaelle",
     "panoply": "Panoplie d'Ilyzaelle",
     "category": "Chapeau",
     "stats": {
@@ -4936,7 +4609,7 @@
       "chance": 100,
       "agility": 100,
       "wisdom": 30,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "summon": 1,
       "waterDamage": 15,
       "airDamage": 15,
@@ -4946,9 +4619,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Masque Brûlâme": {
     "level": 200,
-    "name": "Masque Brûlâme",
     "panoply": "Panoplie Brûlâme",
     "category": "Chapeau",
     "stats": {
@@ -4967,16 +4639,15 @@
       "criticalResist": 20
     }
   },
-  {
+  "Masque Ardent": {
     "level": 200,
-    "name": "Masque Ardent",
     "panoply": "Panoplie Ardente",
     "category": "Chapeau",
     "stats": {
       "health": 400,
       "intelligence": 70,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "range": 1,
       "fireDamage": 15,
       "heal": 10,
@@ -4986,9 +4657,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Heaume Oplate": {
     "level": 200,
-    "name": "Heaume Oplate",
     "panoply": "Panoplie de la Fournaise",
     "category": "Chapeau",
     "stats": {
@@ -5001,14 +4671,13 @@
       "fireDamage": 15,
       "neutralResistPer": 7,
       "airResistPer": 7,
-      "dodge": 0,
+      "dodge": -10,
       "apResist": 12,
       "pushbackResist": 40
     }
   },
-  {
+  "Chapeau de Tournoyé": {
     "level": 200,
-    "name": "Chapeau de Tournoyé",
     "panoply": "Panoplie Submergée",
     "category": "Chapeau",
     "stats": {
@@ -5025,9 +4694,8 @@
       "apResist": 12
     }
   },
-  {
+  "Masque de Funespadon": {
     "level": 200,
-    "name": "Masque de Funespadon",
     "panoply": "Panoplie de Bethel",
     "category": "Chapeau",
     "stats": {
@@ -5042,12 +4710,11 @@
       "fireResistPer": 10,
       "waterResistPer": 10,
       "dodge": 10,
-      "lock": 0
+      "lock": -10
     }
   },
-  {
+  "Casque en Grithril": {
     "level": 200,
-    "name": "Casque en Grithril",
     "panoply": "Grithriloplie",
     "category": "Chapeau",
     "stats": {
@@ -5065,9 +4732,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Masquegel": {
     "level": 200,
-    "name": "Masquegel",
     "panoply": "Panoplie Martegel",
     "category": "Chapeau",
     "stats": {
@@ -5075,7 +4741,7 @@
       "intelligence": 80,
       "agility": 80,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "summon": 1,
       "fireDamage": 15,
       "airDamage": 15,
@@ -5085,9 +4751,8 @@
       "apResist": 10
     }
   },
-  {
+  "Casque Volkorne": {
     "level": 200,
-    "name": "Casque Volkorne",
     "panoply": "Panoplie Volkorne",
     "category": "Chapeau",
     "stats": {
@@ -5102,9 +4767,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Couronne de Brâm Barbe-Monde": {
     "level": 200,
-    "name": "Couronne de Brâm Barbe-Monde",
     "category": "Chapeau",
     "stats": {
       "health": 400,
@@ -5116,16 +4780,15 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
-      "initiative": 0,
+      "initiative": -200,
       "mpResist": 20,
       "rangedResistPer": 10,
       "weaponDamagePer": 10,
-      "spellDamagePer": 0
+      "spellDamagePer": -5
     }
   },
-  {
+  "Diadème de Ganymède": {
     "level": 200,
-    "name": "Diadème de Ganymède",
     "category": "Chapeau",
     "stats": {
       "health": 350,
@@ -5138,12 +4801,11 @@
       "waterResistPer": 2,
       "airResistPer": 2,
       "dodge": 20,
-      "criticalDamage": 0
+      "criticalDamage": -30
     }
   },
-  {
+  "Masque Paztek": {
     "level": 200,
-    "name": "Masque Paztek",
     "panoply": "Panoplie Paztek",
     "category": "Chapeau",
     "stats": {
@@ -5151,7 +4813,7 @@
       "intelligence": 80,
       "chance": 80,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "fireDamage": 15,
       "waterDamage": 15,
       "waterResistPer": 10,
@@ -5161,9 +4823,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Masque de Kao": {
     "level": 200,
-    "name": "Masque de Kao",
     "category": "Chapeau",
     "stats": {
       "health": 400,
@@ -5177,13 +4838,12 @@
       "earthResistPer": 7,
       "fireResistPer": 7,
       "lock": 10,
-      "criticalDamage": 0,
+      "criticalDamage": -20,
       "pushbackDamage": 30
     }
   },
-  {
+  "Croquasque": {
     "level": 128,
-    "name": "Croquasque",
     "panoply": "Panoplie Croquante",
     "category": "Chapeau",
     "stats": {
@@ -5200,17 +4860,15 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Scaphandre chronomagique": {
     "level": 50,
-    "name": "Scaphandre chronomagique",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Corne de Torkélonia": {
     "level": 200,
-    "name": "Corne de Torkélonia",
     "panoply": "Panoplie de Torkélonia",
     "category": "Chapeau",
     "stats": {
@@ -5228,17 +4886,15 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Casque alourdi": {
     "level": 1,
-    "name": "Casque alourdi",
     "category": "Chapeau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Heaume de Guerre": {
     "level": 200,
-    "name": "Heaume de Guerre",
     "panoply": "Panoplie de Guerre",
     "category": "Chapeau",
     "stats": {
@@ -5246,7 +4902,7 @@
       "intelligence": 100,
       "wisdom": 40,
       "criticalChance": 5,
-      "range": 0,
+      "range": -1,
       "fireDamage": 15,
       "earthResistPer": 10,
       "airResistPer": 7,
@@ -5255,9 +4911,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Dora de Servitude": {
     "level": 200,
-    "name": "Dora de Servitude",
     "panoply": "Panoplie de Servitude",
     "category": "Chapeau",
     "stats": {
@@ -5272,21 +4927,19 @@
       "earthResistPer": 3,
       "waterResistPer": 6,
       "lock": 10,
-      "dodge": 0,
-      "apReduction": 0,
+      "dodge": -10,
+      "apReduction": -10,
       "mpResist": 10,
       "pushbackResist": 30
     }
   },
-  {
+  "Bandeau d'apprenti Pandawushuka": {
     "level": 10,
-    "name": "Bandeau d'apprenti Pandawushuka",
     "category": "Chapeau",
     "stats": {}
   },
-  {
+  "Kwaflaque": {
     "level": 128,
-    "name": "Kwaflaque",
     "panoply": "Panoplie Kwapa",
     "category": "Chapeau",
     "stats": {
@@ -5301,9 +4954,8 @@
       "apResist": 8
     }
   },
-  {
+  "Chapeau Kassé": {
     "level": 128,
-    "name": "Chapeau Kassé",
     "panoply": "Panoplie Tanuki",
     "category": "Chapeau",
     "stats": {
@@ -5319,9 +4971,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Masque de Kaonashi": {
     "level": 170,
-    "name": "Masque de Kaonashi",
     "category": "Chapeau",
     "stats": {
       "health": 300,
@@ -5336,13 +4987,12 @@
       "waterResistPer": 7,
       "dodge": 8,
       "mpReduction": 6,
-      "apResist": 0,
+      "apResist": -10,
       "pushbackResist": 10
     }
   },
-  {
+  "Bandeau de Spiritueur": {
     "level": 155,
-    "name": "Bandeau de Spiritueur",
     "panoply": "Panoplie des Spiritueurs",
     "category": "Chapeau",
     "stats": {
@@ -5353,20 +5003,19 @@
       "wisdom": 20,
       "criticalChance": 3,
       "AP": 1,
-      "range": 0,
+      "range": -2,
       "neutralDamage": 7,
       "earthDamage": 7,
       "fireDamage": 7,
       "airDamage": 7,
-      "initiative": 0,
+      "initiative": -200,
       "fireResistPer": 5,
-      "dodge": 0,
+      "dodge": -20,
       "criticalDamage": 10
     }
   },
-  {
+  "Casque Onsonne": {
     "level": 200,
-    "name": "Casque Onsonne",
     "panoply": "Panoplie du Wukang",
     "category": "Chapeau",
     "stats": {
@@ -5374,22 +5023,21 @@
       "strength": 60,
       "agility": 60,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -5,
       "earthDamage": 12,
       "airDamage": 12,
       "fireResistPer": 10,
       "waterResistPer": 10,
       "dodge": 10,
-      "lock": 0,
-      "apReduction": 0,
+      "lock": -10,
+      "apReduction": -15,
       "mpReduction": 15,
       "criticalResist": 25,
-      "pushbackResist": 0
+      "pushbackResist": -15
     }
   },
-  {
+  "Diadème de Wulan": {
     "level": 200,
-    "name": "Diadème de Wulan",
     "panoply": "Panoplie de Wulan",
     "category": "Chapeau",
     "stats": {
@@ -5403,14 +5051,13 @@
       "waterDamage": 18,
       "earthResistPer": 10,
       "fireResistPer": 5,
-      "dodge": 0,
-      "apReduction": 0,
+      "dodge": -12,
+      "apReduction": -12,
       "mpReduction": 10
     }
   },
-  {
+  "Portes de Bonta": {
     "level": 200,
-    "name": "Portes de Bonta",
     "panoply": "Reliques de l'Aurore Pourpre",
     "category": "Chapeau",
     "stats": {
@@ -5426,41 +5073,38 @@
       "airDamage": 20,
       "earthResistPer": 6,
       "fireResistPer": 6,
-      "waterResistPer": 0,
-      "airResistPer": 0,
+      "waterResistPer": -3,
+      "airResistPer": -3,
       "lock": 5,
-      "dodge": 0,
-      "apResist": 0,
+      "dodge": -10,
+      "apResist": -6,
       "mpResist": 3,
       "criticalResist": 8,
-      "pushbackResist": 0
+      "pushbackResist": -16
     }
   },
-  {
+  "Chapeau du Directeur Grunob": {
     "level": 40,
-    "name": "Chapeau du Directeur Grunob",
     "panoply": "Panoplie du Directeur Grunob",
     "category": "Chapeau",
     "stats": {
       "health": 30,
       "power": 25,
-      "criticalChance": 0,
+      "criticalChance": -3,
       "range": 1,
       "pushbackDamage": 8
     }
   },
-  {
+  "Coiffe du Bouftou Ankarton": {
     "level": 50,
-    "name": "Coiffe du Bouftou Ankarton",
     "panoply": "Panoplie Ankarton",
     "category": "Chapeau",
     "stats": {
       "undefined": 1000
     }
   },
-  {
+  "Chagrin de Cire": {
     "level": 200,
-    "name": "Chagrin de Cire",
     "panoply": "Malédiction de Cire Momore",
     "category": "Chapeau",
     "stats": {
@@ -5478,9 +5122,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Heaume Clochecuivre": {
     "level": 198,
-    "name": "Heaume Clochecuivre",
     "panoply": "Panoplie Clochecuivre",
     "category": "Chapeau",
     "stats": {
@@ -5489,23 +5132,22 @@
       "intelligence": 70,
       "agility": 50,
       "wisdom": 30,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 12,
       "airDamage": 8,
       "heal": 14,
       "prospecting": 15,
-      "initiative": 0,
+      "initiative": -300,
       "fireResistPer": 7,
       "airResistPer": 7,
       "lock": 8,
       "pushbackDamage": 12
     }
   },
-  {
+  "Casquette de Rakoopeur": {
     "level": 48,
-    "name": "Casquette de Rakoopeur",
     "panoply": "Panoplie de Rakoopeur",
     "category": "Chapeau",
     "stats": {
@@ -5513,14 +5155,13 @@
       "strength": 30,
       "agility": 30,
       "wisdom": 10,
-      "range": 0,
+      "range": -1,
       "earthDamage": 3,
       "airDamage": 3
     }
   },
-  {
+  "Grelots de Barbéryl": {
     "level": 190,
-    "name": "Grelots de Barbéryl",
     "panoply": "Panoplie de Barbéryl Clochecuivre",
     "category": "Chapeau",
     "stats": {
@@ -5537,18 +5178,16 @@
       "criticalDamage": 8
     }
   },
-  {
+  "Heaume Erik": {
     "level": 40,
-    "name": "Heaume Erik",
     "panoply": "Panoplie de l'Héritage",
     "category": "Chapeau",
     "stats": {
       "undefined": 23755
     }
   },
-  {
+  "Bandana de Mama Ayuto": {
     "level": 200,
-    "name": "Bandana de Mama Ayuto",
     "panoply": "Panoplie de Mama Ayuto",
     "category": "Chapeau",
     "stats": {
@@ -5556,7 +5195,7 @@
       "strength": 70,
       "wisdom": 50,
       "criticalChance": 5,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 15,
       "earthDamage": 15,
       "heal": 20,
@@ -5568,11 +5207,10 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Coiffe Heure": {
     "level": 1,
-    "name": "Coiffe Heure",
     "panoply": "Il n'y a pas de pano",
     "category": "Chapeau",
     "stats": {}
   }
-]
+}

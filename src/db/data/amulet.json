@@ -1,32 +1,28 @@
-[
-  {
+{
+  "Amulette du Hibou": {
     "level": 8,
-    "name": "Amulette du Hibou",
     "category": "Amulette",
     "stats": {
       "intelligence": 13
     }
   },
-  {
+  "Amulette de l'Ours": {
     "level": 8,
-    "name": "Amulette de l'Ours",
     "category": "Amulette",
     "stats": {
       "strength": 13
     }
   },
-  {
+  "Amulette du Mulou": {
     "level": 8,
-    "name": "Amulette du Mulou",
     "category": "Amulette",
     "stats": {
       "health": 20,
       "heal": 4
     }
   },
-  {
+  "La Gougnole": {
     "level": 17,
-    "name": "La Gougnole",
     "category": "Amulette",
     "stats": {
       "health": 25,
@@ -34,9 +30,8 @@
       "heal": 3
     }
   },
-  {
+  "La Destinée Dorée": {
     "level": 12,
-    "name": "La Destinée Dorée",
     "category": "Amulette",
     "stats": {
       "health": 15,
@@ -44,19 +39,17 @@
       "lock": 2
     }
   },
-  {
+  "La Broche Céleste": {
     "level": 40,
-    "name": "La Broche Céleste",
     "category": "Amulette",
     "stats": {
-      "health": 0,
+      "health": -20,
       "AP": 1,
-      "initiative": 0
+      "initiative": -300
     }
   },
-  {
+  "Le Flan des Étoiles": {
     "level": 61,
-    "name": "Le Flan des Étoiles",
     "category": "Amulette",
     "stats": {
       "health": 20,
@@ -65,71 +58,63 @@
       "AP": 1
     }
   },
-  {
+  "La Célébrité": {
     "level": 27,
-    "name": "La Célébrité",
     "category": "Amulette",
     "stats": {
       "health": 4,
       "range": 1
     }
   },
-  {
+  "La Larme du Bouftou": {
     "level": 5,
-    "name": "La Larme du Bouftou",
     "category": "Amulette",
     "stats": {
       "chance": 7
     }
   },
-  {
+  "Collier de l'Arc en Ciel": {
     "level": 9,
-    "name": "Collier de l'Arc en Ciel",
     "category": "Amulette",
     "stats": {
       "health": 10,
       "chance": 10
     }
   },
-  {
+  "Amulette du Kam Assutra": {
     "level": 43,
-    "name": "Amulette du Kam Assutra",
     "category": "Amulette",
     "stats": {
       "AP": 1,
-      "initiative": 0
+      "initiative": -350
     }
   },
-  {
+  "Amulette de Krokette": {
     "level": 9,
-    "name": "Amulette de Krokette",
     "category": "Amulette",
     "stats": {
       "chance": 7,
       "criticalChance": 2
     }
   },
-  {
+  "Amulette du Sram": {
     "level": 7,
-    "name": "Amulette du Sram",
     "category": "Amulette",
     "stats": {
       "agility": 7,
       "airDamage": 2
     }
   },
-  {
+  "Amulette Deulegarnoulle": {
     "level": 33,
-    "name": "Amulette Deulegarnoulle",
     "category": "Amulette",
     "stats": {
       "health": 15,
       "summon": 2
     }
   },
-  {
+  "Amulette du Chafer": {
     "level": 19,
-    "name": "Amulette du Chafer",
     "category": "Amulette",
     "stats": {
       "strength": 10,
@@ -137,26 +122,23 @@
       "criticalChance": 2
     }
   },
-  {
+  "Amulette en Crabe": {
     "level": 24,
-    "name": "Amulette en Crabe",
     "category": "Amulette",
     "stats": {
       "range": 1
     }
   },
-  {
+  "Amulette du Marin": {
     "level": 22,
-    "name": "Amulette du Marin",
     "category": "Amulette",
     "stats": {
       "health": 30,
       "chance": 30
     }
   },
-  {
+  "Amulette du Pirate": {
     "level": 41,
-    "name": "Amulette du Pirate",
     "category": "Amulette",
     "stats": {
       "health": 35,
@@ -165,17 +147,15 @@
       "dodge": 5
     }
   },
-  {
+  "Amulette du Pêcheur de Somoon": {
     "level": 35,
-    "name": "Amulette du Pêcheur de Somoon",
     "category": "Amulette",
     "stats": {
       "chance": 41
     }
   },
-  {
+  "Amulette des Abîmes": {
     "level": 47,
-    "name": "Amulette des Abîmes",
     "category": "Amulette",
     "stats": {
       "chance": 30,
@@ -184,9 +164,8 @@
       "criticalDamage": 5
     }
   },
-  {
+  "Koliet Aclou": {
     "level": 1,
-    "name": "Koliet Aclou",
     "category": "Amulette",
     "stats": {
       "health": 10,
@@ -197,9 +176,8 @@
       "airDamage": 1
     }
   },
-  {
+  "Amulette du Bûcheron": {
     "level": 22,
-    "name": "Amulette du Bûcheron",
     "category": "Amulette",
     "stats": {
       "strength": 15,
@@ -207,42 +185,38 @@
       "lock": 3
     }
   },
-  {
+  "Pendentif du Hibou Chétif": {
     "level": 3,
-    "name": "Pendentif du Hibou Chétif",
     "category": "Amulette",
     "stats": {
       "intelligence": 10,
       "lock": 3
     }
   },
-  {
+  "Grenouillette": {
     "level": 1,
-    "name": "Grenouillette",
     "category": "Amulette",
     "stats": {
       "agility": 1
     }
   },
-  {
+  "Dragolyre": {
     "level": 32,
-    "name": "Dragolyre",
     "category": "Amulette",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -35,
+      "intelligence": -35,
+      "chance": -35,
+      "agility": -35,
       "AP": 1,
       "summon": 1
     }
   },
-  {
+  "Amulette de Silicate": {
     "level": 37,
-    "name": "Amulette de Silicate",
     "category": "Amulette",
     "stats": {
-      "health": 0,
+      "health": -50,
       "criticalChance": 4,
       "earthResistPer": 2,
       "fireResistPer": 2,
@@ -250,14 +224,13 @@
       "airResistPer": 2
     }
   },
-  {
+  "La Feuille d'Automne": {
     "level": 89,
-    "name": "La Feuille d'Automne",
     "category": "Amulette",
     "stats": {
       "health": 60,
-      "strength": 0,
-      "intelligence": 0,
+      "strength": -100,
+      "intelligence": -100,
       "chance": 50,
       "agility": 50,
       "criticalChance": 10,
@@ -265,9 +238,8 @@
       "prospecting": 15
     }
   },
-  {
+  "Médaille Oly": {
     "level": 51,
-    "name": "Médaille Oly",
     "category": "Amulette",
     "stats": {
       "strength": 30,
@@ -277,21 +249,19 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Amulette de Xélor": {
     "level": 52,
-    "name": "Amulette de Xélor",
     "category": "Amulette",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
+      "strength": -30,
+      "intelligence": -30,
       "criticalChance": 3,
       "AP": 1,
       "damage": 3
     }
   },
-  {
+  "Amulette du Craqueleur": {
     "level": 47,
-    "name": "Amulette du Craqueleur",
     "category": "Amulette",
     "stats": {
       "health": 25,
@@ -301,9 +271,8 @@
       "damage": 3
     }
   },
-  {
+  "Chance à Mulette": {
     "level": 44,
-    "name": "Chance à Mulette",
     "category": "Amulette",
     "stats": {
       "health": 30,
@@ -312,9 +281,8 @@
       "dodge": 10
     }
   },
-  {
+  "Harmonie": {
     "level": 47,
-    "name": "Harmonie",
     "category": "Amulette",
     "stats": {
       "health": 15,
@@ -326,9 +294,8 @@
       "power": 15
     }
   },
-  {
+  "Accord": {
     "level": 38,
-    "name": "Accord",
     "category": "Amulette",
     "stats": {
       "health": 40,
@@ -340,9 +307,8 @@
       "initiative": 100
     }
   },
-  {
+  "Entente": {
     "level": 23,
-    "name": "Entente",
     "category": "Amulette",
     "stats": {
       "strength": 10,
@@ -352,47 +318,42 @@
       "wisdom": 3
     }
   },
-  {
+  "Emblème Livide": {
     "level": 41,
-    "name": "Emblème Livide",
     "category": "Amulette",
     "stats": {
       "strength": 60,
-      "agility": 0,
+      "agility": -60,
       "wisdom": 20,
       "damage": 2,
       "lock": 6
     }
   },
-  {
+  "Kabale": {
     "level": 29,
-    "name": "Kabale",
     "category": "Amulette",
     "stats": {
       "intelligence": 30,
       "wisdom": 15
     }
   },
-  {
+  "Amulette Itby": {
     "level": 12,
-    "name": "Amulette Itby",
     "category": "Amulette",
     "stats": {
       "agility": 20
     }
   },
-  {
+  "La Reinette": {
     "level": 22,
-    "name": "La Reinette",
     "category": "Amulette",
     "stats": {
       "chance": 20,
       "agility": 20
     }
   },
-  {
+  "Médaille Holy": {
     "level": 31,
-    "name": "Médaille Holy",
     "category": "Amulette",
     "stats": {
       "health": 30,
@@ -402,9 +363,8 @@
       "lock": 3
     }
   },
-  {
+  "Plimclik": {
     "level": 130,
-    "name": "Plimclik",
     "category": "Amulette",
     "stats": {
       "AP": 1,
@@ -412,9 +372,8 @@
       "range": 1
     }
   },
-  {
+  "La Broche Hète": {
     "level": 28,
-    "name": "La Broche Hète",
     "category": "Amulette",
     "stats": {
       "health": 40,
@@ -422,80 +381,73 @@
       "initiative": 150
     }
   },
-  {
+  "La Chaîne Nhanor Kibrill": {
     "level": 13,
-    "name": "La Chaîne Nhanor Kibrill",
     "category": "Amulette",
     "stats": {
       "intelligence": 10,
       "dodge": 4
     }
   },
-  {
+  "Chaîne de la Liche": {
     "level": 45,
-    "name": "Chaîne de la Liche",
     "category": "Amulette",
     "stats": {
-      "health": 0,
+      "health": -50,
       "chance": 30,
       "wisdom": 10,
       "summon": 2
     }
   },
-  {
+  "Abramu": {
     "level": 46,
-    "name": "Abramu",
     "panoply": "Abranoplie",
     "category": "Amulette",
     "stats": {
       "health": 100,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -50,
+      "intelligence": -50,
+      "chance": -50,
+      "agility": -50,
       "wisdom": 20,
       "AP": 1,
       "damage": 5
     }
   },
-  {
+  "Ambramulette Moskito": {
     "level": 40,
-    "name": "Ambramulette Moskito",
     "category": "Amulette",
     "stats": {
       "health": 50,
-      "intelligence": 0,
+      "intelligence": -30,
       "chance": 30,
       "damage": 5,
       "dodge": 4
     }
   },
-  {
+  "Ambramulette Arakne": {
     "level": 34,
-    "name": "Ambramulette Arakne",
     "category": "Amulette",
     "stats": {
       "health": 50,
-      "strength": 0,
+      "strength": -20,
       "intelligence": 20,
       "chance": 20,
-      "agility": 0,
+      "agility": -20,
       "heal": 10,
       "dodge": 4
     }
   },
-  {
+  "Amulette de Jiva": {
     "level": 1,
-    "name": "Amulette de Jiva",
     "category": "Amulette",
     "stats": {
       "health": 400,
       "AP": 4
     }
   },
-  {
+  "L'Amulette du Puzzle de la Griffe": {
     "level": 44,
-    "name": "L'Amulette du Puzzle de la Griffe",
     "category": "Amulette",
     "stats": {
       "intelligence": 30,
@@ -504,9 +456,8 @@
       "initiative": 200
     }
   },
-  {
+  "Amulette du Badoul": {
     "level": 32,
-    "name": "Amulette du Badoul",
     "category": "Amulette",
     "stats": {
       "health": 50,
@@ -514,18 +465,16 @@
       "damage": 4
     }
   },
-  {
+  "Amulette de la Boule": {
     "level": 49,
-    "name": "Amulette de la Boule",
     "category": "Amulette",
     "stats": {
       "wisdom": 35,
       "neutralResistPer": 7
     }
   },
-  {
+  "Amulette de la Bouboule": {
     "level": 83,
-    "name": "Amulette de la Bouboule",
     "category": "Amulette",
     "stats": {
       "wisdom": 20,
@@ -537,44 +486,40 @@
       "waterResistPer": 4
     }
   },
-  {
+  "Dragolyre Remaniée": {
     "level": 42,
-    "name": "Dragolyre Remaniée",
     "category": "Amulette",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -20,
+      "intelligence": -20,
+      "chance": -20,
+      "agility": -20,
       "AP": 1,
       "summon": 1
     }
   },
-  {
+  "Omelette Amulette": {
     "level": 17,
-    "name": "Omelette Amulette",
     "category": "Amulette",
     "stats": {
       "health": 10,
       "summon": 1
     }
   },
-  {
+  "La Bourgeonette": {
     "level": 32,
-    "name": "La Bourgeonette",
     "category": "Amulette",
     "stats": {
       "health": 40,
       "strength": 30,
-      "agility": 0,
+      "agility": -30,
       "earthResistPer": 5,
-      "airResistPer": 0,
+      "airResistPer": -5,
       "lock": 5
     }
   },
-  {
+  "Le foulard du Lard Fou": {
     "level": 42,
-    "name": "Le foulard du Lard Fou",
     "category": "Amulette",
     "stats": {
       "health": 30,
@@ -584,17 +529,15 @@
       "neutralResistPer": 3
     }
   },
-  {
+  "La Lou Ptiote": {
     "level": 15,
-    "name": "La Lou Ptiote",
     "category": "Amulette",
     "stats": {
       "intelligence": 25
     }
   },
-  {
+  "La Bibelaw": {
     "level": 30,
-    "name": "La Bibelaw",
     "category": "Amulette",
     "stats": {
       "health": 20,
@@ -604,9 +547,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "L'Œil de Kanigrou": {
     "level": 52,
-    "name": "L'Œil de Kanigrou",
     "category": "Amulette",
     "stats": {
       "health": 20,
@@ -616,17 +558,15 @@
       "criticalDamage": 5
     }
   },
-  {
+  "La Veaux Doux": {
     "level": 11,
-    "name": "La Veaux Doux",
     "category": "Amulette",
     "stats": {
       "strength": 17
     }
   },
-  {
+  "Amukwak de Flammes": {
     "level": 42,
-    "name": "Amukwak de Flammes",
     "panoply": "Panoplie du Kwak de Flammes",
     "category": "Amulette",
     "stats": {
@@ -636,9 +576,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Amulette du Bouftou": {
     "level": 20,
-    "name": "Amulette du Bouftou",
     "panoply": "Panoplie du Bouftou",
     "category": "Amulette",
     "stats": {
@@ -647,9 +586,8 @@
       "intelligence": 15
     }
   },
-  {
+  "Araknamu": {
     "level": 40,
-    "name": "Araknamu",
     "panoply": "Panoplie de l'Abraknyde",
     "category": "Amulette",
     "stats": {
@@ -657,9 +595,8 @@
       "range": 1
     }
   },
-  {
+  "Amulette Royale du Bouftou": {
     "level": 28,
-    "name": "Amulette Royale du Bouftou",
     "panoply": "Panoplie du Bouftou Royal",
     "category": "Amulette",
     "stats": {
@@ -668,9 +605,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Gelamu": {
     "level": 60,
-    "name": "Gelamu",
     "panoply": "Panoplie Gelax",
     "category": "Amulette",
     "stats": {
@@ -679,9 +615,8 @@
       "initiative": 300
     }
   },
-  {
+  "Amulette de l'Aventurier": {
     "level": 5,
-    "name": "Amulette de l'Aventurier",
     "panoply": "Panoplie du Jeune Aventurier",
     "category": "Amulette",
     "stats": {
@@ -691,21 +626,19 @@
       "agility": 5
     }
   },
-  {
+  "Vegamu": {
     "level": 40,
-    "name": "Vegamu",
     "panoply": "Panoplie Végétatif",
     "category": "Amulette",
     "stats": {
       "health": 60,
-      "intelligence": 0,
-      "chance": 0,
+      "intelligence": -40,
+      "chance": -40,
       "range": 2
     }
   },
-  {
+  "Amulette Argie": {
     "level": 82,
-    "name": "Amulette Argie",
     "category": "Amulette",
     "stats": {
       "earthResistPer": 4,
@@ -718,9 +651,8 @@
       "airResist": 10
     }
   },
-  {
+  "Amulette du Craqueleur des Plaines": {
     "level": 52,
-    "name": "Amulette du Craqueleur des Plaines",
     "category": "Amulette",
     "stats": {
       "health": 25,
@@ -731,25 +663,23 @@
       "earthResist": 8
     }
   },
-  {
+  "La Maîtrise des Poupées": {
     "level": 69,
-    "name": "La Maîtrise des Poupées",
     "category": "Amulette",
     "stats": {
       "health": 60,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -25,
+      "intelligence": -25,
+      "chance": -25,
+      "agility": -25,
       "AP": 1,
       "summon": 2,
       "neutralResistPer": 2,
       "earthResistPer": 2
     }
   },
-  {
+  "Amulette du Renouveau": {
     "level": 118,
-    "name": "Amulette du Renouveau",
     "category": "Amulette",
     "stats": {
       "health": 70,
@@ -762,9 +692,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Amulette Turquoise": {
     "level": 63,
-    "name": "Amulette Turquoise",
     "category": "Amulette",
     "stats": {
       "health": 30,
@@ -775,9 +704,8 @@
       "prospecting": 5
     }
   },
-  {
+  "Amulette du Mineur Sombre": {
     "level": 39,
-    "name": "Amulette du Mineur Sombre",
     "category": "Amulette",
     "stats": {
       "health": 50,
@@ -785,15 +713,14 @@
       "wisdom": 10,
       "power": 20,
       "prospecting": 10,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
-      "waterResistPer": 0,
-      "airResistPer": 0
+      "earthResistPer": -2,
+      "fireResistPer": -2,
+      "waterResistPer": -2,
+      "airResistPer": -2
     }
   },
-  {
+  "La Feuille d'Hiver": {
     "level": 95,
-    "name": "La Feuille d'Hiver",
     "category": "Amulette",
     "stats": {
       "health": 60,
@@ -805,9 +732,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "La Feuille de Printemps": {
     "level": 123,
-    "name": "La Feuille de Printemps",
     "category": "Amulette",
     "stats": {
       "health": 70,
@@ -821,9 +747,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "La Feuille d'Eté": {
     "level": 45,
-    "name": "La Feuille d'Eté",
     "category": "Amulette",
     "stats": {
       "health": 60,
@@ -831,16 +756,15 @@
       "chance": 40,
       "range": 1,
       "prospecting": 10,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
-      "airResistPer": 0,
+      "earthResistPer": -10,
+      "fireResistPer": -10,
+      "airResistPer": -10,
       "apReduction": 5,
       "mpReduction": 5
     }
   },
-  {
+  "Amulette de Shika": {
     "level": 29,
-    "name": "Amulette de Shika",
     "category": "Amulette",
     "stats": {
       "health": 50,
@@ -849,9 +773,8 @@
       "lock": 3
     }
   },
-  {
+  "Amulette \"Dents de Wabbits\"": {
     "level": 60,
-    "name": "Amulette \"Dents de Wabbits\"",
     "panoply": "Panoplie du Wabbit",
     "category": "Amulette",
     "stats": {
@@ -863,20 +786,18 @@
       "initiative": 100
     }
   },
-  {
+  "Amulette de l'Homme Ours": {
     "level": 20,
-    "name": "Amulette de l'Homme Ours",
     "panoply": "Panoplie de l'Homme Ours",
     "category": "Amulette",
     "stats": {
       "wisdom": 7,
       "range": 1,
-      "fireResistPer": 0
+      "fireResistPer": -7
     }
   },
-  {
+  "Amukwak de Glace": {
     "level": 42,
-    "name": "Amukwak de Glace",
     "panoply": "Panoplie du Kwak de Glace",
     "category": "Amulette",
     "stats": {
@@ -886,9 +807,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Fourbamulette": {
     "level": 103,
-    "name": "Fourbamulette",
     "panoply": "Panoplie Fourbasse",
     "category": "Amulette",
     "stats": {
@@ -904,9 +824,8 @@
       "neutralResistPer": 7
     }
   },
-  {
+  "Amukwak de Terre": {
     "level": 42,
-    "name": "Amukwak de Terre",
     "panoply": "Panoplie du Kwak de Terre",
     "category": "Amulette",
     "stats": {
@@ -916,9 +835,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Amukwak de Vent": {
     "level": 42,
-    "name": "Amukwak de Vent",
     "panoply": "Panoplie du Kwak de Vent",
     "category": "Amulette",
     "stats": {
@@ -928,9 +846,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Epis de Farle": {
     "level": 75,
-    "name": "Epis de Farle",
     "panoply": "Panoplie de Farle Ingalsse",
     "category": "Amulette",
     "stats": {
@@ -942,29 +859,26 @@
       "prospecting": 5
     }
   },
-  {
+  "Amulette Tude": {
     "level": 1,
-    "name": "Amulette Tude",
     "category": "Amulette",
     "stats": {
       "intelligence": 1,
       "initiative": 5
     }
   },
-  {
+  "Amulette des Champs": {
     "level": 15,
-    "name": "Amulette des Champs",
     "panoply": "Panoplie Champêtre",
     "category": "Amulette",
     "stats": {
       "summon": 1,
       "initiative": 100,
-      "lock": 0
+      "lock": -9
     }
   },
-  {
+  "Amulette du Chef Bwork": {
     "level": 100,
-    "name": "Amulette du Chef Bwork",
     "panoply": "Panoplie du Chef Bwork",
     "category": "Amulette",
     "stats": {
@@ -979,9 +893,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Amulette du Chef Crocodaille": {
     "level": 70,
-    "name": "Amulette du Chef Crocodaille",
     "panoply": "Panoplie du Chef Crocodaille",
     "category": "Amulette",
     "stats": {
@@ -992,9 +905,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Amulette du Moskito": {
     "level": 15,
-    "name": "Amulette du Moskito",
     "panoply": "Panoplie Moskito",
     "category": "Amulette",
     "stats": {
@@ -1002,9 +914,8 @@
       "chance": 20
     }
   },
-  {
+  "Amulette du Bandit": {
     "level": 16,
-    "name": "Amulette du Bandit",
     "panoply": "Panoplie du Bandit",
     "category": "Amulette",
     "stats": {
@@ -1017,9 +928,8 @@
       "airDamage": 1
     }
   },
-  {
+  "Craquamulette": {
     "level": 58,
-    "name": "Craquamulette",
     "panoply": "Panoplie du Craqueleur",
     "category": "Amulette",
     "stats": {
@@ -1027,12 +937,11 @@
       "chance": 15,
       "AP": 1,
       "earthResistPer": 2,
-      "dodge": 0
+      "dodge": -7
     }
   },
-  {
+  "Médaille Lahilama": {
     "level": 31,
-    "name": "Médaille Lahilama",
     "category": "Amulette",
     "stats": {
       "health": 40,
@@ -1041,23 +950,21 @@
       "heal": 5
     }
   },
-  {
+  "Bambamulette": {
     "level": 40,
-    "name": "Bambamulette",
     "category": "Amulette",
     "stats": {
       "health": 80,
-      "strength": 0,
-      "intelligence": 0,
+      "strength": -20,
+      "intelligence": -20,
       "summon": 1,
       "heal": 10,
       "initiative": 150,
       "dodge": 3
     }
   },
-  {
+  "Talisman du Faucheur d'Avoine": {
     "level": 55,
-    "name": "Talisman du Faucheur d'Avoine",
     "category": "Amulette",
     "stats": {
       "strength": 40,
@@ -1066,12 +973,11 @@
       "earthDamage": 2,
       "fireDamage": 2,
       "apReduction": 5,
-      "criticalDamage": 0
+      "criticalDamage": -10
     }
   },
-  {
+  "La Résinette": {
     "level": 94,
-    "name": "La Résinette",
     "category": "Amulette",
     "stats": {
       "health": 90,
@@ -1083,9 +989,8 @@
       "fireResistPer": 4
     }
   },
-  {
+  "Talisman d'Elya Wood": {
     "level": 135,
-    "name": "Talisman d'Elya Wood",
     "panoply": "Panoplie d'Elya Wood",
     "category": "Amulette",
     "stats": {
@@ -1100,9 +1005,8 @@
       "fireResist": 13
     }
   },
-  {
+  "La Doubitch O'Boul": {
     "level": 77,
-    "name": "La Doubitch O'Boul",
     "panoply": "Panoplie O'Boul",
     "category": "Amulette",
     "stats": {
@@ -1112,9 +1016,8 @@
       "prospecting": 15
     }
   },
-  {
+  "Pendule du Gudule": {
     "level": 46,
-    "name": "Pendule du Gudule",
     "category": "Amulette",
     "stats": {
       "health": 60,
@@ -1123,9 +1026,8 @@
       "damage": 3
     }
   },
-  {
+  "Larvamulette": {
     "level": 26,
-    "name": "Larvamulette",
     "panoply": "Panoplie Larvesque",
     "category": "Amulette",
     "stats": {
@@ -1134,9 +1036,8 @@
       "agility": 20
     }
   },
-  {
+  "Médaille Kido": {
     "level": 125,
-    "name": "Médaille Kido",
     "category": "Amulette",
     "stats": {
       "health": 150,
@@ -1148,9 +1049,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Collier du Tanukouï San": {
     "level": 152,
-    "name": "Collier du Tanukouï San",
     "category": "Amulette",
     "stats": {
       "health": 250,
@@ -1164,9 +1064,8 @@
       "neutralResist": 10
     }
   },
-  {
+  "Amulette Akwadala": {
     "level": 41,
-    "name": "Amulette Akwadala",
     "panoply": "Panoplie Akwadala",
     "category": "Amulette",
     "stats": {
@@ -1176,9 +1075,8 @@
       "damage": 2
     }
   },
-  {
+  "Amulette Terrdala": {
     "level": 78,
-    "name": "Amulette Terrdala",
     "panoply": "Panoplie Terrdala",
     "category": "Amulette",
     "stats": {
@@ -1189,9 +1087,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Amulette Feudala": {
     "level": 91,
-    "name": "Amulette Feudala",
     "panoply": "Panoplie Feudala",
     "category": "Amulette",
     "stats": {
@@ -1203,9 +1100,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Amulette Aerdala": {
     "level": 62,
-    "name": "Amulette Aerdala",
     "panoply": "Panoplie Aerdala",
     "category": "Amulette",
     "stats": {
@@ -1215,9 +1111,8 @@
       "airDamage": 3
     }
   },
-  {
+  "Amulette du Kitsou": {
     "level": 58,
-    "name": "Amulette du Kitsou",
     "panoply": "Panoplie du Kitsou",
     "category": "Amulette",
     "stats": {
@@ -1227,9 +1122,8 @@
       "dodge": 5
     }
   },
-  {
+  "Amulette du Boufcoul": {
     "level": 84,
-    "name": "Amulette du Boufcoul",
     "panoply": "Panoplie du Boufcoul",
     "category": "Amulette",
     "stats": {
@@ -1243,26 +1137,24 @@
       "fireDamage": 2,
       "airDamage": 2,
       "heal": 6,
-      "initiative": 0
+      "initiative": -50
     }
   },
-  {
+  "Amulette du Koalak": {
     "level": 60,
-    "name": "Amulette du Koalak",
     "panoply": "Panoplie du Koalak",
     "category": "Amulette",
     "stats": {
       "wisdom": 20,
       "range": 1,
-      "initiative": 0,
+      "initiative": -300,
       "earthResistPer": 4,
       "waterResistPer": 4,
       "criticalDamage": 6
     }
   },
-  {
+  "Amulette du Tofu": {
     "level": 22,
-    "name": "Amulette du Tofu",
     "panoply": "Panoplie du Tofu",
     "category": "Amulette",
     "stats": {
@@ -1271,9 +1163,8 @@
       "dodge": 2
     }
   },
-  {
+  "Amulette du Scarabosse Doré": {
     "level": 45,
-    "name": "Amulette du Scarabosse Doré",
     "panoply": "Panoplie du Scarabosse Doré",
     "category": "Amulette",
     "stats": {
@@ -1282,9 +1173,8 @@
       "range": 1
     }
   },
-  {
+  "Amulette Paysanne": {
     "level": 20,
-    "name": "Amulette Paysanne",
     "panoply": "Panoplie du Paysan",
     "category": "Amulette",
     "stats": {
@@ -1294,9 +1184,8 @@
       "dodge": 3
     }
   },
-  {
+  "Amuloumulette": {
     "level": 57,
-    "name": "Amuloumulette",
     "panoply": "Panoplie du Mulou",
     "category": "Amulette",
     "stats": {
@@ -1306,9 +1195,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Amulette du Craqueleur Légendaire": {
     "level": 84,
-    "name": "Amulette du Craqueleur Légendaire",
     "panoply": "Panoplie du Craqueleur Légendaire",
     "category": "Amulette",
     "stats": {
@@ -1321,9 +1209,8 @@
       "waterResist": 5
     }
   },
-  {
+  "Amulette du Piou Rouge": {
     "level": 11,
-    "name": "Amulette du Piou Rouge",
     "panoply": "Panoplie du Piou Rouge",
     "category": "Amulette",
     "stats": {
@@ -1331,9 +1218,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Amulette du Piou Bleu": {
     "level": 10,
-    "name": "Amulette du Piou Bleu",
     "panoply": "Panoplie du Piou Bleu",
     "category": "Amulette",
     "stats": {
@@ -1341,9 +1227,8 @@
       "chance": 20
     }
   },
-  {
+  "Amulette du Piou Violet": {
     "level": 9,
-    "name": "Amulette du Piou Violet",
     "panoply": "Panoplie du Piou Violet",
     "category": "Amulette",
     "stats": {
@@ -1351,9 +1236,8 @@
       "power": 10
     }
   },
-  {
+  "Amulette du Piou Jaune": {
     "level": 7,
-    "name": "Amulette du Piou Jaune",
     "panoply": "Panoplie du Piou Jaune",
     "category": "Amulette",
     "stats": {
@@ -1361,9 +1245,8 @@
       "airDamage": 1
     }
   },
-  {
+  "Amulette du Piou Vert": {
     "level": 12,
-    "name": "Amulette du Piou Vert",
     "panoply": "Panoplie du Piou Vert",
     "category": "Amulette",
     "stats": {
@@ -1371,9 +1254,8 @@
       "earthDamage": 1
     }
   },
-  {
+  "Amulette du Piou Rose": {
     "level": 8,
-    "name": "Amulette du Piou Rose",
     "panoply": "Panoplie du Piou Rose",
     "category": "Amulette",
     "stats": {
@@ -1381,9 +1263,8 @@
       "dodge": 3
     }
   },
-  {
+  "Amulette en Mousse": {
     "level": 20,
-    "name": "Amulette en Mousse",
     "panoply": "Panoplie en Mousse",
     "category": "Amulette",
     "stats": {
@@ -1392,9 +1273,8 @@
       "criticalChance": 2
     }
   },
-  {
+  "La Meulette": {
     "level": 143,
-    "name": "La Meulette",
     "panoply": "Panoplie du Meulou",
     "category": "Amulette",
     "stats": {
@@ -1410,9 +1290,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Collier du Minotoror": {
     "level": 111,
-    "name": "Collier du Minotoror",
     "panoply": "Panoplie du Minotoror",
     "category": "Amulette",
     "stats": {
@@ -1428,9 +1307,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Collier du Minotot": {
     "level": 158,
-    "name": "Collier du Minotot",
     "panoply": "Panoplie du Minotot",
     "category": "Amulette",
     "stats": {
@@ -1446,9 +1324,8 @@
       "prospecting": 25
     }
   },
-  {
+  "Collier du Dragon Cochon": {
     "level": 100,
-    "name": "Collier du Dragon Cochon",
     "panoply": "Panoplie du Dragon Cochon",
     "category": "Amulette",
     "stats": {
@@ -1461,9 +1338,8 @@
       "heal": 6
     }
   },
-  {
+  "Amulette du Dragoeuf": {
     "level": 124,
-    "name": "Amulette du Dragoeuf",
     "panoply": "Panoplie du Dragoeuf Vagabond",
     "category": "Amulette",
     "stats": {
@@ -1478,9 +1354,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Epis de Shika": {
     "level": 76,
-    "name": "Epis de Shika",
     "panoply": "Panoplie de Shika Ingalsse",
     "category": "Amulette",
     "stats": {
@@ -1492,9 +1367,8 @@
       "prospecting": 5
     }
   },
-  {
+  "Pendentif du Mominotor": {
     "level": 111,
-    "name": "Pendentif du Mominotor",
     "panoply": "Panoplie du Mominotor",
     "category": "Amulette",
     "stats": {
@@ -1509,9 +1383,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Collier du Rat Noir": {
     "level": 103,
-    "name": "Collier du Rat Noir",
     "panoply": "Panoplie du Rat Noir",
     "category": "Amulette",
     "stats": {
@@ -1527,9 +1400,8 @@
       "lock": 5
     }
   },
-  {
+  "Collier du Rat Blanc": {
     "level": 102,
-    "name": "Collier du Rat Blanc",
     "panoply": "Panoplie du Rat Blanc",
     "category": "Amulette",
     "stats": {
@@ -1545,9 +1417,8 @@
       "dodge": 5
     }
   },
-  {
+  "Collier Cérémonial du Seigneur des Rats": {
     "level": 134,
-    "name": "Collier Cérémonial du Seigneur des Rats",
     "panoply": "Panoplie Cérémoniale",
     "category": "Amulette",
     "stats": {
@@ -1562,9 +1433,8 @@
       "neutralResistPer": 10
     }
   },
-  {
+  "Torque Ancestral": {
     "level": 110,
-    "name": "Torque Ancestral",
     "panoply": "Panoplie Ancestrale",
     "category": "Amulette",
     "stats": {
@@ -1579,9 +1449,8 @@
       "fireResist": 7
     }
   },
-  {
+  "Talisman du Chêne Mou": {
     "level": 138,
-    "name": "Talisman du Chêne Mou",
     "panoply": "Panoplie du Chêne Mou",
     "category": "Amulette",
     "stats": {
@@ -1596,9 +1465,8 @@
       "initiative": 300
     }
   },
-  {
+  "Le S'Mesme": {
     "level": 1,
-    "name": "Le S'Mesme",
     "panoply": "Panoplie du Boune",
     "category": "Amulette",
     "stats": {
@@ -1606,9 +1474,8 @@
       "chance": 6
     }
   },
-  {
+  "Zothulette": {
     "level": 159,
-    "name": "Zothulette",
     "category": "Amulette",
     "stats": {
       "health": 300,
@@ -1623,9 +1490,8 @@
       "fireResistPer": 10
     }
   },
-  {
+  "Ouassulette": {
     "level": 105,
-    "name": "Ouassulette",
     "panoply": "Panoplie Vassale",
     "category": "Amulette",
     "stats": {
@@ -1641,9 +1507,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Amufafah": {
     "level": 83,
-    "name": "Amufafah",
     "panoply": "Panoplie des Herboricoles",
     "category": "Amulette",
     "stats": {
@@ -1656,9 +1521,8 @@
       "criticalDamage": 5
     }
   },
-  {
+  "Ougamulette": {
     "level": 181,
-    "name": "Ougamulette",
     "panoply": "Panoplie du Ougah",
     "category": "Amulette",
     "stats": {
@@ -1672,9 +1536,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Amublop Griotte": {
     "level": 50,
-    "name": "Amublop Griotte",
     "panoply": "Panoplie Blop Griotte",
     "category": "Amulette",
     "stats": {
@@ -1684,9 +1547,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Amublop Reinette": {
     "level": 50,
-    "name": "Amublop Reinette",
     "panoply": "Panoplie Blop Reinette",
     "category": "Amulette",
     "stats": {
@@ -1696,9 +1558,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Amublop Coco": {
     "level": 50,
-    "name": "Amublop Coco",
     "panoply": "Panoplie Blop Coco",
     "category": "Amulette",
     "stats": {
@@ -1708,9 +1569,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Amublop Indigo": {
     "level": 50,
-    "name": "Amublop Indigo",
     "panoply": "Panoplie Blop Indigo",
     "category": "Amulette",
     "stats": {
@@ -1720,9 +1580,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Amublop Griotte Royale": {
     "level": 80,
-    "name": "Amublop Griotte Royale",
     "panoply": "Panoplie Blop Griotte Royale",
     "category": "Amulette",
     "stats": {
@@ -1734,9 +1593,8 @@
       "heal": 5
     }
   },
-  {
+  "Amublop Reinette Royale": {
     "level": 80,
-    "name": "Amublop Reinette Royale",
     "panoply": "Panoplie Blop Reinette Royale",
     "category": "Amulette",
     "stats": {
@@ -1748,9 +1606,8 @@
       "heal": 5
     }
   },
-  {
+  "Amublop Coco Royale": {
     "level": 80,
-    "name": "Amublop Coco Royale",
     "panoply": "Panoplie Blop Coco Royale",
     "category": "Amulette",
     "stats": {
@@ -1762,9 +1619,8 @@
       "heal": 5
     }
   },
-  {
+  "Amublop Indigo Royale": {
     "level": 80,
-    "name": "Amublop Indigo Royale",
     "panoply": "Panoplie Blop Indigo Royale",
     "category": "Amulette",
     "stats": {
@@ -1776,9 +1632,8 @@
       "heal": 5
     }
   },
-  {
+  "Amublop Multicolore Royale": {
     "level": 90,
-    "name": "Amublop Multicolore Royale",
     "panoply": "Panoplie Blop Multicolore Royale",
     "category": "Amulette",
     "stats": {
@@ -1790,9 +1645,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Amulette Ripage": {
     "level": 184,
-    "name": "Amulette Ripage",
     "panoply": "Panoplie du Bworker Berserker",
     "category": "Amulette",
     "stats": {
@@ -1809,9 +1663,8 @@
       "trapPower": 20
     }
   },
-  {
+  "Tartamulette": {
     "level": 43,
-    "name": "Tartamulette",
     "category": "Amulette",
     "stats": {
       "strength": 20,
@@ -1821,9 +1674,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Pompamulette": {
     "level": 27,
-    "name": "Pompamulette",
     "panoply": "Pompanoplie",
     "category": "Amulette",
     "stats": {
@@ -1831,9 +1683,8 @@
       "range": 1
     }
   },
-  {
+  "Amunite": {
     "level": 189,
-    "name": "Amunite",
     "panoply": "Panoplie Tue-Mouche",
     "category": "Amulette",
     "stats": {
@@ -1849,9 +1700,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Kralamansion": {
     "level": 194,
-    "name": "Kralamansion",
     "panoply": "Panoplie Ventouse",
     "category": "Amulette",
     "stats": {
@@ -1867,9 +1717,8 @@
       "prospecting": 30
     }
   },
-  {
+  "Amulette Papayou": {
     "level": 47,
-    "name": "Amulette Papayou",
     "panoply": "Panoplie Papayou",
     "category": "Amulette",
     "stats": {
@@ -1880,9 +1729,8 @@
       "apReduction": 3
     }
   },
-  {
+  "Collier Sleump": {
     "level": 43,
-    "name": "Collier Sleump",
     "panoply": "Panoplie Sleump",
     "category": "Amulette",
     "stats": {
@@ -1893,9 +1741,8 @@
       "heal": 2
     }
   },
-  {
+  "La Chaplivate": {
     "level": 43,
-    "name": "La Chaplivate",
     "panoply": "Chapanoplie",
     "category": "Amulette",
     "stats": {
@@ -1906,9 +1753,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Amulette du Vampyre": {
     "level": 45,
-    "name": "Amulette du Vampyre",
     "panoply": "Panoplie du Vampyre maudit",
     "category": "Amulette",
     "stats": {
@@ -1919,9 +1765,8 @@
       "undefined": 1
     }
   },
-  {
+  "Yugolette": {
     "level": 43,
-    "name": "Yugolette",
     "panoply": "Yugoplie",
     "category": "Amulette",
     "stats": {
@@ -1931,9 +1776,8 @@
       "initiative": 150
     }
   },
-  {
+  "Collertue": {
     "level": 42,
-    "name": "Collertue",
     "panoply": "Panoplie Mace",
     "category": "Amulette",
     "stats": {
@@ -1943,9 +1787,8 @@
       "criticalDamage": 5
     }
   },
-  {
+  "L'Esteban": {
     "level": 42,
-    "name": "L'Esteban",
     "category": "Amulette",
     "stats": {
       "health": 35,
@@ -1955,9 +1798,8 @@
       "initiative": 100
     }
   },
-  {
+  "Collier de Noké": {
     "level": 41,
-    "name": "Collier de Noké",
     "category": "Amulette",
     "stats": {
       "health": 40,
@@ -1966,9 +1808,8 @@
       "damage": 2
     }
   },
-  {
+  "Amulette de Grüt": {
     "level": 42,
-    "name": "Amulette de Grüt",
     "panoply": "Panoplie de Grüt",
     "category": "Amulette",
     "stats": {
@@ -1979,9 +1820,8 @@
       "lock": 4
     }
   },
-  {
+  "Amulette de Gobeuf": {
     "level": 42,
-    "name": "Amulette de Gobeuf",
     "panoply": "Panoplie de Gobeuf",
     "category": "Amulette",
     "stats": {
@@ -1991,9 +1831,8 @@
       "mpResist": 3
     }
   },
-  {
+  "Amulette de Laikteur": {
     "level": 41,
-    "name": "Amulette de Laikteur",
     "panoply": "Panoplie de Laikteur",
     "category": "Amulette",
     "stats": {
@@ -2002,9 +1841,8 @@
       "damage": 2
     }
   },
-  {
+  "Amulette de Rekto Topi": {
     "level": 41,
-    "name": "Amulette de Rekto Topi",
     "panoply": "Panoplie de Rekto Topi",
     "category": "Amulette",
     "stats": {
@@ -2013,9 +1851,8 @@
       "heal": 2
     }
   },
-  {
+  "Amulette de l'intrépide": {
     "level": 1,
-    "name": "Amulette de l'intrépide",
     "panoply": "Panoplie de l'intrépide",
     "category": "Amulette",
     "stats": {
@@ -2024,9 +1861,8 @@
       "undefined": 0
     }
   },
-  {
+  "Boufbamu": {
     "level": 64,
-    "name": "Boufbamu",
     "category": "Amulette",
     "stats": {
       "chance": 10,
@@ -2034,9 +1870,8 @@
       "range": 1
     }
   },
-  {
+  "Amulette d'Hulkrap": {
     "level": 53,
-    "name": "Amulette d'Hulkrap",
     "panoply": "Panoplie d'Hulkrap",
     "category": "Amulette",
     "stats": {
@@ -2045,9 +1880,8 @@
       "initiative": 100
     }
   },
-  {
+  "Amulette de Kloug": {
     "level": 53,
-    "name": "Amulette de Kloug",
     "panoply": "Panoplie de Kloug",
     "category": "Amulette",
     "stats": {
@@ -2058,9 +1892,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Amulette de Rapine": {
     "level": 31,
-    "name": "Amulette de Rapine",
     "panoply": "Panoplie de Rapine",
     "category": "Amulette",
     "stats": {
@@ -2069,9 +1902,8 @@
       "damage": 3
     }
   },
-  {
+  "Amulette d'Hectaupe": {
     "level": 32,
-    "name": "Amulette d'Hectaupe",
     "panoply": "Panoplie d'Hectaupe",
     "category": "Amulette",
     "stats": {
@@ -2079,9 +1911,8 @@
       "range": 1
     }
   },
-  {
+  "Clémentamulette": {
     "level": 32,
-    "name": "Clémentamulette",
     "panoply": "Clémentopanoplie",
     "category": "Amulette",
     "stats": {
@@ -2090,9 +1921,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Amulette de Grilliane": {
     "level": 45,
-    "name": "Amulette de Grilliane",
     "panoply": "Panoplie de Grilliane",
     "category": "Amulette",
     "stats": {
@@ -2103,33 +1933,30 @@
       "heal": 2
     }
   },
-  {
+  "Amulette de Rapiat": {
     "level": 42,
-    "name": "Amulette de Rapiat",
     "panoply": "Panoplie de Rapiat",
     "category": "Amulette",
     "stats": {
       "strength": 15,
-      "agility": 0,
-      "criticalChance": 0,
+      "agility": -15,
+      "criticalChance": -4,
       "AP": 1
     }
   },
-  {
+  "Amulette d'Ougicle": {
     "level": 54,
-    "name": "Amulette d'Ougicle",
     "panoply": "Panoplie d'Ougicle",
     "category": "Amulette",
     "stats": {
       "health": 30,
       "agility": 20,
-      "wisdom": 0,
+      "wisdom": -10,
       "AP": 1
     }
   },
-  {
+  "Amulette de Karotz": {
     "level": 49,
-    "name": "Amulette de Karotz",
     "panoply": "Panoplie de Karotz",
     "category": "Amulette",
     "stats": {
@@ -2140,9 +1967,8 @@
       "dodge": 4
     }
   },
-  {
+  "Amulette de Kubitus": {
     "level": 41,
-    "name": "Amulette de Kubitus",
     "panoply": "Panoplie de Kubitus",
     "category": "Amulette",
     "stats": {
@@ -2152,9 +1978,8 @@
       "dodge": 3
     }
   },
-  {
+  "Amulette de Piggy Paupe": {
     "level": 58,
-    "name": "Amulette de Piggy Paupe",
     "panoply": "Panoplie de Piggy Paupe",
     "category": "Amulette",
     "stats": {
@@ -2165,9 +1990,8 @@
       "lock": 3
     }
   },
-  {
+  "Amupapier": {
     "level": 62,
-    "name": "Amupapier",
     "panoply": "Panopapier",
     "category": "Amulette",
     "stats": {
@@ -2179,9 +2003,8 @@
       "initiative": 150
     }
   },
-  {
+  "Plumamulette": {
     "level": 59,
-    "name": "Plumamulette",
     "panoply": "Plumoplie",
     "category": "Amulette",
     "stats": {
@@ -2193,9 +2016,8 @@
       "heal": 4
     }
   },
-  {
+  "Amusonnier": {
     "level": 54,
-    "name": "Amusonnier",
     "panoply": "Panoplisonnier",
     "category": "Amulette",
     "stats": {
@@ -2206,9 +2028,8 @@
       "damage": 4
     }
   },
-  {
+  "Frimamulette": {
     "level": 192,
-    "name": "Frimamulette",
     "panoply": "Frimanoplie",
     "category": "Amulette",
     "stats": {
@@ -2226,9 +2047,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Amulette Ementaire": {
     "level": 127,
-    "name": "Amulette Ementaire",
     "category": "Amulette",
     "stats": {
       "undefined": 58,
@@ -2248,9 +2068,8 @@
       "airResistPer": 8
     }
   },
-  {
+  "Amulette du Royalmouth": {
     "level": 128,
-    "name": "Amulette du Royalmouth",
     "panoply": "Panoplie du Royalmouth",
     "category": "Amulette",
     "stats": {
@@ -2270,9 +2089,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Amulette de l'Obsidiantre": {
     "level": 164,
-    "name": "Amulette de l'Obsidiantre",
     "panoply": "Panoplie de l'Obsidiantre",
     "category": "Amulette",
     "stats": {
@@ -2292,9 +2110,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Collier Yé": {
     "level": 160,
-    "name": "Collier Yé",
     "panoply": "Panoplie Yéyé",
     "category": "Amulette",
     "stats": {
@@ -2314,9 +2131,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Talisman Choh": {
     "level": 154,
-    "name": "Talisman Choh",
     "category": "Amulette",
     "stats": {
       "health": 250,
@@ -2335,9 +2151,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Talisman Doline": {
     "level": 137,
-    "name": "Talisman Doline",
     "category": "Amulette",
     "stats": {
       "health": 150,
@@ -2355,9 +2170,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Amulette du Korriandre": {
     "level": 182,
-    "name": "Amulette du Korriandre",
     "panoply": "Panoplie du Korriandre",
     "category": "Amulette",
     "stats": {
@@ -2376,9 +2190,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Amulette du Glourséleste": {
     "level": 198,
-    "name": "Amulette du Glourséleste",
     "panoply": "Panoplie du Glourséleste",
     "category": "Amulette",
     "stats": {
@@ -2399,9 +2212,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Amulette Cætera": {
     "level": 173,
-    "name": "Amulette Cætera",
     "panoply": "Panoplie Abrégée",
     "category": "Amulette",
     "stats": {
@@ -2421,9 +2233,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Amulette Héroclite": {
     "level": 185,
-    "name": "Amulette Héroclite",
     "panoply": "Panoplie du frigostien curieux",
     "category": "Amulette",
     "stats": {
@@ -2441,9 +2252,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Amulette Hendart": {
     "level": 197,
-    "name": "Amulette Hendart",
     "category": "Amulette",
     "stats": {
       "health": 350,
@@ -2464,9 +2274,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Amulette Ementaire Deluxe": {
     "level": 163,
-    "name": "Amulette Ementaire Deluxe",
     "category": "Amulette",
     "stats": {
       "undefined": 59,
@@ -2487,9 +2296,8 @@
       "airResistPer": 8
     }
   },
-  {
+  "Racine Hueuse": {
     "level": 186,
-    "name": "Racine Hueuse",
     "category": "Amulette",
     "stats": {
       "undefined": 61,
@@ -2508,9 +2316,8 @@
       "lock": 5
     }
   },
-  {
+  "Amulette du Boostache": {
     "level": 48,
-    "name": "Amulette du Boostache",
     "panoply": "Panoplie du Boostache",
     "category": "Amulette",
     "stats": {
@@ -2520,9 +2327,8 @@
       "apResist": 6
     }
   },
-  {
+  "Amulette de Traçon": {
     "level": 45,
-    "name": "Amulette de Traçon",
     "panoply": "Panoplie de Traçon",
     "category": "Amulette",
     "stats": {
@@ -2533,9 +2339,8 @@
       "apReduction": 4
     }
   },
-  {
+  "Amulette de Mirh": {
     "level": 53,
-    "name": "Amulette de Mirh",
     "panoply": "Panoplie de Mirh",
     "category": "Amulette",
     "stats": {
@@ -2545,9 +2350,8 @@
       "initiative": 100
     }
   },
-  {
+  "Amulette de Logram": {
     "level": 49,
-    "name": "Amulette de Logram",
     "panoply": "Panoplie de Logram",
     "category": "Amulette",
     "stats": {
@@ -2558,9 +2362,8 @@
       "apResist": 4
     }
   },
-  {
+  "Amulette de Kalkanéus": {
     "level": 43,
-    "name": "Amulette de Kalkanéus",
     "panoply": "Panoplie de Kalkanéus",
     "category": "Amulette",
     "stats": {
@@ -2571,9 +2374,8 @@
       "lock": 4
     }
   },
-  {
+  "Amulette d'Hichète": {
     "level": 57,
-    "name": "Amulette d'Hichète",
     "panoply": "Panoplie d'Hichète",
     "category": "Amulette",
     "stats": {
@@ -2582,9 +2384,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Amulette d'Haku": {
     "level": 46,
-    "name": "Amulette d'Haku",
     "panoply": "Panoplie d'Haku",
     "category": "Amulette",
     "stats": {
@@ -2594,9 +2395,8 @@
       "fireDamage": 5
     }
   },
-  {
+  "Amulette de Nelween": {
     "level": 74,
-    "name": "Amulette de Nelween",
     "panoply": "Panoplie de Nelween",
     "category": "Amulette",
     "stats": {
@@ -2608,9 +2408,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Amulette de Frigostine": {
     "level": 147,
-    "name": "Amulette de Frigostine",
     "panoply": "Panoplie de Frigostine",
     "category": "Amulette",
     "stats": {
@@ -2629,9 +2428,8 @@
       "dodge": 5
     }
   },
-  {
+  "Amulette de Cantile": {
     "level": 156,
-    "name": "Amulette de Cantile",
     "panoply": "Panoplie de Cantile",
     "category": "Amulette",
     "stats": {
@@ -2651,9 +2449,8 @@
       "apResist": 5
     }
   },
-  {
+  "Amulette de Guten Tak": {
     "level": 177,
-    "name": "Amulette de Guten Tak",
     "panoply": "Panoplie de Guten Tak",
     "category": "Amulette",
     "stats": {
@@ -2672,9 +2469,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Amulette du Professeur Xa": {
     "level": 195,
-    "name": "Amulette du Professeur Xa",
     "panoply": "Panoplie du Professeur Xa",
     "category": "Amulette",
     "stats": {
@@ -2698,21 +2494,18 @@
       "criticalResist": 25
     }
   },
-  {
+  "Amourlette Hernel": {
     "level": 60,
-    "name": "Amourlette Hernel",
     "category": "Amulette",
     "stats": {}
   },
-  {
+  "Amourlette Hernelle": {
     "level": 60,
-    "name": "Amourlette Hernelle",
     "category": "Amulette",
     "stats": {}
   },
-  {
+  "Amulette du Gorgouille": {
     "level": 96,
-    "name": "Amulette du Gorgouille",
     "panoply": "Panoplie du Gorgouille",
     "category": "Amulette",
     "stats": {
@@ -2730,9 +2523,8 @@
       "pushbackDamage": 7
     }
   },
-  {
+  "Amulette du Krokilleur": {
     "level": 107,
-    "name": "Amulette du Krokilleur",
     "panoply": "Panoplie du Krokilleur",
     "category": "Amulette",
     "stats": {
@@ -2750,9 +2542,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Amulette de Grozilla": {
     "level": 151,
-    "name": "Amulette de Grozilla",
     "panoply": "Panoplie de Grozilla",
     "category": "Amulette",
     "stats": {
@@ -2772,22 +2563,20 @@
       "criticalResist": 10
     }
   },
-  {
+  "Amulette Tétriste": {
     "level": 10,
-    "name": "Amulette Tétriste",
     "panoply": "Panoplie Tétriste",
     "category": "Amulette",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -15,
+      "intelligence": -15,
+      "chance": -15,
+      "agility": -15,
       "range": 1
     }
   },
-  {
+  "Snarmulette": {
     "level": 41,
-    "name": "Snarmulette",
     "category": "Amulette",
     "stats": {
       "intelligence": 30,
@@ -2797,9 +2586,8 @@
       "dodge": 4
     }
   },
-  {
+  "Collier Rouge de Daïgoro": {
     "level": 86,
-    "name": "Collier Rouge de Daïgoro",
     "panoply": "Panoplie de Daïgoro",
     "category": "Amulette",
     "stats": {
@@ -2812,19 +2600,17 @@
       "criticalResist": 8
     }
   },
-  {
+  "Amulettong": {
     "level": 10,
-    "name": "Amulettong",
     "panoply": "Panoplong",
     "category": "Amulette",
     "stats": {
-      "wisdom": 0,
+      "wisdom": -15,
       "summon": 1
     }
   },
-  {
+  "Pacmamulette": {
     "level": 10,
-    "name": "Pacmamulette",
     "panoply": "Pacmanoplie",
     "category": "Amulette",
     "stats": {
@@ -2832,9 +2618,8 @@
       "power": 10
     }
   },
-  {
+  "Porte-Malheur du Nowel Cauchemardesque": {
     "level": 150,
-    "name": "Porte-Malheur du Nowel Cauchemardesque",
     "panoply": "Panoplie du Nowel Cauchemardesque",
     "category": "Amulette",
     "stats": {
@@ -2851,9 +2636,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Licol de Redolphe": {
     "level": 85,
-    "name": "Licol de Redolphe",
     "panoply": "Panoplie de Redolphe",
     "category": "Amulette",
     "stats": {
@@ -2868,9 +2652,8 @@
       "criticalResist": 5
     }
   },
-  {
+  "Peignentif": {
     "level": 42,
-    "name": "Peignentif",
     "panoply": "Ma petite panoplie",
     "category": "Amulette",
     "stats": {
@@ -2881,9 +2664,8 @@
       "mpResist": 3
     }
   },
-  {
+  "Collier de Féline": {
     "level": 53,
-    "name": "Collier de Féline",
     "panoply": "Panoplie de Féline",
     "category": "Amulette",
     "stats": {
@@ -2895,9 +2677,8 @@
       "criticalResist": 5
     }
   },
-  {
+  "Amulette d'Otomaï": {
     "level": 197,
-    "name": "Amulette d'Otomaï",
     "panoply": "Panoplie d'Otomaï",
     "category": "Amulette",
     "stats": {
@@ -2913,9 +2694,8 @@
       "lock": 6
     }
   },
-  {
+  "Amulette de Danathor": {
     "level": 194,
-    "name": "Amulette de Danathor",
     "panoply": "Panoplie de Danathor",
     "category": "Amulette",
     "stats": {
@@ -2932,22 +2712,20 @@
       "mpResist": 7
     }
   },
-  {
+  "Pendentiffre": {
     "level": 56,
-    "name": "Pendentiffre",
     "panoply": "Panoplie Coffre",
     "category": "Amulette",
     "stats": {
       "power": 15,
       "AP": 1,
-      "range": 0,
+      "range": -1,
       "waterDamage": 5,
       "mpReduction": 3
     }
   },
-  {
+  "Amulette de Pwâk": {
     "level": 53,
-    "name": "Amulette de Pwâk",
     "category": "Amulette",
     "stats": {
       "undefined": 90,
@@ -2959,9 +2737,8 @@
       "dodge": 4
     }
   },
-  {
+  "Diplamu": {
     "level": 55,
-    "name": "Diplamu",
     "panoply": "Diplanoplie",
     "category": "Amulette",
     "stats": {
@@ -2974,9 +2751,8 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Amulette d'Oshimo": {
     "level": 196,
-    "name": "Amulette d'Oshimo",
     "panoply": "Panoplie d'Oshimo",
     "category": "Amulette",
     "stats": {
@@ -2986,7 +2762,7 @@
       "wisdom": 30,
       "criticalChance": 6,
       "AP": 1,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
@@ -2998,9 +2774,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Amulette de Nevark": {
     "level": 194,
-    "name": "Amulette de Nevark",
     "panoply": "Panoplie de Nevark",
     "category": "Amulette",
     "stats": {
@@ -3018,9 +2793,8 @@
       "criticalDamage": -21
     }
   },
-  {
+  "Amulette de Théodoran Ax": {
     "level": 193,
-    "name": "Amulette de Théodoran Ax",
     "panoply": "Panoplie de Théodoran Ax",
     "category": "Amulette",
     "stats": {
@@ -3041,9 +2815,8 @@
       "criticalDamage": -11
     }
   },
-  {
+  "Amulette d'Hel Munster": {
     "level": 195,
-    "name": "Amulette d'Hel Munster",
     "panoply": "Panoplie d'Hel Munster",
     "category": "Amulette",
     "stats": {
@@ -3064,9 +2837,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Glaglamu": {
     "level": 57,
-    "name": "Glaglamu",
     "panoply": "Glaglanoplie",
     "category": "Amulette",
     "stats": {
@@ -3078,9 +2850,8 @@
       "apResist": 2
     }
   },
-  {
+  "Amulette de Nileza": {
     "level": 196,
-    "name": "Amulette de Nileza",
     "panoply": "Panoplie de Nileza",
     "category": "Amulette",
     "stats": {
@@ -3096,9 +2867,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Amulette du Kanimate": {
     "level": 196,
-    "name": "Amulette du Kanimate",
     "panoply": "Panoplie du Kanimate",
     "category": "Amulette",
     "stats": {
@@ -3120,9 +2890,8 @@
       "apResist": 7
     }
   },
-  {
+  "Amulette Séculaire": {
     "level": 200,
-    "name": "Amulette Séculaire",
     "panoply": "Panoplie Séculaire",
     "category": "Amulette",
     "stats": {
@@ -3139,9 +2908,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Amulette du Granduk": {
     "level": 200,
-    "name": "Amulette du Granduk",
     "panoply": "Panoplie du Granduk",
     "category": "Amulette",
     "stats": {
@@ -3150,7 +2918,7 @@
       "wisdom": 50,
       "criticalChance": 4,
       "AP": 1,
-      "range": 0,
+      "range": -1,
       "summon": 1,
       "airDamage": 15,
       "prospecting": 15,
@@ -3160,9 +2928,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Amulette du Sinistrofu": {
     "level": 200,
-    "name": "Amulette du Sinistrofu",
     "panoply": "Panoplie du Sinistrofu",
     "category": "Amulette",
     "stats": {
@@ -3182,9 +2949,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Amulette Cryochrone": {
     "level": 200,
-    "name": "Amulette Cryochrone",
     "panoply": "Panoplie Cryochrone",
     "category": "Amulette",
     "stats": {
@@ -3203,9 +2969,8 @@
       "lock": 10
     }
   },
-  {
+  "Amulette du Cycloïde": {
     "level": 200,
-    "name": "Amulette du Cycloïde",
     "panoply": "Panoplie du Cycloïde",
     "category": "Amulette",
     "stats": {
@@ -3226,9 +2991,8 @@
       "apResist": -6
     }
   },
-  {
+  "Amulette du Strigide": {
     "level": 200,
-    "name": "Amulette du Strigide",
     "panoply": "Panoplie du Strigide",
     "category": "Amulette",
     "stats": {
@@ -3245,9 +3009,8 @@
       "criticalResist": -16
     }
   },
-  {
+  "Amulette du Nocturlabe": {
     "level": 200,
-    "name": "Amulette du Nocturlabe",
     "panoply": "Panoplie du Nocturlabe",
     "category": "Amulette",
     "stats": {
@@ -3263,9 +3026,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Amulette Rangleur": {
     "level": 196,
-    "name": "Amulette Rangleur",
     "panoply": "Panoplie Superstitieuse",
     "category": "Amulette",
     "stats": {
@@ -3284,9 +3046,8 @@
       "criticalResist": -11
     }
   },
-  {
+  "Talisman Songe": {
     "level": 200,
-    "name": "Talisman Songe",
     "panoply": "Panoplie du Bonimenteur",
     "category": "Amulette",
     "stats": {
@@ -3307,20 +3068,18 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Dés de la Chance": {
     "level": 50,
-    "name": "Dés de la Chance",
     "category": "Amulette",
     "stats": {
       "strength": 20,
       "chance": 20,
       "AP": 1,
-      "criticalResist": 0
+      "criticalResist": -20
     }
   },
-  {
+  "Phylactère Mic": {
     "level": 197,
-    "name": "Phylactère Mic",
     "panoply": "Panoplie Magmatique",
     "category": "Amulette",
     "stats": {
@@ -3337,9 +3096,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Pendentif Oton": {
     "level": 194,
-    "name": "Pendentif Oton",
     "panoply": "Panoplie Quartzésienne",
     "category": "Amulette",
     "stats": {
@@ -3359,9 +3117,8 @@
       "apResist": -11
     }
   },
-  {
+  "Amulette Stroplante": {
     "level": 58,
-    "name": "Amulette Stroplante",
     "panoply": "Panoplie Stroplante",
     "category": "Amulette",
     "stats": {
@@ -3370,9 +3127,8 @@
       "AP": 1
     }
   },
-  {
+  "Amulette du Wabbit Céphale": {
     "level": 116,
-    "name": "Amulette du Wabbit Céphale",
     "panoply": "Panoplie du Wabbit Céphale",
     "category": "Amulette",
     "stats": {
@@ -3387,9 +3143,8 @@
       "apResist": -6
     }
   },
-  {
+  "Shinchamu": {
     "level": 10,
-    "name": "Shinchamu",
     "category": "Amulette",
     "stats": {
       "health": 15,
@@ -3397,9 +3152,8 @@
       "earthDamage": 2
     }
   },
-  {
+  "Ninjamu Blanche": {
     "level": 10,
-    "name": "Ninjamu Blanche",
     "category": "Amulette",
     "stats": {
       "health": 15,
@@ -3407,18 +3161,16 @@
       "criticalChance": 1
     }
   },
-  {
+  "Ninjamu Noire": {
     "level": 10,
-    "name": "Ninjamu Noire",
     "category": "Amulette",
     "stats": {
       "intelligence": 15,
       "criticalChance": 1
     }
   },
-  {
+  "Insigne de Keukeuf": {
     "level": 106,
-    "name": "Insigne de Keukeuf",
     "category": "Amulette",
     "stats": {
       "undefined": 149,
@@ -3432,9 +3184,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Talisman Glouti": {
     "level": 200,
-    "name": "Talisman Glouti",
     "panoply": "Panoplie des Abysses",
     "category": "Amulette",
     "stats": {
@@ -3454,9 +3205,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Amulette Ikête": {
     "level": 196,
-    "name": "Amulette Ikête",
     "panoply": "Panoplie du Cartographe",
     "category": "Amulette",
     "stats": {
@@ -3478,9 +3228,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Amulule": {
     "level": 197,
-    "name": "Amulule",
     "panoply": "Panoplie Obscure",
     "category": "Amulette",
     "stats": {
@@ -3501,9 +3250,8 @@
       "mpResist": -4
     }
   },
-  {
+  "Amulette de l'Orfélin": {
     "level": 157,
-    "name": "Amulette de l'Orfélin",
     "panoply": "Panoplie de l'Orfélin",
     "category": "Amulette",
     "stats": {
@@ -3520,9 +3268,8 @@
       "pushbackDamage": 12
     }
   },
-  {
+  "Amulette du Piloztère": {
     "level": 200,
-    "name": "Amulette du Piloztère",
     "panoply": "Panoplie du Piloztère",
     "category": "Amulette",
     "stats": {
@@ -3541,9 +3288,8 @@
       "pushbackResist": -21
     }
   },
-  {
+  "Amulette du Kamasterisk": {
     "level": 200,
-    "name": "Amulette du Kamasterisk",
     "panoply": "Panoplie du Kamasterisk",
     "category": "Amulette",
     "stats": {
@@ -3563,9 +3309,8 @@
       "pushbackResist": -21
     }
   },
-  {
+  "Amulette du Père Phorreur": {
     "level": 152,
-    "name": "Amulette du Père Phorreur",
     "panoply": "Panoplie du Père Phorreur",
     "category": "Amulette",
     "stats": {
@@ -3582,9 +3327,8 @@
       "lock": 10
     }
   },
-  {
+  "Gruchette": {
     "level": 131,
-    "name": "Gruchette",
     "panoply": "Gruchoplie",
     "category": "Amulette",
     "stats": {
@@ -3599,9 +3343,8 @@
       "apResist": 5
     }
   },
-  {
+  "Amulette de Gein": {
     "level": 200,
-    "name": "Amulette de Gein",
     "panoply": "Panoplie de Gein",
     "category": "Amulette",
     "stats": {
@@ -3620,9 +3363,8 @@
       "criticalDamage": 25
     }
   },
-  {
+  "Amulette Nécrotique": {
     "level": 178,
-    "name": "Amulette Nécrotique",
     "panoply": "Panoplie Nécrotique",
     "category": "Amulette",
     "stats": {
@@ -3639,9 +3381,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Amulette d'Ali Grothor": {
     "level": 133,
-    "name": "Amulette d'Ali Grothor",
     "panoply": "Panoplie d'Ali Grothor",
     "category": "Amulette",
     "stats": {
@@ -3655,22 +3396,20 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Amulette Verréhor": {
     "level": 30,
-    "name": "Amulette Verréhor",
     "panoply": "Panoplie Verréhor",
     "category": "Amulette",
     "stats": {
       "strength": 15,
       "agility": 15,
       "range": 1,
-      "waterResistPer": 0,
-      "apResist": 0
+      "waterResistPer": -4,
+      "apResist": -4
     }
   },
-  {
+  "Amulette de Pol Ouatnos": {
     "level": 200,
-    "name": "Amulette de Pol Ouatnos",
     "panoply": "Panoplie de Pol Ouatnos",
     "category": "Amulette",
     "stats": {
@@ -3686,9 +3425,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Amibou": {
     "level": 200,
-    "name": "Amibou",
     "panoply": "Panoplibou",
     "category": "Amulette",
     "stats": {
@@ -3702,14 +3440,13 @@
       "prospecting": 15,
       "neutralResistPer": 10,
       "waterResistPer": 7,
-      "lock": 0,
+      "lock": -10,
       "mpReduction": 5,
       "pushbackDamage": 20
     }
   },
-  {
+  "Harpendentif": {
     "level": 200,
-    "name": "Harpendentif",
     "panoply": "Harpinoplie",
     "category": "Amulette",
     "stats": {
@@ -3723,9 +3460,8 @@
       "apResist": 25
     }
   },
-  {
+  "Talisman Igans": {
     "level": 200,
-    "name": "Talisman Igans",
     "panoply": "Panoplie Pnose",
     "category": "Amulette",
     "stats": {
@@ -3742,9 +3478,8 @@
       "earthResistPer": 7
     }
   },
-  {
+  "Amulette de Fouduglen": {
     "level": 10,
-    "name": "Amulette de Fouduglen",
     "panoply": "Panoplie Fouduglen",
     "category": "Amulette",
     "stats": {
@@ -3752,9 +3487,8 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Amulette Perle": {
     "level": 37,
-    "name": "Amulette Perle",
     "panoply": "Microplie",
     "category": "Amulette",
     "stats": {
@@ -3764,9 +3498,8 @@
       "summon": 1
     }
   },
-  {
+  "Pendentif Curatif": {
     "level": 60,
-    "name": "Pendentif Curatif",
     "panoply": "Panoplie Palliative",
     "category": "Amulette",
     "stats": {
@@ -3774,13 +3507,12 @@
       "AP": 1,
       "summon": 1,
       "heal": 5,
-      "earthResistPer": 0,
-      "fireResistPer": 0
+      "earthResistPer": -5,
+      "fireResistPer": -5
     }
   },
-  {
+  "Amulette des Huit Yeux": {
     "level": 92,
-    "name": "Amulette des Huit Yeux",
     "panoply": "Panoplie de la Pondeuse",
     "category": "Amulette",
     "stats": {
@@ -3794,19 +3526,17 @@
       "airResistPer": 3
     }
   },
-  {
+  "Animulette": {
     "level": 7,
-    "name": "Animulette",
     "panoply": "Panoplie des Âmes",
     "category": "Amulette",
     "stats": {
-      "criticalChance": 0,
+      "criticalChance": -5,
       "summon": 1
     }
   },
-  {
+  "Amulette de Moon": {
     "level": 102,
-    "name": "Amulette de Moon",
     "panoply": "Panoplie de Moon",
     "category": "Amulette",
     "stats": {
@@ -3822,9 +3552,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Amulette Voldelor": {
     "level": 200,
-    "name": "Amulette Voldelor",
     "panoply": "Panoplie de Voldelor",
     "category": "Amulette",
     "stats": {
@@ -3843,9 +3572,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Amulette du K.O.": {
     "level": 181,
-    "name": "Amulette du K.O.",
     "panoply": "Panoplie du K.O.",
     "category": "Amulette",
     "stats": {
@@ -3864,9 +3592,8 @@
       "apResist": 5
     }
   },
-  {
+  "Collier de Khan Karkass": {
     "level": 10,
-    "name": "Collier de Khan Karkass",
     "panoply": "Panoplie de Khan Karkass",
     "category": "Amulette",
     "stats": {
@@ -3874,9 +3601,8 @@
       "strength": 20
     }
   },
-  {
+  "Torque du Monarque": {
     "level": 40,
-    "name": "Torque du Monarque",
     "panoply": "Panoplie du Monarque",
     "category": "Amulette",
     "stats": {
@@ -3887,9 +3613,8 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Torque des 1001 Griffes": {
     "level": 60,
-    "name": "Torque des 1001 Griffes",
     "panoply": "Panoplie des 1001 Griffes",
     "category": "Amulette",
     "stats": {
@@ -3901,9 +3626,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Collier de Lilotte": {
     "level": 10,
-    "name": "Collier de Lilotte",
     "category": "Amulette",
     "stats": {
       "health": 10,
@@ -3911,9 +3635,8 @@
       "waterDamage": 3
     }
   },
-  {
+  "Collier de la Dame du Hasard": {
     "level": 200,
-    "name": "Collier de la Dame du Hasard",
     "panoply": "Panoplie de la Dame du Hasard",
     "category": "Amulette",
     "stats": {
@@ -3932,16 +3655,15 @@
       "criticalDamage": 25
     }
   },
-  {
+  "Collier du Valet Veinard": {
     "level": 200,
-    "name": "Collier du Valet Veinard",
     "panoply": "Panoplie du Valet Veinard",
     "category": "Amulette",
     "stats": {
       "health": 350,
       "agility": 80,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -5,
       "AP": 1,
       "range": 1,
       "airDamage": 20,
@@ -3952,9 +3674,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Col de Ush": {
     "level": 164,
-    "name": "Col de Ush",
     "panoply": "Panoplie de Ush Galesh",
     "category": "Amulette",
     "stats": {
@@ -3971,9 +3692,8 @@
       "pushbackDamage": 12
     }
   },
-  {
+  "Collier des Ecaflipuces": {
     "level": 114,
-    "name": "Collier des Ecaflipuces",
     "panoply": "Panoplie des Ecaflipuces",
     "category": "Amulette",
     "stats": {
@@ -3988,9 +3708,8 @@
       "lock": 4
     }
   },
-  {
+  "Collier de Tourthon": {
     "level": 200,
-    "name": "Collier de Tourthon",
     "panoply": "Panoplie des Tréfonds",
     "category": "Amulette",
     "stats": {
@@ -4005,9 +3724,8 @@
       "lock": 15
     }
   },
-  {
+  "Pendentif affamé": {
     "level": 200,
-    "name": "Pendentif affamé",
     "panoply": "Panoplie des Profondeurs",
     "category": "Amulette",
     "stats": {
@@ -4022,9 +3740,8 @@
       "dodge": 20
     }
   },
-  {
+  "Amulette de Shokkoth": {
     "level": 200,
-    "name": "Amulette de Shokkoth",
     "panoply": "Panoplie de la Fosse",
     "category": "Amulette",
     "stats": {
@@ -4039,9 +3756,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Amulette de l'Indicible": {
     "level": 200,
-    "name": "Amulette de l'Indicible",
     "panoply": "Panoplie de l'Indicible",
     "category": "Amulette",
     "stats": {
@@ -4062,9 +3778,8 @@
       "dodge": 15
     }
   },
-  {
+  "Amulette Luminescente": {
     "level": 200,
-    "name": "Amulette Luminescente",
     "panoply": "Panoplie Luminescente",
     "category": "Amulette",
     "stats": {
@@ -4083,9 +3798,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Pendentif mignon de Koutoulou": {
     "level": 200,
-    "name": "Pendentif mignon de Koutoulou",
     "panoply": "Panoplie de R'lyugluglu",
     "category": "Amulette",
     "stats": {
@@ -4102,23 +3816,21 @@
       "criticalResist": 20
     }
   },
-  {
+  "Amuronce": {
     "level": 50,
-    "name": "Amuronce",
     "panoply": "Panoplie de ronces",
     "category": "Amulette",
     "stats": {
       "health": 25,
       "strength": 15,
       "chance": 15,
-      "wisdom": 0,
-      "criticalChance": 0,
+      "wisdom": -15,
+      "criticalChance": -4,
       "AP": 1
     }
   },
-  {
+  "Amulette d'El Piko": {
     "level": 132,
-    "name": "Amulette d'El Piko",
     "panoply": "Panoplie d'El Piko",
     "category": "Amulette",
     "stats": {
@@ -4134,9 +3846,8 @@
       "apResist": 5
     }
   },
-  {
+  "Crolier": {
     "level": 169,
-    "name": "Crolier",
     "panoply": "Vernoplie",
     "category": "Amulette",
     "stats": {
@@ -4154,9 +3865,8 @@
       "mpReduction": 6
     }
   },
-  {
+  "Torquistik": {
     "level": 200,
-    "name": "Torquistik",
     "panoply": "Panoplistik",
     "category": "Amulette",
     "stats": {
@@ -4177,9 +3887,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Amulette du Molosse": {
     "level": 31,
-    "name": "Amulette du Molosse",
     "panoply": "Panoplie du Molosse",
     "category": "Amulette",
     "stats": {
@@ -4189,9 +3898,8 @@
       "mpResist": 3
     }
   },
-  {
+  "Amulette Hale": {
     "level": 193,
-    "name": "Amulette Hale",
     "panoply": "Panoplie des Chassouilleurs",
     "category": "Amulette",
     "stats": {
@@ -4209,9 +3917,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Amulette du Scorbute": {
     "level": 72,
-    "name": "Amulette du Scorbute",
     "panoply": "Panoplie du Scorbute",
     "category": "Amulette",
     "stats": {
@@ -4220,13 +3927,12 @@
       "AP": 1,
       "fireDamage": 2,
       "airDamage": 2,
-      "initiative": 0,
+      "initiative": -300,
       "lock": 3
     }
   },
-  {
+  "Amulette du Cœur Vaillant": {
     "level": 200,
-    "name": "Amulette du Cœur Vaillant",
     "panoply": "Panoplie du Cœur Vaillant",
     "category": "Amulette",
     "stats": {
@@ -4245,9 +3951,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Amulette du Cœur Saignant": {
     "level": 200,
-    "name": "Amulette du Cœur Saignant",
     "panoply": "Panoplie du Cœur Saignant",
     "category": "Amulette",
     "stats": {
@@ -4261,14 +3966,13 @@
       "prospecting": 15,
       "fireResistPer": 10,
       "lock": 7,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 7,
       "criticalDamage": 15
     }
   },
-  {
+  "Amulette de l'Œil Attentif": {
     "level": 200,
-    "name": "Amulette de l'Œil Attentif",
     "panoply": "Panoplie de l'Œil Attentif",
     "category": "Amulette",
     "stats": {
@@ -4285,9 +3989,8 @@
       "apResist": 7
     }
   },
-  {
+  "Amulette de l'Œil Putride": {
     "level": 200,
-    "name": "Amulette de l'Œil Putride",
     "panoply": "Panoplie de l'Œil Putride",
     "category": "Amulette",
     "stats": {
@@ -4307,9 +4010,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Amulette d'Ilyzaelle": {
     "level": 200,
-    "name": "Amulette d'Ilyzaelle",
     "panoply": "Panoplie d'Ilyzaelle",
     "category": "Amulette",
     "stats": {
@@ -4317,7 +4019,7 @@
       "chance": 80,
       "agility": 80,
       "wisdom": 30,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "AP": 1,
       "range": 1,
       "waterDamage": 15,
@@ -4327,9 +4029,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Amulette Volcanique": {
     "level": 200,
-    "name": "Amulette Volcanique",
     "panoply": "Panoplie Volcanique",
     "category": "Amulette",
     "stats": {
@@ -4347,9 +4048,8 @@
       "mpReduction": 10
     }
   },
-  {
+  "Collier Rophante": {
     "level": 200,
-    "name": "Collier Rophante",
     "panoply": "Panoplie Noyée",
     "category": "Amulette",
     "stats": {
@@ -4364,9 +4064,8 @@
       "lock": 15
     }
   },
-  {
+  "Amulette Martegel": {
     "level": 200,
-    "name": "Amulette Martegel",
     "panoply": "Panoplie Martegel",
     "category": "Amulette",
     "stats": {
@@ -4374,7 +4073,7 @@
       "intelligence": 80,
       "agility": 80,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "AP": 1,
       "fireDamage": 15,
       "airDamage": 15,
@@ -4385,9 +4084,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Amulette Volkorne": {
     "level": 200,
-    "name": "Amulette Volkorne",
     "panoply": "Panoplie Volkorne",
     "category": "Amulette",
     "stats": {
@@ -4404,9 +4102,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Amulette des Chocomanciens": {
     "level": 200,
-    "name": "Amulette des Chocomanciens",
     "panoply": "Panoplie des Chocomanciens",
     "category": "Amulette",
     "stats": {
@@ -4422,12 +4119,11 @@
       "airResistPer": 7,
       "lock": 15,
       "mpReduction": 15,
-      "pushbackResist": 0
+      "pushbackResist": -20
     }
   },
-  {
+  "Collier Lunaire": {
     "level": 200,
-    "name": "Collier Lunaire",
     "panoply": "Panoplie Lunaire",
     "category": "Amulette",
     "stats": {
@@ -4443,9 +4139,8 @@
       "mpReduction": 10
     }
   },
-  {
+  "Écharpe de Servitude": {
     "level": 200,
-    "name": "Écharpe de Servitude",
     "panoply": "Panoplie de Servitude",
     "category": "Amulette",
     "stats": {
@@ -4460,21 +4155,20 @@
       "earthResistPer": 7,
       "waterResistPer": 7,
       "lock": 5,
-      "dodge": 0,
-      "apReduction": 0,
+      "dodge": -5,
+      "apReduction": -10,
       "mpResist": 5,
       "pushbackResist": 20
     }
   },
-  {
+  "Collier de Bavdur": {
     "level": 200,
-    "name": "Collier de Bavdur",
     "category": "Amulette",
     "stats": {
       "health": 500,
       "wisdom": 40,
       "AP": 2,
-      "range": 0,
+      "range": -1,
       "initiative": 1000,
       "neutralResistPer": 3,
       "earthResistPer": 3,
@@ -4485,9 +4179,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Plantamulette": {
     "level": 108,
-    "name": "Plantamulette",
     "panoply": "Panoplie Plantala",
     "category": "Amulette",
     "stats": {
@@ -4503,9 +4196,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Larme de Nagate": {
     "level": 132,
-    "name": "Larme de Nagate",
     "category": "Amulette",
     "stats": {
       "health": 150,
@@ -4520,9 +4212,8 @@
       "mpResist": 6
     }
   },
-  {
+  "Collier de perlouzes": {
     "level": 130,
-    "name": "Collier de perlouzes",
     "panoply": "Panoplie Kozaru",
     "category": "Amulette",
     "stats": {
@@ -4538,9 +4229,8 @@
       "criticalDamage": 8
     }
   },
-  {
+  "Amulette Rinne": {
     "level": 200,
-    "name": "Amulette Rinne",
     "panoply": "Panoplie du Wukin",
     "category": "Amulette",
     "stats": {
@@ -4555,16 +4245,15 @@
       "earthResistPer": 10,
       "airResistPer": 10,
       "lock": 10,
-      "dodge": 0,
+      "dodge": -10,
       "apReduction": 15,
-      "mpReduction": 0,
-      "criticalResist": 0,
+      "mpReduction": -15,
+      "criticalResist": -25,
       "pushbackResist": 15
     }
   },
-  {
+  "Amulette de Wulan": {
     "level": 200,
-    "name": "Amulette de Wulan",
     "panoply": "Panoplie de Wulan",
     "category": "Amulette",
     "stats": {
@@ -4580,15 +4269,14 @@
       "waterDamage": 15,
       "waterResistPer": 7,
       "airResistPer": 7,
-      "dodge": 0,
-      "apReduction": 0,
+      "dodge": -15,
+      "apReduction": -15,
       "mpReduction": 6,
       "criticalDamage": 20
     }
   },
-  {
+  "Amulette Possédée": {
     "level": 200,
-    "name": "Amulette Possédée",
     "panoply": "Panoplie Possédée",
     "category": "Amulette",
     "stats": {
@@ -4608,9 +4296,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Amulette du Pandamonium": {
     "level": 200,
-    "name": "Amulette du Pandamonium",
     "panoply": "Panoplie du Pandamonium",
     "category": "Amulette",
     "stats": {
@@ -4628,9 +4315,8 @@
       "apResist": 8
     }
   },
-  {
+  "Torque de Ravageur": {
     "level": 200,
-    "name": "Torque de Ravageur",
     "panoply": "Panoplie des Ravageurs",
     "category": "Amulette",
     "stats": {
@@ -4649,9 +4335,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Chant du Nécromant": {
     "level": 200,
-    "name": "Chant du Nécromant",
     "panoply": "Reliques de l'Aurore Pourpre",
     "category": "Amulette",
     "stats": {
@@ -4668,28 +4353,26 @@
       "airDamage": 12,
       "earthResistPer": 8,
       "fireResistPer": 8,
-      "waterResistPer": 0,
-      "airResistPer": 0,
+      "waterResistPer": -4,
+      "airResistPer": -4,
       "lock": 4,
-      "dodge": 0,
-      "apResist": 0,
+      "dodge": -8,
+      "apResist": -8,
       "mpResist": 4,
       "criticalResist": 10,
-      "pushbackResist": 0
+      "pushbackResist": -20
     }
   },
-  {
+  "La Broche Céleste Ankarton": {
     "level": 175,
-    "name": "La Broche Céleste Ankarton",
     "panoply": "Panoplie Ankarton",
     "category": "Amulette",
     "stats": {
       "undefined": 1000
     }
   },
-  {
+  "Lourd Fardeau": {
     "level": 200,
-    "name": "Lourd Fardeau",
     "panoply": "Malédiction de Cire Momore",
     "category": "Amulette",
     "stats": {
@@ -4707,9 +4390,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Amulette de guerrier albueran": {
     "level": 54,
-    "name": "Amulette de guerrier albueran",
     "panoply": "Panoplie de guerrier albueran",
     "category": "Amulette",
     "stats": {
@@ -4717,13 +4399,12 @@
       "strength": 20,
       "chance": 20,
       "AP": 1,
-      "lock": 0,
-      "mpReduction": 0
+      "lock": -10,
+      "mpReduction": -10
     }
   },
-  {
+  "Collier Gris": {
     "level": 192,
-    "name": "Collier Gris",
     "panoply": "Panoplie des Marteaux-Aigris",
     "category": "Amulette",
     "stats": {
@@ -4739,12 +4420,11 @@
       "earthResistPer": 5,
       "waterResistPer": 5,
       "lock": 10,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "Col du Dark Vlad": {
     "level": 200,
-    "name": "Col du Dark Vlad",
     "panoply": "Panoplie du Dark Vlad",
     "category": "Amulette",
     "stats": {
@@ -4756,17 +4436,16 @@
       "fireDamage": 18,
       "earthResistPer": 9,
       "fireResistPer": 9,
-      "waterResistPer": 0,
+      "waterResistPer": -3,
       "dodge": 12,
       "pushbackDamage": 30,
-      "waterResist": 0
+      "waterResist": -11
     }
   },
-  {
+  "L'amugus": {
     "level": 1,
-    "name": "L'amugus",
     "panoply": "Il n'y a pas de pano",
     "category": "Amulette",
     "stats": {}
   }
-]
+}

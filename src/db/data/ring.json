@@ -1,40 +1,35 @@
-[
-  {
+{
+  "Anneau de Sagesse": {
     "level": 9,
-    "name": "Anneau de Sagesse",
     "category": "Anneau",
     "stats": {
       "wisdom": 10
     }
   },
-  {
+  "Anneau de Chance": {
     "level": 9,
-    "name": "Anneau de Chance",
     "category": "Anneau",
     "stats": {
       "chance": 10
     }
   },
-  {
+  "Anneau d'Agilité": {
     "level": 9,
-    "name": "Anneau d'Agilité",
     "category": "Anneau",
     "stats": {
       "agility": 10
     }
   },
-  {
+  "Anneau des Rocheuses": {
     "level": 11,
-    "name": "Anneau des Rocheuses",
     "category": "Anneau",
     "stats": {
       "health": 20,
       "agility": 10
     }
   },
-  {
+  "Anneau Rak": {
     "level": 17,
-    "name": "Anneau Rak",
     "category": "Anneau",
     "stats": {
       "health": 20,
@@ -42,9 +37,8 @@
       "waterDamage": 1
     }
   },
-  {
+  "L'Anneau de Valeur": {
     "level": 12,
-    "name": "L'Anneau de Valeur",
     "category": "Anneau",
     "stats": {
       "strength": 15,
@@ -52,9 +46,8 @@
       "lock": 3
     }
   },
-  {
+  "L'Ecaliseur": {
     "level": 29,
-    "name": "L'Ecaliseur",
     "category": "Anneau",
     "stats": {
       "health": 20,
@@ -62,138 +55,123 @@
       "damage": 2
     }
   },
-  {
+  "Alliance de Silimelle": {
     "level": 26,
-    "name": "Alliance de Silimelle",
     "category": "Anneau",
     "stats": {
       "wisdom": 25,
-      "earthDamage": 0,
-      "fireDamage": 0,
-      "waterDamage": 0,
-      "airDamage": 0,
+      "earthDamage": -2,
+      "fireDamage": -2,
+      "waterDamage": -2,
+      "airDamage": -2,
       "apReduction": 2,
       "mpReduction": 2
     }
   },
-  {
+  "Gantie Royal": {
     "level": 6,
-    "name": "Gantie Royal",
     "category": "Anneau",
     "stats": {
       "strength": 7
     }
   },
-  {
+  "Camaïneux": {
     "level": 4,
-    "name": "Camaïneux",
     "category": "Anneau",
     "stats": {
       "health": 10
     }
   },
-  {
+  "Anneau Fortifiant": {
     "level": 10,
-    "name": "Anneau Fortifiant",
     "category": "Anneau",
     "stats": {
       "strength": 10
     }
   },
-  {
+  "Anneau Rexik": {
     "level": 1,
-    "name": "Anneau Rexik",
     "category": "Anneau",
     "stats": {
       "agility": 5
     }
   },
-  {
+  "Abranneau": {
     "level": 40,
-    "name": "Abranneau",
     "panoply": "Abranoplie",
     "category": "Anneau",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
       "AP": 1,
       "range": 1
     }
   },
-  {
+  "Anneau de Satisfaction": {
     "level": 8,
-    "name": "Anneau de Satisfaction",
     "category": "Anneau",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -200,
+      "intelligence": -200,
+      "chance": -150,
+      "agility": -150,
       "AP": 1
     }
   },
-  {
+  "Anneau Forcesque": {
     "level": 2,
-    "name": "Anneau Forcesque",
     "category": "Anneau",
     "stats": {
       "strength": 5
     }
   },
-  {
+  "Anneau Agilesque": {
     "level": 2,
-    "name": "Anneau Agilesque",
     "category": "Anneau",
     "stats": {
       "agility": 5
     }
   },
-  {
+  "Anneau Vitalesque": {
     "level": 2,
-    "name": "Anneau Vitalesque",
     "category": "Anneau",
     "stats": {
       "health": 10
     }
   },
-  {
+  "Petit Anneau Magique": {
     "level": 1,
-    "name": "Petit Anneau Magique",
     "category": "Anneau",
     "stats": {
       "intelligence": 7
     }
   },
-  {
+  "Petit Anneau du Chanceux": {
     "level": 1,
-    "name": "Petit Anneau du Chanceux",
     "category": "Anneau",
     "stats": {
       "chance": 7
     }
   },
-  {
+  "Anneau du Mental": {
     "level": 14,
-    "name": "Anneau du Mental",
     "category": "Anneau",
     "stats": {
       "intelligence": 15
     }
   },
-  {
+  "Blessure du Sacrieur": {
     "level": 15,
-    "name": "Blessure du Sacrieur",
     "category": "Anneau",
     "stats": {
       "health": 20,
       "strength": 10
     }
   },
-  {
+  "Le Bagueur": {
     "level": 15,
-    "name": "Le Bagueur",
     "category": "Anneau",
     "stats": {
       "health": 10,
@@ -201,21 +179,19 @@
       "dodge": 2
     }
   },
-  {
+  "L'Anneau Dhyn": {
     "level": 36,
-    "name": "L'Anneau Dhyn",
     "category": "Anneau",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
+      "strength": -30,
+      "intelligence": -30,
       "agility": 20,
       "criticalChance": 4,
       "damage": 4
     }
   },
-  {
+  "Chance d'Ecaflip": {
     "level": 20,
-    "name": "Chance d'Ecaflip",
     "category": "Anneau",
     "stats": {
       "intelligence": 7,
@@ -223,9 +199,8 @@
       "criticalChance": 2
     }
   },
-  {
+  "Passé de Xélor": {
     "level": 30,
-    "name": "Passé de Xélor",
     "category": "Anneau",
     "stats": {
       "health": 15,
@@ -233,9 +208,8 @@
       "wisdom": 15
     }
   },
-  {
+  "Souvenir d'Enutrof": {
     "level": 30,
-    "name": "Souvenir d'Enutrof",
     "category": "Anneau",
     "stats": {
       "health": 15,
@@ -243,9 +217,8 @@
       "wisdom": 15
     }
   },
-  {
+  "L'Enutrofion": {
     "level": 59,
-    "name": "L'Enutrofion",
     "category": "Anneau",
     "stats": {
       "chance": 40,
@@ -253,30 +226,27 @@
       "dodge": 5
     }
   },
-  {
+  "Alliance": {
     "level": 1,
-    "name": "Alliance",
     "category": "Anneau",
     "stats": {}
   },
-  {
+  "Abranneau Mou": {
     "level": 46,
-    "name": "Abranneau Mou",
     "panoply": "Abranoplie",
     "category": "Anneau",
     "stats": {
       "health": 40,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -15,
+      "intelligence": -15,
+      "chance": -15,
+      "agility": -15,
       "range": 1,
       "summon": 1
     }
   },
-  {
+  "Abranneau Sombre": {
     "level": 48,
-    "name": "Abranneau Sombre",
     "category": "Anneau",
     "stats": {
       "strength": 15,
@@ -286,63 +256,56 @@
       "wisdom": 5
     }
   },
-  {
+  "Artefact Feu": {
     "level": 1,
-    "name": "Artefact Feu",
     "category": "Anneau",
     "stats": {
-      "strength": 0,
+      "strength": -10,
       "intelligence": 1
     }
   },
-  {
+  "Artefact Terre": {
     "level": 1,
-    "name": "Artefact Terre",
     "category": "Anneau",
     "stats": {
       "strength": 1,
-      "intelligence": 0
+      "intelligence": -10
     }
   },
-  {
+  "Artefact Air": {
     "level": 1,
-    "name": "Artefact Air",
     "category": "Anneau",
     "stats": {
       "agility": 1,
-      "wisdom": 0
+      "wisdom": -10
     }
   },
-  {
+  "Artefact Eau": {
     "level": 1,
-    "name": "Artefact Eau",
     "category": "Anneau",
     "stats": {
-      "health": 0,
+      "health": -10,
       "chance": 1
     }
   },
-  {
+  "Artefact Lumière": {
     "level": 1,
-    "name": "Artefact Lumière",
     "category": "Anneau",
     "stats": {
-      "agility": 0,
+      "agility": -10,
       "wisdom": 1
     }
   },
-  {
+  "Artefact Vie": {
     "level": 1,
-    "name": "Artefact Vie",
     "category": "Anneau",
     "stats": {
       "health": 1,
-      "chance": 0
+      "chance": -10
     }
   },
-  {
+  "Fécaliseur du Magicien": {
     "level": 26,
-    "name": "Fécaliseur du Magicien",
     "category": "Anneau",
     "stats": {
       "fireResist": 5,
@@ -350,9 +313,8 @@
       "airResist": 5
     }
   },
-  {
+  "Fécaliseur du Guerrier": {
     "level": 26,
-    "name": "Fécaliseur du Guerrier",
     "category": "Anneau",
     "stats": {
       "health": 20,
@@ -360,9 +322,8 @@
       "earthResistPer": 2
     }
   },
-  {
+  "Force de Crocoburio": {
     "level": 40,
-    "name": "Force de Crocoburio",
     "panoply": "Âme de Crocoburio",
     "category": "Anneau",
     "stats": {
@@ -372,18 +333,16 @@
       "earthDamage": 2
     }
   },
-  {
+  "Anneau Mèr": {
     "level": 25,
-    "name": "Anneau Mèr",
     "category": "Anneau",
     "stats": {
       "health": 60,
       "lock": 3
     }
   },
-  {
+  "Bague De Sendar": {
     "level": 1,
-    "name": "Bague De Sendar",
     "category": "Anneau",
     "stats": {
       "neutralResist": 100,
@@ -393,9 +352,8 @@
       "airResist": 100
     }
   },
-  {
+  "Kwakanneau de Flammes": {
     "level": 42,
-    "name": "Kwakanneau de Flammes",
     "panoply": "Panoplie du Kwak de Flammes",
     "category": "Anneau",
     "stats": {
@@ -403,9 +361,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Anneau de Bouze le Clerc": {
     "level": 20,
-    "name": "Anneau de Bouze le Clerc",
     "panoply": "Panoplie du Bouftou",
     "category": "Anneau",
     "stats": {
@@ -413,9 +370,8 @@
       "initiative": 100
     }
   },
-  {
+  "Anobra": {
     "level": 40,
-    "name": "Anobra",
     "panoply": "Panoplie de l'Abraknyde",
     "category": "Anneau",
     "stats": {
@@ -424,9 +380,8 @@
       "damage": 3
     }
   },
-  {
+  "Anneau Royal du Bouftou": {
     "level": 31,
-    "name": "Anneau Royal du Bouftou",
     "panoply": "Panoplie du Bouftou Royal",
     "category": "Anneau",
     "stats": {
@@ -434,18 +389,16 @@
       "damage": 3
     }
   },
-  {
+  "Gelano": {
     "level": 60,
-    "name": "Gelano",
     "panoply": "Panoplie Gelax",
     "category": "Anneau",
     "stats": {
       "AP": 1
     }
   },
-  {
+  "Anneau de l'Aventurier": {
     "level": 4,
-    "name": "Anneau de l'Aventurier",
     "panoply": "Panoplie du Jeune Aventurier",
     "category": "Anneau",
     "stats": {
@@ -455,9 +408,8 @@
       "agility": 2
     }
   },
-  {
+  "Anneau Tribal": {
     "level": 51,
-    "name": "Anneau Tribal",
     "category": "Anneau",
     "stats": {
       "wisdom": 10,
@@ -466,9 +418,8 @@
       "initiative": 100
     }
   },
-  {
+  "Anneau Forain": {
     "level": 44,
-    "name": "Anneau Forain",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -477,22 +428,20 @@
       "airResistPer": 3
     }
   },
-  {
+  "Anneau de l'Invocateur Satisfait": {
     "level": 40,
-    "name": "Anneau de l'Invocateur Satisfait",
     "category": "Anneau",
     "stats": {
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -200,
+      "intelligence": -200,
+      "chance": -200,
+      "agility": -200,
       "AP": 1,
       "summon": 1
     }
   },
-  {
+  "Anneau de Loopine": {
     "level": 71,
-    "name": "Anneau de Loopine",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -504,9 +453,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Anneau Nime": {
     "level": 67,
-    "name": "Anneau Nime",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -517,9 +465,8 @@
       "initiative": 150
     }
   },
-  {
+  "Anneau du Jeune Vald": {
     "level": 59,
-    "name": "Anneau du Jeune Vald",
     "category": "Anneau",
     "stats": {
       "health": 25,
@@ -529,9 +476,8 @@
       "waterResistPer": 2
     }
   },
-  {
+  "Alliance de Farle": {
     "level": 87,
-    "name": "Alliance de Farle",
     "category": "Anneau",
     "stats": {
       "health": 50,
@@ -543,9 +489,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Anneau du Mineur Gogorifiant": {
     "level": 84,
-    "name": "Anneau du Mineur Gogorifiant",
     "category": "Anneau",
     "stats": {
       "health": 40,
@@ -557,9 +502,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Alliance de l'Homme Ours": {
     "level": 20,
-    "name": "Alliance de l'Homme Ours",
     "panoply": "Panoplie de l'Homme Ours",
     "category": "Anneau",
     "stats": {
@@ -568,9 +512,8 @@
       "initiative": 100
     }
   },
-  {
+  "Kwakanneau de Glace": {
     "level": 42,
-    "name": "Kwakanneau de Glace",
     "panoply": "Panoplie du Kwak de Glace",
     "category": "Anneau",
     "stats": {
@@ -578,9 +521,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Fourballiance": {
     "level": 104,
-    "name": "Fourballiance",
     "panoply": "Panoplie Fourbasse",
     "category": "Anneau",
     "stats": {
@@ -596,9 +538,8 @@
       "airResist": 7
     }
   },
-  {
+  "Kwakanneau de Terre": {
     "level": 42,
-    "name": "Kwakanneau de Terre",
     "panoply": "Panoplie du Kwak de Terre",
     "category": "Anneau",
     "stats": {
@@ -606,9 +547,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Kwakanneau de Vent": {
     "level": 42,
-    "name": "Kwakanneau de Vent",
     "panoply": "Panoplie du Kwak de Vent",
     "category": "Anneau",
     "stats": {
@@ -616,9 +556,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Bracelet Magique de Farle": {
     "level": 79,
-    "name": "Bracelet Magique de Farle",
     "panoply": "Panoplie de Farle Ingalsse",
     "category": "Anneau",
     "stats": {
@@ -632,9 +571,8 @@
       "waterResistPer": 2
     }
   },
-  {
+  "Anneau Champêtre": {
     "level": 15,
-    "name": "Anneau Champêtre",
     "panoply": "Panoplie Champêtre",
     "category": "Anneau",
     "stats": {
@@ -642,9 +580,8 @@
       "agility": 20
     }
   },
-  {
+  "Anneau Thé": {
     "level": 25,
-    "name": "Anneau Thé",
     "category": "Anneau",
     "stats": {
       "health": 35,
@@ -652,9 +589,8 @@
       "power": 10
     }
   },
-  {
+  "Bracelet du Chef Bwork": {
     "level": 100,
-    "name": "Bracelet du Chef Bwork",
     "panoply": "Panoplie du Chef Bwork",
     "category": "Anneau",
     "stats": {
@@ -668,9 +604,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Bracelet du Chef Crocodaille": {
     "level": 70,
-    "name": "Bracelet du Chef Crocodaille",
     "panoply": "Panoplie du Chef Crocodaille",
     "category": "Anneau",
     "stats": {
@@ -682,9 +617,8 @@
       "fireResistPer": 2
     }
   },
-  {
+  "Anneau du Sanglier": {
     "level": 19,
-    "name": "Anneau du Sanglier",
     "panoply": "Panoplie du Sanglier",
     "category": "Anneau",
     "stats": {
@@ -692,9 +626,8 @@
       "criticalChance": 2
     }
   },
-  {
+  "Araknoton": {
     "level": 9,
-    "name": "Araknoton",
     "panoply": "Panoplie Arakne",
     "category": "Anneau",
     "stats": {
@@ -702,9 +635,8 @@
       "dodge": 2
     }
   },
-  {
+  "Mos Kitano": {
     "level": 21,
-    "name": "Mos Kitano",
     "panoply": "Panoplie Moskito",
     "category": "Anneau",
     "stats": {
@@ -713,9 +645,8 @@
       "heal": 2
     }
   },
-  {
+  "Anneau du Champ Champ": {
     "level": 13,
-    "name": "Anneau du Champ Champ",
     "panoply": "Panoplie Champ Champ",
     "category": "Anneau",
     "stats": {
@@ -723,9 +654,8 @@
       "lock": 3
     }
   },
-  {
+  "Alliance Du Champ Champ": {
     "level": 11,
-    "name": "Alliance Du Champ Champ",
     "panoply": "Panoplie Champ Champ",
     "category": "Anneau",
     "stats": {
@@ -733,9 +663,8 @@
       "dodge": 2
     }
   },
-  {
+  "Anneau du Prespic": {
     "level": 38,
-    "name": "Anneau du Prespic",
     "panoply": "Panoplie du Prespic",
     "category": "Anneau",
     "stats": {
@@ -745,9 +674,8 @@
       "criticalChance": 2
     }
   },
-  {
+  "Scaranneau Vert": {
     "level": 43,
-    "name": "Scaranneau Vert",
     "panoply": "Panoplie du Scarafeuille Vert",
     "category": "Anneau",
     "stats": {
@@ -757,9 +685,8 @@
       "earthResistPer": 3
     }
   },
-  {
+  "Scaranneau Rouge": {
     "level": 43,
-    "name": "Scaranneau Rouge",
     "panoply": "Panoplie du Scarafeuille Rouge",
     "category": "Anneau",
     "stats": {
@@ -769,9 +696,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Scaranneau Blanc": {
     "level": 43,
-    "name": "Scaranneau Blanc",
     "panoply": "Panoplie du Scarafeuille Blanc",
     "category": "Anneau",
     "stats": {
@@ -781,9 +707,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Scaranneau Bleu": {
     "level": 43,
-    "name": "Scaranneau Bleu",
     "panoply": "Panoplie du Scarafeuille Bleu",
     "category": "Anneau",
     "stats": {
@@ -793,9 +718,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Anneau du Mulou": {
     "level": 51,
-    "name": "Anneau du Mulou",
     "panoply": "Panoplie du Mulou",
     "category": "Anneau",
     "stats": {
@@ -805,9 +729,8 @@
       "prospecting": 3
     }
   },
-  {
+  "Anneau du Bandit": {
     "level": 17,
-    "name": "Anneau du Bandit",
     "panoply": "Panoplie du Bandit",
     "category": "Anneau",
     "stats": {
@@ -815,9 +738,8 @@
       "criticalChance": 2
     }
   },
-  {
+  "Anneau Stradamus": {
     "level": 48,
-    "name": "Anneau Stradamus",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -826,9 +748,8 @@
       "waterResistPer": 2
     }
   },
-  {
+  "Anneau Fioutioure": {
     "level": 65,
-    "name": "Anneau Fioutioure",
     "category": "Anneau",
     "stats": {
       "health": 50,
@@ -838,9 +759,8 @@
       "initiative": 200
     }
   },
-  {
+  "Alliance d'Elya Wood": {
     "level": 119,
-    "name": "Alliance d'Elya Wood",
     "panoply": "Panoplie d'Elya Wood",
     "category": "Anneau",
     "stats": {
@@ -854,9 +774,8 @@
       "fireResist": 12
     }
   },
-  {
+  "Anneau Merta": {
     "level": 59,
-    "name": "Anneau Merta",
     "category": "Anneau",
     "stats": {
       "intelligence": 25,
@@ -866,9 +785,8 @@
       "initiative": 100
     }
   },
-  {
+  "Alliance Ethnique": {
     "level": 53,
-    "name": "Alliance Ethnique",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -877,9 +795,8 @@
       "prospecting": 5
     }
   },
-  {
+  "Anneau K'Tuelle": {
     "level": 88,
-    "name": "Anneau K'Tuelle",
     "category": "Anneau",
     "stats": {
       "health": 60,
@@ -891,9 +808,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Anneau Ha": {
     "level": 58,
-    "name": "Anneau Ha",
     "category": "Anneau",
     "stats": {
       "health": 35,
@@ -902,9 +818,8 @@
       "damage": 3
     }
   },
-  {
+  "Anneau Hé": {
     "level": 44,
-    "name": "Anneau Hé",
     "category": "Anneau",
     "stats": {
       "health": 50,
@@ -912,9 +827,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Anneau Zocomial": {
     "level": 50,
-    "name": "Anneau Zocomial",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -924,9 +838,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Anneau Vice": {
     "level": 18,
-    "name": "Anneau Vice",
     "category": "Anneau",
     "stats": {
       "health": 20,
@@ -934,9 +847,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau Bsène": {
     "level": 68,
-    "name": "Anneau Bsène",
     "category": "Anneau",
     "stats": {
       "health": 35,
@@ -947,21 +859,19 @@
       "waterResistPer": 2
     }
   },
-  {
+  "Anneau Karina": {
     "level": 54,
-    "name": "Anneau Karina",
     "category": "Anneau",
     "stats": {
-      "health": 0,
+      "health": -30,
       "strength": 20,
       "agility": 20,
       "earthResistPer": 3,
       "airResistPer": 3
     }
   },
-  {
+  "Anneau Piaume": {
     "level": 56,
-    "name": "Anneau Piaume",
     "category": "Anneau",
     "stats": {
       "wisdom": 25,
@@ -969,9 +879,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Anneau Rigami": {
     "level": 49,
-    "name": "Anneau Rigami",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -981,9 +890,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Alliance Akwadala": {
     "level": 37,
-    "name": "Alliance Akwadala",
     "panoply": "Panoplie Akwadala",
     "category": "Anneau",
     "stats": {
@@ -993,9 +901,8 @@
       "waterResistPer": 2
     }
   },
-  {
+  "Alliance Terrdala": {
     "level": 77,
-    "name": "Alliance Terrdala",
     "panoply": "Panoplie Terrdala",
     "category": "Anneau",
     "stats": {
@@ -1006,9 +913,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Alliance Feudala": {
     "level": 81,
-    "name": "Alliance Feudala",
     "panoply": "Panoplie Feudala",
     "category": "Anneau",
     "stats": {
@@ -1020,9 +926,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Alliance Aerdala": {
     "level": 57,
-    "name": "Alliance Aerdala",
     "panoply": "Panoplie Aerdala",
     "category": "Anneau",
     "stats": {
@@ -1031,9 +936,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Anneau du Kitsou": {
     "level": 55,
-    "name": "Anneau du Kitsou",
     "panoply": "Panoplie du Kitsou",
     "category": "Anneau",
     "stats": {
@@ -1043,9 +947,8 @@
       "airResist": 6
     }
   },
-  {
+  "Anodindo": {
     "level": 50,
-    "name": "Anodindo",
     "panoply": "Panoplie Dindo",
     "category": "Anneau",
     "stats": {
@@ -1056,9 +959,8 @@
       "wisdom": 10
     }
   },
-  {
+  "Anneau du Boufcoul": {
     "level": 86,
-    "name": "Anneau du Boufcoul",
     "panoply": "Panoplie du Boufcoul",
     "category": "Anneau",
     "stats": {
@@ -1068,20 +970,18 @@
       "agility": 20,
       "wisdom": 7,
       "heal": 6,
-      "initiative": 0,
+      "initiative": -50,
       "earthResistPer": 3,
       "fireResistPer": 3
     }
   },
-  {
+  "Le Diviseur (MJ)": {
     "level": 1,
-    "name": "Le Diviseur (MJ)",
     "category": "Anneau",
     "stats": {}
   },
-  {
+  "Anneau du Koalak": {
     "level": 53,
-    "name": "Anneau du Koalak",
     "panoply": "Panoplie du Koalak",
     "category": "Anneau",
     "stats": {
@@ -1090,9 +990,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Anneau du Tofu": {
     "level": 21,
-    "name": "Anneau du Tofu",
     "panoply": "Panoplie du Tofu",
     "category": "Anneau",
     "stats": {
@@ -1100,9 +999,8 @@
       "wisdom": 10
     }
   },
-  {
+  "Anneau du Scarabosse Doré": {
     "level": 43,
-    "name": "Anneau du Scarabosse Doré",
     "panoply": "Panoplie du Scarabosse Doré",
     "category": "Anneau",
     "stats": {
@@ -1113,19 +1011,17 @@
       "heal": 6
     }
   },
-  {
+  "Mitaines Mitées du Paysan": {
     "level": 12,
-    "name": "Mitaines Mitées du Paysan",
     "panoply": "Panoplie du Paysan",
     "category": "Anneau",
     "stats": {
-      "health": 0,
+      "health": -40,
       "summon": 1
     }
   },
-  {
+  "Scaranneau Noir": {
     "level": 48,
-    "name": "Scaranneau Noir",
     "panoply": "Panoplie du Scarafeuille Noir",
     "category": "Anneau",
     "stats": {
@@ -1135,9 +1031,8 @@
       "neutralResistPer": 3
     }
   },
-  {
+  "Craquanneau Légendaire": {
     "level": 72,
-    "name": "Craquanneau Légendaire",
     "panoply": "Panoplie du Craqueleur Légendaire",
     "category": "Anneau",
     "stats": {
@@ -1148,9 +1043,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Anneau du Piou Rouge": {
     "level": 10,
-    "name": "Anneau du Piou Rouge",
     "panoply": "Panoplie du Piou Rouge",
     "category": "Anneau",
     "stats": {
@@ -1158,9 +1052,8 @@
       "intelligence": 20
     }
   },
-  {
+  "Anneau du Piou Bleu": {
     "level": 9,
-    "name": "Anneau du Piou Bleu",
     "panoply": "Panoplie du Piou Bleu",
     "category": "Anneau",
     "stats": {
@@ -1168,9 +1061,8 @@
       "waterDamage": 1
     }
   },
-  {
+  "Anneau du Piou Violet": {
     "level": 8,
-    "name": "Anneau du Piou Violet",
     "panoply": "Panoplie du Piou Violet",
     "category": "Anneau",
     "stats": {
@@ -1178,9 +1070,8 @@
       "initiative": 50
     }
   },
-  {
+  "Anneau du Piou Jaune": {
     "level": 12,
-    "name": "Anneau du Piou Jaune",
     "panoply": "Panoplie du Piou Jaune",
     "category": "Anneau",
     "stats": {
@@ -1188,9 +1079,8 @@
       "airDamage": 1
     }
   },
-  {
+  "Anneau du Piou Vert": {
     "level": 11,
-    "name": "Anneau du Piou Vert",
     "panoply": "Panoplie du Piou Vert",
     "category": "Anneau",
     "stats": {
@@ -1198,9 +1088,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Anneau du Piou Rose": {
     "level": 7,
-    "name": "Anneau du Piou Rose",
     "panoply": "Panoplie du Piou Rose",
     "category": "Anneau",
     "stats": {
@@ -1208,9 +1097,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau en Mousse": {
     "level": 20,
-    "name": "Anneau en Mousse",
     "panoply": "Panoplie en Mousse",
     "category": "Anneau",
     "stats": {
@@ -1219,9 +1107,8 @@
       "dodge": 2
     }
   },
-  {
+  "Anneau du Meulou": {
     "level": 126,
-    "name": "Anneau du Meulou",
     "panoply": "Panoplie du Meulou",
     "category": "Anneau",
     "stats": {
@@ -1236,9 +1123,8 @@
       "neutralResist": 6
     }
   },
-  {
+  "Anneau du Minotoror": {
     "level": 112,
-    "name": "Anneau du Minotoror",
     "panoply": "Panoplie du Minotoror",
     "category": "Anneau",
     "stats": {
@@ -1255,9 +1141,8 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Bracelet du Minotot": {
     "level": 149,
-    "name": "Bracelet du Minotot",
     "panoply": "Panoplie du Minotot",
     "category": "Anneau",
     "stats": {
@@ -1274,9 +1159,8 @@
       "fireResist": 7
     }
   },
-  {
+  "Anneau du Dragon Cochon": {
     "level": 108,
-    "name": "Anneau du Dragon Cochon",
     "panoply": "Panoplie du Dragon Cochon",
     "category": "Anneau",
     "stats": {
@@ -1289,9 +1173,8 @@
       "initiative": 150
     }
   },
-  {
+  "Anneau du Dragoeuf": {
     "level": 127,
-    "name": "Anneau du Dragoeuf",
     "panoply": "Panoplie du Dragoeuf Cuirassé",
     "category": "Anneau",
     "stats": {
@@ -1304,9 +1187,8 @@
       "apResist": 7
     }
   },
-  {
+  "Bracelet Magique de Shika": {
     "level": 73,
-    "name": "Bracelet Magique de Shika",
     "panoply": "Panoplie de Shika Ingalsse",
     "category": "Anneau",
     "stats": {
@@ -1320,9 +1202,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Alliance du Mominotor": {
     "level": 111,
-    "name": "Alliance du Mominotor",
     "panoply": "Panoplie du Mominotor",
     "category": "Anneau",
     "stats": {
@@ -1338,9 +1219,8 @@
       "mpReduction": 3
     }
   },
-  {
+  "Gant du Rat Noir": {
     "level": 98,
-    "name": "Gant du Rat Noir",
     "panoply": "Panoplie du Rat Noir",
     "category": "Anneau",
     "stats": {
@@ -1355,9 +1235,8 @@
       "lock": 5
     }
   },
-  {
+  "Gant du Rat Blanc": {
     "level": 101,
-    "name": "Gant du Rat Blanc",
     "panoply": "Panoplie du Rat Blanc",
     "category": "Anneau",
     "stats": {
@@ -1372,9 +1251,8 @@
       "dodge": 5
     }
   },
-  {
+  "Anneau Cérémonial du Seigneur des Rats": {
     "level": 131,
-    "name": "Anneau Cérémonial du Seigneur des Rats",
     "panoply": "Panoplie Cérémoniale",
     "category": "Anneau",
     "stats": {
@@ -1389,9 +1267,8 @@
       "fireResist": 7
     }
   },
-  {
+  "Anneau Ancestral": {
     "level": 113,
-    "name": "Anneau Ancestral",
     "panoply": "Panoplie Ancestrale",
     "category": "Anneau",
     "stats": {
@@ -1404,9 +1281,8 @@
       "waterResistPer": 6
     }
   },
-  {
+  "Anneau du Chêne Mou": {
     "level": 139,
-    "name": "Anneau du Chêne Mou",
     "panoply": "Panoplie du Chêne Mou",
     "category": "Anneau",
     "stats": {
@@ -1422,9 +1298,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Le Plussain": {
     "level": 1,
-    "name": "Le Plussain",
     "panoply": "Panoplie du Boune",
     "category": "Anneau",
     "stats": {
@@ -1432,117 +1307,104 @@
       "agility": 6
     }
   },
-  {
+  "Anneau Bhli": {
     "level": 150,
-    "name": "Anneau Bhli",
     "panoply": "Panoplie du Prince des voleurs",
     "category": "Anneau",
     "stats": {
       "undefined": 13079
     }
   },
-  {
+  "Bague Houx": {
     "level": 150,
-    "name": "Bague Houx",
     "panoply": "Panoplie de Gouttière",
     "category": "Anneau",
     "stats": {
       "undefined": 12842
     }
   },
-  {
+  "Bague Héra": {
     "level": 150,
-    "name": "Bague Héra",
     "panoply": "Panoplie de l'Innombrable",
     "category": "Anneau",
     "stats": {
       "undefined": 12617
     }
   },
-  {
+  "Bague Harre": {
     "level": 150,
-    "name": "Bague Harre",
     "panoply": "Panoplie Téméraire",
     "category": "Anneau",
     "stats": {
       "undefined": 13112
     }
   },
-  {
+  "Anneau Tassion": {
     "level": 150,
-    "name": "Anneau Tassion",
     "panoply": "Panoplie Indestructible",
     "category": "Anneau",
     "stats": {
       "undefined": 13011
     }
   },
-  {
+  "Anneau Stalgik": {
     "level": 150,
-    "name": "Anneau Stalgik",
     "panoply": "Panoplie Vénérable",
     "category": "Anneau",
     "stats": {
       "undefined": 13370
     }
   },
-  {
+  "Anneau Zamour": {
     "level": 150,
-    "name": "Anneau Zamour",
     "panoply": "Panoplie Altruiste",
     "category": "Anneau",
     "stats": {
       "undefined": 25832
     }
   },
-  {
+  "Anneau Raille": {
     "level": 150,
-    "name": "Anneau Raille",
     "panoply": "Panoplie Ethylique",
     "category": "Anneau",
     "stats": {
       "undefined": 24038
     }
   },
-  {
+  "Anneau Hell": {
     "level": 150,
-    "name": "Anneau Hell",
     "panoply": "Panoplie Criminelle",
     "category": "Anneau",
     "stats": {
       "undefined": 12903
     }
   },
-  {
+  "Anneau Tilus": {
     "level": 150,
-    "name": "Anneau Tilus",
     "panoply": "Panoplie Intemporelle",
     "category": "Anneau",
     "stats": {
       "undefined": 13258
     }
   },
-  {
+  "Anneau Pwal": {
     "level": 150,
-    "name": "Anneau Pwal",
     "panoply": "Panoplie Sauvage",
     "category": "Anneau",
     "stats": {
       "undefined": 13520
     }
   },
-  {
+  "Anneau Pitale": {
     "level": 150,
-    "name": "Anneau Pitale",
     "panoply": "Panoplie Exsangue",
     "category": "Anneau",
     "stats": {
       "undefined": 12760
     }
   },
-  {
+  "Sceau Souverain du Roissingue": {
     "level": 158,
-    "name": "Sceau Souverain du Roissingue",
     "panoply": "Panoplie Souveraine",
     "category": "Anneau",
     "stats": {
@@ -1558,9 +1420,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Alliance de Corail": {
     "level": 60,
-    "name": "Alliance de Corail",
     "category": "Anneau",
     "stats": {
       "health": 25,
@@ -1571,9 +1432,8 @@
       "criticalDamage": 3
     }
   },
-  {
+  "Anneau Skargo": {
     "level": 115,
-    "name": "Anneau Skargo",
     "panoply": "Panoplie Baveuse",
     "category": "Anneau",
     "stats": {
@@ -1586,9 +1446,8 @@
       "waterResist": 7
     }
   },
-  {
+  "Palmano": {
     "level": 46,
-    "name": "Palmano",
     "category": "Anneau",
     "stats": {
       "agility": 20,
@@ -1596,9 +1455,8 @@
       "initiative": 150
     }
   },
-  {
+  "Kralano": {
     "level": 199,
-    "name": "Kralano",
     "panoply": "Panoplie Ventouse",
     "category": "Anneau",
     "stats": {
@@ -1615,9 +1473,8 @@
       "neutralResist": 10
     }
   },
-  {
+  "Anneau Poli": {
     "level": 66,
-    "name": "Anneau Poli",
     "panoply": "Panoplie des Herboricoles",
     "category": "Anneau",
     "stats": {
@@ -1630,16 +1487,15 @@
       "range": 1,
       "damage": 5,
       "initiative": 200,
-      "neutralResistPer": 0,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
-      "waterResistPer": 0,
-      "airResistPer": 0
+      "neutralResistPer": -5,
+      "earthResistPer": -5,
+      "fireResistPer": -5,
+      "waterResistPer": -5,
+      "airResistPer": -5
     }
   },
-  {
+  "Anneau Solo": {
     "level": 31,
-    "name": "Anneau Solo",
     "category": "Anneau",
     "stats": {
       "strength": 10,
@@ -1647,9 +1503,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Annolamour": {
     "level": 189,
-    "name": "Annolamour",
     "panoply": "Panoplie Ventouse",
     "category": "Anneau",
     "stats": {
@@ -1665,9 +1520,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Annobusé de Maître Jarbo": {
     "level": 1,
-    "name": "Annobusé de Maître Jarbo",
     "category": "Anneau",
     "stats": {
       "health": 300,
@@ -1682,9 +1536,8 @@
       "damage": 10
     }
   },
-  {
+  "Blopanneau Griotte": {
     "level": 50,
-    "name": "Blopanneau Griotte",
     "panoply": "Panoplie Blop Griotte",
     "category": "Anneau",
     "stats": {
@@ -1692,9 +1545,8 @@
       "range": 1
     }
   },
-  {
+  "Blopanneau Reinette": {
     "level": 50,
-    "name": "Blopanneau Reinette",
     "panoply": "Panoplie Blop Reinette",
     "category": "Anneau",
     "stats": {
@@ -1702,9 +1554,8 @@
       "range": 1
     }
   },
-  {
+  "Blopanneau Coco": {
     "level": 50,
-    "name": "Blopanneau Coco",
     "panoply": "Panoplie Blop Coco",
     "category": "Anneau",
     "stats": {
@@ -1712,9 +1563,8 @@
       "range": 1
     }
   },
-  {
+  "Blopanneau Indigo": {
     "level": 50,
-    "name": "Blopanneau Indigo",
     "panoply": "Panoplie Blop Indigo",
     "category": "Anneau",
     "stats": {
@@ -1722,9 +1572,8 @@
       "range": 1
     }
   },
-  {
+  "Blopanneau Griotte Royal": {
     "level": 80,
-    "name": "Blopanneau Griotte Royal",
     "panoply": "Panoplie Blop Griotte Royale",
     "category": "Anneau",
     "stats": {
@@ -1736,9 +1585,8 @@
       "initiative": 200
     }
   },
-  {
+  "Blopanneau Reinette Royal": {
     "level": 80,
-    "name": "Blopanneau Reinette Royal",
     "panoply": "Panoplie Blop Reinette Royale",
     "category": "Anneau",
     "stats": {
@@ -1750,9 +1598,8 @@
       "initiative": 200
     }
   },
-  {
+  "Blopanneau Coco Royal": {
     "level": 80,
-    "name": "Blopanneau Coco Royal",
     "panoply": "Panoplie Blop Coco Royale",
     "category": "Anneau",
     "stats": {
@@ -1764,9 +1611,8 @@
       "initiative": 200
     }
   },
-  {
+  "Blopanneau Indigo Royal": {
     "level": 80,
-    "name": "Blopanneau Indigo Royal",
     "panoply": "Panoplie Blop Indigo Royale",
     "category": "Anneau",
     "stats": {
@@ -1778,9 +1624,8 @@
       "initiative": 200
     }
   },
-  {
+  "Anneau Colerette": {
     "level": 188,
-    "name": "Anneau Colerette",
     "panoply": "Panoplignon",
     "category": "Anneau",
     "stats": {
@@ -1797,9 +1642,8 @@
       "trapDamage": 20
     }
   },
-  {
+  "Anneau Chevelu": {
     "level": 180,
-    "name": "Anneau Chevelu",
     "panoply": "Panoplycélium",
     "category": "Anneau",
     "stats": {
@@ -1815,9 +1659,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Alliance Boletée": {
     "level": 186,
-    "name": "Alliance Boletée",
     "panoply": "Panoplie Tue-Mouche",
     "category": "Anneau",
     "stats": {
@@ -1833,9 +1676,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Blopanneau Multicolore Royal": {
     "level": 90,
-    "name": "Blopanneau Multicolore Royal",
     "panoply": "Panoplie Blop Multicolore Royale",
     "category": "Anneau",
     "stats": {
@@ -1847,9 +1689,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Bracelet Ventré": {
     "level": 179,
-    "name": "Bracelet Ventré",
     "panoply": "Panoplie du Bworker Berserker",
     "category": "Anneau",
     "stats": {
@@ -1865,9 +1706,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Anneau Bliteré": {
     "level": 174,
-    "name": "Anneau Bliteré",
     "panoply": "Panoplie du Bworker Gladiateur",
     "category": "Anneau",
     "stats": {
@@ -1883,9 +1723,8 @@
       "earthResist": 10
     }
   },
-  {
+  "Anneau Paupayahn": {
     "level": 45,
-    "name": "Anneau Paupayahn",
     "panoply": "Panoplie Paupayahn",
     "category": "Anneau",
     "stats": {
@@ -1895,15 +1734,13 @@
       "airResistPer": 5
     }
   },
-  {
+  "Le sceau des Zewouan": {
     "level": 1,
-    "name": "Le sceau des Zewouan",
     "category": "Anneau",
     "stats": {}
   },
-  {
+  "Jambanneau": {
     "level": 40,
-    "name": "Jambanneau",
     "panoply": "Panoplie de Peggy la Porkass",
     "category": "Anneau",
     "stats": {
@@ -1911,18 +1748,16 @@
       "damage": 5
     }
   },
-  {
+  "Anneau Zest": {
     "level": 20,
-    "name": "Anneau Zest",
     "category": "Anneau",
     "stats": {
       "intelligence": 10,
       "chance": 10
     }
   },
-  {
+  "Bague Cristalline": {
     "level": 37,
-    "name": "Bague Cristalline",
     "panoply": "Panoplie Cristalline",
     "category": "Anneau",
     "stats": {
@@ -1931,9 +1766,8 @@
       "apResist": 2
     }
   },
-  {
+  "Pompanneau": {
     "level": 30,
-    "name": "Pompanneau",
     "panoply": "Pompanoplie",
     "category": "Anneau",
     "stats": {
@@ -1942,9 +1776,8 @@
       "fireDamage": 2
     }
   },
-  {
+  "Grosse Bagouze du Parrain": {
     "level": 40,
-    "name": "Grosse Bagouze du Parrain",
     "panoply": "Panoplie du Parrain",
     "category": "Anneau",
     "stats": {
@@ -1954,9 +1787,8 @@
       "damage": 2
     }
   },
-  {
+  "Anneau de Slait": {
     "level": 43,
-    "name": "Anneau de Slait",
     "panoply": "Panoplie de Slait",
     "category": "Anneau",
     "stats": {
@@ -1967,17 +1799,15 @@
       "mpResist": 4
     }
   },
-  {
+  "Bague du hibou": {
     "level": 1,
-    "name": "Bague du hibou",
     "category": "Anneau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Bracelet du Tétounik": {
     "level": 45,
-    "name": "Bracelet du Tétounik",
     "panoply": "Panoplie du Tétounik",
     "category": "Anneau",
     "stats": {
@@ -1986,9 +1816,8 @@
       "heal": 3
     }
   },
-  {
+  "Fulgu au poing": {
     "level": 44,
-    "name": "Fulgu au poing",
     "panoply": "Golpanoplie",
     "category": "Anneau",
     "stats": {
@@ -1998,9 +1827,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau de la mort": {
     "level": 36,
-    "name": "Anneau de la mort",
     "category": "Anneau",
     "stats": {
       "health": 25,
@@ -2008,9 +1836,8 @@
       "damage": 2
     }
   },
-  {
+  "Anneau du Vampyre": {
     "level": 42,
-    "name": "Anneau du Vampyre",
     "panoply": "Panoplie du Vampyre maudit",
     "category": "Anneau",
     "stats": {
@@ -2020,9 +1847,8 @@
       "undefined": 1
     }
   },
-  {
+  "Mitaines de Chisp": {
     "level": 44,
-    "name": "Mitaines de Chisp",
     "panoply": "Chispanoplie",
     "category": "Anneau",
     "stats": {
@@ -2031,19 +1857,17 @@
       "dodge": 2
     }
   },
-  {
+  "Anneau solaire": {
     "level": 41,
-    "name": "Anneau solaire",
     "category": "Anneau",
     "stats": {
       "chance": 10,
-      "wisdom": 0,
+      "wisdom": -10,
       "range": 1
     }
   },
-  {
+  "Oxano": {
     "level": 37,
-    "name": "Oxano",
     "panoply": "Panoplie de la Denrée",
     "category": "Anneau",
     "stats": {
@@ -2053,35 +1877,32 @@
       "heal": 2
     }
   },
-  {
+  "Gantelet du Real Boitar": {
     "level": 43,
-    "name": "Gantelet du Real Boitar",
     "panoply": "Panoplie du Real Boitar",
     "category": "Anneau",
     "stats": {
       "strength": 15,
       "chance": 15,
       "range": 1,
-      "fireResistPer": 0,
-      "airResistPer": 0
+      "fireResistPer": -2,
+      "airResistPer": -2
     }
   },
-  {
+  "Gantelet des Bouftons Rouges": {
     "level": 43,
-    "name": "Gantelet des Bouftons Rouges",
     "panoply": "Panoplie des Bouftons Rouges",
     "category": "Anneau",
     "stats": {
       "intelligence": 15,
       "agility": 15,
       "range": 1,
-      "earthResistPer": 0,
-      "waterResistPer": 0
+      "earthResistPer": -2,
+      "waterResistPer": -2
     }
   },
-  {
+  "Anneau de Kocksis": {
     "level": 41,
-    "name": "Anneau de Kocksis",
     "panoply": "Panoplie de Kocksis",
     "category": "Anneau",
     "stats": {
@@ -2090,9 +1911,8 @@
       "summon": 1
     }
   },
-  {
+  "Anneau de Gobeuf": {
     "level": 44,
-    "name": "Anneau de Gobeuf",
     "panoply": "Panoplie de Gobeuf",
     "category": "Anneau",
     "stats": {
@@ -2102,9 +1922,8 @@
       "pushbackDamage": 6
     }
   },
-  {
+  "Anneau de Laikteur": {
     "level": 42,
-    "name": "Anneau de Laikteur",
     "panoply": "Panoplie de Laikteur",
     "category": "Anneau",
     "stats": {
@@ -2113,9 +1932,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Anneau de Grizou": {
     "level": 43,
-    "name": "Anneau de Grizou",
     "panoply": "Panoplie de Grizou",
     "category": "Anneau",
     "stats": {
@@ -2125,9 +1943,8 @@
       "initiative": 100
     }
   },
-  {
+  "Anneau du Roks Or": {
     "level": 51,
-    "name": "Anneau du Roks Or",
     "panoply": "Panoplie du Roks Or",
     "category": "Anneau",
     "stats": {
@@ -2136,9 +1953,8 @@
       "heal": 2
     }
   },
-  {
+  "Anneau de l'intrépide": {
     "level": 1,
-    "name": "Anneau de l'intrépide",
     "panoply": "Panoplie de l'intrépide",
     "category": "Anneau",
     "stats": {
@@ -2147,9 +1963,8 @@
       "undefined": 0
     }
   },
-  {
+  "Anneau de Klüme": {
     "level": 54,
-    "name": "Anneau de Klüme",
     "panoply": "Panoplie de Klüme",
     "category": "Anneau",
     "stats": {
@@ -2160,9 +1975,8 @@
       "initiative": 100
     }
   },
-  {
+  "Anneau de Kloug": {
     "level": 51,
-    "name": "Anneau de Kloug",
     "panoply": "Panoplie de Kloug",
     "category": "Anneau",
     "stats": {
@@ -2174,9 +1988,8 @@
       "mpReduction": 2
     }
   },
-  {
+  "Anneau du Corbeau Noir": {
     "level": 33,
-    "name": "Anneau du Corbeau Noir",
     "panoply": "Panoplie du Corbeau Noir",
     "category": "Anneau",
     "stats": {
@@ -2185,9 +1998,8 @@
       "airDamage": 3
     }
   },
-  {
+  "Anneau de Phong Huss": {
     "level": 33,
-    "name": "Anneau de Phong Huss",
     "panoply": "Panoplie de Phong Huss",
     "category": "Anneau",
     "stats": {
@@ -2196,9 +2008,8 @@
       "earthDamage": 3
     }
   },
-  {
+  "Anneau d'Hectaupe": {
     "level": 32,
-    "name": "Anneau d'Hectaupe",
     "panoply": "Panoplie d'Hectaupe",
     "category": "Anneau",
     "stats": {
@@ -2207,9 +2018,8 @@
       "summon": 1
     }
   },
-  {
+  "Anneau Pomdeupin": {
     "level": 43,
-    "name": "Anneau Pomdeupin",
     "panoply": "Panoplie Pomdeupin",
     "category": "Anneau",
     "stats": {
@@ -2218,9 +2028,8 @@
       "earthDamage": 5
     }
   },
-  {
+  "Bague de Boufbowl": {
     "level": 31,
-    "name": "Bague de Boufbowl",
     "panoply": "Panoplie de Boufbowl",
     "category": "Anneau",
     "stats": {
@@ -2230,9 +2039,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau de Gadjète": {
     "level": 49,
-    "name": "Anneau de Gadjète",
     "panoply": "Panoplie de Gadjète",
     "category": "Anneau",
     "stats": {
@@ -2242,9 +2050,8 @@
       "pods": 150
     }
   },
-  {
+  "Anneau d'Ougicle": {
     "level": 56,
-    "name": "Anneau d'Ougicle",
     "panoply": "Panoplie d'Ougicle",
     "category": "Anneau",
     "stats": {
@@ -2256,9 +2063,8 @@
       "lock": 3
     }
   },
-  {
+  "Anneau de Karotz": {
     "level": 48,
-    "name": "Anneau de Karotz",
     "panoply": "Panoplie de Karotz",
     "category": "Anneau",
     "stats": {
@@ -2269,9 +2075,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau de Grouillot": {
     "level": 46,
-    "name": "Anneau de Grouillot",
     "panoply": "Panoplie de Grouillot",
     "category": "Anneau",
     "stats": {
@@ -2281,9 +2086,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Anneau de Piggy Paupe": {
     "level": 59,
-    "name": "Anneau de Piggy Paupe",
     "panoply": "Panoplie de Piggy Paupe",
     "category": "Anneau",
     "stats": {
@@ -2294,9 +2098,8 @@
       "lock": 3
     }
   },
-  {
+  "Anoppinz": {
     "level": 58,
-    "name": "Anoppinz",
     "panoply": "Panoppinz",
     "category": "Anneau",
     "stats": {
@@ -2307,9 +2110,8 @@
       "initiative": 150
     }
   },
-  {
+  "Anauffe-souris": {
     "level": 59,
-    "name": "Anauffe-souris",
     "panoply": "Panoplie Chauffe-souris",
     "category": "Anneau",
     "stats": {
@@ -2319,9 +2121,8 @@
       "damage": 4
     }
   },
-  {
+  "Anokio": {
     "level": 61,
-    "name": "Anokio",
     "panoply": "Panoplinokio",
     "category": "Anneau",
     "stats": {
@@ -2332,9 +2133,8 @@
       "summon": 1
     }
   },
-  {
+  "Frimanneau": {
     "level": 195,
-    "name": "Frimanneau",
     "panoply": "Frimanoplie",
     "category": "Anneau",
     "stats": {
@@ -2350,9 +2150,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Grésilanneau": {
     "level": 196,
-    "name": "Grésilanneau",
     "panoply": "Panoplie Grésil",
     "category": "Anneau",
     "stats": {
@@ -2366,9 +2165,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Anneau du Mansot Royal": {
     "level": 140,
-    "name": "Anneau du Mansot Royal",
     "panoply": "Panoplie du Mansot Royal",
     "category": "Anneau",
     "stats": {
@@ -2386,9 +2184,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Crochet de Ben le Ripate": {
     "level": 155,
-    "name": "Crochet de Ben le Ripate",
     "panoply": "Panoplie de Ben le Ripate",
     "category": "Anneau",
     "stats": {
@@ -2408,9 +2205,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bague de l'Obsidiantre": {
     "level": 161,
-    "name": "Bague de l'Obsidiantre",
     "panoply": "Panoplie de l'Obsidiantre",
     "category": "Anneau",
     "stats": {
@@ -2427,9 +2223,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Anneau Frage": {
     "level": 148,
-    "name": "Anneau Frage",
     "category": "Anneau",
     "stats": {
       "health": 150,
@@ -2445,9 +2240,8 @@
       "dodge": 5
     }
   },
-  {
+  "Anneau Made": {
     "level": 141,
-    "name": "Anneau Made",
     "category": "Anneau",
     "stats": {
       "health": 150,
@@ -2461,9 +2255,8 @@
       "pushbackDamage": 7
     }
   },
-  {
+  "Anneau Nobstant": {
     "level": 146,
-    "name": "Anneau Nobstant",
     "category": "Anneau",
     "stats": {
       "health": 200,
@@ -2474,9 +2267,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Anneau Tabéné": {
     "level": 166,
-    "name": "Anneau Tabéné",
     "panoply": "Panoplie Abrégée",
     "category": "Anneau",
     "stats": {
@@ -2494,9 +2286,8 @@
       "criticalResist": 5
     }
   },
-  {
+  "Anneau du Korriandre": {
     "level": 176,
-    "name": "Anneau du Korriandre",
     "panoply": "Panoplie du Korriandre",
     "category": "Anneau",
     "stats": {
@@ -2513,9 +2304,8 @@
       "criticalResist": 6
     }
   },
-  {
+  "Anneau de Kolosso": {
     "level": 190,
-    "name": "Anneau de Kolosso",
     "panoply": "Panoplie de Kolosso",
     "category": "Anneau",
     "stats": {
@@ -2532,9 +2322,8 @@
       "apResist": 6
     }
   },
-  {
+  "Alliance Hestrale": {
     "level": 167,
-    "name": "Alliance Hestrale",
     "category": "Anneau",
     "stats": {
       "health": 200,
@@ -2552,9 +2341,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Alliance Sorcelée": {
     "level": 187,
-    "name": "Alliance Sorcelée",
     "category": "Anneau",
     "stats": {
       "health": 200,
@@ -2570,9 +2358,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Bracelet Ming": {
     "level": 197,
-    "name": "Bracelet Ming",
     "category": "Anneau",
     "stats": {
       "health": 400,
@@ -2584,9 +2371,8 @@
       "dodge": 8
     }
   },
-  {
+  "Anneau Aimgéroks": {
     "level": 194,
-    "name": "Anneau Aimgéroks",
     "category": "Anneau",
     "stats": {
       "health": 250,
@@ -2601,9 +2387,8 @@
       "airDamage": 7
     }
   },
-  {
+  "Alliance du Kanniboul Ebil": {
     "level": 43,
-    "name": "Alliance du Kanniboul Ebil",
     "panoply": "Panoplie du Kanniboul Ebil",
     "category": "Anneau",
     "stats": {
@@ -2613,9 +2398,8 @@
       "apReduction": 6
     }
   },
-  {
+  "Anneau du Boostache": {
     "level": 44,
-    "name": "Anneau du Boostache",
     "panoply": "Panoplie du Boostache",
     "category": "Anneau",
     "stats": {
@@ -2625,9 +2409,8 @@
       "mpReduction": 6
     }
   },
-  {
+  "Kwakwanneau": {
     "level": 52,
-    "name": "Kwakwanneau",
     "panoply": "Panoplie du Kwakwa",
     "category": "Anneau",
     "stats": {
@@ -2638,9 +2421,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Kwakwalliance": {
     "level": 52,
-    "name": "Kwakwalliance",
     "panoply": "Panoplie du Kwakwa",
     "category": "Anneau",
     "stats": {
@@ -2651,9 +2433,8 @@
       "apResist": 5
     }
   },
-  {
+  "Anneau de Mirh": {
     "level": 56,
-    "name": "Anneau de Mirh",
     "panoply": "Panoplie de Mirh",
     "category": "Anneau",
     "stats": {
@@ -2664,9 +2445,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Anneau de Logram": {
     "level": 50,
-    "name": "Anneau de Logram",
     "panoply": "Panoplie de Logram",
     "category": "Anneau",
     "stats": {
@@ -2677,9 +2457,8 @@
       "criticalResist": 4
     }
   },
-  {
+  "Alliance d'Hichète": {
     "level": 53,
-    "name": "Alliance d'Hichète",
     "panoply": "Panoplie d'Hichète",
     "category": "Anneau",
     "stats": {
@@ -2690,9 +2469,8 @@
       "dodge": 3
     }
   },
-  {
+  "Anneau d'Haku": {
     "level": 46,
-    "name": "Anneau d'Haku",
     "panoply": "Panoplie d'Haku",
     "category": "Anneau",
     "stats": {
@@ -2703,9 +2481,8 @@
       "criticalResist": 4
     }
   },
-  {
+  "Anneau Moutheur": {
     "level": 127,
-    "name": "Anneau Moutheur",
     "panoply": "Panoplie Moutheuze",
     "category": "Anneau",
     "stats": {
@@ -2719,9 +2496,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bague Moutheuze": {
     "level": 121,
-    "name": "Bague Moutheuze",
     "panoply": "Panoplie Moutheuze",
     "category": "Anneau",
     "stats": {
@@ -2735,9 +2511,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Anneau de Frigostine": {
     "level": 144,
-    "name": "Anneau de Frigostine",
     "panoply": "Panoplie de Frigostine",
     "category": "Anneau",
     "stats": {
@@ -2756,9 +2531,8 @@
       "lock": -4
     }
   },
-  {
+  "Anneau de Cantile": {
     "level": 153,
-    "name": "Anneau de Cantile",
     "panoply": "Panoplie de Cantile",
     "category": "Anneau",
     "stats": {
@@ -2776,9 +2550,8 @@
       "criticalResist": 12
     }
   },
-  {
+  "Anneau des Prophètes": {
     "level": 168,
-    "name": "Anneau des Prophètes",
     "panoply": "Panoplie des Prophètes",
     "category": "Anneau",
     "stats": {
@@ -2796,9 +2569,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Anneau de Guten Tak": {
     "level": 175,
-    "name": "Anneau de Guten Tak",
     "panoply": "Panoplie de Guten Tak",
     "category": "Anneau",
     "stats": {
@@ -2816,9 +2588,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Alliance de Guten Tak": {
     "level": 173,
-    "name": "Alliance de Guten Tak",
     "panoply": "Panoplie de Guten Tak",
     "category": "Anneau",
     "stats": {
@@ -2834,9 +2605,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Bague de Boréale": {
     "level": 183,
-    "name": "Bague de Boréale",
     "panoply": "Panoplie de Boréale",
     "category": "Anneau",
     "stats": {
@@ -2849,9 +2619,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Anneau du Professeur Xa": {
     "level": 191,
-    "name": "Anneau du Professeur Xa",
     "panoply": "Panoplie du Professeur Xa",
     "category": "Anneau",
     "stats": {
@@ -2870,9 +2639,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Alliance Gloursonne": {
     "level": 198,
-    "name": "Alliance Gloursonne",
     "panoply": "Panoplie Gloursonne",
     "category": "Anneau",
     "stats": {
@@ -2891,9 +2659,8 @@
       "lock": 5
     }
   },
-  {
+  "Bague Gloursonne": {
     "level": 197,
-    "name": "Bague Gloursonne",
     "panoply": "Panoplie Gloursonne",
     "category": "Anneau",
     "stats": {
@@ -2912,9 +2679,8 @@
       "lock": 5
     }
   },
-  {
+  "Anneau de la Fuji Givrefoux": {
     "level": 192,
-    "name": "Anneau de la Fuji Givrefoux",
     "panoply": "Panoplie de la Fuji Givrefoux",
     "category": "Anneau",
     "stats": {
@@ -2935,9 +2701,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Gantelet du Gorgouille": {
     "level": 97,
-    "name": "Gantelet du Gorgouille",
     "panoply": "Panoplie du Gorgouille",
     "category": "Anneau",
     "stats": {
@@ -2953,9 +2718,8 @@
       "pushbackDamage": 3
     }
   },
-  {
+  "Bracilozité": {
     "level": 54,
-    "name": "Bracilozité",
     "panoply": "Panoplilozité",
     "category": "Anneau",
     "stats": {
@@ -2965,27 +2729,24 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Mitaine Aibre": {
     "level": 150,
-    "name": "Mitaine Aibre",
     "panoply": "Panoplie Explosive",
     "category": "Anneau",
     "stats": {
       "undefined": 13431
     }
   },
-  {
+  "Bracelet Jande": {
     "level": 150,
-    "name": "Bracelet Jande",
     "panoply": "Panoplie Lunatique",
     "category": "Anneau",
     "stats": {
       "undefined": 18651
     }
   },
-  {
+  "Anneau du Vulkain": {
     "level": 54,
-    "name": "Anneau du Vulkain",
     "panoply": "Panoplie du Vulkain",
     "category": "Anneau",
     "stats": {
@@ -2995,9 +2756,8 @@
       "apReduction": 3
     }
   },
-  {
+  "Bracelet du Vulkain": {
     "level": 58,
-    "name": "Bracelet du Vulkain",
     "panoply": "Panoplie du Vulkain",
     "category": "Anneau",
     "stats": {
@@ -3007,22 +2767,20 @@
       "mpReduction": 5
     }
   },
-  {
+  "Anneau Tétriste": {
     "level": 10,
-    "name": "Anneau Tétriste",
     "panoply": "Panoplie Tétriste",
     "category": "Anneau",
     "stats": {
       "summon": 1,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
-      "waterResistPer": 0,
-      "airResistPer": 0
+      "earthResistPer": -1,
+      "fireResistPer": -1,
+      "waterResistPer": -1,
+      "airResistPer": -1
     }
   },
-  {
+  "Boracelet": {
     "level": 59,
-    "name": "Boracelet",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -3033,9 +2791,8 @@
       "lock": 2
     }
   },
-  {
+  "Anneau de l'Envahisseur": {
     "level": 10,
-    "name": "Anneau de l'Envahisseur",
     "panoply": "Panoplie de l'Envahisseur",
     "category": "Anneau",
     "stats": {
@@ -3043,9 +2800,8 @@
       "heal": 3
     }
   },
-  {
+  "Cosmobracelet": {
     "level": 39,
-    "name": "Cosmobracelet",
     "category": "Anneau",
     "stats": {
       "wisdom": 10,
@@ -3054,18 +2810,16 @@
       "criticalResist": 4
     }
   },
-  {
+  "Sac à Main": {
     "level": 5,
-    "name": "Sac à Main",
     "category": "Anneau",
     "stats": {
       "pods": 80,
       "undefined": 0
     }
   },
-  {
+  "Bracelet du Glutin": {
     "level": 25,
-    "name": "Bracelet du Glutin",
     "panoply": "Panoplie du Glutin",
     "category": "Anneau",
     "stats": {
@@ -3075,9 +2829,8 @@
       "dodge": 2
     }
   },
-  {
+  "Bracelet du Minotoboule": {
     "level": 197,
-    "name": "Bracelet du Minotoboule",
     "category": "Anneau",
     "stats": {
       "health": 400,
@@ -3089,9 +2842,8 @@
       "dodge": 8
     }
   },
-  {
+  "Anneau de Brouce": {
     "level": 198,
-    "name": "Anneau de Brouce",
     "panoply": "Panoplie de Brouce Boulgoure",
     "category": "Anneau",
     "stats": {
@@ -3106,9 +2858,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Anneau d'Allister": {
     "level": 197,
-    "name": "Anneau d'Allister",
     "panoply": "Panoplie d'Allister",
     "category": "Anneau",
     "stats": {
@@ -3123,18 +2874,16 @@
       "criticalResist": 15
     }
   },
-  {
+  "Steamanneau Maître": {
     "level": 150,
-    "name": "Steamanneau Maître",
     "panoply": "Panoplie Submersible",
     "category": "Anneau",
     "stats": {
       "undefined": 14306
     }
   },
-  {
+  "Bague Rafe": {
     "level": 43,
-    "name": "Bague Rafe",
     "category": "Anneau",
     "stats": {
       "health": 40,
@@ -3143,9 +2892,8 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Bracelet Gume": {
     "level": 48,
-    "name": "Bracelet Gume",
     "panoply": "Panoplie Mijotée",
     "category": "Anneau",
     "stats": {
@@ -3154,9 +2902,8 @@
       "airDamage": 3
     }
   },
-  {
+  "Annokami": {
     "level": 54,
-    "name": "Annokami",
     "panoply": "Panokami",
     "category": "Anneau",
     "stats": {
@@ -3167,9 +2914,8 @@
       "mpReduction": 3
     }
   },
-  {
+  "Diplanneau": {
     "level": 57,
-    "name": "Diplanneau",
     "panoply": "Diplanoplie",
     "category": "Anneau",
     "stats": {
@@ -3180,9 +2926,8 @@
       "waterDamage": 5
     }
   },
-  {
+  "Anneau d'Henual": {
     "level": 196,
-    "name": "Anneau d'Henual",
     "panoply": "Panoplie d'Henual",
     "category": "Anneau",
     "stats": {
@@ -3201,9 +2946,8 @@
       "criticalResist": -7
     }
   },
-  {
+  "Anneau de Padgref": {
     "level": 197,
-    "name": "Anneau de Padgref",
     "panoply": "Panoplie de Padgref Demoël",
     "category": "Anneau",
     "stats": {
@@ -3224,9 +2968,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Glaglano": {
     "level": 55,
-    "name": "Glaglano",
     "panoply": "Glaglanoplie",
     "category": "Anneau",
     "stats": {
@@ -3236,9 +2979,8 @@
       "airDamage": 5
     }
   },
-  {
+  "Anneau Tamie": {
     "level": 198,
-    "name": "Anneau Tamie",
     "category": "Anneau",
     "stats": {
       "health": 350,
@@ -3250,9 +2992,8 @@
       "mpReduction": 8
     }
   },
-  {
+  "Infernano": {
     "level": 150,
-    "name": "Infernano",
     "panoply": "Panoplie Infernale",
     "category": "Anneau",
     "stats": {
@@ -3267,9 +3008,8 @@
       "fireResist": 15
     }
   },
-  {
+  "Styxano": {
     "level": 150,
-    "name": "Styxano",
     "panoply": "Panoplie Fluviale",
     "category": "Anneau",
     "stats": {
@@ -3284,9 +3024,8 @@
       "waterResist": 15
     }
   },
-  {
+  "Mandrano": {
     "level": 150,
-    "name": "Mandrano",
     "panoply": "Panoplie Contrebandière",
     "category": "Anneau",
     "stats": {
@@ -3301,9 +3040,8 @@
       "earthResist": 15
     }
   },
-  {
+  "Willkillsano": {
     "level": 150,
-    "name": "Willkillsano",
     "panoply": "Panoplie Meurtrière",
     "category": "Anneau",
     "stats": {
@@ -3318,9 +3056,8 @@
       "airResist": 15
     }
   },
-  {
+  "Bague Nostik": {
     "level": 196,
-    "name": "Bague Nostik",
     "panoply": "Panoplie Superstitieuse",
     "category": "Anneau",
     "stats": {
@@ -3329,16 +3066,15 @@
       "chance": 50,
       "wisdom": 40,
       "criticalChance": 5,
-      "range": 0,
+      "range": -1,
       "fireDamage": 12,
       "waterDamage": 12,
       "prospecting": 15,
       "criticalResist": 15
     }
   },
-  {
+  "Anneau Vicieux": {
     "level": 199,
-    "name": "Anneau Vicieux",
     "panoply": "Panoplie Vicieuse",
     "category": "Anneau",
     "stats": {
@@ -3355,9 +3091,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Anneau Glacial": {
     "level": 197,
-    "name": "Anneau Glacial",
     "panoply": "Panoplie Glaciale",
     "category": "Anneau",
     "stats": {
@@ -3371,9 +3106,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Alliance de Missiz Frizz": {
     "level": 198,
-    "name": "Alliance de Missiz Frizz",
     "panoply": "Panoplie de Missiz Frizz",
     "category": "Anneau",
     "stats": {
@@ -3390,9 +3124,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Bague Instable": {
     "level": 199,
-    "name": "Bague Instable",
     "panoply": "Panoplie Instable",
     "category": "Anneau",
     "stats": {
@@ -3408,9 +3141,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Anneau Instable": {
     "level": 199,
-    "name": "Anneau Instable",
     "panoply": "Panoplie Instable",
     "category": "Anneau",
     "stats": {
@@ -3426,9 +3158,8 @@
       "pushbackResist": 40
     }
   },
-  {
+  "Anneau du Comte Harebourg": {
     "level": 200,
-    "name": "Anneau du Comte Harebourg",
     "panoply": "Panoplie du Comte Harebourg",
     "category": "Anneau",
     "stats": {
@@ -3442,9 +3173,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Anneau Cryochrone": {
     "level": 200,
-    "name": "Anneau Cryochrone",
     "panoply": "Panoplie Cryochrone",
     "category": "Anneau",
     "stats": {
@@ -3459,9 +3189,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Anneau du Cycloïde": {
     "level": 200,
-    "name": "Anneau du Cycloïde",
     "panoply": "Panoplie du Cycloïde",
     "category": "Anneau",
     "stats": {
@@ -3478,9 +3207,8 @@
       "lock": 6
     }
   },
-  {
+  "Anneau Stroplante": {
     "level": 59,
-    "name": "Anneau Stroplante",
     "panoply": "Panoplie Stroplante",
     "category": "Anneau",
     "stats": {
@@ -3490,9 +3218,8 @@
       "initiative": 100
     }
   },
-  {
+  "Justanneau": {
     "level": 60,
-    "name": "Justanneau",
     "category": "Anneau",
     "stats": {
       "health": 50,
@@ -3502,9 +3229,8 @@
       "dodge": 4
     }
   },
-  {
+  "Bracelet du Blanc Pa Wabbit": {
     "level": 84,
-    "name": "Bracelet du Blanc Pa Wabbit",
     "panoply": "Panoplie du Blanc Pa Wabbit",
     "category": "Anneau",
     "stats": {
@@ -3517,9 +3243,8 @@
       "apResist": 5
     }
   },
-  {
+  "Anneau du Wabbit Céphale": {
     "level": 122,
-    "name": "Anneau du Wabbit Céphale",
     "panoply": "Panoplie du Wabbit Céphale",
     "category": "Anneau",
     "stats": {
@@ -3534,9 +3259,8 @@
       "apResist": -4
     }
   },
-  {
+  "Bracelet Tmotiv": {
     "level": 104,
-    "name": "Bracelet Tmotiv",
     "panoply": "Panoplie Dramatik",
     "category": "Anneau",
     "stats": {
@@ -3549,45 +3273,40 @@
       "airDamage": 6
     }
   },
-  {
+  "Anomen Tengu": {
     "level": 10,
-    "name": "Anomen Tengu",
     "category": "Anneau",
     "stats": {
       "agility": 10,
       "airDamage": 2
     }
   },
-  {
+  "Geishanneau": {
     "level": 10,
-    "name": "Geishanneau",
     "category": "Anneau",
     "stats": {
       "health": 10,
       "power": 10
     }
   },
-  {
+  "Kouinkano Noir": {
     "level": 10,
-    "name": "Kouinkano Noir",
     "category": "Anneau",
     "stats": {
       "health": 10,
       "criticalChance": 2
     }
   },
-  {
+  "Kouinkano Jaune": {
     "level": 10,
-    "name": "Kouinkano Jaune",
     "category": "Anneau",
     "stats": {
       "health": 15,
       "fireDamage": 3
     }
   },
-  {
+  "Nageanneau": {
     "level": 136,
-    "name": "Nageanneau",
     "panoply": "Panoplie Engloutie",
     "category": "Anneau",
     "stats": {
@@ -3605,18 +3324,16 @@
       "lock": -4
     }
   },
-  {
+  "Annolita": {
     "level": 10,
-    "name": "Annolita",
     "category": "Anneau",
     "stats": {
       "health": 15,
       "criticalChance": 1
     }
   },
-  {
+  "Anneau Tique": {
     "level": 200,
-    "name": "Anneau Tique",
     "panoply": "Panoplie des Abysses",
     "category": "Anneau",
     "stats": {
@@ -3636,9 +3353,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Pikano": {
     "level": 195,
-    "name": "Pikano",
     "panoply": "Pikoplie",
     "category": "Anneau",
     "stats": {
@@ -3658,9 +3374,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Anneau Kturne": {
     "level": 196,
-    "name": "Anneau Kturne",
     "panoply": "Panoplie d'Ombre",
     "category": "Anneau",
     "stats": {
@@ -3669,7 +3384,7 @@
       "chance": 70,
       "wisdom": 30,
       "criticalChance": 2,
-      "range": 0,
+      "range": -1,
       "fireDamage": 12,
       "waterDamage": 12,
       "prospecting": 15,
@@ -3677,9 +3392,8 @@
       "lock": 5
     }
   },
-  {
+  "Anneau du Père Fwetar": {
     "level": 199,
-    "name": "Anneau du Père Fwetar",
     "panoply": "Panoplie du Père Fwetar",
     "category": "Anneau",
     "stats": {
@@ -3696,9 +3410,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Anneau du Kaniblou": {
     "level": 162,
-    "name": "Anneau du Kaniblou",
     "panoply": "Panoplie du Kaniblou",
     "category": "Anneau",
     "stats": {
@@ -3713,9 +3426,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Anneau de Nidas": {
     "level": 200,
-    "name": "Anneau de Nidas",
     "panoply": "Panoplie de Nidas",
     "category": "Anneau",
     "stats": {
@@ -3730,9 +3442,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bracelet du Piloztère": {
     "level": 200,
-    "name": "Bracelet du Piloztère",
     "panoply": "Panoplie du Piloztère",
     "category": "Anneau",
     "stats": {
@@ -3746,9 +3457,8 @@
       "neutralResistPer": 10
     }
   },
-  {
+  "Alliance du Lévitrof": {
     "level": 200,
-    "name": "Alliance du Lévitrof",
     "panoply": "Panoplie du Lévitrof",
     "category": "Anneau",
     "stats": {
@@ -3766,9 +3476,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Anneau Truche": {
     "level": 130,
-    "name": "Anneau Truche",
     "panoply": "Panoplie Truche",
     "category": "Anneau",
     "stats": {
@@ -3782,9 +3491,8 @@
       "airResist": 12
     }
   },
-  {
+  "Anneau du Katcheur": {
     "level": 200,
-    "name": "Anneau du Katcheur",
     "panoply": "Panoplie du Katcheur",
     "category": "Anneau",
     "stats": {
@@ -3802,9 +3510,8 @@
       "initiative": 400
     }
   },
-  {
+  "Gant du Capitaine Ekarlatte": {
     "level": 132,
-    "name": "Gant du Capitaine Ekarlatte",
     "panoply": "Panoplie du Capitaine Ekarlatte",
     "category": "Anneau",
     "stats": {
@@ -3818,9 +3525,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Gant de Frakacia": {
     "level": 32,
-    "name": "Gant de Frakacia",
     "panoply": "Panoplie de Frakacia Leukocytine",
     "category": "Anneau",
     "stats": {
@@ -3830,9 +3536,8 @@
       "prospecting": 5
     }
   },
-  {
+  "Anneau de Pol Ouatnos": {
     "level": 200,
-    "name": "Anneau de Pol Ouatnos",
     "panoply": "Panoplie de Pol Ouatnos",
     "category": "Anneau",
     "stats": {
@@ -3846,9 +3551,8 @@
       "lock": 10
     }
   },
-  {
+  "Anneau des égarés": {
     "level": 200,
-    "name": "Anneau des égarés",
     "panoply": "Panoplie des égarés",
     "category": "Anneau",
     "stats": {
@@ -3864,9 +3568,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Anneau de XLII": {
     "level": 171,
-    "name": "Anneau de XLII",
     "panoply": "Panoplie de XLII",
     "category": "Anneau",
     "stats": {
@@ -3882,9 +3585,8 @@
       "criticalResist": 12
     }
   },
-  {
+  "Anneau de Fraktale": {
     "level": 120,
-    "name": "Anneau de Fraktale",
     "panoply": "Panoplie de Fraktale",
     "category": "Anneau",
     "stats": {
@@ -3900,9 +3602,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Anneau Xélomorphe": {
     "level": 117,
-    "name": "Anneau Xélomorphe",
     "panoply": "Panoplie Xélomorphe",
     "category": "Anneau",
     "stats": {
@@ -3917,9 +3618,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Anneau Bille": {
     "level": 36,
-    "name": "Anneau Bille",
     "panoply": "Microplie",
     "category": "Anneau",
     "stats": {
@@ -3928,9 +3628,8 @@
       "power": 10
     }
   },
-  {
+  "Alliance Apaisante": {
     "level": 59,
-    "name": "Alliance Apaisante",
     "panoply": "Panoplie Palliative",
     "category": "Anneau",
     "stats": {
@@ -3941,9 +3640,8 @@
       "waterDamage": 3
     }
   },
-  {
+  "Anneau Tranchant": {
     "level": 129,
-    "name": "Anneau Tranchant",
     "panoply": "Panoplie de la Voleuse",
     "category": "Anneau",
     "stats": {
@@ -3958,9 +3656,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Bracelet des Fonds marins": {
     "level": 200,
-    "name": "Bracelet des Fonds marins",
     "panoply": "Panoplie des Fonds marins",
     "category": "Anneau",
     "stats": {
@@ -3975,18 +3672,16 @@
       "mpResist": 5
     }
   },
-  {
+  "Anneau Vae": {
     "level": 150,
-    "name": "Anneau Vae",
     "panoply": "Panoplie Transcendante",
     "category": "Anneau",
     "stats": {
       "undefined": 14619
     }
   },
-  {
+  "Anneau Tissé": {
     "level": 93,
-    "name": "Anneau Tissé",
     "panoply": "Panoplie de la Tisseuse",
     "category": "Anneau",
     "stats": {
@@ -3997,9 +3692,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Alliance des Forestiers": {
     "level": 90,
-    "name": "Alliance des Forestiers",
     "category": "Anneau",
     "stats": {
       "health": 80,
@@ -4008,13 +3702,12 @@
       "range": 1,
       "fireDamage": 5,
       "dodge": 5,
-      "lock": 0,
+      "lock": -20,
       "apResist": 5
     }
   },
-  {
+  "Printanneau": {
     "level": 45,
-    "name": "Printanneau",
     "panoply": "Printanoplie",
     "category": "Anneau",
     "stats": {
@@ -4025,9 +3718,8 @@
       "dodge": 3
     }
   },
-  {
+  "Bracelet de Kardorim": {
     "level": 12,
-    "name": "Bracelet de Kardorim",
     "panoply": "Panoplie de Kardorim",
     "category": "Anneau",
     "stats": {
@@ -4035,17 +3727,15 @@
       "waterDamage": 2
     }
   },
-  {
+  "Sac à Main Renforcé": {
     "level": 8,
-    "name": "Sac à Main Renforcé",
     "category": "Anneau",
     "stats": {
       "pods": 100
     }
   },
-  {
+  "Alliance du Capitaine Pirate": {
     "level": 94,
-    "name": "Alliance du Capitaine Pirate",
     "panoply": "Panoplie du Capitaine Pirate",
     "category": "Anneau",
     "stats": {
@@ -4060,18 +3750,16 @@
       "pushbackDamage": 3
     }
   },
-  {
+  "Anneau Riginel": {
     "level": 150,
-    "name": "Anneau Riginel",
     "panoply": "Panoplie Quadramentale",
     "category": "Anneau",
     "stats": {
       "undefined": 13697
     }
   },
-  {
+  "Anneau Welle": {
     "level": 59,
-    "name": "Anneau Welle",
     "category": "Anneau",
     "stats": {
       "health": 30,
@@ -4080,9 +3768,8 @@
       "heal": 2
     }
   },
-  {
+  "Chevalière du Roi Joueur": {
     "level": 200,
-    "name": "Chevalière du Roi Joueur",
     "panoply": "Panoplie du Roi Joueur",
     "category": "Anneau",
     "stats": {
@@ -4097,13 +3784,12 @@
       "fireDamage": 12,
       "prospecting": 10,
       "fireResistPer": 10,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 6
     }
   },
-  {
+  "Gant du Valet Veinard": {
     "level": 200,
-    "name": "Gant du Valet Veinard",
     "panoply": "Panoplie du Valet Veinard",
     "category": "Anneau",
     "stats": {
@@ -4118,9 +3804,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Anneau des Matougarous": {
     "level": 161,
-    "name": "Anneau des Matougarous",
     "panoply": "Panoplie des Matougarous",
     "category": "Anneau",
     "stats": {
@@ -4136,9 +3821,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Bague des Ecaflipuces": {
     "level": 114,
-    "name": "Bague des Ecaflipuces",
     "panoply": "Panoplie des Ecaflipuces",
     "category": "Anneau",
     "stats": {
@@ -4152,9 +3836,8 @@
       "lock": 3
     }
   },
-  {
+  "Anneau Crustique": {
     "level": 200,
-    "name": "Anneau Crustique",
     "panoply": "Panoplie des Tréfonds",
     "category": "Anneau",
     "stats": {
@@ -4169,9 +3852,8 @@
       "apReduction": 10
     }
   },
-  {
+  "Bague Trithon": {
     "level": 200,
-    "name": "Bague Trithon",
     "panoply": "Panoplie Trithon",
     "category": "Anneau",
     "stats": {
@@ -4186,9 +3868,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Anneau Rifique": {
     "level": 200,
-    "name": "Anneau Rifique",
     "panoply": "Panoplie de R'lyugluglu",
     "category": "Anneau",
     "stats": {
@@ -4203,9 +3884,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Anneau Ouroboulos": {
     "level": 80,
-    "name": "Anneau Ouroboulos",
     "panoply": "Panoplie Ouroboulos",
     "category": "Anneau",
     "stats": {
@@ -4214,14 +3894,13 @@
       "chance": 25,
       "range": 1,
       "damage": 3,
-      "initiative": 0,
+      "initiative": -400,
       "fireResistPer": 2,
       "lock": 3
     }
   },
-  {
+  "Anneau d'El Piko": {
     "level": 130,
-    "name": "Anneau d'El Piko",
     "panoply": "Panoplie d'El Piko",
     "category": "Anneau",
     "stats": {
@@ -4237,9 +3916,8 @@
       "apResist": 7
     }
   },
-  {
+  "Veranneau": {
     "level": 169,
-    "name": "Veranneau",
     "panoply": "Pernoplie",
     "category": "Anneau",
     "stats": {
@@ -4255,9 +3933,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Baguistik": {
     "level": 200,
-    "name": "Baguistik",
     "panoply": "Panoplistik",
     "category": "Anneau",
     "stats": {
@@ -4275,9 +3952,8 @@
       "criticalResist": 30
     }
   },
-  {
+  "Anneauræus": {
     "level": 200,
-    "name": "Anneauræus",
     "panoply": "Panoplie des Maudits",
     "category": "Anneau",
     "stats": {
@@ -4291,21 +3967,19 @@
       "earthResistPer": 7,
       "waterResistPer": 7,
       "apResist": 10,
-      "criticalResist": 0
+      "criticalResist": -30
     }
   },
-  {
+  "Anneau Nos": {
     "level": 150,
-    "name": "Anneau Nos",
     "panoply": "Panoplie Enragée",
     "category": "Anneau",
     "stats": {
       "undefined": 14321
     }
   },
-  {
+  "Goulano": {
     "level": 200,
-    "name": "Goulano",
     "panoply": "Panoplie de la Goule",
     "category": "Anneau",
     "stats": {
@@ -4322,9 +3996,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Anneau Riktus": {
     "level": 88,
-    "name": "Anneau Riktus",
     "panoply": "Panoplie Riktus",
     "category": "Anneau",
     "stats": {
@@ -4336,9 +4009,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Alliance Brûlâme": {
     "level": 200,
-    "name": "Alliance Brûlâme",
     "panoply": "Panoplie Brûlâme",
     "category": "Anneau",
     "stats": {
@@ -4355,9 +4027,8 @@
       "airResistPer": 7
     }
   },
-  {
+  "Lavanneau": {
     "level": 200,
-    "name": "Lavanneau",
     "category": "Anneau",
     "stats": {
       "health": 250,
@@ -4371,9 +4042,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Anneau Toriété": {
     "level": 200,
-    "name": "Anneau Toriété",
     "panoply": "Panoplie Noyée",
     "category": "Anneau",
     "stats": {
@@ -4385,17 +4055,15 @@
       "waterResistPer": 7
     }
   },
-  {
+  "Anneau de l'Audacieux": {
     "level": 1,
-    "name": "Anneau de l'Audacieux",
     "category": "Anneau",
     "stats": {
       "power": 4
     }
   },
-  {
+  "Anneau en Grithril": {
     "level": 200,
-    "name": "Anneau en Grithril",
     "panoply": "Grithriloplie",
     "category": "Anneau",
     "stats": {
@@ -4412,9 +4080,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Anneau Volkorne": {
     "level": 200,
-    "name": "Anneau Volkorne",
     "panoply": "Panoplie Volkorne",
     "category": "Anneau",
     "stats": {
@@ -4425,9 +4092,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Rondelle de Waddict": {
     "level": 56,
-    "name": "Rondelle de Waddict",
     "panoply": "Panoplie du Mawabouaino",
     "category": "Anneau",
     "stats": {
@@ -4437,9 +4103,8 @@
       "dodge": 8
     }
   },
-  {
+  "Crocanneau": {
     "level": 200,
-    "name": "Crocanneau",
     "panoply": "Panoplie de Crocuzko",
     "category": "Anneau",
     "stats": {
@@ -4452,9 +4117,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Anneau Lunaire": {
     "level": 200,
-    "name": "Anneau Lunaire",
     "panoply": "Panoplie Lunaire",
     "category": "Anneau",
     "stats": {
@@ -4468,9 +4132,8 @@
       "apReduction": 10
     }
   },
-  {
+  "Convoitise de Misère": {
     "level": 200,
-    "name": "Convoitise de Misère",
     "panoply": "Panoplie de Misère",
     "category": "Anneau",
     "stats": {
@@ -4482,14 +4145,13 @@
       "waterDamage": 10,
       "airDamage": 10,
       "airResistPer": 10,
-      "lock": 0,
+      "lock": -10,
       "apResist": 10,
       "criticalDamage": 10
     }
   },
-  {
+  "Ceste de Guerre": {
     "level": 200,
-    "name": "Ceste de Guerre",
     "category": "Anneau",
     "stats": {
       "health": 350,
@@ -4497,15 +4159,14 @@
       "wisdom": 30,
       "criticalChance": 4,
       "fireDamage": 10,
-      "heal": 0,
+      "heal": -10,
       "earthResistPer": 7,
       "airResistPer": 7,
       "criticalDamage": 15
     }
   },
-  {
+  "Bague de Corruption": {
     "level": 200,
-    "name": "Bague de Corruption",
     "panoply": "Panoplie de Corruption",
     "category": "Anneau",
     "stats": {
@@ -4516,13 +4177,12 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterResistPer": 10,
-      "apResist": 0,
+      "apResist": -5,
       "criticalDamage": 10
     }
   },
-  {
+  "Alliance de Corruption": {
     "level": 200,
-    "name": "Alliance de Corruption",
     "panoply": "Panoplie de Corruption",
     "category": "Anneau",
     "stats": {
@@ -4537,9 +4197,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Les Casse-noisettes": {
     "level": 126,
-    "name": "Les Casse-noisettes",
     "panoply": "Panoplie Tanuki",
     "category": "Anneau",
     "stats": {
@@ -4554,9 +4213,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Alliance des Firefoux": {
     "level": 136,
-    "name": "Alliance des Firefoux",
     "panoply": "Panoplie Firefoux",
     "category": "Anneau",
     "stats": {
@@ -4572,18 +4230,16 @@
       "dodge": 5
     }
   },
-  {
+  "Sacrifice volontaire": {
     "level": 80,
-    "name": "Sacrifice volontaire",
     "category": "Anneau",
     "stats": {
-      "health": 0,
+      "health": -100,
       "undefined": 0
     }
   },
-  {
+  "Anneau de Koumiho": {
     "level": 164,
-    "name": "Anneau de Koumiho",
     "panoply": "Panoplie des Tombeaux",
     "category": "Anneau",
     "stats": {
@@ -4599,9 +4255,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Anneau Menclatur": {
     "level": 200,
-    "name": "Anneau Menclatur",
     "category": "Anneau",
     "stats": {
       "health": 300,
@@ -4610,14 +4265,13 @@
       "airDamage": 10,
       "earthResistPer": 7,
       "airResistPer": 7,
-      "dodge": 0,
+      "dodge": -10,
       "mpResist": 8,
       "pushbackDamage": 25
     }
   },
-  {
+  "Anneau Rtograf": {
     "level": 200,
-    "name": "Anneau Rtograf",
     "category": "Anneau",
     "stats": {
       "health": 300,
@@ -4633,13 +4287,12 @@
       "waterResistPer": 3,
       "airResistPer": 3,
       "dodge": 6,
-      "mpResist": 0,
+      "mpResist": -12,
       "criticalDamage": 9
     }
   },
-  {
+  "Anneau Possédé": {
     "level": 200,
-    "name": "Anneau Possédé",
     "panoply": "Panoplie Possédée",
     "category": "Anneau",
     "stats": {
@@ -4656,9 +4309,8 @@
       "mpReduction": 8
     }
   },
-  {
+  "Alliance du Pandamonium": {
     "level": 200,
-    "name": "Alliance du Pandamonium",
     "panoply": "Panoplie du Pandamonium",
     "category": "Anneau",
     "stats": {
@@ -4675,9 +4327,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Anneau du rat brâkmarien": {
     "level": 110,
-    "name": "Anneau du rat brâkmarien",
     "category": "Anneau",
     "stats": {
       "health": 100,
@@ -4688,12 +4339,11 @@
       "range": 1,
       "airDamage": 5,
       "initiative": 200,
-      "mpResist": 0
+      "mpResist": -10
     }
   },
-  {
+  "Anneau du rat bontarien": {
     "level": 110,
-    "name": "Anneau du rat bontarien",
     "category": "Anneau",
     "stats": {
       "health": 100,
@@ -4704,12 +4354,11 @@
       "waterDamage": 5,
       "initiative": 200,
       "mpReduction": 5,
-      "criticalResist": 0
+      "criticalResist": -10
     }
   },
-  {
+  "Ceste de Ravageur": {
     "level": 200,
-    "name": "Ceste de Ravageur",
     "panoply": "Panoplie des Ravageurs",
     "category": "Anneau",
     "stats": {
@@ -4725,9 +4374,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Dernière Aube": {
     "level": 200,
-    "name": "Dernière Aube",
     "panoply": "Reliques de l'Aurore Pourpre",
     "category": "Anneau",
     "stats": {
@@ -4743,19 +4391,18 @@
       "airDamage": 8,
       "earthResistPer": 4,
       "fireResistPer": 4,
-      "waterResistPer": 0,
-      "airResistPer": 0,
+      "waterResistPer": -2,
+      "airResistPer": -2,
       "lock": 3,
-      "dodge": 0,
-      "apResist": 0,
+      "dodge": -6,
+      "apResist": -4,
       "mpResist": 2,
       "criticalResist": 12,
-      "pushbackResist": 0
+      "pushbackResist": -24
     }
   },
-  {
+  "Mort du Centoror": {
     "level": 200,
-    "name": "Mort du Centoror",
     "panoply": "Reliques de l'Aurore Pourpre",
     "category": "Anneau",
     "stats": {
@@ -4771,19 +4418,18 @@
       "airDamage": 4,
       "waterResistPer": 4,
       "airResistPer": 4,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
+      "earthResistPer": -2,
+      "fireResistPer": -2,
       "dodge": 3,
-      "lock": 0,
+      "lock": -6,
       "apResist": 2,
-      "mpResist": 0,
-      "criticalResist": 0,
+      "mpResist": -4,
+      "criticalResist": -24,
       "pushbackResist": 12
     }
   },
-  {
+  "Anneau poli de Malter": {
     "level": 146,
-    "name": "Anneau poli de Malter",
     "panoply": "Panoplie des Malters",
     "category": "Anneau",
     "stats": {
@@ -4793,14 +4439,13 @@
       "heal": 10,
       "neutralResistPer": 7,
       "lock": 10,
-      "dodge": 0,
+      "dodge": -10,
       "apReduction": 7,
       "mpReduction": 7
     }
   },
-  {
+  "Alliance d'Hell Mina": {
     "level": 146,
-    "name": "Alliance d'Hell Mina",
     "panoply": "Panoplie d'Hell Mina",
     "category": "Anneau",
     "stats": {
@@ -4813,26 +4458,23 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Anneau Ocre": {
     "level": 40,
-    "name": "Anneau Ocre",
     "category": "Anneau",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Gelano Ankarton": {
     "level": 200,
-    "name": "Gelano Ankarton",
     "panoply": "Panoplie Ankarton",
     "category": "Anneau",
     "stats": {
       "undefined": 1000
     }
   },
-  {
+  "Triste Sceau": {
     "level": 200,
-    "name": "Triste Sceau",
     "panoply": "Malédiction de Cire Momore",
     "category": "Anneau",
     "stats": {
@@ -4849,9 +4491,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Alliance des Rebelles": {
     "level": 48,
-    "name": "Alliance des Rebelles",
     "panoply": "Panoplie des Rebelles",
     "category": "Anneau",
     "stats": {
@@ -4859,14 +4500,13 @@
       "strength": 25,
       "intelligence": 25,
       "wisdom": 15,
-      "criticalChance": 0,
+      "criticalChance": -11,
       "earthDamage": 5,
       "fireDamage": 5
     }
   },
-  {
+  "Anneau Clochecuivre": {
     "level": 194,
-    "name": "Anneau Clochecuivre",
     "panoply": "Panoplie Clochecuivre",
     "category": "Anneau",
     "stats": {
@@ -4881,28 +4521,26 @@
       "airDamage": 10,
       "heal": 10,
       "prospecting": 10,
-      "initiative": 0,
+      "initiative": -200,
       "earthResistPer": 5,
       "fireResistPer": 5,
       "pushbackDamage": 10
     }
   },
-  {
+  "Anneau de guerrier albueran": {
     "level": 52,
-    "name": "Anneau de guerrier albueran",
     "panoply": "Panoplie de guerrier albueran",
     "category": "Anneau",
     "stats": {
       "health": 30,
       "strength": 50,
       "chance": 50,
-      "lock": 0,
-      "mpReduction": 0
+      "lock": -10,
+      "mpReduction": -10
     }
   },
-  {
+  "Cruauté de Belladone": {
     "level": 200,
-    "name": "Cruauté de Belladone",
     "panoply": "Maléfices d'Ephedrya",
     "category": "Anneau",
     "stats": {
@@ -4915,14 +4553,13 @@
       "airDamage": 10,
       "initiative": 500,
       "neutralResistPer": 10,
-      "lock": 0,
-      "dodge": 0,
+      "lock": -10,
+      "dodge": -10,
       "criticalResist": 10
     }
   },
-  {
+  "Amertume de Belladone": {
     "level": 200,
-    "name": "Amertume de Belladone",
     "panoply": "Maléfices d'Ephedrya",
     "category": "Anneau",
     "stats": {
@@ -4932,14 +4569,13 @@
       "waterResistPer": 5,
       "airResistPer": 5,
       "dodge": 10,
-      "lock": 0,
+      "lock": -10,
       "apReduction": 20,
       "criticalResist": 10
     }
   },
-  {
+  "Tendresse de Belladone": {
     "level": 200,
-    "name": "Tendresse de Belladone",
     "panoply": "Maléfices d'Ephedrya",
     "category": "Anneau",
     "stats": {
@@ -4949,23 +4585,21 @@
       "earthResistPer": 5,
       "fireResistPer": 5,
       "lock": 10,
-      "dodge": 0,
+      "dodge": -10,
       "apResist": 20,
       "criticalResist": 10
     }
   },
-  {
+  "Gants Tologie": {
     "level": 150,
-    "name": "Gants Tologie",
     "panoply": "Panoplie de l'Héritage",
     "category": "Anneau",
     "stats": {
       "undefined": 23834
     }
   },
-  {
+  "Alliance du Dark Vlad": {
     "level": 200,
-    "name": "Alliance du Dark Vlad",
     "category": "Anneau",
     "stats": {
       "health": 300,
@@ -4979,4 +4613,4 @@
       "pushbackDamage": 25
     }
   }
-]
+}

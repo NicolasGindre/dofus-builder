@@ -1,166 +1,146 @@
-[
-  {
+{
+  "Volkorne Pourpre sauvage": {
     "level": 60,
-    "name": "Volkorne Pourpre sauvage",
     "category": "Certificat de Volkorne",
     "stats": {}
   },
-  {
+  "Volkorne Indigo sauvage": {
     "level": 60,
-    "name": "Volkorne Indigo sauvage",
     "category": "Certificat de Volkorne",
     "stats": {}
   },
-  {
+  "Volkorne Ebène sauvage": {
     "level": 60,
-    "name": "Volkorne Ebène sauvage",
     "category": "Certificat de Volkorne",
     "stats": {}
   },
-  {
+  "Volkorne Orchidée sauvage": {
     "level": 60,
-    "name": "Volkorne Orchidée sauvage",
     "category": "Certificat de Volkorne",
     "stats": {}
   },
-  {
+  "Volkorne Indigo": {
     "level": 60,
-    "name": "Volkorne Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "chance": 70
     }
   },
-  {
+  "Volkorne Ebène": {
     "level": 60,
-    "name": "Volkorne Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "agility": 70
     }
   },
-  {
+  "Volkorne Pourpre": {
     "level": 60,
-    "name": "Volkorne Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "strength": 70,
       "AP": 1
     }
   },
-  {
+  "Volkorne Orchidée": {
     "level": 60,
-    "name": "Volkorne Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "intelligence": 70
     }
   },
-  {
+  "Volkorne Roux": {
     "level": 60,
-    "name": "Volkorne Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "pushbackDamage": 60
     }
   },
-  {
+  "Volkorne Amande": {
     "level": 60,
-    "name": "Volkorne Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 80,
       "AP": 1
     }
   },
-  {
+  "Volkorne Ivoire": {
     "level": 60,
-    "name": "Volkorne Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "apReduction": 30
     }
   },
-  {
+  "Volkorne Turquoise": {
     "level": 60,
-    "name": "Volkorne Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "mpReduction": 30
     }
   },
-  {
+  "Volkorne Prune": {
     "level": 60,
-    "name": "Volkorne Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 50,
       "AP": 1
     }
   },
-  {
+  "Volkorne Emeraude": {
     "level": 60,
-    "name": "Volkorne Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "criticalChance": 7
     }
   },
-  {
+  "Volkorne Doré": {
     "level": 60,
-    "name": "Volkorne Doré",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "health": 150
     }
   },
-  {
+  "Volkorne Jade": {
     "level": 60,
-    "name": "Volkorne Jade",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
       "earthResistPer": 12
     }
   },
-  {
+  "Volkorne Saphir": {
     "level": 60,
-    "name": "Volkorne Saphir",
     "category": "Certificat de Volkorne",
     "stats": {
       "waterResistPer": 12,
       "AP": 1
     }
   },
-  {
+  "Volkorne Rubis": {
     "level": 60,
-    "name": "Volkorne Rubis",
     "category": "Certificat de Volkorne",
     "stats": {
       "fireResistPer": 12,
       "AP": 1
     }
   },
-  {
+  "Volkorne Améthyste": {
     "level": 60,
-    "name": "Volkorne Améthyste",
     "category": "Certificat de Volkorne",
     "stats": {
       "airResistPer": 12,
       "AP": 1
     }
   },
-  {
+  "Volkorne Pourpre et Orchidée": {
     "level": 60,
-    "name": "Volkorne Pourpre et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "strength": 50,
@@ -168,9 +148,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Pourpre et Indigo": {
     "level": 60,
-    "name": "Volkorne Pourpre et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -178,9 +157,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Pourpre et Ebène": {
     "level": 60,
-    "name": "Volkorne Pourpre et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "strength": 50,
@@ -188,9 +166,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Orchidée et Indigo": {
     "level": 60,
-    "name": "Volkorne Orchidée et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -198,9 +175,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Orchidée et Ebène": {
     "level": 60,
-    "name": "Volkorne Orchidée et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "agility": 50,
@@ -208,9 +184,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Indigo et Ebène": {
     "level": 60,
-    "name": "Volkorne Indigo et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -218,9 +193,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Amande et Pourpre": {
     "level": 60,
-    "name": "Volkorne Amande et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "strength": 50,
@@ -228,9 +202,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Amande et Orchidée": {
     "level": 60,
-    "name": "Volkorne Amande et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -238,9 +211,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Amande et Indigo": {
     "level": 60,
-    "name": "Volkorne Amande et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 60,
@@ -248,9 +220,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Amande et Ebène": {
     "level": 60,
-    "name": "Volkorne Amande et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "agility": 50,
@@ -258,9 +229,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Amande et Roux": {
     "level": 60,
-    "name": "Volkorne Amande et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 60,
@@ -268,9 +238,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Volkorne Amande et Ivoire": {
     "level": 60,
-    "name": "Volkorne Amande et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 60,
@@ -278,9 +247,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Amande et Turquoise": {
     "level": 60,
-    "name": "Volkorne Amande et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "mpReduction": 20,
@@ -288,9 +256,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Roux et Pourpre": {
     "level": 60,
-    "name": "Volkorne Roux et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -298,9 +265,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Roux et Orchidée": {
     "level": 60,
-    "name": "Volkorne Roux et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -308,9 +274,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Roux et Indigo": {
     "level": 60,
-    "name": "Volkorne Roux et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -318,9 +283,8 @@
       "chance": 50
     }
   },
-  {
+  "Volkorne Roux et Ebène": {
     "level": 60,
-    "name": "Volkorne Roux et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -328,9 +292,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Roux et Ivoire": {
     "level": 60,
-    "name": "Volkorne Roux et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -338,9 +301,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Roux et Turquoise": {
     "level": 60,
-    "name": "Volkorne Roux et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -348,9 +310,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Volkorne Ivoire et Pourpre": {
     "level": 60,
-    "name": "Volkorne Ivoire et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "apReduction": 20,
@@ -358,9 +319,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Ivoire et Orchidée": {
     "level": 60,
-    "name": "Volkorne Ivoire et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "apReduction": 20,
@@ -368,9 +328,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Ivoire et Indigo": {
     "level": 60,
-    "name": "Volkorne Ivoire et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "apReduction": 20,
@@ -378,9 +337,8 @@
       "chance": 50
     }
   },
-  {
+  "Volkorne Ivoire et Ebène": {
     "level": 60,
-    "name": "Volkorne Ivoire et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -388,9 +346,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Ivoire et Turquoise": {
     "level": 60,
-    "name": "Volkorne Ivoire et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "mpReduction": 20,
@@ -398,9 +355,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Turquoise et Pourpre": {
     "level": 60,
-    "name": "Volkorne Turquoise et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "mpReduction": 20,
@@ -408,9 +364,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Turquoise et Orchidée": {
     "level": 60,
-    "name": "Volkorne Turquoise et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -418,9 +373,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Turquoise et Indigo": {
     "level": 60,
-    "name": "Volkorne Turquoise et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "chance": 50,
@@ -428,9 +382,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Turquoise et Ebène": {
     "level": 60,
-    "name": "Volkorne Turquoise et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -438,9 +391,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Prune et Orchidée": {
     "level": 60,
-    "name": "Volkorne Prune et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -448,9 +400,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Prune et Indigo": {
     "level": 60,
-    "name": "Volkorne Prune et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -458,9 +409,8 @@
       "criticalResist": 35
     }
   },
-  {
+  "Volkorne Prune et Ebène": {
     "level": 60,
-    "name": "Volkorne Prune et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -468,9 +418,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Prune et Amande": {
     "level": 60,
-    "name": "Volkorne Prune et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -478,9 +427,8 @@
       "criticalResist": 35
     }
   },
-  {
+  "Volkorne Prune et Roux": {
     "level": 60,
-    "name": "Volkorne Prune et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -488,9 +436,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Prune et Ivoire": {
     "level": 60,
-    "name": "Volkorne Prune et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -498,9 +445,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Prune et Turquoise": {
     "level": 60,
-    "name": "Volkorne Prune et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -508,9 +454,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Prune et Emeraude": {
     "level": 60,
-    "name": "Volkorne Prune et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -518,9 +463,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Volkorne Prune et Pourpre": {
     "level": 60,
-    "name": "Volkorne Prune et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -528,9 +472,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Emeraude et Pourpre": {
     "level": 60,
-    "name": "Volkorne Emeraude et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -538,9 +481,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Emeraude et Orchidée": {
     "level": 60,
-    "name": "Volkorne Emeraude et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -548,9 +490,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Emeraude et Indigo": {
     "level": 60,
-    "name": "Volkorne Emeraude et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -558,9 +499,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Volkorne Emeraude et Ebène": {
     "level": 60,
-    "name": "Volkorne Emeraude et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -568,9 +508,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Emeraude et Amande": {
     "level": 60,
-    "name": "Volkorne Emeraude et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 60,
@@ -578,9 +517,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Emeraude et Roux": {
     "level": 60,
-    "name": "Volkorne Emeraude et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalChance": 5,
@@ -588,9 +526,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Emeraude et Ivoire": {
     "level": 60,
-    "name": "Volkorne Emeraude et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "apReduction": 20,
@@ -598,9 +535,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Emeraude et Turquoise": {
     "level": 60,
-    "name": "Volkorne Emeraude et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "mpReduction": 20,
@@ -608,9 +544,8 @@
       "criticalChance": 5
     }
   },
-  {
+  "Volkorne Doré et Pourpre": {
     "level": 60,
-    "name": "Volkorne Doré et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -618,9 +553,8 @@
       "strength": 50
     }
   },
-  {
+  "Volkorne Doré et Orchidée": {
     "level": 60,
-    "name": "Volkorne Doré et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -628,9 +562,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Doré et Indigo": {
     "level": 60,
-    "name": "Volkorne Doré et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -638,9 +571,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Doré et Ebène": {
     "level": 60,
-    "name": "Volkorne Doré et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -648,9 +580,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Pourpre": {
     "level": 60,
-    "name": "Volkorne Jade et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "earthResistPer": 6,
@@ -658,9 +589,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Orchidée": {
     "level": 60,
-    "name": "Volkorne Jade et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "intelligence": 50,
@@ -668,9 +598,8 @@
       "earthResistPer": 6
     }
   },
-  {
+  "Volkorne Jade et Indigo": {
     "level": 60,
-    "name": "Volkorne Jade et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "chance": 50,
@@ -678,9 +607,8 @@
       "earthResistPer": 6
     }
   },
-  {
+  "Volkorne Jade et Ebène": {
     "level": 60,
-    "name": "Volkorne Jade et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "earthResistPer": 6,
@@ -688,9 +616,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Amande": {
     "level": 60,
-    "name": "Volkorne Jade et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "earthResistPer": 6,
@@ -698,9 +625,8 @@
       "pushbackResist": 60
     }
   },
-  {
+  "Volkorne Jade et Roux": {
     "level": 60,
-    "name": "Volkorne Jade et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -708,9 +634,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Volkorne Jade et Ivoire": {
     "level": 60,
-    "name": "Volkorne Jade et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "apReduction": 20,
@@ -718,9 +643,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Turquoise": {
     "level": 60,
-    "name": "Volkorne Jade et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "earthResistPer": 6,
@@ -728,9 +652,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Prune": {
     "level": 60,
-    "name": "Volkorne Jade et Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -738,9 +661,8 @@
       "criticalResist": 35
     }
   },
-  {
+  "Volkorne Jade et Emeraude": {
     "level": 60,
-    "name": "Volkorne Jade et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalChance": 5,
@@ -748,9 +670,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Doré": {
     "level": 60,
-    "name": "Volkorne Jade et Doré",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -758,9 +679,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Jade et Rubis": {
     "level": 60,
-    "name": "Volkorne Jade et Rubis",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -768,9 +688,8 @@
       "earthResistPer": 6
     }
   },
-  {
+  "Volkorne Jade et Saphir": {
     "level": 60,
-    "name": "Volkorne Jade et Saphir",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -778,9 +697,8 @@
       "earthResistPer": 6
     }
   },
-  {
+  "Volkorne Jade et Améthyste": {
     "level": 60,
-    "name": "Volkorne Jade et Améthyste",
     "category": "Certificat de Volkorne",
     "stats": {
       "airResistPer": 6,
@@ -788,9 +706,8 @@
       "earthResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Pourpre": {
     "level": 60,
-    "name": "Volkorne Rubis et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -798,9 +715,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Orchidée": {
     "level": 60,
-    "name": "Volkorne Rubis et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "fireResistPer": 6,
@@ -808,9 +724,8 @@
       "intelligence": 50
     }
   },
-  {
+  "Volkorne Rubis et Indigo": {
     "level": 60,
-    "name": "Volkorne Rubis et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -818,9 +733,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Ebène": {
     "level": 60,
-    "name": "Volkorne Rubis et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "agility": 50,
@@ -828,9 +742,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Amande": {
     "level": 60,
-    "name": "Volkorne Rubis et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -838,9 +751,8 @@
       "pushbackResist": 60
     }
   },
-  {
+  "Volkorne Rubis et Roux": {
     "level": 60,
-    "name": "Volkorne Rubis et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -848,9 +760,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Rubis et Ivoire": {
     "level": 60,
-    "name": "Volkorne Rubis et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -858,9 +769,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Rubis et Turquoise": {
     "level": 60,
-    "name": "Volkorne Rubis et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "fireResistPer": 6,
@@ -868,9 +778,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Rubis et Prune": {
     "level": 60,
-    "name": "Volkorne Rubis et Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -878,9 +787,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Emeraude": {
     "level": 60,
-    "name": "Volkorne Rubis et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -888,9 +796,8 @@
       "fireResistPer": 6
     }
   },
-  {
+  "Volkorne Rubis et Doré": {
     "level": 60,
-    "name": "Volkorne Rubis et Doré",
     "category": "Certificat de Volkorne",
     "stats": {
       "fireResistPer": 6,
@@ -898,9 +805,8 @@
       "health": 100
     }
   },
-  {
+  "Volkorne Rubis et Saphir": {
     "level": 60,
-    "name": "Volkorne Rubis et Saphir",
     "category": "Certificat de Volkorne",
     "stats": {
       "waterResistPer": 6,
@@ -908,9 +814,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Rubis et Améthyste": {
     "level": 60,
-    "name": "Volkorne Rubis et Améthyste",
     "category": "Certificat de Volkorne",
     "stats": {
       "fireResistPer": 6,
@@ -918,9 +823,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Saphir et Pourpre": {
     "level": 60,
-    "name": "Volkorne Saphir et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "waterResistPer": 6,
@@ -928,9 +832,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Orchidée": {
     "level": 60,
-    "name": "Volkorne Saphir et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "intelligence": 50,
@@ -938,9 +841,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Indigo": {
     "level": 60,
-    "name": "Volkorne Saphir et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "chance": 50,
@@ -948,9 +850,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Ebène": {
     "level": 60,
-    "name": "Volkorne Saphir et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -958,9 +859,8 @@
       "agility": 50
     }
   },
-  {
+  "Volkorne Saphir et Amande": {
     "level": 60,
-    "name": "Volkorne Saphir et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackResist": 60,
@@ -968,9 +868,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Roux": {
     "level": 60,
-    "name": "Volkorne Saphir et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "pushbackDamage": 40,
@@ -978,9 +877,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Ivoire": {
     "level": 60,
-    "name": "Volkorne Saphir et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -988,9 +886,8 @@
       "apReduction": 20
     }
   },
-  {
+  "Volkorne Saphir et Turquoise": {
     "level": 60,
-    "name": "Volkorne Saphir et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "waterResistPer": 6,
@@ -998,9 +895,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Saphir et Prune": {
     "level": 60,
-    "name": "Volkorne Saphir et Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -1008,9 +904,8 @@
       "waterResistPer": 6
     }
   },
-  {
+  "Volkorne Saphir et Emeraude": {
     "level": 60,
-    "name": "Volkorne Saphir et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalChance": 5,
@@ -1018,9 +913,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Saphir et Doré": {
     "level": 60,
-    "name": "Volkorne Saphir et Doré",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1028,9 +922,8 @@
       "waterResistPer": 6
     }
   },
-  {
+  "Volkorne Saphir et Améthyste": {
     "level": 60,
-    "name": "Volkorne Saphir et Améthyste",
     "category": "Certificat de Volkorne",
     "stats": {
       "airResistPer": 6,
@@ -1038,9 +931,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Améthyste et Pourpre": {
     "level": 60,
-    "name": "Volkorne Améthyste et Pourpre",
     "category": "Certificat de Volkorne",
     "stats": {
       "airResistPer": 6,
@@ -1048,9 +940,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Améthyste et Orchidée": {
     "level": 60,
-    "name": "Volkorne Améthyste et Orchidée",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1058,9 +949,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Indigo": {
     "level": 60,
-    "name": "Volkorne Améthyste et Indigo",
     "category": "Certificat de Volkorne",
     "stats": {
       "chance": 50,
@@ -1068,9 +958,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Ebène": {
     "level": 60,
-    "name": "Volkorne Améthyste et Ebène",
     "category": "Certificat de Volkorne",
     "stats": {
       "agility": 50,
@@ -1078,9 +967,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Améthyste et Amande": {
     "level": 60,
-    "name": "Volkorne Améthyste et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1088,9 +976,8 @@
       "pushbackResist": 60
     }
   },
-  {
+  "Volkorne Améthyste et Roux": {
     "level": 60,
-    "name": "Volkorne Améthyste et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1098,9 +985,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Volkorne Améthyste et Ivoire": {
     "level": 60,
-    "name": "Volkorne Améthyste et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1108,9 +994,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Turquoise": {
     "level": 60,
-    "name": "Volkorne Améthyste et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1118,9 +1003,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Prune": {
     "level": 60,
-    "name": "Volkorne Améthyste et Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -1128,9 +1012,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Emeraude": {
     "level": 60,
-    "name": "Volkorne Améthyste et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1138,9 +1021,8 @@
       "airResistPer": 6
     }
   },
-  {
+  "Volkorne Améthyste et Doré": {
     "level": 60,
-    "name": "Volkorne Améthyste et Doré",
     "category": "Certificat de Volkorne",
     "stats": {
       "airResistPer": 6,
@@ -1148,9 +1030,8 @@
       "health": 100
     }
   },
-  {
+  "Volkorne Doré et Roux": {
     "level": 60,
-    "name": "Volkorne Doré et Roux",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1158,9 +1039,8 @@
       "health": 100
     }
   },
-  {
+  "Volkorne Doré et Amande": {
     "level": 60,
-    "name": "Volkorne Doré et Amande",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1168,9 +1048,8 @@
       "pushbackResist": 60
     }
   },
-  {
+  "Volkorne Doré et Ivoire": {
     "level": 60,
-    "name": "Volkorne Doré et Ivoire",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -1178,9 +1057,8 @@
       "AP": 1
     }
   },
-  {
+  "Volkorne Doré et Turquoise": {
     "level": 60,
-    "name": "Volkorne Doré et Turquoise",
     "category": "Certificat de Volkorne",
     "stats": {
       "AP": 1,
@@ -1188,9 +1066,8 @@
       "mpReduction": 20
     }
   },
-  {
+  "Volkorne Doré et Prune": {
     "level": 60,
-    "name": "Volkorne Doré et Prune",
     "category": "Certificat de Volkorne",
     "stats": {
       "criticalResist": 35,
@@ -1198,9 +1075,8 @@
       "health": 100
     }
   },
-  {
+  "Volkorne Doré et Emeraude": {
     "level": 60,
-    "name": "Volkorne Doré et Emeraude",
     "category": "Certificat de Volkorne",
     "stats": {
       "health": 100,
@@ -1208,4 +1084,4 @@
       "AP": 1
     }
   }
-]
+}

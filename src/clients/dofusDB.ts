@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { type Item, type ItemCategory } from "../types/item"
+import { type Item, type ItemStats, type ItemCategory, type Panoplies } from "../types/item"
 import { type StatKey } from "../types/character"
 
 const dofusDBUrl: string = "https://api.dofusdb.fr";
@@ -10,35 +10,39 @@ const StatSchema = z.object({
     characteristic: z.number(),
     effectId: z.number()
 })
+type StatResp = z.infer<typeof StatSchema>
+
 const ItemRespSchema = z.object({
-    total: z.number(),
-    data: z.array(z.object({
-        level: z.number().int(),
-        name: z.object({
-            fr: z.string(),
-        }),
-        itemSet: z.union([
-            z.object({ // panoply
-                name: z.object({
-                    fr: z.string(),
-                }),
-            }),
-            z.any().transform(() => undefined)
-        ]).optional(),
-        type: z.object({ // category
+    level: z.number().int(),
+    name: z.object({
+        fr: z.string(),
+    }),
+    itemSet: z.union([
+        z.object({ // panoply
             name: z.object({
                 fr: z.string(),
             }),
         }),
-        effects: z.array(StatSchema), // stats
-    }))
+        z.any().transform(() => undefined)
+    ]).optional(),
+    type: z.object({ // category
+        name: z.object({
+            fr: z.string(),
+        }),
+    }),
+    effects: z.array(StatSchema), // stats
+})
+const ItemsRespSchema = z.object({
+    total: z.number(),
+    data: z.array(ItemRespSchema)
 })
 
-type ItemsResp = z.infer<typeof ItemRespSchema>
+type ItemsResp = z.infer<typeof ItemsRespSchema>
+type ItemResp = z.infer<typeof ItemRespSchema>
 
-export async function downloadItems(category: ItemCategory): Promise<Item[]> {
+export async function downloadItems(category: ItemCategory): Promise<Record<string, Item>> {
 
-    let items: Item[] = []
+    let items: Record<string, Item> = {}
     const url = new URL(`${dofusDBUrl}/items`);
 
     for (const categoryId of CATEGORY_ID_DOFUSDB[category]) {
@@ -55,19 +59,17 @@ export async function downloadItems(category: ItemCategory): Promise<Item[]> {
         const resp = await fetch(url)
 
         if (!resp.ok) {
-            if (resp.status == 404) {
-                return items
-            }
             const jsonErr = await resp.json() as { message: string }
-
             throw new Error(
                 `Fetch dofusDB items: ${resp.status} ${resp.statusText}: ${jsonErr.message}`
             )
         }
         const json = await resp.json()
-        const itemsResp: ItemsResp = ItemRespSchema.parse(json)
+        const itemsResp: ItemsResp = ItemsRespSchema.parse(json)
 
-        items = items.concat(translateItems(itemsResp))
+        for (const dofusDbItem of itemsResp.data) {
+            items[dofusDbItem.name.fr] = translateItems(dofusDbItem)
+        }
 
         totalItems = itemsResp.total
         itemIndex += 50
@@ -76,25 +78,93 @@ export async function downloadItems(category: ItemCategory): Promise<Item[]> {
     return items
 }
 
-export function translateItems(itemsResp: ItemsResp): Item[] {
+export function translateItems(dofusDbItem: ItemResp): Item {
 
-    let items: Item[] = []
-
-    for (const dofusDbItem of itemsResp.data) {
-        let item: Item = {
-            level: dofusDbItem.level,
-            name: dofusDbItem.name.fr,
-            panoply: dofusDbItem.itemSet?.name.fr,
-            category: dofusDbItem.type.name.fr as ItemCategory,
-            stats: {}
-        }
-        for (const dofusDbStat of dofusDbItem.effects) {
-            const statKey: StatKey = STAT_ID_DOFUSDB[dofusDbStat.characteristic]!
-            item.stats[statKey] = dofusDbStat.to > dofusDbStat.from ? dofusDbStat.to: dofusDbStat.from
-        }
-        items.push(item)
+    let item: Item = {
+        level: dofusDbItem.level,
+        // name: dofusDbItem.name.fr,
+        panoply: dofusDbItem.itemSet?.name.fr,
+        category: dofusDbItem.type.name.fr as ItemCategory,
+        stats: {}
     }
-    return items
+    for (const dofusDbStat of dofusDbItem.effects) {
+        const statKey: StatKey = STAT_ID_DOFUSDB[dofusDbStat.characteristic]!
+        item.stats[statKey] = translateStat(dofusDbStat)
+    }
+    return item
+}
+export function translateStat(dofusDbStat: StatResp): number {
+    if (dofusDbStat.to == 0) {
+        return dofusDbStat.from
+    }
+    if (dofusDbStat.from == 0) {
+        return dofusDbStat.to
+    }
+    return dofusDbStat.to > dofusDbStat.from ? dofusDbStat.to: dofusDbStat.from
+}
+
+const PanoplyRespSchema = z.object({
+    name: z.object({
+        fr: z.string(),
+    }),
+    effects: z.array(z.array(StatSchema)), // stats
+})
+const PanopliesRespSchema = z.object({
+    total: z.number(),
+    data: z.array(PanoplyRespSchema)
+})
+type PanopliesResp = z.infer<typeof PanopliesRespSchema>
+type PanoplyResp = z.infer<typeof PanoplyRespSchema>
+
+export async function downloadPanopliesStats(): Promise<Panoplies> {
+
+    let panoplies: Panoplies = {}
+    const url = new URL(`${dofusDBUrl}/item-sets`);
+
+    url.searchParams.set("isCosmetic", "false")
+    url.searchParams.set("$limit", "50")
+
+    let totalItems = 10000
+    let itemIndex = 0
+
+    while (itemIndex < totalItems) {
+        url.searchParams.set("$skip", itemIndex.toString())
+
+        const resp = await fetch(url)
+
+        if (!resp.ok) {
+            const jsonErr = await resp.json() as { message: string }
+            throw new Error(
+                `Fetch dofusDB items: ${resp.status} ${resp.statusText}: ${jsonErr.message}`
+            )
+        }
+        const json = await resp.json()
+        const panopliesResp: PanopliesResp = PanopliesRespSchema.parse(json)
+
+        for (const panoplyResp of panopliesResp.data) {
+            panoplies[panoplyResp.name.fr] = {
+                items: [],
+                stats: translatePanoplyStats(panoplyResp),
+            }
+        }
+        totalItems = panopliesResp.total
+        itemIndex += 50
+    }
+    return panoplies
+}
+
+function translatePanoplyStats(panoplyResp: PanoplyResp): ItemStats[] {
+    let panoplyStats: ItemStats[] = []
+    for (const panoplyRespStats of panoplyResp.effects) {
+
+        let panoplyIndexStats: ItemStats = {}
+        for (const panoplyRespStat of panoplyRespStats) {
+            const statKey: StatKey = STAT_ID_DOFUSDB[panoplyRespStat.characteristic]!
+            panoplyIndexStats[statKey] = translateStat(panoplyRespStat)
+        }
+        panoplyStats.push(panoplyIndexStats)
+    }
+    return panoplyStats
 }
 
 export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {

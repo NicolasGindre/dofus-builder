@@ -1,61 +1,55 @@
-[
-  {
+{
+  "Bottes de Bowisse": {
     "level": 50,
-    "name": "Bottes de Bowisse",
     "panoply": "Panoplie de Bowisse",
     "category": "Bottes",
     "stats": {
       "chance": 20,
       "MP": 1,
       "prospecting": 3,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "L'Ecrabouilleur de Iop": {
     "level": 27,
-    "name": "L'Ecrabouilleur de Iop",
     "category": "Bottes",
     "stats": {
       "strength": 25,
-      "intelligence": 0,
-      "chance": 0,
+      "intelligence": -10,
+      "chance": -10,
       "agility": 25,
       "earthDamage": 2,
       "airDamage": 2
     }
   },
-  {
+  "Sandales Tofuesques": {
     "level": 3,
-    "name": "Sandales Tofuesques",
     "category": "Bottes",
     "stats": {
       "chance": 5,
       "dodge": 1
     }
   },
-  {
+  "Bottes de Faillete": {
     "level": 24,
-    "name": "Bottes de Faillete",
     "category": "Bottes",
     "stats": {
       "criticalChance": 6,
       "criticalDamage": 2
     }
   },
-  {
+  "Bottes de Céleri-Thé": {
     "level": 53,
-    "name": "Bottes de Céleri-Thé",
     "category": "Bottes",
     "stats": {
-      "strength": 0,
+      "strength": -20,
       "chance": 20,
       "MP": 1,
       "prospecting": 5
     }
   },
-  {
+  "Bottes de Ragalde": {
     "level": 49,
-    "name": "Bottes de Ragalde",
     "category": "Bottes",
     "stats": {
       "health": 30,
@@ -66,68 +60,60 @@
       "prospecting": 5
     }
   },
-  {
+  "Einekeineux": {
     "level": 5,
-    "name": "Einekeineux",
     "category": "Bottes",
     "stats": {
       "chance": 7
     }
   },
-  {
+  "Bottes du Chat Buté": {
     "level": 4,
-    "name": "Bottes du Chat Buté",
     "category": "Bottes",
     "stats": {
       "chance": 7
     }
   },
-  {
+  "Bottes de Kluh": {
     "level": 7,
-    "name": "Bottes de Kluh",
     "category": "Bottes",
     "stats": {
       "strength": 10,
       "earthDamage": 1
     }
   },
-  {
+  "Bottes de Force": {
     "level": 1,
-    "name": "Bottes de Force",
     "category": "Bottes",
     "stats": {
       "strength": 6
     }
   },
-  {
+  "Sandales d'Intelligence": {
     "level": 6,
-    "name": "Sandales d'Intelligence",
     "category": "Bottes",
     "stats": {
       "intelligence": 10,
       "fireDamage": 1
     }
   },
-  {
+  "Bottes Agilesques": {
     "level": 6,
-    "name": "Bottes Agilesques",
     "category": "Bottes",
     "stats": {
       "agility": 10
     }
   },
-  {
+  "Bottes de Chance": {
     "level": 7,
-    "name": "Bottes de Chance",
     "category": "Bottes",
     "stats": {
       "chance": 10,
       "waterDamage": 1
     }
   },
-  {
+  "Bottes de Concentration": {
     "level": 27,
-    "name": "Bottes de Concentration",
     "category": "Bottes",
     "stats": {
       "health": 30,
@@ -135,17 +121,15 @@
       "criticalChance": 2
     }
   },
-  {
+  "Bottes du Bouftou": {
     "level": 4,
-    "name": "Bottes du Bouftou",
     "category": "Bottes",
     "stats": {
       "agility": 7
     }
   },
-  {
+  "Bottes de Klime": {
     "level": 41,
-    "name": "Bottes de Klime",
     "category": "Bottes",
     "stats": {
       "health": 25,
@@ -153,20 +137,18 @@
       "agility": 25
     }
   },
-  {
+  "Bottes de Poursuite": {
     "level": 39,
-    "name": "Bottes de Poursuite",
     "category": "Bottes",
     "stats": {
       "chance": 20,
       "MP": 1,
-      "range": 0,
-      "lock": 0
+      "range": -1,
+      "lock": -10
     }
   },
-  {
+  "Bottes d'Hogmeiser": {
     "level": 75,
-    "name": "Bottes d'Hogmeiser",
     "category": "Bottes",
     "stats": {
       "health": 40,
@@ -177,18 +159,16 @@
       "damage": 3
     }
   },
-  {
+  "Bottes Usées d'Hogmeiser": {
     "level": 1,
-    "name": "Bottes Usées d'Hogmeiser",
     "category": "Bottes",
     "stats": {
-      "AP": 0,
-      "MP": 0
+      "AP": -1,
+      "MP": -1
     }
   },
-  {
+  "Bottes Dorées d'Hogmeiser": {
     "level": 95,
-    "name": "Bottes Dorées d'Hogmeiser",
     "category": "Bottes",
     "stats": {
       "health": 70,
@@ -201,9 +181,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Puissantes Bottes de Klime": {
     "level": 12,
-    "name": "Puissantes Bottes de Klime",
     "category": "Bottes",
     "stats": {
       "health": 25,
@@ -211,20 +190,18 @@
       "agility": 25
     }
   },
-  {
+  "Bottes de Maîtrise": {
     "level": 22,
-    "name": "Bottes de Maîtrise",
     "category": "Bottes",
     "stats": {
-      "strength": 0,
+      "strength": -10,
       "intelligence": 25,
-      "chance": 0,
+      "chance": -10,
       "agility": 25
     }
   },
-  {
+  "Bottes de Puissance": {
     "level": 16,
-    "name": "Bottes de Puissance",
     "category": "Bottes",
     "stats": {
       "strength": 25,
@@ -232,29 +209,26 @@
       "power": 5
     }
   },
-  {
+  "Bottes d'Anticipation": {
     "level": 22,
-    "name": "Bottes d'Anticipation",
     "category": "Bottes",
     "stats": {
       "strength": 25,
-      "intelligence": 0,
-      "chance": 0,
+      "intelligence": -10,
+      "chance": -10,
       "agility": 25
     }
   },
-  {
+  "Bottes de Nexus": {
     "level": 8,
-    "name": "Bottes de Nexus",
     "category": "Bottes",
     "stats": {
       "health": 15,
       "lock": 3
     }
   },
-  {
+  "Bottes d'Apprentissage": {
     "level": 50,
-    "name": "Bottes d'Apprentissage",
     "category": "Bottes",
     "stats": {
       "health": 40,
@@ -264,23 +238,21 @@
       "heal": 5
     }
   },
-  {
+  "Bottes de l'Apprenti Invocateur": {
     "level": 51,
-    "name": "Bottes de l'Apprenti Invocateur",
     "category": "Bottes",
     "stats": {
       "health": 60,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -20,
+      "intelligence": -20,
+      "chance": -20,
+      "agility": -20,
       "MP": 1,
       "summon": 1
     }
   },
-  {
+  "Esprit de Crocoburio": {
     "level": 42,
-    "name": "Esprit de Crocoburio",
     "panoply": "Âme de Crocoburio",
     "category": "Bottes",
     "stats": {
@@ -289,64 +261,59 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Bottes Volatiles": {
     "level": 41,
-    "name": "Bottes Volatiles",
     "category": "Bottes",
     "stats": {
       "strength": 40,
       "agility": 40,
-      "range": 0,
+      "range": -3,
       "earthResistPer": 4,
       "airResistPer": 4,
       "dodge": 7
     }
   },
-  {
+  "Bottes de Lymphe a Tik": {
     "level": 39,
-    "name": "Bottes de Lymphe a Tik",
     "category": "Bottes",
     "stats": {
       "health": 20,
-      "intelligence": 0,
+      "intelligence": -40,
       "chance": 40,
       "summon": 1,
       "initiative": 50,
       "waterResistPer": 5,
-      "fireResistPer": 0
+      "fireResistPer": -5
     }
   },
-  {
+  "Moon Boutse": {
     "level": 62,
-    "name": "Moon Boutse",
     "category": "Bottes",
     "stats": {
       "health": 80,
-      "intelligence": 0,
+      "intelligence": -20,
       "agility": 50,
       "wisdom": 30,
       "airResistPer": 5
     }
   },
-  {
+  "Bottes Tarsy": {
     "level": 38,
-    "name": "Bottes Tarsy",
     "category": "Bottes",
     "stats": {
       "health": 35,
-      "intelligence": 0,
+      "intelligence": -20,
       "chance": 40,
-      "agility": 0,
+      "agility": -20,
       "wisdom": 15,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 3,
       "waterDamage": 3,
       "waterResistPer": 5
     }
   },
-  {
+  "Bottes Orino": {
     "level": 72,
-    "name": "Bottes Orino",
     "category": "Bottes",
     "stats": {
       "health": 40,
@@ -357,9 +324,8 @@
       "earthResistPer": 2
     }
   },
-  {
+  "Bottes Animales": {
     "level": 94,
-    "name": "Bottes Animales",
     "category": "Bottes",
     "stats": {
       "health": 70,
@@ -369,9 +335,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Bottes Animales Sombres": {
     "level": 122,
-    "name": "Bottes Animales Sombres",
     "category": "Bottes",
     "stats": {
       "health": 50,
@@ -385,9 +350,8 @@
       "airResist": 15
     }
   },
-  {
+  "Kwakobottes de Flammes": {
     "level": 40,
-    "name": "Kwakobottes de Flammes",
     "panoply": "Panoplie du Kwak de Flammes",
     "category": "Bottes",
     "stats": {
@@ -397,9 +361,8 @@
       "fireResistPer": 4
     }
   },
-  {
+  "Boufbottes": {
     "level": 20,
-    "name": "Boufbottes",
     "panoply": "Panoplie du Bouftou",
     "category": "Bottes",
     "stats": {
@@ -407,9 +370,8 @@
       "power": 15
     }
   },
-  {
+  "Abrabottes": {
     "level": 45,
-    "name": "Abrabottes",
     "panoply": "Panoplie de l'Abraknyde",
     "category": "Bottes",
     "stats": {
@@ -421,23 +383,21 @@
       "lock": 5
     }
   },
-  {
+  "L'Eni Kère": {
     "level": 44,
-    "name": "L'Eni Kère",
     "category": "Bottes",
     "stats": {
       "health": 60,
-      "strength": 0,
-      "chance": 0,
+      "strength": -30,
+      "chance": -30,
       "agility": 40,
       "summon": 1,
       "heal": 10,
       "prospecting": 6
     }
   },
-  {
+  "Boufbottes Royales": {
     "level": 30,
-    "name": "Boufbottes Royales",
     "panoply": "Panoplie du Bouftou Royal",
     "category": "Bottes",
     "stats": {
@@ -446,9 +406,8 @@
       "dodge": 3
     }
   },
-  {
+  "Gelobottes": {
     "level": 60,
-    "name": "Gelobottes",
     "panoply": "Panoplie Gelax",
     "category": "Bottes",
     "stats": {
@@ -456,9 +415,8 @@
       "prospecting": 15
     }
   },
-  {
+  "Bottes de l'Aventurier": {
     "level": 7,
-    "name": "Bottes de l'Aventurier",
     "panoply": "Panoplie du Jeune Aventurier",
     "category": "Bottes",
     "stats": {
@@ -468,9 +426,8 @@
       "agility": 5
     }
   },
-  {
+  "Mégabottes": {
     "level": 43,
-    "name": "Mégabottes",
     "panoply": "Méganoplie",
     "category": "Bottes",
     "stats": {
@@ -480,9 +437,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Bottes Vioutifoule": {
     "level": 43,
-    "name": "Bottes Vioutifoule",
     "panoply": "Panoplie Vioutifoule",
     "category": "Bottes",
     "stats": {
@@ -493,9 +449,8 @@
       "fireResistPer": 4
     }
   },
-  {
+  "Carabottes": {
     "level": 60,
-    "name": "Carabottes",
     "panoply": "Panoplie Tortue",
     "category": "Bottes",
     "stats": {
@@ -506,9 +461,8 @@
       "prospecting": 7
     }
   },
-  {
+  "Corbottes": {
     "level": 104,
-    "name": "Corbottes",
     "panoply": "Panoplie du Corbac",
     "category": "Bottes",
     "stats": {
@@ -523,9 +477,8 @@
       "pushbackDamage": 8
     }
   },
-  {
+  "Bottes de Satisfaction": {
     "level": 12,
-    "name": "Bottes de Satisfaction",
     "category": "Bottes",
     "stats": {
       "strength": -21,
@@ -535,9 +488,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes de l'Eleveur de Bouftous": {
     "level": 64,
-    "name": "Bottes de l'Eleveur de Bouftous",
     "category": "Bottes",
     "stats": {
       "health": 20,
@@ -546,9 +498,8 @@
       "summon": 1
     }
   },
-  {
+  "Souliers Vernis de Porkass": {
     "level": 30,
-    "name": "Souliers Vernis de Porkass",
     "category": "Bottes",
     "stats": {
       "health": 30,
@@ -559,9 +510,8 @@
       "dodge": 2
     }
   },
-  {
+  "Tongues Wabbits": {
     "level": 60,
-    "name": "Tongues Wabbits",
     "panoply": "Panoplie de la Cawotte",
     "category": "Bottes",
     "stats": {
@@ -572,9 +522,8 @@
       "dodge": 8
     }
   },
-  {
+  "Bottes du Gardien des Égouts": {
     "level": 83,
-    "name": "Bottes du Gardien des Égouts",
     "category": "Bottes",
     "stats": {
       "health": 50,
@@ -585,9 +534,8 @@
       "prospecting": 7
     }
   },
-  {
+  "Bottes de l'Homme Ours": {
     "level": 20,
-    "name": "Bottes de l'Homme Ours",
     "panoply": "Panoplie de l'Homme Ours",
     "category": "Bottes",
     "stats": {
@@ -595,9 +543,8 @@
       "criticalChance": 4
     }
   },
-  {
+  "Fourbabottes": {
     "level": 104,
-    "name": "Fourbabottes",
     "panoply": "Panoplie du Chasseur Embusqué",
     "category": "Bottes",
     "stats": {
@@ -611,9 +558,8 @@
       "waterResistPer": 7
     }
   },
-  {
+  "Kwakobottes de Glace": {
     "level": 40,
-    "name": "Kwakobottes de Glace",
     "panoply": "Panoplie du Kwak de Glace",
     "category": "Bottes",
     "stats": {
@@ -623,9 +569,8 @@
       "waterResistPer": 4
     }
   },
-  {
+  "Kwakobottes de Terre": {
     "level": 40,
-    "name": "Kwakobottes de Terre",
     "panoply": "Panoplie du Kwak de Terre",
     "category": "Bottes",
     "stats": {
@@ -635,9 +580,8 @@
       "earthResistPer": 4
     }
   },
-  {
+  "Kwakobottes de Vent": {
     "level": 40,
-    "name": "Kwakobottes de Vent",
     "panoply": "Panoplie du Kwak de Vent",
     "category": "Bottes",
     "stats": {
@@ -647,9 +591,8 @@
       "airResistPer": 4
     }
   },
-  {
+  "Sabots de Farle": {
     "level": 80,
-    "name": "Sabots de Farle",
     "panoply": "Panoplie de Farle Ingalsse",
     "category": "Bottes",
     "stats": {
@@ -661,9 +604,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Bottes Champêtres": {
     "level": 14,
-    "name": "Bottes Champêtres",
     "panoply": "Panoplie Champêtre",
     "category": "Bottes",
     "stats": {
@@ -671,9 +613,8 @@
       "power": 12
     }
   },
-  {
+  "Bottes du Chef Bwork": {
     "level": 100,
-    "name": "Bottes du Chef Bwork",
     "panoply": "Panoplie du Chef Bwork",
     "category": "Bottes",
     "stats": {
@@ -688,9 +629,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Pantoufles Crochues du Chef Crocodaille": {
     "level": 69,
-    "name": "Pantoufles Crochues du Chef Crocodaille",
     "panoply": "Panoplie du Chef Crocodaille",
     "category": "Bottes",
     "stats": {
@@ -700,24 +640,22 @@
       "airResistPer": 3
     }
   },
-  {
+  "Pieds du Sanglier": {
     "level": 22,
-    "name": "Pieds du Sanglier",
     "panoply": "Panoplie du Sanglier",
     "category": "Bottes",
     "stats": {
       "health": 15,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -10,
+      "intelligence": -10,
+      "chance": -10,
+      "agility": -10,
       "criticalChance": 4,
       "summon": 1
     }
   },
-  {
+  "Bottes du Craqueleur": {
     "level": 59,
-    "name": "Bottes du Craqueleur",
     "panoply": "Panoplie du Craqueleur",
     "category": "Bottes",
     "stats": {
@@ -726,12 +664,11 @@
       "chance": 10,
       "MP": 1,
       "earthResistPer": 3,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "Bottines du Mulou": {
     "level": 61,
-    "name": "Bottines du Mulou",
     "panoply": "Panoplie du Mulou",
     "category": "Bottes",
     "stats": {
@@ -741,9 +678,8 @@
       "earthResistPer": 2
     }
   },
-  {
+  "Tongues Baques": {
     "level": 63,
-    "name": "Tongues Baques",
     "category": "Bottes",
     "stats": {
       "health": 60,
@@ -754,9 +690,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Larvabottes": {
     "level": 33,
-    "name": "Larvabottes",
     "panoply": "Panoplie Larvesque",
     "category": "Bottes",
     "stats": {
@@ -766,9 +701,8 @@
       "heal": 5
     }
   },
-  {
+  "Sandales Macien": {
     "level": 30,
-    "name": "Sandales Macien",
     "category": "Bottes",
     "stats": {
       "health": 30,
@@ -777,9 +711,8 @@
       "lock": 3
     }
   },
-  {
+  "Sandales Humeuses": {
     "level": 116,
-    "name": "Sandales Humeuses",
     "category": "Bottes",
     "stats": {
       "health": 150,
@@ -793,9 +726,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Sandales Koliques": {
     "level": 58,
-    "name": "Sandales Koliques",
     "category": "Bottes",
     "stats": {
       "wisdom": 15,
@@ -803,9 +735,8 @@
       "MP": 1
     }
   },
-  {
+  "Sandales Hambic": {
     "level": 159,
-    "name": "Sandales Hambic",
     "category": "Bottes",
     "stats": {
       "health": 250,
@@ -819,9 +750,8 @@
       "trapDamage": 25
     }
   },
-  {
+  "Sandales Adin": {
     "level": 76,
-    "name": "Sandales Adin",
     "category": "Bottes",
     "stats": {
       "health": 150,
@@ -831,9 +761,8 @@
       "damage": 6
     }
   },
-  {
+  "Sandales Ailuya": {
     "level": 56,
-    "name": "Sandales Ailuya",
     "category": "Bottes",
     "stats": {
       "strength": 25,
@@ -843,9 +772,8 @@
       "wisdom": 20
     }
   },
-  {
+  "Geta Akwadala": {
     "level": 35,
-    "name": "Geta Akwadala",
     "panoply": "Panoplie Akwadala",
     "category": "Bottes",
     "stats": {
@@ -854,9 +782,8 @@
       "power": 10
     }
   },
-  {
+  "Geta Terrdala": {
     "level": 76,
-    "name": "Geta Terrdala",
     "panoply": "Panoplie Terrdala",
     "category": "Bottes",
     "stats": {
@@ -867,9 +794,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Geta Feudala": {
     "level": 68,
-    "name": "Geta Feudala",
     "panoply": "Panoplie Feudala",
     "category": "Bottes",
     "stats": {
@@ -879,9 +805,8 @@
       "MP": 1
     }
   },
-  {
+  "Geta Aerdala": {
     "level": 57,
-    "name": "Geta Aerdala",
     "panoply": "Panoplie Aerdala",
     "category": "Bottes",
     "stats": {
@@ -889,9 +814,8 @@
       "MP": 1
     }
   },
-  {
+  "Sandales Titude": {
     "level": 122,
-    "name": "Sandales Titude",
     "category": "Bottes",
     "stats": {
       "health": 175,
@@ -904,9 +828,8 @@
       "earthResistPer": 7
     }
   },
-  {
+  "Bottes Harry": {
     "level": 123,
-    "name": "Bottes Harry",
     "category": "Bottes",
     "stats": {
       "health": 150,
@@ -920,9 +843,8 @@
       "fireResistPer": 8
     }
   },
-  {
+  "Botodindo": {
     "level": 50,
-    "name": "Botodindo",
     "panoply": "Panoplie Dindo",
     "category": "Bottes",
     "stats": {
@@ -932,9 +854,8 @@
       "heal": 6
     }
   },
-  {
+  "Bottes du Boufcoul": {
     "level": 87,
-    "name": "Bottes du Boufcoul",
     "panoply": "Panoplie du Boufcoul",
     "category": "Bottes",
     "stats": {
@@ -942,22 +863,21 @@
       "wisdom": 15,
       "power": 30,
       "MP": 1,
-      "initiative": 0,
+      "initiative": -50,
       "earthResistPer": 3,
       "mpResist": 5
     }
   },
-  {
+  "Bottes du Koulosse": {
     "level": 73,
-    "name": "Bottes du Koulosse",
     "panoply": "Panoplie du Koulosse",
     "category": "Bottes",
     "stats": {
       "health": 200,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
       "wisdom": 10,
       "MP": 1,
       "summon": 1,
@@ -967,9 +887,8 @@
       "lock": 10
     }
   },
-  {
+  "Bottes du Koalak": {
     "level": 60,
-    "name": "Bottes du Koalak",
     "panoply": "Panoplie du Koalak",
     "category": "Bottes",
     "stats": {
@@ -978,9 +897,8 @@
       "neutralResistPer": 5
     }
   },
-  {
+  "Pantoufles du Tofu": {
     "level": 23,
-    "name": "Pantoufles du Tofu",
     "panoply": "Panoplie du Tofu",
     "category": "Bottes",
     "stats": {
@@ -989,9 +907,8 @@
       "agility": 15
     }
   },
-  {
+  "Scarabottes Dorées": {
     "level": 54,
-    "name": "Scarabottes Dorées",
     "panoply": "Panoplie du Scarabosse Doré",
     "category": "Bottes",
     "stats": {
@@ -1000,9 +917,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Paysannes": {
     "level": 19,
-    "name": "Bottes Paysannes",
     "panoply": "Panoplie du Paysan",
     "category": "Bottes",
     "stats": {
@@ -1011,9 +927,8 @@
       "wisdom": 5
     }
   },
-  {
+  "Bottes du Craqueleur Légendaire": {
     "level": 86,
-    "name": "Bottes du Craqueleur Légendaire",
     "panoply": "Panoplie du Craqueleur Légendaire",
     "category": "Bottes",
     "stats": {
@@ -1026,9 +941,8 @@
       "waterResist": 7
     }
   },
-  {
+  "Sandales du Piou Rouge": {
     "level": 9,
-    "name": "Sandales du Piou Rouge",
     "panoply": "Panoplie du Piou Rouge",
     "category": "Bottes",
     "stats": {
@@ -1036,9 +950,8 @@
       "fireDamage": 1
     }
   },
-  {
+  "Sandales du Piou Bleu": {
     "level": 8,
-    "name": "Sandales du Piou Bleu",
     "panoply": "Panoplie du Piou Bleu",
     "category": "Bottes",
     "stats": {
@@ -1046,9 +959,8 @@
       "summon": 1
     }
   },
-  {
+  "Sandales du Piou Violet": {
     "level": 7,
-    "name": "Sandales du Piou Violet",
     "panoply": "Panoplie du Piou Violet",
     "category": "Bottes",
     "stats": {
@@ -1056,9 +968,8 @@
       "summon": 1
     }
   },
-  {
+  "Sandales du Piou Jaune": {
     "level": 11,
-    "name": "Sandales du Piou Jaune",
     "panoply": "Panoplie du Piou Jaune",
     "category": "Bottes",
     "stats": {
@@ -1066,9 +977,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Sandales du Piou Vert": {
     "level": 10,
-    "name": "Sandales du Piou Vert",
     "panoply": "Panoplie du Piou Vert",
     "category": "Bottes",
     "stats": {
@@ -1076,9 +986,8 @@
       "strength": 20
     }
   },
-  {
+  "Sandales du Piou Rose": {
     "level": 12,
-    "name": "Sandales du Piou Rose",
     "panoply": "Panoplie du Piou Rose",
     "category": "Bottes",
     "stats": {
@@ -1086,9 +995,8 @@
       "summon": 1
     }
   },
-  {
+  "Bottes en Mousse": {
     "level": 20,
-    "name": "Bottes en Mousse",
     "panoply": "Panoplie en Mousse",
     "category": "Bottes",
     "stats": {
@@ -1097,9 +1005,8 @@
       "dodge": 2
     }
   },
-  {
+  "Bottes du Meulou": {
     "level": 131,
-    "name": "Bottes du Meulou",
     "panoply": "Panoplie du Meulou",
     "category": "Bottes",
     "stats": {
@@ -1123,9 +1030,8 @@
       "airResist": 8
     }
   },
-  {
+  "Bottes du Minotoror": {
     "level": 113,
-    "name": "Bottes du Minotoror",
     "panoply": "Panoplie du Minotoror",
     "category": "Bottes",
     "stats": {
@@ -1141,9 +1047,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Sandales du Minotot": {
     "level": 160,
-    "name": "Sandales du Minotot",
     "panoply": "Panoplie du Minotot",
     "category": "Bottes",
     "stats": {
@@ -1159,9 +1064,8 @@
       "airResistPer": -4
     }
   },
-  {
+  "Mules du Dragon Cochon": {
     "level": 94,
-    "name": "Mules du Dragon Cochon",
     "panoply": "Panoplie du Dragon Cochon",
     "category": "Bottes",
     "stats": {
@@ -1174,9 +1078,8 @@
       "dodge": 5
     }
   },
-  {
+  "Bottes du Dragoeuf": {
     "level": 128,
-    "name": "Bottes du Dragoeuf",
     "panoply": "Panoplie du Dragoeuf Vagabond",
     "category": "Bottes",
     "stats": {
@@ -1192,9 +1095,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Sabots de Shika": {
     "level": 80,
-    "name": "Sabots de Shika",
     "panoply": "Panoplie de Shika Ingalsse",
     "category": "Bottes",
     "stats": {
@@ -1206,17 +1108,15 @@
       "airResistPer": 3
     }
   },
-  {
+  "Bottananas": {
     "level": 1,
-    "name": "Bottananas",
     "category": "Bottes",
     "stats": {
       "strength": 6
     }
   },
-  {
+  "Bottes du Mominotor": {
     "level": 110,
-    "name": "Bottes du Mominotor",
     "panoply": "Panoplie du Mominotor",
     "category": "Bottes",
     "stats": {
@@ -1231,9 +1131,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Bottes du Rat Noir": {
     "level": 101,
-    "name": "Bottes du Rat Noir",
     "panoply": "Panoplie du Rat Noir",
     "category": "Bottes",
     "stats": {
@@ -1249,9 +1148,8 @@
       "lock": 4
     }
   },
-  {
+  "Bottes du Rat Blanc": {
     "level": 99,
-    "name": "Bottes du Rat Blanc",
     "panoply": "Panoplie du Rat Blanc",
     "category": "Bottes",
     "stats": {
@@ -1266,9 +1164,8 @@
       "dodge": 4
     }
   },
-  {
+  "Bottes Cérémoniales du Seigneur des Rats": {
     "level": 134,
-    "name": "Bottes Cérémoniales du Seigneur des Rats",
     "panoply": "Panoplie Cérémoniale",
     "category": "Bottes",
     "stats": {
@@ -1285,9 +1182,8 @@
       "neutralResist": 6
     }
   },
-  {
+  "Protège-Tibias Ancestraux": {
     "level": 110,
-    "name": "Protège-Tibias Ancestraux",
     "panoply": "Panoplie Ancestrale",
     "category": "Bottes",
     "stats": {
@@ -1301,9 +1197,8 @@
       "fireResist": 7
     }
   },
-  {
+  "Tongues du dimanche du Chêne Mou": {
     "level": 136,
-    "name": "Tongues du dimanche du Chêne Mou",
     "panoply": "Panoplie du Chêne Mou",
     "category": "Bottes",
     "stats": {
@@ -1320,9 +1215,8 @@
       "neutralResist": 10
     }
   },
-  {
+  "Gobtroteur": {
     "level": 14,
-    "name": "Gobtroteur",
     "category": "Bottes",
     "stats": {
       "health": 15,
@@ -1330,9 +1224,8 @@
       "initiative": 100
     }
   },
-  {
+  "Les Incrustes": {
     "level": 1,
-    "name": "Les Incrustes",
     "panoply": "Panoplie du Boune",
     "category": "Bottes",
     "stats": {
@@ -1340,9 +1233,8 @@
       "chance": 6
     }
   },
-  {
+  "Bottes Antrin": {
     "level": 100,
-    "name": "Bottes Antrin",
     "panoply": "Panoplie Téméraire",
     "category": "Bottes",
     "stats": {
@@ -1350,9 +1242,8 @@
       "MP": 1
     }
   },
-  {
+  "Charentaises à poils": {
     "level": 100,
-    "name": "Charentaises à poils",
     "panoply": "Panoplie de Gouttière",
     "category": "Bottes",
     "stats": {
@@ -1360,9 +1251,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Hox": {
     "level": 100,
-    "name": "Bottes Hox",
     "panoply": "Panoplie Criminelle",
     "category": "Bottes",
     "stats": {
@@ -1370,9 +1260,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Hairo": {
     "level": 100,
-    "name": "Bottes Hairo",
     "panoply": "Panoplie Intemporelle",
     "category": "Bottes",
     "stats": {
@@ -1380,9 +1269,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Ulisme": {
     "level": 100,
-    "name": "Bottes Ulisme",
     "panoply": "Panoplie Altruiste",
     "category": "Bottes",
     "stats": {
@@ -1390,9 +1278,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Hanik": {
     "level": 100,
-    "name": "Bottes Hanik",
     "panoply": "Panoplie Sauvage",
     "category": "Bottes",
     "stats": {
@@ -1400,9 +1287,8 @@
       "MP": 1
     }
   },
-  {
+  "Tong Aclou": {
     "level": 100,
-    "name": "Tong Aclou",
     "panoply": "Panoplie Exsangue",
     "category": "Bottes",
     "stats": {
@@ -1410,9 +1296,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Swana": {
     "level": 100,
-    "name": "Bottes Swana",
     "panoply": "Panoplie de l'Innombrable",
     "category": "Bottes",
     "stats": {
@@ -1420,9 +1305,8 @@
       "MP": 1
     }
   },
-  {
+  "Geta Bernacle": {
     "level": 100,
-    "name": "Geta Bernacle",
     "panoply": "Panoplie Ethylique",
     "category": "Bottes",
     "stats": {
@@ -1430,9 +1314,8 @@
       "MP": 1
     }
   },
-  {
+  "Chaussures Lepon-Davignon": {
     "level": 100,
-    "name": "Chaussures Lepon-Davignon",
     "panoply": "Panoplie Vénérable",
     "category": "Bottes",
     "stats": {
@@ -1440,9 +1323,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Antouche": {
     "level": 100,
-    "name": "Bottes Antouche",
     "panoply": "Panoplie Indestructible",
     "category": "Bottes",
     "stats": {
@@ -1450,9 +1332,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Deuradi": {
     "level": 100,
-    "name": "Bottes Deuradi",
     "panoply": "Panoplie du Prince des voleurs",
     "category": "Bottes",
     "stats": {
@@ -1460,9 +1341,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Horchons": {
     "level": 102,
-    "name": "Bottes Horchons",
     "panoply": "Panoplie Vassale",
     "category": "Bottes",
     "stats": {
@@ -1480,9 +1360,8 @@
       "dodge": 5
     }
   },
-  {
+  "Sandales Circulaires du Kimbo": {
     "level": 195,
-    "name": "Sandales Circulaires du Kimbo",
     "panoply": "Panoplie du Kimbo",
     "category": "Bottes",
     "stats": {
@@ -1497,9 +1376,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Bottines en bois d'abrakleur": {
     "level": 135,
-    "name": "Bottines en bois d'abrakleur",
     "panoply": "Panoplie Claire",
     "category": "Bottes",
     "stats": {
@@ -1514,9 +1392,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Bottines des sous-bois": {
     "level": 172,
-    "name": "Bottines des sous-bois",
     "panoply": "Panoplie des Sous-bois",
     "category": "Bottes",
     "stats": {
@@ -1532,9 +1409,8 @@
       "neutralResistPer": 10
     }
   },
-  {
+  "Chaussons Pignons": {
     "level": 181,
-    "name": "Chaussons Pignons",
     "panoply": "Panoplycélium",
     "category": "Bottes",
     "stats": {
@@ -1549,9 +1425,8 @@
       "airResist": 10
     }
   },
-  {
+  "Bloptes Griottes": {
     "level": 50,
-    "name": "Bloptes Griottes",
     "panoply": "Panoplie Blop Griotte",
     "category": "Bottes",
     "stats": {
@@ -1563,9 +1438,8 @@
       "initiative": 150
     }
   },
-  {
+  "Bloptes Reinette": {
     "level": 50,
-    "name": "Bloptes Reinette",
     "panoply": "Panoplie Blop Reinette",
     "category": "Bottes",
     "stats": {
@@ -1577,9 +1451,8 @@
       "initiative": 150
     }
   },
-  {
+  "Bloptes Coco": {
     "level": 50,
-    "name": "Bloptes Coco",
     "panoply": "Panoplie Blop Coco",
     "category": "Bottes",
     "stats": {
@@ -1591,9 +1464,8 @@
       "initiative": 150
     }
   },
-  {
+  "Bloptes Indigo": {
     "level": 50,
-    "name": "Bloptes Indigo",
     "panoply": "Panoplie Blop Indigo",
     "category": "Bottes",
     "stats": {
@@ -1605,9 +1477,8 @@
       "initiative": 150
     }
   },
-  {
+  "Bloptes Griotte Royales": {
     "level": 80,
-    "name": "Bloptes Griotte Royales",
     "panoply": "Panoplie Blop Griotte Royale",
     "category": "Bottes",
     "stats": {
@@ -1618,9 +1489,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Bloptes Reinette Royales": {
     "level": 80,
-    "name": "Bloptes Reinette Royales",
     "panoply": "Panoplie Blop Reinette Royale",
     "category": "Bottes",
     "stats": {
@@ -1631,9 +1501,8 @@
       "earthResistPer": 3
     }
   },
-  {
+  "Bloptes Coco Royales": {
     "level": 80,
-    "name": "Bloptes Coco Royales",
     "panoply": "Panoplie Blop Coco Royale",
     "category": "Bottes",
     "stats": {
@@ -1644,9 +1513,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Bloptes Indigo Royales": {
     "level": 80,
-    "name": "Bloptes Indigo Royales",
     "panoply": "Panoplie Blop Indigo Royale",
     "category": "Bottes",
     "stats": {
@@ -1657,9 +1525,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Bloptes Multicolores Royales": {
     "level": 90,
-    "name": "Bloptes Multicolores Royales",
     "panoply": "Panoplie Blop Multicolore Royale",
     "category": "Bottes",
     "stats": {
@@ -1671,9 +1538,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Bottes Répané": {
     "level": 184,
-    "name": "Bottes Répané",
     "panoply": "Panoplie du Bworker Gladiateur",
     "category": "Bottes",
     "stats": {
@@ -1689,9 +1555,8 @@
       "neutralResistPer": 10
     }
   },
-  {
+  "Bottes Paupayahn": {
     "level": 43,
-    "name": "Bottes Paupayahn",
     "panoply": "Panoplie Paupayahn",
     "category": "Bottes",
     "stats": {
@@ -1702,9 +1567,8 @@
       "airResistPer": 4
     }
   },
-  {
+  "Pantoufrelons": {
     "level": 34,
-    "name": "Pantoufrelons",
     "category": "Bottes",
     "stats": {
       "health": 60,
@@ -1712,9 +1576,8 @@
       "criticalChance": 4
     }
   },
-  {
+  "Bottes du bois de l'est": {
     "level": 30,
-    "name": "Bottes du bois de l'est",
     "category": "Bottes",
     "stats": {
       "health": 25,
@@ -1724,9 +1587,8 @@
       "agility": 10
     }
   },
-  {
+  "Souliers laqués du Parrain": {
     "level": 40,
-    "name": "Souliers laqués du Parrain",
     "panoply": "Panoplie du Parrain",
     "category": "Bottes",
     "stats": {
@@ -1736,9 +1598,8 @@
       "summon": 1
     }
   },
-  {
+  "Bottines du Black Wab": {
     "level": 47,
-    "name": "Bottines du Black Wab",
     "panoply": "Panoplie du Black Wab",
     "category": "Bottes",
     "stats": {
@@ -1748,9 +1609,8 @@
       "range": 1
     }
   },
-  {
+  "Sandales Papayou": {
     "level": 49,
-    "name": "Sandales Papayou",
     "panoply": "Panoplie Papayou",
     "category": "Bottes",
     "stats": {
@@ -1760,9 +1620,8 @@
       "damage": 6
     }
   },
-  {
+  "Les Sleumpettes": {
     "level": 43,
-    "name": "Les Sleumpettes",
     "panoply": "Panoplie Sleump",
     "category": "Bottes",
     "stats": {
@@ -1772,9 +1631,8 @@
       "damage": 2
     }
   },
-  {
+  "Bottes de Slait": {
     "level": 43,
-    "name": "Bottes de Slait",
     "panoply": "Panoplie de Slait",
     "category": "Bottes",
     "stats": {
@@ -1786,9 +1644,8 @@
       "criticalResist": 5
     }
   },
-  {
+  "Chaussures du Tétounik": {
     "level": 40,
-    "name": "Chaussures du Tétounik",
     "panoply": "Panoplie du Tétounik",
     "category": "Bottes",
     "stats": {
@@ -1798,9 +1655,8 @@
       "lock": 5
     }
   },
-  {
+  "Golbottes": {
     "level": 42,
-    "name": "Golbottes",
     "panoply": "Golpanoplie",
     "category": "Bottes",
     "stats": {
@@ -1810,9 +1666,8 @@
       "initiative": 150
     }
   },
-  {
+  "Bottes Siks Won Naïne": {
     "level": 42,
-    "name": "Bottes Siks Won Naïne",
     "panoply": "Panoplie Siks Won Naïne",
     "category": "Bottes",
     "stats": {
@@ -1823,9 +1678,8 @@
       "heal": 1
     }
   },
-  {
+  "Les Chaplures": {
     "level": 43,
-    "name": "Les Chaplures",
     "panoply": "Chapanoplie",
     "category": "Bottes",
     "stats": {
@@ -1834,9 +1688,8 @@
       "range": 1
     }
   },
-  {
+  "Bottes du Vampyre": {
     "level": 41,
-    "name": "Bottes du Vampyre",
     "panoply": "Panoplie du Vampyre maudit",
     "category": "Bottes",
     "stats": {
@@ -1847,9 +1700,8 @@
       "undefined": 1
     }
   },
-  {
+  "Yugoufle": {
     "level": 41,
-    "name": "Yugoufle",
     "panoply": "Yugoplie",
     "category": "Bottes",
     "stats": {
@@ -1859,9 +1711,8 @@
       "dodge": 10
     }
   },
-  {
+  "Chispottes": {
     "level": 42,
-    "name": "Chispottes",
     "panoply": "Chispanoplie",
     "category": "Bottes",
     "stats": {
@@ -1871,9 +1722,8 @@
       "damage": 3
     }
   },
-  {
+  "Libottes": {
     "level": 39,
-    "name": "Libottes",
     "panoply": "Panoplie Mace",
     "category": "Bottes",
     "stats": {
@@ -1883,9 +1733,8 @@
       "lock": 7
     }
   },
-  {
+  "Bottines de la Denrée": {
     "level": 38,
-    "name": "Bottines de la Denrée",
     "panoply": "Panoplie de la Denrée",
     "category": "Bottes",
     "stats": {
@@ -1895,9 +1744,8 @@
       "damage": 2
     }
   },
-  {
+  "Les Maidartes": {
     "level": 161,
-    "name": "Les Maidartes",
     "category": "Bottes",
     "stats": {
       "health": 200,
@@ -1917,9 +1765,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bottes du Real Boitar": {
     "level": 42,
-    "name": "Bottes du Real Boitar",
     "panoply": "Panoplie du Real Boitar",
     "category": "Bottes",
     "stats": {
@@ -1929,9 +1776,8 @@
       "damage": 3
     }
   },
-  {
+  "Bottes des Bouftons Rouges": {
     "level": 42,
-    "name": "Bottes des Bouftons Rouges",
     "panoply": "Panoplie des Bouftons Rouges",
     "category": "Bottes",
     "stats": {
@@ -1941,9 +1787,8 @@
       "damage": 3
     }
   },
-  {
+  "Bottes de Grüt": {
     "level": 44,
-    "name": "Bottes de Grüt",
     "panoply": "Panoplie de Grüt",
     "category": "Bottes",
     "stats": {
@@ -1953,9 +1798,8 @@
       "range": 1
     }
   },
-  {
+  "Bottes de Kocksis": {
     "level": 42,
-    "name": "Bottes de Kocksis",
     "panoply": "Panoplie de Kocksis",
     "category": "Bottes",
     "stats": {
@@ -1966,9 +1810,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bottes de Laikteur": {
     "level": 43,
-    "name": "Bottes de Laikteur",
     "panoply": "Panoplie de Laikteur",
     "category": "Bottes",
     "stats": {
@@ -1977,9 +1820,8 @@
       "range": 1
     }
   },
-  {
+  "Bottes de Rekto Topi": {
     "level": 41,
-    "name": "Bottes de Rekto Topi",
     "panoply": "Panoplie de Rekto Topi",
     "category": "Bottes",
     "stats": {
@@ -1990,9 +1832,8 @@
       "heal": 3
     }
   },
-  {
+  "Bottes de Grizou": {
     "level": 41,
-    "name": "Bottes de Grizou",
     "panoply": "Panoplie de Grizou",
     "category": "Bottes",
     "stats": {
@@ -2003,9 +1844,8 @@
       "mpResist": 2
     }
   },
-  {
+  "Bottes de l'intrépide": {
     "level": 1,
-    "name": "Bottes de l'intrépide",
     "panoply": "Panoplie de l'intrépide",
     "category": "Bottes",
     "stats": {
@@ -2014,37 +1854,34 @@
       "undefined": 0
     }
   },
-  {
+  "Bottes d'Hulkrap": {
     "level": 53,
-    "name": "Bottes d'Hulkrap",
     "panoply": "Panoplie d'Hulkrap",
     "category": "Bottes",
     "stats": {
-      "health": 0,
-      "strength": 0,
-      "chance": 0,
+      "health": -30,
+      "strength": -15,
+      "chance": -15,
       "MP": 1,
       "summon": 1,
       "fireDamage": 4
     }
   },
-  {
+  "Bottes de Klüme": {
     "level": 52,
-    "name": "Bottes de Klüme",
     "panoply": "Panoplie de Klüme",
     "category": "Bottes",
     "stats": {
-      "health": 0,
-      "intelligence": 0,
-      "agility": 0,
+      "health": -30,
+      "intelligence": -15,
+      "agility": -15,
       "MP": 1,
       "summon": 1,
       "earthDamage": 4
     }
   },
-  {
+  "Bottes du Corbeau Noir": {
     "level": 32,
-    "name": "Bottes du Corbeau Noir",
     "panoply": "Panoplie du Corbeau Noir",
     "category": "Bottes",
     "stats": {
@@ -2054,9 +1891,8 @@
       "airDamage": 3
     }
   },
-  {
+  "Bottes de Rapine": {
     "level": 32,
-    "name": "Bottes de Rapine",
     "panoply": "Panoplie de Rapine",
     "category": "Bottes",
     "stats": {
@@ -2067,20 +1903,18 @@
       "apReduction": 3
     }
   },
-  {
+  "Bottes de Phong Huss": {
     "level": 32,
-    "name": "Bottes de Phong Huss",
     "panoply": "Panoplie de Phong Huss",
     "category": "Bottes",
     "stats": {
       "strength": 20,
       "range": 1,
-      "dodge": 0
+      "dodge": -5
     }
   },
-  {
+  "Givrabottes": {
     "level": 33,
-    "name": "Givrabottes",
     "panoply": "Givranoplie",
     "category": "Bottes",
     "stats": {
@@ -2089,9 +1923,8 @@
       "damage": 3
     }
   },
-  {
+  "Clémentobottes": {
     "level": 34,
-    "name": "Clémentobottes",
     "panoply": "Clémentopanoplie",
     "category": "Bottes",
     "stats": {
@@ -2100,18 +1933,16 @@
       "fireResistPer": 4
     }
   },
-  {
+  "Bottes de Lonne": {
     "level": 55,
-    "name": "Bottes de Lonne",
     "category": "Bottes",
     "stats": {
       "chance": 25,
       "MP": 1
     }
   },
-  {
+  "Bottes de Boufbowl": {
     "level": 28,
-    "name": "Bottes de Boufbowl",
     "panoply": "Panoplie de Boufbowl",
     "category": "Bottes",
     "stats": {
@@ -2122,9 +1953,8 @@
       "dodge": 3
     }
   },
-  {
+  "Bottes de Grilliane": {
     "level": 46,
-    "name": "Bottes de Grilliane",
     "panoply": "Panoplie de Grilliane",
     "category": "Bottes",
     "stats": {
@@ -2136,9 +1966,8 @@
       "heal": 2
     }
   },
-  {
+  "Bottes de Rapiat": {
     "level": 41,
-    "name": "Bottes de Rapiat",
     "panoply": "Panoplie de Rapiat",
     "category": "Bottes",
     "stats": {
@@ -2149,9 +1978,8 @@
       "apResist": 4
     }
   },
-  {
+  "Bottes de Karotz": {
     "level": 51,
-    "name": "Bottes de Karotz",
     "panoply": "Panoplie de Karotz",
     "category": "Bottes",
     "stats": {
@@ -2159,12 +1987,11 @@
       "chance": 20,
       "MP": 1,
       "dodge": 4,
-      "lock": 0
+      "lock": -15
     }
   },
-  {
+  "Bottes de Grouillot": {
     "level": 44,
-    "name": "Bottes de Grouillot",
     "panoply": "Panoplie de Grouillot",
     "category": "Bottes",
     "stats": {
@@ -2174,22 +2001,20 @@
       "mpResist": 4
     }
   },
-  {
+  "Bottes de Kubitus": {
     "level": 45,
-    "name": "Bottes de Kubitus",
     "panoply": "Panoplie de Kubitus",
     "category": "Bottes",
     "stats": {
       "agility": 20,
       "MP": 1,
       "airDamage": 3,
-      "lock": 0,
-      "apResist": 0
+      "lock": -10,
+      "apResist": -10
     }
   },
-  {
+  "Plumodales": {
     "level": 56,
-    "name": "Plumodales",
     "panoply": "Plumoplie",
     "category": "Bottes",
     "stats": {
@@ -2200,9 +2025,8 @@
       "initiative": 200
     }
   },
-  {
+  "Bottoppinz": {
     "level": 59,
-    "name": "Bottoppinz",
     "panoply": "Panoppinz",
     "category": "Bottes",
     "stats": {
@@ -2213,9 +2037,8 @@
       "criticalChance": 3
     }
   },
-  {
+  "Bottauffe-souris": {
     "level": 57,
-    "name": "Bottauffe-souris",
     "panoply": "Panoplie Chauffe-souris",
     "category": "Bottes",
     "stats": {
@@ -2228,9 +2051,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Bottinokio": {
     "level": 58,
-    "name": "Bottinokio",
     "panoply": "Panoplinokio",
     "category": "Bottes",
     "stats": {
@@ -2240,9 +2062,8 @@
       "damage": 5
     }
   },
-  {
+  "Bottes de Kabroule": {
     "level": 58,
-    "name": "Bottes de Kabroule",
     "category": "Bottes",
     "stats": {
       "health": 60,
@@ -2252,9 +2073,8 @@
       "damage": 4
     }
   },
-  {
+  "Grésilobottes": {
     "level": 190,
-    "name": "Grésilobottes",
     "panoply": "Panoplie Grésil",
     "category": "Bottes",
     "stats": {
@@ -2270,9 +2090,8 @@
       "waterResist": 13
     }
   },
-  {
+  "Bottes du Royalmouth": {
     "level": 118,
-    "name": "Bottes du Royalmouth",
     "panoply": "Panoplie du Royalmouth",
     "category": "Bottes",
     "stats": {
@@ -2291,9 +2110,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Bottes de l'Obsidiantre": {
     "level": 167,
-    "name": "Bottes de l'Obsidiantre",
     "panoply": "Panoplie de l'Obsidiantre",
     "category": "Bottes",
     "stats": {
@@ -2314,15 +2132,13 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Bottes Hoktone usées": {
     "level": 138,
-    "name": "Bottes Hoktone usées",
     "category": "Bottes",
     "stats": {}
   },
-  {
+  "Sandales Gorithme": {
     "level": 146,
-    "name": "Sandales Gorithme",
     "category": "Bottes",
     "stats": {
       "health": 250,
@@ -2342,9 +2158,8 @@
       "lock": -4
     }
   },
-  {
+  "Sandales Binosse": {
     "level": 166,
-    "name": "Sandales Binosse",
     "category": "Bottes",
     "stats": {
       "health": 250,
@@ -2362,9 +2177,8 @@
       "lock": -11
     }
   },
-  {
+  "Bottes Hoktone": {
     "level": 138,
-    "name": "Bottes Hoktone",
     "panoply": "Panoplie Autochtone",
     "category": "Bottes",
     "stats": {
@@ -2383,9 +2197,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bottes du Tengu Givrefoux": {
     "level": 173,
-    "name": "Bottes du Tengu Givrefoux",
     "panoply": "Panoplie du Tengu Givrefoux",
     "category": "Bottes",
     "stats": {
@@ -2404,9 +2217,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Bottes du Glourséleste": {
     "level": 196,
-    "name": "Bottes du Glourséleste",
     "panoply": "Panoplie du Glourséleste",
     "category": "Bottes",
     "stats": {
@@ -2429,9 +2241,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bottines Hertie": {
     "level": 169,
-    "name": "Bottines Hertie",
     "category": "Bottes",
     "stats": {
       "health": 250,
@@ -2453,9 +2264,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Bottines Hodore": {
     "level": 181,
-    "name": "Bottines Hodore",
     "panoply": "Panoplie du frigostien douteux",
     "category": "Bottes",
     "stats": {
@@ -2477,9 +2287,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Sandales Pinistes": {
     "level": 194,
-    "name": "Sandales Pinistes",
     "category": "Bottes",
     "stats": {
       "health": 300,
@@ -2499,9 +2308,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Bottes en peau de Prespic": {
     "level": 30,
-    "name": "Bottes en peau de Prespic",
     "category": "Bottes",
     "stats": {
       "health": 50,
@@ -2510,9 +2318,8 @@
       "initiative": 50
     }
   },
-  {
+  "Bottes de Stroud": {
     "level": 45,
-    "name": "Bottes de Stroud",
     "panoply": "Panoplie de Stroud",
     "category": "Bottes",
     "stats": {
@@ -2523,9 +2330,8 @@
       "apReduction": 4
     }
   },
-  {
+  "Bottes du Kanniboul Ebil": {
     "level": 42,
-    "name": "Bottes du Kanniboul Ebil",
     "panoply": "Panoplie du Kanniboul Ebil",
     "category": "Bottes",
     "stats": {
@@ -2535,9 +2341,8 @@
       "dodge": 5
     }
   },
-  {
+  "Bottes de Traçon": {
     "level": 46,
-    "name": "Bottes de Traçon",
     "panoply": "Panoplie de Traçon",
     "category": "Bottes",
     "stats": {
@@ -2548,21 +2353,19 @@
       "apReduction": 2
     }
   },
-  {
+  "Geta de Logram": {
     "level": 53,
-    "name": "Geta de Logram",
     "panoply": "Panoplie de Logram",
     "category": "Bottes",
     "stats": {
       "MP": 1,
       "fireDamage": 5,
-      "neutralResistPer": 0,
+      "neutralResistPer": -3,
       "criticalResist": 5
     }
   },
-  {
+  "Botte de Kalkanéus": {
     "level": 39,
-    "name": "Botte de Kalkanéus",
     "panoply": "Panoplie de Kalkanéus",
     "category": "Bottes",
     "stats": {
@@ -2572,21 +2375,19 @@
       "pushbackResist": 5
     }
   },
-  {
+  "Bottes d'Haku": {
     "level": 48,
-    "name": "Bottes d'Haku",
     "panoply": "Panoplie d'Haku",
     "category": "Bottes",
     "stats": {
       "MP": 1,
       "fireDamage": 4,
-      "waterResistPer": 0,
+      "waterResistPer": -2,
       "apResist": 3
     }
   },
-  {
+  "Bottes de Nelween": {
     "level": 74,
-    "name": "Bottes de Nelween",
     "panoply": "Panoplie de Nelween",
     "category": "Bottes",
     "stats": {
@@ -2598,9 +2399,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Bottes de Frigostine": {
     "level": 142,
-    "name": "Bottes de Frigostine",
     "panoply": "Panoplie de Frigostine",
     "category": "Bottes",
     "stats": {
@@ -2620,9 +2420,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Bottes de Cantile": {
     "level": 156,
-    "name": "Bottes de Cantile",
     "panoply": "Panoplie de Cantile",
     "category": "Bottes",
     "stats": {
@@ -2642,9 +2441,8 @@
       "apResist": 4
     }
   },
-  {
+  "Bottes de Boréale": {
     "level": 189,
-    "name": "Bottes de Boréale",
     "panoply": "Panoplie de Boréale",
     "category": "Bottes",
     "stats": {
@@ -2659,9 +2457,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Bottes du Professeur Xa": {
     "level": 193,
-    "name": "Bottes du Professeur Xa",
     "panoply": "Panoplie du Professeur Xa",
     "category": "Bottes",
     "stats": {
@@ -2684,9 +2481,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Bottes de la Fuji Givrefoux": {
     "level": 194,
-    "name": "Bottes de la Fuji Givrefoux",
     "panoply": "Panoplie de la Fuji Givrefoux",
     "category": "Bottes",
     "stats": {
@@ -2705,9 +2501,8 @@
       "lock": 5
     }
   },
-  {
+  "Bottes du Gorgouille": {
     "level": 103,
-    "name": "Bottes du Gorgouille",
     "panoply": "Panoplie du Gorgouille",
     "category": "Bottes",
     "stats": {
@@ -2727,9 +2522,8 @@
       "pushbackDamage": 8
     }
   },
-  {
+  "Bottilozité": {
     "level": 56,
-    "name": "Bottilozité",
     "panoply": "Panoplilozité",
     "category": "Bottes",
     "stats": {
@@ -2740,9 +2534,8 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Bottes Opsy": {
     "level": 100,
-    "name": "Bottes Opsy",
     "panoply": "Panoplie Explosive",
     "category": "Bottes",
     "stats": {
@@ -2750,9 +2543,8 @@
       "MP": 1
     }
   },
-  {
+  "Sabots Taj": {
     "level": 100,
-    "name": "Sabots Taj",
     "panoply": "Panoplie Lunatique",
     "category": "Bottes",
     "stats": {
@@ -2760,9 +2552,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes du Vulkain": {
     "level": 56,
-    "name": "Bottes du Vulkain",
     "panoply": "Panoplie du Vulkain",
     "category": "Bottes",
     "stats": {
@@ -2772,9 +2563,8 @@
       "heal": 3
     }
   },
-  {
+  "Bottes de Grozilla": {
     "level": 155,
-    "name": "Bottes de Grozilla",
     "panoply": "Panoplie de Grozilla",
     "category": "Bottes",
     "stats": {
@@ -2794,21 +2584,19 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Souliers Vernis Bruns": {
     "level": 58,
-    "name": "Souliers Vernis Bruns",
     "category": "Bottes",
     "stats": {
-      "health": 0,
+      "health": -150,
       "agility": 15,
       "wisdom": 10,
       "MP": 1,
       "summon": 1
     }
   },
-  {
+  "Sabottes de Danioule": {
     "level": 56,
-    "name": "Sabottes de Danioule",
     "panoply": "Panoplie de Danioule",
     "category": "Bottes",
     "stats": {
@@ -2816,12 +2604,11 @@
       "MP": 1,
       "earthDamage": 3,
       "dodge": 3,
-      "mpResist": 0
+      "mpResist": -10
     }
   },
-  {
+  "Pacmabottes": {
     "level": 10,
-    "name": "Pacmabottes",
     "panoply": "Pacmanoplie",
     "category": "Bottes",
     "stats": {
@@ -2829,9 +2616,8 @@
       "mpResist": 2
     }
   },
-  {
+  "Raquettes Dugraal": {
     "level": 107,
-    "name": "Raquettes Dugraal",
     "category": "Bottes",
     "stats": {
       "health": 100,
@@ -2850,9 +2636,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Bottes du Nowel Cauchemardesque": {
     "level": 150,
-    "name": "Bottes du Nowel Cauchemardesque",
     "panoply": "Panoplie du Nowel Cauchemardesque",
     "category": "Bottes",
     "stats": {
@@ -2869,9 +2654,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Sabots de Redolphe": {
     "level": 85,
-    "name": "Sabots de Redolphe",
     "panoply": "Panoplie de Redolphe",
     "category": "Bottes",
     "stats": {
@@ -2885,9 +2669,8 @@
       "criticalResist": 5
     }
   },
-  {
+  "Mes Petits Sabots": {
     "level": 41,
-    "name": "Mes Petits Sabots",
     "panoply": "Ma petite panoplie",
     "category": "Bottes",
     "stats": {
@@ -2898,9 +2681,8 @@
       "lock": 5
     }
   },
-  {
+  "Gladiabottes": {
     "level": 45,
-    "name": "Gladiabottes",
     "panoply": "Gladianoplie",
     "category": "Bottes",
     "stats": {
@@ -2910,9 +2692,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Bottoduvet": {
     "level": 60,
-    "name": "Bottoduvet",
     "panoply": "Panoplie à plumes",
     "category": "Bottes",
     "stats": {
@@ -2923,20 +2704,18 @@
       "MP": 1
     }
   },
-  {
+  "Sabots Aiguilles de Féline": {
     "level": 50,
-    "name": "Sabots Aiguilles de Féline",
     "panoply": "Panoplie de Féline",
     "category": "Bottes",
     "stats": {
       "strength": 30,
       "MP": 1,
-      "lock": 0
+      "lock": -10
     }
   },
-  {
+  "Bottes du Chafer Primitif": {
     "level": 41,
-    "name": "Bottes du Chafer Primitif",
     "panoply": "Panoplie des Anciens Chafers",
     "category": "Bottes",
     "stats": {
@@ -2947,9 +2726,8 @@
       "earthDamage": 4
     }
   },
-  {
+  "Bottes de Brouce": {
     "level": 197,
-    "name": "Bottes de Brouce",
     "panoply": "Panoplie de Brouce Boulgoure",
     "category": "Bottes",
     "stats": {
@@ -2966,9 +2744,8 @@
       "dodge": 5
     }
   },
-  {
+  "Bottes d'Otomaï": {
     "level": 192,
-    "name": "Bottes d'Otomaï",
     "panoply": "Panoplie d'Otomaï",
     "category": "Bottes",
     "stats": {
@@ -2985,9 +2762,8 @@
       "apResist": 6
     }
   },
-  {
+  "Bottes d'Allister": {
     "level": 191,
-    "name": "Bottes d'Allister",
     "panoply": "Panoplie d'Allister",
     "category": "Bottes",
     "stats": {
@@ -3004,9 +2780,8 @@
       "apResist": 5
     }
   },
-  {
+  "Bottes de Léthaline": {
     "level": 194,
-    "name": "Bottes de Léthaline",
     "panoply": "Panoplie de Léthaline Sigisbul",
     "category": "Bottes",
     "stats": {
@@ -3021,9 +2796,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Boffes Cottre": {
     "level": 53,
-    "name": "Boffes Cottre",
     "panoply": "Panoplie Coffre",
     "category": "Bottes",
     "stats": {
@@ -3032,13 +2806,12 @@
       "MP": 1,
       "airDamage": 3,
       "mpResist": 3,
-      "criticalResist": 0,
-      "pushbackResist": 0
+      "criticalResist": -10,
+      "pushbackResist": -10
     }
   },
-  {
+  "Bottes Omates": {
     "level": 100,
-    "name": "Bottes Omates",
     "panoply": "Panoplie Submersible",
     "category": "Bottes",
     "stats": {
@@ -3046,9 +2819,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes O'Feu": {
     "level": 43,
-    "name": "Bottes O'Feu",
     "panoply": "Panoplie Mijotée",
     "category": "Bottes",
     "stats": {
@@ -3061,9 +2833,8 @@
       "criticalResist": 4
     }
   },
-  {
+  "Bottes Hédivines": {
     "level": 47,
-    "name": "Bottes Hédivines",
     "category": "Bottes",
     "stats": {
       "health": 30,
@@ -3074,9 +2845,8 @@
       "dodge": 5
     }
   },
-  {
+  "Bottokami": {
     "level": 56,
-    "name": "Bottokami",
     "panoply": "Panokami",
     "category": "Bottes",
     "stats": {
@@ -3088,9 +2858,8 @@
       "dodge": 3
     }
   },
-  {
+  "Krosmaussures": {
     "level": 100,
-    "name": "Krosmaussures",
     "panoply": "Krosmanoplie",
     "category": "Bottes",
     "stats": {
@@ -3100,15 +2869,14 @@
       "wisdom": 15,
       "criticalChance": 3,
       "MP": 1,
-      "range": 0,
+      "range": -1,
       "waterDamage": 5,
       "airDamage": 5,
       "airResistPer": 5
     }
   },
-  {
+  "Ballerines Roses": {
     "level": 51,
-    "name": "Ballerines Roses",
     "panoply": "Panoplie Rose",
     "category": "Bottes",
     "stats": {
@@ -3120,9 +2888,8 @@
       "criticalDamage": 7
     }
   },
-  {
+  "Bottes d'Oshimo": {
     "level": 199,
-    "name": "Bottes d'Oshimo",
     "panoply": "Panoplie d'Oshimo",
     "category": "Bottes",
     "stats": {
@@ -3132,7 +2899,7 @@
       "wisdom": 50,
       "criticalChance": 3,
       "MP": 1,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
@@ -3142,9 +2909,8 @@
       "apReduction": 8
     }
   },
-  {
+  "Bottes de Théodoran Ax": {
     "level": 195,
-    "name": "Bottes de Théodoran Ax",
     "panoply": "Panoplie de Théodoran Ax",
     "category": "Bottes",
     "stats": {
@@ -3162,9 +2928,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Getas de Padgref": {
     "level": 196,
-    "name": "Getas de Padgref",
     "panoply": "Panoplie de Padgref Demoël",
     "category": "Bottes",
     "stats": {
@@ -3186,9 +2951,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Pantoufles Émar": {
     "level": 196,
-    "name": "Pantoufles Émar",
     "panoply": "Panoplit",
     "category": "Bottes",
     "stats": {
@@ -3206,9 +2970,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Sabots Minables": {
     "level": 196,
-    "name": "Sabots Minables",
     "category": "Bottes",
     "stats": {
       "health": 300,
@@ -3216,7 +2979,7 @@
       "wisdom": 40,
       "AP": 1,
       "MP": 1,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 12,
       "earthDamage": 12,
       "prospecting": 10,
@@ -3226,9 +2989,8 @@
       "dodge": 8
     }
   },
-  {
+  "Bottes d'Inferno": {
     "level": 120,
-    "name": "Bottes d'Inferno",
     "panoply": "Panoplie Infernale",
     "category": "Bottes",
     "stats": {
@@ -3245,9 +3007,8 @@
       "apResist": 5
     }
   },
-  {
+  "Bottes de Styx": {
     "level": 120,
-    "name": "Bottes de Styx",
     "panoply": "Panoplie Fluviale",
     "category": "Bottes",
     "stats": {
@@ -3264,9 +3025,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bottes de Mandrin": {
     "level": 120,
-    "name": "Bottes de Mandrin",
     "panoply": "Panoplie Contrebandière",
     "category": "Bottes",
     "stats": {
@@ -3283,9 +3043,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Bottes de Will Killson": {
     "level": 120,
-    "name": "Bottes de Will Killson",
     "panoply": "Panoplie Meurtrière",
     "category": "Bottes",
     "stats": {
@@ -3302,9 +3061,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Bottes Vicieuses": {
     "level": 198,
-    "name": "Bottes Vicieuses",
     "panoply": "Panoplie Vicieuse",
     "category": "Bottes",
     "stats": {
@@ -3323,9 +3081,8 @@
       "criticalDamage": 8
     }
   },
-  {
+  "Bottes de Missiz Frizz": {
     "level": 196,
-    "name": "Bottes de Missiz Frizz",
     "panoply": "Panoplie de Missiz Frizz",
     "category": "Bottes",
     "stats": {
@@ -3347,9 +3104,8 @@
       "apResist": 6
     }
   },
-  {
+  "Bottes de Nileza": {
     "level": 199,
-    "name": "Bottes de Nileza",
     "panoply": "Panoplie de Nileza",
     "category": "Bottes",
     "stats": {
@@ -3367,9 +3123,8 @@
       "apReduction": 6
     }
   },
-  {
+  "Bottes du Comte Harebourg": {
     "level": 200,
-    "name": "Bottes du Comte Harebourg",
     "panoply": "Panoplie du Comte Harebourg",
     "category": "Bottes",
     "stats": {
@@ -3385,9 +3140,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Bottes du Sinistrofu": {
     "level": 200,
-    "name": "Bottes du Sinistrofu",
     "panoply": "Panoplie du Sinistrofu",
     "category": "Bottes",
     "stats": {
@@ -3405,9 +3159,8 @@
       "waterResist": 15
     }
   },
-  {
+  "Bottes du Cycloïde": {
     "level": 200,
-    "name": "Bottes du Cycloïde",
     "panoply": "Panoplie du Cycloïde",
     "category": "Bottes",
     "stats": {
@@ -3429,9 +3182,8 @@
       "pushbackDamage": -21
     }
   },
-  {
+  "Bottes du Strigide": {
     "level": 200,
-    "name": "Bottes du Strigide",
     "panoply": "Panoplie du Strigide",
     "category": "Bottes",
     "stats": {
@@ -3449,9 +3201,8 @@
       "criticalResist": -16
     }
   },
-  {
+  "Bottes du Nocturlabe": {
     "level": 200,
-    "name": "Bottes du Nocturlabe",
     "panoply": "Panoplie du Nocturlabe",
     "category": "Bottes",
     "stats": {
@@ -3468,9 +3219,8 @@
       "criticalDamage": -11
     }
   },
-  {
+  "Sandales Ouzi": {
     "level": 195,
-    "name": "Sandales Ouzi",
     "category": "Bottes",
     "stats": {
       "health": 350,
@@ -3489,9 +3239,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Bottes Dogues": {
     "level": 200,
-    "name": "Bottes Dogues",
     "category": "Bottes",
     "stats": {
       "health": 300,
@@ -3507,21 +3256,19 @@
       "apReduction": 7
     }
   },
-  {
+  "Justobottes": {
     "level": 59,
-    "name": "Justobottes",
     "category": "Bottes",
     "stats": {
       "intelligence": 40,
       "criticalChance": 2,
       "MP": 1,
       "fireDamage": 3,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "Bottes du Wabbit Céphale": {
     "level": 119,
-    "name": "Bottes du Wabbit Céphale",
     "panoply": "Panoplie du Wabbit Céphale",
     "category": "Bottes",
     "stats": {
@@ -3537,9 +3284,8 @@
       "apResist": -4
     }
   },
-  {
+  "Bottes du Wabbit Garou": {
     "level": 121,
-    "name": "Bottes du Wabbit Garou",
     "panoply": "Panoplie du Wabbit Garou",
     "category": "Bottes",
     "stats": {
@@ -3554,36 +3300,32 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Ailobottes": {
     "level": 10,
-    "name": "Ailobottes",
     "category": "Bottes",
     "stats": {
       "intelligence": 10,
       "agility": 10
     }
   },
-  {
+  "Dragoubottes Roses": {
     "level": 10,
-    "name": "Dragoubottes Roses",
     "category": "Bottes",
     "stats": {
       "health": 30,
       "power": 10
     }
   },
-  {
+  "Bottes Nō": {
     "level": 10,
-    "name": "Bottes Nō",
     "category": "Bottes",
     "stats": {
       "health": 15,
       "lock": 4
     }
   },
-  {
+  "Pikottes": {
     "level": 198,
-    "name": "Pikottes",
     "panoply": "Pikoplie",
     "category": "Bottes",
     "stats": {
@@ -3604,9 +3346,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Chaussures Hau": {
     "level": 196,
-    "name": "Chaussures Hau",
     "panoply": "Panoplie Obscure",
     "category": "Bottes",
     "stats": {
@@ -3627,9 +3368,8 @@
       "mpResist": -4
     }
   },
-  {
+  "Bottes Refois": {
     "level": 198,
-    "name": "Bottes Refois",
     "panoply": "Panoplie d'Ombre",
     "category": "Bottes",
     "stats": {
@@ -3647,9 +3387,8 @@
       "mpResist": 6
     }
   },
-  {
+  "Bottes du Père Fwetar": {
     "level": 197,
-    "name": "Bottes du Père Fwetar",
     "panoply": "Panoplie du Père Fwetar",
     "category": "Bottes",
     "stats": {
@@ -3671,9 +3410,8 @@
       "criticalResist": 30
     }
   },
-  {
+  "Bottes Donion": {
     "level": 41,
-    "name": "Bottes Donion",
     "panoply": "Panoplie d'Ambi Guman",
     "category": "Bottes",
     "stats": {
@@ -3685,9 +3423,8 @@
       "waterDamage": 3
     }
   },
-  {
+  "Bottes Karnaval": {
     "level": 20,
-    "name": "Bottes Karnaval",
     "panoply": "Panoplie Karnaval",
     "category": "Bottes",
     "stats": {
@@ -3700,9 +3437,8 @@
       "airDamage": 2
     }
   },
-  {
+  "Tongues de Nidas": {
     "level": 200,
-    "name": "Tongues de Nidas",
     "panoply": "Panoplie de Nidas",
     "category": "Bottes",
     "stats": {
@@ -3720,9 +3456,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Pantoufles du Piloztère": {
     "level": 200,
-    "name": "Pantoufles du Piloztère",
     "panoply": "Panoplie du Piloztère",
     "category": "Bottes",
     "stats": {
@@ -3742,9 +3477,8 @@
       "apResist": 7
     }
   },
-  {
+  "Bottes du Lévitrof": {
     "level": 200,
-    "name": "Bottes du Lévitrof",
     "panoply": "Panoplie du Lévitrof",
     "category": "Bottes",
     "stats": {
@@ -3762,9 +3496,8 @@
       "dodge": 15
     }
   },
-  {
+  "Bottes du Kamasterisk": {
     "level": 200,
-    "name": "Bottes du Kamasterisk",
     "panoply": "Panoplie du Kamasterisk",
     "category": "Bottes",
     "stats": {
@@ -3786,9 +3519,8 @@
       "pushbackResist": -11
     }
   },
-  {
+  "Bottes Phossiles": {
     "level": 151,
-    "name": "Bottes Phossiles",
     "panoply": "Panoplie Phossile",
     "category": "Bottes",
     "stats": {
@@ -3805,9 +3537,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Bottes Précieuses": {
     "level": 98,
-    "name": "Bottes Précieuses",
     "panoply": "Panoplie Précieuse",
     "category": "Bottes",
     "stats": {
@@ -3823,9 +3554,8 @@
       "dodge": 5
     }
   },
-  {
+  "Bottes du Berserkoffre": {
     "level": 102,
-    "name": "Bottes du Berserkoffre",
     "panoply": "Panoplie du Berserkoffre",
     "category": "Bottes",
     "stats": {
@@ -3841,17 +3571,15 @@
       "lock": 7
     }
   },
-  {
+  "Kamatongues": {
     "level": 1,
-    "name": "Kamatongues",
     "category": "Bottes",
     "stats": {
       "prospecting": 5
     }
   },
-  {
+  "Gruchaussures": {
     "level": 127,
-    "name": "Gruchaussures",
     "panoply": "Gruchoplie",
     "category": "Bottes",
     "stats": {
@@ -3866,9 +3594,8 @@
       "apResist": 6
     }
   },
-  {
+  "Bottes de la Cour Sombre": {
     "level": 200,
-    "name": "Bottes de la Cour Sombre",
     "panoply": "Panoplie de la Cour Sombre",
     "category": "Bottes",
     "stats": {
@@ -3885,9 +3612,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Bottes de la Reine des Voleurs": {
     "level": 200,
-    "name": "Bottes de la Reine des Voleurs",
     "panoply": "Panoplie de la Reine des Voleurs",
     "category": "Bottes",
     "stats": {
@@ -3903,9 +3629,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Bottes des Malveilleurs": {
     "level": 200,
-    "name": "Bottes des Malveilleurs",
     "panoply": "Panoplie des Malveilleurs",
     "category": "Bottes",
     "stats": {
@@ -3925,9 +3650,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Bottes du Katcheur": {
     "level": 200,
-    "name": "Bottes du Katcheur",
     "panoply": "Panoplie du Katcheur",
     "category": "Bottes",
     "stats": {
@@ -3947,9 +3671,8 @@
       "initiative": 600
     }
   },
-  {
+  "Bottes Nécrotiques": {
     "level": 177,
-    "name": "Bottes Nécrotiques",
     "panoply": "Panoplie Nécrotique",
     "category": "Bottes",
     "stats": {
@@ -3967,9 +3690,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Bottes de Dremoan": {
     "level": 180,
-    "name": "Bottes de Dremoan",
     "panoply": "Panoplie de Dremoan",
     "category": "Bottes",
     "stats": {
@@ -3984,9 +3706,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Bottes du Capitaine Ekarlatte": {
     "level": 130,
-    "name": "Bottes du Capitaine Ekarlatte",
     "panoply": "Panoplie du Capitaine Ekarlatte",
     "category": "Bottes",
     "stats": {
@@ -4004,9 +3725,8 @@
       "airResistPer": 7
     }
   },
-  {
+  "Bottes de Frakacia": {
     "level": 30,
-    "name": "Bottes de Frakacia",
     "panoply": "Panoplie de Frakacia Leukocytine",
     "category": "Bottes",
     "stats": {
@@ -4016,9 +3736,8 @@
       "initiative": 70
     }
   },
-  {
+  "Baleinabottes": {
     "level": 200,
-    "name": "Baleinabottes",
     "panoply": "Panoplie de la Baleine",
     "category": "Bottes",
     "stats": {
@@ -4034,13 +3753,12 @@
       "prospecting": 15,
       "waterResistPer": 10,
       "dodge": 7,
-      "apResist": 0,
+      "apResist": -5,
       "criticalResist": 15
     }
   },
-  {
+  "Pataugastrique": {
     "level": 200,
-    "name": "Pataugastrique",
     "panoply": "Panoplie des Krobes",
     "category": "Bottes",
     "stats": {
@@ -4056,12 +3774,11 @@
       "lock": 15,
       "apReduction": 5,
       "criticalDamage": 15,
-      "pushbackResist": 0
+      "pushbackResist": -20
     }
   },
-  {
+  "Bottes des égarés": {
     "level": 200,
-    "name": "Bottes des égarés",
     "panoply": "Panoplie des égarés",
     "category": "Bottes",
     "stats": {
@@ -4080,9 +3797,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Sabots de Vortex": {
     "level": 200,
-    "name": "Sabots de Vortex",
     "panoply": "Panoplie de Vortex",
     "category": "Bottes",
     "stats": {
@@ -4097,13 +3813,12 @@
       "heal": 12,
       "waterResistPer": 10,
       "apReduction": 5,
-      "mpResist": 0,
+      "mpResist": -10,
       "criticalResist": 20
     }
   },
-  {
+  "Bottarpille": {
     "level": 200,
-    "name": "Bottarpille",
     "panoply": "Harpinoplie",
     "category": "Bottes",
     "stats": {
@@ -4119,9 +3834,8 @@
       "mpResist": 25
     }
   },
-  {
+  "Bottes Owesli": {
     "level": 200,
-    "name": "Bottes Owesli",
     "panoply": "Panoplie Pnose",
     "category": "Bottes",
     "stats": {
@@ -4138,9 +3852,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Bottes de XLII": {
     "level": 176,
-    "name": "Bottes de XLII",
     "panoply": "Panoplie de XLII",
     "category": "Bottes",
     "stats": {
@@ -4158,9 +3871,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Pantoufles de Soissanth": {
     "level": 174,
-    "name": "Pantoufles de Soissanth",
     "panoply": "Panoplie de Soissanth",
     "category": "Bottes",
     "stats": {
@@ -4179,9 +3891,8 @@
       "dodge": 4
     }
   },
-  {
+  "Bottes Xélomorphes": {
     "level": 123,
-    "name": "Bottes Xélomorphes",
     "panoply": "Panoplie Xélomorphe",
     "category": "Bottes",
     "stats": {
@@ -4200,9 +3911,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bottes de Fouduglen": {
     "level": 10,
-    "name": "Bottes de Fouduglen",
     "panoply": "Panoplie Fouduglen",
     "category": "Bottes",
     "stats": {
@@ -4210,9 +3920,8 @@
       "pushbackDamage": 5
     }
   },
-  {
+  "Sandales des Fonds marins": {
     "level": 200,
-    "name": "Sandales des Fonds marins",
     "panoply": "Panoplie des Fonds marins",
     "category": "Bottes",
     "stats": {
@@ -4229,9 +3938,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Bottes Ransitoires": {
     "level": 100,
-    "name": "Bottes Ransitoires",
     "panoply": "Panoplie Transcendante",
     "category": "Bottes",
     "stats": {
@@ -4239,9 +3947,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes Soyeuses": {
     "level": 93,
-    "name": "Bottes Soyeuses",
     "panoply": "Panoplie de la Tisseuse",
     "category": "Bottes",
     "stats": {
@@ -4255,21 +3962,19 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Printatanes": {
     "level": 47,
-    "name": "Printatanes",
     "panoply": "Printanoplie",
     "category": "Bottes",
     "stats": {
       "power": 15,
       "MP": 1,
-      "range": 0,
+      "range": -1,
       "dodge": 3
     }
   },
-  {
+  "Cocobottes": {
     "level": 40,
-    "name": "Cocobottes",
     "category": "Bottes",
     "stats": {
       "health": 20,
@@ -4278,9 +3983,8 @@
       "mpResist": 3
     }
   },
-  {
+  "Bottes Voldelor": {
     "level": 200,
-    "name": "Bottes Voldelor",
     "panoply": "Panoplie de Voldelor",
     "category": "Bottes",
     "stats": {
@@ -4296,9 +4000,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Bottes du K.O.": {
     "level": 180,
-    "name": "Bottes du K.O.",
     "panoply": "Panoplie du K.O.",
     "category": "Bottes",
     "stats": {
@@ -4317,9 +4020,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Bottes des 1001 Griffes": {
     "level": 60,
-    "name": "Bottes des 1001 Griffes",
     "panoply": "Panoplie des 1001 Griffes",
     "category": "Bottes",
     "stats": {
@@ -4329,62 +4031,57 @@
       "mpResist": 5
     }
   },
-  {
+  "Bottes des Grocoricos": {
     "level": 30,
-    "name": "Bottes des Grocoricos",
     "panoply": "Panoplie des Grocoricos",
     "category": "Bottes",
     "stats": {
       "strength": 20,
       "chance": 20,
       "range": 1,
-      "mpResist": 0,
-      "criticalResist": 0
+      "mpResist": -15,
+      "criticalResist": -10
     }
   },
-  {
+  "Bottes des Redroz": {
     "level": 30,
-    "name": "Bottes des Redroz",
     "panoply": "Panoplie des Redroz",
     "category": "Bottes",
     "stats": {
-      "health": 0,
+      "health": -100,
       "intelligence": 20,
       "agility": 20,
-      "criticalChance": 0,
+      "criticalChance": -5,
       "range": 1
     }
   },
-  {
+  "Bottes des Pamous": {
     "level": 30,
-    "name": "Bottes des Pamous",
     "panoply": "Panoplie des Pamous",
     "category": "Bottes",
     "stats": {
       "chance": 20,
       "agility": 20,
       "range": 1,
-      "lock": 0,
-      "dodge": 0
+      "lock": -10,
+      "dodge": -10
     }
   },
-  {
+  "Bottes des Zoblaks": {
     "level": 30,
-    "name": "Bottes des Zoblaks",
     "panoply": "Panoplie des Zoblaks",
     "category": "Bottes",
     "stats": {
       "strength": 20,
       "intelligence": 20,
       "range": 1,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
-      "apResist": 0
+      "earthResistPer": -2,
+      "fireResistPer": -2,
+      "apResist": -10
     }
   },
-  {
+  "Bottes Initiales": {
     "level": 100,
-    "name": "Bottes Initiales",
     "panoply": "Panoplie Quadramentale",
     "category": "Bottes",
     "stats": {
@@ -4392,9 +4089,8 @@
       "MP": 1
     }
   },
-  {
+  "Souliers Pineux": {
     "level": 59,
-    "name": "Souliers Pineux",
     "category": "Bottes",
     "stats": {
       "health": 40,
@@ -4404,9 +4100,8 @@
       "fireDamage": 4
     }
   },
-  {
+  "Bottes de Marline": {
     "level": 30,
-    "name": "Bottes de Marline",
     "category": "Bottes",
     "stats": {
       "intelligence": 30,
@@ -4414,9 +4109,8 @@
       "fireDamage": 4
     }
   },
-  {
+  "Bottes du Monarque": {
     "level": 40,
-    "name": "Bottes du Monarque",
     "panoply": "Panoplie du Monarque",
     "category": "Bottes",
     "stats": {
@@ -4426,31 +4120,28 @@
       "lock": 3
     }
   },
-  {
+  "Bottes du Garde Royal": {
     "level": 38,
-    "name": "Bottes du Garde Royal",
     "panoply": "Panoplie du Garde Royal",
     "category": "Bottes",
     "stats": {
       "health": 30,
       "agility": 20,
       "MP": 1,
-      "initiative": 0,
-      "lock": 0,
-      "dodge": 0
+      "initiative": -150,
+      "lock": -15,
+      "dodge": -15
     }
   },
-  {
+  "Fecaflip": {
     "level": 2,
-    "name": "Fecaflip",
     "category": "Bottes",
     "stats": {
       "intelligence": 5
     }
   },
-  {
+  "Bottes du Roi Joueur": {
     "level": 200,
-    "name": "Bottes du Roi Joueur",
     "panoply": "Panoplie du Roi Joueur",
     "category": "Bottes",
     "stats": {
@@ -4466,13 +4157,12 @@
       "fireDamage": 15,
       "prospecting": 15,
       "waterResistPer": 10,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 6
     }
   },
-  {
+  "Bottes de la Dame du Hasard": {
     "level": 200,
-    "name": "Bottes de la Dame du Hasard",
     "panoply": "Panoplie de la Dame du Hasard",
     "category": "Bottes",
     "stats": {
@@ -4490,9 +4180,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Bottes du Chalœil": {
     "level": 200,
-    "name": "Bottes du Chalœil",
     "panoply": "Panoplie du Chalœil",
     "category": "Bottes",
     "stats": {
@@ -4515,9 +4204,8 @@
       "criticalResist": 20
     }
   },
-  {
+  "Sandales d'Atcham": {
     "level": 200,
-    "name": "Sandales d'Atcham",
     "panoply": "Panoplie d'Atcham",
     "category": "Bottes",
     "stats": {
@@ -4538,9 +4226,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Bottes de Ush": {
     "level": 163,
-    "name": "Bottes de Ush",
     "panoply": "Panoplie de Ush Galesh",
     "category": "Bottes",
     "stats": {
@@ -4557,9 +4244,8 @@
       "pushbackDamage": 12
     }
   },
-  {
+  "Bottes du Pounicheur": {
     "level": 118,
-    "name": "Bottes du Pounicheur",
     "panoply": "Panoplie du Pounicheur",
     "category": "Bottes",
     "stats": {
@@ -4575,9 +4261,8 @@
       "dodge": 7
     }
   },
-  {
+  "Bottes Dragocourse": {
     "level": 40,
-    "name": "Bottes Dragocourse",
     "panoply": "Panoplie Dragocourse",
     "category": "Bottes",
     "stats": {
@@ -4587,21 +4272,19 @@
       "summon": 1
     }
   },
-  {
+  "Sandalnéaires": {
     "level": 40,
-    "name": "Sandalnéaires",
     "category": "Bottes",
     "stats": {
       "health": 30,
       "intelligence": 20,
-      "criticalChance": 0,
+      "criticalChance": -5,
       "MP": 1,
-      "range": 0
+      "range": -1
     }
   },
-  {
+  "Bottes Innommables": {
     "level": 200,
-    "name": "Bottes Innommables",
     "panoply": "Panoplie des Profondeurs",
     "category": "Bottes",
     "stats": {
@@ -4616,9 +4299,8 @@
       "airResistPer": 7
     }
   },
-  {
+  "Palmes Trithons": {
     "level": 200,
-    "name": "Palmes Trithons",
     "panoply": "Panoplie des Abîmes",
     "category": "Bottes",
     "stats": {
@@ -4634,9 +4316,8 @@
       "mpResist": 12
     }
   },
-  {
+  "Tentassons": {
     "level": 200,
-    "name": "Tentassons",
     "panoply": "Poulplie",
     "category": "Bottes",
     "stats": {
@@ -4655,9 +4336,8 @@
       "apReduction": 6
     }
   },
-  {
+  "Bottes de Meno": {
     "level": 200,
-    "name": "Bottes de Meno",
     "panoply": "Panoplie de Meno",
     "category": "Bottes",
     "stats": {
@@ -4676,9 +4356,8 @@
       "mpReduction": 6
     }
   },
-  {
+  "Bottes de l'Indicible": {
     "level": 200,
-    "name": "Bottes de l'Indicible",
     "panoply": "Panoplie de l'Indicible",
     "category": "Bottes",
     "stats": {
@@ -4696,9 +4375,8 @@
       "dodge": 10
     }
   },
-  {
+  "Bottes Trithon": {
     "level": 200,
-    "name": "Bottes Trithon",
     "panoply": "Panoplie Trithon",
     "category": "Bottes",
     "stats": {
@@ -4715,9 +4393,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Bottes Ouroboulos": {
     "level": 83,
-    "name": "Bottes Ouroboulos",
     "panoply": "Panoplie Ouroboulos",
     "category": "Bottes",
     "stats": {
@@ -4732,9 +4409,8 @@
       "mpReduction": 3
     }
   },
-  {
+  "Chaussettenlaine": {
     "level": 50,
-    "name": "Chaussettenlaine",
     "panoply": "Panoplienlaine",
     "category": "Bottes",
     "stats": {
@@ -4742,12 +4418,11 @@
       "intelligence": 20,
       "MP": 1,
       "waterResistPer": 2,
-      "apResist": 0
+      "apResist": -15
     }
   },
-  {
+  "Chaussquales": {
     "level": 173,
-    "name": "Chaussquales",
     "panoply": "Pernoplie",
     "category": "Bottes",
     "stats": {
@@ -4764,9 +4439,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Sandales de Tal Kasha": {
     "level": 200,
-    "name": "Sandales de Tal Kasha",
     "panoply": "Panoplie de Tal Kasha",
     "category": "Bottes",
     "stats": {
@@ -4785,9 +4459,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Bottistik": {
     "level": 200,
-    "name": "Bottistik",
     "panoply": "Panoplistik",
     "category": "Bottes",
     "stats": {
@@ -4805,9 +4478,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Bottes Harcie": {
     "level": 100,
-    "name": "Bottes Harcie",
     "panoply": "Panoplie Enragée",
     "category": "Bottes",
     "stats": {
@@ -4815,9 +4487,8 @@
       "MP": 1
     }
   },
-  {
+  "Chaussons du Comte Razof": {
     "level": 193,
-    "name": "Chaussons du Comte Razof",
     "panoply": "Panoplie du Comte Razof",
     "category": "Bottes",
     "stats": {
@@ -4836,9 +4507,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Chaussures Face": {
     "level": 195,
-    "name": "Chaussures Face",
     "panoply": "Panoplie des Chassouilleurs",
     "category": "Bottes",
     "stats": {
@@ -4856,9 +4526,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Goulbottes": {
     "level": 200,
-    "name": "Goulbottes",
     "panoply": "Panoplie de la Goule",
     "category": "Bottes",
     "stats": {
@@ -4877,9 +4546,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Bottes de Choudini": {
     "level": 92,
-    "name": "Bottes de Choudini",
     "panoply": "Panoplie de Choudini",
     "category": "Bottes",
     "stats": {
@@ -4889,14 +4557,13 @@
       "MP": 1,
       "fireDamage": 3,
       "waterDamage": 3,
-      "initiative": 0,
+      "initiative": -200,
       "dodge": 4,
       "criticalDamage": 7
     }
   },
-  {
+  "Bottes du Cœur Vaillant": {
     "level": 200,
-    "name": "Bottes du Cœur Vaillant",
     "panoply": "Panoplie du Cœur Vaillant",
     "category": "Bottes",
     "stats": {
@@ -4915,9 +4582,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Bottes du Cœur Saignant": {
     "level": 200,
-    "name": "Bottes du Cœur Saignant",
     "panoply": "Panoplie du Cœur Saignant",
     "category": "Bottes",
     "stats": {
@@ -4932,21 +4598,20 @@
       "waterResistPer": 7,
       "airResistPer": 7,
       "lock": 7,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 7,
       "criticalDamage": 12
     }
   },
-  {
+  "Bottes de l'Esprit Salvateur": {
     "level": 200,
-    "name": "Bottes de l'Esprit Salvateur",
     "panoply": "Panoplie de l'Esprit Salvateur",
     "category": "Bottes",
     "stats": {
       "health": 350,
       "wisdom": 40,
       "power": 60,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "MP": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
@@ -4958,9 +4623,8 @@
       "dodge": 10
     }
   },
-  {
+  "Bottes de l'Esprit Malsain": {
     "level": 200,
-    "name": "Bottes de l'Esprit Malsain",
     "panoply": "Panoplie de l'Esprit Malsain",
     "category": "Bottes",
     "stats": {
@@ -4978,9 +4642,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Pompes Funèbres": {
     "level": 200,
-    "name": "Pompes Funèbres",
     "panoply": "Panoplie Brûlâme",
     "category": "Bottes",
     "stats": {
@@ -5001,16 +4664,15 @@
       "criticalResist": 20
     }
   },
-  {
+  "Chaussures Ardentes": {
     "level": 200,
-    "name": "Chaussures Ardentes",
     "panoply": "Panoplie Ardente",
     "category": "Bottes",
     "stats": {
       "health": 350,
       "intelligence": 80,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "MP": 1,
       "summon": 1,
       "fireDamage": 15,
@@ -5022,9 +4684,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Sabots Volcaniques": {
     "level": 200,
-    "name": "Sabots Volcaniques",
     "panoply": "Panoplie Volcanique",
     "category": "Bottes",
     "stats": {
@@ -5044,9 +4705,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Chaussons de Macrab": {
     "level": 200,
-    "name": "Chaussons de Macrab",
     "panoply": "Panoplie de Bethel",
     "category": "Bottes",
     "stats": {
@@ -5066,9 +4726,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Bottes Honyme": {
     "level": 200,
-    "name": "Bottes Honyme",
     "category": "Bottes",
     "stats": {
       "health": 350,
@@ -5085,12 +4744,11 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "airResistPer": 10,
-      "dodge": 0
+      "dodge": -10
     }
   },
-  {
+  "Bottes de Mille Lieues": {
     "level": 200,
-    "name": "Bottes de Mille Lieues",
     "category": "Bottes",
     "stats": {
       "health": 300,
@@ -5100,20 +4758,19 @@
       "initiative": 600,
       "airResistPer": 10,
       "dodge": 20,
-      "lock": 0,
+      "lock": -20,
       "mpResist": 20
     }
   },
-  {
+  "Bottes du Cul Botté": {
     "level": 200,
-    "name": "Bottes du Cul Botté",
     "category": "Bottes",
     "stats": {
       "health": 350,
       "wisdom": 40,
       "power": 40,
       "MP": 1,
-      "range": 0,
+      "range": -1,
       "neutralResistPer": 2,
       "earthResistPer": 2,
       "fireResistPer": 2,
@@ -5123,9 +4780,8 @@
       "pushbackDamage": 40
     }
   },
-  {
+  "Sandales Paztek": {
     "level": 200,
-    "name": "Sandales Paztek",
     "panoply": "Panoplie Paztek",
     "category": "Bottes",
     "stats": {
@@ -5133,20 +4789,19 @@
       "intelligence": 80,
       "chance": 80,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "MP": 1,
       "fireDamage": 15,
       "waterDamage": 15,
       "neutralResistPer": 10,
       "fireResistPer": 10,
       "lock": 10,
-      "criticalResist": 0,
+      "criticalResist": -30,
       "pushbackDamage": 20
     }
   },
-  {
+  "Mawabottes": {
     "level": 57,
-    "name": "Mawabottes",
     "panoply": "Panoplie du Mawabouaino",
     "category": "Bottes",
     "stats": {
@@ -5156,9 +4811,8 @@
       "dodge": 4
     }
   },
-  {
+  "Bottes Croquantes": {
     "level": 126,
-    "name": "Bottes Croquantes",
     "panoply": "Panoplie Croquante",
     "category": "Bottes",
     "stats": {
@@ -5172,9 +4826,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Bottes Lunaires": {
     "level": 200,
-    "name": "Bottes Lunaires",
     "panoply": "Panoplie Lunaire",
     "category": "Bottes",
     "stats": {
@@ -5191,9 +4844,8 @@
       "apResist": 6
     }
   },
-  {
+  "Solerets de Misère": {
     "level": 200,
-    "name": "Solerets de Misère",
     "panoply": "Panoplie de Misère",
     "category": "Bottes",
     "stats": {
@@ -5208,14 +4860,13 @@
       "waterDamage": 10,
       "airDamage": 10,
       "waterResistPer": 10,
-      "lock": 0,
+      "lock": -15,
       "mpResist": 10,
       "criticalDamage": 10
     }
   },
-  {
+  "Solerets de Guerre": {
     "level": 200,
-    "name": "Solerets de Guerre",
     "panoply": "Panoplie de Guerre",
     "category": "Bottes",
     "stats": {
@@ -5228,14 +4879,13 @@
       "neutralResistPer": 7,
       "waterResistPer": 7,
       "lock": 20,
-      "dodge": 0,
+      "dodge": -20,
       "mpReduction": 10,
       "criticalDamage": 15
     }
   },
-  {
+  "Boutures": {
     "level": 106,
-    "name": "Boutures",
     "panoply": "Panoplie Plantala",
     "category": "Bottes",
     "stats": {
@@ -5251,9 +4901,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Bottes de Brume": {
     "level": 156,
-    "name": "Bottes de Brume",
     "panoply": "Panoplie de Brume",
     "category": "Bottes",
     "stats": {
@@ -5262,7 +4911,7 @@
       "intelligence": 50,
       "chance": 50,
       "wisdom": 25,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "MP": 1,
       "neutralDamage": 5,
       "earthDamage": 5,
@@ -5274,9 +4923,8 @@
       "apReduction": 3
     }
   },
-  {
+  "Geta des Tombeaux": {
     "level": 166,
-    "name": "Geta des Tombeaux",
     "panoply": "Panoplie des Tombeaux",
     "category": "Bottes",
     "stats": {
@@ -5295,9 +4943,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Solerets Kritur": {
     "level": 200,
-    "name": "Solerets Kritur",
     "panoply": "Panoplie du Wukin",
     "category": "Bottes",
     "stats": {
@@ -5312,16 +4959,15 @@
       "earthResistPer": 5,
       "airResistPer": 5,
       "apReduction": 12,
-      "mpReduction": 0,
-      "apResist": 0,
+      "mpReduction": -12,
+      "apResist": -10,
       "mpResist": 10,
-      "criticalResist": 0,
+      "criticalResist": -25,
       "pushbackResist": 20
     }
   },
-  {
+  "Ciel de Foudre Noire": {
     "level": 200,
-    "name": "Ciel de Foudre Noire",
     "panoply": "Reliques de l'Aurore Pourpre",
     "category": "Bottes",
     "stats": {
@@ -5338,19 +4984,18 @@
       "airDamage": 6,
       "waterResistPer": 8,
       "airResistPer": 8,
-      "earthResistPer": 0,
-      "fireResistPer": 0,
+      "earthResistPer": -4,
+      "fireResistPer": -4,
       "dodge": 4,
-      "lock": 0,
+      "lock": -8,
       "apResist": 4,
-      "mpResist": 0,
-      "criticalResist": 0,
+      "mpResist": -8,
+      "criticalResist": -20,
       "pushbackResist": 10
     }
   },
-  {
+  "Bottes Crépitantes de Malter": {
     "level": 148,
-    "name": "Bottes Crépitantes de Malter",
     "panoply": "Panoplie des Malters",
     "category": "Bottes",
     "stats": {
@@ -5364,31 +5009,28 @@
       "mpReduction": 5
     }
   },
-  {
+  "Bottes du Directeur Grunob": {
     "level": 42,
-    "name": "Bottes du Directeur Grunob",
     "panoply": "Panoplie du Directeur Grunob",
     "category": "Bottes",
     "stats": {
       "health": 20,
       "power": 15,
       "MP": 1,
-      "lock": 0,
+      "lock": -15,
       "pushbackDamage": 5
     }
   },
-  {
+  "Geta Ankarton": {
     "level": 125,
-    "name": "Geta Ankarton",
     "panoply": "Panoplie Ankarton",
     "category": "Bottes",
     "stats": {
       "undefined": 1000
     }
   },
-  {
+  "Éternelle Poursuite": {
     "level": 200,
-    "name": "Éternelle Poursuite",
     "panoply": "Malédiction de Cire Momore",
     "category": "Bottes",
     "stats": {
@@ -5406,9 +5048,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Bottes des Rebelles": {
     "level": 52,
-    "name": "Bottes des Rebelles",
     "panoply": "Panoplie des Rebelles",
     "category": "Bottes",
     "stats": {
@@ -5416,13 +5057,12 @@
       "strength": 15,
       "intelligence": 15,
       "wisdom": 10,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "MP": 1
     }
   },
-  {
+  "Bottes de trappeur albueran": {
     "level": 54,
-    "name": "Bottes de trappeur albueran",
     "panoply": "Panoplie de trappeur albueran",
     "category": "Bottes",
     "stats": {
@@ -5430,13 +5070,12 @@
       "intelligence": 25,
       "agility": 25,
       "MP": 1,
-      "dodge": 0,
-      "apReduction": 0
+      "dodge": -10,
+      "apReduction": -10
     }
   },
-  {
+  "Jambières Hitaj": {
     "level": 100,
-    "name": "Jambières Hitaj",
     "panoply": "Panoplie de l'Héritage",
     "category": "Bottes",
     "stats": {
@@ -5444,9 +5083,8 @@
       "MP": 1
     }
   },
-  {
+  "Bottes du Captain Chafer": {
     "level": 200,
-    "name": "Bottes du Captain Chafer",
     "panoply": "Panoplie du Captain Chafer",
     "category": "Bottes",
     "stats": {
@@ -5465,11 +5103,10 @@
       "mpResist": 7
     }
   },
-  {
+  "Les Crâmptés": {
     "level": 1,
-    "name": "Les Crâmptés",
     "panoply": "Il n'y a pas de pano",
     "category": "Bottes",
     "stats": {}
   }
-]
+}

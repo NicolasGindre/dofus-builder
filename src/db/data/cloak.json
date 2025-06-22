@@ -1,15 +1,13 @@
-[
-  {
+{
+  "Cape du Pirate": {
     "level": 1,
-    "name": "Cape du Pirate",
     "category": "Cape",
     "stats": {
-      "MP": 0
+      "MP": -1
     }
   },
-  {
+  "Cape de Bowisse": {
     "level": 20,
-    "name": "Cape de Bowisse",
     "panoply": "Panoplie de Bowisse",
     "category": "Cape",
     "stats": {
@@ -17,9 +15,8 @@
       "dodge": 4
     }
   },
-  {
+  "Cape du Vampire": {
     "level": 29,
-    "name": "Cape du Vampire",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -28,9 +25,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Cape du Justicier": {
     "level": 30,
-    "name": "Cape du Justicier",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -38,9 +34,8 @@
       "heal": 5
     }
   },
-  {
+  "Cape du Poolay Chogrelotant": {
     "level": 33,
-    "name": "Cape du Poolay Chogrelotant",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -51,9 +46,8 @@
       "airResistPer": 2
     }
   },
-  {
+  "Cape Edépée": {
     "level": 22,
-    "name": "Cape Edépée",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -61,18 +55,16 @@
       "lock": 3
     }
   },
-  {
+  "Cape Ellinie": {
     "level": 14,
-    "name": "Cape Ellinie",
     "category": "Cape",
     "stats": {
       "health": 20,
       "agility": 15
     }
   },
-  {
+  "Cape Ulais": {
     "level": 14,
-    "name": "Cape Ulais",
     "category": "Cape",
     "stats": {
       "health": 25,
@@ -80,46 +72,41 @@
       "pushbackDamage": 4
     }
   },
-  {
+  "Cape Abilité": {
     "level": 17,
-    "name": "Cape Abilité",
     "category": "Cape",
     "stats": {
       "health": 30,
       "criticalChance": 3
     }
   },
-  {
+  "Cape Sulcorpe": {
     "level": 14,
-    "name": "Cape Sulcorpe",
     "category": "Cape",
     "stats": {
       "strength": 25,
       "earthDamage": 1
     }
   },
-  {
+  "Cape du Coq Hû": {
     "level": 44,
-    "name": "Cape du Coq Hû",
     "category": "Cape",
     "stats": {
       "chance": 15,
       "MP": 1,
-      "dodge": 0
+      "dodge": -15
     }
   },
-  {
+  "Cape de Mori Arty": {
     "level": 6,
-    "name": "Cape de Mori Arty",
     "category": "Cape",
     "stats": {
       "intelligence": 10,
-      "chance": 0
+      "chance": -10
     }
   },
-  {
+  "Cape Maj'Hic": {
     "level": 34,
-    "name": "Cape Maj'Hic",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -129,49 +116,44 @@
       "airResistPer": 2
     }
   },
-  {
+  "Cape Itou Lascione": {
     "level": 21,
-    "name": "Cape Itou Lascione",
     "category": "Cape",
     "stats": {
       "intelligence": 35
     }
   },
-  {
+  "Cape de Bonne Espérance": {
     "level": 30,
-    "name": "Cape de Bonne Espérance",
     "category": "Cape",
     "stats": {
       "health": 10,
-      "strength": 0,
+      "strength": -30,
       "chance": 30,
-      "criticalChance": 0,
+      "criticalChance": -4,
       "range": 1,
-      "earthDamage": 0,
+      "earthDamage": -2,
       "waterDamage": 2
     }
   },
-  {
+  "Cape de Rougeur": {
     "level": 16,
-    "name": "Cape de Rougeur",
     "category": "Cape",
     "stats": {
       "health": 30,
       "dodge": 3
     }
   },
-  {
+  "Cape Bleutée": {
     "level": 7,
-    "name": "Cape Bleutée",
     "category": "Cape",
     "stats": {
       "health": 10,
       "chance": 7
     }
   },
-  {
+  "Cape Sombre": {
     "level": 18,
-    "name": "Cape Sombre",
     "category": "Cape",
     "stats": {
       "health": 25,
@@ -179,23 +161,21 @@
       "lock": 3
     }
   },
-  {
+  "Abracape": {
     "level": 40,
-    "name": "Abracape",
     "panoply": "Abranoplie",
     "category": "Cape",
     "stats": {
       "health": 30,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -50,
+      "intelligence": -50,
+      "chance": -50,
+      "agility": -50,
       "AP": 1
     }
   },
-  {
+  "Cape du Mulou Fou": {
     "level": 33,
-    "name": "Cape du Mulou Fou",
     "category": "Cape",
     "stats": {
       "health": 60,
@@ -203,47 +183,42 @@
       "damage": 3
     }
   },
-  {
+  "Cape du Tofu Fou": {
     "level": 36,
-    "name": "Cape du Tofu Fou",
     "category": "Cape",
     "stats": {
       "agility": 60,
-      "wisdom": 0,
-      "AP": 0,
+      "wisdom": -30,
+      "AP": -1,
       "MP": 2
     }
   },
-  {
+  "La Samoulaille": {
     "level": 22,
-    "name": "La Samoulaille",
     "category": "Cape",
     "stats": {
       "health": 40,
       "damage": 4
     }
   },
-  {
+  "Cape Hilère": {
     "level": 34,
-    "name": "Cape Hilère",
     "category": "Cape",
     "stats": {
       "health": 120,
       "heal": 10
     }
   },
-  {
+  "Cape Rice": {
     "level": 32,
-    "name": "Cape Rice",
     "category": "Cape",
     "stats": {
-      "criticalChance": 0,
+      "criticalChance": -12,
       "range": 2
     }
   },
-  {
+  "La Boufteuse": {
     "level": 23,
-    "name": "La Boufteuse",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -251,9 +226,8 @@
       "lock": 5
     }
   },
-  {
+  "Dofusteuse": {
     "level": 200,
-    "name": "Dofusteuse",
     "category": "Cape",
     "stats": {
       "health": 350,
@@ -271,9 +245,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Cape Fulgurante": {
     "level": 55,
-    "name": "Cape Fulgurante",
     "panoply": "Panoplie Fulgurante",
     "category": "Cape",
     "stats": {
@@ -282,9 +255,8 @@
       "AP": 1
     }
   },
-  {
+  "Cape du Wa Wabbit": {
     "level": 60,
-    "name": "Cape du Wa Wabbit",
     "panoply": "Panoplie du Wa",
     "category": "Cape",
     "stats": {
@@ -294,9 +266,8 @@
       "lock": 7
     }
   },
-  {
+  "Ailes en bois": {
     "level": 20,
-    "name": "Ailes en bois",
     "panoply": "Panoplie prototype du pilote",
     "category": "Cape",
     "stats": {
@@ -305,9 +276,8 @@
       "initiative": 100
     }
   },
-  {
+  "La Mokette": {
     "level": 43,
-    "name": "La Mokette",
     "category": "Cape",
     "stats": {
       "health": 30,
@@ -316,20 +286,18 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Cape de Jules Yanos": {
     "level": 54,
-    "name": "Cape de Jules Yanos",
     "category": "Cape",
     "stats": {
-      "health": 0,
-      "wisdom": 0,
+      "health": -50,
+      "wisdom": -30,
       "MP": 1,
       "range": 1
     }
   },
-  {
+  "Cape d'Elya Wood": {
     "level": 80,
-    "name": "Cape d'Elya Wood",
     "panoply": "Panoplie d'Elya Wood",
     "category": "Cape",
     "stats": {
@@ -341,73 +309,64 @@
       "airResistPer": 2
     }
   },
-  {
+  "Petit Sac en Laine de Boufton": {
     "level": 1,
-    "name": "Petit Sac en Laine de Boufton",
     "category": "Cape",
     "stats": {
       "pods": 100
     }
   },
-  {
+  "Sac du Petit Récolteur": {
     "level": 6,
-    "name": "Sac du Petit Récolteur",
     "category": "Cape",
     "stats": {
       "pods": 250
     }
   },
-  {
+  "Sac du Petit Aventurier": {
     "level": 10,
-    "name": "Sac du Petit Aventurier",
     "category": "Cape",
     "stats": {
       "pods": 200
     }
   },
-  {
+  "Sac du Récolteur": {
     "level": 15,
-    "name": "Sac du Récolteur",
     "category": "Cape",
     "stats": {
       "pods": 400
     }
   },
-  {
+  "Sac du Grand Récolteur": {
     "level": 20,
-    "name": "Sac du Grand Récolteur",
     "category": "Cape",
     "stats": {
       "pods": 800
     }
   },
-  {
+  "Sac du Staca Noviste": {
     "level": 20,
-    "name": "Sac du Staca Noviste",
     "category": "Cape",
     "stats": {
       "pods": 1500
     }
   },
-  {
+  "Sac de l'Aventurier": {
     "level": 40,
-    "name": "Sac de l'Aventurier",
     "category": "Cape",
     "stats": {
       "pods": 300
     }
   },
-  {
+  "Sac du Grand Aventurier": {
     "level": 60,
-    "name": "Sac du Grand Aventurier",
     "category": "Cape",
     "stats": {
       "pods": 1000
     }
   },
-  {
+  "Cape Ouginak": {
     "level": 50,
-    "name": "Cape Ouginak",
     "panoply": "Panoplie Ouginakale",
     "category": "Cape",
     "stats": {
@@ -417,9 +376,8 @@
       "damage": 3
     }
   },
-  {
+  "Cape du Corbac": {
     "level": 45,
-    "name": "Cape du Corbac",
     "category": "Cape",
     "stats": {
       "health": 30,
@@ -428,21 +386,18 @@
       "airResistPer": 5
     }
   },
-  {
+  "Cape Brâkmarienne": {
     "level": 1,
-    "name": "Cape Brâkmarienne",
     "category": "Cape",
     "stats": {}
   },
-  {
+  "Cape Bontarienne": {
     "level": 1,
-    "name": "Cape Bontarienne",
     "category": "Cape",
     "stats": {}
   },
-  {
+  "Cape de Bou": {
     "level": 41,
-    "name": "Cape de Bou",
     "category": "Cape",
     "stats": {
       "health": 60,
@@ -451,9 +406,8 @@
       "airResistPer": 3
     }
   },
-  {
+  "Cape Flotteuse": {
     "level": 61,
-    "name": "Cape Flotteuse",
     "category": "Cape",
     "stats": {
       "health": 90,
@@ -462,9 +416,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Cape Maimpa": {
     "level": 36,
-    "name": "Cape Maimpa",
     "category": "Cape",
     "stats": {
       "health": 20,
@@ -473,9 +426,8 @@
       "initiative": 200
     }
   },
-  {
+  "Cape Sanguine": {
     "level": 49,
-    "name": "Cape Sanguine",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -485,9 +437,8 @@
       "fireResist": 10
     }
   },
-  {
+  "La Brouteuse": {
     "level": 88,
-    "name": "La Brouteuse",
     "category": "Cape",
     "stats": {
       "health": 50,
@@ -498,9 +449,8 @@
       "fireResistPer": 4
     }
   },
-  {
+  "La Guenille": {
     "level": 53,
-    "name": "La Guenille",
     "category": "Cape",
     "stats": {
       "criticalChance": 10,
@@ -508,9 +458,8 @@
       "initiative": 100
     }
   },
-  {
+  "La Poilue": {
     "level": 63,
-    "name": "La Poilue",
     "category": "Cape",
     "stats": {
       "health": 50,
@@ -520,9 +469,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Kwape de Flammes": {
     "level": 41,
-    "name": "Kwape de Flammes",
     "panoply": "Panoplie du Kwak de Flammes",
     "category": "Cape",
     "stats": {
@@ -532,9 +480,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Abracapa": {
     "level": 45,
-    "name": "Abracapa",
     "panoply": "Panoplie de l'Abraknyde",
     "category": "Cape",
     "stats": {
@@ -544,9 +491,8 @@
       "damage": 3
     }
   },
-  {
+  "Cape Bouffante": {
     "level": 20,
-    "name": "Cape Bouffante",
     "panoply": "Panoplie du Bouftou",
     "category": "Cape",
     "stats": {
@@ -554,9 +500,8 @@
       "initiative": 200
     }
   },
-  {
+  "Cape Bouffante Royale": {
     "level": 29,
-    "name": "Cape Bouffante Royale",
     "panoply": "Panoplie du Bouftou Royal",
     "category": "Cape",
     "stats": {
@@ -565,9 +510,8 @@
       "earthResistPer": 3
     }
   },
-  {
+  "Gelocape": {
     "level": 60,
-    "name": "Gelocape",
     "panoply": "Panoplie Gelax",
     "category": "Cape",
     "stats": {
@@ -575,9 +519,8 @@
       "prospecting": 20
     }
   },
-  {
+  "Cape de l'Aventurier": {
     "level": 8,
-    "name": "Cape de l'Aventurier",
     "panoply": "Panoplie du Jeune Aventurier",
     "category": "Cape",
     "stats": {
@@ -587,9 +530,8 @@
       "agility": 5
     }
   },
-  {
+  "Vegacape": {
     "level": 56,
-    "name": "Vegacape",
     "panoply": "Panoplie Végétatif",
     "category": "Cape",
     "stats": {
@@ -599,9 +541,8 @@
       "damage": 7
     }
   },
-  {
+  "Caracape": {
     "level": 60,
-    "name": "Caracape",
     "panoply": "Panoplie Tortue",
     "category": "Cape",
     "stats": {
@@ -612,9 +553,8 @@
       "prospecting": 10
     }
   },
-  {
+  "Kwape de Glace": {
     "level": 41,
-    "name": "Kwape de Glace",
     "panoply": "Panoplie du Kwak de Glace",
     "category": "Cape",
     "stats": {
@@ -624,9 +564,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Corbacape Mastralis": {
     "level": 127,
-    "name": "Corbacape Mastralis",
     "category": "Cape",
     "stats": {
       "health": 120,
@@ -639,9 +578,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Caracape Minotoris": {
     "level": 121,
-    "name": "Caracape Minotoris",
     "category": "Cape",
     "stats": {
       "agility": 20,
@@ -657,9 +595,8 @@
       "airResist": 15
     }
   },
-  {
+  "Corbacape": {
     "level": 108,
-    "name": "Corbacape",
     "panoply": "Panoplie du Corbac",
     "category": "Cape",
     "stats": {
@@ -673,9 +610,8 @@
       "pushbackDamage": 12
     }
   },
-  {
+  "Sac-Cawotte": {
     "level": 60,
-    "name": "Sac-Cawotte",
     "panoply": "Panoplie de la Cawotte",
     "category": "Cape",
     "stats": {
@@ -686,16 +622,15 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Cape Hucine": {
     "level": 71,
-    "name": "Cape Hucine",
     "category": "Cape",
     "stats": {
       "health": 100,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
       "wisdom": 40,
       "AP": 1,
       "summon": 2,
@@ -703,9 +638,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Cape de l'Homme Ours": {
     "level": 20,
-    "name": "Cape de l'Homme Ours",
     "panoply": "Panoplie de l'Homme Ours",
     "category": "Cape",
     "stats": {
@@ -713,9 +647,8 @@
       "lock": 5
     }
   },
-  {
+  "Kwape de Terre": {
     "level": 41,
-    "name": "Kwape de Terre",
     "panoply": "Panoplie du Kwak de Terre",
     "category": "Cape",
     "stats": {
@@ -725,9 +658,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Kwape de Vent": {
     "level": 41,
-    "name": "Kwape de Vent",
     "panoply": "Panoplie du Kwak de Vent",
     "category": "Cape",
     "stats": {
@@ -737,9 +669,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Fourbacapa": {
     "level": 101,
-    "name": "Fourbacapa",
     "panoply": "Panoplie du Chasseur Embusqué",
     "category": "Cape",
     "stats": {
@@ -754,9 +685,8 @@
       "lock": 6
     }
   },
-  {
+  "Cape de Farle": {
     "level": 76,
-    "name": "Cape de Farle",
     "panoply": "Panoplie de Farle Ingalsse",
     "category": "Cape",
     "stats": {
@@ -769,26 +699,23 @@
       "airResistPer": 3
     }
   },
-  {
+  "Capouze des Champs": {
     "level": 13,
-    "name": "Capouze des Champs",
     "panoply": "Panoplie Champêtre",
     "category": "Cape",
     "stats": {
       "strength": 20
     }
   },
-  {
+  "Cape Banale": {
     "level": 1,
-    "name": "Cape Banale",
     "category": "Cape",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Cape du Chef Bwork": {
     "level": 100,
-    "name": "Cape du Chef Bwork",
     "panoply": "Panoplie du Chef Bwork",
     "category": "Cape",
     "stats": {
@@ -802,9 +729,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Petit sac d'écolier du Chef Crocodaille": {
     "level": 70,
-    "name": "Petit sac d'écolier du Chef Crocodaille",
     "panoply": "Panoplie du Chef Crocodaille",
     "category": "Cape",
     "stats": {
@@ -817,15 +743,13 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Cape des Mercenaires d'Astrub": {
     "level": 1,
-    "name": "Cape des Mercenaires d'Astrub",
     "category": "Cape",
     "stats": {}
   },
-  {
+  "Sac du Petit Moskito": {
     "level": 16,
-    "name": "Sac du Petit Moskito",
     "panoply": "Panoplie Moskito",
     "category": "Cape",
     "stats": {
@@ -833,9 +757,8 @@
       "pods": 100
     }
   },
-  {
+  "Cape du Champ Champ": {
     "level": 11,
-    "name": "Cape du Champ Champ",
     "panoply": "Panoplie Champ Champ",
     "category": "Cape",
     "stats": {
@@ -843,9 +766,8 @@
       "lock": 5
     }
   },
-  {
+  "Cape du Prespic": {
     "level": 37,
-    "name": "Cape du Prespic",
     "panoply": "Panoplie du Prespic",
     "category": "Cape",
     "stats": {
@@ -856,9 +778,8 @@
       "dodge": 5
     }
   },
-  {
+  "Craquelocape": {
     "level": 61,
-    "name": "Craquelocape",
     "panoply": "Panoplie du Craqueleur",
     "category": "Cape",
     "stats": {
@@ -868,12 +789,11 @@
       "wisdom": 15,
       "fireResistPer": 5,
       "lock": 5,
-      "dodge": 0
+      "dodge": -5
     }
   },
-  {
+  "Scaracape Verte": {
     "level": 45,
-    "name": "Scaracape Verte",
     "panoply": "Panoplie du Scarafeuille Vert",
     "category": "Cape",
     "stats": {
@@ -883,9 +803,8 @@
       "earthResistPer": 5
     }
   },
-  {
+  "Scaracape Bleue": {
     "level": 45,
-    "name": "Scaracape Bleue",
     "panoply": "Panoplie du Scarafeuille Bleu",
     "category": "Cape",
     "stats": {
@@ -895,9 +814,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Scaracape Rouge": {
     "level": 45,
-    "name": "Scaracape Rouge",
     "panoply": "Panoplie du Scarafeuille Rouge",
     "category": "Cape",
     "stats": {
@@ -907,9 +825,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Scaracape Blanche": {
     "level": 45,
-    "name": "Scaracape Blanche",
     "panoply": "Panoplie du Scarafeuille Blanc",
     "category": "Cape",
     "stats": {
@@ -919,9 +836,8 @@
       "airResistPer": 5
     }
   },
-  {
+  "Cape du Mulou": {
     "level": 64,
-    "name": "Cape du Mulou",
     "panoply": "Panoplie du Mulou",
     "category": "Cape",
     "stats": {
@@ -933,9 +849,8 @@
       "prospecting": 5
     }
   },
-  {
+  "Cape Ricéfini": {
     "level": 46,
-    "name": "Cape Ricéfini",
     "category": "Cape",
     "stats": {
       "health": 60,
@@ -944,9 +859,8 @@
       "heal": 10
     }
   },
-  {
+  "Cape Hôte": {
     "level": 56,
-    "name": "Cape Hôte",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -957,9 +871,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Cape Houte": {
     "level": 105,
-    "name": "Cape Houte",
     "panoply": "Panododo",
     "category": "Cape",
     "stats": {
@@ -972,9 +885,8 @@
       "airResist": 10
     }
   },
-  {
+  "Cape du Désir O'Boul": {
     "level": 67,
-    "name": "Cape du Désir O'Boul",
     "panoply": "Panoplie O'Boul",
     "category": "Cape",
     "stats": {
@@ -985,9 +897,8 @@
       "initiative": 200
     }
   },
-  {
+  "Larvasac": {
     "level": 27,
-    "name": "Larvasac",
     "panoply": "Panoplie Larvesque",
     "category": "Cape",
     "stats": {
@@ -995,9 +906,8 @@
       "damage": 2
     }
   },
-  {
+  "Cape Huccino": {
     "level": 44,
-    "name": "Cape Huccino",
     "category": "Cape",
     "stats": {
       "health": 40,
@@ -1006,9 +916,8 @@
       "initiative": 200
     }
   },
-  {
+  "Ortiz": {
     "level": 125,
-    "name": "Ortiz",
     "category": "Cape",
     "stats": {
       "health": 200,
@@ -1020,9 +929,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Cape Pandawushu": {
     "level": 11,
-    "name": "Cape Pandawushu",
     "category": "Cape",
     "stats": {
       "health": 15,
@@ -1030,9 +938,8 @@
       "dodge": 3
     }
   },
-  {
+  "Cape Akwadala": {
     "level": 41,
-    "name": "Cape Akwadala",
     "panoply": "Panoplie Akwadala",
     "category": "Cape",
     "stats": {
@@ -1041,9 +948,8 @@
       "range": 1
     }
   },
-  {
+  "Cape Terrdala": {
     "level": 63,
-    "name": "Cape Terrdala",
     "panoply": "Panoplie Terrdala",
     "category": "Cape",
     "stats": {
@@ -1055,9 +961,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Cape Feudala": {
     "level": 92,
-    "name": "Cape Feudala",
     "panoply": "Panoplie Feudala",
     "category": "Cape",
     "stats": {
@@ -1069,9 +974,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Cape Aerdala": {
     "level": 65,
-    "name": "Cape Aerdala",
     "panoply": "Panoplie Aerdala",
     "category": "Cape",
     "stats": {
@@ -1083,9 +987,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Cape du Kitsou": {
     "level": 62,
-    "name": "Cape du Kitsou",
     "panoply": "Panoplie du Kitsou",
     "category": "Cape",
     "stats": {
@@ -1096,9 +999,8 @@
       "dodge": 5
     }
   },
-  {
+  "Cape Itaineflam": {
     "level": 148,
-    "name": "Cape Itaineflam",
     "category": "Cape",
     "stats": {
       "health": 200,
@@ -1117,18 +1019,16 @@
       "trapPower": 15
     }
   },
-  {
+  "Capodindo": {
     "level": 50,
-    "name": "Capodindo",
     "panoply": "Panoplie Dindo",
     "category": "Cape",
     "stats": {
       "MP": 1
     }
   },
-  {
+  "Cape du Boufcoul": {
     "level": 90,
-    "name": "Cape du Boufcoul",
     "panoply": "Panoplie du Boufcoul",
     "category": "Cape",
     "stats": {
@@ -1141,22 +1041,21 @@
       "fireDamage": 3,
       "airDamage": 3,
       "heal": 6,
-      "initiative": 0,
+      "initiative": -50,
       "airResistPer": 3,
       "mpResist": 4
     }
   },
-  {
+  "Sac du Koulosse": {
     "level": 69,
-    "name": "Sac du Koulosse",
     "panoply": "Panoplie du Koulosse",
     "category": "Cape",
     "stats": {
       "health": 200,
-      "strength": 0,
-      "intelligence": 0,
-      "chance": 0,
-      "agility": 0,
+      "strength": -100,
+      "intelligence": -100,
+      "chance": -100,
+      "agility": -100,
       "criticalChance": 5,
       "summon": 1,
       "damage": 10,
@@ -1166,9 +1065,8 @@
       "lock": 3
     }
   },
-  {
+  "Cape du Koalak": {
     "level": 61,
-    "name": "Cape du Koalak",
     "panoply": "Panoplie du Koalak",
     "category": "Cape",
     "stats": {
@@ -1179,9 +1077,8 @@
       "waterResistPer": 3
     }
   },
-  {
+  "Cape du Tofu": {
     "level": 26,
-    "name": "Cape du Tofu",
     "panoply": "Panoplie du Tofu",
     "category": "Cape",
     "stats": {
@@ -1190,9 +1087,8 @@
       "dodge": 3
     }
   },
-  {
+  "Scaracape Dorée": {
     "level": 58,
-    "name": "Scaracape Dorée",
     "panoply": "Panoplie du Scarabosse Doré",
     "category": "Cape",
     "stats": {
@@ -1203,9 +1099,8 @@
       "initiative": 200
     }
   },
-  {
+  "Sac du Paysan": {
     "level": 18,
-    "name": "Sac du Paysan",
     "panoply": "Panoplie du Paysan",
     "category": "Cape",
     "stats": {
@@ -1213,9 +1108,8 @@
       "pods": 200
     }
   },
-  {
+  "Scaracape Noire": {
     "level": 51,
-    "name": "Scaracape Noire",
     "panoply": "Panoplie du Scarafeuille Noir",
     "category": "Cape",
     "stats": {
@@ -1225,9 +1119,8 @@
       "trapPower": 20
     }
   },
-  {
+  "Craquelocape Légendaire": {
     "level": 84,
-    "name": "Craquelocape Légendaire",
     "panoply": "Panoplie du Craqueleur Légendaire",
     "category": "Cape",
     "stats": {
@@ -1240,9 +1133,8 @@
       "lock": 10
     }
   },
-  {
+  "Cape du Piou Rouge": {
     "level": 8,
-    "name": "Cape du Piou Rouge",
     "panoply": "Panoplie du Piou Rouge",
     "category": "Cape",
     "stats": {
@@ -1250,9 +1142,8 @@
       "summon": 1
     }
   },
-  {
+  "Cape du Piou Bleu": {
     "level": 7,
-    "name": "Cape du Piou Bleu",
     "panoply": "Panoplie du Piou Bleu",
     "category": "Cape",
     "stats": {
@@ -1260,9 +1151,8 @@
       "waterDamage": 1
     }
   },
-  {
+  "Cape du Piou Jaune": {
     "level": 10,
-    "name": "Cape du Piou Jaune",
     "panoply": "Panoplie du Piou Jaune",
     "category": "Cape",
     "stats": {
@@ -1270,9 +1160,8 @@
       "agility": 20
     }
   },
-  {
+  "Cape du Piou Violet": {
     "level": 12,
-    "name": "Cape du Piou Violet",
     "panoply": "Panoplie du Piou Violet",
     "category": "Cape",
     "stats": {
@@ -1280,9 +1169,8 @@
       "initiative": 50
     }
   },
-  {
+  "Cape du Piou Rose": {
     "level": 11,
-    "name": "Cape du Piou Rose",
     "panoply": "Panoplie du Piou Rose",
     "category": "Cape",
     "stats": {
@@ -1290,9 +1178,8 @@
       "heal": 5
     }
   },
-  {
+  "Cape du Piou Vert": {
     "level": 9,
-    "name": "Cape du Piou Vert",
     "panoply": "Panoplie du Piou Vert",
     "category": "Cape",
     "stats": {
@@ -1300,9 +1187,8 @@
       "earthDamage": 1
     }
   },
-  {
+  "Cape en Mousse": {
     "level": 20,
-    "name": "Cape en Mousse",
     "panoply": "Panoplie en Mousse",
     "category": "Cape",
     "stats": {
@@ -1310,9 +1196,8 @@
       "agility": 15
     }
   },
-  {
+  "Cape du Meulou": {
     "level": 139,
-    "name": "Cape du Meulou",
     "panoply": "Panoplie du Meulou",
     "category": "Cape",
     "stats": {
@@ -1328,9 +1213,8 @@
       "fireResistPer": 10
     }
   },
-  {
+  "Cape du Minotoror": {
     "level": 107,
-    "name": "Cape du Minotoror",
     "panoply": "Panoplie du Minotoror",
     "category": "Cape",
     "stats": {
@@ -1346,9 +1230,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Cape du Minotot": {
     "level": 156,
-    "name": "Cape du Minotot",
     "panoply": "Panoplie du Minotot",
     "category": "Cape",
     "stats": {
@@ -1361,9 +1244,8 @@
       "prospecting": 30
     }
   },
-  {
+  "Cape du Dragon Cochon": {
     "level": 103,
-    "name": "Cape du Dragon Cochon",
     "panoply": "Panoplie du Dragon Cochon",
     "category": "Cape",
     "stats": {
@@ -1378,9 +1260,8 @@
       "fireResistPer": 3
     }
   },
-  {
+  "Cape Dragoeuf": {
     "level": 125,
-    "name": "Cape Dragoeuf",
     "panoply": "Panoplie du Dragoeuf Cuirassé",
     "category": "Cape",
     "stats": {
@@ -1395,9 +1276,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Cape de Shika": {
     "level": 80,
-    "name": "Cape de Shika",
     "panoply": "Panoplie de Shika Ingalsse",
     "category": "Cape",
     "stats": {
@@ -1410,9 +1290,8 @@
       "fireResistPer": 5
     }
   },
-  {
+  "Cape du Papa Nowel": {
     "level": 19,
-    "name": "Cape du Papa Nowel",
     "panoply": "Panoplie de Nowel",
     "category": "Cape",
     "stats": {
@@ -1422,9 +1301,8 @@
       "dodge": 4
     }
   },
-  {
+  "Cape du Petit Chapon Rouge": {
     "level": 171,
-    "name": "Cape du Petit Chapon Rouge",
     "category": "Cape",
     "stats": {
       "intelligence": 70,
@@ -1437,9 +1315,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Cape du Mominotor": {
     "level": 111,
-    "name": "Cape du Mominotor",
     "panoply": "Panoplie du Mominotor",
     "category": "Cape",
     "stats": {
@@ -1454,9 +1331,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Cape du Rat Noir": {
     "level": 105,
-    "name": "Cape du Rat Noir",
     "panoply": "Panoplie du Rat Noir",
     "category": "Cape",
     "stats": {
@@ -1473,9 +1349,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Cape du Rat Blanc": {
     "level": 102,
-    "name": "Cape du Rat Blanc",
     "panoply": "Panoplie du Rat Blanc",
     "category": "Cape",
     "stats": {
@@ -1491,9 +1366,8 @@
       "mpReduction": 4
     }
   },
-  {
+  "Cape Cérémoniale du Seigneur des Rats": {
     "level": 130,
-    "name": "Cape Cérémoniale du Seigneur des Rats",
     "panoply": "Panoplie Cérémoniale",
     "category": "Cape",
     "stats": {
@@ -1511,9 +1385,8 @@
       "airResist": 6
     }
   },
-  {
+  "Abracapa Ancestrale": {
     "level": 112,
-    "name": "Abracapa Ancestrale",
     "panoply": "Panoplie Ancestrale",
     "category": "Cape",
     "stats": {
@@ -1529,9 +1402,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Cape Usée du Chêne Mou": {
     "level": 142,
-    "name": "Cape Usée du Chêne Mou",
     "panoply": "Panoplie du Chêne Mou",
     "category": "Cape",
     "stats": {
@@ -1548,19 +1420,17 @@
       "fireResist": 7
     }
   },
-  {
+  "La cape rouge": {
     "level": 11,
-    "name": "La cape rouge",
     "category": "Cape",
     "stats": {
       "intelligence": 20,
-      "wisdom": 0,
+      "wisdom": -10,
       "undefined": 0
     }
   },
-  {
+  "La Cape S'loque": {
     "level": 1,
-    "name": "La Cape S'loque",
     "panoply": "Panoplie du Boune",
     "category": "Cape",
     "stats": {
@@ -1568,117 +1438,104 @@
       "wisdom": 4
     }
   },
-  {
+  "Cape Aurale": {
     "level": 80,
-    "name": "Cape Aurale",
     "panoply": "Panoplie Téméraire",
     "category": "Cape",
     "stats": {
       "undefined": 13136
     }
   },
-  {
+  "Cape Aillé": {
     "level": 80,
-    "name": "Cape Aillé",
     "panoply": "Panoplie de Gouttière",
     "category": "Cape",
     "stats": {
       "undefined": 12845
     }
   },
-  {
+  "Cape Routh": {
     "level": 80,
-    "name": "Cape Routh",
     "panoply": "Panoplie Criminelle",
     "category": "Cape",
     "stats": {
       "undefined": 12908
     }
   },
-  {
+  "Cape Huchon": {
     "level": 80,
-    "name": "Cape Huchon",
     "panoply": "Panoplie Intemporelle",
     "category": "Cape",
     "stats": {
       "undefined": 13243
     }
   },
-  {
+  "Cape Sulhit": {
     "level": 80,
-    "name": "Cape Sulhit",
     "panoply": "Panoplie Altruiste",
     "category": "Cape",
     "stats": {
       "undefined": 25866
     }
   },
-  {
+  "Cape Hitton": {
     "level": 80,
-    "name": "Cape Hitton",
     "panoply": "Panoplie Sauvage",
     "category": "Cape",
     "stats": {
       "undefined": 13515
     }
   },
-  {
+  "Cape Ytale": {
     "level": 80,
-    "name": "Cape Ytale",
     "panoply": "Panoplie Exsangue",
     "category": "Cape",
     "stats": {
       "undefined": 12724
     }
   },
-  {
+  "Cape Lyne": {
     "level": 80,
-    "name": "Cape Lyne",
     "panoply": "Panoplie de l'Innombrable",
     "category": "Cape",
     "stats": {
       "undefined": 12600
     }
   },
-  {
+  "Cape Wéra": {
     "level": 80,
-    "name": "Cape Wéra",
     "panoply": "Panoplie Ethylique",
     "category": "Cape",
     "stats": {
       "undefined": 12783
     }
   },
-  {
+  "Cape Hulco": {
     "level": 80,
-    "name": "Cape Hulco",
     "panoply": "Panoplie du Prince des voleurs",
     "category": "Cape",
     "stats": {
       "undefined": 13056
     }
   },
-  {
+  "Cape Hadosse": {
     "level": 80,
-    "name": "Cape Hadosse",
     "panoply": "Panoplie Indestructible",
     "category": "Cape",
     "stats": {
       "undefined": 13020
     }
   },
-  {
+  "Cape Haharnum": {
     "level": 80,
-    "name": "Cape Haharnum",
     "panoply": "Panoplie Vénérable",
     "category": "Cape",
     "stats": {
       "undefined": 13354
     }
   },
-  {
+  "Cape Souveraine du Roissingue": {
     "level": 152,
-    "name": "Cape Souveraine du Roissingue",
     "panoply": "Panoplie Souveraine",
     "category": "Cape",
     "stats": {
@@ -1695,9 +1552,8 @@
       "waterResist": 10
     }
   },
-  {
+  "Cape de la Ouassingue": {
     "level": 103,
-    "name": "Cape de la Ouassingue",
     "panoply": "Panoplie Vassale",
     "category": "Cape",
     "stats": {
@@ -1710,16 +1566,15 @@
       "earthDamage": 3,
       "waterDamage": 3,
       "heal": 6,
-      "initiative": 0,
+      "initiative": -200,
       "earthResistPer": 3,
       "waterResistPer": 3,
       "dodge": 5,
       "mpReduction": 3
     }
   },
-  {
+  "Puissante Cape Fulgurante": {
     "level": 110,
-    "name": "Puissante Cape Fulgurante",
     "panoply": "Puissante Panoplie Fulgurante",
     "category": "Cape",
     "stats": {
@@ -1729,9 +1584,8 @@
       "damage": 5
     }
   },
-  {
+  "Cape de la Meupette": {
     "level": 61,
-    "name": "Cape de la Meupette",
     "category": "Cape",
     "stats": {
       "health": 60,
@@ -1741,9 +1595,8 @@
       "heal": 3
     }
   },
-  {
+  "Voile d'encre": {
     "level": 191,
-    "name": "Voile d'encre",
     "category": "Cape",
     "stats": {
       "health": 350,
@@ -1758,9 +1611,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Ailes en bois améliorées": {
     "level": 30,
-    "name": "Ailes en bois améliorées",
     "panoply": "Panoplie améliorée du pilote",
     "category": "Cape",
     "stats": {
@@ -1769,9 +1621,8 @@
       "pods": 200
     }
   },
-  {
+  "Caprin": {
     "level": 181,
-    "name": "Caprin",
     "panoply": "Panoplignon",
     "category": "Cape",
     "stats": {
@@ -1786,9 +1637,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Capignon": {
     "level": 190,
-    "name": "Capignon",
     "panoply": "Panoplie Tue-Mouche",
     "category": "Cape",
     "stats": {
@@ -1804,9 +1654,8 @@
       "neutralResist": 10
     }
   },
-  {
+  "Cape Erforée": {
     "level": 185,
-    "name": "Cape Erforée",
     "panoply": "Panoplie du Bworker Berserker",
     "category": "Cape",
     "stats": {
@@ -1822,9 +1671,8 @@
       "trapPower": 30
     }
   },
-  {
+  "Cape du Vampyre": {
     "level": 41,
-    "name": "Cape du Vampyre",
     "panoply": "Panoplie du Vampyre maudit",
     "category": "Cape",
     "stats": {
@@ -1834,9 +1682,8 @@
       "undefined": 1
     }
   },
-  {
+  "Cape du Roks Or": {
     "level": 54,
-    "name": "Cape du Roks Or",
     "panoply": "Panoplie du Roks Or",
     "category": "Cape",
     "stats": {
@@ -1845,9 +1692,8 @@
       "damage": 4
     }
   },
-  {
+  "Cape de l'intrépide": {
     "level": 1,
-    "name": "Cape de l'intrépide",
     "panoply": "Panoplie de l'intrépide",
     "category": "Cape",
     "stats": {
@@ -1856,9 +1702,8 @@
       "undefined": 0
     }
   },
-  {
+  "Banana Cape": {
     "level": 28,
-    "name": "Banana Cape",
     "category": "Cape",
     "stats": {
       "health": 60,
@@ -1866,9 +1711,8 @@
       "initiative": 150
     }
   },
-  {
+  "Phéro-Cape": {
     "level": 61,
-    "name": "Phéro-Cape",
     "category": "Cape",
     "stats": {
       "health": 50,
@@ -1878,17 +1722,15 @@
       "pods": 150
     }
   },
-  {
+  "Sac ripant": {
     "level": 20,
-    "name": "Sac ripant",
     "category": "Cape",
     "stats": {
       "pods": 300
     }
   },
-  {
+  "Grésilocape": {
     "level": 194,
-    "name": "Grésilocape",
     "panoply": "Panoplie Grésil",
     "category": "Cape",
     "stats": {
@@ -1906,9 +1748,8 @@
       "airResist": 10
     }
   },
-  {
+  "Cape du Mansot Royal": {
     "level": 144,
-    "name": "Cape du Mansot Royal",
     "panoply": "Panoplie du Mansot Royal",
     "category": "Cape",
     "stats": {
@@ -1927,9 +1768,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Cape de l'Obsidiantre": {
     "level": 163,
-    "name": "Cape de l'Obsidiantre",
     "panoply": "Panoplie de l'Obsidiantre",
     "category": "Cape",
     "stats": {
@@ -1950,9 +1790,8 @@
       "pushbackResist": 10
     }
   },
-  {
+  "Cape Ricieuse": {
     "level": 131,
-    "name": "Cape Ricieuse",
     "category": "Cape",
     "stats": {
       "health": 150,
@@ -1972,9 +1811,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Cape Tivante": {
     "level": 161,
-    "name": "Cape Tivante",
     "panoply": "Panoplie du frigostien envoûtant",
     "category": "Cape",
     "stats": {
@@ -1992,9 +1830,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Cape de Tengu Givrefoux": {
     "level": 177,
-    "name": "Cape de Tengu Givrefoux",
     "panoply": "Panoplie du Tengu Givrefoux",
     "category": "Cape",
     "stats": {
@@ -2013,9 +1850,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Cape du Korriandre": {
     "level": 179,
-    "name": "Cape du Korriandre",
     "panoply": "Panoplie du Korriandre",
     "category": "Cape",
     "stats": {
@@ -2035,9 +1871,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Cape du Glourséleste": {
     "level": 197,
-    "name": "Cape du Glourséleste",
     "panoply": "Panoplie du Glourséleste",
     "category": "Cape",
     "stats": {
@@ -2058,9 +1893,8 @@
       "mpReduction": 5
     }
   },
-  {
+  "Cape Surde": {
     "level": 176,
-    "name": "Cape Surde",
     "category": "Cape",
     "stats": {
       "health": 250,
@@ -2080,9 +1914,8 @@
       "apResist": -4
     }
   },
-  {
+  "Cape Peupret": {
     "level": 182,
-    "name": "Cape Peupret",
     "panoply": "Panoplie du frigostien approximatif",
     "category": "Cape",
     "stats": {
@@ -2106,9 +1939,8 @@
       "mpResist": -5
     }
   },
-  {
+  "Cape Hiculteur": {
     "level": 196,
-    "name": "Cape Hiculteur",
     "panoply": "Panoplie de l'Apiculteur",
     "category": "Cape",
     "stats": {
@@ -2129,9 +1961,8 @@
       "mpResist": 5
     }
   },
-  {
+  "Cape du Boostache": {
     "level": 41,
-    "name": "Cape du Boostache",
     "panoply": "Panoplie du Boostache",
     "category": "Cape",
     "stats": {
@@ -2140,9 +1971,8 @@
       "lock": 6
     }
   },
-  {
+  "Cape de Nelween": {
     "level": 71,
-    "name": "Cape de Nelween",
     "panoply": "Panoplie de Nelween",
     "category": "Cape",
     "stats": {
@@ -2154,9 +1984,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Cape Mouthante": {
     "level": 124,
-    "name": "Cape Mouthante",
     "panoply": "Panoplie Moutheuze",
     "category": "Cape",
     "stats": {
@@ -2170,9 +1999,8 @@
       "lock": 10
     }
   },
-  {
+  "Cape de Cantile": {
     "level": 153,
-    "name": "Cape de Cantile",
     "panoply": "Panoplie de Cantile",
     "category": "Cape",
     "stats": {
@@ -2193,9 +2021,8 @@
       "apResist": 4
     }
   },
-  {
+  "Cape du Professeur Xa": {
     "level": 194,
-    "name": "Cape du Professeur Xa",
     "panoply": "Panoplie du Professeur Xa",
     "category": "Cape",
     "stats": {
@@ -2217,9 +2044,8 @@
       "waterResistPer": 4
     }
   },
-  {
+  "Cape de la Fuji Givrefoux": {
     "level": 193,
-    "name": "Cape de la Fuji Givrefoux",
     "panoply": "Panoplie de la Fuji Givrefoux",
     "category": "Cape",
     "stats": {
@@ -2239,9 +2065,8 @@
       "pushbackDamage": 10
     }
   },
-  {
+  "Cape du Gorgouille": {
     "level": 99,
-    "name": "Cape du Gorgouille",
     "panoply": "Panoplie du Gorgouille",
     "category": "Cape",
     "stats": {
@@ -2259,27 +2084,24 @@
       "pushbackDamage": 8
     }
   },
-  {
+  "Cape Endaison": {
     "level": 80,
-    "name": "Cape Endaison",
     "panoply": "Panoplie Explosive",
     "category": "Cape",
     "stats": {
       "undefined": 13488
     }
   },
-  {
+  "Cape Aircussion": {
     "level": 80,
-    "name": "Cape Aircussion",
     "panoply": "Panoplie Lunatique",
     "category": "Cape",
     "stats": {
       "undefined": 13420
     }
   },
-  {
+  "Cape du Krokilleur": {
     "level": 101,
-    "name": "Cape du Krokilleur",
     "panoply": "Panoplie du Krokilleur",
     "category": "Cape",
     "stats": {
@@ -2297,9 +2119,8 @@
       "criticalResist": 6
     }
   },
-  {
+  "Sac de Voyage du Parfait Petit Vulkain": {
     "level": 50,
-    "name": "Sac de Voyage du Parfait Petit Vulkain",
     "panoply": "Panoplie du Vulkain",
     "category": "Cape",
     "stats": {
@@ -2309,9 +2130,8 @@
       "dodge": 4
     }
   },
-  {
+  "Manteau du Glutin": {
     "level": 25,
-    "name": "Manteau du Glutin",
     "panoply": "Panoplie du Glutin",
     "category": "Cape",
     "stats": {
@@ -2321,9 +2141,8 @@
       "dodge": 3
     }
   },
-  {
+  "Cape du Nowel Cauchemardesque": {
     "level": 150,
-    "name": "Cape du Nowel Cauchemardesque",
     "panoply": "Panoplie du Nowel Cauchemardesque",
     "category": "Cape",
     "stats": {
@@ -2338,9 +2157,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Sacoche de Redolphe": {
     "level": 85,
-    "name": "Sacoche de Redolphe",
     "panoply": "Panoplie de Redolphe",
     "category": "Cape",
     "stats": {
@@ -2353,9 +2171,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Cape de Léthaline": {
     "level": 194,
-    "name": "Cape de Léthaline",
     "panoply": "Panoplie de Léthaline Sigisbul",
     "category": "Cape",
     "stats": {
@@ -2373,9 +2190,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Cape d'Ogivol": {
     "level": 186,
-    "name": "Cape d'Ogivol",
     "panoply": "Panoplie d'Ogivol Scalarcin",
     "category": "Cape",
     "stats": {
@@ -2395,9 +2211,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Cape Reski": {
     "level": 198,
-    "name": "Cape Reski",
     "category": "Cape",
     "stats": {
       "undefined": 93,
@@ -2416,18 +2231,16 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Sac Rebleux": {
     "level": 80,
-    "name": "Sac Rebleux",
     "panoply": "Panoplie Submersible",
     "category": "Cape",
     "stats": {
       "undefined": 13849
     }
   },
-  {
+  "Capitrouille": {
     "level": 101,
-    "name": "Capitrouille",
     "panoply": "Panoplitrouille",
     "category": "Cape",
     "stats": {
@@ -2446,16 +2259,15 @@
       "criticalResist": 8
     }
   },
-  {
+  "Coffresac du Koalak": {
     "level": 127,
-    "name": "Coffresac du Koalak",
     "category": "Cape",
     "stats": {
       "health": 200,
       "strength": 40,
       "wisdom": 30,
       "criticalChance": 5,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 8,
       "earthDamage": 8,
       "initiative": 400,
@@ -2466,9 +2278,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Cape de Nevark": {
     "level": 196,
-    "name": "Cape de Nevark",
     "panoply": "Panoplie de Nevark",
     "category": "Cape",
     "stats": {
@@ -2487,9 +2298,8 @@
       "criticalDamage": -16
     }
   },
-  {
+  "Cape de Théodoran Ax": {
     "level": 198,
-    "name": "Cape de Théodoran Ax",
     "panoply": "Panoplie de Théodoran Ax",
     "category": "Cape",
     "stats": {
@@ -2509,9 +2319,8 @@
       "criticalDamage": -16
     }
   },
-  {
+  "Cape d'Hel Munster": {
     "level": 194,
-    "name": "Cape d'Hel Munster",
     "panoply": "Panoplie d'Hel Munster",
     "category": "Cape",
     "stats": {
@@ -2533,9 +2342,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Cape d'Aermyne": {
     "level": 196,
-    "name": "Cape d'Aermyne",
     "panoply": "Panoplie d'Aermyne",
     "category": "Cape",
     "stats": {
@@ -2554,9 +2362,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Cape Matelassée": {
     "level": 196,
-    "name": "Cape Matelassée",
     "panoply": "Panoplit",
     "category": "Cape",
     "stats": {
@@ -2577,9 +2384,8 @@
       "criticalResist": -7
     }
   },
-  {
+  "Pèlerine d'Augilol": {
     "level": 151,
-    "name": "Pèlerine d'Augilol",
     "category": "Cape",
     "stats": {
       "health": 300,
@@ -2595,9 +2401,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Cape de Klime": {
     "level": 197,
-    "name": "Cape de Klime",
     "panoply": "Panoplie de Klime",
     "category": "Cape",
     "stats": {
@@ -2613,9 +2418,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Cape Glaciale": {
     "level": 197,
-    "name": "Cape Glaciale",
     "panoply": "Panoplie Glaciale",
     "category": "Cape",
     "stats": {
@@ -2631,9 +2435,8 @@
       "dodge": 15
     }
   },
-  {
+  "Cape de Nileza": {
     "level": 198,
-    "name": "Cape de Nileza",
     "panoply": "Panoplie de Nileza",
     "category": "Cape",
     "stats": {
@@ -2648,9 +2451,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Cape de Sylargh": {
     "level": 198,
-    "name": "Cape de Sylargh",
     "panoply": "Panoplie de Sylargh",
     "category": "Cape",
     "stats": {
@@ -2666,9 +2468,8 @@
       "mpResist": 6
     }
   },
-  {
+  "Cape du Kanimate": {
     "level": 198,
-    "name": "Cape du Kanimate",
     "panoply": "Panoplie du Kanimate",
     "category": "Cape",
     "stats": {
@@ -2687,9 +2488,8 @@
       "pushbackResist": -16
     }
   },
-  {
+  "Cape du Sinistrofu": {
     "level": 200,
-    "name": "Cape du Sinistrofu",
     "panoply": "Panoplie du Sinistrofu",
     "category": "Cape",
     "stats": {
@@ -2707,9 +2507,8 @@
       "dodge": 12
     }
   },
-  {
+  "Cape Lati": {
     "level": 200,
-    "name": "Cape Lati",
     "category": "Cape",
     "stats": {
       "health": 300,
@@ -2729,9 +2528,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Cape Ovri": {
     "level": 200,
-    "name": "Cape Ovri",
     "panoply": "Panoplie du Bonimenteur",
     "category": "Cape",
     "stats": {
@@ -2749,9 +2547,8 @@
       "lock": -11
     }
   },
-  {
+  "Cape au Logis": {
     "level": 198,
-    "name": "Cape au Logis",
     "category": "Cape",
     "stats": {
       "health": 350,
@@ -2766,9 +2563,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Cape du Wa Wobot": {
     "level": 81,
-    "name": "Cape du Wa Wobot",
     "panoply": "Panoplie du Wa Wobot",
     "category": "Cape",
     "stats": {
@@ -2783,9 +2579,8 @@
       "dodge": 3
     }
   },
-  {
+  "Cape du Wabbit Garou": {
     "level": 119,
-    "name": "Cape du Wabbit Garou",
     "panoply": "Panoplie du Wabbit Garou",
     "category": "Cape",
     "stats": {
@@ -2800,9 +2595,8 @@
       "criticalDamage": 10
     }
   },
-  {
+  "Cape Parition": {
     "level": 197,
-    "name": "Cape Parition",
     "panoply": "Panoplie du Cartographe",
     "category": "Cape",
     "stats": {
@@ -2822,9 +2616,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Cape des Justiciers": {
     "level": 200,
-    "name": "Cape des Justiciers",
     "panoply": "Panoplie des Justiciers",
     "category": "Cape",
     "stats": {
@@ -2844,9 +2637,8 @@
       "airResistPer": 10
     }
   },
-  {
+  "Cape de Flèche Mauve": {
     "level": 109,
-    "name": "Cape de Flèche Mauve",
     "panoply": "Panoplie de Flèche Mauve",
     "category": "Cape",
     "stats": {
@@ -2860,9 +2652,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Caponion": {
     "level": 40,
-    "name": "Caponion",
     "panoply": "Panoplie d'Ambi Guman",
     "category": "Cape",
     "stats": {
@@ -2873,9 +2664,8 @@
       "lock": 3
     }
   },
-  {
+  "Cape du Kaniblou": {
     "level": 160,
-    "name": "Cape du Kaniblou",
     "panoply": "Panoplie du Kaniblou",
     "category": "Cape",
     "stats": {
@@ -2891,9 +2681,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Cape du Barbétoal": {
     "level": 200,
-    "name": "Cape du Barbétoal",
     "panoply": "Panoplie du Barbétoal",
     "category": "Cape",
     "stats": {
@@ -2912,9 +2701,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Cape du Kamasterisk": {
     "level": 200,
-    "name": "Cape du Kamasterisk",
     "panoply": "Panoplie du Kamasterisk",
     "category": "Cape",
     "stats": {
@@ -2933,9 +2721,8 @@
       "apResist": 7
     }
   },
-  {
+  "Cape Phossile": {
     "level": 149,
-    "name": "Cape Phossile",
     "panoply": "Panoplie Phossile",
     "category": "Cape",
     "stats": {
@@ -2950,9 +2737,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Cape du Père Phorreur": {
     "level": 146,
-    "name": "Cape du Père Phorreur",
     "panoply": "Panoplie du Père Phorreur",
     "category": "Cape",
     "stats": {
@@ -2969,9 +2755,8 @@
       "criticalResist": 10
     }
   },
-  {
+  "Cape Précieuse": {
     "level": 104,
-    "name": "Cape Précieuse",
     "panoply": "Panoplie Précieuse",
     "category": "Cape",
     "stats": {
@@ -2988,9 +2773,8 @@
       "dodge": 10
     }
   },
-  {
+  "Gruchape": {
     "level": 130,
-    "name": "Gruchape",
     "panoply": "Gruchoplie",
     "category": "Cape",
     "stats": {
@@ -3006,9 +2790,8 @@
       "apResist": 7
     }
   },
-  {
+  "Cape de la Cour Sombre": {
     "level": 200,
-    "name": "Cape de la Cour Sombre",
     "panoply": "Panoplie de la Cour Sombre",
     "category": "Cape",
     "stats": {
@@ -3025,9 +2808,8 @@
       "apReduction": 6
     }
   },
-  {
+  "Cape des Malveilleurs": {
     "level": 200,
-    "name": "Cape des Malveilleurs",
     "panoply": "Panoplie des Malveilleurs",
     "category": "Cape",
     "stats": {
@@ -3046,9 +2828,8 @@
       "pushbackDamage": 30
     }
   },
-  {
+  "Cape Nécrotique": {
     "level": 182,
-    "name": "Cape Nécrotique",
     "panoply": "Panoplie Nécrotique",
     "category": "Cape",
     "stats": {
@@ -3066,9 +2847,8 @@
       "apReduction": 5
     }
   },
-  {
+  "Cape de Dremoan": {
     "level": 182,
-    "name": "Cape de Dremoan",
     "panoply": "Panoplie de Dremoan",
     "category": "Cape",
     "stats": {
@@ -3085,9 +2865,8 @@
       "pushbackResist": 30
     }
   },
-  {
+  "Cape d'Ali Grothor": {
     "level": 126,
-    "name": "Cape d'Ali Grothor",
     "panoply": "Panoplie d'Ali Grothor",
     "category": "Cape",
     "stats": {
@@ -3101,9 +2880,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Capchalot": {
     "level": 200,
-    "name": "Capchalot",
     "panoply": "Panoplie de la Baleine",
     "category": "Cape",
     "stats": {
@@ -3120,9 +2898,8 @@
       "pushbackResist": 15
     }
   },
-  {
+  "Voilamibe": {
     "level": 200,
-    "name": "Voilamibe",
     "panoply": "Panoplie des Krobes",
     "category": "Cape",
     "stats": {
@@ -3137,12 +2914,11 @@
       "waterDamage": 15,
       "airDamage": 15,
       "waterResistPer": 7,
-      "criticalDamage": 0
+      "criticalDamage": -20
     }
   },
-  {
+  "Capibou": {
     "level": 200,
-    "name": "Capibou",
     "panoply": "Panoplibou",
     "category": "Cape",
     "stats": {
@@ -3155,15 +2931,14 @@
       "prospecting": 15,
       "fireResistPer": 12,
       "fireResist": 20,
-      "lock": 0,
+      "lock": -10,
       "mpReduction": 5,
       "criticalDamage": 10,
       "pushbackDamage": 20
     }
   },
-  {
+  "Capille": {
     "level": 200,
-    "name": "Capille",
     "panoply": "Harpinoplie",
     "category": "Cape",
     "stats": {
@@ -3177,9 +2952,8 @@
       "waterResistPer": 10
     }
   },
-  {
+  "Cape Xélomorphe": {
     "level": 125,
-    "name": "Cape Xélomorphe",
     "panoply": "Panoplie Xélomorphe",
     "category": "Cape",
     "stats": {
@@ -3197,30 +2971,27 @@
       "mpReduction": 5
     }
   },
-  {
+  "Cape Lumette": {
     "level": 38,
-    "name": "Cape Lumette",
     "panoply": "Microplie",
     "category": "Cape",
     "stats": {
       "intelligence": 40,
       "power": 15,
-      "criticalChance": 0,
+      "criticalChance": -3,
       "range": 1
     }
   },
-  {
+  "Cape Ortail": {
     "level": 80,
-    "name": "Cape Ortail",
     "panoply": "Panoplie Transcendante",
     "category": "Cape",
     "stats": {
       "undefined": 14580
     }
   },
-  {
+  "Cape Invisible": {
     "level": 20,
-    "name": "Cape Invisible",
     "panoply": "Panoplie Invisible",
     "category": "Cape",
     "stats": {
@@ -3229,9 +3000,8 @@
       "dodge": 3
     }
   },
-  {
+  "Caparak": {
     "level": 94,
-    "name": "Caparak",
     "panoply": "Panoplie de la Pondeuse",
     "category": "Cape",
     "stats": {
@@ -3246,9 +3016,8 @@
       "waterResistPer": 5
     }
   },
-  {
+  "Cape de Kardorim": {
     "level": 12,
-    "name": "Cape de Kardorim",
     "panoply": "Panoplie de Kardorim",
     "category": "Cape",
     "stats": {
@@ -3256,9 +3025,8 @@
       "chance": 10
     }
   },
-  {
+  "Cape Syché": {
     "level": 8,
-    "name": "Cape Syché",
     "panoply": "Panoplie des Âmes",
     "category": "Cape",
     "stats": {
@@ -3266,9 +3034,8 @@
       "power": 10
     }
   },
-  {
+  "Cape de Moon": {
     "level": 103,
-    "name": "Cape de Moon",
     "panoply": "Panoplie de Moon",
     "category": "Cape",
     "stats": {
@@ -3284,9 +3051,8 @@
       "mpResist": 4
     }
   },
-  {
+  "Cape du Bretteur Céleste": {
     "level": 162,
-    "name": "Cape du Bretteur Céleste",
     "panoply": "Panoplie du Bretteur Céleste",
     "category": "Cape",
     "stats": {
@@ -3305,9 +3071,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Cape de Kongoku": {
     "level": 200,
-    "name": "Cape de Kongoku",
     "panoply": "Panoplie de Kongoku",
     "category": "Cape",
     "stats": {
@@ -3325,9 +3090,8 @@
       "criticalResist": 25
     }
   },
-  {
+  "Cape du Capitaine Pirate": {
     "level": 92,
-    "name": "Cape du Capitaine Pirate",
     "panoply": "Panoplie du Capitaine Pirate",
     "category": "Cape",
     "stats": {
@@ -3342,18 +3106,16 @@
       "pushbackDamage": 7
     }
   },
-  {
+  "Cape Rimordiale": {
     "level": 80,
-    "name": "Cape Rimordiale",
     "panoply": "Panoplie Quadramentale",
     "category": "Cape",
     "stats": {
       "undefined": 13720
     }
   },
-  {
+  "Cape de la Dame du Hasard": {
     "level": 200,
-    "name": "Cape de la Dame du Hasard",
     "panoply": "Panoplie de la Dame du Hasard",
     "category": "Cape",
     "stats": {
@@ -3373,9 +3135,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Cape du Chalœil": {
     "level": 200,
-    "name": "Cape du Chalœil",
     "panoply": "Panoplie du Chalœil",
     "category": "Cape",
     "stats": {
@@ -3396,16 +3157,15 @@
       "criticalResist": 20
     }
   },
-  {
+  "Cape du Valet Veinard": {
     "level": 200,
-    "name": "Cape du Valet Veinard",
     "panoply": "Panoplie du Valet Veinard",
     "category": "Cape",
     "stats": {
       "health": 400,
       "agility": 80,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -5,
       "summon": 1,
       "airDamage": 20,
       "prospecting": 15,
@@ -3416,9 +3176,8 @@
       "pushbackResist": 20
     }
   },
-  {
+  "Cape d'Atcham": {
     "level": 200,
-    "name": "Cape d'Atcham",
     "panoply": "Panoplie d'Atcham",
     "category": "Cape",
     "stats": {
@@ -3438,9 +3197,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Cape des Matougarous": {
     "level": 162,
-    "name": "Cape des Matougarous",
     "panoply": "Panoplie des Matougarous",
     "category": "Cape",
     "stats": {
@@ -3457,9 +3215,8 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Cape des Ecaflipuces": {
     "level": 112,
-    "name": "Cape des Ecaflipuces",
     "panoply": "Panoplie des Ecaflipuces",
     "category": "Cape",
     "stats": {
@@ -3477,9 +3234,8 @@
       "apResist": 4
     }
   },
-  {
+  "Cape de Diondin": {
     "level": 200,
-    "name": "Cape de Diondin",
     "category": "Cape",
     "stats": {
       "health": 350,
@@ -3494,9 +3250,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Cape de Mantaze": {
     "level": 200,
-    "name": "Cape de Mantaze",
     "panoply": "Panoplie de la Fosse",
     "category": "Cape",
     "stats": {
@@ -3511,9 +3266,8 @@
       "lock": 20
     }
   },
-  {
+  "Cape Indescriptible": {
     "level": 200,
-    "name": "Cape Indescriptible",
     "panoply": "Panoplie des Abîmes",
     "category": "Cape",
     "stats": {
@@ -3526,9 +3280,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Cape de Meno": {
     "level": 200,
-    "name": "Cape de Meno",
     "panoply": "Panoplie de Meno",
     "category": "Cape",
     "stats": {
@@ -3547,9 +3300,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Cape Luminescente": {
     "level": 200,
-    "name": "Cape Luminescente",
     "panoply": "Panoplie Luminescente",
     "category": "Cape",
     "stats": {
@@ -3569,15 +3321,13 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Cape Transparente": {
     "level": 1,
-    "name": "Cape Transparente",
     "category": "Cape",
     "stats": {}
   },
-  {
+  "Cape Ouroboulos": {
     "level": 78,
-    "name": "Cape Ouroboulos",
     "panoply": "Panoplie Ouroboulos",
     "category": "Cape",
     "stats": {
@@ -3590,9 +3340,8 @@
       "mpReduction": 3
     }
   },
-  {
+  "Cape du Désert": {
     "level": 79,
-    "name": "Cape du Désert",
     "panoply": "Panoplie du Désert",
     "category": "Cape",
     "stats": {
@@ -3605,9 +3354,8 @@
       "apReduction": 3
     }
   },
-  {
+  "Capterre": {
     "level": 129,
-    "name": "Capterre",
     "panoply": "Panoplie Cacterre",
     "category": "Cape",
     "stats": {
@@ -3624,9 +3372,8 @@
       "criticalDamage": 15
     }
   },
-  {
+  "Capikténia": {
     "level": 171,
-    "name": "Capikténia",
     "panoply": "Pernoplie",
     "category": "Cape",
     "stats": {
@@ -3645,9 +3392,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Chevelure de Tal Kasha": {
     "level": 200,
-    "name": "Chevelure de Tal Kasha",
     "panoply": "Panoplie de Tal Kasha",
     "category": "Cape",
     "stats": {
@@ -3666,9 +3412,8 @@
       "criticalDamage": 30
     }
   },
-  {
+  "Ankhape": {
     "level": 200,
-    "name": "Ankhape",
     "panoply": "Panoplie de la Pyramide",
     "category": "Cape",
     "stats": {
@@ -3683,21 +3428,19 @@
       "fireResistPer": 10,
       "airResistPer": 10,
       "mpResist": 12,
-      "criticalDamage": 0
+      "criticalDamage": -30
     }
   },
-  {
+  "Cape Hoile": {
     "level": 80,
-    "name": "Cape Hoile",
     "panoply": "Panoplie Enragée",
     "category": "Cape",
     "stats": {
       "undefined": 13797
     }
   },
-  {
+  "Cape Tif": {
     "level": 197,
-    "name": "Cape Tif",
     "panoply": "Panoplie des Chassouilleurs",
     "category": "Cape",
     "stats": {
@@ -3714,9 +3457,8 @@
       "mpReduction": 7
     }
   },
-  {
+  "Cape d'Anerice": {
     "level": 200,
-    "name": "Cape d'Anerice",
     "panoply": "Panoplie d'Anerice",
     "category": "Cape",
     "stats": {
@@ -3731,9 +3473,8 @@
       "airResistPer": 7
     }
   },
-  {
+  "Cape du Scorbute": {
     "level": 70,
-    "name": "Cape du Scorbute",
     "panoply": "Panoplie du Scorbute",
     "category": "Cape",
     "stats": {
@@ -3746,9 +3487,8 @@
       "heal": 10
     }
   },
-  {
+  "Cape Riktus": {
     "level": 90,
-    "name": "Cape Riktus",
     "panoply": "Panoplie Riktus",
     "category": "Cape",
     "stats": {
@@ -3761,9 +3501,8 @@
       "criticalResist": 15
     }
   },
-  {
+  "Cape du Muloubar": {
     "level": 100,
-    "name": "Cape du Muloubar",
     "panoply": "Panoplie du Muloubar",
     "category": "Cape",
     "stats": {
@@ -3780,9 +3519,8 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Cape du Cœur Vaillant": {
     "level": 200,
-    "name": "Cape du Cœur Vaillant",
     "panoply": "Panoplie du Cœur Vaillant",
     "category": "Cape",
     "stats": {
@@ -3801,9 +3539,8 @@
       "pushbackDamage": 25
     }
   },
-  {
+  "Cape du Cœur Saignant": {
     "level": 200,
-    "name": "Cape du Cœur Saignant",
     "panoply": "Panoplie du Cœur Saignant",
     "category": "Cape",
     "stats": {
@@ -3817,14 +3554,13 @@
       "earthResistPer": 10,
       "airResistPer": 10,
       "lock": 7,
-      "dodge": 0,
+      "dodge": -5,
       "mpReduction": 5,
       "criticalDamage": 10
     }
   },
-  {
+  "Cape de l'Œil Attentif": {
     "level": 200,
-    "name": "Cape de l'Œil Attentif",
     "panoply": "Panoplie de l'Œil Attentif",
     "category": "Cape",
     "stats": {
@@ -3841,9 +3577,8 @@
       "apResist": 7
     }
   },
-  {
+  "Cape de l'Œil Putride": {
     "level": 200,
-    "name": "Cape de l'Œil Putride",
     "panoply": "Panoplie de l'Œil Putride",
     "category": "Cape",
     "stats": {
@@ -3862,16 +3597,15 @@
       "mpReduction": 7
     }
   },
-  {
+  "Cape Ardente": {
     "level": 200,
-    "name": "Cape Ardente",
     "panoply": "Panoplie Ardente",
     "category": "Cape",
     "stats": {
       "health": 400,
       "intelligence": 70,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "fireDamage": 15,
       "heal": 10,
       "prospecting": 15,
@@ -3882,9 +3616,8 @@
       "mpResist": 7
     }
   },
-  {
+  "Sac Volcanique": {
     "level": 200,
-    "name": "Sac Volcanique",
     "panoply": "Panoplie Volcanique",
     "category": "Cape",
     "stats": {
@@ -3902,9 +3635,8 @@
       "lock": 15
     }
   },
-  {
+  "Cape de Crânonier": {
     "level": 200,
-    "name": "Cape de Crânonier",
     "panoply": "Panoplie Submergée",
     "category": "Cape",
     "stats": {
@@ -3919,9 +3651,8 @@
       "pushbackResist": 35
     }
   },
-  {
+  "Cape Solution": {
     "level": 200,
-    "name": "Cape Solution",
     "panoply": "Panoplie Ensevelie",
     "category": "Cape",
     "stats": {
@@ -3938,17 +3669,15 @@
       "pushbackDamage": 15
     }
   },
-  {
+  "Tabard Nak": {
     "level": 1,
-    "name": "Tabard Nak",
     "category": "Cape",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Cape Martegel": {
     "level": 200,
-    "name": "Cape Martegel",
     "panoply": "Panoplie Martegel",
     "category": "Cape",
     "stats": {
@@ -3956,7 +3685,7 @@
       "intelligence": 80,
       "agility": 80,
       "wisdom": 40,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "range": 2,
       "fireDamage": 15,
       "airDamage": 15,
@@ -3967,16 +3696,15 @@
       "dodge": 7
     }
   },
-  {
+  "Bravoure de Rykke Errel": {
     "level": 200,
-    "name": "Bravoure de Rykke Errel",
     "category": "Cape",
     "stats": {
       "health": 500,
       "strength": 100,
       "intelligence": 100,
       "wisdom": 40,
-      "range": 0,
+      "range": -1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
@@ -3986,25 +3714,23 @@
       "fireResistPer": 7,
       "lock": 15,
       "mpResist": 20,
-      "criticalResist": 0
+      "criticalResist": -30
     }
   },
-  {
+  "Noblesse de Jahash Jurgen": {
     "level": 200,
-    "name": "Noblesse de Jahash Jurgen",
     "category": "Cape",
     "stats": {
       "health": 400,
       "wisdom": 60,
       "power": 120,
-      "lock": 0,
-      "dodge": 0,
+      "lock": -20,
+      "dodge": -20,
       "spellDamagePer": 4
     }
   },
-  {
+  "Cape Paztek": {
     "level": 200,
-    "name": "Cape Paztek",
     "panoply": "Panoplie Paztek",
     "category": "Cape",
     "stats": {
@@ -4012,8 +3738,8 @@
       "intelligence": 80,
       "chance": 80,
       "wisdom": 50,
-      "criticalChance": 0,
-      "range": 0,
+      "criticalChance": -10,
+      "range": -1,
       "fireDamage": 15,
       "waterDamage": 15,
       "earthResistPer": 10,
@@ -4023,9 +3749,8 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Sac à Croquer": {
     "level": 130,
-    "name": "Sac à Croquer",
     "panoply": "Panoplie Croquante",
     "category": "Cape",
     "stats": {
@@ -4040,17 +3765,15 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Bouteille de chronoxygène": {
     "level": 50,
-    "name": "Bouteille de chronoxygène",
     "category": "Cape",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Carapace de Torkélonia": {
     "level": 200,
-    "name": "Carapace de Torkélonia",
     "panoply": "Panoplie de Torkélonia",
     "category": "Cape",
     "stats": {
@@ -4068,17 +3791,15 @@
       "criticalDamage": 12
     }
   },
-  {
+  "Ailes en bois alourdies": {
     "level": 1,
-    "name": "Ailes en bois alourdies",
     "category": "Cape",
     "stats": {
       "undefined": 0
     }
   },
-  {
+  "Manteau de Servitude": {
     "level": 200,
-    "name": "Manteau de Servitude",
     "panoply": "Panoplie de Servitude",
     "category": "Cape",
     "stats": {
@@ -4091,15 +3812,14 @@
       "earthResistPer": 5,
       "waterResistPer": 7,
       "lock": 10,
-      "dodge": 0,
-      "apReduction": 0,
+      "dodge": -5,
+      "apReduction": -10,
       "mpResist": 10,
       "pushbackResist": 40
     }
   },
-  {
+  "Parure du Vautour": {
     "level": 200,
-    "name": "Parure du Vautour",
     "category": "Cape",
     "stats": {
       "health": 400,
@@ -4112,13 +3832,12 @@
       "earthResistPer": 12,
       "airResistPer": 3,
       "mpReduction": 10,
-      "criticalResist": 0,
+      "criticalResist": -30,
       "pushbackDamage": 60
     }
   },
-  {
+  "Pestilence de Corruption": {
     "level": 200,
-    "name": "Pestilence de Corruption",
     "category": "Cape",
     "stats": {
       "health": 400,
@@ -4126,7 +3845,7 @@
       "chance": 70,
       "agility": 70,
       "wisdom": 50,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "summon": 2,
       "earthDamage": 20,
       "waterDamage": 20,
@@ -4135,14 +3854,13 @@
       "earthResistPer": 5,
       "waterResistPer": 5,
       "airResistPer": 5,
-      "fireResistPer": 0,
+      "fireResistPer": -5,
       "lock": 20,
       "meleeResistPer": 5
     }
   },
-  {
+  "Kwarapace": {
     "level": 126,
-    "name": "Kwarapace",
     "panoply": "Panoplie Kwapa",
     "category": "Cape",
     "stats": {
@@ -4158,9 +3876,8 @@
       "apResist": 6
     }
   },
-  {
+  "Capistil": {
     "level": 112,
-    "name": "Capistil",
     "panoply": "Panoplie Plantala",
     "category": "Cape",
     "stats": {
@@ -4183,9 +3900,8 @@
       "lock": 6
     }
   },
-  {
+  "Caparavent": {
     "level": 128,
-    "name": "Caparavent",
     "panoply": "Panoplie Kozaru",
     "category": "Cape",
     "stats": {
@@ -4200,9 +3916,8 @@
       "mpResist": 10
     }
   },
-  {
+  "Crache-feu Firefoux": {
     "level": 132,
-    "name": "Crache-feu Firefoux",
     "category": "Cape",
     "stats": {
       "health": 150,
@@ -4213,14 +3928,13 @@
       "range": 2,
       "fireDamage": 4,
       "prospecting": 10,
-      "initiative": 0,
+      "initiative": -200,
       "airResistPer": 7,
       "dodge": 6
     }
   },
-  {
+  "Sac des Firefoux": {
     "level": 140,
-    "name": "Sac des Firefoux",
     "panoply": "Panoplie Firefoux",
     "category": "Cape",
     "stats": {
@@ -4235,9 +3949,8 @@
       "fireResist": 10
     }
   },
-  {
+  "Sac mortuaire de Jiangshi-Nobi": {
     "level": 154,
-    "name": "Sac mortuaire de Jiangshi-Nobi",
     "panoply": "Panoplie de Brume",
     "category": "Cape",
     "stats": {
@@ -4246,7 +3959,7 @@
       "intelligence": 40,
       "chance": 60,
       "wisdom": 30,
-      "criticalChance": 0,
+      "criticalChance": -10,
       "summon": 1,
       "neutralDamage": 10,
       "earthDamage": 10,
@@ -4258,9 +3971,8 @@
       "apReduction": 4
     }
   },
-  {
+  "Fût d'Aspiratueur": {
     "level": 159,
-    "name": "Fût d'Aspiratueur",
     "panoply": "Panoplie des Spiritueurs",
     "category": "Cape",
     "stats": {
@@ -4275,25 +3987,23 @@
       "earthDamage": 9,
       "fireDamage": 9,
       "airDamage": 9,
-      "initiative": 0,
+      "initiative": -300,
       "earthResistPer": 5,
       "criticalDamage": 5,
-      "criticalResist": 0,
-      "pushbackResist": 0
+      "criticalResist": -20,
+      "pushbackResist": -15
     }
   },
-  {
+  "Carapace d'entraînement du Maître Torte Hou": {
     "level": 180,
-    "name": "Carapace d'entraînement du Maître Torte Hou",
     "category": "Cape",
     "stats": {
-      "strength": 0,
-      "undefined": 0
+      "strength": -100,
+      "undefined": -20000
     }
   },
-  {
+  "Cape Ostrophe": {
     "level": 200,
-    "name": "Cape Ostrophe",
     "panoply": "Panoplie du Wukang",
     "category": "Cape",
     "stats": {
@@ -4301,23 +4011,22 @@
       "strength": 70,
       "agility": 70,
       "wisdom": 30,
-      "criticalChance": 0,
+      "criticalChance": -4,
       "range": 1,
       "earthDamage": 12,
       "airDamage": 12,
       "fireResistPer": 10,
       "waterResistPer": 10,
       "dodge": 12,
-      "lock": 0,
-      "apReduction": 0,
+      "lock": -12,
+      "apReduction": -10,
       "mpReduction": 10,
       "apResist": 12,
-      "mpResist": 0
+      "mpResist": -12
     }
   },
-  {
+  "Ailes du Chaos": {
     "level": 200,
-    "name": "Ailes du Chaos",
     "category": "Cape",
     "stats": {
       "health": 400,
@@ -4329,14 +4038,13 @@
       "initiative": 300,
       "waterResistPer": 8,
       "airResistPer": 8,
-      "dodge": 0,
+      "dodge": -15,
       "mpReduction": 6,
       "criticalResist": 15
     }
   },
-  {
+  "Cape d'Hell Mina": {
     "level": 148,
-    "name": "Cape d'Hell Mina",
     "panoply": "Panoplie d'Hell Mina",
     "category": "Cape",
     "stats": {
@@ -4352,18 +4060,16 @@
       "pushbackDamage": 20
     }
   },
-  {
+  "Cape Fulgurante Ankarton": {
     "level": 75,
-    "name": "Cape Fulgurante Ankarton",
     "panoply": "Panoplie Ankarton",
     "category": "Cape",
     "stats": {
       "undefined": 1000
     }
   },
-  {
+  "Âmes Hurlantes": {
     "level": 200,
-    "name": "Âmes Hurlantes",
     "panoply": "Malédiction de Cire Momore",
     "category": "Cape",
     "stats": {
@@ -4382,9 +4088,8 @@
       "pushbackResist": 25
     }
   },
-  {
+  "Cape des Rebelles": {
     "level": 50,
-    "name": "Cape des Rebelles",
     "panoply": "Panoplie des Rebelles",
     "category": "Cape",
     "stats": {
@@ -4392,39 +4097,36 @@
       "strength": 30,
       "intelligence": 30,
       "wisdom": 20,
-      "criticalChance": 0,
+      "criticalChance": -9,
       "earthDamage": 7,
       "fireDamage": 7
     }
   },
-  {
+  "Queue de Rakoopeur": {
     "level": 50,
-    "name": "Queue de Rakoopeur",
     "panoply": "Panoplie de Rakoopeur",
     "category": "Cape",
     "stats": {
       "health": 30,
       "strength": 40,
       "agility": 40,
-      "range": 0,
+      "range": -1,
       "earthDamage": 2,
       "airDamage": 2
     }
   },
-  {
+  "Cape Anthéon": {
     "level": 80,
-    "name": "Cape Anthéon",
     "panoply": "Panoplie de l'Héritage",
     "category": "Cape",
     "stats": {
       "undefined": 23753
     }
   },
-  {
+  "Cape Agnan": {
     "level": 1,
-    "name": "Cape Agnan",
     "panoply": "Il n'y a pas de pano",
     "category": "Cape",
     "stats": {}
   }
-]
+}
