@@ -6387,7 +6387,6 @@
         "fireDamage": 8,
         "wisdom": 20,
         "health": 40,
-        "undefined": 75,
         "AP": 1
       }
     ]
@@ -6408,7 +6407,6 @@
       {
         "strength": 30,
         "lock": 5,
-        "undefined": 76,
         "AP": 1,
         "range": 1
       }
@@ -6444,7 +6442,6 @@
         "waterDamage": 10,
         "airDamage": 10,
         "dodge": 10,
-        "undefined": 77,
         "AP": 1
       }
     ]
@@ -6981,24 +6978,19 @@
       "Chapitrouille"
     ],
     "stats": [
-      {
-        "undefined": 100
-      },
+      {},
       {
         "intelligence": 30,
         "chance": 30,
-        "undefined": 100,
         "heal": 10
       },
       {
-        "undefined": 100,
         "intelligence": 30,
         "chance": 30,
         "heal": 10,
         "AP": 1
       },
       {
-        "undefined": 100,
         "intelligence": 30,
         "chance": 30,
         "heal": 10,
@@ -9313,8 +9305,7 @@
         "waterResistPer": 10,
         "earthResistPer": 10,
         "neutralResistPer": 10,
-        "AP": 1,
-        "undefined": 0
+        "AP": 1
       }
     ]
   },
@@ -11086,36 +11077,29 @@
       "Masque du Vampyre"
     ],
     "stats": [
-      {
-        "undefined": 2
-      },
+      {},
       {
         "damage": 1,
-        "health": 20,
-        "undefined": 2
+        "health": 20
       },
       {
         "damage": 2,
-        "health": 30,
-        "undefined": 2
+        "health": 30
       },
       {
         "damage": 3,
-        "health": 40,
-        "undefined": 2
+        "health": 40
       },
       {
         "range": 1,
         "damage": 4,
-        "health": 50,
-        "undefined": 2
+        "health": 50
       },
       {
         "MP": 1,
         "range": 1,
         "damage": 5,
-        "health": 60,
-        "undefined": 2
+        "health": 60
       }
     ]
   },
@@ -12124,7 +12108,6 @@
     "stats": [
       {},
       {
-        "undefined": 26,
         "range": -1,
         "lock": 7,
         "mpResist": 25,
@@ -12161,11 +12144,9 @@
         "neutralResistPer": 4,
         "initiative": 500,
         "dodge": -20,
-        "range": -2,
-        "undefined": 26
+        "range": -2
       },
       {
-        "undefined": 26,
         "range": -2,
         "dodge": -25,
         "initiative": 750,
@@ -12186,7 +12167,6 @@
         "AP": 1
       },
       {
-        "undefined": 26,
         "range": -2,
         "dodge": -35,
         "initiative": 1000,
@@ -12224,8 +12204,7 @@
         "initiative": 1500,
         "neutralResistPer": 10,
         "dodge": -50,
-        "range": -3,
-        "undefined": 26
+        "range": -3
       }
     ]
   },

@@ -82,13 +82,15 @@ export function translateItems(dofusDbItem: ItemResp): Item {
 
     let item: Item = {
         level: dofusDbItem.level,
-        // name: dofusDbItem.name.fr,
         panoply: dofusDbItem.itemSet?.name.fr,
         category: dofusDbItem.type.name.fr as ItemCategory,
         stats: {}
     }
     for (const dofusDbStat of dofusDbItem.effects) {
         const statKey: StatKey = STAT_ID_DOFUSDB[dofusDbStat.characteristic]!
+        if (statKey == undefined) {
+            continue
+        }
         item.stats[statKey] = translateStat(dofusDbStat)
     }
     return item
@@ -160,6 +162,9 @@ function translatePanoplyStats(panoplyResp: PanoplyResp): ItemStats[] {
         let panoplyIndexStats: ItemStats = {}
         for (const panoplyRespStat of panoplyRespStats) {
             const statKey: StatKey = STAT_ID_DOFUSDB[panoplyRespStat.characteristic]!
+            if (statKey == undefined) {
+                continue
+            }
             panoplyIndexStats[statKey] = translateStat(panoplyRespStat)
         }
         panoplyStats.push(panoplyIndexStats)
@@ -177,7 +182,7 @@ export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {
     weapon: [2, 3, 4, 5, 6, 7, 8, 19, 20, 21, 22, 83, 99, 102, 114, 271],
     shield: [82],
     pet: [18, 97, 121, 196, 207],
-    dofus: [23, 151, 217],
+    dofus: [151, 23],
 }
 
 export const STAT_ID_DOFUSDB: Record<number, StatKey> = {

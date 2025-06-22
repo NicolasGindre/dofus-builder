@@ -1761,8 +1761,7 @@
       "health": 25,
       "strength": 20,
       "wisdom": 10,
-      "summon": 2,
-      "undefined": 1
+      "summon": 2
     }
   },
   "Yugolette": {
@@ -1857,8 +1856,7 @@
     "category": "Amulette",
     "stats": {
       "health": 1,
-      "initiative": 1,
-      "undefined": 0
+      "initiative": 1
     }
   },
   "Boufbamu": {
@@ -2051,7 +2049,6 @@
     "level": 127,
     "category": "Amulette",
     "stats": {
-      "undefined": 58,
       "strength": 50,
       "intelligence": 50,
       "chance": 50,
@@ -2278,7 +2275,6 @@
     "level": 163,
     "category": "Amulette",
     "stats": {
-      "undefined": 59,
       "strength": 70,
       "intelligence": 70,
       "chance": 70,
@@ -2300,7 +2296,6 @@
     "level": 186,
     "category": "Amulette",
     "stats": {
-      "undefined": 61,
       "health": 250,
       "wisdom": 40,
       "power": 40,
@@ -2728,7 +2723,6 @@
     "level": 53,
     "category": "Amulette",
     "stats": {
-      "undefined": 90,
       "health": 30,
       "wisdom": 15,
       "power": 15,
@@ -3173,7 +3167,6 @@
     "level": 106,
     "category": "Amulette",
     "stats": {
-      "undefined": 149,
       "health": 200,
       "wisdom": 30,
       "AP": 1,
@@ -4367,9 +4360,7 @@
     "level": 175,
     "panoply": "Panoplie Ankarton",
     "category": "Amulette",
-    "stats": {
-      "undefined": 1000
-    }
+    "stats": {}
   },
   "Lourd Fardeau": {
     "level": 200,

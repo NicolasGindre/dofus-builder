@@ -186,7 +186,6 @@
       "health": 50,
       "wisdom": 25,
       "power": 20,
-      "undefined": -300,
       "waterResistPer": 5,
       "fireResistPer": -5
     }
@@ -198,7 +197,6 @@
       "health": 60,
       "wisdom": 25,
       "power": 15,
-      "undefined": -300,
       "airResistPer": 5,
       "earthResistPer": -5
     }
@@ -1314,97 +1312,73 @@
     "level": 130,
     "panoply": "Panoplie Téméraire",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13146
-    }
+    "stats": {}
   },
   "Ceinture Buhlent": {
     "level": 130,
     "panoply": "Panoplie de Gouttière",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 14311
-    }
+    "stats": {}
   },
   "Sangle Glinglin": {
     "level": 130,
     "panoply": "Panoplie Criminelle",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 12911
-    }
+    "stats": {}
   },
   "Ceinture Lupine": {
     "level": 130,
     "panoply": "Panoplie Intemporelle",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 14651
-    }
+    "stats": {}
   },
   "Sangle Holon": {
     "level": 130,
     "panoply": "Panoplie Altruiste",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 25864
-    }
+    "stats": {}
   },
   "Ceinture Luthe": {
     "level": 130,
     "panoply": "Panoplie Sauvage",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13522
-    }
+    "stats": {}
   },
   "Sangle Hans": {
     "level": 130,
     "panoply": "Panoplie Exsangue",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 12765
-    }
+    "stats": {}
   },
   "Ceinture Bodiézèle": {
     "level": 130,
     "panoply": "Panoplie de l'Innombrable",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 12608
-    }
+    "stats": {}
   },
   "Sangle Huée": {
     "level": 130,
     "panoply": "Panoplie Ethylique",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 12798
-    }
+    "stats": {}
   },
   "Sangle Cible": {
     "level": 130,
     "panoply": "Panoplie du Prince des voleurs",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13066
-    }
+    "stats": {}
   },
   "Gaine Hage": {
     "level": 130,
     "panoply": "Panoplie Indestructible",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13017
-    }
+    "stats": {}
   },
   "Ceinture Gessant": {
     "level": 130,
     "panoply": "Panoplie Vénérable",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13366
-    }
+    "stats": {}
   },
   "Ceinture Rasboulaire du Rasboul": {
     "level": 182,
@@ -1800,8 +1774,7 @@
       "health": 30,
       "chance": 30,
       "waterDamage": 5,
-      "initiative": 300,
-      "undefined": 1
+      "initiative": 300
     }
   },
   "Yugure": {
@@ -1914,8 +1887,7 @@
     "category": "Ceinture",
     "stats": {
       "health": 1,
-      "initiative": 1,
-      "undefined": 0
+      "initiative": 1
     }
   },
   "Ceinture d'Hulkrap": {
@@ -2526,17 +2498,13 @@
     "level": 130,
     "panoply": "Panoplie Explosive",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13479
-    }
+    "stats": {}
   },
   "Corde Ure": {
     "level": 130,
     "panoply": "Panoplie Lunatique",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13400
-    }
+    "stats": {}
   },
   "Ceinture du Krokilleur": {
     "level": 104,
@@ -2798,9 +2766,7 @@
     "level": 130,
     "panoply": "Panoplie Submersible",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13873
-    }
+    "stats": {}
   },
   "Ceinture Nikoti": {
     "level": 45,
@@ -3733,9 +3699,7 @@
     "level": 130,
     "panoply": "Panoplie Transcendante",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 14611
-    }
+    "stats": {}
   },
   "Gaine Nyée": {
     "level": 90,
@@ -3918,9 +3882,7 @@
     "level": 130,
     "panoply": "Panoplie Quadramentale",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13713
-    }
+    "stats": {}
   },
   "Slip de Khan Karkass": {
     "level": 10,
@@ -4197,9 +4159,7 @@
     "level": 130,
     "panoply": "Panoplie Enragée",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 13781
-    }
+    "stats": {}
   },
   "Ceinture du Molosse": {
     "level": 31,
@@ -4697,9 +4657,7 @@
     "level": 150,
     "panoply": "Panoplie Ankarton",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 1000
-    }
+    "stats": {}
   },
   "Ceinture de trappeur albueran": {
     "level": 52,
@@ -4737,9 +4695,7 @@
     "level": 130,
     "panoply": "Panoplie de l'Héritage",
     "category": "Ceinture",
-    "stats": {
-      "undefined": 23319
-    }
+    "stats": {}
   },
   "Slip du Captain Chafer": {
     "level": 200,
