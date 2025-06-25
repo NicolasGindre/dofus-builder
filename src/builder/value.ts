@@ -1,5 +1,5 @@
-import type { StatKey } from "../types/character";
-import * as itemDB from "../db/item"
+import type { StatKey, Stats } from "../types/character";
+import * as itemDB from "../db/itemDB"
 import type { Item, Panoply } from "../types/item";
 
 export type StatsValueFM = Record<StatKey, number>
@@ -7,14 +7,24 @@ export type StatsValueFM = Record<StatKey, number>
 export type StatsValueWeight = Record<StatKey, number>
 
 
-export function calculateItemValue(item: Item): number {
+export function calculateStatsValue(stats: Partial<Stats>): number {
+
+    let statsValue = 0
+    for (const [stat, statValue] of Object.entries(stats)) {
+        const statValueWeight = statValue *
+            statsValueFM[stat as StatKey] * statsValueWeight[stat as StatKey]
+        statsValue += statValueWeight
+    }
+    return statsValue
+}
+
+export function calculateItemAndPanoValue(item: Item): number {
 
     let itemValue = 0
 
-    for (const [stat, value] of Object.entries(item.stats)) {
-        itemValue += value *
-            statsValueFM[stat as StatKey] * statsValueWeight[stat as StatKey]
-    }
+    itemValue += calculateStatsValue(item.stats)
+    if (item.name == "Capille") console.log(item.name, itemValue)
+
     if (item.panoply != undefined) {
         
         const panoply = itemDB.panoplies[item.panoply]!
@@ -26,6 +36,8 @@ export function calculateItemValue(item: Item): number {
                 (statsValueFM[stat as StatKey] * statsValueWeight[stat as StatKey]) / panoItemsAmount
         }
     }
+    // console.log(itemValue)
+    if (item.name == "Capille") console.log(item.name, itemValue)
     return itemValue
 }
 
@@ -36,13 +48,19 @@ export function calculateItemValue(item: Item): number {
 let statsValueWeight: StatsValueWeight = {
     health: 1,
 
-    wisdom: 0.3,
-    prospecting: 0.7,
+    wisdom: 0,
+    prospecting: 0.5,
 
-    strength: 1,
-    agility: 1,
-    chance: 1,
-    intelligence: 0.2,
+    strength: 0.66,
+    agility: 0.66,
+    chance: 0.66,
+    intelligence: 0.1,
+
+    neutralDamage: 0.1,
+    earthDamage: 0.6,
+    airDamage: 0.6,
+    fireDamage: 0.1,
+    waterDamage: 0.6,
 
     power: 1,
 
@@ -55,24 +73,18 @@ let statsValueWeight: StatsValueWeight = {
     criticalResist: 0.5,
     pushbackResist: 0.7,
 
-    neutralResist: 0.3,
-    earthResist: 0.3,
-    waterResist: 0.3,
-    airResist: 0.3,
-    fireResist: 0.3,
+    neutralResist: 0.1,
+    earthResist: 0.1,
+    waterResist: 0.1,
+    airResist: 0.1,
+    fireResist: 0.1,
 
     pods: 0,
     initiative: 0.5,
 
     trapPower: 0,
     trapDamage: 0,
-    pushbackDamage: 0.1,
-
-    neutralDamage: 0.1,
-    earthDamage: 0.7,
-    airDamage: 0.7,
-    fireDamage: 0,
-    waterDamage: 0.7,
+    pushbackDamage: 0,
 
     criticalDamage: 0.7,
     criticalChance: 0.7,
@@ -82,8 +94,8 @@ let statsValueWeight: StatsValueWeight = {
 
     mpReduction: 0,
     apReduction: 0,
-    apResist: 0.65,
-    mpResist: 0.65,
+    apResist: 0.5,
+    mpResist: 0.5,
 
     heal: 0,
     reflect: 0,
@@ -101,8 +113,8 @@ let statsValueWeight: StatsValueWeight = {
 
     summon: 0,
     range: 0,
-    MP: 0.7,
-    AP: 0.7,
+    MP: 1,
+    AP: 1.2,
 }
 
 const statsValueFM: StatsValueFM = {

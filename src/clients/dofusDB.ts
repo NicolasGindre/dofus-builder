@@ -81,6 +81,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
 export function translateItems(dofusDbItem: ItemResp): Item {
 
     let item: Item = {
+        name: dofusDbItem.name.fr,
         level: dofusDbItem.level,
         panoply: dofusDbItem.itemSet?.name.fr,
         category: dofusDbItem.type.name.fr as ItemCategory,
@@ -145,6 +146,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
 
         for (const panoplyResp of panopliesResp.data) {
             panoplies[panoplyResp.name.fr] = {
+                name: panoplyResp.name.fr,
                 items: [],
                 stats: translatePanoplyStats(panoplyResp),
             }

@@ -10,6 +10,10 @@ export let itemsCategory: Record<ItemCategory, Items> = Object.fromEntries(
 export let items: Items = {}
 export let panoplies: Panoplies = {}
 
+export function getItem(name: string): Item | undefined {
+    return items[name]
+}
+
 export async function loadItems(levelMin: number, levelMax: number): Promise<void> {
 
     panoplies = await Bun.file(`${dbPath}/panoplies.json`).json()
