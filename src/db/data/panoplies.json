@@ -5309,43 +5309,43 @@
       {
         "intelligence": 30,
         "agility": 30,
-        "airResist": 23,
-        "waterResist": 30,
-        "fireResist": 28,
-        "earthResist": 35,
-        "neutralResist": 25,
-        "fireDamage": 10,
-        "airDamage": 10,
+        "prospecting": 20,
         "initiative": 300,
-        "prospecting": 20
+        "airDamage": 10,
+        "fireDamage": 10,
+        "neutralResist": 10,
+        "earthResist": 20,
+        "fireResist": 10,
+        "waterResist": 15,
+        "airResist": 10
       },
       {
-        "airResist": 23,
-        "waterResist": 30,
-        "fireResist": 28,
-        "earthResist": 35,
-        "neutralResist": 25,
-        "intelligence": 30,
-        "agility": 30,
-        "fireDamage": 10,
-        "airDamage": 10,
-        "initiative": 300,
-        "prospecting": 20,
-        "AP": 1
-      },
-      {
-        "intelligence": 50,
-        "agility": 50,
-        "fireDamage": 15,
-        "airDamage": 15,
-        "initiative": 500,
-        "prospecting": 20,
         "AP": 1,
-        "airResist": 23,
-        "waterResist": 30,
-        "fireResist": 28,
+        "prospecting": 20,
+        "initiative": 300,
+        "airDamage": 10,
+        "fireDamage": 10,
+        "agility": 30,
+        "intelligence": 30,
+        "neutralResist": 15,
+        "earthResist": 25,
+        "fireResist": 15,
+        "waterResist": 20,
+        "airResist": 15
+      },
+      {
+        "neutralResist": 25,
         "earthResist": 35,
-        "neutralResist": 25
+        "fireResist": 28,
+        "waterResist": 30,
+        "airResist": 23,
+        "AP": 1,
+        "prospecting": 20,
+        "initiative": 500,
+        "airDamage": 15,
+        "fireDamage": 15,
+        "agility": 50,
+        "intelligence": 50
       }
     ]
   },
@@ -7327,7 +7327,8 @@
     "items": [
       "Amulette de Nevark",
       "Ceinture de Nevark",
-      "Cape de Nevark"
+      "Cape de Nevark",
+      "Nev'Arc"
     ],
     "stats": [
       {},
@@ -7343,6 +7344,16 @@
         "dodge": 10,
         "agility": 30,
         "strength": 30
+      },
+      {
+        "AP": 1,
+        "mpResist": 15,
+        "dodge": 15,
+        "agility": 30,
+        "strength": 30,
+        "airDamage": 10,
+        "neutralDamage": 10,
+        "earthDamage": 10
       }
     ]
   },
@@ -9837,27 +9848,29 @@
     "stats": [
       {},
       {
-        "neutralResist": 10,
-        "earthResist": 10,
-        "intelligence": 30,
-        "agility": 30,
-        "criticalResist": 10,
+        "neutralResist": 30,
+        "earthResist": 30,
+        "fireResist": 30,
+        "waterResist": 30,
+        "airResist": 30,
         "pushbackResist": 25,
-        "airResist": 10,
-        "waterResist": 10,
-        "fireResist": 10
+        "criticalResist": 10,
+        "agility": 30,
+        "intelligence": 30,
+        "criticalDamage": 15
       },
       {
-        "AP": 1,
-        "intelligence": 30,
-        "agility": 30,
-        "criticalResist": 10,
+        "neutralResist": 30,
+        "earthResist": 30,
+        "fireResist": 30,
+        "waterResist": 30,
+        "airResist": 30,
         "pushbackResist": 25,
-        "airResist": 10,
-        "waterResist": 10,
-        "fireResist": 10,
-        "earthResist": 10,
-        "neutralResist": 10
+        "criticalResist": 10,
+        "agility": 30,
+        "intelligence": 30,
+        "AP": 1,
+        "criticalDamage": 15
       }
     ]
   },
@@ -11427,7 +11440,8 @@
       "Amulette Volkorne",
       "Ceinture Volkorne",
       "Anneau Volkorne",
-      "Casque Volkorne"
+      "Casque Volkorne",
+      "Arc Volkorne"
     ],
     "stats": [
       {},
@@ -11452,7 +11466,7 @@
         "agility": 150,
         "intelligence": 150,
         "strength": 150,
-        "MP": 1
+        "AP": 1
       },
       {
         "waterDamage": 20,
@@ -11470,6 +11484,24 @@
         "fireResistPer": 5,
         "waterResistPer": 5,
         "airResistPer": 5
+      },
+      {
+        "waterDamage": 20,
+        "neutralDamage": 20,
+        "earthDamage": 20,
+        "airDamage": 20,
+        "fireDamage": 20,
+        "chance": 200,
+        "agility": 200,
+        "intelligence": 200,
+        "strength": 200,
+        "AP": 1,
+        "neutralResistPer": 5,
+        "earthResistPer": 5,
+        "fireResistPer": 5,
+        "waterResistPer": 5,
+        "airResistPer": 5,
+        "MP": 1
       }
     ]
   },
@@ -11738,6 +11770,7 @@
     "name": "Panoplie de Guerre",
     "items": [
       "Solerets de Guerre",
+      "Ceste de Guerre",
       "Heaume de Guerre",
       "Forteresse de Guerre"
     ],
@@ -11746,15 +11779,23 @@
       {
         "intelligence": 60,
         "mpReduction": 10,
-        "lock": 20,
-        "criticalDamage": 10
+        "criticalDamage": 10,
+        "lock": 20
       },
       {
-        "lock": 20,
-        "AP": 1,
-        "criticalDamage": 10,
+        "intelligence": 60,
         "mpReduction": 10,
-        "intelligence": 60
+        "criticalDamage": 10,
+        "AP": 1,
+        "lock": 20
+      },
+      {
+        "intelligence": 60,
+        "mpReduction": 10,
+        "criticalDamage": 10,
+        "AP": 1,
+        "lock": 20,
+        "criticalChance": 10
       }
     ]
   },
@@ -11951,34 +11992,34 @@
     "stats": [
       {},
       {
-        "neutralResist": 20,
-        "earthResist": 20,
-        "waterResist": 20,
-        "airResist": 20,
-        "fireResist": 20,
+        "neutralResist": 10,
+        "earthResist": 10,
+        "pushbackResist": 10,
         "intelligence": 30,
-        "pushbackResist": 20
+        "fireResist": 10,
+        "airResist": 10,
+        "waterResist": 10
       },
       {
-        "neutralResist": 20,
-        "earthResist": 20,
-        "waterResist": 20,
-        "airResist": 20,
-        "fireResist": 20,
-        "AP": 1,
+        "pushbackResist": 10,
         "intelligence": 30,
-        "pushbackResist": 20
+        "AP": 1,
+        "fireResist": 10,
+        "airResist": 10,
+        "waterResist": 10,
+        "earthResist": 10,
+        "neutralResist": 10
       },
       {
-        "summon": 1,
-        "neutralResist": 20,
-        "earthResist": 20,
-        "waterResist": 20,
-        "airResist": 20,
-        "fireResist": 20,
-        "AP": 1,
+        "pushbackResist": 20,
         "intelligence": 30,
-        "pushbackResist": 20
+        "AP": 1,
+        "fireResist": 20,
+        "airResist": 20,
+        "waterResist": 20,
+        "earthResist": 20,
+        "neutralResist": 20,
+        "summon": 1
       }
     ]
   },
@@ -12208,93 +12249,102 @@
       {
         "criticalChance": -40,
         "neutralDamage": 40,
-        "earthResistPer": 3,
-        "fireResistPer": 3,
-        "waterResistPer": 3,
-        "airResistPer": 3,
-        "lock": 4,
-        "dodge": 4,
+        "apResist": 2,
         "mpResist": 2,
-        "apResist": 2
+        "dodge": 4,
+        "lock": 4,
+        "airResistPer": 3,
+        "waterResistPer": 3,
+        "fireResistPer": 3,
+        "earthResistPer": 3,
+        "range": 1,
+        "airDamage": 5,
+        "waterDamage": 5,
+        "fireDamage": 5,
+        "earthDamage": 5
       },
       {
-        "criticalChance": -40,
+        "apResist": 2,
+        "mpResist": 2,
+        "dodge": 4,
+        "lock": 4,
+        "airResistPer": 3,
+        "waterResistPer": 3,
+        "fireResistPer": 3,
+        "earthResistPer": 3,
         "neutralDamage": 40,
-        "earthResistPer": 3,
-        "fireResistPer": 3,
-        "waterResistPer": 3,
-        "airResistPer": 3,
-        "lock": 4,
-        "dodge": 4,
-        "mpResist": 2,
-        "apResist": 2
+        "criticalChance": -40,
+        "range": 1,
+        "airDamage": 5,
+        "waterDamage": 5,
+        "fireDamage": 5,
+        "earthDamage": 5
       },
       {
-        "criticalChance": -40,
-        "neutralDamage": 60,
-        "earthResistPer": 6,
-        "fireResistPer": 6,
-        "waterResistPer": 6,
-        "airResistPer": 6,
-        "lock": 8,
-        "dodge": 8,
-        "mpResist": 4,
-        "apResist": 4,
-        "AP": 1,
-        "range": 2,
-        "earthDamage": 10,
-        "fireDamage": 10,
-        "waterDamage": 10,
-        "airDamage": 10,
-        "strength": 100,
-        "intelligence": 100,
+        "agility": 100,
         "chance": 100,
-        "agility": 100
-      },
-      {
-        "criticalChance": -40,
-        "neutralDamage": 60,
-        "earthResistPer": 6,
-        "fireResistPer": 6,
-        "waterResistPer": 6,
-        "airResistPer": 6,
-        "lock": 8,
-        "dodge": 8,
-        "mpResist": 4,
-        "apResist": 4,
-        "AP": 1,
-        "range": 2,
-        "earthDamage": 10,
-        "fireDamage": 10,
-        "waterDamage": 10,
-        "airDamage": 10,
-        "strength": 100,
         "intelligence": 100,
-        "chance": 100,
-        "agility": 100
+        "strength": 100,
+        "airDamage": 10,
+        "waterDamage": 10,
+        "fireDamage": 10,
+        "earthDamage": 10,
+        "range": 2,
+        "AP": 1,
+        "apResist": 4,
+        "mpResist": 4,
+        "dodge": 8,
+        "lock": 8,
+        "airResistPer": 6,
+        "waterResistPer": 6,
+        "fireResistPer": 6,
+        "earthResistPer": 6,
+        "neutralDamage": 60,
+        "criticalChance": -40
       },
       {
-        "criticalChance": -40,
-        "neutralDamage": 80,
-        "earthResistPer": 9,
-        "fireResistPer": 9,
-        "waterResistPer": 9,
-        "airResistPer": 9,
-        "lock": 12,
-        "dodge": 12,
-        "mpResist": 6,
-        "apResist": 6,
-        "AP": 1,
+        "agility": 100,
+        "chance": 100,
+        "intelligence": 100,
+        "strength": 100,
+        "airDamage": 10,
+        "waterDamage": 10,
+        "fireDamage": 10,
+        "earthDamage": 10,
         "range": 2,
-        "MP": 1,
-        "strength": 150,
-        "intelligence": 150,
-        "chance": 150,
-        "agility": 150,
-        "earthDamage": 20,
-        "fireDamage": 20,
+        "AP": 1,
+        "apResist": 4,
+        "mpResist": 4,
+        "dodge": 8,
+        "lock": 8,
+        "airResistPer": 6,
+        "waterResistPer": 6,
+        "fireResistPer": 6,
+        "earthResistPer": 6,
+        "neutralDamage": 60,
+        "criticalChance": -40
+      },
+      {
+        "airDamage": 20,
         "waterDamage": 20,
-        "airDamage": 20
+        "fireDamage": 20,
+        "earthDamage": 20,
+        "agility": 150,
+        "chance": 150,
+        "intelligence": 150,
+        "strength": 150,
+        "range": 2,
+        "AP": 2,
+        "apResist": 6,
+        "mpResist": 6,
+        "dodge": 12,
+        "lock": 12,
+        "airResistPer": 9,
+        "waterResistPer": 9,
+        "fireResistPer": 9,
+        "earthResistPer": 9,
+        "neutralDamage": 80,
+        "criticalChance": -40
       }
     ]
   },
@@ -12561,108 +12611,78 @@
     "stats": [
       {},
       {
-        "MP": -2,
-        "range": -1,
-        "lock": 7,
-        "mpResist": 25,
-        "pushbackResist": 10,
-        "power": 30,
-        "airResist": 25,
-        "fireResist": 25,
-        "waterResist": 25,
-        "neutralResist": 25,
-        "earthResist": 25,
-        "earthResistPer": 3,
-        "waterResistPer": 3,
-        "airResistPer": 3,
-        "fireResistPer": 3,
-        "neutralResistPer": 3,
+        "dodge": -10,
         "initiative": 300,
-        "dodge": -10
+        "neutralResistPer": 2,
+        "fireResistPer": 2,
+        "airResistPer": 2,
+        "waterResistPer": 2,
+        "earthResistPer": 2,
+        "rangedResistPer": 3,
+        "power": 30,
+        "pushbackResist": 10,
+        "mpResist": 25,
+        "lock": 7
       },
       {
-        "MP": -3,
-        "AP": 1,
-        "lock": 10,
-        "mpResist": 30,
-        "pushbackResist": 20,
-        "power": 50,
-        "airResist": 30,
-        "fireResist": 30,
-        "waterResist": 30,
-        "neutralResist": 30,
-        "earthResist": 30,
-        "earthResistPer": 4,
-        "waterResistPer": 4,
-        "airResistPer": 4,
-        "fireResistPer": 4,
-        "neutralResistPer": 4,
-        "initiative": 500,
         "dodge": -20,
-        "range": -2
-      },
-      {
-        "MP": -4,
-        "range": -2,
-        "dodge": -25,
-        "initiative": 750,
-        "neutralResistPer": 5,
-        "fireResistPer": 5,
-        "airResistPer": 5,
-        "waterResistPer": 5,
-        "earthResistPer": 5,
-        "earthResist": 50,
-        "neutralResist": 50,
-        "waterResist": 50,
-        "fireResist": 50,
-        "power": 75,
-        "airResist": 50,
-        "pushbackResist": 25,
-        "mpResist": 50,
-        "lock": 15,
+        "initiative": 500,
+        "neutralResistPer": 4,
+        "fireResistPer": 4,
+        "airResistPer": 4,
+        "waterResistPer": 4,
+        "earthResistPer": 4,
+        "rangedResistPer": 6,
+        "power": 60,
+        "pushbackResist": 20,
+        "mpResist": 30,
+        "lock": 10,
         "AP": 1
       },
       {
-        "MP": -4,
-        "range": -2,
-        "dodge": -35,
-        "initiative": 1000,
-        "neutralResistPer": 7,
-        "fireResistPer": 7,
-        "airResistPer": 7,
-        "waterResistPer": 7,
-        "earthResistPer": 7,
-        "earthResist": 75,
-        "neutralResist": 75,
-        "waterResist": 75,
-        "fireResist": 75,
-        "power": 100,
-        "airResist": 75,
-        "pushbackResist": 35,
-        "mpResist": 75,
-        "lock": 20,
-        "AP": 1
-      },
-      {
-        "MP": -4,
         "AP": 1,
-        "lock": 30,
-        "mpResist": 100,
-        "pushbackResist": 50,
+        "lock": 15,
+        "mpResist": 50,
+        "pushbackResist": 25,
+        "power": 100,
+        "rangedResistPer": 9,
+        "earthResistPer": 6,
+        "waterResistPer": 6,
+        "airResistPer": 6,
+        "fireResistPer": 6,
+        "neutralResistPer": 6,
+        "initiative": 750,
+        "dodge": -25
+      },
+      {
+        "AP": 1,
+        "lock": 20,
+        "mpResist": 75,
+        "pushbackResist": 35,
+        "rangedResistPer": 12,
         "power": 150,
-        "fireResist": 100,
-        "airResist": 100,
-        "waterResist": 100,
-        "earthResist": 100,
-        "neutralResist": 100,
-        "earthResistPer": 10,
-        "airResistPer": 10,
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "initiative": 1500,
-        "neutralResistPer": 10,
+        "earthResistPer": 8,
+        "waterResistPer": 8,
+        "airResistPer": 8,
+        "fireResistPer": 8,
+        "neutralResistPer": 8,
+        "initiative": 1000,
+        "dodge": -35
+      },
+      {
         "dodge": -50,
-        "range": -3
+        "rangedResistPer": 15,
+        "initiative": 1500,
+        "fireResistPer": 10,
+        "waterResistPer": 10,
+        "airResistPer": 10,
+        "earthResistPer": 10,
+        "neutralResistPer": 10,
+        "power": 200,
+        "pushbackResist": 50,
+        "mpResist": 100,
+        "lock": 30,
+        "AP": 2
       }
     ]
   },
@@ -14150,6 +14170,7 @@
     "items": [
       "Col du Dark Vlad",
       "Tabard du Dark Vlad",
+      "Alliance du Dark Vlad",
       "Flamberge du Dark Vlad"
     ],
     "stats": [
@@ -14157,15 +14178,22 @@
       {
         "intelligence": 60,
         "pushbackDamage": 30,
-        "dodge": 12,
-        "fireResist": 66
+        "fireResist": 66,
+        "dodge": 12
       },
       {
-        "AP": 1,
-        "dodge": 12,
-        "fireResist": 66,
+        "intelligence": 60,
         "pushbackDamage": 30,
-        "intelligence": 60
+        "fireResist": 66,
+        "dodge": 12,
+        "AP": 1
+      },
+      {
+        "intelligence": 60,
+        "pushbackDamage": 60,
+        "fireResist": 66,
+        "dodge": 12,
+        "AP": 1
       }
     ]
   },
@@ -15149,6 +15177,314 @@
         "pushbackDamage": 30,
         "criticalChance": 7,
         "MP": 1
+      }
+    ]
+  },
+  "Panoplie du Supervizœuf": {
+    "name": "Panoplie du Supervizœuf",
+    "items": [
+      "Carapace ailée du Supervizœuf",
+      "Poing du Supervizœuf",
+      "Casque du Supervizœuf",
+      "Dard du Supervizœuf",
+      "Blindage du Supervizœuf"
+    ],
+    "stats": [
+      {},
+      {
+        "prospecting": 20,
+        "power": 30,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "fireResistPer": 5,
+        "earthResistPer": 5,
+        "neutralResistPer": 5,
+        "dodge": 10,
+        "heal": 20,
+        "criticalChance": 5
+      },
+      {
+        "AP": 1,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "fireResistPer": 5,
+        "earthResistPer": 5,
+        "neutralResistPer": 5,
+        "dodge": 10,
+        "heal": 20,
+        "criticalChance": 5,
+        "power": 30,
+        "prospecting": 20
+      },
+      {
+        "AP": 1,
+        "summon": 1,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "fireResistPer": 5,
+        "earthResistPer": 5,
+        "neutralResistPer": 5,
+        "dodge": 20,
+        "heal": 30,
+        "criticalChance": 5,
+        "power": 60,
+        "prospecting": 30
+      },
+      {
+        "AP": 1,
+        "MP": 1,
+        "summon": 1,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "fireResistPer": 5,
+        "earthResistPer": 5,
+        "neutralResistPer": 5,
+        "dodge": 20,
+        "heal": 30,
+        "criticalChance": 5,
+        "power": 60,
+        "prospecting": 30
+      }
+    ]
+  },
+  "Panoplie des Kabombz": {
+    "name": "Panoplie des Kabombz",
+    "items": [
+      "Pagne de Kabombz",
+      "Panier de zœufs",
+      "Dagues de Kabombz"
+    ],
+    "stats": [
+      {},
+      {
+        "dodge": 10,
+        "damage": 15,
+        "mpReduction": 10,
+        "apReduction": 10,
+        "prospecting": 15
+      },
+      {
+        "AP": 1,
+        "mpReduction": 10,
+        "apReduction": 10,
+        "damage": 15,
+        "dodge": 10,
+        "prospecting": 15
+      }
+    ]
+  },
+  "Zarbinoplie": {
+    "name": "Zarbinoplie",
+    "items": [
+      "Zarbaudrier",
+      "Zarbottes",
+      "Zarbappeau",
+      "Zarbouclier"
+    ],
+    "stats": [
+      {},
+      {
+        "health": 150,
+        "power": 30,
+        "pushbackDamage": 30,
+        "criticalChance": 6,
+        "damage": 10
+      },
+      {
+        "health": 150,
+        "power": 30,
+        "pushbackDamage": 30,
+        "criticalChance": 6,
+        "AP": 1,
+        "damage": 10
+      },
+      {
+        "health": 150,
+        "power": 60,
+        "pushbackDamage": 30,
+        "criticalChance": 10,
+        "summon": 1,
+        "AP": 1,
+        "damage": 15
+      }
+    ]
+  },
+  "Panoplie du Vénérable Endormi": {
+    "name": "Panoplie du Vénérable Endormi",
+    "items": [
+      "Manteau du Vénérable Endormi",
+      "Malédiction du Vénérable Endormi",
+      "Cornes du Vénérable Endormi",
+      "Arc du Vénérable Endormi"
+    ],
+    "stats": [
+      {},
+      {
+        "health": 150,
+        "strength": 60,
+        "heal": 10,
+        "wisdom": 40,
+        "intelligence": 60,
+        "fireDamage": 6,
+        "earthDamage": 6
+      },
+      {
+        "AP": 1,
+        "heal": 10,
+        "wisdom": 40,
+        "intelligence": 60,
+        "strength": 60,
+        "health": 150,
+        "fireDamage": 6,
+        "earthDamage": 6
+      },
+      {
+        "initiative": 1000,
+        "AP": 1,
+        "heal": 10,
+        "wisdom": 40,
+        "intelligence": 100,
+        "strength": 100,
+        "health": 150,
+        "fireDamage": 10,
+        "earthDamage": 10,
+        "mpReduction": 10,
+        "apReduction": 10
+      }
+    ]
+  },
+  "Panoplie Rhoarim": {
+    "name": "Panoplie Rhoarim",
+    "items": [
+      "Collier Rhoarim",
+      "Pagne Rhoarim",
+      "Masse Osseuse",
+      "Faux've"
+    ],
+    "stats": [
+      {},
+      {
+        "chance": 60,
+        "intelligence": 60,
+        "initiative": 500,
+        "power": 30,
+        "criticalChance": 5,
+        "criticalDamage": 10,
+        "fireDamage": 10,
+        "waterDamage": 10
+      },
+      {
+        "initiative": 500,
+        "power": 30,
+        "AP": 1,
+        "criticalDamage": 10,
+        "criticalChance": 5,
+        "intelligence": 60,
+        "chance": 60,
+        "fireDamage": 10,
+        "waterDamage": 10
+      }
+    ]
+  },
+  "Panoplie de la Déchireuse": {
+    "name": "Panoplie de la Déchireuse",
+    "items": [
+      "Crinière de la Déchireuse",
+      "Griffes de la Déchireuse",
+      "Hachoir de la Déchireuse",
+      "Trophée de la Déchireuse"
+    ],
+    "stats": [
+      {},
+      {
+        "intelligence": 40,
+        "chance": 40,
+        "criticalChance": 5,
+        "pushbackDamage": 20,
+        "mpReduction": 10,
+        "criticalDamage": 10
+      },
+      {
+        "chance": 40,
+        "mpReduction": 10,
+        "intelligence": 40,
+        "pushbackDamage": 20,
+        "criticalChance": 5,
+        "AP": 1,
+        "criticalDamage": 10
+      }
+    ]
+  },
+  "Panoplie des Voyageurs Dimensionnels": {
+    "name": "Panoplie des Voyageurs Dimensionnels",
+    "items": [
+      "Ceinture des Voyageurs",
+      "Bottes des Voyageurs",
+      "Portail des Voyageurs",
+      "Gant des Voyageurs",
+      "Capuche des Voyageurs",
+      "Bouclier des Voyageurs"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 30,
+        "damage": 10,
+        "dodge": 10,
+        "pushbackDamage": 15
+      },
+      {
+        "AP": 1,
+        "dodge": 10,
+        "pushbackDamage": 15,
+        "damage": 10,
+        "power": 30
+      },
+      {
+        "AP": 1,
+        "dodge": 20,
+        "pushbackDamage": 30,
+        "damage": 20,
+        "power": 60
+      },
+      {
+        "MP": 1,
+        "AP": 1,
+        "dodge": 20,
+        "pushbackDamage": 30,
+        "damage": 20,
+        "power": 60
+      },
+      {
+        "MP": 1,
+        "AP": 2,
+        "dodge": 20,
+        "pushbackDamage": 30,
+        "damage": 20,
+        "power": 60
+      }
+    ]
+  },
+  "Panoplie de Gargandyas": {
+    "name": "Panoplie de Gargandyas",
+    "items": [
+      "Collier de Gargandyas",
+      "Griffe de Gargandyas",
+      "Fureur de Gargandyas",
+      "Écaille de Gargandyas"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 40,
+        "initiative": 500,
+        "health": 200
+      },
+      {
+        "power": 80,
+        "initiative": 500,
+        "health": 200,
+        "damage": 10
       }
     ]
   }

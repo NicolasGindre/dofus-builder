@@ -1,66 +1,127 @@
-import { type Item, type Items, type ItemCategory, type Panoply, type Panoplies, ITEM_CATEGORIES } from "../types/item"
-import * as dofusDB from "../clients/dofusDB"
+import {
+    type Item,
+    type Items,
+    type ItemCategory,
+    type Panoply,
+    type Panoplies,
+    ITEM_CATEGORIES,
+} from "../types/item";
+import * as dofusDB from "../clients/dofusDB";
 
-const dbPath = "./src/db/data"
+const dbPath = "./src/db/data";
 
 export let itemsCategory: Record<ItemCategory, Items> = Object.fromEntries(
-  ITEM_CATEGORIES.map(cat => [cat, {}])
-) as Record<ItemCategory, Items>
+    ITEM_CATEGORIES.map((cat) => [cat, {}]),
+) as Record<ItemCategory, Items>;
 
-export let items: Items = {}
-export let panoplies: Panoplies = {}
+export let itemsCategoryFiltered: Record<ItemCategory, Items> = Object.fromEntries(
+    ITEM_CATEGORIES.map((cat) => [cat, {}]),
+) as Record<ItemCategory, Items>;
+
+export let itemsDB: Items = {};
+export let itemsFiltered: Items = {};
+export let panoplies: Panoplies = {};
 
 export function getItem(name: string): Item | undefined {
-    return items[name]
+    return itemsDB[name];
 }
 
 export async function loadItems(levelMin: number, levelMax: number): Promise<void> {
-
-    panoplies = await Bun.file(`${dbPath}/panoplies.json`).json()
+    panoplies = await Bun.file(`${dbPath}/panoplies.json`).json();
 
     for (const category of ITEM_CATEGORIES) {
-        const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json()
+        const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json();
 
         for (const [itemName, item] of Object.entries(itemsCategoryDB)) {
             if (item.level >= levelMin && item.level <= levelMax) {
-                items[itemName] = item
-                itemsCategory[category][itemName] = item
+                // itemsFiltered[itemName] = item
+                itemsCategory[category][itemName] = item;
             }
+            itemsDB[itemName] = item;
         }
 
-        console.log("Loaded "+ Object.keys(itemsCategory[category]).length + " " + category)
+        console.log("Loaded " + Object.keys(itemsCategory[category]).length + " " + category);
     }
-    console.log("Loaded "+ Object.keys(items).length + " items")
+    console.log("Loaded " + Object.keys(itemsDB).length + " items");
+}
+export function filterPanoplies(panopliesToFilter: string[]) {
+    for (const panoplyName of panopliesToFilter) {
+        const panoply = panoplies[panoplyName];
+        if (panoply == undefined) {
+            console.log("can't filter panoply");
+            continue;
+        }
+        filterItems(panoply.items);
+    }
 }
 
-export async function saveItems(category: ItemCategory, items: Record<string, Item>): Promise<void> {
-    await Bun.write(`${dbPath}/${category}.json`, JSON.stringify(items, null, 2))
+export function filterCategoryItems(itemsToFilter: Partial<Record<ItemCategory, Array<string>>>) {
+    for (const items of Object.values(itemsToFilter)) {
+        filterItems(items);
+    }
+}
+
+export function filterItems(itemsToFilter: string[]) {
+    // itemsFiltered = {};
+    // itemsCategoryFiltered = {}
+    // for (const category of ITEM_CATEGORIES) {
+    // for (const [category, items] of Object.entries(itemsCategory) as [ItemCategory, Items][]) {
+    for (const itemName of itemsToFilter) {
+        // console.log(itemName);
+        const item = getItem(itemName);
+        if (item == undefined) {
+            console.log("can't filter item");
+            continue;
+        }
+        itemsFiltered[itemName] = item;
+        itemsCategoryFiltered[item.category][itemName] = item;
+    }
+    // console.log(itemsFiltered);
+    // console.log(itemsCategoryFiltered);
+    // }
+}
+
+export function logFilteredItems() {
+    for (const [category, items] of Object.entries(itemsCategoryFiltered)) {
+        for (const itemName of Object.keys(items)) {
+            console.log(category, itemName);
+        }
+    }
+}
+
+export async function saveItems(
+    category: ItemCategory,
+    items: Record<string, Item>,
+): Promise<void> {
+    await Bun.write(`${dbPath}/${category}.json`, JSON.stringify(items, null, 2));
 }
 
 export async function savePanoplies(panoplies: Panoplies): Promise<void> {
-    await Bun.write(`${dbPath}/panoplies.json`, JSON.stringify(panoplies, null, 2))
+    await Bun.write(`${dbPath}/panoplies.json`, JSON.stringify(panoplies, null, 2));
 }
 
 export async function downloadItems(): Promise<void> {
+    console.log("Starting download from DofusDB");
 
     for (const category of ITEM_CATEGORIES) {
-        const itemsCategory = await dofusDB.downloadItems(category)
+        const itemsCategory = await dofusDB.downloadItems(category);
         for (const [itemName, item] of Object.entries(itemsCategory)) {
-            items[itemName] = item
+            itemsDB[itemName] = item;
         }
 
-        saveItems(category, itemsCategory)
+        saveItems(category, itemsCategory);
     }
-    panoplies = await dofusDB.downloadPanopliesStats()
+    panoplies = await dofusDB.downloadPanopliesStats();
 
-    fillPanopliesItems()
-    savePanoplies(panoplies)
+    fillPanopliesItems();
+    savePanoplies(panoplies);
+    console.log("Downloaded items and panoplies from DofusDB");
 }
 
 export function fillPanopliesItems() {
-    for (const [itemName, item] of Object.entries(items)) {
+    for (const [itemName, item] of Object.entries(itemsDB)) {
         if (item.panoply != undefined) {
-            panoplies[item.panoply]?.items.push(itemName)
+            panoplies[item.panoply]?.items.push(itemName);
         }
     }
 }

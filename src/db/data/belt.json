@@ -2,7 +2,7 @@
   "Ceinture de Puissance": {
     "name": "Ceinture de Puissance",
     "level": 31,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "chance": 40,
@@ -14,7 +14,7 @@
   "Ceinture du Tot": {
     "name": "Ceinture du Tot",
     "level": 33,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "intelligence": -30,
@@ -25,7 +25,7 @@
   "Ceinture Vitalesque": {
     "name": "Ceinture Vitalesque",
     "level": 9,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 35
     }
@@ -33,7 +33,7 @@
   "Ceinture Forcesque": {
     "name": "Ceinture Forcesque",
     "level": 8,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 12,
       "earthDamage": 1
@@ -42,7 +42,7 @@
   "Ceinture Agilesque": {
     "name": "Ceinture Agilesque",
     "level": 8,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 12,
       "airDamage": 1
@@ -51,7 +51,7 @@
   "Ceinture d'Endurance": {
     "name": "Ceinture d'Endurance",
     "level": 27,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -61,7 +61,7 @@
   "Ceinture de Sécurité": {
     "name": "Ceinture de Sécurité",
     "level": 17,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20,
       "dodge": 4
@@ -70,7 +70,7 @@
   "Ceinture du Kobeer": {
     "name": "Ceinture du Kobeer",
     "level": 1,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 2,
       "agility": -2
@@ -79,7 +79,7 @@
   "Ceinture de Chance": {
     "name": "Ceinture de Chance",
     "level": 1,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 7
     }
@@ -88,7 +88,7 @@
     "name": "Ceinture Fulgurante",
     "level": 50,
     "panoply": "Panoplie Fulgurante",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "wisdom": 30,
@@ -99,7 +99,7 @@
   "L'Adelus": {
     "name": "L'Adelus",
     "level": 48,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 25,
       "power": 10,
@@ -110,7 +110,7 @@
   "Ceinture Luthuthu": {
     "name": "Ceinture Luthuthu",
     "level": 50,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -125,7 +125,7 @@
   "Ceinture du Dodu Trembleur": {
     "name": "Ceinture du Dodu Trembleur",
     "level": 55,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "chance": -50,
@@ -143,7 +143,7 @@
   "Ceinture des Vents": {
     "name": "Ceinture des Vents",
     "level": 84,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 30,
       "chance": 30,
@@ -156,7 +156,7 @@
   "Ceinture de Célérité": {
     "name": "Ceinture de Célérité",
     "level": 27,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 30,
       "wisdom": -10,
@@ -167,7 +167,7 @@
   "Ceinture de Poche": {
     "name": "Ceinture de Poche",
     "level": 13,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 10,
       "pods": 110
@@ -177,7 +177,7 @@
     "name": "Puissance de Crocoburio",
     "level": 34,
     "panoply": "Âme de Crocoburio",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "power": 15,
@@ -187,7 +187,7 @@
   "La Croqueuse": {
     "name": "La Croqueuse",
     "level": 28,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": -40,
@@ -200,7 +200,7 @@
   "L'Ami Léhunui": {
     "name": "L'Ami Léhunui",
     "level": 37,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "wisdom": 25,
@@ -212,7 +212,7 @@
   "Ramoume l'Eternelle": {
     "name": "Ramoume l'Eternelle",
     "level": 36,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "wisdom": 25,
@@ -225,7 +225,7 @@
     "name": "Puissante Ceinture Fulgurante",
     "level": 80,
     "panoply": "Puissante Panoplie Fulgurante",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "wisdom": 40,
@@ -236,7 +236,7 @@
   "La Végète Hâtif": {
     "name": "La Végète Hâtif",
     "level": 41,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 25,
       "agility": 25,
@@ -249,7 +249,7 @@
   "La Mouthmou": {
     "name": "La Mouthmou",
     "level": 27,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "summon": 1,
@@ -259,7 +259,7 @@
   "Chtévu": {
     "name": "Chtévu",
     "level": 49,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "criticalChance": 3,
       "range": 1,
@@ -269,7 +269,7 @@
   "Ceinture du Rat": {
     "name": "Ceinture du Rat",
     "level": 55,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -283,7 +283,7 @@
     "name": "Kwakture de Flammes",
     "level": 41,
     "panoply": "Panoplie du Kwak de Flammes",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -295,7 +295,7 @@
     "name": "Ceinture du Bouftou",
     "level": 20,
     "panoply": "Panoplie du Bouftou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 15,
       "intelligence": 15,
@@ -306,7 +306,7 @@
     "name": "Abrature",
     "level": 45,
     "panoply": "Panoplie de l'Abraknyde",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "pods": 150,
@@ -317,7 +317,7 @@
     "name": "Ceinture Royale du Bouftou",
     "level": 30,
     "panoply": "Panoplie du Bouftou Royal",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 70,
       "criticalChance": 2,
@@ -328,7 +328,7 @@
     "name": "Geloture",
     "level": 60,
     "panoply": "Panoplie Gelax",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "intelligence": 50,
@@ -340,7 +340,7 @@
     "name": "Ceinture de l'aventurier",
     "level": 6,
     "panoply": "Panoplie du Jeune Aventurier",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 5,
       "intelligence": 5,
@@ -352,7 +352,7 @@
     "name": "Mégature",
     "level": 45,
     "panoply": "Méganoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "wisdom": 15,
@@ -365,7 +365,7 @@
     "name": "Ceinture Vioutifoule",
     "level": 46,
     "panoply": "Panoplie Vioutifoule",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 35,
       "wisdom": 15,
@@ -378,7 +378,7 @@
     "name": "Kwakture de Glace",
     "level": 41,
     "panoply": "Panoplie du Kwak de Glace",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -389,7 +389,7 @@
   "Ceinture Corbaquiale": {
     "name": "Ceinture Corbaquiale",
     "level": 120,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 50,
       "wisdom": 40,
@@ -403,7 +403,7 @@
   "Ceinture Chouqueuse": {
     "name": "Ceinture Chouqueuse",
     "level": 96,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "strength": 50,
@@ -417,7 +417,7 @@
   "Ceinture Kokokette": {
     "name": "Ceinture Kokokette",
     "level": 42,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 15,
       "strength": 30,
@@ -428,7 +428,7 @@
   "Ceinture Tortue Jaune": {
     "name": "Ceinture Tortue Jaune",
     "level": 60,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "agility": 40,
@@ -440,7 +440,7 @@
   "Ceinture Tortue Bleue": {
     "name": "Ceinture Tortue Bleue",
     "level": 60,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "chance": 40,
@@ -452,7 +452,7 @@
   "Ceinture Tortue Verte": {
     "name": "Ceinture Tortue Verte",
     "level": 60,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -464,7 +464,7 @@
   "Ceinture Tortue Rouge": {
     "name": "Ceinture Tortue Rouge",
     "level": 60,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 40,
@@ -476,7 +476,7 @@
   "Ceinture Kolante": {
     "name": "Ceinture Kolante",
     "level": 50,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -488,7 +488,7 @@
   "Ceinture Banisation": {
     "name": "Ceinture Banisation",
     "level": 29,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "criticalChance": 5
@@ -497,7 +497,7 @@
   "Ceinture Banisation Sauvage": {
     "name": "Ceinture Banisation Sauvage",
     "level": 32,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "criticalChance": 5,
@@ -507,7 +507,7 @@
   "Ceinture du Kwabe": {
     "name": "Ceinture du Kwabe",
     "level": 7,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 7,
       "waterDamage": 2
@@ -516,7 +516,7 @@
   "Ceinture Mulante": {
     "name": "Ceinture Mulante",
     "level": 81,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 70,
       "strength": 40,
@@ -530,7 +530,7 @@
   "Ceinture Meulante": {
     "name": "Ceinture Meulante",
     "level": 129,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "wisdom": 50,
@@ -546,7 +546,7 @@
     "name": "Ceinture Dracochoune",
     "level": 96,
     "panoply": "Panoplie du Dragon Cochon",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "chance": 20,
@@ -561,7 +561,7 @@
   "Ceinture Chafeuse": {
     "name": "Ceinture Chafeuse",
     "level": 49,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "strength": 40,
@@ -572,7 +572,7 @@
   "Ceinture Piquante": {
     "name": "Ceinture Piquante",
     "level": 26,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 15,
       "criticalChance": 3,
@@ -583,7 +583,7 @@
     "name": "Ceinture Ouginakale",
     "level": 65,
     "panoply": "Panoplie Ouginakale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 25,
       "agility": 25,
@@ -595,7 +595,7 @@
   "Ceinture Bontarienne": {
     "name": "Ceinture Bontarienne",
     "level": 53,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 30,
       "initiative": 150,
@@ -608,7 +608,7 @@
   "Ceinture Brâkmarienne": {
     "name": "Ceinture Brâkmarienne",
     "level": 53,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 40,
       "earthDamage": 3,
@@ -619,7 +619,7 @@
   "La Xerbo": {
     "name": "La Xerbo",
     "level": 67,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "agility": 30,
@@ -633,7 +633,7 @@
   "Ceinture de l'Amant d'Ha": {
     "name": "Ceinture de l'Amant d'Ha",
     "level": 117,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 100,
       "wisdom": 50,
@@ -651,7 +651,7 @@
     "name": "Slip Kangouwou du Wabbit GM",
     "level": 59,
     "panoply": "Panoplie du Wabbit",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "wisdom": 30,
@@ -663,7 +663,7 @@
     "name": "Ceinture de l'Homme Ours",
     "level": 20,
     "panoply": "Panoplie de l'Homme Ours",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "intelligence": 20,
@@ -674,7 +674,7 @@
     "name": "Ceinture Fourbissante",
     "level": 103,
     "panoply": "Panoplie Fourbasse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 120,
       "strength": 35,
@@ -692,7 +692,7 @@
     "name": "Kwakture de Terre",
     "level": 41,
     "panoply": "Panoplie du Kwak de Terre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -704,7 +704,7 @@
     "name": "Kwakture de Vent",
     "level": 41,
     "panoply": "Panoplie du Kwak de Vent",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -716,7 +716,7 @@
     "name": "Farlature",
     "level": 80,
     "panoply": "Panoplie de Farle Ingalsse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "wisdom": 15,
@@ -731,7 +731,7 @@
     "name": "Ceinture Fleurie",
     "level": 13,
     "panoply": "Panoplie Champêtre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20
     }
@@ -740,7 +740,7 @@
     "name": "Slip du Chef Bwork",
     "level": 100,
     "panoply": "Panoplie du Chef Bwork",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 45,
       "strength": 35,
@@ -758,7 +758,7 @@
     "name": "Ceinture du Chef Crocodaille",
     "level": 66,
     "panoply": "Panoplie du Chef Crocodaille",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 30,
       "agility": 30,
@@ -771,7 +771,7 @@
     "name": "Sanglature",
     "level": 18,
     "panoply": "Panoplie du Sanglier",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "criticalChance": 2,
@@ -782,7 +782,7 @@
     "name": "Araknoture",
     "level": 11,
     "panoply": "Panoplie Arakne",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "agility": 10
@@ -792,7 +792,7 @@
     "name": "Ceinture du Bandit",
     "level": 15,
     "panoply": "Panoplie du Bandit",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 10,
       "criticalChance": 2,
@@ -807,7 +807,7 @@
     "name": "Ceinture du Prespic",
     "level": 33,
     "panoply": "Panoplie du Prespic",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "range": 1,
       "fireDamage": 3,
@@ -818,7 +818,7 @@
     "name": "Ceinture du Craqueleur",
     "level": 60,
     "panoply": "Panoplie du Craqueleur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 20,
@@ -834,7 +834,7 @@
     "name": "Scarature Verte",
     "level": 46,
     "panoply": "Panoplie du Scarafeuille Vert",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "wisdom": 15,
@@ -848,7 +848,7 @@
     "name": "Scarature Blanche",
     "level": 46,
     "panoply": "Panoplie du Scarafeuille Blanc",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "wisdom": 15,
@@ -862,7 +862,7 @@
     "name": "Scarature Rouge",
     "level": 46,
     "panoply": "Panoplie du Scarafeuille Rouge",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "wisdom": 15,
@@ -876,7 +876,7 @@
     "name": "Scarature Bleue",
     "level": 46,
     "panoply": "Panoplie du Scarafeuille Bleu",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "wisdom": 15,
@@ -890,7 +890,7 @@
     "name": "String du Mulou",
     "level": 49,
     "panoply": "Panoplie du Mulou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 25,
@@ -902,7 +902,7 @@
   "Ceinture de Sangroku": {
     "name": "Ceinture de Sangroku",
     "level": 86,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "agility": 60,
@@ -915,7 +915,7 @@
   "Ceinture Noire de Frank Lee Bruce": {
     "name": "Ceinture Noire de Frank Lee Bruce",
     "level": 47,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "agility": 30,
@@ -926,7 +926,7 @@
   "Ceinture Sula": {
     "name": "Ceinture Sula",
     "level": 125,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -942,7 +942,7 @@
   "Xénature": {
     "name": "Xénature",
     "level": 125,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -959,7 +959,7 @@
     "name": "Ceinture Akwadala",
     "level": 41,
     "panoply": "Panoplie Akwadala",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "wisdom": 20,
@@ -971,7 +971,7 @@
     "name": "Ceinture Terrdala",
     "level": 80,
     "panoply": "Panoplie Terrdala",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -985,7 +985,7 @@
     "name": "Ceinture Feudala",
     "level": 81,
     "panoply": "Panoplie Feudala",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "intelligence": 40,
@@ -999,7 +999,7 @@
     "name": "Ceinture Aerdala",
     "level": 70,
     "panoply": "Panoplie Aerdala",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "agility": 40,
@@ -1011,7 +1011,7 @@
   "Goldoture": {
     "name": "Goldoture",
     "level": 164,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "wisdom": 50,
@@ -1027,7 +1027,7 @@
     "name": "Ceinture du Boufcoul",
     "level": 85,
     "panoply": "Panoplie du Boufcoul",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -1046,7 +1046,7 @@
   "Ceinture d'une Femme en Or": {
     "name": "Ceinture d'une Femme en Or",
     "level": 71,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 70,
       "intelligence": 40,
@@ -1059,7 +1059,7 @@
     "name": "Ceinture du Koalak",
     "level": 60,
     "panoply": "Panoplie du Koalak",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 10,
       "summon": 1,
@@ -1073,7 +1073,7 @@
     "name": "Ceinture du Tofu",
     "level": 22,
     "panoply": "Panoplie du Tofu",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 10,
       "agility": 10,
@@ -1084,7 +1084,7 @@
     "name": "Scarature Dorée",
     "level": 51,
     "panoply": "Panoplie du Scarabosse Doré",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "agility": 30,
@@ -1097,7 +1097,7 @@
     "name": "Ceinturemuda du Paysan",
     "level": 20,
     "panoply": "Panoplie du Paysan",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "chance": 20,
@@ -1108,7 +1108,7 @@
     "name": "Scarature Noire",
     "level": 43,
     "panoply": "Panoplie du Scarafeuille Noir",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "criticalChance": 4,
       "summon": 1,
@@ -1120,7 +1120,7 @@
     "name": "Ceinture du Craqueleur Légendaire",
     "level": 79,
     "panoply": "Panoplie du Craqueleur Légendaire",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "agility": 30,
@@ -1135,7 +1135,7 @@
     "name": "Ceinture du Piou Rouge",
     "level": 7,
     "panoply": "Panoplie du Piou Rouge",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "fireDamage": 1
@@ -1145,7 +1145,7 @@
     "name": "Ceinture du Piou Bleu",
     "level": 12,
     "panoply": "Panoplie du Piou Bleu",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 10,
       "waterDamage": 1
@@ -1155,7 +1155,7 @@
     "name": "Ceinture du Piou Violet",
     "level": 11,
     "panoply": "Panoplie du Piou Violet",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 10,
       "initiative": 50
@@ -1165,7 +1165,7 @@
     "name": "Ceinture du Piou Jaune",
     "level": 9,
     "panoply": "Panoplie du Piou Jaune",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "airDamage": 1
@@ -1175,7 +1175,7 @@
     "name": "Ceinture du Piou Vert",
     "level": 8,
     "panoply": "Panoplie du Piou Vert",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "summon": 1
@@ -1185,7 +1185,7 @@
     "name": "Ceinture du Piou Rose",
     "level": 10,
     "panoply": "Panoplie du Piou Rose",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "wisdom": 10,
       "heal": 1
@@ -1195,7 +1195,7 @@
     "name": "Ceinture en Mousse",
     "level": 20,
     "panoply": "Panoplie en Mousse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 30,
       "dodge": 2
@@ -1205,7 +1205,7 @@
     "name": "Ceinture du Meulou",
     "level": 125,
     "panoply": "Panoplie du Meulou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -1222,7 +1222,7 @@
     "name": "Ceinture du Minotoror",
     "level": 109,
     "panoply": "Panoplie du Minotoror",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "wisdom": 40,
@@ -1241,7 +1241,7 @@
     "name": "Ceinture du Minotot",
     "level": 149,
     "panoply": "Panoplie du Minotot",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -1261,7 +1261,7 @@
     "name": "Ceinture du Dragoeuf",
     "level": 126,
     "panoply": "Panoplie du Dragoeuf Vagabond",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -1281,7 +1281,7 @@
     "name": "Shikature",
     "level": 80,
     "panoply": "Panoplie de Shika Ingalsse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 30,
       "wisdom": 15,
@@ -1296,7 +1296,7 @@
     "name": "Ceinture du Mominotor",
     "level": 112,
     "panoply": "Panoplie du Mominotor",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "wisdom": 40,
@@ -1314,7 +1314,7 @@
     "name": "Ceinture du Rat Noir",
     "level": 101,
     "panoply": "Panoplie du Rat Noir",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 140,
       "strength": 50,
@@ -1333,7 +1333,7 @@
     "name": "Ceinture du Rat Blanc",
     "level": 102,
     "panoply": "Panoplie du Rat Blanc",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 120,
       "intelligence": 50,
@@ -1351,7 +1351,7 @@
     "name": "Ceinture Cérémoniale du Seigneur des Rats",
     "level": 133,
     "panoply": "Panoplie Cérémoniale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "intelligence": 30,
@@ -1371,7 +1371,7 @@
     "name": "Abrature Ancestrale",
     "level": 111,
     "panoply": "Panoplie Ancestrale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 35,
@@ -1391,7 +1391,7 @@
     "name": "String Automnal du Chêne Mou",
     "level": 141,
     "panoply": "Panoplie du Chêne Mou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -1412,7 +1412,7 @@
     "name": "La Spamette",
     "level": 1,
     "panoply": "Panoplie du Boune",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 10,
       "intelligence": 6
@@ -1422,90 +1422,90 @@
     "name": "Sangle Hynère",
     "level": 130,
     "panoply": "Panoplie Téméraire",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Buhlent": {
     "name": "Ceinture Buhlent",
     "level": 130,
     "panoply": "Panoplie de Gouttière",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Sangle Glinglin": {
     "name": "Sangle Glinglin",
     "level": 130,
     "panoply": "Panoplie Criminelle",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Lupine": {
     "name": "Ceinture Lupine",
     "level": 130,
     "panoply": "Panoplie Intemporelle",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Sangle Holon": {
     "name": "Sangle Holon",
     "level": 130,
     "panoply": "Panoplie Altruiste",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Luthe": {
     "name": "Ceinture Luthe",
     "level": 130,
     "panoply": "Panoplie Sauvage",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Sangle Hans": {
     "name": "Sangle Hans",
     "level": 130,
     "panoply": "Panoplie Exsangue",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Bodiézèle": {
     "name": "Ceinture Bodiézèle",
     "level": 130,
     "panoply": "Panoplie de l'Innombrable",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Sangle Huée": {
     "name": "Sangle Huée",
     "level": 130,
     "panoply": "Panoplie Ethylique",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Sangle Cible": {
     "name": "Sangle Cible",
     "level": 130,
     "panoply": "Panoplie du Prince des voleurs",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Gaine Hage": {
     "name": "Gaine Hage",
     "level": 130,
     "panoply": "Panoplie Indestructible",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Gessant": {
     "name": "Ceinture Gessant",
     "level": 130,
     "panoply": "Panoplie Vénérable",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Rasboulaire du Rasboul": {
     "name": "Ceinture Rasboulaire du Rasboul",
     "level": 182,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "agility": 60,
@@ -1523,7 +1523,7 @@
     "name": "Ceinture Bitoufale de Prosper Youpla",
     "level": 148,
     "panoply": "Panoplie Bitoufale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 50,
       "agility": 50,
@@ -1542,7 +1542,7 @@
     "name": "Ceinture sombre en Abrakleur",
     "level": 128,
     "panoply": "Panoplie Sombre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -1560,7 +1560,7 @@
     "name": "Ceinture Claire en Abrakleur",
     "level": 126,
     "panoply": "Panoplie Claire",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 45,
@@ -1576,7 +1576,7 @@
   "Krustoture": {
     "name": "Krustoture",
     "level": 39,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 25,
@@ -1588,7 +1588,7 @@
     "name": "String Tue-Mouche",
     "level": 192,
     "panoply": "Panoplie Tue-Mouche",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -1606,7 +1606,7 @@
     "name": "Ceinture Mycosine",
     "level": 177,
     "panoply": "Panoplycélium",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -1625,7 +1625,7 @@
     "name": "Tranche des Sous-bois",
     "level": 179,
     "panoply": "Panoplie des Sous-bois",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "chance": 50,
@@ -1641,7 +1641,7 @@
     "name": "Ougature",
     "level": 185,
     "panoply": "Panoplie du Ougah",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "wisdom": 50,
@@ -1657,7 +1657,7 @@
     "name": "Blopture Griotte",
     "level": 50,
     "panoply": "Panoplie Blop Griotte",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "intelligence": 35,
@@ -1670,7 +1670,7 @@
     "name": "Blopture Reinette",
     "level": 50,
     "panoply": "Panoplie Blop Reinette",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "strength": 35,
@@ -1683,7 +1683,7 @@
     "name": "Blopture Coco",
     "level": 50,
     "panoply": "Panoplie Blop Coco",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "agility": 35,
@@ -1696,7 +1696,7 @@
     "name": "Blopture Indigo",
     "level": 50,
     "panoply": "Panoplie Blop Indigo",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "chance": 35,
@@ -1709,7 +1709,7 @@
     "name": "Blopture Griotte Royale",
     "level": 80,
     "panoply": "Panoplie Blop Griotte Royale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 45,
       "intelligence": 30,
@@ -1724,7 +1724,7 @@
     "name": "Blopture Reinette Royale",
     "level": 80,
     "panoply": "Panoplie Blop Reinette Royale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 45,
       "strength": 30,
@@ -1739,7 +1739,7 @@
     "name": "Blopture Coco Royale",
     "level": 80,
     "panoply": "Panoplie Blop Coco Royale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 45,
       "agility": 30,
@@ -1754,7 +1754,7 @@
     "name": "Blopture Indigo Royale",
     "level": 80,
     "panoply": "Panoplie Blop Indigo Royale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 45,
       "chance": 30,
@@ -1769,7 +1769,7 @@
     "name": "Blopture Multicolore Royale",
     "level": 88,
     "panoply": "Panoplie Blop Multicolore Royale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 100,
       "wisdom": 30,
@@ -1783,7 +1783,7 @@
     "name": "Ceinture Toré",
     "level": 181,
     "panoply": "Panoplie du Bworker Gladiateur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "intelligence": 50,
@@ -1802,7 +1802,7 @@
   "Ceinture de Flash Gorgone": {
     "name": "Ceinture de Flash Gorgone",
     "level": 48,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "damage": 3,
@@ -1814,7 +1814,7 @@
   "Beignature": {
     "name": "Beignature",
     "level": 45,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "neutralResistPer": 4,
@@ -1826,7 +1826,7 @@
     "name": "Tutu Rose",
     "level": 49,
     "panoply": "Panoplie Rose",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "wisdom": 25,
@@ -1837,7 +1837,7 @@
     "name": "Ceinture Lardière",
     "level": 39,
     "panoply": "Panoplie de Peggy la Porkass",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 25,
@@ -1848,7 +1848,7 @@
   "Ceinture du bois de l'est": {
     "name": "Ceinture du bois de l'est",
     "level": 32,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "criticalChance": 5,
@@ -1859,7 +1859,7 @@
     "name": "Ceinture Cristalline",
     "level": 41,
     "panoply": "Panoplie Cristalline",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "wisdom": 15,
@@ -1873,7 +1873,7 @@
     "name": "Caleçon à bretelles du Parrain",
     "level": 48,
     "panoply": "Panoplie du Parrain",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 25,
       "agility": 25,
@@ -1885,7 +1885,7 @@
     "name": "Ceinture du Black Wab",
     "level": 46,
     "panoply": "Panoplie du Black Wab",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "wisdom": 20,
@@ -1897,7 +1897,7 @@
     "name": "Ceinture du Tétounik",
     "level": 38,
     "panoply": "Panoplie du Tétounik",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "intelligence": 35,
@@ -1909,7 +1909,7 @@
     "name": "Ceinture Siks Won Naïne",
     "level": 41,
     "panoply": "Panoplie Siks Won Naïne",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "power": 20,
@@ -1921,7 +1921,7 @@
     "name": "Ceinture du Vampyre",
     "level": 42,
     "panoply": "Panoplie du Vampyre maudit",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -1933,7 +1933,7 @@
     "name": "Yugure",
     "level": 43,
     "panoply": "Yugoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "damage": 3,
@@ -1945,7 +1945,7 @@
     "name": "L'oxolature",
     "level": 37,
     "panoply": "Panoplie de la Denrée",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "wisdom": 10,
@@ -1956,7 +1956,7 @@
   "Ceinture de Tolot": {
     "name": "Ceinture de Tolot",
     "level": 41,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 25,
       "chance": 25,
@@ -1967,7 +1967,7 @@
   "Ceinture de Mounu": {
     "name": "Ceinture de Mounu",
     "level": 41,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 25,
       "agility": 25,
@@ -1979,7 +1979,7 @@
     "name": "Ceinture de Grüt",
     "level": 40,
     "panoply": "Panoplie de Grüt",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "strength": 20,
@@ -1990,7 +1990,7 @@
     "name": "Ceinture de Kocksis",
     "level": 42,
     "panoply": "Panoplie de Kocksis",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 25,
@@ -2002,7 +2002,7 @@
     "name": "Ceinture de Gobeuf",
     "level": 42,
     "panoply": "Panoplie de Gobeuf",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 25,
@@ -2013,7 +2013,7 @@
     "name": "Ceinture de Rekto Topi",
     "level": 40,
     "panoply": "Panoplie de Rekto Topi",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 25,
       "wisdom": 15,
@@ -2024,7 +2024,7 @@
     "name": "Ceinture de Grizou",
     "level": 43,
     "panoply": "Panoplie de Grizou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "chance": 25,
@@ -2035,7 +2035,7 @@
     "name": "Ceinture du Roks Or",
     "level": 53,
     "panoply": "Panoplie du Roks Or",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "wisdom": 15,
@@ -2047,7 +2047,7 @@
     "name": "Ceinture de l'intrépide",
     "level": 1,
     "panoply": "Panoplie de l'intrépide",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 1,
       "initiative": 1
@@ -2057,7 +2057,7 @@
     "name": "Ceinture d'Hulkrap",
     "level": 51,
     "panoply": "Panoplie d'Hulkrap",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 25,
@@ -2069,7 +2069,7 @@
     "name": "Ceinture de Klüme",
     "level": 52,
     "panoply": "Panoplie de Klüme",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "strength": 35,
@@ -2081,7 +2081,7 @@
     "name": "Ceinture de Kloug",
     "level": 51,
     "panoply": "Panoplie de Kloug",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "chance": 30,
@@ -2093,7 +2093,7 @@
     "name": "Ceinture de Rapine",
     "level": 31,
     "panoply": "Panoplie de Rapine",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 20,
       "agility": 20,
@@ -2104,7 +2104,7 @@
     "name": "Ceinture de Phong Huss",
     "level": 30,
     "panoply": "Panoplie de Phong Huss",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 25,
       "damage": 2
@@ -2114,7 +2114,7 @@
     "name": "Ceinture d'Hectaupe",
     "level": 32,
     "panoply": "Panoplie d'Hectaupe",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "damage": 1
@@ -2124,7 +2124,7 @@
     "name": "Givrature",
     "level": 35,
     "panoply": "Givranoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "power": 15,
       "range": 1
@@ -2133,7 +2133,7 @@
   "Cordon Père au gnon": {
     "name": "Cordon Père au gnon",
     "level": 40,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20,
       "agility": 20,
@@ -2144,7 +2144,7 @@
     "name": "Ceinture Pomdeupin",
     "level": 40,
     "panoply": "Panoplie Pomdeupin",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -2155,7 +2155,7 @@
     "name": "Ceinture de Gadjète",
     "level": 49,
     "panoply": "Panoplie de Gadjète",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "strength": 30,
@@ -2168,7 +2168,7 @@
     "name": "Ceinture de Rapiat",
     "level": 39,
     "panoply": "Panoplie de Rapiat",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 25,
@@ -2180,7 +2180,7 @@
     "name": "Ceinture d'Ougicle",
     "level": 57,
     "panoply": "Panoplie d'Ougicle",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "agility": 30,
@@ -2194,7 +2194,7 @@
     "name": "Ceinture de Grouillot",
     "level": 43,
     "panoply": "Panoplie de Grouillot",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "intelligence": 25,
@@ -2206,7 +2206,7 @@
     "name": "Ceinture de Kubitus",
     "level": 42,
     "panoply": "Panoplie de Kubitus",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 25,
@@ -2219,7 +2219,7 @@
     "name": "Ceinture de Piggy Paupe",
     "level": 56,
     "panoply": "Panoplie de Piggy Paupe",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "chance": 30,
@@ -2234,7 +2234,7 @@
     "name": "Slipapier",
     "level": 61,
     "panoply": "Panopapier",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "chance": 30,
@@ -2248,7 +2248,7 @@
     "name": "Ceintusonnier",
     "level": 58,
     "panoply": "Panoplisonnier",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -2261,7 +2261,7 @@
     "name": "Frimature",
     "level": 197,
     "panoply": "Frimanoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -2279,7 +2279,7 @@
     "name": "Ceinture du Royalmouth",
     "level": 130,
     "panoply": "Panoplie du Royalmouth",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -2301,7 +2301,7 @@
     "name": "Ceinture de Ben le Ripate",
     "level": 157,
     "panoply": "Panoplie de Ben le Ripate",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 230,
       "agility": 50,
@@ -2321,14 +2321,14 @@
   "Pagniglou défectueux": {
     "name": "Pagniglou défectueux",
     "level": 138,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Slip Hie": {
     "name": "Slip Hie",
     "level": 152,
     "panoply": "Panoplie Yéyé",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "chance": 40,
@@ -2348,7 +2348,7 @@
     "name": "Slip Noze",
     "level": 162,
     "panoply": "Panoplie du frigostien envoûtant",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 60,
@@ -2368,7 +2368,7 @@
     "name": "Pagniglou",
     "level": 137,
     "panoply": "Panoplie des Pins Perdus",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "chance": 45,
@@ -2389,7 +2389,7 @@
     "name": "Ceinture du Tengu Givrefoux",
     "level": 177,
     "panoply": "Panoplie du Tengu Givrefoux",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -2411,7 +2411,7 @@
     "name": "Ceinture de Kolosso",
     "level": 187,
     "panoply": "Panoplie de Kolosso",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 30,
@@ -2431,7 +2431,7 @@
     "name": "Ceinture du Glourséleste",
     "level": 195,
     "panoply": "Panoplie du Glourséleste",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "intelligence": 40,
@@ -2455,7 +2455,7 @@
   "Pagne du Soryo Givrefoux": {
     "name": "Pagne du Soryo Givrefoux",
     "level": 175,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "chance": 60,
@@ -2475,13 +2475,13 @@
   "Ceinture Bine encrassée": {
     "name": "Ceinture Bine encrassée",
     "level": 183,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Hanium": {
     "name": "Ceinture Hanium",
     "level": 194,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -2499,7 +2499,7 @@
   "Ceinture de Percimol": {
     "name": "Ceinture de Percimol",
     "level": 45,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -2511,7 +2511,7 @@
   "Slip Iholo": {
     "name": "Slip Iholo",
     "level": 178,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "wisdom": 30,
@@ -2533,7 +2533,7 @@
     "name": "Ceinture de Stroud",
     "level": 41,
     "panoply": "Panoplie de Stroud",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "chance": 30,
@@ -2545,7 +2545,7 @@
     "name": "Ceinture du Boostache",
     "level": 45,
     "panoply": "Panoplie du Boostache",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -2558,7 +2558,7 @@
     "name": "Ceinture de Traçon",
     "level": 43,
     "panoply": "Panoplie de Traçon",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "chance": 25,
@@ -2571,7 +2571,7 @@
     "name": "Ceinture de Mirh",
     "level": 55,
     "panoply": "Panoplie de Mirh",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 40,
@@ -2585,7 +2585,7 @@
     "name": "Slip de Kalkanéus",
     "level": 40,
     "panoply": "Panoplie de Kalkanéus",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 25,
@@ -2598,7 +2598,7 @@
     "name": "Ceinture d'Hichète",
     "level": 56,
     "panoply": "Panoplie d'Hichète",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "agility": 30,
@@ -2611,7 +2611,7 @@
     "name": "Ceinture Bine",
     "level": 183,
     "panoply": "Panoplie du frigostien approximatif",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -2634,7 +2634,7 @@
     "name": "Ceinture de Nelween",
     "level": 78,
     "panoply": "Panoplie de Nelween",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 100,
       "neutralDamage": 10,
@@ -2648,7 +2648,7 @@
     "name": "Ceinture de Frigostine",
     "level": 140,
     "panoply": "Panoplie de Frigostine",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 225,
       "agility": 60,
@@ -2667,7 +2667,7 @@
     "name": "Ceinture des Prophètes",
     "level": 163,
     "panoply": "Panoplie des Prophètes",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 230,
       "intelligence": 30,
@@ -2688,7 +2688,7 @@
     "name": "Ceinture de Boréale",
     "level": 185,
     "panoply": "Panoplie de Boréale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 80,
@@ -2704,21 +2704,21 @@
     "name": "Sangle Hyssérine",
     "level": 130,
     "panoply": "Panoplie Explosive",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Corde Ure": {
     "name": "Corde Ure",
     "level": 130,
     "panoply": "Panoplie Lunatique",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture du Krokilleur": {
     "name": "Ceinture du Krokilleur",
     "level": 104,
     "panoply": "Panoplie du Krokilleur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 100,
       "strength": 40,
@@ -2739,7 +2739,7 @@
     "name": "Ceinture de Grozilla",
     "level": 158,
     "panoply": "Panoplie de Grozilla",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 220,
       "chance": 40,
@@ -2759,7 +2759,7 @@
   "Slip Vert": {
     "name": "Slip Vert",
     "level": 57,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "wisdom": 25,
@@ -2771,7 +2771,7 @@
   "Ceinture de Pandalida": {
     "name": "Ceinture de Pandalida",
     "level": 53,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 25,
@@ -2784,7 +2784,7 @@
     "name": "Ceinture de l'Envahisseur",
     "level": 10,
     "panoply": "Panoplie de l'Envahisseur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 15,
       "criticalChance": 2
@@ -2794,7 +2794,7 @@
     "name": "Ceinture de Danioule",
     "level": 54,
     "panoply": "Panoplie de Danioule",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -2807,7 +2807,7 @@
     "name": "Pagne de Daïgoro",
     "level": 82,
     "panoply": "Panoplie de Daïgoro",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 70,
       "chance": 30,
@@ -2823,7 +2823,7 @@
     "name": "Ceinturong",
     "level": 10,
     "panoply": "Panoplong",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 15,
       "damage": 2
@@ -2832,7 +2832,7 @@
   "Ceinture Abdominable": {
     "name": "Ceinture Abdominable",
     "level": 114,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 120,
       "intelligence": 40,
@@ -2855,7 +2855,7 @@
     "name": "Caleçon Fourré du Glutin",
     "level": 25,
     "panoply": "Panoplie du Glutin",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "range": 1
     }
@@ -2864,7 +2864,7 @@
     "name": "Gladialeçon",
     "level": 46,
     "panoply": "Gladianoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 20,
       "range": 1,
@@ -2875,7 +2875,7 @@
     "name": "Ceinturoduvet",
     "level": 60,
     "panoply": "Panoplie à plumes",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 20,
       "power": 20,
@@ -2889,7 +2889,7 @@
     "name": "Pagne du Chafer Rōnin",
     "level": 45,
     "panoply": "Panoplie des Anciens Chafers",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "strength": 20,
@@ -2903,7 +2903,7 @@
     "name": "Ceinture de Brouce",
     "level": 194,
     "panoply": "Panoplie de Brouce Boulgoure",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 100,
@@ -2921,7 +2921,7 @@
     "name": "Ceinture de Danathor",
     "level": 188,
     "panoply": "Panoplie de Danathor",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -2938,7 +2938,7 @@
     "name": "Ceinture de Léthaline",
     "level": 194,
     "panoply": "Panoplie de Léthaline Sigisbul",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -2955,7 +2955,7 @@
     "name": "Ceinture d'Ogivol",
     "level": 195,
     "panoply": "Panoplie d'Ogivol Scalarcin",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -2978,7 +2978,7 @@
     "name": "Ceinture de Coffreté",
     "level": 51,
     "panoply": "Panoplie Coffre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "power": 25,
@@ -2992,13 +2992,13 @@
     "name": "Ceinture Blot",
     "level": 130,
     "panoply": "Panoplie Submersible",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture Nikoti": {
     "name": "Ceinture Nikoti",
     "level": 45,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 30,
       "criticalChance": 5,
@@ -3009,7 +3009,7 @@
   "Ceinture Teule": {
     "name": "Ceinture Teule",
     "level": 42,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 35,
       "wisdom": 15,
@@ -3021,7 +3021,7 @@
     "name": "Ceintrouille",
     "level": 106,
     "panoply": "Panoplitrouille",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "intelligence": 30,
@@ -3041,7 +3041,7 @@
   "Slip de Rechange du Captain Chafer": {
     "name": "Slip de Rechange du Captain Chafer",
     "level": 9,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": -70,
       "summon": 1
@@ -3051,7 +3051,7 @@
     "name": "Krosmangle",
     "level": 100,
     "panoply": "Krosmanoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "strength": 30,
@@ -3070,7 +3070,7 @@
     "name": "Ceinture d'Henual",
     "level": 197,
     "panoply": "Panoplie d'Henual",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -3094,7 +3094,7 @@
     "name": "Ceinture de Nevark",
     "level": 195,
     "panoply": "Panoplie de Nevark",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -3113,7 +3113,7 @@
     "name": "Ceinture du Frelon Noir",
     "level": 153,
     "panoply": "Panoplie du Frelon Noir",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -3135,7 +3135,7 @@
     "name": "Ceinture de Klime",
     "level": 198,
     "panoply": "Panoplie de Klime",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "agility": 80,
@@ -3154,7 +3154,7 @@
     "name": "Ceinture Glaciale",
     "level": 196,
     "panoply": "Panoplie Glaciale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -3171,7 +3171,7 @@
     "name": "Ceinture Instable",
     "level": 196,
     "panoply": "Panoplie Instable",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "wisdom": 60,
@@ -3188,7 +3188,7 @@
     "name": "Sangle de Sylargh",
     "level": 195,
     "panoply": "Panoplie de Sylargh",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 70,
@@ -3208,7 +3208,7 @@
     "name": "Ceinture Séculaire",
     "level": 200,
     "panoply": "Panoplie Séculaire",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -3228,7 +3228,7 @@
     "name": "Ceinture du Strigide",
     "level": 200,
     "panoply": "Panoplie du Strigide",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "wisdom": 50,
@@ -3251,7 +3251,7 @@
     "name": "Ceinture du Nocturlabe",
     "level": 200,
     "panoply": "Panoplie du Nocturlabe",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "agility": 100,
@@ -3268,7 +3268,7 @@
   "Sangle Aise": {
     "name": "Sangle Aise",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -3288,7 +3288,7 @@
     "name": "Sangle Ouare",
     "level": 200,
     "panoply": "Panoplie du Bonimenteur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "chance": 40,
@@ -3309,7 +3309,7 @@
   "Slip du Roi de Bonta": {
     "name": "Slip du Roi de Bonta",
     "level": 195,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "wisdom": 30,
@@ -3327,7 +3327,7 @@
     "name": "Ceinture Ding Dong",
     "level": 100,
     "panoply": "Panoplie de Maître Nabur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "agility": 40,
       "wisdom": 30,
@@ -3342,7 +3342,7 @@
     "name": "Ceinture Hyolite",
     "level": 195,
     "panoply": "Panoplie Magmatique",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 30,
@@ -3365,7 +3365,7 @@
     "name": "Ceinture du Wa Wobot",
     "level": 83,
     "panoply": "Panoplie du Wa Wobot",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 20,
@@ -3381,7 +3381,7 @@
     "name": "Ceinture du Blanc Pa Wabbit",
     "level": 83,
     "panoply": "Panoplie du Blanc Pa Wabbit",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "chance": 30,
@@ -3396,7 +3396,7 @@
     "name": "Ceinture du Wabbit Garou",
     "level": 123,
     "panoply": "Panoplie du Wabbit Garou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -3414,7 +3414,7 @@
     "name": "Ceinture Hétorique",
     "level": 101,
     "panoply": "Panoplie Dramatik",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -3430,7 +3430,7 @@
     "name": "Brighellanière",
     "level": 97,
     "panoply": "Panoplie Talienne",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 100,
       "chance": 40,
@@ -3446,7 +3446,7 @@
   "Ceintulotté": {
     "name": "Ceintulotté",
     "level": 10,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 15,
       "fireDamage": 2
@@ -3455,7 +3455,7 @@
   "Slipwaïï": {
     "name": "Slipwaïï",
     "level": 10,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 15,
       "chance": 15
@@ -3464,7 +3464,7 @@
   "Makiture": {
     "name": "Makiture",
     "level": 10,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 10,
       "chance": 10,
@@ -3475,7 +3475,7 @@
     "name": "Nageoiture",
     "level": 144,
     "panoply": "Panoplie Engloutie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "chance": 30,
@@ -3494,7 +3494,7 @@
   "Soubretture": {
     "name": "Soubretture",
     "level": 10,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 15,
       "heal": 3
@@ -3503,7 +3503,7 @@
   "Ceinture du Samouraï": {
     "name": "Ceinture du Samouraï",
     "level": 10,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "criticalChance": 2,
       "dodge": 3
@@ -3513,7 +3513,7 @@
     "name": "Obscture",
     "level": 195,
     "panoply": "Panoplie Obscure",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -3536,7 +3536,7 @@
     "name": "Ceinture du Père Fwetar",
     "level": 198,
     "panoply": "Panoplie du Père Fwetar",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "wisdom": 40,
@@ -3558,7 +3558,7 @@
     "name": "Ceinture du Kaniblou",
     "level": 158,
     "panoply": "Panoplie du Kaniblou",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "chance": 60,
@@ -3576,7 +3576,7 @@
     "name": "Ceinture de l'Orfélin",
     "level": 158,
     "panoply": "Panoplie de l'Orfélin",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "agility": 60,
@@ -3596,7 +3596,7 @@
     "name": "Ceinture Karnaval",
     "level": 20,
     "panoply": "Panoplie Karnaval",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "summon": 1,
@@ -3608,7 +3608,7 @@
     "name": "Ceinture du Barbétoal",
     "level": 200,
     "panoply": "Panoplie du Barbétoal",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -3628,7 +3628,7 @@
     "name": "Ceinture Phossile",
     "level": 147,
     "panoply": "Panoplie Phossile",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "power": 40,
@@ -3648,7 +3648,7 @@
     "name": "Ceinture du Père Phorreur",
     "level": 154,
     "panoply": "Panoplie du Père Phorreur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -3667,7 +3667,7 @@
     "name": "Ceinture Précieuse",
     "level": 101,
     "panoply": "Panoplie Précieuse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -3684,7 +3684,7 @@
     "name": "Ceinture du Berserkoffre",
     "level": 100,
     "panoply": "Panoplie du Berserkoffre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -3700,7 +3700,7 @@
   "Kamature": {
     "name": "Kamature",
     "level": 1,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "prospecting": 5
     }
@@ -3709,7 +3709,7 @@
     "name": "Ceintruche",
     "level": 128,
     "panoply": "Panoplie Truche",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -3727,7 +3727,7 @@
     "name": "Ceinture de la Cour Sombre",
     "level": 200,
     "panoply": "Panoplie de la Cour Sombre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -3748,7 +3748,7 @@
     "name": "Ceinture de Gein",
     "level": 200,
     "panoply": "Panoplie de Gein",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -3768,7 +3768,7 @@
     "name": "Ceinture de la Reine des Voleurs",
     "level": 200,
     "panoply": "Panoplie de la Reine des Voleurs",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -3788,7 +3788,7 @@
     "name": "Ceinture du Capitaine Ekarlatte",
     "level": 128,
     "panoply": "Panoplie du Capitaine Ekarlatte",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 30,
@@ -3809,7 +3809,7 @@
     "name": "Ceinture Verréhor",
     "level": 30,
     "panoply": "Panoplie Verréhor",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20,
       "agility": 20,
@@ -3820,7 +3820,7 @@
     "name": "Ceintacé",
     "level": 200,
     "panoply": "Panoplie de la Baleine",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -3840,7 +3840,7 @@
     "name": "Protopagne",
     "level": 200,
     "panoply": "Panoplie des Krobes",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -3858,7 +3858,7 @@
     "name": "Ceinture de Vortex",
     "level": 200,
     "panoply": "Panoplie de Vortex",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -3878,7 +3878,7 @@
     "name": "Ceintrigue",
     "level": 200,
     "panoply": "Panoplie Pnose",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -3897,7 +3897,7 @@
     "name": "Ceinture de XLII",
     "level": 170,
     "panoply": "Panoplie de XLII",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -3918,7 +3918,7 @@
     "name": "Ceinture de Soissanth",
     "level": 171,
     "panoply": "Panoplie de Soissanth",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 60,
@@ -3938,7 +3938,7 @@
     "name": "Ceinture de Fraktale",
     "level": 122,
     "panoply": "Panoplie de Fraktale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -3954,7 +3954,7 @@
     "name": "Ceinture Anesthésiante",
     "level": 62,
     "panoply": "Panoplie Palliative",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 40,
       "wisdom": 25,
@@ -3967,7 +3967,7 @@
     "name": "String Fouetteur",
     "level": 128,
     "panoply": "Panoplie de la Voleuse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -3983,14 +3983,14 @@
     "name": "Ceinture Billonnante",
     "level": 130,
     "panoply": "Panoplie Transcendante",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Gaine Nyée": {
     "name": "Gaine Nyée",
     "level": 90,
     "panoply": "Panoplie de la Pondeuse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 80,
       "strength": 30,
@@ -4006,7 +4006,7 @@
   "Ceinture du chasseur": {
     "name": "Ceinture du chasseur",
     "level": 40,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 30,
@@ -4017,7 +4017,7 @@
     "name": "Ceinture du Bretteur Céleste",
     "level": 162,
     "panoply": "Panoplie du Bretteur Céleste",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -4038,7 +4038,7 @@
     "name": "Ceinture de Zatoïshwan",
     "level": 153,
     "panoply": "Panoplie de Zatoïshwan",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -4059,7 +4059,7 @@
     "name": "Ceinture Voldelor",
     "level": 200,
     "panoply": "Panoplie de Voldelor",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "chance": 70,
@@ -4080,7 +4080,7 @@
     "name": "Ceinture de Kongoku",
     "level": 200,
     "panoply": "Panoplie de Kongoku",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -4101,7 +4101,7 @@
     "name": "Ceinture du K.O.",
     "level": 183,
     "panoply": "Panoplie du K.O.",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -4122,7 +4122,7 @@
     "name": "Culotte des 1001 Griffes",
     "level": 60,
     "panoply": "Panoplie des 1001 Griffes",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "chance": 40,
@@ -4135,7 +4135,7 @@
     "name": "Ceinture des Grocoricos",
     "level": 30,
     "panoply": "Panoplie des Grocoricos",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20,
       "chance": 20,
@@ -4146,7 +4146,7 @@
     "name": "Ceinture des Redroz",
     "level": 40,
     "panoply": "Panoplie des Redroz",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 30,
       "agility": 30,
@@ -4157,7 +4157,7 @@
     "name": "Ceinture des Pamous",
     "level": 30,
     "panoply": "Panoplie des Pamous",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "chance": 20,
       "agility": 20,
@@ -4168,7 +4168,7 @@
     "name": "Ceinture des Zoblaks",
     "level": 30,
     "panoply": "Panoplie des Zoblaks",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "strength": 20,
       "intelligence": 20,
@@ -4179,14 +4179,14 @@
     "name": "L'Élémenture",
     "level": 130,
     "panoply": "Panoplie Quadramentale",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Slip de Khan Karkass": {
     "name": "Slip de Khan Karkass",
     "level": 10,
     "panoply": "Panoplie de Khan Karkass",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "earthDamage": 4,
       "lock": 3
@@ -4196,7 +4196,7 @@
     "name": "Ceinture du Monarque",
     "level": 40,
     "panoply": "Panoplie du Monarque",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "intelligence": 40,
       "wisdom": 15,
@@ -4207,7 +4207,7 @@
     "name": "Ceinture du Garde Royal",
     "level": 38,
     "panoply": "Panoplie du Garde Royal",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -4219,7 +4219,7 @@
     "name": "Ceinture des Matougarous",
     "level": 160,
     "panoply": "Panoplie des Matougarous",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -4238,7 +4238,7 @@
     "name": "Ceinture du Pounicheur",
     "level": 114,
     "panoply": "Panoplie du Pounicheur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -4258,7 +4258,7 @@
     "name": "Ceinture Dragocourse",
     "level": 40,
     "panoply": "Panoplie Dragocourse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "power": 15,
@@ -4268,7 +4268,7 @@
   "Poulpagne": {
     "name": "Poulpagne",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -4285,7 +4285,7 @@
   "Menoture": {
     "name": "Menoture",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "agility": 80,
@@ -4302,7 +4302,7 @@
     "name": "Ceintouse",
     "level": 200,
     "panoply": "Poulplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -4322,7 +4322,7 @@
     "name": "Ceinture de l'Indicible",
     "level": 200,
     "panoply": "Panoplie de l'Indicible",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 300,
       "strength": 40,
@@ -4346,7 +4346,7 @@
     "name": "Ceinture Luminescente",
     "level": 200,
     "panoply": "Panoplie Luminescente",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -4368,7 +4368,7 @@
     "name": "Ceinturonce",
     "level": 50,
     "panoply": "Panoplie de ronces",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "strength": 20,
@@ -4383,7 +4383,7 @@
     "name": "String Léolhyène",
     "level": 80,
     "panoply": "Panoplie du Désert",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "agility": 40,
@@ -4400,7 +4400,7 @@
     "name": "Cacture",
     "level": 133,
     "panoply": "Panoplie Cacterre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 120,
       "strength": 40,
@@ -4421,7 +4421,7 @@
     "name": "Lainture",
     "level": 47,
     "panoply": "Panoplienlaine",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 40,
@@ -4433,7 +4433,7 @@
     "name": "Ceintrémorse",
     "level": 173,
     "panoply": "Vernoplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "chance": 40,
@@ -4453,7 +4453,7 @@
     "name": "Pagne du Rykaon",
     "level": 200,
     "panoply": "Panoplie des Maudits",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 500,
       "chance": 80,
@@ -4474,14 +4474,14 @@
     "name": "Ceinture Leumant",
     "level": 130,
     "panoply": "Panoplie Enragée",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture du Molosse": {
     "name": "Ceinture du Molosse",
     "level": 31,
     "panoply": "Panoplie du Molosse",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "agility": 40,
@@ -4494,7 +4494,7 @@
     "name": "Ceinture du Comte Razof",
     "level": 195,
     "panoply": "Panoplie du Comte Razof",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -4514,7 +4514,7 @@
   "Magture": {
     "name": "Magture",
     "level": 40,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 30,
       "strength": 20,
@@ -4527,7 +4527,7 @@
     "name": "Pagne du Muloubar",
     "level": 97,
     "panoply": "Panoplie du Muloubar",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "strength": 35,
@@ -4545,7 +4545,7 @@
     "name": "Ceinture de l'Esprit Salvateur",
     "level": 200,
     "panoply": "Panoplie de l'Esprit Salvateur",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -4567,7 +4567,7 @@
     "name": "Ceinture de l'Esprit Malsain",
     "level": 200,
     "panoply": "Panoplie de l'Esprit Malsain",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -4587,7 +4587,7 @@
     "name": "Ceinture Gence",
     "level": 200,
     "panoply": "Panoplie du Fourneau",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -4607,7 +4607,7 @@
     "name": "Sangle Oriole",
     "level": 200,
     "panoply": "Panoplie Submergée",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "agility": 80,
@@ -4626,7 +4626,7 @@
     "name": "Culotte de Bethel",
     "level": 200,
     "panoply": "Panoplie de Bethel",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -4648,7 +4648,7 @@
     "name": "Ceinture en Grithril",
     "level": 200,
     "panoply": "Grithriloplie",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -4667,7 +4667,7 @@
     "name": "Ceinture Volkorne",
     "level": 200,
     "panoply": "Panoplie Volkorne",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 100,
@@ -4683,7 +4683,7 @@
   "Audace de Dodge": {
     "name": "Audace de Dodge",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "intelligence": 80,
@@ -4703,7 +4703,7 @@
   "Courage de Dame Jhessica": {
     "name": "Courage de Dame Jhessica",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 500,
       "chance": 100,
@@ -4720,7 +4720,7 @@
     "name": "Ceinture Amincissante",
     "level": 53,
     "panoply": "Panoplie du Mawabouaino",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 60,
       "chance": 40,
@@ -4734,7 +4734,7 @@
     "name": "Ceinture des Chocomanciens",
     "level": 200,
     "panoply": "Panoplie des Chocomanciens",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 450,
       "strength": 50,
@@ -4755,7 +4755,7 @@
   "Croture": {
     "name": "Croture",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -4774,7 +4774,7 @@
     "name": "Corset de Misère",
     "level": 200,
     "panoply": "Panoplie de Misère",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -4795,7 +4795,7 @@
     "name": "Ceinturonce de Corruption",
     "level": 200,
     "panoply": "Panoplie de Corruption",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -4814,7 +4814,7 @@
   "Étreinte de Servitude": {
     "name": "Étreinte de Servitude",
     "level": 200,
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 100,
@@ -4836,7 +4836,7 @@
     "name": "Ceinture Pitude",
     "level": 130,
     "panoply": "Panoplie Tanuki",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -4854,7 +4854,7 @@
     "name": "Ceinture d'artifices",
     "level": 138,
     "panoply": "Panoplie Firefoux",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 200,
       "intelligence": 60,
@@ -4872,7 +4872,7 @@
     "name": "Ceinture de Tsukinochi",
     "level": 158,
     "panoply": "Panoplie de Brume",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -4895,7 +4895,7 @@
     "name": "Ceinture d'Onigori",
     "level": 168,
     "panoply": "Panoplie des Tombeaux",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 250,
       "intelligence": 60,
@@ -4915,7 +4915,7 @@
     "name": "Sangle Icisme",
     "level": 200,
     "panoply": "Panoplie du Wukin",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "intelligence": 70,
@@ -4939,7 +4939,7 @@
     "name": "Ceinture Possédée",
     "level": 200,
     "panoply": "Panoplie Possédée",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -4960,7 +4960,7 @@
     "name": "Bois de la Liche",
     "level": 200,
     "panoply": "Reliques de l'Aurore Pourpre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "strength": 90,
@@ -4988,7 +4988,7 @@
     "name": "Ceinture du Directeur Grunob",
     "level": 36,
     "panoply": "Panoplie du Directeur Grunob",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 50,
       "damage": 3,
@@ -5000,14 +5000,14 @@
     "name": "Ceinture du Meulou Ankarton",
     "level": 150,
     "panoply": "Panoplie Ankarton",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Ceinture de trappeur albueran": {
     "name": "Ceinture de trappeur albueran",
     "level": 52,
     "panoply": "Panoplie de trappeur albueran",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 40,
       "intelligence": 50,
@@ -5022,7 +5022,7 @@
     "name": "Subligar de Barbéryl",
     "level": 192,
     "panoply": "Panoplie de Barbéryl Clochecuivre",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -5041,14 +5041,14 @@
     "name": "Baudrier Popée",
     "level": 130,
     "panoply": "Panoplie de l'Héritage",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
   },
   "Slip du Captain Chafer": {
     "name": "Slip du Captain Chafer",
     "level": 200,
     "panoply": "Panoplie du Captain Chafer",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "intelligence": 70,
@@ -5069,7 +5069,7 @@
     "name": "Tabard du Dark Vlad",
     "level": 200,
     "panoply": "Panoplie du Dark Vlad",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {
       "health": 400,
       "intelligence": 66,
@@ -5084,11 +5084,97 @@
       "waterResist": -11
     }
   },
-  "Sangle Ougou-Gagak": {
-    "name": "Sangle Ougou-Gagak",
+  "Ceintiret": {
+    "name": "Ceintiret",
     "level": 1,
-    "panoply": "Il n'y a pas de pano",
-    "category": "Ceinture",
+    "category": "belt",
     "stats": {}
+  },
+  "Pagne Rhoarim": {
+    "name": "Pagne Rhoarim",
+    "level": 200,
+    "panoply": "Panoplie Rhoarim",
+    "category": "belt",
+    "stats": {
+      "health": 400,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 200,
+      "waterResistPer": 15,
+      "criticalDamage": 15
+    }
+  },
+  "Zarbaudrier": {
+    "name": "Zarbaudrier",
+    "level": 197,
+    "panoply": "Zarbinoplie",
+    "category": "belt",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "summon": 1,
+      "damage": 10,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "lock": 8,
+      "dodge": -10,
+      "apResist": 6,
+      "pushbackDamage": 20,
+      "pushbackResist": 20
+    }
+  },
+  "Ceinture des Voyageurs": {
+    "name": "Ceinture des Voyageurs",
+    "level": 197,
+    "panoply": "Panoplie des Voyageurs Dimensionnels",
+    "category": "belt",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "power": 30,
+      "damage": 10,
+      "prospecting": 15,
+      "initiative": 350,
+      "pods": 700,
+      "waterResistPer": 7,
+      "airResistPer": 5,
+      "lock": 6,
+      "apResist": 10
+    }
+  },
+  "Pagne de Kabombz": {
+    "name": "Pagne de Kabombz",
+    "level": 171,
+    "panoply": "Panoplie des Kabombz",
+    "category": "belt",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "damage": 6,
+      "heal": 8,
+      "prospecting": 15,
+      "pods": 300,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "dodge": 6,
+      "mpReduction": 6,
+      "pushbackResist": -20
+    }
   }
 }
