@@ -123,7 +123,7 @@ const panopliesToCheck: Array<string> = [
 ];
 
 export async function calculateBestBuilds(): Promise<void> {
-    await itemDB.loadItems(levelMin, levelMax);
+    // await itemDB.loadItems(levelMin, levelMax);
     // await calculateBestItems();
 
     itemDB.filterCategoryItems(itemsToCheck);
@@ -301,7 +301,7 @@ function checkBuildValue(
 }
 
 export async function calculateBestItems(): Promise<void> {
-    await itemDB.loadItems(levelMin, levelMax);
+    // await itemDB.loadItems(levelMin, levelMax);
 
     for (const [category, items] of Object.entries(itemDB.itemsCategory)) {
         let bestItems: Record<string, number> = {};
@@ -344,7 +344,7 @@ export async function calculateBestItems(): Promise<void> {
     }
 }
 export async function calculateBestPanoplies(): Promise<void> {
-    await itemDB.loadItems(levelMin, levelMax);
+    // await itemDB.loadItems(levelMin, levelMax);
 
     let bestPanoplies: Record<string, number> = {};
     let bestValueFound: number = 0;

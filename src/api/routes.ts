@@ -10,4 +10,9 @@ export function registerRoutes(app: Hono) {
     app.get("/best-items", (c) => handler.getBestItems(c));
 
     app.get("/best-panoplies", (c) => handler.getBestPanoplies(c));
+
+    // frontend
+
+    app.get("/api/items", (c) => handler.getAllItems(c));
+    app.get("/api/panoplies", (c) => handler.getAllPanoplies(c));
 }

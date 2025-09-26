@@ -26,17 +26,24 @@ export function getItem(name: string): Item | undefined {
     return itemsDB[name];
 }
 
-export async function loadItems(levelMin: number, levelMax: number): Promise<void> {
+export function getAllItems(): Items {
+    return itemsDB;
+}
+export function getAllPanoplies(): Panoplies {
+    return panoplies;
+}
+
+export async function loadItems(): Promise<void> {
     panoplies = await Bun.file(`${dbPath}/panoplies.json`).json();
 
     for (const category of ITEM_CATEGORIES) {
         const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json();
 
         for (const [itemName, item] of Object.entries(itemsCategoryDB)) {
-            if (item.level >= levelMin && item.level <= levelMax) {
-                // itemsFiltered[itemName] = item
-                itemsCategory[category][itemName] = item;
-            }
+            // if (item.level >= levelMin && item.level <= levelMax) {
+            // itemsFiltered[itemName] = item
+            itemsCategory[category][itemName] = item;
+            // }
             itemsDB[itemName] = item;
         }
 
