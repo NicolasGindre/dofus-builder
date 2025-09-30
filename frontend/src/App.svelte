@@ -6,13 +6,20 @@
     import { items, panoplies } from "./stores/builder";
     import { initFrontendDB } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
+    import Combination from "./components/Combination.svelte";
+    // import init, { double } from "../wasm/combination/lib/pkg/combination";
 
     get(items);
     get(panoplies);
     let error: string | null = null;
 
+    let result: number | null = null;
+
     onMount(async () => {
+        // await initWasm();
         try {
+            // await init();
+            // result = double(21);
             await initFrontendDB();
         } catch (err) {
             error = err instanceof Error ? err.message : String(err);
@@ -22,6 +29,7 @@
 
 <main>
     <h1>Dofus Build Calculator</h1>
+    <p>Double(21) = {result ?? "Loading..."}</p>
 
     {#if error}
         <p style="color: red;">{error}</p>
@@ -36,6 +44,7 @@
     {/if}
     <StatWeights />
     <BestItems />
+    <Combination />
 </main>
 
 <style>

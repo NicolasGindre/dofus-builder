@@ -9,7 +9,7 @@ import {
 } from "../types/item";
 
 export const distanceFromBestRatio = writable<number>(1.5);
-export const maxBestResults = writable<number>(30);
+export const maxBestResults = writable<number>(10);
 
 export const weights = writable<Partial<Stats>>({});
 export const minStats = writable<Partial<Stats>>({});

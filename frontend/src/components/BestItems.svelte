@@ -2,7 +2,7 @@
     import { itemsCategoryBest, itemsCategoryToCalculate } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item, ItemCategory, Items } from "../types/item";
-    import { ITEM_CATEGORIES } from "../types/item";
+    import { getEmptyCategoriesItems, ITEM_CATEGORIES } from "../types/item";
     import { calculateBestItems } from "../logic/value";
     function addItem(category: ItemCategory, item: Item) {
         itemsCategoryToCalculate.update((map) => {
@@ -40,6 +40,10 @@
         });
     }
 
+    function clearAll() {
+        itemsCategoryToCalculate.set(getEmptyCategoriesItems());
+    }
+
     $: best = $itemsCategoryBest;
     $: selected = $itemsCategoryToCalculate;
 </script>
@@ -48,6 +52,7 @@
     <div class="controls">
         <button on:click={calculateBestItems}>Calculate Best Items</button>
         <button on:click={addAll}>Add All</button>
+        <button on:click={clearAll}>Clear All</button>
     </div>
     <div class="lists">
         <div class="list">
