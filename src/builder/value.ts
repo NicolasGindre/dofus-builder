@@ -72,9 +72,6 @@ export function calculatePanoplyValue(pano: Panoply): number {
         panoValue += value * statsValueWeight[stat as StatKey];
     }
     panoValue = panoValue / panoItemsAmount;
-    if (pano.name == "Panoplie Trithon") {
-        console.log(pano.name, panoValue);
-    }
     return panoValue;
 }
 

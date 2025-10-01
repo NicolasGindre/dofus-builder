@@ -74,12 +74,20 @@ export const STAT_KEYS = [
 ] as const;
 
 const bonusStatsMap: Partial<Record<StatKey, TargetBonusStat[]>> = {
-    strength: [{ target: "pods", multiplicator: 5 }],
-    chance: [{ target: "prospecting", multiplicator: 1 / 10 }],
+    strength: [
+        { target: "pods", multiplicator: 5 },
+        { target: "initiative", multiplicator: 1 },
+    ],
+    chance: [
+        { target: "prospecting", multiplicator: 1 / 10 },
+        { target: "initiative", multiplicator: 1 },
+    ],
     agility: [
         { target: "lock", multiplicator: 1 / 10 },
         { target: "dodge", multiplicator: 1 / 10 },
+        { target: "initiative", multiplicator: 1 },
     ],
+    intelligence: [{ target: "initiative", multiplicator: 1 }],
     wisdom: [
         { target: "apReduction", multiplicator: 1 / 10 },
         { target: "apResist", multiplicator: 1 / 10 },

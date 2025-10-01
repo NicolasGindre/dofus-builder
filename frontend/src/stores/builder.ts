@@ -15,6 +15,13 @@ export const weights = writable<Partial<Stats>>({});
 export const minStats = writable<Partial<Stats>>({});
 export const maxStats = writable<Partial<Stats>>({});
 
+export const preStats = writable<Partial<Stats>>({
+    AP: 7,
+    MP: 3,
+    health: 2000,
+    pods: 2000,
+});
+
 export const items = writable<Items>({});
 export const panoplies = writable<Panoplies>({});
 
@@ -24,4 +31,4 @@ export const itemsCategoryWithPanoBest = writable(getEmptyCategoriesItemsArr());
 export const itemsCategoryToCalculate = writable(getEmptyCategoriesItems());
 
 export const panopliesBest = writable<Panoply[]>([]);
-export const panopliesToCalculate = writable<Panoplies>({});
+export const panopliesToCalculate = writable<Panoply[]>([]);

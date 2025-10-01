@@ -29,7 +29,6 @@
 
 <main>
     <h1>Dofus Build Calculator</h1>
-    <p>Double(21) = {result ?? "Loading..."}</p>
 
     {#if error}
         <p style="color: red;">{error}</p>

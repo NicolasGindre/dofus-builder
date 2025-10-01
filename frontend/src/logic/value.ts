@@ -88,10 +88,6 @@ export function calculatePanoplyValue(pano: Panoply) {
 }
 
 export function calculateBestItems() {
-    console.log("Calculate best items");
-    console.log(get(weights));
-    console.log(get(items));
-    console.log(get(itemsCategory));
     let bestItemsCategories = getEmptyCategoriesItemsArr();
     let bestItemsWithPanoCategories = getEmptyCategoriesItemsArr();
     for (const [category, items] of Object.entries(get(itemsCategory))) {
@@ -129,7 +125,6 @@ export function calculateBestItems() {
         bestItems.sort((a, b) => b.value - a.value).splice(get(maxBestResults));
         bestItemsWithPano.sort((a, b) => b.value - a.value).splice(get(maxBestResults));
     }
-    console.log("maxBestResults ", get(maxBestResults));
     itemsCategoryBest.set(bestItemsCategories);
     itemsCategoryWithPanoBest.set(bestItemsWithPanoCategories);
 }

@@ -50,8 +50,13 @@ export function getEmptyCategoriesItemsArr(): Record<ItemCategory, Item[]> {
         ITEM_CATEGORIES.map((cat) => [cat, [] as Item[]]),
     ) as CategoryItemsArr;
 }
-// export const emptyCategoriesItems: Record<ItemCategory, Items> = Object.fromEntries(
-//     ITEM_CATEGORIES.map((cat) => [cat, {}]),
-// ) as Record<ItemCategory, Items>;
 
-// export const emptyCategoriesItemArr: Record<ItemCategory, Item[]> =
+export function sumStats(items: Item[]): ItemStats {
+    const sumStats: ItemStats = {};
+    for (const item of items) {
+        for (const [statKey, statValue] of Object.entries(item.stats)) {
+            sumStats[statKey as keyof Stats] = (sumStats[statKey as keyof Stats] ?? 0) + statValue;
+        }
+    }
+    return sumStats;
+}

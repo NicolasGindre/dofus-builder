@@ -1,5 +1,12 @@
 <script lang="ts">
-    import { itemsCategoryToCalculate } from "../stores/builder";
+    import {
+        itemsCategoryToCalculate,
+        maxStats,
+        minStats,
+        preStats,
+        weights,
+    } from "../stores/builder";
+    import { getPanopliesToCalculate } from "../logic/frontendDB";
     import { ITEM_CATEGORIES } from "../types/item";
     let best: { score: number; names: string[] } | null = null;
     let error: string | null = null;
@@ -25,9 +32,19 @@
             };
         }
 
+        console.log("getPanoToCalculate");
+        const panoplies = getPanopliesToCalculate($itemsCategoryToCalculate);
+        console.log(panoplies);
+
         worker.postMessage({
-            selected: $itemsCategoryToCalculate, // Record<ItemCategory, Items>
+            selectedItems: $itemsCategoryToCalculate,
+            weights: $weights,
+            minStats: $minStats,
+            maxStats: $maxStats,
+            preStats: $preStats,
+            panoplies: panoplies,
         });
+        console.log("posted message to worker");
     }
 </script>
 
