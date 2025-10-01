@@ -27,12 +27,14 @@ macro_rules! stat_fields {
 macro_rules! define_stats {
     ( $( $field:ident ),+ ) => {
         #[derive(Serialize, Deserialize, Clone, Debug, Default)]
+        #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct Stats {
             $( pub $field: f64, )+
         }
 
         #[derive(Serialize, Deserialize, Clone, Debug)]
+        #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct MaxStats {
             $( pub $field: f64, )+
@@ -47,6 +49,7 @@ macro_rules! define_stats {
         }
 
         #[derive(Serialize, Deserialize, Clone, Debug)]
+        #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct MinStats {
             $( pub $field: f64, )+

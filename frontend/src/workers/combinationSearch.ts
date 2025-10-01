@@ -47,7 +47,7 @@ onmessage = async (e: MessageEvent) => {
     }
     // console.log(get(itemsCategoryToCalculate));
     console.log("Weights sent to rust : ", parameters.weights);
-    console.log(minItemsCategory);
+    console.log("Items sent to rust : ", minItemsCategory);
 
     try {
         const result = best_combo(
