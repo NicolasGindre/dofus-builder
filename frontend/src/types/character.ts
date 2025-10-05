@@ -2,18 +2,56 @@
 import type { Item, ItemCategory } from "../types/item";
 import type { Stats } from "./stats";
 
-export type BaseCharacter = {
-    level: number;
-    baseStats: Partial<Stats>;
+// export type Character = {
+//     level: number;
+//     baseStats: Partial<Stats>;
+// };
+
+// export const baseCharacter: Character = {
+//     level: 200,
+//     baseStats: {
+//         ap: 7,
+//         mp: 3,
+//         health: 2000,
+//         pods: 2000,
+//     },
+// };
+
+export const baseStats: Partial<Stats> = {
+    health: 50,
+    ap: 6,
+    mp: 3,
+    range: 0,
+    summon: 1,
+    pods: 995,
 };
 
+export function getLeveledStats(level: number): Partial<Stats> {
+    let leveledStats: Partial<Stats> = {
+        ap: baseStats.ap,
+        mp: baseStats.mp,
+        range: baseStats.range,
+        health: baseStats.health,
+        pods: baseStats.pods,
+    };
+    leveledStats.health! += level * 5;
+    leveledStats.pods! += level * 5;
+    if (level >= 100) {
+        leveledStats.ap! += 1;
+    }
+    return leveledStats;
+}
+
 export type CharacterBuild = {
-    build: Build;
-    stats: Stats;
+    slots: Slots;
+    panoplies: Record<string, number>;
+    stats: Partial<Stats>;
     value: number;
 };
 
-export type Build = Partial<Record<BuildSlots, Item>>;
+export type BestBuildsResp = { value: number; names: string[] }[];
+
+export type Slots = Partial<Record<BuildSlots, Item>>;
 
 export const BUILD_SLOTS = [
     "amulet",
@@ -54,46 +92,3 @@ export const SLOT_TO_CATEGORY: Record<BuildSlots, ItemCategory> = {
     dofus5: "dofus",
     dofus6: "dofus",
 };
-
-// function addToStats(stats: Stats, statsToAdd: Partial<Stats>) {
-//     for (const [stat, value] of Object.entries(statsToAdd) as [StatKey, number][]) {
-//         stats[stat] += value;
-//     }
-// }
-
-// export function calculateStats(baseStats: Partial<Stats>, build: Build): Stats {
-//     let stats: Stats = Object.fromEntries(STAT_KEYS.map((key) => [key, 0])) as Stats;
-
-//     addToStats(stats, baseStats);
-
-//     let panopliesRecord: Record<string, number> = {};
-//     for (const slot of BUILD_SLOTS) {
-//         const item = build[slot];
-//         if (!item) continue;
-
-//         addToStats(stats, item.stats);
-
-//         if (item.panoply != undefined) {
-//             panopliesRecord[item.panoply] = (panopliesRecord[item.panoply] ?? -1) + 1;
-//         }
-//     }
-//     // console.log(panopliesRecord)
-
-//     for (const [panoplyName, itemsAmount] of Object.entries(panopliesRecord)) {
-//         const panoStats = panoplies[panoplyName]?.stats[itemsAmount];
-//         // console.log(panoplyName, panoStats)
-//         if (panoStats) {
-//             addToStats(stats, panoStats);
-//         }
-//     }
-
-//     stats.pods += Math.floor(stats.strength * 5);
-//     stats.prospecting += Math.floor(stats.chance / 10);
-//     stats.lock += Math.floor(stats.agility / 10);
-//     stats.dodge += Math.floor(stats.agility / 10);
-//     stats.apResist += Math.floor(stats.wisdom / 10);
-//     stats.mpResist += Math.floor(stats.wisdom / 10);
-//     stats.apReduction += Math.floor(stats.wisdom / 10);
-//     stats.mpReduction += Math.floor(stats.wisdom / 10);
-//     return stats;
-// }

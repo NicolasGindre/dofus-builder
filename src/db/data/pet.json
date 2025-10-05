@@ -94,40 +94,6 @@
       "health": 15
     }
   },
-  "Surpuissant Chacha de Combat (MJ)": {
-    "name": "Surpuissant Chacha de Combat (MJ)",
-    "level": 20,
-    "category": "pet",
-    "stats": {
-      "health": 1000,
-      "strength": 600,
-      "intelligence": 600,
-      "chance": 600,
-      "agility": 600,
-      "wisdom": 600,
-      "AP": 3,
-      "MP": 2,
-      "summon": 10,
-      "damage": 40
-    }
-  },
-  "Petit Chacha de Combat (MJ)": {
-    "name": "Petit Chacha de Combat (MJ)",
-    "level": 20,
-    "category": "pet",
-    "stats": {
-      "health": 300,
-      "strength": 300,
-      "intelligence": 300,
-      "chance": 300,
-      "agility": 300,
-      "wisdom": 300,
-      "AP": 2,
-      "MP": 1,
-      "summon": 5,
-      "damage": 10
-    }
-  },
   "Péki": {
     "name": "Péki",
     "level": 20,
@@ -422,7 +388,7 @@
     "category": "pet",
     "stats": {
       "power": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Bouloute du Parrain": {
@@ -590,7 +556,7 @@
     "level": 20,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "apResist": 50
     }
   },
@@ -867,7 +833,7 @@
     "level": 20,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "summon": 2
     }
   },
@@ -893,7 +859,7 @@
     "level": 20,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "range": 2
     }
   },
@@ -947,7 +913,7 @@
     "level": 20,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "mpResist": 50
     }
   },
@@ -1082,18 +1048,6 @@
       "criticalChance": 15
     }
   },
-  "Kwak Oubeh": {
-    "name": "Kwak Oubeh",
-    "level": 1,
-    "category": "pet",
-    "stats": {}
-  },
-  "Chienchiengue": {
-    "name": "Chienchiengue",
-    "level": 1,
-    "category": "pet",
-    "stats": {}
-  },
   "Zarbichon": {
     "name": "Zarbichon",
     "level": 20,
@@ -1109,20 +1063,8 @@
     "category": "pet",
     "stats": {
       "criticalChance": 15,
-      "AP": 1
+      "ap": 1
     }
-  },
-  "Certificat de Monture": {
-    "name": "Certificat de Monture",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
-  "Dragodinde Amande Sauvage": {
-    "name": "Dragodinde Amande Sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
   },
   "Dragodinde Ebène": {
     "name": "Dragodinde Ebène",
@@ -1132,12 +1074,6 @@
       "health": 300,
       "agility": 100
     }
-  },
-  "Dragodinde Rousse Sauvage": {
-    "name": "Dragodinde Rousse Sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
   },
   "Dragodinde Ebène et Ivoire": {
     "name": "Dragodinde Ebène et Ivoire",
@@ -1669,12 +1605,6 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Dorée Sauvage": {
-    "name": "Dragodinde Dorée Sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
   "Dragodinde Orchidée et Pourpre": {
     "name": "Dragodinde Orchidée et Pourpre",
     "level": 60,
@@ -1842,7 +1772,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalDamage": 50
     }
   },
@@ -1851,7 +1781,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "pushbackDamage": 100
     }
   },
@@ -1861,7 +1791,7 @@
     "category": "pet",
     "stats": {
       "power": 25,
-      "AP": 1
+      "ap": 1
     }
   },
   "Siroko": {
@@ -1902,7 +1832,7 @@
     "category": "pet",
     "stats": {
       "criticalChance": 10,
-      "MP": 1
+      "mp": 1
     }
   },
   "Kougnard": {
@@ -1910,7 +1840,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "initiative": 2000
     }
   },
@@ -2029,7 +1959,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "summon": 2
     }
   },
@@ -2039,7 +1969,7 @@
     "category": "pet",
     "stats": {
       "waterResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "airResistPer": 8
     }
   },
@@ -2049,7 +1979,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 16,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Ebène": {
@@ -2058,7 +1988,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 16,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Indigo": {
@@ -2066,7 +1996,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "waterResistPer": 16
     }
   },
@@ -2075,7 +2005,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "earthResistPer": 16
     }
   },
@@ -2085,7 +2015,7 @@
     "category": "pet",
     "stats": {
       "power": 50,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Roux": {
@@ -2093,7 +2023,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "lock": 40
     }
   },
@@ -2103,7 +2033,7 @@
     "category": "pet",
     "stats": {
       "dodge": 40,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Ivoire": {
@@ -2112,7 +2042,7 @@
     "category": "pet",
     "stats": {
       "apResist": 40,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Turquoise": {
@@ -2121,7 +2051,7 @@
     "category": "pet",
     "stats": {
       "mpResist": 40,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Prune": {
@@ -2129,7 +2059,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "criticalChance": 10
     }
   },
@@ -2139,7 +2069,7 @@
     "category": "pet",
     "stats": {
       "criticalDamage": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Doré et Pourpre": {
@@ -2148,7 +2078,7 @@
     "category": "pet",
     "stats": {
       "earthResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "power": 40
     }
   },
@@ -2158,7 +2088,7 @@
     "category": "pet",
     "stats": {
       "earthResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "waterResistPer": 8
     }
   },
@@ -2167,7 +2097,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "airResistPer": 8,
       "earthResistPer": 8
     }
@@ -2177,7 +2107,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "earthResistPer": 8,
       "fireResistPer": 8
     }
@@ -2188,7 +2118,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "power": 40
     }
   },
@@ -2197,7 +2127,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "fireResistPer": 8,
       "waterResistPer": 8
     }
@@ -2208,7 +2138,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "fireResistPer": 8
     }
   },
@@ -2218,7 +2148,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "power": 40
     }
   },
@@ -2229,7 +2159,7 @@
     "stats": {
       "earthResistPer": 8,
       "lock": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Roux et Orchidée": {
@@ -2237,7 +2167,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "lock": 30,
       "fireResistPer": 8
     }
@@ -2249,7 +2179,7 @@
     "stats": {
       "waterResistPer": 8,
       "lock": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Roux et Ebène": {
@@ -2258,7 +2188,7 @@
     "category": "pet",
     "stats": {
       "lock": 30,
-      "MP": 1,
+      "mp": 1,
       "airResistPer": 8
     }
   },
@@ -2268,7 +2198,7 @@
     "category": "pet",
     "stats": {
       "power": 40,
-      "MP": 1,
+      "mp": 1,
       "lock": 30
     }
   },
@@ -2278,7 +2208,7 @@
     "category": "pet",
     "stats": {
       "lock": 30,
-      "MP": 1,
+      "mp": 1,
       "dodge": 30
     }
   },
@@ -2289,7 +2219,7 @@
     "stats": {
       "dodge": 30,
       "earthResistPer": 8,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Orchidée et Amande": {
@@ -2298,7 +2228,7 @@
     "category": "pet",
     "stats": {
       "dodge": 30,
-      "MP": 1,
+      "mp": 1,
       "fireResistPer": 8
     }
   },
@@ -2309,7 +2239,7 @@
     "stats": {
       "waterResistPer": 8,
       "dodge": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Ebène et Amande": {
@@ -2318,7 +2248,7 @@
     "category": "pet",
     "stats": {
       "dodge": 30,
-      "MP": 1,
+      "mp": 1,
       "airResistPer": 8
     }
   },
@@ -2328,7 +2258,7 @@
     "category": "pet",
     "stats": {
       "power": 40,
-      "MP": 1,
+      "mp": 1,
       "dodge": 30
     }
   },
@@ -2339,7 +2269,7 @@
     "stats": {
       "earthResistPer": 8,
       "apResist": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Orchidée et Ivoire": {
@@ -2349,7 +2279,7 @@
     "stats": {
       "fireResistPer": 8,
       "apResist": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Indigo et Ivoire": {
@@ -2357,7 +2287,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "apResist": 30,
       "waterResistPer": 8
     }
@@ -2368,7 +2298,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "apResist": 30
     }
   },
@@ -2377,7 +2307,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "apResist": 30,
       "power": 40
     }
@@ -2389,7 +2319,7 @@
     "stats": {
       "lock": 30,
       "apResist": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Amande et Ivoire": {
@@ -2398,7 +2328,7 @@
     "category": "pet",
     "stats": {
       "dodge": 30,
-      "MP": 1,
+      "mp": 1,
       "apResist": 30
     }
   },
@@ -2409,7 +2339,7 @@
     "stats": {
       "mpResist": 30,
       "apResist": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Turquoise et Pourpre": {
@@ -2417,7 +2347,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "mpResist": 30,
       "earthResistPer": 8
     }
@@ -2428,7 +2358,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 8,
-      "MP": 1,
+      "mp": 1,
       "mpResist": 30
     }
   },
@@ -2437,7 +2367,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "waterResistPer": 8,
       "mpResist": 30
     }
@@ -2449,7 +2379,7 @@
     "stats": {
       "mpResist": 30,
       "airResistPer": 8,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Turquoise et Roux": {
@@ -2458,7 +2388,7 @@
     "category": "pet",
     "stats": {
       "lock": 30,
-      "MP": 1,
+      "mp": 1,
       "mpResist": 30
     }
   },
@@ -2468,7 +2398,7 @@
     "category": "pet",
     "stats": {
       "mpResist": 30,
-      "MP": 1,
+      "mp": 1,
       "dodge": 30
     }
   },
@@ -2479,7 +2409,7 @@
     "stats": {
       "power": 40,
       "mpResist": 30,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Prune et Pourpre": {
@@ -2489,7 +2419,7 @@
     "stats": {
       "criticalChance": 6,
       "earthResistPer": 8,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Prune et Orchidée": {
@@ -2499,7 +2429,7 @@
     "stats": {
       "fireResistPer": 8,
       "criticalChance": 6,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Prune et Indigo": {
@@ -2508,7 +2438,7 @@
     "category": "pet",
     "stats": {
       "criticalChance": 6,
-      "MP": 1,
+      "mp": 1,
       "waterResistPer": 8
     }
   },
@@ -2517,7 +2447,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "criticalChance": 6,
       "airResistPer": 8
     }
@@ -2527,7 +2457,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "power": 40,
       "criticalChance": 6
     }
@@ -2538,7 +2468,7 @@
     "category": "pet",
     "stats": {
       "criticalChance": 6,
-      "MP": 1,
+      "mp": 1,
       "lock": 30
     }
   },
@@ -2548,7 +2478,7 @@
     "category": "pet",
     "stats": {
       "dodge": 30,
-      "MP": 1,
+      "mp": 1,
       "criticalChance": 6
     }
   },
@@ -2559,7 +2489,7 @@
     "stats": {
       "apResist": 30,
       "criticalChance": 6,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Prune et Turquoise": {
@@ -2567,7 +2497,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "criticalChance": 6,
       "mpResist": 30
     }
@@ -2579,7 +2509,7 @@
     "stats": {
       "criticalDamage": 20,
       "criticalChance": 6,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Pourpre et Emeraude": {
@@ -2587,7 +2517,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "earthResistPer": 8,
       "criticalDamage": 20
     }
@@ -2597,7 +2527,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "fireResistPer": 8,
       "criticalDamage": 20
     }
@@ -2607,7 +2537,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "waterResistPer": 8,
       "criticalDamage": 20
     }
@@ -2619,7 +2549,7 @@
     "stats": {
       "airResistPer": 8,
       "criticalDamage": 20,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Doré et Emeraude": {
@@ -2627,7 +2557,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "power": 40,
       "criticalDamage": 20
     }
@@ -2639,7 +2569,7 @@
     "stats": {
       "lock": 30,
       "criticalDamage": 20,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Amande et Emeraude": {
@@ -2648,7 +2578,7 @@
     "category": "pet",
     "stats": {
       "dodge": 30,
-      "MP": 1,
+      "mp": 1,
       "criticalDamage": 20
     }
   },
@@ -2658,7 +2588,7 @@
     "category": "pet",
     "stats": {
       "apResist": 30,
-      "MP": 1,
+      "mp": 1,
       "criticalDamage": 20
     }
   },
@@ -2668,7 +2598,7 @@
     "category": "pet",
     "stats": {
       "mpResist": 30,
-      "MP": 1,
+      "mp": 1,
       "criticalDamage": 20
     }
   },
@@ -2679,7 +2609,7 @@
     "stats": {
       "power": 40,
       "waterResistPer": 8,
-      "MP": 1
+      "mp": 1
     }
   },
   "Muldo Ebène Sauvage": {
@@ -2714,42 +2644,12 @@
       "fireResistPer": 22
     }
   },
-  "Muldo Doré Sauvage": {
-    "name": "Muldo Doré Sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
-  "Volkorne Pourpre sauvage": {
-    "name": "Volkorne Pourpre sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
-  "Volkorne Indigo sauvage": {
-    "name": "Volkorne Indigo sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
-  "Volkorne Ebène sauvage": {
-    "name": "Volkorne Ebène sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
-  "Volkorne Orchidée sauvage": {
-    "name": "Volkorne Orchidée sauvage",
-    "level": 60,
-    "category": "pet",
-    "stats": {}
-  },
   "Volkorne Indigo": {
     "name": "Volkorne Indigo",
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 70
     }
   },
@@ -2758,7 +2658,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "agility": 70
     }
   },
@@ -2768,7 +2668,7 @@
     "category": "pet",
     "stats": {
       "strength": 70,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Orchidée": {
@@ -2776,7 +2676,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "intelligence": 70
     }
   },
@@ -2785,7 +2685,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "pushbackDamage": 60
     }
   },
@@ -2795,7 +2695,7 @@
     "category": "pet",
     "stats": {
       "pushbackResist": 80,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Ivoire": {
@@ -2803,7 +2703,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "apReduction": 30
     }
   },
@@ -2812,7 +2712,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 30
     }
   },
@@ -2822,7 +2722,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Emeraude": {
@@ -2830,7 +2730,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 7
     }
   },
@@ -2839,7 +2739,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "health": 150
     }
   },
@@ -2848,7 +2748,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 12
     }
   },
@@ -2858,7 +2758,7 @@
     "category": "pet",
     "stats": {
       "waterResistPer": 12,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Rubis": {
@@ -2867,7 +2767,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 12,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Améthyste": {
@@ -2876,7 +2776,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 12,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Pourpre et Orchidée": {
@@ -2886,7 +2786,7 @@
     "stats": {
       "strength": 50,
       "intelligence": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Pourpre et Indigo": {
@@ -2894,7 +2794,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "strength": 50
     }
@@ -2905,7 +2805,7 @@
     "category": "pet",
     "stats": {
       "strength": 50,
-      "AP": 1,
+      "ap": 1,
       "agility": 50
     }
   },
@@ -2914,7 +2814,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "intelligence": 50
     }
@@ -2925,7 +2825,7 @@
     "category": "pet",
     "stats": {
       "agility": 50,
-      "AP": 1,
+      "ap": 1,
       "intelligence": 50
     }
   },
@@ -2934,7 +2834,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "agility": 50
     }
@@ -2946,7 +2846,7 @@
     "stats": {
       "strength": 50,
       "pushbackResist": 60,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Amande et Orchidée": {
@@ -2954,7 +2854,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "pushbackResist": 60,
       "intelligence": 50
     }
@@ -2966,7 +2866,7 @@
     "stats": {
       "pushbackResist": 60,
       "chance": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Amande et Ebène": {
@@ -2976,7 +2876,7 @@
     "stats": {
       "agility": 50,
       "pushbackResist": 60,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Amande et Roux": {
@@ -2985,7 +2885,7 @@
     "category": "pet",
     "stats": {
       "pushbackResist": 60,
-      "AP": 1,
+      "ap": 1,
       "pushbackDamage": 40
     }
   },
@@ -2995,7 +2895,7 @@
     "category": "pet",
     "stats": {
       "pushbackResist": 60,
-      "AP": 1,
+      "ap": 1,
       "apReduction": 20
     }
   },
@@ -3006,7 +2906,7 @@
     "stats": {
       "mpReduction": 20,
       "pushbackResist": 60,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Roux et Pourpre": {
@@ -3014,7 +2914,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "pushbackDamage": 40,
       "strength": 50
     }
@@ -3026,7 +2926,7 @@
     "stats": {
       "pushbackDamage": 40,
       "intelligence": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Roux et Indigo": {
@@ -3035,7 +2935,7 @@
     "category": "pet",
     "stats": {
       "pushbackDamage": 40,
-      "AP": 1,
+      "ap": 1,
       "chance": 50
     }
   },
@@ -3046,7 +2946,7 @@
     "stats": {
       "pushbackDamage": 40,
       "agility": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Roux et Ivoire": {
@@ -3055,7 +2955,7 @@
     "category": "pet",
     "stats": {
       "pushbackDamage": 40,
-      "AP": 1,
+      "ap": 1,
       "apReduction": 20
     }
   },
@@ -3064,7 +2964,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20,
       "pushbackDamage": 40
     }
@@ -3075,7 +2975,7 @@
     "category": "pet",
     "stats": {
       "apReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "strength": 50
     }
   },
@@ -3085,7 +2985,7 @@
     "category": "pet",
     "stats": {
       "apReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "intelligence": 50
     }
   },
@@ -3095,7 +2995,7 @@
     "category": "pet",
     "stats": {
       "apReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "chance": 50
     }
   },
@@ -3104,7 +3004,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "apReduction": 20,
       "agility": 50
     }
@@ -3115,7 +3015,7 @@
     "category": "pet",
     "stats": {
       "mpReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "apReduction": 20
     }
   },
@@ -3125,7 +3025,7 @@
     "category": "pet",
     "stats": {
       "mpReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "strength": 50
     }
   },
@@ -3134,7 +3034,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20,
       "intelligence": 50
     }
@@ -3145,7 +3045,7 @@
     "category": "pet",
     "stats": {
       "chance": 50,
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20
     }
   },
@@ -3154,7 +3054,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "agility": 50,
       "mpReduction": 20
     }
@@ -3164,7 +3064,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 35,
       "intelligence": 50
     }
@@ -3174,7 +3074,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "criticalResist": 35
     }
@@ -3184,7 +3084,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 35,
       "agility": 50
     }
@@ -3194,7 +3094,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "pushbackResist": 60,
       "criticalResist": 35
     }
@@ -3206,7 +3106,7 @@
     "stats": {
       "criticalResist": 35,
       "pushbackDamage": 40,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Prune et Ivoire": {
@@ -3214,7 +3114,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 35,
       "apReduction": 20
     }
@@ -3224,7 +3124,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 35,
       "mpReduction": 20
     }
@@ -3235,7 +3135,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 35,
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5
     }
   },
@@ -3245,7 +3145,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 35,
-      "AP": 1,
+      "ap": 1,
       "strength": 50
     }
   },
@@ -3254,7 +3154,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5,
       "strength": 50
     }
@@ -3264,7 +3164,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5,
       "intelligence": 50
     }
@@ -3274,7 +3174,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "criticalChance": 5
     }
@@ -3284,7 +3184,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5,
       "agility": 50
     }
@@ -3296,7 +3196,7 @@
     "stats": {
       "pushbackResist": 60,
       "criticalChance": 5,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Emeraude et Roux": {
@@ -3306,7 +3206,7 @@
     "stats": {
       "criticalChance": 5,
       "pushbackDamage": 40,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Emeraude et Ivoire": {
@@ -3316,7 +3216,7 @@
     "stats": {
       "apReduction": 20,
       "criticalChance": 5,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Emeraude et Turquoise": {
@@ -3325,7 +3225,7 @@
     "category": "pet",
     "stats": {
       "mpReduction": 20,
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5
     }
   },
@@ -3334,7 +3234,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "health": 100,
       "strength": 50
     }
@@ -3346,7 +3246,7 @@
     "stats": {
       "health": 100,
       "intelligence": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Doré et Indigo": {
@@ -3356,7 +3256,7 @@
     "stats": {
       "health": 100,
       "chance": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Doré et Ebène": {
@@ -3366,7 +3266,7 @@
     "stats": {
       "health": 100,
       "agility": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Pourpre": {
@@ -3376,7 +3276,7 @@
     "stats": {
       "earthResistPer": 6,
       "strength": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Orchidée": {
@@ -3385,7 +3285,7 @@
     "category": "pet",
     "stats": {
       "intelligence": 50,
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 6
     }
   },
@@ -3395,7 +3295,7 @@
     "category": "pet",
     "stats": {
       "chance": 50,
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 6
     }
   },
@@ -3406,7 +3306,7 @@
     "stats": {
       "earthResistPer": 6,
       "agility": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Amande": {
@@ -3415,7 +3315,7 @@
     "category": "pet",
     "stats": {
       "earthResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "pushbackResist": 60
     }
   },
@@ -3424,7 +3324,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 6,
       "pushbackDamage": 40
     }
@@ -3436,7 +3336,7 @@
     "stats": {
       "apReduction": 20,
       "earthResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Turquoise": {
@@ -3446,7 +3346,7 @@
     "stats": {
       "earthResistPer": 6,
       "mpReduction": 20,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Prune": {
@@ -3454,7 +3354,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 6,
       "criticalResist": 35
     }
@@ -3466,7 +3366,7 @@
     "stats": {
       "criticalChance": 5,
       "earthResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Doré": {
@@ -3476,7 +3376,7 @@
     "stats": {
       "health": 100,
       "earthResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Jade et Rubis": {
@@ -3484,7 +3384,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "fireResistPer": 6,
       "earthResistPer": 6
     }
@@ -3494,7 +3394,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "waterResistPer": 6,
       "earthResistPer": 6
     }
@@ -3505,7 +3405,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "earthResistPer": 6
     }
   },
@@ -3514,7 +3414,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "strength": 50,
       "fireResistPer": 6
     }
@@ -3525,7 +3425,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "intelligence": 50
     }
   },
@@ -3534,7 +3434,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "chance": 50,
       "fireResistPer": 6
     }
@@ -3545,7 +3445,7 @@
     "category": "pet",
     "stats": {
       "agility": 50,
-      "AP": 1,
+      "ap": 1,
       "fireResistPer": 6
     }
   },
@@ -3554,7 +3454,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "fireResistPer": 6,
       "pushbackResist": 60
     }
@@ -3566,7 +3466,7 @@
     "stats": {
       "pushbackDamage": 40,
       "fireResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Rubis et Ivoire": {
@@ -3574,7 +3474,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "fireResistPer": 6,
       "apReduction": 20
     }
@@ -3585,7 +3485,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20
     }
   },
@@ -3594,7 +3494,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 35,
       "fireResistPer": 6
     }
@@ -3604,7 +3504,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5,
       "fireResistPer": 6
     }
@@ -3615,7 +3515,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "health": 100
     }
   },
@@ -3626,7 +3526,7 @@
     "stats": {
       "waterResistPer": 6,
       "fireResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Rubis et Améthyste": {
@@ -3635,7 +3535,7 @@
     "category": "pet",
     "stats": {
       "fireResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "airResistPer": 6
     }
   },
@@ -3646,7 +3546,7 @@
     "stats": {
       "waterResistPer": 6,
       "strength": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Orchidée": {
@@ -3656,7 +3556,7 @@
     "stats": {
       "intelligence": 50,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Indigo": {
@@ -3666,7 +3566,7 @@
     "stats": {
       "chance": 50,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Ebène": {
@@ -3674,7 +3574,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "waterResistPer": 6,
       "agility": 50
     }
@@ -3686,7 +3586,7 @@
     "stats": {
       "pushbackResist": 60,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Roux": {
@@ -3696,7 +3596,7 @@
     "stats": {
       "pushbackDamage": 40,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Ivoire": {
@@ -3704,7 +3604,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "waterResistPer": 6,
       "apReduction": 20
     }
@@ -3715,7 +3615,7 @@
     "category": "pet",
     "stats": {
       "waterResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20
     }
   },
@@ -3725,7 +3625,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 35,
-      "AP": 1,
+      "ap": 1,
       "waterResistPer": 6
     }
   },
@@ -3736,7 +3636,7 @@
     "stats": {
       "criticalChance": 5,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Saphir et Doré": {
@@ -3744,7 +3644,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "health": 100,
       "waterResistPer": 6
     }
@@ -3756,7 +3656,7 @@
     "stats": {
       "airResistPer": 6,
       "waterResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Améthyste et Pourpre": {
@@ -3766,7 +3666,7 @@
     "stats": {
       "airResistPer": 6,
       "strength": 50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Améthyste et Orchidée": {
@@ -3774,7 +3674,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "intelligence": 50,
       "airResistPer": 6
     }
@@ -3785,7 +3685,7 @@
     "category": "pet",
     "stats": {
       "chance": 50,
-      "AP": 1,
+      "ap": 1,
       "airResistPer": 6
     }
   },
@@ -3796,7 +3696,7 @@
     "stats": {
       "agility": 50,
       "airResistPer": 6,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Améthyste et Amande": {
@@ -3804,7 +3704,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "airResistPer": 6,
       "pushbackResist": 60
     }
@@ -3814,7 +3714,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "airResistPer": 6,
       "pushbackDamage": 40
     }
@@ -3824,7 +3724,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "apReduction": 20,
       "airResistPer": 6
     }
@@ -3834,7 +3734,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "mpReduction": 20,
       "airResistPer": 6
     }
@@ -3845,7 +3745,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 35,
-      "AP": 1,
+      "ap": 1,
       "airResistPer": 6
     }
   },
@@ -3854,7 +3754,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "criticalChance": 5,
       "airResistPer": 6
     }
@@ -3865,7 +3765,7 @@
     "category": "pet",
     "stats": {
       "airResistPer": 6,
-      "AP": 1,
+      "ap": 1,
       "health": 100
     }
   },
@@ -3874,7 +3774,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "pushbackDamage": 40,
       "health": 100
     }
@@ -3884,7 +3784,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "health": 100,
       "pushbackResist": 60
     }
@@ -3896,7 +3796,7 @@
     "stats": {
       "health": 100,
       "apReduction": 20,
-      "AP": 1
+      "ap": 1
     }
   },
   "Volkorne Doré et Turquoise": {
@@ -3904,7 +3804,7 @@
     "level": 60,
     "category": "pet",
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "health": 100,
       "mpReduction": 20
     }
@@ -3915,7 +3815,7 @@
     "category": "pet",
     "stats": {
       "criticalResist": 35,
-      "AP": 1,
+      "ap": 1,
       "health": 100
     }
   },
@@ -3926,7 +3826,7 @@
     "stats": {
       "health": 100,
       "criticalChance": 5,
-      "AP": 1
+      "ap": 1
     }
   }
 }

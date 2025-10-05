@@ -37,23 +37,23 @@ const maxBestItems = 40;
 // const minBestItems = 5;
 
 const baseStats: Partial<Stats> = {
-    AP: 7,
-    MP: 3,
+    ap: 7,
+    mp: 3,
 
     health: 2000,
     pods: 2000,
 };
 
 const minStats: Partial<Stats> = {
-    AP: 10,
-    MP: 4,
+    ap: 10,
+    mp: 4,
     range: 2,
     // summon: 0,
     // lock: 60,
 };
 const maxStats: Partial<Stats> = {
-    AP: 10,
-    MP: 4,
+    ap: 10,
+    mp: 4,
     range: 6,
     lock: 100,
     neutralResistPer: 46,

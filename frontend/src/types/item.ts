@@ -18,12 +18,19 @@ export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 export type Item = {
     level: number;
     name: string;
-    panoply: string | undefined;
+    requirement?: Requirement;
+    panoply?: string;
     category: ItemCategory;
     stats: ItemStats;
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;
+};
+export type Requirement = {
+    type: string;
+    value?: number;
+    apValue?: number;
+    mpValue?: number;
 };
 export type ItemStats = Partial<Stats>;
 
@@ -36,9 +43,11 @@ export type CategoryItemsArr = Record<ItemCategory, Item[]>;
 export type Panoply = {
     name: string;
     items: string[];
+    itemsReal: Item[];
     stats: ItemStats[];
     statsWithBonus: ItemStats[];
-    value: number;
+    valuePerItem: number;
+    avgRelativeValue: number;
 };
 export type Panoplies = Record<string, Panoply>;
 

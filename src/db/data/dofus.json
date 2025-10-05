@@ -33,9 +33,11 @@
   },
   "Dofus Vulbis": {
     "name": "Dofus Vulbis",
-    "level": 100,
+    "level": 180,
     "category": "dofus",
-    "stats": {}
+    "stats": {
+      "mp": 1
+    }
   },
   "Dofus des Glaces": {
     "name": "Dofus des Glaces",
@@ -90,7 +92,7 @@
     "level": 160,
     "category": "dofus",
     "stats": {
-      "AP": 1
+      "ap": 1
     }
   },
   "Dofus Kaliptus": {
@@ -100,12 +102,6 @@
     "stats": {
       "prospecting": 30
     }
-  },
-  "Dofus Nébuleux": {
-    "name": "Dofus Nébuleux",
-    "level": 180,
-    "category": "dofus",
-    "stats": {}
   },
   "Dokille": {
     "name": "Dokille",
@@ -142,18 +138,6 @@
       "apResist": 20
     }
   },
-  "Dokoko": {
-    "name": "Dokoko",
-    "level": 80,
-    "category": "dofus",
-    "stats": {}
-  },
-  "Dofus Abyssal": {
-    "name": "Dofus Abyssal",
-    "level": 180,
-    "category": "dofus",
-    "stats": {}
-  },
   "Dofus Forgelave": {
     "name": "Dofus Forgelave",
     "level": 180,
@@ -161,18 +145,6 @@
     "stats": {
       "pushbackResist": 100
     }
-  },
-  "Dofus Argenté": {
-    "name": "Dofus Argenté",
-    "level": 20,
-    "category": "dofus",
-    "stats": {}
-  },
-  "Dofus Argenté Scintillant": {
-    "name": "Dofus Argenté Scintillant",
-    "level": 180,
-    "category": "dofus",
-    "stats": {}
   },
   "Dofus Cacao": {
     "name": "Dofus Cacao",
@@ -220,14 +192,6 @@
     "category": "dofus",
     "stats": {
       "range": 2
-    }
-  },
-  "Dofus Verdoyant": {
-    "name": "Dofus Verdoyant",
-    "level": 180,
-    "category": "dofus",
-    "stats": {
-      "range": 1
     }
   },
   "Jyfus": {
@@ -1625,8 +1589,8 @@
     "level": 100,
     "category": "dofus",
     "stats": {
-      "AP": 1,
-      "MP": -1
+      "ap": 1,
+      "mp": -1
     }
   },
   "Voyageur": {
@@ -1634,7 +1598,7 @@
     "level": 100,
     "category": "dofus",
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "lock": -30,
       "dodge": -30
     }
@@ -1690,6 +1654,10 @@
     "name": "Obstructeur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "lock": 8
     }
@@ -1698,6 +1666,10 @@
     "name": "Obstructeur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "lock": 16
     }
@@ -1706,6 +1678,10 @@
     "name": "Obstructeur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "lock": 32
     }
@@ -1714,6 +1690,10 @@
     "name": "Déserteur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "dodge": 8
     }
@@ -1722,6 +1702,10 @@
     "name": "Déserteur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "dodge": 16
     }
@@ -1730,6 +1714,10 @@
     "name": "Déserteur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "dodge": 32
     }
@@ -1738,6 +1726,10 @@
     "name": "Guérisseur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "heal": 8
     }
@@ -1746,6 +1738,10 @@
     "name": "Guérisseur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "heal": 16
     }
@@ -1754,6 +1750,10 @@
     "name": "Guérisseur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "heal": 32
     }
@@ -1762,6 +1762,10 @@
     "name": "Miraculé mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "health": 80
     }
@@ -1770,6 +1774,10 @@
     "name": "Miraculé",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "health": 160
     }
@@ -1778,6 +1786,10 @@
     "name": "Miraculé majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "health": 320
     }
@@ -1786,6 +1798,10 @@
     "name": "Enragé mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "strength": 25
     }
@@ -1794,6 +1810,10 @@
     "name": "Enragé",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "strength": 50
     }
@@ -1802,6 +1822,10 @@
     "name": "Enragé majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "strength": 100
     }
@@ -1810,6 +1834,10 @@
     "name": "Érudit mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "intelligence": 25
     }
@@ -1818,6 +1846,10 @@
     "name": "Érudit",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "intelligence": 50
     }
@@ -1826,6 +1858,10 @@
     "name": "Érudit majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "intelligence": 100
     }
@@ -1834,6 +1870,10 @@
     "name": "Cascadeur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "agility": 25
     }
@@ -1842,6 +1882,10 @@
     "name": "Cascadeur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "agility": 50
     }
@@ -1850,6 +1894,10 @@
     "name": "Cascadeur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "agility": 100
     }
@@ -1858,6 +1906,10 @@
     "name": "Chanceux mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "chance": 25
     }
@@ -1866,6 +1918,10 @@
     "name": "Chanceux",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "chance": 50
     }
@@ -1874,6 +1930,10 @@
     "name": "Chanceux majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "chance": 100
     }
@@ -1882,6 +1942,10 @@
     "name": "Fortification mineure",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "criticalResist": 8
     }
@@ -1890,6 +1954,10 @@
     "name": "Fortification",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "criticalResist": 16
     }
@@ -1898,6 +1966,10 @@
     "name": "Fortification majeure",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "criticalResist": 32
     }
@@ -1906,6 +1978,10 @@
     "name": "Dévastateur Terre mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthDamage": 5
     }
@@ -1914,6 +1990,10 @@
     "name": "Dévastateur Terre",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthDamage": 10
     }
@@ -1922,6 +2002,10 @@
     "name": "Dévastateur Terre majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthDamage": 20
     }
@@ -1930,6 +2014,10 @@
     "name": "Dévastateur Neutre mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 5
     }
@@ -1938,6 +2026,10 @@
     "name": "Dévastateur Neutre",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 10
     }
@@ -1946,6 +2038,10 @@
     "name": "Dévastateur Neutre majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 20
     }
@@ -1954,6 +2050,10 @@
     "name": "Dévastateur Feu mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireDamage": 5
     }
@@ -1962,6 +2062,10 @@
     "name": "Dévastateur Feu",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireDamage": 10
     }
@@ -1970,6 +2074,10 @@
     "name": "Dévastateur Feu majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireDamage": 20
     }
@@ -1978,6 +2086,10 @@
     "name": "Dévastateur Eau mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterDamage": 5
     }
@@ -1986,6 +2098,10 @@
     "name": "Dévastateur Eau",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterDamage": 10
     }
@@ -1994,6 +2110,10 @@
     "name": "Dévastateur Eau majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterDamage": 20
     }
@@ -2002,6 +2122,10 @@
     "name": "Dévastateur Air mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airDamage": 5
     }
@@ -2010,6 +2134,10 @@
     "name": "Dévastateur Air",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airDamage": 10
     }
@@ -2018,6 +2146,10 @@
     "name": "Dévastateur Air majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airDamage": 20
     }
@@ -2026,6 +2158,10 @@
     "name": "Temporiseur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpReduction": 6
     }
@@ -2034,6 +2170,10 @@
     "name": "Temporiseur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpReduction": 12
     }
@@ -2042,6 +2182,10 @@
     "name": "Temporiseur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpReduction": 24
     }
@@ -2050,6 +2194,10 @@
     "name": "Étourdisseur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apReduction": 6
     }
@@ -2058,6 +2206,10 @@
     "name": "Étourdisseur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apReduction": 12
     }
@@ -2066,6 +2218,10 @@
     "name": "Étourdisseur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apReduction": 24
     }
@@ -2074,6 +2230,10 @@
     "name": "Évasif mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apResist": 8
     }
@@ -2082,6 +2242,10 @@
     "name": "Évasif",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apResist": 16
     }
@@ -2090,6 +2254,10 @@
     "name": "Évasif majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "apResist": 32
     }
@@ -2098,6 +2266,10 @@
     "name": "Cavaleur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpResist": 8
     }
@@ -2106,6 +2278,10 @@
     "name": "Cavaleur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpResist": 16
     }
@@ -2114,6 +2290,10 @@
     "name": "Cavaleur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "mpResist": 32
     }
@@ -2122,6 +2302,10 @@
     "name": "Culbuteur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackDamage": 16
     }
@@ -2130,6 +2314,10 @@
     "name": "Culbuteur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackDamage": 32
     }
@@ -2138,6 +2326,10 @@
     "name": "Culbuteur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackDamage": 64
     }
@@ -2146,6 +2338,10 @@
     "name": "Solide mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackResist": 24
     }
@@ -2154,6 +2350,10 @@
     "name": "Solide",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackResist": 48
     }
@@ -2162,6 +2362,10 @@
     "name": "Solide majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "pushbackResist": 96
     }
@@ -2170,6 +2374,10 @@
     "name": "Fonceur mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "initiative": 200
     }
@@ -2178,6 +2386,10 @@
     "name": "Fonceur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "initiative": 400
     }
@@ -2186,6 +2398,10 @@
     "name": "Fonceur majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "initiative": 800
     }
@@ -2194,6 +2410,10 @@
     "name": "Carapace Terre mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthResistPer": 3
     }
@@ -2202,6 +2422,10 @@
     "name": "Carapace Terre",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthResistPer": 6
     }
@@ -2210,6 +2434,10 @@
     "name": "Carapace Terre majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "earthResistPer": 12
     }
@@ -2218,6 +2446,10 @@
     "name": "Carapace Neutre mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralResistPer": 3
     }
@@ -2226,6 +2458,10 @@
     "name": "Carapace Neutre",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralResistPer": 6
     }
@@ -2234,6 +2470,10 @@
     "name": "Carapace Neutre majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralResistPer": 12
     }
@@ -2242,6 +2482,10 @@
     "name": "Carapace Feu mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireResistPer": 3
     }
@@ -2250,6 +2494,10 @@
     "name": "Carapace Feu",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireResistPer": 6
     }
@@ -2258,6 +2506,10 @@
     "name": "Carapace Feu majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "fireResistPer": 12
     }
@@ -2266,6 +2518,10 @@
     "name": "Carapace Eau mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterResistPer": 3
     }
@@ -2274,6 +2530,10 @@
     "name": "Carapace Eau",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterResistPer": 6
     }
@@ -2282,6 +2542,10 @@
     "name": "Carapace Eau majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "waterResistPer": 12
     }
@@ -2290,6 +2554,10 @@
     "name": "Carapace Air mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airResistPer": 3
     }
@@ -2298,6 +2566,10 @@
     "name": "Carapace Air",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airResistPer": 6
     }
@@ -2306,6 +2578,10 @@
     "name": "Carapace Air majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "airResistPer": 12
     }
@@ -2314,6 +2590,10 @@
     "name": "Vigoureux mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "power": 20
     }
@@ -2322,6 +2602,10 @@
     "name": "Vigoureux",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "power": 40
     }
@@ -2330,6 +2614,10 @@
     "name": "Vigoureux majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "power": 80
     }
@@ -2338,22 +2626,34 @@
     "name": "Remueur",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
-      "AP": 1
+      "ap": 1
     }
   },
   "Nomade": {
     "name": "Nomade",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
-      "MP": 1
+      "mp": 1
     }
   },
   "Observateur": {
     "name": "Observateur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "range": 2
     }
@@ -2362,6 +2662,10 @@
     "name": "Sanguinaire mineur",
     "level": 50,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 3,
       "earthDamage": 3,
@@ -2374,6 +2678,10 @@
     "name": "Sanguinaire",
     "level": 100,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 6,
       "earthDamage": 6,
@@ -2386,6 +2694,10 @@
     "name": "Sanguinaire majeur",
     "level": 150,
     "category": "dofus",
+    "requirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
     "stats": {
       "neutralDamage": 12,
       "earthDamage": 12,

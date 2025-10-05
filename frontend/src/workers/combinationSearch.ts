@@ -2,11 +2,17 @@
 console.log("new worker starting");
 
 import init, { best_combo } from "../../wasm/combination/pkg/combination";
+import type { BestBuildsResp } from "../types/character";
 import { sumStats } from "../types/item";
-import type { CategoryItems, Item, Panoply } from "../types/item";
+import type { CategoryItems, Item, Requirement, Panoply } from "../types/item";
 import type { Stats } from "../types/stats";
 
-type MinItem = { name: string; stats: Partial<Stats>; panoplies: string[] };
+type MinItem = {
+    name: string;
+    stats: Partial<Stats>;
+    panoplies: string[];
+    requirement?: Requirement;
+};
 
 let initialized = false;
 
@@ -37,20 +43,24 @@ onmessage = async (e: MessageEvent) => {
         } else if (category == "dofus") {
             minItemsCategory.push(getCombinations(itemsArr, 6));
         } else {
-            const minItemsOtherCats = itemsArr.map((item) => ({
+            const minItemsOtherCats: MinItem[] = itemsArr.map((item) => ({
                 name: item.name,
                 stats: item.statsWithBonus,
                 panoplies: item.panoply ? [item.panoply] : [],
+                requirement: item.requirement,
             }));
             minItemsCategory.push(minItemsOtherCats);
         }
     }
-    // console.log(get(itemsCategoryToCalculate));
+    // console.log(get(itemsSelected));
     console.log("Weights sent to rust : ", parameters.weights);
+    console.log("MinStats sent to rust : ", parameters.minStats);
+    console.log("maxStats sent to rust : ", parameters.maxStats);
     console.log("Items sent to rust : ", minItemsCategory);
+    console.log("panoplies sent to rust : ", parameters.panoplies);
 
     try {
-        const result = best_combo(
+        const bestBuildsResp: BestBuildsResp = best_combo(
             minItemsCategory,
             parameters.weights,
             parameters.minStats,
@@ -58,7 +68,7 @@ onmessage = async (e: MessageEvent) => {
             parameters.preStats,
             parameters.panoplies,
         );
-        postMessage(result);
+        postMessage(bestBuildsResp);
     } catch (err) {
         postMessage({ error: String(err) });
     }
@@ -93,6 +103,17 @@ function mergeItems(items: Item[]): MinItem {
         name: items.map((i) => i.name).join("+"),
         stats: sumStats(items),
         panoplies: items.map((i) => i.panoply).filter((p): p is string => p !== undefined),
+        requirement: mergeItemsRequirement(items),
     };
     return minItem;
+}
+
+function mergeItemsRequirement(items: Item[]): Requirement | undefined {
+    for (const item of items) {
+        console.log("item requirement of: ", item.name, item.requirement);
+        if (item.requirement) {
+            return item.requirement;
+        }
+    }
+    return undefined;
 }

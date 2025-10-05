@@ -1,5 +1,11 @@
 import { z } from "zod";
-import { type Item, type ItemStats, type ItemCategory, type Panoplies } from "../types/item";
+import {
+    type Item,
+    type ItemStats,
+    type ItemCategory,
+    type Panoplies,
+    type Requirement,
+} from "../types/item";
 import { type StatKey } from "../types/character";
 
 const dofusDBUrl: string = "https://api.dofusdb.fr";
@@ -17,7 +23,7 @@ const ItemRespSchema = z.object({
     name: z.object({
         fr: z.string(),
     }),
-    criteria: z.string(), // max AP / MP
+    criterions: z.string().optional(), // max AP / MP
     itemSet: z
         .union([
             z.object({
@@ -72,7 +78,15 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
         const itemsResp: ItemsResp = ItemsRespSchema.parse(json);
 
         for (const dofusDbItem of itemsResp.data) {
-            items[dofusDbItem.name.fr] = translateItems(dofusDbItem, category);
+            if (shouldSkipItem(dofusDbItem)) {
+                continue;
+            }
+            const newItem = translateItems(dofusDbItem, category);
+            if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
+                continue;
+            } else {
+                items[dofusDbItem.name.fr] = newItem;
+            }
         }
 
         totalItems = itemsResp.total;
@@ -83,11 +97,13 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
 }
 
 export function translateItems(dofusDbItem: ItemResp, category: ItemCategory): Item {
+    const requirement = translateCriterions(dofusDbItem.criterions);
     let item: Item = {
         name: dofusDbItem.name.fr,
         level: dofusDbItem.level,
         panoply: dofusDbItem.itemSet?.name.fr,
         category: category,
+        ...(requirement ? { requirement: requirement } : {}),
         stats: {},
     };
     for (const dofusDbStat of dofusDbItem.effects) {
@@ -99,7 +115,7 @@ export function translateItems(dofusDbItem: ItemResp, category: ItemCategory): I
     }
     return item;
 }
-export function translateStat(dofusDbStat: StatResp): number {
+function translateStat(dofusDbStat: StatResp): number {
     if (dofusDbStat.to == 0) {
         return dofusDbStat.from;
     }
@@ -108,12 +124,69 @@ export function translateStat(dofusDbStat: StatResp): number {
     }
     return dofusDbStat.to > dofusDbStat.from ? dofusDbStat.to : dofusDbStat.from;
 }
+function translateCriterions(criterions: string | undefined): Requirement | undefined {
+    // let requirement: Requirement = {}
+    if (criterions === undefined) {
+        return undefined;
+    }
+    if (criterions == "Pk<3") {
+        const requirement: Requirement = {
+            type: "panopliesBonusLessThan",
+            value: 3,
+        };
+        return requirement;
+    } else if (criterions.includes("CP<12|CM<6")) {
+        const requirement: Requirement = {
+            type: "apLessThanOrMpLessThan",
+            apValue: 12,
+            mpValue: 6,
+        };
+        return requirement;
+    } else if (criterions.includes("CP<12&CM<6")) {
+        const requirement: Requirement = {
+            type: "apLessThanAndMpLessThan",
+            apValue: 12,
+            mpValue: 6,
+        };
+        return requirement;
+    } else {
+        const matchApLessThan = criterions.match(/CP<(\d+)/);
+        if (matchApLessThan && matchApLessThan[1] !== undefined) {
+            const requirement: Requirement = {
+                type: "apLessThan",
+                value: parseInt(matchApLessThan[1], 10),
+            };
+            return requirement;
+        }
+        const matchMpLessThan = criterions.match(/CM<(\d+)/);
+        if (matchMpLessThan && matchMpLessThan[1] !== undefined) {
+            const requirement: Requirement = {
+                type: "mpLessThan",
+                value: parseInt(matchMpLessThan[1], 10),
+            };
+            return requirement;
+        }
+    }
+    return undefined;
+    // const validCriterions: Record<string, string> = {
+    //     Pk: "panoplyBonus",
+    //     CP: "ap",
+    //     CM: "mp",
+    //     // CS: "strength",
+    //     // CC: "chance",
+    //     // CI: "intelligence",
+    //     // CA: "agility",
+    //     // CW: "wisdom",
+    //     // CV: "health",
+    // };
+}
 
 const PanoplyRespSchema = z.object({
     name: z.object({
         fr: z.string(),
     }),
     effects: z.array(z.array(StatSchema)), // stats
+    criterions: z.string().optional(), // max AP / MP
 });
 const PanopliesRespSchema = z.object({
     total: z.number(),
@@ -146,11 +219,14 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
         const json = await resp.json();
         const panopliesResp: PanopliesResp = PanopliesRespSchema.parse(json);
 
-        for (const panoplyResp of panopliesResp.data) {
-            panoplies[panoplyResp.name.fr] = {
-                name: panoplyResp.name.fr,
+        for (const dofusDbPano of panopliesResp.data) {
+            if (shouldSkipPano(dofusDbPano)) {
+                continue;
+            }
+            panoplies[dofusDbPano.name.fr] = {
+                name: dofusDbPano.name.fr,
                 items: [],
-                stats: translatePanoplyStats(panoplyResp),
+                stats: translatePanoplyStats(dofusDbPano),
             };
         }
         totalItems = panopliesResp.total;
@@ -189,8 +265,8 @@ export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {
 };
 
 export const STAT_ID_DOFUSDB: Record<number, StatKey> = {
-    1: "AP",
-    23: "MP",
+    1: "ap",
+    23: "mp",
     19: "range",
     26: "summon",
 
@@ -260,3 +336,34 @@ export const STAT_ID_DOFUSDB: Record<number, StatKey> = {
     44: "initiative",
     40: "pods",
 };
+
+function shouldSkipItem(dofusDbItem: ItemResp): boolean {
+    if (itemsToSkip.includes(dofusDbItem.name.fr)) {
+        return true;
+    }
+    if (dofusDbItem.criterions?.includes("BI")) {
+        return true;
+    }
+    if (dofusDbItem.criterions?.includes("OS=505")) {
+        return true;
+    }
+    if (dofusDbItem.criterions?.includes("PX=")) {
+        return true;
+    }
+    return false;
+}
+
+const itemsToSkip: string[] = [
+    "Amourlette Hernel",
+    "Amourlette Hernelle",
+    "La Broche Céleste Ankarton",
+    "Pagniglou défectueux",
+    "Dofus Verdoyant",
+];
+function shouldSkipPano(dofusDbPano: PanoplyResp): boolean {
+    if (panopliesToSkip.includes(dofusDbPano.name.fr)) {
+        return true;
+    }
+    return false;
+}
+const panopliesToSkip: string[] = ["Panoplie Ankarton"];

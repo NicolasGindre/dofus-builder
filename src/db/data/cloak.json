@@ -4,7 +4,7 @@
     "level": 1,
     "category": "cloak",
     "stats": {
-      "MP": -1
+      "mp": -1
     }
   },
   "Cape de Bowisse": {
@@ -102,9 +102,13 @@
     "name": "Cape du Coq Hû",
     "level": 44,
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 9
+    },
     "stats": {
       "chance": 15,
-      "MP": 1,
+      "mp": 1,
       "dodge": -15
     }
   },
@@ -190,7 +194,7 @@
       "intelligence": -50,
       "chance": -50,
       "agility": -50,
-      "AP": 1
+      "ap": 1
     }
   },
   "Cape du Mulou Fou": {
@@ -210,8 +214,8 @@
     "stats": {
       "agility": 60,
       "wisdom": -30,
-      "AP": -1,
-      "MP": 2
+      "ap": -1,
+      "mp": 2
     }
   },
   "La Samoulaille": {
@@ -276,10 +280,14 @@
     "level": 55,
     "panoply": "Panoplie Fulgurante",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 10
+    },
     "stats": {
       "health": 25,
       "wisdom": 15,
-      "AP": 1
+      "ap": 1
     }
   },
   "Cape du Wa Wabbit": {
@@ -323,7 +331,7 @@
     "stats": {
       "health": -50,
       "wisdom": -30,
-      "MP": 1,
+      "mp": 1,
       "range": 1
     }
   },
@@ -427,18 +435,6 @@
       "summon": 1,
       "airResistPer": 5
     }
-  },
-  "Cape Brâkmarienne": {
-    "name": "Cape Brâkmarienne",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
-  },
-  "Cape Bontarienne": {
-    "name": "Cape Bontarienne",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
   },
   "Cape de Bou": {
     "name": "Cape de Bou",
@@ -697,7 +693,7 @@
       "chance": -100,
       "agility": -100,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "summon": 2,
       "earthResistPer": 10,
       "waterResistPer": 10
@@ -778,12 +774,6 @@
       "strength": 20
     }
   },
-  "Cape Banale": {
-    "name": "Cape Banale",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
-  },
   "Cape du Chef Bwork": {
     "name": "Cape du Chef Bwork",
     "level": 100,
@@ -814,12 +804,6 @@
       "fireResistPer": 3,
       "waterResistPer": 3
     }
-  },
-  "Cape des Mercenaires d'Astrub": {
-    "name": "Cape des Mercenaires d'Astrub",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
   },
   "Sac du Petit Moskito": {
     "name": "Sac du Petit Moskito",
@@ -1120,8 +1104,12 @@
     "level": 50,
     "panoply": "Panoplie Dindo",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 10
+    },
     "stats": {
-      "MP": 1
+      "mp": 1
     }
   },
   "Cape du Boufcoul": {
@@ -1695,10 +1683,15 @@
     "level": 110,
     "panoply": "Puissante Panoplie Fulgurante",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 40,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "damage": 5
     }
   },
@@ -2169,6 +2162,11 @@
     "level": 194,
     "panoply": "Panoplie du Professeur Xa",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 200,
       "strength": 30,
@@ -2176,7 +2174,7 @@
       "chance": 30,
       "wisdom": 30,
       "criticalChance": 3,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
@@ -2198,7 +2196,7 @@
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 4,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
       "airDamage": 15,
@@ -2328,7 +2326,7 @@
     "stats": {
       "health": 400,
       "wisdom": 50,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "summon": 2,
       "earthResist": 18,
@@ -2523,12 +2521,17 @@
     "level": 196,
     "panoply": "Panoplit",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 250,
       "chance": 45,
       "agility": 45,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
@@ -2550,7 +2553,7 @@
       "wisdom": 40,
       "power": 50,
       "criticalChance": 7,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "waterResistPer": 10,
       "waterResist": 10,
@@ -2721,7 +2724,7 @@
       "health": 350,
       "strength": 100,
       "criticalChance": 6,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 18,
       "earthDamage": 18,
       "fireResistPer": 10,
@@ -2791,6 +2794,11 @@
     "level": 200,
     "panoply": "Panoplie des Justiciers",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 250,
       "strength": 40,
@@ -2799,7 +2807,7 @@
       "agility": 40,
       "wisdom": 40,
       "criticalChance": 2,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
@@ -3073,7 +3081,7 @@
     "stats": {
       "health": 350,
       "wisdom": 50,
-      "AP": 1,
+      "ap": 1,
       "prospecting": 15,
       "fireResistPer": 10,
       "waterResistPer": 10,
@@ -3093,7 +3101,7 @@
       "health": 400,
       "wisdom": 50,
       "power": 70,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
@@ -3441,11 +3449,16 @@
     "name": "Cape de Diondin",
     "level": 200,
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "intelligence": 80,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "range": 2,
       "fireDamage": 15,
       "heal": 15,
@@ -3528,12 +3541,6 @@
       "lock": 7,
       "pushbackDamage": 20
     }
-  },
-  "Cape Transparente": {
-    "name": "Cape Transparente",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
   },
   "Cape Ouroboulos": {
     "name": "Cape Ouroboulos",
@@ -3882,12 +3889,17 @@
     "level": 200,
     "panoply": "Panoplie Ensevelie",
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "chance": 80,
       "wisdom": 40,
       "criticalChance": 4,
-      "AP": 1,
+      "ap": 1,
       "summon": 1,
       "waterDamage": 15,
       "prospecting": 15,
@@ -3895,12 +3907,6 @@
       "earthResistPer": 10,
       "pushbackDamage": 15
     }
-  },
-  "Tabard Nak": {
-    "name": "Tabard Nak",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
   },
   "Cape Martegel": {
     "name": "Cape Martegel",
@@ -3996,12 +4002,6 @@
       "pushbackDamage": 20
     }
   },
-  "Bouteille de chronoxygène": {
-    "name": "Bouteille de chronoxygène",
-    "level": 50,
-    "category": "cloak",
-    "stats": {}
-  },
   "Carapace de Torkélonia": {
     "name": "Carapace de Torkélonia",
     "level": 200,
@@ -4021,12 +4021,6 @@
       "apResist": 5,
       "criticalDamage": 12
     }
-  },
-  "Ailes en bois alourdies": {
-    "name": "Ailes en bois alourdies",
-    "level": 1,
-    "category": "cloak",
-    "stats": {}
   },
   "Manteau de Servitude": {
     "name": "Manteau de Servitude",
@@ -4058,7 +4052,7 @@
       "strength": 80,
       "wisdom": 30,
       "criticalChance": 5,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
       "earthResistPer": 12,
@@ -4222,7 +4216,7 @@
       "agility": 40,
       "wisdom": 30,
       "criticalChance": 2,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 9,
       "earthDamage": 9,
       "fireDamage": 9,
@@ -4270,11 +4264,16 @@
     "name": "Ailes du Chaos",
     "level": 200,
     "category": "cloak",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 400,
       "agility": 70,
       "wisdom": 30,
-      "AP": 1,
+      "ap": 1,
       "range": 1,
       "airDamage": 18,
       "initiative": 300,
@@ -4302,13 +4301,6 @@
       "mpResist": 8,
       "pushbackDamage": 20
     }
-  },
-  "Cape Fulgurante Ankarton": {
-    "name": "Cape Fulgurante Ankarton",
-    "level": 75,
-    "panoply": "Panoplie Ankarton",
-    "category": "cloak",
-    "stats": {}
   },
   "Âmes Hurlantes": {
     "name": "Âmes Hurlantes",

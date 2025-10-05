@@ -143,8 +143,8 @@ export function calculatePanoplyValue(pano: Panoply): number {
 
 //     summon: 0,
 //     range: 0,
-//     MP: 1.4,
-//     AP: 1.8,
+//     mp: 1.4,
+//     ap: 1.8,
 // }
 
 // Sacri
@@ -153,8 +153,8 @@ export function calculatePanoplyValue(pano: Panoply): number {
 
 //     summon: 0,
 //     range: 0,
-//     AP: 1.25,
-//     MP: 1,
+//     ap: 1.25,
+//     mp: 1,
 
 //     strength: 1,
 //     agility: 1,
@@ -224,8 +224,8 @@ export function calculatePanoplyValue(pano: Panoply): number {
 let statsValueWeight: StatsValueWeight = {
     summon: 0,
     range: 50,
-    MP: 0,
-    AP: 290,
+    mp: 0,
+    ap: 290,
 
     health: 0,
 
@@ -360,6 +360,6 @@ let statsValueWeight: StatsValueWeight = {
 
 //     summon: 30,
 //     range: 50,
-//     MP: 80,
-//     AP: 100,
+//     mp: 80,
+//     ap: 100,
 // }

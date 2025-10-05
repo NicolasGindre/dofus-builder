@@ -53,7 +53,7 @@
         "strength": 30,
         "intelligence": 30,
         "fireDamage": 3,
-        "AP": 1,
+        "ap": 1,
         "health": 30
       },
       {
@@ -62,7 +62,7 @@
         "strength": 50,
         "intelligence": 50,
         "fireDamage": 5,
-        "AP": 1,
+        "ap": 1,
         "health": 50
       }
     ]
@@ -92,7 +92,7 @@
         "fireResistPer": 2
       },
       {
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 4,
         "wisdom": 5,
         "agility": 15,
@@ -100,7 +100,7 @@
         "health": 25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 6,
         "wisdom": 10,
         "agility": 20,
@@ -109,7 +109,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 8,
         "wisdom": 15,
         "agility": 25,
@@ -119,8 +119,8 @@
       },
       {
         "fireResistPer": 10,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "wisdom": 20,
         "agility": 30,
         "intelligence": 45,
@@ -153,7 +153,7 @@
         "earthDamage": 2
       },
       {
-        "MP": 1,
+        "mp": 1,
         "strength": 20,
         "health": 20,
         "neutralResistPer": 10,
@@ -162,7 +162,7 @@
         "earthResistPer": 10
       },
       {
-        "MP": 1,
+        "mp": 1,
         "strength": 30,
         "health": 30,
         "neutralResistPer": 15,
@@ -171,7 +171,7 @@
         "earthDamage": 2
       },
       {
-        "MP": 1,
+        "mp": 1,
         "strength": 40,
         "health": 40,
         "neutralResistPer": 20,
@@ -186,13 +186,13 @@
         "health": 50,
         "neutralResistPer": 20,
         "earthResistPer": 20,
-        "MP": 1,
+        "mp": 1,
         "fireResistPer": -20,
         "damage": 4,
         "airResistPer": -20,
         "neutralDamage": 4,
         "earthDamage": 4,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -244,14 +244,14 @@
         "damage": 4,
         "strength": 40,
         "intelligence": 40,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 100,
         "damage": 5,
         "strength": 50,
         "intelligence": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -343,7 +343,7 @@
       {
         "prospecting": 20,
         "intelligence": 40,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -382,7 +382,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 15,
         "dodge": 5,
         "prospecting": 10,
@@ -391,7 +391,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 20,
         "dodge": 10,
         "prospecting": 20,
@@ -436,7 +436,7 @@
       },
       {
         "prospecting": 15,
-        "AP": 1,
+        "ap": 1,
         "power": 15
       }
     ]
@@ -461,7 +461,7 @@
         "dodge": 10,
         "intelligence": 30,
         "health": 60,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -525,7 +525,7 @@
         "neutralResist": 5,
         "earthResist": 5,
         "waterResist": 5,
-        "AP": 1,
+        "ap": 1,
         "fireDamage": 4
       }
     ]
@@ -555,7 +555,7 @@
         "waterResistPer": 2
       },
       {
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 4,
         "wisdom": 5,
         "strength": 15,
@@ -563,7 +563,7 @@
         "health": 25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 6,
         "wisdom": 10,
         "strength": 20,
@@ -572,7 +572,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 8,
         "wisdom": 15,
         "strength": 25,
@@ -582,8 +582,8 @@
       },
       {
         "waterResistPer": 10,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "wisdom": 20,
         "strength": 30,
         "chance": 45,
@@ -617,7 +617,7 @@
         "earthResistPer": 2
       },
       {
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 4,
         "wisdom": 5,
         "chance": 15,
@@ -625,7 +625,7 @@
         "health": 25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 6,
         "wisdom": 10,
         "chance": 20,
@@ -634,7 +634,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 8,
         "wisdom": 15,
         "chance": 25,
@@ -644,8 +644,8 @@
       },
       {
         "earthResistPer": 10,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "wisdom": 20,
         "chance": 30,
         "strength": 45,
@@ -679,7 +679,7 @@
         "airResistPer": 2
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 4,
         "wisdom": 5,
         "intelligence": 15,
@@ -687,7 +687,7 @@
         "health": 25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 6,
         "wisdom": 10,
         "intelligence": 20,
@@ -696,7 +696,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 8,
         "wisdom": 15,
         "intelligence": 25,
@@ -706,8 +706,8 @@
       },
       {
         "airResistPer": 10,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "wisdom": 20,
         "intelligence": 30,
         "agility": 45,
@@ -732,13 +732,13 @@
         "lock": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "lock": 5,
         "chance": 30,
         "strength": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5,
         "strength": 30,
         "chance": 30,
@@ -775,7 +775,7 @@
         "strength": 40,
         "agility": 20,
         "earthResistPer": 5,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 60,
@@ -783,7 +783,7 @@
         "agility": 30,
         "earthResistPer": 10,
         "wisdom": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 80,
@@ -792,7 +792,7 @@
         "earthResistPer": 15,
         "wisdom": 20,
         "range": 1,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 100,
@@ -800,9 +800,9 @@
         "agility": 50,
         "earthResistPer": 20,
         "wisdom": 30,
-        "MP": 1,
+        "mp": 1,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -850,7 +850,7 @@
         "health": 50
       },
       {
-        "MP": 1,
+        "mp": 1,
         "initiative": 150,
         "criticalChance": 5,
         "power": 30,
@@ -880,7 +880,7 @@
       },
       {
         "wisdom": 10,
-        "AP": 1,
+        "ap": 1,
         "strength": 30,
         "agility": 10,
         "initiative": 100
@@ -890,7 +890,7 @@
         "wisdom": 20,
         "agility": 20,
         "strength": 40,
-        "AP": 1,
+        "ap": 1,
         "chance": 20
       },
       {
@@ -898,14 +898,14 @@
         "wisdom": 30,
         "agility": 30,
         "strength": 50,
-        "AP": 1,
+        "ap": 1,
         "chance": 20
       },
       {
         "chance": 20,
         "initiative": 300,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "strength": 50,
         "agility": 30,
         "wisdom": 20
@@ -913,8 +913,8 @@
       {
         "chance": 40,
         "initiative": 500,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "strength": 70,
         "agility": 50,
         "wisdom": 40,
@@ -954,7 +954,7 @@
         "agility": 25,
         "chance": 25,
         "earthResistPer": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "earthResistPer": 12,
@@ -962,7 +962,7 @@
         "health": 40,
         "agility": 30,
         "chance": 30,
-        "AP": 1
+        "ap": 1
       },
       {
         "wisdom": 10,
@@ -971,11 +971,11 @@
         "health": 55,
         "agility": 40,
         "chance": 40,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "wisdom": 20,
         "earthResistPer": 16,
         "airResistPer": 16,
@@ -985,7 +985,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "wisdom": 30,
         "earthResistPer": 20,
         "airResistPer": 20,
@@ -993,7 +993,7 @@
         "agility": 80,
         "chance": 80,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1171,7 +1171,7 @@
         "strength": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResist": 8,
         "waterResist": 8,
         "fireResist": 8,
@@ -1182,7 +1182,7 @@
         "strength": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResist": 12,
         "waterResist": 12,
         "fireResist": 12,
@@ -1193,7 +1193,7 @@
         "strength": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResist": 15,
         "waterResist": 15,
         "fireResist": 15,
@@ -1204,7 +1204,7 @@
         "strength": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResist": 15,
         "waterResist": 15,
         "fireResist": 15,
@@ -1213,7 +1213,7 @@
         "chance": 40,
         "health": 80,
         "strength": 40,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1243,7 +1243,7 @@
         "earthResistPer": 20,
         "strength": 60,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1273,7 +1273,7 @@
         "fireResistPer": 20,
         "intelligence": 60,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1303,7 +1303,7 @@
         "airResistPer": 20,
         "agility": 60,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1333,7 +1333,7 @@
         "waterResistPer": 20,
         "chance": 60,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1406,7 +1406,7 @@
         "heal": 10,
         "prospecting": 5,
         "agility": 30,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 40,
@@ -1415,7 +1415,7 @@
         "prospecting": 10,
         "agility": 40,
         "wisdom": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 60,
@@ -1424,7 +1424,7 @@
         "prospecting": 15,
         "agility": 60,
         "wisdom": 20,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 80,
@@ -1433,7 +1433,7 @@
         "prospecting": 20,
         "wisdom": 30,
         "agility": 80,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -1470,7 +1470,7 @@
         "agility": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 16,
         "fireResist": 16,
         "intelligence": 40,
@@ -1502,13 +1502,13 @@
         "chance": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "chance": 20,
         "health": 40
       },
       {
         "wisdom": 10,
-        "AP": 1,
+        "ap": 1,
         "chance": 30,
         "health": 60,
         "prospecting": 10
@@ -1518,15 +1518,15 @@
         "health": 80,
         "prospecting": 20,
         "wisdom": 20,
-        "AP": 1
+        "ap": 1
       },
       {
         "chance": 40,
         "health": 80,
         "prospecting": 20,
         "wisdom": 20,
-        "AP": 1,
-        "MP": 1
+        "ap": 1,
+        "mp": 1
       },
       {
         "range": 1,
@@ -1534,8 +1534,8 @@
         "health": 100,
         "prospecting": 30,
         "wisdom": 30,
-        "AP": 1,
-        "MP": 1
+        "ap": 1,
+        "mp": 1
       }
     ]
   },
@@ -1567,20 +1567,20 @@
       },
       {
         "prospecting": 10,
-        "AP": 1,
+        "ap": 1,
         "wisdom": 10,
         "agility": 30,
         "health": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 15,
         "agility": 40,
         "health": 40,
         "wisdom": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 15,
         "agility": 40,
         "health": 40,
@@ -1588,7 +1588,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "agility": 50,
         "health": 50,
@@ -1596,13 +1596,13 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "agility": 50,
         "health": 50,
         "wisdom": 20,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1636,7 +1636,7 @@
       },
       {
         "neutralDamage": 4,
-        "AP": 1,
+        "ap": 1,
         "neutralResistPer": 5,
         "earthResistPer": 5,
         "health": 30,
@@ -1645,7 +1645,7 @@
       },
       {
         "neutralDamage": 6,
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 10,
         "health": 40,
         "earthDamage": 6,
@@ -1654,8 +1654,8 @@
       },
       {
         "neutralDamage": 6,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "earthResistPer": 15,
         "health": 40,
         "earthDamage": 6,
@@ -1664,24 +1664,24 @@
       },
       {
         "neutralDamage": 10,
-        "MP": 1,
+        "mp": 1,
         "earthResistPer": 20,
         "health": 60,
         "earthDamage": 10,
         "neutralResistPer": 20,
         "strength": 60,
-        "AP": 1
+        "ap": 1
       },
       {
         "neutralDamage": 10,
         "range": 1,
-        "MP": 1,
+        "mp": 1,
         "earthResistPer": 20,
         "health": 60,
         "earthDamage": 10,
         "neutralResistPer": 20,
         "strength": 60,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -1711,14 +1711,14 @@
         "health": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "intelligence": 30,
         "initiative": 100,
         "heal": 6,
         "health": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "intelligence": 40,
         "wisdom": 10,
         "initiative": 150,
@@ -1726,7 +1726,7 @@
         "health": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "intelligence": 40,
         "wisdom": 10,
@@ -1735,25 +1735,25 @@
         "health": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "health": 40,
         "heal": 10,
         "initiative": 150,
         "wisdom": 10,
         "range": 1,
         "intelligence": 40,
-        "MP": 1
+        "mp": 1
       },
       {
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 60,
         "heal": 20,
         "initiative": 300,
         "wisdom": 20,
         "range": 1,
         "intelligence": 60,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -1787,7 +1787,7 @@
         "criticalChance": 8,
         "health": 80,
         "intelligence": 40,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -1807,13 +1807,13 @@
         "heal": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 20,
         "intelligence": 50,
         "health": 100
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "heal": 20,
         "intelligence": 50,
@@ -1839,7 +1839,7 @@
         "waterResistPer": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 10,
         "fireResistPer": 10,
         "neutralResistPer": 10,
@@ -1880,7 +1880,7 @@
       {
         "health": 100,
         "power": 60,
-        "AP": 1,
+        "ap": 1,
         "airDamage": 10,
         "waterDamage": 10,
         "fireDamage": 10,
@@ -1916,7 +1916,7 @@
         "chance": 25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "health": 60,
         "agility": 30,
@@ -1947,7 +1947,7 @@
         "agility": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpResist": 5,
         "heal": 5,
         "agility": 10,
@@ -1955,7 +1955,7 @@
         "strength": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "mpResist": 7,
         "heal": 7,
@@ -1964,7 +1964,7 @@
         "strength": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "summon": 1,
         "mpResist": 7,
@@ -1974,7 +1974,7 @@
         "strength": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "summon": 1,
         "mpResist": 10,
@@ -1984,8 +1984,8 @@
         "strength": 30
       },
       {
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "range": 1,
         "summon": 1,
         "mpResist": 10,
@@ -2026,7 +2026,7 @@
         "criticalChance": 10,
         "prospecting": 30,
         "apReduction": 9,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -2062,7 +2062,7 @@
         "criticalChance": 4,
         "wisdom": 20,
         "health": 60,
-        "AP": 1
+        "ap": 1
       },
       {
         "criticalDamage": 10,
@@ -2070,7 +2070,7 @@
         "wisdom": 30,
         "agility": 80,
         "health": 80,
-        "AP": 1
+        "ap": 1
       },
       {
         "criticalDamage": 15,
@@ -2078,12 +2078,12 @@
         "wisdom": 40,
         "agility": 100,
         "health": 100,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       },
       {
         "criticalDamage": 20,
-        "AP": 1,
+        "ap": 1,
         "health": 120,
         "criticalChance": 15,
         "wisdom": 50,
@@ -2135,7 +2135,7 @@
         "chance": 30,
         "waterDamage": 5,
         "wisdom": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -2164,7 +2164,7 @@
         "health": 100,
         "neutralResistPer": 20,
         "power": 60,
-        "MP": 1,
+        "mp": 1,
         "range": 1
       }
     ]
@@ -2214,7 +2214,7 @@
         "initiative": 300,
         "agility": 60,
         "wisdom": 30,
-        "MP": 2
+        "mp": 2
       }
     ]
   },
@@ -2246,7 +2246,7 @@
         "health": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 8,
         "damage": 4,
         "wisdom": 20,
@@ -2254,7 +2254,7 @@
         "health": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 12,
         "damage": 6,
         "wisdom": 30,
@@ -2262,7 +2262,7 @@
         "health": 60
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 16,
         "damage": 8,
         "wisdom": 40,
@@ -2270,8 +2270,8 @@
         "health": 80
       },
       {
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "heal": 16,
         "damage": 8,
         "wisdom": 40,
@@ -2309,14 +2309,14 @@
         "criticalChance": 2,
         "agility": 15,
         "wisdom": 15,
-        "AP": 1,
+        "ap": 1,
         "intelligence": 50
       },
       {
         "criticalChance": 4,
         "wisdom": 20,
         "agility": 20,
-        "AP": 1,
+        "ap": 1,
         "intelligence": 75,
         "earthResistPer": 6,
         "waterResistPer": 5,
@@ -2327,7 +2327,7 @@
         "criticalChance": 8,
         "wisdom": 30,
         "agility": 30,
-        "AP": 1,
+        "ap": 1,
         "intelligence": 100,
         "airResist": 12,
         "airResistPer": 10,
@@ -2337,9 +2337,9 @@
       {
         "criticalChance": 8,
         "wisdom": 30,
-        "AP": 1,
+        "ap": 1,
         "agility": 30,
-        "MP": 1,
+        "mp": 1,
         "intelligence": 140,
         "airResist": 12,
         "airResistPer": 10,
@@ -2373,14 +2373,14 @@
         "health": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 5,
         "chance": 20,
         "intelligence": 40,
         "health": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "wisdom": 10,
         "fireResistPer": 10,
         "chance": 30,
@@ -2388,7 +2388,7 @@
         "health": 60
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "wisdom": 20,
         "fireResistPer": 15,
@@ -2397,9 +2397,9 @@
         "health": 80
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
-        "MP": 1,
+        "mp": 1,
         "wisdom": 30,
         "fireResistPer": 20,
         "chance": 50,
@@ -2428,7 +2428,7 @@
         "wisdom": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "wisdom": 10,
         "power": 50,
@@ -2436,7 +2436,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "wisdom": 15,
         "power": 75,
@@ -2444,8 +2444,8 @@
       },
       {
         "range": 1,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "summon": 1,
         "wisdom": 15,
         "power": 75,
@@ -2453,8 +2453,8 @@
       },
       {
         "range": 2,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "summon": 1,
         "wisdom": 20,
         "power": 100,
@@ -2462,8 +2462,8 @@
       },
       {
         "range": 3,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "summon": 1,
         "wisdom": 30,
         "power": 150,
@@ -2490,26 +2490,26 @@
       {
         "strength": 40,
         "health": 150,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 40,
         "health": 150,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       },
       {
         "health": 200,
         "strength": 50,
         "range": 1,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 50,
-        "AP": 1,
+        "ap": 1,
         "health": 200,
         "range": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -2543,7 +2543,7 @@
         "waterDamage": 15,
         "airDamage": 15,
         "pushbackDamage": 15,
-        "AP": 1
+        "ap": 1
       },
       {
         "criticalChance": 10,
@@ -2553,7 +2553,7 @@
         "waterDamage": 20,
         "airDamage": 20,
         "pushbackDamage": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -2582,7 +2582,7 @@
         "chance": 40,
         "heal": 20,
         "prospecting": 20,
-        "AP": 1,
+        "ap": 1,
         "power": 15
       },
       {
@@ -2590,18 +2590,18 @@
         "chance": 50,
         "heal": 25,
         "prospecting": 25,
-        "AP": 1,
+        "ap": 1,
         "power": 20,
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 30,
         "heal": 30,
         "chance": 60,
         "intelligence": 60,
         "range": 1,
-        "MP": 1,
+        "mp": 1,
         "power": 25
       },
       {
@@ -2610,8 +2610,8 @@
         "chance": 70,
         "heal": 35,
         "prospecting": 35,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "power": 30
       },
       {
@@ -2620,8 +2620,8 @@
         "chance": 90,
         "heal": 35,
         "prospecting": 35,
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "power": 30,
         "summon": 1
       }
@@ -2653,7 +2653,7 @@
         "chance": 30,
         "agility": 30,
         "pushbackDamage": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "initiative": 150,
@@ -2661,7 +2661,7 @@
         "chance": 40,
         "agility": 40,
         "pushbackDamage": 15,
-        "AP": 1
+        "ap": 1
       },
       {
         "initiative": 200,
@@ -2669,7 +2669,7 @@
         "chance": 40,
         "agility": 40,
         "pushbackDamage": 20,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       },
       {
@@ -2678,7 +2678,7 @@
         "chance": 50,
         "agility": 50,
         "pushbackDamage": 25,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       },
       {
@@ -2687,8 +2687,8 @@
         "chance": 50,
         "agility": 50,
         "pushbackDamage": 30,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "range": 1
       }
     ]
@@ -2717,14 +2717,14 @@
         "power": 50,
         "criticalChance": 5,
         "range": 1,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 150,
         "power": 75,
         "criticalChance": 7,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "summon": 1
       },
       {
@@ -2732,8 +2732,8 @@
         "power": 75,
         "criticalChance": 7,
         "range": 1,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "summon": 1
       },
       {
@@ -2741,8 +2741,8 @@
         "power": 100,
         "criticalChance": 10,
         "range": 1,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "summon": 2
       },
       {
@@ -2750,8 +2750,8 @@
         "power": 150,
         "criticalChance": 15,
         "range": 1,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "summon": 3
       }
     ]
@@ -2905,10 +2905,10 @@
         "dodge": 3,
         "waterDamage": 3,
         "airDamage": 3,
-        "AP": 1
+        "ap": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "health": 50,
         "chance": 50,
         "agility": 50,
@@ -2937,7 +2937,7 @@
         "fireResistPer": 6
       },
       {
-        "AP": 1,
+        "ap": 1,
         "health": 100,
         "fireResistPer": 6,
         "agility": 20,
@@ -2945,7 +2945,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 100,
         "fireResistPer": 6,
         "agility": 20,
@@ -2953,16 +2953,16 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 150,
         "fireResistPer": 8,
         "agility": 30,
         "intelligence": 30
       },
       {
-        "MP": 1,
+        "mp": 1,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 150,
         "fireResistPer": 8,
         "agility": 30,
@@ -2989,7 +2989,7 @@
         "earthResistPer": 4
       },
       {
-        "AP": 1,
+        "ap": 1,
         "health": 100,
         "earthResistPer": 4,
         "chance": 20,
@@ -2997,7 +2997,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 100,
         "earthResistPer": 4,
         "chance": 20,
@@ -3005,16 +3005,16 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 150,
         "earthResistPer": 4,
         "chance": 30,
         "strength": 30
       },
       {
-        "MP": 1,
+        "mp": 1,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "health": 150,
         "earthResistPer": 4,
         "chance": 30,
@@ -3044,34 +3044,34 @@
         "strength": 30,
         "intelligence": 30,
         "heal": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 40,
         "intelligence": 40,
         "heal": 15,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 50,
         "intelligence": 50,
         "heal": 20,
-        "AP": 1
+        "ap": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 20,
         "intelligence": 50,
         "strength": 50,
-        "MP": 1
+        "mp": 1
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "heal": 20,
         "intelligence": 50,
         "strength": 50,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -3095,40 +3095,40 @@
         "apReduction": 4
       },
       {
-        "MP": 1,
+        "mp": 1,
         "dodge": 4,
         "apReduction": 4,
         "chance": 20,
         "intelligence": 20
       },
       {
-        "MP": 1,
+        "mp": 1,
         "dodge": 5,
         "apReduction": 5,
         "chance": 30,
         "intelligence": 30
       },
       {
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "dodge": 5,
         "apReduction": 5,
         "chance": 30,
         "intelligence": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
-        "MP": 1,
+        "mp": 1,
         "dodge": 5,
         "apReduction": 5,
         "chance": 30,
         "intelligence": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
-        "MP": 1,
+        "mp": 1,
         "dodge": 8,
         "apReduction": 8,
         "chance": 50,
@@ -3160,40 +3160,40 @@
         "strength": 20,
         "apResist": 4,
         "lock": 4,
-        "MP": 1
+        "mp": 1
       },
       {
         "agility": 30,
         "strength": 30,
         "apResist": 5,
         "lock": 5,
-        "MP": 1
+        "mp": 1
       },
       {
         "agility": 30,
         "strength": 30,
         "apResist": 5,
         "lock": 5,
-        "MP": 1,
-        "AP": 1
+        "mp": 1,
+        "ap": 1
       },
       {
         "agility": 30,
         "strength": 30,
         "apResist": 5,
         "lock": 5,
-        "MP": 1,
+        "mp": 1,
         "criticalChance": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "agility": 50,
         "strength": 50,
         "apResist": 8,
         "lock": 8,
-        "MP": 1,
+        "mp": 1,
         "criticalChance": 15,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -3395,7 +3395,7 @@
         "lock": 3,
         "dodge": 3,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 3,
         "heal": 7
       },
@@ -3406,7 +3406,7 @@
         "lock": 7,
         "dodge": 7,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 7,
         "heal": 15
       }
@@ -3429,7 +3429,7 @@
         "wisdom": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "prospecting": 10,
         "wisdom": 20,
@@ -3456,7 +3456,7 @@
         "neutralDamage": 8
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airDamage": 8,
         "earthDamage": 8,
         "neutralDamage": 8,
@@ -3464,7 +3464,7 @@
         "strength": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "airDamage": 8,
         "earthDamage": 8,
@@ -3491,7 +3491,7 @@
         "intelligence": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "intelligence": 30,
         "strength": 30,
         "dodge": 10,
@@ -3558,7 +3558,7 @@
         "airResistPer": 10,
         "prospecting": 40,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "heal": 20,
         "damage": 20,
         "health": 800,
@@ -3629,7 +3629,7 @@
         "health": 800,
         "damage": 20,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "prospecting": 40,
         "airResistPer": 10,
@@ -3698,7 +3698,7 @@
         "wisdom": 100,
         "damage": 20,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "prospecting": 40,
         "health": 800,
@@ -3769,7 +3769,7 @@
         "wisdom": 100,
         "health": 800,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 3,
         "prospecting": 40,
         "airResistPer": 10,
@@ -3839,7 +3839,7 @@
         "health": 800,
         "damage": 20,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "prospecting": 40,
         "airResistPer": 10,
@@ -3910,7 +3910,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -3980,7 +3980,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -4050,7 +4050,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -4118,7 +4118,7 @@
         "airResistPer": 10,
         "prospecting": 40,
         "health": 800,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "heal": 20,
         "damage": 20,
@@ -4190,7 +4190,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 3,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -4260,7 +4260,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -4330,7 +4330,7 @@
         "damage": 20,
         "heal": 20,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 40,
         "airResistPer": 10,
         "waterResistPer": 10,
@@ -4350,7 +4350,7 @@
       {},
       {
         "health": 120,
-        "MP": 1,
+        "mp": 1,
         "airResistPer": 10,
         "agility": 40
       }
@@ -4369,7 +4369,7 @@
         "strength": 30,
         "health": 150,
         "power": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4410,7 +4410,7 @@
         "strength": 65,
         "chance": 30,
         "earthDamage": 5,
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "neutralDamage": 5
       }
@@ -4446,7 +4446,7 @@
         "wisdom": 30,
         "prospecting": 30,
         "heal": 50,
-        "AP": 1,
+        "ap": 1,
         "waterResist": 20,
         "fireResist": 20
       }
@@ -4488,7 +4488,7 @@
         "neutralResistPer": 15,
         "health": 50,
         "intelligence": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4528,7 +4528,7 @@
         "neutralResistPer": 15,
         "health": 50,
         "strength": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4568,7 +4568,7 @@
         "neutralResistPer": 15,
         "health": 50,
         "agility": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4608,7 +4608,7 @@
         "neutralResistPer": 15,
         "health": 50,
         "chance": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4636,7 +4636,7 @@
         "intelligence": 30,
         "wisdom": 30,
         "criticalChance": 6,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4664,7 +4664,7 @@
         "strength": 30,
         "wisdom": 30,
         "criticalChance": 6,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4692,7 +4692,7 @@
         "agility": 30,
         "wisdom": 30,
         "criticalChance": 6,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4720,7 +4720,7 @@
         "chance": 30,
         "wisdom": 30,
         "criticalChance": 6,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4752,7 +4752,7 @@
         "damage": 10,
         "heal": 15,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "power": 30
       }
     ]
@@ -4776,7 +4776,7 @@
         "fireDamage": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "summon": 1,
         "heal": 40,
@@ -4785,7 +4785,7 @@
         "fireDamage": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "summon": 2,
         "heal": 60,
@@ -4811,7 +4811,7 @@
         "agility": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 5,
         "agility": 30,
@@ -4837,21 +4837,21 @@
         "criticalChance": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 5,
         "chance": 30,
         "intelligence": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 8,
         "chance": 50,
         "intelligence": 50
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 8,
         "chance": 50,
@@ -4878,7 +4878,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "damage": 5,
         "wisdom": 30,
@@ -4891,7 +4891,7 @@
         "wisdom": 50,
         "damage": 10,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4916,7 +4916,7 @@
         "prospecting": 20,
         "airDamage": 5,
         "range": 1,
-        "AP": 1
+        "ap": 1
       },
       {
         "agility": 40,
@@ -4924,7 +4924,7 @@
         "airDamage": 5,
         "range": 1,
         "criticalChance": 8,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4948,7 +4948,7 @@
         "prospecting": 20,
         "waterDamage": 5,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -4969,7 +4969,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "earthDamage": 5,
         "neutralDamage": 5,
@@ -4995,7 +4995,7 @@
       },
       {
         "power": 20,
-        "MP": 1,
+        "mp": 1,
         "wisdom": 20,
         "range": 1,
         "health": 30
@@ -5065,7 +5065,7 @@
         "reflect": 5,
         "initiative": 200,
         "health": 30,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -5091,7 +5091,7 @@
         "intelligence": 20,
         "fireDamage": 5,
         "airDamage": 5,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -5186,7 +5186,7 @@
         "health": 40,
         "power": 40,
         "wisdom": 40,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -5320,7 +5320,7 @@
         "airResist": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "initiative": 300,
         "airDamage": 10,
@@ -5339,7 +5339,7 @@
         "fireResist": 28,
         "waterResist": 30,
         "airResist": 23,
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "initiative": 500,
         "airDamage": 15,
@@ -5375,7 +5375,7 @@
         "waterDamage": 10,
         "initiative": 300,
         "prospecting": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5398,13 +5398,13 @@
         "pushbackDamage": 10,
         "chance": 30,
         "intelligence": 30,
-        "AP": 1
+        "ap": 1
       },
       {
         "pushbackDamage": 20,
         "chance": 30,
         "intelligence": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5424,7 +5424,7 @@
         "pushbackResist": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "strength": 40,
         "chance": 30,
         "lock": 8,
@@ -5450,7 +5450,7 @@
         "criticalResist": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "dodge": -5,
         "lock": 5,
         "criticalResist": 10,
@@ -5464,7 +5464,7 @@
         "criticalResist": 10,
         "lock": 5,
         "dodge": -5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5486,7 +5486,7 @@
         "pushbackResist": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "dodge": 5,
         "pushbackResist": 10,
         "intelligence": 30,
@@ -5498,11 +5498,11 @@
         "intelligence": 40,
         "pushbackResist": 20,
         "dodge": 10,
-        "AP": 1
+        "ap": 1
       },
       {
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "dodge": 10,
         "pushbackResist": 20,
         "intelligence": 40,
@@ -5568,7 +5568,7 @@
         "strength": 10
       },
       {
-        "MP": 1,
+        "mp": 1,
         "health": 20,
         "strength": 20,
         "earthDamage": 6
@@ -5661,14 +5661,14 @@
         "agility": 30,
         "mpResist": 10,
         "dodge": 5,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 40,
         "agility": 60,
         "mpResist": 15,
         "dodge": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5693,10 +5693,10 @@
         "agility": 30,
         "chance": 30,
         "apReduction": 5,
-        "AP": 1
+        "ap": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "apReduction": 10,
         "chance": 40,
         "agility": 40,
@@ -5726,7 +5726,7 @@
         "power": 20,
         "apResist": 7,
         "lock": 12,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5758,7 +5758,7 @@
         "mpReduction": 5,
         "prospecting": 20,
         "lock": -40,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 30,
@@ -5773,7 +5773,7 @@
         "fireResist": 10,
         "neutralResist": 10,
         "lock": -40,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 40,
@@ -5789,7 +5789,7 @@
         "neutralResist": 15,
         "lock": -40,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5813,7 +5813,7 @@
         "airDamage": 5,
         "agility": 30,
         "intelligence": 30,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -5840,7 +5840,7 @@
         "health": 60
       },
       {
-        "MP": 1,
+        "mp": 1,
         "wisdom": 25,
         "intelligence": 50,
         "strength": 50,
@@ -5871,7 +5871,7 @@
         "health": 60
       },
       {
-        "AP": 1,
+        "ap": 1,
         "wisdom": 25,
         "agility": 50,
         "chance": 50,
@@ -5917,7 +5917,7 @@
         "waterResist": 15,
         "airResist": 15,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -5939,7 +5939,7 @@
         "waterDamage": 4,
         "wisdom": 15,
         "chance": 30,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -5979,7 +5979,7 @@
         "pushbackResist": 10
       },
       {
-        "MP": 1,
+        "mp": 1,
         "pushbackResist": 20,
         "health": 40,
         "strength": 30
@@ -6047,7 +6047,7 @@
         "airDamage": 5,
         "health": 50,
         "wisdom": 20,
-        "MP": 1
+        "mp": 1
       },
       {
         "earthDamage": 10,
@@ -6056,7 +6056,7 @@
         "airDamage": 10,
         "health": 100,
         "wisdom": 40,
-        "MP": 1
+        "mp": 1
       },
       {
         "earthDamage": 15,
@@ -6065,8 +6065,8 @@
         "airDamage": 15,
         "health": 150,
         "wisdom": 60,
-        "AP": 1,
-        "MP": 1
+        "ap": 1,
+        "mp": 1
       }
     ]
   },
@@ -6089,13 +6089,13 @@
         "chance": 30,
         "pushbackResist": 10,
         "agility": 30,
-        "AP": 1
+        "ap": 1
       },
       {
         "pushbackResist": 10,
         "agility": 30,
         "chance": 30,
-        "AP": 1,
+        "ap": 1,
         "waterDamage": 10,
         "airDamage": 10
       }
@@ -6118,7 +6118,7 @@
         "summon": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "criticalChance": 10,
         "agility": 40
@@ -6128,14 +6128,14 @@
         "agility": 40,
         "summon": 1,
         "criticalChance": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "agility": 40,
         "summon": 1,
         "range": 2,
         "criticalChance": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6166,7 +6166,7 @@
         "lock": 5,
         "criticalChance": 5,
         "airDamage": 5,
-        "AP": 1
+        "ap": 1
       },
       {
         "agility": 70,
@@ -6176,7 +6176,7 @@
         "lock": 10,
         "criticalChance": 8,
         "airDamage": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6196,7 +6196,7 @@
       },
       {
         "mpReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "chance": 30,
         "intelligence": 30
       }
@@ -6223,14 +6223,14 @@
         "chance": 30,
         "health": 100,
         "apReduction": 5,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 40,
         "chance": 40,
         "health": 150,
         "apReduction": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6264,7 +6264,7 @@
         "fireDamage": 15,
         "waterDamage": 15,
         "airDamage": 15,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 9
       },
       {
@@ -6276,7 +6276,7 @@
         "fireDamage": 20,
         "waterDamage": 20,
         "airDamage": 20,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 12
       }
     ]
@@ -6344,7 +6344,7 @@
         "summon": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airDamage": 20,
         "waterDamage": 20,
         "fireDamage": 20,
@@ -6381,7 +6381,7 @@
         "agility": 30,
         "criticalDamage": 15,
         "initiative": 300,
-        "AP": 1
+        "ap": 1
       },
       {
         "health": 200,
@@ -6389,7 +6389,7 @@
         "agility": 40,
         "criticalDamage": 25,
         "initiative": 500,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6427,14 +6427,14 @@
         "strength": 20,
         "pushbackDamage": 10,
         "health": 120,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 20,
         "strength": 20,
         "pushbackDamage": 20,
         "health": 120,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -6496,7 +6496,7 @@
         "waterResistPer": 10,
         "airResistPer": 10,
         "prospecting": 40,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "heal": 20,
         "damage": 20,
@@ -6566,7 +6566,7 @@
         "waterResistPer": 10,
         "airResistPer": 10,
         "prospecting": 40,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "heal": 20,
         "damage": 20,
@@ -6607,14 +6607,14 @@
         "wisdom": 10,
         "health": 20,
         "heal": 4,
-        "AP": 1
+        "ap": 1
       },
       {
         "heal": 8,
         "fireDamage": 8,
         "wisdom": 20,
         "health": 40,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6635,7 +6635,7 @@
       {
         "strength": 30,
         "lock": 5,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -6663,7 +6663,7 @@
         "waterDamage": 5,
         "airDamage": 5,
         "dodge": 5,
-        "AP": 1
+        "ap": 1
       },
       {
         "agility": 30,
@@ -6671,7 +6671,7 @@
         "waterDamage": 10,
         "airDamage": 10,
         "dodge": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6736,7 +6736,7 @@
         "power": 90,
         "criticalChance": 12,
         "prospecting": 18,
-        "AP": 1,
+        "ap": 1,
         "fireDamage": 5,
         "waterDamage": 5,
         "earthDamage": 4,
@@ -6813,7 +6813,7 @@
         "wisdom": 60,
         "damage": 12,
         "power": 60,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6848,7 +6848,7 @@
         "fireDamage": 10,
         "waterDamage": 10,
         "airDamage": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 50,
@@ -6860,7 +6860,7 @@
         "waterDamage": 10,
         "fireDamage": 10,
         "airDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -6889,7 +6889,7 @@
         "strength": 40,
         "health": 80,
         "lock": 8,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -6916,7 +6916,7 @@
         "dodge": 10,
         "mpResist": 10,
         "prospecting": 20,
-        "AP": 1
+        "ap": 1
       },
       {
         "strength": 40,
@@ -6924,7 +6924,7 @@
         "dodge": 10,
         "mpResist": 10,
         "prospecting": 20,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -6947,14 +6947,14 @@
       },
       {
         "prospecting": 20,
-        "AP": 1,
+        "ap": 1,
         "lock": 10,
         "criticalChance": 5,
         "intelligence": 40
       },
       {
         "prospecting": 20,
-        "AP": 1,
+        "ap": 1,
         "lock": 10,
         "criticalChance": 5,
         "intelligence": 40,
@@ -6983,14 +6983,14 @@
         "lock": 5,
         "initiative": 500,
         "chance": 40,
-        "AP": 1
+        "ap": 1
       },
       {
         "prospecting": 20,
         "lock": 5,
         "initiative": 500,
         "chance": 40,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -7012,14 +7012,14 @@
         "criticalChance": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 10,
         "mpResist": 10,
         "agility": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "prospecting": 20,
         "criticalChance": 10,
         "mpResist": 10,
@@ -7064,7 +7064,7 @@
         "prospecting": 30,
         "heal": 50,
         "criticalChance": 12,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7098,7 +7098,7 @@
       {
         "airResistPer": 7,
         "fireResistPer": 7,
-        "AP": 1,
+        "ap": 1,
         "criticalResist": 30,
         "criticalChance": 10,
         "agility": 60,
@@ -7142,7 +7142,7 @@
         "wisdom": 40,
         "power": 40,
         "range": 2,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7205,7 +7205,7 @@
         "health": 800,
         "damage": 20,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "prospecting": 40,
         "airResistPer": 10,
@@ -7235,14 +7235,14 @@
         "intelligence": 30,
         "chance": 30,
         "heal": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 30,
         "chance": 30,
         "heal": 10,
         "criticalChance": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7283,7 +7283,7 @@
         "intelligence": 30,
         "range": 1,
         "dodge": 10,
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 10
       }
     ]
@@ -7309,7 +7309,7 @@
         "waterDamage": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "initiative": 500,
         "lock": 20,
         "apReduction": 10,
@@ -7339,14 +7339,14 @@
         "dodge": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpResist": 10,
         "dodge": 10,
         "agility": 30,
         "strength": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpResist": 15,
         "dodge": 15,
         "agility": 30,
@@ -7385,7 +7385,7 @@
         "chance": 30,
         "heal": 40,
         "criticalChance": -20,
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 10,
         "airResistPer": 8
       }
@@ -7407,7 +7407,7 @@
         "criticalChance": 8
       },
       {
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 10,
         "criticalChance": 8,
         "agility": 30,
@@ -7439,7 +7439,7 @@
         "agility": 30,
         "criticalResist": 50,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 7,
         "earthResistPer": 7,
         "waterResist": 15,
@@ -7467,7 +7467,7 @@
         "criticalResist": 60,
         "pushbackResist": 40,
         "lock": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7480,7 +7480,7 @@
     "stats": [
       {},
       {
-        "MP": 1,
+        "mp": 1,
         "dodge": 5,
         "range": -1,
         "strength": 20,
@@ -7585,7 +7585,7 @@
         "health": 300,
         "strength": 60,
         "lock": 15,
-        "AP": 1,
+        "ap": 1,
         "pushbackResist": 30,
         "criticalResist": 25,
         "range": 1
@@ -7614,7 +7614,7 @@
       {
         "heal": 30,
         "agility": 55,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 10,
         "criticalChance": 8,
         "intelligence": 60,
@@ -7653,7 +7653,7 @@
         "chance": 40,
         "initiative": 500,
         "apResist": 15,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -7686,7 +7686,7 @@
         "agility": 30,
         "prospecting": 30,
         "criticalChance": 12,
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "neutralDamage": 10,
         "earthDamage": 10,
@@ -7700,7 +7700,7 @@
         "agility": 60,
         "prospecting": 30,
         "criticalChance": 12,
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "neutralDamage": 10,
         "earthDamage": 10,
@@ -7726,7 +7726,7 @@
       },
       {
         "criticalChance": 5,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 20,
         "power": 50,
         "apResist": 10,
@@ -7756,7 +7756,7 @@
         "fireResist": 20,
         "chance": 60,
         "criticalResist": 15,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7772,7 +7772,7 @@
       {
         "agility": 60,
         "lock": 15,
-        "MP": 1,
+        "mp": 1,
         "criticalChance": 8,
         "range": -1
       },
@@ -7782,8 +7782,8 @@
         "fireResistPer": 8,
         "agility": 60,
         "lock": 15,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "criticalChance": 8,
         "range": -1
       }
@@ -7816,7 +7816,7 @@
         "prospecting": 20,
         "neutralResist": 30,
         "fireResist": 30,
-        "AP": 1,
+        "ap": 1,
         "agility": 50,
         "chance": 50,
         "strength": 50,
@@ -7848,7 +7848,7 @@
       },
       {
         "earthResistPer": 7,
-        "AP": 1,
+        "ap": 1,
         "apResist": 10,
         "range": 2,
         "agility": 40,
@@ -7889,7 +7889,7 @@
         "strength": 20,
         "agility": 40,
         "range": 2,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -7909,7 +7909,7 @@
         "earthResistPer": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 30,
         "criticalResist": 25,
         "chance": 40,
@@ -7937,7 +7937,7 @@
         "waterResistPer": 7
       },
       {
-        "AP": 1,
+        "ap": 1,
         "waterDamage": 10,
         "fireDamage": 10,
         "chance": 60,
@@ -7966,7 +7966,7 @@
       },
       {
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "initiative": 500,
         "intelligence": 40,
         "waterResistPer": 10
@@ -8016,8 +8016,8 @@
         "apResist": 10,
         "mpResist": 10,
         "prospecting": 40,
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "neutralResistPer": 5,
         "earthResistPer": 5,
         "fireResistPer": 5,
@@ -8047,7 +8047,7 @@
         "strength": 40,
         "criticalChance": 8,
         "lock": 10,
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 7
       }
     ]
@@ -8074,7 +8074,7 @@
         "airResistPer": 6
       },
       {
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5,
         "airDamage": 20,
         "waterDamage": 20,
@@ -8127,7 +8127,7 @@
         "strength": 60,
         "intelligence": 60,
         "lock": 10,
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 6,
         "criticalResist": 10
       }
@@ -8156,7 +8156,7 @@
         "chance": 20,
         "mpReduction": 5,
         "heal": 40,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 6,
         "airResistPer": 7,
         "waterResistPer": 7
@@ -8189,7 +8189,7 @@
         "earthDamage": 5,
         "waterDamage": 5,
         "airDamage": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8215,7 +8215,7 @@
         "heal": 20,
         "intelligence": 30,
         "strength": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8239,7 +8239,7 @@
         "heal": 10,
         "apResist": 5,
         "mpReduction": 5,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -8261,7 +8261,7 @@
         "chance": 30,
         "agility": 30,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8280,7 +8280,7 @@
       },
       {
         "strength": 40,
-        "AP": 1,
+        "ap": 1,
         "apResist": 10
       }
     ]
@@ -8303,7 +8303,7 @@
         "criticalChance": 3,
         "criticalDamage": 10,
         "power": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8325,7 +8325,7 @@
         "pushbackResist": 10,
         "chance": 40,
         "lock": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8349,13 +8349,13 @@
         "agility": 30,
         "apResist": 10,
         "summon": 1,
-        "AP": 1
+        "ap": 1
       },
       {
         "chance": 50,
         "agility": 50,
         "apResist": 10,
-        "AP": 1,
+        "ap": 1,
         "summon": 1
       }
     ]
@@ -8384,7 +8384,7 @@
         "range": 1,
         "mpReduction": 7,
         "dodge": -5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8426,7 +8426,7 @@
         "airDamage": 15,
         "criticalResist": 20,
         "pushbackResist": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8455,7 +8455,7 @@
         "fireDamage": 10,
         "pushbackResist": 60,
         "lock": 15,
-        "AP": 1,
+        "ap": 1,
         "chance": 60,
         "intelligence": 60,
         "agility": 60,
@@ -8481,7 +8481,7 @@
         "chance": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5,
         "apResist": 10,
         "dodge": 10,
@@ -8513,7 +8513,7 @@
         "mpResist": 10,
         "chance": 30,
         "intelligence": 30,
-        "AP": 1,
+        "ap": 1,
         "lock": 10,
         "criticalChance": 5
       }
@@ -8534,7 +8534,7 @@
         "apResist": 7
       },
       {
-        "AP": 1,
+        "ap": 1,
         "apResist": 7,
         "criticalResist": 50,
         "power": 30
@@ -8558,7 +8558,7 @@
       {
         "heal": 30,
         "neutralResistPer": 7,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -8604,7 +8604,7 @@
         "chance": 40,
         "apReduction": 5,
         "apResist": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8626,7 +8626,7 @@
         "agility": 40,
         "mpReduction": 5,
         "pushbackDamage": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8649,7 +8649,7 @@
       },
       {
         "pushbackDamage": 30,
-        "AP": 1,
+        "ap": 1,
         "apReduction": 15,
         "chance": 40,
         "agility": 40,
@@ -8680,7 +8680,7 @@
         "fireResistPer": 10,
         "range": 1,
         "mpReduction": 15,
-        "AP": 1,
+        "ap": 1,
         "heal": 30,
         "dodge": 10,
         "intelligence": 60,
@@ -8713,7 +8713,7 @@
         "neutralDamage": 15,
         "earthDamage": 15,
         "waterDamage": 15,
-        "AP": 2,
+        "ap": 2,
         "apResist": 10
       }
     ]
@@ -8746,7 +8746,7 @@
         "fireDamage": 10,
         "earthDamage": 10,
         "neutralDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "dodge": 15,
         "chance": 30,
@@ -8786,7 +8786,7 @@
         "strength": 40,
         "agility": 40,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8806,7 +8806,7 @@
       {
         "initiative": 500,
         "power": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8825,7 +8825,7 @@
         "lock": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "chance": 30,
         "intelligence": 30,
         "lock": 10
@@ -8849,7 +8849,7 @@
       {
         "strength": 30,
         "chance": 30,
-        "AP": 1,
+        "ap": 1,
         "dodge": 10
       }
     ]
@@ -8871,7 +8871,7 @@
       {
         "intelligence": 30,
         "agility": 30,
-        "AP": 1,
+        "ap": 1,
         "lock": 7
       }
     ]
@@ -8892,7 +8892,7 @@
       {
         "intelligence": 40,
         "mpReduction": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8914,7 +8914,7 @@
         "agility": 40,
         "apResist": 5,
         "initiative": 200,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -8938,7 +8938,7 @@
         "initiative": 500,
         "strength": 60,
         "apReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 10,
         "lock": 10
       }
@@ -8963,7 +8963,7 @@
         "strength": 40,
         "intelligence": 40,
         "criticalDamage": 40,
-        "AP": 1,
+        "ap": 1,
         "dodge": 15
       }
     ]
@@ -8997,7 +8997,7 @@
         "earthDamage": 25,
         "neutralDamage": 25,
         "waterDamage": 25,
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 10
       }
     ]
@@ -9028,7 +9028,7 @@
         "chance": 60,
         "criticalChance": 12,
         "pushbackDamage": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9052,7 +9052,7 @@
       },
       {
         "criticalChance": 10,
-        "AP": 1,
+        "ap": 1,
         "agility": 60,
         "intelligence": 60,
         "strength": 60,
@@ -9080,7 +9080,7 @@
         "apReduction": 7
       },
       {
-        "AP": 1,
+        "ap": 1,
         "neutralDamage": 5,
         "earthDamage": 5,
         "airDamage": 5,
@@ -9108,7 +9108,7 @@
         "intelligence": 40,
         "pushbackResist": 20,
         "mpResist": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9137,7 +9137,7 @@
         "chance": 20,
         "intelligence": 20,
         "strength": 20,
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 10
       }
     ]
@@ -9168,7 +9168,7 @@
         "fireResistPer": 5,
         "airResistPer": 5,
         "earthResistPer": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9215,7 +9215,7 @@
         "agility": 60,
         "pushbackDamage": 30,
         "mpReduction": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9240,7 +9240,7 @@
         "strength": 40,
         "agility": 40,
         "mpResist": 15,
-        "AP": 1,
+        "ap": 1,
         "earthResistPer": 10
       }
     ]
@@ -9262,7 +9262,7 @@
         "range": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "apReduction": 10,
         "agility": 40,
         "intelligence": 40,
@@ -9281,8 +9281,8 @@
     "stats": [
       {},
       {
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "summon": 1,
         "range": 1,
         "heal": 35,
@@ -9300,8 +9300,8 @@
         "apResist": 50,
         "lock": 30,
         "dodge": 40,
-        "MP": 1,
-        "AP": 2,
+        "mp": 1,
+        "ap": 2,
         "power": 120
       }
     ]
@@ -9330,7 +9330,7 @@
         "chance": 40,
         "pushbackDamage": 25,
         "heal": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9359,7 +9359,7 @@
         "airResistPer": 5,
         "earthResistPer": 5,
         "neutralResistPer": 5,
-        "AP": 1,
+        "ap": 1,
         "agility": 20,
         "strength": 20,
         "lock": 5
@@ -9385,7 +9385,7 @@
         "chance": 30,
         "intelligence": 30,
         "strength": 30,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5
       }
     ]
@@ -9413,7 +9413,7 @@
         "fireDamage": 5,
         "earthDamage": 5,
         "mpResist": 5,
-        "AP": 1,
+        "ap": 1,
         "strength": 30,
         "intelligence": 30,
         "lock": 5,
@@ -9439,7 +9439,7 @@
         "heal": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 5,
         "intelligence": 30,
         "chance": 30,
@@ -9506,7 +9506,7 @@
         "fireDamage": 6,
         "waterDamage": 6,
         "neutralDamage": 6,
-        "AP": 1,
+        "ap": 1,
         "chance": 5,
         "strength": 15,
         "agility": 15
@@ -9561,7 +9561,7 @@
         "fireDamage": 20,
         "earthDamage": 20,
         "neutralDamage": 20,
-        "MP": 1,
+        "mp": 1,
         "pushbackResist": 20
       }
     ]
@@ -9585,7 +9585,7 @@
         "mpResist": 10,
         "lock": 10,
         "chance": 60,
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 10
       }
     ]
@@ -9656,7 +9656,7 @@
         "waterResistPer": 10,
         "earthResistPer": 10,
         "neutralResistPer": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9678,7 +9678,7 @@
         "waterDamage": 5,
         "chance": 20,
         "mpReduction": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9700,7 +9700,7 @@
         "apResist": 10,
         "agility": 20,
         "strength": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9776,14 +9776,14 @@
         "mpResist": 4
       },
       {
-        "MP": 1,
+        "mp": 1,
         "chance": 20,
         "apReduction": 4,
         "mpResist": 4,
         "agility": 20
       },
       {
-        "MP": 1,
+        "mp": 1,
         "chance": 20,
         "apReduction": 4,
         "mpResist": 4,
@@ -9809,7 +9809,7 @@
       {
         "criticalChance": 5,
         "intelligence": 30,
-        "AP": 1,
+        "ap": 1,
         "fireDamage": 5
       }
     ]
@@ -9830,7 +9830,7 @@
         "mpResist": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "strength": 30,
         "chance": 30,
         "lock": 5,
@@ -9869,7 +9869,7 @@
         "criticalResist": 10,
         "agility": 30,
         "intelligence": 30,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 15
       }
     ]
@@ -9896,7 +9896,7 @@
         "pushbackDamage": 20,
         "dodge": 5,
         "apResist": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -9926,7 +9926,7 @@
         "agility": 40,
         "chance": 40,
         "criticalChance": 10,
-        "AP": 1,
+        "ap": 1,
         "health": 150,
         "dodge": 15,
         "airResistPer": 10
@@ -9953,7 +9953,7 @@
       {
         "mpReduction": 20,
         "lock": 30,
-        "AP": 1,
+        "ap": 1,
         "criticalResist": 30,
         "health": 200,
         "power": 100,
@@ -9979,7 +9979,7 @@
         "agility": 30,
         "intelligence": 30,
         "criticalChance": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10049,7 +10049,7 @@
         "waterResistPer": 10,
         "earthResistPer": 10,
         "neutralResistPer": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10075,7 +10075,7 @@
         "criticalResist": 30,
         "strength": 40,
         "intelligence": 40,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 10,
         "earthResistPer": 10
       }
@@ -10100,7 +10100,7 @@
       },
       {
         "mpReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 15,
         "dodge": 10,
         "chance": 40,
@@ -10136,7 +10136,7 @@
         "chance": 50,
         "criticalResist": 20,
         "range": 1,
-        "AP": 1,
+        "ap": 1,
         "waterResistPer": 10,
         "neutralDamage": 10,
         "earthDamage": 10,
@@ -10162,7 +10162,7 @@
       },
       {
         "mpResist": 10,
-        "AP": 1,
+        "ap": 1,
         "agility": 60,
         "airDamage": 10
       }
@@ -10192,7 +10192,7 @@
         "airResistPer": 7,
         "waterResistPer": 7,
         "fireResistPer": 7,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 15,
         "apReduction": 10,
         "chance": 30,
@@ -10220,7 +10220,7 @@
         "intelligence": 30,
         "agility": 30,
         "pushbackDamage": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10244,7 +10244,7 @@
         "chance": 30,
         "mpReduction": 5,
         "criticalChance": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10268,7 +10268,7 @@
         "intelligence": 30,
         "apReduction": 5,
         "dodge": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10288,7 +10288,7 @@
         "apResist": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "lock": 5,
         "apResist": 5,
         "agility": 30,
@@ -10317,7 +10317,7 @@
         "strength": 40,
         "agility": 40,
         "apReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "lock": 15,
         "range": 1,
         "waterResistPer": 10
@@ -10345,7 +10345,7 @@
         "pushbackDamage": 15,
         "criticalDamage": 10,
         "power": 100,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5,
         "lock": 10,
         "apResist": 10
@@ -10373,7 +10373,7 @@
       {
         "criticalChance": 7,
         "heal": 30,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 15,
         "waterDamage": 15,
         "fireDamage": 15,
@@ -10404,7 +10404,7 @@
       {
         "range": 1,
         "neutralDamage": 25,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 12,
         "dodge": 15,
         "airDamage": 25,
@@ -10438,7 +10438,7 @@
         "chance": 40,
         "lock": 10,
         "pushbackDamage": 30,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 10,
         "range": 1,
         "waterResistPer": 10,
@@ -10464,7 +10464,7 @@
         "summon": 2
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 35,
         "criticalResist": 25,
         "agility": 40,
@@ -10494,7 +10494,7 @@
         "chance": 30,
         "mpReduction": 5,
         "range": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10516,7 +10516,7 @@
         "agility": 30,
         "range": 1,
         "apReduction": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10540,7 +10540,7 @@
         "agility": 20,
         "criticalChance": 5,
         "criticalDamage": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10568,7 +10568,7 @@
         "agility": 25,
         "chance": 25,
         "lock": 5,
-        "AP": 1,
+        "ap": 1,
         "apResist": 5,
         "fireDamage": 10,
         "waterDamage": 10,
@@ -10594,7 +10594,7 @@
         "pushbackResist": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 20,
         "criticalChance": 5,
         "mpReduction": 5,
@@ -10624,7 +10624,7 @@
         "apResist": 5,
         "dodge": 5,
         "criticalResist": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -10649,7 +10649,7 @@
         "airDamage": 15,
         "waterDamage": 15,
         "criticalDamage": 15,
-        "AP": 1,
+        "ap": 1,
         "criticalChance": 5
       }
     ]
@@ -10681,7 +10681,7 @@
         "earthDamage": 10,
         "neutralDamage": 10,
         "earthResistPer": 10,
-        "AP": 1,
+        "ap": 1,
         "heal": 30,
         "pushbackDamage": 25,
         "criticalResist": 30,
@@ -10694,7 +10694,7 @@
         "earthDamage": 10,
         "neutralDamage": 10,
         "earthResistPer": 10,
-        "AP": 1,
+        "ap": 1,
         "heal": 30,
         "pushbackDamage": 25,
         "criticalResist": 30,
@@ -10763,7 +10763,7 @@
         "airResistPer": 10,
         "prospecting": 40,
         "health": 800,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "heal": 20,
         "damage": 20,
@@ -10796,7 +10796,7 @@
         "pushbackResist": 50
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 30,
         "apReduction": 10,
         "lock": 10,
@@ -10827,7 +10827,7 @@
         "criticalResist": 50
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airDamage": 10,
         "waterDamage": 10,
         "mpReduction": 10,
@@ -10856,7 +10856,7 @@
         "criticalChance": 8
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpResist": 15,
         "fireResistPer": 5,
         "airResistPer": 5,
@@ -10891,7 +10891,7 @@
       {
         "health": 150,
         "criticalResist": 10,
-        "AP": 1,
+        "ap": 1,
         "apResist": 25,
         "strength": 60,
         "intelligence": 60,
@@ -10923,7 +10923,7 @@
         "heal": 15,
         "agility": 30,
         "intelligence": 30,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -10943,7 +10943,7 @@
         "criticalDamage": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "intelligence": 20,
         "chance": 20,
         "dodge": 10,
@@ -10971,7 +10971,7 @@
         "heal": 20,
         "mpReduction": 5,
         "intelligence": 30,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -10995,7 +10995,7 @@
         "lock": 10,
         "agility": 30,
         "strength": 30,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -11030,7 +11030,7 @@
         "neutralResistPer": 5,
         "pushbackDamage": 30,
         "criticalChance": 10,
-        "AP": 1,
+        "ap": 1,
         "apReduction": 15,
         "health": 150,
         "power": 30
@@ -11055,7 +11055,7 @@
       {
         "criticalDamage": 20,
         "mpReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "power": 30,
         "fireResistPer": 7
       }
@@ -11080,7 +11080,7 @@
       {
         "health": 150,
         "heal": 80,
-        "AP": 1,
+        "ap": 1,
         "criticalResist": 35,
         "dodge": 25,
         "power": 30
@@ -11112,7 +11112,7 @@
         "criticalDamage": 30,
         "health": 150,
         "initiative": 1000,
-        "AP": 1,
+        "ap": 1,
         "heal": 80,
         "mpResist": 20,
         "lock": 10,
@@ -11143,7 +11143,7 @@
         "range": 1,
         "dodge": 10,
         "apResist": 20,
-        "AP": 1,
+        "ap": 1,
         "power": 30,
         "initiative": 500
       }
@@ -11175,7 +11175,7 @@
         "fireResistPer": 7,
         "health": 150,
         "initiative": 1000,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 10,
         "dodge": 15,
         "range": 2,
@@ -11204,7 +11204,7 @@
         "waterDamage": 10,
         "heal": 80,
         "criticalChance": -10,
-        "AP": 1,
+        "ap": 1,
         "mpResist": 10
       }
     ]
@@ -11228,7 +11228,7 @@
         "health": 150
       },
       {
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "summon": 1,
         "criticalResist": 20,
@@ -11261,7 +11261,7 @@
         "lock": 20,
         "apReduction": 10,
         "heal": 30,
-        "AP": 1,
+        "ap": 1,
         "fireResistPer": 10,
         "waterResistPer": 10
       }
@@ -11291,7 +11291,7 @@
         "pushbackResist": 50,
         "earthResistPer": 5,
         "fireResistPer": 5,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 15,
         "lock": 20,
         "heal": 30,
@@ -11302,7 +11302,7 @@
         "pushbackResist": 50,
         "earthResistPer": 5,
         "fireResistPer": 5,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 15,
         "lock": 20,
         "heal": 30,
@@ -11332,7 +11332,7 @@
       {
         "fireResistPer": 10,
         "apResist": 20,
-        "AP": 1,
+        "ap": 1,
         "pushbackResist": 25,
         "airDamage": 15,
         "criticalChance": 5
@@ -11340,7 +11340,7 @@
       {
         "fireResistPer": 10,
         "apResist": 20,
-        "AP": 1,
+        "ap": 1,
         "pushbackResist": 25,
         "airDamage": 15,
         "criticalChance": 5,
@@ -11370,7 +11370,7 @@
       {
         "summon": 1,
         "apReduction": 10,
-        "AP": 1,
+        "ap": 1,
         "range": 1,
         "strength": 40,
         "chance": 40,
@@ -11400,7 +11400,7 @@
       {
         "fireResistPer": 10,
         "health": 150,
-        "AP": 1,
+        "ap": 1,
         "strength": 40,
         "chance": 40,
         "lock": 25,
@@ -11427,7 +11427,7 @@
       {
         "apResist": 10,
         "dodge": 10,
-        "AP": 1,
+        "ap": 1,
         "initiative": 1500,
         "intelligence": 40,
         "agility": 40
@@ -11466,7 +11466,7 @@
         "agility": 150,
         "intelligence": 150,
         "strength": 150,
-        "AP": 1
+        "ap": 1
       },
       {
         "waterDamage": 20,
@@ -11478,7 +11478,7 @@
         "agility": 200,
         "intelligence": 200,
         "strength": 200,
-        "AP": 1,
+        "ap": 1,
         "neutralResistPer": 5,
         "earthResistPer": 5,
         "fireResistPer": 5,
@@ -11495,13 +11495,13 @@
         "agility": 200,
         "intelligence": 200,
         "strength": 200,
-        "AP": 1,
+        "ap": 1,
         "neutralResistPer": 5,
         "earthResistPer": 5,
         "fireResistPer": 5,
         "waterResistPer": 5,
         "airResistPer": 5,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -11535,7 +11535,7 @@
         "health": 50
       },
       {
-        "MP": 1,
+        "mp": 1,
         "range": 1,
         "damage": 5,
         "health": 60
@@ -11563,7 +11563,7 @@
         "fireDamage": 15,
         "waterDamage": 15,
         "lock": 10,
-        "AP": 1
+        "ap": 1
       },
       {
         "summon": 1,
@@ -11571,7 +11571,7 @@
         "fireDamage": 15,
         "waterDamage": 15,
         "lock": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -11598,7 +11598,7 @@
         "intelligence": 40,
         "chance": 40,
         "agility": 40,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 15,
         "lock": 15,
         "health": 300
@@ -11646,7 +11646,7 @@
         "strength": 30,
         "chance": 30,
         "pushbackDamage": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -11668,7 +11668,7 @@
         "dodge": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "power": 100,
         "initiative": 1000,
         "range": 1,
@@ -11697,7 +11697,7 @@
         "agility": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "agility": 40,
         "strength": 40,
         "criticalChance": 10
@@ -11723,13 +11723,13 @@
         "power": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 20,
         "health": 150,
         "power": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 30,
         "health": 200,
         "power": 60
@@ -11760,7 +11760,7 @@
         "mpResist": 40,
         "apResist": 40,
         "criticalDamage": 20,
-        "AP": 1,
+        "ap": 1,
         "power": 30,
         "criticalChance": 5
       }
@@ -11786,14 +11786,14 @@
         "intelligence": 60,
         "mpReduction": 10,
         "criticalDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "lock": 20
       },
       {
         "intelligence": 60,
         "mpReduction": 10,
         "criticalDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "lock": 20,
         "criticalChance": 10
       }
@@ -11818,7 +11818,7 @@
       {
         "mpResist": 10,
         "chance": 60,
-        "AP": 1,
+        "ap": 1,
         "pushbackResist": 50,
         "initiative": 500,
         "lock": 10
@@ -11840,7 +11840,7 @@
         "criticalChance": 7
       },
       {
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 15,
         "criticalChance": 7,
         "strength": 60
@@ -11869,7 +11869,7 @@
       {
         "mpResist": 5,
         "criticalChance": 5,
-        "AP": 1,
+        "ap": 1,
         "neutralDamage": 10,
         "earthDamage": 10,
         "fireDamage": 10,
@@ -11879,7 +11879,7 @@
       {
         "mpResist": 5,
         "criticalChance": 5,
-        "AP": 1,
+        "ap": 1,
         "neutralDamage": 10,
         "earthDamage": 10,
         "fireDamage": 10,
@@ -11907,7 +11907,7 @@
         "chance": 40,
         "lock": 5,
         "apResist": 5,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -11928,7 +11928,7 @@
       {
         "heal": 20,
         "criticalDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "agility": 30
       }
     ]
@@ -11952,7 +11952,7 @@
       {
         "criticalChance": 5,
         "pushbackResist": 20,
-        "AP": 1,
+        "ap": 1,
         "strength": 50,
         "dodge": 5,
         "mpReduction": 5
@@ -11976,7 +11976,7 @@
       {
         "heal": 30,
         "intelligence": 40,
-        "AP": 1,
+        "ap": 1,
         "dodge": 10
       }
     ]
@@ -12003,7 +12003,7 @@
       {
         "pushbackResist": 10,
         "intelligence": 30,
-        "AP": 1,
+        "ap": 1,
         "fireResist": 10,
         "airResist": 10,
         "waterResist": 10,
@@ -12013,7 +12013,7 @@
       {
         "pushbackResist": 20,
         "intelligence": 30,
-        "AP": 1,
+        "ap": 1,
         "fireResist": 20,
         "airResist": 20,
         "waterResist": 20,
@@ -12042,7 +12042,7 @@
       },
       {
         "lock": 10,
-        "AP": 1,
+        "ap": 1,
         "apReduction": 10,
         "intelligence": 20,
         "chance": 20,
@@ -12050,7 +12050,7 @@
       },
       {
         "lock": 10,
-        "AP": 1,
+        "ap": 1,
         "apReduction": 10,
         "intelligence": 20,
         "chance": 20,
@@ -12076,7 +12076,7 @@
         "apReduction": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpReduction": -10,
         "apReduction": 10,
         "chance": 40,
@@ -12084,7 +12084,7 @@
         "pushbackDamage": 60
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpReduction": -10,
         "apReduction": 10,
         "chance": 40,
@@ -12116,7 +12116,7 @@
         "apReduction": -10,
         "strength": 40,
         "agility": 40,
-        "AP": 1
+        "ap": 1
       },
       {
         "pushbackDamage": 60,
@@ -12124,7 +12124,7 @@
         "apReduction": -10,
         "strength": 40,
         "agility": 40,
-        "AP": 1,
+        "ap": 1,
         "range": 1
       }
     ]
@@ -12149,7 +12149,7 @@
         "chance": 40,
         "mpReduction": 10,
         "criticalDamage": 15,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -12170,14 +12170,14 @@
         "mpReduction": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 20,
         "mpReduction": 10,
         "agility": 40,
         "strength": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "pushbackDamage": 20,
         "mpReduction": 10,
         "agility": 40,
@@ -12206,7 +12206,7 @@
         "dodge": 10,
         "apResist": 5,
         "heal": 60,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -12226,7 +12226,7 @@
         "pushbackDamage": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpResist": 10,
         "pushbackDamage": 20,
         "chance": 40,
@@ -12290,7 +12290,7 @@
         "fireDamage": 10,
         "earthDamage": 10,
         "range": 2,
-        "AP": 1,
+        "ap": 1,
         "apResist": 4,
         "mpResist": 4,
         "dodge": 8,
@@ -12312,7 +12312,7 @@
         "fireDamage": 10,
         "earthDamage": 10,
         "range": 2,
-        "AP": 1,
+        "ap": 1,
         "apResist": 4,
         "mpResist": 4,
         "dodge": 8,
@@ -12334,7 +12334,7 @@
         "intelligence": 150,
         "strength": 150,
         "range": 2,
-        "AP": 2,
+        "ap": 2,
         "apResist": 6,
         "mpResist": 6,
         "dodge": 12,
@@ -12366,7 +12366,7 @@
         "heal": 30,
         "mpReduction": 7,
         "apReduction": 7,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -12385,7 +12385,7 @@
       },
       {
         "pushbackDamage": 15,
-        "AP": 1,
+        "ap": 1,
         "intelligence": 40
       }
     ]
@@ -12414,7 +12414,7 @@
         "power": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "neutralDamage": 5,
         "fireDamage": 5,
         "waterDamage": 5,
@@ -12422,179 +12422,6 @@
         "earthDamage": 5,
         "pushbackDamage": 10,
         "power": 20
-      }
-    ]
-  },
-  "Panoplie Ankarton": {
-    "name": "Panoplie Ankarton",
-    "items": [
-      "La Broche Céleste Ankarton",
-      "Ceinture du Meulou Ankarton",
-      "Geta Ankarton",
-      "Cape Fulgurante Ankarton",
-      "Gelano Ankarton",
-      "Coiffe du Bouftou Ankarton",
-      "Goultard Ankarton",
-      "Bouclier de Bowisse Ankarton"
-    ],
-    "stats": [
-      {},
-      {
-        "agility": 150,
-        "health": 250,
-        "AP": 1,
-        "MP": 1,
-        "range": 1,
-        "criticalChance": 5,
-        "summon": 2,
-        "wisdom": 10,
-        "strength": 150,
-        "intelligence": 150,
-        "chance": 150
-      },
-      {
-        "health": 350,
-        "AP": 2,
-        "MP": 2,
-        "range": 2,
-        "criticalChance": 10,
-        "summon": 3,
-        "wisdom": 20,
-        "intelligence": 200,
-        "strength": 200,
-        "chance": 200,
-        "agility": 200,
-        "power": 30,
-        "earthResistPer": 2,
-        "fireResistPer": 2,
-        "waterResistPer": 2,
-        "airResistPer": 2,
-        "neutralResistPer": 2,
-        "earthDamage": 5,
-        "fireDamage": 5,
-        "waterDamage": 5,
-        "airDamage": 5,
-        "neutralDamage": 5
-      },
-      {
-        "health": 450,
-        "AP": 3,
-        "MP": 2,
-        "range": 2,
-        "criticalChance": 10,
-        "summon": 3,
-        "wisdom": 40,
-        "intelligence": 250,
-        "strength": 250,
-        "chance": 250,
-        "agility": 250,
-        "power": 50,
-        "earthResistPer": 3,
-        "fireResistPer": 3,
-        "waterResistPer": 3,
-        "airResistPer": 3,
-        "neutralResistPer": 3,
-        "earthDamage": 10,
-        "fireDamage": 10,
-        "waterDamage": 10,
-        "airDamage": 10,
-        "neutralDamage": 10
-      },
-      {
-        "health": 550,
-        "AP": 3,
-        "MP": 2,
-        "range": 2,
-        "criticalChance": 15,
-        "summon": 4,
-        "wisdom": 80,
-        "intelligence": 300,
-        "strength": 300,
-        "chance": 300,
-        "agility": 300,
-        "power": 70,
-        "earthResistPer": 4,
-        "fireResistPer": 4,
-        "waterResistPer": 4,
-        "airResistPer": 4,
-        "neutralResistPer": 4,
-        "earthDamage": 15,
-        "fireDamage": 15,
-        "waterDamage": 15,
-        "airDamage": 15,
-        "neutralDamage": 15
-      },
-      {
-        "health": 750,
-        "AP": 4,
-        "MP": 3,
-        "range": 3,
-        "criticalChance": 15,
-        "summon": 4,
-        "wisdom": 120,
-        "intelligence": 350,
-        "strength": 350,
-        "chance": 350,
-        "agility": 350,
-        "power": 90,
-        "earthResistPer": 5,
-        "fireResistPer": 5,
-        "waterResistPer": 5,
-        "airResistPer": 5,
-        "neutralResistPer": 5,
-        "earthDamage": 20,
-        "fireDamage": 20,
-        "waterDamage": 20,
-        "airDamage": 20,
-        "neutralDamage": 20
-      },
-      {
-        "health": 1100,
-        "AP": 4,
-        "MP": 3,
-        "range": 3,
-        "criticalChance": 20,
-        "summon": 5,
-        "wisdom": 200,
-        "intelligence": 400,
-        "strength": 400,
-        "chance": 400,
-        "agility": 400,
-        "power": 120,
-        "earthResistPer": 7,
-        "fireResistPer": 7,
-        "waterResistPer": 7,
-        "airResistPer": 7,
-        "neutralResistPer": 7,
-        "earthDamage": 40,
-        "fireDamage": 40,
-        "waterDamage": 40,
-        "airDamage": 40,
-        "neutralDamage": 40
-      },
-      {
-        "health": 2500,
-        "AP": 4,
-        "MP": 3,
-        "range": 3,
-        "criticalChance": 20,
-        "summon": 5,
-        "wisdom": 280,
-        "intelligence": 450,
-        "strength": 450,
-        "chance": 450,
-        "agility": 450,
-        "power": 150,
-        "earthResistPer": 10,
-        "fireResistPer": 10,
-        "waterResistPer": 10,
-        "airResistPer": 10,
-        "neutralResistPer": 10,
-        "earthDamage": 60,
-        "fireDamage": 60,
-        "waterDamage": 60,
-        "airDamage": 60,
-        "neutralDamage": 60
       }
     ]
   },
@@ -12637,10 +12464,10 @@
         "pushbackResist": 20,
         "mpResist": 30,
         "lock": 10,
-        "AP": 1
+        "ap": 1
       },
       {
-        "AP": 1,
+        "ap": 1,
         "lock": 15,
         "mpResist": 50,
         "pushbackResist": 25,
@@ -12655,7 +12482,7 @@
         "dodge": -25
       },
       {
-        "AP": 1,
+        "ap": 1,
         "lock": 20,
         "mpResist": 75,
         "pushbackResist": 35,
@@ -12682,7 +12509,7 @@
         "pushbackResist": 50,
         "mpResist": 100,
         "lock": 30,
-        "AP": 2
+        "ap": 2
       }
     ]
   },
@@ -12750,7 +12577,7 @@
         "intelligence": 60,
         "pushbackDamage": 30,
         "heal": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -12816,7 +12643,7 @@
       {
         "dodge": 7,
         "criticalDamage": 10,
-        "AP": 1,
+        "ap": 1,
         "chance": 40
       }
     ]
@@ -12842,7 +12669,7 @@
         "power": 30
       },
       {
-        "MP": 1,
+        "mp": 1,
         "airDamage": 15,
         "waterDamage": 15,
         "fireDamage": 15,
@@ -12851,7 +12678,7 @@
         "earthDamage": 15
       },
       {
-        "MP": 1,
+        "mp": 1,
         "airDamage": 15,
         "waterDamage": 15,
         "fireDamage": 15,
@@ -12923,7 +12750,7 @@
         "health": 800,
         "damage": 20,
         "heal": 20,
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "prospecting": 40,
         "airResistPer": 10,
@@ -12953,7 +12780,7 @@
       },
       {
         "lock": 10,
-        "AP": 1,
+        "ap": 1,
         "earthDamage": 10,
         "waterDamage": 10,
         "strength": 30,
@@ -13317,7 +13144,7 @@
       {
         "intelligence": 20,
         "pushbackDamage": 20,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -13387,7 +13214,7 @@
         "chance": 30,
         "pushbackDamage": 20,
         "criticalChance": 6,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -13998,8 +13825,8 @@
     "stats": [
       {},
       {
-        "AP": 1,
-        "MP": 1
+        "ap": 1,
+        "mp": 1
       }
     ]
   },
@@ -14013,7 +13840,7 @@
       {},
       {
         "intelligence": 20,
-        "MP": 1,
+        "mp": 1,
         "chance": 15
       }
     ]
@@ -14028,7 +13855,7 @@
       {},
       {
         "agility": 20,
-        "MP": 1,
+        "mp": 1,
         "chance": 15
       }
     ]
@@ -14042,7 +13869,7 @@
     "stats": [
       {},
       {
-        "AP": 1,
+        "ap": 1,
         "chance": 15
       }
     ]
@@ -14136,7 +13963,7 @@
         "airDamage": 20,
         "dodge": 10,
         "mpResist": 10,
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 15
       }
     ]
@@ -14157,7 +13984,7 @@
         "heal": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "neutralResistPer": 10,
         "heal": 20,
         "pushbackDamage": 30,
@@ -14186,14 +14013,14 @@
         "pushbackDamage": 30,
         "fireResist": 66,
         "dodge": 12,
-        "AP": 1
+        "ap": 1
       },
       {
         "intelligence": 60,
         "pushbackDamage": 60,
         "fireResist": 66,
         "dodge": 12,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14290,16 +14117,16 @@
         "power": 100,
         "range": 1,
         "summon": 1,
-        "MP": -2,
-        "AP": 1
+        "mp": -2,
+        "ap": 1
       },
       {
         "health": 150,
         "power": 150,
         "range": 1,
         "summon": 1,
-        "MP": -3,
-        "AP": 1,
+        "mp": -3,
+        "ap": 1,
         "strength": 60,
         "agility": 60,
         "neutralDamage": 22,
@@ -14457,7 +14284,7 @@
         "apResist": 10
       },
       {
-        "AP": 1,
+        "ap": 1,
         "dodge": 30,
         "criticalDamage": 30,
         "airDamage": 10,
@@ -14492,7 +14319,7 @@
         "dodge": 10,
         "waterDamage": 12,
         "fireDamage": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14516,7 +14343,7 @@
         "airResistPer": 10,
         "dodge": 15,
         "criticalDamage": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14540,7 +14367,7 @@
         "earthResistPer": 10,
         "lock": 15,
         "apReduction": 10,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14564,7 +14391,7 @@
         "waterResistPer": 10,
         "lock": 15,
         "summon": 1,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14588,7 +14415,7 @@
         "fireResistPer": 10,
         "dodge": 15,
         "heal": 20,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14671,7 +14498,7 @@
         "fireDamage": 20,
         "waterDamage": 20,
         "airDamage": 20,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -14687,7 +14514,7 @@
         "strength": 60,
         "chance": 70,
         "damage": 10,
-        "MP": 1,
+        "mp": 1,
         "fireResist": 10,
         "waterResist": 10,
         "airResistPer": 10,
@@ -14706,7 +14533,7 @@
       {
         "intelligence": 30,
         "chance": 80,
-        "MP": 1,
+        "mp": 1,
         "agility": 30,
         "waterDamage": 12,
         "heal": 30,
@@ -14728,7 +14555,7 @@
         "intelligence": 50,
         "range": 1,
         "fireDamage": 12,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -14806,7 +14633,7 @@
         "prospecting": 20,
         "agility": 50,
         "chance": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14836,7 +14663,7 @@
         "criticalChance": 10,
         "wisdom": 30,
         "strength": 50,
-        "AP": 1
+        "ap": 1
       }
     ]
   },
@@ -14856,7 +14683,7 @@
         "prospecting": 15,
         "dodge": 10,
         "waterDamage": 10,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -14874,7 +14701,7 @@
         "intelligence": 50,
         "agility": 50,
         "power": 30,
-        "MP": 1,
+        "mp": 1,
         "fireDamage": 10,
         "airDamage": 10
       }
@@ -14891,7 +14718,7 @@
       {
         "strength": 60,
         "agility": 60,
-        "MP": 1,
+        "mp": 1,
         "pushbackDamage": 20,
         "wisdom": 30,
         "range": 1,
@@ -14910,7 +14737,7 @@
     "stats": [
       {},
       {
-        "MP": 1,
+        "mp": 1,
         "power": 30,
         "criticalDamage": 15,
         "criticalChance": 10
@@ -14938,7 +14765,7 @@
         "intelligence": 40
       },
       {
-        "AP": 1,
+        "ap": 1,
         "lock": 15,
         "initiative": 400,
         "waterResistPer": 10,
@@ -15030,7 +14857,7 @@
         "apResist": 10,
         "mpResist": 10,
         "criticalChance": 10,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -15046,7 +14873,7 @@
         "chance": 40,
         "criticalDamage": 10,
         "summon": 1,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -15060,7 +14887,7 @@
     "stats": [
       {},
       {
-        "MP": 1,
+        "mp": 1,
         "summon": 2,
         "waterDamage": 5,
         "airDamage": 15,
@@ -15087,7 +14914,7 @@
         "intelligence": 50,
         "chance": 40,
         "agility": 40,
-        "MP": 1,
+        "mp": 1,
         "range": 1,
         "damage": 20
       }
@@ -15135,7 +14962,7 @@
         "intelligence": 25,
         "chance": 25,
         "criticalDamage": 10,
-        "MP": 1,
+        "mp": 1,
         "range": 1
       }
     ]
@@ -15152,7 +14979,7 @@
         "damage": 15,
         "heal": 30,
         "prospecting": 20,
-        "MP": 1,
+        "mp": 1,
         "agility": 40,
         "strength": 40,
         "health": 150,
@@ -15176,7 +15003,7 @@
         "initiative": 400,
         "pushbackDamage": 30,
         "criticalChance": 7,
-        "MP": 1
+        "mp": 1
       }
     ]
   },
@@ -15204,7 +15031,7 @@
         "criticalChance": 5
       },
       {
-        "AP": 1,
+        "ap": 1,
         "airResistPer": 5,
         "waterResistPer": 5,
         "fireResistPer": 5,
@@ -15217,7 +15044,7 @@
         "prospecting": 20
       },
       {
-        "AP": 1,
+        "ap": 1,
         "summon": 1,
         "airResistPer": 5,
         "waterResistPer": 5,
@@ -15231,8 +15058,8 @@
         "prospecting": 30
       },
       {
-        "AP": 1,
-        "MP": 1,
+        "ap": 1,
+        "mp": 1,
         "summon": 1,
         "airResistPer": 5,
         "waterResistPer": 5,
@@ -15264,7 +15091,7 @@
         "prospecting": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "mpReduction": 10,
         "apReduction": 10,
         "damage": 15,
@@ -15295,7 +15122,7 @@
         "power": 30,
         "pushbackDamage": 30,
         "criticalChance": 6,
-        "AP": 1,
+        "ap": 1,
         "damage": 10
       },
       {
@@ -15304,7 +15131,7 @@
         "pushbackDamage": 30,
         "criticalChance": 10,
         "summon": 1,
-        "AP": 1,
+        "ap": 1,
         "damage": 15
       }
     ]
@@ -15329,7 +15156,7 @@
         "earthDamage": 6
       },
       {
-        "AP": 1,
+        "ap": 1,
         "heal": 10,
         "wisdom": 40,
         "intelligence": 60,
@@ -15340,7 +15167,7 @@
       },
       {
         "initiative": 1000,
-        "AP": 1,
+        "ap": 1,
         "heal": 10,
         "wisdom": 40,
         "intelligence": 100,
@@ -15376,7 +15203,7 @@
       {
         "initiative": 500,
         "power": 30,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 10,
         "criticalChance": 5,
         "intelligence": 60,
@@ -15410,7 +15237,7 @@
         "intelligence": 40,
         "pushbackDamage": 20,
         "criticalChance": 5,
-        "AP": 1,
+        "ap": 1,
         "criticalDamage": 10
       }
     ]
@@ -15434,30 +15261,30 @@
         "pushbackDamage": 15
       },
       {
-        "AP": 1,
+        "ap": 1,
         "dodge": 10,
         "pushbackDamage": 15,
         "damage": 10,
         "power": 30
       },
       {
-        "AP": 1,
+        "ap": 1,
         "dodge": 20,
         "pushbackDamage": 30,
         "damage": 20,
         "power": 60
       },
       {
-        "MP": 1,
-        "AP": 1,
+        "mp": 1,
+        "ap": 1,
         "dodge": 20,
         "pushbackDamage": 30,
         "damage": 20,
         "power": 60
       },
       {
-        "MP": 1,
-        "AP": 2,
+        "mp": 1,
+        "ap": 2,
         "dodge": 20,
         "pushbackDamage": 30,
         "damage": 20,
@@ -15471,7 +15298,7 @@
       "Collier de Gargandyas",
       "Griffe de Gargandyas",
       "Fureur de Gargandyas",
-      "Écaille de Gargandyas"
+      "Bélier de Gargandyas"
     ],
     "stats": [
       {},

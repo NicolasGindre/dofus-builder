@@ -93,8 +93,8 @@ export type Stats = Record<StatKey, number>;
 export type StatKey = (typeof STAT_KEYS)[number];
 
 export const STAT_KEYS = [
-    "AP",
-    "MP",
+    "ap",
+    "mp",
     "range",
     "summon",
 

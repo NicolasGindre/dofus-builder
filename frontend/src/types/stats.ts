@@ -1,31 +1,51 @@
 export type Stats = Record<StatKey, number>;
 
 export type StatKey = (typeof STAT_KEYS)[number];
+export type StatUtilityKey = (typeof STAT_UTILITY_KEYS)[number];
+export type StatOffenseKey = (typeof STAT_OFFENSE_KEYS)[number];
+export type StatDefenseKey = (typeof STAT_DEFENSE_KEYS)[number];
 
-export const STAT_KEYS = [
-    "AP",
-    "MP",
+export const STAT_UTILITY_KEYS = [
+    "ap",
+    "mp",
     "range",
     "summon",
+    "wisdom",
+    "prospecting",
 
-    "health",
+    "mpReduction",
+    "apReduction",
 
+    "mpResist",
+    "apResist",
+
+    "heal",
+    "initiative",
+    "pods",
+    "lock",
+    "dodge",
+] as const;
+
+export const STAT_OFFENSE_KEYS = [
     "strength",
     "agility",
     "chance",
     "intelligence",
 
     "power",
-    "wisdom",
-    "prospecting",
 
-    "lock",
-    "dodge",
+    "neutralDamage",
+    "earthDamage",
+    "airDamage",
+    "waterDamage",
+    "fireDamage",
+    "damage",
 
     "criticalChance",
-
     "criticalDamage",
+
     "pushbackDamage",
+
     "trapDamage",
     "trapPower",
 
@@ -34,22 +54,10 @@ export const STAT_KEYS = [
     "meleeDamagePer",
     "weaponDamagePer",
     "finalDamagePer",
+] as const;
 
-    "damage",
-    "neutralDamage",
-    "earthDamage",
-    "airDamage",
-    "waterDamage",
-    "fireDamage",
-
-    "criticalResist",
-    "pushbackResist",
-
-    "neutralResist",
-    "earthResist",
-    "airResist",
-    "waterResist",
-    "fireResist",
+export const STAT_DEFENSE_KEYS = [
+    "health",
 
     "neutralResistPer",
     "earthResistPer",
@@ -60,18 +68,19 @@ export const STAT_KEYS = [
     "rangedResistPer",
     "meleeResistPer",
 
-    "mpReduction",
-    "apReduction",
+    "criticalResist",
+    "pushbackResist",
 
-    "mpResist",
-    "apResist",
+    "neutralResist",
+    "earthResist",
+    "airResist",
+    "waterResist",
+    "fireResist",
 
-    "heal",
     "reflect",
-
-    "initiative",
-    "pods",
 ] as const;
+
+export const STAT_KEYS = [...STAT_DEFENSE_KEYS, ...STAT_OFFENSE_KEYS, ...STAT_UTILITY_KEYS];
 
 const bonusStatsMap: Partial<Record<StatKey, TargetBonusStat[]>> = {
     strength: [
@@ -103,15 +112,32 @@ type TargetBonusStat = {
 
 export function getBonusStats(stats: Partial<Stats>): Partial<Stats> {
     let bonusStats: Partial<Stats> = {};
-    for (const [statName, value] of Object.entries(stats)) {
+    for (const [statName, targetStats] of Object.entries(bonusStatsMap)) {
         const statKey = statName as StatKey;
-        bonusStats[statKey] = value + (bonusStats[statKey] ?? 0);
-        if (bonusStatsMap[statKey]) {
-            for (const targetBonusStat of bonusStatsMap[statKey]) {
-                const bonus = value * targetBonusStat.multiplicator;
-                bonusStats[targetBonusStat.target] = bonus + (stats[targetBonusStat.target] ?? 0);
+        // bonusStats[statKey] = value; // + (bonusStats[statKey] ?? 0);
+        if (stats[statKey]) {
+            for (const targetStat of targetStats) {
+                bonusStats[targetStat.target] = stats[statKey] * targetStat.multiplicator;
             }
         }
     }
-    return bonusStats;
+    return concatStats(stats, bonusStats);
+}
+
+export function concatStats(a: Partial<Stats>, b: Partial<Stats>): Partial<Stats> {
+    const result: Partial<Stats> = {};
+
+    for (const key of Object.keys(a) as (keyof Stats)[]) {
+        if (a[key] !== undefined) {
+            result[key] = (result[key] ?? 0) + (a[key] ?? 0);
+        }
+    }
+
+    for (const key of Object.keys(b) as (keyof Stats)[]) {
+        if (b[key] !== undefined) {
+            result[key] = (result[key] ?? 0) + (b[key] ?? 0);
+        }
+    }
+
+    return result;
 }

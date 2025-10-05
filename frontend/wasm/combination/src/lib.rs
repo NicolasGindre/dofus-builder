@@ -3,6 +3,8 @@ use web_sys::console;
 use serde::{Deserialize, Serialize};
 use crate::stats::{Stats, MaxStats, MinStats};
 pub mod stats;
+use std::cmp::Reverse;
+use std::collections::BinaryHeap;
 
 #[wasm_bindgen(start)]
 pub fn main() {
@@ -20,6 +22,8 @@ pub struct MinItem {
     // pub category: String,
     #[serde(default)]
     pub panoplies: Vec<String>, // if empty, we assume vec![name]
+    #[serde(default)]
+    pub requirement: Option<Requirement>,
 }
 
 #[derive(Clone, Debug)]
@@ -28,6 +32,78 @@ struct ItemPrepared {
     stats: Stats,
     // sparse contributions: (pid, how many set pieces this item brings for that panoply)
     pan_sparse: Vec<(usize, u8)>,
+    requirement: Option<Requirement>,
+}
+#[derive(Serialize, Deserialize, Clone, Debug)]
+#[serde(tag = "type", rename_all = "camelCase")]
+pub enum Requirement {
+    PanopliesBonusLessThan { value: usize },
+    ApLessThan { value: f64 },
+    MpLessThan { value: f64 },
+    ApLessThanOrMpLessThan {
+        #[serde(rename = "apValue")]
+        ap_value: f64,
+        #[serde(rename = "mpValue")]
+        mp_value: f64,
+    },
+    // If you also have this variant, same deal:
+    ApLessThanAndMpLessThan {
+        #[serde(rename = "apValue")]
+        ap_value: f64,
+        #[serde(rename = "mpValue")]
+        mp_value: f64,
+    },
+}
+
+impl Requirement {
+    pub fn is_satisfied(&self, stats: &mut Stats, weights: &Stats, min_stats: &MinStats, max_stats: &MaxStats, panoply_bonus: usize) -> bool {
+        match self {
+            Requirement::PanopliesBonusLessThan { value } => panoply_bonus < *value,
+            Requirement::ApLessThan { value } => {
+                if stats.ap >= *value {
+                    stats.ap = *value - 1.0;
+                }
+                return true;
+            }
+            Requirement::MpLessThan { value } => {
+                if stats.mp >= *value {
+                    stats.mp = *value - 1.0;
+                }
+                return true;
+            }
+            Requirement::ApLessThanAndMpLessThan { ap_value, mp_value } => {
+                if stats.ap >= *ap_value {
+                    stats.ap = *ap_value - 1.0;
+                }
+                if stats.mp >= *mp_value {
+                    stats.mp = *mp_value - 1.0;
+                }
+                return true;
+            }
+            Requirement::ApLessThanOrMpLessThan { ap_value, mp_value } => {
+
+                // if either one of the stat is already capped no need to do anything
+                if     stats.ap < *ap_value || stats.mp < *mp_value ||
+                   max_stats.ap < *ap_value || max_stats.mp < *mp_value  {
+                    return true;
+                }
+                // try to choose the stat to cap from min_stats
+                if min_stats.ap >= *ap_value && min_stats.mp >= *mp_value {
+                    return false;
+                } else if min_stats.ap >= *ap_value {
+                    stats.mp = *mp_value - 1.0;
+                } else if min_stats.mp >= *mp_value {
+                    stats.ap = *ap_value - 1.0;
+                // try to choose the stat to cap from weights
+                } else if weights.ap > weights.mp {
+                    stats.mp = *mp_value - 1.0;
+                } else {
+                    stats.ap = *ap_value - 1.0; // default to cap ap if equal weights
+                }
+                return true;
+            }
+        }
+    }
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Clone, Debug)]
@@ -37,72 +113,112 @@ pub struct PanoplyIn {
     pub stats: Vec<Stats>, // stats[count-1] = TOTAL bonus for 'count' items (1-based)
 }
 use std::collections::HashMap;
-#[derive(Clone)]
+#[derive(Clone, Debug)]
 struct PanData {
     // per pid: bonus[count-1] = Stats (clamped in use if count > len)
     bonus: Vec<Vec<Stats>>,
     // mapping from item name -> panoply id
-    item_to_pid: HashMap<String, usize>,
+    panoply_to_pid: HashMap<String, usize>,
 }
 
-fn build_pan_data(pans: &[PanoplyIn]) -> PanData {
-    let mut item_to_pid = HashMap::new();
-    let mut bonus = Vec::with_capacity(pans.len());
+#[derive(Serialize, Deserialize, Clone, Debug)]
+pub struct BuildResult {
+    pub value: f64,
+    pub names: Vec<String>,
+}
 
-    for (pid, p) in pans.iter().enumerate() {
-        // map every item name in this panoply
-        for it in &p.items {
-            item_to_pid.insert(it.clone(), pid);
-        }
-        // store total-bonus table as-is
-        bonus.push(p.stats.clone());
+impl Eq for BuildResult {}
+
+impl PartialEq for BuildResult {
+    fn eq(&self, other: &Self) -> bool {
+        self.value == other.value
+    }
+}
+
+impl Ord for BuildResult {
+    fn cmp(&self, other: &Self) -> std::cmp::Ordering {
+        self.value.partial_cmp(&other.value).unwrap()
+    }
+}
+
+impl PartialOrd for BuildResult {
+    fn partial_cmp(&self, other: &Self) -> Option<std::cmp::Ordering> {
+        self.value.partial_cmp(&other.value)
+    }
+}
+
+fn build_pan_data(all_panoplies: &[PanoplyIn]) -> PanData {
+    let mut panoply_to_pid = HashMap::new();
+    let mut bonus_tables = Vec::with_capacity(all_panoplies.len());
+
+    for (panoply_id, pan) in all_panoplies.iter().enumerate() {
+        panoply_to_pid.insert(pan.name.clone(), panoply_id);
+        bonus_tables.push(pan.stats.clone()); // assuming already cumulative per count
     }
 
-    PanData { bonus, item_to_pid }
+    PanData {
+        bonus: bonus_tables,
+        panoply_to_pid,
+    }
 }
 
-fn prepare_items(
-    cats_in: Vec<Vec<MinItem>>,
-    pan: &PanData,
-) -> Vec<Vec<ItemPrepared>> {
-    cats_in
-        .into_iter()
-        .map(|cat| {
-            cat.into_iter()
-                .map(|mi| {
-                    let members = if mi.panoplies.is_empty() {
-                        std::slice::from_ref(&mi.name).iter().cloned().collect()
-                    } else {
-                        mi.panoplies
-                    };
+// fn build_pan_data(pans: &[PanoplyIn]) -> PanData {
+//     let mut item_to_pid = HashMap::new();
+//     let mut bonus = Vec::with_capacity(pans.len());
 
-                    // accumulate counts per pid only for pids present in members
-                    let mut local: HashMap<usize, u8> = HashMap::new();
-                    for name in members {
-                        if let Some(&pid) = pan.item_to_pid.get(&name) {
-                            *local.entry(pid).or_insert(0) += 1;
+//     for (pid, p) in pans.iter().enumerate() {
+//         // map every item name in this panoply
+//         for item_name in &p.items {
+//             item_to_pid.insert(item_name.clone(), pid);
+//         }
+//         // store total-bonus table as-is
+//         bonus.push(p.stats.clone());
+//     }
+
+//     PanData { bonus, item_to_pid }
+// }
+
+fn prepare_items(
+    categories_in: Vec<Vec<MinItem>>,
+    panoply_data: &PanData,
+) -> Vec<Vec<ItemPrepared>> {
+    categories_in
+        .into_iter()
+        .map(|category_items| {
+            category_items
+                .into_iter()
+                .map(|min_item| {
+                    // Count how many pieces this item contributes for each panoply it declares.
+                    // If the item has no panoplies, this stays empty (as intended).
+                    let mut per_panoply_counts: HashMap<usize, u8> = HashMap::new();
+
+                    for panoply_name in &min_item.panoplies {
+                        if let Some(&panoply_id) = panoply_data.panoply_to_pid.get(panoply_name) {
+                            *per_panoply_counts.entry(panoply_id).or_insert(0) += 1;
                         }
+                        // Unknown panoply names are ignored silently.
                     }
-                    let mut pan_sparse: Vec<(usize, u8)> = local.into_iter().collect();
-                    // keep small and cache-friendly:
-                    pan_sparse.sort_unstable_by_key(|&(pid, _)| pid);
+
+                    // Convert to a small, cache-friendly sorted vector.
+                    let mut pan_sparse: Vec<(usize, u8)> = per_panoply_counts.into_iter().collect();
+                    pan_sparse.sort_unstable_by_key(|&(panoply_id, _)| panoply_id);
 
                     ItemPrepared {
-                        name: mi.name,
-                        stats: mi.stats,
+                        name: min_item.name,
+                        stats: min_item.stats,
                         pan_sparse,
+                        requirement: min_item.requirement,
                     }
                 })
                 .collect()
         })
         .collect()
 }
-
-#[derive(Serialize, Deserialize)]
-pub struct BestResult {
-    pub score: f64,
-    pub names: Vec<String>, // one per category, same order as input
-}
+// #[derive(Serialize, Deserialize)]
+// pub struct BestResult {
+//     pub value: f64,
+//     pub names: Vec<String>, // one per category, same order as input
+// }
 
 #[wasm_bindgen]
     pub fn best_combo(
@@ -128,20 +244,22 @@ pub struct BestResult {
             .map_err(|e| JsValue::from_str(&format!("deserialize panoplies: {e}")))?;
 
     log(format!("Rust starts calculating items in X categories: {:?}", items_category.len()));
-    // log(format!("weights: {:?}", weights));
+    log(format!("min_stats: {:?}", min_stats));
 
     // Expect Vec<Vec<MinItem>>: items_category[i] = list of items in that category
     // let categories: Vec<Vec<MinItem>> = serde_wasm_bindgen::from_value(items_category_js)
     //     .map_err(|e| JsValue::from_str(&format!("deserialize: {e}")))?;
 
     // Precompute panoply data & annotate items
-    let pan = build_pan_data(&pans_in);
+    let pan: PanData = build_pan_data(&pans_in);
     let items = prepare_items(items_category, &pan);
+    // log(format!("panoplies: {:?}", pan));
+    // log(format!("items: {:?}", items));
 
-    if items.is_empty() {
-        let empty = BestResult { score: 0.0, names: vec![] };
-        return serde_wasm_bindgen::to_value(&empty).map_err(|e| JsValue::from_str(&format!("{e}")));
-    }
+    // if items.is_empty() {
+    //     let empty = BestResult { value: 0.0, names: vec![] };
+    //     return serde_wasm_bindgen::to_value(&empty).map_err(|e| JsValue::from_str(&format!("{e}")));
+    // }
     for (category_i, item) in items.iter().enumerate() {
         if item.is_empty() {
             return Err(JsValue::from_str(&format!("category {category_i} is empty")));
@@ -152,8 +270,9 @@ pub struct BestResult {
     // Cartesian product
     let n = items.len();
     let mut idx = vec![0usize; n];
-    let mut best_score = 0.0;
-    let mut best_idx = idx.clone();
+    let mut lowest_best_value = 0.0;
+    // let mut best_idx = idx.clone();
+    let mut heap: BinaryHeap<Reverse<BuildResult>> = BinaryHeap::new();
 
     // panoply counters reused across iterations, we reset only touched ones
     let pcount_len = pan.bonus.len();
@@ -171,6 +290,8 @@ pub struct BestResult {
 
             build_stats += &item.stats;
 
+            // log(format!("item.pan_sparse: {:?}", item.pan_sparse));
+
             // add sparse panoply counts
             for &(pid, c) in &item.pan_sparse {
                 if pcount[pid] == 0 {
@@ -179,22 +300,61 @@ pub struct BestResult {
                 pcount[pid] = pcount[pid].saturating_add(c);
             }
         }
+        // log(format!("touched: {:?}", touched));
 
         // add panoply bonuses (array lookups only)
+        let mut panoplies_bonus: usize = 0;
+
         for &pid in &touched {
-            let cnt = pcount[pid] as usize;
-            if cnt > 0 {
+            let count = pcount[pid] as usize;
+            // log(format!("count pano items: {:?}", count));
+            if count > 1 {
                 let pano_stats = &pan.bonus[pid];
-                let idx = cnt.min(pano_stats.len()) - 1; // clamp
-                build_stats += &pano_stats[idx];
+                // let idx = count.min(pano_stats.len()) - 1; // clamp
+                build_stats += &pano_stats[count - 1];
+
+                panoplies_bonus += count.saturating_sub(1);
             }
         }
+        // log(format!("panoplies_bonus: {:?}", panoplies_bonus));
 
-        let build_value = build_stats.value(&weights, &min_stats, &max_stats);
+        let mut skip_build = false;
 
-        if build_value > best_score {
-            best_score = build_value;
-            best_idx.clone_from(&idx);
+        for (category_i, &item_i) in idx.iter().enumerate() {
+            let item = &items[category_i][item_i];
+
+            // log(format!("item.requirement: {:?}", item.requirement));
+
+            if let Some(req) = &item.requirement {
+                if !req.is_satisfied(&mut build_stats, &weights, &min_stats, &max_stats, panoplies_bonus) {
+                    skip_build = true;
+                    break;
+                }
+            }
+        }
+        // log(format!("skip_build: {:?}", skip_build));
+
+        let build_value;
+        if skip_build {
+            build_value = 0.0;
+        } else {
+            build_value = build_stats.value(&weights, &min_stats, &max_stats);
+        }
+
+        if heap.len() < 20 || build_value > lowest_best_value {
+            let names: Vec<String> = idx
+                .iter()
+                .enumerate()
+                .map(|(ci, &ii)| items[ci][ii].name.clone())
+                .collect();
+
+            let build = BuildResult { value: build_value, names };
+
+            if heap.len() == 20 {
+                heap.pop(); // drop the smallest
+            }
+            heap.push(Reverse(build));
+            lowest_best_value = heap.peek().unwrap().0.value;
         }
 
         // reset only touched counters
@@ -216,13 +376,19 @@ pub struct BestResult {
         }
     }
 
-    let names: Vec<String> = best_idx
-        .iter()
-        .enumerate()
-        .map(|(ci, &ii)| items[ci][ii].name.clone())
-        .collect();
+    // let names: Vec<String> = best_idx
+    //     .iter()
+    //     .enumerate()
+    //     .map(|(ci, &ii)| items[ci][ii].name.clone())
+    //     .collect();
 
-    let res = BestResult { score: best_score, names };
-    serde_wasm_bindgen::to_value(&res)
-        .map_err(|e| JsValue::from_str(&format!("serialize: {e}")))
+    let mut results: Vec<BuildResult> = heap.into_iter().map(|r| r.0).collect();
+    results.sort_by(|a, b| b.value.partial_cmp(&a.value).unwrap());
+
+    serde_wasm_bindgen::to_value(&results)
+    .map_err(|e| JsValue::from_str(&format!("serialize: {e}")))
+
+    // let res = BestResult { value: best_value, names };
+    // serde_wasm_bindgen::to_value(&res)
+    //     .map_err(|e| JsValue::from_str(&format!("serialize: {e}")))
 }

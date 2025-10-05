@@ -292,7 +292,7 @@
       "chance": -50,
       "agility": -50,
       "criticalChance": 5,
-      "AP": 1,
+      "ap": 1,
       "summon": 1
     }
   },
@@ -381,9 +381,13 @@
     "level": 45,
     "panoply": "Panoplie de l'Abraknyde",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 9
+    },
     "stats": {
       "health": 70,
-      "AP": 1,
+      "ap": 1,
       "heal": 5,
       "dodge": -20
     }
@@ -450,9 +454,13 @@
     "level": 60,
     "panoply": "Panoplie Tortue",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 12
+    },
     "stats": {
       "health": 80,
-      "AP": 1
+      "ap": 1
     }
   },
   "Kwakoiffe de Glace": {
@@ -606,18 +614,6 @@
       "fireDamage": 5
     }
   },
-  "Chapeau du Marié": {
-    "name": "Chapeau du Marié",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
-  },
-  "Chapeau de la Mariée": {
-    "name": "Chapeau de la Mariée",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
-  },
   "Coiffe de l'Homme Ours": {
     "name": "Coiffe de l'Homme Ours",
     "level": 20,
@@ -727,12 +723,6 @@
       "summon": 1,
       "fireResistPer": 2
     }
-  },
-  "Casque des Mercenaires d'Astrub": {
-    "name": "Casque des Mercenaires d'Astrub",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
   },
   "L'Araknacoiffe": {
     "name": "L'Araknacoiffe",
@@ -1275,7 +1265,7 @@
       "health": 200,
       "agility": 60,
       "wisdom": 35,
-      "MP": 1,
+      "mp": 1,
       "airResistPer": 8,
       "earthResistPer": -6
     }
@@ -1838,10 +1828,15 @@
     "level": 164,
     "panoply": "Panoplie du Tynril",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 250,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "prospecting": 30,
       "neutralResist": 8,
       "earthResist": 8,
@@ -2185,7 +2180,7 @@
     "stats": {
       "health": 200,
       "wisdom": 30,
-      "MP": 1,
+      "mp": 1,
       "damage": 7,
       "heal": 7,
       "prospecting": 20,
@@ -2539,12 +2534,6 @@
       "fireResist": 10,
       "criticalResist": 10
     }
-  },
-  "Chapeau Tiche troué": {
-    "name": "Chapeau Tiche troué",
-    "level": 174,
-    "category": "hat",
-    "stats": {}
   },
   "Chapeau Stapokaliptik": {
     "name": "Chapeau Stapokaliptik",
@@ -3063,11 +3052,16 @@
     "name": "Chapeau Potin",
     "level": 199,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 400,
       "wisdom": 50,
       "criticalChance": 6,
-      "AP": 1,
+      "ap": 1,
       "range": 1,
       "prospecting": 15,
       "neutralResistPer": 10,
@@ -3104,12 +3098,6 @@
       "mpReduction": 3,
       "pushbackResist": 10
     }
-  },
-  "Troma du Vieux John": {
-    "name": "Troma du Vieux John",
-    "level": 10,
-    "category": "hat",
-    "stats": {}
   },
   "Araknacoiffe Velue": {
     "name": "Araknacoiffe Velue",
@@ -3249,8 +3237,8 @@
       "health": 300,
       "wisdom": 40,
       "power": 50,
-      "AP": 1,
-      "MP": -1,
+      "ap": 1,
+      "mp": -1,
       "initiative": 400,
       "fireResistPer": 10,
       "fireResist": 10,
@@ -3334,11 +3322,16 @@
     "name": "Coiffe Ranshi",
     "level": 200,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 400,
       "wisdom": 50,
       "power": 75,
-      "AP": 1,
+      "ap": 1,
       "damage": 15,
       "heal": 15,
       "prospecting": 20,
@@ -3481,7 +3474,7 @@
       "strength": 50,
       "intelligence": 50,
       "wisdom": 40,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
@@ -3780,12 +3773,6 @@
       "pushbackDamage": 12
     }
   },
-  "Casquête": {
-    "name": "Casquête",
-    "level": 10,
-    "category": "hat",
-    "stats": {}
-  },
   "Masque du Barbétoal": {
     "name": "Masque du Barbétoal",
     "level": 200,
@@ -4018,13 +4005,18 @@
     "level": 200,
     "panoply": "Panoplie de la Baleine",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 400,
       "chance": 50,
       "wisdom": 40,
       "power": 15,
       "criticalChance": 4,
-      "AP": 1,
+      "ap": 1,
       "waterDamage": 15,
       "prospecting": 15,
       "neutralResistPer": 7,
@@ -4043,7 +4035,7 @@
       "wisdom": 50,
       "power": 60,
       "criticalChance": 3,
-      "MP": 1,
+      "mp": 1,
       "summon": 1,
       "neutralDamage": 12,
       "earthDamage": 12,
@@ -4421,28 +4413,21 @@
       "apReduction": 6
     }
   },
-  "Loupe d'improbabilité": {
-    "name": "Loupe d'improbabilité",
-    "level": 80,
-    "category": "hat",
-    "stats": {}
-  },
-  "Casque isolant": {
-    "name": "Casque isolant",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
-  },
   "Masque de Koutoulou": {
     "name": "Masque de Koutoulou",
     "level": 200,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "strength": 70,
       "wisdom": 30,
       "criticalChance": 2,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 12,
       "earthDamage": 12,
       "fireResistPer": 10,
@@ -4532,12 +4517,6 @@
       "criticalResist": 20
     }
   },
-  "Chapeau Transparent": {
-    "name": "Chapeau Transparent",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
-  },
   "Coiffennex": {
     "name": "Coiffennex",
     "level": 82,
@@ -4597,6 +4576,11 @@
     "name": "Le Dorado",
     "level": 200,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "strength": 50,
@@ -4604,7 +4588,7 @@
       "chance": 50,
       "agility": 50,
       "wisdom": 30,
-      "AP": 1,
+      "ap": 1,
       "range": 2,
       "neutralDamage": 10,
       "earthDamage": 10,
@@ -4790,12 +4774,6 @@
       "pushbackDamage": 15
     }
   },
-  "Masque mortuaire": {
-    "name": "Masque mortuaire",
-    "level": 180,
-    "category": "hat",
-    "stats": {}
-  },
   "Masque de l'Esprit Salvateur": {
     "name": "Masque de l'Esprit Salvateur",
     "level": 200,
@@ -4941,12 +4919,17 @@
     "level": 200,
     "panoply": "Panoplie de la Fournaise",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "intelligence": 80,
       "wisdom": 40,
       "criticalChance": 4,
-      "AP": 1,
+      "ap": 1,
       "range": 1,
       "fireDamage": 15,
       "neutralResistPer": 7,
@@ -5077,11 +5060,16 @@
     "name": "Diadème de Ganymède",
     "level": 200,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "wisdom": 60,
       "power": 120,
-      "AP": 1,
+      "ap": 1,
       "neutralResistPer": 2,
       "earthResistPer": 2,
       "fireResistPer": 2,
@@ -5120,7 +5108,7 @@
       "chance": 60,
       "agility": 60,
       "wisdom": 25,
-      "MP": 1,
+      "mp": 1,
       "waterDamage": 12,
       "airDamage": 12,
       "initiative": 300,
@@ -5150,12 +5138,6 @@
       "pushbackDamage": 15
     }
   },
-  "Scaphandre chronomagique": {
-    "name": "Scaphandre chronomagique",
-    "level": 50,
-    "category": "hat",
-    "stats": {}
-  },
   "Corne de Torkélonia": {
     "name": "Corne de Torkélonia",
     "level": 200,
@@ -5175,12 +5157,6 @@
       "mpResist": 5,
       "criticalDamage": 12
     }
-  },
-  "Casque alourdi": {
-    "name": "Casque alourdi",
-    "level": 1,
-    "category": "hat",
-    "stats": {}
   },
   "Heaume de Guerre": {
     "name": "Heaume de Guerre",
@@ -5223,12 +5199,6 @@
       "mpResist": 10,
       "pushbackResist": 30
     }
-  },
-  "Bandeau d'apprenti Pandawushuka": {
-    "name": "Bandeau d'apprenti Pandawushuka",
-    "level": 10,
-    "category": "hat",
-    "stats": {}
   },
   "Kwaflaque": {
     "name": "Kwaflaque",
@@ -5291,6 +5261,11 @@
     "level": 155,
     "panoply": "Panoplie des Spiritueurs",
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 200,
       "strength": 50,
@@ -5298,7 +5273,7 @@
       "agility": 50,
       "wisdom": 20,
       "criticalChance": 3,
-      "AP": 1,
+      "ap": 1,
       "range": -2,
       "neutralDamage": 7,
       "earthDamage": 7,
@@ -5394,13 +5369,6 @@
       "range": 1,
       "pushbackDamage": 8
     }
-  },
-  "Coiffe du Bouftou Ankarton": {
-    "name": "Coiffe du Bouftou Ankarton",
-    "level": 50,
-    "panoply": "Panoplie Ankarton",
-    "category": "hat",
-    "stats": {}
   },
   "Chagrin de Cire": {
     "name": "Chagrin de Cire",
@@ -5576,12 +5544,17 @@
     "name": "Heaume Tapodas",
     "level": 198,
     "category": "hat",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "chance": 60,
       "agility": 60,
       "wisdom": 30,
-      "AP": 1,
+      "ap": 1,
       "range": 1,
       "waterDamage": 10,
       "airDamage": 10,
@@ -5613,6 +5586,25 @@
       "dodge": 12,
       "mpReduction": 10,
       "pushbackResist": 30
+    }
+  },
+  "Ardeur d'Oto Mustam": {
+    "name": "Ardeur d'Oto Mustam",
+    "level": 200,
+    "category": "hat",
+    "stats": {
+      "health": 500,
+      "wisdom": 50,
+      "power": 100,
+      "criticalChance": 4,
+      "initiative": 500,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "neutralResistPer": -10,
+      "dodge": 15,
+      "mpResist": 15,
+      "criticalDamage": 10,
+      "pushbackResist": -30
     }
   }
 }

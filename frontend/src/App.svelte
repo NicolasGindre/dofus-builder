@@ -7,6 +7,7 @@
     import { initFrontendDB } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
     import Combination from "./components/Combination.svelte";
+    import PreStats from "./components/PreStats.svelte";
     // import init, { double } from "../wasm/combination/lib/pkg/combination";
 
     get(items);
@@ -41,6 +42,7 @@
       {/each}
     </ul> -->
     {/if}
+    <PreStats />
     <StatWeights />
     <BestItems />
     <Combination />
@@ -50,7 +52,7 @@
     main {
         font-family: system-ui, sans-serif;
         padding: 1rem;
-        max-width: 800px;
+        /* max-width: 800px; */
         margin: auto;
     }
     /* ul {

@@ -2,6 +2,7 @@ import { get } from "svelte/store";
 import { items, itemsCategory, panoplies } from "../stores/builder";
 import {
     getEmptyCategoriesItemsArr,
+    type Item,
     type ItemCategory,
     type Items,
     type Panoplies,
@@ -23,16 +24,26 @@ export async function initFrontendDB() {
     console.log(get(panoplies));
 
     calculateItemsBonus();
+    addPanopliesItemsReal();
     calculatePanopliesBonus();
     fillItemsCategories();
 }
 
 function calculateItemsBonus() {
     for (const item of Object.values(get(items))) {
+        // console.log(item.name);
         item.statsWithBonus = getBonusStats(item.stats);
     }
 }
 
+function addPanopliesItemsReal() {
+    for (const pano of Object.values(get(panoplies))) {
+        pano.itemsReal = [];
+        for (const itemName of pano.items) {
+            pano.itemsReal.push(getItem(itemName));
+        }
+    }
+}
 function calculatePanopliesBonus() {
     for (const pano of Object.values(get(panoplies))) {
         pano.statsWithBonus = [];
@@ -55,19 +66,10 @@ function fillItemsCategories() {
     itemsCategory.set(grouped);
 }
 
-export function getPanopliesToCalculate(itemsCategory: Record<ItemCategory, Items>): Panoply[] {
-    const panoplies: Panoply[] = [];
-    for (const minItemsCategory of Object.values(itemsCategory)) {
-        for (const item of Object.values(minItemsCategory)) {
-            if (item.panoply) {
-                const panoply = getPanoply(item.panoply);
-                panoplies.push(panoply);
-            }
-        }
-    }
-    return panoplies;
-}
-
 export function getPanoply(name: string): Panoply {
     return get(panoplies)[name]!;
+}
+
+export function getItem(name: string): Item {
+    return get(items)[name]!;
 }

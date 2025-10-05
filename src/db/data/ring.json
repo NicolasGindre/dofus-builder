@@ -118,7 +118,7 @@
       "intelligence": -100,
       "chance": -100,
       "agility": -100,
-      "AP": 1,
+      "ap": 1,
       "range": 1
     }
   },
@@ -131,7 +131,7 @@
       "intelligence": -200,
       "chance": -150,
       "agility": -150,
-      "AP": 1
+      "ap": 1
     }
   },
   "Anneau Forcesque": {
@@ -252,12 +252,6 @@
       "prospecting": 15,
       "dodge": 5
     }
-  },
-  "Alliance": {
-    "name": "Alliance",
-    "level": 1,
-    "category": "ring",
-    "stats": {}
   },
   "Abranneau Mou": {
     "name": "Abranneau Mou",
@@ -381,18 +375,6 @@
       "lock": 3
     }
   },
-  "Bague De Sendar": {
-    "name": "Bague De Sendar",
-    "level": 1,
-    "category": "ring",
-    "stats": {
-      "neutralResist": 100,
-      "earthResist": 100,
-      "fireResist": 100,
-      "waterResist": 100,
-      "airResist": 100
-    }
-  },
   "Kwakanneau de Flammes": {
     "name": "Kwakanneau de Flammes",
     "level": 42,
@@ -440,7 +422,7 @@
     "panoply": "Panoplie Gelax",
     "category": "ring",
     "stats": {
-      "AP": 1
+      "ap": 1
     }
   },
   "Anneau de l'Aventurier": {
@@ -486,7 +468,7 @@
       "intelligence": -200,
       "chance": -200,
       "agility": -200,
-      "AP": 1,
+      "ap": 1,
       "summon": 1
     }
   },
@@ -1073,12 +1055,6 @@
       "fireResistPer": 3
     }
   },
-  "Le Diviseur (MJ)": {
-    "name": "Le Diviseur (MJ)",
-    "level": 1,
-    "category": "ring",
-    "stats": {}
-  },
   "Anneau du Koalak": {
     "name": "Anneau du Koalak",
     "level": 53,
@@ -1641,23 +1617,6 @@
       "waterResist": 10
     }
   },
-  "Annobusé de Maître Jarbo": {
-    "name": "Annobusé de Maître Jarbo",
-    "level": 1,
-    "category": "ring",
-    "stats": {
-      "health": 300,
-      "strength": 300,
-      "intelligence": 300,
-      "chance": 300,
-      "agility": 300,
-      "wisdom": 300,
-      "AP": 2,
-      "MP": 1,
-      "summon": 5,
-      "damage": 10
-    }
-  },
   "Blopanneau Griotte": {
     "name": "Blopanneau Griotte",
     "level": 50,
@@ -1871,12 +1830,6 @@
       "airResistPer": 5
     }
   },
-  "Le sceau des Zewouan": {
-    "name": "Le sceau des Zewouan",
-    "level": 1,
-    "category": "ring",
-    "stats": {}
-  },
   "Jambanneau": {
     "name": "Jambanneau",
     "level": 40,
@@ -1942,12 +1895,6 @@
       "heal": 2,
       "mpResist": 4
     }
-  },
-  "Bague du hibou": {
-    "name": "Bague du hibou",
-    "level": 1,
-    "category": "ring",
-    "stats": {}
   },
   "Bracelet du Tétounik": {
     "name": "Bracelet du Tétounik",
@@ -2560,12 +2507,17 @@
     "name": "Anneau Aimgéroks",
     "level": 194,
     "category": "ring",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 250,
       "wisdom": 40,
       "power": 40,
       "criticalChance": 3,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 7,
       "earthDamage": 7,
       "fireDamage": 7,
@@ -2829,7 +2781,7 @@
     "stats": {
       "health": 200,
       "wisdom": 40,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "neutralDamage": 12,
       "earthDamage": 12,
@@ -3804,7 +3756,7 @@
       "health": 300,
       "wisdom": 40,
       "criticalChance": 4,
-      "MP": 1,
+      "mp": 1,
       "range": 1,
       "earthResistPer": 7,
       "airResistPer": 7,
@@ -4339,7 +4291,7 @@
       "health": 250,
       "wisdom": 40,
       "power": 40,
-      "MP": 1,
+      "mp": 1,
       "fireResistPer": 7,
       "waterResistPer": 7
     }
@@ -4401,12 +4353,17 @@
     "level": 200,
     "panoply": "Panoplie de Crocuzko",
     "category": "ring",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 300,
       "wisdom": 25,
       "power": 40,
       "criticalChance": 5,
-      "AP": 1,
+      "ap": 1,
       "criticalResist": 20,
       "pushbackResist": 20
     }
@@ -4537,7 +4494,7 @@
     "level": 80,
     "category": "ring",
     "stats": {
-      "health": -100
+      "health": -1
     }
   },
   "Anneau de Koumiho": {
@@ -4772,19 +4729,6 @@
       "pushbackDamage": 15
     }
   },
-  "Anneau Ocre": {
-    "name": "Anneau Ocre",
-    "level": 40,
-    "category": "ring",
-    "stats": {}
-  },
-  "Gelano Ankarton": {
-    "name": "Gelano Ankarton",
-    "level": 200,
-    "panoply": "Panoplie Ankarton",
-    "category": "ring",
-    "stats": {}
-  },
   "Triste Sceau": {
     "name": "Triste Sceau",
     "level": 200,
@@ -4933,12 +4877,6 @@
       "pushbackDamage": 25
     }
   },
-  "Interrogano": {
-    "name": "Interrogano",
-    "level": 1,
-    "category": "ring",
-    "stats": {}
-  },
   "Poing du Supervizœuf": {
     "name": "Poing du Supervizœuf",
     "level": 179,
@@ -4991,6 +4929,23 @@
       "waterResistPer": 7,
       "apReduction": 10,
       "pushbackResist": 15
+    }
+  },
+  "Ponctualité d'Henual": {
+    "name": "Ponctualité d'Henual",
+    "level": 200,
+    "category": "ring",
+    "stats": {
+      "health": 300,
+      "wisdom": 60,
+      "power": 60,
+      "initiative": 600,
+      "earthResistPer": 6,
+      "fireResistPer": 6,
+      "apReduction": 24,
+      "apResist": 12,
+      "mpResist": -24,
+      "criticalResist": -12
     }
   }
 }

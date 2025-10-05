@@ -100,8 +100,12 @@
     "name": "Arc en Racine d'Abraknyde",
     "level": 25,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 8
+    },
     "stats": {
-      "AP": 1,
+      "ap": 1,
       "initiative": -100,
       "lock": -15,
       "dodge": -15
@@ -298,12 +302,6 @@
       "summon": 1,
       "dodge": 7
     }
-  },
-  "Arc de Chasse": {
-    "name": "Arc de Chasse",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "Arc de Mech Riorraw": {
     "name": "Arc de Mech Riorraw",
@@ -615,10 +613,14 @@
     "name": "Le Kikoularc",
     "level": 79,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 12
+    },
     "stats": {
       "intelligence": 35,
       "chance": 35,
-      "AP": 1,
+      "ap": 1,
       "damage": 5
     }
   },
@@ -1081,12 +1083,17 @@
     "name": "La Baguette des Limbes",
     "level": 105,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThanAndMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "strength": -11,
       "intelligence": 40,
       "wisdom": 40,
-      "AP": 1,
-      "MP": 1,
+      "ap": 1,
+      "mp": 1,
       "range": 1
     }
   },
@@ -1190,11 +1197,15 @@
     "name": "Baguette Ni'Ninnin",
     "level": 50,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 9
+    },
     "stats": {
       "health": 90,
       "intelligence": -90,
       "wisdom": 20,
-      "AP": 1
+      "ap": 1
     }
   },
   "Baguette à Pans": {
@@ -1590,7 +1601,7 @@
       "health": 150,
       "intelligence": 50,
       "agility": 50,
-      "MP": 1,
+      "mp": 1,
       "heal": 6,
       "earthResistPer": 6,
       "fireResistPer": 6
@@ -1720,19 +1731,17 @@
     "name": "La Bidjiz",
     "level": 74,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 6
+    },
     "stats": {
       "health": 40,
       "agility": 40,
       "wisdom": 15,
       "criticalChance": 2,
-      "MP": 1
+      "mp": 1
     }
-  },
-  "Flûte de Sarr Ys": {
-    "name": "Flûte de Sarr Ys",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "Branche de l'Abrakleur sombre": {
     "name": "Branche de l'Abrakleur sombre",
@@ -1978,12 +1987,6 @@
       "dodge": 5
     }
   },
-  "Baguette Osseuse": {
-    "name": "Baguette Osseuse",
-    "level": 173,
-    "category": "weapon",
-    "stats": {}
-  },
   "Baguette Range": {
     "name": "Baguette Range",
     "level": 200,
@@ -2218,12 +2221,16 @@
     "name": "God Rod",
     "level": 67,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 11
+    },
     "stats": {
       "health": 40,
       "agility": -40,
       "wisdom": 25,
       "criticalChance": 1,
-      "AP": 1
+      "ap": 1
     }
   },
   "Hook": {
@@ -2886,22 +2893,6 @@
       "apResist": 4
     }
   },
-  "Le Ramboton": {
-    "name": "Le Ramboton",
-    "level": 200,
-    "category": "weapon",
-    "stats": {
-      "health": 250,
-      "intelligence": 50,
-      "agility": 30,
-      "wisdom": 40,
-      "power": 25,
-      "criticalChance": 5,
-      "MP": 1,
-      "range": 1,
-      "damage": 10
-    }
-  },
   "Le Bâton Cloutay": {
     "name": "Le Bâton Cloutay",
     "level": 107,
@@ -3026,12 +3017,6 @@
       "neutralResistPer": 10
     }
   },
-  "Bâton de l'apprenti pélerin": {
-    "name": "Bâton de l'apprenti pélerin",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
   "Grésilosceptre": {
     "name": "Grésilosceptre",
     "level": 192,
@@ -3058,7 +3043,7 @@
       "chance": 50,
       "wisdom": 25,
       "criticalChance": 4,
-      "MP": 1,
+      "mp": 1,
       "summon": 1,
       "neutralDamage": 10,
       "waterDamage": 10,
@@ -3088,12 +3073,6 @@
       "lock": -4,
       "criticalResist": 10
     }
-  },
-  "Le Thanos rongé": {
-    "name": "Le Thanos rongé",
-    "level": 172,
-    "category": "weapon",
-    "stats": {}
   },
   "Bâton Brelle": {
     "name": "Bâton Brelle",
@@ -3201,27 +3180,6 @@
       "neutralResistPer": 4,
       "airResistPer": 4,
       "mpResist": 3
-    }
-  },
-  "Canne Hassukre Édulcorée": {
-    "name": "Canne Hassukre Édulcorée",
-    "level": 165,
-    "category": "weapon",
-    "stats": {
-      "health": 180,
-      "strength": 60,
-      "agility": 60,
-      "wisdom": 30,
-      "criticalChance": 10,
-      "range": 1,
-      "summon": 1,
-      "earthDamage": 12,
-      "fireDamage": 12,
-      "waterDamage": 12,
-      "heal": 7,
-      "initiative": 200,
-      "fireResistPer": -4,
-      "mpReduction": 4
     }
   },
   "Canne Hassukre": {
@@ -3519,12 +3477,6 @@
       "lock": -30
     }
   },
-  "Exclamâton": {
-    "name": "Exclamâton",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
   "Dagues de Boisaille": {
     "name": "Dagues de Boisaille",
     "level": 7,
@@ -3578,11 +3530,15 @@
     "name": "Chakra Style",
     "level": 73,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 12
+    },
     "stats": {
       "health": 40,
       "chance": 30,
       "wisdom": 15,
-      "AP": 1,
+      "ap": 1,
       "waterDamage": 5
     }
   },
@@ -3599,8 +3555,12 @@
     "name": "Dagues Eurfolles",
     "level": 46,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 5
+    },
     "stats": {
-      "MP": 1
+      "mp": 1
     }
   },
   "Dagues Sylvestres": {
@@ -3704,12 +3664,16 @@
     "name": "Lames sanglantes d'Ortimus Contrari",
     "level": 80,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 6
+    },
     "stats": {
       "health": 30,
       "agility": 50,
       "wisdom": 15,
       "criticalChance": 2,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 3,
       "airDamage": 3
     }
@@ -3761,10 +3725,14 @@
     "name": "Dagues Aj'Deh'Là",
     "level": 44,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 5
+    },
     "stats": {
       "health": 45,
       "intelligence": -50,
-      "MP": 1
+      "mp": 1
     }
   },
   "Le Rasoir Infernal": {
@@ -3800,12 +3768,6 @@
       "health": 20,
       "agility": 20
     }
-  },
-  "Couteau de Chasse": {
-    "name": "Couteau de Chasse",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "La Thor-Boyaux": {
     "name": "La Thor-Boyaux",
@@ -3900,19 +3862,6 @@
       "heal": 10
     }
   },
-  "Lorsotheuses": {
-    "name": "Lorsotheuses",
-    "level": 100,
-    "category": "weapon",
-    "stats": {
-      "health": 70,
-      "strength": 70,
-      "agility": 40,
-      "criticalChance": 3,
-      "AP": 1,
-      "dodge": 7
-    }
-  },
   "Dagues de l'initié": {
     "name": "Dagues de l'initié",
     "level": 12,
@@ -3940,7 +3889,7 @@
       "health": 250,
       "strength": 50,
       "agility": 50,
-      "MP": 1,
+      "mp": 1,
       "damage": 10,
       "initiative": 300,
       "trapPower": 25,
@@ -4002,11 +3951,15 @@
     "name": "Dagues Maydhyn China",
     "level": 100,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 6
+    },
     "stats": {
       "health": 80,
       "agility": 60,
       "criticalChance": 5,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 5,
       "airDamage": 5,
       "initiative": 200
@@ -4058,13 +4011,18 @@
     "level": 128,
     "panoply": "Panoplie du Dragoeuf Vagabond",
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 130,
       "strength": 40,
       "intelligence": 40,
       "agility": 40,
       "criticalChance": 3,
-      "AP": 1,
+      "ap": 1,
       "earthDamage": 2,
       "fireDamage": 2,
       "airDamage": 2,
@@ -4233,6 +4191,11 @@
     "name": "Youyettes",
     "level": 164,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 200,
       "strength": 50,
@@ -4381,12 +4344,6 @@
       "fireResistPer": 10,
       "criticalResist": 25
     }
-  },
-  "Couteaux sacrés": {
-    "name": "Couteaux sacrés",
-    "level": 200,
-    "category": "weapon",
-    "stats": {}
   },
   "Dagoulinantes": {
     "name": "Dagoulinantes",
@@ -4666,8 +4623,12 @@
     "name": "La crinière de Badoul",
     "level": 33,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 5
+    },
     "stats": {
-      "MP": 1,
+      "mp": 1,
       "lock": -12,
       "dodge": -12
     }
@@ -4882,12 +4843,6 @@
       "damage": 5,
       "initiative": 300
     }
-  },
-  "Épée de Justice": {
-    "name": "Épée de Justice",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "Kwaklame de Flammes": {
     "name": "Kwaklame de Flammes",
@@ -5162,7 +5117,7 @@
       "health": 250,
       "agility": 50,
       "wisdom": 35,
-      "MP": 1,
+      "mp": 1,
       "damage": 8,
       "neutralResistPer": 7,
       "airResistPer": 7
@@ -5299,12 +5254,6 @@
       "criticalResist": 7
     }
   },
-  "Épée de Nowel": {
-    "name": "Épée de Nowel",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
   "Rapière du Rat Blanc": {
     "name": "Rapière du Rat Blanc",
     "level": 109,
@@ -5373,7 +5322,7 @@
       "strength": 50,
       "agility": 40,
       "criticalChance": 6,
-      "MP": 1,
+      "mp": 1,
       "initiative": 200,
       "fireResistPer": 8,
       "waterResistPer": 8,
@@ -5715,7 +5664,7 @@
       "strength": 60,
       "agility": 60,
       "wisdom": 50,
-      "MP": 1,
+      "mp": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
       "airDamage": 15,
@@ -5845,12 +5794,6 @@
       "airResistPer": 6
     }
   },
-  "Épée Langue de Feu Réanimée": {
-    "name": "Épée Langue de Feu Réanimée",
-    "level": 160,
-    "category": "weapon",
-    "stats": {}
-  },
   "Épée Brûlâme": {
     "name": "Épée Brûlâme",
     "level": 200,
@@ -5871,12 +5814,6 @@
       "mpResist": -10,
       "criticalDamage": 12
     }
-  },
-  "Épée Nécronyx": {
-    "name": "Épée Nécronyx",
-    "level": 50,
-    "category": "weapon",
-    "stats": {}
   },
   "Crocobur": {
     "name": "Crocobur",
@@ -6007,7 +5944,7 @@
       "agility": 60,
       "wisdom": 25,
       "criticalChance": 4,
-      "MP": 1,
+      "mp": 1,
       "range": -2,
       "neutralDamage": 5,
       "earthDamage": 5,
@@ -6051,13 +5988,6 @@
       "mpReduction": 7,
       "criticalDamage": 12
     }
-  },
-  "Goultard Ankarton": {
-    "name": "Goultard Ankarton",
-    "level": 50,
-    "panoply": "Panoplie Ankarton",
-    "category": "weapon",
-    "stats": {}
   },
   "Claymomore": {
     "name": "Claymomore",
@@ -6133,6 +6063,25 @@
       "mpResist": -10,
       "pushbackDamage": 40,
       "meleeResistPer": 5
+    }
+  },
+  "Ferveur d'Amayiro": {
+    "name": "Ferveur d'Amayiro",
+    "level": 200,
+    "category": "weapon",
+    "stats": {
+      "health": 500,
+      "wisdom": 50,
+      "power": 80,
+      "criticalChance": 4,
+      "initiative": 500,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "neutralResistPer": -10,
+      "lock": 15,
+      "apResist": 15,
+      "criticalResist": -20,
+      "pushbackDamage": 20
     }
   },
   "Marteau de Boisaille": {
@@ -6737,7 +6686,7 @@
       "health": 150,
       "strength": 40,
       "criticalChance": 5,
-      "MP": 1,
+      "mp": 1,
       "summon": 1,
       "damage": 10,
       "prospecting": 15,
@@ -7003,12 +6952,6 @@
       "criticalResist": 15
     }
   },
-  "Marteau de Percimol ramolli": {
-    "name": "Marteau de Percimol ramolli",
-    "level": 49,
-    "category": "weapon",
-    "stats": {}
-  },
   "Mourtheau": {
     "name": "Mourtheau",
     "level": 122,
@@ -7191,12 +7134,6 @@
       "mpResist": 4
     }
   },
-  "Marteau d'Ereziah": {
-    "name": "Marteau d'Ereziah",
-    "level": 100,
-    "category": "weapon",
-    "stats": {}
-  },
   "Marteau R'ture": {
     "name": "Marteau R'ture",
     "level": 200,
@@ -7267,12 +7204,6 @@
       "earthResistPer": 7,
       "apResist": 15
     }
-  },
-  "Fléau d'armes": {
-    "name": "Fléau d'armes",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "Marteau de boisaille fortifié": {
     "name": "Marteau de boisaille fortifié",
@@ -7531,10 +7462,14 @@
     "name": "Ares",
     "level": 72,
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 12
+    },
     "stats": {
       "health": 30,
       "chance": 20,
-      "AP": 1,
+      "ap": 1,
       "summon": 1,
       "waterDamage": 5
     }
@@ -7625,11 +7560,15 @@
     "name": "Cruelle Pelle-Truelle",
     "level": 53,
     "category": "weapon",
+    "requirement": {
+      "type": "mpLessThan",
+      "value": 5
+    },
     "stats": {
       "strength": -60,
       "intelligence": -60,
       "agility": 60,
-      "MP": 1,
+      "mp": 1,
       "airDamage": 6
     }
   },
@@ -8058,7 +7997,7 @@
     "level": 179,
     "category": "weapon",
     "stats": {
-      "AP": -1
+      "ap": -1
     }
   },
   "Pelle Tonedjone": {
@@ -8155,13 +8094,18 @@
     "level": 191,
     "panoply": "Panoplie du Professeur Xa",
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 200,
       "strength": 50,
       "intelligence": 50,
       "chance": 50,
       "criticalChance": 5,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 8,
       "earthDamage": 8,
       "fireDamage": 8,
@@ -8533,12 +8477,6 @@
       "agility": 30,
       "airDamage": 3
     }
-  },
-  "Hache Hémal": {
-    "name": "Hache Hémal",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
   },
   "Hachette de Bûcheron": {
     "name": "Hachette de Bûcheron",
@@ -8986,10 +8924,15 @@
     "level": 139,
     "panoply": "Panoplie du Zothicien",
     "category": "weapon",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 300,
       "wisdom": 35,
-      "AP": 1,
+      "ap": 1,
       "damage": 4,
       "prospecting": 15
     }
@@ -9455,30 +9398,6 @@
       "pushbackDamage": 20
     }
   },
-  "Loupe": {
-    "name": "Loupe",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Flûte": {
-    "name": "Flûte",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Canne à Koinkoin": {
-    "name": "Canne à Koinkoin",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Ciseaux à rose démoniaque": {
-    "name": "Ciseaux à rose démoniaque",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
   "Kamapêche": {
     "name": "Kamapêche",
     "level": 40,
@@ -9488,168 +9407,6 @@
       "initiative": 30
     }
   },
-  "Gants de Mastiqueur": {
-    "name": "Gants de Mastiqueur",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Cracheur du Major Qiu": {
-    "name": "Cracheur du Major Qiu",
-    "level": 130,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Attrape-Poussière": {
-    "name": "Attrape-Poussière",
-    "level": 120,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Filet de capture de nécrotique": {
-    "name": "Filet de capture de nécrotique",
-    "level": 160,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Électrofoudre": {
-    "name": "Électrofoudre",
-    "level": 100,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Marteau Chronomagique": {
-    "name": "Marteau Chronomagique",
-    "level": 100,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pinceau": {
-    "name": "Pinceau",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pelle du Clan Terra": {
-    "name": "Pelle du Clan Terra",
-    "level": 130,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Baguette de Sourcier bénie": {
-    "name": "Baguette de Sourcier bénie",
-    "level": 170,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Patatonnerre": {
-    "name": "Patatonnerre",
-    "level": 170,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Gants Grenne": {
-    "name": "Gants Grenne",
-    "level": 60,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Baguette de Sourcier": {
-    "name": "Baguette de Sourcier",
-    "level": 170,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Gants de Zrid": {
-    "name": "Gants de Zrid",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pioche de Sidoa": {
-    "name": "Pioche de Sidoa",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Attrape-Cauchemar": {
-    "name": "Attrape-Cauchemar",
-    "level": 10,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pioche solide": {
-    "name": "Pioche solide",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Outil de gravure": {
-    "name": "Outil de gravure",
-    "level": 140,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pinceau de calligraphie": {
-    "name": "Pinceau de calligraphie",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pinceau des serments": {
-    "name": "Pinceau des serments",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Totem de l'équilibre": {
-    "name": "Totem de l'équilibre",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Attrape-Cauchemar démoniaque": {
-    "name": "Attrape-Cauchemar démoniaque",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Authentique rouleau d'Ayuto": {
-    "name": "Authentique rouleau d'Ayuto",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Croix de Sinane": {
-    "name": "Croix de Sinane",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Balai rudimentaire": {
-    "name": "Balai rudimentaire",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Tapette à moskitos": {
-    "name": "Tapette à moskitos",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Couteau de chasse de Berb Nhin": {
-    "name": "Couteau de chasse de Berb Nhin",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Mauvaise Pioche": {
-    "name": "Mauvaise Pioche",
-    "level": 6,
-    "category": "weapon",
-    "stats": {}
-  },
   "Pioche Vibrante": {
     "name": "Pioche Vibrante",
     "level": 100,
@@ -9657,18 +9414,6 @@
     "stats": {
       "agility": -11
     }
-  },
-  "Pioche Réquisitionnée": {
-    "name": "Pioche Réquisitionnée",
-    "level": 50,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pioche à usage unique": {
-    "name": "Pioche à usage unique",
-    "level": 10,
-    "category": "weapon",
-    "stats": {}
   },
   "Faux de Farle Ingalsse": {
     "name": "Faux de Farle Ingalsse",
@@ -9781,7 +9526,7 @@
       "chance": 40,
       "wisdom": 35,
       "power": 20,
-      "MP": 1,
+      "mp": 1,
       "range": -1,
       "fireDamage": 18,
       "waterDamage": 18,
@@ -9879,129 +9624,23 @@
       "criticalDamage": 15
     }
   },
-  "Petite pierre d'âme parfaite": {
-    "name": "Petite pierre d'âme parfaite",
-    "level": 20,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Moyenne pierre d'âme parfaite": {
-    "name": "Moyenne pierre d'âme parfaite",
-    "level": 50,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Grande pierre d'âme parfaite": {
-    "name": "Grande pierre d'âme parfaite",
-    "level": 100,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Énorme pierre d'âme parfaite": {
-    "name": "Énorme pierre d'âme parfaite",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Gigantesque pierre d'âme parfaite": {
-    "name": "Gigantesque pierre d'âme parfaite",
-    "level": 150,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Gargantuesque pierre d'âme parfaite": {
-    "name": "Gargantuesque pierre d'âme parfaite",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pierre d'âme élémentale": {
-    "name": "Pierre d'âme élémentale",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pierre d'âme parfaite renforcée": {
-    "name": "Pierre d'âme parfaite renforcée",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pierre d'âme démoniaque": {
-    "name": "Pierre d'âme démoniaque",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Pain au Blé Complet": {
-    "name": "Pain au Blé Complet",
-    "level": 1,
-    "category": "weapon",
-    "stats": {
-      "health": 100,
-      "strength": 100,
-      "intelligence": 100,
-      "chance": 100,
-      "agility": 100,
-      "wisdom": 100,
-      "AP": 1,
-      "MP": 1,
-      "range": 1
-    }
-  },
-  "Filet de capture de Dragodinde": {
-    "name": "Filet de capture de Dragodinde",
-    "level": 60,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Filet de capture de Muldo": {
-    "name": "Filet de capture de Muldo",
-    "level": 180,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Filet de capture de Volkorne": {
-    "name": "Filet de capture de Volkorne",
+  "Jugement de Thanatena": {
+    "name": "Jugement de Thanatena",
     "level": 200,
     "category": "weapon",
-    "stats": {}
-  },
-  "Peluche-boule : Phorreur": {
-    "name": "Peluche-boule : Phorreur",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Peluche-boule : Bouftou": {
-    "name": "Peluche-boule : Bouftou",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Peluche-boule : Tofu": {
-    "name": "Peluche-boule : Tofu",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Peluche-boule : Chacha": {
-    "name": "Peluche-boule : Chacha",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Peluche-boule : Minikrone": {
-    "name": "Peluche-boule : Minikrone",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
-  },
-  "Boufballe": {
-    "name": "Boufballe",
-    "level": 1,
-    "category": "weapon",
-    "stats": {}
+    "stats": {
+      "wisdom": 60,
+      "power": 120,
+      "criticalChance": 4,
+      "damage": 12,
+      "heal": -40,
+      "lock": 20,
+      "dodge": 20,
+      "pushbackResist": 40,
+      "meleeResistPer": 4,
+      "rangedResistPer": 4,
+      "summon": -1
+    }
   },
   "Lance à un 110": {
     "name": "Lance à un 110",
@@ -10239,6 +9878,23 @@
       "waterResist": 20,
       "dodge": 4,
       "criticalDamage": -8
+    }
+  },
+  "Lance-Éclair de Menalt": {
+    "name": "Lance-Éclair de Menalt",
+    "level": 200,
+    "category": "weapon",
+    "stats": {
+      "health": 500,
+      "wisdom": 50,
+      "power": 100,
+      "initiative": 500,
+      "neutralResistPer": -10,
+      "dodge": -40,
+      "apResist": 20,
+      "pushbackDamage": 30,
+      "meleeResistPer": 5,
+      "rangedResistPer": 5
     }
   }
 }

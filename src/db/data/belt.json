@@ -89,10 +89,14 @@
     "level": 50,
     "panoply": "Panoplie Fulgurante",
     "category": "belt",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 10
+    },
     "stats": {
       "health": 30,
       "wisdom": 30,
-      "AP": 1,
+      "ap": 1,
       "damage": 3
     }
   },
@@ -226,10 +230,14 @@
     "level": 80,
     "panoply": "Puissante Panoplie Fulgurante",
     "category": "belt",
+    "requirement": {
+      "type": "apLessThan",
+      "value": 12
+    },
     "stats": {
       "health": 40,
       "wisdom": 40,
-      "AP": 1,
+      "ap": 1,
       "damage": 5
     }
   },
@@ -2318,12 +2326,6 @@
       "criticalResist": 10
     }
   },
-  "Pagniglou défectueux": {
-    "name": "Pagniglou défectueux",
-    "level": 138,
-    "category": "belt",
-    "stats": {}
-  },
   "Slip Hie": {
     "name": "Slip Hie",
     "level": 152,
@@ -2472,12 +2474,6 @@
       "pushbackDamage": 10
     }
   },
-  "Ceinture Bine encrassée": {
-    "name": "Ceinture Bine encrassée",
-    "level": 183,
-    "category": "belt",
-    "stats": {}
-  },
   "Ceinture Hanium": {
     "name": "Ceinture Hanium",
     "level": 194,
@@ -2517,7 +2513,7 @@
       "wisdom": 30,
       "power": 40,
       "criticalChance": 6,
-      "MP": 1,
+      "mp": 1,
       "heal": 6,
       "prospecting": 15,
       "neutralResistPer": 5,
@@ -3269,12 +3265,17 @@
     "name": "Sangle Aise",
     "level": 200,
     "category": "belt",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "intelligence": 60,
       "wisdom": 40,
       "criticalChance": 5,
-      "AP": 1,
+      "ap": 1,
       "fireDamage": 15,
       "waterDamage": 15,
       "airDamage": 15,
@@ -3294,7 +3295,7 @@
       "chance": 40,
       "wisdom": 30,
       "power": 40,
-      "MP": 1,
+      "mp": 1,
       "summon": 2,
       "prospecting": 15,
       "initiative": -301,
@@ -3821,12 +3822,17 @@
     "level": 200,
     "panoply": "Panoplie de la Baleine",
     "category": "belt",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "wisdom": 40,
       "power": 50,
       "criticalChance": 4,
-      "AP": 1,
+      "ap": 1,
       "prospecting": 15,
       "neutralResistPer": 10,
       "waterResistPer": 10,
@@ -3844,7 +3850,7 @@
     "stats": {
       "health": 400,
       "wisdom": 50,
-      "MP": 1,
+      "mp": 1,
       "summon": 1,
       "earthResistPer": 10,
       "fireResistPer": 10,
@@ -4269,12 +4275,17 @@
     "name": "Poulpagne",
     "level": 200,
     "category": "belt",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "chance": 70,
       "wisdom": 40,
       "criticalChance": 2,
-      "AP": 1,
+      "ap": 1,
       "waterDamage": 15,
       "prospecting": 15,
       "neutralResistPer": 7,
@@ -4286,12 +4297,17 @@
     "name": "Menoture",
     "level": 200,
     "category": "belt",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 350,
       "agility": 80,
       "wisdom": 40,
       "criticalChance": 6,
-      "AP": 1,
+      "ap": 1,
       "airDamage": 20,
       "prospecting": 15,
       "earthResistPer": 10,
@@ -4588,12 +4604,17 @@
     "level": 200,
     "panoply": "Panoplie du Fourneau",
     "category": "belt",
+    "requirement": {
+      "type": "apLessThanOrMpLessThan",
+      "apValue": 12,
+      "mpValue": 6
+    },
     "stats": {
       "health": 400,
       "strength": 80,
       "wisdom": 40,
       "criticalChance": 3,
-      "AP": 1,
+      "ap": 1,
       "neutralDamage": 18,
       "earthDamage": 18,
       "prospecting": 15,
@@ -4996,13 +5017,6 @@
       "dodge": 5
     }
   },
-  "Ceinture du Meulou Ankarton": {
-    "name": "Ceinture du Meulou Ankarton",
-    "level": 150,
-    "panoply": "Panoplie Ankarton",
-    "category": "belt",
-    "stats": {}
-  },
   "Ceinture de trappeur albueran": {
     "name": "Ceinture de trappeur albueran",
     "level": 52,
@@ -5083,12 +5097,6 @@
       "pushbackDamage": 30,
       "waterResist": -11
     }
-  },
-  "Ceintiret": {
-    "name": "Ceintiret",
-    "level": 1,
-    "category": "belt",
-    "stats": {}
   },
   "Pagne Rhoarim": {
     "name": "Pagne Rhoarim",
