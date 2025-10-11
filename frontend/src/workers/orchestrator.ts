@@ -12,6 +12,7 @@ import {
 } from "../types/item";
 import type { Stats } from "../types/stats";
 import type { Payload } from "./combinationSearch";
+import CombinationSearchWorker from "./combinationSearch.ts?worker";
 
 type MinItem = {
     id: string;
@@ -40,7 +41,7 @@ export type Orchestrator = {
     // progress: Writable<number>;
 };
 
-const workerUrl = "combinationSearch.ts";
+// const workerUrl = "combinationSearch.ts";
 export function createCombinationOrchestrator(multiThreading: boolean): Orchestrator {
     const running = writable(false);
     const combinationDone = writable(0);
@@ -105,7 +106,9 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
             let finished = 0;
 
             for (let i = 0; i < workerCount; i++) {
-                const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
+                const w = new CombinationSearchWorker();
+
+                // const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
                 workers.push(w);
 
                 w.onmessage = (e: MessageEvent) => {

@@ -9,14 +9,14 @@ try {
     const app = new Hono();
     registerRoutes(app);
     await itemDB.loadItems();
-    // app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
+    app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
 
-    // serve index.html for the root and any unknown path (SPA fallback)
     app.get("*", serveStatic({ path: "./frontend/dist/index.html" }));
 
     serve({
         fetch: app.fetch,
-        port: 8080,
+        port: 8081,
+        hostname: "0.0.0.0",
     });
     console.log("Dofus builder started and listening");
 } catch (err) {

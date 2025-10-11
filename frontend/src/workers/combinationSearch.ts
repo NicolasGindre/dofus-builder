@@ -1,7 +1,7 @@
 /// <reference lib="webworker" />
 console.log("new worker starting");
 
-import init, { best_combo } from "../../wasm/combination/pkg/combination";
+import init, { best_combo } from "../wasm/combination/pkg/combination";
 import type { BestBuildsResp } from "../types/build";
 import { sumStats, sumStatsWithBonus } from "../types/item";
 import type { CategoryItems, Item, Requirement, Panoply } from "../types/item";
@@ -33,11 +33,11 @@ onmessage = async (e: MessageEvent) => {
         initialized = true;
     }
 
-    console.log("Weights sent to rust : ", parameters.weights);
-    console.log("MinStats sent to rust : ", parameters.minStats);
-    console.log("maxStats sent to rust : ", parameters.maxStats);
-    console.log("Items sent to rust : ", parameters.minItemsCategory);
-    console.log("panoplies sent to rust : ", parameters.panoplies);
+    // console.log("Weights sent to rust : ", parameters.weights);
+    // console.log("MinStats sent to rust : ", parameters.minStats);
+    // console.log("maxStats sent to rust : ", parameters.maxStats);
+    // console.log("Items sent to rust : ", parameters.minItemsCategory);
+    // console.log("panoplies sent to rust : ", parameters.panoplies);
 
     try {
         const progress = (p: number) => {
