@@ -3,11 +3,13 @@
     import type { Item, Items, Panoplies } from "./types/item";
     import StatWeights from "./components/StatWeights.svelte";
     import { get } from "svelte/store";
-    import { items, panoplies } from "./stores/builder";
+    import { items, panoplies, words } from "./stores/builder";
     import { initFrontendDB } from "./logic/frontendDB";
+    import { decodeWeightsFromUrl } from "./logic/urlTranslate";
     import BestItems from "./components/BestItems.svelte";
     import Combination from "./components/Combination.svelte";
     import PreStats from "./components/PreStats.svelte";
+    import LanguageSelect from "./components/LanguageSelect.svelte";
     // import init, { double } from "../wasm/combination/lib/pkg/combination";
 
     get(items);
@@ -19,30 +21,32 @@
     onMount(async () => {
         // await initWasm();
         try {
-            // await init();
-            // result = double(21);
             await initFrontendDB();
+
+            const params = new URLSearchParams(window.location.hash.slice(1));
+            // decodeWeightsFromUrl(params);
         } catch (err) {
             error = err instanceof Error ? err.message : String(err);
         }
     });
+    // get(words)
+    // console.log($words);
 </script>
 
 <main>
-    <h1>Dofus Build Calculator</h1>
-
+    <LanguageSelect />
+    <h1>Dofus Builder</h1>
     {#if error}
         <p style="color: red;">{error}</p>
     {:else}
-        <p>Loaded {Object.keys($items).length} items</p>
-        <p>Loaded {Object.keys($panoplies).length} panoplies</p>
+        <!-- <p>Loaded {Object.keys($items).length} items</p>
+        <p>Loaded {Object.keys($panoplies).length} panoplies</p> -->
         <!-- <ul>
       {#each Object.entries(panoplies) as [key, panoplie]}
         <li>{panoplie.name} ({panoplie.items})</li>
       {/each}
     </ul> -->
     {/if}
-    <PreStats />
     <StatWeights />
     <BestItems />
     <Combination />

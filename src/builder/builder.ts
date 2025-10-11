@@ -239,9 +239,9 @@ function generateBuilds(
     // console.log(`Slot: ${slot}, Category: ${category}, Items: ${Object.values(items).length}`)
     for (const item of Object.values(items)) {
         if (slot == "ring2" && currentBuild.ring1) {
-            if (currentBuild.ring1.name >= item.name) {
-                console.log(currentBuild.ring1.name);
-                console.log(item.name);
+            if (currentBuild.ring1.id >= item.id) {
+                // console.log(currentBuild.ring1.id);
+                // console.log(item.id);
                 continue;
             }
         }
@@ -272,7 +272,7 @@ function checkBuildValue(
         let bestBuildStr = "";
         for (const [slot, item] of Object.entries(currentBuild)) {
             // const currentItem = build[currentSlot]
-            bestBuildStr = `${bestBuildStr} | ${slot}: ${item.name}`;
+            bestBuildStr = `${bestBuildStr} | ${slot}: ${item.id}`;
         }
         // console.log(bestBuildStr)
         // console.log(`Value : ${value}. Best value : ${bestBuildsData.bestValue}. Processed : ${bestBuildsData.processed} builds`)

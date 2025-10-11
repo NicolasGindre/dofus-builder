@@ -1,17 +1,38 @@
 export type Stats = Record<StatKey, number>;
+// export type StatElementalPerDefense = Record<StatElementalPerDefenseKey, number>;
+// export type StatCacRangeDefense = Record<StatCacRangeDefenseKey, number>;
+// export type StatElementalDefense = Record<StatElementalDefenseKey, number>;
 
 export type StatKey = (typeof STAT_KEYS)[number];
-export type StatUtilityKey = (typeof STAT_UTILITY_KEYS)[number];
-export type StatOffenseKey = (typeof STAT_OFFENSE_KEYS)[number];
-export type StatDefenseKey = (typeof STAT_DEFENSE_KEYS)[number];
+// export type StatElementalPerDefenseKey = (typeof STAT_ELEMENTAL_PER_DEFENSE_KEYS)[number];
+// export type StatCacRangeDefenseKey = (typeof STAT_CACRANGE_DEFENSE_KEYS)[number];
+// export type StatElementalDefenseKey = (typeof STAT_ELEMENTAL_DEFENSE_KEYS)[number];
+
+// export function isElementalPerDefenseKey(key: string): key is StatElementalPerDefenseKey {
+//     return (STAT_ELEMENTAL_PER_DEFENSE_KEYS as readonly string[]).includes(key);
+// }
+
+// export function isElementalDefenseKey(key: string): key is StatElementalDefenseKey {
+//     return (STAT_ELEMENTAL_DEFENSE_KEYS as readonly string[]).includes(key);
+// }
+
+// export function isCacRangeDefenseKey(key: string): key is StatCacRangeDefenseKey {
+//     return (STAT_CACRANGE_DEFENSE_KEYS as readonly string[]).includes(key);
+// }
 
 export const STAT_UTILITY_KEYS = [
+    "health",
     "ap",
     "mp",
     "range",
     "summon",
+    "initiative",
+
     "wisdom",
     "prospecting",
+
+    "lock",
+    "dodge",
 
     "mpReduction",
     "apReduction",
@@ -20,29 +41,26 @@ export const STAT_UTILITY_KEYS = [
     "apResist",
 
     "heal",
-    "initiative",
     "pods",
-    "lock",
-    "dodge",
 ] as const;
 
-export const STAT_OFFENSE_KEYS = [
-    "strength",
-    "agility",
-    "chance",
-    "intelligence",
-
-    "power",
-
+export const STAT_STAT_KEYS = ["strength", "agility", "chance", "intelligence"] as const;
+export const STAT_DAMAGE_KEYS = [
     "neutralDamage",
     "earthDamage",
-    "airDamage",
-    "waterDamage",
     "fireDamage",
+    "waterDamage",
+    "airDamage",
+] as const;
+export const STAT_OFFENSE_KEYS = [
+    ...STAT_STAT_KEYS,
+    "power",
+
+    ...STAT_DAMAGE_KEYS,
     "damage",
 
-    "criticalChance",
     "criticalDamage",
+    "criticalChance",
 
     "pushbackDamage",
 
@@ -53,29 +71,31 @@ export const STAT_OFFENSE_KEYS = [
     "rangedDamagePer",
     "meleeDamagePer",
     "weaponDamagePer",
-    "finalDamagePer",
+    // "finalDamagePer",
+] as const;
+
+export const STAT_ELEMENTAL_PER_DEFENSE_KEYS = [
+    "neutralResistPer",
+    "earthResistPer",
+    "fireResistPer",
+    "waterResistPer",
+    "airResistPer",
+] as const;
+export const STAT_CACRANGE_DEFENSE_KEYS = ["rangedResistPer", "meleeResistPer"] as const;
+export const STAT_ELEMENTAL_DEFENSE_KEYS = [
+    "neutralResist",
+    "earthResist",
+    "fireResist",
+    "waterResist",
+    "airResist",
 ] as const;
 
 export const STAT_DEFENSE_KEYS = [
-    "health",
-
-    "neutralResistPer",
-    "earthResistPer",
-    "airResistPer",
-    "waterResistPer",
-    "fireResistPer",
-
-    "rangedResistPer",
-    "meleeResistPer",
-
+    ...STAT_ELEMENTAL_PER_DEFENSE_KEYS,
+    ...STAT_CACRANGE_DEFENSE_KEYS,
+    ...STAT_ELEMENTAL_DEFENSE_KEYS,
     "criticalResist",
     "pushbackResist",
-
-    "neutralResist",
-    "earthResist",
-    "airResist",
-    "waterResist",
-    "fireResist",
 
     "reflect",
 ] as const;
@@ -136,6 +156,24 @@ export function concatStats(a: Partial<Stats>, b: Partial<Stats>): Partial<Stats
     for (const key of Object.keys(b) as (keyof Stats)[]) {
         if (b[key] !== undefined) {
             result[key] = (result[key] ?? 0) + (b[key] ?? 0);
+        }
+    }
+
+    return result;
+}
+
+export function diffStats(a: Partial<Stats>, b: Partial<Stats>): Partial<Stats> {
+    const result: Partial<Stats> = {};
+
+    for (const key of Object.keys(a) as (keyof Stats)[]) {
+        if (a[key] !== undefined) {
+            result[key] = (result[key] ?? 0) + (a[key] ?? 0);
+        }
+    }
+
+    for (const key of Object.keys(b) as (keyof Stats)[]) {
+        if (b[key] !== undefined) {
+            result[key] = (result[key] ?? 0) - (b[key] ?? 0);
         }
     }
 

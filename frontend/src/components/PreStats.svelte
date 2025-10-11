@@ -1,53 +1,58 @@
 <script lang="ts">
-    import { level, exoAp, exoMp, exoRange, preStats } from "../stores/builder";
+    import { get } from "svelte/store";
+    import { level, exoAp, exoMp, exoRange, preStats, words, exoSummon } from "../stores/builder";
 
     // auto-subscribe with $ syntax
 </script>
 
 <div class="stats">
-    <h2>
-        Level:
-        <input
-            type="number"
-            min="1"
-            max="200"
-            bind:value={$level}
-            on:input={(e) => {
-                const target = e.target as HTMLInputElement;
-                let value = parseInt(target.value, 10) || 1;
-                if (value < 1) value = 1;
-                if (value > 200) value = 200;
-                $level = value;
-            }}
-        />
-    </h2>
-
     <div class="stat">
         <label>
-            AP: {$preStats.ap} - Exo
+            {$preStats.ap}
+            {$words.stats.ap} - Exo
             <input type="checkbox" bind:checked={$exoAp} />
         </label>
     </div>
 
     <div class="stat">
         <label>
-            MP: {$preStats.mp} - Exo
+            {$preStats.mp}
+            {$words.stats.mp} - Exo
             <input type="checkbox" bind:checked={$exoMp} />
         </label>
     </div>
 
     <div class="stat">
         <label>
-            Range: {$preStats.range} - Exo
+            {$preStats.range}
+            {$words.stats.range} - Exo
             <input type="checkbox" bind:checked={$exoRange} />
         </label>
     </div>
 
-    <div class="stat">
-        Health: {$preStats.health}
-    </div>
+    <!-- <div class="stat">
+        <label>
+            {$words.stats.summon}: {$preStats.summon} - Exo
+            <input type="checkbox" bind:checked={$exoSummon} />
+        </label>
+    </div> -->
 
-    <div class="stat">
+    <!-- <div class="stat">
+        {$words.stats.health}: {$preStats.health}
+    </div> -->
+
+    <!-- <div class="stat">
         Pods: {$preStats.pods}
-    </div>
+    </div> -->
+
+    <!-- <button on:click={() => encodeWeights("http://localhost:5173/")}>Save / Share</button> -->
 </div>
+
+<style>
+    .stats {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        margin-top: 0.6rem;
+    }
+</style>

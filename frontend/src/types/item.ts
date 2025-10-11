@@ -2,22 +2,24 @@ import type { Stats } from "./stats";
 
 export const ITEM_CATEGORIES = [
     "amulet",
-    "belt",
-    "boots",
-    "cloak",
-    "dofus",
     "ring",
     "hat",
-    "pet",
+    "cloak",
+    "belt",
+    "boots",
     "weapon",
     "shield",
+    "pet",
+    "dofus",
 ] as const;
 
 export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 
 export type Item = {
+    id: string;
+    idShort: string;
     level: number;
-    name: string;
+    name: Name;
     requirement?: Requirement;
     panoply?: string;
     category: ItemCategory;
@@ -25,6 +27,13 @@ export type Item = {
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;
+};
+export type Name = {
+    fr: string;
+    en: string;
+    de: string;
+    pt: string;
+    es: string;
 };
 export type Requirement = {
     type: string;
@@ -41,11 +50,13 @@ export type CategoryItems = Record<ItemCategory, Items>;
 export type CategoryItemsArr = Record<ItemCategory, Item[]>;
 
 export type Panoply = {
-    name: string;
+    id: string;
+    name: Name;
     items: string[];
     itemsReal: Item[];
     stats: ItemStats[];
     statsWithBonus: ItemStats[];
+    value: number[];
     valuePerItem: number;
     avgRelativeValue: number;
 };
@@ -69,3 +80,27 @@ export function sumStats(items: Item[]): ItemStats {
     }
     return sumStats;
 }
+
+export function sumStatsWithBonus(items: Item[]): ItemStats {
+    const sumStatsWithBonus: ItemStats = {};
+    for (const item of items) {
+        for (const [statKey, statValue] of Object.entries(item.statsWithBonus)) {
+            sumStatsWithBonus[statKey as keyof Stats] =
+                (sumStatsWithBonus[statKey as keyof Stats] ?? 0) + statValue;
+        }
+    }
+    return sumStatsWithBonus;
+}
+
+// export function getBiggestCategory(itemsCategory: Record<ItemCategory, Items>): ItemCategory {
+//     let biggestCatCount = -1;
+//     let biggestCat: ItemCategory = "ring";
+//     for (const [category, items] of Object.entries(itemsCategory)) {
+//         const categoryLength = Object.keys(items).length;
+//         if (categoryLength > biggestCatCount) {
+//             biggestCatCount = categoryLength;
+//             biggestCat = category as ItemCategory;
+//         }
+//     }
+//     return biggestCat;
+// }

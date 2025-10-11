@@ -1,3 +1,33 @@
+import LZString from "lz-string"; // optional
+import { weights } from "../stores/builder";
+import type { Stats } from "../types/stats";
+import { get } from "svelte/store";
+
+export function encodeWeights(urlString: string) {
+    console.log("encoding weights...?");
+    // const weights =
+    const json = JSON.stringify(get(weights));
+    const packed = LZString.compressToEncodedURIComponent(json); // URL-safe and short
+    // const url = new URL(window.location.href);
+    const url = new URL(urlString);
+    url.hash = `w=${packed}`;
+    console.log(url.toString());
+    // return url.toString();
+}
+
+export function decodeWeightsFromUrl(params: URLSearchParams) {
+    // if (typeof window === "undefined") {
+    // }
+    // const params = new URLSearchParams(window.location.hash.slice(1));
+    console.log("decoding weights...?");
+    const packed = params.get("w");
+    if (!packed) throw new Error("No weights in URL");
+    const json = LZString.decompressFromEncodedURIComponent(packed);
+    if (!json) throw new Error("Bad data");
+    const importedWeights: Partial<Stats> = JSON.parse(json);
+    weights.set(importedWeights);
+}
+
 // base64url helpers
 // const b64u = {
 //     enc: (buf: ArrayBuffer) =>
@@ -10,7 +40,7 @@
 //             .buffer,
 // };
 
-// // gzip (Compression Streams API is widely supported)
+// gzip (Compression Streams API is widely supported)
 // async function gzipBytes(bytes: Uint8Array): Promise<Uint8Array> {
 //     const cs = new CompressionStream("gzip");
 //     const writer = cs.writable.getWriter();
@@ -34,7 +64,7 @@
 //     const token = b64u.enc(gz.buffer);
 //     const url = new URL(location.href);
 //     url.hash = `d=${token}`; // use fragment so nothing hits the server
-//     history.replaceState(null, "", url); // optional: avoid huge history entries
+//     // history.replaceState(null, "", url); // optional: avoid huge history entries
 //     return url.toString();
 // }
 
@@ -45,24 +75,4 @@
 //     const gz = new Uint8Array(b64u.dec(token));
 //     const json = await gunzipBytes(gz);
 //     return JSON.parse(new TextDecoder().decode(json)) as T;
-// }
-
-// import LZString from "lz-string"; // optional
-
-// export function encodeWeights(weights: unknown, urlString: string) {
-//     const json = JSON.stringify(weights);
-//     const packed = LZString.compressToEncodedURIComponent(json); // URL-safe and short
-//     // const url = new URL(window.location.href);
-//     const url = new URL(urlString);
-//     url.hash = `w=${packed}`;
-//     return url.toString();
-// }
-
-// export function decodeWeightsFromUrl() {
-//     const params = new URLSearchParams(window.location.hash.slice(1));
-//     const packed = params.get("w");
-//     if (!packed) throw new Error("No weights in URL");
-//     const json = LZString.decompressFromEncodedURIComponent(packed);
-//     if (!json) throw new Error("Bad data");
-//     return JSON.parse(json);
 // }

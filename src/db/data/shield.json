@@ -1,17 +1,33 @@
 {
-  "Bouclier de l'intrépide": {
-    "name": "Bouclier de l'intrépide",
+  "674e524064788cc741419709": {
+    "id": "674e524064788cc741419709",
+    "idShort": "VX",
+    "name": {
+      "fr": "Bouclier de l'intrépide",
+      "en": "Intrepid Shield",
+      "pt": "Escudo do Intrépido",
+      "de": "Schild des Unerschrockenen",
+      "es": "Escudo del intrépido"
+    },
     "level": 1,
-    "panoply": "Panoplie de l'intrépide",
+    "panoply": "674e523f64788cc741418145",
     "category": "shield",
     "stats": {
       "health": 3
     }
   },
-  "Bouclier en Mousse": {
-    "name": "Bouclier en Mousse",
+  "674e524164788cc74141b0ad": {
+    "id": "674e524164788cc74141b0ad",
+    "idShort": "W2",
+    "name": {
+      "fr": "Bouclier en Mousse",
+      "en": "Sponghield",
+      "pt": "Escudo de Esponja",
+      "de": "Schwammiger Spongischild",
+      "es": "Escudo de esponja"
+    },
     "level": 25,
-    "panoply": "Panoplie en Mousse",
+    "panoply": "674e523f64788cc741418110",
     "category": "shield",
     "stats": {
       "health": 25,
@@ -19,8 +35,16 @@
       "airResistPer": 6
     }
   },
-  "Coupe de Dragokart": {
-    "name": "Coupe de Dragokart",
+  "674e524164788cc74141b0ae": {
+    "id": "674e524164788cc74141b0ae",
+    "idShort": "W3",
+    "name": {
+      "fr": "Coupe de Dragokart",
+      "en": "Dragokart Cup",
+      "pt": "Taça de Dragokart",
+      "de": "Dracokart-Pokal",
+      "es": "Copa de Dragokart"
+    },
     "level": 100,
     "category": "shield",
     "stats": {
@@ -33,10 +57,18 @@
       "pushbackDamage": 30
     }
   },
-  "Bouclier Aerdala": {
-    "name": "Bouclier Aerdala",
+  "674e524164788cc74141b0af": {
+    "id": "674e524164788cc74141b0af",
+    "idShort": "W4",
+    "name": {
+      "fr": "Bouclier Aerdala",
+      "en": "Aerdala Shield",
+      "pt": "Escudo Ardala",
+      "de": "Aerdala-Schild",
+      "es": "Escudo Airedala"
+    },
     "level": 65,
-    "panoply": "Panoplie Aerdala",
+    "panoply": "674e523f64788cc7414180f5",
     "category": "shield",
     "stats": {
       "health": 70,
@@ -46,10 +78,18 @@
       "airResistPer": 7
     }
   },
-  "Bouclier Feudala": {
-    "name": "Bouclier Feudala",
+  "674e524164788cc74141b0b0": {
+    "id": "674e524164788cc74141b0b0",
+    "idShort": "W5",
+    "name": {
+      "fr": "Bouclier Feudala",
+      "en": "Feudala Shield",
+      "pt": "Escudo Fogodala",
+      "de": "Feudala-Schild",
+      "es": "Escudo Fuegodala"
+    },
     "level": 95,
-    "panoply": "Panoplie Feudala",
+    "panoply": "674e523f64788cc7414180f7",
     "category": "shield",
     "stats": {
       "health": 100,
@@ -60,10 +100,18 @@
       "fireResistPer": 10
     }
   },
-  "Bouclier Terrdala": {
-    "name": "Bouclier Terrdala",
+  "674e524164788cc74141b0b1": {
+    "id": "674e524164788cc74141b0b1",
+    "idShort": "W6",
+    "name": {
+      "fr": "Bouclier Terrdala",
+      "en": "Terrdala Shield",
+      "pt": "Escudo Terradala",
+      "de": "Teradala-Schild",
+      "es": "Escudo Tierradala"
+    },
     "level": 75,
-    "panoply": "Panoplie Terrdala",
+    "panoply": "674e523f64788cc7414180f6",
     "category": "shield",
     "stats": {
       "health": 80,
@@ -73,10 +121,18 @@
       "earthResistPer": 7
     }
   },
-  "Bouclier du Craqueleur": {
-    "name": "Bouclier du Craqueleur",
+  "674e524164788cc74141b0b2": {
+    "id": "674e524164788cc74141b0b2",
+    "idShort": "W7",
+    "name": {
+      "fr": "Bouclier du Craqueleur",
+      "en": "Crackler Shield",
+      "pt": "Escudo do Smagador",
+      "de": "Schild des Krachlers",
+      "es": "Escudo de crujidor"
+    },
     "level": 63,
-    "panoply": "Panoplie du Craqueleur",
+    "panoply": "674e523f64788cc7414180ec",
     "category": "shield",
     "stats": {
       "health": 70,
@@ -90,10 +146,18 @@
       "pushbackResist": 20
     }
   },
-  "Bouclier de Bowisse": {
-    "name": "Bouclier de Bowisse",
+  "674e524164788cc74141b0b3": {
+    "id": "674e524164788cc74141b0b3",
+    "idShort": "W8",
+    "name": {
+      "fr": "Bouclier de Bowisse",
+      "en": "Bowisse's Shield",
+      "pt": "Escudo de Bowis",
+      "de": "Bowissen-Schild",
+      "es": "Escudo de Bowis"
+    },
     "level": 30,
-    "panoply": "Panoplie de Bowisse",
+    "panoply": "674e523f64788cc741418397",
     "category": "shield",
     "stats": {
       "health": 30,
@@ -104,20 +168,36 @@
       "airResist": 6
     }
   },
-  "Bouclier du Bouftou": {
-    "name": "Bouclier du Bouftou",
+  "674e524164788cc74141b0b4": {
+    "id": "674e524164788cc74141b0b4",
+    "idShort": "W9",
+    "name": {
+      "fr": "Bouclier du Bouftou",
+      "en": "Gobball Shield",
+      "pt": "Escudo do Papatudo",
+      "de": "Schild des Fresssacks",
+      "es": "Escudo de jalató"
+    },
     "level": 20,
-    "panoply": "Panoplie du Bouftou",
+    "panoply": "674e523f64788cc7414180d3",
     "category": "shield",
     "stats": {
       "health": 20,
       "power": 10
     }
   },
-  "Bouclier du Chouque": {
-    "name": "Bouclier du Chouque",
+  "674e524164788cc74141b0b5": {
+    "id": "674e524164788cc74141b0b5",
+    "idShort": "Wa",
+    "name": {
+      "fr": "Bouclier du Chouque",
+      "en": "LeChouque's Shield",
+      "pt": "Escudo do Tchuke",
+      "de": "Le Tschucks Schild",
+      "es": "Escudo de Le Chuko"
+    },
     "level": 85,
-    "panoply": "Panoplie du Capitaine Pirate",
+    "panoply": "674e523f64788cc7414181e1",
     "category": "shield",
     "stats": {
       "health": 90,
@@ -128,16 +208,32 @@
       "pushbackDamage": 10
     }
   },
-  "Bouclier Volant": {
-    "name": "Bouclier Volant",
+  "674e524164788cc74141b0b6": {
+    "id": "674e524164788cc74141b0b6",
+    "idShort": "Wb",
+    "name": {
+      "fr": "Bouclier Volant",
+      "en": "Flying Shield",
+      "pt": "Escudo Voador",
+      "de": "Fliegenschild",
+      "es": "Escudo cometa"
+    },
     "level": 10,
     "category": "shield",
     "stats": {
       "dodge": 5
     }
   },
-  "Kloume": {
-    "name": "Kloume",
+  "674e524164788cc74141b0b7": {
+    "id": "674e524164788cc74141b0b7",
+    "idShort": "Wc",
+    "name": {
+      "fr": "Kloume",
+      "en": "Kloome",
+      "pt": "Klum",
+      "de": "Kloom",
+      "es": "Klum"
+    },
     "level": 55,
     "category": "shield",
     "stats": {
@@ -149,10 +245,18 @@
       "pushbackDamage": 20
     }
   },
-  "Bouclier du Captain Amakna": {
-    "name": "Bouclier du Captain Amakna",
+  "674e524164788cc74141b0b8": {
+    "id": "674e524164788cc74141b0b8",
+    "idShort": "Wd",
+    "name": {
+      "fr": "Bouclier du Captain Amakna",
+      "en": "Captain Amakna Shield",
+      "pt": "Escudo do Capitão Amakna",
+      "de": "Schild von Captain Amakna",
+      "es": "Escudo de Capitán Amakna"
+    },
     "level": 200,
-    "panoply": "Panoplie des Justiciers",
+    "panoply": "674e523f64788cc7414183d7",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -171,8 +275,16 @@
       "criticalDamage": 5
     }
   },
-  "Derma Tho": {
-    "name": "Derma Tho",
+  "674e524164788cc74141b0b9": {
+    "id": "674e524164788cc74141b0b9",
+    "idShort": "We",
+    "name": {
+      "fr": "Derma Tho",
+      "en": "Derma Tho",
+      "pt": "Derma Tho",
+      "de": "Derma Tho",
+      "es": "Derma Thólobo"
+    },
     "level": 65,
     "category": "shield",
     "stats": {
@@ -184,8 +296,16 @@
       "apReduction": 4
     }
   },
-  "Bouclier du Bawbawe": {
-    "name": "Bouclier du Bawbawe",
+  "674e524164788cc74141b0ba": {
+    "id": "674e524164788cc74141b0ba",
+    "idShort": "Wf",
+    "name": {
+      "fr": "Bouclier du Bawbawe",
+      "en": "Bawbawian Shield",
+      "pt": "Escudo do Báwbawo",
+      "de": "Schild des Bawbawen",
+      "es": "Escudo del Báwbawo"
+    },
     "level": 60,
     "category": "shield",
     "stats": {
@@ -197,8 +317,16 @@
       "dodge": 6
     }
   },
-  "Le Karde Cœur": {
-    "name": "Le Karde Cœur",
+  "674e524164788cc74141b0bb": {
+    "id": "674e524164788cc74141b0bb",
+    "idShort": "Wg",
+    "name": {
+      "fr": "Le Karde Cœur",
+      "en": "Heart Quarter",
+      "pt": "Coração em Quatro",
+      "de": "Herz-Quartschen",
+      "es": "El Corazón Partido"
+    },
     "level": 105,
     "category": "shield",
     "stats": {
@@ -212,8 +340,16 @@
       "mpReduction": 6
     }
   },
-  "Bouclier des Brigandins": {
-    "name": "Bouclier des Brigandins",
+  "674e524164788cc74141b0bc": {
+    "id": "674e524164788cc74141b0bc",
+    "idShort": "Wh",
+    "name": {
+      "fr": "Bouclier des Brigandins",
+      "en": "Imp Shield",
+      "pt": "Escudo dos Diabretes",
+      "de": "Schild der Brigandiner",
+      "es": "Escudo de los salteadorillos"
+    },
     "level": 125,
     "category": "shield",
     "stats": {
@@ -226,8 +362,16 @@
       "waterResist": 30
     }
   },
-  "Bouclier du Mont Kipou": {
-    "name": "Bouclier du Mont Kipou",
+  "674e524164788cc74141b0bd": {
+    "id": "674e524164788cc74141b0bd",
+    "idShort": "Wi",
+    "name": {
+      "fr": "Bouclier du Mont Kipou",
+      "en": "Mount Stinkky Shield",
+      "pt": "Escudo do Monte Kifed",
+      "de": "Schild des O'Stinkus Mons",
+      "es": "Escudo del Monte Puaj"
+    },
     "level": 145,
     "category": "shield",
     "stats": {
@@ -240,16 +384,32 @@
       "mpReduction": 7
     }
   },
-  "Bouclier du Bûcheron": {
-    "name": "Bouclier du Bûcheron",
+  "674e524164788cc74141b0be": {
+    "id": "674e524164788cc74141b0be",
+    "idShort": "Wj",
+    "name": {
+      "fr": "Bouclier du Bûcheron",
+      "en": "Lumberjack Shield",
+      "pt": "Escudo do Lenhador",
+      "de": "Schild des Holzfällers",
+      "es": "Escudo de leñador"
+    },
     "level": 1,
     "category": "shield",
     "stats": {
       "health": 7
     }
   },
-  "Cadran d'Eau": {
-    "name": "Cadran d'Eau",
+  "674e524164788cc74141b0bf": {
+    "id": "674e524164788cc74141b0bf",
+    "idShort": "Wk",
+    "name": {
+      "fr": "Cadran d'Eau",
+      "en": "Water Dial",
+      "pt": "Quadrante de Água",
+      "de": "Wässrige Scheibe",
+      "es": "Esfera de agua"
+    },
     "level": 160,
     "category": "shield",
     "stats": {
@@ -261,8 +421,16 @@
       "mpReduction": 12
     }
   },
-  "Cadran de Terre": {
-    "name": "Cadran de Terre",
+  "674e524164788cc74141b0c0": {
+    "id": "674e524164788cc74141b0c0",
+    "idShort": "Wl",
+    "name": {
+      "fr": "Cadran de Terre",
+      "en": "Earth Dial",
+      "pt": "Quadrante de Terra",
+      "de": "Irdene Scheibe",
+      "es": "Esfera de tierra"
+    },
     "level": 165,
     "category": "shield",
     "stats": {
@@ -274,8 +442,16 @@
       "apReduction": 12
     }
   },
-  "Cadran d'Air": {
-    "name": "Cadran d'Air",
+  "674e524164788cc74141b0c1": {
+    "id": "674e524164788cc74141b0c1",
+    "idShort": "Wm",
+    "name": {
+      "fr": "Cadran d'Air",
+      "en": "Air Dial",
+      "pt": "Quadrante de Ar",
+      "de": "Luftige Scheibe",
+      "es": "Esfera de aire"
+    },
     "level": 170,
     "category": "shield",
     "stats": {
@@ -287,8 +463,16 @@
       "mpResist": 12
     }
   },
-  "Cadran de Feu": {
-    "name": "Cadran de Feu",
+  "674e524164788cc74141b0c2": {
+    "id": "674e524164788cc74141b0c2",
+    "idShort": "Wn",
+    "name": {
+      "fr": "Cadran de Feu",
+      "en": "Fire Dial",
+      "pt": "Quadrante de Fogo",
+      "de": "Feurige Scheibe",
+      "es": "Esfera de fuego"
+    },
     "level": 175,
     "category": "shield",
     "stats": {
@@ -300,8 +484,16 @@
       "apResist": 12
     }
   },
-  "Bouclier Pandawa": {
-    "name": "Bouclier Pandawa",
+  "674e524164788cc74141b0c3": {
+    "id": "674e524164788cc74141b0c3",
+    "idShort": "Wo",
+    "name": {
+      "fr": "Bouclier Pandawa",
+      "en": "Pandawa Shield",
+      "pt": "Escudo Pandawa",
+      "de": "Schild des Pandawa",
+      "es": "Escudo pandawa"
+    },
     "level": 150,
     "category": "shield",
     "stats": {
@@ -314,8 +506,16 @@
       "mpResist": 10
     }
   },
-  "Bouclier Abraknyde": {
-    "name": "Bouclier Abraknyde",
+  "674e524164788cc74141b0c4": {
+    "id": "674e524164788cc74141b0c4",
+    "idShort": "Wp",
+    "name": {
+      "fr": "Bouclier Abraknyde",
+      "en": "Treechnid Shield",
+      "pt": "Escudo de Arvraknídeo",
+      "de": "Schild des Astaknyden",
+      "es": "Escudo abráknido"
+    },
     "level": 45,
     "category": "shield",
     "stats": {
@@ -326,8 +526,16 @@
       "earthResist": 10
     }
   },
-  "Bouclier d'Asse": {
-    "name": "Bouclier d'Asse",
+  "674e524164788cc74141b0c5": {
+    "id": "674e524164788cc74141b0c5",
+    "idShort": "Wq",
+    "name": {
+      "fr": "Bouclier d'Asse",
+      "en": "Asse Shield",
+      "pt": "Escudo de Mota",
+      "de": "Schild der Assel",
+      "es": "Escudo Rano"
+    },
     "level": 105,
     "category": "shield",
     "stats": {
@@ -340,8 +548,16 @@
       "apReduction": 6
     }
   },
-  "Bouclier en Slip": {
-    "name": "Bouclier en Slip",
+  "674e524164788cc74141b0c6": {
+    "id": "674e524164788cc74141b0c6",
+    "idShort": "Wr",
+    "name": {
+      "fr": "Bouclier en Slip",
+      "en": "Shield in Briefs",
+      "pt": "Escudo de Cueca",
+      "de": "Schlüpferschild",
+      "es": "Escudo slip"
+    },
     "level": 120,
     "category": "shield",
     "stats": {
@@ -353,8 +569,16 @@
       "pushbackDamage": 30
     }
   },
-  "Bouclier du Sadida": {
-    "name": "Bouclier du Sadida",
+  "674e524164788cc74141b0c7": {
+    "id": "674e524164788cc74141b0c7",
+    "idShort": "Ws",
+    "name": {
+      "fr": "Bouclier du Sadida",
+      "en": "Sadida Shield",
+      "pt": "Escudo do Sadida",
+      "de": "Schild des Sadida",
+      "es": "Escudo del sadida"
+    },
     "level": 130,
     "category": "shield",
     "stats": {
@@ -368,8 +592,16 @@
       "mpReduction": 5
     }
   },
-  "Bouclier Ventaille": {
-    "name": "Bouclier Ventaille",
+  "674e524164788cc74141b0c8": {
+    "id": "674e524164788cc74141b0c8",
+    "idShort": "Wt",
+    "name": {
+      "fr": "Bouclier Ventaille",
+      "en": "Fan Shield",
+      "pt": "Escudo Ventilador",
+      "de": "Schildfächer",
+      "es": "Escudo ventiloso"
+    },
     "level": 140,
     "category": "shield",
     "stats": {
@@ -383,10 +615,18 @@
       "pushbackResist": 25
     }
   },
-  "Bouclier Akwadala": {
-    "name": "Bouclier Akwadala",
+  "674e524164788cc74141b0c9": {
+    "id": "674e524164788cc74141b0c9",
+    "idShort": "Wu",
+    "name": {
+      "fr": "Bouclier Akwadala",
+      "en": "Akwadala Shield",
+      "pt": "Escudo Akwadala",
+      "de": "Akwadala-Schild",
+      "es": "Escudo Akwadala"
+    },
     "level": 40,
-    "panoply": "Panoplie Akwadala",
+    "panoply": "674e523f64788cc7414180f4",
     "category": "shield",
     "stats": {
       "health": 40,
@@ -396,8 +636,16 @@
       "waterResistPer": 7
     }
   },
-  "Bouclier Taverne": {
-    "name": "Bouclier Taverne",
+  "674e524164788cc74141b0ca": {
+    "id": "674e524164788cc74141b0ca",
+    "idShort": "Wv",
+    "name": {
+      "fr": "Bouclier Taverne",
+      "en": "Inn Shield",
+      "pt": "Escudo Taberna",
+      "de": "Schild der Taverne",
+      "es": "Escudo taberna"
+    },
     "level": 155,
     "category": "shield",
     "stats": {
@@ -409,8 +657,16 @@
       "pushbackDamage": 30
     }
   },
-  "Ftalmo": {
-    "name": "Ftalmo",
+  "674e524164788cc74141b0cb": {
+    "id": "674e524164788cc74141b0cb",
+    "idShort": "Ww",
+    "name": {
+      "fr": "Ftalmo",
+      "en": "Phtalmo",
+      "pt": "Ftalmo",
+      "de": "O Ftalmo!",
+      "es": "Ftalmo"
+    },
     "level": 90,
     "category": "shield",
     "stats": {
@@ -422,8 +678,16 @@
       "mpReduction": 6
     }
   },
-  "Bouclier de Sidimote": {
-    "name": "Bouclier de Sidimote",
+  "674e524164788cc74141b0cc": {
+    "id": "674e524164788cc74141b0cc",
+    "idShort": "Wx",
+    "name": {
+      "fr": "Bouclier de Sidimote",
+      "en": "Sidimote Shield",
+      "pt": "Escudo de Sidimote",
+      "de": "Schild von Sidimot",
+      "es": "Escudo de Sidimote"
+    },
     "level": 80,
     "category": "shield",
     "stats": {
@@ -436,8 +700,16 @@
       "pushbackDamage": 10
     }
   },
-  "Bouclier Fi'Squale": {
-    "name": "Bouclier Fi'Squale",
+  "674e524164788cc74141b0cd": {
+    "id": "674e524164788cc74141b0cd",
+    "idShort": "Wy",
+    "name": {
+      "fr": "Bouclier Fi'Squale",
+      "en": "Sharkal Shield",
+      "pt": "Escudo Tubaral",
+      "de": "S'Teuer-Schild",
+      "es": "Escudo Fi'Squal"
+    },
     "level": 50,
     "category": "shield",
     "stats": {
@@ -449,10 +721,18 @@
       "pushbackResist": 40
     }
   },
-  "Bouclistik": {
-    "name": "Bouclistik",
+  "674e524164788cc74141b0ce": {
+    "id": "674e524164788cc74141b0ce",
+    "idShort": "Wz",
+    "name": {
+      "fr": "Bouclistik",
+      "en": "Shieldtastik",
+      "pt": "Escudístika",
+      "de": "Schildistik",
+      "es": "Escudístiko"
+    },
     "level": 200,
-    "panoply": "Panoplistik",
+    "panoply": "674e523f64788cc741418201",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -466,10 +746,18 @@
       "meleeResistPer": 7
     }
   },
-  "Écorce de Brouce": {
-    "name": "Écorce de Brouce",
+  "674e524164788cc74141b0cf": {
+    "id": "674e524164788cc74141b0cf",
+    "idShort": "WA",
+    "name": {
+      "fr": "Écorce de Brouce",
+      "en": "Broucey Bark",
+      "pt": "Casca de Bruce",
+      "de": "Bruce-Rinde",
+      "es": "Corteza de Brus"
+    },
     "level": 196,
-    "panoply": "Panoplie de Brouce Boulgoure",
+    "panoply": "674e523f64788cc74141817c",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -482,8 +770,16 @@
       "dodge": 7
     }
   },
-  "Roncier": {
-    "name": "Roncier",
+  "674e524164788cc74141b0d0": {
+    "id": "674e524164788cc74141b0d0",
+    "idShort": "WB",
+    "name": {
+      "fr": "Roncier",
+      "en": "Brambler",
+      "pt": "Espinhudo",
+      "de": "Stachelschild",
+      "es": "Zarzal"
+    },
     "level": 180,
     "category": "shield",
     "stats": {
@@ -498,8 +794,16 @@
       "mpReduction": 10
     }
   },
-  "La Rondelle": {
-    "name": "La Rondelle",
+  "674e524164788cc74141b0d1": {
+    "id": "674e524164788cc74141b0d1",
+    "idShort": "WC",
+    "name": {
+      "fr": "La Rondelle",
+      "en": "Cawwot Wound",
+      "pt": "Rodela",
+      "de": "Das Rondell",
+      "es": "La Rodaja"
+    },
     "level": 185,
     "category": "shield",
     "stats": {
@@ -512,8 +816,16 @@
       "pushbackResist": 50
     }
   },
-  "Ambrouclier": {
-    "name": "Ambrouclier",
+  "674e524164788cc74141b0d2": {
+    "id": "674e524164788cc74141b0d2",
+    "idShort": "WD",
+    "name": {
+      "fr": "Ambrouclier",
+      "en": "Ambuckler",
+      "pt": "Ambascudo",
+      "de": "Bernsteinschild",
+      "es": "Escudámbar"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -527,8 +839,16 @@
       "apReduction": 12
     }
   },
-  "Jadis": {
-    "name": "Jadis",
+  "674e524164788cc74141b0d3": {
+    "id": "674e524164788cc74141b0d3",
+    "idShort": "WE",
+    "name": {
+      "fr": "Jadis",
+      "en": "Wunsupon",
+      "pt": "Outrora",
+      "de": "Eswareinma",
+      "es": "Antaño"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -544,8 +864,16 @@
       "rangedResistPer": 5
     }
   },
-  "Bouclier du serrurier": {
-    "name": "Bouclier du serrurier",
+  "674e524164788cc74141b0d4": {
+    "id": "674e524164788cc74141b0d4",
+    "idShort": "WF",
+    "name": {
+      "fr": "Bouclier du serrurier",
+      "en": "Locksmith Shield",
+      "pt": "Escudo do Serralheiro",
+      "de": "Schild des Schlossers",
+      "es": "Escudo del cerrajero"
+    },
     "level": 190,
     "category": "shield",
     "stats": {
@@ -560,8 +888,16 @@
       "rangedResistPer": 4
     }
   },
-  "Carapar": {
-    "name": "Carapar",
+  "674e524164788cc74141b0d5": {
+    "id": "674e524164788cc74141b0d5",
+    "idShort": "WG",
+    "name": {
+      "fr": "Carapar",
+      "en": "Shelld",
+      "pt": "Carapacas",
+      "de": "Panzerschild",
+      "es": "Parazón"
+    },
     "level": 192,
     "category": "shield",
     "stats": {
@@ -574,8 +910,16 @@
       "rangedResistPer": 5
     }
   },
-  "Quatre-feuilles": {
-    "name": "Quatre-feuilles",
+  "674e524164788cc74141b0d6": {
+    "id": "674e524164788cc74141b0d6",
+    "idShort": "WH",
+    "name": {
+      "fr": "Quatre-feuilles",
+      "en": "Four-Leaf",
+      "pt": "Quatro-folhas",
+      "de": "Vierpass",
+      "es": "Cuadrifolio"
+    },
     "level": 193,
     "category": "shield",
     "stats": {
@@ -587,10 +931,18 @@
       "criticalResist": 16
     }
   },
-  "Sept ans de malheur": {
-    "name": "Sept ans de malheur",
+  "674e524164788cc74141b0d7": {
+    "id": "674e524164788cc74141b0d7",
+    "idShort": "WI",
+    "name": {
+      "fr": "Sept ans de malheur",
+      "en": "Seven Years Bad Luck",
+      "pt": "Sete Anos de Azar",
+      "de": "Sieben Jahre Pech",
+      "es": "Siete años de mala suerte"
+    },
     "level": 194,
-    "panoply": "Panoplie Superstitieuse",
+    "panoply": "674e523f64788cc7414183fa",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -603,8 +955,16 @@
       "apReduction": 7
     }
   },
-  "Détourné": {
-    "name": "Détourné",
+  "674e524164788cc74141b0d8": {
+    "id": "674e524164788cc74141b0d8",
+    "idShort": "WJ",
+    "name": {
+      "fr": "Détourné",
+      "en": "Upcykld",
+      "pt": "Desviado",
+      "de": "Zweckentfremdet",
+      "es": "Desorientado"
+    },
     "level": 195,
     "category": "shield",
     "stats": {
@@ -618,10 +978,18 @@
       "rangedResistPer": 4
     }
   },
-  "Bivalve": {
-    "name": "Bivalve",
+  "674e524164788cc74141b0d9": {
+    "id": "674e524164788cc74141b0d9",
+    "idShort": "WK",
+    "name": {
+      "fr": "Bivalve",
+      "en": "Bivalve",
+      "pt": "Bivalve",
+      "de": "Miesmuschel",
+      "es": "Bivalva"
+    },
     "level": 197,
-    "panoply": "Panoplie du frigostien douteux",
+    "panoply": "674e523f64788cc7414183fb",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -636,8 +1004,16 @@
       "pushbackDamage": 35
     }
   },
-  "Bouclier à hélice": {
-    "name": "Bouclier à hélice",
+  "674e524164788cc74141b0df": {
+    "id": "674e524164788cc74141b0df",
+    "idShort": "WL",
+    "name": {
+      "fr": "Bouclier à hélice",
+      "en": "Proplr Shield",
+      "pt": "Escudo com Hélice",
+      "de": "Propellerschild",
+      "es": "Escudo con hélice"
+    },
     "level": 191,
     "category": "shield",
     "stats": {
@@ -653,8 +1029,16 @@
       "rangedResistPer": 5
     }
   },
-  "Bouclier du Chafer fantassin": {
-    "name": "Bouclier du Chafer fantassin",
+  "674e524164788cc74141b0e0": {
+    "id": "674e524164788cc74141b0e0",
+    "idShort": "WM",
+    "name": {
+      "fr": "Bouclier du Chafer fantassin",
+      "en": "Chafer Foot Soldier's Shield",
+      "pt": "Escudo do Chafer de Infantaria",
+      "de": "Schild des Chafer-Infanteristen",
+      "es": "Escudo de chafer infante"
+    },
     "level": 35,
     "category": "shield",
     "stats": {
@@ -664,8 +1048,16 @@
       "neutralResist": 15
     }
   },
-  "Bouclier cubiste": {
-    "name": "Bouclier cubiste",
+  "674e524164788cc74141b0e1": {
+    "id": "674e524164788cc74141b0e1",
+    "idShort": "WN",
+    "name": {
+      "fr": "Bouclier cubiste",
+      "en": "Cubist Shield",
+      "pt": "Escudo Cubista",
+      "de": "Kubistischer Schild",
+      "es": "Escudo cubista"
+    },
     "level": 198,
     "category": "shield",
     "stats": {
@@ -679,10 +1071,18 @@
       "mpReduction": 12
     }
   },
-  "Bouclier alvéolé": {
-    "name": "Bouclier alvéolé",
+  "674e524164788cc74141b0e2": {
+    "id": "674e524164788cc74141b0e2",
+    "idShort": "WO",
+    "name": {
+      "fr": "Bouclier alvéolé",
+      "en": "Honeycomb Shield",
+      "pt": "Escudo Alveolado",
+      "de": "Wabenschild",
+      "es": "Escudo alveolado"
+    },
     "level": 199,
-    "panoply": "Panoplie de l'Apiculteur",
+    "panoply": "674e523f64788cc7414183f1",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -698,10 +1098,18 @@
       "pushbackResist": 20
     }
   },
-  "Bouclier du Chef Crocodaille": {
-    "name": "Bouclier du Chef Crocodaille",
+  "674e524164788cc74141b0e3": {
+    "id": "674e524164788cc74141b0e3",
+    "idShort": "WP",
+    "name": {
+      "fr": "Bouclier du Chef Crocodaille",
+      "en": "Crocodyl Chief Shield",
+      "pt": "Escudo do Chefe Crocodyl",
+      "de": "Schild des Chef-Crocodylls",
+      "es": "Escudo de jefe cocodrail"
+    },
     "level": 70,
-    "panoply": "Panoplie du Chef Crocodaille",
+    "panoply": "674e523f64788cc7414180e6",
     "category": "shield",
     "stats": {
       "health": 70,
@@ -713,16 +1121,32 @@
       "waterResistPer": 6
     }
   },
-  "Bouclier du tournesol sauvage": {
-    "name": "Bouclier du tournesol sauvage",
+  "674e524164788cc74141b0e4": {
+    "id": "674e524164788cc74141b0e4",
+    "idShort": "WQ",
+    "name": {
+      "fr": "Bouclier du tournesol sauvage",
+      "en": "Wild Sunflower Shield",
+      "pt": "Escudo do Girassol Selvagem",
+      "de": "Schild der wilden Sonnenblume",
+      "es": "Escudo del girasol salvaje"
+    },
     "level": 5,
     "category": "shield",
     "stats": {
       "criticalChance": 3
     }
   },
-  "Bouclier du Stalak": {
-    "name": "Bouclier du Stalak",
+  "674e524164788cc74141b0e5": {
+    "id": "674e524164788cc74141b0e5",
+    "idShort": "WR",
+    "name": {
+      "fr": "Bouclier du Stalak",
+      "en": "Stalak Shield",
+      "pt": "Escudo do Stalak",
+      "de": "Stalak-Schild",
+      "es": "Escudo de estalarkmis"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -737,10 +1161,18 @@
       "rangedResistPer": 4
     }
   },
-  "Bouclier du Cycloïde": {
-    "name": "Bouclier du Cycloïde",
+  "674e524164788cc74141b0e7": {
+    "id": "674e524164788cc74141b0e7",
+    "idShort": "WS",
+    "name": {
+      "fr": "Bouclier du Cycloïde",
+      "en": "Cycloid Shield",
+      "pt": "Escudo do Cicloide",
+      "de": "Zykloid-Schild",
+      "es": "Escudo de kukoloide"
+    },
     "level": 200,
-    "panoply": "Panoplie du Cycloïde",
+    "panoply": "674e523f64788cc741418196",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -755,10 +1187,18 @@
       "lock": 10
     }
   },
-  "Bouclier d'Anerice": {
-    "name": "Bouclier d'Anerice",
+  "674e524164788cc74141b1d8": {
+    "id": "674e524164788cc74141b1d8",
+    "idShort": "WT",
+    "name": {
+      "fr": "Bouclier d'Anerice",
+      "en": "Anerice Shield",
+      "pt": "Escudo de Anerrais",
+      "de": "Schild von Anerice",
+      "es": "Escudo de Anerice"
+    },
     "level": 200,
-    "panoply": "Panoplie d'Anerice",
+    "panoply": "674e523f64788cc741418205",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -770,10 +1210,18 @@
       "meleeResistPer": 10
     }
   },
-  "Goulclier": {
-    "name": "Goulclier",
+  "674e524164788cc74141b1db": {
+    "id": "674e524164788cc74141b1db",
+    "idShort": "WU",
+    "name": {
+      "fr": "Goulclier",
+      "en": "Goulshield",
+      "pt": "Carniscudo",
+      "de": "Ghulschild",
+      "es": "Ghulscudo"
+    },
     "level": 200,
-    "panoply": "Panoplie de la Goule",
+    "panoply": "674e523f64788cc741418206",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -788,10 +1236,18 @@
       "criticalResist": 30
     }
   },
-  "Bouclier de Choudini": {
-    "name": "Bouclier de Choudini",
+  "674e524164788cc74141b1df": {
+    "id": "674e524164788cc74141b1df",
+    "idShort": "WV",
+    "name": {
+      "fr": "Bouclier de Choudini",
+      "en": "Cauldini Shield",
+      "pt": "Escudo de Couvefield",
+      "de": "Helmukols Schild",
+      "es": "Escudo de Judini"
+    },
     "level": 90,
-    "panoply": "Panoplie de Choudini",
+    "panoply": "674e523f64788cc741418208",
     "category": "shield",
     "stats": {
       "health": 90,
@@ -804,17 +1260,33 @@
       "criticalDamage": 7
     }
   },
-  "Bouclier Invisible": {
-    "name": "Bouclier Invisible",
+  "674e524164788cc74141b1f5": {
+    "id": "674e524164788cc74141b1f5",
+    "idShort": "WW",
+    "name": {
+      "fr": "Bouclier Invisible",
+      "en": "Invisible Shield",
+      "pt": "Escudo Invisível",
+      "de": "Unsichtbarer Schild",
+      "es": "Escudo invisible"
+    },
     "level": 20,
-    "panoply": "Panoplie Invisible",
+    "panoply": "674e523f64788cc7414181de",
     "category": "shield",
     "stats": {
       "health": 40
     }
   },
-  "Bouclier Bontarien": {
-    "name": "Bouclier Bontarien",
+  "674e524164788cc74141b27c": {
+    "id": "674e524164788cc74141b27c",
+    "idShort": "WX",
+    "name": {
+      "fr": "Bouclier Bontarien",
+      "en": "Bontarian Shield",
+      "pt": "Escudo Bontariano",
+      "de": "Bonta-Schild",
+      "es": "Escudo bontariano"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -829,8 +1301,16 @@
       "rangedResistPer": 5
     }
   },
-  "Bouclier Brâkmarien": {
-    "name": "Bouclier Brâkmarien",
+  "674e524164788cc74141b27d": {
+    "id": "674e524164788cc74141b27d",
+    "idShort": "WY",
+    "name": {
+      "fr": "Bouclier Brâkmarien",
+      "en": "Brakmarian Shield",
+      "pt": "Escudo Brakmariano",
+      "de": "Brâkmar-Schild",
+      "es": "Escudo brakmariano"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -845,10 +1325,18 @@
       "meleeResistPer": 7
     }
   },
-  "Bouclier d'Ilyzaelle": {
-    "name": "Bouclier d'Ilyzaelle",
+  "674e524164788cc74141b280": {
+    "id": "674e524164788cc74141b280",
+    "idShort": "WZ",
+    "name": {
+      "fr": "Bouclier d'Ilyzaelle",
+      "en": "Ilyzaelle Shield",
+      "pt": "Escudo de Ilyzaelle",
+      "de": "Ilyzaelles Schild",
+      "es": "Escudo de Ilyzaelle"
+    },
     "level": 200,
-    "panoply": "Panoplie d'Ilyzaelle",
+    "panoply": "674e523f64788cc741418211",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -862,10 +1350,18 @@
       "mpResist": 10
     }
   },
-  "Bouclier de Solar": {
-    "name": "Bouclier de Solar",
+  "674e524164788cc74141b3a1": {
+    "id": "674e524164788cc74141b3a1",
+    "idShort": "X0",
+    "name": {
+      "fr": "Bouclier de Solar",
+      "en": "Solar's Shield",
+      "pt": "Escudo de Solar",
+      "de": "Solars Schild",
+      "es": "Escudo de Solar"
+    },
     "level": 200,
-    "panoply": "Panoplie Volcanique",
+    "panoply": "674e523f64788cc741418214",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -877,8 +1373,16 @@
       "pushbackResist": 80
     }
   },
-  "Droiture de Fallanster": {
-    "name": "Droiture de Fallanster",
+  "674e524164788cc74141b673": {
+    "id": "674e524164788cc74141b673",
+    "idShort": "X1",
+    "name": {
+      "fr": "Droiture de Fallanster",
+      "en": "Fallanster's Rectitude",
+      "pt": "Retidão de Fallanster",
+      "de": "Rechtschaffenheit von Fallanster",
+      "es": "Rectitud de Fallanster"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -893,8 +1397,16 @@
       "rangedResistPer": 10
     }
   },
-  "Trompe-la-Mort": {
-    "name": "Trompe-la-Mort",
+  "674e524164788cc74141b674": {
+    "id": "674e524164788cc74141b674",
+    "idShort": "X2",
+    "name": {
+      "fr": "Trompe-la-Mort",
+      "en": "Death-Defying",
+      "pt": "Engana-a-Morte",
+      "de": "Todesverachter",
+      "es": "Burlador de la Muerte"
+    },
     "level": 200,
     "category": "shield",
     "stats": {
@@ -909,10 +1421,18 @@
       "pushbackResist": -100
     }
   },
-  "Bouclier des Chocomanciens": {
-    "name": "Bouclier des Chocomanciens",
+  "674e524164788cc74141b846": {
+    "id": "674e524164788cc74141b846",
+    "idShort": "X3",
+    "name": {
+      "fr": "Bouclier des Chocomanciens",
+      "en": "Chocomancer Shield",
+      "pt": "Escudo dos Chocomantes",
+      "de": "Schokomantenschild",
+      "es": "Escudo de chocomante"
+    },
     "level": 200,
-    "panoply": "Panoplie des Chocomanciens",
+    "panoply": "674e523f64788cc74141821c",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -928,10 +1448,18 @@
       "mpReduction": 15
     }
   },
-  "Croclier": {
-    "name": "Croclier",
+  "674e524164788cc74141b95b": {
+    "id": "674e524164788cc74141b95b",
+    "idShort": "X4",
+    "name": {
+      "fr": "Croclier",
+      "en": "Crocoshield",
+      "pt": "Crocoescudo",
+      "de": "Croschild",
+      "es": "Cocoscudo"
+    },
     "level": 200,
-    "panoply": "Panoplie de Crocuzko",
+    "panoply": "674e523f64788cc7414183df",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -943,10 +1471,18 @@
       "mpResist": 12
     }
   },
-  "Forteresse de Guerre": {
-    "name": "Forteresse de Guerre",
+  "674e524164788cc74141bcee": {
+    "id": "674e524164788cc74141bcee",
+    "idShort": "X5",
+    "name": {
+      "fr": "Forteresse de Guerre",
+      "en": "War's Fortress",
+      "pt": "Fortaleza de Guerra",
+      "de": "Kriegs Festung",
+      "es": "Fortaleza de Guerra"
+    },
     "level": 200,
-    "panoply": "Panoplie de Guerre",
+    "panoply": "674e523f64788cc741418223",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -960,10 +1496,18 @@
       "mpReduction": 10
     }
   },
-  "Bulbouclier": {
-    "name": "Bulbouclier",
+  "674e524164788cc74141bf1f": {
+    "id": "674e524164788cc74141bf1f",
+    "idShort": "X7",
+    "name": {
+      "fr": "Bulbouclier",
+      "en": "Bulbuckler",
+      "pt": "Bulbescudo",
+      "de": "Knollenschild",
+      "es": "Bulbescudo"
+    },
     "level": 110,
-    "panoply": "Panoplie Plantala",
+    "panoply": "674e523f64788cc741418226",
     "category": "shield",
     "stats": {
       "health": 110,
@@ -977,8 +1521,16 @@
       "airResist": 5
     }
   },
-  "Bouclier d'entraînement au Pandasiman": {
-    "name": "Bouclier d'entraînement au Pandasiman",
+  "674e524164788cc74141c00b": {
+    "id": "674e524164788cc74141c00b",
+    "idShort": "X8",
+    "name": {
+      "fr": "Bouclier d'entraînement au Pandasiman",
+      "en": "Pandasiman Training Shield",
+      "pt": "Escudo de Treinamento de Pandasiman",
+      "de": "Pandasiman-Übungsschild",
+      "es": "Escudo de práctica del Pandasiman"
+    },
     "level": 130,
     "category": "shield",
     "stats": {
@@ -986,10 +1538,18 @@
       "dodge": -10
     }
   },
-  "Bouclier du Yokomaïnu": {
-    "name": "Bouclier du Yokomaïnu",
+  "674e524164788cc74141c07a": {
+    "id": "674e524164788cc74141c07a",
+    "idShort": "X9",
+    "name": {
+      "fr": "Bouclier du Yokomaïnu",
+      "en": "Yokomainu Shield",
+      "pt": "Escudo do Yokomainu",
+      "de": "Schild des Yokomainu",
+      "es": "Escudo de yokomainu"
+    },
     "level": 155,
-    "panoply": "Panoplie de Brume",
+    "panoply": "674e523f64788cc74141822c",
     "category": "shield",
     "stats": {
       "health": 160,
@@ -1005,10 +1565,18 @@
       "apReduction": 6
     }
   },
-  "Bouclier Possédé": {
-    "name": "Bouclier Possédé",
+  "674e524164788cc74141c370": {
+    "id": "674e524164788cc74141c370",
+    "idShort": "Xa",
+    "name": {
+      "fr": "Bouclier Possédé",
+      "en": "Possessed Shield",
+      "pt": "Escudo Possuído",
+      "de": "Besessener Schild",
+      "es": "Escudo poseído"
+    },
     "level": 200,
-    "panoply": "Panoplie Possédée",
+    "panoply": "674e523f64788cc741418230",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1021,10 +1589,18 @@
       "pushbackDamage": 30
     }
   },
-  "Bouclier Gris": {
-    "name": "Bouclier Gris",
+  "674e524164788cc74141c942": {
+    "id": "674e524164788cc74141c942",
+    "idShort": "Xb",
+    "name": {
+      "fr": "Bouclier Gris",
+      "en": "Bitter-Shield",
+      "pt": "Escudo Amargo",
+      "de": "Saugrauer Schild",
+      "es": "Escudo seco"
+    },
     "level": 194,
-    "panoply": "Panoplie des Marteaux-Aigris",
+    "panoply": "674e523f64788cc741418242",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1037,10 +1613,18 @@
       "meleeResistPer": 6
     }
   },
-  "Mur de Ronces": {
-    "name": "Mur de Ronces",
+  "674e524164788cc74141c949": {
+    "id": "674e524164788cc74141c949",
+    "idShort": "Xc",
+    "name": {
+      "fr": "Mur de Ronces",
+      "en": "Bramble Wall",
+      "pt": "Muro de Sarças",
+      "de": "Brombimsmauer",
+      "es": "Pared de zarzas"
+    },
     "level": 200,
-    "panoply": "Maléfices d'Ephedrya",
+    "panoply": "674e523f64788cc741418240",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1053,18 +1637,34 @@
       "criticalResist": 20
     }
   },
-  "Bouclier Tonbarien": {
-    "name": "Bouclier Tonbarien",
+  "674e524164788cc74141cdc4": {
+    "id": "674e524164788cc74141cdc4",
+    "idShort": "Xf",
+    "name": {
+      "fr": "Bouclier Tonbarien",
+      "en": "Tonbarian Shield",
+      "pt": "Escudo Tonbariano",
+      "de": "Tonba-Schild",
+      "es": "Escudo tombariano"
+    },
     "level": 15,
     "category": "shield",
     "stats": {
       "initiative": 150
     }
   },
-  "Égide d'Allister": {
-    "name": "Égide d'Allister",
+  "674e524164788cc74141cec9": {
+    "id": "674e524164788cc74141cec9",
+    "idShort": "Xg",
+    "name": {
+      "fr": "Égide d'Allister",
+      "en": "Allister's Aegis",
+      "pt": "Égide de Allister",
+      "de": "Allisters Ägide",
+      "es": "Égida de Allister"
+    },
     "level": 197,
-    "panoply": "Panoplie d'Allister",
+    "panoply": "674e523f64788cc74141817f",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1077,10 +1677,18 @@
       "mpResist": 7
     }
   },
-  "Bouclier hérissé du Prespic": {
-    "name": "Bouclier hérissé du Prespic",
+  "674e524164788cc74141d11f": {
+    "id": "674e524164788cc74141d11f",
+    "idShort": "Xh",
+    "name": {
+      "fr": "Bouclier hérissé du Prespic",
+      "en": "Spiky Prespic Shield",
+      "pt": "Escudo Eriçado do Prespic",
+      "de": "Stachelbewehrter Schild des Prespiks",
+      "es": "Escudo erizado de prespic"
+    },
     "level": 35,
-    "panoply": "Panoplie du Prespic",
+    "panoply": "674e523f64788cc7414180f1",
     "category": "shield",
     "stats": {
       "health": 35,
@@ -1089,10 +1697,18 @@
       "reflect": 4
     }
   },
-  "Bouclier Ponyme": {
-    "name": "Bouclier Ponyme",
+  "674e524164788cc74141d120": {
+    "id": "674e524164788cc74141d120",
+    "idShort": "Xi",
+    "name": {
+      "fr": "Bouclier Ponyme",
+      "en": "Ponym Shield",
+      "pt": "Escudo Pônimo",
+      "de": "Gleichnam-Schild",
+      "es": "Escudo Mónimo"
+    },
     "level": 200,
-    "panoply": "Panoplie du Wukang",
+    "panoply": "674e523f64788cc74141822e",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1110,10 +1726,18 @@
       "criticalResist": 15
     }
   },
-  "Carapace Onance": {
-    "name": "Carapace Onance",
+  "674e524164788cc74141d121": {
+    "id": "674e524164788cc74141d121",
+    "idShort": "Xj",
+    "name": {
+      "fr": "Carapace Onance",
+      "en": "Onance Carapace",
+      "pt": "Carapaça Onância",
+      "de": "Gleichklang-Panzer",
+      "es": "Caparazón ancia"
+    },
     "level": 200,
-    "panoply": "Panoplie du Wukin",
+    "panoply": "674e523f64788cc74141822d",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1131,8 +1755,16 @@
       "pushbackResist": 15
     }
   },
-  "Bélier du Royalmouth": {
-    "name": "Bélier du Royalmouth",
+  "674e524164788cc74141d122": {
+    "id": "674e524164788cc74141d122",
+    "idShort": "Xk",
+    "name": {
+      "fr": "Bélier du Royalmouth",
+      "en": "Royal Mastogob Ram",
+      "pt": "Aríete do Papamute Real",
+      "de": "Rammbock des Königlichen Fressmuts",
+      "es": "Ariete del Jalamut Real"
+    },
     "level": 135,
     "category": "shield",
     "stats": {
@@ -1147,8 +1779,16 @@
       "pushbackResist": 20
     }
   },
-  "Bouclier de Boufbowler Bontarien": {
-    "name": "Bouclier de Boufbowler Bontarien",
+  "674e524164788cc74141d123": {
+    "id": "674e524164788cc74141d123",
+    "idShort": "Xl",
+    "name": {
+      "fr": "Bouclier de Boufbowler Bontarien",
+      "en": "Bontarian Gobbowler Shield",
+      "pt": "Escudo do Papabolista Bontariano",
+      "de": "Schild eines Bonta-Fressballers",
+      "es": "Escudo de jalabolista bontariano"
+    },
     "level": 135,
     "category": "shield",
     "stats": {
@@ -1164,8 +1804,16 @@
       "mpResist": 7
     }
   },
-  "Bouclier de Boufbowler Brâkmarien": {
-    "name": "Bouclier de Boufbowler Brâkmarien",
+  "674e524164788cc74141d124": {
+    "id": "674e524164788cc74141d124",
+    "idShort": "Xm",
+    "name": {
+      "fr": "Bouclier de Boufbowler Brâkmarien",
+      "en": "Brakmarian Gobbowler Shield",
+      "pt": "Escudo do Papabolista Brakmariano",
+      "de": "Schild eines Brâk-Fressballers",
+      "es": "Escudo de jalabolista brakmariano"
+    },
     "level": 135,
     "category": "shield",
     "stats": {
@@ -1181,10 +1829,18 @@
       "pushbackResist": 15
     }
   },
-  "Cuirasse Royale du Bouftou": {
-    "name": "Cuirasse Royale du Bouftou",
+  "674e524164788cc74141d125": {
+    "id": "674e524164788cc74141d125",
+    "idShort": "Xn",
+    "name": {
+      "fr": "Cuirasse Royale du Bouftou",
+      "en": "Royal Gobball Cuirass",
+      "pt": "Couraça Real do Papatudo",
+      "de": "Königliche Fresssack-Panzerung",
+      "es": "Coraza real de jalató"
+    },
     "level": 30,
-    "panoply": "Panoplie du Bouftou Royal",
+    "panoply": "674e523f64788cc7414180d6",
     "category": "shield",
     "stats": {
       "health": 30,
@@ -1193,8 +1849,16 @@
       "fireResistPer": 3
     }
   },
-  "Doritoclier": {
-    "name": "Doritoclier",
+  "674e524164788cc74141d126": {
+    "id": "674e524164788cc74141d126",
+    "idShort": "Xo",
+    "name": {
+      "fr": "Doritoclier",
+      "en": "Crispy Targe",
+      "pt": "Doritoscudo",
+      "de": "Doritoschild",
+      "es": "Doritoscudo"
+    },
     "level": 80,
     "category": "shield",
     "stats": {
@@ -1206,10 +1870,18 @@
       "pushbackResist": -30
     }
   },
-  "Fiole d'Otomaï": {
-    "name": "Fiole d'Otomaï",
+  "674e524164788cc74141d127": {
+    "id": "674e524164788cc74141d127",
+    "idShort": "Xp",
+    "name": {
+      "fr": "Fiole d'Otomaï",
+      "en": "Otomai's Vial",
+      "pt": "Frasco de Otomai",
+      "de": "Otomaïs Phiole",
+      "es": "Frasco de Otomai"
+    },
     "level": 196,
-    "panoply": "Panoplie d'Otomaï",
+    "panoply": "674e523f64788cc74141817d",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1222,10 +1894,18 @@
       "apResist": 7
     }
   },
-  "L'Écu de Danathor": {
-    "name": "L'Écu de Danathor",
+  "674e524164788cc74141d128": {
+    "id": "674e524164788cc74141d128",
+    "idShort": "Xq",
+    "name": {
+      "fr": "L'Écu de Danathor",
+      "en": "Danathor's Escutcheon",
+      "pt": "Escudo de Danathor",
+      "de": "Danathors Wappenschild",
+      "es": "Escudo de Danathor"
+    },
     "level": 195,
-    "panoply": "Panoplie de Danathor",
+    "panoply": "674e523f64788cc74141817e",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1238,18 +1918,34 @@
       "lock": 7
     }
   },
-  "Le Blanclier": {
-    "name": "Le Blanclier",
+  "674e524164788cc74141d129": {
+    "id": "674e524164788cc74141d129",
+    "idShort": "Xr",
+    "name": {
+      "fr": "Le Blanclier",
+      "en": "Blanckler",
+      "pt": "Blankscudo",
+      "de": "Weißchild",
+      "es": "El Blancoscudo"
+    },
     "level": 15,
     "category": "shield",
     "stats": {
       "summon": 1
     }
   },
-  "Pupille de Madura": {
-    "name": "Pupille de Madura",
+  "674e524164788cc74141d12a": {
+    "id": "674e524164788cc74141d12a",
+    "idShort": "Xs",
+    "name": {
+      "fr": "Pupille de Madura",
+      "en": "Madura Pupil",
+      "pt": "Pupila de Maruda",
+      "de": "Maduras Pupille",
+      "es": "Pupila de majaro"
+    },
     "level": 160,
-    "panoply": "Panoplie des Tombeaux",
+    "panoply": "674e523f64788cc74141822b",
     "category": "shield",
     "stats": {
       "health": 160,
@@ -1265,8 +1961,16 @@
       "pushbackResist": 20
     }
   },
-  "Pupitre de Virgil": {
-    "name": "Pupitre de Virgil",
+  "674e524164788cc74141d12b": {
+    "id": "674e524164788cc74141d12b",
+    "idShort": "Xt",
+    "name": {
+      "fr": "Pupitre de Virgil",
+      "en": "Virgil's Lectern",
+      "pt": "Púlpito de Virgílio",
+      "de": "Virgils Pult",
+      "es": "Pupitre de Virgilio"
+    },
     "level": 115,
     "category": "shield",
     "stats": {
@@ -1279,10 +1983,18 @@
       "mpResist": 7
     }
   },
-  "La Halte Efkat": {
-    "name": "La Halte Efkat",
+  "674e524164788cc74141d133": {
+    "id": "674e524164788cc74141d133",
+    "idShort": "Xu",
+    "name": {
+      "fr": "La Halte Efkat",
+      "en": "Halt Efkat",
+      "pt": "Parada Efkuatro",
+      "de": "Eff Fia",
+      "es": "El Halt Efkuat"
+    },
     "level": 1,
-    "panoply": "Panoplie du Boune",
+    "panoply": "674e523f64788cc741418116",
     "category": "shield",
     "stats": {
       "neutralResist": 1,
@@ -1292,10 +2004,18 @@
       "airResist": 1
     }
   },
-  "Paravoile de Mama Ayuto": {
-    "name": "Paravoile de Mama Ayuto",
+  "674e524164788cc74141d1cc": {
+    "id": "674e524164788cc74141d1cc",
+    "idShort": "Xv",
+    "name": {
+      "fr": "Paravoile de Mama Ayuto",
+      "en": "Mama Ayuto's Parasail",
+      "pt": "Parapente da Mama Ayuto",
+      "de": "Mama Ayutos Gleiter",
+      "es": "Paravela de Mami Ayuto"
+    },
     "level": 200,
-    "panoply": "Panoplie de Mama Ayuto",
+    "panoply": "674e523f64788cc7414183db",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1309,10 +2029,18 @@
       "pushbackDamage": 30
     }
   },
-  "Blindage du Supervizœuf": {
-    "name": "Blindage du Supervizœuf",
+  "687f71551c815173560617f2": {
+    "id": "687f71551c815173560617f2",
+    "idShort": "Xw",
+    "name": {
+      "fr": "Blindage du Supervizœuf",
+      "en": "Bzzegg Supervisor's Armour-Plating",
+      "pt": "Blindagem do Supervizovo",
+      "de": "Panzerung des Supervizeis",
+      "es": "Blindaje del Bzupervibzor"
+    },
     "level": 182,
-    "panoply": "Panoplie du Supervizœuf",
+    "panoply": "687f71541c815173560616bb",
     "category": "shield",
     "stats": {
       "health": 180,
@@ -1325,10 +2053,18 @@
       "neutralResist": 20
     }
   },
-  "Trophée de la Déchireuse": {
-    "name": "Trophée de la Déchireuse",
+  "687f71551c815173560617f8": {
+    "id": "687f71551c815173560617f8",
+    "idShort": "Xx",
+    "name": {
+      "fr": "Trophée de la Déchireuse",
+      "en": "The Ripper's Trophy",
+      "pt": "Troféu da Dilaceradora",
+      "de": "Trophäe der Reißerin",
+      "es": "Trofeo de la Despedazadora"
+    },
     "level": 200,
-    "panoply": "Panoplie de la Déchireuse",
+    "panoply": "687f71541c815173560616c0",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1343,10 +2079,18 @@
       "pushbackDamage": 25
     }
   },
-  "Bouclier des Voyageurs": {
-    "name": "Bouclier des Voyageurs",
+  "687f71551c81517356061802": {
+    "id": "687f71551c81517356061802",
+    "idShort": "Xy",
+    "name": {
+      "fr": "Bouclier des Voyageurs",
+      "en": "Voyager Shield",
+      "pt": "Escudo dos Viajantes",
+      "de": "Schild der Reisenden",
+      "es": "Escudo de los viajeros"
+    },
     "level": 197,
-    "panoply": "Panoplie des Voyageurs Dimensionnels",
+    "panoply": "687f71541c815173560616c1",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1362,10 +2106,18 @@
       "pushbackDamage": 25
     }
   },
-  "Bélier de Gargandyas": {
-    "name": "Bélier de Gargandyas",
+  "687f71551c81517356061817": {
+    "id": "687f71551c81517356061817",
+    "idShort": "Xz",
+    "name": {
+      "fr": "Bélier de Gargandyas",
+      "en": "Gargandyas's Ram",
+      "pt": "Aríete de Gargandyas",
+      "de": "Widder des Gargandyas",
+      "es": "Ariete de Gargandias"
+    },
     "level": 200,
-    "panoply": "Panoplie de Gargandyas",
+    "panoply": "687f71541c815173560616c2",
     "category": "shield",
     "stats": {
       "health": 250,
@@ -1381,10 +2133,18 @@
       "rangedResistPer": 5
     }
   },
-  "Zarbouclier": {
-    "name": "Zarbouclier",
+  "687f71551c8151735606181e": {
+    "id": "687f71551c8151735606181e",
+    "idShort": "XA",
+    "name": {
+      "fr": "Zarbouclier",
+      "en": "Oddnishield",
+      "pt": "Herbiscudo",
+      "de": "Kornischild",
+      "es": "Rariescudo"
+    },
     "level": 197,
-    "panoply": "Zarbinoplie",
+    "panoply": "687f71541c815173560616bd",
     "category": "shield",
     "stats": {
       "health": 200,
@@ -1401,8 +2161,16 @@
       "pushbackResist": 20
     }
   },
-  "Bouclier Miroir": {
-    "name": "Bouclier Miroir",
+  "68d28de615631db46d7e4113": {
+    "id": "68d28de615631db46d7e4113",
+    "idShort": "XB",
+    "name": {
+      "fr": "Bouclier Miroir",
+      "en": "Mirror Shield",
+      "pt": "Escudo Espelho",
+      "de": "Spiegelschild",
+      "es": "Escudo espejo"
+    },
     "level": 200,
     "category": "shield",
     "stats": {

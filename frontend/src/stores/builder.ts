@@ -8,13 +8,26 @@ import {
     type Panoplies,
     type Panoply,
 } from "../types/item";
-import { getLeveledStats, type CharacterBuild } from "../types/character";
+import { getLeveledStats, type CharacterBuild } from "../types/build";
 import { getPanoply } from "../logic/frontendDB";
 import {
     calculateAllItemsToDisplay,
     calculateItemsToDisplay,
     calculatePanopliesToDisplay,
 } from "../logic/display";
+import type { CountryCode, Translations } from "../types/language";
+
+export const lang = writable<CountryCode>("en");
+
+import en from "../lib/i18n/en";
+import fr from "../lib/i18n/fr";
+import pt from "../lib/i18n/pt";
+import de from "../lib/i18n/de";
+import es from "../lib/i18n/es";
+import { checkWeightUpdate } from "../types/statWeights";
+
+const translations: Translations = { en, fr, pt, de, es };
+export const words = derived(lang, ($lang) => translations[$lang]);
 
 // export const distanceFromBestRatio = writable<number>(3);
 export const panoplyDisplaySize = writable<number>(20);
@@ -34,87 +47,27 @@ export const showBonusPanoCappedItems = writable<boolean>(true);
 export const sortBestItemsWithPanoValue = writable<boolean>(true);
 export const showOnlySelectedPanos = writable<boolean>(false);
 
-export const weights = writable<Partial<Stats>>({
-    summon: 0,
-    range: 50,
-    mp: 201,
-    ap: 200,
+export const weights = writable<Partial<Stats>>({});
+export const automaticWeights = writable<boolean>(true);
+// export const globalElementalDefense = writable<number>();
 
-    health: 0,
-
-    wisdom: 0,
-    prospecting: 0,
-
-    strength: 0.6,
-    agility: 0.6,
-    chance: 0.5,
-    intelligence: 0.1,
-
-    power: 2,
-
-    neutralDamage: 0,
-    earthDamage: 1.4,
-    airDamage: 1.65,
-    fireDamage: 0.8,
-    waterDamage: 1.65,
-
-    damage: 5.5,
-
-    pushbackDamage: 2,
-
-    criticalDamage: 0.7,
-    criticalChance: 3,
-
-    neutralResistPer: 21,
-    airResistPer: 21,
-    earthResistPer: 21,
-    fireResistPer: 21,
-    waterResistPer: 21,
-
-    criticalResist: 1,
-    pushbackResist: 1.5,
-
-    neutralResist: 0,
-    earthResist: 0,
-    waterResist: 0,
-    airResist: 0,
-    fireResist: 0,
-
-    pods: 0,
-    initiative: 0.03,
-
-    trapPower: 0,
-    trapDamage: 0,
-
-    lock: 1.4,
-    dodge: 1.4,
-
-    mpReduction: 10,
-    apReduction: 0,
-    apResist: 2.2,
-    mpResist: 2.2,
-
-    heal: 0,
-    reflect: 0,
-
-    spellDamagePer: 10,
-    rangedDamagePer: 10,
-    weaponDamagePer: 10,
-    meleeDamagePer: 10,
-    finalDamagePer: 10,
-
-    meleeResistPer: 1,
-    rangedResistPer: 1,
+weights.subscribe((value) => {
+    checkWeightUpdate(value);
 });
+// weights.subscribe(($weights) => {
+//     checkWeightUpdate($weights, "http://localhost:5173/");
+// });
+
 export const minStats = writable<Partial<Stats>>({
     ap: 11,
     mp: 5,
-    range: 0,
+    // range: 0,
 });
 export const maxStats = writable<Partial<Stats>>({
     ap: 12,
     mp: 6,
     range: 6,
+    summon: 6,
     criticalChance: 95,
     neutralResistPer: 50,
     airResistPer: 50,
@@ -125,11 +78,12 @@ export const maxStats = writable<Partial<Stats>>({
 export const exoAp = writable<boolean>(false);
 export const exoMp = writable<boolean>(false);
 export const exoRange = writable<boolean>(false);
+export const exoSummon = writable<boolean>(false);
 export const level = writable<number>(200);
 
 export const preStats = derived(
-    [level, exoAp, exoMp, exoRange],
-    ([$level, $exoAp, $exoMp, $exoRange]) => {
+    [level, exoAp, exoMp, exoRange, exoSummon],
+    ([$level, $exoAp, $exoMp, $exoRange, $exoSummon]) => {
         let preStats = getLeveledStats($level);
         if ($exoAp) {
             preStats.ap!++;
@@ -139,6 +93,9 @@ export const preStats = derived(
         }
         if ($exoRange) {
             preStats.range!++;
+        }
+        if ($exoSummon) {
+            preStats.summon!++;
         }
         return preStats;
     },
@@ -160,7 +117,11 @@ export const categoryBestValue = writable<Record<ItemCategory, number>>();
 export const panopliesBest = writable<Panoply[]>([]);
 // export const panopliesDisplayed = writable<Panoply[]>([]);
 
+// export const progress = writable<number>(0);
+
 export const bestBuilds = writable<CharacterBuild[]>([]);
+export const bestBuildsDisplayed = writable<CharacterBuild[]>([]);
+export const bestBuildShownCount = writable<number>(10);
 
 export const totalPossibilities = derived(itemsSelected, ($itemsCategory) => {
     let possibilities = 1;

@@ -43,7 +43,6 @@ export function calculateItemWithPanoValue(item: Item): number {
     let itemValue = 0;
 
     itemValue += calculateStatsValue(item.stats);
-    // if (item.name == "Capille") console.log(item.name, itemValue)
 
     if (item.panoply != undefined) {
         const panoply = itemDB.panoplies[item.panoply]!;
@@ -55,7 +54,6 @@ export function calculateItemWithPanoValue(item: Item): number {
         }
     }
     // console.log(itemValue)
-    // if (item.name == "Capille") console.log(item.name, itemValue)
     return itemValue;
 }
 

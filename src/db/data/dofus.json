@@ -1,46 +1,94 @@
 {
-  "Dofus Pourpre": {
-    "name": "Dofus Pourpre",
+  "674e524064788cc74141861e": {
+    "id": "674e524064788cc74141861e",
+    "idShort": "lt",
+    "name": {
+      "fr": "Dofus Pourpre",
+      "en": "Crimson Dofus",
+      "pt": "Dofus Púrpura",
+      "de": "Purpur-Dofus",
+      "es": "Dofus Púrpura"
+    },
     "level": 110,
     "category": "dofus",
     "stats": {
       "power": 80
     }
   },
-  "Dofus Émeraude": {
-    "name": "Dofus Émeraude",
+  "674e524064788cc74141863d": {
+    "id": "674e524064788cc74141863d",
+    "idShort": "lu",
+    "name": {
+      "fr": "Dofus Émeraude",
+      "en": "Emerald Dofus",
+      "pt": "Dofus Esmeralda",
+      "de": "Smaragd-Dofus",
+      "es": "Dofus Esmeralda"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "health": 200
     }
   },
-  "Dofus Turquoise": {
-    "name": "Dofus Turquoise",
+  "674e524064788cc74141863e": {
+    "id": "674e524064788cc74141863e",
+    "idShort": "lv",
+    "name": {
+      "fr": "Dofus Turquoise",
+      "en": "Turquoise Dofus",
+      "pt": "Dofus Turquesa",
+      "de": "Türkis-Dofus",
+      "es": "Dofus Turquesa"
+    },
     "level": 160,
     "category": "dofus",
     "stats": {
       "criticalChance": 10
     }
   },
-  "Dofus Cawotte": {
-    "name": "Dofus Cawotte",
+  "674e524064788cc7414186db": {
+    "id": "674e524064788cc7414186db",
+    "idShort": "lw",
+    "name": {
+      "fr": "Dofus Cawotte",
+      "en": "Cawwot Dofus",
+      "pt": "Dofus Cenouwa",
+      "de": "Kawott-Dofus",
+      "es": "Dofus zanahowia"
+    },
     "level": 60,
     "category": "dofus",
     "stats": {
       "wisdom": 60
     }
   },
-  "Dofus Vulbis": {
-    "name": "Dofus Vulbis",
+  "674e524064788cc741418cc5": {
+    "id": "674e524064788cc741418cc5",
+    "idShort": "lx",
+    "name": {
+      "fr": "Dofus Vulbis",
+      "en": "Vulbis Dofus",
+      "pt": "Dofus Vulbis",
+      "de": "Dofus Vulbis",
+      "es": "Dofus vulbis"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "mp": 1
     }
   },
-  "Dofus des Glaces": {
-    "name": "Dofus des Glaces",
+  "674e524064788cc741418cf9": {
+    "id": "674e524064788cc741418cf9",
+    "idShort": "ly",
+    "name": {
+      "fr": "Dofus des Glaces",
+      "en": "Ice Dofus",
+      "pt": "Dofus do Gelo",
+      "de": "Eisdofus",
+      "es": "Dofus de los hielos"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
@@ -51,32 +99,64 @@
       "airDamage": 25
     }
   },
-  "Dofus Tacheté": {
-    "name": "Dofus Tacheté",
+  "674e524064788cc741418d2d": {
+    "id": "674e524064788cc741418d2d",
+    "idShort": "lz",
+    "name": {
+      "fr": "Dofus Tacheté",
+      "en": "Black-Spotted Dofus",
+      "pt": "Dofus Pintado",
+      "de": "Scheckiger Dofus",
+      "es": "Dofus moteado"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "criticalResist": 30
     }
   },
-  "Dofawa": {
-    "name": "Dofawa",
+  "674e524064788cc741418d2e": {
+    "id": "674e524064788cc741418d2e",
+    "idShort": "lA",
+    "name": {
+      "fr": "Dofawa",
+      "en": "Dofawa",
+      "pt": "Dofawa",
+      "de": "Dofawa",
+      "es": "Dofawa"
+    },
     "level": 6,
     "category": "dofus",
     "stats": {
       "health": 1
     }
   },
-  "Dofus Ébène": {
-    "name": "Dofus Ébène",
+  "674e524064788cc741418d2f": {
+    "id": "674e524064788cc741418d2f",
+    "idShort": "lB",
+    "name": {
+      "fr": "Dofus Ébène",
+      "en": "Ebony Dofus",
+      "pt": "Dofus Ébano",
+      "de": "Ebenholz-Dofus",
+      "es": "Dofus Ébano"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "dodge": 40
     }
   },
-  "Dofus Ivoire": {
-    "name": "Dofus Ivoire",
+  "674e524064788cc741418d30": {
+    "id": "674e524064788cc741418d30",
+    "idShort": "lC",
+    "name": {
+      "fr": "Dofus Ivoire",
+      "en": "Ivory Dofus",
+      "pt": "Dofus Marfim",
+      "de": "Elfenbein-Dofus",
+      "es": "Dofus Marfil"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
@@ -87,32 +167,64 @@
       "airResistPer": 4
     }
   },
-  "Dofus Ocre": {
-    "name": "Dofus Ocre",
+  "674e524064788cc741418eab": {
+    "id": "674e524064788cc741418eab",
+    "idShort": "lD",
+    "name": {
+      "fr": "Dofus Ocre",
+      "en": "Ochre Dofus",
+      "pt": "Dofus Ocre",
+      "de": "Ocker-Dofus",
+      "es": "Dofus Ocre"
+    },
     "level": 160,
     "category": "dofus",
     "stats": {
       "ap": 1
     }
   },
-  "Dofus Kaliptus": {
-    "name": "Dofus Kaliptus",
+  "674e524064788cc741418fab": {
+    "id": "674e524064788cc741418fab",
+    "idShort": "lE",
+    "name": {
+      "fr": "Dofus Kaliptus",
+      "en": "Kaliptus Dofus",
+      "pt": "Dofus Kaliptus",
+      "de": "Kalyptus-Dofus",
+      "es": "Dofus kalipto"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "prospecting": 30
     }
   },
-  "Dokille": {
-    "name": "Dokille",
+  "674e524064788cc741419752": {
+    "id": "674e524064788cc741419752",
+    "idShort": "lG",
+    "name": {
+      "fr": "Dokille",
+      "en": "Grofus",
+      "pt": "Kaskofus",
+      "de": "Schockerqual",
+      "es": "Dosaurio"
+    },
     "level": 80,
     "category": "dofus",
     "stats": {
       "prospecting": 10
     }
   },
-  "Dolmanax": {
-    "name": "Dolmanax",
+  "674e524064788cc741419f26": {
+    "id": "674e524064788cc741419f26",
+    "idShort": "lH",
+    "name": {
+      "fr": "Dolmanax",
+      "en": "Dolmanax",
+      "pt": "Dolmanax",
+      "de": "Dolmanax",
+      "es": "Dolmanax"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -122,744 +234,1504 @@
       "agility": 70
     }
   },
-  "Dotruche": {
-    "name": "Dotruche",
+  "674e524164788cc74141a587": {
+    "id": "674e524164788cc74141a587",
+    "idShort": "lI",
+    "name": {
+      "fr": "Dotruche",
+      "en": "Dotrich",
+      "pt": "Dotruz",
+      "de": "Domelspatz",
+      "es": "Dotruz"
+    },
     "level": 110,
     "category": "dofus",
     "stats": {
       "heal": 25
     }
   },
-  "Dofus des Veilleurs": {
-    "name": "Dofus des Veilleurs",
+  "674e524164788cc74141a898": {
+    "id": "674e524164788cc74141a898",
+    "idShort": "lJ",
+    "name": {
+      "fr": "Dofus des Veilleurs",
+      "en": "Watchers Dofus",
+      "pt": "Dofus dos Vigilantes",
+      "de": "Dofus der Wachenden",
+      "es": "Dofus de los vigilantes"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "apResist": 20
     }
   },
-  "Dofus Forgelave": {
-    "name": "Dofus Forgelave",
+  "674e524164788cc74141b2df": {
+    "id": "674e524164788cc74141b2df",
+    "idShort": "lM",
+    "name": {
+      "fr": "Dofus Forgelave",
+      "en": "Lavasmith Dofus",
+      "pt": "Dofus Forjalava",
+      "de": "Lavaschmied-Dofus",
+      "es": "Dofus forjalava"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "pushbackResist": 100
     }
   },
-  "Dofus Cacao": {
-    "name": "Dofus Cacao",
+  "674e524164788cc74141b7ec": {
+    "id": "674e524164788cc74141b7ec",
+    "idShort": "lP",
+    "name": {
+      "fr": "Dofus Cacao",
+      "en": "Cocoa Dofus",
+      "pt": "Dofus Cacau",
+      "de": "Kakao-Dofus",
+      "es": "Dofus cacao"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "lock": 10
     }
   },
-  "Domakuro": {
-    "name": "Domakuro",
+  "674e524164788cc74141b87f": {
+    "id": "674e524164788cc74141b87f",
+    "idShort": "lQ",
+    "name": {
+      "fr": "Dofus Cacao",
+      "en": "Cocoa Dofus",
+      "pt": "Dofus Cacau",
+      "de": "Kakao-Dofus",
+      "es": "Dofus cacao"
+    },
+    "level": 50,
+    "category": "dofus",
+    "stats": {
+      "lock": 10
+    }
+  },
+  "674e524164788cc74141bf0a": {
+    "id": "674e524164788cc74141bf0a",
+    "idShort": "lS",
+    "name": {
+      "fr": "Domakuro",
+      "en": "Domakuro",
+      "pt": "Domakuro",
+      "de": "Domakuro",
+      "es": "Domakuro"
+    },
     "level": 120,
     "category": "dofus",
     "stats": {
       "summon": 1
     }
   },
-  "Dorigami": {
-    "name": "Dorigami",
+  "674e524164788cc74141bfae": {
+    "id": "674e524164788cc74141bfae",
+    "idShort": "lT",
+    "name": {
+      "fr": "Dorigami",
+      "en": "Dorigami",
+      "pt": "Dorigami",
+      "de": "Dorigami",
+      "es": "Dorigami"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "mpResist": 20
     }
   },
-  "Dofus du Cauchemar": {
-    "name": "Dofus du Cauchemar",
+  "674e524164788cc74141c523": {
+    "id": "674e524164788cc74141c523",
+    "idShort": "lU",
+    "name": {
+      "fr": "Dofus du Cauchemar",
+      "en": "Nightmare Dofus",
+      "pt": "Dofus do Pesadelo",
+      "de": "Dofus des Alptraums",
+      "es": "Dofus de pesadilla"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "initiative": 1000
     }
   },
-  "Dom de Pin": {
-    "name": "Dom de Pin",
+  "674e524164788cc74141ca2c": {
+    "id": "674e524164788cc74141ca2c",
+    "idShort": "lV",
+    "name": {
+      "fr": "Dom de Pin",
+      "en": "Pine Done",
+      "pt": "Dinha",
+      "de": "Dannenzapfen",
+      "es": "Piñata de pino"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "range": 1
     }
   },
-  "Dofus Sylvestre": {
-    "name": "Dofus Sylvestre",
+  "674e524164788cc74141cd31": {
+    "id": "674e524164788cc74141cd31",
+    "idShort": "lX",
+    "name": {
+      "fr": "Dofus Sylvestre",
+      "en": "Sylvan Dofus",
+      "pt": "Dofus Silvestre",
+      "de": "Wald-Dofus",
+      "es": "Dofus silvestre"
+    },
     "level": 180,
     "category": "dofus",
     "stats": {
       "range": 2
     }
   },
-  "Jyfus": {
-    "name": "Jyfus",
+  "674e524164788cc74141cfea": {
+    "id": "674e524164788cc74141cfea",
+    "idShort": "lY",
+    "name": {
+      "fr": "Jyfus",
+      "en": "Aiwuztheya Dofus",
+      "pt": "Dofui",
+      "de": "Jyfus",
+      "es": "Jyfus"
+    },
     "level": 20,
     "category": "dofus",
     "stats": {
       "health": 20
     }
   },
-  "Dofoozbz": {
-    "name": "Dofoozbz",
+  "687f71551c8151735606181d": {
+    "id": "687f71551c8151735606181d",
+    "idShort": "lZ",
+    "name": {
+      "fr": "Dofoozbz",
+      "en": "Dofzzbz",
+      "pt": "Dofzzbz",
+      "de": "Dsfssbs",
+      "es": "Dofzzbz"
+    },
     "level": 170,
     "category": "dofus",
     "stats": {
       "summon": 1
     }
   },
-  "Tacleur mineur": {
-    "name": "Tacleur mineur",
+  "674e524064788cc741419d02": {
+    "id": "674e524064788cc741419d02",
+    "idShort": "m0",
+    "name": {
+      "fr": "Tacleur mineur",
+      "en": "Minor Locker",
+      "pt": "Armário menor",
+      "de": "Kleiner Blockierer",
+      "es": "Placador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "lock": 4
     }
   },
-  "Tacleur": {
-    "name": "Tacleur",
+  "674e524064788cc741419d03": {
+    "id": "674e524064788cc741419d03",
+    "idShort": "m1",
+    "name": {
+      "fr": "Tacleur",
+      "en": "Locker",
+      "pt": "Armário",
+      "de": "Blockierer",
+      "es": "Placador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "lock": 8
     }
   },
-  "Tacleur majeur": {
-    "name": "Tacleur majeur",
+  "674e524064788cc741419d04": {
+    "id": "674e524064788cc741419d04",
+    "idShort": "m2",
+    "name": {
+      "fr": "Tacleur majeur",
+      "en": "Major Locker",
+      "pt": "Armário maior",
+      "de": "Großer Blockierer",
+      "es": "Placador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "lock": 16
     }
   },
-  "Fuyard mineur": {
-    "name": "Fuyard mineur",
+  "674e524064788cc741419d05": {
+    "id": "674e524064788cc741419d05",
+    "idShort": "m3",
+    "name": {
+      "fr": "Fuyard mineur",
+      "en": "Minor Escapist",
+      "pt": "Escapista menor",
+      "de": "Kleiner Ausreißer",
+      "es": "Desertor menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "dodge": 4
     }
   },
-  "Fuyard": {
-    "name": "Fuyard",
+  "674e524064788cc741419d06": {
+    "id": "674e524064788cc741419d06",
+    "idShort": "m4",
+    "name": {
+      "fr": "Fuyard",
+      "en": "Escapist",
+      "pt": "Escapista",
+      "de": "Ausreißer",
+      "es": "Desertor mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "dodge": 8
     }
   },
-  "Fuyard majeur": {
-    "name": "Fuyard majeur",
+  "674e524064788cc741419d07": {
+    "id": "674e524064788cc741419d07",
+    "idShort": "m5",
+    "name": {
+      "fr": "Fuyard majeur",
+      "en": "Major Escapist",
+      "pt": "Escapista maior",
+      "de": "Großer Ausreißer",
+      "es": "Desertor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "dodge": 16
     }
   },
-  "Ralentisseur mineur": {
-    "name": "Ralentisseur mineur",
+  "674e524064788cc741419d08": {
+    "id": "674e524064788cc741419d08",
+    "idShort": "m6",
+    "name": {
+      "fr": "Ralentisseur mineur",
+      "en": "Minor Friction",
+      "pt": "Fricção Menor",
+      "de": "Kleiner Lähmer",
+      "es": "Ralentizador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "mpReduction": 3
     }
   },
-  "Ralentisseur": {
-    "name": "Ralentisseur",
+  "674e524064788cc741419d09": {
+    "id": "674e524064788cc741419d09",
+    "idShort": "m7",
+    "name": {
+      "fr": "Ralentisseur",
+      "en": "Friction",
+      "pt": "Fricção",
+      "de": "Lähmer",
+      "es": "Ralentizador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "mpReduction": 6
     }
   },
-  "Ralentisseur majeur": {
-    "name": "Ralentisseur majeur",
+  "674e524064788cc741419d0a": {
+    "id": "674e524064788cc741419d0a",
+    "idShort": "m8",
+    "name": {
+      "fr": "Ralentisseur majeur",
+      "en": "Major Friction",
+      "pt": "Fricção Maior",
+      "de": "Großer Lähmer",
+      "es": "Ralentizador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "mpReduction": 12
     }
   },
-  "Engourdisseur mineur": {
-    "name": "Engourdisseur mineur",
+  "674e524064788cc741419d0b": {
+    "id": "674e524064788cc741419d0b",
+    "idShort": "m9",
+    "name": {
+      "fr": "Engourdisseur mineur",
+      "en": "Minor Oppressor",
+      "pt": "Opressor Menor",
+      "de": "Kleiner Verlangsamer",
+      "es": "Adormecedor menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "apReduction": 3
     }
   },
-  "Engourdisseur": {
-    "name": "Engourdisseur",
+  "674e524064788cc741419d0c": {
+    "id": "674e524064788cc741419d0c",
+    "idShort": "ma",
+    "name": {
+      "fr": "Engourdisseur",
+      "en": "Oppressor",
+      "pt": "Opressor",
+      "de": "Verlangsamer",
+      "es": "Adormecedor mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "apReduction": 6
     }
   },
-  "Engourdisseur majeur": {
-    "name": "Engourdisseur majeur",
+  "674e524064788cc741419d0d": {
+    "id": "674e524064788cc741419d0d",
+    "idShort": "mb",
+    "name": {
+      "fr": "Engourdisseur majeur",
+      "en": "Major Oppressor",
+      "pt": "Opressor Maior",
+      "de": "Großer Verlangsamer",
+      "es": "Adormecedor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "apReduction": 12
     }
   },
-  "Fugitif mineur": {
-    "name": "Fugitif mineur",
+  "674e524064788cc741419d0e": {
+    "id": "674e524064788cc741419d0e",
+    "idShort": "mc",
+    "name": {
+      "fr": "Fugitif mineur",
+      "en": "Minor Fugitive",
+      "pt": "Fugitivo menor",
+      "de": "Kleiner Flüchtling",
+      "es": "Fugitivo menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "mpResist": 4
     }
   },
-  "Fugitif": {
-    "name": "Fugitif",
+  "674e524064788cc741419d0f": {
+    "id": "674e524064788cc741419d0f",
+    "idShort": "md",
+    "name": {
+      "fr": "Fugitif",
+      "en": "Fugitive",
+      "pt": "Fugitivo",
+      "de": "Flüchtling",
+      "es": "Fugitivo mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "mpResist": 8
     }
   },
-  "Fugitif majeur": {
-    "name": "Fugitif majeur",
+  "674e524064788cc741419d10": {
+    "id": "674e524064788cc741419d10",
+    "idShort": "me",
+    "name": {
+      "fr": "Fugitif majeur",
+      "en": "Major Fugitive",
+      "pt": "Fugitivo maior",
+      "de": "Großer Flüchtling",
+      "es": "Fugitivo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "mpResist": 16
     }
   },
-  "Insaisissable mineur": {
-    "name": "Insaisissable mineur",
+  "674e524064788cc741419d11": {
+    "id": "674e524064788cc741419d11",
+    "idShort": "mf",
+    "name": {
+      "fr": "Insaisissable mineur",
+      "en": "Minor Eluder",
+      "pt": "Evasão Menor",
+      "de": "Kleiner Unfassbarer",
+      "es": "Escapista menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "apResist": 4
     }
   },
-  "Insaisissable": {
-    "name": "Insaisissable",
+  "674e524064788cc741419d12": {
+    "id": "674e524064788cc741419d12",
+    "idShort": "mg",
+    "name": {
+      "fr": "Insaisissable",
+      "en": "Eluder",
+      "pt": "Evasão",
+      "de": "Unfassbarer",
+      "es": "Escapista mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "apResist": 8
     }
   },
-  "Insaisissable majeur": {
-    "name": "Insaisissable majeur",
+  "674e524064788cc741419d13": {
+    "id": "674e524064788cc741419d13",
+    "idShort": "mh",
+    "name": {
+      "fr": "Insaisissable majeur",
+      "en": "Major Eluder",
+      "pt": "Evasão Maior",
+      "de": "Großer Unfassbarer",
+      "es": "Escapista mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "apResist": 16
     }
   },
-  "Pousseur mineur": {
-    "name": "Pousseur mineur",
+  "674e524064788cc741419d14": {
+    "id": "674e524064788cc741419d14",
+    "idShort": "mi",
+    "name": {
+      "fr": "Pousseur mineur",
+      "en": "Minor Repellant",
+      "pt": "Empurrador menor",
+      "de": "Kleiner Schubser",
+      "es": "Empujador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "pushbackDamage": 8
     }
   },
-  "Pousseur": {
-    "name": "Pousseur",
+  "674e524064788cc741419d15": {
+    "id": "674e524064788cc741419d15",
+    "idShort": "mj",
+    "name": {
+      "fr": "Pousseur",
+      "en": "Repellant",
+      "pt": "Empurrador",
+      "de": "Schubser",
+      "es": "Empujador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "pushbackDamage": 16
     }
   },
-  "Pousseur majeur": {
-    "name": "Pousseur majeur",
+  "674e524064788cc741419d16": {
+    "id": "674e524064788cc741419d16",
+    "idShort": "mk",
+    "name": {
+      "fr": "Pousseur majeur",
+      "en": "Major Repellant",
+      "pt": "Empurrador maior",
+      "de": "Großer Schubser",
+      "es": "Empujador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "pushbackDamage": 32
     }
   },
-  "Adamantin mineur": {
-    "name": "Adamantin mineur",
+  "674e524064788cc741419d17": {
+    "id": "674e524064788cc741419d17",
+    "idShort": "ml",
+    "name": {
+      "fr": "Adamantin mineur",
+      "en": "Minor Adamantin",
+      "pt": "Adamantino Menor",
+      "de": "Kleiner Adamantiner",
+      "es": "Adamantino menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "pushbackResist": 12
     }
   },
-  "Adamantin": {
-    "name": "Adamantin",
+  "674e524064788cc741419d18": {
+    "id": "674e524064788cc741419d18",
+    "idShort": "mm",
+    "name": {
+      "fr": "Adamantin",
+      "en": "Adamantin",
+      "pt": "Adamantino",
+      "de": "Adamantiner",
+      "es": "Adamantino mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "pushbackResist": 24
     }
   },
-  "Adamantin majeur": {
-    "name": "Adamantin majeur",
+  "674e524064788cc741419d19": {
+    "id": "674e524064788cc741419d19",
+    "idShort": "mn",
+    "name": {
+      "fr": "Adamantin majeur",
+      "en": "Major Adamantin",
+      "pt": "Adamantino Maior",
+      "de": "Großer Adamantiner",
+      "es": "Adamantino mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "pushbackResist": 48
     }
   },
-  "Rempart mineur": {
-    "name": "Rempart mineur",
+  "674e524064788cc741419d1a": {
+    "id": "674e524064788cc741419d1a",
+    "idShort": "mo",
+    "name": {
+      "fr": "Rempart mineur",
+      "en": "Minor Barrier",
+      "pt": "Muralha menor",
+      "de": "Kleines Bollwerk",
+      "es": "Murallón menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "criticalResist": 3
     }
   },
-  "Rempart": {
-    "name": "Rempart",
+  "674e524064788cc741419d1b": {
+    "id": "674e524064788cc741419d1b",
+    "idShort": "mp",
+    "name": {
+      "fr": "Rempart",
+      "en": "Barrier",
+      "pt": "Muralha",
+      "de": "Bollwerk",
+      "es": "Murallón"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "criticalResist": 6
     }
   },
-  "Rempart majeur": {
-    "name": "Rempart majeur",
+  "674e524064788cc741419d1c": {
+    "id": "674e524064788cc741419d1c",
+    "idShort": "mq",
+    "name": {
+      "fr": "Rempart majeur",
+      "en": "Major Barrier",
+      "pt": "Muralha maior",
+      "de": "Großes Bollwerk",
+      "es": "Murallón mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "criticalResist": 12
     }
   },
-  "Cuirassé Air mineur": {
-    "name": "Cuirassé Air mineur",
+  "674e524064788cc741419d1d": {
+    "id": "674e524064788cc741419d1d",
+    "idShort": "mr",
+    "name": {
+      "fr": "Cuirassé Air mineur",
+      "en": "Minor Air Defender",
+      "pt": "Defensor Aéreo Menor",
+      "de": "Kleiner Luftgepanzerter",
+      "es": "Acorazado de aire menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "airResist": 6
     }
   },
-  "Cuirassé Air": {
-    "name": "Cuirassé Air",
+  "674e524064788cc741419d1e": {
+    "id": "674e524064788cc741419d1e",
+    "idShort": "ms",
+    "name": {
+      "fr": "Cuirassé Air",
+      "en": "Air Defender",
+      "pt": "Defensor Aéreo",
+      "de": "Luftgepanzerter",
+      "es": "Acorazado de aire mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "airResist": 12
     }
   },
-  "Cuirassé Air majeur": {
-    "name": "Cuirassé Air majeur",
+  "674e524064788cc741419d1f": {
+    "id": "674e524064788cc741419d1f",
+    "idShort": "mt",
+    "name": {
+      "fr": "Cuirassé Air majeur",
+      "en": "Major Air Defender",
+      "pt": "Defensor Aéreo Maior",
+      "de": "Großer Luftgepanzerter",
+      "es": "Acorazado de aire mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "airResist": 24
     }
   },
-  "Cuirassé Eau mineur": {
-    "name": "Cuirassé Eau mineur",
+  "674e524064788cc741419d20": {
+    "id": "674e524064788cc741419d20",
+    "idShort": "mu",
+    "name": {
+      "fr": "Cuirassé Eau mineur",
+      "en": "Minor Water Defender",
+      "pt": "Defensor Aquático Menor",
+      "de": "Kleiner Wassergepanzerter",
+      "es": "Acorazado de agua menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "waterResist": 6
     }
   },
-  "Cuirassé Eau": {
-    "name": "Cuirassé Eau",
+  "674e524064788cc741419d21": {
+    "id": "674e524064788cc741419d21",
+    "idShort": "mv",
+    "name": {
+      "fr": "Cuirassé Eau",
+      "en": "Water Defender",
+      "pt": "Defensor Aquático",
+      "de": "Wassergepanzerter",
+      "es": "Acorazado de agua mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "waterResist": 12
     }
   },
-  "Cuirassé Eau majeur": {
-    "name": "Cuirassé Eau majeur",
+  "674e524064788cc741419d22": {
+    "id": "674e524064788cc741419d22",
+    "idShort": "mw",
+    "name": {
+      "fr": "Cuirassé Eau majeur",
+      "en": "Major Water Defender",
+      "pt": "Defensor Aquático Maior",
+      "de": "Großer Wassergepanzerter",
+      "es": "Acorazado de agua mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "waterResist": 24
     }
   },
-  "Cuirassé Feu mineur": {
-    "name": "Cuirassé Feu mineur",
+  "674e524064788cc741419d27": {
+    "id": "674e524064788cc741419d27",
+    "idShort": "mx",
+    "name": {
+      "fr": "Cuirassé Feu mineur",
+      "en": "Minor Fire Defender",
+      "pt": "Defensor do Fogo Menor",
+      "de": "Kleiner Feuergepanzerter",
+      "es": "Acorazado de fuego menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "fireResist": 6
     }
   },
-  "Cuirassé Feu": {
-    "name": "Cuirassé Feu",
+  "674e524064788cc741419d32": {
+    "id": "674e524064788cc741419d32",
+    "idShort": "my",
+    "name": {
+      "fr": "Cuirassé Feu",
+      "en": "Fire Defender",
+      "pt": "Defensor do Fogo",
+      "de": "Feuergepanzerter",
+      "es": "Acorazado de fuego mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "fireResist": 12
     }
   },
-  "Cuirassé Feu majeur": {
-    "name": "Cuirassé Feu majeur",
+  "674e524064788cc741419d33": {
+    "id": "674e524064788cc741419d33",
+    "idShort": "mz",
+    "name": {
+      "fr": "Cuirassé Feu majeur",
+      "en": "Major Fire Defender",
+      "pt": "Defensor do Fogo Maior",
+      "de": "Großer Feuergepanzerter",
+      "es": "Acorazado de fuego mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "fireResist": 24
     }
   },
-  "Cuirassé Terre mineur": {
-    "name": "Cuirassé Terre mineur",
+  "674e524064788cc741419d34": {
+    "id": "674e524064788cc741419d34",
+    "idShort": "mA",
+    "name": {
+      "fr": "Cuirassé Terre mineur",
+      "en": "Minor Earth Defender",
+      "pt": "Defensor da Terra Menor",
+      "de": "Kleiner Erdgepanzerter",
+      "es": "Acorazado de tierra menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "earthResist": 6
     }
   },
-  "Cuirassé Terre": {
-    "name": "Cuirassé Terre",
+  "674e524064788cc741419d35": {
+    "id": "674e524064788cc741419d35",
+    "idShort": "mB",
+    "name": {
+      "fr": "Cuirassé Terre",
+      "en": "Earth Defender",
+      "pt": "Defensor da Terra",
+      "de": "Erdgepanzerter",
+      "es": "Acorazado de tierra mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "earthResist": 12
     }
   },
-  "Cuirassé Terre majeur": {
-    "name": "Cuirassé Terre majeur",
+  "674e524064788cc741419d36": {
+    "id": "674e524064788cc741419d36",
+    "idShort": "mC",
+    "name": {
+      "fr": "Cuirassé Terre majeur",
+      "en": "Major Earth Defender",
+      "pt": "Defensor da Terra Maior",
+      "de": "Großer Erdgepanzerter",
+      "es": "Acorazado de tierra mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "earthResist": 24
     }
   },
-  "Cuirassé Neutre mineur": {
-    "name": "Cuirassé Neutre mineur",
+  "674e524064788cc741419d37": {
+    "id": "674e524064788cc741419d37",
+    "idShort": "mD",
+    "name": {
+      "fr": "Cuirassé Neutre mineur",
+      "en": "Minor Neutral Defender",
+      "pt": "Defensor Neutro Menor",
+      "de": "Kleiner Neutralgepanzerter",
+      "es": "Acorazado neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "neutralResist": 6
     }
   },
-  "Cuirassé Neutre": {
-    "name": "Cuirassé Neutre",
+  "674e524064788cc741419d38": {
+    "id": "674e524064788cc741419d38",
+    "idShort": "mE",
+    "name": {
+      "fr": "Cuirassé Neutre",
+      "en": "Neutral Defender",
+      "pt": "Defensor Neutro",
+      "de": "Neutralgepanzerter",
+      "es": "Acorazado neutral mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "neutralResist": 12
     }
   },
-  "Cuirassé Neutre majeur": {
-    "name": "Cuirassé Neutre majeur",
+  "674e524064788cc741419d39": {
+    "id": "674e524064788cc741419d39",
+    "idShort": "mF",
+    "name": {
+      "fr": "Cuirassé Neutre majeur",
+      "en": "Major Neutral Defender",
+      "pt": "Defensor Neutro Maior",
+      "de": "Großer Neutralgepanzerter",
+      "es": "Acorazado neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "neutralResist": 24
     }
   },
-  "Ravageur Air": {
-    "name": "Ravageur Air",
+  "674e524064788cc741419d3a": {
+    "id": "674e524064788cc741419d3a",
+    "idShort": "mG",
+    "name": {
+      "fr": "Ravageur Air",
+      "en": "Air Destroyer",
+      "pt": "Destruidor de Ar",
+      "de": "Luftverwüster",
+      "es": "Destructor de aire mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "airDamage": 6
     }
   },
-  "Ravageur Air majeur": {
-    "name": "Ravageur Air majeur",
+  "674e524064788cc741419d3b": {
+    "id": "674e524064788cc741419d3b",
+    "idShort": "mH",
+    "name": {
+      "fr": "Ravageur Air majeur",
+      "en": "Major Air Destroyer",
+      "pt": "Destruidor de Ar maior",
+      "de": "Großer Luftverwüster",
+      "es": "Destructor de aire mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "airDamage": 12
     }
   },
-  "Ravageur Air mineur": {
-    "name": "Ravageur Air mineur",
+  "674e524064788cc741419d3c": {
+    "id": "674e524064788cc741419d3c",
+    "idShort": "mI",
+    "name": {
+      "fr": "Ravageur Air mineur",
+      "en": "Minor Air Destroyer",
+      "pt": "Destruidor de Ar menor",
+      "de": "Kleiner Luftverwüster",
+      "es": "Destructor de aire menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "airDamage": 3
     }
   },
-  "Ravageur Eau": {
-    "name": "Ravageur Eau",
+  "674e524064788cc741419d3d": {
+    "id": "674e524064788cc741419d3d",
+    "idShort": "mJ",
+    "name": {
+      "fr": "Ravageur Eau",
+      "en": "Water Destroyer",
+      "pt": "Destruidor de Água",
+      "de": "Wasserverwüster",
+      "es": "Destructor de agua mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "waterDamage": 6
     }
   },
-  "Ravageur Eau majeur": {
-    "name": "Ravageur Eau majeur",
+  "674e524064788cc741419d3e": {
+    "id": "674e524064788cc741419d3e",
+    "idShort": "mK",
+    "name": {
+      "fr": "Ravageur Eau majeur",
+      "en": "Major Water Destroyer",
+      "pt": "Destruidor de Água maior",
+      "de": "Großer Wasserverwüster",
+      "es": "Destructor de agua mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "waterDamage": 12
     }
   },
-  "Ravageur Eau mineur": {
-    "name": "Ravageur Eau mineur",
+  "674e524064788cc741419d3f": {
+    "id": "674e524064788cc741419d3f",
+    "idShort": "mL",
+    "name": {
+      "fr": "Ravageur Eau mineur",
+      "en": "Minor Water Destroyer",
+      "pt": "Destruidor de Água menor",
+      "de": "Kleiner Wasserverwüster",
+      "es": "Destructor de agua menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "waterDamage": 3
     }
   },
-  "Ravageur Feu": {
-    "name": "Ravageur Feu",
+  "674e524064788cc741419d40": {
+    "id": "674e524064788cc741419d40",
+    "idShort": "mM",
+    "name": {
+      "fr": "Ravageur Feu",
+      "en": "Fire Destroyer",
+      "pt": "Destruidor de Fogo",
+      "de": "Feuerverwüster",
+      "es": "Destructor de fuego mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "fireDamage": 6
     }
   },
-  "Ravageur Feu majeur": {
-    "name": "Ravageur Feu majeur",
+  "674e524064788cc741419d41": {
+    "id": "674e524064788cc741419d41",
+    "idShort": "mN",
+    "name": {
+      "fr": "Ravageur Feu majeur",
+      "en": "Major Fire Destroyer",
+      "pt": "Destruidor de Fogo maior",
+      "de": "Großer Feuerverwüster",
+      "es": "Destructor de fuego mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "fireDamage": 12
     }
   },
-  "Ravageur Feu mineur": {
-    "name": "Ravageur Feu mineur",
+  "674e524064788cc741419d42": {
+    "id": "674e524064788cc741419d42",
+    "idShort": "mO",
+    "name": {
+      "fr": "Ravageur Feu mineur",
+      "en": "Minor Fire Destroyer",
+      "pt": "Destruidor de Fogo menor",
+      "de": "Kleiner Feuerverwüster",
+      "es": "Destructor de fuego menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "fireDamage": 3
     }
   },
-  "Ravageur Neutre": {
-    "name": "Ravageur Neutre",
+  "674e524064788cc741419d43": {
+    "id": "674e524064788cc741419d43",
+    "idShort": "mP",
+    "name": {
+      "fr": "Ravageur Neutre",
+      "en": "Neutral Destroyer",
+      "pt": "Destruidor Neutro",
+      "de": "Neutralverwüster",
+      "es": "Destructor neutral mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "neutralDamage": 6
     }
   },
-  "Ravageur Neutre mineur": {
-    "name": "Ravageur Neutre mineur",
+  "674e524064788cc741419d44": {
+    "id": "674e524064788cc741419d44",
+    "idShort": "mQ",
+    "name": {
+      "fr": "Ravageur Neutre mineur",
+      "en": "Minor Neutral Destroyer",
+      "pt": "Destruidor Neutro menor",
+      "de": "Kleiner Neutralverwüster",
+      "es": "Destructor neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "neutralDamage": 3
     }
   },
-  "Ravageur Neutre majeur": {
-    "name": "Ravageur Neutre majeur",
+  "674e524064788cc741419d45": {
+    "id": "674e524064788cc741419d45",
+    "idShort": "mR",
+    "name": {
+      "fr": "Ravageur Neutre majeur",
+      "en": "Major Neutral Destroyer",
+      "pt": "Destruidor Neutro maior",
+      "de": "Großer Neutralverwüster",
+      "es": "Destructor neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "neutralDamage": 12
     }
   },
-  "Ravageur Terre": {
-    "name": "Ravageur Terre",
+  "674e524064788cc741419d46": {
+    "id": "674e524064788cc741419d46",
+    "idShort": "mS",
+    "name": {
+      "fr": "Ravageur Terre",
+      "en": "Earth Destroyer",
+      "pt": "Destruidor de Terra",
+      "de": "Erdverwüster",
+      "es": "Destructor de tierra mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "earthDamage": 6
     }
   },
-  "Initiateur": {
-    "name": "Initiateur",
+  "674e524064788cc741419d47": {
+    "id": "674e524064788cc741419d47",
+    "idShort": "mT",
+    "name": {
+      "fr": "Initiateur",
+      "en": "Instigator",
+      "pt": "Instigador",
+      "de": "Initiator",
+      "es": "Iniciador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "initiative": 200
     }
   },
-  "Initiateur mineur": {
-    "name": "Initiateur mineur",
+  "674e524064788cc741419d48": {
+    "id": "674e524064788cc741419d48",
+    "idShort": "mU",
+    "name": {
+      "fr": "Initiateur mineur",
+      "en": "Minor Instigator",
+      "pt": "Instigador Menor",
+      "de": "Kleiner Initiator",
+      "es": "Iniciador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "initiative": 100
     }
   },
-  "Initiateur majeur": {
-    "name": "Initiateur majeur",
+  "674e524064788cc741419d49": {
+    "id": "674e524064788cc741419d49",
+    "idShort": "mV",
+    "name": {
+      "fr": "Initiateur majeur",
+      "en": "Major Instigator",
+      "pt": "Instigador Maior",
+      "de": "Großer Initiator",
+      "es": "Iniciador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "initiative": 400
     }
   },
-  "Porteur mineur": {
-    "name": "Porteur mineur",
+  "674e524064788cc741419d4a": {
+    "id": "674e524064788cc741419d4a",
+    "idShort": "mW",
+    "name": {
+      "fr": "Porteur mineur",
+      "en": "Minor Transporter",
+      "pt": "Carregador menor",
+      "de": "Kleiner Träger",
+      "es": "Portador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "pods": 250
     }
   },
-  "Porteur": {
-    "name": "Porteur",
+  "674e524064788cc741419d4b": {
+    "id": "674e524064788cc741419d4b",
+    "idShort": "mX",
+    "name": {
+      "fr": "Porteur",
+      "en": "Transporter",
+      "pt": "Carregador",
+      "de": "Träger",
+      "es": "Portador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "pods": 500
     }
   },
-  "Porteur majeur": {
-    "name": "Porteur majeur",
+  "674e524064788cc741419d4c": {
+    "id": "674e524064788cc741419d4c",
+    "idShort": "mY",
+    "name": {
+      "fr": "Porteur majeur",
+      "en": "Major Transporter",
+      "pt": "Carregador Maior",
+      "de": "Hauptträger",
+      "es": "Portador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "pods": 1000
     }
   },
-  "Soigneur mineur": {
-    "name": "Soigneur mineur",
+  "674e524064788cc741419d4d": {
+    "id": "674e524064788cc741419d4d",
+    "idShort": "mZ",
+    "name": {
+      "fr": "Soigneur mineur",
+      "en": "Minor Healer",
+      "pt": "Curador menor",
+      "de": "Kleiner Heiler",
+      "es": "Cuidador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "heal": 4
     }
   },
-  "Soigneur majeur": {
-    "name": "Soigneur majeur",
+  "674e524064788cc741419d4e": {
+    "id": "674e524064788cc741419d4e",
+    "idShort": "n0",
+    "name": {
+      "fr": "Soigneur majeur",
+      "en": "Major Healer",
+      "pt": "Curador maior",
+      "de": "Großer Heiler",
+      "es": "Cuidador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "heal": 16
     }
   },
-  "Soigneur": {
-    "name": "Soigneur",
+  "674e524064788cc741419d4f": {
+    "id": "674e524064788cc741419d4f",
+    "idShort": "n1",
+    "name": {
+      "fr": "Soigneur",
+      "en": "Healer",
+      "pt": "Curador",
+      "de": "Heiler",
+      "es": "Cuidador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "heal": 8
     }
   },
-  "Acrobate mineur": {
-    "name": "Acrobate mineur",
+  "674e524064788cc741419d51": {
+    "id": "674e524064788cc741419d51",
+    "idShort": "n2",
+    "name": {
+      "fr": "Acrobate mineur",
+      "en": "Minor Acrobat",
+      "pt": "Acrobata menor",
+      "de": "Kleiner Akrobat",
+      "es": "Acróbata menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "agility": 15
     }
   },
-  "Acrobate": {
-    "name": "Acrobate",
+  "674e524064788cc741419d52": {
+    "id": "674e524064788cc741419d52",
+    "idShort": "n3",
+    "name": {
+      "fr": "Acrobate",
+      "en": "Acrobat",
+      "pt": "Acrobata",
+      "de": "Akrobat",
+      "es": "Acróbata mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "agility": 30
     }
   },
-  "Acrobate majeur": {
-    "name": "Acrobate majeur",
+  "674e524064788cc741419d53": {
+    "id": "674e524064788cc741419d53",
+    "idShort": "n4",
+    "name": {
+      "fr": "Acrobate majeur",
+      "en": "Major Acrobat",
+      "pt": "Acrobata maior",
+      "de": "Großer Akrobat",
+      "es": "Acróbata mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "agility": 60
     }
   },
-  "Joueur": {
-    "name": "Joueur",
+  "674e524064788cc741419d54": {
+    "id": "674e524064788cc741419d54",
+    "idShort": "n5",
+    "name": {
+      "fr": "Joueur",
+      "en": "Player",
+      "pt": "Jogador",
+      "de": "Spieler",
+      "es": "Jugador mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "chance": 30
     }
   },
-  "Joueur majeur": {
-    "name": "Joueur majeur",
+  "674e524064788cc741419d55": {
+    "id": "674e524064788cc741419d55",
+    "idShort": "n6",
+    "name": {
+      "fr": "Joueur majeur",
+      "en": "Major Player",
+      "pt": "Jogador maior",
+      "de": "Großer Spieler",
+      "es": "Jugador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "chance": 60
     }
   },
-  "Joueur mineur": {
-    "name": "Joueur mineur",
+  "674e524064788cc741419d56": {
+    "id": "674e524064788cc741419d56",
+    "idShort": "n7",
+    "name": {
+      "fr": "Joueur mineur",
+      "en": "Minor Player",
+      "pt": "Jogador menor",
+      "de": "Kleiner Spieler",
+      "es": "Jugador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "chance": 15
     }
   },
-  "Savant mineur": {
-    "name": "Savant mineur",
+  "674e524064788cc741419d57": {
+    "id": "674e524064788cc741419d57",
+    "idShort": "n8",
+    "name": {
+      "fr": "Savant mineur",
+      "en": "Minor Scholar",
+      "pt": "Estudioso menor",
+      "de": "Kleiner Neunmalkluger",
+      "es": "Sabio menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "intelligence": 15
     }
   },
-  "Savant majeur": {
-    "name": "Savant majeur",
+  "674e524064788cc741419d58": {
+    "id": "674e524064788cc741419d58",
+    "idShort": "n9",
+    "name": {
+      "fr": "Savant majeur",
+      "en": "Major Scholar",
+      "pt": "Estudioso maior",
+      "de": "Großer Neunmalkluger",
+      "es": "Sabio mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "intelligence": 60
     }
   },
-  "Savant": {
-    "name": "Savant",
+  "674e524064788cc741419d59": {
+    "id": "674e524064788cc741419d59",
+    "idShort": "na",
+    "name": {
+      "fr": "Savant",
+      "en": "Scholar",
+      "pt": "Estudioso",
+      "de": "Neunmalkluger",
+      "es": "Sabio mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "intelligence": 30
     }
   },
-  "Furibond mineur": {
-    "name": "Furibond mineur",
+  "674e524064788cc741419d5a": {
+    "id": "674e524064788cc741419d5a",
+    "idShort": "nb",
+    "name": {
+      "fr": "Furibond mineur",
+      "en": "Minor Maniac",
+      "pt": "Maníaco menor",
+      "de": "Kleiner Wüterich",
+      "es": "Furibundo menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "strength": 15
     }
   },
-  "Furibond": {
-    "name": "Furibond",
+  "674e524064788cc741419d5b": {
+    "id": "674e524064788cc741419d5b",
+    "idShort": "nc",
+    "name": {
+      "fr": "Furibond",
+      "en": "Maniac",
+      "pt": "Maníaco",
+      "de": "Wüterich",
+      "es": "Furibundo mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "strength": 30
     }
   },
-  "Furibond majeur": {
-    "name": "Furibond majeur",
+  "674e524064788cc741419d5c": {
+    "id": "674e524064788cc741419d5c",
+    "idShort": "nd",
+    "name": {
+      "fr": "Furibond majeur",
+      "en": "Major Maniac",
+      "pt": "Maníaco maior",
+      "de": "Großer Wüterich",
+      "es": "Furibundo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "strength": 60
     }
   },
-  "Survivant": {
-    "name": "Survivant",
+  "674e524064788cc741419d5d": {
+    "id": "674e524064788cc741419d5d",
+    "idShort": "ne",
+    "name": {
+      "fr": "Survivant",
+      "en": "Survivor",
+      "pt": "Sobrevivente",
+      "de": "Überlebender",
+      "es": "Sobreviviente mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "health": 80
     }
   },
-  "Survivant majeur": {
-    "name": "Survivant majeur",
+  "674e524064788cc741419d5e": {
+    "id": "674e524064788cc741419d5e",
+    "idShort": "nf",
+    "name": {
+      "fr": "Survivant majeur",
+      "en": "Major Survivor",
+      "pt": "Sobrevivente maior",
+      "de": "Großer Überlebender",
+      "es": "Sobreviviente mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "health": 160
     }
   },
-  "Survivant mineur": {
-    "name": "Survivant mineur",
+  "674e524064788cc741419d5f": {
+    "id": "674e524064788cc741419d5f",
+    "idShort": "ng",
+    "name": {
+      "fr": "Survivant mineur",
+      "en": "Minor Survivor",
+      "pt": "Sobrevivente menor",
+      "de": "Kleiner Überlebender",
+      "es": "Sobreviviente menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "health": 40
     }
   },
-  "Ravageur Terre majeur": {
-    "name": "Ravageur Terre majeur",
+  "674e524064788cc741419d6b": {
+    "id": "674e524064788cc741419d6b",
+    "idShort": "nh",
+    "name": {
+      "fr": "Ravageur Terre majeur",
+      "en": "Major Earth Destroyer",
+      "pt": "Destruidor de Terra maior",
+      "de": "Großer Erdverwüster",
+      "es": "Destructor de tierra mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "earthDamage": 12
     }
   },
-  "Ravageur Terre mineur": {
-    "name": "Ravageur Terre mineur",
+  "674e524064788cc741419d6c": {
+    "id": "674e524064788cc741419d6c",
+    "idShort": "ni",
+    "name": {
+      "fr": "Ravageur Terre mineur",
+      "en": "Minor Earth Destroyer",
+      "pt": "Destruidor de Terra menor",
+      "de": "Kleiner Erdverwüster",
+      "es": "Destructor de tierra menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "earthDamage": 3
     }
   },
-  "Bloqueur mineur": {
-    "name": "Bloqueur mineur",
+  "674e524064788cc74141a090": {
+    "id": "674e524064788cc74141a090",
+    "idShort": "nj",
+    "name": {
+      "fr": "Bloqueur mineur",
+      "en": "Minor Stickler",
+      "pt": "Bloqueador menor",
+      "de": "Kleiner Blocker",
+      "es": "Bloqueador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -867,8 +1739,16 @@
       "dodge": -8
     }
   },
-  "Bloqueur": {
-    "name": "Bloqueur",
+  "674e524064788cc74141a091": {
+    "id": "674e524064788cc74141a091",
+    "idShort": "nk",
+    "name": {
+      "fr": "Bloqueur",
+      "en": "Stickler",
+      "pt": "Bloqueador",
+      "de": "Blocker",
+      "es": "Bloqueador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -876,8 +1756,16 @@
       "dodge": -16
     }
   },
-  "Bloqueur majeur": {
-    "name": "Bloqueur majeur",
+  "674e524064788cc74141a092": {
+    "id": "674e524064788cc74141a092",
+    "idShort": "nl",
+    "name": {
+      "fr": "Bloqueur majeur",
+      "en": "Major Stickler",
+      "pt": "Bloqueador maior",
+      "de": "Großer Blocker",
+      "es": "Bloqueador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -885,8 +1773,16 @@
       "dodge": -32
     }
   },
-  "Vagabond mineur": {
-    "name": "Vagabond mineur",
+  "674e524064788cc74141a093": {
+    "id": "674e524064788cc74141a093",
+    "idShort": "nm",
+    "name": {
+      "fr": "Vagabond mineur",
+      "en": "Minor Vagabond",
+      "pt": "Vagabundo menor",
+      "de": "Kleiner Herumtreiber",
+      "es": "Evadido menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -894,8 +1790,16 @@
       "lock": -8
     }
   },
-  "Vagabond": {
-    "name": "Vagabond",
+  "674e524064788cc74141a094": {
+    "id": "674e524064788cc74141a094",
+    "idShort": "nn",
+    "name": {
+      "fr": "Vagabond",
+      "en": "Vagabond",
+      "pt": "Vagabundo",
+      "de": "Herumtreiber",
+      "es": "Evadido mediano"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -903,8 +1807,16 @@
       "lock": -16
     }
   },
-  "Vagabond majeur": {
-    "name": "Vagabond majeur",
+  "674e524064788cc74141a095": {
+    "id": "674e524064788cc74141a095",
+    "idShort": "no",
+    "name": {
+      "fr": "Vagabond majeur",
+      "en": "Major Vagabond",
+      "pt": "Vagabundo maior",
+      "de": "Großer Herumtreiber",
+      "es": "Evadido mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -912,8 +1824,16 @@
       "lock": -32
     }
   },
-  "Docteur mineur": {
-    "name": "Docteur mineur",
+  "674e524064788cc74141a096": {
+    "id": "674e524064788cc74141a096",
+    "idShort": "np",
+    "name": {
+      "fr": "Docteur mineur",
+      "en": "Minor Doctor",
+      "pt": "Doutor menor",
+      "de": "Kleiner Doktor",
+      "es": "Doctor menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -921,8 +1841,16 @@
       "heal": 8
     }
   },
-  "Docteur": {
-    "name": "Docteur",
+  "674e524064788cc74141a097": {
+    "id": "674e524064788cc74141a097",
+    "idShort": "nq",
+    "name": {
+      "fr": "Docteur",
+      "en": "Doctor",
+      "pt": "Doutor",
+      "de": "Doktor",
+      "es": "Doctor"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -930,8 +1858,16 @@
       "heal": 16
     }
   },
-  "Docteur majeur": {
-    "name": "Docteur majeur",
+  "674e524064788cc74141a098": {
+    "id": "674e524064788cc74141a098",
+    "idShort": "nr",
+    "name": {
+      "fr": "Docteur majeur",
+      "en": "Major Doctor",
+      "pt": "Doutor maior",
+      "de": "Großer Doktor",
+      "es": "Doctor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -939,8 +1875,16 @@
       "heal": 32
     }
   },
-  "Forcené mineur": {
-    "name": "Forcené mineur",
+  "674e524064788cc74141a099": {
+    "id": "674e524064788cc74141a099",
+    "idShort": "ns",
+    "name": {
+      "fr": "Forcené mineur",
+      "en": "Minor Goliath",
+      "pt": "Desvairado menor",
+      "de": "Kleiner Starkmacher",
+      "es": "Hércules menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -948,8 +1892,16 @@
       "strength": 25
     }
   },
-  "Forcené": {
-    "name": "Forcené",
+  "674e524064788cc74141a09a": {
+    "id": "674e524064788cc74141a09a",
+    "idShort": "nt",
+    "name": {
+      "fr": "Forcené",
+      "en": "Goliath",
+      "pt": "Desvairado",
+      "de": "Starkmacher",
+      "es": "Hércules"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -957,8 +1909,16 @@
       "strength": 50
     }
   },
-  "Forcené majeur": {
-    "name": "Forcené majeur",
+  "674e524064788cc74141a09b": {
+    "id": "674e524064788cc74141a09b",
+    "idShort": "nu",
+    "name": {
+      "fr": "Forcené majeur",
+      "en": "Major Goliath",
+      "pt": "Desvairado maior",
+      "de": "Großer Starkmacher",
+      "es": "Hércules mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -966,8 +1926,16 @@
       "strength": 100
     }
   },
-  "Astucieux mineur": {
-    "name": "Astucieux mineur",
+  "674e524064788cc74141a09c": {
+    "id": "674e524064788cc74141a09c",
+    "idShort": "nv",
+    "name": {
+      "fr": "Astucieux mineur",
+      "en": "Minor Brainbox",
+      "pt": "Astuto menor",
+      "de": "Kleiner Pfiffikus",
+      "es": "Astuto menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -975,8 +1943,16 @@
       "intelligence": 25
     }
   },
-  "Astucieux": {
-    "name": "Astucieux",
+  "674e524064788cc74141a09d": {
+    "id": "674e524064788cc74141a09d",
+    "idShort": "nw",
+    "name": {
+      "fr": "Astucieux",
+      "en": "Brainbox",
+      "pt": "Astuto",
+      "de": "Pfiffikus",
+      "es": "Astuto"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -984,8 +1960,16 @@
       "intelligence": 50
     }
   },
-  "Astucieux majeur": {
-    "name": "Astucieux majeur",
+  "674e524064788cc74141a09e": {
+    "id": "674e524064788cc74141a09e",
+    "idShort": "nx",
+    "name": {
+      "fr": "Astucieux majeur",
+      "en": "Major Brainbox",
+      "pt": "Astuto maior",
+      "de": "Großer Pfiffikus",
+      "es": "Astuto mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -993,8 +1977,16 @@
       "intelligence": 100
     }
   },
-  "Equilibriste mineur": {
-    "name": "Equilibriste mineur",
+  "674e524064788cc74141a09f": {
+    "id": "674e524064788cc74141a09f",
+    "idShort": "ny",
+    "name": {
+      "fr": "Equilibriste mineur",
+      "en": "Minor Gymnast",
+      "pt": "Equilibrista menor",
+      "de": "Kleiner Ausgeglichener",
+      "es": "Velocista menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1002,8 +1994,16 @@
       "agility": 25
     }
   },
-  "Equilibriste": {
-    "name": "Equilibriste",
+  "674e524064788cc74141a0a0": {
+    "id": "674e524064788cc74141a0a0",
+    "idShort": "nz",
+    "name": {
+      "fr": "Equilibriste",
+      "en": "Gymnast",
+      "pt": "Equilibrista",
+      "de": "Ausgeglichener",
+      "es": "Velocista"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1011,8 +2011,16 @@
       "agility": 50
     }
   },
-  "Equilibriste majeur": {
-    "name": "Equilibriste majeur",
+  "674e524064788cc74141a0a1": {
+    "id": "674e524064788cc74141a0a1",
+    "idShort": "nA",
+    "name": {
+      "fr": "Equilibriste majeur",
+      "en": "Major Gymnast",
+      "pt": "Equilibrista maior",
+      "de": "Großer Ausgeglichener",
+      "es": "Velocista mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1020,8 +2028,16 @@
       "agility": 100
     }
   },
-  "Taquin mineur": {
-    "name": "Taquin mineur",
+  "674e524064788cc74141a0a2": {
+    "id": "674e524064788cc74141a0a2",
+    "idShort": "nB",
+    "name": {
+      "fr": "Taquin mineur",
+      "en": "Minor Tease",
+      "pt": "Implicante menor",
+      "de": "Kleiner Schelm",
+      "es": "Suertudo menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1029,8 +2045,16 @@
       "chance": 25
     }
   },
-  "Taquin": {
-    "name": "Taquin",
+  "674e524064788cc74141a0a3": {
+    "id": "674e524064788cc74141a0a3",
+    "idShort": "nC",
+    "name": {
+      "fr": "Taquin",
+      "en": "Tease",
+      "pt": "Implicante",
+      "de": "Schelm",
+      "es": "Suertudo"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1038,8 +2062,16 @@
       "chance": 50
     }
   },
-  "Taquin majeur": {
-    "name": "Taquin majeur",
+  "674e524064788cc74141a0a4": {
+    "id": "674e524064788cc74141a0a4",
+    "idShort": "nD",
+    "name": {
+      "fr": "Taquin majeur",
+      "en": "Major Tease",
+      "pt": "Implicante maior",
+      "de": "Großer Schelm",
+      "es": "Suertudo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1047,8 +2079,16 @@
       "chance": 100
     }
   },
-  "Bastion mineur": {
-    "name": "Bastion mineur",
+  "674e524064788cc74141a0a5": {
+    "id": "674e524064788cc74141a0a5",
+    "idShort": "nE",
+    "name": {
+      "fr": "Bastion mineur",
+      "en": "Minor Bastion",
+      "pt": "Bastião menor",
+      "de": "Kleine Bastion",
+      "es": "Acorazado menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1056,8 +2096,16 @@
       "criticalResist": 8
     }
   },
-  "Bastion": {
-    "name": "Bastion",
+  "674e524064788cc74141a0a6": {
+    "id": "674e524064788cc74141a0a6",
+    "idShort": "nF",
+    "name": {
+      "fr": "Bastion",
+      "en": "Bastion",
+      "pt": "Bastião",
+      "de": "Bastion",
+      "es": "Acorazado"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1065,8 +2113,16 @@
       "criticalResist": 16
     }
   },
-  "Bastion majeur": {
-    "name": "Bastion majeur",
+  "674e524064788cc74141a0a7": {
+    "id": "674e524064788cc74141a0a7",
+    "idShort": "nG",
+    "name": {
+      "fr": "Bastion majeur",
+      "en": "Major Bastion",
+      "pt": "Bastião maior",
+      "de": "Große Bastion",
+      "es": "Acorazado mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1074,8 +2130,16 @@
       "criticalResist": 32
     }
   },
-  "Saccageur Terre mineur": {
-    "name": "Saccageur Terre mineur",
+  "674e524064788cc74141a0a8": {
+    "id": "674e524064788cc74141a0a8",
+    "idShort": "nH",
+    "name": {
+      "fr": "Saccageur Terre mineur",
+      "en": "Minor Earth Wrecker",
+      "pt": "Saqueador Terra menor",
+      "de": "Kleiner Erdzerstörer",
+      "es": "Torturador terráqueo menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1083,8 +2147,16 @@
       "airResistPer": -2
     }
   },
-  "Saccageur Terre": {
-    "name": "Saccageur Terre",
+  "674e524064788cc74141a0a9": {
+    "id": "674e524064788cc74141a0a9",
+    "idShort": "nI",
+    "name": {
+      "fr": "Saccageur Terre",
+      "en": "Earth Wrecker",
+      "pt": "Saqueador Terra",
+      "de": "Erdzerstörer",
+      "es": "Torturador terráqueo"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1092,8 +2164,16 @@
       "airResistPer": -4
     }
   },
-  "Saccageur Terre majeur": {
-    "name": "Saccageur Terre majeur",
+  "674e524064788cc74141a0aa": {
+    "id": "674e524064788cc74141a0aa",
+    "idShort": "nJ",
+    "name": {
+      "fr": "Saccageur Terre majeur",
+      "en": "Major Earth Wrecker",
+      "pt": "Saqueador Terra maior",
+      "de": "Großer Erdzerstörer",
+      "es": "Torturador terráqueo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1101,8 +2181,16 @@
       "airResistPer": -8
     }
   },
-  "Saccageur Neutre mineur": {
-    "name": "Saccageur Neutre mineur",
+  "674e524064788cc74141a0ab": {
+    "id": "674e524064788cc74141a0ab",
+    "idShort": "nK",
+    "name": {
+      "fr": "Saccageur Neutre mineur",
+      "en": "Minor Neutral Wrecker",
+      "pt": "Saqueador Neutro menor",
+      "de": "Kleiner Neutralzerstörer",
+      "es": "Torturador neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1110,8 +2198,16 @@
       "waterResistPer": -2
     }
   },
-  "Saccageur Neutre": {
-    "name": "Saccageur Neutre",
+  "674e524064788cc74141a0ac": {
+    "id": "674e524064788cc74141a0ac",
+    "idShort": "nL",
+    "name": {
+      "fr": "Saccageur Neutre",
+      "en": "Neutral Wrecker",
+      "pt": "Saqueador Neutro",
+      "de": "Neutralzerstörer",
+      "es": "Torturador neutral"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1119,8 +2215,16 @@
       "waterResistPer": -4
     }
   },
-  "Saccageur Neutre majeur": {
-    "name": "Saccageur Neutre majeur",
+  "674e524064788cc74141a0ad": {
+    "id": "674e524064788cc74141a0ad",
+    "idShort": "nM",
+    "name": {
+      "fr": "Saccageur Neutre majeur",
+      "en": "Major Neutral Wrecker",
+      "pt": "Saqueador Neutro maior",
+      "de": "Großer Neutralzerstörer",
+      "es": "Torturador neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1128,8 +2232,16 @@
       "waterResistPer": -8
     }
   },
-  "Saccageur Feu mineur": {
-    "name": "Saccageur Feu mineur",
+  "674e524064788cc74141a0ae": {
+    "id": "674e524064788cc74141a0ae",
+    "idShort": "nN",
+    "name": {
+      "fr": "Saccageur Feu mineur",
+      "en": "Minor Fire Wrecker",
+      "pt": "Saqueador Fogo menor",
+      "de": "Kleiner Feuerzerstörer",
+      "es": "Torturador ígneo menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1137,8 +2249,16 @@
       "earthResistPer": -2
     }
   },
-  "Saccageur Feu": {
-    "name": "Saccageur Feu",
+  "674e524064788cc74141a0af": {
+    "id": "674e524064788cc74141a0af",
+    "idShort": "nO",
+    "name": {
+      "fr": "Saccageur Feu",
+      "en": "Fire Wrecker",
+      "pt": "Saqueador Fogo",
+      "de": "Feuerzerstörer",
+      "es": "Torturador ígneo"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1146,8 +2266,16 @@
       "earthResistPer": -4
     }
   },
-  "Saccageur Feu majeur": {
-    "name": "Saccageur Feu majeur",
+  "674e524064788cc74141a0b0": {
+    "id": "674e524064788cc74141a0b0",
+    "idShort": "nP",
+    "name": {
+      "fr": "Saccageur Feu majeur",
+      "en": "Major Fire Wrecker",
+      "pt": "Saqueador Fogo maior",
+      "de": "Großer Feuerzerstörer",
+      "es": "Torturador ígneo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1155,8 +2283,16 @@
       "earthResistPer": -8
     }
   },
-  "Saccageur Eau mineur": {
-    "name": "Saccageur Eau mineur",
+  "674e524064788cc74141a0b1": {
+    "id": "674e524064788cc74141a0b1",
+    "idShort": "nQ",
+    "name": {
+      "fr": "Saccageur Eau mineur",
+      "en": "Minor Water Wrecker",
+      "pt": "Saqueador Água menor",
+      "de": "Kleiner Wasserzerstörer",
+      "es": "Torturador acuoso menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1164,8 +2300,16 @@
       "neutralResistPer": -2
     }
   },
-  "Saccageur Eau": {
-    "name": "Saccageur Eau",
+  "674e524064788cc74141a0b2": {
+    "id": "674e524064788cc74141a0b2",
+    "idShort": "nR",
+    "name": {
+      "fr": "Saccageur Eau",
+      "en": "Water Wrecker",
+      "pt": "Saqueador Água",
+      "de": "Wasserzerstörer",
+      "es": "Torturador acuoso"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1173,8 +2317,16 @@
       "neutralResistPer": -4
     }
   },
-  "Saccageur Eau majeur": {
-    "name": "Saccageur Eau majeur",
+  "674e524064788cc74141a0b3": {
+    "id": "674e524064788cc74141a0b3",
+    "idShort": "nS",
+    "name": {
+      "fr": "Saccageur Eau majeur",
+      "en": "Major Water Wrecker",
+      "pt": "Saqueador Água maior",
+      "de": "Großer Wasserzerstörer",
+      "es": "Torturador acuoso mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1182,8 +2334,16 @@
       "neutralResistPer": -8
     }
   },
-  "Saccageur Air mineur": {
-    "name": "Saccageur Air mineur",
+  "674e524064788cc74141a0b4": {
+    "id": "674e524064788cc74141a0b4",
+    "idShort": "nT",
+    "name": {
+      "fr": "Saccageur Air mineur",
+      "en": "Minor Air Wrecker",
+      "pt": "Saqueador Ar menor",
+      "de": "Kleiner Luftzerstörer",
+      "es": "Torturador airoso menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1191,8 +2351,16 @@
       "fireResistPer": -2
     }
   },
-  "Saccageur Air": {
-    "name": "Saccageur Air",
+  "674e524064788cc74141a0b5": {
+    "id": "674e524064788cc74141a0b5",
+    "idShort": "nU",
+    "name": {
+      "fr": "Saccageur Air",
+      "en": "Air Wrecker",
+      "pt": "Saqueador Ar",
+      "de": "Luftzerstörer",
+      "es": "Torturador airoso"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1200,8 +2368,16 @@
       "fireResistPer": -4
     }
   },
-  "Saccageur Air majeur": {
-    "name": "Saccageur Air majeur",
+  "674e524064788cc74141a0b6": {
+    "id": "674e524064788cc74141a0b6",
+    "idShort": "nV",
+    "name": {
+      "fr": "Saccageur Air majeur",
+      "en": "Major Air Wrecker",
+      "pt": "Saqueador Ar maior",
+      "de": "Großer Luftzerstörer",
+      "es": "Torturador airoso mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1209,8 +2385,16 @@
       "fireResistPer": -8
     }
   },
-  "Entraveur mineur": {
-    "name": "Entraveur mineur",
+  "674e524064788cc74141a0b7": {
+    "id": "674e524064788cc74141a0b7",
+    "idShort": "nW",
+    "name": {
+      "fr": "Entraveur mineur",
+      "en": "Minor Shackler",
+      "pt": "Entravador menor",
+      "de": "Kleiner Fussfesseler",
+      "es": "Obstaculizador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1218,8 +2402,16 @@
       "apResist": -6
     }
   },
-  "Entraveur": {
-    "name": "Entraveur",
+  "674e524064788cc74141a0b8": {
+    "id": "674e524064788cc74141a0b8",
+    "idShort": "nX",
+    "name": {
+      "fr": "Entraveur",
+      "en": "Shackler",
+      "pt": "Entravador",
+      "de": "Fussfesseler",
+      "es": "Obstaculizador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1227,8 +2419,16 @@
       "apResist": -12
     }
   },
-  "Entraveur majeur": {
-    "name": "Entraveur majeur",
+  "674e524064788cc74141a0b9": {
+    "id": "674e524064788cc74141a0b9",
+    "idShort": "nY",
+    "name": {
+      "fr": "Entraveur majeur",
+      "en": "Major Shackler",
+      "pt": "Entravador maior",
+      "de": "Großer Fussfesseler",
+      "es": "Obstaculizador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1236,8 +2436,16 @@
       "apResist": -24
     }
   },
-  "Paralyseur mineur": {
-    "name": "Paralyseur mineur",
+  "674e524064788cc74141a0ba": {
+    "id": "674e524064788cc74141a0ba",
+    "idShort": "nZ",
+    "name": {
+      "fr": "Paralyseur mineur",
+      "en": "Minor Paralyser",
+      "pt": "Paralisador menor",
+      "de": "Kleiner Schwachmacher",
+      "es": "Paralizador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1245,8 +2453,16 @@
       "mpResist": -6
     }
   },
-  "Paralyseur": {
-    "name": "Paralyseur",
+  "674e524064788cc74141a0bb": {
+    "id": "674e524064788cc74141a0bb",
+    "idShort": "o0",
+    "name": {
+      "fr": "Paralyseur",
+      "en": "Paralyser",
+      "pt": "Paralisador",
+      "de": "Schwachmacher",
+      "es": "Paralizador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1254,8 +2470,16 @@
       "mpResist": -12
     }
   },
-  "Paralyseur majeur": {
-    "name": "Paralyseur majeur",
+  "674e524064788cc74141a0bc": {
+    "id": "674e524064788cc74141a0bc",
+    "idShort": "o1",
+    "name": {
+      "fr": "Paralyseur majeur",
+      "en": "Major Paralyser",
+      "pt": "Paralisador maior",
+      "de": "Großer Schwachmacher",
+      "es": "Paralizador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1263,8 +2487,16 @@
       "mpResist": -24
     }
   },
-  "Imprenable mineur": {
-    "name": "Imprenable mineur",
+  "674e524064788cc74141a0bd": {
+    "id": "674e524064788cc74141a0bd",
+    "idShort": "o2",
+    "name": {
+      "fr": "Imprenable mineur",
+      "en": "Minor Untouchable",
+      "pt": "Intocável menor",
+      "de": "Kleiner Unermüdlicher",
+      "es": "Blindado menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1272,8 +2504,16 @@
       "mpResist": -8
     }
   },
-  "Imprenable": {
-    "name": "Imprenable",
+  "674e524064788cc74141a0be": {
+    "id": "674e524064788cc74141a0be",
+    "idShort": "o3",
+    "name": {
+      "fr": "Imprenable",
+      "en": "Untouchable",
+      "pt": "Intocável",
+      "de": "Unermüdlicher",
+      "es": "Blindado"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1281,8 +2521,16 @@
       "mpResist": -16
     }
   },
-  "Imprenable majeur": {
-    "name": "Imprenable majeur",
+  "674e524064788cc74141a0bf": {
+    "id": "674e524064788cc74141a0bf",
+    "idShort": "o4",
+    "name": {
+      "fr": "Imprenable majeur",
+      "en": "Major Untouchable",
+      "pt": "Intocável maior",
+      "de": "Großer Unermüdlicher",
+      "es": "Blindado mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1290,8 +2538,16 @@
       "mpResist": -32
     }
   },
-  "Evanescent mineur": {
-    "name": "Evanescent mineur",
+  "674e524064788cc74141a0c0": {
+    "id": "674e524064788cc74141a0c0",
+    "idShort": "o5",
+    "name": {
+      "fr": "Evanescent mineur",
+      "en": "Minor Slimeball",
+      "pt": "Evanescente menor",
+      "de": "Kleiner Entschwinder",
+      "es": "Desvanecedor menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1299,8 +2555,16 @@
       "mpResist": 8
     }
   },
-  "Evanescent": {
-    "name": "Evanescent",
+  "674e524064788cc74141a0c1": {
+    "id": "674e524064788cc74141a0c1",
+    "idShort": "o6",
+    "name": {
+      "fr": "Evanescent",
+      "en": "Slimeball",
+      "pt": "Evanescente",
+      "de": "Entschwinder",
+      "es": "Desvanecedor"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1308,8 +2572,16 @@
       "mpResist": 16
     }
   },
-  "Evanescent majeur": {
-    "name": "Evanescent majeur",
+  "674e524064788cc74141a0c2": {
+    "id": "674e524064788cc74141a0c2",
+    "idShort": "o7",
+    "name": {
+      "fr": "Evanescent majeur",
+      "en": "Major Slimeball",
+      "pt": "Evanescente maior",
+      "de": "Großer Entschwinder",
+      "es": "Desvanecedor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1317,8 +2589,16 @@
       "mpResist": 32
     }
   },
-  "Bousculeur mineur": {
-    "name": "Bousculeur mineur",
+  "674e524064788cc74141a0c3": {
+    "id": "674e524064788cc74141a0c3",
+    "idShort": "o8",
+    "name": {
+      "fr": "Bousculeur mineur",
+      "en": "Minor Jostler",
+      "pt": "Derrubador menor",
+      "de": "Kleiner Nervtöter",
+      "es": "Aventador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1326,8 +2606,16 @@
       "pushbackDamage": 16
     }
   },
-  "Bousculeur": {
-    "name": "Bousculeur",
+  "674e524064788cc74141a0c4": {
+    "id": "674e524064788cc74141a0c4",
+    "idShort": "o9",
+    "name": {
+      "fr": "Bousculeur",
+      "en": "Jostler",
+      "pt": "Derrubador",
+      "de": "Nervtöter",
+      "es": "Aventador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1335,8 +2623,16 @@
       "pushbackDamage": 32
     }
   },
-  "Bousculeur majeur": {
-    "name": "Bousculeur majeur",
+  "674e524064788cc74141a0c5": {
+    "id": "674e524064788cc74141a0c5",
+    "idShort": "oa",
+    "name": {
+      "fr": "Bousculeur majeur",
+      "en": "Major Jostler",
+      "pt": "Derrubador maior",
+      "de": "Großer Nervtöter",
+      "es": "Aventador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1344,8 +2640,16 @@
       "pushbackDamage": 64
     }
   },
-  "Inflexible mineur": {
-    "name": "Inflexible mineur",
+  "674e524064788cc74141a0c6": {
+    "id": "674e524064788cc74141a0c6",
+    "idShort": "ob",
+    "name": {
+      "fr": "Inflexible mineur",
+      "en": "Minor Stalwart",
+      "pt": "Inflexível menor",
+      "de": "Kleiner Unbeugsamer",
+      "es": "Muro menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1353,8 +2657,16 @@
       "pushbackResist": 24
     }
   },
-  "Inflexible": {
-    "name": "Inflexible",
+  "674e524064788cc74141a0c7": {
+    "id": "674e524064788cc74141a0c7",
+    "idShort": "oc",
+    "name": {
+      "fr": "Inflexible",
+      "en": "Stalwart",
+      "pt": "Inflexível",
+      "de": "Unbeugsamer",
+      "es": "Muro"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1362,8 +2674,16 @@
       "pushbackResist": 48
     }
   },
-  "Inflexible majeur": {
-    "name": "Inflexible majeur",
+  "674e524064788cc74141a0c8": {
+    "id": "674e524064788cc74141a0c8",
+    "idShort": "od",
+    "name": {
+      "fr": "Inflexible majeur",
+      "en": "Major Stalwart",
+      "pt": "Inflexível maior",
+      "de": "Großer Unbeugsamer",
+      "es": "Muro mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1371,8 +2691,16 @@
       "pushbackResist": 96
     }
   },
-  "Précurseur mineur": {
-    "name": "Précurseur mineur",
+  "674e524064788cc74141a0c9": {
+    "id": "674e524064788cc74141a0c9",
+    "idShort": "oe",
+    "name": {
+      "fr": "Précurseur mineur",
+      "en": "Minor Forerunner",
+      "pt": "Precursor menor",
+      "de": "Kleiner Wegbereiter",
+      "es": "Precursor menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1380,8 +2708,16 @@
       "initiative": 200
     }
   },
-  "Précurseur": {
-    "name": "Précurseur",
+  "674e524064788cc74141a0ca": {
+    "id": "674e524064788cc74141a0ca",
+    "idShort": "of",
+    "name": {
+      "fr": "Précurseur",
+      "en": "Forerunner",
+      "pt": "Precursor",
+      "de": "Wegbereiter",
+      "es": "Precursor"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1389,8 +2725,16 @@
       "initiative": 400
     }
   },
-  "Précurseur majeur": {
-    "name": "Précurseur majeur",
+  "674e524064788cc74141a0cb": {
+    "id": "674e524064788cc74141a0cb",
+    "idShort": "og",
+    "name": {
+      "fr": "Précurseur majeur",
+      "en": "Major Forerunner",
+      "pt": "Precursor maior",
+      "de": "Großer Wegbereiter",
+      "es": "Precursor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1398,8 +2742,16 @@
       "initiative": 800
     }
   },
-  "Muraille Terre mineure": {
-    "name": "Muraille Terre mineure",
+  "674e524064788cc74141a0cc": {
+    "id": "674e524064788cc74141a0cc",
+    "idShort": "oh",
+    "name": {
+      "fr": "Muraille Terre mineure",
+      "en": "Minor Earth Bulwark",
+      "pt": "Muralha Terra menor",
+      "de": "Kleine Erdmauer",
+      "es": "Muralla terráquea menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1407,8 +2759,16 @@
       "earthResist": 10
     }
   },
-  "Muraille Terre": {
-    "name": "Muraille Terre",
+  "674e524064788cc74141a0cd": {
+    "id": "674e524064788cc74141a0cd",
+    "idShort": "oi",
+    "name": {
+      "fr": "Muraille Terre",
+      "en": "Earth Bulwark",
+      "pt": "Muralha Terra",
+      "de": "Erdmauer",
+      "es": "Muralla terráquea"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1416,8 +2776,16 @@
       "earthResist": 20
     }
   },
-  "Muraille Terre majeure": {
-    "name": "Muraille Terre majeure",
+  "674e524064788cc74141a0ce": {
+    "id": "674e524064788cc74141a0ce",
+    "idShort": "oj",
+    "name": {
+      "fr": "Muraille Terre majeure",
+      "en": "Major Earth Bulwark",
+      "pt": "Muralha Terra maior",
+      "de": "Große Erdmauer",
+      "es": "Muralla terráquea mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1425,8 +2793,16 @@
       "earthResist": 40
     }
   },
-  "Muraille Neutre mineure": {
-    "name": "Muraille Neutre mineure",
+  "674e524064788cc74141a0cf": {
+    "id": "674e524064788cc74141a0cf",
+    "idShort": "ok",
+    "name": {
+      "fr": "Muraille Neutre mineure",
+      "en": "Minor Neutral Bulwark",
+      "pt": "Muralha Neutra menor",
+      "de": "Kleine Neutralmauer",
+      "es": "Muralla neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1434,8 +2810,16 @@
       "neutralResist": 10
     }
   },
-  "Muraille Neutre": {
-    "name": "Muraille Neutre",
+  "674e524064788cc74141a0d0": {
+    "id": "674e524064788cc74141a0d0",
+    "idShort": "ol",
+    "name": {
+      "fr": "Muraille Neutre",
+      "en": "Neutral Bulwark",
+      "pt": "Muralha Neutra",
+      "de": "Neutralmauer",
+      "es": "Muralla neutral"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1443,8 +2827,16 @@
       "neutralResist": 20
     }
   },
-  "Muraille Neutre majeure": {
-    "name": "Muraille Neutre majeure",
+  "674e524064788cc74141a0d1": {
+    "id": "674e524064788cc74141a0d1",
+    "idShort": "om",
+    "name": {
+      "fr": "Muraille Neutre majeure",
+      "en": "Major Neutral Bulwark",
+      "pt": "Muralha Neutra maior",
+      "de": "Große Neutralmauer",
+      "es": "Muralla neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1452,8 +2844,16 @@
       "neutralResist": 40
     }
   },
-  "Muraille Feu mineure": {
-    "name": "Muraille Feu mineure",
+  "674e524064788cc74141a0d2": {
+    "id": "674e524064788cc74141a0d2",
+    "idShort": "on",
+    "name": {
+      "fr": "Muraille Feu mineure",
+      "en": "Minor Fire Bulwark",
+      "pt": "Muralha Fogo menor",
+      "de": "Kleine Feuermauer",
+      "es": "Muralla ígnea menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1461,8 +2861,16 @@
       "fireResist": 10
     }
   },
-  "Muraille Feu": {
-    "name": "Muraille Feu",
+  "674e524064788cc74141a0d3": {
+    "id": "674e524064788cc74141a0d3",
+    "idShort": "oo",
+    "name": {
+      "fr": "Muraille Feu",
+      "en": "Fire Bulwark",
+      "pt": "Muralha Fogo",
+      "de": "Feuermauer",
+      "es": "Muralla ígnea"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1470,8 +2878,16 @@
       "fireResist": 20
     }
   },
-  "Muraille Feu majeure": {
-    "name": "Muraille Feu majeure",
+  "674e524064788cc74141a0d4": {
+    "id": "674e524064788cc74141a0d4",
+    "idShort": "op",
+    "name": {
+      "fr": "Muraille Feu majeure",
+      "en": "Major Fire Bulwark",
+      "pt": "Muralha Fogo maior",
+      "de": "Große Feuermauer",
+      "es": "Muralla ígnea mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1479,8 +2895,16 @@
       "fireResist": 40
     }
   },
-  "Muraille Eau mineure": {
-    "name": "Muraille Eau mineure",
+  "674e524064788cc74141a0d5": {
+    "id": "674e524064788cc74141a0d5",
+    "idShort": "oq",
+    "name": {
+      "fr": "Muraille Eau mineure",
+      "en": "Minor Water Bulwark",
+      "pt": "Muralha Água menor",
+      "de": "Kleine Wassermauer",
+      "es": "Muralla acuosa menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1488,8 +2912,16 @@
       "waterResist": 10
     }
   },
-  "Muraille Eau": {
-    "name": "Muraille Eau",
+  "674e524064788cc74141a0d6": {
+    "id": "674e524064788cc74141a0d6",
+    "idShort": "or",
+    "name": {
+      "fr": "Muraille Eau",
+      "en": "Water Bulwark",
+      "pt": "Muralha Água",
+      "de": "Wassermauer",
+      "es": "Muralla acuosa"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1497,8 +2929,16 @@
       "waterResist": 20
     }
   },
-  "Muraille Eau majeure": {
-    "name": "Muraille Eau majeure",
+  "674e524064788cc74141a0d7": {
+    "id": "674e524064788cc74141a0d7",
+    "idShort": "os",
+    "name": {
+      "fr": "Muraille Eau majeure",
+      "en": "Major Water Bulwark",
+      "pt": "Muralha Água maior",
+      "de": "Große Wassermauer",
+      "es": "Muralla acuosa mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1506,8 +2946,16 @@
       "waterResist": 40
     }
   },
-  "Muraille Air mineure": {
-    "name": "Muraille Air mineure",
+  "674e524064788cc74141a0d8": {
+    "id": "674e524064788cc74141a0d8",
+    "idShort": "ot",
+    "name": {
+      "fr": "Muraille Air mineure",
+      "en": "Minor Air Bulwark",
+      "pt": "Muralha Ar menor",
+      "de": "Kleine Luftmauer",
+      "es": "Muralla airosa menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1515,8 +2963,16 @@
       "airResist": 10
     }
   },
-  "Muraille Air": {
-    "name": "Muraille Air",
+  "674e524064788cc74141a0d9": {
+    "id": "674e524064788cc74141a0d9",
+    "idShort": "ou",
+    "name": {
+      "fr": "Muraille Air",
+      "en": "Air Bulwark",
+      "pt": "Muralha Ar",
+      "de": "Luftmauer",
+      "es": "Muralla airosa"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1524,8 +2980,16 @@
       "airResist": 20
     }
   },
-  "Muraille Air majeure": {
-    "name": "Muraille Air majeure",
+  "674e524064788cc74141a0da": {
+    "id": "674e524064788cc74141a0da",
+    "idShort": "ov",
+    "name": {
+      "fr": "Muraille Air majeure",
+      "en": "Major Air Bulwark",
+      "pt": "Muralha Ar maior",
+      "de": "Große Luftmauer",
+      "es": "Muralla airosa mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1533,32 +2997,64 @@
       "airResist": 40
     }
   },
-  "Puissant mineur": {
-    "name": "Puissant mineur",
+  "674e524064788cc74141a0db": {
+    "id": "674e524064788cc74141a0db",
+    "idShort": "ow",
+    "name": {
+      "fr": "Puissant mineur",
+      "en": "Minor Dynamo",
+      "pt": "Potente menor",
+      "de": "Kleiner Mächtiger",
+      "es": "Potente menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "power": 10
     }
   },
-  "Puissant": {
-    "name": "Puissant",
+  "674e524064788cc74141a0dc": {
+    "id": "674e524064788cc74141a0dc",
+    "idShort": "ox",
+    "name": {
+      "fr": "Puissant",
+      "en": "Dynamo",
+      "pt": "Potente",
+      "de": "Mächtiger",
+      "es": "Potente"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
       "power": 20
     }
   },
-  "Puissant majeur": {
-    "name": "Puissant majeur",
+  "674e524064788cc74141a0dd": {
+    "id": "674e524064788cc74141a0dd",
+    "idShort": "oy",
+    "name": {
+      "fr": "Puissant majeur",
+      "en": "Major Dynamo",
+      "pt": "Potente maior",
+      "de": "Großer Mächtiger",
+      "es": "Potente mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
       "power": 40
     }
   },
-  "Robuste mineur": {
-    "name": "Robuste mineur",
+  "674e524064788cc74141a0de": {
+    "id": "674e524064788cc74141a0de",
+    "idShort": "oz",
+    "name": {
+      "fr": "Robuste mineur",
+      "en": "Minor Powerhouse",
+      "pt": "Robusto menor",
+      "de": "Kleiner Robuster",
+      "es": "Robusto menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1566,8 +3062,16 @@
       "criticalChance": -3
     }
   },
-  "Robuste": {
-    "name": "Robuste",
+  "674e524064788cc74141a0df": {
+    "id": "674e524064788cc74141a0df",
+    "idShort": "oA",
+    "name": {
+      "fr": "Robuste",
+      "en": "Powerhouse",
+      "pt": "Robusto",
+      "de": "Robuster",
+      "es": "Robusto"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1575,8 +3079,16 @@
       "criticalChance": -6
     }
   },
-  "Robuste majeur": {
-    "name": "Robuste majeur",
+  "674e524064788cc74141a0e0": {
+    "id": "674e524064788cc74141a0e0",
+    "idShort": "oB",
+    "name": {
+      "fr": "Robuste majeur",
+      "en": "Major Powerhouse",
+      "pt": "Robusto maior",
+      "de": "Großer Robuster",
+      "es": "Robusto mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1584,8 +3096,16 @@
       "criticalChance": -12
     }
   },
-  "Turbulent": {
-    "name": "Turbulent",
+  "674e524064788cc74141a0e1": {
+    "id": "674e524064788cc74141a0e1",
+    "idShort": "oC",
+    "name": {
+      "fr": "Turbulent",
+      "en": "Jackanapes",
+      "pt": "Turbulento",
+      "de": "Turbulenter",
+      "es": "Hiperactivo"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1593,8 +3113,16 @@
       "mp": -1
     }
   },
-  "Voyageur": {
-    "name": "Voyageur",
+  "674e524064788cc74141a0e2": {
+    "id": "674e524064788cc74141a0e2",
+    "idShort": "oD",
+    "name": {
+      "fr": "Voyageur",
+      "en": "Voyager",
+      "pt": "Viajante",
+      "de": "Reisender",
+      "es": "Viajante"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1603,16 +3131,32 @@
       "dodge": -30
     }
   },
-  "Examinateur": {
-    "name": "Examinateur",
+  "674e524064788cc74141a0e3": {
+    "id": "674e524064788cc74141a0e3",
+    "idShort": "oE",
+    "name": {
+      "fr": "Examinateur",
+      "en": "Twitcher",
+      "pt": "Examinador",
+      "de": "Prüfer",
+      "es": "Avistador"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
       "range": 1
     }
   },
-  "Féroce mineur": {
-    "name": "Féroce mineur",
+  "674e524064788cc74141a0e4": {
+    "id": "674e524064788cc74141a0e4",
+    "idShort": "oF",
+    "name": {
+      "fr": "Féroce mineur",
+      "en": "Minor Barbarian",
+      "pt": "Feroz menor",
+      "de": "Kleiner Wilder",
+      "es": "Dañador menor"
+    },
     "level": 50,
     "category": "dofus",
     "stats": {
@@ -1624,8 +3168,16 @@
       "criticalDamage": -6
     }
   },
-  "Féroce": {
-    "name": "Féroce",
+  "674e524064788cc74141a0e5": {
+    "id": "674e524064788cc74141a0e5",
+    "idShort": "oG",
+    "name": {
+      "fr": "Féroce",
+      "en": "Barbarian",
+      "pt": "Feroz",
+      "de": "Wilder",
+      "es": "Dañador"
+    },
     "level": 100,
     "category": "dofus",
     "stats": {
@@ -1637,8 +3189,16 @@
       "criticalDamage": -12
     }
   },
-  "Féroce majeur": {
-    "name": "Féroce majeur",
+  "674e524064788cc74141a0e6": {
+    "id": "674e524064788cc74141a0e6",
+    "idShort": "oH",
+    "name": {
+      "fr": "Féroce majeur",
+      "en": "Major Barbarian",
+      "pt": "Feroz maior",
+      "de": "Großer Wilder",
+      "es": "Dañador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -1650,8 +3210,16 @@
       "criticalDamage": -24
     }
   },
-  "Obstructeur mineur": {
-    "name": "Obstructeur mineur",
+  "674e524164788cc74141a8da": {
+    "id": "674e524164788cc74141a8da",
+    "idShort": "oI",
+    "name": {
+      "fr": "Obstructeur mineur",
+      "en": "Minor Obstructor",
+      "pt": "Obstrutor menor",
+      "de": "Kleiner Behinderer",
+      "es": "Obstructor menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1662,8 +3230,16 @@
       "lock": 8
     }
   },
-  "Obstructeur": {
-    "name": "Obstructeur",
+  "674e524164788cc74141a8db": {
+    "id": "674e524164788cc74141a8db",
+    "idShort": "oJ",
+    "name": {
+      "fr": "Obstructeur",
+      "en": "Obstructor",
+      "pt": "Obstrutor",
+      "de": "Behinderer",
+      "es": "Obstructor"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1674,8 +3250,16 @@
       "lock": 16
     }
   },
-  "Obstructeur majeur": {
-    "name": "Obstructeur majeur",
+  "674e524164788cc74141a8dc": {
+    "id": "674e524164788cc74141a8dc",
+    "idShort": "oK",
+    "name": {
+      "fr": "Obstructeur majeur",
+      "en": "Major Obstructor",
+      "pt": "Obstrutor maior",
+      "de": "Großer Behinderer",
+      "es": "Obstructor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1686,8 +3270,16 @@
       "lock": 32
     }
   },
-  "Déserteur mineur": {
-    "name": "Déserteur mineur",
+  "674e524164788cc74141a8dd": {
+    "id": "674e524164788cc74141a8dd",
+    "idShort": "oL",
+    "name": {
+      "fr": "Déserteur mineur",
+      "en": "Minor Deserter",
+      "pt": "Desertor menor",
+      "de": "Kleiner Deserteur",
+      "es": "Desertor menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1698,8 +3290,16 @@
       "dodge": 8
     }
   },
-  "Déserteur": {
-    "name": "Déserteur",
+  "674e524164788cc74141a8de": {
+    "id": "674e524164788cc74141a8de",
+    "idShort": "oM",
+    "name": {
+      "fr": "Déserteur",
+      "en": "Deserter",
+      "pt": "Desertor",
+      "de": "Deserteur",
+      "es": "Desertor"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1710,8 +3310,16 @@
       "dodge": 16
     }
   },
-  "Déserteur majeur": {
-    "name": "Déserteur majeur",
+  "674e524164788cc74141a8df": {
+    "id": "674e524164788cc74141a8df",
+    "idShort": "oN",
+    "name": {
+      "fr": "Déserteur majeur",
+      "en": "Major Deserter",
+      "pt": "Desertor maior",
+      "de": "Großer Deserteur",
+      "es": "Desertor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1722,8 +3330,16 @@
       "dodge": 32
     }
   },
-  "Guérisseur mineur": {
-    "name": "Guérisseur mineur",
+  "674e524164788cc74141a8e0": {
+    "id": "674e524164788cc74141a8e0",
+    "idShort": "oO",
+    "name": {
+      "fr": "Guérisseur mineur",
+      "en": "Minor Curer",
+      "pt": "Curandeiro menor",
+      "de": "Kleiner Wunderheiler",
+      "es": "Curandero menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1734,8 +3350,16 @@
       "heal": 8
     }
   },
-  "Guérisseur": {
-    "name": "Guérisseur",
+  "674e524164788cc74141a8e1": {
+    "id": "674e524164788cc74141a8e1",
+    "idShort": "oP",
+    "name": {
+      "fr": "Guérisseur",
+      "en": "Curer",
+      "pt": "Curandeiro",
+      "de": "Wunderheiler",
+      "es": "Curandero"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1746,8 +3370,16 @@
       "heal": 16
     }
   },
-  "Guérisseur majeur": {
-    "name": "Guérisseur majeur",
+  "674e524164788cc74141a8e2": {
+    "id": "674e524164788cc74141a8e2",
+    "idShort": "oQ",
+    "name": {
+      "fr": "Guérisseur majeur",
+      "en": "Major Curer",
+      "pt": "Curandeiro maior",
+      "de": "Großer Wunderheiler",
+      "es": "Curandero mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1758,8 +3390,16 @@
       "heal": 32
     }
   },
-  "Miraculé mineur": {
-    "name": "Miraculé mineur",
+  "674e524164788cc74141a8e3": {
+    "id": "674e524164788cc74141a8e3",
+    "idShort": "oR",
+    "name": {
+      "fr": "Miraculé mineur",
+      "en": "Minor Miracle Man",
+      "pt": "Miraculado menor",
+      "de": "Kleiner Überlebenskünstler",
+      "es": "Milagrero menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1770,8 +3410,16 @@
       "health": 80
     }
   },
-  "Miraculé": {
-    "name": "Miraculé",
+  "674e524164788cc74141a8e4": {
+    "id": "674e524164788cc74141a8e4",
+    "idShort": "oS",
+    "name": {
+      "fr": "Miraculé",
+      "en": "Miracle Man",
+      "pt": "Miraculado",
+      "de": "Überlebenskünstler",
+      "es": "Milagrero"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1782,8 +3430,16 @@
       "health": 160
     }
   },
-  "Miraculé majeur": {
-    "name": "Miraculé majeur",
+  "674e524164788cc74141a8e5": {
+    "id": "674e524164788cc74141a8e5",
+    "idShort": "oT",
+    "name": {
+      "fr": "Miraculé majeur",
+      "en": "Major Miracle Man",
+      "pt": "Miraculado maior",
+      "de": "Großer Überlebenskünstler",
+      "es": "Milagrero mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1794,8 +3450,16 @@
       "health": 320
     }
   },
-  "Enragé mineur": {
-    "name": "Enragé mineur",
+  "674e524164788cc74141a8e6": {
+    "id": "674e524164788cc74141a8e6",
+    "idShort": "oU",
+    "name": {
+      "fr": "Enragé mineur",
+      "en": "Minor Rabid",
+      "pt": "Raivoso menor",
+      "de": "Kleiner Tobsüchtiger",
+      "es": "Rabioso menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1806,8 +3470,16 @@
       "strength": 25
     }
   },
-  "Enragé": {
-    "name": "Enragé",
+  "674e524164788cc74141a8e7": {
+    "id": "674e524164788cc74141a8e7",
+    "idShort": "oV",
+    "name": {
+      "fr": "Enragé",
+      "en": "Rabid",
+      "pt": "Raivoso",
+      "de": "Tobsüchtiger",
+      "es": "Rabioso"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1818,8 +3490,16 @@
       "strength": 50
     }
   },
-  "Enragé majeur": {
-    "name": "Enragé majeur",
+  "674e524164788cc74141a8e8": {
+    "id": "674e524164788cc74141a8e8",
+    "idShort": "oW",
+    "name": {
+      "fr": "Enragé majeur",
+      "en": "Major Rabid",
+      "pt": "Raivoso maior",
+      "de": "Großer Tobsüchtiger",
+      "es": "Rabioso mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1830,8 +3510,16 @@
       "strength": 100
     }
   },
-  "Érudit mineur": {
-    "name": "Érudit mineur",
+  "674e524164788cc74141a8ee": {
+    "id": "674e524164788cc74141a8ee",
+    "idShort": "oX",
+    "name": {
+      "fr": "Érudit mineur",
+      "en": "Minor Intellectual",
+      "pt": "Erudito menor",
+      "de": "Kleiner Gelehrter",
+      "es": "Erudito menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1842,8 +3530,16 @@
       "intelligence": 25
     }
   },
-  "Érudit": {
-    "name": "Érudit",
+  "674e524164788cc74141a8ef": {
+    "id": "674e524164788cc74141a8ef",
+    "idShort": "oY",
+    "name": {
+      "fr": "Érudit",
+      "en": "Intellectual",
+      "pt": "Erudito",
+      "de": "Gelehrter",
+      "es": "Erudito"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1854,8 +3550,16 @@
       "intelligence": 50
     }
   },
-  "Érudit majeur": {
-    "name": "Érudit majeur",
+  "674e524164788cc74141a8f0": {
+    "id": "674e524164788cc74141a8f0",
+    "idShort": "oZ",
+    "name": {
+      "fr": "Érudit majeur",
+      "en": "Major Intellectual",
+      "pt": "Erudito maior",
+      "de": "Großer Gelehrter",
+      "es": "Erudito mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1866,8 +3570,16 @@
       "intelligence": 100
     }
   },
-  "Cascadeur mineur": {
-    "name": "Cascadeur mineur",
+  "674e524164788cc74141a915": {
+    "id": "674e524164788cc74141a915",
+    "idShort": "p0",
+    "name": {
+      "fr": "Cascadeur mineur",
+      "en": "Minor Stunter",
+      "pt": "Dublê menor",
+      "de": "Kleiner Stuntman",
+      "es": "Acróbata menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1878,8 +3590,16 @@
       "agility": 25
     }
   },
-  "Cascadeur": {
-    "name": "Cascadeur",
+  "674e524164788cc74141a916": {
+    "id": "674e524164788cc74141a916",
+    "idShort": "p1",
+    "name": {
+      "fr": "Cascadeur",
+      "en": "Stunter",
+      "pt": "Dublê",
+      "de": "Stuntman",
+      "es": "Acróbata"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1890,8 +3610,16 @@
       "agility": 50
     }
   },
-  "Cascadeur majeur": {
-    "name": "Cascadeur majeur",
+  "674e524164788cc74141a917": {
+    "id": "674e524164788cc74141a917",
+    "idShort": "p2",
+    "name": {
+      "fr": "Cascadeur majeur",
+      "en": "Major Stunter",
+      "pt": "Dublê maior",
+      "de": "Großer Stuntman",
+      "es": "Acróbata mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1902,8 +3630,16 @@
       "agility": 100
     }
   },
-  "Chanceux mineur": {
-    "name": "Chanceux mineur",
+  "674e524164788cc74141a918": {
+    "id": "674e524164788cc74141a918",
+    "idShort": "p3",
+    "name": {
+      "fr": "Chanceux mineur",
+      "en": "Minor Luckster",
+      "pt": "Sortudo menor",
+      "de": "Kleines Glückskind",
+      "es": "Suertudo menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1914,8 +3650,16 @@
       "chance": 25
     }
   },
-  "Chanceux": {
-    "name": "Chanceux",
+  "674e524164788cc74141a919": {
+    "id": "674e524164788cc74141a919",
+    "idShort": "p4",
+    "name": {
+      "fr": "Chanceux",
+      "en": "Luckster",
+      "pt": "Sortudo",
+      "de": "Glückskind",
+      "es": "Afortunado"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1926,8 +3670,16 @@
       "chance": 50
     }
   },
-  "Chanceux majeur": {
-    "name": "Chanceux majeur",
+  "674e524164788cc74141a91a": {
+    "id": "674e524164788cc74141a91a",
+    "idShort": "p5",
+    "name": {
+      "fr": "Chanceux majeur",
+      "en": "Major Luckster",
+      "pt": "Sortudo maior",
+      "de": "Großes Glückskind",
+      "es": "Suertudo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1938,8 +3690,16 @@
       "chance": 100
     }
   },
-  "Fortification mineure": {
-    "name": "Fortification mineure",
+  "674e524164788cc74141a91b": {
+    "id": "674e524164788cc74141a91b",
+    "idShort": "p6",
+    "name": {
+      "fr": "Fortification mineure",
+      "en": "Minor Fortification",
+      "pt": "Fortificação menor",
+      "de": "Kleines Befestigungswerk",
+      "es": "Fortificación menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1950,8 +3710,16 @@
       "criticalResist": 8
     }
   },
-  "Fortification": {
-    "name": "Fortification",
+  "674e524164788cc74141a91c": {
+    "id": "674e524164788cc74141a91c",
+    "idShort": "p7",
+    "name": {
+      "fr": "Fortification",
+      "en": "Fortification",
+      "pt": "Fortificação",
+      "de": "Befestigungswerk",
+      "es": "Fortificación"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1962,8 +3730,16 @@
       "criticalResist": 16
     }
   },
-  "Fortification majeure": {
-    "name": "Fortification majeure",
+  "674e524164788cc74141a91d": {
+    "id": "674e524164788cc74141a91d",
+    "idShort": "p8",
+    "name": {
+      "fr": "Fortification majeure",
+      "en": "Major Fortification",
+      "pt": "Fortificação maior",
+      "de": "Großes Befestigungswerk",
+      "es": "Fortificación mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -1974,8 +3750,16 @@
       "criticalResist": 32
     }
   },
-  "Dévastateur Terre mineur": {
-    "name": "Dévastateur Terre mineur",
+  "674e524164788cc74141a91e": {
+    "id": "674e524164788cc74141a91e",
+    "idShort": "p9",
+    "name": {
+      "fr": "Dévastateur Terre mineur",
+      "en": "Minor Earth Devastator",
+      "pt": "Devastador de Terra menor",
+      "de": "Kleiner Erden-Zerstörer",
+      "es": "Asolador de tierra menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -1986,8 +3770,16 @@
       "earthDamage": 5
     }
   },
-  "Dévastateur Terre": {
-    "name": "Dévastateur Terre",
+  "674e524164788cc74141a91f": {
+    "id": "674e524164788cc74141a91f",
+    "idShort": "pa",
+    "name": {
+      "fr": "Dévastateur Terre",
+      "en": "Earth Devastator",
+      "pt": "Devastador de Terra",
+      "de": "Erden-Zerstörer",
+      "es": "Asolador de tierra"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -1998,8 +3790,16 @@
       "earthDamage": 10
     }
   },
-  "Dévastateur Terre majeur": {
-    "name": "Dévastateur Terre majeur",
+  "674e524164788cc74141a920": {
+    "id": "674e524164788cc74141a920",
+    "idShort": "pb",
+    "name": {
+      "fr": "Dévastateur Terre majeur",
+      "en": "Major Earth Devastator",
+      "pt": "Devastador de Terra maior",
+      "de": "Großer Erden-Zerstörer",
+      "es": "Asolador de tierra mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2010,8 +3810,16 @@
       "earthDamage": 20
     }
   },
-  "Dévastateur Neutre mineur": {
-    "name": "Dévastateur Neutre mineur",
+  "674e524164788cc74141a921": {
+    "id": "674e524164788cc74141a921",
+    "idShort": "pc",
+    "name": {
+      "fr": "Dévastateur Neutre mineur",
+      "en": "Minor Neutral Devastator",
+      "pt": "Devastador Neutro menor",
+      "de": "Kleiner Neutral-Zerstörer",
+      "es": "Asolador neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2022,8 +3830,16 @@
       "neutralDamage": 5
     }
   },
-  "Dévastateur Neutre": {
-    "name": "Dévastateur Neutre",
+  "674e524164788cc74141a922": {
+    "id": "674e524164788cc74141a922",
+    "idShort": "pd",
+    "name": {
+      "fr": "Dévastateur Neutre",
+      "en": "Neutral Devastator",
+      "pt": "Devastador Neutro",
+      "de": "Neutral-Zerstörer",
+      "es": "Asolador neutral"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2034,8 +3850,16 @@
       "neutralDamage": 10
     }
   },
-  "Dévastateur Neutre majeur": {
-    "name": "Dévastateur Neutre majeur",
+  "674e524164788cc74141a923": {
+    "id": "674e524164788cc74141a923",
+    "idShort": "pe",
+    "name": {
+      "fr": "Dévastateur Neutre majeur",
+      "en": "Major Neutral Devastator",
+      "pt": "Devastador Neutro maior",
+      "de": "Großer Neutral-Zerstörer",
+      "es": "Asolador neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2046,8 +3870,16 @@
       "neutralDamage": 20
     }
   },
-  "Dévastateur Feu mineur": {
-    "name": "Dévastateur Feu mineur",
+  "674e524164788cc74141a924": {
+    "id": "674e524164788cc74141a924",
+    "idShort": "pf",
+    "name": {
+      "fr": "Dévastateur Feu mineur",
+      "en": "Minor Fire Devastator",
+      "pt": "Devastador de Fogo menor",
+      "de": "Kleiner Feuer-Zerstörer",
+      "es": "Asolador de fuego menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2058,8 +3890,16 @@
       "fireDamage": 5
     }
   },
-  "Dévastateur Feu": {
-    "name": "Dévastateur Feu",
+  "674e524164788cc74141a925": {
+    "id": "674e524164788cc74141a925",
+    "idShort": "pg",
+    "name": {
+      "fr": "Dévastateur Feu",
+      "en": "Fire Devastator",
+      "pt": "Devastador de Fogo",
+      "de": "Feuer-Zerstörer",
+      "es": "Asolador de fuego"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2070,8 +3910,16 @@
       "fireDamage": 10
     }
   },
-  "Dévastateur Feu majeur": {
-    "name": "Dévastateur Feu majeur",
+  "674e524164788cc74141a926": {
+    "id": "674e524164788cc74141a926",
+    "idShort": "ph",
+    "name": {
+      "fr": "Dévastateur Feu majeur",
+      "en": "Major Fire Devastator",
+      "pt": "Devastador de Fogo maior",
+      "de": "Großer Feuer-Zerstörer",
+      "es": "Asolador de fuego mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2082,8 +3930,16 @@
       "fireDamage": 20
     }
   },
-  "Dévastateur Eau mineur": {
-    "name": "Dévastateur Eau mineur",
+  "674e524164788cc74141a928": {
+    "id": "674e524164788cc74141a928",
+    "idShort": "pi",
+    "name": {
+      "fr": "Dévastateur Eau mineur",
+      "en": "Minor Water Devastator",
+      "pt": "Devastador de Água menor",
+      "de": "Kleiner Wasser-Zerstörer",
+      "es": "Asolador de agua menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2094,8 +3950,16 @@
       "waterDamage": 5
     }
   },
-  "Dévastateur Eau": {
-    "name": "Dévastateur Eau",
+  "674e524164788cc74141a929": {
+    "id": "674e524164788cc74141a929",
+    "idShort": "pj",
+    "name": {
+      "fr": "Dévastateur Eau",
+      "en": "Water Devastator",
+      "pt": "Devastador de Água",
+      "de": "Wasser-Zerstörer",
+      "es": "Asolador de agua"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2106,8 +3970,16 @@
       "waterDamage": 10
     }
   },
-  "Dévastateur Eau majeur": {
-    "name": "Dévastateur Eau majeur",
+  "674e524164788cc74141a92a": {
+    "id": "674e524164788cc74141a92a",
+    "idShort": "pk",
+    "name": {
+      "fr": "Dévastateur Eau majeur",
+      "en": "Major Water Devastator",
+      "pt": "Devastador de Água maior",
+      "de": "Großer Wasser-Zerstörer",
+      "es": "Asolador de agua mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2118,8 +3990,16 @@
       "waterDamage": 20
     }
   },
-  "Dévastateur Air mineur": {
-    "name": "Dévastateur Air mineur",
+  "674e524164788cc74141a92b": {
+    "id": "674e524164788cc74141a92b",
+    "idShort": "pl",
+    "name": {
+      "fr": "Dévastateur Air mineur",
+      "en": "Minor Air Devastator",
+      "pt": "Devastador de Ar menor",
+      "de": "Kleiner Luft-Zerstörer",
+      "es": "Asolador de aire menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2130,8 +4010,16 @@
       "airDamage": 5
     }
   },
-  "Dévastateur Air": {
-    "name": "Dévastateur Air",
+  "674e524164788cc74141a92c": {
+    "id": "674e524164788cc74141a92c",
+    "idShort": "pm",
+    "name": {
+      "fr": "Dévastateur Air",
+      "en": "Air Devastator",
+      "pt": "Devastador de Ar",
+      "de": "Luft-Zerstörer",
+      "es": "Asolador de aire"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2142,8 +4030,16 @@
       "airDamage": 10
     }
   },
-  "Dévastateur Air majeur": {
-    "name": "Dévastateur Air majeur",
+  "674e524164788cc74141a92d": {
+    "id": "674e524164788cc74141a92d",
+    "idShort": "pn",
+    "name": {
+      "fr": "Dévastateur Air majeur",
+      "en": "Major Air Devastator",
+      "pt": "Devastador de Ar maior",
+      "de": "Großer Luft-Zerstörer",
+      "es": "Asolador de aire mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2154,8 +4050,16 @@
       "airDamage": 20
     }
   },
-  "Temporiseur mineur": {
-    "name": "Temporiseur mineur",
+  "674e524164788cc74141a930": {
+    "id": "674e524164788cc74141a930",
+    "idShort": "po",
+    "name": {
+      "fr": "Temporiseur mineur",
+      "en": "Minor Delayer",
+      "pt": "Temporizador menor",
+      "de": "Kleiner Zauderer",
+      "es": "Temporizador menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2166,8 +4070,16 @@
       "mpReduction": 6
     }
   },
-  "Temporiseur": {
-    "name": "Temporiseur",
+  "674e524164788cc74141a931": {
+    "id": "674e524164788cc74141a931",
+    "idShort": "pp",
+    "name": {
+      "fr": "Temporiseur",
+      "en": "Delayer",
+      "pt": "Temporizador",
+      "de": "Zauderer",
+      "es": "Temporizador"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2178,8 +4090,16 @@
       "mpReduction": 12
     }
   },
-  "Temporiseur majeur": {
-    "name": "Temporiseur majeur",
+  "674e524164788cc74141a933": {
+    "id": "674e524164788cc74141a933",
+    "idShort": "pq",
+    "name": {
+      "fr": "Temporiseur majeur",
+      "en": "Major Delayer",
+      "pt": "Temporizador maior",
+      "de": "Großer Zauderer",
+      "es": "Temporizador mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2190,8 +4110,16 @@
       "mpReduction": 24
     }
   },
-  "Étourdisseur mineur": {
-    "name": "Étourdisseur mineur",
+  "674e524164788cc74141a934": {
+    "id": "674e524164788cc74141a934",
+    "idShort": "pr",
+    "name": {
+      "fr": "Étourdisseur mineur",
+      "en": "Minor Stunner",
+      "pt": "Atordoador menor",
+      "de": "Kleiner Betäuber",
+      "es": "Aturdidor menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2202,8 +4130,16 @@
       "apReduction": 6
     }
   },
-  "Étourdisseur": {
-    "name": "Étourdisseur",
+  "674e524164788cc74141a935": {
+    "id": "674e524164788cc74141a935",
+    "idShort": "ps",
+    "name": {
+      "fr": "Étourdisseur",
+      "en": "Stunner",
+      "pt": "Atordoador",
+      "de": "Betäuber",
+      "es": "Aturdidor"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2214,8 +4150,16 @@
       "apReduction": 12
     }
   },
-  "Étourdisseur majeur": {
-    "name": "Étourdisseur majeur",
+  "674e524164788cc74141a936": {
+    "id": "674e524164788cc74141a936",
+    "idShort": "pt",
+    "name": {
+      "fr": "Étourdisseur majeur",
+      "en": "Major Stunner",
+      "pt": "Atordoador maior",
+      "de": "Großer Betäuber",
+      "es": "Aturdidor mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2226,8 +4170,16 @@
       "apReduction": 24
     }
   },
-  "Évasif mineur": {
-    "name": "Évasif mineur",
+  "674e524164788cc74141a93e": {
+    "id": "674e524164788cc74141a93e",
+    "idShort": "pu",
+    "name": {
+      "fr": "Évasif mineur",
+      "en": "Minor Evader",
+      "pt": "Evasivo menor",
+      "de": "Kleiner Vermeider",
+      "es": "Evasivo menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2238,8 +4190,16 @@
       "apResist": 8
     }
   },
-  "Évasif": {
-    "name": "Évasif",
+  "674e524164788cc74141a93f": {
+    "id": "674e524164788cc74141a93f",
+    "idShort": "pv",
+    "name": {
+      "fr": "Évasif",
+      "en": "Evader",
+      "pt": "Evasivo",
+      "de": "Vermeider",
+      "es": "Evasivo"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2250,8 +4210,16 @@
       "apResist": 16
     }
   },
-  "Évasif majeur": {
-    "name": "Évasif majeur",
+  "674e524164788cc74141a940": {
+    "id": "674e524164788cc74141a940",
+    "idShort": "pw",
+    "name": {
+      "fr": "Évasif majeur",
+      "en": "Major Evader",
+      "pt": "Evasivo maior",
+      "de": "Großer Vermeider",
+      "es": "Evasivo mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2262,8 +4230,16 @@
       "apResist": 32
     }
   },
-  "Cavaleur mineur": {
-    "name": "Cavaleur mineur",
+  "674e524164788cc74141a942": {
+    "id": "674e524164788cc74141a942",
+    "idShort": "px",
+    "name": {
+      "fr": "Cavaleur mineur",
+      "en": "Minor Escapee",
+      "pt": "Foragido menor",
+      "de": "Kleiner Ausreißer",
+      "es": "Trotón menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2274,8 +4250,16 @@
       "mpResist": 8
     }
   },
-  "Cavaleur": {
-    "name": "Cavaleur",
+  "674e524164788cc74141a943": {
+    "id": "674e524164788cc74141a943",
+    "idShort": "py",
+    "name": {
+      "fr": "Cavaleur",
+      "en": "Escapee",
+      "pt": "Foragido",
+      "de": "Ausreißer",
+      "es": "Trotón"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2286,8 +4270,16 @@
       "mpResist": 16
     }
   },
-  "Cavaleur majeur": {
-    "name": "Cavaleur majeur",
+  "674e524164788cc74141a944": {
+    "id": "674e524164788cc74141a944",
+    "idShort": "pz",
+    "name": {
+      "fr": "Cavaleur majeur",
+      "en": "Major Escapee",
+      "pt": "Foragido maior",
+      "de": "Großer Ausreißer",
+      "es": "Trotón mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2298,8 +4290,16 @@
       "mpResist": 32
     }
   },
-  "Culbuteur mineur": {
-    "name": "Culbuteur mineur",
+  "674e524164788cc74141a945": {
+    "id": "674e524164788cc74141a945",
+    "idShort": "pA",
+    "name": {
+      "fr": "Culbuteur mineur",
+      "en": "Minor Feller",
+      "pt": "Virador menor",
+      "de": "Kleiner Umfaller",
+      "es": "Chaquetero menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2310,8 +4310,16 @@
       "pushbackDamage": 16
     }
   },
-  "Culbuteur": {
-    "name": "Culbuteur",
+  "674e524164788cc74141a947": {
+    "id": "674e524164788cc74141a947",
+    "idShort": "pB",
+    "name": {
+      "fr": "Culbuteur",
+      "en": "Feller",
+      "pt": "Virador",
+      "de": "Umfaller",
+      "es": "Chaquetero"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2322,8 +4330,16 @@
       "pushbackDamage": 32
     }
   },
-  "Culbuteur majeur": {
-    "name": "Culbuteur majeur",
+  "674e524164788cc74141a948": {
+    "id": "674e524164788cc74141a948",
+    "idShort": "pC",
+    "name": {
+      "fr": "Culbuteur majeur",
+      "en": "Major Feller",
+      "pt": "Virador maior",
+      "de": "Großer Umfaller",
+      "es": "Chaquetero mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2334,8 +4350,16 @@
       "pushbackDamage": 64
     }
   },
-  "Solide mineur": {
-    "name": "Solide mineur",
+  "674e524164788cc74141a94a": {
+    "id": "674e524164788cc74141a94a",
+    "idShort": "pD",
+    "name": {
+      "fr": "Solide mineur",
+      "en": "Minor Solid",
+      "pt": "Sólido menor",
+      "de": "Kleiner Zäher",
+      "es": "Sólido menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2346,8 +4370,16 @@
       "pushbackResist": 24
     }
   },
-  "Solide": {
-    "name": "Solide",
+  "674e524164788cc74141a94b": {
+    "id": "674e524164788cc74141a94b",
+    "idShort": "pE",
+    "name": {
+      "fr": "Solide",
+      "en": "Solid",
+      "pt": "Sólido",
+      "de": "Zäher",
+      "es": "Sólido"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2358,8 +4390,16 @@
       "pushbackResist": 48
     }
   },
-  "Solide majeur": {
-    "name": "Solide majeur",
+  "674e524164788cc74141a94c": {
+    "id": "674e524164788cc74141a94c",
+    "idShort": "pF",
+    "name": {
+      "fr": "Solide majeur",
+      "en": "Major Solid",
+      "pt": "Sólido maior",
+      "de": "Großer Zäher",
+      "es": "Sólido mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2370,8 +4410,16 @@
       "pushbackResist": 96
     }
   },
-  "Fonceur mineur": {
-    "name": "Fonceur mineur",
+  "674e524164788cc74141a94d": {
+    "id": "674e524164788cc74141a94d",
+    "idShort": "pG",
+    "name": {
+      "fr": "Fonceur mineur",
+      "en": "Minor Motivator",
+      "pt": "Motivador menor",
+      "de": "Kleiner Draufgänger",
+      "es": "Brioso menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2382,8 +4430,16 @@
       "initiative": 200
     }
   },
-  "Fonceur": {
-    "name": "Fonceur",
+  "674e524164788cc74141a94e": {
+    "id": "674e524164788cc74141a94e",
+    "idShort": "pH",
+    "name": {
+      "fr": "Fonceur",
+      "en": "Motivator",
+      "pt": "Motivador",
+      "de": "Draufgänger",
+      "es": "Brioso"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2394,8 +4450,16 @@
       "initiative": 400
     }
   },
-  "Fonceur majeur": {
-    "name": "Fonceur majeur",
+  "674e524164788cc74141a94f": {
+    "id": "674e524164788cc74141a94f",
+    "idShort": "pI",
+    "name": {
+      "fr": "Fonceur majeur",
+      "en": "Major Motivator",
+      "pt": "Motivador maior",
+      "de": "Großer Draufgänger",
+      "es": "Brioso mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2406,8 +4470,16 @@
       "initiative": 800
     }
   },
-  "Carapace Terre mineur": {
-    "name": "Carapace Terre mineur",
+  "674e524164788cc74141a950": {
+    "id": "674e524164788cc74141a950",
+    "idShort": "pJ",
+    "name": {
+      "fr": "Carapace Terre mineur",
+      "en": "Minor Earth Carapace",
+      "pt": "Carapaça de Terra menor",
+      "de": "Kleiner Erden-Schutzpanzer",
+      "es": "Caparazón de tierra menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2418,8 +4490,16 @@
       "earthResistPer": 3
     }
   },
-  "Carapace Terre": {
-    "name": "Carapace Terre",
+  "674e524164788cc74141a951": {
+    "id": "674e524164788cc74141a951",
+    "idShort": "pK",
+    "name": {
+      "fr": "Carapace Terre",
+      "en": "Earth Carapace",
+      "pt": "Carapaça de Terra",
+      "de": "Erden-Schutzpanzer",
+      "es": "Caparazón de tierra"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2430,8 +4510,16 @@
       "earthResistPer": 6
     }
   },
-  "Carapace Terre majeur": {
-    "name": "Carapace Terre majeur",
+  "674e524164788cc74141a952": {
+    "id": "674e524164788cc74141a952",
+    "idShort": "pL",
+    "name": {
+      "fr": "Carapace Terre majeur",
+      "en": "Major Earth Carapace",
+      "pt": "Carapaça de Terra maior",
+      "de": "Großer Erden-Schutzpanzer",
+      "es": "Caparazón de tierra mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2442,8 +4530,16 @@
       "earthResistPer": 12
     }
   },
-  "Carapace Neutre mineur": {
-    "name": "Carapace Neutre mineur",
+  "674e524164788cc74141a953": {
+    "id": "674e524164788cc74141a953",
+    "idShort": "pM",
+    "name": {
+      "fr": "Carapace Neutre mineur",
+      "en": "Minor Neutral Carapace",
+      "pt": "Carapaça Neutra menor",
+      "de": "Kleiner Neutral-Schutzpanzer",
+      "es": "Caparazón neutral menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2454,8 +4550,16 @@
       "neutralResistPer": 3
     }
   },
-  "Carapace Neutre": {
-    "name": "Carapace Neutre",
+  "674e524164788cc74141a954": {
+    "id": "674e524164788cc74141a954",
+    "idShort": "pN",
+    "name": {
+      "fr": "Carapace Neutre",
+      "en": "Neutral Carapace",
+      "pt": "Carapaça Neutra",
+      "de": "Neutral-Schutzpanzer",
+      "es": "Caparazón neutral"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2466,8 +4570,16 @@
       "neutralResistPer": 6
     }
   },
-  "Carapace Neutre majeur": {
-    "name": "Carapace Neutre majeur",
+  "674e524164788cc74141a955": {
+    "id": "674e524164788cc74141a955",
+    "idShort": "pO",
+    "name": {
+      "fr": "Carapace Neutre majeur",
+      "en": "Major Neutral Carapace",
+      "pt": "Carapaça Neutra maior",
+      "de": "Großer Neutral-Schutzpanzer",
+      "es": "Caparazón neutral mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2478,8 +4590,16 @@
       "neutralResistPer": 12
     }
   },
-  "Carapace Feu mineur": {
-    "name": "Carapace Feu mineur",
+  "674e524164788cc74141a956": {
+    "id": "674e524164788cc74141a956",
+    "idShort": "pP",
+    "name": {
+      "fr": "Carapace Feu mineur",
+      "en": "Minor Fire Carapace",
+      "pt": "Carapaça de Fogo menor",
+      "de": "Kleiner Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2490,8 +4610,16 @@
       "fireResistPer": 3
     }
   },
-  "Carapace Feu": {
-    "name": "Carapace Feu",
+  "674e524164788cc74141a957": {
+    "id": "674e524164788cc74141a957",
+    "idShort": "pQ",
+    "name": {
+      "fr": "Carapace Feu",
+      "en": "Fire Carapace",
+      "pt": "Carapaça de Fogo",
+      "de": "Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2502,8 +4630,16 @@
       "fireResistPer": 6
     }
   },
-  "Carapace Feu majeur": {
-    "name": "Carapace Feu majeur",
+  "674e524164788cc74141a958": {
+    "id": "674e524164788cc74141a958",
+    "idShort": "pR",
+    "name": {
+      "fr": "Carapace Feu majeur",
+      "en": "Major Fire Carapace",
+      "pt": "Carapaça de Fogo maior",
+      "de": "Großer Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2514,8 +4650,16 @@
       "fireResistPer": 12
     }
   },
-  "Carapace Eau mineur": {
-    "name": "Carapace Eau mineur",
+  "674e524164788cc74141a959": {
+    "id": "674e524164788cc74141a959",
+    "idShort": "pS",
+    "name": {
+      "fr": "Carapace Eau mineur",
+      "en": "Minor Water Carapace",
+      "pt": "Carapaça de Água menor",
+      "de": "Kleiner Wasser-Schutzpanzer",
+      "es": "Caparazón de agua menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2526,8 +4670,16 @@
       "waterResistPer": 3
     }
   },
-  "Carapace Eau": {
-    "name": "Carapace Eau",
+  "674e524164788cc74141a95a": {
+    "id": "674e524164788cc74141a95a",
+    "idShort": "pT",
+    "name": {
+      "fr": "Carapace Eau",
+      "en": "Water Carapace",
+      "pt": "Carapaça de Água",
+      "de": "Wasser-Schutzpanzer",
+      "es": "Caparazón de agua"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2538,8 +4690,16 @@
       "waterResistPer": 6
     }
   },
-  "Carapace Eau majeur": {
-    "name": "Carapace Eau majeur",
+  "674e524164788cc74141a95b": {
+    "id": "674e524164788cc74141a95b",
+    "idShort": "pU",
+    "name": {
+      "fr": "Carapace Eau majeur",
+      "en": "Major Water Carapace",
+      "pt": "Carapaça de Água maior",
+      "de": "Großer Wasser-Schutzpanzer",
+      "es": "Caparazón de agua mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2550,8 +4710,16 @@
       "waterResistPer": 12
     }
   },
-  "Carapace Air mineur": {
-    "name": "Carapace Air mineur",
+  "674e524164788cc74141a95c": {
+    "id": "674e524164788cc74141a95c",
+    "idShort": "pV",
+    "name": {
+      "fr": "Carapace Air mineur",
+      "en": "Minor Air Carapace",
+      "pt": "Carapaça de Ar menor",
+      "de": "Kleiner Luft-Schutzpanzer",
+      "es": "Caparazón de aire menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2562,8 +4730,16 @@
       "airResistPer": 3
     }
   },
-  "Carapace Air": {
-    "name": "Carapace Air",
+  "674e524164788cc74141a95d": {
+    "id": "674e524164788cc74141a95d",
+    "idShort": "pW",
+    "name": {
+      "fr": "Carapace Air",
+      "en": "Air Carapace",
+      "pt": "Carapaça de Ar",
+      "de": "Luft-Schutzpanzer",
+      "es": "Caparazón de aire"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2574,8 +4750,16 @@
       "airResistPer": 6
     }
   },
-  "Carapace Air majeur": {
-    "name": "Carapace Air majeur",
+  "674e524164788cc74141a95e": {
+    "id": "674e524164788cc74141a95e",
+    "idShort": "pX",
+    "name": {
+      "fr": "Carapace Air majeur",
+      "en": "Major Air Carapace",
+      "pt": "Carapaça de Ar maior",
+      "de": "Großer Luft-Schutzpanzer",
+      "es": "Caparazón de aire mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2586,8 +4770,16 @@
       "airResistPer": 12
     }
   },
-  "Vigoureux mineur": {
-    "name": "Vigoureux mineur",
+  "674e524164788cc74141a95f": {
+    "id": "674e524164788cc74141a95f",
+    "idShort": "pY",
+    "name": {
+      "fr": "Vigoureux mineur",
+      "en": "Minor Vigour",
+      "pt": "Vigoroso menor",
+      "de": "Kleiner Taffer",
+      "es": "Lozano menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2598,8 +4790,16 @@
       "power": 20
     }
   },
-  "Vigoureux": {
-    "name": "Vigoureux",
+  "674e524164788cc74141a960": {
+    "id": "674e524164788cc74141a960",
+    "idShort": "pZ",
+    "name": {
+      "fr": "Vigoureux",
+      "en": "Vigour",
+      "pt": "Vigoroso",
+      "de": "Taffer",
+      "es": "Lozano"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2610,8 +4810,16 @@
       "power": 40
     }
   },
-  "Vigoureux majeur": {
-    "name": "Vigoureux majeur",
+  "674e524164788cc74141a961": {
+    "id": "674e524164788cc74141a961",
+    "idShort": "q0",
+    "name": {
+      "fr": "Vigoureux majeur",
+      "en": "Major Vigour",
+      "pt": "Vigoroso maior",
+      "de": "Großer Taffer",
+      "es": "Lozano mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2622,8 +4830,16 @@
       "power": 80
     }
   },
-  "Remueur": {
-    "name": "Remueur",
+  "674e524164788cc74141a962": {
+    "id": "674e524164788cc74141a962",
+    "idShort": "q1",
+    "name": {
+      "fr": "Remueur",
+      "en": "Shaker",
+      "pt": "Agitador",
+      "de": "Anstifter",
+      "es": "Espabilador"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2634,8 +4850,16 @@
       "ap": 1
     }
   },
-  "Nomade": {
-    "name": "Nomade",
+  "674e524164788cc74141a964": {
+    "id": "674e524164788cc74141a964",
+    "idShort": "q2",
+    "name": {
+      "fr": "Nomade",
+      "en": "Nomad",
+      "pt": "Nômade",
+      "de": "Nomade",
+      "es": "Nómada"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2646,8 +4870,16 @@
       "mp": 1
     }
   },
-  "Observateur": {
-    "name": "Observateur",
+  "674e524164788cc74141a965": {
+    "id": "674e524164788cc74141a965",
+    "idShort": "q3",
+    "name": {
+      "fr": "Observateur",
+      "en": "Observer",
+      "pt": "Observador",
+      "de": "Beobachter",
+      "es": "Observador"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2658,8 +4890,16 @@
       "range": 2
     }
   },
-  "Sanguinaire mineur": {
-    "name": "Sanguinaire mineur",
+  "674e524164788cc74141a966": {
+    "id": "674e524164788cc74141a966",
+    "idShort": "q4",
+    "name": {
+      "fr": "Sanguinaire mineur",
+      "en": "Minor Bloodthirst",
+      "pt": "Sanguinário menor",
+      "de": "Kleiner Blutrünstiger",
+      "es": "Sanguinario menor"
+    },
     "level": 50,
     "category": "dofus",
     "requirement": {
@@ -2674,8 +4914,16 @@
       "airDamage": 3
     }
   },
-  "Sanguinaire": {
-    "name": "Sanguinaire",
+  "674e524164788cc74141a967": {
+    "id": "674e524164788cc74141a967",
+    "idShort": "q5",
+    "name": {
+      "fr": "Sanguinaire",
+      "en": "Bloodthirst",
+      "pt": "Sanguinário",
+      "de": "Blutrünstiger",
+      "es": "Sanguinario"
+    },
     "level": 100,
     "category": "dofus",
     "requirement": {
@@ -2690,8 +4938,16 @@
       "airDamage": 6
     }
   },
-  "Sanguinaire majeur": {
-    "name": "Sanguinaire majeur",
+  "674e524164788cc74141a968": {
+    "id": "674e524164788cc74141a968",
+    "idShort": "q6",
+    "name": {
+      "fr": "Sanguinaire majeur",
+      "en": "Major Bloodthirst",
+      "pt": "Sanguinário maior",
+      "de": "Großer Blutrünstiger",
+      "es": "Sanguinario mayor"
+    },
     "level": 150,
     "category": "dofus",
     "requirement": {
@@ -2706,8 +4962,16 @@
       "airDamage": 12
     }
   },
-  "Prudent": {
-    "name": "Prudent",
+  "674e524164788cc74141d040": {
+    "id": "674e524164788cc74141d040",
+    "idShort": "q7",
+    "name": {
+      "fr": "Prudent",
+      "en": "Cautious",
+      "pt": "Prudente",
+      "de": "Vorsichtig",
+      "es": "Prudente"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -2716,8 +4980,16 @@
       "meleeDamagePer": -9
     }
   },
-  "Audacieux": {
-    "name": "Audacieux",
+  "674e524164788cc74141d041": {
+    "id": "674e524164788cc74141d041",
+    "idShort": "q8",
+    "name": {
+      "fr": "Audacieux",
+      "en": "Audacious",
+      "pt": "Audacioso",
+      "de": "Kühn",
+      "es": "Valiente"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -2726,8 +4998,16 @@
       "meleeDamagePer": -9
     }
   },
-  "Impétueux": {
-    "name": "Impétueux",
+  "674e524164788cc74141d042": {
+    "id": "674e524164788cc74141d042",
+    "idShort": "q9",
+    "name": {
+      "fr": "Impétueux",
+      "en": "Impetuous",
+      "pt": "Impetuoso",
+      "de": "Ungestüm",
+      "es": "Impetuoso"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -2736,8 +5016,16 @@
       "meleeResistPer": -9
     }
   },
-  "Pugiliste": {
-    "name": "Pugiliste",
+  "674e524164788cc74141d043": {
+    "id": "674e524164788cc74141d043",
+    "idShort": "qa",
+    "name": {
+      "fr": "Pugiliste",
+      "en": "Pugilist",
+      "pt": "Pugilista",
+      "de": "Faustkämpfer",
+      "es": "Pugilista"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -2746,8 +5034,16 @@
       "meleeResistPer": -9
     }
   },
-  "Arcaniste": {
-    "name": "Arcaniste",
+  "674e524164788cc74141d044": {
+    "id": "674e524164788cc74141d044",
+    "idShort": "qb",
+    "name": {
+      "fr": "Arcaniste",
+      "en": "Arcanist",
+      "pt": "Arcanista",
+      "de": "Eingeweiht",
+      "es": "Arcanista"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {
@@ -2756,8 +5052,16 @@
       "meleeResistPer": -9
     }
   },
-  "Barbare": {
-    "name": "Barbare",
+  "674e524164788cc74141d045": {
+    "id": "674e524164788cc74141d045",
+    "idShort": "qc",
+    "name": {
+      "fr": "Barbare",
+      "en": "Barbaric",
+      "pt": "Bárbaro",
+      "de": "Barbar",
+      "es": "Bárbaro"
+    },
     "level": 150,
     "category": "dofus",
     "stats": {

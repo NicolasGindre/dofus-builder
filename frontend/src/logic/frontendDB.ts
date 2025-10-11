@@ -11,17 +11,31 @@ import {
 import { getBonusStats } from "../types/stats";
 
 export async function initFrontendDB() {
-    const itemResp = await fetch("/api/items");
-    if (!itemResp.ok) throw new Error("Failed to load items");
-    // get(items);
-    items.set((await itemResp.json()) as Items);
+    // const itemsStorage = localStorage.getItem("items");
+    const itemsStorage = false;
+    if (itemsStorage) {
+        console.log("Loaded Items From STORAGE");
+        items.set(JSON.parse(itemsStorage));
+    } else {
+        const itemResp = await fetch("/api/items");
+        if (!itemResp.ok) throw new Error("Failed to load items");
+        const itemsJson = await itemResp.json();
+        items.set(itemsJson as Items);
+        localStorage.setItem("items", JSON.stringify(itemsJson));
+    }
 
-    const panopliesResp = await fetch("/api/panoplies");
-    if (!panopliesResp.ok) throw new Error("Failed to load panoplies");
-    // get(panoplies);
-    panoplies.set((await panopliesResp.json()) as Panoplies);
-    console.log("get(panoplies)");
-    console.log(get(panoplies));
+    // const panopliesStorage = localStorage.getItem("panoplies");
+    const panopliesStorage = false;
+    if (panopliesStorage) {
+        // console.log("panopliesStorage", panopliesStorage);
+        panoplies.set(JSON.parse(panopliesStorage));
+    } else {
+        const panopliesResp = await fetch("/api/panoplies");
+        if (!panopliesResp.ok) throw new Error("Failed to load panoplies");
+        const panopliesJson = await panopliesResp.json();
+        panoplies.set(panopliesJson as Panoplies);
+        localStorage.setItem("panoplies", JSON.stringify(panopliesJson));
+    }
 
     calculateItemsBonus();
     addPanopliesItemsReal();
@@ -31,7 +45,6 @@ export async function initFrontendDB() {
 
 function calculateItemsBonus() {
     for (const item of Object.values(get(items))) {
-        // console.log(item.name);
         item.statsWithBonus = getBonusStats(item.stats);
     }
 }
@@ -39,8 +52,8 @@ function calculateItemsBonus() {
 function addPanopliesItemsReal() {
     for (const pano of Object.values(get(panoplies))) {
         pano.itemsReal = [];
-        for (const itemName of pano.items) {
-            pano.itemsReal.push(getItem(itemName));
+        for (const itemId of pano.items) {
+            pano.itemsReal.push(getItem(itemId));
         }
     }
 }
@@ -66,10 +79,10 @@ function fillItemsCategories() {
     itemsCategory.set(grouped);
 }
 
-export function getPanoply(name: string): Panoply {
-    return get(panoplies)[name]!;
+export function getPanoply(id: string): Panoply {
+    return get(panoplies)[id]!;
 }
 
-export function getItem(name: string): Item {
-    return get(items)[name]!;
+export function getItem(id: string): Item {
+    return get(items)[id]!;
 }

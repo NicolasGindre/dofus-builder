@@ -1,6 +1,7 @@
 use wasm_bindgen::prelude::*;
 use web_sys::console;
 use serde::{Deserialize, Serialize};
+use web_sys::js_sys::Function;
 use crate::stats::{Stats, MaxStats, MinStats};
 pub mod stats;
 use std::cmp::Reverse;
@@ -17,7 +18,7 @@ fn log<T: AsRef<str>>(msg: T) {
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct MinItem {
-    pub name: String,
+    pub id: String,
     pub stats: Stats,
     // pub category: String,
     #[serde(default)]
@@ -28,7 +29,7 @@ pub struct MinItem {
 
 #[derive(Clone, Debug)]
 struct ItemPrepared {
-    name: String,
+    id: String,
     stats: Stats,
     // sparse contributions: (pid, how many set pieces this item brings for that panoply)
     pan_sparse: Vec<(usize, u8)>,
@@ -107,9 +108,11 @@ impl Requirement {
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Clone, Debug)]
+        #[serde(rename_all = "camelCase")]
 pub struct PanoplyIn {
-    pub name: String,
+    pub id: String,
     pub items: Vec<String>,
+    #[serde(rename = "statsWithBonus")]
     pub stats: Vec<Stats>, // stats[count-1] = TOTAL bonus for 'count' items (1-based)
 }
 use std::collections::HashMap;
@@ -117,14 +120,14 @@ use std::collections::HashMap;
 struct PanData {
     // per pid: bonus[count-1] = Stats (clamped in use if count > len)
     bonus: Vec<Vec<Stats>>,
-    // mapping from item name -> panoply id
+    // mapping from item string id -> panoply id
     panoply_to_pid: HashMap<String, usize>,
 }
 
 #[derive(Serialize, Deserialize, Clone, Debug)]
 pub struct BuildResult {
     pub value: f64,
-    pub names: Vec<String>,
+    pub ids: Vec<String>,
 }
 
 impl Eq for BuildResult {}
@@ -152,7 +155,7 @@ fn build_pan_data(all_panoplies: &[PanoplyIn]) -> PanData {
     let mut bonus_tables = Vec::with_capacity(all_panoplies.len());
 
     for (panoply_id, pan) in all_panoplies.iter().enumerate() {
-        panoply_to_pid.insert(pan.name.clone(), panoply_id);
+        panoply_to_pid.insert(pan.id.clone(), panoply_id);
         bonus_tables.push(pan.stats.clone()); // assuming already cumulative per count
     }
 
@@ -192,11 +195,11 @@ fn prepare_items(
                     // If the item has no panoplies, this stays empty (as intended).
                     let mut per_panoply_counts: HashMap<usize, u8> = HashMap::new();
 
-                    for panoply_name in &min_item.panoplies {
-                        if let Some(&panoply_id) = panoply_data.panoply_to_pid.get(panoply_name) {
+                    for panoply_id_string in &min_item.panoplies {
+                        if let Some(&panoply_id) = panoply_data.panoply_to_pid.get(panoply_id_string) {
                             *per_panoply_counts.entry(panoply_id).or_insert(0) += 1;
                         }
-                        // Unknown panoply names are ignored silently.
+                        // Unknown panoply string ids are ignored silently.
                     }
 
                     // Convert to a small, cache-friendly sorted vector.
@@ -204,7 +207,7 @@ fn prepare_items(
                     pan_sparse.sort_unstable_by_key(|&(panoply_id, _)| panoply_id);
 
                     ItemPrepared {
-                        name: min_item.name,
+                        id: min_item.id,
                         stats: min_item.stats,
                         pan_sparse,
                         requirement: min_item.requirement,
@@ -228,6 +231,7 @@ fn prepare_items(
     max_js: JsValue,
     pre_stats_js: JsValue,
     panoplies_js: JsValue,
+    progress_cb: Option<Function>,
 ) -> Result<JsValue, JsValue> {
     // Deserialize input
     let items_category: Vec<Vec<MinItem>> = serde_wasm_bindgen::from_value(items_category_js)
@@ -244,7 +248,7 @@ fn prepare_items(
             .map_err(|e| JsValue::from_str(&format!("deserialize panoplies: {e}")))?;
 
     log(format!("Rust starts calculating items in X categories: {:?}", items_category.len()));
-    log(format!("min_stats: {:?}", min_stats));
+    // log(format!("min_stats: {:?}", min_stats));
 
     // Expect Vec<Vec<MinItem>>: items_category[i] = list of items in that category
     // let categories: Vec<Vec<MinItem>> = serde_wasm_bindgen::from_value(items_category_js)
@@ -266,6 +270,14 @@ fn prepare_items(
         }
     }
     dbg!(items.len());
+
+    let total_combinations: u128 = items.iter()
+        .map(|slot_items| slot_items.len() as u128)
+        .product();
+    let target_updates = 50u128;
+    let stride: u128 = (total_combinations / target_updates).max(100_000);
+
+    let mut combinations_done: u128 = 0;
 
     // Cartesian product
     let n = items.len();
@@ -341,16 +353,16 @@ fn prepare_items(
             build_value = build_stats.value(&weights, &min_stats, &max_stats);
         }
 
-        if heap.len() < 20 || build_value > lowest_best_value {
-            let names: Vec<String> = idx
+        if heap.len() < 100 || build_value > lowest_best_value {
+            let ids_resp: Vec<String> = idx
                 .iter()
                 .enumerate()
-                .map(|(ci, &ii)| items[ci][ii].name.clone())
+                .map(|(ci, &ii)| items[ci][ii].id.clone())
                 .collect();
 
-            let build = BuildResult { value: build_value, names };
+            let build = BuildResult { value: build_value, ids: ids_resp };
 
-            if heap.len() == 20 {
+            if heap.len() == 100 {
                 heap.pop(); // drop the smallest
             }
             heap.push(Reverse(build));
@@ -359,6 +371,16 @@ fn prepare_items(
 
         // reset only touched counters
         for &pid in &touched { pcount[pid] = 0; }
+
+
+        combinations_done += 1;
+        if let Some(callback) = &progress_cb {
+            if combinations_done % stride == 0 || combinations_done == total_combinations {
+                // let progress = (combinations_done as f64) / (total_combinations as f64);
+                // Ignore errors if the callback throws
+                let _ = callback.call1(&JsValue::NULL, &JsValue::from_f64(combinations_done as f64));
+            }
+        }
 
         // increment mixed-radix counter
         let mut k = n as isize - 1;

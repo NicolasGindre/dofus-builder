@@ -1,0 +1,135 @@
+export default {
+    level: "Stufe",
+
+    weight: "Gewicht",
+    setAllWeightsTo0: "Alle Gewichte löschen",
+    setAllWeightsToDefault: "Alle Gewichte auf Standard setzen",
+    clearWeight: "Gewicht löschen",
+    setToDefault: "Standardgewicht festlegen",
+    automaticWeightCalculation: "Automatische Gewichtsberechnung",
+
+    calculateBestItems: "Beste Gegenstände Berechnen",
+    bestItems: "Beste Gegenstände",
+
+    orderByValue: "Nach Wert Sortieren",
+    orderByValueWithPano: "Nach Wert mit Set Sortieren",
+
+    value: "Wert",
+    valueWithPano: "Wert mit Set",
+
+    showMore: "Mehr anzeigen",
+    showLess: "Weniger anzeigen",
+
+    displayItems: "Gegenstände Anzeigen",
+    panoBonusLessThan3: "Set-Bonus < 3",
+
+    panoplies: "Sets",
+    onlySelected: "Ausgewählt",
+    bestAndSelected: "Beste + Ausgewählt",
+
+    addPanoply: "Set Hinzufügen",
+    removePanoply: "Set Entfernen",
+
+    addRemoveItemByName: "Hinzufügen / Entfernen",
+
+    clear: "Löschen",
+    itemsSelected: "Ausgewählte",
+
+    calculating: "Berechne...",
+    calculateBestBuilds: "Beste Builds Berechnen",
+    totalCombinations: "Gesamtanzahl der Kombinationen",
+    combinationsCalculated: "Kombinationen berechnet",
+    cancel: "Abbrechen",
+
+    items: "Gegenstände",
+    panopliesBonus: "Set-Bonus",
+
+    statsType: {
+        utility: "Nützliche Werte",
+        offense: "Offensive Werte",
+        defense: "Defensive Werte",
+    },
+    stats: {
+        mp: "BP", // Bewegungs­punkte (Bewegungspunkte)
+        ap: "AP", // Aktionspunkte
+        range: "Reichweite",
+        summon: "Beschwörungen",
+        initiative: "Initiative",
+
+        health: "Vitalität",
+
+        wisdom: "Weisheit",
+        prospecting: "Glücksbringer",
+
+        lock: "Festhalten",
+        dodge: "Ausweichen",
+
+        mpReduction: "BP-Entzug",
+        apReduction: "AP-Entzug",
+        mpResist: "BP-Widerstand",
+        apResist: "AP-Widerstand",
+
+        heal: "Heilung",
+        pods: "Pods",
+
+        strength: "Stärke",
+        agility: "Beweglichkeit",
+        chance: "Glück",
+        intelligence: "Intelligenz",
+
+        power: "Kraft",
+
+        neutralDamage: "Neutraler Schaden",
+        earthDamage: "Erdschaden",
+        fireDamage: "Feuerschaden",
+        waterDamage: "Wasserschaden",
+        airDamage: "Luftschaden",
+
+        damage: "Schaden",
+
+        spellDamagePer: "% Zauberschaden",
+        rangedDamagePer: "% Fernkampfschaden",
+        meleeDamagePer: "% Nahkampfschaden",
+        weaponDamagePer: "% Waffenschaden",
+
+        criticalDamage: "Kritischer Schaden",
+        criticalChance: "Kritisch",
+
+        pushbackDamage: "Rückstoßschaden",
+
+        trapPower: "Fallenkraft",
+        trapDamage: "Fallenschaden",
+
+        neutralResistPer: "% Neutrale Resistenz",
+        earthResistPer: "% Erdresistenz",
+        fireResistPer: "% Feuerresistenz",
+        airResistPer: "% Luftresistenz",
+        waterResistPer: "% Wasserresistenz",
+
+        meleeResistPer: "% Nahkampfresistenz",
+        rangedResistPer: "% Fernkampfresistenz",
+
+        criticalResist: "Kritische Resistenz",
+        pushbackResist: "Rückstoßresistenz",
+
+        neutralResist: "Neutrale Resistenz",
+        earthResist: "Erdresistenz",
+        fireResist: "Feuerresistenz",
+        airResist: "Luftresistenz",
+        waterResist: "Wasserresistenz",
+
+        reflect: "Schadensreflexion",
+    },
+    category: {
+        amulet: "Amulett",
+        ring: "Ring",
+        hat: "Hut",
+        cloak: "Umhang",
+        belt: "Gürtel",
+        boots: "Stiefel",
+        weapon: "Waffe",
+        shield: "Schild",
+        pet: "Begleiter",
+        dofus: "Dofus",
+    },
+};

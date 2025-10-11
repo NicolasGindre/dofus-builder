@@ -1,14 +1,30 @@
 {
-  "Chienchien": {
-    "name": "Chienchien",
+  "674e524064788cc74141881e": {
+    "id": "674e524064788cc74141881e",
+    "idShort": "BY",
+    "name": {
+      "fr": "Chienchien",
+      "en": "Bow Wow",
+      "pt": "Awaw",
+      "de": "SchnuffWuff",
+      "es": "Wauwau"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
       "wisdom": 20
     }
   },
-  "Chacha": {
-    "name": "Chacha",
+  "674e524064788cc74141882d": {
+    "id": "674e524064788cc74141882d",
+    "idShort": "BZ",
+    "name": {
+      "fr": "Chacha",
+      "en": "Bow Meow",
+      "pt": "Miaw",
+      "de": "Maunzmiez",
+      "es": "Miaumiau"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -16,8 +32,16 @@
       "dodge": 40
     }
   },
-  "Wabbit": {
-    "name": "Wabbit",
+  "674e524064788cc74141883e": {
+    "id": "674e524064788cc74141883e",
+    "idShort": "C0",
+    "name": {
+      "fr": "Wabbit",
+      "en": "Wabbit",
+      "pt": "Wabbit",
+      "de": "Wabbit",
+      "es": "Wabbit"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -25,8 +49,16 @@
       "criticalResist": 100
     }
   },
-  "Bwak de Feu": {
-    "name": "Bwak de Feu",
+  "674e524064788cc7414188f2": {
+    "id": "674e524064788cc7414188f2",
+    "idShort": "C1",
+    "name": {
+      "fr": "Bwak de Feu",
+      "en": "Fire Bwak",
+      "pt": "Bwak de Fogo",
+      "de": "Feuer-Bwack",
+      "es": "Bwak de fuego"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -34,8 +66,16 @@
       "fireResistPer": 25
     }
   },
-  "Bwak d'Eau": {
-    "name": "Bwak d'Eau",
+  "674e524064788cc7414188f3": {
+    "id": "674e524064788cc7414188f3",
+    "idShort": "C2",
+    "name": {
+      "fr": "Bwak d'Eau",
+      "en": "Water Bwak",
+      "pt": "Bwak de Água",
+      "de": "Wasser-Bwack",
+      "es": "Bwak de agua"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -43,8 +83,16 @@
       "waterResistPer": 25
     }
   },
-  "Bwak d'Air": {
-    "name": "Bwak d'Air",
+  "674e524064788cc7414188f4": {
+    "id": "674e524064788cc7414188f4",
+    "idShort": "C3",
+    "name": {
+      "fr": "Bwak d'Air",
+      "en": "Air Bwak",
+      "pt": "Bwak de Ar",
+      "de": "Luft-Bwack",
+      "es": "Bwak de aire"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -52,8 +100,16 @@
       "airResistPer": 25
     }
   },
-  "Bwak de Terre": {
-    "name": "Bwak de Terre",
+  "674e524064788cc7414188f5": {
+    "id": "674e524064788cc7414188f5",
+    "idShort": "C4",
+    "name": {
+      "fr": "Bwak de Terre",
+      "en": "Earth Bwak",
+      "pt": "Bwak de Terra",
+      "de": "Erd-Bwack",
+      "es": "Bwak de tierra"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -61,8 +117,16 @@
       "earthResistPer": 25
     }
   },
-  "Kouin-Kouin": {
-    "name": "Kouin-Kouin",
+  "674e524064788cc741418bbc": {
+    "id": "674e524064788cc741418bbc",
+    "idShort": "C5",
+    "name": {
+      "fr": "Kouin-Kouin",
+      "en": "Quaquack",
+      "pt": "Quaquá",
+      "de": "Quark-Quak",
+      "es": "Kuakuá"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -70,32 +134,64 @@
       "initiative": 200
     }
   },
-  "Nomoon": {
-    "name": "Nomoon",
+  "674e524064788cc741418c06": {
+    "id": "674e524064788cc741418c06",
+    "idShort": "C6",
+    "name": {
+      "fr": "Nomoon",
+      "en": "Nomoon",
+      "pt": "Nomoon",
+      "de": "Nomoon",
+      "es": "Nomoon"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Chienchien Noir": {
-    "name": "Chienchien Noir",
+  "674e524064788cc741418c07": {
+    "id": "674e524064788cc741418c07",
+    "idShort": "C7",
+    "name": {
+      "fr": "Chienchien Noir",
+      "en": "Black Bow Wow",
+      "pt": "Awaw Negro",
+      "de": "Schwarzer SchnuffWuff",
+      "es": "Wauwau negro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "health": 15
     }
   },
-  "Chacha Blanc": {
-    "name": "Chacha Blanc",
+  "674e524064788cc741418c08": {
+    "id": "674e524064788cc741418c08",
+    "idShort": "C8",
+    "name": {
+      "fr": "Chacha Blanc",
+      "en": "White Bow Meow",
+      "pt": "Miaw branco",
+      "de": "Weiße Maunzmiez",
+      "es": "Miaumiau blanco"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "health": 15
     }
   },
-  "Péki": {
-    "name": "Péki",
+  "674e524064788cc741418cc4": {
+    "id": "674e524064788cc741418cc4",
+    "idShort": "C9",
+    "name": {
+      "fr": "Péki",
+      "en": "Peki",
+      "pt": "Peki",
+      "de": "Péki",
+      "es": "Peki"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -103,8 +199,16 @@
       "pushbackDamage": 80
     }
   },
-  "Petit Chacha Blanc": {
-    "name": "Petit Chacha Blanc",
+  "674e524064788cc741418e0b": {
+    "id": "674e524064788cc741418e0b",
+    "idShort": "Ca",
+    "name": {
+      "fr": "Petit Chacha Blanc",
+      "en": "Little White Bow Meow",
+      "pt": "Pequeno Miaw Branco",
+      "de": "Kleine weiße Maunzmiez",
+      "es": "Pequeño miaumiau blanco"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -112,8 +216,16 @@
       "apResist": 50
     }
   },
-  "Petit Chienchien Noir": {
-    "name": "Petit Chienchien Noir",
+  "674e524064788cc741418e0c": {
+    "id": "674e524064788cc741418e0c",
+    "idShort": "Cb",
+    "name": {
+      "fr": "Petit Chienchien Noir",
+      "en": "Little Black Bow Wow",
+      "pt": "Pequeno Awaw Negro",
+      "de": "Kleiner schwarzer Schnuffwuff",
+      "es": "Pequeño wauwau negro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -121,8 +233,16 @@
       "pushbackDamage": 80
     }
   },
-  "Fotome": {
-    "name": "Fotome",
+  "674e524064788cc741418e34": {
+    "id": "674e524064788cc741418e34",
+    "idShort": "Cc",
+    "name": {
+      "fr": "Fotome",
+      "en": "Ghast",
+      "pt": "Fotasma",
+      "de": "Phantöffelchen",
+      "es": "Fotasma"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -130,8 +250,16 @@
       "dodge": 40
     }
   },
-  "Dragoune Rose": {
-    "name": "Dragoune Rose",
+  "674e524064788cc741418e35": {
+    "id": "674e524064788cc741418e35",
+    "idShort": "Cd",
+    "name": {
+      "fr": "Dragoune Rose",
+      "en": "Pink Dragoone",
+      "pt": "Draguna Rosa",
+      "de": "Rosa Dragooner",
+      "es": "Dragún rosa"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -139,8 +267,16 @@
       "apReduction": 40
     }
   },
-  "Croum": {
-    "name": "Croum",
+  "674e524064788cc741418e36": {
+    "id": "674e524064788cc741418e36",
+    "idShort": "Ce",
+    "name": {
+      "fr": "Croum",
+      "en": "Croum",
+      "pt": "Crum",
+      "de": "Croum",
+      "es": "Crum"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -148,8 +284,16 @@
       "neutralResistPer": 25
     }
   },
-  "Minimino": {
-    "name": "Minimino",
+  "674e524064788cc741418e38": {
+    "id": "674e524064788cc741418e38",
+    "idShort": "Cf",
+    "name": {
+      "fr": "Minimino",
+      "en": "Minimino",
+      "pt": "Minimino",
+      "de": "Minimino",
+      "es": "Minimino"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -157,16 +301,32 @@
       "apReduction": 40
     }
   },
-  "Chachatte Rousse": {
-    "name": "Chachatte Rousse",
+  "674e524064788cc741418e39": {
+    "id": "674e524064788cc741418e39",
+    "idShort": "Cg",
+    "name": {
+      "fr": "Chachatte Rousse",
+      "en": "Ginger Bow Meowette",
+      "pt": "Miawa ruiva",
+      "de": "Rote Maunzmiez",
+      "es": "Miaumiau pelirroja"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
       "health": 15
     }
   },
-  "Chacha Tigré": {
-    "name": "Chacha Tigré",
+  "674e524064788cc741418e3a": {
+    "id": "674e524064788cc741418e3a",
+    "idShort": "Ch",
+    "name": {
+      "fr": "Chacha Tigré",
+      "en": "Tabby Bow Meow",
+      "pt": "Miaw tigrado",
+      "de": "Getigerte Maunzmiez",
+      "es": "Miaumiau atigrado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -174,16 +334,32 @@
       "pushbackResist": 100
     }
   },
-  "Vilain Petit Corbac": {
-    "name": "Vilain Petit Corbac",
+  "674e524064788cc741418e91": {
+    "id": "674e524064788cc741418e91",
+    "idShort": "Ci",
+    "name": {
+      "fr": "Vilain Petit Corbac",
+      "en": "Baby Crowdzilla",
+      "pt": "Corvoquinho Feio",
+      "de": "Kleiner böser Rabling",
+      "es": "Cuerbokito Feo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Écureuil Chenapan": {
-    "name": "Écureuil Chenapan",
+  "674e524064788cc741418e92": {
+    "id": "674e524064788cc741418e92",
+    "idShort": "Cj",
+    "name": {
+      "fr": "Écureuil Chenapan",
+      "en": "Mischievous Squirrel",
+      "pt": "Esquilo Travesso",
+      "de": "Wuseliges Eichhörnchen",
+      "es": "Ardilla pilla"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -191,8 +367,16 @@
       "dodge": 40
     }
   },
-  "Léopardo": {
-    "name": "Léopardo",
+  "674e524064788cc741418e93": {
+    "id": "674e524064788cc741418e93",
+    "idShort": "Ck",
+    "name": {
+      "fr": "Léopardo",
+      "en": "Leopardo",
+      "pt": "Leopardo",
+      "de": "Feuerfux",
+      "es": "Leopardo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -200,8 +384,16 @@
       "mpReduction": 40
     }
   },
-  "Bilby": {
-    "name": "Bilby",
+  "674e524064788cc741418e94": {
+    "id": "674e524064788cc741418e94",
+    "idShort": "Cl",
+    "name": {
+      "fr": "Bilby",
+      "en": "Bilby",
+      "pt": "Bilby",
+      "de": "Bilby",
+      "es": "Bilby"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -209,8 +401,16 @@
       "lock": 50
     }
   },
-  "Marcassin": {
-    "name": "Marcassin",
+  "674e524064788cc741418e95": {
+    "id": "674e524064788cc741418e95",
+    "idShort": "Cm",
+    "name": {
+      "fr": "Marcassin",
+      "en": "Young Wild Boar",
+      "pt": "Javalino",
+      "de": "Frischling",
+      "es": "Cochino jabato"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -218,8 +418,16 @@
       "lock": 40
     }
   },
-  "Pioute bleu": {
-    "name": "Pioute bleu",
+  "674e524064788cc741418e96": {
+    "id": "674e524064788cc741418e96",
+    "idShort": "Cn",
+    "name": {
+      "fr": "Pioute bleu",
+      "en": "Blue Piwin",
+      "pt": "Piuta Azul",
+      "de": "Blauer Piepmatz",
+      "es": "Piotín azul"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -227,8 +435,16 @@
       "criticalDamage": 40
     }
   },
-  "Pioute jaune": {
-    "name": "Pioute jaune",
+  "674e524064788cc741418e97": {
+    "id": "674e524064788cc741418e97",
+    "idShort": "Co",
+    "name": {
+      "fr": "Pioute jaune",
+      "en": "Yellow Piwin",
+      "pt": "Piuta Amarela",
+      "de": "Gelber Piepmatz",
+      "es": "Piotín amarillo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -236,8 +452,16 @@
       "criticalDamage": 40
     }
   },
-  "Pioute rose": {
-    "name": "Pioute rose",
+  "674e524064788cc741418e98": {
+    "id": "674e524064788cc741418e98",
+    "idShort": "Cp",
+    "name": {
+      "fr": "Pioute rose",
+      "en": "Pink Piwin",
+      "pt": "Piuta Rosa",
+      "de": "Rosa Piepmatz",
+      "es": "Piotín rosa"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -245,8 +469,16 @@
       "range": 2
     }
   },
-  "Pioute rouge": {
-    "name": "Pioute rouge",
+  "674e524064788cc741418e99": {
+    "id": "674e524064788cc741418e99",
+    "idShort": "Cq",
+    "name": {
+      "fr": "Pioute rouge",
+      "en": "Red Piwin",
+      "pt": "Piuta Vermelho",
+      "de": "Roter Piepmatz",
+      "es": "Piotín rojo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -254,8 +486,16 @@
       "criticalDamage": 40
     }
   },
-  "Pioute vert": {
-    "name": "Pioute vert",
+  "674e524064788cc741418e9a": {
+    "id": "674e524064788cc741418e9a",
+    "idShort": "Cr",
+    "name": {
+      "fr": "Pioute vert",
+      "en": "Green Piwin",
+      "pt": "Piuta Verde",
+      "de": "Grüner Piepmatz",
+      "es": "Piotín verde"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -263,8 +503,16 @@
       "criticalDamage": 40
     }
   },
-  "Pioute violet": {
-    "name": "Pioute violet",
+  "674e524064788cc741418e9b": {
+    "id": "674e524064788cc741418e9b",
+    "idShort": "Cs",
+    "name": {
+      "fr": "Pioute violet",
+      "en": "Purple Piwin",
+      "pt": "Piuta Violeta",
+      "de": "Violetter Piepmatz",
+      "es": "Piotín violeta"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -272,8 +520,16 @@
       "summon": 2
     }
   },
-  "Atouin": {
-    "name": "Atouin",
+  "674e524064788cc741418e9c": {
+    "id": "674e524064788cc741418e9c",
+    "idShort": "Ct",
+    "name": {
+      "fr": "Atouin",
+      "en": "Atooin",
+      "pt": "Atuin",
+      "de": "Krötschild",
+      "es": "Tortuga"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -281,8 +537,16 @@
       "apResist": 50
     }
   },
-  "Mini Wa": {
-    "name": "Mini Wa",
+  "674e524064788cc741418f31": {
+    "id": "674e524064788cc741418f31",
+    "idShort": "Cu",
+    "name": {
+      "fr": "Mini Wa",
+      "en": "Mini Wa",
+      "pt": "Mini Wei",
+      "de": "Mini Wa",
+      "es": "Mini wey"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -290,8 +554,16 @@
       "agility": 120
     }
   },
-  "Willy le Relou": {
-    "name": "Willy le Relou",
+  "674e524064788cc741418f32": {
+    "id": "674e524064788cc741418f32",
+    "idShort": "Cv",
+    "name": {
+      "fr": "Willy le Relou",
+      "en": "Willy Peninzias",
+      "pt": "Willy, o Mala",
+      "de": "Willy Wirrwolf",
+      "es": "Willy, el Plasta"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -299,8 +571,16 @@
       "agility": 120
     }
   },
-  "Koalak Sanguin": {
-    "name": "Koalak Sanguin",
+  "674e524064788cc741418f3c": {
+    "id": "674e524064788cc741418f3c",
+    "idShort": "Cw",
+    "name": {
+      "fr": "Koalak Sanguin",
+      "en": "Bloody Koalak",
+      "pt": "Koalak Sanguíneo",
+      "de": "Blutrünstiger Koalak",
+      "es": "Koalak sanguíneo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -308,16 +588,32 @@
       "apReduction": 40
     }
   },
-  "Bworky": {
-    "name": "Bworky",
+  "674e524064788cc741418f8a": {
+    "id": "674e524064788cc741418f8a",
+    "idShort": "Cx",
+    "name": {
+      "fr": "Bworky",
+      "en": "Bworky",
+      "pt": "Bworky",
+      "de": "Bworky",
+      "es": "Bworky"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Bouloute": {
-    "name": "Bouloute",
+  "674e524064788cc741418ff1": {
+    "id": "674e524064788cc741418ff1",
+    "idShort": "Cy",
+    "name": {
+      "fr": "Bouloute",
+      "en": "Gobtubby",
+      "pt": "Boloto",
+      "de": "Fresskügelchen",
+      "es": "Boluto"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -325,8 +621,16 @@
       "apResist": 40
     }
   },
-  "Abra Kadabra": {
-    "name": "Abra Kadabra",
+  "674e524064788cc741418ff3": {
+    "id": "674e524064788cc741418ff3",
+    "idShort": "Cz",
+    "name": {
+      "fr": "Abra Kadabra",
+      "en": "Treechster",
+      "pt": "Abra Kadabra",
+      "de": "Astaknydasta",
+      "es": "Abra kadabra"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -334,8 +638,16 @@
       "mpResist": 50
     }
   },
-  "El Scarador": {
-    "name": "El Scarador",
+  "674e524064788cc741418ff4": {
+    "id": "674e524064788cc741418ff4",
+    "idShort": "CA",
+    "name": {
+      "fr": "El Scarador",
+      "en": "El Scarador",
+      "pt": "El Scarador",
+      "de": "El Scarador",
+      "es": "Escarador"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -347,16 +659,32 @@
       "airResistPer": 5
     }
   },
-  "Tifoux": {
-    "name": "Tifoux",
+  "674e524064788cc741418ff5": {
+    "id": "674e524064788cc741418ff5",
+    "idShort": "CB",
+    "name": {
+      "fr": "Tifoux",
+      "en": "Minifoux",
+      "pt": "Pekefox",
+      "de": "Minifux",
+      "es": "Pekefux"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Walk": {
-    "name": "Walk",
+  "674e524064788cc741419006": {
+    "id": "674e524064788cc741419006",
+    "idShort": "CC",
+    "name": {
+      "fr": "Walk",
+      "en": "Pingoku",
+      "pt": "Walk",
+      "de": "Ping",
+      "es": "Walk"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -364,8 +692,16 @@
       "chance": 120
     }
   },
-  "Bébé Pandawa": {
-    "name": "Bébé Pandawa",
+  "674e524064788cc741419125": {
+    "id": "674e524064788cc741419125",
+    "idShort": "CD",
+    "name": {
+      "fr": "Bébé Pandawa",
+      "en": "Pandawa Cub",
+      "pt": "Bebê Pandawa",
+      "de": "Pandawa-Baby",
+      "es": "Bebé pandawa"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -373,8 +709,16 @@
       "chance": 120
     }
   },
-  "Ross": {
-    "name": "Ross",
+  "674e524064788cc74141917e": {
+    "id": "674e524064788cc74141917e",
+    "idShort": "CE",
+    "name": {
+      "fr": "Ross",
+      "en": "Ross",
+      "pt": "Ross",
+      "de": "Surr",
+      "es": "Ross"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -382,8 +726,16 @@
       "apReduction": 40
     }
   },
-  "Fëanor": {
-    "name": "Fëanor",
+  "674e524064788cc741419188": {
+    "id": "674e524064788cc741419188",
+    "idShort": "CF",
+    "name": {
+      "fr": "Fëanor",
+      "en": "Feanor",
+      "pt": "Feanor",
+      "de": "Felidan",
+      "es": "Feanor"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -391,8 +743,16 @@
       "ap": 1
     }
   },
-  "Bouloute du Parrain": {
-    "name": "Bouloute du Parrain",
+  "674e524064788cc741419458": {
+    "id": "674e524064788cc741419458",
+    "idShort": "CG",
+    "name": {
+      "fr": "Bouloute du Parrain",
+      "en": "The Godfather's Gobtubby",
+      "pt": "Boloto do Padrinho",
+      "de": "Fresskügelchen des Paten",
+      "es": "Boluto del padrino"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -400,8 +760,16 @@
       "apResist": 40
     }
   },
-  "Chacha Angora": {
-    "name": "Chacha Angora",
+  "674e524064788cc74141945a": {
+    "id": "674e524064788cc74141945a",
+    "idShort": "CH",
+    "name": {
+      "fr": "Chacha Angora",
+      "en": "Angora Bow Meow",
+      "pt": "Miaw angorá",
+      "de": "Angora Maunzmiez",
+      "es": "Miaumiau de Angora"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -409,8 +777,16 @@
       "criticalDamage": 40
     }
   },
-  "Tiwabbit Kiafin": {
-    "name": "Tiwabbit Kiafin",
+  "674e524064788cc74141945c": {
+    "id": "674e524064788cc74141945c",
+    "idShort": "CI",
+    "name": {
+      "fr": "Tiwabbit Kiafin",
+      "en": "Tiwabbit Wosungwee",
+      "pt": "Pekewabbit Kofome",
+      "de": "Tiwabbit Ischungrig",
+      "es": "Pekewabbit hambriento"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -418,8 +794,16 @@
       "airResist": 80
     }
   },
-  "Miniminotot": {
-    "name": "Miniminotot",
+  "674e524064788cc74141945d": {
+    "id": "674e524064788cc74141945d",
+    "idShort": "CJ",
+    "name": {
+      "fr": "Miniminotot",
+      "en": "Miniminotot",
+      "pt": "Miniminotot",
+      "de": "Miniminotot",
+      "es": "Miniminotot"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -427,8 +811,16 @@
       "waterResist": 80
     }
   },
-  "Crocodaille": {
-    "name": "Crocodaille",
+  "674e524064788cc74141945f": {
+    "id": "674e524064788cc74141945f",
+    "idShort": "CK",
+    "name": {
+      "fr": "Crocodaille",
+      "en": "Crocodyl",
+      "pt": "Crocodyl",
+      "de": "Crocodyll",
+      "es": "Cocodrail"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -436,8 +828,16 @@
       "fireResist": 80
     }
   },
-  "Dragoune Noire": {
-    "name": "Dragoune Noire",
+  "674e524064788cc741419460": {
+    "id": "674e524064788cc741419460",
+    "idShort": "CL",
+    "name": {
+      "fr": "Dragoune Noire",
+      "en": "Black Dragoone",
+      "pt": "Draguna Negra",
+      "de": "Schwarzer Dragooner",
+      "es": "Dragún negro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -445,8 +845,16 @@
       "mpResist": 50
     }
   },
-  "Shushu de Rushu": {
-    "name": "Shushu de Rushu",
+  "674e524064788cc7414194bb": {
+    "id": "674e524064788cc7414194bb",
+    "idShort": "CM",
+    "name": {
+      "fr": "Shushu de Rushu",
+      "en": "Rushu's Shushu",
+      "pt": "Shushu de Rushu",
+      "de": "Shushu von Rushu",
+      "es": "Fab'huritu de Rushu"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -454,8 +862,16 @@
       "initiative": 2000
     }
   },
-  "Vampyrette": {
-    "name": "Vampyrette",
+  "674e524064788cc7414195a7": {
+    "id": "674e524064788cc7414195a7",
+    "idShort": "CN",
+    "name": {
+      "fr": "Vampyrette",
+      "en": "Vampyrina",
+      "pt": "Vampyrina",
+      "de": "Vampyrella",
+      "es": "Vampyrilla"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -463,16 +879,32 @@
       "dodge": 40
     }
   },
-  "Chauffe-souris": {
-    "name": "Chauffe-souris",
+  "674e524064788cc7414195a8": {
+    "id": "674e524064788cc7414195a8",
+    "idShort": "CO",
+    "name": {
+      "fr": "Chauffe-souris",
+      "en": "Borbat",
+      "pt": "Borcego",
+      "de": "Fleddermaus",
+      "es": "Murciego"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Gelutin": {
-    "name": "Gelutin",
+  "674e524064788cc741419693": {
+    "id": "674e524064788cc741419693",
+    "idShort": "CP",
+    "name": {
+      "fr": "Gelutin",
+      "en": "Jellufo",
+      "pt": "Jellufo",
+      "de": "Gelutine",
+      "es": "Gelutín"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -480,8 +912,16 @@
       "pushbackDamage": 80
     }
   },
-  "Chercheur d'Ogrines": {
-    "name": "Chercheur d'Ogrines",
+  "674e524064788cc7414196cc": {
+    "id": "674e524064788cc7414196cc",
+    "idShort": "CQ",
+    "name": {
+      "fr": "Chercheur d'Ogrines",
+      "en": "Ogrine Seeker",
+      "pt": "Caçador de Ogrinas",
+      "de": "Ogrinenjäger",
+      "es": "Buscador de ogrinas"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -489,18 +929,34 @@
       "pushbackDamage": 80
     }
   },
-  "Dragoune Dorée": {
-    "name": "Dragoune Dorée",
+  "674e524064788cc74141970d": {
+    "id": "674e524064788cc74141970d",
+    "idShort": "CR",
+    "name": {
+      "fr": "Dragoune Dorée",
+      "en": "Golden Dragoone",
+      "pt": "Draguna Dourada",
+      "de": "Goldener Dragooner",
+      "es": "Dragún dorado"
+    },
     "level": 20,
-    "panoply": "Panoplie du Roks Or",
+    "panoply": "674e523f64788cc741418146",
     "category": "pet",
     "stats": {
       "range": 2,
       "apResist": 40
     }
   },
-  "Raknaille": {
-    "name": "Raknaille",
+  "674e524064788cc741419738": {
+    "id": "674e524064788cc741419738",
+    "idShort": "CS",
+    "name": {
+      "fr": "Raknaille",
+      "en": "Tarzantula",
+      "pt": "Tarzântula",
+      "de": "Arachnaille",
+      "es": "Araknuza"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -508,8 +964,16 @@
       "criticalResist": 100
     }
   },
-  "Meuch": {
-    "name": "Meuch",
+  "674e524064788cc741419739": {
+    "id": "674e524064788cc741419739",
+    "idShort": "CT",
+    "name": {
+      "fr": "Meuch",
+      "en": "Smush",
+      "pt": "Coguzim",
+      "de": "Pfefferling",
+      "es": "Miscaludo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -517,8 +981,16 @@
       "dodge": 50
     }
   },
-  "Tofoudre": {
-    "name": "Tofoudre",
+  "674e524064788cc74141973a": {
+    "id": "674e524064788cc74141973a",
+    "idShort": "CU",
+    "name": {
+      "fr": "Tofoudre",
+      "en": "Tofrazzle",
+      "pt": "Tofulminado",
+      "de": "Blitzofu",
+      "es": "Tofucilazo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -526,16 +998,32 @@
       "pushbackDamage": 80
     }
   },
-  "Pykur": {
-    "name": "Pykur",
+  "674e524064788cc74141973b": {
+    "id": "674e524064788cc74141973b",
+    "idShort": "CV",
+    "name": {
+      "fr": "Pykur",
+      "en": "Sting",
+      "pt": "Pikada",
+      "de": "Prespieks",
+      "es": "Otazo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Chacha des Glaces": {
-    "name": "Chacha des Glaces",
+  "674e524064788cc74141979e": {
+    "id": "674e524064788cc74141979e",
+    "idShort": "CW",
+    "name": {
+      "fr": "Chacha des Glaces",
+      "en": "Snow Bow Meow",
+      "pt": "Miaw do gelo",
+      "de": "Eismaunzmiez",
+      "es": "Miaumiau de las nieves"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -543,16 +1031,32 @@
       "pushbackResist": 100
     }
   },
-  "Tifoux Tigré": {
-    "name": "Tifoux Tigré",
+  "674e524064788cc7414197b4": {
+    "id": "674e524064788cc7414197b4",
+    "idShort": "CX",
+    "name": {
+      "fr": "Tifoux Tigré",
+      "en": "Brindled Minifoux",
+      "pt": "Pekefox Tigrado",
+      "de": "Gescheckter Minifux",
+      "es": "Pekefux atigrado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Chienchien Tigré": {
-    "name": "Chienchien Tigré",
+  "674e524064788cc7414197b5": {
+    "id": "674e524064788cc7414197b5",
+    "idShort": "CY",
+    "name": {
+      "fr": "Chienchien Tigré",
+      "en": "Brindled Bow Wow",
+      "pt": "Awaw malhado",
+      "de": "Gescheckter Schnuffwuff",
+      "es": "Wauwau atigrado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -560,8 +1064,16 @@
       "apResist": 50
     }
   },
-  "Kouin-Kouin Noir": {
-    "name": "Kouin-Kouin Noir",
+  "674e524064788cc7414197b6": {
+    "id": "674e524064788cc7414197b6",
+    "idShort": "CZ",
+    "name": {
+      "fr": "Kouin-Kouin Noir",
+      "en": "Black Quaquack",
+      "pt": "Quaquá negro",
+      "de": "Schwarzes Quark-Quak",
+      "es": "Kuakuá negro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -569,8 +1081,16 @@
       "apReduction": 40
     }
   },
-  "Chauffe-souris Délavée": {
-    "name": "Chauffe-souris Délavée",
+  "674e524064788cc7414197b7": {
+    "id": "674e524064788cc7414197b7",
+    "idShort": "D0",
+    "name": {
+      "fr": "Chauffe-souris Délavée",
+      "en": "Stone-washed Borbat",
+      "pt": "Borcego desbotado",
+      "de": "Ausgebleichte Fleddermaus",
+      "es": "Murciego pálido"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -578,8 +1098,16 @@
       "pushbackResist": 100
     }
   },
-  "Gupin": {
-    "name": "Gupin",
+  "674e524064788cc7414197b8": {
+    "id": "674e524064788cc7414197b8",
+    "idShort": "D1",
+    "name": {
+      "fr": "Gupin",
+      "en": "Gupin",
+      "pt": "Gupin",
+      "de": "Gnupi",
+      "es": "Gupin"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -587,8 +1115,16 @@
       "neutralResistPer": 10
     }
   },
-  "Kouin-Kouin amélioré": {
-    "name": "Kouin-Kouin amélioré",
+  "674e524064788cc7414197f9": {
+    "id": "674e524064788cc7414197f9",
+    "idShort": "D2",
+    "name": {
+      "fr": "Kouin-Kouin amélioré",
+      "en": "Improved Quaquack",
+      "pt": "Quaquá melhorado",
+      "de": "Verbesserter Quark-Quak",
+      "es": "Kuakuá mejorado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -596,8 +1132,16 @@
       "initiative": 220
     }
   },
-  "Cromeugnon": {
-    "name": "Cromeugnon",
+  "674e524064788cc741419a62": {
+    "id": "674e524064788cc741419a62",
+    "idShort": "D3",
+    "name": {
+      "fr": "Cromeugnon",
+      "en": "Cromigmite",
+      "pt": "Cromignomo",
+      "de": "Cromagnum",
+      "es": "Cromiñoncito"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -605,8 +1149,16 @@
       "intelligence": 120
     }
   },
-  "Médugivre": {
-    "name": "Médugivre",
+  "674e524064788cc741419a64": {
+    "id": "674e524064788cc741419a64",
+    "idShort": "D4",
+    "name": {
+      "fr": "Médugivre",
+      "en": "Jellifrost",
+      "pt": "Gelusa",
+      "de": "Frostquall",
+      "es": "Fridusa"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -614,8 +1166,16 @@
       "mpReduction": 40
     }
   },
-  "Écumouth": {
-    "name": "Écumouth",
+  "674e524064788cc741419a66": {
+    "id": "674e524064788cc741419a66",
+    "idShort": "D5",
+    "name": {
+      "fr": "Écumouth",
+      "en": "Cromagmunk",
+      "pt": "Eskimute",
+      "de": "Skratsmut",
+      "es": "Ardilla de las nieves"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -623,8 +1183,16 @@
       "pushbackDamage": 80
     }
   },
-  "Givrefoux": {
-    "name": "Givrefoux",
+  "674e524064788cc741419a68": {
+    "id": "674e524064788cc741419a68",
+    "idShort": "D6",
+    "name": {
+      "fr": "Givrefoux",
+      "en": "Snowfoux",
+      "pt": "Gelifox",
+      "de": "Eisfux",
+      "es": "Gélifux"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -632,8 +1200,16 @@
       "lock": 50
     }
   },
-  "Gwo Tofu Ventripotent": {
-    "name": "Gwo Tofu Ventripotent",
+  "674e524064788cc741419aa8": {
+    "id": "674e524064788cc741419aa8",
+    "idShort": "D7",
+    "name": {
+      "fr": "Gwo Tofu Ventripotent",
+      "en": "Plump Tofurby",
+      "pt": "Tofu Panceps Gowdo",
+      "de": "Gepolsterter Tofurby",
+      "es": "Gwan tofu gowdinflón"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -641,8 +1217,16 @@
       "mpReduction": 40
     }
   },
-  "Kanigloups": {
-    "name": "Kanigloups",
+  "674e524064788cc741419af8": {
+    "id": "674e524064788cc741419af8",
+    "idShort": "D8",
+    "name": {
+      "fr": "Kanigloups",
+      "en": "Kanigloopy",
+      "pt": "Kaniglups",
+      "de": "Kanitubby",
+      "es": "Kaniglúps"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -650,8 +1234,16 @@
       "waterDamage": 20
     }
   },
-  "Bulbisou": {
-    "name": "Bulbisou",
+  "674e524064788cc741419af9": {
+    "id": "674e524064788cc741419af9",
+    "idShort": "D9",
+    "name": {
+      "fr": "Bulbisou",
+      "en": "Bulbisou",
+      "pt": "Bulbitoca",
+      "de": "Bulbikuss",
+      "es": "Bulbesor"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -659,8 +1251,16 @@
       "earthDamage": 20
     }
   },
-  "Blérodoudou": {
-    "name": "Blérodoudou",
+  "674e524064788cc741419afe": {
+    "id": "674e524064788cc741419afe",
+    "idShort": "Da",
+    "name": {
+      "fr": "Blérodoudou",
+      "en": "Brockheart",
+      "pt": "Texofo",
+      "de": "Daxchibäre",
+      "es": "Tejaluche"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -668,8 +1268,16 @@
       "airDamage": 20
     }
   },
-  "Bisouglours": {
-    "name": "Bisouglours",
+  "674e524064788cc741419aff": {
+    "id": "674e524064788cc741419aff",
+    "idShort": "Db",
+    "name": {
+      "fr": "Bisouglours",
+      "en": "Teddybearbarian",
+      "pt": "Amiglurso",
+      "de": "Gummibarbär",
+      "es": "Besosete"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -677,8 +1285,16 @@
       "fireDamage": 20
     }
   },
-  "Platypus": {
-    "name": "Platypus",
+  "674e524064788cc741419b1e": {
+    "id": "674e524064788cc741419b1e",
+    "idShort": "Dc",
+    "name": {
+      "fr": "Platypus",
+      "en": "Platypus",
+      "pt": "Ornito",
+      "de": "Platypus",
+      "es": "Orni"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -686,8 +1302,16 @@
       "lock": 40
     }
   },
-  "Serpète": {
-    "name": "Serpète",
+  "674e524064788cc741419b92": {
+    "id": "674e524064788cc741419b92",
+    "idShort": "Dd",
+    "name": {
+      "fr": "Serpète",
+      "en": "Solid Plissken",
+      "pt": "Serpeta",
+      "de": "Schlingelchen",
+      "es": "Serpeta"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -695,8 +1319,16 @@
       "neutralResist": 80
     }
   },
-  "Tofüm": {
-    "name": "Tofüm",
+  "674e524064788cc741419b99": {
+    "id": "674e524064788cc741419b99",
+    "idShort": "De",
+    "name": {
+      "fr": "Tofüm",
+      "en": "Tofume",
+      "pt": "Tofuma",
+      "de": "Tofuzius",
+      "es": "Tofuma"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -704,8 +1336,16 @@
       "criticalDamage": 40
     }
   },
-  "Tofu Givré": {
-    "name": "Tofu Givré",
+  "674e524064788cc741419e1c": {
+    "id": "674e524064788cc741419e1c",
+    "idShort": "Df",
+    "name": {
+      "fr": "Tofu Givré",
+      "en": "Frozen Tofu",
+      "pt": "Tofu Congelado",
+      "de": "Frost-Tofu",
+      "es": "Tofu helado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -713,8 +1353,16 @@
       "dodge": 50
     }
   },
-  "Sourisette": {
-    "name": "Sourisette",
+  "674e524064788cc741419e1f": {
+    "id": "674e524064788cc741419e1f",
+    "idShort": "Dg",
+    "name": {
+      "fr": "Sourisette",
+      "en": "Mouselet",
+      "pt": "Ratazete",
+      "de": "Pima-Daumaus",
+      "es": "Raratontilla"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -722,8 +1370,16 @@
       "initiative": 2000
     }
   },
-  "Scarakiri": {
-    "name": "Scarakiri",
+  "674e524064788cc741419e21": {
+    "id": "674e524064788cc741419e21",
+    "idShort": "Dh",
+    "name": {
+      "fr": "Scarakiri",
+      "en": "Scarakiri",
+      "pt": "Scarakiri",
+      "de": "Scarakiri",
+      "es": "Escarakiri"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -731,8 +1387,16 @@
       "pushbackDamage": 80
     }
   },
-  "Rauleur": {
-    "name": "Rauleur",
+  "674e524064788cc741419e23": {
+    "id": "674e524064788cc741419e23",
+    "idShort": "Di",
+    "name": {
+      "fr": "Rauleur",
+      "en": "Grauler",
+      "pt": "Raulor",
+      "de": "Rolfi Mopsi",
+      "es": "Kejicón"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -740,8 +1404,16 @@
       "apResist": 50
     }
   },
-  "Meulourd": {
-    "name": "Meulourd",
+  "674e524064788cc741419e25": {
+    "id": "674e524064788cc741419e25",
+    "idShort": "Dj",
+    "name": {
+      "fr": "Meulourd",
+      "en": "Moowitty",
+      "pt": "Mulerdo",
+      "de": "SchmuWulf",
+      "es": "Lubesado"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -749,8 +1421,16 @@
       "criticalResist": 100
     }
   },
-  "Mékrabe": {
-    "name": "Mékrabe",
+  "674e524064788cc741419e43": {
+    "id": "674e524064788cc741419e43",
+    "idShort": "Dk",
+    "name": {
+      "fr": "Mékrabe",
+      "en": "Mekrab",
+      "pt": "Mekaranguejo",
+      "de": "Mechkrabb",
+      "es": "Mekrangrejo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -758,8 +1438,16 @@
       "agility": 120
     }
   },
-  "Ploup": {
-    "name": "Ploup",
+  "674e524064788cc741419e4f": {
+    "id": "674e524064788cc741419e4f",
+    "idShort": "Dl",
+    "name": {
+      "fr": "Ploup",
+      "en": "Plop",
+      "pt": "Pulp",
+      "de": "Suptoko",
+      "es": "Pulp"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -767,8 +1455,16 @@
       "mpResist": 50
     }
   },
-  "Kroliméa": {
-    "name": "Kroliméa",
+  "674e524064788cc741419ebb": {
+    "id": "674e524064788cc741419ebb",
+    "idShort": "Dm",
+    "name": {
+      "fr": "Kroliméa",
+      "en": "Krolimea",
+      "pt": "Krolimera",
+      "de": "Krolimea",
+      "es": "Kolimira"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -776,8 +1472,16 @@
       "range": 2
     }
   },
-  "Kafarce": {
-    "name": "Kafarce",
+  "674e524064788cc74141a04e": {
+    "id": "674e524064788cc74141a04e",
+    "idShort": "Dn",
+    "name": {
+      "fr": "Kafarce",
+      "en": "Snickermite",
+      "pt": "Kafarsa",
+      "de": "Schlabbernack",
+      "es": "Kraxiste"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -785,16 +1489,32 @@
       "pushbackDamage": 80
     }
   },
-  "Bulbouture": {
-    "name": "Bulbouture",
+  "674e524064788cc74141a050": {
+    "id": "674e524064788cc74141a050",
+    "idShort": "Do",
+    "name": {
+      "fr": "Bulbouture",
+      "en": "Bulbutting",
+      "pt": "Bulbenxerta",
+      "de": "Bulbistecklim",
+      "es": "Bulbeskeje"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Kokulte": {
-    "name": "Kokulte",
+  "674e524064788cc74141a052": {
+    "id": "674e524064788cc74141a052",
+    "idShort": "Dp",
+    "name": {
+      "fr": "Kokulte",
+      "en": "Snailmate",
+      "pt": "Kokulto",
+      "de": "Schnelmyst",
+      "es": "Lokulto"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -802,8 +1522,16 @@
       "criticalDamage": 40
     }
   },
-  "Toukancre": {
-    "name": "Toukancre",
+  "674e524064788cc74141a054": {
+    "id": "674e524064788cc74141a054",
+    "idShort": "Dq",
+    "name": {
+      "fr": "Toukancre",
+      "en": "Toucantankerous",
+      "pt": "Tukaos",
+      "de": "Tukanix",
+      "es": "Tukankón"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -811,8 +1539,16 @@
       "earthResist": 80
     }
   },
-  "Boskito": {
-    "name": "Boskito",
+  "674e524164788cc74141a2ce": {
+    "id": "674e524164788cc74141a2ce",
+    "idShort": "Dr",
+    "name": {
+      "fr": "Boskito",
+      "en": "Tubskito",
+      "pt": "Boskito",
+      "de": "Boskito",
+      "es": "Moskitorro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -820,16 +1556,32 @@
       "apReduction": 40
     }
   },
-  "Fosfo": {
-    "name": "Fosfo",
+  "674e524164788cc74141a320": {
+    "id": "674e524164788cc74141a320",
+    "idShort": "Ds",
+    "name": {
+      "fr": "Fosfo",
+      "en": "Fosfor",
+      "pt": "Fosfo",
+      "de": "Fosfo",
+      "es": "Fosfo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Chachyène": {
-    "name": "Chachyène",
+  "674e524164788cc74141a515": {
+    "id": "674e524164788cc74141a515",
+    "idShort": "Dt",
+    "name": {
+      "fr": "Chachyène",
+      "en": "Bowzai",
+      "pt": "Miawyena",
+      "de": "Maunzyäne",
+      "es": "Miaumiena"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -837,8 +1589,16 @@
       "summon": 2
     }
   },
-  "Black Tiwabbit": {
-    "name": "Black Tiwabbit",
+  "674e524164788cc74141a527": {
+    "id": "674e524164788cc74141a527",
+    "idShort": "Du",
+    "name": {
+      "fr": "Black Tiwabbit",
+      "en": "Black Tiwabbit",
+      "pt": "Black Pekewabbit",
+      "de": "Black Tiwabbit",
+      "es": "Black pekewabbit"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -846,16 +1606,32 @@
       "pushbackDamage": 80
     }
   },
-  "Snouffle": {
-    "name": "Snouffle",
+  "674e524164788cc74141a591": {
+    "id": "674e524164788cc74141a591",
+    "idShort": "Dv",
+    "name": {
+      "fr": "Snouffle",
+      "en": "Snoofle",
+      "pt": "Snufle",
+      "de": "Schnuffel",
+      "es": "Snoofle"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Phortiche": {
-    "name": "Phortiche",
+  "674e524164788cc74141a592": {
+    "id": "674e524164788cc74141a592",
+    "idShort": "Dw",
+    "name": {
+      "fr": "Phortiche",
+      "en": "Drhellbert",
+      "pt": "Perfofo",
+      "de": "Grieskribbel",
+      "es": "Perforábil"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -863,8 +1639,16 @@
       "range": 2
     }
   },
-  "Homlett": {
-    "name": "Homlett",
+  "674e524164788cc74141a662": {
+    "id": "674e524164788cc74141a662",
+    "idShort": "Dx",
+    "name": {
+      "fr": "Homlett",
+      "en": "Homlett",
+      "pt": "Homlett",
+      "de": "Homlet",
+      "es": "Jamlet"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -872,8 +1656,16 @@
       "mpResist": 40
     }
   },
-  "Tatouf": {
-    "name": "Tatouf",
+  "674e524164788cc74141a6e8": {
+    "id": "674e524164788cc74141a6e8",
+    "idShort": "Dy",
+    "name": {
+      "fr": "Tatouf",
+      "en": "Tatouh",
+      "pt": "Tubola",
+      "de": "Eutatu",
+      "es": "Armadinho"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -881,8 +1673,16 @@
       "pushbackDamage": 100
     }
   },
-  "Blokus": {
-    "name": "Blokus",
+  "674e524164788cc74141a850": {
+    "id": "674e524164788cc74141a850",
+    "idShort": "Dz",
+    "name": {
+      "fr": "Blokus",
+      "en": "Blokus",
+      "pt": "Blokus",
+      "de": "Blokus-Pokus",
+      "es": "Blokus"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -890,8 +1690,16 @@
       "mpReduction": 40
     }
   },
-  "Eliôme": {
-    "name": "Eliôme",
+  "674e524164788cc74141a8a4": {
+    "id": "674e524164788cc74141a8a4",
+    "idShort": "DA",
+    "name": {
+      "fr": "Eliôme",
+      "en": "Eliom",
+      "pt": "Eliotasma",
+      "de": "Eliotöffelchen",
+      "es": "Selotasma"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -899,8 +1707,16 @@
       "fireResistPer": 10
     }
   },
-  "Drakopin": {
-    "name": "Drakopin",
+  "674e524164788cc74141a8a6": {
+    "id": "674e524164788cc74141a8a6",
+    "idShort": "DB",
+    "name": {
+      "fr": "Drakopin",
+      "en": "Friendrake",
+      "pt": "Drakomparsa",
+      "de": "Drakumpel",
+      "es": "Drakolega"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -908,8 +1724,16 @@
       "apReduction": 40
     }
   },
-  "Tanuk": {
-    "name": "Tanuk",
+  "674e524164788cc74141a92f": {
+    "id": "674e524164788cc74141a92f",
+    "idShort": "DC",
+    "name": {
+      "fr": "Tanuk",
+      "en": "Tanuk",
+      "pt": "Tanuk",
+      "de": "Tanuk",
+      "es": "Tanuk"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -917,16 +1741,32 @@
       "mpResist": 50
     }
   },
-  "Bloalak": {
-    "name": "Bloalak",
+  "674e524164788cc74141a932": {
+    "id": "674e524164788cc74141a932",
+    "idShort": "DD",
+    "name": {
+      "fr": "Bloalak",
+      "en": "Bloalak",
+      "pt": "Bloalak",
+      "de": "Bloalak",
+      "es": "Bloalak"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Moumoute": {
-    "name": "Moumoute",
+  "674e524164788cc74141a941": {
+    "id": "674e524164788cc74141a941",
+    "idShort": "DE",
+    "name": {
+      "fr": "Moumoute",
+      "en": "Mastostroke",
+      "pt": "Juba",
+      "de": "Wuschel",
+      "es": "Peluso"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -934,8 +1774,16 @@
       "apResist": 40
     }
   },
-  "Bontique": {
-    "name": "Bontique",
+  "674e524164788cc74141ab5c": {
+    "id": "674e524164788cc74141ab5c",
+    "idShort": "DF",
+    "name": {
+      "fr": "Bontique",
+      "en": "Bontick",
+      "pt": "Bontarrapato",
+      "de": "Bontecke",
+      "es": "Bontapata"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -943,8 +1791,16 @@
       "criticalResist": 50
     }
   },
-  "Brâkarien": {
-    "name": "Brâkarien",
+  "674e524164788cc74141ab5d": {
+    "id": "674e524164788cc74141ab5d",
+    "idShort": "DG",
+    "name": {
+      "fr": "Brâkarien",
+      "en": "Brakarina",
+      "pt": "Brákaro",
+      "de": "Brâkmilbe",
+      "es": "Brakmákaro"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -952,8 +1808,16 @@
       "pushbackResist": 50
     }
   },
-  "Titard": {
-    "name": "Titard",
+  "674e524164788cc74141ac63": {
+    "id": "674e524164788cc74141ac63",
+    "idShort": "DH",
+    "name": {
+      "fr": "Titard",
+      "en": "Groogler",
+      "pt": "Girinim",
+      "de": "Quappler",
+      "es": "Pekenacuajo"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -961,8 +1825,16 @@
       "earthResistPer": 10
     }
   },
-  "Minikrone": {
-    "name": "Minikrone",
+  "674e524164788cc74141acbb": {
+    "id": "674e524164788cc74141acbb",
+    "idShort": "DI",
+    "name": {
+      "fr": "Minikrone",
+      "en": "Minikron",
+      "pt": "Minikrônio",
+      "de": "Miniainkhürn",
+      "es": "Minikornio"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -970,8 +1842,16 @@
       "mpResist": 40
     }
   },
-  "Chaperlipopette": {
-    "name": "Chaperlipopette",
+  "674e524164788cc74141ad61": {
+    "id": "674e524164788cc74141ad61",
+    "idShort": "DJ",
+    "name": {
+      "fr": "Chaperlipopette",
+      "en": "Maulleycat",
+      "pt": "Gatzgrila",
+      "de": "Wuschelmaunz",
+      "es": "Maullino"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -979,24 +1859,48 @@
       "initiative": 2000
     }
   },
-  "Tirubim": {
-    "name": "Tirubim",
+  "674e524164788cc74141adb7": {
+    "id": "674e524164788cc74141adb7",
+    "idShort": "DK",
+    "name": {
+      "fr": "Tirubim",
+      "en": "Kerubaby",
+      "pt": "Tirubim",
+      "de": "Tirubim",
+      "es": "Kerubebé"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Glub": {
-    "name": "Glub",
+  "674e524164788cc74141adc5": {
+    "id": "674e524164788cc74141adc5",
+    "idShort": "DL",
+    "name": {
+      "fr": "Glub",
+      "en": "Glub",
+      "pt": "Glub",
+      "de": "Blub",
+      "es": "Glub"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Titcham": {
-    "name": "Titcham",
+  "674e524164788cc74141adc6": {
+    "id": "674e524164788cc74141adc6",
+    "idShort": "DM",
+    "name": {
+      "fr": "Titcham",
+      "en": "Ratcham",
+      "pt": "Ticham",
+      "de": "Ratzchen",
+      "es": "Pekatcham"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1004,8 +1908,16 @@
       "mpResist": 40
     }
   },
-  "Dauge": {
-    "name": "Dauge",
+  "674e524164788cc74141b094": {
+    "id": "674e524164788cc74141b094",
+    "idShort": "DN",
+    "name": {
+      "fr": "Dauge",
+      "en": "Dauge",
+      "pt": "Dógui",
+      "de": "Dotsch",
+      "es": "Dog"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1013,8 +1925,16 @@
       "waterResistPer": 10
     }
   },
-  "La Chose": {
-    "name": "La Chose",
+  "674e524164788cc74141b20a": {
+    "id": "674e524164788cc74141b20a",
+    "idShort": "DO",
+    "name": {
+      "fr": "La Chose",
+      "en": "Thing",
+      "pt": "Mãozinha",
+      "de": "Das Ding",
+      "es": "Cosa"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1022,8 +1942,16 @@
       "airResistPer": 10
     }
   },
-  "Molosk": {
-    "name": "Molosk",
+  "674e524164788cc74141b362": {
+    "id": "674e524164788cc74141b362",
+    "idShort": "DP",
+    "name": {
+      "fr": "Molosk",
+      "en": "Molekound",
+      "pt": "Molosk",
+      "de": "Molocher",
+      "es": "Molocán"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1031,16 +1959,32 @@
       "criticalDamage": 40
     }
   },
-  "Jeune Boufton Céleste": {
-    "name": "Jeune Boufton Céleste",
+  "674e524164788cc74141c8e1": {
+    "id": "674e524164788cc74141c8e1",
+    "idShort": "DQ",
+    "name": {
+      "fr": "Jeune Boufton Céleste",
+      "en": "Young Celestial Gobbly",
+      "pt": "Paparneiro Celestial Jovem",
+      "de": "Junger himmlischer Fresssack",
+      "es": "Joven jalatín celestial"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
       "wisdom": 20
     }
   },
-  "Booftrool blanc": {
-    "name": "Booftrool blanc",
+  "674e524164788cc74141d227": {
+    "id": "674e524164788cc74141d227",
+    "idShort": "DR",
+    "name": {
+      "fr": "Booftrool blanc",
+      "en": "White Gobbtrool",
+      "pt": "Papatrool Branco",
+      "de": "Weißer Fresstrool",
+      "es": "Jalatrool blanco"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1048,8 +1992,16 @@
       "criticalChance": 15
     }
   },
-  "Zarbichon": {
-    "name": "Zarbichon",
+  "687f71551c8151735606185e": {
+    "id": "687f71551c8151735606185e",
+    "idShort": "DU",
+    "name": {
+      "fr": "Zarbichon",
+      "en": "Oddnipup",
+      "pt": "Herbichinho",
+      "de": "Kornilein",
+      "es": "Raribichón"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1057,8 +2009,16 @@
       "summon": 2
     }
   },
-  "Microsmoglob": {
-    "name": "Microsmoglob",
+  "687f71551c81517356061874": {
+    "id": "687f71551c81517356061874",
+    "idShort": "DV",
+    "name": {
+      "fr": "Microsmoglob",
+      "en": "Mikrosmoglob",
+      "pt": "Microsmoglob",
+      "de": "Mikrosmoglobus",
+      "es": "Microsmoglob"
+    },
     "level": 20,
     "category": "pet",
     "stats": {
@@ -1066,8 +2026,16 @@
       "ap": 1
     }
   },
-  "Dragodinde Ebène": {
-    "name": "Dragodinde Ebène",
+  "674e524064788cc741418ee1": {
+    "id": "674e524064788cc741418ee1",
+    "idShort": "DY",
+    "name": {
+      "fr": "Dragodinde Ebène",
+      "en": "Ebony Dragoturkey",
+      "pt": "Dragoperu Ébano",
+      "de": "Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1075,8 +2043,16 @@
       "agility": 100
     }
   },
-  "Dragodinde Ebène et Ivoire": {
-    "name": "Dragodinde Ebène et Ivoire",
+  "674e524064788cc741418ee3": {
+    "id": "674e524064788cc741418ee3",
+    "idShort": "E0",
+    "name": {
+      "fr": "Dragodinde Ebène et Ivoire",
+      "en": "Ebony and Ivory Dragoturkey",
+      "pt": "Dragoperu Ébano e Marfim",
+      "de": "Ebenholz und Elfenbein-Dracotruter",
+      "es": "Dragopavo ébano y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1085,8 +2061,16 @@
       "health": 300
     }
   },
-  "Dragodinde Rousse": {
-    "name": "Dragodinde Rousse",
+  "674e524064788cc741418ee4": {
+    "id": "674e524064788cc741418ee4",
+    "idShort": "E1",
+    "name": {
+      "fr": "Dragodinde Rousse",
+      "en": "Ginger Dragoturkey",
+      "pt": "Dragoperu Ruivo",
+      "de": "Roter Dracotruter",
+      "es": "Dragopavo pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1094,8 +2078,16 @@
       "health": 300
     }
   },
-  "Dragodinde Ivoire et Rousse": {
-    "name": "Dragodinde Ivoire et Rousse",
+  "674e524064788cc741418ee5": {
+    "id": "674e524064788cc741418ee5",
+    "idShort": "E2",
+    "name": {
+      "fr": "Dragodinde Ivoire et Rousse",
+      "en": "Ivory and Ginger Dragoturkey",
+      "pt": "Dragoperu Marfim e Ruivo",
+      "de": "Rot und Elfenbein-Dracotruter",
+      "es": "Dragopavo marfil y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1104,8 +2096,16 @@
       "health": 300
     }
   },
-  "Dragodinde Ebène et Rousse": {
-    "name": "Dragodinde Ebène et Rousse",
+  "674e524064788cc741418ee6": {
+    "id": "674e524064788cc741418ee6",
+    "idShort": "E3",
+    "name": {
+      "fr": "Dragodinde Ebène et Rousse",
+      "en": "Ebony and Ginger Dragoturkey",
+      "pt": "Dragoperu Ébano e Ruivo",
+      "de": "Rot und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1114,8 +2114,16 @@
       "heal": 35
     }
   },
-  "Dragodinde Turquoise": {
-    "name": "Dragodinde Turquoise",
+  "674e524064788cc741418ee7": {
+    "id": "674e524064788cc741418ee7",
+    "idShort": "E4",
+    "name": {
+      "fr": "Dragodinde Turquoise",
+      "en": "Turquoise Dragoturkey",
+      "pt": "Dragoperu Turquesa",
+      "de": "Türkis-Dracotruter",
+      "es": "Dragopavo turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1123,8 +2131,16 @@
       "health": 300
     }
   },
-  "Dragodinde Ivoire": {
-    "name": "Dragodinde Ivoire",
+  "674e524064788cc741418ee8": {
+    "id": "674e524064788cc741418ee8",
+    "idShort": "E5",
+    "name": {
+      "fr": "Dragodinde Ivoire",
+      "en": "Ivory Dragoturkey",
+      "pt": "Dragoperu Marfim",
+      "de": "Elfenbein-Dracotruter",
+      "es": "Dragopavo marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1132,8 +2148,16 @@
       "health": 300
     }
   },
-  "Dragodinde Indigo": {
-    "name": "Dragodinde Indigo",
+  "674e524064788cc741418ee9": {
+    "id": "674e524064788cc741418ee9",
+    "idShort": "E6",
+    "name": {
+      "fr": "Dragodinde Indigo",
+      "en": "Indigo Dragoturkey",
+      "pt": "Dragoperu Índigo",
+      "de": "Indigo-Dracotruter",
+      "es": "Dragopavo índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1141,8 +2165,16 @@
       "health": 300
     }
   },
-  "Dragodinde Dorée": {
-    "name": "Dragodinde Dorée",
+  "674e524064788cc741418eea": {
+    "id": "674e524064788cc741418eea",
+    "idShort": "E7",
+    "name": {
+      "fr": "Dragodinde Dorée",
+      "en": "Golden Dragoturkey",
+      "pt": "Dragoperu Dourado",
+      "de": "Goldener Dracotruter",
+      "es": "Dragopavo dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1150,8 +2182,16 @@
       "health": 300
     }
   },
-  "Dragodinde Pourpre": {
-    "name": "Dragodinde Pourpre",
+  "674e524064788cc741418eeb": {
+    "id": "674e524064788cc741418eeb",
+    "idShort": "E8",
+    "name": {
+      "fr": "Dragodinde Pourpre",
+      "en": "Crimson Dragoturkey",
+      "pt": "Dragoperu Púrpura",
+      "de": "Purpur-Dracotruter",
+      "es": "Dragopavo púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1159,8 +2199,16 @@
       "health": 300
     }
   },
-  "Dragodinde Amande": {
-    "name": "Dragodinde Amande",
+  "674e524064788cc741418eec": {
+    "id": "674e524064788cc741418eec",
+    "idShort": "E9",
+    "name": {
+      "fr": "Dragodinde Amande",
+      "en": "Almond Dragoturkey",
+      "pt": "Dragoperu Amêndoa",
+      "de": "Mandel-Dracotruter",
+      "es": "Dragopavo almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1168,8 +2216,16 @@
       "health": 300
     }
   },
-  "Dragodinde Emeraude": {
-    "name": "Dragodinde Emeraude",
+  "674e524064788cc741418eed": {
+    "id": "674e524064788cc741418eed",
+    "idShort": "Ea",
+    "name": {
+      "fr": "Dragodinde Emeraude",
+      "en": "Emerald Dragoturkey",
+      "pt": "Dragoperu Esmeralda",
+      "de": "Smaragd-Dracotruter",
+      "es": "Dragopavo esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1177,8 +2233,16 @@
       "health": 300
     }
   },
-  "Dragodinde Orchidée": {
-    "name": "Dragodinde Orchidée",
+  "674e524064788cc741418eee": {
+    "id": "674e524064788cc741418eee",
+    "idShort": "Eb",
+    "name": {
+      "fr": "Dragodinde Orchidée",
+      "en": "Orchid Dragoturkey",
+      "pt": "Dragoperu Orquídea",
+      "de": "Orchideen-Dracotruter",
+      "es": "Dragopavo orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1186,8 +2250,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune": {
-    "name": "Dragodinde Prune",
+  "674e524064788cc741418eef": {
+    "id": "674e524064788cc741418eef",
+    "idShort": "Ec",
+    "name": {
+      "fr": "Dragodinde Prune",
+      "en": "Plum Dragoturkey",
+      "pt": "Dragoperu Ameixa",
+      "de": "Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1195,8 +2267,16 @@
       "health": 300
     }
   },
-  "Dragodinde Amande et Dorée": {
-    "name": "Dragodinde Amande et Dorée",
+  "674e524064788cc741418ef0": {
+    "id": "674e524064788cc741418ef0",
+    "idShort": "Ed",
+    "name": {
+      "fr": "Dragodinde Amande et Dorée",
+      "en": "Almond and Golden Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Dourado",
+      "de": "Gold und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1205,8 +2285,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Amande et Ebène": {
-    "name": "Dragodinde Amande et Ebène",
+  "674e524064788cc741418ef1": {
+    "id": "674e524064788cc741418ef1",
+    "idShort": "Ee",
+    "name": {
+      "fr": "Dragodinde Amande et Ebène",
+      "en": "Almond and Ebony Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Ébano",
+      "de": "Ebenholz und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1215,8 +2303,16 @@
       "health": 300
     }
   },
-  "Dragodinde Amande et Emeraude": {
-    "name": "Dragodinde Amande et Emeraude",
+  "674e524064788cc741418ef2": {
+    "id": "674e524064788cc741418ef2",
+    "idShort": "Ef",
+    "name": {
+      "fr": "Dragodinde Amande et Emeraude",
+      "en": "Almond and Emerald Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Esmeralda",
+      "de": "Smaragd und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1225,8 +2321,16 @@
       "health": 300
     }
   },
-  "Dragodinde Amande et Indigo": {
-    "name": "Dragodinde Amande et Indigo",
+  "674e524064788cc741418ef3": {
+    "id": "674e524064788cc741418ef3",
+    "idShort": "Eg",
+    "name": {
+      "fr": "Dragodinde Amande et Indigo",
+      "en": "Almond and Indigo Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Índigo",
+      "de": "Indigo und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1235,8 +2339,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Amande et Ivoire": {
-    "name": "Dragodinde Amande et Ivoire",
+  "674e524064788cc741418ef4": {
+    "id": "674e524064788cc741418ef4",
+    "idShort": "Eh",
+    "name": {
+      "fr": "Dragodinde Amande et Ivoire",
+      "en": "Almond and Ivory Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Marfim",
+      "de": "Elfenbein und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1245,8 +2357,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Amande et Rousse": {
-    "name": "Dragodinde Amande et Rousse",
+  "674e524064788cc741418ef5": {
+    "id": "674e524064788cc741418ef5",
+    "idShort": "Ei",
+    "name": {
+      "fr": "Dragodinde Amande et Rousse",
+      "en": "Almond and Ginger Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Ruivo",
+      "de": "Rot und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1255,8 +2375,16 @@
       "heal": 35
     }
   },
-  "Dragodinde Amande et Turquoise": {
-    "name": "Dragodinde Amande et Turquoise",
+  "674e524064788cc741418ef6": {
+    "id": "674e524064788cc741418ef6",
+    "idShort": "Ej",
+    "name": {
+      "fr": "Dragodinde Amande et Turquoise",
+      "en": "Almond and Turquoise Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Turquesa",
+      "de": "Türkis und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1265,8 +2393,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Amande et Orchidée": {
-    "name": "Dragodinde Amande et Orchidée",
+  "674e524064788cc741418ef7": {
+    "id": "674e524064788cc741418ef7",
+    "idShort": "Ek",
+    "name": {
+      "fr": "Dragodinde Amande et Orchidée",
+      "en": "Almond and Orchid Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Orquídea",
+      "de": "Orchideen und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1275,8 +2411,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Amande et Pourpre": {
-    "name": "Dragodinde Amande et Pourpre",
+  "674e524064788cc741418ef8": {
+    "id": "674e524064788cc741418ef8",
+    "idShort": "El",
+    "name": {
+      "fr": "Dragodinde Amande et Pourpre",
+      "en": "Almond and Crimson Dragoturkey",
+      "pt": "Dragoperu Amêndoa e Púrpura",
+      "de": "Purpur und Mandel-Dracotruter",
+      "es": "Dragopavo almendrado y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1285,8 +2429,16 @@
       "initiative": 1000
     }
   },
-  "Dragodinde Dorée et Ebène": {
-    "name": "Dragodinde Dorée et Ebène",
+  "674e524064788cc741418ef9": {
+    "id": "674e524064788cc741418ef9",
+    "idShort": "Em",
+    "name": {
+      "fr": "Dragodinde Dorée et Ebène",
+      "en": "Golden and Ebony Dragoturkey",
+      "pt": "Dragoperu Dourado e Ébano",
+      "de": "Gold und Ebenholz-Dracotruter",
+      "es": "Dragopavo dorado y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1295,8 +2447,16 @@
       "health": 300
     }
   },
-  "Dragodinde Dorée et Emeraude": {
-    "name": "Dragodinde Dorée et Emeraude",
+  "674e524064788cc741418efa": {
+    "id": "674e524064788cc741418efa",
+    "idShort": "En",
+    "name": {
+      "fr": "Dragodinde Dorée et Emeraude",
+      "en": "Golden and Emerald Dragoturkey",
+      "pt": "Dragoperu Dourado e Esmeralda",
+      "de": "Gold und Smaragd-Dracotruter",
+      "es": "Dragopavo dorado y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1305,8 +2465,16 @@
       "summon": 1
     }
   },
-  "Dragodinde Dorée et Indigo": {
-    "name": "Dragodinde Dorée et Indigo",
+  "674e524064788cc741418efb": {
+    "id": "674e524064788cc741418efb",
+    "idShort": "Eo",
+    "name": {
+      "fr": "Dragodinde Dorée et Indigo",
+      "en": "Golden and Indigo Dragoturkey",
+      "pt": "Dragoperu Dourado e Índigo",
+      "de": "Gold und Indigo-Dracotruter",
+      "es": "Dragopavo dorado e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1315,8 +2483,16 @@
       "summon": 1
     }
   },
-  "Dragodinde Dorée et Ivoire": {
-    "name": "Dragodinde Dorée et Ivoire",
+  "674e524064788cc741418efc": {
+    "id": "674e524064788cc741418efc",
+    "idShort": "Ep",
+    "name": {
+      "fr": "Dragodinde Dorée et Ivoire",
+      "en": "Golden and Ivory Dragoturkey",
+      "pt": "Dragoperu Dourado e Marfim",
+      "de": "Gold und Elfenbein-Dracotruter",
+      "es": "Dragopavo dorado y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1325,8 +2501,16 @@
       "health": 300
     }
   },
-  "Dragodinde Dorée et Rousse": {
-    "name": "Dragodinde Dorée et Rousse",
+  "674e524064788cc741418efd": {
+    "id": "674e524064788cc741418efd",
+    "idShort": "Eq",
+    "name": {
+      "fr": "Dragodinde Dorée et Rousse",
+      "en": "Golden and Ginger Dragoturkey",
+      "pt": "Dragoperu Dourado e Ruivo",
+      "de": "Rot und Goldener Dracotruter",
+      "es": "Dragopavo dorado y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1335,8 +2519,16 @@
       "summon": 1
     }
   },
-  "Dragodinde Dorée et Turquoise": {
-    "name": "Dragodinde Dorée et Turquoise",
+  "674e524064788cc741418efe": {
+    "id": "674e524064788cc741418efe",
+    "idShort": "Er",
+    "name": {
+      "fr": "Dragodinde Dorée et Turquoise",
+      "en": "Golden and Turquoise Dragoturkey",
+      "pt": "Dragoperu Dourado e Turquesa",
+      "de": "Gold und Türkis-Dracotruter",
+      "es": "Dragopavo dorado y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1345,8 +2537,16 @@
       "summon": 1
     }
   },
-  "Dragodinde Dorée et Orchidée": {
-    "name": "Dragodinde Dorée et Orchidée",
+  "674e524064788cc741418eff": {
+    "id": "674e524064788cc741418eff",
+    "idShort": "Es",
+    "name": {
+      "fr": "Dragodinde Dorée et Orchidée",
+      "en": "Golden and Orchid Dragoturkey",
+      "pt": "Dragoperu Dourado e Orquídea",
+      "de": "Gold und Orchideen-Dracotruter",
+      "es": "Dragopavo dorado y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1355,8 +2555,16 @@
       "health": 300
     }
   },
-  "Dragodinde Dorée et Pourpre": {
-    "name": "Dragodinde Dorée et Pourpre",
+  "674e524064788cc741418f00": {
+    "id": "674e524064788cc741418f00",
+    "idShort": "Et",
+    "name": {
+      "fr": "Dragodinde Dorée et Pourpre",
+      "en": "Golden and Crimson Dragoturkey",
+      "pt": "Dragoperu Dourado e Púrpura",
+      "de": "Gold und Purpur-Dracotruter",
+      "es": "Dragopavo dorado y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1365,8 +2573,16 @@
       "health": 300
     }
   },
-  "Dragodinde Ebène et Emeraude": {
-    "name": "Dragodinde Ebène et Emeraude",
+  "674e524064788cc741418f01": {
+    "id": "674e524064788cc741418f01",
+    "idShort": "Eu",
+    "name": {
+      "fr": "Dragodinde Ebène et Emeraude",
+      "en": "Ebony and Emerald Dragoturkey",
+      "pt": "Dragoperu Ébano e Esmeralda",
+      "de": "Smaragd und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1375,8 +2591,16 @@
       "agility": 70
     }
   },
-  "Dragodinde Ebène et Indigo": {
-    "name": "Dragodinde Ebène et Indigo",
+  "674e524064788cc741418f02": {
+    "id": "674e524064788cc741418f02",
+    "idShort": "Ev",
+    "name": {
+      "fr": "Dragodinde Ebène et Indigo",
+      "en": "Ebony and Indigo Dragoturkey",
+      "pt": "Dragoperu Ébano e Índigo",
+      "de": "Indigo und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1385,8 +2609,16 @@
       "agility": 70
     }
   },
-  "Dragodinde Ebène et Turquoise": {
-    "name": "Dragodinde Ebène et Turquoise",
+  "674e524064788cc741418f03": {
+    "id": "674e524064788cc741418f03",
+    "idShort": "Ew",
+    "name": {
+      "fr": "Dragodinde Ebène et Turquoise",
+      "en": "Ebony and Turquoise Dragoturkey",
+      "pt": "Dragoperu Ébano e Turquesa",
+      "de": "Türkis und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1395,8 +2627,16 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Ebène et Orchidée": {
-    "name": "Dragodinde Ebène et Orchidée",
+  "674e524064788cc741418f04": {
+    "id": "674e524064788cc741418f04",
+    "idShort": "Ex",
+    "name": {
+      "fr": "Dragodinde Ebène et Orchidée",
+      "en": "Ebony and Orchid Dragoturkey",
+      "pt": "Dragoperu Ébano e Orquídea",
+      "de": "Orchideen und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1405,8 +2645,16 @@
       "agility": 70
     }
   },
-  "Dragodinde Ebène et Pourpre": {
-    "name": "Dragodinde Ebène et Pourpre",
+  "674e524064788cc741418f05": {
+    "id": "674e524064788cc741418f05",
+    "idShort": "Ey",
+    "name": {
+      "fr": "Dragodinde Ebène et Pourpre",
+      "en": "Ebony and Crimson Dragoturkey",
+      "pt": "Dragoperu Ébano e Púrpura",
+      "de": "Purpur und Ebenholz-Dracotruter",
+      "es": "Dragopavo ébano y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1415,8 +2663,16 @@
       "agility": 70
     }
   },
-  "Dragodinde Emeraude et Indigo": {
-    "name": "Dragodinde Emeraude et Indigo",
+  "674e524064788cc741418f06": {
+    "id": "674e524064788cc741418f06",
+    "idShort": "Ez",
+    "name": {
+      "fr": "Dragodinde Emeraude et Indigo",
+      "en": "Emerald and Indigo Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Índigo",
+      "de": "Indigo und Smaragd-Dracotruter",
+      "es": "Dragopavo esmeralda e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1425,8 +2681,16 @@
       "chance": 70
     }
   },
-  "Dragodinde Emeraude et Ivoire": {
-    "name": "Dragodinde Emeraude et Ivoire",
+  "674e524064788cc741418f07": {
+    "id": "674e524064788cc741418f07",
+    "idShort": "EA",
+    "name": {
+      "fr": "Dragodinde Emeraude et Ivoire",
+      "en": "Emerald and Ivory Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Marfim",
+      "de": "Smaragd und Elfenbein-Dracotruter",
+      "es": "Dragopavo esmeralda y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1435,8 +2699,16 @@
       "criticalChance": 8
     }
   },
-  "Dragodinde Emeraude et Rousse": {
-    "name": "Dragodinde Emeraude et Rousse",
+  "674e524064788cc741418f08": {
+    "id": "674e524064788cc741418f08",
+    "idShort": "EB",
+    "name": {
+      "fr": "Dragodinde Emeraude et Rousse",
+      "en": "Emerald and Ginger Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Ruivo",
+      "de": "Rot und Smaragd-Dracotruter",
+      "es": "Dragopavo esmeralda y pelirrojo"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1445,8 +2717,16 @@
       "heal": 35
     }
   },
-  "Dragodinde Emeraude et Turquoise": {
-    "name": "Dragodinde Emeraude et Turquoise",
+  "674e524064788cc741418f09": {
+    "id": "674e524064788cc741418f09",
+    "idShort": "EC",
+    "name": {
+      "fr": "Dragodinde Emeraude et Turquoise",
+      "en": "Emerald and Turquoise Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Turquesa",
+      "de": "Smaragd und Türkis-Dracotruter",
+      "es": "Dragopavo esmeralda y turquesa"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1455,8 +2735,16 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Emeraude et Orchidée": {
-    "name": "Dragodinde Emeraude et Orchidée",
+  "674e524064788cc741418f0a": {
+    "id": "674e524064788cc741418f0a",
+    "idShort": "ED",
+    "name": {
+      "fr": "Dragodinde Emeraude et Orchidée",
+      "en": "Emerald and Orchid Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Orquídea",
+      "de": "Smaragd und Orchideen-Dracotruter",
+      "es": "Dragopavo esmeralda y orquídeo"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1465,8 +2753,16 @@
       "intelligence": 70
     }
   },
-  "Dragodinde Emeraude et Pourpre": {
-    "name": "Dragodinde Emeraude et Pourpre",
+  "674e524064788cc741418f0b": {
+    "id": "674e524064788cc741418f0b",
+    "idShort": "EE",
+    "name": {
+      "fr": "Dragodinde Emeraude et Pourpre",
+      "en": "Emerald and Crimson Dragoturkey",
+      "pt": "Dragoperu Esmeralda e Púrpura",
+      "de": "Smaragd und Purpur-Dracotruter",
+      "es": "Dragopavo esmeralda y púrpura"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1475,8 +2771,16 @@
       "strength": 70
     }
   },
-  "Dragodinde Indigo et Ivoire": {
-    "name": "Dragodinde Indigo et Ivoire",
+  "674e524064788cc741418f0c": {
+    "id": "674e524064788cc741418f0c",
+    "idShort": "EF",
+    "name": {
+      "fr": "Dragodinde Indigo et Ivoire",
+      "en": "Indigo and Ivory Dragoturkey",
+      "pt": "Dragoperu Índigo e Marfim",
+      "de": "Indigo und Elfenbein-Dracotruter",
+      "es": "Dragopavo índigo y marfil"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1485,8 +2789,16 @@
       "power": 50
     }
   },
-  "Dragodinde Indigo et Rousse": {
-    "name": "Dragodinde Indigo et Rousse",
+  "674e524064788cc741418f0d": {
+    "id": "674e524064788cc741418f0d",
+    "idShort": "EG",
+    "name": {
+      "fr": "Dragodinde Indigo et Rousse",
+      "en": "Indigo and Ginger Dragoturkey",
+      "pt": "Dragoperu Índigo e Ruivo",
+      "de": "Rot und Indigo-Dracotruter",
+      "es": "Dragopavo índigo y pelirrojo"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1495,8 +2807,16 @@
       "chance": 70
     }
   },
-  "Dragodinde Indigo et Turquoise": {
-    "name": "Dragodinde Indigo et Turquoise",
+  "674e524064788cc741418f0e": {
+    "id": "674e524064788cc741418f0e",
+    "idShort": "EH",
+    "name": {
+      "fr": "Dragodinde Indigo et Turquoise",
+      "en": "Indigo and Turquoise Dragoturkey",
+      "pt": "Dragoperu Índigo e Turquesa",
+      "de": "Türkis und Indigo-Dracotruter",
+      "es": "Dragopavo índigo y turquesa"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1505,8 +2825,16 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Indigo et Orchidée": {
-    "name": "Dragodinde Indigo et Orchidée",
+  "674e524064788cc741418f0f": {
+    "id": "674e524064788cc741418f0f",
+    "idShort": "EI",
+    "name": {
+      "fr": "Dragodinde Indigo et Orchidée",
+      "en": "Indigo and Orchid Dragoturkey",
+      "pt": "Dragoperu Índigo e Orquídea",
+      "de": "Indigo und Orchideen-Dracotruter",
+      "es": "Dragopavo índigo y orquídeo"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1515,8 +2843,16 @@
       "health": 300
     }
   },
-  "Dragodinde Indigo et Pourpre": {
-    "name": "Dragodinde Indigo et Pourpre",
+  "674e524064788cc741418f10": {
+    "id": "674e524064788cc741418f10",
+    "idShort": "EJ",
+    "name": {
+      "fr": "Dragodinde Indigo et Pourpre",
+      "en": "Indigo and Crimson Dragoturkey",
+      "pt": "Dragoperu Índigo e Púrpura",
+      "de": "Indigo und Purpur-Dracotruter",
+      "es": "Dragopavo índigo y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1525,8 +2861,16 @@
       "chance": 70
     }
   },
-  "Dragodinde Ivoire et Turquoise": {
-    "name": "Dragodinde Ivoire et Turquoise",
+  "674e524064788cc741418f11": {
+    "id": "674e524064788cc741418f11",
+    "idShort": "EK",
+    "name": {
+      "fr": "Dragodinde Ivoire et Turquoise",
+      "en": "Ivory and Turquoise Dragoturkey",
+      "pt": "Dragoperu Marfim e Turquesa",
+      "de": "Türkis und Elfenbein-Dracotruter",
+      "es": "Dragopavo marfil y turquesa"
+    },
     "level": 1,
     "category": "pet",
     "stats": {
@@ -1535,8 +2879,16 @@
       "power": 50
     }
   },
-  "Dragodinde Ivoire et Orchidée": {
-    "name": "Dragodinde Ivoire et Orchidée",
+  "674e524064788cc741418f12": {
+    "id": "674e524064788cc741418f12",
+    "idShort": "EL",
+    "name": {
+      "fr": "Dragodinde Ivoire et Orchidée",
+      "en": "Ivory and Orchid Dragoturkey",
+      "pt": "Dragoperu Marfim e Orquídea",
+      "de": "Elfenbein und Orchideen-Dracotruter",
+      "es": "Dragopavo marfil y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1545,8 +2897,16 @@
       "health": 300
     }
   },
-  "Dragodinde Ivoire et Pourpre": {
-    "name": "Dragodinde Ivoire et Pourpre",
+  "674e524064788cc741418f13": {
+    "id": "674e524064788cc741418f13",
+    "idShort": "EM",
+    "name": {
+      "fr": "Dragodinde Ivoire et Pourpre",
+      "en": "Ivory and Crimson Dragoturkey",
+      "pt": "Dragoperu Marfim e Púrpura",
+      "de": "Elfenbein und Purpur-Dracotruter",
+      "es": "Dragopavo marfil y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1555,8 +2915,16 @@
       "power": 50
     }
   },
-  "Dragodinde Turquoise et Rousse": {
-    "name": "Dragodinde Turquoise et Rousse",
+  "674e524064788cc741418f14": {
+    "id": "674e524064788cc741418f14",
+    "idShort": "EN",
+    "name": {
+      "fr": "Dragodinde Turquoise et Rousse",
+      "en": "Turquoise and Ginger Dragoturkey",
+      "pt": "Dragoperu Turquesa e Ruivo",
+      "de": "Rot und Türkis-Dracotruter",
+      "es": "Dragopavo turquesa y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1565,8 +2933,16 @@
       "heal": 35
     }
   },
-  "Dragodinde Orchidée et Rousse": {
-    "name": "Dragodinde Orchidée et Rousse",
+  "674e524064788cc741418f15": {
+    "id": "674e524064788cc741418f15",
+    "idShort": "EO",
+    "name": {
+      "fr": "Dragodinde Orchidée et Rousse",
+      "en": "Orchid and Ginger Dragoturkey",
+      "pt": "Dragoperu Orquídea e Ruivo",
+      "de": "Rot und Orchideen-Dracotruter",
+      "es": "Dragopavo orquídeo y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1575,8 +2951,16 @@
       "health": 300
     }
   },
-  "Dragodinde Pourpre et Rousse": {
-    "name": "Dragodinde Pourpre et Rousse",
+  "674e524064788cc741418f16": {
+    "id": "674e524064788cc741418f16",
+    "idShort": "EP",
+    "name": {
+      "fr": "Dragodinde Pourpre et Rousse",
+      "en": "Crimson and Ginger Dragoturkey",
+      "pt": "Dragoperu Púrpura e Ruivo",
+      "de": "Rot und Purpur-Dracotruter",
+      "es": "Dragopavo púrpura y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1585,8 +2969,16 @@
       "health": 300
     }
   },
-  "Dragodinde Turquoise et Orchidée": {
-    "name": "Dragodinde Turquoise et Orchidée",
+  "674e524064788cc741418f17": {
+    "id": "674e524064788cc741418f17",
+    "idShort": "EQ",
+    "name": {
+      "fr": "Dragodinde Turquoise et Orchidée",
+      "en": "Turquoise and Orchid Dragoturkey",
+      "pt": "Dragoperu Turquesa e Orquídea",
+      "de": "Türkis und Orchideen-Dracotruter",
+      "es": "Dragopavo turquesa y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1595,8 +2987,16 @@
       "intelligence": 70
     }
   },
-  "Dragodinde Turquoise et Pourpre": {
-    "name": "Dragodinde Turquoise et Pourpre",
+  "674e524064788cc741418f18": {
+    "id": "674e524064788cc741418f18",
+    "idShort": "ER",
+    "name": {
+      "fr": "Dragodinde Turquoise et Pourpre",
+      "en": "Turquoise and Crimson Dragoturkey",
+      "pt": "Dragoperu Turquesa e Púrpura",
+      "de": "Türkis und Purpur-Dracotruter",
+      "es": "Dragopavo turquesa y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1605,8 +3005,16 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Orchidée et Pourpre": {
-    "name": "Dragodinde Orchidée et Pourpre",
+  "674e524064788cc741418f1a": {
+    "id": "674e524064788cc741418f1a",
+    "idShort": "ET",
+    "name": {
+      "fr": "Dragodinde Orchidée et Pourpre",
+      "en": "Orchid and Crimson Dragoturkey",
+      "pt": "Dragoperu Orquídea e Púrpura",
+      "de": "Purpur und Orchideen-Dracotruter",
+      "es": "Dragopavo orquídeo y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1615,8 +3023,16 @@
       "intelligence": 70
     }
   },
-  "Dragodinde Prune et Amande": {
-    "name": "Dragodinde Prune et Amande",
+  "674e524064788cc741418f1b": {
+    "id": "674e524064788cc741418f1b",
+    "idShort": "EU",
+    "name": {
+      "fr": "Dragodinde Prune et Amande",
+      "en": "Plum and Almond Dragoturkey",
+      "pt": "Dragoperu Ameixa e Amêndoa",
+      "de": "Pflaumen und Mandel-Dracotruter",
+      "es": "Dragopavo ciruela y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1625,8 +3041,16 @@
       "range": 1
     }
   },
-  "Dragodinde Prune et Dorée": {
-    "name": "Dragodinde Prune et Dorée",
+  "674e524064788cc741418f1c": {
+    "id": "674e524064788cc741418f1c",
+    "idShort": "EV",
+    "name": {
+      "fr": "Dragodinde Prune et Dorée",
+      "en": "Plum and Golden Dragoturkey",
+      "pt": "Dragoperu Ameixa e Dourado",
+      "de": "Goldener Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1635,8 +3059,16 @@
       "summon": 1
     }
   },
-  "Dragodinde Prune et Ebène": {
-    "name": "Dragodinde Prune et Ebène",
+  "674e524064788cc741418f1d": {
+    "id": "674e524064788cc741418f1d",
+    "idShort": "EW",
+    "name": {
+      "fr": "Dragodinde Prune et Ebène",
+      "en": "Plum and Ebony Dragoturkey",
+      "pt": "Dragoperu Ameixa e Ébano",
+      "de": "Pflaumen und Ebenholz-Dracotruter",
+      "es": "Dragopavo ciruela y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1645,8 +3077,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune et Emeraude": {
-    "name": "Dragodinde Prune et Emeraude",
+  "674e524064788cc741418f1e": {
+    "id": "674e524064788cc741418f1e",
+    "idShort": "EX",
+    "name": {
+      "fr": "Dragodinde Prune et Emeraude",
+      "en": "Plum and Emerald Dragoturkey",
+      "pt": "Dragoperu Ameixa e Esmeralda",
+      "de": "Pflaumen und Smaragd-Dracotruter",
+      "es": "Dragopavo ciruela y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1655,8 +3095,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune et Indigo": {
-    "name": "Dragodinde Prune et Indigo",
+  "674e524064788cc741418f1f": {
+    "id": "674e524064788cc741418f1f",
+    "idShort": "EY",
+    "name": {
+      "fr": "Dragodinde Prune et Indigo",
+      "en": "Plum and Indigo Dragoturkey",
+      "pt": "Dragoperu Ameixa e Índigo",
+      "de": "Indigo und Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1665,8 +3113,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune et Ivoire": {
-    "name": "Dragodinde Prune et Ivoire",
+  "674e524064788cc741418f20": {
+    "id": "674e524064788cc741418f20",
+    "idShort": "EZ",
+    "name": {
+      "fr": "Dragodinde Prune et Ivoire",
+      "en": "Plum and Ivory Dragoturkey",
+      "pt": "Dragoperu Ameixa e Marfim",
+      "de": "Pflaumen und Elfenbein-Dracotruter",
+      "es": "Dragopavo ciruela y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1675,8 +3131,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune et Rousse": {
-    "name": "Dragodinde Prune et Rousse",
+  "674e524064788cc741418f21": {
+    "id": "674e524064788cc741418f21",
+    "idShort": "F0",
+    "name": {
+      "fr": "Dragodinde Prune et Rousse",
+      "en": "Plum and Ginger Dragoturkey",
+      "pt": "Dragoperu Ameixa e Ruivo",
+      "de": "Rot und Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1685,8 +3149,16 @@
       "heal": 35
     }
   },
-  "Dragodinde Prune et Turquoise": {
-    "name": "Dragodinde Prune et Turquoise",
+  "674e524064788cc741418f22": {
+    "id": "674e524064788cc741418f22",
+    "idShort": "F1",
+    "name": {
+      "fr": "Dragodinde Prune et Turquoise",
+      "en": "Plum and Turquoise Dragoturkey",
+      "pt": "Dragoperu Ameixa e Turquesa",
+      "de": "Türkis und Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1695,8 +3167,16 @@
       "prospecting": 60
     }
   },
-  "Dragodinde Prune et Orchidée": {
-    "name": "Dragodinde Prune et Orchidée",
+  "674e524064788cc741418f23": {
+    "id": "674e524064788cc741418f23",
+    "idShort": "F2",
+    "name": {
+      "fr": "Dragodinde Prune et Orchidée",
+      "en": "Plum and Orchid Dragoturkey",
+      "pt": "Dragoperu Ameixa e Orquídea",
+      "de": "Pflaumen und Orchideen-Dracotruter",
+      "es": "Dragopavo ciruela y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1705,8 +3185,16 @@
       "health": 300
     }
   },
-  "Dragodinde Prune et Pourpre": {
-    "name": "Dragodinde Prune et Pourpre",
+  "674e524064788cc741418f24": {
+    "id": "674e524064788cc741418f24",
+    "idShort": "F3",
+    "name": {
+      "fr": "Dragodinde Prune et Pourpre",
+      "en": "Plum and Crimson Dragoturkey",
+      "pt": "Dragoperu Ameixa e Púrpura",
+      "de": "Purpur- und Pflaumen-Dracotruter",
+      "es": "Dragopavo ciruela y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1715,8 +3203,16 @@
       "health": 300
     }
   },
-  "Dragodinde en armure": {
-    "name": "Dragodinde en armure",
+  "674e524064788cc741419452": {
+    "id": "674e524064788cc741419452",
+    "idShort": "F4",
+    "name": {
+      "fr": "Dragodinde en armure",
+      "en": "Armoured Dragoturkey",
+      "pt": "Dragoperu com armadura",
+      "de": "Gepanzerter Dracotruter",
+      "es": "Dragopavo con armadura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1728,8 +3224,16 @@
       "neutralResistPer": 5
     }
   },
-  "Dragodinde à Plumes": {
-    "name": "Dragodinde à Plumes",
+  "674e524064788cc741419e2b": {
+    "id": "674e524064788cc741419e2b",
+    "idShort": "F5",
+    "name": {
+      "fr": "Dragodinde à Plumes",
+      "en": "Feathered Dragoturkey",
+      "pt": "Dragoperu emplumado",
+      "de": "Befiederter Dracotruter",
+      "es": "Dragopavo con plumas"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1737,8 +3241,16 @@
       "health": 100
     }
   },
-  "Dragouf": {
-    "name": "Dragouf",
+  "674e524064788cc741419cbd": {
+    "id": "674e524064788cc741419cbd",
+    "idShort": "F6",
+    "name": {
+      "fr": "Dragouf",
+      "en": "Madreggon",
+      "pt": "Dragoloko",
+      "de": "Dracstar",
+      "es": "Dragrillado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1746,16 +3258,32 @@
       "summon": 2
     }
   },
-  "Hurledent": {
-    "name": "Hurledent",
+  "674e524064788cc741419e16": {
+    "id": "674e524064788cc741419e16",
+    "idShort": "F7",
+    "name": {
+      "fr": "Hurledent",
+      "en": "Slayhound",
+      "pt": "Metiodent",
+      "de": "Schreizahn",
+      "es": "Dekarbón"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "prospecting": 120
     }
   },
-  "Kramkram": {
-    "name": "Kramkram",
+  "674e524064788cc741419e93": {
+    "id": "674e524064788cc741419e93",
+    "idShort": "F8",
+    "name": {
+      "fr": "Kramkram",
+      "en": "Karmeleon",
+      "pt": "Kramkram",
+      "de": "Chamcham",
+      "es": "Kramkram"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1767,8 +3295,16 @@
       "airResistPer": 5
     }
   },
-  "Sakochère": {
-    "name": "Sakochère",
+  "674e524064788cc741419f9f": {
+    "id": "674e524064788cc741419f9f",
+    "idShort": "F9",
+    "name": {
+      "fr": "Sakochère",
+      "en": "Boarhog",
+      "pt": "Javóquero",
+      "de": "Hauknotscha",
+      "es": "Sakóquero"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1776,8 +3312,16 @@
       "criticalDamage": 50
     }
   },
-  "Balafreux": {
-    "name": "Balafreux",
+  "674e524064788cc74141a019": {
+    "id": "674e524064788cc74141a019",
+    "idShort": "Fa",
+    "name": {
+      "fr": "Balafreux",
+      "en": "Razorbuck",
+      "pt": "Cicatorpe",
+      "de": "Schreckschmiss",
+      "es": "Suskrofa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1785,8 +3329,16 @@
       "pushbackDamage": 100
     }
   },
-  "Kwaltess": {
-    "name": "Kwaltess",
+  "674e524164788cc74141a431": {
+    "id": "674e524164788cc74141a431",
+    "idShort": "Fb",
+    "name": {
+      "fr": "Kwaltess",
+      "en": "Kwyness",
+      "pt": "Kwalteza",
+      "de": "Kwackoheit",
+      "es": "Kwalteza"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1794,40 +3346,80 @@
       "ap": 1
     }
   },
-  "Siroko": {
-    "name": "Siroko",
+  "674e524164788cc74141a433": {
+    "id": "674e524164788cc74141a433",
+    "idShort": "Fc",
+    "name": {
+      "fr": "Siroko",
+      "en": "Sirocco",
+      "pt": "Siroko",
+      "de": "Schirocko",
+      "es": "Siroko"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "agility": 160
     }
   },
-  "Dehluge": {
-    "name": "Dehluge",
+  "674e524164788cc74141a434": {
+    "id": "674e524164788cc74141a434",
+    "idShort": "Fd",
+    "name": {
+      "fr": "Dehluge",
+      "en": "Dehluge",
+      "pt": "Alagah",
+      "de": "Ressaw",
+      "es": "Xaparón"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "chance": 160
     }
   },
-  "Kompost": {
-    "name": "Kompost",
+  "674e524164788cc74141a435": {
+    "id": "674e524164788cc74141a435",
+    "idShort": "Fe",
+    "name": {
+      "fr": "Kompost",
+      "en": "Kompost",
+      "pt": "Oduba",
+      "de": "Kompost",
+      "es": "Kompost"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "strength": 160
     }
   },
-  "Brûlih": {
-    "name": "Brûlih",
+  "674e524164788cc74141a437": {
+    "id": "674e524164788cc74141a437",
+    "idShort": "Ff",
+    "name": {
+      "fr": "Brûlih",
+      "en": "Brulay",
+      "pt": "Kema",
+      "de": "Reuef",
+      "es": "Hardo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "intelligence": 160
     }
   },
-  "Phorror": {
-    "name": "Phorror",
+  "674e524164788cc74141a58f": {
+    "id": "674e524164788cc74141a58f",
+    "idShort": "Fg",
+    "name": {
+      "fr": "Phorror",
+      "en": "Drhexler",
+      "pt": "Perforror",
+      "de": "Griesbrabbel",
+      "es": "Perforror"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1835,8 +3427,16 @@
       "mp": 1
     }
   },
-  "Kougnard": {
-    "name": "Kougnard",
+  "674e524164788cc74141aeba": {
+    "id": "674e524164788cc74141aeba",
+    "idShort": "Fh",
+    "name": {
+      "fr": "Kougnard",
+      "en": "Skrot",
+      "pt": "Katomor",
+      "de": "Klötmuus",
+      "es": "Mortiélago"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1844,8 +3444,16 @@
       "initiative": 2000
     }
   },
-  "Kougnard Albâtre": {
-    "name": "Kougnard Albâtre",
+  "674e524164788cc74141b1bb": {
+    "id": "674e524164788cc74141b1bb",
+    "idShort": "Fi",
+    "name": {
+      "fr": "Kougnard Albâtre",
+      "en": "Alabaster Skrot",
+      "pt": "Katomor de Alabastro",
+      "de": "Alabaster-Klötmuus",
+      "es": "Mortiélago alabastrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1853,8 +3461,16 @@
       "criticalDamage": 40
     }
   },
-  "Bouftor": {
-    "name": "Bouftor",
+  "674e524164788cc74141b297": {
+    "id": "674e524164788cc74141b297",
+    "idShort": "Fj",
+    "name": {
+      "fr": "Bouftor",
+      "en": "Gobbalator",
+      "pt": "Pacastor",
+      "de": "Frestor",
+      "es": "Jalacástor"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1862,8 +3478,16 @@
       "pushbackResist": 100
     }
   },
-  "Bouflux": {
-    "name": "Bouflux",
+  "674e524164788cc74141b298": {
+    "id": "674e524164788cc74141b298",
+    "idShort": "Fk",
+    "name": {
+      "fr": "Bouflux",
+      "en": "Gobbalux",
+      "pt": "Papólux",
+      "de": "Freslux",
+      "es": "Jalapólux"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1871,8 +3495,16 @@
       "pushbackDamage": 100
     }
   },
-  "Teh'Niak": {
-    "name": "Teh'Niak",
+  "674e524164788cc74141c3b7": {
+    "id": "674e524164788cc74141c3b7",
+    "idShort": "Fl",
+    "name": {
+      "fr": "Teh'Niak",
+      "en": "Tae'Niak",
+      "pt": "Teh'Niak",
+      "de": "Taeh'Niak",
+      "es": "Tae'Niak"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1883,8 +3515,16 @@
       "airDamage": 15
     }
   },
-  "Tortikoli": {
-    "name": "Tortikoli",
+  "674e524164788cc74141c3b8": {
+    "id": "674e524164788cc74141c3b8",
+    "idShort": "Fm",
+    "name": {
+      "fr": "Tortikoli",
+      "en": "Tortikoli",
+      "pt": "Tarticoli",
+      "de": "Tortikoli",
+      "es": "Tortikoli"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1892,8 +3532,16 @@
       "pushbackResist": 80
     }
   },
-  "Koliphant Mamukil": {
-    "name": "Koliphant Mamukil",
+  "674e524164788cc74141cdaa": {
+    "id": "674e524164788cc74141cdaa",
+    "idShort": "Fn",
+    "name": {
+      "fr": "Koliphant Mamukil",
+      "en": "Mamukil Kolophant",
+      "pt": "Kolifante Mamukil",
+      "de": "Mamukil-Kolifant",
+      "es": "Kolifante mamuk"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1901,8 +3549,16 @@
       "criticalChance": 15
     }
   },
-  "Koliphant de Lexandre": {
-    "name": "Koliphant de Lexandre",
+  "674e524164788cc74141cdab": {
+    "id": "674e524164788cc74141cdab",
+    "idShort": "Fo",
+    "name": {
+      "fr": "Koliphant de Lexandre",
+      "en": "Lexander's Kolophant",
+      "pt": "Kolifante de Lexandre",
+      "de": "Kolifant von Lexander",
+      "es": "Kolifante de Lejandro"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1910,8 +3566,16 @@
       "criticalChance": 15
     }
   },
-  "Koliphant de Tarkaj": {
-    "name": "Koliphant de Tarkaj",
+  "674e524164788cc74141cdac": {
+    "id": "674e524164788cc74141cdac",
+    "idShort": "Fp",
+    "name": {
+      "fr": "Koliphant de Tarkaj",
+      "en": "Tarkaj Kolophant",
+      "pt": "Kolifante de Tarkago",
+      "de": "Kolifant von Tarkago",
+      "es": "Kolifante de Kartago"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1919,8 +3583,16 @@
       "criticalChance": 15
     }
   },
-  "Koliphant Zenusha": {
-    "name": "Koliphant Zenusha",
+  "674e524164788cc74141cdad": {
+    "id": "674e524164788cc74141cdad",
+    "idShort": "Fq",
+    "name": {
+      "fr": "Koliphant Zenusha",
+      "en": "Zenusha Kolophant",
+      "pt": "Kolifante Zenusha",
+      "de": "Zenusha-Kolifant",
+      "es": "Kolifante zenusha"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1928,8 +3600,16 @@
       "criticalChance": 15
     }
   },
-  "Zarfuyar": {
-    "name": "Zarfuyar",
+  "674e524164788cc74141cdae": {
+    "id": "674e524164788cc74141cdae",
+    "idShort": "Fr",
+    "name": {
+      "fr": "Zarfuyar",
+      "en": "Ziplizard",
+      "pt": "Fugarto",
+      "de": "Flinkidechse",
+      "es": "Lagartiro"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1937,8 +3617,16 @@
       "mpReduction": 40
     }
   },
-  "Kobrapid": {
-    "name": "Kobrapid",
+  "674e524164788cc74141cdaf": {
+    "id": "674e524164788cc74141cdaf",
+    "idShort": "Fs",
+    "name": {
+      "fr": "Kobrapid",
+      "en": "Kobrapid",
+      "pt": "Kobrápida",
+      "de": "Kobrasch",
+      "es": "Kobraviva"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1946,16 +3634,32 @@
       "mpResist": 50
     }
   },
-  "Gowelan": {
-    "name": "Gowelan",
+  "674e524164788cc74141cdc3": {
+    "id": "674e524164788cc74141cdc3",
+    "idShort": "Ft",
+    "name": {
+      "fr": "Gowelan",
+      "en": "Kwismas Gull",
+      "pt": "Taivoga",
+      "de": "Möhve",
+      "es": "Gavioto"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "pods": 2000
     }
   },
-  "Monture du Vénérable": {
-    "name": "Monture du Vénérable",
+  "687f71551c81517356061875": {
+    "id": "687f71551c81517356061875",
+    "idShort": "Fu",
+    "name": {
+      "fr": "Monture du Vénérable",
+      "en": "The Venerable One's Mount",
+      "pt": "Montaria do Venerável",
+      "de": "Reittier des Ehrwürdigen",
+      "es": "Montura del Venerable"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1963,8 +3667,16 @@
       "summon": 2
     }
   },
-  "Muldo Ebène et Indigo": {
-    "name": "Muldo Ebène et Indigo",
+  "674e524164788cc74141ade6": {
+    "id": "674e524164788cc74141ade6",
+    "idShort": "Fv",
+    "name": {
+      "fr": "Muldo Ebène et Indigo",
+      "en": "Ebony and Indigo Seemyool",
+      "pt": "Marmula ébano e índigo",
+      "de": "Ebenholz und Indigo-Seequagga",
+      "es": "Mulagua ébano e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1973,8 +3685,16 @@
       "airResistPer": 8
     }
   },
-  "Muldo Orchidée": {
-    "name": "Muldo Orchidée",
+  "674e524164788cc74141ade7": {
+    "id": "674e524164788cc74141ade7",
+    "idShort": "Fw",
+    "name": {
+      "fr": "Muldo Orchidée",
+      "en": "Orchid Seemyool",
+      "pt": "Marmula orquídea",
+      "de": "Orchideen-Seequagga",
+      "es": "Mulagua orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1982,8 +3702,16 @@
       "mp": 1
     }
   },
-  "Muldo Ebène": {
-    "name": "Muldo Ebène",
+  "674e524164788cc74141ade8": {
+    "id": "674e524164788cc74141ade8",
+    "idShort": "Fx",
+    "name": {
+      "fr": "Muldo Ebène",
+      "en": "Ebony Seemyool",
+      "pt": "Marmula ébano",
+      "de": "Ebenholz-Seequagga",
+      "es": "Mulagua ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -1991,8 +3719,16 @@
       "mp": 1
     }
   },
-  "Muldo Indigo": {
-    "name": "Muldo Indigo",
+  "674e524164788cc74141ade9": {
+    "id": "674e524164788cc74141ade9",
+    "idShort": "Fy",
+    "name": {
+      "fr": "Muldo Indigo",
+      "en": "Indigo Seemyool",
+      "pt": "Marmula índigo",
+      "de": "Indigo-Seequagga",
+      "es": "Mulagua índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2000,8 +3736,16 @@
       "waterResistPer": 16
     }
   },
-  "Muldo Pourpre": {
-    "name": "Muldo Pourpre",
+  "674e524164788cc74141adea": {
+    "id": "674e524164788cc74141adea",
+    "idShort": "Fz",
+    "name": {
+      "fr": "Muldo Pourpre",
+      "en": "Crimson Seemyool",
+      "pt": "Marmula púrpura",
+      "de": "Purpur-Seequagga",
+      "es": "Mulagua púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2009,8 +3753,16 @@
       "earthResistPer": 16
     }
   },
-  "Muldo Doré": {
-    "name": "Muldo Doré",
+  "674e524164788cc74141adeb": {
+    "id": "674e524164788cc74141adeb",
+    "idShort": "FA",
+    "name": {
+      "fr": "Muldo Doré",
+      "en": "Golden Seemyool",
+      "pt": "Marmula dourada",
+      "de": "Gold-Seequagga",
+      "es": "Mulagua dorada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2018,8 +3770,16 @@
       "mp": 1
     }
   },
-  "Muldo Roux": {
-    "name": "Muldo Roux",
+  "674e524164788cc74141adec": {
+    "id": "674e524164788cc74141adec",
+    "idShort": "FB",
+    "name": {
+      "fr": "Muldo Roux",
+      "en": "Ginger Seemyool",
+      "pt": "Marmula ruiva",
+      "de": "Fuxrot-Seequagga",
+      "es": "Mulagua roja"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2027,8 +3787,16 @@
       "lock": 40
     }
   },
-  "Muldo Amande": {
-    "name": "Muldo Amande",
+  "674e524164788cc74141aded": {
+    "id": "674e524164788cc74141aded",
+    "idShort": "FC",
+    "name": {
+      "fr": "Muldo Amande",
+      "en": "Almond Seemyool",
+      "pt": "Marmula amêndoa",
+      "de": "Mandel-Seequagga",
+      "es": "Mulagua almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2036,8 +3804,16 @@
       "mp": 1
     }
   },
-  "Muldo Ivoire": {
-    "name": "Muldo Ivoire",
+  "674e524164788cc74141adee": {
+    "id": "674e524164788cc74141adee",
+    "idShort": "FD",
+    "name": {
+      "fr": "Muldo Ivoire",
+      "en": "Ivory Seemyool",
+      "pt": "Marmula marfim",
+      "de": "Elfenbein-Seequagga",
+      "es": "Mulagua marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2045,8 +3821,16 @@
       "mp": 1
     }
   },
-  "Muldo Turquoise": {
-    "name": "Muldo Turquoise",
+  "674e524164788cc74141adef": {
+    "id": "674e524164788cc74141adef",
+    "idShort": "FE",
+    "name": {
+      "fr": "Muldo Turquoise",
+      "en": "Turquoise Seemyool",
+      "pt": "Marmula turquesa",
+      "de": "Türkis-Seequagga",
+      "es": "Mulagua turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2054,8 +3838,16 @@
       "mp": 1
     }
   },
-  "Muldo Prune": {
-    "name": "Muldo Prune",
+  "674e524164788cc74141adf0": {
+    "id": "674e524164788cc74141adf0",
+    "idShort": "FF",
+    "name": {
+      "fr": "Muldo Prune",
+      "en": "Plum Seemyool",
+      "pt": "Marmula ameixa",
+      "de": "Pflaumen-Seequagga",
+      "es": "Mulagua ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2063,8 +3855,16 @@
       "criticalChance": 10
     }
   },
-  "Muldo Emeraude": {
-    "name": "Muldo Emeraude",
+  "674e524164788cc74141adf1": {
+    "id": "674e524164788cc74141adf1",
+    "idShort": "FG",
+    "name": {
+      "fr": "Muldo Emeraude",
+      "en": "Emerald Seemyool",
+      "pt": "Marmula esmeralda",
+      "de": "Smaragd-Seequagga",
+      "es": "Mulagua esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2072,8 +3872,16 @@
       "mp": 1
     }
   },
-  "Muldo Doré et Pourpre": {
-    "name": "Muldo Doré et Pourpre",
+  "674e524164788cc74141adf2": {
+    "id": "674e524164788cc74141adf2",
+    "idShort": "FH",
+    "name": {
+      "fr": "Muldo Doré et Pourpre",
+      "en": "Golden and Crimson Seemyool",
+      "pt": "Marmula dourada e púrpura",
+      "de": "Gold und Purpur-Seequagga",
+      "es": "Mulagua dorada y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2082,8 +3890,16 @@
       "power": 40
     }
   },
-  "Muldo Indigo et Pourpre": {
-    "name": "Muldo Indigo et Pourpre",
+  "674e524164788cc74141adf3": {
+    "id": "674e524164788cc74141adf3",
+    "idShort": "FI",
+    "name": {
+      "fr": "Muldo Indigo et Pourpre",
+      "en": "Indigo and Crimson Seemyool",
+      "pt": "Marmula índigo e púrpura",
+      "de": "Indigo und Purpur-Seequagga",
+      "es": "Mulagua índigo y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2092,8 +3908,16 @@
       "waterResistPer": 8
     }
   },
-  "Muldo Ebène et Pourpre": {
-    "name": "Muldo Ebène et Pourpre",
+  "674e524164788cc74141adf4": {
+    "id": "674e524164788cc74141adf4",
+    "idShort": "FJ",
+    "name": {
+      "fr": "Muldo Ebène et Pourpre",
+      "en": "Ebony and Crimson Seemyool",
+      "pt": "Marmula ébano e púrpura",
+      "de": "Ebenholz und Purpur-Seequagga",
+      "es": "Mulagua ébano y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2102,8 +3926,16 @@
       "earthResistPer": 8
     }
   },
-  "Muldo Orchidée et Pourpre": {
-    "name": "Muldo Orchidée et Pourpre",
+  "674e524164788cc74141adf5": {
+    "id": "674e524164788cc74141adf5",
+    "idShort": "FK",
+    "name": {
+      "fr": "Muldo Orchidée et Pourpre",
+      "en": "Orchid and Crimson Seemyool",
+      "pt": "Marmula orquídea e púrpura",
+      "de": "Orchideen und Purpur-Seequagga",
+      "es": "Mulagua orquídea y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2112,8 +3944,16 @@
       "fireResistPer": 8
     }
   },
-  "Muldo Doré et Ebène": {
-    "name": "Muldo Doré et Ebène",
+  "674e524164788cc74141adf6": {
+    "id": "674e524164788cc74141adf6",
+    "idShort": "FL",
+    "name": {
+      "fr": "Muldo Doré et Ebène",
+      "en": "Golden and Ebony Seemyool",
+      "pt": "Marmula dourada e ébano",
+      "de": "Gold und Ebenholz-Seequagga",
+      "es": "Mulagua dorada y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2122,8 +3962,16 @@
       "power": 40
     }
   },
-  "Muldo Indigo et Orchidée": {
-    "name": "Muldo Indigo et Orchidée",
+  "674e524164788cc74141adf7": {
+    "id": "674e524164788cc74141adf7",
+    "idShort": "FM",
+    "name": {
+      "fr": "Muldo Indigo et Orchidée",
+      "en": "Indigo and Orchid Seemyool",
+      "pt": "Marmula índigo e orquídea",
+      "de": "Indigo und Orchideen-Seequagga",
+      "es": "Mulagua índigo y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2132,8 +3980,16 @@
       "waterResistPer": 8
     }
   },
-  "Muldo Ebène et Orchidée": {
-    "name": "Muldo Ebène et Orchidée",
+  "674e524164788cc74141adf8": {
+    "id": "674e524164788cc74141adf8",
+    "idShort": "FN",
+    "name": {
+      "fr": "Muldo Ebène et Orchidée",
+      "en": "Ebony and Orchid Seemyool",
+      "pt": "Marmula ébano e orquídea",
+      "de": "Ebenholz und Orchideen-Seequagga",
+      "es": "Mulagua ébano y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2142,8 +3998,16 @@
       "fireResistPer": 8
     }
   },
-  "Muldo Doré et Orchidée": {
-    "name": "Muldo Doré et Orchidée",
+  "674e524164788cc74141adf9": {
+    "id": "674e524164788cc74141adf9",
+    "idShort": "FO",
+    "name": {
+      "fr": "Muldo Doré et Orchidée",
+      "en": "Golden and Orchid Seemyool",
+      "pt": "Marmula dourada e orquídea",
+      "de": "Gold und Orchideen-Seequagga",
+      "es": "Mulagua dorada y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2152,8 +4016,16 @@
       "power": 40
     }
   },
-  "Muldo Roux et Pourpre": {
-    "name": "Muldo Roux et Pourpre",
+  "674e524164788cc74141adfa": {
+    "id": "674e524164788cc74141adfa",
+    "idShort": "FP",
+    "name": {
+      "fr": "Muldo Roux et Pourpre",
+      "en": "Ginger and Crimson Seemyool",
+      "pt": "Marmula ruiva e púrpura",
+      "de": "Fuxrot und Purpur-Seequagga",
+      "es": "Mulagua roja y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2162,8 +4034,16 @@
       "mp": 1
     }
   },
-  "Muldo Roux et Orchidée": {
-    "name": "Muldo Roux et Orchidée",
+  "674e524164788cc74141adfb": {
+    "id": "674e524164788cc74141adfb",
+    "idShort": "FQ",
+    "name": {
+      "fr": "Muldo Roux et Orchidée",
+      "en": "Ginger and Orchid Seemyool",
+      "pt": "Marmula ruiva e orquídea",
+      "de": "Fuxrot und Orchideen-Seequagga",
+      "es": "Mulagua roja y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2172,8 +4052,16 @@
       "fireResistPer": 8
     }
   },
-  "Muldo Roux et Indigo": {
-    "name": "Muldo Roux et Indigo",
+  "674e524164788cc74141adfc": {
+    "id": "674e524164788cc74141adfc",
+    "idShort": "FR",
+    "name": {
+      "fr": "Muldo Roux et Indigo",
+      "en": "Ginger and Indigo Seemyool",
+      "pt": "Marmula ruiva e índigo",
+      "de": "Fuxrot und Indigo-Seequagga",
+      "es": "Mulagua roja e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2182,8 +4070,16 @@
       "mp": 1
     }
   },
-  "Muldo Roux et Ebène": {
-    "name": "Muldo Roux et Ebène",
+  "674e524164788cc74141adfd": {
+    "id": "674e524164788cc74141adfd",
+    "idShort": "FS",
+    "name": {
+      "fr": "Muldo Roux et Ebène",
+      "en": "Ginger and Ebony Seemyool",
+      "pt": "Marmula ruiva e ébano",
+      "de": "Fuxrot und Ebenholz-Seequagga",
+      "es": "Mulagua roja y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2192,8 +4088,16 @@
       "airResistPer": 8
     }
   },
-  "Muldo Roux et Doré": {
-    "name": "Muldo Roux et Doré",
+  "674e524164788cc74141adfe": {
+    "id": "674e524164788cc74141adfe",
+    "idShort": "FT",
+    "name": {
+      "fr": "Muldo Roux et Doré",
+      "en": "Ginger and Golden Seemyool",
+      "pt": "Marmula ruiva e dourada",
+      "de": "Fuxrot und Gold-Seequagga",
+      "es": "Mulagua roja y dorada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2202,8 +4106,16 @@
       "lock": 30
     }
   },
-  "Muldo Roux et Amande": {
-    "name": "Muldo Roux et Amande",
+  "674e524164788cc74141adff": {
+    "id": "674e524164788cc74141adff",
+    "idShort": "FU",
+    "name": {
+      "fr": "Muldo Roux et Amande",
+      "en": "Ginger and Almond Seemyool",
+      "pt": "Marmula ruiva e amêndoa",
+      "de": "Fuxrot und Mandel-Seequagga",
+      "es": "Mulagua roja y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2212,8 +4124,16 @@
       "dodge": 30
     }
   },
-  "Muldo Pourpre et Amande": {
-    "name": "Muldo Pourpre et Amande",
+  "674e524164788cc74141ae00": {
+    "id": "674e524164788cc74141ae00",
+    "idShort": "FV",
+    "name": {
+      "fr": "Muldo Pourpre et Amande",
+      "en": "Crimson and Almond Seemyool",
+      "pt": "Marmula púrpura e amêndoa",
+      "de": "Purpur und Mandel-Seequagga",
+      "es": "Mulagua púrpura y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2222,8 +4142,16 @@
       "mp": 1
     }
   },
-  "Muldo Orchidée et Amande": {
-    "name": "Muldo Orchidée et Amande",
+  "674e524164788cc74141ae01": {
+    "id": "674e524164788cc74141ae01",
+    "idShort": "FW",
+    "name": {
+      "fr": "Muldo Orchidée et Amande",
+      "en": "Orchid and Almond Seemyool",
+      "pt": "Marmula orquídea e amêndoa",
+      "de": "Orchideen und Mandel-Seequagga",
+      "es": "Mulagua orquídea y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2232,8 +4160,16 @@
       "fireResistPer": 8
     }
   },
-  "Muldo Indigo et Amande": {
-    "name": "Muldo Indigo et Amande",
+  "674e524164788cc74141ae02": {
+    "id": "674e524164788cc74141ae02",
+    "idShort": "FX",
+    "name": {
+      "fr": "Muldo Indigo et Amande",
+      "en": "Indigo and Almond Seemyool",
+      "pt": "Marmula índigo e amêndoa",
+      "de": "Indigo und Mandel-Seequagga",
+      "es": "Mulagua índigo y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2242,8 +4178,16 @@
       "mp": 1
     }
   },
-  "Muldo Ebène et Amande": {
-    "name": "Muldo Ebène et Amande",
+  "674e524164788cc74141ae03": {
+    "id": "674e524164788cc74141ae03",
+    "idShort": "FY",
+    "name": {
+      "fr": "Muldo Ebène et Amande",
+      "en": "Ebony and Almond Seemyool",
+      "pt": "Marmula ébano e amêndoa",
+      "de": "Ebenholz und Mandel-Seequagga",
+      "es": "Mulagua ébano y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2252,8 +4196,16 @@
       "airResistPer": 8
     }
   },
-  "Muldo Doré et Amande": {
-    "name": "Muldo Doré et Amande",
+  "674e524164788cc74141ae04": {
+    "id": "674e524164788cc74141ae04",
+    "idShort": "FZ",
+    "name": {
+      "fr": "Muldo Doré et Amande",
+      "en": "Golden and Almond Seemyool",
+      "pt": "Marmula dourada e amêndoa",
+      "de": "Gold und Mandel-Seequagga",
+      "es": "Mulagua dorada y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2262,8 +4214,16 @@
       "dodge": 30
     }
   },
-  "Muldo Pourpre et Ivoire": {
-    "name": "Muldo Pourpre et Ivoire",
+  "674e524164788cc74141ae05": {
+    "id": "674e524164788cc74141ae05",
+    "idShort": "G0",
+    "name": {
+      "fr": "Muldo Pourpre et Ivoire",
+      "en": "Crimson and Ivory Seemyool",
+      "pt": "Marmula púrpura e marfim",
+      "de": "Purpur und Elfenbein-Seequagga",
+      "es": "Mulagua púrpura y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2272,8 +4232,16 @@
       "mp": 1
     }
   },
-  "Muldo Orchidée et Ivoire": {
-    "name": "Muldo Orchidée et Ivoire",
+  "674e524164788cc74141ae06": {
+    "id": "674e524164788cc74141ae06",
+    "idShort": "G1",
+    "name": {
+      "fr": "Muldo Orchidée et Ivoire",
+      "en": "Orchid and Ivory Seemyool",
+      "pt": "Marmula orquídea e marfim",
+      "de": "Orchideen und Elfenbein-Seequagga",
+      "es": "Mulagua orquídea y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2282,8 +4250,16 @@
       "mp": 1
     }
   },
-  "Muldo Indigo et Ivoire": {
-    "name": "Muldo Indigo et Ivoire",
+  "674e524164788cc74141ae07": {
+    "id": "674e524164788cc74141ae07",
+    "idShort": "G2",
+    "name": {
+      "fr": "Muldo Indigo et Ivoire",
+      "en": "Indigo and Ivory Seemyool",
+      "pt": "Marmula índigo e marfim",
+      "de": "Indigo und Elfenbein-Seequagga",
+      "es": "Mulagua índigo y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2292,8 +4268,16 @@
       "waterResistPer": 8
     }
   },
-  "Muldo Ebène et Ivoire": {
-    "name": "Muldo Ebène et Ivoire",
+  "674e524164788cc74141ae08": {
+    "id": "674e524164788cc74141ae08",
+    "idShort": "G3",
+    "name": {
+      "fr": "Muldo Ebène et Ivoire",
+      "en": "Ebony and Ivory Seemyool",
+      "pt": "Marmula ébano e marfim",
+      "de": "Ebenholz und Elfenbein-Seequagga",
+      "es": "Mulagua ébano y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2302,8 +4286,16 @@
       "apResist": 30
     }
   },
-  "Muldo Doré et Ivoire": {
-    "name": "Muldo Doré et Ivoire",
+  "674e524164788cc74141ae09": {
+    "id": "674e524164788cc74141ae09",
+    "idShort": "G4",
+    "name": {
+      "fr": "Muldo Doré et Ivoire",
+      "en": "Golden and Ivory Seemyool",
+      "pt": "Marmula dourada e marfim",
+      "de": "Gold und Elfenbein-Seequagga",
+      "es": "Mulagua dorada y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2312,8 +4304,16 @@
       "power": 40
     }
   },
-  "Muldo Roux et Ivoire": {
-    "name": "Muldo Roux et Ivoire",
+  "674e524164788cc74141ae0a": {
+    "id": "674e524164788cc74141ae0a",
+    "idShort": "G5",
+    "name": {
+      "fr": "Muldo Roux et Ivoire",
+      "en": "Ginger and Ivory Seemyool",
+      "pt": "Marmula ruiva e marfim",
+      "de": "Fuxrot und Elfenbein-Seequagga",
+      "es": "Mulagua roja y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2322,8 +4322,16 @@
       "mp": 1
     }
   },
-  "Muldo Amande et Ivoire": {
-    "name": "Muldo Amande et Ivoire",
+  "674e524164788cc74141ae0b": {
+    "id": "674e524164788cc74141ae0b",
+    "idShort": "G6",
+    "name": {
+      "fr": "Muldo Amande et Ivoire",
+      "en": "Almond and Ivory Seemyool",
+      "pt": "Marmula amêndoa e marfim",
+      "de": "Elfenbein und Mandel-Seequagga",
+      "es": "Mulagua almendrada y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2332,8 +4340,16 @@
       "apResist": 30
     }
   },
-  "Muldo Turquoise et Ivoire": {
-    "name": "Muldo Turquoise et Ivoire",
+  "674e524164788cc74141ae0c": {
+    "id": "674e524164788cc74141ae0c",
+    "idShort": "G7",
+    "name": {
+      "fr": "Muldo Turquoise et Ivoire",
+      "en": "Turquoise and Ivory Seemyool",
+      "pt": "Marmula turquesa e marfim",
+      "de": "Türkis und Elfenbein-Seequagga",
+      "es": "Mulagua turquesa y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2342,8 +4358,16 @@
       "mp": 1
     }
   },
-  "Muldo Turquoise et Pourpre": {
-    "name": "Muldo Turquoise et Pourpre",
+  "674e524164788cc74141ae0d": {
+    "id": "674e524164788cc74141ae0d",
+    "idShort": "G8",
+    "name": {
+      "fr": "Muldo Turquoise et Pourpre",
+      "en": "Turquoise and Crimson Seemyool",
+      "pt": "Marmula turquesa e púrpura",
+      "de": "Türkis und Purpur-Seequagga",
+      "es": "Mulagua turquesa y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2352,8 +4376,16 @@
       "earthResistPer": 8
     }
   },
-  "Muldo Turquoise et Orchidée": {
-    "name": "Muldo Turquoise et Orchidée",
+  "674e524164788cc74141ae0e": {
+    "id": "674e524164788cc74141ae0e",
+    "idShort": "G9",
+    "name": {
+      "fr": "Muldo Turquoise et Orchidée",
+      "en": "Turquoise and Orchid Seemyool",
+      "pt": "Marmula turquesa e orquídea",
+      "de": "Türkis und Orchideen-Seequagga",
+      "es": "Mulagua turquesa y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2362,8 +4394,16 @@
       "mpResist": 30
     }
   },
-  "Muldo Turquoise et Indigo": {
-    "name": "Muldo Turquoise et Indigo",
+  "674e524164788cc74141ae0f": {
+    "id": "674e524164788cc74141ae0f",
+    "idShort": "Ga",
+    "name": {
+      "fr": "Muldo Turquoise et Indigo",
+      "en": "Turquoise and Indigo Seemyool",
+      "pt": "Marmula turquesa e índigo",
+      "de": "Türkis und Indigo-Seequagga",
+      "es": "Mulagua turquesa e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2372,8 +4412,16 @@
       "mpResist": 30
     }
   },
-  "Muldo Turquoise et Ebène": {
-    "name": "Muldo Turquoise et Ebène",
+  "674e524164788cc74141ae10": {
+    "id": "674e524164788cc74141ae10",
+    "idShort": "Gb",
+    "name": {
+      "fr": "Muldo Turquoise et Ebène",
+      "en": "Turquoise and Ebony Seemyool",
+      "pt": "Marmula turquesa e ébano",
+      "de": "Türkis und Ebenholz-Seequagga",
+      "es": "Mulagua turquesa y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2382,8 +4430,16 @@
       "mp": 1
     }
   },
-  "Muldo Turquoise et Roux": {
-    "name": "Muldo Turquoise et Roux",
+  "674e524164788cc74141ae11": {
+    "id": "674e524164788cc74141ae11",
+    "idShort": "Gc",
+    "name": {
+      "fr": "Muldo Turquoise et Roux",
+      "en": "Turquoise and Ginger Seemyool",
+      "pt": "Marmula turquesa e ruiva",
+      "de": "Türkis und Fuxrot-Seequagga",
+      "es": "Mulagua turquesa y roja"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2392,8 +4448,16 @@
       "mpResist": 30
     }
   },
-  "Muldo Turquoise et Amande": {
-    "name": "Muldo Turquoise et Amande",
+  "674e524164788cc74141ae12": {
+    "id": "674e524164788cc74141ae12",
+    "idShort": "Gd",
+    "name": {
+      "fr": "Muldo Turquoise et Amande",
+      "en": "Turquoise and Almond Seemyool",
+      "pt": "Marmula turquesa e amêndoa",
+      "de": "Türkis und Mandel-Seequagga",
+      "es": "Mulagua turquesa y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2402,8 +4466,16 @@
       "dodge": 30
     }
   },
-  "Muldo Turquoise et Doré": {
-    "name": "Muldo Turquoise et Doré",
+  "674e524164788cc74141ae13": {
+    "id": "674e524164788cc74141ae13",
+    "idShort": "Ge",
+    "name": {
+      "fr": "Muldo Turquoise et Doré",
+      "en": "Turquoise and Golden Seemyool",
+      "pt": "Marmula turquesa e dourada",
+      "de": "Türkis und Gold-Seequagga",
+      "es": "Mulagua turquesa y dorada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2412,8 +4484,16 @@
       "mp": 1
     }
   },
-  "Muldo Prune et Pourpre": {
-    "name": "Muldo Prune et Pourpre",
+  "674e524164788cc74141ae14": {
+    "id": "674e524164788cc74141ae14",
+    "idShort": "Gf",
+    "name": {
+      "fr": "Muldo Prune et Pourpre",
+      "en": "Plum and Crimson Seemyool",
+      "pt": "Marmula ameixa e púrpura",
+      "de": "Pflaumen und Purpur-Seequagga",
+      "es": "Mulagua ciruela y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2422,8 +4502,16 @@
       "mp": 1
     }
   },
-  "Muldo Prune et Orchidée": {
-    "name": "Muldo Prune et Orchidée",
+  "674e524164788cc74141ae15": {
+    "id": "674e524164788cc74141ae15",
+    "idShort": "Gg",
+    "name": {
+      "fr": "Muldo Prune et Orchidée",
+      "en": "Plum and Orchid Seemyool",
+      "pt": "Marmula ameixa e orquídea",
+      "de": "Pflaumen und Orchideen-Seequagga",
+      "es": "Mulagua ciruela y orquídea"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2432,8 +4520,16 @@
       "mp": 1
     }
   },
-  "Muldo Prune et Indigo": {
-    "name": "Muldo Prune et Indigo",
+  "674e524164788cc74141ae16": {
+    "id": "674e524164788cc74141ae16",
+    "idShort": "Gh",
+    "name": {
+      "fr": "Muldo Prune et Indigo",
+      "en": "Plum and Indigo Seemyool",
+      "pt": "Marmula ameixa e índigo",
+      "de": "Pflaumen und Indigo-Seequagga",
+      "es": "Mulagua ciruela e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2442,8 +4538,16 @@
       "waterResistPer": 8
     }
   },
-  "Muldo Prune et Ebène": {
-    "name": "Muldo Prune et Ebène",
+  "674e524164788cc74141ae17": {
+    "id": "674e524164788cc74141ae17",
+    "idShort": "Gi",
+    "name": {
+      "fr": "Muldo Prune et Ebène",
+      "en": "Plum and Ebony Seemyool",
+      "pt": "Marmula ameixa e ébano",
+      "de": "Pflaumen und Ebenholz-Seequagga",
+      "es": "Mulagua ciruela y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2452,8 +4556,16 @@
       "airResistPer": 8
     }
   },
-  "Muldo Prune et Doré": {
-    "name": "Muldo Prune et Doré",
+  "674e524164788cc74141ae18": {
+    "id": "674e524164788cc74141ae18",
+    "idShort": "Gj",
+    "name": {
+      "fr": "Muldo Prune et Doré",
+      "en": "Plum and Golden Seemyool",
+      "pt": "Marmula ameixa e dourada",
+      "de": "Pflaumen und Gold-Seequagga",
+      "es": "Mulagua ciruela y dorada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2462,8 +4574,16 @@
       "criticalChance": 6
     }
   },
-  "Muldo Prune et Roux": {
-    "name": "Muldo Prune et Roux",
+  "674e524164788cc74141ae19": {
+    "id": "674e524164788cc74141ae19",
+    "idShort": "Gk",
+    "name": {
+      "fr": "Muldo Prune et Roux",
+      "en": "Plum and Ginger Seemyool",
+      "pt": "Marmula ameixa e ruiva",
+      "de": "Pflaumen und Fuxrot-Seequagga",
+      "es": "Mulagua ciruela y roja"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2472,8 +4592,16 @@
       "lock": 30
     }
   },
-  "Muldo Prune et Amande": {
-    "name": "Muldo Prune et Amande",
+  "674e524164788cc74141ae1a": {
+    "id": "674e524164788cc74141ae1a",
+    "idShort": "Gl",
+    "name": {
+      "fr": "Muldo Prune et Amande",
+      "en": "Plum and Almond Seemyool",
+      "pt": "Marmula ameixa e amêndoa",
+      "de": "Pflaumen und Mandel-Seequagga",
+      "es": "Mulagua ciruela y almendrada"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2482,8 +4610,16 @@
       "criticalChance": 6
     }
   },
-  "Muldo Prune et Ivoire": {
-    "name": "Muldo Prune et Ivoire",
+  "674e524164788cc74141ae1b": {
+    "id": "674e524164788cc74141ae1b",
+    "idShort": "Gm",
+    "name": {
+      "fr": "Muldo Prune et Ivoire",
+      "en": "Plum and Ivory Seemyool",
+      "pt": "Marmula ameixa e marfim",
+      "de": "Pflaumen und Elfenbein-Seequagga",
+      "es": "Mulagua ciruela y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2492,8 +4628,16 @@
       "mp": 1
     }
   },
-  "Muldo Prune et Turquoise": {
-    "name": "Muldo Prune et Turquoise",
+  "674e524164788cc74141ae1c": {
+    "id": "674e524164788cc74141ae1c",
+    "idShort": "Gn",
+    "name": {
+      "fr": "Muldo Prune et Turquoise",
+      "en": "Plum and Turquoise Seemyool",
+      "pt": "Marmula ameixa e turquesa",
+      "de": "Pflaumen und Türkis-Seequagga",
+      "es": "Mulagua ciruela y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2502,8 +4646,16 @@
       "mpResist": 30
     }
   },
-  "Muldo Prune et Emeraude": {
-    "name": "Muldo Prune et Emeraude",
+  "674e524164788cc74141ae1d": {
+    "id": "674e524164788cc74141ae1d",
+    "idShort": "Go",
+    "name": {
+      "fr": "Muldo Prune et Emeraude",
+      "en": "Plum and Emerald Seemyool",
+      "pt": "Marmula ameixa e esmeralda",
+      "de": "Pflaumen und Smaragd-Seequagga",
+      "es": "Mulagua ciruela y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2512,8 +4664,16 @@
       "mp": 1
     }
   },
-  "Muldo Pourpre et Emeraude": {
-    "name": "Muldo Pourpre et Emeraude",
+  "674e524164788cc74141ae1e": {
+    "id": "674e524164788cc74141ae1e",
+    "idShort": "Gp",
+    "name": {
+      "fr": "Muldo Pourpre et Emeraude",
+      "en": "Crimson and Emerald Seemyool",
+      "pt": "Marmula púrpura e esmeralda",
+      "de": "Purpur und Smaragd-Seequagga",
+      "es": "Mulagua púrpura y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2522,8 +4682,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Orchidée et Emeraude": {
-    "name": "Muldo Orchidée et Emeraude",
+  "674e524164788cc74141ae1f": {
+    "id": "674e524164788cc74141ae1f",
+    "idShort": "Gq",
+    "name": {
+      "fr": "Muldo Orchidée et Emeraude",
+      "en": "Orchid and Emerald Seemyool",
+      "pt": "Marmula orquídea e esmeralda",
+      "de": "Orchideen und Smaragd-Seequagga",
+      "es": "Mulagua orquídea y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2532,8 +4700,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Indigo et Emeraude": {
-    "name": "Muldo Indigo et Emeraude",
+  "674e524164788cc74141ae20": {
+    "id": "674e524164788cc74141ae20",
+    "idShort": "Gr",
+    "name": {
+      "fr": "Muldo Indigo et Emeraude",
+      "en": "Indigo and Emerald Seemyool",
+      "pt": "Marmula índigo e esmeralda",
+      "de": "Indigo und Smaragd-Seequagga",
+      "es": "Mulagua índigo y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2542,8 +4718,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Ebène et Emeraude": {
-    "name": "Muldo Ebène et Emeraude",
+  "674e524164788cc74141ae21": {
+    "id": "674e524164788cc74141ae21",
+    "idShort": "Gs",
+    "name": {
+      "fr": "Muldo Ebène et Emeraude",
+      "en": "Ebony and Emerald Seemyool",
+      "pt": "Marmula ébano e esmeralda",
+      "de": "Ebenholz und Smaragd-Seequagga",
+      "es": "Mulagua ébano y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2552,8 +4736,16 @@
       "mp": 1
     }
   },
-  "Muldo Doré et Emeraude": {
-    "name": "Muldo Doré et Emeraude",
+  "674e524164788cc74141ae22": {
+    "id": "674e524164788cc74141ae22",
+    "idShort": "Gt",
+    "name": {
+      "fr": "Muldo Doré et Emeraude",
+      "en": "Golden and Emerald Seemyool",
+      "pt": "Marmula dourada e esmeralda",
+      "de": "Gold und Smaragd-Seequagga",
+      "es": "Mulagua dorada y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2562,8 +4754,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Roux et Emeraude": {
-    "name": "Muldo Roux et Emeraude",
+  "674e524164788cc74141ae23": {
+    "id": "674e524164788cc74141ae23",
+    "idShort": "Gu",
+    "name": {
+      "fr": "Muldo Roux et Emeraude",
+      "en": "Ginger and Emerald Seemyool",
+      "pt": "Marmula ruiva e esmeralda",
+      "de": "Fuxrot und Smaragd-Seequagga",
+      "es": "Mulagua roja y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2572,8 +4772,16 @@
       "mp": 1
     }
   },
-  "Muldo Amande et Emeraude": {
-    "name": "Muldo Amande et Emeraude",
+  "674e524164788cc74141ae24": {
+    "id": "674e524164788cc74141ae24",
+    "idShort": "Gv",
+    "name": {
+      "fr": "Muldo Amande et Emeraude",
+      "en": "Almond and Emerald Seemyool",
+      "pt": "Marmula amêndoa e esmeralda",
+      "de": "Mandel und Smaragd-Seequagga",
+      "es": "Mulagua almendrada y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2582,8 +4790,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Ivoire et Emeraude": {
-    "name": "Muldo Ivoire et Emeraude",
+  "674e524164788cc74141ae25": {
+    "id": "674e524164788cc74141ae25",
+    "idShort": "Gw",
+    "name": {
+      "fr": "Muldo Ivoire et Emeraude",
+      "en": "Ivory and Emerald Seemyool",
+      "pt": "Marmula marfim e esmeralda",
+      "de": "Elfenbein und Smaragd-Seequagga",
+      "es": "Mulagua marfil y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2592,8 +4808,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Turquoise et Emeraude": {
-    "name": "Muldo Turquoise et Emeraude",
+  "674e524164788cc74141ae26": {
+    "id": "674e524164788cc74141ae26",
+    "idShort": "Gx",
+    "name": {
+      "fr": "Muldo Turquoise et Emeraude",
+      "en": "Turquoise and Emerald Seemyool",
+      "pt": "Marmula turquesa e esmeralda",
+      "de": "Türkis und Smaragd-Seequagga",
+      "es": "Mulagua turquesa y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2602,8 +4826,16 @@
       "criticalDamage": 20
     }
   },
-  "Muldo Doré et Indigo": {
-    "name": "Muldo Doré et Indigo",
+  "674e524164788cc74141ae27": {
+    "id": "674e524164788cc74141ae27",
+    "idShort": "Gy",
+    "name": {
+      "fr": "Muldo Doré et Indigo",
+      "en": "Golden and Indigo Seemyool",
+      "pt": "Marmula dourada e índigo",
+      "de": "Gold und Indigo-Seequagga",
+      "es": "Mulagua dorada e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2612,40 +4844,80 @@
       "mp": 1
     }
   },
-  "Muldo Ebène Sauvage": {
-    "name": "Muldo Ebène Sauvage",
+  "674e524164788cc74141ae38": {
+    "id": "674e524164788cc74141ae38",
+    "idShort": "Gz",
+    "name": {
+      "fr": "Muldo Ebène Sauvage",
+      "en": "Wild Ebony Seemyool",
+      "pt": "Marmula ébano selvagem",
+      "de": "Wilder Ebenholz-Seequagga",
+      "es": "Mulagua ébano salvaje"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "airResistPer": 22
     }
   },
-  "Muldo Indigo Sauvage": {
-    "name": "Muldo Indigo Sauvage",
+  "674e524164788cc74141ae39": {
+    "id": "674e524164788cc74141ae39",
+    "idShort": "GA",
+    "name": {
+      "fr": "Muldo Indigo Sauvage",
+      "en": "Wild Indigo Seemyool",
+      "pt": "Marmula índigo selvagem",
+      "de": "Wilder Indigo-Seequagga",
+      "es": "Mulagua índigo salvaje"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "waterResistPer": 22
     }
   },
-  "Muldo Orchidée Sauvage": {
-    "name": "Muldo Orchidée Sauvage",
+  "674e524164788cc74141ae3a": {
+    "id": "674e524164788cc74141ae3a",
+    "idShort": "GB",
+    "name": {
+      "fr": "Muldo Orchidée Sauvage",
+      "en": "Wild Orchid Seemyool",
+      "pt": "Marmula orquídea selvagem",
+      "de": "Wilder Orchideen-Seequagga",
+      "es": "Mulagua orquídea salvaje"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "fireResistPer": 22
     }
   },
-  "Muldo Pourpre Sauvage": {
-    "name": "Muldo Pourpre Sauvage",
+  "674e524164788cc74141ae3b": {
+    "id": "674e524164788cc74141ae3b",
+    "idShort": "GC",
+    "name": {
+      "fr": "Muldo Pourpre Sauvage",
+      "en": "Wild Crimson Seemyool",
+      "pt": "Marmula púrpura selvagem",
+      "de": "Wilder Purpur-Seequagga",
+      "es": "Mulagua púrpura salvaje"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
       "fireResistPer": 22
     }
   },
-  "Volkorne Indigo": {
-    "name": "Volkorne Indigo",
+  "674e524164788cc74141b45a": {
+    "id": "674e524164788cc74141b45a",
+    "idShort": "GI",
+    "name": {
+      "fr": "Volkorne Indigo",
+      "en": "Indigo Rhineetle",
+      "pt": "Vulkórnio Índigo",
+      "de": "Indigo-Naskäfer",
+      "es": "Vueloceronte índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2653,8 +4925,16 @@
       "chance": 70
     }
   },
-  "Volkorne Ebène": {
-    "name": "Volkorne Ebène",
+  "674e524164788cc74141b45b": {
+    "id": "674e524164788cc74141b45b",
+    "idShort": "GJ",
+    "name": {
+      "fr": "Volkorne Ebène",
+      "en": "Ebony Rhineetle",
+      "pt": "Vulkórnio Ébano",
+      "de": "Ebenholz-Naskäfer",
+      "es": "Vueloceronte ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2662,8 +4942,16 @@
       "agility": 70
     }
   },
-  "Volkorne Pourpre": {
-    "name": "Volkorne Pourpre",
+  "674e524164788cc74141b45c": {
+    "id": "674e524164788cc74141b45c",
+    "idShort": "GK",
+    "name": {
+      "fr": "Volkorne Pourpre",
+      "en": "Crimson Rhineetle",
+      "pt": "Vulkórnio Púrpura",
+      "de": "Purpur-Naskäfer",
+      "es": "Vueloceronte púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2671,8 +4959,16 @@
       "ap": 1
     }
   },
-  "Volkorne Orchidée": {
-    "name": "Volkorne Orchidée",
+  "674e524164788cc74141b45d": {
+    "id": "674e524164788cc74141b45d",
+    "idShort": "GL",
+    "name": {
+      "fr": "Volkorne Orchidée",
+      "en": "Orchid Rhineetle",
+      "pt": "Vulkórnio Orquídea",
+      "de": "Orchideen-Naskäfer",
+      "es": "Vueloceronte orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2680,8 +4976,16 @@
       "intelligence": 70
     }
   },
-  "Volkorne Roux": {
-    "name": "Volkorne Roux",
+  "674e524164788cc74141b45e": {
+    "id": "674e524164788cc74141b45e",
+    "idShort": "GM",
+    "name": {
+      "fr": "Volkorne Roux",
+      "en": "Ginger Rhineetle",
+      "pt": "Vulkórnio Escarlate",
+      "de": "Fuchsrot-Naskäfer",
+      "es": "Vueloceronte pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2689,8 +4993,16 @@
       "pushbackDamage": 60
     }
   },
-  "Volkorne Amande": {
-    "name": "Volkorne Amande",
+  "674e524164788cc74141b45f": {
+    "id": "674e524164788cc74141b45f",
+    "idShort": "GN",
+    "name": {
+      "fr": "Volkorne Amande",
+      "en": "Almond Rhineetle",
+      "pt": "Vulkórnio Amêndoa",
+      "de": "Mandel-Naskäfer",
+      "es": "Vueloceronte almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2698,8 +5010,16 @@
       "ap": 1
     }
   },
-  "Volkorne Ivoire": {
-    "name": "Volkorne Ivoire",
+  "674e524164788cc74141b460": {
+    "id": "674e524164788cc74141b460",
+    "idShort": "GO",
+    "name": {
+      "fr": "Volkorne Ivoire",
+      "en": "Ivory Rhineetle",
+      "pt": "Vulkórnio Marfim",
+      "de": "Elfenbein-Naskäfer",
+      "es": "Vueloceronte marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2707,8 +5027,16 @@
       "apReduction": 30
     }
   },
-  "Volkorne Turquoise": {
-    "name": "Volkorne Turquoise",
+  "674e524164788cc74141b461": {
+    "id": "674e524164788cc74141b461",
+    "idShort": "GP",
+    "name": {
+      "fr": "Volkorne Turquoise",
+      "en": "Turquoise Rhineetle",
+      "pt": "Vulkórnio Turquesa",
+      "de": "Türkis-Naskäfer",
+      "es": "Vueloceronte turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2716,8 +5044,16 @@
       "mpReduction": 30
     }
   },
-  "Volkorne Prune": {
-    "name": "Volkorne Prune",
+  "674e524164788cc74141b462": {
+    "id": "674e524164788cc74141b462",
+    "idShort": "GQ",
+    "name": {
+      "fr": "Volkorne Prune",
+      "en": "Plum Rhineetle",
+      "pt": "Vulkórnio Ameixa",
+      "de": "Pflaumen-Naskäfer",
+      "es": "Vueloceronte ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2725,8 +5061,16 @@
       "ap": 1
     }
   },
-  "Volkorne Emeraude": {
-    "name": "Volkorne Emeraude",
+  "674e524164788cc74141b463": {
+    "id": "674e524164788cc74141b463",
+    "idShort": "GR",
+    "name": {
+      "fr": "Volkorne Emeraude",
+      "en": "Emerald Rhineetle",
+      "pt": "Vulkórnio Esmeralda",
+      "de": "Smaragd-Naskäfer",
+      "es": "Vueloceronte esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2734,8 +5078,16 @@
       "criticalChance": 7
     }
   },
-  "Volkorne Doré": {
-    "name": "Volkorne Doré",
+  "674e524164788cc74141b464": {
+    "id": "674e524164788cc74141b464",
+    "idShort": "GS",
+    "name": {
+      "fr": "Volkorne Doré",
+      "en": "Golden Rhineetle",
+      "pt": "Vulkórnio Dourado",
+      "de": "Gold-Naskäfer",
+      "es": "Vueloceronte dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2743,8 +5095,16 @@
       "health": 150
     }
   },
-  "Volkorne Jade": {
-    "name": "Volkorne Jade",
+  "674e524164788cc74141b465": {
+    "id": "674e524164788cc74141b465",
+    "idShort": "GT",
+    "name": {
+      "fr": "Volkorne Jade",
+      "en": "Jade Rhineetle",
+      "pt": "Vulkórnio Jade",
+      "de": "Jade-Naskäfer",
+      "es": "Vueloceronte jade"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2752,8 +5112,16 @@
       "earthResistPer": 12
     }
   },
-  "Volkorne Saphir": {
-    "name": "Volkorne Saphir",
+  "674e524164788cc74141b466": {
+    "id": "674e524164788cc74141b466",
+    "idShort": "GU",
+    "name": {
+      "fr": "Volkorne Saphir",
+      "en": "Sapphire Rhineetle",
+      "pt": "Vulkórnio Safira",
+      "de": "Saphir-Naskäfer",
+      "es": "Vueloceronte zafiro"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2761,8 +5129,16 @@
       "ap": 1
     }
   },
-  "Volkorne Rubis": {
-    "name": "Volkorne Rubis",
+  "674e524164788cc74141b467": {
+    "id": "674e524164788cc74141b467",
+    "idShort": "GV",
+    "name": {
+      "fr": "Volkorne Rubis",
+      "en": "Ruby Rhineetle",
+      "pt": "Vulkórnio Rubi",
+      "de": "Rubin-Naskäfer",
+      "es": "Vueloceronte rubí"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2770,8 +5146,16 @@
       "ap": 1
     }
   },
-  "Volkorne Améthyste": {
-    "name": "Volkorne Améthyste",
+  "674e524164788cc74141b468": {
+    "id": "674e524164788cc74141b468",
+    "idShort": "GW",
+    "name": {
+      "fr": "Volkorne Améthyste",
+      "en": "Amethyst Rhineetle",
+      "pt": "Vulkórnio Ametista",
+      "de": "Amethyst-Naskäfer",
+      "es": "Vueloceronte amatista"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2779,8 +5163,16 @@
       "ap": 1
     }
   },
-  "Volkorne Pourpre et Orchidée": {
-    "name": "Volkorne Pourpre et Orchidée",
+  "674e524164788cc74141b469": {
+    "id": "674e524164788cc74141b469",
+    "idShort": "GX",
+    "name": {
+      "fr": "Volkorne Pourpre et Orchidée",
+      "en": "Crimson and Orchid Rhineetle",
+      "pt": "Vulkórnio Púrpura e Orquídea",
+      "de": "Purpur- und Orchideen-Naskäfer",
+      "es": "Vueloceronte púrpura y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2789,8 +5181,16 @@
       "ap": 1
     }
   },
-  "Volkorne Pourpre et Indigo": {
-    "name": "Volkorne Pourpre et Indigo",
+  "674e524164788cc74141b46a": {
+    "id": "674e524164788cc74141b46a",
+    "idShort": "GY",
+    "name": {
+      "fr": "Volkorne Pourpre et Indigo",
+      "en": "Crimson and Indigo Rhineetle",
+      "pt": "Vulkórnio Púrpura e Índigo",
+      "de": "Purpur- und Indigo-Naskäfer",
+      "es": "Vueloceronte púrpura e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2799,8 +5199,16 @@
       "strength": 50
     }
   },
-  "Volkorne Pourpre et Ebène": {
-    "name": "Volkorne Pourpre et Ebène",
+  "674e524164788cc74141b46b": {
+    "id": "674e524164788cc74141b46b",
+    "idShort": "GZ",
+    "name": {
+      "fr": "Volkorne Pourpre et Ebène",
+      "en": "Crimson and Ebony Rhineetle",
+      "pt": "Vulkórnio Púrpura e Ébano",
+      "de": "Purpur- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte púrpura y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2809,8 +5217,16 @@
       "agility": 50
     }
   },
-  "Volkorne Orchidée et Indigo": {
-    "name": "Volkorne Orchidée et Indigo",
+  "674e524164788cc74141b46c": {
+    "id": "674e524164788cc74141b46c",
+    "idShort": "H0",
+    "name": {
+      "fr": "Volkorne Orchidée et Indigo",
+      "en": "Orchid and Indigo Rhineetle",
+      "pt": "Vulkórnio Orquídea e Índigo",
+      "de": "Orchideen- und Indigo-Naskäfer",
+      "es": "Vueloceronte orquídeo e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2819,8 +5235,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Orchidée et Ebène": {
-    "name": "Volkorne Orchidée et Ebène",
+  "674e524164788cc74141b46d": {
+    "id": "674e524164788cc74141b46d",
+    "idShort": "H1",
+    "name": {
+      "fr": "Volkorne Orchidée et Ebène",
+      "en": "Orchid and Ebony Rhineetle",
+      "pt": "Vulkórnio Orquídea e Ébano",
+      "de": "Orchideen- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte orquídeo y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2829,8 +5253,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Indigo et Ebène": {
-    "name": "Volkorne Indigo et Ebène",
+  "674e524164788cc74141b46e": {
+    "id": "674e524164788cc74141b46e",
+    "idShort": "H2",
+    "name": {
+      "fr": "Volkorne Indigo et Ebène",
+      "en": "Indigo and Ebony Rhineetle",
+      "pt": "Vulkórnio Índigo e Ébano",
+      "de": "Indigo- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte índigo y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2839,8 +5271,16 @@
       "agility": 50
     }
   },
-  "Volkorne Amande et Pourpre": {
-    "name": "Volkorne Amande et Pourpre",
+  "674e524164788cc74141b46f": {
+    "id": "674e524164788cc74141b46f",
+    "idShort": "H3",
+    "name": {
+      "fr": "Volkorne Amande et Pourpre",
+      "en": "Almond and Crimson Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Púrpura",
+      "de": "Mandel- und Purpur-Naskäfer",
+      "es": "Vueloceronte almendrado y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2849,8 +5289,16 @@
       "ap": 1
     }
   },
-  "Volkorne Amande et Orchidée": {
-    "name": "Volkorne Amande et Orchidée",
+  "674e524164788cc74141b470": {
+    "id": "674e524164788cc74141b470",
+    "idShort": "H4",
+    "name": {
+      "fr": "Volkorne Amande et Orchidée",
+      "en": "Almond and Orchid Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Orquídea",
+      "de": "Mandel- und Orchideen-Naskäfer",
+      "es": "Vueloceronte almendrado y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2859,8 +5307,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Amande et Indigo": {
-    "name": "Volkorne Amande et Indigo",
+  "674e524164788cc74141b471": {
+    "id": "674e524164788cc74141b471",
+    "idShort": "H5",
+    "name": {
+      "fr": "Volkorne Amande et Indigo",
+      "en": "Almond and Indigo Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Índigo",
+      "de": "Mandel- und Indigo-Naskäfer",
+      "es": "Vueloceronte almendrado e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2869,8 +5325,16 @@
       "ap": 1
     }
   },
-  "Volkorne Amande et Ebène": {
-    "name": "Volkorne Amande et Ebène",
+  "674e524164788cc74141b472": {
+    "id": "674e524164788cc74141b472",
+    "idShort": "H6",
+    "name": {
+      "fr": "Volkorne Amande et Ebène",
+      "en": "Almond and Ebony Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Ébano",
+      "de": "Mandel- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte almendrado y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2879,8 +5343,16 @@
       "ap": 1
     }
   },
-  "Volkorne Amande et Roux": {
-    "name": "Volkorne Amande et Roux",
+  "674e524164788cc74141b473": {
+    "id": "674e524164788cc74141b473",
+    "idShort": "H7",
+    "name": {
+      "fr": "Volkorne Amande et Roux",
+      "en": "Almond and Ginger Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Escarlate",
+      "de": "Mandel- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte almendrado y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2889,8 +5361,16 @@
       "pushbackDamage": 40
     }
   },
-  "Volkorne Amande et Ivoire": {
-    "name": "Volkorne Amande et Ivoire",
+  "674e524164788cc74141b474": {
+    "id": "674e524164788cc74141b474",
+    "idShort": "H8",
+    "name": {
+      "fr": "Volkorne Amande et Ivoire",
+      "en": "Almond and Ivory Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Marfim",
+      "de": "Mandel- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte almendrado y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2899,8 +5379,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Amande et Turquoise": {
-    "name": "Volkorne Amande et Turquoise",
+  "674e524164788cc74141b475": {
+    "id": "674e524164788cc74141b475",
+    "idShort": "H9",
+    "name": {
+      "fr": "Volkorne Amande et Turquoise",
+      "en": "Almond and Turquoise Rhineetle",
+      "pt": "Vulkórnio Amêndoa e Turquesa",
+      "de": "Mandel- und Türkis-Naskäfer",
+      "es": "Vueloceronte almendrado y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2909,8 +5397,16 @@
       "ap": 1
     }
   },
-  "Volkorne Roux et Pourpre": {
-    "name": "Volkorne Roux et Pourpre",
+  "674e524164788cc74141b476": {
+    "id": "674e524164788cc74141b476",
+    "idShort": "Ha",
+    "name": {
+      "fr": "Volkorne Roux et Pourpre",
+      "en": "Ginger and Crimson Rhineetle",
+      "pt": "Vulkórnio Escarlate e Púrpura",
+      "de": "Fuchsrot- und Purpur-Naskäfer",
+      "es": "Vueloceronte pelirrojo y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2919,8 +5415,16 @@
       "strength": 50
     }
   },
-  "Volkorne Roux et Orchidée": {
-    "name": "Volkorne Roux et Orchidée",
+  "674e524164788cc74141b477": {
+    "id": "674e524164788cc74141b477",
+    "idShort": "Hb",
+    "name": {
+      "fr": "Volkorne Roux et Orchidée",
+      "en": "Ginger and Orchid Rhineetle",
+      "pt": "Vulkórnio Escarlate e Orquídea",
+      "de": "Fuchsrot- und Orchideen-Naskäfer",
+      "es": "Vueloceronte pelirrojo y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2929,8 +5433,16 @@
       "ap": 1
     }
   },
-  "Volkorne Roux et Indigo": {
-    "name": "Volkorne Roux et Indigo",
+  "674e524164788cc74141b478": {
+    "id": "674e524164788cc74141b478",
+    "idShort": "Hc",
+    "name": {
+      "fr": "Volkorne Roux et Indigo",
+      "en": "Ginger and Indigo Rhineetle",
+      "pt": "Vulkórnio Escarlate e Índigo",
+      "de": "Fuchsrot- und Indigo-Naskäfer",
+      "es": "Vueloceronte pelirrojo e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2939,8 +5451,16 @@
       "chance": 50
     }
   },
-  "Volkorne Roux et Ebène": {
-    "name": "Volkorne Roux et Ebène",
+  "674e524164788cc74141b479": {
+    "id": "674e524164788cc74141b479",
+    "idShort": "Hd",
+    "name": {
+      "fr": "Volkorne Roux et Ebène",
+      "en": "Ginger and Ebony Rhineetle",
+      "pt": "Vulkórnio Escarlate e Ébano",
+      "de": "Fuchsrot- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte pelirrojo y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2949,8 +5469,16 @@
       "ap": 1
     }
   },
-  "Volkorne Roux et Ivoire": {
-    "name": "Volkorne Roux et Ivoire",
+  "674e524164788cc74141b47a": {
+    "id": "674e524164788cc74141b47a",
+    "idShort": "He",
+    "name": {
+      "fr": "Volkorne Roux et Ivoire",
+      "en": "Ginger and Ivory Rhineetle",
+      "pt": "Vulkórnio Escarlate e Marfim",
+      "de": "Fuchsrot- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte pelirrojo y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2959,8 +5487,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Roux et Turquoise": {
-    "name": "Volkorne Roux et Turquoise",
+  "674e524164788cc74141b47b": {
+    "id": "674e524164788cc74141b47b",
+    "idShort": "Hf",
+    "name": {
+      "fr": "Volkorne Roux et Turquoise",
+      "en": "Ginger and Turquoise Rhineetle",
+      "pt": "Vulkórnio Escarlate e Turquesa",
+      "de": "Fuchsrot- und Türkis-Naskäfer",
+      "es": "Vueloceronte pelirrojo y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2969,8 +5505,16 @@
       "pushbackDamage": 40
     }
   },
-  "Volkorne Ivoire et Pourpre": {
-    "name": "Volkorne Ivoire et Pourpre",
+  "674e524164788cc74141b47c": {
+    "id": "674e524164788cc74141b47c",
+    "idShort": "Hg",
+    "name": {
+      "fr": "Volkorne Ivoire et Pourpre",
+      "en": "Ivory and Crimson Rhineetle",
+      "pt": "Vulkórnio Marfim e Púrpura",
+      "de": "Elfenbein- und Purpur-Naskäfer",
+      "es": "Vueloceronte marfil y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2979,8 +5523,16 @@
       "strength": 50
     }
   },
-  "Volkorne Ivoire et Orchidée": {
-    "name": "Volkorne Ivoire et Orchidée",
+  "674e524164788cc74141b47d": {
+    "id": "674e524164788cc74141b47d",
+    "idShort": "Hh",
+    "name": {
+      "fr": "Volkorne Ivoire et Orchidée",
+      "en": "Ivory and Orchid Rhineetle",
+      "pt": "Vulkórnio Marfim e Orquídea",
+      "de": "Elfenbein- und Orchideen-Naskäfer",
+      "es": "Vueloceronte marfil y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2989,8 +5541,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Ivoire et Indigo": {
-    "name": "Volkorne Ivoire et Indigo",
+  "674e524164788cc74141b47e": {
+    "id": "674e524164788cc74141b47e",
+    "idShort": "Hi",
+    "name": {
+      "fr": "Volkorne Ivoire et Indigo",
+      "en": "Ivory and Indigo Rhineetle",
+      "pt": "Vulkórnio Marfim e Índigo",
+      "de": "Elfenbein- und Indigo-Naskäfer",
+      "es": "Vueloceronte marfil e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -2999,8 +5559,16 @@
       "chance": 50
     }
   },
-  "Volkorne Ivoire et Ebène": {
-    "name": "Volkorne Ivoire et Ebène",
+  "674e524164788cc74141b47f": {
+    "id": "674e524164788cc74141b47f",
+    "idShort": "Hj",
+    "name": {
+      "fr": "Volkorne Ivoire et Ebène",
+      "en": "Ivory and Ebony Rhineetle",
+      "pt": "Vulkórnio Marfim e Ébano",
+      "de": "Elfenbein- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte marfil y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3009,8 +5577,16 @@
       "agility": 50
     }
   },
-  "Volkorne Ivoire et Turquoise": {
-    "name": "Volkorne Ivoire et Turquoise",
+  "674e524164788cc74141b480": {
+    "id": "674e524164788cc74141b480",
+    "idShort": "Hk",
+    "name": {
+      "fr": "Volkorne Ivoire et Turquoise",
+      "en": "Ivory and Turquoise Rhineetle",
+      "pt": "Vulkórnio Marfim e Turquesa",
+      "de": "Elfenbein- und Türkis-Naskäfer",
+      "es": "Vueloceronte marfil y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3019,8 +5595,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Turquoise et Pourpre": {
-    "name": "Volkorne Turquoise et Pourpre",
+  "674e524164788cc74141b481": {
+    "id": "674e524164788cc74141b481",
+    "idShort": "Hl",
+    "name": {
+      "fr": "Volkorne Turquoise et Pourpre",
+      "en": "Turquoise and Crimson Rhineetle",
+      "pt": "Vulkórnio Turquesa e Púrpura",
+      "de": "Türkis- und Purpur-Naskäfer",
+      "es": "Vueloceronte turquesa y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3029,8 +5613,16 @@
       "strength": 50
     }
   },
-  "Volkorne Turquoise et Orchidée": {
-    "name": "Volkorne Turquoise et Orchidée",
+  "674e524164788cc74141b482": {
+    "id": "674e524164788cc74141b482",
+    "idShort": "Hm",
+    "name": {
+      "fr": "Volkorne Turquoise et Orchidée",
+      "en": "Turquoise and Orchid Rhineetle",
+      "pt": "Vulkórnio Turquesa e Orquídea",
+      "de": "Türkis- und Orchideen-Naskäfer",
+      "es": "Vueloceronte turquesa y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3039,8 +5631,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Turquoise et Indigo": {
-    "name": "Volkorne Turquoise et Indigo",
+  "674e524164788cc74141b483": {
+    "id": "674e524164788cc74141b483",
+    "idShort": "Hn",
+    "name": {
+      "fr": "Volkorne Turquoise et Indigo",
+      "en": "Turquoise and Indigo Rhineetle",
+      "pt": "Vulkórnio Turquesa e Índigo",
+      "de": "Türkis- und Indigo-Naskäfer",
+      "es": "Vueloceronte turquesa e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3049,8 +5649,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Turquoise et Ebène": {
-    "name": "Volkorne Turquoise et Ebène",
+  "674e524164788cc74141b484": {
+    "id": "674e524164788cc74141b484",
+    "idShort": "Ho",
+    "name": {
+      "fr": "Volkorne Turquoise et Ebène",
+      "en": "Turquoise and Ebony Rhineetle",
+      "pt": "Vulkórnio Turquesa e Ébano",
+      "de": "Türkis- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte turquesa y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3059,8 +5667,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Prune et Orchidée": {
-    "name": "Volkorne Prune et Orchidée",
+  "674e524164788cc74141b485": {
+    "id": "674e524164788cc74141b485",
+    "idShort": "Hp",
+    "name": {
+      "fr": "Volkorne Prune et Orchidée",
+      "en": "Plum and Orchid Rhineetle",
+      "pt": "Vulkórnio Ameixa e Orquídea",
+      "de": "Pflaumen- und Orchideen-Naskäfer",
+      "es": "Vueloceronte ciruela y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3069,8 +5685,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Prune et Indigo": {
-    "name": "Volkorne Prune et Indigo",
+  "674e524164788cc74141b486": {
+    "id": "674e524164788cc74141b486",
+    "idShort": "Hq",
+    "name": {
+      "fr": "Volkorne Prune et Indigo",
+      "en": "Plum and Indigo Rhineetle",
+      "pt": "Vulkórnio Ameixa e Índigo",
+      "de": "Pflaumen- und Indigo-Naskäfer",
+      "es": "Vueloceronte ciruela e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3079,8 +5703,16 @@
       "criticalResist": 35
     }
   },
-  "Volkorne Prune et Ebène": {
-    "name": "Volkorne Prune et Ebène",
+  "674e524164788cc74141b487": {
+    "id": "674e524164788cc74141b487",
+    "idShort": "Hr",
+    "name": {
+      "fr": "Volkorne Prune et Ebène",
+      "en": "Plum and Ebony Rhineetle",
+      "pt": "Vulkórnio Ameixa e Ébano",
+      "de": "Pflaumen- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte ciruela y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3089,8 +5721,16 @@
       "agility": 50
     }
   },
-  "Volkorne Prune et Amande": {
-    "name": "Volkorne Prune et Amande",
+  "674e524164788cc74141b488": {
+    "id": "674e524164788cc74141b488",
+    "idShort": "Hs",
+    "name": {
+      "fr": "Volkorne Prune et Amande",
+      "en": "Plum and Almond Rhineetle",
+      "pt": "Vulkórnio Ameixa e Amêndoa",
+      "de": "Pflaumen- und Mandel-Naskäfer",
+      "es": "Vueloceronte ciruela y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3099,8 +5739,16 @@
       "criticalResist": 35
     }
   },
-  "Volkorne Prune et Roux": {
-    "name": "Volkorne Prune et Roux",
+  "674e524164788cc74141b489": {
+    "id": "674e524164788cc74141b489",
+    "idShort": "Ht",
+    "name": {
+      "fr": "Volkorne Prune et Roux",
+      "en": "Plum and Ginger Rhineetle",
+      "pt": "Vulkórnio Ameixa e Escarlate",
+      "de": "Pflaumen- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte ciruela y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3109,8 +5757,16 @@
       "ap": 1
     }
   },
-  "Volkorne Prune et Ivoire": {
-    "name": "Volkorne Prune et Ivoire",
+  "674e524164788cc74141b48a": {
+    "id": "674e524164788cc74141b48a",
+    "idShort": "Hu",
+    "name": {
+      "fr": "Volkorne Prune et Ivoire",
+      "en": "Plum and Ivory Rhineetle",
+      "pt": "Vulkórnio Ameixa e Marfim",
+      "de": "Pflaumen- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte ciruela y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3119,8 +5775,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Prune et Turquoise": {
-    "name": "Volkorne Prune et Turquoise",
+  "674e524164788cc74141b48b": {
+    "id": "674e524164788cc74141b48b",
+    "idShort": "Hv",
+    "name": {
+      "fr": "Volkorne Prune et Turquoise",
+      "en": "Plum and Turquoise Rhineetle",
+      "pt": "Vulkórnio Ameixa e Turquesa",
+      "de": "Pflaumen- und Türkis-Naskäfer",
+      "es": "Vueloceronte ciruela y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3129,8 +5793,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Prune et Emeraude": {
-    "name": "Volkorne Prune et Emeraude",
+  "674e524164788cc74141b48c": {
+    "id": "674e524164788cc74141b48c",
+    "idShort": "Hw",
+    "name": {
+      "fr": "Volkorne Prune et Emeraude",
+      "en": "Plum and Emerald Rhineetle",
+      "pt": "Vulkórnio Ameixa e Esmeralda",
+      "de": "Pflaumen- und Smaragd-Naskäfer",
+      "es": "Vueloceronte ciruela y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3139,8 +5811,16 @@
       "criticalChance": 5
     }
   },
-  "Volkorne Prune et Pourpre": {
-    "name": "Volkorne Prune et Pourpre",
+  "674e524164788cc74141b48d": {
+    "id": "674e524164788cc74141b48d",
+    "idShort": "Hx",
+    "name": {
+      "fr": "Volkorne Prune et Pourpre",
+      "en": "Plum and Crimson Rhineetle",
+      "pt": "Vulkórnio Ameixa e Púrpura",
+      "de": "Pflaumen- und Purpur-Naskäfer",
+      "es": "Vueloceronte ciruela y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3149,8 +5829,16 @@
       "strength": 50
     }
   },
-  "Volkorne Emeraude et Pourpre": {
-    "name": "Volkorne Emeraude et Pourpre",
+  "674e524164788cc74141b48e": {
+    "id": "674e524164788cc74141b48e",
+    "idShort": "Hy",
+    "name": {
+      "fr": "Volkorne Emeraude et Pourpre",
+      "en": "Emerald and Crimson Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Púrpura",
+      "de": "Smaragd- und Purpur-Naskäfer",
+      "es": "Vueloceronte esmeralda y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3159,8 +5847,16 @@
       "strength": 50
     }
   },
-  "Volkorne Emeraude et Orchidée": {
-    "name": "Volkorne Emeraude et Orchidée",
+  "674e524164788cc74141b48f": {
+    "id": "674e524164788cc74141b48f",
+    "idShort": "Hz",
+    "name": {
+      "fr": "Volkorne Emeraude et Orchidée",
+      "en": "Emerald and Orchid Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Orquídea",
+      "de": "Smaragd- und Orchideen-Naskäfer",
+      "es": "Vueloceronte esmeralda y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3169,8 +5865,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Emeraude et Indigo": {
-    "name": "Volkorne Emeraude et Indigo",
+  "674e524164788cc74141b490": {
+    "id": "674e524164788cc74141b490",
+    "idShort": "HA",
+    "name": {
+      "fr": "Volkorne Emeraude et Indigo",
+      "en": "Emerald and Indigo Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Índigo",
+      "de": "Smaragd- und Indigo-Naskäfer",
+      "es": "Vueloceronte esmeralda e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3179,8 +5883,16 @@
       "criticalChance": 5
     }
   },
-  "Volkorne Emeraude et Ebène": {
-    "name": "Volkorne Emeraude et Ebène",
+  "674e524164788cc74141b491": {
+    "id": "674e524164788cc74141b491",
+    "idShort": "HB",
+    "name": {
+      "fr": "Volkorne Emeraude et Ebène",
+      "en": "Emerald and Ebony Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Ébano",
+      "de": "Smaragd- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte esmeralda y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3189,8 +5901,16 @@
       "agility": 50
     }
   },
-  "Volkorne Emeraude et Amande": {
-    "name": "Volkorne Emeraude et Amande",
+  "674e524164788cc74141b492": {
+    "id": "674e524164788cc74141b492",
+    "idShort": "HC",
+    "name": {
+      "fr": "Volkorne Emeraude et Amande",
+      "en": "Emerald and Almond Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Amêndoa",
+      "de": "Smaragd- und Mandel-Naskäfer",
+      "es": "Vueloceronte esmeralda y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3199,8 +5919,16 @@
       "ap": 1
     }
   },
-  "Volkorne Emeraude et Roux": {
-    "name": "Volkorne Emeraude et Roux",
+  "674e524164788cc74141b493": {
+    "id": "674e524164788cc74141b493",
+    "idShort": "HD",
+    "name": {
+      "fr": "Volkorne Emeraude et Roux",
+      "en": "Emerald and Ginger Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Escarlate",
+      "de": "Smaragd- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte esmeralda y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3209,8 +5937,16 @@
       "ap": 1
     }
   },
-  "Volkorne Emeraude et Ivoire": {
-    "name": "Volkorne Emeraude et Ivoire",
+  "674e524164788cc74141b494": {
+    "id": "674e524164788cc74141b494",
+    "idShort": "HE",
+    "name": {
+      "fr": "Volkorne Emeraude et Ivoire",
+      "en": "Emerald and Ivory Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Marfim",
+      "de": "Smaragd- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte esmeralda y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3219,8 +5955,16 @@
       "ap": 1
     }
   },
-  "Volkorne Emeraude et Turquoise": {
-    "name": "Volkorne Emeraude et Turquoise",
+  "674e524164788cc74141b495": {
+    "id": "674e524164788cc74141b495",
+    "idShort": "HF",
+    "name": {
+      "fr": "Volkorne Emeraude et Turquoise",
+      "en": "Emerald and Turquoise Rhineetle",
+      "pt": "Vulkórnio Esmeralda e Turquesa",
+      "de": "Smaragd- und Türkis-Naskäfer",
+      "es": "Vueloceronte esmeralda y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3229,8 +5973,16 @@
       "criticalChance": 5
     }
   },
-  "Volkorne Doré et Pourpre": {
-    "name": "Volkorne Doré et Pourpre",
+  "674e524164788cc74141b496": {
+    "id": "674e524164788cc74141b496",
+    "idShort": "HG",
+    "name": {
+      "fr": "Volkorne Doré et Pourpre",
+      "en": "Golden and Crimson Rhineetle",
+      "pt": "Vulkórnio Dourado e Púrpura",
+      "de": "Gold- und Purpur-Naskäfer",
+      "es": "Vueloceronte dorado y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3239,8 +5991,16 @@
       "strength": 50
     }
   },
-  "Volkorne Doré et Orchidée": {
-    "name": "Volkorne Doré et Orchidée",
+  "674e524164788cc74141b497": {
+    "id": "674e524164788cc74141b497",
+    "idShort": "HH",
+    "name": {
+      "fr": "Volkorne Doré et Orchidée",
+      "en": "Golden and Orchid Rhineetle",
+      "pt": "Vulkórnio Dourado e Orquídea",
+      "de": "Gold- und Orchideen-Naskäfer",
+      "es": "Vueloceronte dorado y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3249,8 +6009,16 @@
       "ap": 1
     }
   },
-  "Volkorne Doré et Indigo": {
-    "name": "Volkorne Doré et Indigo",
+  "674e524164788cc74141b498": {
+    "id": "674e524164788cc74141b498",
+    "idShort": "HI",
+    "name": {
+      "fr": "Volkorne Doré et Indigo",
+      "en": "Golden and Indigo Rhineetle",
+      "pt": "Vulkórnio Dourado e Índigo",
+      "de": "Gold- und Indigo-Naskäfer",
+      "es": "Vueloceronte dorado e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3259,8 +6027,16 @@
       "ap": 1
     }
   },
-  "Volkorne Doré et Ebène": {
-    "name": "Volkorne Doré et Ebène",
+  "674e524164788cc74141b499": {
+    "id": "674e524164788cc74141b499",
+    "idShort": "HJ",
+    "name": {
+      "fr": "Volkorne Doré et Ebène",
+      "en": "Golden and Ebony Rhineetle",
+      "pt": "Vulkórnio Dourado e Ébano",
+      "de": "Gold- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte dorado y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3269,8 +6045,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Pourpre": {
-    "name": "Volkorne Jade et Pourpre",
+  "674e524164788cc74141b49a": {
+    "id": "674e524164788cc74141b49a",
+    "idShort": "HK",
+    "name": {
+      "fr": "Volkorne Jade et Pourpre",
+      "en": "Jade and Crimson Rhineetle",
+      "pt": "Vulkórnio Jade e Púrpura",
+      "de": "Jade- und Purpur-Naskäfer",
+      "es": "Vueloceronte jade y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3279,8 +6063,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Orchidée": {
-    "name": "Volkorne Jade et Orchidée",
+  "674e524164788cc74141b49b": {
+    "id": "674e524164788cc74141b49b",
+    "idShort": "HL",
+    "name": {
+      "fr": "Volkorne Jade et Orchidée",
+      "en": "Jade and Orchid Rhineetle",
+      "pt": "Vulkórnio Jade e Orquídea",
+      "de": "Jade- und Orchideen-Naskäfer",
+      "es": "Vueloceronte jade y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3289,8 +6081,16 @@
       "earthResistPer": 6
     }
   },
-  "Volkorne Jade et Indigo": {
-    "name": "Volkorne Jade et Indigo",
+  "674e524164788cc74141b49c": {
+    "id": "674e524164788cc74141b49c",
+    "idShort": "HM",
+    "name": {
+      "fr": "Volkorne Jade et Indigo",
+      "en": "Jade and Indigo Rhineetle",
+      "pt": "Vulkórnio Jade e Índigo",
+      "de": "Jade- und Indigo-Naskäfer",
+      "es": "Vueloceronte jade e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3299,8 +6099,16 @@
       "earthResistPer": 6
     }
   },
-  "Volkorne Jade et Ebène": {
-    "name": "Volkorne Jade et Ebène",
+  "674e524164788cc74141b49d": {
+    "id": "674e524164788cc74141b49d",
+    "idShort": "HN",
+    "name": {
+      "fr": "Volkorne Jade et Ebène",
+      "en": "Jade and Ebony Rhineetle",
+      "pt": "Vulkórnio Jade e Ébano",
+      "de": "Jade- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte jade y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3309,8 +6117,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Amande": {
-    "name": "Volkorne Jade et Amande",
+  "674e524164788cc74141b49e": {
+    "id": "674e524164788cc74141b49e",
+    "idShort": "HO",
+    "name": {
+      "fr": "Volkorne Jade et Amande",
+      "en": "Jade and Almond Rhineetle",
+      "pt": "Vulkórnio Jade e Amêndoa",
+      "de": "Jade- und Mandel-Naskäfer",
+      "es": "Vueloceronte jade y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3319,8 +6135,16 @@
       "pushbackResist": 60
     }
   },
-  "Volkorne Jade et Roux": {
-    "name": "Volkorne Jade et Roux",
+  "674e524164788cc74141b49f": {
+    "id": "674e524164788cc74141b49f",
+    "idShort": "HP",
+    "name": {
+      "fr": "Volkorne Jade et Roux",
+      "en": "Jade and Ginger Rhineetle",
+      "pt": "Vulkórnio Jade e Escarlate",
+      "de": "Jade- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte jade y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3329,8 +6153,16 @@
       "pushbackDamage": 40
     }
   },
-  "Volkorne Jade et Ivoire": {
-    "name": "Volkorne Jade et Ivoire",
+  "674e524164788cc74141b4a0": {
+    "id": "674e524164788cc74141b4a0",
+    "idShort": "HQ",
+    "name": {
+      "fr": "Volkorne Jade et Ivoire",
+      "en": "Jade and Ivory Rhineetle",
+      "pt": "Vulkórnio Jade e Marfim",
+      "de": "Jade- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte jade y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3339,8 +6171,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Turquoise": {
-    "name": "Volkorne Jade et Turquoise",
+  "674e524164788cc74141b4a1": {
+    "id": "674e524164788cc74141b4a1",
+    "idShort": "HR",
+    "name": {
+      "fr": "Volkorne Jade et Turquoise",
+      "en": "Jade and Turquoise Rhineetle",
+      "pt": "Vulkórnio Jade e Turquesa",
+      "de": "Jade- und Türkis-Naskäfer",
+      "es": "Vueloceronte jade y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3349,8 +6189,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Prune": {
-    "name": "Volkorne Jade et Prune",
+  "674e524164788cc74141b4a2": {
+    "id": "674e524164788cc74141b4a2",
+    "idShort": "HS",
+    "name": {
+      "fr": "Volkorne Jade et Prune",
+      "en": "Jade and Plum Rhineetle",
+      "pt": "Vulkórnio Jade e Ameixa",
+      "de": "Jade- und Pflaumen-Naskäfer",
+      "es": "Vueloceronte jade y ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3359,8 +6207,16 @@
       "criticalResist": 35
     }
   },
-  "Volkorne Jade et Emeraude": {
-    "name": "Volkorne Jade et Emeraude",
+  "674e524164788cc74141b4a3": {
+    "id": "674e524164788cc74141b4a3",
+    "idShort": "HT",
+    "name": {
+      "fr": "Volkorne Jade et Emeraude",
+      "en": "Jade and Emerald Rhineetle",
+      "pt": "Vulkórnio Jade e Esmeralda",
+      "de": "Jade- und Smaragd-Naskäfer",
+      "es": "Vueloceronte jade y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3369,8 +6225,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Doré": {
-    "name": "Volkorne Jade et Doré",
+  "674e524164788cc74141b4a4": {
+    "id": "674e524164788cc74141b4a4",
+    "idShort": "HU",
+    "name": {
+      "fr": "Volkorne Jade et Doré",
+      "en": "Jade and Golden Rhineetle",
+      "pt": "Vulkórnio Jade e Dourado",
+      "de": "Jade- und Gold-Naskäfer",
+      "es": "Vueloceronte jade y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3379,8 +6243,16 @@
       "ap": 1
     }
   },
-  "Volkorne Jade et Rubis": {
-    "name": "Volkorne Jade et Rubis",
+  "674e524164788cc74141b4a5": {
+    "id": "674e524164788cc74141b4a5",
+    "idShort": "HV",
+    "name": {
+      "fr": "Volkorne Jade et Rubis",
+      "en": "Jade and Ruby Rhineetle",
+      "pt": "Vulkórnio Jade e Rubi",
+      "de": "Jade- und Rubin-Naskäfer",
+      "es": "Vueloceronte jade y rubí"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3389,8 +6261,16 @@
       "earthResistPer": 6
     }
   },
-  "Volkorne Jade et Saphir": {
-    "name": "Volkorne Jade et Saphir",
+  "674e524164788cc74141b4a6": {
+    "id": "674e524164788cc74141b4a6",
+    "idShort": "HW",
+    "name": {
+      "fr": "Volkorne Jade et Saphir",
+      "en": "Jade and Sapphire Rhineetle",
+      "pt": "Vulkórnio Jade e Safira",
+      "de": "Jade- und Saphir-Naskäfer",
+      "es": "Vueloceronte jade y zafiro"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3399,8 +6279,16 @@
       "earthResistPer": 6
     }
   },
-  "Volkorne Jade et Améthyste": {
-    "name": "Volkorne Jade et Améthyste",
+  "674e524164788cc74141b4a7": {
+    "id": "674e524164788cc74141b4a7",
+    "idShort": "HX",
+    "name": {
+      "fr": "Volkorne Jade et Améthyste",
+      "en": "Jade and Amethyst Rhineetle",
+      "pt": "Vulkórnio Jade e Ametista",
+      "de": "Jade- und Amethyst-Naskäfer",
+      "es": "Vueloceronte jade y amatista"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3409,8 +6297,16 @@
       "earthResistPer": 6
     }
   },
-  "Volkorne Rubis et Pourpre": {
-    "name": "Volkorne Rubis et Pourpre",
+  "674e524164788cc74141b4a8": {
+    "id": "674e524164788cc74141b4a8",
+    "idShort": "HY",
+    "name": {
+      "fr": "Volkorne Rubis et Pourpre",
+      "en": "Ruby and Crimson Rhineetle",
+      "pt": "Vulkórnio Rubi e Púrpura",
+      "de": "Rubin- und Purpur-Naskäfer",
+      "es": "Vueloceronte rubí y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3419,8 +6315,16 @@
       "fireResistPer": 6
     }
   },
-  "Volkorne Rubis et Orchidée": {
-    "name": "Volkorne Rubis et Orchidée",
+  "674e524164788cc74141b4a9": {
+    "id": "674e524164788cc74141b4a9",
+    "idShort": "HZ",
+    "name": {
+      "fr": "Volkorne Rubis et Orchidée",
+      "en": "Ruby and Orchid Rhineetle",
+      "pt": "Vulkórnio Rubi e Orquídea",
+      "de": "Rubin- und Orchideen-Naskäfer",
+      "es": "Vueloceronte rubí y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3429,8 +6333,16 @@
       "intelligence": 50
     }
   },
-  "Volkorne Rubis et Indigo": {
-    "name": "Volkorne Rubis et Indigo",
+  "674e524164788cc74141b4aa": {
+    "id": "674e524164788cc74141b4aa",
+    "idShort": "I0",
+    "name": {
+      "fr": "Volkorne Rubis et Indigo",
+      "en": "Ruby and Indigo Rhineetle",
+      "pt": "Vulkórnio Rubi e Índigo",
+      "de": "Rubin- und Indigo-Naskäfer",
+      "es": "Vueloceronte rubí e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3439,8 +6351,16 @@
       "fireResistPer": 6
     }
   },
-  "Volkorne Rubis et Ebène": {
-    "name": "Volkorne Rubis et Ebène",
+  "674e524164788cc74141b4ab": {
+    "id": "674e524164788cc74141b4ab",
+    "idShort": "I1",
+    "name": {
+      "fr": "Volkorne Rubis et Ebène",
+      "en": "Ruby and Ebony Rhineetle",
+      "pt": "Vulkórnio Rubi e Ébano",
+      "de": "Rubin- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte rubí y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3449,8 +6369,16 @@
       "fireResistPer": 6
     }
   },
-  "Volkorne Rubis et Amande": {
-    "name": "Volkorne Rubis et Amande",
+  "674e524164788cc74141b4ac": {
+    "id": "674e524164788cc74141b4ac",
+    "idShort": "I2",
+    "name": {
+      "fr": "Volkorne Rubis et Amande",
+      "en": "Ruby and Almond Rhineetle",
+      "pt": "Vulkórnio Rubi e Amêndoa",
+      "de": "Rubin- und Mandel-Naskäfer",
+      "es": "Vueloceronte rubí y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3459,8 +6387,16 @@
       "pushbackResist": 60
     }
   },
-  "Volkorne Rubis et Roux": {
-    "name": "Volkorne Rubis et Roux",
+  "674e524164788cc74141b4ad": {
+    "id": "674e524164788cc74141b4ad",
+    "idShort": "I3",
+    "name": {
+      "fr": "Volkorne Rubis et Roux",
+      "en": "Ruby and Ginger Rhineetle",
+      "pt": "Vulkórnio Rubi e Escarlate",
+      "de": "Rubin- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte rubí y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3469,8 +6405,16 @@
       "ap": 1
     }
   },
-  "Volkorne Rubis et Ivoire": {
-    "name": "Volkorne Rubis et Ivoire",
+  "674e524164788cc74141b4ae": {
+    "id": "674e524164788cc74141b4ae",
+    "idShort": "I4",
+    "name": {
+      "fr": "Volkorne Rubis et Ivoire",
+      "en": "Ruby and Ivory Rhineetle",
+      "pt": "Vulkórnio Rubi e Marfim",
+      "de": "Rubin- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte rubí y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3479,8 +6423,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Rubis et Turquoise": {
-    "name": "Volkorne Rubis et Turquoise",
+  "674e524164788cc74141b4af": {
+    "id": "674e524164788cc74141b4af",
+    "idShort": "I5",
+    "name": {
+      "fr": "Volkorne Rubis et Turquoise",
+      "en": "Ruby and Turquoise Rhineetle",
+      "pt": "Vulkórnio Rubi e Turquesa",
+      "de": "Rubin- und Türkis-Naskäfer",
+      "es": "Vueloceronte rubí y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3489,8 +6441,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Rubis et Prune": {
-    "name": "Volkorne Rubis et Prune",
+  "674e524164788cc74141b4b0": {
+    "id": "674e524164788cc74141b4b0",
+    "idShort": "I6",
+    "name": {
+      "fr": "Volkorne Rubis et Prune",
+      "en": "Ruby and Plum Rhineetle",
+      "pt": "Vulkórnio Rubi e Ameixa",
+      "de": "Rubin- und Pflaumen-Naskäfer",
+      "es": "Vueloceronte rubí y ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3499,8 +6459,16 @@
       "fireResistPer": 6
     }
   },
-  "Volkorne Rubis et Emeraude": {
-    "name": "Volkorne Rubis et Emeraude",
+  "674e524164788cc74141b4b1": {
+    "id": "674e524164788cc74141b4b1",
+    "idShort": "I7",
+    "name": {
+      "fr": "Volkorne Rubis et Emeraude",
+      "en": "Ruby and Emerald Rhineetle",
+      "pt": "Vulkórnio Rubi e Esmeralda",
+      "de": "Rubin- und Smaragd-Naskäfer",
+      "es": "Vueloceronte rubí y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3509,8 +6477,16 @@
       "fireResistPer": 6
     }
   },
-  "Volkorne Rubis et Doré": {
-    "name": "Volkorne Rubis et Doré",
+  "674e524164788cc74141b4b2": {
+    "id": "674e524164788cc74141b4b2",
+    "idShort": "I8",
+    "name": {
+      "fr": "Volkorne Rubis et Doré",
+      "en": "Ruby and Golden Rhineetle",
+      "pt": "Vulkórnio Rubi e Dourado",
+      "de": "Rubin- und Gold-Naskäfer",
+      "es": "Vueloceronte rubí y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3519,8 +6495,16 @@
       "health": 100
     }
   },
-  "Volkorne Rubis et Saphir": {
-    "name": "Volkorne Rubis et Saphir",
+  "674e524164788cc74141b4b3": {
+    "id": "674e524164788cc74141b4b3",
+    "idShort": "I9",
+    "name": {
+      "fr": "Volkorne Rubis et Saphir",
+      "en": "Ruby and Sapphire Rhineetle",
+      "pt": "Vulkórnio Rubi e Safira",
+      "de": "Rubin- und Saphir-Naskäfer",
+      "es": "Vueloceronte rubí y zafiro"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3529,8 +6513,16 @@
       "ap": 1
     }
   },
-  "Volkorne Rubis et Améthyste": {
-    "name": "Volkorne Rubis et Améthyste",
+  "674e524164788cc74141b4b4": {
+    "id": "674e524164788cc74141b4b4",
+    "idShort": "Ia",
+    "name": {
+      "fr": "Volkorne Rubis et Améthyste",
+      "en": "Ruby and Amethyst Rhineetle",
+      "pt": "Vulkórnio Rubi e Ametista",
+      "de": "Rubin- und Amethyst-Naskäfer",
+      "es": "Vueloceronte rubí y amatista"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3539,8 +6531,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Saphir et Pourpre": {
-    "name": "Volkorne Saphir et Pourpre",
+  "674e524164788cc74141b4b5": {
+    "id": "674e524164788cc74141b4b5",
+    "idShort": "Ib",
+    "name": {
+      "fr": "Volkorne Saphir et Pourpre",
+      "en": "Sapphire and Crimson Rhineetle",
+      "pt": "Vulkórnio Safira e Púrpura",
+      "de": "Saphir- und Purpur-Naskäfer",
+      "es": "Vueloceronte zafiro y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3549,8 +6549,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Orchidée": {
-    "name": "Volkorne Saphir et Orchidée",
+  "674e524164788cc74141b4b6": {
+    "id": "674e524164788cc74141b4b6",
+    "idShort": "Ic",
+    "name": {
+      "fr": "Volkorne Saphir et Orchidée",
+      "en": "Sapphire and Orchid Rhineetle",
+      "pt": "Vulkórnio Safira e Orquídea",
+      "de": "Saphir- und Orchideen-Naskäfer",
+      "es": "Vueloceronte zafiro y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3559,8 +6567,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Indigo": {
-    "name": "Volkorne Saphir et Indigo",
+  "674e524164788cc74141b4b7": {
+    "id": "674e524164788cc74141b4b7",
+    "idShort": "Id",
+    "name": {
+      "fr": "Volkorne Saphir et Indigo",
+      "en": "Sapphire and Indigo Rhineetle",
+      "pt": "Vulkórnio Safira e Índigo",
+      "de": "Saphir- und Indigo-Naskäfer",
+      "es": "Vueloceronte zafiro e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3569,8 +6585,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Ebène": {
-    "name": "Volkorne Saphir et Ebène",
+  "674e524164788cc74141b4b8": {
+    "id": "674e524164788cc74141b4b8",
+    "idShort": "Ie",
+    "name": {
+      "fr": "Volkorne Saphir et Ebène",
+      "en": "Sapphire and Ebony Rhineetle",
+      "pt": "Vulkórnio Safira e Ébano",
+      "de": "Saphir- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte zafiro y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3579,8 +6603,16 @@
       "agility": 50
     }
   },
-  "Volkorne Saphir et Amande": {
-    "name": "Volkorne Saphir et Amande",
+  "674e524164788cc74141b4b9": {
+    "id": "674e524164788cc74141b4b9",
+    "idShort": "If",
+    "name": {
+      "fr": "Volkorne Saphir et Amande",
+      "en": "Sapphire and Almond Rhineetle",
+      "pt": "Vulkórnio Safira e Amêndoa",
+      "de": "Saphir- und Mandel-Naskäfer",
+      "es": "Vueloceronte zafiro y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3589,8 +6621,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Roux": {
-    "name": "Volkorne Saphir et Roux",
+  "674e524164788cc74141b4ba": {
+    "id": "674e524164788cc74141b4ba",
+    "idShort": "Ig",
+    "name": {
+      "fr": "Volkorne Saphir et Roux",
+      "en": "Sapphire and Ginger Rhineetle",
+      "pt": "Vulkórnio Safira e Escarlate",
+      "de": "Saphir- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte zafiro y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3599,8 +6639,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Ivoire": {
-    "name": "Volkorne Saphir et Ivoire",
+  "674e524164788cc74141b4bb": {
+    "id": "674e524164788cc74141b4bb",
+    "idShort": "Ih",
+    "name": {
+      "fr": "Volkorne Saphir et Ivoire",
+      "en": "Sapphire and Ivory Rhineetle",
+      "pt": "Vulkórnio Safira e Marfim",
+      "de": "Saphir- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte zafiro y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3609,8 +6657,16 @@
       "apReduction": 20
     }
   },
-  "Volkorne Saphir et Turquoise": {
-    "name": "Volkorne Saphir et Turquoise",
+  "674e524164788cc74141b4bc": {
+    "id": "674e524164788cc74141b4bc",
+    "idShort": "Ii",
+    "name": {
+      "fr": "Volkorne Saphir et Turquoise",
+      "en": "Sapphire and Turquoise Rhineetle",
+      "pt": "Vulkórnio Safira e Turquesa",
+      "de": "Saphir- und Türkis-Naskäfer",
+      "es": "Vueloceronte zafiro y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3619,8 +6675,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Saphir et Prune": {
-    "name": "Volkorne Saphir et Prune",
+  "674e524164788cc74141b4bd": {
+    "id": "674e524164788cc74141b4bd",
+    "idShort": "Ij",
+    "name": {
+      "fr": "Volkorne Saphir et Prune",
+      "en": "Sapphire and Plum Rhineetle",
+      "pt": "Vulkórnio Safira e Ameixa",
+      "de": "Saphir- und Pflaumen-Naskäfer",
+      "es": "Vueloceronte zafiro y ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3629,8 +6693,16 @@
       "waterResistPer": 6
     }
   },
-  "Volkorne Saphir et Emeraude": {
-    "name": "Volkorne Saphir et Emeraude",
+  "674e524164788cc74141b4be": {
+    "id": "674e524164788cc74141b4be",
+    "idShort": "Ik",
+    "name": {
+      "fr": "Volkorne Saphir et Emeraude",
+      "en": "Sapphire and Emerald Rhineetle",
+      "pt": "Vulkórnio Safira e Esmeralda",
+      "de": "Saphir- und Smaragd-Naskäfer",
+      "es": "Vueloceronte zafiro y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3639,8 +6711,16 @@
       "ap": 1
     }
   },
-  "Volkorne Saphir et Doré": {
-    "name": "Volkorne Saphir et Doré",
+  "674e524164788cc74141b4bf": {
+    "id": "674e524164788cc74141b4bf",
+    "idShort": "Il",
+    "name": {
+      "fr": "Volkorne Saphir et Doré",
+      "en": "Sapphire and Golden Rhineetle",
+      "pt": "Vulkórnio Safira e Dourado",
+      "de": "Saphir- und Gold-Naskäfer",
+      "es": "Vueloceronte zafiro y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3649,8 +6729,16 @@
       "waterResistPer": 6
     }
   },
-  "Volkorne Saphir et Améthyste": {
-    "name": "Volkorne Saphir et Améthyste",
+  "674e524164788cc74141b4c0": {
+    "id": "674e524164788cc74141b4c0",
+    "idShort": "Im",
+    "name": {
+      "fr": "Volkorne Saphir et Améthyste",
+      "en": "Sapphire and Amethyst Rhineetle",
+      "pt": "Vulkórnio Safira e Ametista",
+      "de": "Saphir- und Amethyst-Naskäfer",
+      "es": "Vueloceronte zafiro y amatista"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3659,8 +6747,16 @@
       "ap": 1
     }
   },
-  "Volkorne Améthyste et Pourpre": {
-    "name": "Volkorne Améthyste et Pourpre",
+  "674e524164788cc74141b4c1": {
+    "id": "674e524164788cc74141b4c1",
+    "idShort": "In",
+    "name": {
+      "fr": "Volkorne Améthyste et Pourpre",
+      "en": "Amethyst and Crimson Rhineetle",
+      "pt": "Vulkórnio Ametista e Púrpura",
+      "de": "Amethyst- und Purpur-Naskäfer",
+      "es": "Vueloceronte amatista y púrpura"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3669,8 +6765,16 @@
       "ap": 1
     }
   },
-  "Volkorne Améthyste et Orchidée": {
-    "name": "Volkorne Améthyste et Orchidée",
+  "674e524164788cc74141b4c2": {
+    "id": "674e524164788cc74141b4c2",
+    "idShort": "Io",
+    "name": {
+      "fr": "Volkorne Améthyste et Orchidée",
+      "en": "Amethyst and Orchid Rhineetle",
+      "pt": "Vulkórnio Ametista e Orquídea",
+      "de": "Amethyst- und Orchideen-Naskäfer",
+      "es": "Vueloceronte amatista y orquídeo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3679,8 +6783,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Indigo": {
-    "name": "Volkorne Améthyste et Indigo",
+  "674e524164788cc74141b4c3": {
+    "id": "674e524164788cc74141b4c3",
+    "idShort": "Ip",
+    "name": {
+      "fr": "Volkorne Améthyste et Indigo",
+      "en": "Amethyst and Indigo Rhineetle",
+      "pt": "Vulkórnio Ametista e Índigo",
+      "de": "Amethyst- und Indigo-Naskäfer",
+      "es": "Vueloceronte amatista e índigo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3689,8 +6801,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Ebène": {
-    "name": "Volkorne Améthyste et Ebène",
+  "674e524164788cc74141b4c4": {
+    "id": "674e524164788cc74141b4c4",
+    "idShort": "Iq",
+    "name": {
+      "fr": "Volkorne Améthyste et Ebène",
+      "en": "Amethyst and Ebony Rhineetle",
+      "pt": "Vulkórnio Ametista e Ébano",
+      "de": "Amethyst- und Ebenholz-Naskäfer",
+      "es": "Vueloceronte amatista y ébano"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3699,8 +6819,16 @@
       "ap": 1
     }
   },
-  "Volkorne Améthyste et Amande": {
-    "name": "Volkorne Améthyste et Amande",
+  "674e524164788cc74141b4c5": {
+    "id": "674e524164788cc74141b4c5",
+    "idShort": "Ir",
+    "name": {
+      "fr": "Volkorne Améthyste et Amande",
+      "en": "Amethyst and Almond Rhineetle",
+      "pt": "Vulkórnio Ametista e Amêndoa",
+      "de": "Amethyst- und Mandel-Naskäfer",
+      "es": "Vueloceronte amatista y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3709,8 +6837,16 @@
       "pushbackResist": 60
     }
   },
-  "Volkorne Améthyste et Roux": {
-    "name": "Volkorne Améthyste et Roux",
+  "674e524164788cc74141b4c6": {
+    "id": "674e524164788cc74141b4c6",
+    "idShort": "Is",
+    "name": {
+      "fr": "Volkorne Améthyste et Roux",
+      "en": "Amethyst and Ginger Rhineetle",
+      "pt": "Vulkórnio Ametista e Escarlate",
+      "de": "Amethyst- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte amatista y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3719,8 +6855,16 @@
       "pushbackDamage": 40
     }
   },
-  "Volkorne Améthyste et Ivoire": {
-    "name": "Volkorne Améthyste et Ivoire",
+  "674e524164788cc74141b4c7": {
+    "id": "674e524164788cc74141b4c7",
+    "idShort": "It",
+    "name": {
+      "fr": "Volkorne Améthyste et Ivoire",
+      "en": "Amethyst and Ivory Rhineetle",
+      "pt": "Vulkórnio Ametista e Marfim",
+      "de": "Amethyst- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte amatista y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3729,8 +6873,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Turquoise": {
-    "name": "Volkorne Améthyste et Turquoise",
+  "674e524164788cc74141b4c8": {
+    "id": "674e524164788cc74141b4c8",
+    "idShort": "Iu",
+    "name": {
+      "fr": "Volkorne Améthyste et Turquoise",
+      "en": "Amethyst and Turquoise Rhineetle",
+      "pt": "Vulkórnio Ametista e Turquesa",
+      "de": "Amethyst- und Türkis-Naskäfer",
+      "es": "Vueloceronte amatista y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3739,8 +6891,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Prune": {
-    "name": "Volkorne Améthyste et Prune",
+  "674e524164788cc74141b4c9": {
+    "id": "674e524164788cc74141b4c9",
+    "idShort": "Iv",
+    "name": {
+      "fr": "Volkorne Améthyste et Prune",
+      "en": "Amethyst and Plum Rhineetle",
+      "pt": "Vulkórnio Ametista e Ameixa",
+      "de": "Amethyst- und Pflaumen-Naskäfer",
+      "es": "Vueloceronte amatista y ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3749,8 +6909,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Emeraude": {
-    "name": "Volkorne Améthyste et Emeraude",
+  "674e524164788cc74141b4ca": {
+    "id": "674e524164788cc74141b4ca",
+    "idShort": "Iw",
+    "name": {
+      "fr": "Volkorne Améthyste et Emeraude",
+      "en": "Amethyst and Emerald Rhineetle",
+      "pt": "Vulkórnio Ametista e Esmeralda",
+      "de": "Amethyst- und Smaragd-Naskäfer",
+      "es": "Vueloceronte amatista y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3759,8 +6927,16 @@
       "airResistPer": 6
     }
   },
-  "Volkorne Améthyste et Doré": {
-    "name": "Volkorne Améthyste et Doré",
+  "674e524164788cc74141b4cb": {
+    "id": "674e524164788cc74141b4cb",
+    "idShort": "Ix",
+    "name": {
+      "fr": "Volkorne Améthyste et Doré",
+      "en": "Amethyst and Golden Rhineetle",
+      "pt": "Vulkórnio Ametista e Dourado",
+      "de": "Amethyst- und Gold-Naskäfer",
+      "es": "Vueloceronte amatista y dorado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3769,8 +6945,16 @@
       "health": 100
     }
   },
-  "Volkorne Doré et Roux": {
-    "name": "Volkorne Doré et Roux",
+  "674e524164788cc74141b4cc": {
+    "id": "674e524164788cc74141b4cc",
+    "idShort": "Iy",
+    "name": {
+      "fr": "Volkorne Doré et Roux",
+      "en": "Golden and Ginger Rhineetle",
+      "pt": "Vulkórnio Dourado e Escarlate",
+      "de": "Gold- und Fuchsrot-Naskäfer",
+      "es": "Vueloceronte dorado y pelirrojo"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3779,8 +6963,16 @@
       "health": 100
     }
   },
-  "Volkorne Doré et Amande": {
-    "name": "Volkorne Doré et Amande",
+  "674e524164788cc74141b4cd": {
+    "id": "674e524164788cc74141b4cd",
+    "idShort": "Iz",
+    "name": {
+      "fr": "Volkorne Doré et Amande",
+      "en": "Golden and Almond Rhineetle",
+      "pt": "Vulkórnio Dourado e Amêndoa",
+      "de": "Gold- und Mandel-Naskäfer",
+      "es": "Vueloceronte dorado y almendrado"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3789,8 +6981,16 @@
       "pushbackResist": 60
     }
   },
-  "Volkorne Doré et Ivoire": {
-    "name": "Volkorne Doré et Ivoire",
+  "674e524164788cc74141b4ce": {
+    "id": "674e524164788cc74141b4ce",
+    "idShort": "IA",
+    "name": {
+      "fr": "Volkorne Doré et Ivoire",
+      "en": "Golden and Ivory Rhineetle",
+      "pt": "Vulkórnio Dourado e Marfim",
+      "de": "Gold- und Elfenbein-Naskäfer",
+      "es": "Vueloceronte dorado y marfil"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3799,8 +6999,16 @@
       "ap": 1
     }
   },
-  "Volkorne Doré et Turquoise": {
-    "name": "Volkorne Doré et Turquoise",
+  "674e524164788cc74141b4cf": {
+    "id": "674e524164788cc74141b4cf",
+    "idShort": "IB",
+    "name": {
+      "fr": "Volkorne Doré et Turquoise",
+      "en": "Golden and Turquoise Rhineetle",
+      "pt": "Vulkórnio Dourado e Turquesa",
+      "de": "Gold- und Türkis-Naskäfer",
+      "es": "Vueloceronte dorado y turquesa"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3809,8 +7017,16 @@
       "mpReduction": 20
     }
   },
-  "Volkorne Doré et Prune": {
-    "name": "Volkorne Doré et Prune",
+  "674e524164788cc74141b4d0": {
+    "id": "674e524164788cc74141b4d0",
+    "idShort": "IC",
+    "name": {
+      "fr": "Volkorne Doré et Prune",
+      "en": "Golden and Plum Rhineetle",
+      "pt": "Vulkórnio Dourado e Ameixa",
+      "de": "Gold- und Pflaumen-Naskäfer",
+      "es": "Vueloceronte dorado y ciruela"
+    },
     "level": 60,
     "category": "pet",
     "stats": {
@@ -3819,8 +7035,16 @@
       "health": 100
     }
   },
-  "Volkorne Doré et Emeraude": {
-    "name": "Volkorne Doré et Emeraude",
+  "674e524164788cc74141b4d1": {
+    "id": "674e524164788cc74141b4d1",
+    "idShort": "ID",
+    "name": {
+      "fr": "Volkorne Doré et Emeraude",
+      "en": "Golden and Emerald Rhineetle",
+      "pt": "Vulkórnio Dourado e Esmeralda",
+      "de": "Gold- und Smaragd-Naskäfer",
+      "es": "Vueloceronte dorado y esmeralda"
+    },
     "level": 60,
     "category": "pet",
     "stats": {

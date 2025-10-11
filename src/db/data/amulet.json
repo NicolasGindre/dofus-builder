@@ -1,22 +1,46 @@
 {
-  "Amulette du Hibou": {
-    "name": "Amulette du Hibou",
+  "674e524064788cc7414184ee": {
+    "id": "674e524064788cc7414184ee",
+    "idShort": "00",
+    "name": {
+      "fr": "Amulette du Hibou",
+      "en": "Owl Amulet",
+      "pt": "Amuleto da coruja",
+      "de": "Eulenamulett",
+      "es": "Amuleto del búho"
+    },
     "level": 8,
     "category": "amulet",
     "stats": {
       "intelligence": 13
     }
   },
-  "Amulette de l'Ours": {
-    "name": "Amulette de l'Ours",
+  "674e524064788cc7414184ef": {
+    "id": "674e524064788cc7414184ef",
+    "idShort": "01",
+    "name": {
+      "fr": "Amulette de l'Ours",
+      "en": "Bear Amulet",
+      "pt": "Amuleto do urso",
+      "de": "Bärenamulett",
+      "es": "Amuleto del oso"
+    },
     "level": 8,
     "category": "amulet",
     "stats": {
       "strength": 13
     }
   },
-  "Amulette du Mulou": {
-    "name": "Amulette du Mulou",
+  "674e524064788cc7414184f0": {
+    "id": "674e524064788cc7414184f0",
+    "idShort": "02",
+    "name": {
+      "fr": "Amulette du Mulou",
+      "en": "Boowolf Amulet",
+      "pt": "Amuleto do Milobo",
+      "de": "WuWulf-Amulett",
+      "es": "Amuleto de milubo"
+    },
     "level": 8,
     "category": "amulet",
     "stats": {
@@ -24,8 +48,16 @@
       "heal": 4
     }
   },
-  "La Gougnole": {
-    "name": "La Gougnole",
+  "674e524064788cc7414184fd": {
+    "id": "674e524064788cc7414184fd",
+    "idShort": "03",
+    "name": {
+      "fr": "La Gougnole",
+      "en": "The Gougnole",
+      "pt": "O Gougnole",
+      "de": "Das Geschnapsel",
+      "es": "El Etirujo"
+    },
     "level": 17,
     "category": "amulet",
     "stats": {
@@ -34,8 +66,16 @@
       "heal": 3
     }
   },
-  "La Destinée Dorée": {
-    "name": "La Destinée Dorée",
+  "674e524064788cc7414184fe": {
+    "id": "674e524064788cc7414184fe",
+    "idShort": "04",
+    "name": {
+      "fr": "La Destinée Dorée",
+      "en": "Golden Destiny",
+      "pt": "O Destino Dourado",
+      "de": "Die Goldene Zukunft",
+      "es": "El Destino Dorado"
+    },
     "level": 12,
     "category": "amulet",
     "stats": {
@@ -44,8 +84,16 @@
       "lock": 2
     }
   },
-  "La Broche Céleste": {
-    "name": "La Broche Céleste",
+  "674e524064788cc7414184ff": {
+    "id": "674e524064788cc7414184ff",
+    "idShort": "05",
+    "name": {
+      "fr": "La Broche Céleste",
+      "en": "The Celestial Brooch",
+      "pt": "O Broche Celestial",
+      "de": "Die Himmlische Brosche",
+      "es": "El Broche Celeste"
+    },
     "level": 40,
     "category": "amulet",
     "stats": {
@@ -54,8 +102,16 @@
       "initiative": -300
     }
   },
-  "Le Flan des Étoiles": {
-    "name": "Le Flan des Étoiles",
+  "674e524064788cc741418500": {
+    "id": "674e524064788cc741418500",
+    "idShort": "06",
+    "name": {
+      "fr": "Le Flan des Étoiles",
+      "en": "The Stars Custard Tart",
+      "pt": "Pudim das Estrelas",
+      "de": "Sternpudding",
+      "es": "El Flan de Estrellas"
+    },
     "level": 61,
     "category": "amulet",
     "stats": {
@@ -65,8 +121,16 @@
       "ap": 1
     }
   },
-  "La Célébrité": {
-    "name": "La Célébrité",
+  "674e524064788cc741418501": {
+    "id": "674e524064788cc741418501",
+    "idShort": "07",
+    "name": {
+      "fr": "La Célébrité",
+      "en": "Fame",
+      "pt": "A Fama",
+      "de": "Die Berühmtheit",
+      "es": "La Celebridad"
+    },
     "level": 27,
     "category": "amulet",
     "stats": {
@@ -74,16 +138,32 @@
       "range": 1
     }
   },
-  "La Larme du Bouftou": {
-    "name": "La Larme du Bouftou",
+  "674e524064788cc741418528": {
+    "id": "674e524064788cc741418528",
+    "idShort": "08",
+    "name": {
+      "fr": "La Larme du Bouftou",
+      "en": "Gobball Tear",
+      "pt": "A Lágrima do Papatudo",
+      "de": "Die Träne des Fresssacks",
+      "es": "La Lágrima de Jalató"
+    },
     "level": 5,
     "category": "amulet",
     "stats": {
       "chance": 7
     }
   },
-  "Collier de l'Arc en Ciel": {
-    "name": "Collier de l'Arc en Ciel",
+  "674e524064788cc741418529": {
+    "id": "674e524064788cc741418529",
+    "idShort": "09",
+    "name": {
+      "fr": "Collier de l'Arc en Ciel",
+      "en": "Rainbow Necklace",
+      "pt": "Colar de arco-Íris",
+      "de": "Regenbogenhalskette",
+      "es": "Collar del Arco Iris"
+    },
     "level": 9,
     "category": "amulet",
     "stats": {
@@ -91,8 +171,16 @@
       "chance": 10
     }
   },
-  "Amulette du Kam Assutra": {
-    "name": "Amulette du Kam Assutra",
+  "674e524064788cc741418548": {
+    "id": "674e524064788cc741418548",
+    "idShort": "0a",
+    "name": {
+      "fr": "Amulette du Kam Assutra",
+      "en": "Kam Assutra Amulet",
+      "pt": "Amuleto do Kam Assutra",
+      "de": "Amulett von Kam Assutra",
+      "es": "Amuleto del Kam Asutra"
+    },
     "level": 43,
     "category": "amulet",
     "stats": {
@@ -100,8 +188,16 @@
       "initiative": -350
     }
   },
-  "Amulette de Krokette": {
-    "name": "Amulette de Krokette",
+  "674e524064788cc741418549": {
+    "id": "674e524064788cc741418549",
+    "idShort": "0b",
+    "name": {
+      "fr": "Amulette de Krokette",
+      "en": "Krokette Amulet",
+      "pt": "Amuleto de Kaskrokete",
+      "de": "Kroketthalskett",
+      "es": "Amuleto de Kroketa"
+    },
     "level": 9,
     "category": "amulet",
     "stats": {
@@ -109,8 +205,16 @@
       "criticalChance": 2
     }
   },
-  "Amulette du Sram": {
-    "name": "Amulette du Sram",
+  "674e524064788cc74141854a": {
+    "id": "674e524064788cc74141854a",
+    "idShort": "0c",
+    "name": {
+      "fr": "Amulette du Sram",
+      "en": "Sram Amulet",
+      "pt": "Amuleto do Sram",
+      "de": "SRAMulett",
+      "es": "Amuleto de sram"
+    },
     "level": 7,
     "category": "amulet",
     "stats": {
@@ -118,8 +222,16 @@
       "airDamage": 2
     }
   },
-  "Amulette Deulegarnoulle": {
-    "name": "Amulette Deulegarnoulle",
+  "674e524064788cc74141854b": {
+    "id": "674e524064788cc74141854b",
+    "idShort": "0d",
+    "name": {
+      "fr": "Amulette Deulegarnoulle",
+      "en": "Deulegarnoulle Amulet",
+      "pt": "Amuleto Deulegarnoulle",
+      "de": "VanDenFrogg-Halskette",
+      "es": "Amuleto Demetarana"
+    },
     "level": 33,
     "category": "amulet",
     "stats": {
@@ -127,8 +239,16 @@
       "summon": 2
     }
   },
-  "Amulette du Chafer": {
-    "name": "Amulette du Chafer",
+  "674e524064788cc7414185bf": {
+    "id": "674e524064788cc7414185bf",
+    "idShort": "0e",
+    "name": {
+      "fr": "Amulette du Chafer",
+      "en": "Captain Chafer Amulet",
+      "pt": "Amuleto do Chafer",
+      "de": "Chafer-Amulett",
+      "es": "Amuleto de chafer"
+    },
     "level": 19,
     "category": "amulet",
     "stats": {
@@ -137,16 +257,32 @@
       "criticalChance": 2
     }
   },
-  "Amulette en Crabe": {
-    "name": "Amulette en Crabe",
+  "674e524064788cc7414185fb": {
+    "id": "674e524064788cc7414185fb",
+    "idShort": "0f",
+    "name": {
+      "fr": "Amulette en Crabe",
+      "en": "Crab Amulet",
+      "pt": "Amuleto de Caranguejo",
+      "de": "Krebshalskette",
+      "es": "Amuleto de cangrejo"
+    },
     "level": 24,
     "category": "amulet",
     "stats": {
       "range": 1
     }
   },
-  "Amulette du Marin": {
-    "name": "Amulette du Marin",
+  "674e524064788cc7414185fc": {
+    "id": "674e524064788cc7414185fc",
+    "idShort": "0g",
+    "name": {
+      "fr": "Amulette du Marin",
+      "en": "Fisherman Amulet",
+      "pt": "Amuleto do Marinheiro",
+      "de": "Halskette des Seebären",
+      "es": "Amuleto de marinero"
+    },
     "level": 22,
     "category": "amulet",
     "stats": {
@@ -154,8 +290,16 @@
       "chance": 30
     }
   },
-  "Amulette du Pirate": {
-    "name": "Amulette du Pirate",
+  "674e524064788cc7414185fd": {
+    "id": "674e524064788cc7414185fd",
+    "idShort": "0h",
+    "name": {
+      "fr": "Amulette du Pirate",
+      "en": "Pirate Amulet",
+      "pt": "Amuleto do Pirata",
+      "de": "Piratenamulett",
+      "es": "Amuleto de pirata"
+    },
     "level": 41,
     "category": "amulet",
     "stats": {
@@ -165,16 +309,32 @@
       "dodge": 5
     }
   },
-  "Amulette du Pêcheur de Somoon": {
-    "name": "Amulette du Pêcheur de Somoon",
+  "674e524064788cc741418601": {
+    "id": "674e524064788cc741418601",
+    "idShort": "0i",
+    "name": {
+      "fr": "Amulette du Pêcheur de Somoon",
+      "en": "Somoon Fisherman Amulet",
+      "pt": "Amuleto do Pescador de Salmoon",
+      "de": "Amulett des Somoon-Fischers",
+      "es": "Amuleto del pescador de salmoon"
+    },
     "level": 35,
     "category": "amulet",
     "stats": {
       "chance": 41
     }
   },
-  "Amulette des Abîmes": {
-    "name": "Amulette des Abîmes",
+  "674e524064788cc741418602": {
+    "id": "674e524064788cc741418602",
+    "idShort": "0j",
+    "name": {
+      "fr": "Amulette des Abîmes",
+      "en": "Amulet of the Depths",
+      "pt": "Amuleto dos Abismos",
+      "de": "Amulett des Abgrunds",
+      "es": "Amuleto de los Abismos"
+    },
     "level": 47,
     "category": "amulet",
     "stats": {
@@ -184,8 +344,16 @@
       "criticalDamage": 5
     }
   },
-  "Koliet Aclou": {
-    "name": "Koliet Aclou",
+  "674e524064788cc741418651": {
+    "id": "674e524064788cc741418651",
+    "idShort": "0k",
+    "name": {
+      "fr": "Koliet Aclou",
+      "en": "Koliet Aclou",
+      "pt": "Koliet Aclou",
+      "de": "Elnags Collier",
+      "es": "Koyar Clavito"
+    },
     "level": 1,
     "category": "amulet",
     "stats": {
@@ -197,8 +365,16 @@
       "airDamage": 1
     }
   },
-  "Amulette du Bûcheron": {
-    "name": "Amulette du Bûcheron",
+  "674e524064788cc741418660": {
+    "id": "674e524064788cc741418660",
+    "idShort": "0l",
+    "name": {
+      "fr": "Amulette du Bûcheron",
+      "en": "Lumberjack Amulet",
+      "pt": "Amuleto do Lenhador",
+      "de": "Holzfälleramulett",
+      "es": "Amuleto del leñador"
+    },
     "level": 22,
     "category": "amulet",
     "stats": {
@@ -207,8 +383,16 @@
       "lock": 3
     }
   },
-  "Pendentif du Hibou Chétif": {
-    "name": "Pendentif du Hibou Chétif",
+  "674e524064788cc741418663": {
+    "id": "674e524064788cc741418663",
+    "idShort": "0m",
+    "name": {
+      "fr": "Pendentif du Hibou Chétif",
+      "en": "Puny Owl Pendant",
+      "pt": "Pendente de Coruja Fraca",
+      "de": "Anhänger der mickrigen Eule",
+      "es": "Colgante del Búho Enclenque"
+    },
     "level": 3,
     "category": "amulet",
     "stats": {
@@ -216,16 +400,32 @@
       "lock": 3
     }
   },
-  "Grenouillette": {
-    "name": "Grenouillette",
+  "674e524064788cc741418699": {
+    "id": "674e524064788cc741418699",
+    "idShort": "0n",
+    "name": {
+      "fr": "Grenouillette",
+      "en": "Little Frog",
+      "pt": "Sapinho",
+      "de": "Fröschli",
+      "es": "Ranilla"
+    },
     "level": 1,
     "category": "amulet",
     "stats": {
       "agility": 1
     }
   },
-  "Dragolyre": {
-    "name": "Dragolyre",
+  "674e524064788cc74141869f": {
+    "id": "674e524064788cc74141869f",
+    "idShort": "0o",
+    "name": {
+      "fr": "Dragolyre",
+      "en": "Dragolyre",
+      "pt": "Dragolira",
+      "de": "Dracoleier",
+      "es": "Dragolira"
+    },
     "level": 32,
     "category": "amulet",
     "stats": {
@@ -237,8 +437,16 @@
       "summon": 1
     }
   },
-  "Amulette de Silicate": {
-    "name": "Amulette de Silicate",
+  "674e524064788cc7414186b4": {
+    "id": "674e524064788cc7414186b4",
+    "idShort": "0p",
+    "name": {
+      "fr": "Amulette de Silicate",
+      "en": "Silicate Amulet",
+      "pt": "Amuleto de Silicato",
+      "de": "Halskette von Silikat",
+      "es": "Amuleto de Silicato"
+    },
     "level": 37,
     "category": "amulet",
     "stats": {
@@ -250,8 +458,16 @@
       "airResistPer": 2
     }
   },
-  "La Feuille d'Automne": {
-    "name": "La Feuille d'Automne",
+  "674e524064788cc7414186b5": {
+    "id": "674e524064788cc7414186b5",
+    "idShort": "0q",
+    "name": {
+      "fr": "La Feuille d'Automne",
+      "en": "Autumn Leaf",
+      "pt": "A folha do outono",
+      "de": "Herbstblatt",
+      "es": "La Hoja de Otoño"
+    },
     "level": 89,
     "category": "amulet",
     "stats": {
@@ -265,8 +481,16 @@
       "prospecting": 15
     }
   },
-  "Médaille Oly": {
-    "name": "Médaille Oly",
+  "674e524064788cc741418732": {
+    "id": "674e524064788cc741418732",
+    "idShort": "0r",
+    "name": {
+      "fr": "Médaille Oly",
+      "en": "Oly Medal",
+      "pt": "Medalha Oly",
+      "de": "Medaille Oly",
+      "es": "Medalla Lacena"
+    },
     "level": 51,
     "category": "amulet",
     "stats": {
@@ -277,8 +501,16 @@
       "criticalDamage": 10
     }
   },
-  "Amulette de Xélor": {
-    "name": "Amulette de Xélor",
+  "674e524064788cc741418781": {
+    "id": "674e524064788cc741418781",
+    "idShort": "0s",
+    "name": {
+      "fr": "Amulette de Xélor",
+      "en": "Xelor Amulet",
+      "pt": "Amuleto de Xelor",
+      "de": "Xélor-Amulett",
+      "es": "Amuleto de Xelor"
+    },
     "level": 52,
     "category": "amulet",
     "stats": {
@@ -289,8 +521,16 @@
       "damage": 3
     }
   },
-  "Amulette du Craqueleur": {
-    "name": "Amulette du Craqueleur",
+  "674e524064788cc741418783": {
+    "id": "674e524064788cc741418783",
+    "idShort": "0t",
+    "name": {
+      "fr": "Amulette du Craqueleur",
+      "en": "Crackler Pendant",
+      "pt": "Amuleto do Smagador",
+      "de": "Amulett des Krachlers",
+      "es": "Amuleto de crujidor"
+    },
     "level": 47,
     "category": "amulet",
     "stats": {
@@ -301,8 +541,16 @@
       "damage": 3
     }
   },
-  "Chance à Mulette": {
-    "name": "Chance à Mulette",
+  "674e524064788cc741418784": {
+    "id": "674e524064788cc741418784",
+    "idShort": "0u",
+    "name": {
+      "fr": "Chance à Mulette",
+      "en": "Lucky Mulette",
+      "pt": "Mulette da Sorte",
+      "de": "Glücksbringer von Mulette",
+      "es": "Suerte de Amulata"
+    },
     "level": 44,
     "category": "amulet",
     "stats": {
@@ -312,8 +560,16 @@
       "dodge": 10
     }
   },
-  "Harmonie": {
-    "name": "Harmonie",
+  "674e524064788cc741418785": {
+    "id": "674e524064788cc741418785",
+    "idShort": "0v",
+    "name": {
+      "fr": "Harmonie",
+      "en": "Harmony",
+      "pt": "Harmonia",
+      "de": "Harmonie",
+      "es": "Armonía"
+    },
     "level": 47,
     "category": "amulet",
     "stats": {
@@ -326,8 +582,16 @@
       "power": 15
     }
   },
-  "Accord": {
-    "name": "Accord",
+  "674e524064788cc741418787": {
+    "id": "674e524064788cc741418787",
+    "idShort": "0w",
+    "name": {
+      "fr": "Accord",
+      "en": "Peace",
+      "pt": "Acordo",
+      "de": "Einvernehmen",
+      "es": "Acuerdo"
+    },
     "level": 38,
     "category": "amulet",
     "stats": {
@@ -340,8 +604,16 @@
       "initiative": 100
     }
   },
-  "Entente": {
-    "name": "Entente",
+  "674e524064788cc741418788": {
+    "id": "674e524064788cc741418788",
+    "idShort": "0x",
+    "name": {
+      "fr": "Entente",
+      "en": "Understanding",
+      "pt": "Entendimento",
+      "de": "Eintracht",
+      "es": "Entendimiento"
+    },
     "level": 23,
     "category": "amulet",
     "stats": {
@@ -352,8 +624,16 @@
       "wisdom": 3
     }
   },
-  "Emblème Livide": {
-    "name": "Emblème Livide",
+  "674e524064788cc741418789": {
+    "id": "674e524064788cc741418789",
+    "idShort": "0y",
+    "name": {
+      "fr": "Emblème Livide",
+      "en": "Palid Emblem",
+      "pt": "Emblema Pálido",
+      "de": "Emblem der Blässe",
+      "es": "Emblema Lívido"
+    },
     "level": 41,
     "category": "amulet",
     "stats": {
@@ -364,8 +644,16 @@
       "lock": 6
     }
   },
-  "Kabale": {
-    "name": "Kabale",
+  "674e524064788cc74141878a": {
+    "id": "674e524064788cc74141878a",
+    "idShort": "0z",
+    "name": {
+      "fr": "Kabale",
+      "en": "Kabbala",
+      "pt": "Kabala",
+      "de": "Kabbal",
+      "es": "Cábala"
+    },
     "level": 29,
     "category": "amulet",
     "stats": {
@@ -373,16 +661,32 @@
       "wisdom": 15
     }
   },
-  "Amulette Itby": {
-    "name": "Amulette Itby",
+  "674e524064788cc74141878b": {
+    "id": "674e524064788cc74141878b",
+    "idShort": "0A",
+    "name": {
+      "fr": "Amulette Itby",
+      "en": "Instant Calm Amulet",
+      "pt": "Amuleto Histenshalt",
+      "de": "Amulett Itby",
+      "es": "Amuleto Blada"
+    },
     "level": 12,
     "category": "amulet",
     "stats": {
       "agility": 20
     }
   },
-  "La Reinette": {
-    "name": "La Reinette",
+  "674e524064788cc74141878c": {
+    "id": "674e524064788cc74141878c",
+    "idShort": "0B",
+    "name": {
+      "fr": "La Reinette",
+      "en": "Pippin",
+      "pt": "A Reineta",
+      "de": "Reignett",
+      "es": "La Ranilla"
+    },
     "level": 22,
     "category": "amulet",
     "stats": {
@@ -390,8 +694,16 @@
       "agility": 20
     }
   },
-  "Médaille Holy": {
-    "name": "Médaille Holy",
+  "674e524064788cc74141878d": {
+    "id": "674e524064788cc74141878d",
+    "idShort": "0C",
+    "name": {
+      "fr": "Médaille Holy",
+      "en": "Holy Medal",
+      "pt": "Medalha Sagrada",
+      "de": "Medaille Holy",
+      "es": "Medalla Manduca"
+    },
     "level": 31,
     "category": "amulet",
     "stats": {
@@ -402,8 +714,16 @@
       "lock": 3
     }
   },
-  "Plimclik": {
-    "name": "Plimclik",
+  "674e524064788cc74141878f": {
+    "id": "674e524064788cc74141878f",
+    "idShort": "0D",
+    "name": {
+      "fr": "Plimclik",
+      "en": "Plimclik",
+      "pt": "Plimclik",
+      "de": "Plimclik",
+      "es": "Plimclik"
+    },
     "level": 130,
     "category": "amulet",
     "stats": {
@@ -412,8 +732,16 @@
       "range": 1
     }
   },
-  "La Broche Hète": {
-    "name": "La Broche Hète",
+  "674e524064788cc741418790": {
+    "id": "674e524064788cc741418790",
+    "idShort": "0E",
+    "name": {
+      "fr": "La Broche Hète",
+      "en": "Pin of Mhete",
+      "pt": "Broche de Mhete",
+      "de": "Die Brosche Hète",
+      "es": "El Broche Heta"
+    },
     "level": 28,
     "category": "amulet",
     "stats": {
@@ -422,8 +750,16 @@
       "initiative": 150
     }
   },
-  "La Chaîne Nhanor Kibrill": {
-    "name": "La Chaîne Nhanor Kibrill",
+  "674e524064788cc741418791": {
+    "id": "674e524064788cc741418791",
+    "idShort": "0F",
+    "name": {
+      "fr": "La Chaîne Nhanor Kibrill",
+      "en": "Nhanor Kibrill Chain",
+      "pt": "Corrente Nhanor Kibrill",
+      "de": "Das Gelitzder Gogolkettchen",
+      "es": "La cadena Nhoro Kebriya"
+    },
     "level": 13,
     "category": "amulet",
     "stats": {
@@ -431,8 +767,16 @@
       "dodge": 4
     }
   },
-  "Chaîne de la Liche": {
-    "name": "Chaîne de la Liche",
+  "674e524064788cc741418792": {
+    "id": "674e524064788cc741418792",
+    "idShort": "0G",
+    "name": {
+      "fr": "Chaîne de la Liche",
+      "en": "Liche Chain",
+      "pt": "Corrente de Liche",
+      "de": "Kette des Lichas",
+      "es": "Cadena del Lich"
+    },
     "level": 45,
     "category": "amulet",
     "stats": {
@@ -442,10 +786,18 @@
       "summon": 2
     }
   },
-  "Abramu": {
-    "name": "Abramu",
+  "674e524064788cc7414187d7": {
+    "id": "674e524064788cc7414187d7",
+    "idShort": "0H",
+    "name": {
+      "fr": "Abramu",
+      "en": "The Treemu",
+      "pt": "Arvramuleto",
+      "de": "Astamu",
+      "es": "Abramú"
+    },
     "level": 46,
-    "panoply": "Abranoplie",
+    "panoply": "674e523f64788cc7414183f3",
     "category": "amulet",
     "stats": {
       "health": 100,
@@ -458,8 +810,16 @@
       "damage": 5
     }
   },
-  "Ambramulette Moskito": {
-    "name": "Ambramulette Moskito",
+  "674e524064788cc7414187ef": {
+    "id": "674e524064788cc7414187ef",
+    "idShort": "0I",
+    "name": {
+      "fr": "Ambramulette Moskito",
+      "en": "Moskito Ambamulet",
+      "pt": "Ambamuleto Moskito",
+      "de": "Moskito-Bernisteinmedaillon",
+      "es": "Ambarmuleto moskito"
+    },
     "level": 40,
     "category": "amulet",
     "stats": {
@@ -470,8 +830,16 @@
       "dodge": 4
     }
   },
-  "Ambramulette Arakne": {
-    "name": "Ambramulette Arakne",
+  "674e524064788cc7414187f0": {
+    "id": "674e524064788cc7414187f0",
+    "idShort": "0J",
+    "name": {
+      "fr": "Ambramulette Arakne",
+      "en": "Arachnee Ambamulet",
+      "pt": "Ambamuleto Arakne",
+      "de": "Arachneen-Bernsteinmedaillon",
+      "es": "Ambarmuleto arakna"
+    },
     "level": 34,
     "category": "amulet",
     "stats": {
@@ -484,8 +852,16 @@
       "dodge": 4
     }
   },
-  "L'Amulette du Puzzle de la Griffe": {
-    "name": "L'Amulette du Puzzle de la Griffe",
+  "674e524064788cc7414189f1": {
+    "id": "674e524064788cc7414189f1",
+    "idShort": "0K",
+    "name": {
+      "fr": "L'Amulette du Puzzle de la Griffe",
+      "en": "Claw's Jigsaw Amulet",
+      "pt": "Amuleto do Quebra-Cabeça da Garra",
+      "de": "Amulett des Krallenrätsels",
+      "es": "El Amuleto del Puzzle de la Garra"
+    },
     "level": 44,
     "category": "amulet",
     "stats": {
@@ -495,8 +871,16 @@
       "initiative": 200
     }
   },
-  "Amulette du Badoul": {
-    "name": "Amulette du Badoul",
+  "674e524064788cc7414189f2": {
+    "id": "674e524064788cc7414189f2",
+    "idShort": "0L",
+    "name": {
+      "fr": "Amulette du Badoul",
+      "en": "Badoul's Amulet",
+      "pt": "Amuleto do Badul",
+      "de": "Amulett von Badoul",
+      "es": "Amuleto del Badulo"
+    },
     "level": 32,
     "category": "amulet",
     "stats": {
@@ -505,8 +889,16 @@
       "damage": 4
     }
   },
-  "Amulette de la Boule": {
-    "name": "Amulette de la Boule",
+  "674e524064788cc7414189f3": {
+    "id": "674e524064788cc7414189f3",
+    "idShort": "0M",
+    "name": {
+      "fr": "Amulette de la Boule",
+      "en": "Amulet of Luck",
+      "pt": "Amuleto da Bola",
+      "de": "Glückskugel",
+      "es": "Amuleto de la Bola"
+    },
     "level": 49,
     "category": "amulet",
     "stats": {
@@ -514,8 +906,16 @@
       "neutralResistPer": 7
     }
   },
-  "Amulette de la Bouboule": {
-    "name": "Amulette de la Bouboule",
+  "674e524064788cc7414189f4": {
+    "id": "674e524064788cc7414189f4",
+    "idShort": "0N",
+    "name": {
+      "fr": "Amulette de la Bouboule",
+      "en": "Amulet of Double Luck",
+      "pt": "Amuleto da Bobola",
+      "de": "Glückskügelchen",
+      "es": "Amuleto de la Bobola"
+    },
     "level": 83,
     "category": "amulet",
     "stats": {
@@ -528,8 +928,16 @@
       "waterResistPer": 4
     }
   },
-  "Dragolyre Remaniée": {
-    "name": "Dragolyre Remaniée",
+  "674e524064788cc7414189f5": {
+    "id": "674e524064788cc7414189f5",
+    "idShort": "0O",
+    "name": {
+      "fr": "Dragolyre Remaniée",
+      "en": "Modified Dragolyre",
+      "pt": "Dragolira modificada",
+      "de": "Modifizierte Dracoleier",
+      "es": "Dragolira modificada"
+    },
     "level": 42,
     "category": "amulet",
     "stats": {
@@ -541,8 +949,16 @@
       "summon": 1
     }
   },
-  "Omelette Amulette": {
-    "name": "Omelette Amulette",
+  "674e524064788cc7414189f6": {
+    "id": "674e524064788cc7414189f6",
+    "idShort": "0P",
+    "name": {
+      "fr": "Omelette Amulette",
+      "en": "Omelette Amulet",
+      "pt": "Amuleto Melete",
+      "de": "Omelett-Amulett",
+      "es": "Amuleto Hortilla"
+    },
     "level": 17,
     "category": "amulet",
     "stats": {
@@ -550,8 +966,16 @@
       "summon": 1
     }
   },
-  "La Bourgeonette": {
-    "name": "La Bourgeonette",
+  "674e524064788cc7414189f7": {
+    "id": "674e524064788cc7414189f7",
+    "idShort": "0Q",
+    "name": {
+      "fr": "La Bourgeonette",
+      "en": "Bud",
+      "pt": "Botão",
+      "de": "Knospenkettchen",
+      "es": "El Brotecillo"
+    },
     "level": 32,
     "category": "amulet",
     "stats": {
@@ -563,8 +987,16 @@
       "lock": 5
     }
   },
-  "Le foulard du Lard Fou": {
-    "name": "Le foulard du Lard Fou",
+  "674e524064788cc7414189f8": {
+    "id": "674e524064788cc7414189f8",
+    "idShort": "0R",
+    "name": {
+      "fr": "Le foulard du Lard Fou",
+      "en": "Mad Bacon's Scarf",
+      "pt": "O Tecido do Toucinho Louco",
+      "de": "Lard Fous Halstuch",
+      "es": "El fular del Tocino Loco"
+    },
     "level": 42,
     "category": "amulet",
     "stats": {
@@ -575,16 +1007,32 @@
       "neutralResistPer": 3
     }
   },
-  "La Lou Ptiote": {
-    "name": "La Lou Ptiote",
+  "674e524064788cc7414189f9": {
+    "id": "674e524064788cc7414189f9",
+    "idShort": "0S",
+    "name": {
+      "fr": "La Lou Ptiote",
+      "en": "Hozuki Lampulet",
+      "pt": "Lou Ptiote",
+      "de": "Lams Pione",
+      "es": "La Lucecita"
+    },
     "level": 15,
     "category": "amulet",
     "stats": {
       "intelligence": 25
     }
   },
-  "La Bibelaw": {
-    "name": "La Bibelaw",
+  "674e524064788cc7414189fa": {
+    "id": "674e524064788cc7414189fa",
+    "idShort": "0T",
+    "name": {
+      "fr": "La Bibelaw",
+      "en": "The Bibelaw",
+      "pt": "O Bibelaw",
+      "de": "Das Bibbelaw",
+      "es": "La Chuchoría"
+    },
     "level": 30,
     "category": "amulet",
     "stats": {
@@ -595,8 +1043,16 @@
       "airResistPer": 2
     }
   },
-  "L'Œil de Kanigrou": {
-    "name": "L'Œil de Kanigrou",
+  "674e524064788cc7414189fb": {
+    "id": "674e524064788cc7414189fb",
+    "idShort": "0U",
+    "name": {
+      "fr": "L'Œil de Kanigrou",
+      "en": "Eye of the Kaniger",
+      "pt": "Olho do Kanigre",
+      "de": "Das Auge des Kanigrous",
+      "es": "Ojo de kanugro"
+    },
     "level": 52,
     "category": "amulet",
     "stats": {
@@ -607,18 +1063,34 @@
       "criticalDamage": 5
     }
   },
-  "La Veaux Doux": {
-    "name": "La Veaux Doux",
+  "674e524064788cc7414189fc": {
+    "id": "674e524064788cc7414189fc",
+    "idShort": "0V",
+    "name": {
+      "fr": "La Veaux Doux",
+      "en": "The Soft Calf",
+      "pt": "O colar dos bezerros",
+      "de": "Weichmutband",
+      "es": "Jabún Suave"
+    },
     "level": 11,
     "category": "amulet",
     "stats": {
       "strength": 17
     }
   },
-  "Amukwak de Flammes": {
-    "name": "Amukwak de Flammes",
+  "674e524064788cc741418a10": {
+    "id": "674e524064788cc741418a10",
+    "idShort": "0W",
+    "name": {
+      "fr": "Amukwak de Flammes",
+      "en": "Fire Kwakamulet",
+      "pt": "Kwakamuleto de Fogo",
+      "de": "Feuriges Amukwack",
+      "es": "Amukwak de llamas"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Flammes",
+    "panoply": "674e523f64788cc7414180d4",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -627,10 +1099,18 @@
       "fireResistPer": 5
     }
   },
-  "Amulette du Bouftou": {
-    "name": "Amulette du Bouftou",
+  "674e524064788cc741418a11": {
+    "id": "674e524064788cc741418a11",
+    "idShort": "0X",
+    "name": {
+      "fr": "Amulette du Bouftou",
+      "en": "Gobball Amulet",
+      "pt": "Amuleto do Papatudo",
+      "de": "Amulett des Fresssacks",
+      "es": "Amuleto de jalató"
+    },
     "level": 20,
-    "panoply": "Panoplie du Bouftou",
+    "panoply": "674e523f64788cc7414180d3",
     "category": "amulet",
     "stats": {
       "health": 15,
@@ -638,20 +1118,36 @@
       "intelligence": 15
     }
   },
-  "Araknamu": {
-    "name": "Araknamu",
+  "674e524064788cc741418a12": {
+    "id": "674e524064788cc741418a12",
+    "idShort": "0Y",
+    "name": {
+      "fr": "Araknamu",
+      "en": "Arachnamu",
+      "pt": "Araknamuleto",
+      "de": "Arach-Amulett",
+      "es": "Araknamú"
+    },
     "level": 40,
-    "panoply": "Panoplie de l'Abraknyde",
+    "panoply": "674e523f64788cc7414180d5",
     "category": "amulet",
     "stats": {
       "strength": 30,
       "range": 1
     }
   },
-  "Amulette Royale du Bouftou": {
-    "name": "Amulette Royale du Bouftou",
+  "674e524064788cc741418a21": {
+    "id": "674e524064788cc741418a21",
+    "idShort": "0Z",
+    "name": {
+      "fr": "Amulette Royale du Bouftou",
+      "en": "Royal Gobball's Amulet",
+      "pt": "Amuleto Real do Papatudo",
+      "de": "Amulett des königlichen Fresssacks",
+      "es": "Amuleto Real de Jalató"
+    },
     "level": 28,
-    "panoply": "Panoplie du Bouftou Royal",
+    "panoply": "674e523f64788cc7414180d6",
     "category": "amulet",
     "stats": {
       "strength": 20,
@@ -659,10 +1155,18 @@
       "criticalChance": 3
     }
   },
-  "Gelamu": {
-    "name": "Gelamu",
+  "674e524064788cc741418a37": {
+    "id": "674e524064788cc741418a37",
+    "idShort": "10",
+    "name": {
+      "fr": "Gelamu",
+      "en": "Gelamu",
+      "pt": "Gelamu",
+      "de": "Gelamu",
+      "es": "Gelamú"
+    },
     "level": 60,
-    "panoply": "Panoplie Gelax",
+    "panoply": "674e523f64788cc7414180d8",
     "category": "amulet",
     "stats": {
       "range": 1,
@@ -670,10 +1174,18 @@
       "initiative": 300
     }
   },
-  "Amulette de l'Aventurier": {
-    "name": "Amulette de l'Aventurier",
+  "674e524064788cc741418a3d": {
+    "id": "674e524064788cc741418a3d",
+    "idShort": "11",
+    "name": {
+      "fr": "Amulette de l'Aventurier",
+      "en": "Adventurer Amulet",
+      "pt": "Amuleto do Aventureiro",
+      "de": "Amulett des Abenteurers",
+      "es": "Amuleto de aventurero"
+    },
     "level": 5,
-    "panoply": "Panoplie du Jeune Aventurier",
+    "panoply": "674e523f64788cc7414180d7",
     "category": "amulet",
     "stats": {
       "strength": 5,
@@ -682,10 +1194,18 @@
       "agility": 5
     }
   },
-  "Vegamu": {
-    "name": "Vegamu",
+  "674e524064788cc741418a51": {
+    "id": "674e524064788cc741418a51",
+    "idShort": "12",
+    "name": {
+      "fr": "Vegamu",
+      "en": "Vegamu",
+      "pt": "Vegamu",
+      "de": "Vegamu",
+      "es": "Vegamú"
+    },
     "level": 40,
-    "panoply": "Panoplie Végétatif",
+    "panoply": "674e523f64788cc7414180dc",
     "category": "amulet",
     "stats": {
       "health": 60,
@@ -694,8 +1214,16 @@
       "range": 2
     }
   },
-  "Amulette Argie": {
-    "name": "Amulette Argie",
+  "674e524064788cc741418b1e": {
+    "id": "674e524064788cc741418b1e",
+    "idShort": "13",
+    "name": {
+      "fr": "Amulette Argie",
+      "en": "Kaa Amulet",
+      "pt": "Amuletárgico",
+      "de": "Amulett Argie",
+      "es": "Amuletargo"
+    },
     "level": 82,
     "category": "amulet",
     "stats": {
@@ -709,8 +1237,16 @@
       "airResist": 10
     }
   },
-  "Amulette du Craqueleur des Plaines": {
-    "name": "Amulette du Craqueleur des Plaines",
+  "674e524064788cc741418b20": {
+    "id": "674e524064788cc741418b20",
+    "idShort": "14",
+    "name": {
+      "fr": "Amulette du Craqueleur des Plaines",
+      "en": "Plain Crackler Amulet",
+      "pt": "Amuleto do Smagador das Planícies",
+      "de": "Amulett der Krachler der Ebenen",
+      "es": "Amuleto de crujidor de las llanuras"
+    },
     "level": 52,
     "category": "amulet",
     "stats": {
@@ -722,8 +1258,16 @@
       "earthResist": 8
     }
   },
-  "La Maîtrise des Poupées": {
-    "name": "La Maîtrise des Poupées",
+  "674e524064788cc741418b21": {
+    "id": "674e524064788cc741418b21",
+    "idShort": "15",
+    "name": {
+      "fr": "La Maîtrise des Poupées",
+      "en": "Skill of Dolls",
+      "pt": "O Domínio das Bonecas",
+      "de": "Puppet-Master",
+      "es": "El Dominio de los Muñecos"
+    },
     "level": 69,
     "category": "amulet",
     "stats": {
@@ -738,8 +1282,16 @@
       "earthResistPer": 2
     }
   },
-  "Amulette du Renouveau": {
-    "name": "Amulette du Renouveau",
+  "674e524064788cc741418b28": {
+    "id": "674e524064788cc741418b28",
+    "idShort": "16",
+    "name": {
+      "fr": "Amulette du Renouveau",
+      "en": "Renewed Amulet",
+      "pt": "Amuleto Renovado",
+      "de": "Medaillon des zweiten Frühlings",
+      "es": "Amuleto del Renuevo"
+    },
     "level": 118,
     "category": "amulet",
     "stats": {
@@ -753,8 +1305,16 @@
       "earthResistPer": 5
     }
   },
-  "Amulette Turquoise": {
-    "name": "Amulette Turquoise",
+  "674e524064788cc741418b29": {
+    "id": "674e524064788cc741418b29",
+    "idShort": "17",
+    "name": {
+      "fr": "Amulette Turquoise",
+      "en": "Turquoise Amulet",
+      "pt": "Amuleto Turquesa",
+      "de": "Türkis-Amulett",
+      "es": "Amuleto turquesa"
+    },
     "level": 63,
     "category": "amulet",
     "stats": {
@@ -766,8 +1326,16 @@
       "prospecting": 5
     }
   },
-  "Amulette du Mineur Sombre": {
-    "name": "Amulette du Mineur Sombre",
+  "674e524064788cc741418b34": {
+    "id": "674e524064788cc741418b34",
+    "idShort": "18",
+    "name": {
+      "fr": "Amulette du Mineur Sombre",
+      "en": "Dark Miner Amulet",
+      "pt": "Amuleto do Mineiro Sombrio",
+      "de": "Amulett des Schattenbergmanns",
+      "es": "Amuleto de minero oscuro"
+    },
     "level": 39,
     "category": "amulet",
     "stats": {
@@ -782,8 +1350,16 @@
       "airResistPer": -2
     }
   },
-  "La Feuille d'Hiver": {
-    "name": "La Feuille d'Hiver",
+  "674e524064788cc741418b35": {
+    "id": "674e524064788cc741418b35",
+    "idShort": "19",
+    "name": {
+      "fr": "La Feuille d'Hiver",
+      "en": "Winter Leaf",
+      "pt": "A folha do inverno",
+      "de": "Winterblatt",
+      "es": "La Hoja de Invierno"
+    },
     "level": 95,
     "category": "amulet",
     "stats": {
@@ -796,8 +1372,16 @@
       "waterResistPer": 5
     }
   },
-  "La Feuille de Printemps": {
-    "name": "La Feuille de Printemps",
+  "674e524064788cc741418b36": {
+    "id": "674e524064788cc741418b36",
+    "idShort": "1a",
+    "name": {
+      "fr": "La Feuille de Printemps",
+      "en": "Spring Leaf",
+      "pt": "A folha da primavera",
+      "de": "Frühlingsblatt",
+      "es": "La Hoja de Primavera"
+    },
     "level": 123,
     "category": "amulet",
     "stats": {
@@ -812,8 +1396,16 @@
       "waterResistPer": 5
     }
   },
-  "La Feuille d'Eté": {
-    "name": "La Feuille d'Eté",
+  "674e524064788cc741418b37": {
+    "id": "674e524064788cc741418b37",
+    "idShort": "1b",
+    "name": {
+      "fr": "La Feuille d'Eté",
+      "en": "Summer Leaf",
+      "pt": "A folha do verão",
+      "de": "Sommerblatt",
+      "es": "La Hoja de Verano"
+    },
     "level": 45,
     "category": "amulet",
     "stats": {
@@ -829,8 +1421,16 @@
       "mpReduction": 5
     }
   },
-  "Amulette de Shika": {
-    "name": "Amulette de Shika",
+  "674e524064788cc741418b3b": {
+    "id": "674e524064788cc741418b3b",
+    "idShort": "1c",
+    "name": {
+      "fr": "Amulette de Shika",
+      "en": "Shika Amulet",
+      "pt": "Amuleto de Shika",
+      "de": "Shikas Amulett",
+      "es": "Amuleto de Shika"
+    },
     "level": 29,
     "category": "amulet",
     "stats": {
@@ -840,10 +1440,18 @@
       "lock": 3
     }
   },
-  "Amulette \"Dents de Wabbits\"": {
-    "name": "Amulette \"Dents de Wabbits\"",
+  "674e524064788cc741418b5c": {
+    "id": "674e524064788cc741418b5c",
+    "idShort": "1d",
+    "name": {
+      "fr": "Amulette \"Dents de Wabbits\"",
+      "en": "Wabbit-tooth Amulet",
+      "pt": "Amuleto \"Dentes de Wabbits\"",
+      "de": "\"Die Zähne des Wabbits\"",
+      "es": "Amuleto «Dientes de Wabbits»"
+    },
     "level": 60,
-    "panoply": "Panoplie du Wabbit",
+    "panoply": "674e523f64788cc7414181a6",
     "category": "amulet",
     "stats": {
       "strength": 20,
@@ -854,10 +1462,18 @@
       "initiative": 100
     }
   },
-  "Amulette de l'Homme Ours": {
-    "name": "Amulette de l'Homme Ours",
+  "674e524064788cc741418c0d": {
+    "id": "674e524064788cc741418c0d",
+    "idShort": "1e",
+    "name": {
+      "fr": "Amulette de l'Homme Ours",
+      "en": "Bearman's Necklace",
+      "pt": "Amuleto do Homem Urso",
+      "de": "Amulett des Bärenmannes",
+      "es": "Amuleto del hombre oso"
+    },
     "level": 20,
-    "panoply": "Panoplie de l'Homme Ours",
+    "panoply": "674e523f64788cc7414180de",
     "category": "amulet",
     "stats": {
       "wisdom": 7,
@@ -865,10 +1481,18 @@
       "fireResistPer": -7
     }
   },
-  "Amukwak de Glace": {
-    "name": "Amukwak de Glace",
+  "674e524064788cc741418c10": {
+    "id": "674e524064788cc741418c10",
+    "idShort": "1f",
+    "name": {
+      "fr": "Amukwak de Glace",
+      "en": "Ice Kwakamulet",
+      "pt": "Kwakamuleto de Gelo",
+      "de": "Eisiges Amukwack",
+      "es": "Amukwak de hielo"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Glace",
+    "panoply": "674e523f64788cc7414180df",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -877,10 +1501,18 @@
       "waterResistPer": 5
     }
   },
-  "Fourbamulette": {
-    "name": "Fourbamulette",
+  "674e524064788cc741418c16": {
+    "id": "674e524064788cc741418c16",
+    "idShort": "1g",
+    "name": {
+      "fr": "Fourbamulette",
+      "en": "Deceitful Amulet",
+      "pt": "Amularbustor",
+      "de": "Heckenschutzamulett",
+      "es": "Mazorramuleto"
+    },
     "level": 103,
-    "panoply": "Panoplie Fourbasse",
+    "panoply": "674e523f64788cc7414180e2",
     "category": "amulet",
     "stats": {
       "health": 100,
@@ -895,10 +1527,18 @@
       "neutralResistPer": 7
     }
   },
-  "Amukwak de Terre": {
-    "name": "Amukwak de Terre",
+  "674e524064788cc741418c1a": {
+    "id": "674e524064788cc741418c1a",
+    "idShort": "1h",
+    "name": {
+      "fr": "Amukwak de Terre",
+      "en": "Earth Kwakamulet",
+      "pt": "Kwakamuleto de Terra",
+      "de": "Steinernes Amukwack",
+      "es": "Amukwak de tierra"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Terre",
+    "panoply": "674e523f64788cc7414180e0",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -907,10 +1547,18 @@
       "earthResistPer": 5
     }
   },
-  "Amukwak de Vent": {
-    "name": "Amukwak de Vent",
+  "674e524064788cc741418c1b": {
+    "id": "674e524064788cc741418c1b",
+    "idShort": "1i",
+    "name": {
+      "fr": "Amukwak de Vent",
+      "en": "Wind Kwakamulet",
+      "pt": "Kwakamuleto do Vento",
+      "de": "Wind-Amukwack",
+      "es": "Amukwak de viento"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Vent",
+    "panoply": "674e523f64788cc7414180e1",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -919,10 +1567,18 @@
       "airResistPer": 5
     }
   },
-  "Epis de Farle": {
-    "name": "Epis de Farle",
+  "674e524064788cc741418c2e": {
+    "id": "674e524064788cc741418c2e",
+    "idShort": "1j",
+    "name": {
+      "fr": "Epis de Farle",
+      "en": "Farle's Ears",
+      "pt": "Orelhas de Farle",
+      "de": "Farles Ähre",
+      "es": "Espiga de Farle"
+    },
     "level": 75,
-    "panoply": "Panoplie de Farle Ingalsse",
+    "panoply": "674e523f64788cc7414180e3",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -933,8 +1589,16 @@
       "prospecting": 5
     }
   },
-  "Amulette Tude": {
-    "name": "Amulette Tude",
+  "674e524064788cc741418c32": {
+    "id": "674e524064788cc741418c32",
+    "idShort": "1k",
+    "name": {
+      "fr": "Amulette Tude",
+      "en": "Tude Amulet",
+      "pt": "Amuleto Tude",
+      "de": "Halskette Tude",
+      "es": "Amuleto Incakodo"
+    },
     "level": 1,
     "category": "amulet",
     "stats": {
@@ -942,10 +1606,18 @@
       "initiative": 5
     }
   },
-  "Amulette des Champs": {
-    "name": "Amulette des Champs",
+  "674e524064788cc741418c40": {
+    "id": "674e524064788cc741418c40",
+    "idShort": "1l",
+    "name": {
+      "fr": "Amulette des Champs",
+      "en": "Field Amulet",
+      "pt": "Amuleto dos Campos",
+      "de": "Wald-und-Wiesen-Amulett",
+      "es": "Amuleto de los campos"
+    },
     "level": 15,
-    "panoply": "Panoplie Champêtre",
+    "panoply": "674e523f64788cc7414180e4",
     "category": "amulet",
     "stats": {
       "summon": 1,
@@ -953,10 +1625,18 @@
       "lock": -9
     }
   },
-  "Amulette du Chef Bwork": {
-    "name": "Amulette du Chef Bwork",
+  "674e524064788cc741418c4f": {
+    "id": "674e524064788cc741418c4f",
+    "idShort": "1m",
+    "name": {
+      "fr": "Amulette du Chef Bwork",
+      "en": "Bwork Chief Amulet",
+      "pt": "Amuleto do Chefe Bwork",
+      "de": "Amulett des Bwork-Chefs",
+      "es": "Amuleto de jefe bwork"
+    },
     "level": 100,
-    "panoply": "Panoplie du Chef Bwork",
+    "panoply": "674e523f64788cc7414180e5",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -970,10 +1650,18 @@
       "airResistPer": 3
     }
   },
-  "Amulette du Chef Crocodaille": {
-    "name": "Amulette du Chef Crocodaille",
+  "674e524064788cc741418c56": {
+    "id": "674e524064788cc741418c56",
+    "idShort": "1n",
+    "name": {
+      "fr": "Amulette du Chef Crocodaille",
+      "en": "Crocodyl Chief Amulet",
+      "pt": "Amuleto do Chefe Crocodyl",
+      "de": "Amulett des Chef-Crocodylls",
+      "es": "Amuleto de jefe cocodrail"
+    },
     "level": 70,
-    "panoply": "Panoplie du Chef Crocodaille",
+    "panoply": "674e523f64788cc7414180e6",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -983,20 +1671,36 @@
       "airResistPer": 2
     }
   },
-  "Amulette du Moskito": {
-    "name": "Amulette du Moskito",
+  "674e524064788cc741418c97": {
+    "id": "674e524064788cc741418c97",
+    "idShort": "1o",
+    "name": {
+      "fr": "Amulette du Moskito",
+      "en": "Moskito Amulet",
+      "pt": "Amuleto do Moskito",
+      "de": "Medaillon des Moskitos",
+      "es": "Amuleto del moskito"
+    },
     "level": 15,
-    "panoply": "Panoplie Moskito",
+    "panoply": "674e523f64788cc7414180e9",
     "category": "amulet",
     "stats": {
       "health": 15,
       "chance": 20
     }
   },
-  "Amulette du Bandit": {
-    "name": "Amulette du Bandit",
+  "674e524064788cc741418c9c": {
+    "id": "674e524064788cc741418c9c",
+    "idShort": "1p",
+    "name": {
+      "fr": "Amulette du Bandit",
+      "en": "Lars Amulet",
+      "pt": "Amuleto do Bandido",
+      "de": "Banditenamulett",
+      "es": "Amuleto de bandido"
+    },
     "level": 16,
-    "panoply": "Panoplie du Bandit",
+    "panoply": "674e523f64788cc7414180eb",
     "category": "amulet",
     "stats": {
       "health": 10,
@@ -1008,10 +1712,18 @@
       "airDamage": 1
     }
   },
-  "Craquamulette": {
-    "name": "Craquamulette",
+  "674e524064788cc741418ca6": {
+    "id": "674e524064788cc741418ca6",
+    "idShort": "1q",
+    "name": {
+      "fr": "Craquamulette",
+      "en": "Crackler Amulet",
+      "pt": "Smagamuleto",
+      "de": "Krachlerkette",
+      "es": "Crujimuleto"
+    },
     "level": 58,
-    "panoply": "Panoplie du Craqueleur",
+    "panoply": "674e523f64788cc7414180ec",
     "category": "amulet",
     "stats": {
       "strength": 15,
@@ -1021,8 +1733,16 @@
       "dodge": -7
     }
   },
-  "Médaille Lahilama": {
-    "name": "Médaille Lahilama",
+  "674e524064788cc741418cd6": {
+    "id": "674e524064788cc741418cd6",
+    "idShort": "1r",
+    "name": {
+      "fr": "Médaille Lahilama",
+      "en": "Lahilama Medal",
+      "pt": "Medalha Lahilama",
+      "de": "Lahilama-Medaillon",
+      "es": "Medalla Hilama"
+    },
     "level": 31,
     "category": "amulet",
     "stats": {
@@ -1032,8 +1752,16 @@
       "heal": 5
     }
   },
-  "Bambamulette": {
-    "name": "Bambamulette",
+  "674e524064788cc741418cd7": {
+    "id": "674e524064788cc741418cd7",
+    "idShort": "1s",
+    "name": {
+      "fr": "Bambamulette",
+      "en": "Bambulet",
+      "pt": "Bambuleto",
+      "de": "Bambulett",
+      "es": "Bambumuleto"
+    },
     "level": 40,
     "category": "amulet",
     "stats": {
@@ -1046,8 +1774,16 @@
       "dodge": 3
     }
   },
-  "Talisman du Faucheur d'Avoine": {
-    "name": "Talisman du Faucheur d'Avoine",
+  "674e524064788cc741418cd8": {
+    "id": "674e524064788cc741418cd8",
+    "idShort": "1t",
+    "name": {
+      "fr": "Talisman du Faucheur d'Avoine",
+      "en": "Bow'hee Talisman",
+      "pt": "Talismã do Ceifador de Aveia",
+      "de": "Talisman des Karpf'Ediemtales",
+      "es": "Talismán del segador de avena"
+    },
     "level": 55,
     "category": "amulet",
     "stats": {
@@ -1060,8 +1796,16 @@
       "criticalDamage": -10
     }
   },
-  "La Résinette": {
-    "name": "La Résinette",
+  "674e524064788cc741418cd9": {
+    "id": "674e524064788cc741418cd9",
+    "idShort": "1u",
+    "name": {
+      "fr": "La Résinette",
+      "en": "Lil' Resin",
+      "pt": "Pequena Resina",
+      "de": "Harzilein",
+      "es": "La Resinilla"
+    },
     "level": 94,
     "category": "amulet",
     "stats": {
@@ -1074,10 +1818,18 @@
       "fireResistPer": 4
     }
   },
-  "Talisman d'Elya Wood": {
-    "name": "Talisman d'Elya Wood",
+  "674e524064788cc741418cda": {
+    "id": "674e524064788cc741418cda",
+    "idShort": "1v",
+    "name": {
+      "fr": "Talisman d'Elya Wood",
+      "en": "Elya Wood's Talisman",
+      "pt": "Talismã de Elya Wood",
+      "de": "Talisman von Elya Wood",
+      "es": "Talismán de Elya Wood"
+    },
     "level": 135,
-    "panoply": "Panoplie d'Elya Wood",
+    "panoply": "674e523f64788cc7414180f9",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1091,10 +1843,18 @@
       "fireResist": 13
     }
   },
-  "La Doubitch O'Boul": {
-    "name": "La Doubitch O'Boul",
+  "674e524064788cc741418cdd": {
+    "id": "674e524064788cc741418cdd",
+    "idShort": "1w",
+    "name": {
+      "fr": "La Doubitch O'Boul",
+      "en": "Smoothitch O'Ball",
+      "pt": "Amuletofedor O'Bal",
+      "de": "Die Weichlichkeit O'Bouls",
+      "es": "La Bostabola"
+    },
     "level": 77,
-    "panoply": "Panoplie O'Boul",
+    "panoply": "674e523f64788cc7414180f8",
     "category": "amulet",
     "stats": {
       "health": 70,
@@ -1103,8 +1863,16 @@
       "prospecting": 15
     }
   },
-  "Pendule du Gudule": {
-    "name": "Pendule du Gudule",
+  "674e524064788cc741418cee": {
+    "id": "674e524064788cc741418cee",
+    "idShort": "1x",
+    "name": {
+      "fr": "Pendule du Gudule",
+      "en": "Flooey's Clock",
+      "pt": "Pêndulo do Flooey",
+      "de": "Guduls Taschenuhr",
+      "es": "Péndulo de Gúdulo"
+    },
     "level": 46,
     "category": "amulet",
     "stats": {
@@ -1114,10 +1882,18 @@
       "damage": 3
     }
   },
-  "Larvamulette": {
-    "name": "Larvamulette",
+  "674e524064788cc741418d28": {
+    "id": "674e524064788cc741418d28",
+    "idShort": "1y",
+    "name": {
+      "fr": "Larvamulette",
+      "en": "Larvamulet",
+      "pt": "Larvamuleto",
+      "de": "Larvamulett",
+      "es": "Larvamuleto"
+    },
     "level": 26,
-    "panoply": "Panoplie Larvesque",
+    "panoply": "674e523f64788cc7414180f3",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -1125,8 +1901,16 @@
       "agility": 20
     }
   },
-  "Médaille Kido": {
-    "name": "Médaille Kido",
+  "674e524064788cc741418d43": {
+    "id": "674e524064788cc741418d43",
+    "idShort": "1z",
+    "name": {
+      "fr": "Médaille Kido",
+      "en": "Aykido Medal",
+      "pt": "Medalha AyKido",
+      "de": "Medaille Kido",
+      "es": "Medalla Kido"
+    },
     "level": 125,
     "category": "amulet",
     "stats": {
@@ -1139,8 +1923,16 @@
       "airResistPer": 10
     }
   },
-  "Collier du Tanukouï San": {
-    "name": "Collier du Tanukouï San",
+  "674e524064788cc741418d94": {
+    "id": "674e524064788cc741418d94",
+    "idShort": "1A",
+    "name": {
+      "fr": "Collier du Tanukouï San",
+      "en": "Tanukouï San Collar",
+      "pt": "Colar do Tanukui San",
+      "de": "Collier des Tanukouï San",
+      "es": "Collar del Tanukui San"
+    },
     "level": 152,
     "category": "amulet",
     "stats": {
@@ -1155,10 +1947,18 @@
       "neutralResist": 10
     }
   },
-  "Amulette Akwadala": {
-    "name": "Amulette Akwadala",
+  "674e524064788cc741418db1": {
+    "id": "674e524064788cc741418db1",
+    "idShort": "1B",
+    "name": {
+      "fr": "Amulette Akwadala",
+      "en": "Akwadala Amulet",
+      "pt": "Amuleto Akwadala",
+      "de": "Akwadala-Amulett",
+      "es": "Amuleto Akwadala"
+    },
     "level": 41,
-    "panoply": "Panoplie Akwadala",
+    "panoply": "674e523f64788cc7414180f4",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -1167,10 +1967,18 @@
       "damage": 2
     }
   },
-  "Amulette Terrdala": {
-    "name": "Amulette Terrdala",
+  "674e524064788cc741418db2": {
+    "id": "674e524064788cc741418db2",
+    "idShort": "1C",
+    "name": {
+      "fr": "Amulette Terrdala",
+      "en": "Terrdala Amulet",
+      "pt": "Amuleto Terradala",
+      "de": "Teradala-Amulett",
+      "es": "Amuleto Tierradala"
+    },
     "level": 78,
-    "panoply": "Panoplie Terrdala",
+    "panoply": "674e523f64788cc7414180f6",
     "category": "amulet",
     "stats": {
       "health": 60,
@@ -1180,10 +1988,18 @@
       "airResistPer": 3
     }
   },
-  "Amulette Feudala": {
-    "name": "Amulette Feudala",
+  "674e524064788cc741418db3": {
+    "id": "674e524064788cc741418db3",
+    "idShort": "1D",
+    "name": {
+      "fr": "Amulette Feudala",
+      "en": "Feudala Amulet",
+      "pt": "Amuleto Fogodala",
+      "de": "Feudala-Amulett",
+      "es": "Amuleto Fuegodala"
+    },
     "level": 91,
-    "panoply": "Panoplie Feudala",
+    "panoply": "674e523f64788cc7414180f7",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1194,10 +2010,18 @@
       "airResistPer": 3
     }
   },
-  "Amulette Aerdala": {
-    "name": "Amulette Aerdala",
+  "674e524064788cc741418db4": {
+    "id": "674e524064788cc741418db4",
+    "idShort": "1E",
+    "name": {
+      "fr": "Amulette Aerdala",
+      "en": "Aerdala Amulet",
+      "pt": "Amuleto Ardala",
+      "de": "Aerdala-Amulett",
+      "es": "Amuleto Airedala"
+    },
     "level": 62,
-    "panoply": "Panoplie Aerdala",
+    "panoply": "674e523f64788cc7414180f5",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -1206,10 +2030,18 @@
       "airDamage": 3
     }
   },
-  "Amulette du Kitsou": {
-    "name": "Amulette du Kitsou",
+  "674e524064788cc741418dd7": {
+    "id": "674e524064788cc741418dd7",
+    "idShort": "1F",
+    "name": {
+      "fr": "Amulette du Kitsou",
+      "en": "Kitsou Amulet",
+      "pt": "Amuleto do Kitsu",
+      "de": "Kitsou-Amulett",
+      "es": "Amuleto de kitsu"
+    },
     "level": 58,
-    "panoply": "Panoplie du Kitsou",
+    "panoply": "674e523f64788cc7414180fb",
     "category": "amulet",
     "stats": {
       "health": 100,
@@ -1218,10 +2050,18 @@
       "dodge": 5
     }
   },
-  "Amulette du Boufcoul": {
-    "name": "Amulette du Boufcoul",
+  "674e524064788cc741418f26": {
+    "id": "674e524064788cc741418f26",
+    "idShort": "1G",
+    "name": {
+      "fr": "Amulette du Boufcoul",
+      "en": "Gobkool Amulet",
+      "pt": "Amuleto do Papakool",
+      "de": "Fresscool-Amulett",
+      "es": "Amuleto de jalatranki"
+    },
     "level": 84,
-    "panoply": "Panoplie du Boufcoul",
+    "panoply": "674e523f64788cc7414180fd",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1237,10 +2077,18 @@
       "initiative": -50
     }
   },
-  "Amulette du Koalak": {
-    "name": "Amulette du Koalak",
+  "674e524064788cc741418f8d": {
+    "id": "674e524064788cc741418f8d",
+    "idShort": "1H",
+    "name": {
+      "fr": "Amulette du Koalak",
+      "en": "Koalak Amulet",
+      "pt": "Amuleto do Koalak",
+      "de": "Koalak-Amulett",
+      "es": "Amuleto de koalak"
+    },
     "level": 60,
-    "panoply": "Panoplie du Koalak",
+    "panoply": "674e523f64788cc741418100",
     "category": "amulet",
     "stats": {
       "wisdom": 20,
@@ -1251,10 +2099,18 @@
       "criticalDamage": 6
     }
   },
-  "Amulette du Tofu": {
-    "name": "Amulette du Tofu",
+  "674e524064788cc741418fc7": {
+    "id": "674e524064788cc741418fc7",
+    "idShort": "1I",
+    "name": {
+      "fr": "Amulette du Tofu",
+      "en": "Tofu Amulet",
+      "pt": "Amuleto do Tofu",
+      "de": "Tofu-Amulett",
+      "es": "Amuleto de tofu"
+    },
     "level": 22,
-    "panoply": "Panoplie du Tofu",
+    "panoply": "674e523f64788cc741418103",
     "category": "amulet",
     "stats": {
       "agility": 15,
@@ -1262,10 +2118,18 @@
       "dodge": 2
     }
   },
-  "Amulette du Scarabosse Doré": {
-    "name": "Amulette du Scarabosse Doré",
+  "674e524064788cc741418fd2": {
+    "id": "674e524064788cc741418fd2",
+    "idShort": "1J",
+    "name": {
+      "fr": "Amulette du Scarabosse Doré",
+      "en": "Golden Scarabugly Amulet",
+      "pt": "Amuleto do Scarachefe Dourado",
+      "de": "Amulett des Goldenen Scarabiests",
+      "es": "Amuleto del Escarajefe Dorado"
+    },
     "level": 45,
-    "panoply": "Panoplie du Scarabosse Doré",
+    "panoply": "674e523f64788cc741418104",
     "category": "amulet",
     "stats": {
       "intelligence": 30,
@@ -1273,10 +2137,18 @@
       "range": 1
     }
   },
-  "Amulette Paysanne": {
-    "name": "Amulette Paysanne",
+  "674e524064788cc741418fd5": {
+    "id": "674e524064788cc741418fd5",
+    "idShort": "1K",
+    "name": {
+      "fr": "Amulette Paysanne",
+      "en": "Farmer Amulet",
+      "pt": "Amuleto Camponês",
+      "de": "Bauernamulett",
+      "es": "Amuleto campesino"
+    },
     "level": 20,
-    "panoply": "Panoplie du Paysan",
+    "panoply": "674e523f64788cc741418101",
     "category": "amulet",
     "stats": {
       "chance": 15,
@@ -1285,10 +2157,18 @@
       "dodge": 3
     }
   },
-  "Amuloumulette": {
-    "name": "Amuloumulette",
+  "674e524064788cc741418fdb": {
+    "id": "674e524064788cc741418fdb",
+    "idShort": "1L",
+    "name": {
+      "fr": "Amuloumulette",
+      "en": "Boowolfulet",
+      "pt": "Booloboamul",
+      "de": "WuWulf-Amulett",
+      "es": "Amilubomuleto"
+    },
     "level": 57,
-    "panoply": "Panoplie du Mulou",
+    "panoply": "674e523f64788cc7414180f2",
     "category": "amulet",
     "stats": {
       "agility": 30,
@@ -1297,10 +2177,18 @@
       "prospecting": 10
     }
   },
-  "Amulette du Craqueleur Légendaire": {
-    "name": "Amulette du Craqueleur Légendaire",
+  "674e524064788cc741418ff0": {
+    "id": "674e524064788cc741418ff0",
+    "idShort": "1M",
+    "name": {
+      "fr": "Amulette du Craqueleur Légendaire",
+      "en": "Legendary Crackler Amulet",
+      "pt": "Amuleto do Smagador Legendário",
+      "de": "Amulett des Legendären Mega-Krachlers",
+      "es": "Amuleto de Crujidor Legendario"
+    },
     "level": 84,
-    "panoply": "Panoplie du Craqueleur Légendaire",
+    "panoply": "674e523f64788cc741418105",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1312,70 +2200,126 @@
       "waterResist": 5
     }
   },
-  "Amulette du Piou Rouge": {
-    "name": "Amulette du Piou Rouge",
+  "674e524064788cc741419007": {
+    "id": "674e524064788cc741419007",
+    "idShort": "1N",
+    "name": {
+      "fr": "Amulette du Piou Rouge",
+      "en": "Red Piwi Amulet",
+      "pt": "Amuleto do Piu Vermelho",
+      "de": "Amulett des roten Piepmatzes",
+      "es": "Amuleto de pío rojo"
+    },
     "level": 11,
-    "panoply": "Panoplie du Piou Rouge",
+    "panoply": "674e523f64788cc74141810d",
     "category": "amulet",
     "stats": {
       "intelligence": 20,
       "criticalChance": 3
     }
   },
-  "Amulette du Piou Bleu": {
-    "name": "Amulette du Piou Bleu",
+  "674e524064788cc741419008": {
+    "id": "674e524064788cc741419008",
+    "idShort": "1O",
+    "name": {
+      "fr": "Amulette du Piou Bleu",
+      "en": "Blue Piwi Amulet",
+      "pt": "Amuleto do Piu Azul",
+      "de": "Amulett des blauen Piepmatzes",
+      "es": "Amuleto de pío azul"
+    },
     "level": 10,
-    "panoply": "Panoplie du Piou Bleu",
+    "panoply": "674e523f64788cc74141810e",
     "category": "amulet",
     "stats": {
       "health": 20,
       "chance": 20
     }
   },
-  "Amulette du Piou Violet": {
-    "name": "Amulette du Piou Violet",
+  "674e524064788cc741419009": {
+    "id": "674e524064788cc741419009",
+    "idShort": "1P",
+    "name": {
+      "fr": "Amulette du Piou Violet",
+      "en": "Purple Piwi Amulet",
+      "pt": "Amuleto do Piu Violeta",
+      "de": "Amulett des violetten Piepmatzes",
+      "es": "Amuleto de pío violeta"
+    },
     "level": 9,
-    "panoply": "Panoplie du Piou Violet",
+    "panoply": "674e523f64788cc74141810f",
     "category": "amulet",
     "stats": {
       "health": 20,
       "power": 10
     }
   },
-  "Amulette du Piou Jaune": {
-    "name": "Amulette du Piou Jaune",
+  "674e524064788cc74141900a": {
+    "id": "674e524064788cc74141900a",
+    "idShort": "1Q",
+    "name": {
+      "fr": "Amulette du Piou Jaune",
+      "en": "Yellow Piwi Amulet",
+      "pt": "Amuleto do Piu Amarelo",
+      "de": "Amulett des gelben Piepmatzes",
+      "es": "Amuleto de pío amarillo"
+    },
     "level": 7,
-    "panoply": "Panoplie du Piou Jaune",
+    "panoply": "674e523f64788cc741418118",
     "category": "amulet",
     "stats": {
       "health": 20,
       "airDamage": 1
     }
   },
-  "Amulette du Piou Vert": {
-    "name": "Amulette du Piou Vert",
+  "674e524064788cc74141900b": {
+    "id": "674e524064788cc74141900b",
+    "idShort": "1R",
+    "name": {
+      "fr": "Amulette du Piou Vert",
+      "en": "Green Piwi Amulet",
+      "pt": "Amuleto do Piu Verde",
+      "de": "Amulett des grünen Piepmatzes",
+      "es": "Amuleto de pío verde"
+    },
     "level": 12,
-    "panoply": "Panoplie du Piou Vert",
+    "panoply": "674e523f64788cc741418119",
     "category": "amulet",
     "stats": {
       "wisdom": 10,
       "earthDamage": 1
     }
   },
-  "Amulette du Piou Rose": {
-    "name": "Amulette du Piou Rose",
+  "674e524064788cc74141900c": {
+    "id": "674e524064788cc74141900c",
+    "idShort": "1S",
+    "name": {
+      "fr": "Amulette du Piou Rose",
+      "en": "Pink Piwi Amulet",
+      "pt": "Amuleto do Piu Rosa",
+      "de": "Amulett des rosafarbenen Piepmatzes",
+      "es": "Amuleto de pío rosa"
+    },
     "level": 8,
-    "panoply": "Panoplie du Piou Rose",
+    "panoply": "674e523f64788cc741418117",
     "category": "amulet",
     "stats": {
       "health": 20,
       "dodge": 3
     }
   },
-  "Amulette en Mousse": {
-    "name": "Amulette en Mousse",
+  "674e524064788cc74141902e": {
+    "id": "674e524064788cc74141902e",
+    "idShort": "1T",
+    "name": {
+      "fr": "Amulette en Mousse",
+      "en": "Sponge Amulet",
+      "pt": "Amuleto de Esponja",
+      "de": "Schwammulett",
+      "es": "Amuleto de esponja"
+    },
     "level": 20,
-    "panoply": "Panoplie en Mousse",
+    "panoply": "674e523f64788cc741418110",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -1383,10 +2327,18 @@
       "criticalChance": 2
     }
   },
-  "La Meulette": {
-    "name": "La Meulette",
+  "674e524064788cc741419036": {
+    "id": "674e524064788cc741419036",
+    "idShort": "1U",
+    "name": {
+      "fr": "La Meulette",
+      "en": "Amoolet",
+      "pt": "Um Moolet",
+      "de": "MuWulf-Amulett",
+      "es": "El Amaxilubeto"
+    },
     "level": 143,
-    "panoply": "Panoplie du Meulou",
+    "panoply": "674e523f64788cc741418108",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -1401,10 +2353,18 @@
       "airResistPer": 10
     }
   },
-  "Collier du Minotoror": {
-    "name": "Collier du Minotoror",
+  "674e524064788cc74141903c": {
+    "id": "674e524064788cc74141903c",
+    "idShort": "1V",
+    "name": {
+      "fr": "Collier du Minotoror",
+      "en": "Minotoror Necklace",
+      "pt": "Colar do Minotoror",
+      "de": "Minotoror-Amulett",
+      "es": "Collar del Minotauroro"
+    },
     "level": 111,
-    "panoply": "Panoplie du Minotoror",
+    "panoply": "674e523f64788cc741418107",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1419,10 +2379,18 @@
       "pushbackDamage": 10
     }
   },
-  "Collier du Minotot": {
-    "name": "Collier du Minotot",
+  "674e524064788cc741419040": {
+    "id": "674e524064788cc741419040",
+    "idShort": "1W",
+    "name": {
+      "fr": "Collier du Minotot",
+      "en": "Minotot Necklace",
+      "pt": "Colar do Minotot",
+      "de": "Halskette des Minotots",
+      "es": "Collar del Minotot"
+    },
     "level": 158,
-    "panoply": "Panoplie du Minotot",
+    "panoply": "674e523f64788cc74141810a",
     "category": "amulet",
     "stats": {
       "health": 230,
@@ -1437,10 +2405,18 @@
       "prospecting": 25
     }
   },
-  "Collier du Dragon Cochon": {
-    "name": "Collier du Dragon Cochon",
+  "674e524064788cc741419041": {
+    "id": "674e524064788cc741419041",
+    "idShort": "1X",
+    "name": {
+      "fr": "Collier du Dragon Cochon",
+      "en": "Dragon Pig Necklace",
+      "pt": "Colar do Dragão-Porco",
+      "de": "Amulett des Schweinedrachen",
+      "es": "Collar de Dragocerdo"
+    },
     "level": 100,
-    "panoply": "Panoplie du Dragon Cochon",
+    "panoply": "674e523f64788cc74141810b",
     "category": "amulet",
     "stats": {
       "health": 120,
@@ -1452,10 +2428,18 @@
       "heal": 6
     }
   },
-  "Amulette du Dragoeuf": {
-    "name": "Amulette du Dragoeuf",
+  "674e524064788cc741419052": {
+    "id": "674e524064788cc741419052",
+    "idShort": "1Y",
+    "name": {
+      "fr": "Amulette du Dragoeuf",
+      "en": "Dreggon Amulet",
+      "pt": "Amuleto do Dragovo",
+      "de": "Drachei-Amulett",
+      "es": "Amuleto de dragohuevo"
+    },
     "level": 124,
-    "panoply": "Panoplie du Dragoeuf Vagabond",
+    "panoply": "674e523f64788cc741418109",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1469,10 +2453,18 @@
       "criticalDamage": 10
     }
   },
-  "Epis de Shika": {
-    "name": "Epis de Shika",
+  "674e524064788cc74141905a": {
+    "id": "674e524064788cc74141905a",
+    "idShort": "1Z",
+    "name": {
+      "fr": "Epis de Shika",
+      "en": "Shika's Ears",
+      "pt": "Orelhas de Shika",
+      "de": "Shikas Ähren",
+      "es": "Espiga de Shika"
+    },
     "level": 76,
-    "panoply": "Panoplie de Shika Ingalsse",
+    "panoply": "674e523f64788cc741418106",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -1483,10 +2475,18 @@
       "prospecting": 5
     }
   },
-  "Pendentif du Mominotor": {
-    "name": "Pendentif du Mominotor",
+  "674e524064788cc7414190b8": {
+    "id": "674e524064788cc7414190b8",
+    "idShort": "20",
+    "name": {
+      "fr": "Pendentif du Mominotor",
+      "en": "Mumminotor Pendant",
+      "pt": "Pingente do Muminotor",
+      "de": "Anhänger des Muminotorors",
+      "es": "Colgante de mominotauro"
+    },
     "level": 111,
-    "panoply": "Panoplie du Mominotor",
+    "panoply": "674e523f64788cc74141810c",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1500,10 +2500,18 @@
       "mpReduction": 4
     }
   },
-  "Collier du Rat Noir": {
-    "name": "Collier du Rat Noir",
+  "674e524064788cc7414190ce": {
+    "id": "674e524064788cc7414190ce",
+    "idShort": "21",
+    "name": {
+      "fr": "Collier du Rat Noir",
+      "en": "Black Rat Necklace",
+      "pt": "Colar do Rato Negro",
+      "de": "Schwarzes Rattenhalsband",
+      "es": "Collar de la Rata Negra"
+    },
     "level": 103,
-    "panoply": "Panoplie du Rat Noir",
+    "panoply": "674e523f64788cc741418115",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1518,10 +2526,18 @@
       "lock": 5
     }
   },
-  "Collier du Rat Blanc": {
-    "name": "Collier du Rat Blanc",
+  "674e524064788cc7414190d6": {
+    "id": "674e524064788cc7414190d6",
+    "idShort": "22",
+    "name": {
+      "fr": "Collier du Rat Blanc",
+      "en": "White Rat Necklace",
+      "pt": "Colar do Rato Branco",
+      "de": "Weißes Rattenhalsband",
+      "es": "Collar de la Rata Blanca"
+    },
     "level": 102,
-    "panoply": "Panoplie du Rat Blanc",
+    "panoply": "674e523f64788cc741418114",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1536,10 +2552,18 @@
       "dodge": 5
     }
   },
-  "Collier Cérémonial du Seigneur des Rats": {
-    "name": "Collier Cérémonial du Seigneur des Rats",
+  "674e524064788cc7414190dc": {
+    "id": "674e524064788cc7414190dc",
+    "idShort": "23",
+    "name": {
+      "fr": "Collier Cérémonial du Seigneur des Rats",
+      "en": "Lord of the Rats' Ceremonial Necklace",
+      "pt": "Colar cerimonal do Senhor dos Ratos",
+      "de": "Zeremonienhalskette des Rattenmeisters",
+      "es": "Collar ceremonial del Amo de las Ratas"
+    },
     "level": 134,
-    "panoply": "Panoplie Cérémoniale",
+    "panoply": "674e523f64788cc741418111",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -1553,10 +2577,18 @@
       "neutralResistPer": 10
     }
   },
-  "Torque Ancestral": {
-    "name": "Torque Ancestral",
+  "674e524064788cc7414190e2": {
+    "id": "674e524064788cc7414190e2",
+    "idShort": "24",
+    "name": {
+      "fr": "Torque Ancestral",
+      "en": "Ancestral Torc",
+      "pt": "Torque Ancestral",
+      "de": "Ur-Torque",
+      "es": "Torque Ancestral"
+    },
     "level": 110,
-    "panoply": "Panoplie Ancestrale",
+    "panoply": "674e523f64788cc741418112",
     "category": "amulet",
     "stats": {
       "health": 100,
@@ -1570,10 +2602,18 @@
       "fireResist": 7
     }
   },
-  "Talisman du Chêne Mou": {
-    "name": "Talisman du Chêne Mou",
+  "674e524064788cc7414190e6": {
+    "id": "674e524064788cc7414190e6",
+    "idShort": "25",
+    "name": {
+      "fr": "Talisman du Chêne Mou",
+      "en": "Soft Oak Talisman",
+      "pt": "Talismã do Carvalho Mole",
+      "de": "Weich-Eich-Talisman",
+      "es": "Talismán de Roble Blando"
+    },
     "level": 138,
-    "panoply": "Panoplie du Chêne Mou",
+    "panoply": "674e523f64788cc741418113",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -1587,18 +2627,34 @@
       "initiative": 300
     }
   },
-  "Le S'Mesme": {
-    "name": "Le S'Mesme",
+  "674e524064788cc74141911c": {
+    "id": "674e524064788cc74141911c",
+    "idShort": "26",
+    "name": {
+      "fr": "Le S'Mesme",
+      "en": "Issa Mess",
+      "pt": "O S'Mesmo",
+      "de": "Äs Ähm Ässe",
+      "es": "El S'Mesmo"
+    },
     "level": 1,
-    "panoply": "Panoplie du Boune",
+    "panoply": "674e523f64788cc741418116",
     "category": "amulet",
     "stats": {
       "health": 10,
       "chance": 6
     }
   },
-  "Zothulette": {
-    "name": "Zothulette",
+  "674e524064788cc74141921d": {
+    "id": "674e524064788cc74141921d",
+    "idShort": "27",
+    "name": {
+      "fr": "Zothulette",
+      "en": "Zothulet",
+      "pt": "Zothuleto",
+      "de": "Zothulett",
+      "es": "Zothuleto"
+    },
     "level": 159,
     "category": "amulet",
     "stats": {
@@ -1614,10 +2670,18 @@
       "fireResistPer": 10
     }
   },
-  "Ouassulette": {
-    "name": "Ouassulette",
+  "674e524064788cc741419228": {
+    "id": "674e524064788cc741419228",
+    "idShort": "28",
+    "name": {
+      "fr": "Ouassulette",
+      "en": "Ouassulet",
+      "pt": "Ouassulet",
+      "de": "Morphmamph",
+      "es": "Stropamuleto"
+    },
     "level": 105,
-    "panoply": "Panoplie Vassale",
+    "panoply": "674e523f64788cc74141811a",
     "category": "amulet",
     "stats": {
       "health": 110,
@@ -1632,10 +2696,18 @@
       "mpReduction": 4
     }
   },
-  "Amufafah": {
-    "name": "Amufafah",
+  "674e524064788cc74141922d": {
+    "id": "674e524064788cc74141922d",
+    "idShort": "29",
+    "name": {
+      "fr": "Amufafah",
+      "en": "Amufafah",
+      "pt": "Amufafah",
+      "de": "Mufafahmulett",
+      "es": "Amufafah"
+    },
     "level": 83,
-    "panoply": "Panoplie des Herboricoles",
+    "panoply": "6807d9a601b972ee0ea59cee",
     "category": "amulet",
     "stats": {
       "strength": 25,
@@ -1647,10 +2719,18 @@
       "criticalDamage": 5
     }
   },
-  "Ougamulette": {
-    "name": "Ougamulette",
+  "674e524064788cc741419308": {
+    "id": "674e524064788cc741419308",
+    "idShort": "2a",
+    "name": {
+      "fr": "Ougamulette",
+      "en": "Ougaamulet",
+      "pt": "Ugahmuleto",
+      "de": "Stinkelingsamulett",
+      "es": "Ugahmuleto"
+    },
     "level": 181,
-    "panoply": "Panoplie du Ougah",
+    "panoply": "674e523f64788cc74141813b",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -1663,10 +2743,18 @@
       "waterResistPer": 10
     }
   },
-  "Amublop Griotte": {
-    "name": "Amublop Griotte",
+  "674e524064788cc74141931b": {
+    "id": "674e524064788cc74141931b",
+    "idShort": "2b",
+    "name": {
+      "fr": "Amublop Griotte",
+      "en": "Morello Cherry Amublop",
+      "pt": "Amublop Cereja",
+      "de": "Kirsch Blob-Amulett",
+      "es": "Amublop guinda"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Griotte",
+    "panoply": "674e523f64788cc74141812f",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1675,10 +2763,18 @@
       "criticalChance": 5
     }
   },
-  "Amublop Reinette": {
-    "name": "Amublop Reinette",
+  "674e524064788cc74141931c": {
+    "id": "674e524064788cc74141931c",
+    "idShort": "2c",
+    "name": {
+      "fr": "Amublop Reinette",
+      "en": "Pippin Amublop",
+      "pt": "Amublop Maçã",
+      "de": "Apfel Blob-Amulett",
+      "es": "Amublop reineta"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Reinette",
+    "panoply": "674e523f64788cc741418130",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1687,10 +2783,18 @@
       "criticalChance": 5
     }
   },
-  "Amublop Coco": {
-    "name": "Amublop Coco",
+  "674e524064788cc74141931d": {
+    "id": "674e524064788cc74141931d",
+    "idShort": "2d",
+    "name": {
+      "fr": "Amublop Coco",
+      "en": "Coco Amublop",
+      "pt": "Amublop Coco",
+      "de": "Kokos Blob-Amulett",
+      "es": "Amublop coco"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Coco",
+    "panoply": "674e523f64788cc741418131",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1699,10 +2803,18 @@
       "criticalChance": 5
     }
   },
-  "Amublop Indigo": {
-    "name": "Amublop Indigo",
+  "674e524064788cc74141931e": {
+    "id": "674e524064788cc74141931e",
+    "idShort": "2e",
+    "name": {
+      "fr": "Amublop Indigo",
+      "en": "Indigo Amublop",
+      "pt": "Amublop Índigo",
+      "de": "Indigoblob-Amulett",
+      "es": "Amublop índigo"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Indigo",
+    "panoply": "674e523f64788cc741418132",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1711,10 +2823,18 @@
       "criticalChance": 5
     }
   },
-  "Amublop Griotte Royale": {
-    "name": "Amublop Griotte Royale",
+  "674e524064788cc74141931f": {
+    "id": "674e524064788cc74141931f",
+    "idShort": "2f",
+    "name": {
+      "fr": "Amublop Griotte Royale",
+      "en": "Royal Morello Cherry Amublop",
+      "pt": "Amublop Cereja Real",
+      "de": "Königliches Kirsch Blob-Amulett",
+      "es": "Amublop Guinda Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Griotte Royale",
+    "panoply": "674e523f64788cc741418133",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -1725,10 +2845,18 @@
       "heal": 5
     }
   },
-  "Amublop Reinette Royale": {
-    "name": "Amublop Reinette Royale",
+  "674e524064788cc741419320": {
+    "id": "674e524064788cc741419320",
+    "idShort": "2g",
+    "name": {
+      "fr": "Amublop Reinette Royale",
+      "en": "Royal Pippin Amublop",
+      "pt": "Amublop Maçã Real",
+      "de": "Königliches Apfel Blob-Amulett",
+      "es": "Amublop Reineta Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Reinette Royale",
+    "panoply": "674e523f64788cc741418134",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -1739,10 +2867,18 @@
       "heal": 5
     }
   },
-  "Amublop Coco Royale": {
-    "name": "Amublop Coco Royale",
+  "674e524064788cc741419321": {
+    "id": "674e524064788cc741419321",
+    "idShort": "2h",
+    "name": {
+      "fr": "Amublop Coco Royale",
+      "en": "Royal Coco Amublop",
+      "pt": "Amublop Coco Real",
+      "de": "Königliches Kokos Blob-Amulett",
+      "es": "Amublop Coco Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Coco Royale",
+    "panoply": "674e523f64788cc741418135",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -1753,10 +2889,18 @@
       "heal": 5
     }
   },
-  "Amublop Indigo Royale": {
-    "name": "Amublop Indigo Royale",
+  "674e524064788cc741419322": {
+    "id": "674e524064788cc741419322",
+    "idShort": "2i",
+    "name": {
+      "fr": "Amublop Indigo Royale",
+      "en": "Royal Indigo Amublop",
+      "pt": "Amublop Índigo Real",
+      "de": "Königliches Indigo Blob-Amulett",
+      "es": "Amublop Índigo Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Indigo Royale",
+    "panoply": "674e523f64788cc741418136",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -1767,10 +2911,18 @@
       "heal": 5
     }
   },
-  "Amublop Multicolore Royale": {
-    "name": "Amublop Multicolore Royale",
+  "674e524064788cc741419323": {
+    "id": "674e524064788cc741419323",
+    "idShort": "2j",
+    "name": {
+      "fr": "Amublop Multicolore Royale",
+      "en": "Royal Rainbow Amublop",
+      "pt": "Amublop Arco-Íris Real",
+      "de": "Königliches Multiblob-Amulett",
+      "es": "Amublop Multicolor Real"
+    },
     "level": 90,
-    "panoply": "Panoplie Blop Multicolore Royale",
+    "panoply": "674e523f64788cc741418137",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1781,10 +2933,18 @@
       "fireResistPer": 3
     }
   },
-  "Amulette Ripage": {
-    "name": "Amulette Ripage",
+  "674e524064788cc741419339": {
+    "id": "674e524064788cc741419339",
+    "idShort": "2k",
+    "name": {
+      "fr": "Amulette Ripage",
+      "en": "Memori Amulet",
+      "pt": "Amuleto Memori",
+      "de": "Amulett des Bworkrippers",
+      "es": "Amuleto del descanso eterno"
+    },
     "level": 184,
-    "panoply": "Panoplie du Bworker Berserker",
+    "panoply": "674e523f64788cc741418139",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -1800,8 +2960,16 @@
       "trapPower": 20
     }
   },
-  "Tartamulette": {
-    "name": "Tartamulette",
+  "674e524064788cc741419347": {
+    "id": "674e524064788cc741419347",
+    "idShort": "2l",
+    "name": {
+      "fr": "Tartamulette",
+      "en": "Tartamulet",
+      "pt": "Tortamuleto",
+      "de": "Naschmulett",
+      "es": "Tartamuleto"
+    },
     "level": 43,
     "category": "amulet",
     "stats": {
@@ -1812,20 +2980,36 @@
       "earthResistPer": 5
     }
   },
-  "Pompamulette": {
-    "name": "Pompamulette",
+  "674e524064788cc7414193e2": {
+    "id": "674e524064788cc7414193e2",
+    "idShort": "2m",
+    "name": {
+      "fr": "Pompamulette",
+      "en": "Bobblamulet",
+      "pt": "Bobblamuleto",
+      "de": "Pom-Pompösamulett",
+      "es": "Pompamuleto"
+    },
     "level": 27,
-    "panoply": "Pompanoplie",
+    "panoply": "674e523f64788cc74141839b",
     "category": "amulet",
     "stats": {
       "health": 4,
       "range": 1
     }
   },
-  "Amunite": {
-    "name": "Amunite",
+  "674e524064788cc7414193e9": {
+    "id": "674e524064788cc7414193e9",
+    "idShort": "2n",
+    "name": {
+      "fr": "Amunite",
+      "en": "Amunita",
+      "pt": "Amunito",
+      "de": "Pom-Pompöses Amulett",
+      "es": "Amunito"
+    },
     "level": 189,
-    "panoply": "Panoplie Tue-Mouche",
+    "panoply": "674e523f64788cc741418138",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -1840,10 +3024,18 @@
       "fireResist": 10
     }
   },
-  "Kralamansion": {
-    "name": "Kralamansion",
+  "674e524064788cc7414193ea": {
+    "id": "674e524064788cc7414193ea",
+    "idShort": "2o",
+    "name": {
+      "fr": "Kralamansion",
+      "en": "Kralomansion",
+      "pt": "Kralamansão",
+      "de": "Krakamulett",
+      "es": "Kralamansion"
+    },
     "level": 194,
-    "panoply": "Panoplie Ventouse",
+    "panoply": "674e523f64788cc74141812e",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -1858,10 +3050,18 @@
       "prospecting": 30
     }
   },
-  "Amulette Papayou": {
-    "name": "Amulette Papayou",
+  "674e524064788cc741419482": {
+    "id": "674e524064788cc741419482",
+    "idShort": "2p",
+    "name": {
+      "fr": "Amulette Papayou",
+      "en": "Alowa Amulet",
+      "pt": "Amuleto Aloha",
+      "de": "Papayo-Amulett",
+      "es": "Amuleto del director Kuno"
+    },
     "level": 47,
-    "panoply": "Panoplie Papayou",
+    "panoply": "674e523f64788cc7414183c5",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -1871,10 +3071,18 @@
       "apReduction": 3
     }
   },
-  "Collier Sleump": {
-    "name": "Collier Sleump",
+  "674e524064788cc741419483": {
+    "id": "674e524064788cc741419483",
+    "idShort": "2q",
+    "name": {
+      "fr": "Collier Sleump",
+      "en": "Slump Necklace",
+      "pt": "TomboColar",
+      "de": "Slump-Kette",
+      "es": "Collar Slump"
+    },
     "level": 43,
-    "panoply": "Panoplie Sleump",
+    "panoply": "674e523f64788cc7414183b1",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -1884,10 +3092,18 @@
       "heal": 2
     }
   },
-  "La Chaplivate": {
-    "name": "La Chaplivate",
+  "674e524064788cc74141951e": {
+    "id": "674e524064788cc74141951e",
+    "idShort": "2r",
+    "name": {
+      "fr": "La Chaplivate",
+      "en": "The Chavate",
+      "pt": "A Gravata",
+      "de": "Chaplivatte",
+      "es": "La Charbata"
+    },
     "level": 43,
-    "panoply": "Chapanoplie",
+    "panoply": "674e523f64788cc7414183b3",
     "category": "amulet",
     "stats": {
       "health": 20,
@@ -1897,10 +3113,18 @@
       "airResistPer": 3
     }
   },
-  "Amulette du Vampyre": {
-    "name": "Amulette du Vampyre",
+  "674e524064788cc74141957e": {
+    "id": "674e524064788cc74141957e",
+    "idShort": "2s",
+    "name": {
+      "fr": "Amulette du Vampyre",
+      "en": "Vampyre Amulet",
+      "pt": "Amuleto do Vampyro",
+      "de": "Vampyr-Amulett",
+      "es": "Amuleto de Vampyro"
+    },
     "level": 45,
-    "panoply": "Panoplie du Vampyre maudit",
+    "panoply": "674e523f64788cc74141821a",
     "category": "amulet",
     "stats": {
       "health": 25,
@@ -1909,10 +3133,18 @@
       "summon": 2
     }
   },
-  "Yugolette": {
-    "name": "Yugolette",
+  "674e524064788cc7414195ca": {
+    "id": "674e524064788cc7414195ca",
+    "idShort": "2t",
+    "name": {
+      "fr": "Yugolette",
+      "en": "Amlugo",
+      "pt": "Yugoleto",
+      "de": "Yagulett",
+      "es": "Ugoleto"
+    },
     "level": 43,
-    "panoply": "Yugoplie",
+    "panoply": "674e523f64788cc7414183b6",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -1921,10 +3153,18 @@
       "initiative": 150
     }
   },
-  "Collertue": {
-    "name": "Collertue",
+  "674e524064788cc7414195db": {
+    "id": "674e524064788cc7414195db",
+    "idShort": "2u",
+    "name": {
+      "fr": "Collertue",
+      "en": "Slugly Amulet",
+      "pt": "Amuleto Lesmoso",
+      "de": "Schnamulett",
+      "es": "Collechuga"
+    },
     "level": 42,
-    "panoply": "Panoplie Mace",
+    "panoply": "674e523f64788cc7414183b0",
     "category": "amulet",
     "stats": {
       "intelligence": 35,
@@ -1933,8 +3173,16 @@
       "criticalDamage": 5
     }
   },
-  "L'Esteban": {
-    "name": "L'Esteban",
+  "674e524064788cc7414195e3": {
+    "id": "674e524064788cc7414195e3",
+    "idShort": "2v",
+    "name": {
+      "fr": "L'Esteban",
+      "en": "The Esteban",
+      "pt": "O Esteban",
+      "de": "Das Esteban",
+      "es": "Amuleto Solar"
+    },
     "level": 42,
     "category": "amulet",
     "stats": {
@@ -1945,8 +3193,16 @@
       "initiative": 100
     }
   },
-  "Collier de Noké": {
-    "name": "Collier de Noké",
+  "674e524064788cc7414195e9": {
+    "id": "674e524064788cc7414195e9",
+    "idShort": "2w",
+    "name": {
+      "fr": "Collier de Noké",
+      "en": "Noke's Necklace",
+      "pt": "Colar Noke",
+      "de": "Nokes Mono-Halskette",
+      "es": "Collar de Noke"
+    },
     "level": 41,
     "category": "amulet",
     "stats": {
@@ -1956,10 +3212,18 @@
       "damage": 2
     }
   },
-  "Amulette de Grüt": {
-    "name": "Amulette de Grüt",
+  "674e524064788cc7414196ab": {
+    "id": "674e524064788cc7414196ab",
+    "idShort": "2x",
+    "name": {
+      "fr": "Amulette de Grüt",
+      "en": "Grute's Amulet",
+      "pt": "Amuleto de Grute",
+      "de": "Bwurgs-Amulett",
+      "es": "Amuleto de Gruut"
+    },
     "level": 42,
-    "panoply": "Panoplie de Grüt",
+    "panoply": "674e523f64788cc74141813f",
     "category": "amulet",
     "stats": {
       "strength": 30,
@@ -1969,10 +3233,18 @@
       "lock": 4
     }
   },
-  "Amulette de Gobeuf": {
-    "name": "Amulette de Gobeuf",
+  "674e524064788cc7414196b3": {
+    "id": "674e524064788cc7414196b3",
+    "idShort": "2y",
+    "name": {
+      "fr": "Amulette de Gobeuf",
+      "en": "Goboff's Amulet",
+      "pt": "Amuleto de Gobovo",
+      "de": "Gobschling-Amulett",
+      "es": "Amuleto de Gobuevo"
+    },
     "level": 42,
-    "panoply": "Panoplie de Gobeuf",
+    "panoply": "674e523f64788cc741418141",
     "category": "amulet",
     "stats": {
       "agility": 25,
@@ -1981,10 +3253,18 @@
       "mpResist": 3
     }
   },
-  "Amulette de Laikteur": {
-    "name": "Amulette de Laikteur",
+  "674e524064788cc7414196b7": {
+    "id": "674e524064788cc7414196b7",
+    "idShort": "2z",
+    "name": {
+      "fr": "Amulette de Laikteur",
+      "en": "Lektor's Amulet",
+      "pt": "Amuleto de Lektor",
+      "de": "Terlecs Amulett",
+      "es": "Amuleto de Retkel"
+    },
     "level": 41,
-    "panoply": "Panoplie de Laikteur",
+    "panoply": "674e523f64788cc741418142",
     "category": "amulet",
     "stats": {
       "chance": 25,
@@ -1992,10 +3272,18 @@
       "damage": 2
     }
   },
-  "Amulette de Rekto Topi": {
-    "name": "Amulette de Rekto Topi",
+  "674e524064788cc7414196bb": {
+    "id": "674e524064788cc7414196bb",
+    "idShort": "2A",
+    "name": {
+      "fr": "Amulette de Rekto Topi",
+      "en": "Stroy Zemol's Amulet",
+      "pt": "Anel de Stroy Zemol",
+      "de": "Piffpaffplumps-Amulett",
+      "es": "Amuleto de Panpun Pon"
+    },
     "level": 41,
-    "panoply": "Panoplie de Rekto Topi",
+    "panoply": "674e523f64788cc741418143",
     "category": "amulet",
     "stats": {
       "intelligence": 25,
@@ -2003,18 +3291,34 @@
       "heal": 2
     }
   },
-  "Amulette de l'intrépide": {
-    "name": "Amulette de l'intrépide",
+  "674e524064788cc7414196fb": {
+    "id": "674e524064788cc7414196fb",
+    "idShort": "2B",
+    "name": {
+      "fr": "Amulette de l'intrépide",
+      "en": "Intrepid Amulet",
+      "pt": "Amuleto do Intrépido",
+      "de": "Amulett des Unerschrockenen",
+      "es": "Amuleto del intrépido"
+    },
     "level": 1,
-    "panoply": "Panoplie de l'intrépide",
+    "panoply": "674e523f64788cc741418145",
     "category": "amulet",
     "stats": {
       "health": 1,
       "initiative": 1
     }
   },
-  "Boufbamu": {
-    "name": "Boufbamu",
+  "674e524064788cc741419720": {
+    "id": "674e524064788cc741419720",
+    "idShort": "2C",
+    "name": {
+      "fr": "Boufbamu",
+      "en": "Gobbamu",
+      "pt": "Gobbamu",
+      "de": "Fressbamu",
+      "es": "Jalaboleto"
+    },
     "level": 64,
     "category": "amulet",
     "stats": {
@@ -2023,10 +3327,18 @@
       "range": 1
     }
   },
-  "Amulette d'Hulkrap": {
-    "name": "Amulette d'Hulkrap",
+  "674e524064788cc74141972e": {
+    "id": "674e524064788cc74141972e",
+    "idShort": "2D",
+    "name": {
+      "fr": "Amulette d'Hulkrap",
+      "en": "Hulkrap's Amulet",
+      "pt": "Amuleto de Lápucra",
+      "de": "Lerkstim-Amulett",
+      "es": "Amuleto de Ravelaca"
+    },
     "level": 53,
-    "panoply": "Panoplie d'Hulkrap",
+    "panoply": "674e523f64788cc741418147",
     "category": "amulet",
     "stats": {
       "intelligence": 15,
@@ -2034,10 +3346,18 @@
       "initiative": 100
     }
   },
-  "Amulette de Kloug": {
-    "name": "Amulette de Kloug",
+  "674e524064788cc74141972f": {
+    "id": "674e524064788cc74141972f",
+    "idShort": "2E",
+    "name": {
+      "fr": "Amulette de Kloug",
+      "en": "Kloug's Amulet",
+      "pt": "Amuleto de Napizram",
+      "de": "Äkebäker-Amulett",
+      "es": "Amuleto de Napazam"
+    },
     "level": 53,
-    "panoply": "Panoplie de Kloug",
+    "panoply": "674e523f64788cc741418149",
     "category": "amulet",
     "stats": {
       "intelligence": 15,
@@ -2047,10 +3367,18 @@
       "mpResist": 4
     }
   },
-  "Amulette de Rapine": {
-    "name": "Amulette de Rapine",
+  "674e524064788cc74141978b": {
+    "id": "674e524064788cc74141978b",
+    "idShort": "2F",
+    "name": {
+      "fr": "Amulette de Rapine",
+      "en": "Plunder's Amulet",
+      "pt": "Amuleto de Rapina",
+      "de": "Raubsaug Amulett",
+      "es": "Amuleto rapiñoso"
+    },
     "level": 31,
-    "panoply": "Panoplie de Rapine",
+    "panoply": "674e523f64788cc74141814a",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -2058,20 +3386,36 @@
       "damage": 3
     }
   },
-  "Amulette d'Hectaupe": {
-    "name": "Amulette d'Hectaupe",
+  "674e524064788cc74141979a": {
+    "id": "674e524064788cc74141979a",
+    "idShort": "2G",
+    "name": {
+      "fr": "Amulette d'Hectaupe",
+      "en": "Ektope's Amulet",
+      "pt": "Amuleto de Ektope",
+      "de": "Ma Äktoplas Amulett",
+      "es": "Amuleto de Hectopp"
+    },
     "level": 32,
-    "panoply": "Panoplie d'Hectaupe",
+    "panoply": "674e523f64788cc74141814b",
     "category": "amulet",
     "stats": {
       "agility": 15,
       "range": 1
     }
   },
-  "Clémentamulette": {
-    "name": "Clémentamulette",
+  "674e524064788cc7414197c8": {
+    "id": "674e524064788cc7414197c8",
+    "idShort": "2H",
+    "name": {
+      "fr": "Clémentamulette",
+      "en": "Clementine Amulet",
+      "pt": "Tanjamuleto",
+      "de": "Clementinchenamulett",
+      "es": "Amuleto de mandarina"
+    },
     "level": 32,
-    "panoply": "Clémentopanoplie",
+    "panoply": "674e523f64788cc7414183a4",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2079,10 +3423,18 @@
       "criticalChance": 3
     }
   },
-  "Amulette de Grilliane": {
-    "name": "Amulette de Grilliane",
+  "674e524064788cc7414197ee": {
+    "id": "674e524064788cc7414197ee",
+    "idShort": "2I",
+    "name": {
+      "fr": "Amulette de Grilliane",
+      "en": "Grillian's Amulet",
+      "pt": "Amuleto de Grillian",
+      "de": "Grillians Amulett",
+      "es": "Amuleto de Grilyan"
+    },
     "level": 45,
-    "panoply": "Panoplie de Grilliane",
+    "panoply": "674e523f64788cc7414183de",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2092,10 +3444,18 @@
       "heal": 2
     }
   },
-  "Amulette de Rapiat": {
-    "name": "Amulette de Rapiat",
+  "674e524064788cc7414198e1": {
+    "id": "674e524064788cc7414198e1",
+    "idShort": "2J",
+    "name": {
+      "fr": "Amulette de Rapiat",
+      "en": "Rapiat's Amulet",
+      "pt": "Amuleto de Rapiat",
+      "de": "Rattgier-Amulett",
+      "es": "Amuleto de Rapiat"
+    },
     "level": 42,
-    "panoply": "Panoplie de Rapiat",
+    "panoply": "674e523f64788cc741418154",
     "category": "amulet",
     "stats": {
       "strength": 15,
@@ -2104,10 +3464,18 @@
       "ap": 1
     }
   },
-  "Amulette d'Ougicle": {
-    "name": "Amulette d'Ougicle",
+  "674e524064788cc7414198e4": {
+    "id": "674e524064788cc7414198e4",
+    "idShort": "2K",
+    "name": {
+      "fr": "Amulette d'Ougicle",
+      "en": "Ougicle's Amulet",
+      "pt": "Amuleto de Ugiclo",
+      "de": "Ouginassi-Amulett",
+      "es": "Amuleto de Ugicle"
+    },
     "level": 54,
-    "panoply": "Panoplie d'Ougicle",
+    "panoply": "674e523f64788cc741418157",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -2116,10 +3484,18 @@
       "ap": 1
     }
   },
-  "Amulette de Karotz": {
-    "name": "Amulette de Karotz",
+  "674e524064788cc7414198e7": {
+    "id": "674e524064788cc7414198e7",
+    "idShort": "2L",
+    "name": {
+      "fr": "Amulette de Karotz",
+      "en": "Kawotz's Amulet",
+      "pt": "Amuleto de Kerotz",
+      "de": "Karottigz-Amulett",
+      "es": "Amuleto de Blackarotz"
+    },
     "level": 49,
-    "panoply": "Panoplie de Karotz",
+    "panoply": "674e523f64788cc741418153",
     "category": "amulet",
     "stats": {
       "chance": 30,
@@ -2129,10 +3505,18 @@
       "dodge": 4
     }
   },
-  "Amulette de Kubitus": {
-    "name": "Amulette de Kubitus",
+  "674e524064788cc7414198f0": {
+    "id": "674e524064788cc7414198f0",
+    "idShort": "2M",
+    "name": {
+      "fr": "Amulette de Kubitus",
+      "en": "Kubitus's Amulet",
+      "pt": "Amuleto de Kubitus",
+      "de": "Ellerton Dschonn - Amulett",
+      "es": "Amuleto de Cúbitus"
+    },
     "level": 41,
-    "panoply": "Panoplie de Kubitus",
+    "panoply": "674e523f64788cc741418155",
     "category": "amulet",
     "stats": {
       "agility": 30,
@@ -2141,10 +3525,18 @@
       "dodge": 3
     }
   },
-  "Amulette de Piggy Paupe": {
-    "name": "Amulette de Piggy Paupe",
+  "674e524064788cc7414198f4": {
+    "id": "674e524064788cc7414198f4",
+    "idShort": "2N",
+    "name": {
+      "fr": "Amulette de Piggy Paupe",
+      "en": "Piggy Paupe's Amulet",
+      "pt": "Amuleto de Piggy Pop",
+      "de": "Piggy Pop - Amulett",
+      "es": "Amuleto de Piggy Pope"
+    },
     "level": 58,
-    "panoply": "Panoplie de Piggy Paupe",
+    "panoply": "674e523f64788cc741418156",
     "category": "amulet",
     "stats": {
       "health": 25,
@@ -2154,10 +3546,18 @@
       "lock": 3
     }
   },
-  "Amupapier": {
-    "name": "Amupapier",
+  "674e524064788cc7414198fe": {
+    "id": "674e524064788cc7414198fe",
+    "idShort": "2O",
+    "name": {
+      "fr": "Amupapier",
+      "en": "Paper Amulet",
+      "pt": "Amuleto de Papel",
+      "de": "Papiermedaillon",
+      "es": "Papeleto"
+    },
     "level": 62,
-    "panoply": "Panopapier",
+    "panoply": "674e523f64788cc7414183d4",
     "category": "amulet",
     "stats": {
       "chance": 30,
@@ -2168,10 +3568,18 @@
       "initiative": 150
     }
   },
-  "Plumamulette": {
-    "name": "Plumamulette",
+  "674e524064788cc741419903": {
+    "id": "674e524064788cc741419903",
+    "idShort": "2P",
+    "name": {
+      "fr": "Plumamulette",
+      "en": "Feather Amulet",
+      "pt": "Penamuleto",
+      "de": "Federnkette",
+      "es": "Plumamuleto"
+    },
     "level": 59,
-    "panoply": "Plumoplie",
+    "panoply": "674e523f64788cc7414183d1",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2182,10 +3590,18 @@
       "heal": 4
     }
   },
-  "Amusonnier": {
-    "name": "Amusonnier",
+  "674e524064788cc741419913": {
+    "id": "674e524064788cc741419913",
+    "idShort": "2Q",
+    "name": {
+      "fr": "Amusonnier",
+      "en": "Prisoner Amulet",
+      "pt": "Amuleto de Prisioneiro",
+      "de": "Häftlingskette",
+      "es": "Colganero"
+    },
     "level": 54,
-    "panoply": "Panoplisonnier",
+    "panoply": "674e523f64788cc7414183ce",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -2195,10 +3611,18 @@
       "damage": 4
     }
   },
-  "Frimamulette": {
-    "name": "Frimamulette",
+  "674e524064788cc74141995b": {
+    "id": "674e524064788cc74141995b",
+    "idShort": "2R",
+    "name": {
+      "fr": "Frimamulette",
+      "en": "Sleet Amulet",
+      "pt": "Amuleto da Geada",
+      "de": "Raureifamulett",
+      "es": "Congeladeto"
+    },
     "level": 192,
-    "panoply": "Frimanoplie",
+    "panoply": "674e523f64788cc74141814c",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -2215,8 +3639,16 @@
       "waterResist": 10
     }
   },
-  "Amulette Ementaire": {
-    "name": "Amulette Ementaire",
+  "674e524064788cc7414199a7": {
+    "id": "674e524064788cc7414199a7",
+    "idShort": "2S",
+    "name": {
+      "fr": "Amulette Ementaire",
+      "en": "Ellie's Mental Amulet",
+      "pt": "Amuleto Ementar",
+      "de": "Emmentalaramulett",
+      "es": "Amuleto Emental"
+    },
     "level": 127,
     "category": "amulet",
     "stats": {
@@ -2236,10 +3668,18 @@
       "airResistPer": 8
     }
   },
-  "Amulette du Royalmouth": {
-    "name": "Amulette du Royalmouth",
+  "674e524064788cc7414199b3": {
+    "id": "674e524064788cc7414199b3",
+    "idShort": "2T",
+    "name": {
+      "fr": "Amulette du Royalmouth",
+      "en": "Royal Mastogob Amulet",
+      "pt": "Amuleto do Papamute Real",
+      "de": "Königliches Fressmut-Amulett",
+      "es": "Amuleto de Jalamut Real"
+    },
     "level": 128,
-    "panoply": "Panoplie du Royalmouth",
+    "panoply": "674e523f64788cc74141814e",
     "category": "amulet",
     "stats": {
       "health": 120,
@@ -2258,10 +3698,18 @@
       "pushbackDamage": 10
     }
   },
-  "Amulette de l'Obsidiantre": {
-    "name": "Amulette de l'Obsidiantre",
+  "674e524064788cc7414199b4": {
+    "id": "674e524064788cc7414199b4",
+    "idShort": "2U",
+    "name": {
+      "fr": "Amulette de l'Obsidiantre",
+      "en": "Obsidemon Amulet",
+      "pt": "Amuleto do Obsidemônio",
+      "de": "Amulett des Obsidianters",
+      "es": "Amuleto de Obsidiantre"
+    },
     "level": 164,
-    "panoply": "Panoplie de l'Obsidiantre",
+    "panoply": "674e523f64788cc741418151",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2280,10 +3728,18 @@
       "pushbackResist": 10
     }
   },
-  "Collier Yé": {
-    "name": "Collier Yé",
+  "674e524064788cc7414199d2": {
+    "id": "674e524064788cc7414199d2",
+    "idShort": "2V",
+    "name": {
+      "fr": "Collier Yé",
+      "en": "Boy's Own Chain",
+      "pt": "Colar Iê-iê-iê",
+      "de": "Tok-Yos Hotelkette",
+      "es": "Collar Yar"
+    },
     "level": 160,
-    "panoply": "Panoplie Yéyé",
+    "panoply": "6807d9a601b972ee0ea59cf0",
     "category": "amulet",
     "stats": {
       "chance": 50,
@@ -2302,8 +3758,16 @@
       "pushbackDamage": 10
     }
   },
-  "Talisman Choh": {
-    "name": "Talisman Choh",
+  "674e524064788cc7414199d3": {
+    "id": "674e524064788cc7414199d3",
+    "idShort": "2W",
+    "name": {
+      "fr": "Talisman Choh",
+      "en": "Talisman Dalyfbotes",
+      "pt": "Talismã Dalyfbotes",
+      "de": "Einarmulett",
+      "es": "Talismán Coh"
+    },
     "level": 154,
     "category": "amulet",
     "stats": {
@@ -2323,8 +3787,16 @@
       "pushbackResist": 10
     }
   },
-  "Talisman Doline": {
-    "name": "Talisman Doline",
+  "674e524064788cc7414199d4": {
+    "id": "674e524064788cc7414199d4",
+    "idShort": "2X",
+    "name": {
+      "fr": "Talisman Doline",
+      "en": "Talisman Dolin",
+      "pt": "Talismã Dolin",
+      "de": "Mandol-Inlett",
+      "es": "Talismán Dolina"
+    },
     "level": 137,
     "category": "amulet",
     "stats": {
@@ -2343,10 +3815,18 @@
       "criticalResist": 10
     }
   },
-  "Amulette du Korriandre": {
-    "name": "Amulette du Korriandre",
+  "674e524064788cc741419a2e": {
+    "id": "674e524064788cc741419a2e",
+    "idShort": "2Y",
+    "name": {
+      "fr": "Amulette du Korriandre",
+      "en": "Korriander Amulet",
+      "pt": "Amuleto do Kwentro",
+      "de": "Korrianderkette",
+      "es": "Amuleto de Cil"
+    },
     "level": 182,
-    "panoply": "Panoplie du Korriandre",
+    "panoply": "674e523f64788cc741418159",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2364,10 +3844,18 @@
       "criticalResist": 10
     }
   },
-  "Amulette du Glourséleste": {
-    "name": "Amulette du Glourséleste",
+  "674e524064788cc741419a35": {
+    "id": "674e524064788cc741419a35",
+    "idShort": "2Z",
+    "name": {
+      "fr": "Amulette du Glourséleste",
+      "en": "Celestial Bearbarian Amulet",
+      "pt": "Amuleto do Glurseleste",
+      "de": "Himmlisches Barbärenamulett",
+      "es": "Amuleto de Golosotrón Real"
+    },
     "level": 198,
-    "panoply": "Panoplie du Glourséleste",
+    "panoply": "674e523f64788cc74141815b",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2387,10 +3875,18 @@
       "pushbackResist": 15
     }
   },
-  "Amulette Cætera": {
-    "name": "Amulette Cætera",
+  "674e524064788cc741419a3e": {
+    "id": "674e524064788cc741419a3e",
+    "idShort": "30",
+    "name": {
+      "fr": "Amulette Cætera",
+      "en": "Amulet Cetera",
+      "pt": "Amuleto de Cetera",
+      "de": "Amulett Zätera",
+      "es": "Colgante cétera"
+    },
     "level": 173,
-    "panoply": "Panoplie Abrégée",
+    "panoply": "674e523f64788cc7414183fc",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2409,10 +3905,18 @@
       "apReduction": 5
     }
   },
-  "Amulette Héroclite": {
-    "name": "Amulette Héroclite",
+  "674e524064788cc741419a3f": {
+    "id": "674e524064788cc741419a3f",
+    "idShort": "31",
+    "name": {
+      "fr": "Amulette Héroclite",
+      "en": "Eroclite Amulet",
+      "pt": "Amuleto Eroclite",
+      "de": "Amulett-Cetera",
+      "es": "Amuleto xímeron"
+    },
     "level": 185,
-    "panoply": "Panoplie du frigostien curieux",
+    "panoply": "674e523f64788cc7414183f2",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -2429,8 +3933,16 @@
       "pushbackDamage": 10
     }
   },
-  "Amulette Hendart": {
-    "name": "Amulette Hendart",
+  "674e524064788cc741419a40": {
+    "id": "674e524064788cc741419a40",
+    "idShort": "32",
+    "name": {
+      "fr": "Amulette Hendart",
+      "en": "Battleflag Amulet",
+      "pt": "Amuleto Bandeira de Guerra",
+      "de": "Standarten-Kette",
+      "es": "Colgante standard T"
+    },
     "level": 197,
     "category": "amulet",
     "stats": {
@@ -2452,8 +3964,16 @@
       "mpResist": 5
     }
   },
-  "Amulette Ementaire Deluxe": {
-    "name": "Amulette Ementaire Deluxe",
+  "674e524064788cc741419a6b": {
+    "id": "674e524064788cc741419a6b",
+    "idShort": "33",
+    "name": {
+      "fr": "Amulette Ementaire Deluxe",
+      "en": "Ellie's Deluxe Mental Amulet",
+      "pt": "Amuleto Ementar deluxe",
+      "de": "Emmentalarmulett Deluxe",
+      "es": "Amuleto Emental deluxe"
+    },
     "level": 163,
     "category": "amulet",
     "stats": {
@@ -2474,8 +3994,16 @@
       "airResistPer": 8
     }
   },
-  "Racine Hueuse": {
-    "name": "Racine Hueuse",
+  "674e524064788cc741419a6d": {
+    "id": "674e524064788cc741419a6d",
+    "idShort": "34",
+    "name": {
+      "fr": "Racine Hueuse",
+      "en": "Sinuous Amulet",
+      "pt": "Raiz de Petoot",
+      "de": "Schlingwing-Wurzelamulett",
+      "es": "Raíz Abucheante"
+    },
     "level": 186,
     "category": "amulet",
     "stats": {
@@ -2494,10 +4022,18 @@
       "lock": 5
     }
   },
-  "Amulette du Boostache": {
-    "name": "Amulette du Boostache",
+  "674e524064788cc741419b00": {
+    "id": "674e524064788cc741419b00",
+    "idShort": "35",
+    "name": {
+      "fr": "Amulette du Boostache",
+      "en": "Boostache's Amulet",
+      "pt": "Amuleto do Boostache",
+      "de": "Bartaboo-Amulett",
+      "es": "Amuleto de Boostacho"
+    },
     "level": 48,
-    "panoply": "Panoplie du Boostache",
+    "panoply": "674e523f64788cc74141815e",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -2506,10 +4042,18 @@
       "apResist": 6
     }
   },
-  "Amulette de Traçon": {
-    "name": "Amulette de Traçon",
+  "674e524064788cc741419b2a": {
+    "id": "674e524064788cc741419b2a",
+    "idShort": "36",
+    "name": {
+      "fr": "Amulette de Traçon",
+      "en": "Tracon's Amulet",
+      "pt": "Amuleto de Traçon",
+      "de": "Cooles Traschal Amulett",
+      "es": "Amuleto de Gramm"
+    },
     "level": 45,
-    "panoply": "Panoplie de Traçon",
+    "panoply": "674e523f64788cc741418160",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2519,10 +4063,18 @@
       "apReduction": 4
     }
   },
-  "Amulette de Mirh": {
-    "name": "Amulette de Mirh",
+  "674e524064788cc741419b2e": {
+    "id": "674e524064788cc741419b2e",
+    "idShort": "37",
+    "name": {
+      "fr": "Amulette de Mirh",
+      "en": "Mirh's Amulet",
+      "pt": "Amuleto de Mirh",
+      "de": "Traumstar Tion Mihrkette",
+      "es": "Amuleto de Mirh"
+    },
     "level": 53,
-    "panoply": "Panoplie de Mirh",
+    "panoply": "674e523f64788cc741418161",
     "category": "amulet",
     "stats": {
       "agility": 10,
@@ -2531,10 +4083,18 @@
       "initiative": 100
     }
   },
-  "Amulette de Logram": {
-    "name": "Amulette de Logram",
+  "674e524064788cc741419b31": {
+    "id": "674e524064788cc741419b31",
+    "idShort": "38",
+    "name": {
+      "fr": "Amulette de Logram",
+      "en": "Logram's Amulet",
+      "pt": "Amuleto de Logram",
+      "de": "Hohles Logram Amulett",
+      "es": "Amuleto de Logram"
+    },
     "level": 49,
-    "panoply": "Panoplie de Logram",
+    "panoply": "674e523f64788cc7414183a9",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2544,10 +4104,18 @@
       "apResist": 4
     }
   },
-  "Amulette de Kalkanéus": {
-    "name": "Amulette de Kalkanéus",
+  "674e524064788cc741419b36": {
+    "id": "674e524064788cc741419b36",
+    "idShort": "39",
+    "name": {
+      "fr": "Amulette de Kalkanéus",
+      "en": "Kalkaneus's Amulet",
+      "pt": "Amuleto de Kalkâneo",
+      "de": "Kalkaneus-Amulett",
+      "es": "Amuleto de Dicardya"
+    },
     "level": 43,
-    "panoply": "Panoplie de Kalkanéus",
+    "panoply": "674e523f64788cc741418162",
     "category": "amulet",
     "stats": {
       "strength": 30,
@@ -2557,10 +4125,18 @@
       "lock": 4
     }
   },
-  "Amulette d'Hichète": {
-    "name": "Amulette d'Hichète",
+  "674e524064788cc741419b3a": {
+    "id": "674e524064788cc741419b3a",
+    "idShort": "3a",
+    "name": {
+      "fr": "Amulette d'Hichète",
+      "en": "Hichete's Amulet",
+      "pt": "Amuleto de Hichete",
+      "de": "Abians Amulett",
+      "es": "Amuleto de Nillo"
+    },
     "level": 57,
-    "panoply": "Panoplie d'Hichète",
+    "panoply": "674e523f64788cc741418163",
     "category": "amulet",
     "stats": {
       "agility": 15,
@@ -2568,10 +4144,18 @@
       "mpResist": 5
     }
   },
-  "Amulette d'Haku": {
-    "name": "Amulette d'Haku",
+  "674e524064788cc741419b3d": {
+    "id": "674e524064788cc741419b3d",
+    "idShort": "3b",
+    "name": {
+      "fr": "Amulette d'Haku",
+      "en": "Haku's Amulet",
+      "pt": "Amuleto de Haku",
+      "de": "Hakus Amulett",
+      "es": "Amuleto de Haku"
+    },
     "level": 46,
-    "panoply": "Panoplie d'Haku",
+    "panoply": "674e523f64788cc741418164",
     "category": "amulet",
     "stats": {
       "health": 35,
@@ -2580,10 +4164,18 @@
       "fireDamage": 5
     }
   },
-  "Amulette de Nelween": {
-    "name": "Amulette de Nelween",
+  "674e524064788cc741419b56": {
+    "id": "674e524064788cc741419b56",
+    "idShort": "3c",
+    "name": {
+      "fr": "Amulette de Nelween",
+      "en": "Nelween's Amulet",
+      "pt": "Amuleto de Nelween",
+      "de": "Nelwynn-Amulett",
+      "es": "Amuleto de Nelwynn"
+    },
     "level": 74,
-    "panoply": "Panoplie de Nelween",
+    "panoply": "674e523f64788cc741418165",
     "category": "amulet",
     "stats": {
       "health": 60,
@@ -2594,10 +4186,18 @@
       "criticalResist": 10
     }
   },
-  "Amulette de Frigostine": {
-    "name": "Amulette de Frigostine",
+  "674e524064788cc741419b6a": {
+    "id": "674e524064788cc741419b6a",
+    "idShort": "3d",
+    "name": {
+      "fr": "Amulette de Frigostine",
+      "en": "Frigostine's Amulet",
+      "pt": "Amuleto de Frigostina",
+      "de": "Frigostinchenbrosche",
+      "es": "Amuleto de Frigostina"
+    },
     "level": 147,
-    "panoply": "Panoplie de Frigostine",
+    "panoply": "674e523f64788cc741418167",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -2615,10 +4215,18 @@
       "dodge": 5
     }
   },
-  "Amulette de Cantile": {
-    "name": "Amulette de Cantile",
+  "674e524064788cc741419b70": {
+    "id": "674e524064788cc741419b70",
+    "idShort": "3e",
+    "name": {
+      "fr": "Amulette de Cantile",
+      "en": "Cantile's Amulet",
+      "pt": "Amuleto da Berna",
+      "de": "Bürgherrbrosche",
+      "es": "Amuleto de Lario"
+    },
     "level": 156,
-    "panoply": "Panoplie de Cantile",
+    "panoply": "674e523f64788cc741418168",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -2637,10 +4245,18 @@
       "apResist": 5
     }
   },
-  "Amulette de Guten Tak": {
-    "name": "Amulette de Guten Tak",
+  "674e524064788cc741419b77": {
+    "id": "674e524064788cc741419b77",
+    "idShort": "3f",
+    "name": {
+      "fr": "Amulette de Guten Tak",
+      "en": "Guten Tak's Amulet",
+      "pt": "Amuleto de Guten Tak",
+      "de": "Guten Tarks Amulett",
+      "es": "Amuleto de Gwen Astarde"
+    },
     "level": 177,
-    "panoply": "Panoplie de Guten Tak",
+    "panoply": "674e523f64788cc74141816a",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2658,10 +4274,18 @@
       "apReduction": 5
     }
   },
-  "Amulette du Professeur Xa": {
-    "name": "Amulette du Professeur Xa",
+  "674e524064788cc741419b80": {
+    "id": "674e524064788cc741419b80",
+    "idShort": "3g",
+    "name": {
+      "fr": "Amulette du Professeur Xa",
+      "en": "Professor Xa's Amulet",
+      "pt": "Amuleto do Professor Xa",
+      "de": "Professor Xas Amulett",
+      "es": "Amuleto del profesor Xa"
+    },
     "level": 195,
-    "panoply": "Panoplie du Professeur Xa",
+    "panoply": "674e523f64788cc74141816c",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -2684,10 +4308,18 @@
       "criticalResist": 25
     }
   },
-  "Amulette du Gorgouille": {
-    "name": "Amulette du Gorgouille",
+  "674e524064788cc741419c1c": {
+    "id": "674e524064788cc741419c1c",
+    "idShort": "3h",
+    "name": {
+      "fr": "Amulette du Gorgouille",
+      "en": "Gorgoyle Amulet",
+      "pt": "Amuleto do Górgula",
+      "de": "Gorgoyl-Amulett",
+      "es": "Amuleto de marranárgola"
+    },
     "level": 96,
-    "panoply": "Panoplie du Gorgouille",
+    "panoply": "674e523f64788cc741418170",
     "category": "amulet",
     "stats": {
       "health": 60,
@@ -2704,10 +4336,18 @@
       "pushbackDamage": 7
     }
   },
-  "Amulette du Krokilleur": {
-    "name": "Amulette du Krokilleur",
+  "674e524064788cc741419c3a": {
+    "id": "674e524064788cc741419c3a",
+    "idShort": "3i",
+    "name": {
+      "fr": "Amulette du Krokilleur",
+      "en": "Saurosheller Amulet",
+      "pt": "Amuleto do Kaskador",
+      "de": "Schockerschamulett",
+      "es": "Amuleto de cascasauriador"
+    },
     "level": 107,
-    "panoply": "Panoplie du Krokilleur",
+    "panoply": "674e523f64788cc741418174",
     "category": "amulet",
     "stats": {
       "health": 80,
@@ -2724,10 +4364,18 @@
       "pushbackDamage": 10
     }
   },
-  "Amulette de Grozilla": {
-    "name": "Amulette de Grozilla",
+  "674e524064788cc741419c3b": {
+    "id": "674e524064788cc741419c3b",
+    "idShort": "3j",
+    "name": {
+      "fr": "Amulette de Grozilla",
+      "en": "Grozilla Amulet",
+      "pt": "Amuleto de Grozilla",
+      "de": "Grozillamulett",
+      "es": "Amuleto de Grozilla"
+    },
     "level": 151,
-    "panoply": "Panoplie de Grozilla",
+    "panoply": "674e523f64788cc741418175",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -2746,10 +4394,18 @@
       "criticalResist": 10
     }
   },
-  "Amulette Tétriste": {
-    "name": "Amulette Tétriste",
+  "674e524064788cc741419c48": {
+    "id": "674e524064788cc741419c48",
+    "idShort": "3k",
+    "name": {
+      "fr": "Amulette Tétriste",
+      "en": "Tetra Amulet",
+      "pt": "Amuleto Tetrista",
+      "de": "Tetrist-Amulett",
+      "es": "Amuleto tetrista"
+    },
     "level": 10,
-    "panoply": "Panoplie Tétriste",
+    "panoply": "674e523f64788cc741418392",
     "category": "amulet",
     "stats": {
       "strength": -15,
@@ -2759,8 +4415,16 @@
       "range": 1
     }
   },
-  "Snarmulette": {
-    "name": "Snarmulette",
+  "674e524064788cc741419d25": {
+    "id": "674e524064788cc741419d25",
+    "idShort": "3l",
+    "name": {
+      "fr": "Snarmulette",
+      "en": "Snarmulet",
+      "pt": "Snarmuleto",
+      "de": "Schnuffelkett",
+      "es": "Snarmuleto"
+    },
     "level": 41,
     "category": "amulet",
     "stats": {
@@ -2771,10 +4435,18 @@
       "dodge": 4
     }
   },
-  "Collier Rouge de Daïgoro": {
-    "name": "Collier Rouge de Daïgoro",
+  "674e524064788cc741419d2f": {
+    "id": "674e524064788cc741419d2f",
+    "idShort": "3m",
+    "name": {
+      "fr": "Collier Rouge de Daïgoro",
+      "en": "Daggero's Red Necklace",
+      "pt": "Colar vermelho do Daigoro",
+      "de": "Daigoros blutrote Halskette",
+      "es": "Collar rojo de Daigorobo"
+    },
     "level": 86,
-    "panoply": "Panoplie de Daïgoro",
+    "panoply": "674e523f64788cc741418177",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2786,30 +4458,54 @@
       "criticalResist": 8
     }
   },
-  "Amulettong": {
-    "name": "Amulettong",
+  "674e524064788cc741419d70": {
+    "id": "674e524064788cc741419d70",
+    "idShort": "3n",
+    "name": {
+      "fr": "Amulettong",
+      "en": "Pongulet",
+      "pt": "Ponguleto",
+      "de": "Amulong",
+      "es": "Amuletong"
+    },
     "level": 10,
-    "panoply": "Panoplong",
+    "panoply": "674e523f64788cc741418395",
     "category": "amulet",
     "stats": {
       "wisdom": -15,
       "summon": 1
     }
   },
-  "Pacmamulette": {
-    "name": "Pacmamulette",
+  "674e524064788cc741419d72": {
+    "id": "674e524064788cc741419d72",
+    "idShort": "3o",
+    "name": {
+      "fr": "Pacmamulette",
+      "en": "Pacmamulet",
+      "pt": "Pacmamuleto",
+      "de": "Amupac Manlett",
+      "es": "Pamuleto"
+    },
     "level": 10,
-    "panoply": "Pacmanoplie",
+    "panoply": "674e523f64788cc741418394",
     "category": "amulet",
     "stats": {
       "wisdom": 5,
       "power": 10
     }
   },
-  "Porte-Malheur du Nowel Cauchemardesque": {
-    "name": "Porte-Malheur du Nowel Cauchemardesque",
+  "674e524064788cc741419db1": {
+    "id": "674e524064788cc741419db1",
+    "idShort": "3p",
+    "name": {
+      "fr": "Porte-Malheur du Nowel Cauchemardesque",
+      "en": "Kwismas Nightmare Bad Luck Charm",
+      "pt": "Amuleto de Azar do Pesadelo de Nataw",
+      "de": "Weißnachtshorror-Unglücksbringer",
+      "es": "Talismal de las pesadillas nawideñas de Jack"
+    },
     "level": 150,
-    "panoply": "Panoplie du Nowel Cauchemardesque",
+    "panoply": "674e523f64788cc74141817a",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -2825,10 +4521,18 @@
       "pushbackDamage": 10
     }
   },
-  "Licol de Redolphe": {
-    "name": "Licol de Redolphe",
+  "674e524064788cc741419db5": {
+    "id": "674e524064788cc741419db5",
+    "idShort": "3q",
+    "name": {
+      "fr": "Licol de Redolphe",
+      "en": "Redolph Halter",
+      "pt": "Cabresto de Redolph",
+      "de": "Rotolphs Halfter",
+      "es": "Ronzal de Renodolfo"
+    },
     "level": 85,
-    "panoply": "Panoplie de Redolphe",
+    "panoply": "674e523f64788cc741418179",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -2842,10 +4546,18 @@
       "criticalResist": 5
     }
   },
-  "Peignentif": {
-    "name": "Peignentif",
+  "674e524064788cc741419dcd": {
+    "id": "674e524064788cc741419dcd",
+    "idShort": "3r",
+    "name": {
+      "fr": "Peignentif",
+      "en": "Brushdant",
+      "pt": "Penteativo",
+      "de": "Kammulett",
+      "es": "Cepilloleto"
+    },
     "level": 42,
-    "panoply": "Ma petite panoplie",
+    "panoply": "674e523f64788cc7414183ae",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -2855,10 +4567,18 @@
       "mpResist": 3
     }
   },
-  "Collier de Féline": {
-    "name": "Collier de Féline",
+  "674e524064788cc741419e35": {
+    "id": "674e524064788cc741419e35",
+    "idShort": "3s",
+    "name": {
+      "fr": "Collier de Féline",
+      "en": "Feline's Necklace",
+      "pt": "Colar de Cal",
+      "de": "Féline Vion – Kristallkette",
+      "es": "Collar de Felín"
+    },
     "level": 53,
-    "panoply": "Panoplie de Féline",
+    "panoply": "674e523f64788cc7414183c7",
     "category": "amulet",
     "stats": {
       "health": 35,
@@ -2869,10 +4589,18 @@
       "criticalResist": 5
     }
   },
-  "Amulette d'Otomaï": {
-    "name": "Amulette d'Otomaï",
+  "674e524064788cc741419e5b": {
+    "id": "674e524064788cc741419e5b",
+    "idShort": "3t",
+    "name": {
+      "fr": "Amulette d'Otomaï",
+      "en": "Otomai's Amulet",
+      "pt": "Amuleto de Otomai",
+      "de": "Otomaïs Amulett",
+      "es": "Amuleto de Otomai"
+    },
     "level": 197,
-    "panoply": "Panoplie d'Otomaï",
+    "panoply": "674e523f64788cc74141817d",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -2887,10 +4615,18 @@
       "lock": 6
     }
   },
-  "Amulette de Danathor": {
-    "name": "Amulette de Danathor",
+  "674e524064788cc741419e5f": {
+    "id": "674e524064788cc741419e5f",
+    "idShort": "3u",
+    "name": {
+      "fr": "Amulette de Danathor",
+      "en": "Danathor's Amulet",
+      "pt": "Amuleto do Danathor",
+      "de": "Danathors Amulett",
+      "es": "Amuleto de Danathor"
+    },
     "level": 194,
-    "panoply": "Panoplie de Danathor",
+    "panoply": "674e523f64788cc74141817e",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -2906,10 +4642,18 @@
       "mpResist": 7
     }
   },
-  "Pendentiffre": {
-    "name": "Pendentiffre",
+  "674e524064788cc741419e6d": {
+    "id": "674e524064788cc741419e6d",
+    "idShort": "3v",
+    "name": {
+      "fr": "Pendentiffre",
+      "en": "Chesty Pendant",
+      "pt": "Pingenfre",
+      "de": "Truhlett",
+      "es": "Cofrellar"
+    },
     "level": 56,
-    "panoply": "Panoplie Coffre",
+    "panoply": "674e523f64788cc741418182",
     "category": "amulet",
     "stats": {
       "power": 15,
@@ -2919,8 +4663,16 @@
       "mpReduction": 3
     }
   },
-  "Amulette de Pwâk": {
-    "name": "Amulette de Pwâk",
+  "674e524064788cc741419e87": {
+    "id": "674e524064788cc741419e87",
+    "idShort": "3w",
+    "name": {
+      "fr": "Amulette de Pwâk",
+      "en": "Fleaster Amulet",
+      "pt": "Amuleto de Paskwak",
+      "de": "Ostewahasen-Amulett",
+      "es": "Amuleto de Pazcuak"
+    },
     "level": 53,
     "category": "amulet",
     "stats": {
@@ -2932,10 +4684,18 @@
       "dodge": 4
     }
   },
-  "Diplamu": {
-    "name": "Diplamu",
+  "674e524064788cc741419f99": {
+    "id": "674e524064788cc741419f99",
+    "idShort": "3x",
+    "name": {
+      "fr": "Diplamu",
+      "en": "Diplamulet",
+      "pt": "Amulirou",
+      "de": "Diplomulett",
+      "es": "Amuliesito"
+    },
     "level": 55,
-    "panoply": "Diplanoplie",
+    "panoply": "674e523f64788cc7414183cd",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -2947,10 +4707,18 @@
       "pushbackDamage": 5
     }
   },
-  "Amulette d'Oshimo": {
-    "name": "Amulette d'Oshimo",
+  "674e524064788cc74141a033": {
+    "id": "674e524064788cc74141a033",
+    "idShort": "3y",
+    "name": {
+      "fr": "Amulette d'Oshimo",
+      "en": "Oshimo's Amulet",
+      "pt": "Amuleto de Oshimo",
+      "de": "Oshimos Amulett",
+      "es": "Amuleto de Yokashi"
+    },
     "level": 196,
-    "panoply": "Panoplie d'Oshimo",
+    "panoply": "674e523f64788cc741418188",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -2971,10 +4739,18 @@
       "pushbackDamage": 20
     }
   },
-  "Amulette de Nevark": {
-    "name": "Amulette de Nevark",
+  "674e524064788cc74141a036": {
+    "id": "674e524064788cc74141a036",
+    "idShort": "3z",
+    "name": {
+      "fr": "Amulette de Nevark",
+      "en": "Nevark's Amulet",
+      "pt": "Amuleto do Nevark",
+      "de": "Newarks Amulett",
+      "es": "Amuleto de Nevark"
+    },
     "level": 194,
-    "panoply": "Panoplie de Nevark",
+    "panoply": "674e523f64788cc741418189",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -2991,10 +4767,18 @@
       "criticalDamage": -21
     }
   },
-  "Amulette de Théodoran Ax": {
-    "name": "Amulette de Théodoran Ax",
+  "674e524064788cc74141a039": {
+    "id": "674e524064788cc74141a039",
+    "idShort": "3A",
+    "name": {
+      "fr": "Amulette de Théodoran Ax",
+      "en": "Antyklime Ax's Amulet",
+      "pt": "Amuleto de Theodorant Ax",
+      "de": "Amulett von Theodoran X",
+      "es": "Amuleto de Ontoral Zo"
+    },
     "level": 193,
-    "panoply": "Panoplie de Théodoran Ax",
+    "panoply": "674e523f64788cc74141818a",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3014,10 +4798,18 @@
       "criticalDamage": -11
     }
   },
-  "Amulette d'Hel Munster": {
-    "name": "Amulette d'Hel Munster",
+  "674e524064788cc74141a040": {
+    "id": "674e524064788cc74141a040",
+    "idShort": "3B",
+    "name": {
+      "fr": "Amulette d'Hel Munster",
+      "en": "Hel Munster's Amulet",
+      "pt": "Amuleto de Hel Munster",
+      "de": "Hel Münsters Halskette",
+      "es": "Amuleto de Hel Munster"
+    },
     "level": 195,
-    "panoply": "Panoplie d'Hel Munster",
+    "panoply": "674e523f64788cc74141818c",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3037,10 +4829,18 @@
       "pushbackResist": 15
     }
   },
-  "Glaglamu": {
-    "name": "Glaglamu",
+  "674e524064788cc74141a117": {
+    "id": "674e524064788cc74141a117",
+    "idShort": "3C",
+    "name": {
+      "fr": "Glaglamu",
+      "en": "Brrrito Amulet",
+      "pt": "Amuleto Polar",
+      "de": "FroFrostamu",
+      "es": "Jabajomuleto"
+    },
     "level": 57,
-    "panoply": "Glaglanoplie",
+    "panoply": "674e523f64788cc7414183cc",
     "category": "amulet",
     "stats": {
       "health": 30,
@@ -3051,10 +4851,18 @@
       "apResist": 2
     }
   },
-  "Amulette de Nileza": {
-    "name": "Amulette de Nileza",
+  "674e524164788cc74141a1c3": {
+    "id": "674e524164788cc74141a1c3",
+    "idShort": "3D",
+    "name": {
+      "fr": "Amulette de Nileza",
+      "en": "Nileza's Amulet",
+      "pt": "Amuleto do Nileza",
+      "de": "Nileza-Amulett",
+      "es": "Amuleto de Nileza"
+    },
     "level": 196,
-    "panoply": "Panoplie de Nileza",
+    "panoply": "674e523f64788cc74141819f",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3069,10 +4877,18 @@
       "criticalDamage": 12
     }
   },
-  "Amulette du Kanimate": {
-    "name": "Amulette du Kanimate",
+  "674e524164788cc74141a1cd": {
+    "id": "674e524164788cc74141a1cd",
+    "idShort": "3E",
+    "name": {
+      "fr": "Amulette du Kanimate",
+      "en": "Kan-O-Mat Amulet",
+      "pt": "Amuleto do Kanibot",
+      "de": "Kanimat-Amulett",
+      "es": "Amuleto de kanitómata"
+    },
     "level": 196,
-    "panoply": "Panoplie du Kanimate",
+    "panoply": "674e523f64788cc7414181a2",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3093,10 +4909,18 @@
       "apResist": 7
     }
   },
-  "Amulette Séculaire": {
-    "name": "Amulette Séculaire",
+  "674e524164788cc74141a1d2": {
+    "id": "674e524164788cc74141a1d2",
+    "idShort": "3F",
+    "name": {
+      "fr": "Amulette Séculaire",
+      "en": "Age-Old Amulet",
+      "pt": "Amuleto Secular",
+      "de": "Säkular-Amulett",
+      "es": "Amuleto secular"
+    },
     "level": 200,
-    "panoply": "Panoplie Séculaire",
+    "panoply": "674e523f64788cc741418194",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3112,10 +4936,18 @@
       "criticalResist": 15
     }
   },
-  "Amulette du Granduk": {
-    "name": "Amulette du Granduk",
+  "674e524164788cc74141a1d5": {
+    "id": "674e524164788cc74141a1d5",
+    "idShort": "3G",
+    "name": {
+      "fr": "Amulette du Granduk",
+      "en": "Bubotron Amulet",
+      "pt": "Amuleto do Bububo",
+      "de": "Obu-Bobub - Amulett",
+      "es": "Amuleto de bubobubo"
+    },
     "level": 200,
-    "panoply": "Panoplie du Granduk",
+    "panoply": "674e523f64788cc741418199",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3133,10 +4965,18 @@
       "criticalDamage": 10
     }
   },
-  "Amulette du Sinistrofu": {
-    "name": "Amulette du Sinistrofu",
+  "674e524164788cc74141a1d8": {
+    "id": "674e524164788cc74141a1d8",
+    "idShort": "3H",
+    "name": {
+      "fr": "Amulette du Sinistrofu",
+      "en": "Sinistrofu Amulet",
+      "pt": "Amuleto do Sinistrofu",
+      "de": "Sinistrofu-Amulett",
+      "es": "Amuleto de buhotofu"
+    },
     "level": 200,
-    "panoply": "Panoplie du Sinistrofu",
+    "panoply": "674e523f64788cc741418198",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3155,10 +4995,18 @@
       "pushbackDamage": 20
     }
   },
-  "Amulette Cryochrone": {
-    "name": "Amulette Cryochrone",
+  "674e524164788cc74141a1dc": {
+    "id": "674e524164788cc74141a1dc",
+    "idShort": "3I",
+    "name": {
+      "fr": "Amulette Cryochrone",
+      "en": "Cryochrone Amulet",
+      "pt": "Amuleto Criocrono",
+      "de": "Cryochron-Amulett",
+      "es": "Amuleto criocrono"
+    },
     "level": 200,
-    "panoply": "Panoplie Cryochrone",
+    "panoply": "674e523f64788cc741418195",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3176,10 +5024,18 @@
       "lock": 10
     }
   },
-  "Amulette du Cycloïde": {
-    "name": "Amulette du Cycloïde",
+  "674e524164788cc74141a1dd": {
+    "id": "674e524164788cc74141a1dd",
+    "idShort": "3J",
+    "name": {
+      "fr": "Amulette du Cycloïde",
+      "en": "Cycloid Amulet",
+      "pt": "Amuleto do Cicloide",
+      "de": "Zykloid-Amulett",
+      "es": "Amuleto de kukoloide"
+    },
     "level": 200,
-    "panoply": "Panoplie du Cycloïde",
+    "panoply": "674e523f64788cc741418196",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -3199,10 +5055,18 @@
       "apResist": -6
     }
   },
-  "Amulette du Strigide": {
-    "name": "Amulette du Strigide",
+  "674e524164788cc74141a1e0": {
+    "id": "674e524164788cc74141a1e0",
+    "idShort": "3K",
+    "name": {
+      "fr": "Amulette du Strigide",
+      "en": "Treadfast Amulet",
+      "pt": "Amuleto do Strígido",
+      "de": "Stringid-Amulett",
+      "es": "Amuleto de estrígido"
+    },
     "level": 200,
-    "panoply": "Panoplie du Strigide",
+    "panoply": "674e523f64788cc741418197",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -3218,10 +5082,18 @@
       "criticalResist": -16
     }
   },
-  "Amulette du Nocturlabe": {
-    "name": "Amulette du Nocturlabe",
+  "674e524164788cc74141a1e3": {
+    "id": "674e524164788cc74141a1e3",
+    "idShort": "3L",
+    "name": {
+      "fr": "Amulette du Nocturlabe",
+      "en": "Nocturnowl Amulet",
+      "pt": "Amuleto do Nocturlábio",
+      "de": "Nokturnal-Amulett",
+      "es": "Amuleto de nocturlabiúho"
+    },
     "level": 200,
-    "panoply": "Panoplie du Nocturlabe",
+    "panoply": "674e523f64788cc74141819a",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3236,10 +5108,18 @@
       "criticalDamage": 15
     }
   },
-  "Amulette Rangleur": {
-    "name": "Amulette Rangleur",
+  "674e524164788cc74141a20e": {
+    "id": "674e524164788cc74141a20e",
+    "idShort": "3M",
+    "name": {
+      "fr": "Amulette Rangleur",
+      "en": "Gilded Choker",
+      "pt": "Amuleto Micida",
+      "de": "Halskette \"R.Würg\"",
+      "es": "Amuleto Micida"
+    },
     "level": 196,
-    "panoply": "Panoplie Superstitieuse",
+    "panoply": "674e523f64788cc7414183fa",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3257,10 +5137,18 @@
       "criticalResist": -11
     }
   },
-  "Talisman Songe": {
-    "name": "Talisman Songe",
+  "674e524164788cc74141a217": {
+    "id": "674e524164788cc74141a217",
+    "idShort": "3N",
+    "name": {
+      "fr": "Talisman Songe",
+      "en": "White Lai Amulet",
+      "pt": "Talismã Tyra",
+      "de": "Amuluguntruglett",
+      "es": "Talismán Tira"
+    },
     "level": 200,
-    "panoply": "Panoplie du Bonimenteur",
+    "panoply": "6807d9a601b972ee0ea59ce5",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3280,8 +5168,16 @@
       "criticalDamage": 15
     }
   },
-  "Dés de la Chance": {
-    "name": "Dés de la Chance",
+  "674e524164788cc74141a277": {
+    "id": "674e524164788cc74141a277",
+    "idShort": "3O",
+    "name": {
+      "fr": "Dés de la Chance",
+      "en": "Lucky Dice",
+      "pt": "Dados da Sorte",
+      "de": "Glückswürfel",
+      "es": "Dados de la Suerte"
+    },
     "level": 50,
     "category": "amulet",
     "stats": {
@@ -3291,10 +5187,18 @@
       "criticalResist": -20
     }
   },
-  "Phylactère Mic": {
-    "name": "Phylactère Mic",
+  "674e524164788cc74141a281": {
+    "id": "674e524164788cc74141a281",
+    "idShort": "3P",
+    "name": {
+      "fr": "Phylactère Mic",
+      "en": "Sulph Phylactery",
+      "pt": "Amuletérmico",
+      "de": "Amulett Hermik",
+      "es": "Filacteria Brasadora"
+    },
     "level": 197,
-    "panoply": "Panoplie Magmatique",
+    "panoply": "674e523f64788cc7414181a4",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3310,10 +5214,18 @@
       "criticalResist": 10
     }
   },
-  "Pendentif Oton": {
-    "name": "Pendentif Oton",
+  "674e524164788cc74141a287": {
+    "id": "674e524164788cc74141a287",
+    "idShort": "3Q",
+    "name": {
+      "fr": "Pendentif Oton",
+      "en": "Quartzovski Crystal",
+      "pt": "Pingente Fotônico",
+      "de": "Notohpkette",
+      "es": "Colgante Tonfo"
+    },
     "level": 194,
-    "panoply": "Panoplie Quartzésienne",
+    "panoply": "674e523f64788cc7414181a5",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3332,10 +5244,18 @@
       "apResist": -11
     }
   },
-  "Amulette Stroplante": {
-    "name": "Amulette Stroplante",
+  "674e524164788cc74141a298": {
+    "id": "674e524164788cc74141a298",
+    "idShort": "3R",
+    "name": {
+      "fr": "Amulette Stroplante",
+      "en": "Wheelie Amulet",
+      "pt": "Amuleto Stroide",
+      "de": "Jayckett",
+      "es": "Amuleto Onstruoplanta"
+    },
     "level": 58,
-    "panoply": "Panoplie Stroplante",
+    "panoply": "674e523f64788cc7414183d0",
     "category": "amulet",
     "stats": {
       "strength": 20,
@@ -3343,10 +5263,18 @@
       "ap": 1
     }
   },
-  "Amulette du Wabbit Céphale": {
-    "name": "Amulette du Wabbit Céphale",
+  "674e524164788cc74141a30a": {
+    "id": "674e524164788cc74141a30a",
+    "idShort": "3S",
+    "name": {
+      "fr": "Amulette du Wabbit Céphale",
+      "en": "Janus Wabbit Amulet",
+      "pt": "Amuleto do Wabbit Céfalo",
+      "de": "Wabbit Terböses Amulett",
+      "es": "Amuleto de wabbit céfalo"
+    },
     "level": 116,
-    "panoply": "Panoplie du Wabbit Céphale",
+    "panoply": "674e523f64788cc7414181a9",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -3360,8 +5288,16 @@
       "apResist": -6
     }
   },
-  "Shinchamu": {
-    "name": "Shinchamu",
+  "674e524164788cc74141a34b": {
+    "id": "674e524164788cc74141a34b",
+    "idShort": "3T",
+    "name": {
+      "fr": "Shinchamu",
+      "en": "Teemulet",
+      "pt": "Shinchamuleto",
+      "de": "Shinchamu",
+      "es": "Amuleto shincha"
+    },
     "level": 10,
     "category": "amulet",
     "stats": {
@@ -3370,8 +5306,16 @@
       "earthDamage": 2
     }
   },
-  "Ninjamu Blanche": {
-    "name": "Ninjamu Blanche",
+  "674e524164788cc74141a35f": {
+    "id": "674e524164788cc74141a35f",
+    "idShort": "3U",
+    "name": {
+      "fr": "Ninjamu Blanche",
+      "en": "White Ninjamulet",
+      "pt": "Ninjamuleto Branco",
+      "de": "Amulett des Weißen Ninjas",
+      "es": "Amuleto de ninja blanco"
+    },
     "level": 10,
     "category": "amulet",
     "stats": {
@@ -3380,8 +5324,16 @@
       "criticalChance": 1
     }
   },
-  "Ninjamu Noire": {
-    "name": "Ninjamu Noire",
+  "674e524164788cc74141a363": {
+    "id": "674e524164788cc74141a363",
+    "idShort": "3V",
+    "name": {
+      "fr": "Ninjamu Noire",
+      "en": "Black Ninjamulet",
+      "pt": "Ninjamuleto Negro",
+      "de": "Amulett des Schwarzen Ninjas",
+      "es": "Amuleto de ninja negro"
+    },
     "level": 10,
     "category": "amulet",
     "stats": {
@@ -3389,8 +5341,16 @@
       "criticalChance": 1
     }
   },
-  "Insigne de Keukeuf": {
-    "name": "Insigne de Keukeuf",
+  "674e524164788cc74141a420": {
+    "id": "674e524164788cc74141a420",
+    "idShort": "3W",
+    "name": {
+      "fr": "Insigne de Keukeuf",
+      "en": "Baahboh Insignia",
+      "pt": "Insígnia de Papamaik",
+      "de": "Abzeichen des Buuhbullen",
+      "es": "Insignia pacificadora"
+    },
     "level": 106,
     "category": "amulet",
     "stats": {
@@ -3404,10 +5364,18 @@
       "pushbackResist": 10
     }
   },
-  "Talisman Glouti": {
-    "name": "Talisman Glouti",
+  "674e524164788cc74141a44b": {
+    "id": "674e524164788cc74141a44b",
+    "idShort": "3X",
+    "name": {
+      "fr": "Talisman Glouti",
+      "en": "Missix Amulet",
+      "pt": "Talismã Golido",
+      "de": "Glücksbringer Eistief",
+      "es": "Talismán Egado"
+    },
     "level": 200,
-    "panoply": "Panoplie des Abysses",
+    "panoply": "674e523f64788cc7414181b0",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3426,10 +5394,18 @@
       "pushbackResist": 30
     }
   },
-  "Amulette Ikête": {
-    "name": "Amulette Ikête",
+  "674e524164788cc74141a451": {
+    "id": "674e524164788cc74141a451",
+    "idShort": "3Y",
+    "name": {
+      "fr": "Amulette Ikête",
+      "en": "iKwest Amulet",
+      "pt": "Amuleto Blete",
+      "de": "Amulettikwest",
+      "es": "Amuleto Bleta"
+    },
     "level": 196,
-    "panoply": "Panoplie du Cartographe",
+    "panoply": "674e523f64788cc7414181af",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -3450,10 +5426,18 @@
       "pushbackResist": 30
     }
   },
-  "Amulule": {
-    "name": "Amulule",
+  "674e524164788cc74141a47e": {
+    "id": "674e524164788cc74141a47e",
+    "idShort": "3Z",
+    "name": {
+      "fr": "Amulule",
+      "en": "Jahn Locket",
+      "pt": "Amulula",
+      "de": "Nokteulett",
+      "es": "Amulular"
+    },
     "level": 197,
-    "panoply": "Panoplie Obscure",
+    "panoply": "674e523f64788cc7414181b1",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3473,10 +5457,18 @@
       "mpResist": -4
     }
   },
-  "Amulette de l'Orfélin": {
-    "name": "Amulette de l'Orfélin",
+  "674e524164788cc74141a4f8": {
+    "id": "674e524164788cc74141a4f8",
+    "idShort": "40",
+    "name": {
+      "fr": "Amulette de l'Orfélin",
+      "en": "Orfan Amulet",
+      "pt": "Amuleto do Orfelino",
+      "de": "Goldeoparden-Amulett",
+      "es": "Amuleto de huerfelino"
+    },
     "level": 157,
-    "panoply": "Panoplie de l'Orfélin",
+    "panoply": "674e523f64788cc7414181b7",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -3492,10 +5484,18 @@
       "pushbackDamage": 12
     }
   },
-  "Amulette du Piloztère": {
-    "name": "Amulette du Piloztère",
+  "674e524164788cc74141a55b": {
+    "id": "674e524164788cc74141a55b",
+    "idShort": "41",
+    "name": {
+      "fr": "Amulette du Piloztère",
+      "en": "Hairsh Amulet",
+      "pt": "Amuleto do Pelutrof",
+      "de": "Haarraff-Amulett",
+      "es": "Amuleto de melenutrof"
+    },
     "level": 200,
-    "panoply": "Panoplie du Piloztère",
+    "panoply": "674e523f64788cc7414181ba",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3513,10 +5513,18 @@
       "pushbackResist": -21
     }
   },
-  "Amulette du Kamasterisk": {
-    "name": "Amulette du Kamasterisk",
+  "674e524164788cc74141a561": {
+    "id": "674e524164788cc74141a561",
+    "idShort": "42",
+    "name": {
+      "fr": "Amulette du Kamasterisk",
+      "en": "Kamasterisk Amulet",
+      "pt": "Amuleto do Kamasterisko",
+      "de": "Kamasterisk-Amulett",
+      "es": "Amuleto de kamasterix"
+    },
     "level": 200,
-    "panoply": "Panoplie du Kamasterisk",
+    "panoply": "674e523f64788cc7414181bc",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -3535,10 +5543,18 @@
       "pushbackResist": -21
     }
   },
-  "Amulette du Père Phorreur": {
-    "name": "Amulette du Père Phorreur",
+  "674e524164788cc74141a569": {
+    "id": "674e524164788cc74141a569",
+    "idShort": "43",
+    "name": {
+      "fr": "Amulette du Père Phorreur",
+      "en": "Powa Drhell Amulet",
+      "pt": "Amuleto do Papatroz",
+      "de": "Griesgramratt-Amulett",
+      "es": "Amuleto de papatroz"
+    },
     "level": 152,
-    "panoply": "Panoplie du Père Phorreur",
+    "panoply": "674e523f64788cc7414181be",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -3554,10 +5570,18 @@
       "lock": 10
     }
   },
-  "Gruchette": {
-    "name": "Gruchette",
+  "674e524164788cc74141a5f9": {
+    "id": "674e524164788cc74141a5f9",
+    "idShort": "44",
+    "name": {
+      "fr": "Gruchette",
+      "en": "Stretch Charmstrong",
+      "pt": "Amuleto de Guindastruz",
+      "de": "Kranmelspatzen-Amulett",
+      "es": "Amuleto de grullestruz"
+    },
     "level": 131,
-    "panoply": "Gruchoplie",
+    "panoply": "674e523f64788cc7414181c2",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -3571,10 +5595,18 @@
       "apResist": 5
     }
   },
-  "Amulette de Gein": {
-    "name": "Amulette de Gein",
+  "674e524164788cc74141a63e": {
+    "id": "674e524164788cc74141a63e",
+    "idShort": "45",
+    "name": {
+      "fr": "Amulette de Gein",
+      "en": "Gein's Amulet",
+      "pt": "Amuleto do Gein",
+      "de": "Gains Amulett",
+      "es": "Amuleto de Lonyon"
+    },
     "level": 200,
-    "panoply": "Panoplie de Gein",
+    "panoply": "674e523f64788cc7414181c4",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3592,10 +5624,18 @@
       "criticalDamage": 25
     }
   },
-  "Amulette Nécrotique": {
-    "name": "Amulette Nécrotique",
+  "674e524164788cc74141a67c": {
+    "id": "674e524164788cc74141a67c",
+    "idShort": "46",
+    "name": {
+      "fr": "Amulette Nécrotique",
+      "en": "Necrotick Amulet",
+      "pt": "Amuleto Entomortis",
+      "de": "Nekroten-Amulett",
+      "es": "Amuleto necrótico"
+    },
     "level": 178,
-    "panoply": "Panoplie Nécrotique",
+    "panoply": "674e523f64788cc7414181c8",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -3611,10 +5651,18 @@
       "waterResistPer": 10
     }
   },
-  "Amulette d'Ali Grothor": {
-    "name": "Amulette d'Ali Grothor",
+  "674e524164788cc74141a68f": {
+    "id": "674e524164788cc74141a68f",
+    "idShort": "47",
+    "name": {
+      "fr": "Amulette d'Ali Grothor",
+      "en": "Mastigator's Amulet",
+      "pt": "Amuleto do Ali Grothor",
+      "de": "Ali Grothors Amulett",
+      "es": "Amuleto de Ali Grothor"
+    },
     "level": 133,
-    "panoply": "Panoplie d'Ali Grothor",
+    "panoply": "674e523f64788cc7414181cb",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -3627,10 +5675,18 @@
       "pushbackResist": 15
     }
   },
-  "Amulette Verréhor": {
-    "name": "Amulette Verréhor",
+  "674e524164788cc74141a6ae": {
+    "id": "674e524164788cc74141a6ae",
+    "idShort": "48",
+    "name": {
+      "fr": "Amulette Verréhor",
+      "en": "Greenengol Amulet",
+      "pt": "Amuleto Canarim",
+      "de": "Güldengrünes Amulett",
+      "es": "Amuleto verdoro"
+    },
     "level": 30,
-    "panoply": "Panoplie Verréhor",
+    "panoply": "674e523f64788cc74141839d",
     "category": "amulet",
     "stats": {
       "strength": 15,
@@ -3640,10 +5696,18 @@
       "apResist": -4
     }
   },
-  "Amulette de Pol Ouatnos": {
-    "name": "Amulette de Pol Ouatnos",
+  "674e524164788cc74141a73f": {
+    "id": "674e524164788cc74141a73f",
+    "idShort": "49",
+    "name": {
+      "fr": "Amulette de Pol Ouatnos",
+      "en": "Pawl Ouatnos' Amulet",
+      "pt": "Amuleto do Pow Uatisson",
+      "de": "Kapitän Pol Tawnos Talisman",
+      "es": "Amuleto de Pol Guatson"
+    },
     "level": 200,
-    "panoply": "Panoplie de Pol Ouatnos",
+    "panoply": "674e523f64788cc7414183e0",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3658,10 +5722,18 @@
       "criticalResist": 25
     }
   },
-  "Amibou": {
-    "name": "Amibou",
+  "674e524164788cc74141a763": {
+    "id": "674e524164788cc74141a763",
+    "idShort": "4a",
+    "name": {
+      "fr": "Amibou",
+      "en": "Owlmulet",
+      "pt": "Corujamuleto",
+      "de": "Uhulskette",
+      "es": "Buholgante"
+    },
     "level": 200,
-    "panoply": "Panoplibou",
+    "panoply": "674e523f64788cc7414181cd",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3679,10 +5751,18 @@
       "pushbackDamage": 20
     }
   },
-  "Harpendentif": {
-    "name": "Harpendentif",
+  "674e524164788cc74141a76c": {
+    "id": "674e524164788cc74141a76c",
+    "idShort": "4b",
+    "name": {
+      "fr": "Harpendentif",
+      "en": "Neckross",
+      "pt": "Harpingente",
+      "de": "Harpy-Amulett",
+      "es": "Collarpilla"
+    },
     "level": 200,
-    "panoply": "Harpinoplie",
+    "panoply": "674e523f64788cc7414181d0",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -3695,10 +5775,18 @@
       "apResist": 25
     }
   },
-  "Talisman Igans": {
-    "name": "Talisman Igans",
+  "674e524164788cc74141a76f": {
+    "id": "674e524164788cc74141a76f",
+    "idShort": "4c",
+    "name": {
+      "fr": "Talisman Igans",
+      "en": "Talismagic",
+      "pt": "Talismã Nigância",
+      "de": "Talisman Chenscharf-Tenn",
+      "es": "Talismán Neje"
+    },
     "level": 200,
-    "panoply": "Panoplie Pnose",
+    "panoply": "674e523f64788cc7414181d1",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3714,20 +5802,36 @@
       "earthResistPer": 7
     }
   },
-  "Amulette de Fouduglen": {
-    "name": "Amulette de Fouduglen",
+  "674e524164788cc74141a79d": {
+    "id": "674e524164788cc74141a79d",
+    "idShort": "4d",
+    "name": {
+      "fr": "Amulette de Fouduglen",
+      "en": "Akornaddikt Amulet",
+      "pt": "Amuleto do Nozoiado",
+      "de": "Scratsahorntas-Amulett",
+      "es": "Amuleto de Peazo Beyota"
+    },
     "level": 10,
-    "panoply": "Panoplie Fouduglen",
+    "panoply": "674e523f64788cc7414181d6",
     "category": "amulet",
     "stats": {
       "agility": 10,
       "pushbackDamage": 4
     }
   },
-  "Amulette Perle": {
-    "name": "Amulette Perle",
+  "674e524164788cc74141a85a": {
+    "id": "674e524164788cc74141a85a",
+    "idShort": "4e",
+    "name": {
+      "fr": "Amulette Perle",
+      "en": "Pearl Amulet",
+      "pt": "Amuleto de Pérola",
+      "de": "Garstinsekten-Amulett",
+      "es": "Amuleto perla"
+    },
     "level": 37,
-    "panoply": "Microplie",
+    "panoply": "674e523f64788cc7414181d7",
     "category": "amulet",
     "stats": {
       "health": 25,
@@ -3736,10 +5840,18 @@
       "summon": 1
     }
   },
-  "Pendentif Curatif": {
-    "name": "Pendentif Curatif",
+  "674e524164788cc74141a85b": {
+    "id": "674e524164788cc74141a85b",
+    "idShort": "4f",
+    "name": {
+      "fr": "Pendentif Curatif",
+      "en": "Curative Pendant",
+      "pt": "Pingente curativo",
+      "de": "Heilskette",
+      "es": "Colgante curativo"
+    },
     "level": 60,
-    "panoply": "Panoplie Palliative",
+    "panoply": "674e523f64788cc7414181d8",
     "category": "amulet",
     "stats": {
       "chance": 35,
@@ -3750,10 +5862,18 @@
       "fireResistPer": -5
     }
   },
-  "Amulette des Huit Yeux": {
-    "name": "Amulette des Huit Yeux",
+  "674e524164788cc74141a8d4": {
+    "id": "674e524164788cc74141a8d4",
+    "idShort": "4g",
+    "name": {
+      "fr": "Amulette des Huit Yeux",
+      "en": "Eight-Eye Amulet",
+      "pt": "Amuleto dos Oito Olhos",
+      "de": "Amulett der Acht Augen",
+      "es": "Amuleto de los ocho ojos"
+    },
     "level": 92,
-    "panoply": "Panoplie de la Pondeuse",
+    "panoply": "674e523f64788cc7414181dd",
     "category": "amulet",
     "stats": {
       "health": 60,
@@ -3766,20 +5886,36 @@
       "airResistPer": 3
     }
   },
-  "Animulette": {
-    "name": "Animulette",
+  "674e524164788cc74141a9e4": {
+    "id": "674e524164788cc74141a9e4",
+    "idShort": "4h",
+    "name": {
+      "fr": "Animulette",
+      "en": "Animulette",
+      "pt": "Animuleto",
+      "de": "Animulett",
+      "es": "Ánimamuleto"
+    },
     "level": 7,
-    "panoply": "Panoplie des Âmes",
+    "panoply": "674e523f64788cc7414181e0",
     "category": "amulet",
     "stats": {
       "criticalChance": -5,
       "summon": 1
     }
   },
-  "Amulette de Moon": {
-    "name": "Amulette de Moon",
+  "674e524164788cc74141ab92": {
+    "id": "674e524164788cc74141ab92",
+    "idShort": "4i",
+    "name": {
+      "fr": "Amulette de Moon",
+      "en": "Moon Amulet",
+      "pt": "Amuleto de Moon",
+      "de": "Moon-Amulett",
+      "es": "Amuleto de Moon"
+    },
     "level": 102,
-    "panoply": "Panoplie de Moon",
+    "panoply": "674e523f64788cc7414181e2",
     "category": "amulet",
     "stats": {
       "health": 120,
@@ -3794,10 +5930,18 @@
       "criticalDamage": 10
     }
   },
-  "Amulette Voldelor": {
-    "name": "Amulette Voldelor",
+  "674e524164788cc74141ab9b": {
+    "id": "674e524164788cc74141ab9b",
+    "idShort": "4j",
+    "name": {
+      "fr": "Amulette Voldelor",
+      "en": "Voldelor Amulet",
+      "pt": "Amuleto do Vouromort",
+      "de": "Goldehorts Amulett",
+      "es": "Amuleto de Dambeldoro"
+    },
     "level": 200,
-    "panoply": "Panoplie de Voldelor",
+    "panoply": "674e523f64788cc7414181e6",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -3815,10 +5959,18 @@
       "criticalDamage": 15
     }
   },
-  "Amulette du K.O.": {
-    "name": "Amulette du K.O.",
+  "674e524164788cc74141abac": {
+    "id": "674e524164788cc74141abac",
+    "idShort": "4k",
+    "name": {
+      "fr": "Amulette du K.O.",
+      "en": "KOs' Amulet",
+      "pt": "Amuleto do K.O.",
+      "de": "K.Os-Amulett",
+      "es": "Amuleto de Kaos"
+    },
     "level": 181,
-    "panoply": "Panoplie du K.O.",
+    "panoply": "674e523f64788cc7414181e5",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -3836,20 +5988,36 @@
       "apResist": 5
     }
   },
-  "Collier de Khan Karkass": {
-    "name": "Collier de Khan Karkass",
+  "674e524164788cc74141aca3": {
+    "id": "674e524164788cc74141aca3",
+    "idShort": "4l",
+    "name": {
+      "fr": "Collier de Khan Karkass",
+      "en": "Khan Karkass's Necklace",
+      "pt": "Colar do Khan Karkass",
+      "de": "Khan-Karkass-Kette",
+      "es": "Collar de Khan Karkasa"
+    },
     "level": 10,
-    "panoply": "Panoplie de Khan Karkass",
+    "panoply": "674e523f64788cc741418396",
     "category": "amulet",
     "stats": {
       "health": 10,
       "strength": 20
     }
   },
-  "Torque du Monarque": {
-    "name": "Torque du Monarque",
+  "674e524164788cc74141aca4": {
+    "id": "674e524164788cc74141aca4",
+    "idShort": "4m",
+    "name": {
+      "fr": "Torque du Monarque",
+      "en": "Monarch Torque",
+      "pt": "Torque do monarca",
+      "de": "Torque des Monarchen",
+      "es": "Torque del Monarca"
+    },
     "level": 40,
-    "panoply": "Panoplie du Monarque",
+    "panoply": "674e523f64788cc7414183a7",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -3859,10 +6027,18 @@
       "pushbackDamage": 4
     }
   },
-  "Torque des 1001 Griffes": {
-    "name": "Torque des 1001 Griffes",
+  "674e524164788cc74141acb4": {
+    "id": "674e524164788cc74141acb4",
+    "idShort": "4n",
+    "name": {
+      "fr": "Torque des 1001 Griffes",
+      "en": "1001 Claws Torque",
+      "pt": "Torque das 1001 Garras",
+      "de": "Torque der 1001 Kralle",
+      "es": "Torque de las 1001 garras"
+    },
     "level": 60,
-    "panoply": "Panoplie des 1001 Griffes",
+    "panoply": "674e523f64788cc7414183aa",
     "category": "amulet",
     "stats": {
       "health": 50,
@@ -3873,8 +6049,16 @@
       "pushbackDamage": 10
     }
   },
-  "Collier de Lilotte": {
-    "name": "Collier de Lilotte",
+  "674e524164788cc74141acb8": {
+    "id": "674e524164788cc74141acb8",
+    "idShort": "4o",
+    "name": {
+      "fr": "Collier de Lilotte",
+      "en": "Lilotte's Necklace",
+      "pt": "Colar da Lilota",
+      "de": "Lilottes Kette",
+      "es": "Collar de Lilota"
+    },
     "level": 10,
     "category": "amulet",
     "stats": {
@@ -3883,10 +6067,18 @@
       "waterDamage": 3
     }
   },
-  "Collier de la Dame du Hasard": {
-    "name": "Collier de la Dame du Hasard",
+  "674e524164788cc74141ace5": {
+    "id": "674e524164788cc74141ace5",
+    "idShort": "4p",
+    "name": {
+      "fr": "Collier de la Dame du Hasard",
+      "en": "Queen of Fate Necklace",
+      "pt": "Colar da Dama do Azar",
+      "de": "Glücksdame-Halskette",
+      "es": "Collar de la reina del azar"
+    },
     "level": 200,
-    "panoply": "Panoplie de la Dame du Hasard",
+    "panoply": "674e523f64788cc7414181eb",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3904,10 +6096,18 @@
       "criticalDamage": 25
     }
   },
-  "Collier du Valet Veinard": {
-    "name": "Collier du Valet Veinard",
+  "674e524164788cc74141acea": {
+    "id": "674e524164788cc74141acea",
+    "idShort": "4q",
+    "name": {
+      "fr": "Collier du Valet Veinard",
+      "en": "Jammy Jack Collar",
+      "pt": "Colar do Valete Venturoso",
+      "de": "Glücksbube-Kette",
+      "es": "Collar de sota afortunada"
+    },
     "level": 200,
-    "panoply": "Panoplie du Valet Veinard",
+    "panoply": "674e523f64788cc7414181ed",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -3924,10 +6124,18 @@
       "pushbackResist": 20
     }
   },
-  "Col de Ush": {
-    "name": "Col de Ush",
+  "674e524164788cc74141acf0": {
+    "id": "674e524164788cc74141acf0",
+    "idShort": "4r",
+    "name": {
+      "fr": "Col de Ush",
+      "en": "Ush's Collar",
+      "pt": "Colarinho do Ush",
+      "de": "Ushs Kragen",
+      "es": "Cuello de Ush"
+    },
     "level": 164,
-    "panoply": "Panoplie de Ush Galesh",
+    "panoply": "674e523f64788cc7414181ef",
     "category": "amulet",
     "stats": {
       "health": 200,
@@ -3943,10 +6151,18 @@
       "pushbackDamage": 12
     }
   },
-  "Collier des Ecaflipuces": {
-    "name": "Collier des Ecaflipuces",
+  "674e524164788cc74141acfa": {
+    "id": "674e524164788cc74141acfa",
+    "idShort": "4s",
+    "name": {
+      "fr": "Collier des Ecaflipuces",
+      "en": "Ecaflee Collar",
+      "pt": "Colar das Ecaflipulgas",
+      "de": "Ecafloh-Kette",
+      "es": "Collar zurcapulgoso"
+    },
     "level": 114,
-    "panoply": "Panoplie des Ecaflipuces",
+    "panoply": "674e523f64788cc7414181f2",
     "category": "amulet",
     "stats": {
       "health": 140,
@@ -3960,10 +6176,18 @@
       "lock": 4
     }
   },
-  "Collier de Tourthon": {
-    "name": "Collier de Tourthon",
+  "674e524164788cc74141ae60": {
+    "id": "674e524164788cc74141ae60",
+    "idShort": "4t",
+    "name": {
+      "fr": "Collier de Tourthon",
+      "en": "Crabtun Necklace",
+      "pt": "Colar de Trianguejo",
+      "de": "Krabthun-Halskette",
+      "es": "Collar de tritáceo"
+    },
     "level": 200,
-    "panoply": "Panoplie des Tréfonds",
+    "panoply": "674e523f64788cc7414183ea",
     "category": "amulet",
     "stats": {
       "health": 500,
@@ -3977,10 +6201,18 @@
       "lock": 15
     }
   },
-  "Pendentif affamé": {
-    "name": "Pendentif affamé",
+  "674e524164788cc74141ae64": {
+    "id": "674e524164788cc74141ae64",
+    "idShort": "4u",
+    "name": {
+      "fr": "Pendentif affamé",
+      "en": "Hungry Pendant",
+      "pt": "Pingente faminto",
+      "de": "Ausgehungerter Anhänger",
+      "es": "Colgante hambriento"
+    },
     "level": 200,
-    "panoply": "Panoplie des Profondeurs",
+    "panoply": "674e523f64788cc7414183ec",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -3994,10 +6226,18 @@
       "dodge": 20
     }
   },
-  "Amulette de Shokkoth": {
-    "name": "Amulette de Shokkoth",
+  "674e524164788cc74141ae67": {
+    "id": "674e524164788cc74141ae67",
+    "idShort": "4v",
+    "name": {
+      "fr": "Amulette de Shokkoth",
+      "en": "Spookkoth Amulet",
+      "pt": "Amuleto de Shokkoth",
+      "de": "Shokkoth-Amulett",
+      "es": "Amuleto de shorrokh"
+    },
     "level": 200,
-    "panoply": "Panoplie de la Fosse",
+    "panoply": "674e523f64788cc7414183eb",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4011,10 +6251,18 @@
       "airResistPer": 10
     }
   },
-  "Amulette de l'Indicible": {
-    "name": "Amulette de l'Indicible",
+  "674e524164788cc74141ae7c": {
+    "id": "674e524164788cc74141ae7c",
+    "idShort": "4w",
+    "name": {
+      "fr": "Amulette de l'Indicible",
+      "en": "Amulet of the Unspeakable",
+      "pt": "Amuleto do indizível",
+      "de": "Amulett des Unaussprechlichen",
+      "es": "Amuleto de lo indecible"
+    },
     "level": 200,
-    "panoply": "Panoplie de l'Indicible",
+    "panoply": "674e523f64788cc7414181f6",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4034,10 +6282,18 @@
       "dodge": 15
     }
   },
-  "Amulette Luminescente": {
-    "name": "Amulette Luminescente",
+  "674e524164788cc74141ae83": {
+    "id": "674e524164788cc74141ae83",
+    "idShort": "4x",
+    "name": {
+      "fr": "Amulette Luminescente",
+      "en": "Luminescent Amulet",
+      "pt": "Amuleto luminescente",
+      "de": "Lumineszierendes Amulett",
+      "es": "Amuleto luminiscente"
+    },
     "level": 200,
-    "panoply": "Panoplie Luminescente",
+    "panoply": "674e523f64788cc7414181f7",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4055,10 +6311,18 @@
       "pushbackDamage": 20
     }
   },
-  "Pendentif mignon de Koutoulou": {
-    "name": "Pendentif mignon de Koutoulou",
+  "674e524164788cc74141ae86": {
+    "id": "674e524164788cc74141ae86",
+    "idShort": "4y",
+    "name": {
+      "fr": "Pendentif mignon de Koutoulou",
+      "en": "Cute Koutoulou Pendant",
+      "pt": "Pingente fofo de Katulu",
+      "de": "Niedlicher Kutuluhanhänger",
+      "es": "Colgante lindo de Kutulú"
+    },
     "level": 200,
-    "panoply": "Panoplie de R'lyugluglu",
+    "panoply": "674e523f64788cc7414181f8",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4074,10 +6338,18 @@
       "criticalResist": 20
     }
   },
-  "Amuronce": {
-    "name": "Amuronce",
+  "674e524164788cc74141af34": {
+    "id": "674e524164788cc74141af34",
+    "idShort": "4z",
+    "name": {
+      "fr": "Amuronce",
+      "en": "Bramulet",
+      "pt": "Sarçamuleto",
+      "de": "Rankenamulett",
+      "es": "Zarzamuleto"
+    },
     "level": 50,
-    "panoply": "Panoplie de ronces",
+    "panoply": "674e523f64788cc7414183c8",
     "category": "amulet",
     "stats": {
       "health": 25,
@@ -4088,10 +6360,18 @@
       "ap": 1
     }
   },
-  "Amulette d'El Piko": {
-    "name": "Amulette d'El Piko",
+  "674e524164788cc74141affc": {
+    "id": "674e524164788cc74141affc",
+    "idShort": "4A",
+    "name": {
+      "fr": "Amulette d'El Piko",
+      "en": "El Piko Amulet",
+      "pt": "Amuleto de El Piko",
+      "de": "El Pieksos Amulett",
+      "es": "Amuleto de El Piko"
+    },
     "level": 132,
-    "panoply": "Panoplie d'El Piko",
+    "panoply": "674e523f64788cc7414181fc",
     "category": "amulet",
     "stats": {
       "health": 100,
@@ -4106,10 +6386,18 @@
       "apResist": 5
     }
   },
-  "Crolier": {
-    "name": "Crolier",
+  "674e524164788cc74141b077": {
+    "id": "674e524164788cc74141b077",
+    "idShort": "4B",
+    "name": {
+      "fr": "Crolier",
+      "en": "Fanglace",
+      "pt": "Mastincolar",
+      "de": "Krokliette",
+      "es": "Collávido"
+    },
     "level": 169,
-    "panoply": "Vernoplie",
+    "panoply": "674e523f64788cc7414181fe",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -4126,10 +6414,18 @@
       "mpReduction": 6
     }
   },
-  "Torquistik": {
-    "name": "Torquistik",
+  "674e524164788cc74141b080": {
+    "id": "674e524164788cc74141b080",
+    "idShort": "4C",
+    "name": {
+      "fr": "Torquistik",
+      "en": "Mumystorque",
+      "pt": "Torquístika",
+      "de": "Mumforque",
+      "es": "Momistitorque"
+    },
     "level": 200,
-    "panoply": "Panoplistik",
+    "panoply": "674e523f64788cc741418201",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -4149,10 +6445,18 @@
       "pushbackDamage": 25
     }
   },
-  "Amulette du Molosse": {
-    "name": "Amulette du Molosse",
+  "674e524164788cc74141b09e": {
+    "id": "674e524164788cc74141b09e",
+    "idShort": "4D",
+    "name": {
+      "fr": "Amulette du Molosse",
+      "en": "Watchdog Amulet",
+      "pt": "Amuleto do Molosso",
+      "de": "Medaillon des Molossers",
+      "es": "Amuleto de moloso"
+    },
     "level": 31,
-    "panoply": "Panoplie du Molosse",
+    "panoply": "674e523f64788cc7414183a2",
     "category": "amulet",
     "stats": {
       "agility": 25,
@@ -4161,10 +6465,18 @@
       "mpResist": 3
     }
   },
-  "Amulette Hale": {
-    "name": "Amulette Hale",
+  "674e524164788cc74141b122": {
+    "id": "674e524164788cc74141b122",
+    "idShort": "4E",
+    "name": {
+      "fr": "Amulette Hale",
+      "en": "Amulethal",
+      "pt": "Amuletal",
+      "de": "Amuletal",
+      "es": "Amuletal"
+    },
     "level": 193,
-    "panoply": "Panoplie des Chassouilleurs",
+    "panoply": "674e523f64788cc741418204",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -4181,10 +6493,18 @@
       "mpReduction": 7
     }
   },
-  "Amulette du Scorbute": {
-    "name": "Amulette du Scorbute",
+  "674e524164788cc74141b1de": {
+    "id": "674e524164788cc74141b1de",
+    "idShort": "4F",
+    "name": {
+      "fr": "Amulette du Scorbute",
+      "en": "Scurvion Amulet",
+      "pt": "Amuleto do Scorbuto",
+      "de": "Skorpiutamulett",
+      "es": "Amuleto de scorbuto"
+    },
     "level": 72,
-    "panoply": "Panoplie du Scorbute",
+    "panoply": "674e523f64788cc741418207",
     "category": "amulet",
     "stats": {
       "intelligence": 35,
@@ -4196,10 +6516,18 @@
       "lock": 3
     }
   },
-  "Amulette du Cœur Vaillant": {
-    "name": "Amulette du Cœur Vaillant",
+  "674e524164788cc74141b26a": {
+    "id": "674e524164788cc74141b26a",
+    "idShort": "4G",
+    "name": {
+      "fr": "Amulette du Cœur Vaillant",
+      "en": "Amulet of the Valiant Heart",
+      "pt": "Amuleto do Coração Valente",
+      "de": "Amulett des Tapferen Herzens",
+      "es": "Amuleto del Corazón Valiente"
+    },
     "level": 200,
-    "panoply": "Panoplie du Cœur Vaillant",
+    "panoply": "674e523f64788cc74141820b",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4217,10 +6545,18 @@
       "pushbackDamage": 25
     }
   },
-  "Amulette du Cœur Saignant": {
-    "name": "Amulette du Cœur Saignant",
+  "674e524164788cc74141b26d": {
+    "id": "674e524164788cc74141b26d",
+    "idShort": "4H",
+    "name": {
+      "fr": "Amulette du Cœur Saignant",
+      "en": "Amulet of the Bleeding Heart",
+      "pt": "Amuleto do Coração Sangrento",
+      "de": "Amulett des Blutenden Herzens",
+      "es": "Amuleto del Corazón Sangriento"
+    },
     "level": 200,
-    "panoply": "Panoplie du Cœur Saignant",
+    "panoply": "674e523f64788cc74141820c",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4238,10 +6574,18 @@
       "criticalDamage": 15
     }
   },
-  "Amulette de l'Œil Attentif": {
-    "name": "Amulette de l'Œil Attentif",
+  "674e524164788cc74141b278": {
+    "id": "674e524164788cc74141b278",
+    "idShort": "4I",
+    "name": {
+      "fr": "Amulette de l'Œil Attentif",
+      "en": "Amulet of the Sharp Eye",
+      "pt": "Amuleto do Olho Observador",
+      "de": "Amulett des Allsehenden Auges",
+      "es": "Amuleto del Ojo Atento"
+    },
     "level": 200,
-    "panoply": "Panoplie de l'Œil Attentif",
+    "panoply": "674e523f64788cc74141820f",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4257,10 +6601,18 @@
       "apResist": 7
     }
   },
-  "Amulette de l'Œil Putride": {
-    "name": "Amulette de l'Œil Putride",
+  "674e524164788cc74141b27b": {
+    "id": "674e524164788cc74141b27b",
+    "idShort": "4J",
+    "name": {
+      "fr": "Amulette de l'Œil Putride",
+      "en": "Amulet of the Putrid Eye",
+      "pt": "Amuleto do Olho Pútrido",
+      "de": "Amulett des Eitrigen Auges",
+      "es": "Amuleto del Ojo Putrefacto"
+    },
     "level": 200,
-    "panoply": "Panoplie de l'Œil Putride",
+    "panoply": "674e523f64788cc741418210",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4279,10 +6631,18 @@
       "criticalDamage": 15
     }
   },
-  "Amulette d'Ilyzaelle": {
-    "name": "Amulette d'Ilyzaelle",
+  "674e524164788cc74141b27e": {
+    "id": "674e524164788cc74141b27e",
+    "idShort": "4K",
+    "name": {
+      "fr": "Amulette d'Ilyzaelle",
+      "en": "Ilyzaelle Amulet",
+      "pt": "Amuleto de Ilyzaelle",
+      "de": "Ilyzaelles Amulett",
+      "es": "Amuleto de Ilyzaelle"
+    },
     "level": 200,
-    "panoply": "Panoplie d'Ilyzaelle",
+    "panoply": "674e523f64788cc741418211",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4299,10 +6659,18 @@
       "mpResist": 10
     }
   },
-  "Amulette Volcanique": {
-    "name": "Amulette Volcanique",
+  "674e524164788cc74141b399": {
+    "id": "674e524164788cc74141b399",
+    "idShort": "4L",
+    "name": {
+      "fr": "Amulette Volcanique",
+      "en": "Volcanic Amulet",
+      "pt": "Amuleto Vulcânico",
+      "de": "Vulkanisches Amulett",
+      "es": "Amuleto volcánico"
+    },
     "level": 200,
-    "panoply": "Panoplie Volcanique",
+    "panoply": "674e523f64788cc741418214",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4319,10 +6687,18 @@
       "mpReduction": 10
     }
   },
-  "Collier Rophante": {
-    "name": "Collier Rophante",
+  "674e524164788cc74141b3ac": {
+    "id": "674e524164788cc74141b3ac",
+    "idShort": "4M",
+    "name": {
+      "fr": "Collier Rophante",
+      "en": "Hirofant Necklace",
+      "pt": "Colar Cebispo",
+      "de": "Halsstärkende Halskette",
+      "es": "Hierrofante"
+    },
     "level": 200,
-    "panoply": "Panoplie Noyée",
+    "panoply": "674e523f64788cc7414183e4",
     "category": "amulet",
     "stats": {
       "health": 500,
@@ -4336,10 +6712,18 @@
       "lock": 15
     }
   },
-  "Amulette Martegel": {
-    "name": "Amulette Martegel",
+  "674e524164788cc74141b51a": {
+    "id": "674e524164788cc74141b51a",
+    "idShort": "4N",
+    "name": {
+      "fr": "Amulette Martegel",
+      "en": "Freezammer Amulet",
+      "pt": "Amuleto Martegelo",
+      "de": "Eishämmer-Amulett",
+      "es": "Amuleto de Martillelo"
+    },
     "level": 200,
-    "panoply": "Panoplie Martegel",
+    "panoply": "674e523f64788cc741418218",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4357,10 +6741,18 @@
       "pushbackResist": 30
     }
   },
-  "Amulette Volkorne": {
-    "name": "Amulette Volkorne",
+  "674e524164788cc74141b51d": {
+    "id": "674e524164788cc74141b51d",
+    "idShort": "4O",
+    "name": {
+      "fr": "Amulette Volkorne",
+      "en": "Rhineetle Amulet",
+      "pt": "Amuleto de Vulkórnio",
+      "de": "Naskäfer-Amulett",
+      "es": "Amuleto de vueloceronte"
+    },
     "level": 200,
-    "panoply": "Panoplie Volkorne",
+    "panoply": "674e523f64788cc741418219",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4376,10 +6768,18 @@
       "criticalDamage": 15
     }
   },
-  "Amulette des Chocomanciens": {
-    "name": "Amulette des Chocomanciens",
+  "674e524164788cc74141b844": {
+    "id": "674e524164788cc74141b844",
+    "idShort": "4P",
+    "name": {
+      "fr": "Amulette des Chocomanciens",
+      "en": "Chocomancer Amulet",
+      "pt": "Amuleto dos Chocomantes",
+      "de": "Schokomantenamulett",
+      "es": "Amuleto de chocomante"
+    },
     "level": 200,
-    "panoply": "Panoplie des Chocomanciens",
+    "panoply": "674e523f64788cc74141821c",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4397,10 +6797,18 @@
       "pushbackResist": -20
     }
   },
-  "Collier Lunaire": {
-    "name": "Collier Lunaire",
+  "674e524164788cc74141b95d": {
+    "id": "674e524164788cc74141b95d",
+    "idShort": "4Q",
+    "name": {
+      "fr": "Collier Lunaire",
+      "en": "Lunar Necklace",
+      "pt": "Colar Lunar",
+      "de": "Mondkette",
+      "es": "Collar lunar"
+    },
     "level": 200,
-    "panoply": "Panoplie Lunaire",
+    "panoply": "674e523f64788cc74141821f",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -4415,10 +6823,18 @@
       "mpReduction": 10
     }
   },
-  "Écharpe de Servitude": {
-    "name": "Écharpe de Servitude",
+  "674e524164788cc74141bcf2": {
+    "id": "674e524164788cc74141bcf2",
+    "idShort": "4R",
+    "name": {
+      "fr": "Écharpe de Servitude",
+      "en": "Servitude's Scarf",
+      "pt": "Echarpe de Servidão",
+      "de": "Knechtschafts Schal",
+      "es": "Bufanda de Servidumbre"
+    },
     "level": 200,
-    "panoply": "Panoplie de Servitude",
+    "panoply": "674e523f64788cc741418224",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4438,8 +6854,16 @@
       "pushbackResist": 20
     }
   },
-  "Collier de Bavdur": {
-    "name": "Collier de Bavdur",
+  "674e524164788cc74141bd00": {
+    "id": "674e524164788cc74141bd00",
+    "idShort": "4S",
+    "name": {
+      "fr": "Collier de Bavdur",
+      "en": "Slobberpuss' Collar",
+      "pt": "Colar de Babdur",
+      "de": "Schlabbradors Halsband",
+      "es": "Collar de Bábaro"
+    },
     "level": 200,
     "category": "amulet",
     "requirement": {
@@ -4462,10 +6886,18 @@
       "mpResist": 7
     }
   },
-  "Plantamulette": {
-    "name": "Plantamulette",
+  "674e524164788cc74141bf1d": {
+    "id": "674e524164788cc74141bf1d",
+    "idShort": "4T",
+    "name": {
+      "fr": "Plantamulette",
+      "en": "Plantamulet",
+      "pt": "Plantamuleto",
+      "de": "Pflanzamulett",
+      "es": "Plantamuleto"
+    },
     "level": 108,
-    "panoply": "Panoplie Plantala",
+    "panoply": "674e523f64788cc741418226",
     "category": "amulet",
     "stats": {
       "health": 80,
@@ -4480,8 +6912,16 @@
       "mpResist": 5
     }
   },
-  "Larme de Nagate": {
-    "name": "Larme de Nagate",
+  "674e524164788cc74141bf20": {
+    "id": "674e524164788cc74141bf20",
+    "idShort": "4U",
+    "name": {
+      "fr": "Larme de Nagate",
+      "en": "Nagate's Tear",
+      "pt": "Lágrima de Nagate",
+      "de": "Nagates Träne",
+      "es": "Lágrima de Nagate"
+    },
     "level": 132,
     "category": "amulet",
     "stats": {
@@ -4497,10 +6937,18 @@
       "mpResist": 6
     }
   },
-  "Collier de perlouzes": {
-    "name": "Collier de perlouzes",
+  "674e524164788cc74141bf27": {
+    "id": "674e524164788cc74141bf27",
+    "idShort": "4V",
+    "name": {
+      "fr": "Collier de perlouzes",
+      "en": "Dark Hurl Necklace",
+      "pt": "Colar de Peidolas",
+      "de": "Perlenkette",
+      "es": "Collar de perlucas"
+    },
     "level": 130,
-    "panoply": "Panoplie Kozaru",
+    "panoply": "674e523f64788cc741418228",
     "category": "amulet",
     "stats": {
       "health": 150,
@@ -4515,10 +6963,18 @@
       "criticalDamage": 8
     }
   },
-  "Amulette Rinne": {
-    "name": "Amulette Rinne",
+  "674e524164788cc74141c1f9": {
+    "id": "674e524164788cc74141c1f9",
+    "idShort": "4W",
+    "name": {
+      "fr": "Amulette Rinne",
+      "en": "Initiamulet",
+      "pt": "Amuleto Capitular",
+      "de": "Amulett Ering",
+      "es": "Amuletro"
+    },
     "level": 200,
-    "panoply": "Panoplie du Wukin",
+    "panoply": "674e523f64788cc74141822d",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -4539,10 +6995,18 @@
       "pushbackResist": 15
     }
   },
-  "Amulette de Wulan": {
-    "name": "Amulette de Wulan",
+  "674e524164788cc74141c200": {
+    "id": "674e524164788cc74141c200",
+    "idShort": "4X",
+    "name": {
+      "fr": "Amulette de Wulan",
+      "en": "Wulan's Amulet",
+      "pt": "Amuleto de Wulan",
+      "de": "Wulans Amulett",
+      "es": "Amuleto de Wulán"
+    },
     "level": 200,
-    "panoply": "Panoplie de Wulan",
+    "panoply": "674e523f64788cc74141822f",
     "category": "amulet",
     "stats": {
       "health": 300,
@@ -4563,10 +7027,18 @@
       "criticalDamage": 20
     }
   },
-  "Amulette Possédée": {
-    "name": "Amulette Possédée",
+  "674e524164788cc74141c36a": {
+    "id": "674e524164788cc74141c36a",
+    "idShort": "4Y",
+    "name": {
+      "fr": "Amulette Possédée",
+      "en": "Possessed Amulet",
+      "pt": "Amuleto Possuído",
+      "de": "Besessenes Amulett",
+      "es": "Amuleto poseído"
+    },
     "level": 200,
-    "panoply": "Panoplie Possédée",
+    "panoply": "674e523f64788cc741418230",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4585,10 +7057,18 @@
       "pushbackDamage": 30
     }
   },
-  "Amulette du Pandamonium": {
-    "name": "Amulette du Pandamonium",
+  "674e524164788cc74141c36d": {
+    "id": "674e524164788cc74141c36d",
+    "idShort": "4Z",
+    "name": {
+      "fr": "Amulette du Pandamonium",
+      "en": "Pandamonium Amulet",
+      "pt": "Amuleto do Pandamonium",
+      "de": "Amulett des Pandamoniums",
+      "es": "Amuleto de Pandamonium"
+    },
     "level": 200,
-    "panoply": "Panoplie du Pandamonium",
+    "panoply": "674e523f64788cc741418231",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4605,10 +7085,18 @@
       "apResist": 8
     }
   },
-  "Torque de Ravageur": {
-    "name": "Torque de Ravageur",
+  "674e524164788cc74141c4e8": {
+    "id": "674e524164788cc74141c4e8",
+    "idShort": "50",
+    "name": {
+      "fr": "Torque de Ravageur",
+      "en": "Destroyer Torc",
+      "pt": "Torque de Devastador",
+      "de": "Wendelring des Zerstörers",
+      "es": "Torque de devastador"
+    },
     "level": 200,
-    "panoply": "Panoplie des Ravageurs",
+    "panoply": "674e523f64788cc741418232",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4626,10 +7114,18 @@
       "pushbackDamage": 30
     }
   },
-  "Chant du Nécromant": {
-    "name": "Chant du Nécromant",
+  "674e524164788cc74141c4f5": {
+    "id": "674e524164788cc74141c4f5",
+    "idShort": "51",
+    "name": {
+      "fr": "Chant du Nécromant",
+      "en": "The Necromancer's Song",
+      "pt": "Canto do Necromante",
+      "de": "Gesang des Nekromanten",
+      "es": "Cantar del nigromante"
+    },
     "level": 200,
-    "panoply": "Reliques de l'Aurore Pourpre",
+    "panoply": "674e523f64788cc741418233",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4655,10 +7151,18 @@
       "pushbackResist": -20
     }
   },
-  "Lourd Fardeau": {
-    "name": "Lourd Fardeau",
+  "674e524164788cc74141c92b": {
+    "id": "674e524164788cc74141c92b",
+    "idShort": "52",
+    "name": {
+      "fr": "Lourd Fardeau",
+      "en": "Heavy Burden",
+      "pt": "Fardo Pesado",
+      "de": "Schwere Bürde",
+      "es": "Pesada Carga"
+    },
     "level": 200,
-    "panoply": "Malédiction de Cire Momore",
+    "panoply": "674e523f64788cc741418239",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4675,10 +7179,18 @@
       "pushbackResist": 20
     }
   },
-  "Amulette de guerrier albueran": {
-    "name": "Amulette de guerrier albueran",
+  "674e524164788cc74141c93c": {
+    "id": "674e524164788cc74141c93c",
+    "idShort": "53",
+    "name": {
+      "fr": "Amulette de guerrier albueran",
+      "en": "Albueran Warrior Amulet",
+      "pt": "Amuleto de Guerreiro Albuerano",
+      "de": "Amulett eines Albueraner-Kriegers",
+      "es": "Amuleto de guerrero albuereño"
+    },
     "level": 54,
-    "panoply": "Panoplie de guerrier albueran",
+    "panoply": "674e523f64788cc74141823d",
     "category": "amulet",
     "stats": {
       "health": 40,
@@ -4689,10 +7201,18 @@
       "mpReduction": -10
     }
   },
-  "Collier Gris": {
-    "name": "Collier Gris",
+  "674e524164788cc74141c943": {
+    "id": "674e524164788cc74141c943",
+    "idShort": "54",
+    "name": {
+      "fr": "Collier Gris",
+      "en": "Bitter-Collar",
+      "pt": "Colar Amargo",
+      "de": "Saugraue Halskette",
+      "es": "Collar seco"
+    },
     "level": 192,
-    "panoply": "Panoplie des Marteaux-Aigris",
+    "panoply": "674e523f64788cc741418242",
     "category": "amulet",
     "stats": {
       "health": 250,
@@ -4710,10 +7230,18 @@
       "dodge": -10
     }
   },
-  "Col du Dark Vlad": {
-    "name": "Col du Dark Vlad",
+  "674e524164788cc74141d1d1": {
+    "id": "674e524164788cc74141d1d1",
+    "idShort": "55",
+    "name": {
+      "fr": "Col du Dark Vlad",
+      "en": "Dark Vlad's Collar",
+      "pt": "Gola do Dark Vlad",
+      "de": "Dark Vlads Kragen",
+      "es": "Cuello de Dark Vlad"
+    },
     "level": 200,
-    "panoply": "Panoplie du Dark Vlad",
+    "panoply": "674e523f64788cc7414183dc",
     "category": "amulet",
     "stats": {
       "health": 400,
@@ -4730,10 +7258,18 @@
       "waterResist": -11
     }
   },
-  "Collier Rhoarim": {
-    "name": "Collier Rhoarim",
+  "687f71551c815173560617fc": {
+    "id": "687f71551c815173560617fc",
+    "idShort": "56",
+    "name": {
+      "fr": "Collier Rhoarim",
+      "en": "Rhoarim Necklace",
+      "pt": "Colar Reirrim",
+      "de": "Rhoarim-Halskette",
+      "es": "Collar rhoarim"
+    },
     "level": 200,
-    "panoply": "Panoplie Rhoarim",
+    "panoply": "687f71541c815173560616bf",
     "category": "amulet",
     "stats": {
       "health": 350,
@@ -4753,10 +7289,18 @@
       "criticalDamage": 15
     }
   },
-  "Collier de Gargandyas": {
-    "name": "Collier de Gargandyas",
+  "687f71551c81517356061818": {
+    "id": "687f71551c81517356061818",
+    "idShort": "57",
+    "name": {
+      "fr": "Collier de Gargandyas",
+      "en": "Gargandyas's Necklace",
+      "pt": "Colar de Gargandyas",
+      "de": "Halskette des Gargandyas",
+      "es": "Collar de Gargandias"
+    },
     "level": 200,
-    "panoply": "Panoplie de Gargandyas",
+    "panoply": "687f71541c815173560616c2",
     "category": "amulet",
     "stats": {
       "health": 500,
@@ -4775,8 +7319,16 @@
       "rangedResistPer": 5
     }
   },
-  "Amour d'Helséphine": {
-    "name": "Amour d'Helséphine",
+  "68d28de615631db46d7e4116": {
+    "id": "68d28de615631db46d7e4116",
+    "idShort": "58",
+    "name": {
+      "fr": "Amour d'Helséphine",
+      "en": "Helsephine's Love",
+      "pt": "Amor de Helsefina",
+      "de": "Helsefines Liebe",
+      "es": "Amor de Helsefina"
+    },
     "level": 200,
     "category": "amulet",
     "stats": {

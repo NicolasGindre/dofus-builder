@@ -1,30 +1,62 @@
 {
-  "Anneau de Sagesse": {
-    "name": "Anneau de Sagesse",
+  "674e524064788cc7414184f3": {
+    "id": "674e524064788cc7414184f3",
+    "idShort": "qd",
+    "name": {
+      "fr": "Anneau de Sagesse",
+      "en": "Wisdom Ring",
+      "pt": "Anel de sabedoria",
+      "de": "Ring der Weisheit",
+      "es": "Anillo de sabiduría"
+    },
     "level": 9,
     "category": "ring",
     "stats": {
       "wisdom": 10
     }
   },
-  "Anneau de Chance": {
-    "name": "Anneau de Chance",
+  "674e524064788cc7414184f4": {
+    "id": "674e524064788cc7414184f4",
+    "idShort": "qe",
+    "name": {
+      "fr": "Anneau de Chance",
+      "en": "Chance Ring",
+      "pt": "Anel de sorte",
+      "de": "Glücksring",
+      "es": "Anillo de suerte"
+    },
     "level": 9,
     "category": "ring",
     "stats": {
       "chance": 10
     }
   },
-  "Anneau d'Agilité": {
-    "name": "Anneau d'Agilité",
+  "674e524064788cc7414184f5": {
+    "id": "674e524064788cc7414184f5",
+    "idShort": "qf",
+    "name": {
+      "fr": "Anneau d'Agilité",
+      "en": "Agility Ring",
+      "pt": "Anel de agilidade",
+      "de": "Ring der Flinkheit",
+      "es": "Anillo de agilidad"
+    },
     "level": 9,
     "category": "ring",
     "stats": {
       "agility": 10
     }
   },
-  "Anneau des Rocheuses": {
-    "name": "Anneau des Rocheuses",
+  "674e524064788cc741418527": {
+    "id": "674e524064788cc741418527",
+    "idShort": "qg",
+    "name": {
+      "fr": "Anneau des Rocheuses",
+      "en": "Rocky Ring",
+      "pt": "Anel Rochoso",
+      "de": "Felsenring",
+      "es": "Anillo de las Rocosas"
+    },
     "level": 11,
     "category": "ring",
     "stats": {
@@ -32,8 +64,16 @@
       "agility": 10
     }
   },
-  "Anneau Rak": {
-    "name": "Anneau Rak",
+  "674e524064788cc74141855a": {
+    "id": "674e524064788cc74141855a",
+    "idShort": "qh",
+    "name": {
+      "fr": "Anneau Rak",
+      "en": "Ano Rak Ring",
+      "pt": "Anel de Ano Rak",
+      "de": "Regen-Ringe",
+      "es": "Anillo Vizna"
+    },
     "level": 17,
     "category": "ring",
     "stats": {
@@ -42,8 +82,16 @@
       "waterDamage": 1
     }
   },
-  "L'Anneau de Valeur": {
-    "name": "L'Anneau de Valeur",
+  "674e524064788cc741418560": {
+    "id": "674e524064788cc741418560",
+    "idShort": "qi",
+    "name": {
+      "fr": "L'Anneau de Valeur",
+      "en": "Valuable Ring",
+      "pt": "Anel Valuable",
+      "de": "Ring der Tüchtigkeit",
+      "es": "Anillo de valor"
+    },
     "level": 12,
     "category": "ring",
     "stats": {
@@ -52,8 +100,16 @@
       "lock": 3
     }
   },
-  "L'Ecaliseur": {
-    "name": "L'Ecaliseur",
+  "674e524064788cc741418564": {
+    "id": "674e524064788cc741418564",
+    "idShort": "qj",
+    "name": {
+      "fr": "L'Ecaliseur",
+      "en": "Ecalisor",
+      "pt": "Ecalisor",
+      "de": "Der Ecalisator",
+      "es": "El Zurcalizador"
+    },
     "level": 29,
     "category": "ring",
     "stats": {
@@ -62,8 +118,16 @@
       "damage": 2
     }
   },
-  "Alliance de Silimelle": {
-    "name": "Alliance de Silimelle",
+  "674e524064788cc74141863a": {
+    "id": "674e524064788cc74141863a",
+    "idShort": "qk",
+    "name": {
+      "fr": "Alliance de Silimelle",
+      "en": "Silimelle's Wedding Ring",
+      "pt": "Aliança de Silimela",
+      "de": "Silimelles Ehering",
+      "es": "Alianza de Silimella"
+    },
     "level": 26,
     "category": "ring",
     "stats": {
@@ -76,42 +140,82 @@
       "mpReduction": 2
     }
   },
-  "Gantie Royal": {
-    "name": "Gantie Royal",
+  "674e524064788cc741418652": {
+    "id": "674e524064788cc741418652",
+    "idShort": "ql",
+    "name": {
+      "fr": "Gantie Royal",
+      "en": "Royal Gantie",
+      "pt": "Gantie Real",
+      "de": "Royal Gantie",
+      "es": "Ganti Real"
+    },
     "level": 6,
     "category": "ring",
     "stats": {
       "strength": 7
     }
   },
-  "Camaïneux": {
-    "name": "Camaïneux",
+  "674e524064788cc741418653": {
+    "id": "674e524064788cc741418653",
+    "idShort": "qm",
+    "name": {
+      "fr": "Camaïneux",
+      "en": "Camate",
+      "pt": "Camate",
+      "de": "Camasserfüllt",
+      "es": "Camafeoso"
+    },
     "level": 4,
     "category": "ring",
     "stats": {
       "health": 10
     }
   },
-  "Anneau Fortifiant": {
-    "name": "Anneau Fortifiant",
+  "674e524064788cc741418662": {
+    "id": "674e524064788cc741418662",
+    "idShort": "qn",
+    "name": {
+      "fr": "Anneau Fortifiant",
+      "en": "Fortifying Ring",
+      "pt": "Anel Fortificante",
+      "de": "Festungsring",
+      "es": "Anillo fortalecedor"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
       "strength": 10
     }
   },
-  "Anneau Rexik": {
-    "name": "Anneau Rexik",
+  "674e524064788cc741418664": {
+    "id": "674e524064788cc741418664",
+    "idShort": "qo",
+    "name": {
+      "fr": "Anneau Rexik",
+      "en": "Ano Rexik Ring",
+      "pt": "Anel de Ano Rexik",
+      "de": "Ano Rexik Ring",
+      "es": "Anillo Réxiko"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
       "agility": 5
     }
   },
-  "Abranneau": {
-    "name": "Abranneau",
+  "674e524064788cc741418688": {
+    "id": "674e524064788cc741418688",
+    "idShort": "qp",
+    "name": {
+      "fr": "Abranneau",
+      "en": "Treering",
+      "pt": "Arvranel",
+      "de": "Astakning",
+      "es": "Abranillo"
+    },
     "level": 40,
-    "panoply": "Abranoplie",
+    "panoply": "674e523f64788cc7414183f3",
     "category": "ring",
     "stats": {
       "strength": -100,
@@ -122,8 +226,16 @@
       "range": 1
     }
   },
-  "Anneau de Satisfaction": {
-    "name": "Anneau de Satisfaction",
+  "674e524064788cc74141868c": {
+    "id": "674e524064788cc74141868c",
+    "idShort": "qq",
+    "name": {
+      "fr": "Anneau de Satisfaction",
+      "en": "Ring of Satisfaction",
+      "pt": "Anel da Satisfação",
+      "de": "Ring der Genugtuung",
+      "es": "Anillo de satisfacción"
+    },
     "level": 8,
     "category": "ring",
     "stats": {
@@ -134,56 +246,112 @@
       "ap": 1
     }
   },
-  "Anneau Forcesque": {
-    "name": "Anneau Forcesque",
+  "674e524064788cc741418694": {
+    "id": "674e524064788cc741418694",
+    "idShort": "qr",
+    "name": {
+      "fr": "Anneau Forcesque",
+      "en": "Strong Ring",
+      "pt": "Anel de Força",
+      "de": "Stärkitätmich Ring",
+      "es": "Anillo forcesco"
+    },
     "level": 2,
     "category": "ring",
     "stats": {
       "strength": 5
     }
   },
-  "Anneau Agilesque": {
-    "name": "Anneau Agilesque",
+  "674e524064788cc741418695": {
+    "id": "674e524064788cc741418695",
+    "idShort": "qs",
+    "name": {
+      "fr": "Anneau Agilesque",
+      "en": "Nimble Ring",
+      "pt": "Anel Ágil",
+      "de": "Flinkitäglich Ring",
+      "es": "Anillo agilesco"
+    },
     "level": 2,
     "category": "ring",
     "stats": {
       "agility": 5
     }
   },
-  "Anneau Vitalesque": {
-    "name": "Anneau Vitalesque",
+  "674e524064788cc741418696": {
+    "id": "674e524064788cc741418696",
+    "idShort": "qt",
+    "name": {
+      "fr": "Anneau Vitalesque",
+      "en": "Vital Ring",
+      "pt": "Anel Vitalício",
+      "de": "Vitalitätich Ring",
+      "es": "Anillo vitalesco"
+    },
     "level": 2,
     "category": "ring",
     "stats": {
       "health": 10
     }
   },
-  "Petit Anneau Magique": {
-    "name": "Petit Anneau Magique",
+  "674e524064788cc741418697": {
+    "id": "674e524064788cc741418697",
+    "idShort": "qu",
+    "name": {
+      "fr": "Petit Anneau Magique",
+      "en": "Small Magic Ring",
+      "pt": "Pequeno Anel Mágico",
+      "de": "Intellimagich Ring",
+      "es": "Pequeño anillo mágico"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
       "intelligence": 7
     }
   },
-  "Petit Anneau du Chanceux": {
-    "name": "Petit Anneau du Chanceux",
+  "674e524064788cc741418698": {
+    "id": "674e524064788cc741418698",
+    "idShort": "qv",
+    "name": {
+      "fr": "Petit Anneau du Chanceux",
+      "en": "Small Chance Ring",
+      "pt": "Pequeno Anel do Sortudo",
+      "de": "Glücksikläglich Ring",
+      "es": "Pequeño anillo del afortunado"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
       "chance": 7
     }
   },
-  "Anneau du Mental": {
-    "name": "Anneau du Mental",
+  "674e524064788cc741418714": {
+    "id": "674e524064788cc741418714",
+    "idShort": "qw",
+    "name": {
+      "fr": "Anneau du Mental",
+      "en": "Mental Ring",
+      "pt": "Anel Mental",
+      "de": "Ring der Geistesstärke",
+      "es": "Anillo mental"
+    },
     "level": 14,
     "category": "ring",
     "stats": {
       "intelligence": 15
     }
   },
-  "Blessure du Sacrieur": {
-    "name": "Blessure du Sacrieur",
+  "674e524064788cc741418793": {
+    "id": "674e524064788cc741418793",
+    "idShort": "qx",
+    "name": {
+      "fr": "Blessure du Sacrieur",
+      "en": "Sacrier's Wound",
+      "pt": "Ferida do Sacrier",
+      "de": "Sacrieurs Wunde",
+      "es": "Herida del Sacrógrito"
+    },
     "level": 15,
     "category": "ring",
     "stats": {
@@ -191,8 +359,16 @@
       "strength": 10
     }
   },
-  "Le Bagueur": {
-    "name": "Le Bagueur",
+  "674e524064788cc741418794": {
+    "id": "674e524064788cc741418794",
+    "idShort": "qy",
+    "name": {
+      "fr": "Le Bagueur",
+      "en": "Ringer",
+      "pt": "Sineiro",
+      "de": "Markiering",
+      "es": "El Anillador"
+    },
     "level": 15,
     "category": "ring",
     "stats": {
@@ -201,8 +377,16 @@
       "dodge": 2
     }
   },
-  "L'Anneau Dhyn": {
-    "name": "L'Anneau Dhyn",
+  "674e524064788cc741418795": {
+    "id": "674e524064788cc741418795",
+    "idShort": "qz",
+    "name": {
+      "fr": "L'Anneau Dhyn",
+      "en": "Soff Ring",
+      "pt": "Anel de Dhyn",
+      "de": "Ano Dhyn Ring",
+      "es": "Anillo Dhyno"
+    },
     "level": 36,
     "category": "ring",
     "stats": {
@@ -213,8 +397,16 @@
       "damage": 4
     }
   },
-  "Chance d'Ecaflip": {
-    "name": "Chance d'Ecaflip",
+  "674e524064788cc741418796": {
+    "id": "674e524064788cc741418796",
+    "idShort": "qA",
+    "name": {
+      "fr": "Chance d'Ecaflip",
+      "en": "Ecaflip's Luck",
+      "pt": "Sorte de Ecaflip",
+      "de": "Ecaflips Glück",
+      "es": "Suerte de Zurcarák"
+    },
     "level": 20,
     "category": "ring",
     "stats": {
@@ -223,8 +415,16 @@
       "criticalChance": 2
     }
   },
-  "Passé de Xélor": {
-    "name": "Passé de Xélor",
+  "674e524064788cc741418797": {
+    "id": "674e524064788cc741418797",
+    "idShort": "qB",
+    "name": {
+      "fr": "Passé de Xélor",
+      "en": "Xelor's Past",
+      "pt": "Passado de Xelor",
+      "de": "Xélors Vergangenheit",
+      "es": "Pasado de Xelor"
+    },
     "level": 30,
     "category": "ring",
     "stats": {
@@ -233,8 +433,16 @@
       "wisdom": 15
     }
   },
-  "Souvenir d'Enutrof": {
-    "name": "Souvenir d'Enutrof",
+  "674e524064788cc741418798": {
+    "id": "674e524064788cc741418798",
+    "idShort": "qC",
+    "name": {
+      "fr": "Souvenir d'Enutrof",
+      "en": "Enutrof's Memento",
+      "pt": "Lembrança de Enutrof",
+      "de": "Enutrofs Erinnering",
+      "es": "Recuerdo de Anutrof"
+    },
     "level": 30,
     "category": "ring",
     "stats": {
@@ -243,8 +451,16 @@
       "wisdom": 15
     }
   },
-  "L'Enutrofion": {
-    "name": "L'Enutrofion",
+  "674e524064788cc741418799": {
+    "id": "674e524064788cc741418799",
+    "idShort": "qD",
+    "name": {
+      "fr": "L'Enutrofion",
+      "en": "The Enutrofion",
+      "pt": "O Enutrofion",
+      "de": "Das Enutrofion",
+      "es": "El Anutopía"
+    },
     "level": 59,
     "category": "ring",
     "stats": {
@@ -253,10 +469,18 @@
       "dodge": 5
     }
   },
-  "Abranneau Mou": {
-    "name": "Abranneau Mou",
+  "674e524064788cc7414187c7": {
+    "id": "674e524064788cc7414187c7",
+    "idShort": "qF",
+    "name": {
+      "fr": "Abranneau Mou",
+      "en": "Soft Treering",
+      "pt": "Arvranel Mole",
+      "de": "Holzring von Weich-Eich",
+      "es": "Abranillo blando"
+    },
     "level": 46,
-    "panoply": "Abranoplie",
+    "panoply": "674e523f64788cc7414183f3",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -268,8 +492,16 @@
       "summon": 1
     }
   },
-  "Abranneau Sombre": {
-    "name": "Abranneau Sombre",
+  "674e524064788cc7414187d1": {
+    "id": "674e524064788cc7414187d1",
+    "idShort": "qG",
+    "name": {
+      "fr": "Abranneau Sombre",
+      "en": "Dark Treering",
+      "pt": "Arvranel Sombrio",
+      "de": "Düsterholzring",
+      "es": "Abranillo oscuro"
+    },
     "level": 48,
     "category": "ring",
     "stats": {
@@ -280,8 +512,16 @@
       "wisdom": 5
     }
   },
-  "Artefact Feu": {
-    "name": "Artefact Feu",
+  "674e524064788cc7414187de": {
+    "id": "674e524064788cc7414187de",
+    "idShort": "qH",
+    "name": {
+      "fr": "Artefact Feu",
+      "en": "Fire Artefact",
+      "pt": "Artefato Fogo",
+      "de": "Feuer-Artefakt",
+      "es": "Artefacto fuego"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -289,8 +529,16 @@
       "intelligence": 1
     }
   },
-  "Artefact Terre": {
-    "name": "Artefact Terre",
+  "674e524064788cc7414187df": {
+    "id": "674e524064788cc7414187df",
+    "idShort": "qI",
+    "name": {
+      "fr": "Artefact Terre",
+      "en": "Earth Artefact",
+      "pt": "Artefato Terra",
+      "de": "Erd-Artefakt",
+      "es": "Artefacto tierra"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -298,8 +546,16 @@
       "intelligence": -10
     }
   },
-  "Artefact Air": {
-    "name": "Artefact Air",
+  "674e524064788cc7414187e0": {
+    "id": "674e524064788cc7414187e0",
+    "idShort": "qJ",
+    "name": {
+      "fr": "Artefact Air",
+      "en": "Air Artefact",
+      "pt": "Artefato Ar",
+      "de": "Luft-Artefakt",
+      "es": "Artefacto Aire"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -307,8 +563,16 @@
       "wisdom": -10
     }
   },
-  "Artefact Eau": {
-    "name": "Artefact Eau",
+  "674e524064788cc7414187e1": {
+    "id": "674e524064788cc7414187e1",
+    "idShort": "qK",
+    "name": {
+      "fr": "Artefact Eau",
+      "en": "Water Artefact",
+      "pt": "Artefato Água",
+      "de": "Wasser-Artefakt",
+      "es": "Artefacto Agua"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -316,8 +580,16 @@
       "chance": 1
     }
   },
-  "Artefact Lumière": {
-    "name": "Artefact Lumière",
+  "674e524064788cc7414187e2": {
+    "id": "674e524064788cc7414187e2",
+    "idShort": "qL",
+    "name": {
+      "fr": "Artefact Lumière",
+      "en": "Light Artefact",
+      "pt": "Artefato Luz",
+      "de": "Licht-Artefakt",
+      "es": "Artefacto Luz"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -325,8 +597,16 @@
       "wisdom": 1
     }
   },
-  "Artefact Vie": {
-    "name": "Artefact Vie",
+  "674e524064788cc7414187e3": {
+    "id": "674e524064788cc7414187e3",
+    "idShort": "qM",
+    "name": {
+      "fr": "Artefact Vie",
+      "en": "Life Artefact",
+      "pt": "Artefato Vida",
+      "de": "Lebens-Artefakt",
+      "es": "Artefacto Vida"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
@@ -334,8 +614,16 @@
       "chance": -10
     }
   },
-  "Fécaliseur du Magicien": {
-    "name": "Fécaliseur du Magicien",
+  "674e524064788cc7414187ec": {
+    "id": "674e524064788cc7414187ec",
+    "idShort": "qN",
+    "name": {
+      "fr": "Fécaliseur du Magicien",
+      "en": "Magus Fecalizer",
+      "pt": "Fecalizador do Mago",
+      "de": "Magier-Fécalisator",
+      "es": "Fecalizador del Mago"
+    },
     "level": 26,
     "category": "ring",
     "stats": {
@@ -344,8 +632,16 @@
       "airResist": 5
     }
   },
-  "Fécaliseur du Guerrier": {
-    "name": "Fécaliseur du Guerrier",
+  "674e524064788cc7414187ed": {
+    "id": "674e524064788cc7414187ed",
+    "idShort": "qO",
+    "name": {
+      "fr": "Fécaliseur du Guerrier",
+      "en": "Warrior Fecalizer",
+      "pt": "Fecalizador do Guerreiro",
+      "de": "Krieger-Fécalisator",
+      "es": "Fecalizador del Guerrero"
+    },
     "level": 26,
     "category": "ring",
     "stats": {
@@ -354,10 +650,18 @@
       "earthResistPer": 2
     }
   },
-  "Force de Crocoburio": {
-    "name": "Force de Crocoburio",
+  "674e524064788cc741418824": {
+    "id": "674e524064788cc741418824",
+    "idShort": "qP",
+    "name": {
+      "fr": "Force de Crocoburio",
+      "en": "Crocoburio's Strength",
+      "pt": "Força de Crocoburio",
+      "de": "Kraft des Crocoburio",
+      "es": "Fuerza de Cocoburio"
+    },
     "level": 40,
-    "panoply": "Âme de Crocoburio",
+    "panoply": "6807d9a601b972ee0ea59ce7",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -366,8 +670,16 @@
       "earthDamage": 2
     }
   },
-  "Anneau Mèr": {
-    "name": "Anneau Mèr",
+  "674e524064788cc74141882e": {
+    "id": "674e524064788cc74141882e",
+    "idShort": "qQ",
+    "name": {
+      "fr": "Anneau Mèr",
+      "en": "Mer Ring",
+      "pt": "Anel deMer",
+      "de": "O' Mer-Ring",
+      "es": "Anillo Mahr"
+    },
     "level": 25,
     "category": "ring",
     "stats": {
@@ -375,30 +687,54 @@
       "lock": 3
     }
   },
-  "Kwakanneau de Flammes": {
-    "name": "Kwakanneau de Flammes",
+  "674e524064788cc741418a0a": {
+    "id": "674e524064788cc741418a0a",
+    "idShort": "qR",
+    "name": {
+      "fr": "Kwakanneau de Flammes",
+      "en": "Fire Kwakring",
+      "pt": "Kwakanel de Fogo",
+      "de": "Flammen-Kwackband",
+      "es": "Kwakanillo de llamas"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Flammes",
+    "panoply": "674e523f64788cc7414180d4",
     "category": "ring",
     "stats": {
       "intelligence": 20,
       "fireResistPer": 5
     }
   },
-  "Anneau de Bouze le Clerc": {
-    "name": "Anneau de Bouze le Clerc",
+  "674e524064788cc741418a0b": {
+    "id": "674e524064788cc741418a0b",
+    "idShort": "qS",
+    "name": {
+      "fr": "Anneau de Bouze le Clerc",
+      "en": "Bouze Lite Yeah's Ring",
+      "pt": "Anel de Boz Laitíer",
+      "de": "Ring von Buhz Leichtfrier",
+      "es": "Anillo De Boz Layt Yer"
+    },
     "level": 20,
-    "panoply": "Panoplie du Bouftou",
+    "panoply": "674e523f64788cc7414180d3",
     "category": "ring",
     "stats": {
       "health": 30,
       "initiative": 100
     }
   },
-  "Anobra": {
-    "name": "Anobra",
+  "674e524064788cc741418a0c": {
+    "id": "674e524064788cc741418a0c",
+    "idShort": "qT",
+    "name": {
+      "fr": "Anobra",
+      "en": "Ringtree",
+      "pt": "Anelknídeo",
+      "de": "Astaband",
+      "es": "Anibra"
+    },
     "level": 40,
-    "panoply": "Panoplie de l'Abraknyde",
+    "panoply": "674e523f64788cc7414180d5",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -406,29 +742,53 @@
       "damage": 3
     }
   },
-  "Anneau Royal du Bouftou": {
-    "name": "Anneau Royal du Bouftou",
+  "674e524064788cc741418a1f": {
+    "id": "674e524064788cc741418a1f",
+    "idShort": "qU",
+    "name": {
+      "fr": "Anneau Royal du Bouftou",
+      "en": "Royal Gobball's Ring",
+      "pt": "Anel Real do Papatudo",
+      "de": "Königlicher Fresssackring",
+      "es": "Anillo Real de Jalató"
+    },
     "level": 31,
-    "panoply": "Panoplie du Bouftou Royal",
+    "panoply": "674e523f64788cc7414180d6",
     "category": "ring",
     "stats": {
       "health": 50,
       "damage": 3
     }
   },
-  "Gelano": {
-    "name": "Gelano",
+  "674e524064788cc741418a34": {
+    "id": "674e524064788cc741418a34",
+    "idShort": "qV",
+    "name": {
+      "fr": "Gelano",
+      "en": "Gelano",
+      "pt": "Gelanel",
+      "de": "Gelano",
+      "es": "Gelanillo"
+    },
     "level": 60,
-    "panoply": "Panoplie Gelax",
+    "panoply": "674e523f64788cc7414180d8",
     "category": "ring",
     "stats": {
       "ap": 1
     }
   },
-  "Anneau de l'Aventurier": {
-    "name": "Anneau de l'Aventurier",
+  "674e524064788cc741418a3a": {
+    "id": "674e524064788cc741418a3a",
+    "idShort": "qW",
+    "name": {
+      "fr": "Anneau de l'Aventurier",
+      "en": "Adventurer Ring",
+      "pt": "Anel do Aventureiro",
+      "de": "Ring des Abenteurers",
+      "es": "Anillo de aventurero"
+    },
     "level": 4,
-    "panoply": "Panoplie du Jeune Aventurier",
+    "panoply": "674e523f64788cc7414180d7",
     "category": "ring",
     "stats": {
       "strength": 2,
@@ -437,8 +797,16 @@
       "agility": 2
     }
   },
-  "Anneau Tribal": {
-    "name": "Anneau Tribal",
+  "674e524064788cc741418b0d": {
+    "id": "674e524064788cc741418b0d",
+    "idShort": "qX",
+    "name": {
+      "fr": "Anneau Tribal",
+      "en": "Tribal Ring",
+      "pt": "Anel tribal",
+      "de": "Tribal-Armband",
+      "es": "Anillo Tribal"
+    },
     "level": 51,
     "category": "ring",
     "stats": {
@@ -448,8 +816,16 @@
       "initiative": 100
     }
   },
-  "Anneau Forain": {
-    "name": "Anneau Forain",
+  "674e524064788cc741418b38": {
+    "id": "674e524064788cc741418b38",
+    "idShort": "qY",
+    "name": {
+      "fr": "Anneau Forain",
+      "en": "Trav' Ring",
+      "pt": "Anel Itinerante",
+      "de": "Jahrmarktring",
+      "es": "Anillo feriante"
+    },
     "level": 44,
     "category": "ring",
     "stats": {
@@ -459,8 +835,16 @@
       "airResistPer": 3
     }
   },
-  "Anneau de l'Invocateur Satisfait": {
-    "name": "Anneau de l'Invocateur Satisfait",
+  "674e524064788cc741418b39": {
+    "id": "674e524064788cc741418b39",
+    "idShort": "qZ",
+    "name": {
+      "fr": "Anneau de l'Invocateur Satisfait",
+      "en": "Satisfied Summoner's Ring",
+      "pt": "Anel do Invocador Satisfeito",
+      "de": "Ring der Genugbeschwörtuung",
+      "es": "Anillo del Invocador Satisfecho"
+    },
     "level": 40,
     "category": "ring",
     "stats": {
@@ -472,8 +856,16 @@
       "summon": 1
     }
   },
-  "Anneau de Loopine": {
-    "name": "Anneau de Loopine",
+  "674e524064788cc741418b3a": {
+    "id": "674e524064788cc741418b3a",
+    "idShort": "r0",
+    "name": {
+      "fr": "Anneau de Loopine",
+      "en": "Loopine's Ring",
+      "pt": "Anel de Loopino",
+      "de": "Dok Drums Ring",
+      "es": "Anillo de Mardock"
+    },
     "level": 71,
     "category": "ring",
     "stats": {
@@ -486,8 +878,16 @@
       "airResistPer": 2
     }
   },
-  "Anneau Nime": {
-    "name": "Anneau Nime",
+  "674e524064788cc741418b3c": {
+    "id": "674e524064788cc741418b3c",
+    "idShort": "r1",
+    "name": {
+      "fr": "Anneau Nime",
+      "en": "Ano Neemous Ring",
+      "pt": "Anel de Ano Nimos",
+      "de": "Ano Nims Ring",
+      "es": "Anillo Nónimo"
+    },
     "level": 67,
     "category": "ring",
     "stats": {
@@ -499,8 +899,16 @@
       "initiative": 150
     }
   },
-  "Anneau du Jeune Vald": {
-    "name": "Anneau du Jeune Vald",
+  "674e524064788cc741418b3d": {
+    "id": "674e524064788cc741418b3d",
+    "idShort": "r2",
+    "name": {
+      "fr": "Anneau du Jeune Vald",
+      "en": "Young Vald's Ring",
+      "pt": "Anel do Jovem Vald",
+      "de": "Valds Jugendring",
+      "es": "Anillo del joven Vald"
+    },
     "level": 59,
     "category": "ring",
     "stats": {
@@ -511,8 +919,16 @@
       "waterResistPer": 2
     }
   },
-  "Alliance de Farle": {
-    "name": "Alliance de Farle",
+  "674e524064788cc741418b3e": {
+    "id": "674e524064788cc741418b3e",
+    "idShort": "r3",
+    "name": {
+      "fr": "Alliance de Farle",
+      "en": "Farle's Wedding Ring",
+      "pt": "Aliança de Farle",
+      "de": "Farles Ehering",
+      "es": "Alianza de Farle"
+    },
     "level": 87,
     "category": "ring",
     "stats": {
@@ -525,8 +941,16 @@
       "prospecting": 10
     }
   },
-  "Anneau du Mineur Gogorifiant": {
-    "name": "Anneau du Mineur Gogorifiant",
+  "674e524064788cc741418b62": {
+    "id": "674e524064788cc741418b62",
+    "idShort": "r4",
+    "name": {
+      "fr": "Anneau du Mineur Gogorifiant",
+      "en": "Gogorified Miner Ring",
+      "pt": "Anel do Mineiro Gogorificante",
+      "de": "Gogorifizierendes Bergmannsband",
+      "es": "Anillo de minero Gogorífico"
+    },
     "level": 84,
     "category": "ring",
     "stats": {
@@ -539,10 +963,18 @@
       "waterResistPer": 3
     }
   },
-  "Alliance de l'Homme Ours": {
-    "name": "Alliance de l'Homme Ours",
+  "674e524064788cc741418c0c": {
+    "id": "674e524064788cc741418c0c",
+    "idShort": "r5",
+    "name": {
+      "fr": "Alliance de l'Homme Ours",
+      "en": "Bearman's Wedding Ring",
+      "pt": "Aliança do Homem Urso",
+      "de": "Ehering des Bärenmannes",
+      "es": "Alianza del hombre oso"
+    },
     "level": 20,
-    "panoply": "Panoplie de l'Homme Ours",
+    "panoply": "674e523f64788cc7414180de",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -550,20 +982,36 @@
       "initiative": 100
     }
   },
-  "Kwakanneau de Glace": {
-    "name": "Kwakanneau de Glace",
+  "674e524064788cc741418c11": {
+    "id": "674e524064788cc741418c11",
+    "idShort": "r6",
+    "name": {
+      "fr": "Kwakanneau de Glace",
+      "en": "Ice Kwakring",
+      "pt": "Kwakanel de Gelo",
+      "de": "Eis-Kwackband",
+      "es": "Kwakanillo de hielo"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Glace",
+    "panoply": "674e523f64788cc7414180df",
     "category": "ring",
     "stats": {
       "chance": 20,
       "waterResistPer": 5
     }
   },
-  "Fourballiance": {
-    "name": "Fourballiance",
+  "674e524064788cc741418c17": {
+    "id": "674e524064788cc741418c17",
+    "idShort": "r7",
+    "name": {
+      "fr": "Fourballiance",
+      "en": "Deceitful Wedding Ring",
+      "pt": "Aliarbustor",
+      "de": "Heckenschutzring",
+      "es": "Mazorralianza"
+    },
     "level": 104,
-    "panoply": "Panoplie Fourbasse",
+    "panoply": "674e523f64788cc7414180e2",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -578,30 +1026,54 @@
       "airResist": 7
     }
   },
-  "Kwakanneau de Terre": {
-    "name": "Kwakanneau de Terre",
+  "674e524064788cc741418c1c": {
+    "id": "674e524064788cc741418c1c",
+    "idShort": "r8",
+    "name": {
+      "fr": "Kwakanneau de Terre",
+      "en": "Earth Kwakring",
+      "pt": "Kwakanel de Terra",
+      "de": "Stein-Kwackband",
+      "es": "Kwakanillo de tierra"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Terre",
+    "panoply": "674e523f64788cc7414180e0",
     "category": "ring",
     "stats": {
       "strength": 20,
       "earthResistPer": 5
     }
   },
-  "Kwakanneau de Vent": {
-    "name": "Kwakanneau de Vent",
+  "674e524064788cc741418c1d": {
+    "id": "674e524064788cc741418c1d",
+    "idShort": "r9",
+    "name": {
+      "fr": "Kwakanneau de Vent",
+      "en": "Wind Kwakring",
+      "pt": "Kwakanel de Vento",
+      "de": "Wind-Kwackband",
+      "es": "Kwakanillo de viento"
+    },
     "level": 42,
-    "panoply": "Panoplie du Kwak de Vent",
+    "panoply": "674e523f64788cc7414180e1",
     "category": "ring",
     "stats": {
       "agility": 20,
       "airResistPer": 5
     }
   },
-  "Bracelet Magique de Farle": {
-    "name": "Bracelet Magique de Farle",
+  "674e524064788cc741418c2f": {
+    "id": "674e524064788cc741418c2f",
+    "idShort": "ra",
+    "name": {
+      "fr": "Bracelet Magique de Farle",
+      "en": "Farle's Magic Bracelet",
+      "pt": "Bracelete mágico de Farle",
+      "de": "Farles magisches Armband",
+      "es": "Pulsera Mágica de Farle"
+    },
     "level": 79,
-    "panoply": "Panoplie de Farle Ingalsse",
+    "panoply": "674e523f64788cc7414180e3",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -614,18 +1086,34 @@
       "waterResistPer": 2
     }
   },
-  "Anneau Champêtre": {
-    "name": "Anneau Champêtre",
+  "674e524064788cc741418c42": {
+    "id": "674e524064788cc741418c42",
+    "idShort": "rb",
+    "name": {
+      "fr": "Anneau Champêtre",
+      "en": "Country Ring",
+      "pt": "Anel Campestre",
+      "de": "Ring des Feldhüters",
+      "es": "Anillo campestre"
+    },
     "level": 15,
-    "panoply": "Panoplie Champêtre",
+    "panoply": "674e523f64788cc7414180e4",
     "category": "ring",
     "stats": {
       "health": 20,
       "agility": 20
     }
   },
-  "Anneau Thé": {
-    "name": "Anneau Thé",
+  "674e524064788cc741418c44": {
+    "id": "674e524064788cc741418c44",
+    "idShort": "rc",
+    "name": {
+      "fr": "Anneau Thé",
+      "en": "Tea Ring",
+      "pt": "Chaanel",
+      "de": "Thee-Ring",
+      "es": "Anillo Té"
+    },
     "level": 25,
     "category": "ring",
     "stats": {
@@ -634,10 +1122,18 @@
       "power": 10
     }
   },
-  "Bracelet du Chef Bwork": {
-    "name": "Bracelet du Chef Bwork",
+  "674e524064788cc741418c50": {
+    "id": "674e524064788cc741418c50",
+    "idShort": "rd",
+    "name": {
+      "fr": "Bracelet du Chef Bwork",
+      "en": "Bwork Chief Bracelet",
+      "pt": "Bracelete do Chefe Bwork",
+      "de": "Armschützer des Bwork-Chefs",
+      "es": "Brazal de jefe bwork"
+    },
     "level": 100,
-    "panoply": "Panoplie du Chef Bwork",
+    "panoply": "674e523f64788cc7414180e5",
     "category": "ring",
     "stats": {
       "health": 60,
@@ -650,10 +1146,18 @@
       "airResistPer": 3
     }
   },
-  "Bracelet du Chef Crocodaille": {
-    "name": "Bracelet du Chef Crocodaille",
+  "674e524064788cc741418c57": {
+    "id": "674e524064788cc741418c57",
+    "idShort": "re",
+    "name": {
+      "fr": "Bracelet du Chef Crocodaille",
+      "en": "Crocodyl Chief Bracelet",
+      "pt": "Bracelete do Chefe Crocodyl",
+      "de": "Armschützer des Chef-Crocodylls",
+      "es": "Brazal de jefe cocodrail"
+    },
     "level": 70,
-    "panoply": "Panoplie du Chef Crocodaille",
+    "panoply": "674e523f64788cc7414180e6",
     "category": "ring",
     "stats": {
       "chance": 30,
@@ -664,30 +1168,54 @@
       "fireResistPer": 2
     }
   },
-  "Anneau du Sanglier": {
-    "name": "Anneau du Sanglier",
+  "674e524064788cc741418c8f": {
+    "id": "674e524064788cc741418c8f",
+    "idShort": "rf",
+    "name": {
+      "fr": "Anneau du Sanglier",
+      "en": "Boar Ring",
+      "pt": "Anel do Javali",
+      "de": "Armband des Keilers",
+      "es": "Anillo de jabalí"
+    },
     "level": 19,
-    "panoply": "Panoplie du Sanglier",
+    "panoply": "674e523f64788cc7414180e7",
     "category": "ring",
     "stats": {
       "health": 25,
       "criticalChance": 2
     }
   },
-  "Araknoton": {
-    "name": "Araknoton",
+  "674e524064788cc741418c90": {
+    "id": "674e524064788cc741418c90",
+    "idShort": "rg",
+    "name": {
+      "fr": "Araknoton",
+      "en": "Arachnoring",
+      "pt": "Araknanel",
+      "de": "Arachnoton",
+      "es": "Araknotón"
+    },
     "level": 9,
-    "panoply": "Panoplie Arakne",
+    "panoply": "674e523f64788cc7414180e8",
     "category": "ring",
     "stats": {
       "health": 15,
       "dodge": 2
     }
   },
-  "Mos Kitano": {
-    "name": "Mos Kitano",
+  "674e524064788cc741418c94": {
+    "id": "674e524064788cc741418c94",
+    "idShort": "rh",
+    "name": {
+      "fr": "Mos Kitano",
+      "en": "Mos Kitano",
+      "pt": "Mos Kitanel",
+      "de": "Moski-Toring",
+      "es": "Mos Kitano"
+    },
     "level": 21,
-    "panoply": "Panoplie Moskito",
+    "panoply": "674e523f64788cc7414180e9",
     "category": "ring",
     "stats": {
       "chance": 15,
@@ -695,30 +1223,54 @@
       "heal": 2
     }
   },
-  "Anneau du Champ Champ": {
-    "name": "Anneau du Champ Champ",
+  "674e524064788cc741418c98": {
+    "id": "674e524064788cc741418c98",
+    "idShort": "ri",
+    "name": {
+      "fr": "Anneau du Champ Champ",
+      "en": "Mush Mush Ring",
+      "pt": "Anel do Cogu Cogu",
+      "de": "Pilzlingring",
+      "es": "Anillo de champi champ"
+    },
     "level": 13,
-    "panoply": "Panoplie Champ Champ",
+    "panoply": "674e523f64788cc7414180ea",
     "category": "ring",
     "stats": {
       "health": 20,
       "lock": 3
     }
   },
-  "Alliance Du Champ Champ": {
-    "name": "Alliance Du Champ Champ",
+  "674e524064788cc741418c99": {
+    "id": "674e524064788cc741418c99",
+    "idShort": "rj",
+    "name": {
+      "fr": "Alliance Du Champ Champ",
+      "en": "Mush Mush Wedding Ring",
+      "pt": "Aliança do Cogu Cogu",
+      "de": "Pilzlingtrauring",
+      "es": "Alianza de champi champ"
+    },
     "level": 11,
-    "panoply": "Panoplie Champ Champ",
+    "panoply": "674e523f64788cc7414180ea",
     "category": "ring",
     "stats": {
       "health": 20,
       "dodge": 2
     }
   },
-  "Anneau du Prespic": {
-    "name": "Anneau du Prespic",
+  "674e524064788cc741418ca1": {
+    "id": "674e524064788cc741418ca1",
+    "idShort": "rk",
+    "name": {
+      "fr": "Anneau du Prespic",
+      "en": "Prespic Ring",
+      "pt": "Anel do Prespic",
+      "de": "Prespik-Armband",
+      "es": "Anillo de prespic"
+    },
     "level": 38,
-    "panoply": "Panoplie du Prespic",
+    "panoply": "674e523f64788cc7414180f1",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -727,10 +1279,18 @@
       "criticalChance": 2
     }
   },
-  "Scaranneau Vert": {
-    "name": "Scaranneau Vert",
+  "674e524064788cc741418cb0": {
+    "id": "674e524064788cc741418cb0",
+    "idShort": "rl",
+    "name": {
+      "fr": "Scaranneau Vert",
+      "en": "Green Scararing",
+      "pt": "Scaranel Verde",
+      "de": "Grüner Scararara-Ring",
+      "es": "Escaranillo verde"
+    },
     "level": 43,
-    "panoply": "Panoplie du Scarafeuille Vert",
+    "panoply": "674e523f64788cc7414180ed",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -739,10 +1299,18 @@
       "earthResistPer": 3
     }
   },
-  "Scaranneau Rouge": {
-    "name": "Scaranneau Rouge",
+  "674e524064788cc741418cb1": {
+    "id": "674e524064788cc741418cb1",
+    "idShort": "rm",
+    "name": {
+      "fr": "Scaranneau Rouge",
+      "en": "Red Scararing",
+      "pt": "Scaranel Vermelho",
+      "de": "Roter Scararara-Ring",
+      "es": "Escaranillo rojo"
+    },
     "level": 43,
-    "panoply": "Panoplie du Scarafeuille Rouge",
+    "panoply": "674e523f64788cc7414180ee",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -751,10 +1319,18 @@
       "fireResistPer": 3
     }
   },
-  "Scaranneau Blanc": {
-    "name": "Scaranneau Blanc",
+  "674e524064788cc741418cb2": {
+    "id": "674e524064788cc741418cb2",
+    "idShort": "rn",
+    "name": {
+      "fr": "Scaranneau Blanc",
+      "en": "White Scararing",
+      "pt": "Scaranel Branco",
+      "de": "Weißer Scararara-Ring",
+      "es": "Escaranillo blanco"
+    },
     "level": 43,
-    "panoply": "Panoplie du Scarafeuille Blanc",
+    "panoply": "674e523f64788cc7414180ef",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -763,10 +1339,18 @@
       "airResistPer": 3
     }
   },
-  "Scaranneau Bleu": {
-    "name": "Scaranneau Bleu",
+  "674e524064788cc741418cb3": {
+    "id": "674e524064788cc741418cb3",
+    "idShort": "ro",
+    "name": {
+      "fr": "Scaranneau Bleu",
+      "en": "Blue Scararing",
+      "pt": "Scaranel Azul",
+      "de": "Blauer Scararara-Ring",
+      "es": "Escaranillo azul"
+    },
     "level": 43,
-    "panoply": "Panoplie du Scarafeuille Bleu",
+    "panoply": "674e523f64788cc7414180f0",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -775,10 +1359,18 @@
       "waterResistPer": 3
     }
   },
-  "Anneau du Mulou": {
-    "name": "Anneau du Mulou",
+  "674e524064788cc741418cbc": {
+    "id": "674e524064788cc741418cbc",
+    "idShort": "rp",
+    "name": {
+      "fr": "Anneau du Mulou",
+      "en": "Boowolf Ring",
+      "pt": "Anel do Milobo",
+      "de": "WuWulf-Ring",
+      "es": "Anillo de milubo"
+    },
     "level": 51,
-    "panoply": "Panoplie du Mulou",
+    "panoply": "674e523f64788cc7414180f2",
     "category": "ring",
     "stats": {
       "strength": 25,
@@ -787,18 +1379,34 @@
       "prospecting": 3
     }
   },
-  "Anneau du Bandit": {
-    "name": "Anneau du Bandit",
+  "674e524064788cc741418cbf": {
+    "id": "674e524064788cc741418cbf",
+    "idShort": "rq",
+    "name": {
+      "fr": "Anneau du Bandit",
+      "en": "Gangster Ring",
+      "pt": "Anel do Bandido",
+      "de": "Banditenring",
+      "es": "Anillo de bandido"
+    },
     "level": 17,
-    "panoply": "Panoplie du Bandit",
+    "panoply": "674e523f64788cc7414180eb",
     "category": "ring",
     "stats": {
       "health": 20,
       "criticalChance": 2
     }
   },
-  "Anneau Stradamus": {
-    "name": "Anneau Stradamus",
+  "674e524064788cc741418cd3": {
+    "id": "674e524064788cc741418cd3",
+    "idShort": "rr",
+    "name": {
+      "fr": "Anneau Stradamus",
+      "en": "Ring o'Stradamus",
+      "pt": "Anel Stradamus",
+      "de": "Ring O'Stradamus",
+      "es": "Anillo Stradamus"
+    },
     "level": 48,
     "category": "ring",
     "stats": {
@@ -808,8 +1416,16 @@
       "waterResistPer": 2
     }
   },
-  "Anneau Fioutioure": {
-    "name": "Anneau Fioutioure",
+  "674e524064788cc741418cd4": {
+    "id": "674e524064788cc741418cd4",
+    "idShort": "rs",
+    "name": {
+      "fr": "Anneau Fioutioure",
+      "en": "Conno Ring",
+      "pt": "Anel de Fioutioure",
+      "de": "Fioutioure-Ring",
+      "es": "Anillo Fiutiuro"
+    },
     "level": 65,
     "category": "ring",
     "stats": {
@@ -820,10 +1436,18 @@
       "initiative": 200
     }
   },
-  "Alliance d'Elya Wood": {
-    "name": "Alliance d'Elya Wood",
+  "674e524064788cc741418cd5": {
+    "id": "674e524064788cc741418cd5",
+    "idShort": "rt",
+    "name": {
+      "fr": "Alliance d'Elya Wood",
+      "en": "Elya Wood's Wedding Ring",
+      "pt": "Aliança de Elya Wood",
+      "de": "Ehering von Elya Wood",
+      "es": "Alianza de Elya Wood"
+    },
     "level": 119,
-    "panoply": "Panoplie d'Elya Wood",
+    "panoply": "674e523f64788cc7414180f9",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -836,8 +1460,16 @@
       "fireResist": 12
     }
   },
-  "Anneau Merta": {
-    "name": "Anneau Merta",
+  "674e524064788cc741418d31": {
+    "id": "674e524064788cc741418d31",
+    "idShort": "ru",
+    "name": {
+      "fr": "Anneau Merta",
+      "en": "Omerta Ring",
+      "pt": "Anel de Merta",
+      "de": "Mertas Ring",
+      "es": "Anillo Mertá"
+    },
     "level": 59,
     "category": "ring",
     "stats": {
@@ -848,8 +1480,16 @@
       "initiative": 100
     }
   },
-  "Alliance Ethnique": {
-    "name": "Alliance Ethnique",
+  "674e524064788cc741418d32": {
+    "id": "674e524064788cc741418d32",
+    "idShort": "rv",
+    "name": {
+      "fr": "Alliance Ethnique",
+      "en": "Ostarr Ring",
+      "pt": "Aliança Étnica",
+      "de": "Ring'N'Sing",
+      "es": "Alianza Étnica"
+    },
     "level": 53,
     "category": "ring",
     "stats": {
@@ -859,8 +1499,16 @@
       "prospecting": 5
     }
   },
-  "Anneau K'Tuelle": {
-    "name": "Anneau K'Tuelle",
+  "674e524064788cc741418d33": {
+    "id": "674e524064788cc741418d33",
+    "idShort": "rw",
+    "name": {
+      "fr": "Anneau K'Tuelle",
+      "en": "Ugle Ring",
+      "pt": "Anel Ugle",
+      "de": "Nachtfaltering",
+      "es": "Anillo Mamestro"
+    },
     "level": 88,
     "category": "ring",
     "stats": {
@@ -873,8 +1521,16 @@
       "airResistPer": 2
     }
   },
-  "Anneau Ha": {
-    "name": "Anneau Ha",
+  "674e524064788cc741418d34": {
+    "id": "674e524064788cc741418d34",
+    "idShort": "rx",
+    "name": {
+      "fr": "Anneau Ha",
+      "en": "Nonsenz Ring",
+      "pt": "Anél Nonsenz",
+      "de": "No Ha-Ring",
+      "es": "Anillo Kohono"
+    },
     "level": 58,
     "category": "ring",
     "stats": {
@@ -884,8 +1540,16 @@
       "damage": 3
     }
   },
-  "Anneau Hé": {
-    "name": "Anneau Hé",
+  "674e524064788cc741418d35": {
+    "id": "674e524064788cc741418d35",
+    "idShort": "ry",
+    "name": {
+      "fr": "Anneau Hé",
+      "en": "Ignoah Ring",
+      "pt": "Anel de Noha",
+      "de": "No Ah-Ring",
+      "es": "Anillo de Eon"
+    },
     "level": 44,
     "category": "ring",
     "stats": {
@@ -894,8 +1558,16 @@
       "criticalChance": 3
     }
   },
-  "Anneau Zocomial": {
-    "name": "Anneau Zocomial",
+  "674e524064788cc741418d36": {
+    "id": "674e524064788cc741418d36",
+    "idShort": "rz",
+    "name": {
+      "fr": "Anneau Zocomial",
+      "en": "Nozokomial Ring",
+      "pt": "Anel Nozokomial",
+      "de": "Ozochiramial-Ring",
+      "es": "Anillo Cosonomial"
+    },
     "level": 50,
     "category": "ring",
     "stats": {
@@ -906,8 +1578,16 @@
       "airResistPer": 2
     }
   },
-  "Anneau Vice": {
-    "name": "Anneau Vice",
+  "674e524064788cc741418d37": {
+    "id": "674e524064788cc741418d37",
+    "idShort": "rA",
+    "name": {
+      "fr": "Anneau Vice",
+      "en": "Blubba Ring",
+      "pt": "Anel de Novato",
+      "de": "Initialiring",
+      "es": "Anillo Novato"
+    },
     "level": 18,
     "category": "ring",
     "stats": {
@@ -916,8 +1596,16 @@
       "dodge": 3
     }
   },
-  "Anneau Bsène": {
-    "name": "Anneau Bsène",
+  "674e524064788cc741418d38": {
+    "id": "674e524064788cc741418d38",
+    "idShort": "rB",
+    "name": {
+      "fr": "Anneau Bsène",
+      "en": "Ab'ho Ring",
+      "pt": "Anel Obscuro",
+      "de": "Obszönling",
+      "es": "Anillo Bsceno"
+    },
     "level": 68,
     "category": "ring",
     "stats": {
@@ -929,8 +1617,16 @@
       "waterResistPer": 2
     }
   },
-  "Anneau Karina": {
-    "name": "Anneau Karina",
+  "674e524064788cc741418d3b": {
+    "id": "674e524064788cc741418d3b",
+    "idShort": "rC",
+    "name": {
+      "fr": "Anneau Karina",
+      "en": "Okaringa",
+      "pt": "OkaRinga",
+      "de": "OkaRinga",
+      "es": "Anillo Karina"
+    },
     "level": 54,
     "category": "ring",
     "stats": {
@@ -941,8 +1637,16 @@
       "airResistPer": 3
     }
   },
-  "Anneau Piaume": {
-    "name": "Anneau Piaume",
+  "674e524064788cc741418d3e": {
+    "id": "674e524064788cc741418d3e",
+    "idShort": "rD",
+    "name": {
+      "fr": "Anneau Piaume",
+      "en": "Pota Ring",
+      "pt": "Anel Opiom",
+      "de": "Opi Uhms Ring",
+      "es": "Anillo Pyó"
+    },
     "level": 56,
     "category": "ring",
     "stats": {
@@ -951,8 +1655,16 @@
       "prospecting": 10
     }
   },
-  "Anneau Rigami": {
-    "name": "Anneau Rigami",
+  "674e524064788cc741418d3f": {
+    "id": "674e524064788cc741418d3f",
+    "idShort": "rE",
+    "name": {
+      "fr": "Anneau Rigami",
+      "en": "O-Ring Ami",
+      "pt": "O' Anel Ami",
+      "de": "O' Ring Ami",
+      "es": "Anillo Rigamia"
+    },
     "level": 49,
     "category": "ring",
     "stats": {
@@ -963,10 +1675,18 @@
       "airResistPer": 2
     }
   },
-  "Alliance Akwadala": {
-    "name": "Alliance Akwadala",
+  "674e524064788cc741418dad": {
+    "id": "674e524064788cc741418dad",
+    "idShort": "rF",
+    "name": {
+      "fr": "Alliance Akwadala",
+      "en": "Akwadala Wedding Ring",
+      "pt": "Aliança Akwadala",
+      "de": "Akwadala-Trauring",
+      "es": "Alianza Akwadala"
+    },
     "level": 37,
-    "panoply": "Panoplie Akwadala",
+    "panoply": "674e523f64788cc7414180f4",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -975,10 +1695,18 @@
       "waterResistPer": 2
     }
   },
-  "Alliance Terrdala": {
-    "name": "Alliance Terrdala",
+  "674e524064788cc741418dae": {
+    "id": "674e524064788cc741418dae",
+    "idShort": "rG",
+    "name": {
+      "fr": "Alliance Terrdala",
+      "en": "Terrdala Wedding Ring",
+      "pt": "Aliança Terradala",
+      "de": "Teradala-Trauring",
+      "es": "Alianza Tierradala"
+    },
     "level": 77,
-    "panoply": "Panoplie Terrdala",
+    "panoply": "674e523f64788cc7414180f6",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -988,10 +1716,18 @@
       "waterResistPer": 3
     }
   },
-  "Alliance Feudala": {
-    "name": "Alliance Feudala",
+  "674e524064788cc741418daf": {
+    "id": "674e524064788cc741418daf",
+    "idShort": "rH",
+    "name": {
+      "fr": "Alliance Feudala",
+      "en": "Feudala Wedding Ring",
+      "pt": "Aliança Fogodala",
+      "de": "Feudala-Trauring",
+      "es": "Alianza Fuegodala"
+    },
     "level": 81,
-    "panoply": "Panoplie Feudala",
+    "panoply": "674e523f64788cc7414180f7",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -1002,10 +1738,18 @@
       "waterResistPer": 3
     }
   },
-  "Alliance Aerdala": {
-    "name": "Alliance Aerdala",
+  "674e524064788cc741418db0": {
+    "id": "674e524064788cc741418db0",
+    "idShort": "rI",
+    "name": {
+      "fr": "Alliance Aerdala",
+      "en": "Aerdala Wedding Ring",
+      "pt": "Aliança Ardala",
+      "de": "Aerdala-Trauring",
+      "es": "Alianza Airedala"
+    },
     "level": 57,
-    "panoply": "Panoplie Aerdala",
+    "panoply": "674e523f64788cc7414180f5",
     "category": "ring",
     "stats": {
       "agility": 30,
@@ -1013,10 +1757,18 @@
       "prospecting": 10
     }
   },
-  "Anneau du Kitsou": {
-    "name": "Anneau du Kitsou",
+  "674e524064788cc741418dd6": {
+    "id": "674e524064788cc741418dd6",
+    "idShort": "rJ",
+    "name": {
+      "fr": "Anneau du Kitsou",
+      "en": "Kitsou Ring",
+      "pt": "Anel do Kitsu",
+      "de": "Kitsou-Ring",
+      "es": "Anillo de kitsu"
+    },
     "level": 55,
-    "panoply": "Panoplie du Kitsou",
+    "panoply": "674e523f64788cc7414180fb",
     "category": "ring",
     "stats": {
       "health": 50,
@@ -1025,10 +1777,18 @@
       "airResist": 6
     }
   },
-  "Anodindo": {
-    "name": "Anodindo",
+  "674e524064788cc741418e41": {
+    "id": "674e524064788cc741418e41",
+    "idShort": "rK",
+    "name": {
+      "fr": "Anodindo",
+      "en": "Turkoring",
+      "pt": "Turkoanel",
+      "de": "Trutering",
+      "es": "Anillopavo"
+    },
     "level": 50,
-    "panoply": "Panoplie Dindo",
+    "panoply": "674e523f64788cc7414180fc",
     "category": "ring",
     "stats": {
       "strength": 15,
@@ -1038,10 +1798,18 @@
       "wisdom": 10
     }
   },
-  "Anneau du Boufcoul": {
-    "name": "Anneau du Boufcoul",
+  "674e524064788cc741418f27": {
+    "id": "674e524064788cc741418f27",
+    "idShort": "rL",
+    "name": {
+      "fr": "Anneau du Boufcoul",
+      "en": "Gobkool Ring",
+      "pt": "Anel do Papakool",
+      "de": "Fresscool-Ring",
+      "es": "Anillo de jalatranki"
+    },
     "level": 86,
-    "panoply": "Panoplie du Boufcoul",
+    "panoply": "674e523f64788cc7414180fd",
     "category": "ring",
     "stats": {
       "health": 50,
@@ -1055,10 +1823,18 @@
       "fireResistPer": 3
     }
   },
-  "Anneau du Koalak": {
-    "name": "Anneau du Koalak",
+  "674e524064788cc741418f8e": {
+    "id": "674e524064788cc741418f8e",
+    "idShort": "rN",
+    "name": {
+      "fr": "Anneau du Koalak",
+      "en": "Koalak Ring",
+      "pt": "Anel do Koalak",
+      "de": "Koalak-Ring",
+      "es": "Anillo de koalak"
+    },
     "level": 53,
-    "panoply": "Panoplie du Koalak",
+    "panoply": "674e523f64788cc741418100",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -1066,20 +1842,36 @@
       "fireResistPer": 5
     }
   },
-  "Anneau du Tofu": {
-    "name": "Anneau du Tofu",
+  "674e524064788cc741418fc8": {
+    "id": "674e524064788cc741418fc8",
+    "idShort": "rO",
+    "name": {
+      "fr": "Anneau du Tofu",
+      "en": "Tofu Ring",
+      "pt": "Anel do Tofu",
+      "de": "Tofu-Ring",
+      "es": "Anillo de tofu"
+    },
     "level": 21,
-    "panoply": "Panoplie du Tofu",
+    "panoply": "674e523f64788cc741418103",
     "category": "ring",
     "stats": {
       "agility": 15,
       "wisdom": 10
     }
   },
-  "Anneau du Scarabosse Doré": {
-    "name": "Anneau du Scarabosse Doré",
+  "674e524064788cc741418fd3": {
+    "id": "674e524064788cc741418fd3",
+    "idShort": "rP",
+    "name": {
+      "fr": "Anneau du Scarabosse Doré",
+      "en": "Golden Scarabugly Ring",
+      "pt": "Anel do Scarachefe Dourado",
+      "de": "Ring des goldenen Scarabiestes",
+      "es": "Anillo de Escarajefe Dorado"
+    },
     "level": 43,
-    "panoply": "Panoplie du Scarabosse Doré",
+    "panoply": "674e523f64788cc741418104",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -1089,20 +1881,36 @@
       "heal": 6
     }
   },
-  "Mitaines Mitées du Paysan": {
-    "name": "Mitaines Mitées du Paysan",
+  "674e524064788cc741418fd8": {
+    "id": "674e524064788cc741418fd8",
+    "idShort": "rQ",
+    "name": {
+      "fr": "Mitaines Mitées du Paysan",
+      "en": "Farmer Moth-Eaten Mittens",
+      "pt": "Luvas roídas por traças do fazendeiro",
+      "de": "Mottenzerfressene Bauernfäustlinge",
+      "es": "Mitones apolillados de campesino"
+    },
     "level": 12,
-    "panoply": "Panoplie du Paysan",
+    "panoply": "674e523f64788cc741418101",
     "category": "ring",
     "stats": {
       "health": -40,
       "summon": 1
     }
   },
-  "Scaranneau Noir": {
-    "name": "Scaranneau Noir",
+  "674e524064788cc741418fe2": {
+    "id": "674e524064788cc741418fe2",
+    "idShort": "rR",
+    "name": {
+      "fr": "Scaranneau Noir",
+      "en": "Black Scararing",
+      "pt": "Scaranel Preto",
+      "de": "Schwarzer Scararara-Ring",
+      "es": "Escaranillo negro"
+    },
     "level": 48,
-    "panoply": "Panoplie du Scarafeuille Noir",
+    "panoply": "674e523f64788cc741418102",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -1111,10 +1919,18 @@
       "neutralResistPer": 3
     }
   },
-  "Craquanneau Légendaire": {
-    "name": "Craquanneau Légendaire",
+  "674e524064788cc741418fef": {
+    "id": "674e524064788cc741418fef",
+    "idShort": "rS",
+    "name": {
+      "fr": "Craquanneau Légendaire",
+      "en": "Legendary Cracklering",
+      "pt": "Smaganel Legendário",
+      "de": "Ring des Legendären Mega-Krachlers",
+      "es": "Crujianillo legendario"
+    },
     "level": 72,
-    "panoply": "Panoplie du Craqueleur Légendaire",
+    "panoply": "674e523f64788cc741418105",
     "category": "ring",
     "stats": {
       "intelligence": 20,
@@ -1124,70 +1940,126 @@
       "airResistPer": 2
     }
   },
-  "Anneau du Piou Rouge": {
-    "name": "Anneau du Piou Rouge",
+  "674e524064788cc74141900d": {
+    "id": "674e524064788cc74141900d",
+    "idShort": "rT",
+    "name": {
+      "fr": "Anneau du Piou Rouge",
+      "en": "Red Piwi Ring",
+      "pt": "Anel do Piu Vermelho",
+      "de": "Ring des roten Piepmatzes",
+      "es": "Anillo de pío rojo"
+    },
     "level": 10,
-    "panoply": "Panoplie du Piou Rouge",
+    "panoply": "674e523f64788cc74141810d",
     "category": "ring",
     "stats": {
       "health": 20,
       "intelligence": 20
     }
   },
-  "Anneau du Piou Bleu": {
-    "name": "Anneau du Piou Bleu",
+  "674e524064788cc74141900e": {
+    "id": "674e524064788cc74141900e",
+    "idShort": "rU",
+    "name": {
+      "fr": "Anneau du Piou Bleu",
+      "en": "Blue Piwi Ring",
+      "pt": "Anel do Piu Azul",
+      "de": "Ring des blauen Piepmatzes",
+      "es": "Anillo de pío azul"
+    },
     "level": 9,
-    "panoply": "Panoplie du Piou Bleu",
+    "panoply": "674e523f64788cc74141810e",
     "category": "ring",
     "stats": {
       "chance": 20,
       "waterDamage": 1
     }
   },
-  "Anneau du Piou Violet": {
-    "name": "Anneau du Piou Violet",
+  "674e524064788cc74141900f": {
+    "id": "674e524064788cc74141900f",
+    "idShort": "rV",
+    "name": {
+      "fr": "Anneau du Piou Violet",
+      "en": "Purple Piwi Ring",
+      "pt": "Anel do Piu Violeta",
+      "de": "Ring des violetten Piepmatzes",
+      "es": "Anillo de pío violeta"
+    },
     "level": 8,
-    "panoply": "Panoplie du Piou Violet",
+    "panoply": "674e523f64788cc74141810f",
     "category": "ring",
     "stats": {
       "power": 10,
       "initiative": 50
     }
   },
-  "Anneau du Piou Jaune": {
-    "name": "Anneau du Piou Jaune",
+  "674e524064788cc741419010": {
+    "id": "674e524064788cc741419010",
+    "idShort": "rW",
+    "name": {
+      "fr": "Anneau du Piou Jaune",
+      "en": "Yellow Piwi Ring",
+      "pt": "Anel do Piu Amarelo",
+      "de": "Ring des gelben Piepmatzes",
+      "es": "Anillo de pío amarillo"
+    },
     "level": 12,
-    "panoply": "Panoplie du Piou Jaune",
+    "panoply": "674e523f64788cc741418118",
     "category": "ring",
     "stats": {
       "wisdom": 10,
       "airDamage": 1
     }
   },
-  "Anneau du Piou Vert": {
-    "name": "Anneau du Piou Vert",
+  "674e524064788cc741419011": {
+    "id": "674e524064788cc741419011",
+    "idShort": "rX",
+    "name": {
+      "fr": "Anneau du Piou Vert",
+      "en": "Green Piwi Ring",
+      "pt": "Anel do Piu Verde",
+      "de": "Ring des grünen Piepmatzes",
+      "es": "Anillo de pío verde"
+    },
     "level": 11,
-    "panoply": "Panoplie du Piou Vert",
+    "panoply": "674e523f64788cc741418119",
     "category": "ring",
     "stats": {
       "strength": 20,
       "criticalChance": 3
     }
   },
-  "Anneau du Piou Rose": {
-    "name": "Anneau du Piou Rose",
+  "674e524064788cc741419012": {
+    "id": "674e524064788cc741419012",
+    "idShort": "rY",
+    "name": {
+      "fr": "Anneau du Piou Rose",
+      "en": "Pink Piwi Ring",
+      "pt": "Anel do Piu Rosa",
+      "de": "Ring des rosafarbenen Piepmatzes",
+      "es": "Anillo de pío rosa"
+    },
     "level": 7,
-    "panoply": "Panoplie du Piou Rose",
+    "panoply": "674e523f64788cc741418117",
     "category": "ring",
     "stats": {
       "heal": 1,
       "dodge": 3
     }
   },
-  "Anneau en Mousse": {
-    "name": "Anneau en Mousse",
+  "674e524064788cc74141902f": {
+    "id": "674e524064788cc74141902f",
+    "idShort": "rZ",
+    "name": {
+      "fr": "Anneau en Mousse",
+      "en": "Sponge Ring",
+      "pt": "Anel de Esponja",
+      "de": "Schwammring",
+      "es": "Anillo de esponja"
+    },
     "level": 20,
-    "panoply": "Panoplie en Mousse",
+    "panoply": "674e523f64788cc741418110",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -1195,10 +2067,18 @@
       "dodge": 2
     }
   },
-  "Anneau du Meulou": {
-    "name": "Anneau du Meulou",
+  "674e524064788cc741419037": {
+    "id": "674e524064788cc741419037",
+    "idShort": "s0",
+    "name": {
+      "fr": "Anneau du Meulou",
+      "en": "Moowolf Ring",
+      "pt": "Anel do Mulobo",
+      "de": "MuWulfs-Ring",
+      "es": "Anillo de Maxilubo"
+    },
     "level": 126,
-    "panoply": "Panoplie du Meulou",
+    "panoply": "674e523f64788cc741418108",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -1212,10 +2092,18 @@
       "neutralResist": 6
     }
   },
-  "Anneau du Minotoror": {
-    "name": "Anneau du Minotoror",
+  "674e524064788cc74141903d": {
+    "id": "674e524064788cc74141903d",
+    "idShort": "s1",
+    "name": {
+      "fr": "Anneau du Minotoror",
+      "en": "Minotoror Ring",
+      "pt": "Anel do Minotoror",
+      "de": "Minotororing",
+      "es": "Anillo del Minotauroro"
+    },
     "level": 112,
-    "panoply": "Panoplie du Minotoror",
+    "panoply": "674e523f64788cc741418107",
     "category": "ring",
     "stats": {
       "health": 80,
@@ -1231,10 +2119,18 @@
       "pushbackDamage": 5
     }
   },
-  "Bracelet du Minotot": {
-    "name": "Bracelet du Minotot",
+  "674e524064788cc74141903e": {
+    "id": "674e524064788cc74141903e",
+    "idShort": "s2",
+    "name": {
+      "fr": "Bracelet du Minotot",
+      "en": "Minotot Bracelet",
+      "pt": "Bracelete de Minotot",
+      "de": "Minotot-Armband",
+      "es": "Pulsera del Minotot"
+    },
     "level": 149,
-    "panoply": "Panoplie du Minotot",
+    "panoply": "674e523f64788cc74141810a",
     "category": "ring",
     "stats": {
       "health": 130,
@@ -1250,10 +2146,18 @@
       "fireResist": 7
     }
   },
-  "Anneau du Dragon Cochon": {
-    "name": "Anneau du Dragon Cochon",
+  "674e524064788cc74141903f": {
+    "id": "674e524064788cc74141903f",
+    "idShort": "s3",
+    "name": {
+      "fr": "Anneau du Dragon Cochon",
+      "en": "Dragon Pig Ring",
+      "pt": "Anel do Dragão-Porco",
+      "de": "Ring des Schweinedrachens",
+      "es": "Anillo de Dragocerdo"
+    },
     "level": 108,
-    "panoply": "Panoplie du Dragon Cochon",
+    "panoply": "674e523f64788cc74141810b",
     "category": "ring",
     "stats": {
       "health": 80,
@@ -1265,10 +2169,18 @@
       "initiative": 150
     }
   },
-  "Anneau du Dragoeuf": {
-    "name": "Anneau du Dragoeuf",
+  "674e524064788cc741419051": {
+    "id": "674e524064788cc741419051",
+    "idShort": "s4",
+    "name": {
+      "fr": "Anneau du Dragoeuf",
+      "en": "Dreggon Ring",
+      "pt": "Anel do Dragovo",
+      "de": "Drachei-Ring",
+      "es": "Anillo de dragohuevo"
+    },
     "level": 127,
-    "panoply": "Panoplie du Dragoeuf Cuirassé",
+    "panoply": "674e523f64788cc741418221",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -1280,10 +2192,18 @@
       "apResist": 7
     }
   },
-  "Bracelet Magique de Shika": {
-    "name": "Bracelet Magique de Shika",
+  "674e524064788cc74141905b": {
+    "id": "674e524064788cc74141905b",
+    "idShort": "s5",
+    "name": {
+      "fr": "Bracelet Magique de Shika",
+      "en": "Shika's Magic Bracelet",
+      "pt": "Bracelete mágico de Shika",
+      "de": "Shikas magisches Armband",
+      "es": "Pulsera Mágica de Shika"
+    },
     "level": 73,
-    "panoply": "Panoplie de Shika Ingalsse",
+    "panoply": "674e523f64788cc741418106",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -1296,10 +2216,18 @@
       "airResistPer": 2
     }
   },
-  "Alliance du Mominotor": {
-    "name": "Alliance du Mominotor",
+  "674e524064788cc7414190b9": {
+    "id": "674e524064788cc7414190b9",
+    "idShort": "s6",
+    "name": {
+      "fr": "Alliance du Mominotor",
+      "en": "Mumminotor Wedding Ring",
+      "pt": "Aliança do Muminotor",
+      "de": "Trauring des Muminotorors",
+      "es": "Alianza de mominotauro"
+    },
     "level": 111,
-    "panoply": "Panoplie du Mominotor",
+    "panoply": "674e523f64788cc74141810c",
     "category": "ring",
     "stats": {
       "health": 80,
@@ -1314,10 +2242,18 @@
       "mpReduction": 3
     }
   },
-  "Gant du Rat Noir": {
-    "name": "Gant du Rat Noir",
+  "674e524064788cc7414190d1": {
+    "id": "674e524064788cc7414190d1",
+    "idShort": "s7",
+    "name": {
+      "fr": "Gant du Rat Noir",
+      "en": "Black Rat Glove",
+      "pt": "Luva do Rato Negro",
+      "de": "Schwarzer Rattenhandschuh",
+      "es": "Guante de la Rata Negra"
+    },
     "level": 98,
-    "panoply": "Panoplie du Rat Noir",
+    "panoply": "674e523f64788cc741418115",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -1331,10 +2267,18 @@
       "lock": 5
     }
   },
-  "Gant du Rat Blanc": {
-    "name": "Gant du Rat Blanc",
+  "674e524064788cc7414190d7": {
+    "id": "674e524064788cc7414190d7",
+    "idShort": "s8",
+    "name": {
+      "fr": "Gant du Rat Blanc",
+      "en": "White Rat Glove",
+      "pt": "Luva do Rato Branco",
+      "de": "Weißer Rattenhandschuh",
+      "es": "Guante de la Rata Blanca"
+    },
     "level": 101,
-    "panoply": "Panoplie du Rat Blanc",
+    "panoply": "674e523f64788cc741418114",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -1348,10 +2292,18 @@
       "dodge": 5
     }
   },
-  "Anneau Cérémonial du Seigneur des Rats": {
-    "name": "Anneau Cérémonial du Seigneur des Rats",
+  "674e524064788cc7414190dd": {
+    "id": "674e524064788cc7414190dd",
+    "idShort": "s9",
+    "name": {
+      "fr": "Anneau Cérémonial du Seigneur des Rats",
+      "en": "Lord of the Rats' Ceremonial Ring",
+      "pt": "Anel Cerimonial do Senhor dos Ratos",
+      "de": "Zeremonienring des Rattenmeisters",
+      "es": "Anillo ceremonial del Amo de las Ratas"
+    },
     "level": 131,
-    "panoply": "Panoplie Cérémoniale",
+    "panoply": "674e523f64788cc741418111",
     "category": "ring",
     "stats": {
       "health": 130,
@@ -1365,10 +2317,18 @@
       "fireResist": 7
     }
   },
-  "Anneau Ancestral": {
-    "name": "Anneau Ancestral",
+  "674e524064788cc7414190e3": {
+    "id": "674e524064788cc7414190e3",
+    "idShort": "sa",
+    "name": {
+      "fr": "Anneau Ancestral",
+      "en": "Ancestral Ring",
+      "pt": "Anel Ancestral",
+      "de": "Ur-Ring",
+      "es": "Anillo Ancestral"
+    },
     "level": 113,
-    "panoply": "Panoplie Ancestrale",
+    "panoply": "674e523f64788cc741418112",
     "category": "ring",
     "stats": {
       "health": 130,
@@ -1380,10 +2340,18 @@
       "waterResistPer": 6
     }
   },
-  "Anneau du Chêne Mou": {
-    "name": "Anneau du Chêne Mou",
+  "674e524064788cc7414190e7": {
+    "id": "674e524064788cc7414190e7",
+    "idShort": "sb",
+    "name": {
+      "fr": "Anneau du Chêne Mou",
+      "en": "Soft Oak Ring",
+      "pt": "Anel do Carvalho Mole",
+      "de": "Weich-Eich-Ring",
+      "es": "Anillo de Roble Blando"
+    },
     "level": 139,
-    "panoply": "Panoplie du Chêne Mou",
+    "panoply": "674e523f64788cc741418113",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -1398,104 +2366,216 @@
       "fireResistPer": 6
     }
   },
-  "Le Plussain": {
-    "name": "Le Plussain",
+  "674e524064788cc74141911b": {
+    "id": "674e524064788cc74141911b",
+    "idShort": "sc",
+    "name": {
+      "fr": "Le Plussain",
+      "en": "Pluswan",
+      "pt": "O Maizum",
+      "de": "Plusains",
+      "es": "El Masano"
+    },
     "level": 1,
-    "panoply": "Panoplie du Boune",
+    "panoply": "674e523f64788cc741418116",
     "category": "ring",
     "stats": {
       "strength": 6,
       "agility": 6
     }
   },
-  "Anneau Bhli": {
-    "name": "Anneau Bhli",
+  "674e524064788cc741419192": {
+    "id": "674e524064788cc741419192",
+    "idShort": "sd",
+    "name": {
+      "fr": "Anneau Bhli",
+      "en": "Honoh Ring",
+      "pt": "Anel de Honra",
+      "de": "Spannring",
+      "es": "Divin Anillo"
+    },
     "level": 150,
-    "panoply": "Panoplie du Prince des voleurs",
+    "panoply": "674e523f64788cc74141811f",
     "category": "ring",
     "stats": {}
   },
-  "Bague Houx": {
-    "name": "Bague Houx",
+  "674e524064788cc741419193": {
+    "id": "674e524064788cc741419193",
+    "idShort": "se",
+    "name": {
+      "fr": "Bague Houx",
+      "en": "Blaber Ring",
+      "pt": "Anel Blaber",
+      "de": "Würfelring",
+      "es": "Anillo del Craps"
+    },
     "level": 150,
-    "panoply": "Panoplie de Gouttière",
+    "panoply": "674e523f64788cc741418125",
     "category": "ring",
     "stats": {}
   },
-  "Bague Héra": {
-    "name": "Bague Héra",
+  "674e524064788cc741419194": {
+    "id": "674e524064788cc741419194",
+    "idShort": "sf",
+    "name": {
+      "fr": "Bague Héra",
+      "en": "Lion Ring",
+      "pt": "Anel Leão",
+      "de": "Blutrüns Tigerring",
+      "es": "Col Anillo"
+    },
     "level": 150,
-    "panoply": "Panoplie de l'Innombrable",
+    "panoply": "674e523f64788cc741418121",
     "category": "ring",
     "stats": {}
   },
-  "Bague Harre": {
-    "name": "Bague Harre",
+  "674e524064788cc741419195": {
+    "id": "674e524064788cc741419195",
+    "idShort": "sg",
+    "name": {
+      "fr": "Bague Harre",
+      "en": "Ring Bellious",
+      "pt": "Anel Bellious",
+      "de": "Wessen-Ring",
+      "es": "Pulserriña"
+    },
     "level": 150,
-    "panoply": "Panoplie Téméraire",
+    "panoply": "674e523f64788cc74141811e",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Tassion": {
-    "name": "Anneau Tassion",
+  "674e524064788cc741419196": {
+    "id": "674e524064788cc741419196",
+    "idShort": "sh",
+    "name": {
+      "fr": "Anneau Tassion",
+      "en": "Memo Ring",
+      "pt": "Memo Anel",
+      "de": "Erinner-Ring",
+      "es": "Anillo Vedor"
+    },
     "level": 150,
-    "panoply": "Panoplie Indestructible",
+    "panoply": "674e523f64788cc741418128",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Stalgik": {
-    "name": "Anneau Stalgik",
+  "674e524064788cc741419197": {
+    "id": "674e524064788cc741419197",
+    "idShort": "si",
+    "name": {
+      "fr": "Anneau Stalgik",
+      "en": "Rememb Ring",
+      "pt": "Anel Lemb",
+      "de": "Konservato-Ring",
+      "es": "Anillo Stálgico"
+    },
     "level": 150,
-    "panoply": "Panoplie Vénérable",
+    "panoply": "674e523f64788cc741418122",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Zamour": {
-    "name": "Anneau Zamour",
+  "674e524064788cc741419198": {
+    "id": "674e524064788cc741419198",
+    "idShort": "sj",
+    "name": {
+      "fr": "Anneau Zamour",
+      "en": "Chee Ring",
+      "pt": "Anel Chee",
+      "de": "Deko Dia-Ring",
+      "es": "Alianza Guero"
+    },
     "level": 150,
-    "panoply": "Panoplie Altruiste",
+    "panoply": "674e523f64788cc741418120",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Raille": {
-    "name": "Anneau Raille",
+  "674e524064788cc741419199": {
+    "id": "674e524064788cc741419199",
+    "idShort": "sk",
+    "name": {
+      "fr": "Anneau Raille",
+      "en": "Ear Ring",
+      "pt": "Anel Orelha",
+      "de": "Bierlein-öffne-Dich",
+      "es": "Anillo chistoso"
+    },
     "level": 150,
-    "panoply": "Panoplie Ethylique",
+    "panoply": "674e523f64788cc741418129",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Hell": {
-    "name": "Anneau Hell",
+  "674e524064788cc74141919a": {
+    "id": "674e524064788cc74141919a",
+    "idShort": "sl",
+    "name": {
+      "fr": "Anneau Hell",
+      "en": "Elkebi Ring",
+      "pt": "Anel Elkebi",
+      "de": "Hallow-Reeng",
+      "es": "Avernillo"
+    },
     "level": 150,
-    "panoply": "Panoplie Criminelle",
+    "panoply": "674e523f64788cc741418126",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Tilus": {
-    "name": "Anneau Tilus",
+  "674e524064788cc74141919b": {
+    "id": "674e524064788cc74141919b",
+    "idShort": "sm",
+    "name": {
+      "fr": "Anneau Tilus",
+      "en": "Subma Ring",
+      "pt": "Anel Subma",
+      "de": "Subma-Ring",
+      "es": "Puntu Alianza"
+    },
     "level": 150,
-    "panoply": "Panoplie Intemporelle",
+    "panoply": "674e523f64788cc741418123",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Pwal": {
-    "name": "Anneau Pwal",
+  "674e524064788cc74141919c": {
+    "id": "674e524064788cc74141919c",
+    "idShort": "sn",
+    "name": {
+      "fr": "Anneau Pwal",
+      "en": "Hai Ring",
+      "pt": "Anel Relva",
+      "de": "Haar-Harr-Ring",
+      "es": "Anillo Peludo"
+    },
     "level": 150,
-    "panoply": "Panoplie Sauvage",
+    "panoply": "674e523f64788cc741418127",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Pitale": {
-    "name": "Anneau Pitale",
+  "674e524064788cc74141919d": {
+    "id": "674e524064788cc74141919d",
+    "idShort": "so",
+    "name": {
+      "fr": "Anneau Pitale",
+      "en": "Ring Neinwonwon",
+      "pt": "Anel Neinwonwon",
+      "de": "SOS-Ring (So-oder-So)",
+      "es": "Hospit Anillo"
+    },
     "level": 150,
-    "panoply": "Panoplie Exsangue",
+    "panoply": "674e523f64788cc741418124",
     "category": "ring",
     "stats": {}
   },
-  "Sceau Souverain du Roissingue": {
-    "name": "Sceau Souverain du Roissingue",
+  "674e524064788cc741419219": {
+    "id": "674e524064788cc741419219",
+    "idShort": "sp",
+    "name": {
+      "fr": "Sceau Souverain du Roissingue",
+      "en": "Mopy King Sovereign Seal",
+      "pt": "Selo soberano do Rei Nojoso",
+      "de": "King Morphs Siegelring",
+      "es": "Soberano sello de rey stropajo"
+    },
     "level": 158,
-    "panoply": "Panoplie Souveraine",
+    "panoply": "674e523f64788cc74141811b",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -1510,8 +2590,16 @@
       "waterResist": 10
     }
   },
-  "Alliance de Corail": {
-    "name": "Alliance de Corail",
+  "674e524064788cc74141921a": {
+    "id": "674e524064788cc74141921a",
+    "idShort": "sq",
+    "name": {
+      "fr": "Alliance de Corail",
+      "en": "Coral Ring",
+      "pt": "Aliança de Coral",
+      "de": "Koralliger Ehering",
+      "es": "Alianza de Coral"
+    },
     "level": 60,
     "category": "ring",
     "stats": {
@@ -1523,10 +2611,18 @@
       "criticalDamage": 3
     }
   },
-  "Anneau Skargo": {
-    "name": "Anneau Skargo",
+  "674e524064788cc74141921f": {
+    "id": "674e524064788cc74141921f",
+    "idShort": "sr",
+    "name": {
+      "fr": "Anneau Skargo",
+      "en": "Snailmet Ring",
+      "pt": "Krakanel",
+      "de": "Schnelm-Ring",
+      "es": "Anillo kasrakol"
+    },
     "level": 115,
-    "panoply": "Panoplie Baveuse",
+    "panoply": "674e523f64788cc74141812d",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -1538,8 +2634,16 @@
       "waterResist": 7
     }
   },
-  "Palmano": {
-    "name": "Palmano",
+  "674e524064788cc741419226": {
+    "id": "674e524064788cc741419226",
+    "idShort": "ss",
+    "name": {
+      "fr": "Palmano",
+      "en": "Ring Dikuloos",
+      "pt": "Anel Dikuloos",
+      "de": "Eindrindling",
+      "es": "Palmanillo"
+    },
     "level": 46,
     "category": "ring",
     "stats": {
@@ -1548,10 +2652,18 @@
       "initiative": 150
     }
   },
-  "Kralano": {
-    "name": "Kralano",
+  "674e524064788cc74141922a": {
+    "id": "674e524064788cc74141922a",
+    "idShort": "st",
+    "name": {
+      "fr": "Kralano",
+      "en": "Kringlove",
+      "pt": "Kralanel",
+      "de": "Krakamoring",
+      "es": "Kralanillo"
+    },
     "level": 199,
-    "panoply": "Panoplie Ventouse",
+    "panoply": "674e523f64788cc74141812e",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -1567,10 +2679,18 @@
       "neutralResist": 10
     }
   },
-  "Anneau Poli": {
-    "name": "Anneau Poli",
+  "674e524064788cc74141922c": {
+    "id": "674e524064788cc74141922c",
+    "idShort": "su",
+    "name": {
+      "fr": "Anneau Poli",
+      "en": "Polished Ring",
+      "pt": "Anel Polido",
+      "de": "Ring des geschliffenen Krachlklotzes",
+      "es": "Anillo Pulío"
+    },
     "level": 66,
-    "panoply": "Panoplie des Herboricoles",
+    "panoply": "6807d9a601b972ee0ea59cee",
     "category": "ring",
     "stats": {
       "health": 60,
@@ -1589,8 +2709,16 @@
       "airResistPer": -5
     }
   },
-  "Anneau Solo": {
-    "name": "Anneau Solo",
+  "674e524064788cc74141922e": {
+    "id": "674e524064788cc74141922e",
+    "idShort": "sv",
+    "name": {
+      "fr": "Anneau Solo",
+      "en": "Solo's Ring",
+      "pt": "Anel Solo",
+      "de": "Organa-Ring",
+      "es": "Hanillo Solo"
+    },
     "level": 31,
     "category": "ring",
     "stats": {
@@ -1599,10 +2727,18 @@
       "criticalChance": 3
     }
   },
-  "Annolamour": {
-    "name": "Annolamour",
+  "674e524064788cc74141928b": {
+    "id": "674e524064788cc74141928b",
+    "idShort": "sw",
+    "name": {
+      "fr": "Annolamour",
+      "en": "Head Band",
+      "pt": "Faixa Principal",
+      "de": "Traum A-Ring",
+      "es": "Anilamar"
+    },
     "level": 189,
-    "panoply": "Panoplie Ventouse",
+    "panoply": "674e523f64788cc74141812e",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -1617,50 +2753,90 @@
       "waterResist": 10
     }
   },
-  "Blopanneau Griotte": {
-    "name": "Blopanneau Griotte",
+  "674e524064788cc741419300": {
+    "id": "674e524064788cc741419300",
+    "idShort": "sx",
+    "name": {
+      "fr": "Blopanneau Griotte",
+      "en": "Morello Cherry Blop Ring",
+      "pt": "Blopanel Cereja",
+      "de": "Kirsch Blob-Ring",
+      "es": "Blopanillo guinda"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Griotte",
+    "panoply": "674e523f64788cc74141812f",
     "category": "ring",
     "stats": {
       "intelligence": 20,
       "range": 1
     }
   },
-  "Blopanneau Reinette": {
-    "name": "Blopanneau Reinette",
+  "674e524064788cc741419301": {
+    "id": "674e524064788cc741419301",
+    "idShort": "sy",
+    "name": {
+      "fr": "Blopanneau Reinette",
+      "en": "Pippin Blop Ring",
+      "pt": "Blopanel Maçã",
+      "de": "Apfel Blob-Ring",
+      "es": "Blopanillo reineta"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Reinette",
+    "panoply": "674e523f64788cc741418130",
     "category": "ring",
     "stats": {
       "strength": 20,
       "range": 1
     }
   },
-  "Blopanneau Coco": {
-    "name": "Blopanneau Coco",
+  "674e524064788cc741419302": {
+    "id": "674e524064788cc741419302",
+    "idShort": "sz",
+    "name": {
+      "fr": "Blopanneau Coco",
+      "en": "Coco Blop Ring",
+      "pt": "Blopanel Coco",
+      "de": "Kokos Blob-Ring",
+      "es": "Blopanillo coco"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Coco",
+    "panoply": "674e523f64788cc741418131",
     "category": "ring",
     "stats": {
       "agility": 20,
       "range": 1
     }
   },
-  "Blopanneau Indigo": {
-    "name": "Blopanneau Indigo",
+  "674e524064788cc741419303": {
+    "id": "674e524064788cc741419303",
+    "idShort": "sA",
+    "name": {
+      "fr": "Blopanneau Indigo",
+      "en": "Indigo Blop Ring",
+      "pt": "Blopanel Índigo",
+      "de": "Indigo Blob-Ring",
+      "es": "Blopanillo índigo"
+    },
     "level": 50,
-    "panoply": "Panoplie Blop Indigo",
+    "panoply": "674e523f64788cc741418132",
     "category": "ring",
     "stats": {
       "chance": 20,
       "range": 1
     }
   },
-  "Blopanneau Griotte Royal": {
-    "name": "Blopanneau Griotte Royal",
+  "674e524064788cc741419304": {
+    "id": "674e524064788cc741419304",
+    "idShort": "sB",
+    "name": {
+      "fr": "Blopanneau Griotte Royal",
+      "en": "Royal Morello Cherry Blop Ring",
+      "pt": "Blopanel Cereja Real",
+      "de": "Königlicher Kirsch Blob-Ring",
+      "es": "Blopanillo Guinda Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Griotte Royale",
+    "panoply": "674e523f64788cc741418133",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -1671,10 +2847,18 @@
       "initiative": 200
     }
   },
-  "Blopanneau Reinette Royal": {
-    "name": "Blopanneau Reinette Royal",
+  "674e524064788cc741419305": {
+    "id": "674e524064788cc741419305",
+    "idShort": "sC",
+    "name": {
+      "fr": "Blopanneau Reinette Royal",
+      "en": "Royal Pippin Blop Ring",
+      "pt": "Blopanel Maçã Real",
+      "de": "Königlicher Apfel Blob-Ring",
+      "es": "Blopanillo Reineta Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Reinette Royale",
+    "panoply": "674e523f64788cc741418134",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -1685,10 +2869,18 @@
       "initiative": 200
     }
   },
-  "Blopanneau Coco Royal": {
-    "name": "Blopanneau Coco Royal",
+  "674e524064788cc741419306": {
+    "id": "674e524064788cc741419306",
+    "idShort": "sD",
+    "name": {
+      "fr": "Blopanneau Coco Royal",
+      "en": "Royal Coco Blop Ring",
+      "pt": "Blopanel Coco Real",
+      "de": "Königlicher Kokos Blob-Ring",
+      "es": "Blopanillo Coco Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Coco Royale",
+    "panoply": "674e523f64788cc741418135",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -1699,10 +2891,18 @@
       "initiative": 200
     }
   },
-  "Blopanneau Indigo Royal": {
-    "name": "Blopanneau Indigo Royal",
+  "674e524064788cc741419307": {
+    "id": "674e524064788cc741419307",
+    "idShort": "sE",
+    "name": {
+      "fr": "Blopanneau Indigo Royal",
+      "en": "Royal Indigo Blop Ring",
+      "pt": "Blopanel Índigo Real",
+      "de": "Königlicher Indigo Blob-Ring",
+      "es": "Blopanillo Índigo Real"
+    },
     "level": 80,
-    "panoply": "Panoplie Blop Indigo Royale",
+    "panoply": "674e523f64788cc741418136",
     "category": "ring",
     "stats": {
       "health": 35,
@@ -1713,10 +2913,18 @@
       "initiative": 200
     }
   },
-  "Anneau Colerette": {
-    "name": "Anneau Colerette",
+  "674e524064788cc741419309": {
+    "id": "674e524064788cc741419309",
+    "idShort": "sF",
+    "name": {
+      "fr": "Anneau Colerette",
+      "en": "Colette's Ring",
+      "pt": "Anel Colette",
+      "de": "Mariettes Enthauptring",
+      "es": "Anillo Colette"
+    },
     "level": 188,
-    "panoply": "Panoplignon",
+    "panoply": "674e523f64788cc74141813c",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -1732,10 +2940,18 @@
       "trapDamage": 20
     }
   },
-  "Anneau Chevelu": {
-    "name": "Anneau Chevelu",
+  "674e524064788cc74141930a": {
+    "id": "674e524064788cc74141930a",
+    "idShort": "sG",
+    "name": {
+      "fr": "Anneau Chevelu",
+      "en": "Tash Ring",
+      "pt": "Anel Cabeludo",
+      "de": "Behaaring",
+      "es": "Ánulo"
+    },
     "level": 180,
-    "panoply": "Panoplycélium",
+    "panoply": "674e523f64788cc74141813e",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -1750,10 +2966,18 @@
       "waterResist": 10
     }
   },
-  "Alliance Boletée": {
-    "name": "Alliance Boletée",
+  "674e524064788cc74141930b": {
+    "id": "674e524064788cc74141930b",
+    "idShort": "sH",
+    "name": {
+      "fr": "Alliance Boletée",
+      "en": "Fungal Ring",
+      "pt": "Aliança Boletada",
+      "de": "Fungiering",
+      "es": "Alianza Boletusa"
+    },
     "level": 186,
-    "panoply": "Panoplie Tue-Mouche",
+    "panoply": "674e523f64788cc741418138",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -1768,10 +2992,18 @@
       "waterResist": 10
     }
   },
-  "Blopanneau Multicolore Royal": {
-    "name": "Blopanneau Multicolore Royal",
+  "674e524064788cc74141931a": {
+    "id": "674e524064788cc74141931a",
+    "idShort": "sI",
+    "name": {
+      "fr": "Blopanneau Multicolore Royal",
+      "en": "Royal Rainbow Blop Ring",
+      "pt": "Blopanel Arco-Íris Real",
+      "de": "Königlicher Multiblobring",
+      "es": "Blopanillo Multicolor Real"
+    },
     "level": 90,
-    "panoply": "Panoplie Blop Multicolore Royale",
+    "panoply": "674e523f64788cc741418137",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -1782,10 +3014,18 @@
       "airResistPer": 3
     }
   },
-  "Bracelet Ventré": {
-    "name": "Bracelet Ventré",
+  "674e524064788cc741419337": {
+    "id": "674e524064788cc741419337",
+    "idShort": "sJ",
+    "name": {
+      "fr": "Bracelet Ventré",
+      "en": "Pot-Bellied Bracelet",
+      "pt": "Bracelete Espesso",
+      "de": "Sündenpfahlring",
+      "es": "Brazalete Destripador"
+    },
     "level": 179,
-    "panoply": "Panoplie du Bworker Berserker",
+    "panoply": "674e523f64788cc741418139",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -1800,10 +3040,18 @@
       "fireResist": 10
     }
   },
-  "Anneau Bliteré": {
-    "name": "Anneau Bliteré",
+  "674e524064788cc741419338": {
+    "id": "674e524064788cc741419338",
+    "idShort": "sK",
+    "name": {
+      "fr": "Anneau Bliteré",
+      "en": "Nose Ring",
+      "pt": "Anel de Nariz",
+      "de": "Akkumulierring",
+      "es": "Anillo Bliterado"
+    },
     "level": 174,
-    "panoply": "Panoplie du Bworker Gladiateur",
+    "panoply": "674e523f64788cc74141813a",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -1818,10 +3066,18 @@
       "earthResist": 10
     }
   },
-  "Anneau Paupayahn": {
-    "name": "Anneau Paupayahn",
+  "674e524064788cc74141934c": {
+    "id": "674e524064788cc74141934c",
+    "idShort": "sL",
+    "name": {
+      "fr": "Anneau Paupayahn",
+      "en": "Beanie Ring",
+      "pt": "Anel Gorro",
+      "de": "Robusta-Ring",
+      "es": "Anillo Saymassa"
+    },
     "level": 45,
-    "panoply": "Panoplie Paupayahn",
+    "panoply": "674e523f64788cc7414183ba",
     "category": "ring",
     "stats": {
       "health": 10,
@@ -1830,18 +3086,34 @@
       "airResistPer": 5
     }
   },
-  "Jambanneau": {
-    "name": "Jambanneau",
+  "674e524064788cc7414193d4": {
+    "id": "674e524064788cc7414193d4",
+    "idShort": "sM",
+    "name": {
+      "fr": "Jambanneau",
+      "en": "Lousy Ring",
+      "pt": "Lardanel",
+      "de": "Schink'n'Ring",
+      "es": "Jamonillo"
+    },
     "level": 40,
-    "panoply": "Panoplie de Peggy la Porkass",
+    "panoply": "674e523f64788cc7414183ad",
     "category": "ring",
     "stats": {
       "power": 10,
       "damage": 5
     }
   },
-  "Anneau Zest": {
-    "name": "Anneau Zest",
+  "674e524064788cc7414193dc": {
+    "id": "674e524064788cc7414193dc",
+    "idShort": "sN",
+    "name": {
+      "fr": "Anneau Zest",
+      "en": "Zest Ring",
+      "pt": "Raspanel",
+      "de": "Zitring",
+      "es": "Anillo Ralladuro"
+    },
     "level": 20,
     "category": "ring",
     "stats": {
@@ -1849,10 +3121,18 @@
       "chance": 10
     }
   },
-  "Bague Cristalline": {
-    "name": "Bague Cristalline",
+  "674e524064788cc7414193e0": {
+    "id": "674e524064788cc7414193e0",
+    "idShort": "sO",
+    "name": {
+      "fr": "Bague Cristalline",
+      "en": "Crystalline Ring",
+      "pt": "Anel Cristalino",
+      "de": "Kristallring",
+      "es": "Anillo cristalino"
+    },
     "level": 37,
-    "panoply": "Panoplie Cristalline",
+    "panoply": "674e523f64788cc7414183c4",
     "category": "ring",
     "stats": {
       "chance": 15,
@@ -1860,10 +3140,18 @@
       "apResist": 2
     }
   },
-  "Pompanneau": {
-    "name": "Pompanneau",
+  "674e524064788cc7414193e3": {
+    "id": "674e524064788cc7414193e3",
+    "idShort": "sP",
+    "name": {
+      "fr": "Pompanneau",
+      "en": "Bobblering",
+      "pt": "Bobbleanel",
+      "de": "Pom-Pompöser Ring des Pösen",
+      "es": "Pompanillo"
+    },
     "level": 30,
-    "panoply": "Pompanoplie",
+    "panoply": "674e523f64788cc74141839b",
     "category": "ring",
     "stats": {
       "intelligence": 15,
@@ -1871,10 +3159,18 @@
       "fireDamage": 2
     }
   },
-  "Grosse Bagouze du Parrain": {
-    "name": "Grosse Bagouze du Parrain",
+  "674e524064788cc74141942e": {
+    "id": "674e524064788cc74141942e",
+    "idShort": "sQ",
+    "name": {
+      "fr": "Grosse Bagouze du Parrain",
+      "en": "The Godfather's Ring",
+      "pt": "Anel do Padrinho",
+      "de": "Protzring des Paten",
+      "es": "Anillote gordo del padrino"
+    },
     "level": 40,
-    "panoply": "Panoplie du Parrain",
+    "panoply": "674e523f64788cc7414183a8",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -1883,10 +3179,18 @@
       "damage": 2
     }
   },
-  "Anneau de Slait": {
-    "name": "Anneau de Slait",
+  "674e524064788cc741419485": {
+    "id": "674e524064788cc741419485",
+    "idShort": "sR",
+    "name": {
+      "fr": "Anneau de Slait",
+      "en": "Slait Ring",
+      "pt": "Anel de Slait",
+      "de": "Slait-Ring",
+      "es": "Anillo Sliat"
+    },
     "level": 43,
-    "panoply": "Panoplie de Slait",
+    "panoply": "674e523f64788cc7414183b2",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -1896,10 +3200,18 @@
       "mpResist": 4
     }
   },
-  "Bracelet du Tétounik": {
-    "name": "Bracelet du Tétounik",
+  "674e524064788cc741419507": {
+    "id": "674e524064788cc741419507",
+    "idShort": "sT",
+    "name": {
+      "fr": "Bracelet du Tétounik",
+      "en": "Slamdance Bracelet",
+      "pt": "Bracelete Confusão",
+      "de": "Teckton-Ihks Armband",
+      "es": "Brazalete taktikonik"
+    },
     "level": 45,
-    "panoply": "Panoplie du Tétounik",
+    "panoply": "674e523f64788cc7414183bf",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -1907,10 +3219,18 @@
       "heal": 3
     }
   },
-  "Fulgu au poing": {
-    "name": "Fulgu au poing",
+  "674e524064788cc74141950b": {
+    "id": "674e524064788cc74141950b",
+    "idShort": "sU",
+    "name": {
+      "fr": "Fulgu au poing",
+      "en": "Bedazzling Fist",
+      "pt": "Punho de Gren Dizer",
+      "de": "Faustesblitz",
+      "es": "Puño Rotante"
+    },
     "level": 44,
-    "panoply": "Golpanoplie",
+    "panoply": "674e523f64788cc7414183b9",
     "category": "ring",
     "stats": {
       "chance": 25,
@@ -1919,8 +3239,16 @@
       "dodge": 3
     }
   },
-  "Anneau de la mort": {
-    "name": "Anneau de la mort",
+  "674e524064788cc74141951c": {
+    "id": "674e524064788cc74141951c",
+    "idShort": "sV",
+    "name": {
+      "fr": "Anneau de la mort",
+      "en": "Ring of Death",
+      "pt": "Anel da Morte",
+      "de": "Todesring",
+      "es": "Anillo de la Muerte"
+    },
     "level": 36,
     "category": "ring",
     "stats": {
@@ -1929,10 +3257,18 @@
       "damage": 2
     }
   },
-  "Anneau du Vampyre": {
-    "name": "Anneau du Vampyre",
+  "674e524064788cc74141957d": {
+    "id": "674e524064788cc74141957d",
+    "idShort": "sW",
+    "name": {
+      "fr": "Anneau du Vampyre",
+      "en": "Vampyre Ring",
+      "pt": "Anel do Vampyro",
+      "de": "Vampyring",
+      "es": "Anillo de Vampyro"
+    },
     "level": 42,
-    "panoply": "Panoplie du Vampyre maudit",
+    "panoply": "674e523f64788cc74141821a",
     "category": "ring",
     "stats": {
       "health": 50,
@@ -1940,10 +3276,18 @@
       "pods": 200
     }
   },
-  "Mitaines de Chisp": {
-    "name": "Mitaines de Chisp",
+  "674e524064788cc7414195da": {
+    "id": "674e524064788cc7414195da",
+    "idShort": "sX",
+    "name": {
+      "fr": "Mitaines de Chisp",
+      "en": "Chisp Fingerless Gloves",
+      "pt": "Luvas sem Dedos de Chisp",
+      "de": "Chisp-Fäustlinge",
+      "es": "Mitón de Chisp"
+    },
     "level": 44,
-    "panoply": "Chispanoplie",
+    "panoply": "674e523f64788cc7414183b8",
     "category": "ring",
     "stats": {
       "agility": 30,
@@ -1951,8 +3295,16 @@
       "dodge": 2
     }
   },
-  "Anneau solaire": {
-    "name": "Anneau solaire",
+  "674e524064788cc7414195e4": {
+    "id": "674e524064788cc7414195e4",
+    "idShort": "sY",
+    "name": {
+      "fr": "Anneau solaire",
+      "en": "Solaris Ring",
+      "pt": "Anel Solar",
+      "de": "Sonnenring",
+      "es": "Anillo Solar"
+    },
     "level": 41,
     "category": "ring",
     "stats": {
@@ -1961,10 +3313,18 @@
       "range": 1
     }
   },
-  "Oxano": {
-    "name": "Oxano",
+  "674e524064788cc7414195ec": {
+    "id": "674e524064788cc7414195ec",
+    "idShort": "sZ",
+    "name": {
+      "fr": "Oxano",
+      "en": "Oxo Ring",
+      "pt": "Oxanel",
+      "de": "Oxano",
+      "es": "Oxanillo"
+    },
     "level": 37,
-    "panoply": "Panoplie de la Denrée",
+    "panoply": "674e523f64788cc7414183a6",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -1973,10 +3333,18 @@
       "heal": 2
     }
   },
-  "Gantelet du Real Boitar": {
-    "name": "Gantelet du Real Boitar",
+  "674e524064788cc741419699": {
+    "id": "674e524064788cc741419699",
+    "idShort": "t0",
+    "name": {
+      "fr": "Gantelet du Real Boitar",
+      "en": "Real Gobbly Glove",
+      "pt": "Luvas do Paparcelona",
+      "de": "FC Humpelstilz-Lederhandschuh",
+      "es": "Guante del Atleticojos de Bonta"
+    },
     "level": 43,
-    "panoply": "Panoplie du Real Boitar",
+    "panoply": "674e523f64788cc7414183b4",
     "category": "ring",
     "stats": {
       "strength": 15,
@@ -1986,10 +3354,18 @@
       "airResistPer": -2
     }
   },
-  "Gantelet des Bouftons Rouges": {
-    "name": "Gantelet des Bouftons Rouges",
+  "674e524064788cc74141969a": {
+    "id": "674e524064788cc74141969a",
+    "idShort": "t1",
+    "name": {
+      "fr": "Gantelet des Bouftons Rouges",
+      "en": "Lamechester United Glove",
+      "pt": "Luvas do Papachester United",
+      "de": "Arsenal Roter Fresssack-Lederhandschuh",
+      "es": "Guante del Sporting Jalatín"
+    },
     "level": 43,
-    "panoply": "Panoplie des Bouftons Rouges",
+    "panoply": "674e523f64788cc7414183b5",
     "category": "ring",
     "stats": {
       "intelligence": 15,
@@ -1999,10 +3375,18 @@
       "waterResistPer": -2
     }
   },
-  "Anneau de Kocksis": {
-    "name": "Anneau de Kocksis",
+  "674e524064788cc7414196af": {
+    "id": "674e524064788cc7414196af",
+    "idShort": "t2",
+    "name": {
+      "fr": "Anneau de Kocksis",
+      "en": "Koksiks's Ring",
+      "pt": "Anel de Koksis",
+      "de": "Racknacknock-Ring",
+      "es": "Anillo de Koxys"
+    },
     "level": 41,
-    "panoply": "Panoplie de Kocksis",
+    "panoply": "674e523f64788cc741418140",
     "category": "ring",
     "stats": {
       "strength": 15,
@@ -2010,10 +3394,18 @@
       "summon": 1
     }
   },
-  "Anneau de Gobeuf": {
-    "name": "Anneau de Gobeuf",
+  "674e524064788cc7414196b5": {
+    "id": "674e524064788cc7414196b5",
+    "idShort": "t3",
+    "name": {
+      "fr": "Anneau de Gobeuf",
+      "en": "Goboff's Ring",
+      "pt": "Anel de Gobovo",
+      "de": "Gobschling-Ring",
+      "es": "Anillo de Gobuevo"
+    },
     "level": 44,
-    "panoply": "Panoplie de Gobeuf",
+    "panoply": "674e523f64788cc741418141",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -2022,10 +3414,18 @@
       "pushbackDamage": 6
     }
   },
-  "Anneau de Laikteur": {
-    "name": "Anneau de Laikteur",
+  "674e524064788cc7414196b8": {
+    "id": "674e524064788cc7414196b8",
+    "idShort": "t4",
+    "name": {
+      "fr": "Anneau de Laikteur",
+      "en": "Lektor's Ring",
+      "pt": "Anel de Lektor",
+      "de": "Terlecs Ring",
+      "es": "Anillo de Retkel"
+    },
     "level": 42,
-    "panoply": "Panoplie de Laikteur",
+    "panoply": "674e523f64788cc741418142",
     "category": "ring",
     "stats": {
       "chance": 25,
@@ -2033,10 +3433,18 @@
       "criticalChance": 3
     }
   },
-  "Anneau de Grizou": {
-    "name": "Anneau de Grizou",
+  "674e524064788cc7414196bf": {
+    "id": "674e524064788cc7414196bf",
+    "idShort": "t5",
+    "name": {
+      "fr": "Anneau de Grizou",
+      "en": "Fyred Ampe's Ring",
+      "pt": "Anel de Grisu",
+      "de": "Wetterschlag-Ring",
+      "es": "Anillo de Grizú"
+    },
     "level": 43,
-    "panoply": "Panoplie de Grizou",
+    "panoply": "674e523f64788cc741418144",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -2045,10 +3453,18 @@
       "initiative": 100
     }
   },
-  "Anneau du Roks Or": {
-    "name": "Anneau du Roks Or",
+  "674e524064788cc7414196e1": {
+    "id": "674e524064788cc7414196e1",
+    "idShort": "t6",
+    "name": {
+      "fr": "Anneau du Roks Or",
+      "en": "Haks Or Ring",
+      "pt": "Anel do Roksor",
+      "de": "Golding",
+      "es": "Anillo Goldpex"
+    },
     "level": 51,
-    "panoply": "Panoplie du Roks Or",
+    "panoply": "674e523f64788cc741418146",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -2056,20 +3472,36 @@
       "heal": 2
     }
   },
-  "Anneau de l'intrépide": {
-    "name": "Anneau de l'intrépide",
+  "674e524064788cc7414196fc": {
+    "id": "674e524064788cc7414196fc",
+    "idShort": "t7",
+    "name": {
+      "fr": "Anneau de l'intrépide",
+      "en": "Intrepid Ring",
+      "pt": "Anel do Intrépido",
+      "de": "Ring des Unerschrockenen",
+      "es": "Anillo del intrépido"
+    },
     "level": 1,
-    "panoply": "Panoplie de l'intrépide",
+    "panoply": "674e523f64788cc741418145",
     "category": "ring",
     "stats": {
       "health": 1,
       "initiative": 1
     }
   },
-  "Anneau de Klüme": {
-    "name": "Anneau de Klüme",
+  "674e524064788cc741419730": {
+    "id": "674e524064788cc741419730",
+    "idShort": "t8",
+    "name": {
+      "fr": "Anneau de Klüme",
+      "en": "Klume's Ring",
+      "pt": "Anel de Klume",
+      "de": "A.M.Boss Ring",
+      "es": "Anillo de Kunye"
+    },
     "level": 54,
-    "panoply": "Panoplie de Klüme",
+    "panoply": "674e523f64788cc741418148",
     "category": "ring",
     "stats": {
       "strength": 20,
@@ -2079,10 +3511,18 @@
       "initiative": 100
     }
   },
-  "Anneau de Kloug": {
-    "name": "Anneau de Kloug",
+  "674e524064788cc741419731": {
+    "id": "674e524064788cc741419731",
+    "idShort": "t9",
+    "name": {
+      "fr": "Anneau de Kloug",
+      "en": "Kloug's Ring",
+      "pt": "Anel de Napizram",
+      "de": "Äkebäker-Ring",
+      "es": "Anillo de Napazam"
+    },
     "level": 51,
-    "panoply": "Panoplie de Kloug",
+    "panoply": "674e523f64788cc741418149",
     "category": "ring",
     "stats": {
       "chance": 20,
@@ -2093,10 +3533,18 @@
       "mpReduction": 2
     }
   },
-  "Anneau du Corbeau Noir": {
-    "name": "Anneau du Corbeau Noir",
+  "674e524064788cc741419781": {
+    "id": "674e524064788cc741419781",
+    "idShort": "ta",
+    "name": {
+      "fr": "Anneau du Corbeau Noir",
+      "en": "The Black Crow's Ring",
+      "pt": "Anel do Corvo Negro",
+      "de": "Ring des Schwarzen Raben",
+      "es": "Anillo del Cuervo Negro"
+    },
     "level": 33,
-    "panoply": "Panoplie du Corbeau Noir",
+    "panoply": "674e523f64788cc7414183a3",
     "category": "ring",
     "stats": {
       "agility": 20,
@@ -2104,10 +3552,18 @@
       "airDamage": 3
     }
   },
-  "Anneau de Phong Huss": {
-    "name": "Anneau de Phong Huss",
+  "674e524064788cc741419796": {
+    "id": "674e524064788cc741419796",
+    "idShort": "tb",
+    "name": {
+      "fr": "Anneau de Phong Huss",
+      "en": "Phong Huss's Ring",
+      "pt": "Anel de Phong Huss",
+      "de": "Phung Huss - Ring",
+      "es": "Phong Huss Anillo"
+    },
     "level": 33,
-    "panoply": "Panoplie de Phong Huss",
+    "panoply": "674e523f64788cc7414183dd",
     "category": "ring",
     "stats": {
       "strength": 20,
@@ -2115,10 +3571,18 @@
       "earthDamage": 3
     }
   },
-  "Anneau d'Hectaupe": {
-    "name": "Anneau d'Hectaupe",
+  "674e524064788cc74141979b": {
+    "id": "674e524064788cc74141979b",
+    "idShort": "tc",
+    "name": {
+      "fr": "Anneau d'Hectaupe",
+      "en": "Ektope's Ring",
+      "pt": "Anel de Ektope",
+      "de": "Ma Äktoplas Ring",
+      "es": "Anillo de Hectopp"
+    },
     "level": 32,
-    "panoply": "Panoplie d'Hectaupe",
+    "panoply": "674e523f64788cc74141814b",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -2126,10 +3590,18 @@
       "summon": 1
     }
   },
-  "Anneau Pomdeupin": {
-    "name": "Anneau Pomdeupin",
+  "674e524064788cc7414197cd": {
+    "id": "674e524064788cc7414197cd",
+    "idShort": "td",
+    "name": {
+      "fr": "Anneau Pomdeupin",
+      "en": "Pynekone Ring",
+      "pt": "Anel Pinha",
+      "de": "Zapfentann Ring",
+      "es": "Anillo Estróbilo"
+    },
     "level": 43,
-    "panoply": "Panoplie Pomdeupin",
+    "panoply": "674e523f64788cc7414183b7",
     "category": "ring",
     "stats": {
       "strength": 20,
@@ -2137,10 +3609,18 @@
       "earthDamage": 5
     }
   },
-  "Bague de Boufbowl": {
-    "name": "Bague de Boufbowl",
+  "674e524064788cc7414197e5": {
+    "id": "674e524064788cc7414197e5",
+    "idShort": "te",
+    "name": {
+      "fr": "Bague de Boufbowl",
+      "en": "Gobbowl Ring",
+      "pt": "Anel de Papabol",
+      "de": "Fressball Ring",
+      "es": "Anillo de jálabol"
+    },
     "level": 31,
-    "panoply": "Panoplie de Boufbowl",
+    "panoply": "674e523f64788cc74141839a",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -2149,10 +3629,18 @@
       "dodge": 3
     }
   },
-  "Anneau de Gadjète": {
-    "name": "Anneau de Gadjète",
+  "674e524064788cc7414197e9": {
+    "id": "674e524064788cc7414197e9",
+    "idShort": "tf",
+    "name": {
+      "fr": "Anneau de Gadjète",
+      "en": "Gadjet's Ring",
+      "pt": "Anel de Gadjet",
+      "de": "Gedschets Ring",
+      "es": "Anillo de Gadjèt"
+    },
     "level": 49,
-    "panoply": "Panoplie de Gadjète",
+    "panoply": "674e523f64788cc7414183c6",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -2161,10 +3649,18 @@
       "pods": 150
     }
   },
-  "Anneau d'Ougicle": {
-    "name": "Anneau d'Ougicle",
+  "674e524064788cc7414198e2": {
+    "id": "674e524064788cc7414198e2",
+    "idShort": "tg",
+    "name": {
+      "fr": "Anneau d'Ougicle",
+      "en": "Ougicle's Ring",
+      "pt": "Anel de Ugiclo",
+      "de": "Ouginassi-Ring",
+      "es": "Anillo de Ugicle"
+    },
     "level": 56,
-    "panoply": "Panoplie d'Ougicle",
+    "panoply": "674e523f64788cc741418157",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -2175,10 +3671,18 @@
       "lock": 3
     }
   },
-  "Anneau de Karotz": {
-    "name": "Anneau de Karotz",
+  "674e524064788cc7414198e6": {
+    "id": "674e524064788cc7414198e6",
+    "idShort": "th",
+    "name": {
+      "fr": "Anneau de Karotz",
+      "en": "Kawotz's Ring",
+      "pt": "Anel de Kerotz",
+      "de": "Karottigz-Ring",
+      "es": "Anillo de Blackarotz"
+    },
     "level": 48,
-    "panoply": "Panoplie de Karotz",
+    "panoply": "674e523f64788cc741418153",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -2188,10 +3692,18 @@
       "dodge": 3
     }
   },
-  "Anneau de Grouillot": {
-    "name": "Anneau de Grouillot",
+  "674e524064788cc7414198ea": {
+    "id": "674e524064788cc7414198ea",
+    "idShort": "ti",
+    "name": {
+      "fr": "Anneau de Grouillot",
+      "en": "Grouillot's Ring",
+      "pt": "Anel de Grullo",
+      "de": "Griesgrob-Amulett",
+      "es": "Anillo de Grolot"
+    },
     "level": 46,
-    "panoply": "Panoplie de Grouillot",
+    "panoply": "674e523f64788cc741418152",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -2200,10 +3712,18 @@
       "mpResist": 5
     }
   },
-  "Anneau de Piggy Paupe": {
-    "name": "Anneau de Piggy Paupe",
+  "674e524064788cc7414198f2": {
+    "id": "674e524064788cc7414198f2",
+    "idShort": "tj",
+    "name": {
+      "fr": "Anneau de Piggy Paupe",
+      "en": "Piggy Paupe's Ring",
+      "pt": "Anel de Piggy Pop",
+      "de": "Piggy Pop - Ring",
+      "es": "Anillo de Piggy Pope"
+    },
     "level": 59,
-    "panoply": "Panoplie de Piggy Paupe",
+    "panoply": "674e523f64788cc741418156",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -2213,10 +3733,18 @@
       "lock": 3
     }
   },
-  "Anoppinz": {
-    "name": "Anoppinz",
+  "674e524064788cc741419908": {
+    "id": "674e524064788cc741419908",
+    "idShort": "tk",
+    "name": {
+      "fr": "Anoppinz",
+      "en": "Poppinz Ring",
+      "pt": "Anel Poppinz",
+      "de": "Bobbrings",
+      "es": "Anillo pinz"
+    },
     "level": 58,
-    "panoply": "Panoppinz",
+    "panoply": "674e523f64788cc7414183d2",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -2226,10 +3754,18 @@
       "initiative": 150
     }
   },
-  "Anauffe-souris": {
-    "name": "Anauffe-souris",
+  "674e524064788cc741419917": {
+    "id": "674e524064788cc741419917",
+    "idShort": "tl",
+    "name": {
+      "fr": "Anauffe-souris",
+      "en": "Borbaring",
+      "pt": "Borbanel",
+      "de": "Fleddermaus-Ring",
+      "es": "Murcieganillo"
+    },
     "level": 59,
-    "panoply": "Panoplie Chauffe-souris",
+    "panoply": "674e523f64788cc7414183d3",
     "category": "ring",
     "stats": {
       "chance": 25,
@@ -2238,10 +3774,18 @@
       "damage": 4
     }
   },
-  "Anokio": {
-    "name": "Anokio",
+  "674e524064788cc741419928": {
+    "id": "674e524064788cc741419928",
+    "idShort": "tm",
+    "name": {
+      "fr": "Anokio",
+      "en": "Pinokio Ring",
+      "pt": "Anel Pinokio",
+      "de": "Pinokio-Ring",
+      "es": "Anillo de pino kío"
+    },
     "level": 61,
-    "panoply": "Panoplinokio",
+    "panoply": "674e523f64788cc7414183cf",
     "category": "ring",
     "stats": {
       "health": 50,
@@ -2251,10 +3795,18 @@
       "summon": 1
     }
   },
-  "Frimanneau": {
-    "name": "Frimanneau",
+  "674e524064788cc74141995c": {
+    "id": "674e524064788cc74141995c",
+    "idShort": "tn",
+    "name": {
+      "fr": "Frimanneau",
+      "en": "Sleet Ring",
+      "pt": "Anel da Geada",
+      "de": "Raureifring",
+      "es": "Congeladillo"
+    },
     "level": 195,
-    "panoply": "Frimanoplie",
+    "panoply": "674e523f64788cc74141814c",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2269,10 +3821,18 @@
       "waterResist": 10
     }
   },
-  "Grésilanneau": {
-    "name": "Grésilanneau",
+  "674e524064788cc74141995d": {
+    "id": "674e524064788cc74141995d",
+    "idShort": "to",
+    "name": {
+      "fr": "Grésilanneau",
+      "en": "Hail Ring",
+      "pt": "Anel de Granizo",
+      "de": "Hagelring",
+      "es": "Granizanillo"
+    },
     "level": 196,
-    "panoply": "Panoplie Grésil",
+    "panoply": "674e523f64788cc74141814d",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2285,10 +3845,18 @@
       "fireResist": 10
     }
   },
-  "Anneau du Mansot Royal": {
-    "name": "Anneau du Mansot Royal",
+  "674e524064788cc7414199b5": {
+    "id": "674e524064788cc7414199b5",
+    "idShort": "tp",
+    "name": {
+      "fr": "Anneau du Mansot Royal",
+      "en": "Royal Pingwin Ring",
+      "pt": "Anel do Pingwin Real",
+      "de": "King Ping - Ring",
+      "es": "Anillo de Morsagüino Real"
+    },
     "level": 140,
-    "panoply": "Panoplie du Mansot Royal",
+    "panoply": "674e523f64788cc74141814f",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -2305,10 +3873,18 @@
       "pushbackResist": 10
     }
   },
-  "Crochet de Ben le Ripate": {
-    "name": "Crochet de Ben le Ripate",
+  "674e524064788cc7414199b6": {
+    "id": "674e524064788cc7414199b6",
+    "idShort": "tq",
+    "name": {
+      "fr": "Crochet de Ben le Ripate",
+      "en": "Buck Anear's Hook",
+      "pt": "Gancho de Ben, o Ripata",
+      "de": "Hakenhand von Ben dem Ripaten",
+      "es": "Garfio de Ben el Ripata"
+    },
     "level": 155,
-    "panoply": "Panoplie de Ben le Ripate",
+    "panoply": "674e523f64788cc741418150",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -2327,10 +3903,18 @@
       "criticalResist": 10
     }
   },
-  "Bague de l'Obsidiantre": {
-    "name": "Bague de l'Obsidiantre",
+  "674e524064788cc7414199b7": {
+    "id": "674e524064788cc7414199b7",
+    "idShort": "tr",
+    "name": {
+      "fr": "Bague de l'Obsidiantre",
+      "en": "Obsidemon Ring",
+      "pt": "Anel do Obsidemônio",
+      "de": "Ring des Obsidianters",
+      "es": "Anillo de Obsidiantre"
+    },
     "level": 161,
-    "panoply": "Panoplie de l'Obsidiantre",
+    "panoply": "674e523f64788cc741418151",
     "category": "ring",
     "stats": {
       "health": 170,
@@ -2346,8 +3930,16 @@
       "pushbackResist": 10
     }
   },
-  "Anneau Frage": {
-    "name": "Anneau Frage",
+  "674e524064788cc7414199db": {
+    "id": "674e524064788cc7414199db",
+    "idShort": "ts",
+    "name": {
+      "fr": "Anneau Frage",
+      "en": "Drown Ring",
+      "pt": "Anel do Náufrago",
+      "de": "Re-Tungs Ring",
+      "es": "Alianza Bordo"
+    },
     "level": 148,
     "category": "ring",
     "stats": {
@@ -2364,8 +3956,16 @@
       "dodge": 5
     }
   },
-  "Anneau Made": {
-    "name": "Anneau Made",
+  "674e524064788cc7414199dc": {
+    "id": "674e524064788cc7414199dc",
+    "idShort": "tt",
+    "name": {
+      "fr": "Anneau Made",
+      "en": "Wanda Ring",
+      "pt": "Anel Wanda",
+      "de": "Rock und Roll - Ring",
+      "es": "Alianza Ceo"
+    },
     "level": 141,
     "category": "ring",
     "stats": {
@@ -2380,8 +3980,16 @@
       "pushbackDamage": 7
     }
   },
-  "Anneau Nobstant": {
-    "name": "Anneau Nobstant",
+  "674e524064788cc7414199dd": {
+    "id": "674e524064788cc7414199dd",
+    "idShort": "tu",
+    "name": {
+      "fr": "Anneau Nobstant",
+      "en": "Notwithstand Ring",
+      "pt": "Anel Notwithstand",
+      "de": "Trotzring",
+      "es": "Alianza Fiedad"
+    },
     "level": 146,
     "category": "ring",
     "stats": {
@@ -2393,10 +4001,18 @@
       "pushbackResist": 10
     }
   },
-  "Anneau Tabéné": {
-    "name": "Anneau Tabéné",
+  "674e524064788cc7414199de": {
+    "id": "674e524064788cc7414199de",
+    "idShort": "tv",
+    "name": {
+      "fr": "Anneau Tabéné",
+      "en": "Notewell Ring",
+      "pt": "Anel Notewell",
+      "de": "Anmerkring",
+      "es": "Alianza Alamera"
+    },
     "level": 166,
-    "panoply": "Panoplie Abrégée",
+    "panoply": "674e523f64788cc7414183fc",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -2413,10 +4029,18 @@
       "criticalResist": 5
     }
   },
-  "Anneau du Korriandre": {
-    "name": "Anneau du Korriandre",
+  "674e524064788cc741419a2f": {
+    "id": "674e524064788cc741419a2f",
+    "idShort": "tw",
+    "name": {
+      "fr": "Anneau du Korriandre",
+      "en": "Korriander Ring",
+      "pt": "Anel do Kwentro",
+      "de": "Korriandering",
+      "es": "Anillo de Cil"
+    },
     "level": 176,
-    "panoply": "Panoplie du Korriandre",
+    "panoply": "674e523f64788cc741418159",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -2432,10 +4056,18 @@
       "criticalResist": 6
     }
   },
-  "Anneau de Kolosso": {
-    "name": "Anneau de Kolosso",
+  "674e524064788cc741419a32": {
+    "id": "674e524064788cc741419a32",
+    "idShort": "tx",
+    "name": {
+      "fr": "Anneau de Kolosso",
+      "en": "Kolosso Ring",
+      "pt": "Anel de Kolosso",
+      "de": "Daxolossus-Ring",
+      "es": "Anillo de Tejossus"
+    },
     "level": 190,
-    "panoply": "Panoplie de Kolosso",
+    "panoply": "674e523f64788cc74141815a",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2451,8 +4083,16 @@
       "apResist": 6
     }
   },
-  "Alliance Hestrale": {
-    "name": "Alliance Hestrale",
+  "674e524064788cc741419a44": {
+    "id": "674e524064788cc741419a44",
+    "idShort": "ty",
+    "name": {
+      "fr": "Alliance Hestrale",
+      "en": "Anne Cestral's Z-Ring",
+      "pt": "Aliança Hestral",
+      "de": "Anzestraler Ehering",
+      "es": "Alianza Stral"
+    },
     "level": 167,
     "category": "ring",
     "stats": {
@@ -2471,8 +4111,16 @@
       "mpResist": 5
     }
   },
-  "Alliance Sorcelée": {
-    "name": "Alliance Sorcelée",
+  "674e524064788cc741419a45": {
+    "id": "674e524064788cc741419a45",
+    "idShort": "tz",
+    "name": {
+      "fr": "Alliance Sorcelée",
+      "en": "Bewitched Band",
+      "pt": "Aliança Enfeitiçada",
+      "de": "Verzaubering",
+      "es": "Anillote chizado"
+    },
     "level": 187,
     "category": "ring",
     "stats": {
@@ -2489,8 +4137,16 @@
       "criticalResist": 15
     }
   },
-  "Bracelet Ming": {
-    "name": "Bracelet Ming",
+  "674e524064788cc741419a46": {
+    "id": "674e524064788cc741419a46",
+    "idShort": "tA",
+    "name": {
+      "fr": "Bracelet Ming",
+      "en": "Lemming Bracelet",
+      "pt": "Bracelete de Lêmingue",
+      "de": "Lemm-Ring",
+      "es": "Brazalete Ming"
+    },
     "level": 197,
     "category": "ring",
     "stats": {
@@ -2503,8 +4159,16 @@
       "dodge": 8
     }
   },
-  "Anneau Aimgéroks": {
-    "name": "Anneau Aimgéroks",
+  "674e524064788cc741419a47": {
+    "id": "674e524064788cc741419a47",
+    "idShort": "tB",
+    "name": {
+      "fr": "Anneau Aimgéroks",
+      "en": "Awmigawd Band",
+      "pt": "Anel AiMewDews",
+      "de": "Owigail-Ring",
+      "es": "Anillo Chanicomo"
+    },
     "level": 194,
     "category": "ring",
     "requirement": {
@@ -2525,10 +4189,18 @@
       "airDamage": 7
     }
   },
-  "Alliance du Kanniboul Ebil": {
-    "name": "Alliance du Kanniboul Ebil",
+  "674e524064788cc741419b01": {
+    "id": "674e524064788cc741419b01",
+    "idShort": "tC",
+    "name": {
+      "fr": "Alliance du Kanniboul Ebil",
+      "en": "Kanniball Andchain's Wedding Ring",
+      "pt": "Aliança do Kanibola Phora",
+      "de": "Ehering von Kanniball Aahde",
+      "es": "Alianza del kaníbola Daldrrak"
+    },
     "level": 43,
-    "panoply": "Panoplie du Kanniboul Ebil",
+    "panoply": "674e523f64788cc74141815d",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -2537,10 +4209,18 @@
       "apReduction": 6
     }
   },
-  "Anneau du Boostache": {
-    "name": "Anneau du Boostache",
+  "674e524064788cc741419b02": {
+    "id": "674e524064788cc741419b02",
+    "idShort": "tD",
+    "name": {
+      "fr": "Anneau du Boostache",
+      "en": "Boostache's Ring",
+      "pt": "Anel do Boostache",
+      "de": "Bartaboo-Ring",
+      "es": "Anillo de Boostacho"
+    },
     "level": 44,
-    "panoply": "Panoplie du Boostache",
+    "panoply": "674e523f64788cc74141815e",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -2549,10 +4229,18 @@
       "mpReduction": 6
     }
   },
-  "Kwakwanneau": {
-    "name": "Kwakwanneau",
+  "674e524064788cc741419b24": {
+    "id": "674e524064788cc741419b24",
+    "idShort": "tE",
+    "name": {
+      "fr": "Kwakwanneau",
+      "en": "Kwakwa Ring",
+      "pt": "Kwakwanel",
+      "de": "Kwackatrauring",
+      "es": "Kwoknanillo"
+    },
     "level": 52,
-    "panoply": "Panoplie du Kwakwa",
+    "panoply": "674e523f64788cc74141815f",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -2562,10 +4250,18 @@
       "mpResist": 5
     }
   },
-  "Kwakwalliance": {
-    "name": "Kwakwalliance",
+  "674e524064788cc741419b25": {
+    "id": "674e524064788cc741419b25",
+    "idShort": "tF",
+    "name": {
+      "fr": "Kwakwalliance",
+      "en": "Kwakwa Wedding Band",
+      "pt": "Kwakwaliança",
+      "de": "Kwackataurad",
+      "es": "Kwoknalianza"
+    },
     "level": 52,
-    "panoply": "Panoplie du Kwakwa",
+    "panoply": "674e523f64788cc74141815f",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -2575,10 +4271,18 @@
       "apResist": 5
     }
   },
-  "Anneau de Mirh": {
-    "name": "Anneau de Mirh",
+  "674e524064788cc741419b2c": {
+    "id": "674e524064788cc741419b2c",
+    "idShort": "tG",
+    "name": {
+      "fr": "Anneau de Mirh",
+      "en": "Mirh's Ring",
+      "pt": "Anel de Mirh",
+      "de": "Traumstar Tion Mihring",
+      "es": "Anillo de Mirh"
+    },
     "level": 56,
-    "panoply": "Panoplie de Mirh",
+    "panoply": "674e523f64788cc741418161",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -2588,10 +4292,18 @@
       "mpResist": 4
     }
   },
-  "Anneau de Logram": {
-    "name": "Anneau de Logram",
+  "674e524064788cc741419b32": {
+    "id": "674e524064788cc741419b32",
+    "idShort": "tH",
+    "name": {
+      "fr": "Anneau de Logram",
+      "en": "Logram's Ring",
+      "pt": "Anel de Logram",
+      "de": "Hohler Logram Ring",
+      "es": "Anillo de Logram"
+    },
     "level": 50,
-    "panoply": "Panoplie de Logram",
+    "panoply": "674e523f64788cc7414183a9",
     "category": "ring",
     "stats": {
       "intelligence": 15,
@@ -2601,10 +4313,18 @@
       "criticalResist": 4
     }
   },
-  "Alliance d'Hichète": {
-    "name": "Alliance d'Hichète",
+  "674e524064788cc741419b38": {
+    "id": "674e524064788cc741419b38",
+    "idShort": "tI",
+    "name": {
+      "fr": "Alliance d'Hichète",
+      "en": "Hichete's Ring",
+      "pt": "Anel de Hichete",
+      "de": "Abians Ehering",
+      "es": "Alianza de Nillo"
+    },
     "level": 53,
-    "panoply": "Panoplie d'Hichète",
+    "panoply": "674e523f64788cc741418163",
     "category": "ring",
     "stats": {
       "agility": 25,
@@ -2614,10 +4334,18 @@
       "dodge": 3
     }
   },
-  "Anneau d'Haku": {
-    "name": "Anneau d'Haku",
+  "674e524064788cc741419b3e": {
+    "id": "674e524064788cc741419b3e",
+    "idShort": "tJ",
+    "name": {
+      "fr": "Anneau d'Haku",
+      "en": "Haku's Ring",
+      "pt": "Anel de Haku",
+      "de": "Hakus-Ring",
+      "es": "Anillo de Haku"
+    },
     "level": 46,
-    "panoply": "Panoplie d'Haku",
+    "panoply": "674e523f64788cc741418164",
     "category": "ring",
     "stats": {
       "intelligence": 20,
@@ -2627,10 +4355,18 @@
       "criticalResist": 4
     }
   },
-  "Anneau Moutheur": {
-    "name": "Anneau Moutheur",
+  "674e524064788cc741419b66": {
+    "id": "674e524064788cc741419b66",
+    "idShort": "tK",
+    "name": {
+      "fr": "Anneau Moutheur",
+      "en": "Mastic Ring",
+      "pt": "Anel Mastic",
+      "de": "Ring der Wollgemutheit",
+      "es": "Anillo mutesco"
+    },
     "level": 127,
-    "panoply": "Panoplie Moutheuze",
+    "panoply": "674e523f64788cc741418166",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -2643,10 +4379,18 @@
       "criticalResist": 10
     }
   },
-  "Bague Moutheuze": {
-    "name": "Bague Moutheuze",
+  "674e524064788cc741419b67": {
+    "id": "674e524064788cc741419b67",
+    "idShort": "tL",
+    "name": {
+      "fr": "Bague Moutheuze",
+      "en": "Mastic Band",
+      "pt": "Anel Papamutesco",
+      "de": "Wollgemutering",
+      "es": "Alianza mutesca"
+    },
     "level": 121,
-    "panoply": "Panoplie Moutheuze",
+    "panoply": "674e523f64788cc741418166",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -2659,10 +4403,18 @@
       "pushbackResist": 10
     }
   },
-  "Anneau de Frigostine": {
-    "name": "Anneau de Frigostine",
+  "674e524064788cc741419b6b": {
+    "id": "674e524064788cc741419b6b",
+    "idShort": "tM",
+    "name": {
+      "fr": "Anneau de Frigostine",
+      "en": "Frigostine's Ring",
+      "pt": "Anel de Frigostina",
+      "de": "Frigostinchenring",
+      "es": "Anillo de Frigostina"
+    },
     "level": 144,
-    "panoply": "Panoplie de Frigostine",
+    "panoply": "674e523f64788cc741418167",
     "category": "ring",
     "stats": {
       "health": 140,
@@ -2680,10 +4432,18 @@
       "lock": -4
     }
   },
-  "Anneau de Cantile": {
-    "name": "Anneau de Cantile",
+  "674e524064788cc741419b6f": {
+    "id": "674e524064788cc741419b6f",
+    "idShort": "tN",
+    "name": {
+      "fr": "Anneau de Cantile",
+      "en": "Cantile's Ring",
+      "pt": "Anel da Berna",
+      "de": "Bürgherrring",
+      "es": "Anillo de Lario"
+    },
     "level": 153,
-    "panoply": "Panoplie de Cantile",
+    "panoply": "674e523f64788cc741418168",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -2700,10 +4460,18 @@
       "criticalResist": 12
     }
   },
-  "Anneau des Prophètes": {
-    "name": "Anneau des Prophètes",
+  "674e524064788cc741419b72": {
+    "id": "674e524064788cc741419b72",
+    "idShort": "tO",
+    "name": {
+      "fr": "Anneau des Prophètes",
+      "en": "Ring of the Prophets",
+      "pt": "Anel dos Profetas",
+      "de": "Ring des Propheten",
+      "es": "Anillo de los profetas"
+    },
     "level": 168,
-    "panoply": "Panoplie des Prophètes",
+    "panoply": "674e523f64788cc741418169",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -2720,10 +4488,18 @@
       "mpReduction": 4
     }
   },
-  "Anneau de Guten Tak": {
-    "name": "Anneau de Guten Tak",
+  "674e524064788cc741419b75": {
+    "id": "674e524064788cc741419b75",
+    "idShort": "tP",
+    "name": {
+      "fr": "Anneau de Guten Tak",
+      "en": "Guten Tak's Ring",
+      "pt": "Anel de Guten Tak",
+      "de": "Guten Tarks Ring",
+      "es": "Anillo Gwen Astarde"
+    },
     "level": 175,
-    "panoply": "Panoplie de Guten Tak",
+    "panoply": "674e523f64788cc74141816a",
     "category": "ring",
     "stats": {
       "strength": 60,
@@ -2740,10 +4516,18 @@
       "pushbackDamage": 15
     }
   },
-  "Alliance de Guten Tak": {
-    "name": "Alliance de Guten Tak",
+  "674e524064788cc741419b76": {
+    "id": "674e524064788cc741419b76",
+    "idShort": "tQ",
+    "name": {
+      "fr": "Alliance de Guten Tak",
+      "en": "Guten Tak's Wedding Ring",
+      "pt": "Aliança de Guten Tak",
+      "de": "Guten Tarks Ehering",
+      "es": "Alianza de Gwen Astarde"
+    },
     "level": 173,
-    "panoply": "Panoplie de Guten Tak",
+    "panoply": "674e523f64788cc74141816a",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -2758,10 +4542,18 @@
       "pushbackResist": 15
     }
   },
-  "Bague de Boréale": {
-    "name": "Bague de Boréale",
+  "674e524064788cc741419b79": {
+    "id": "674e524064788cc741419b79",
+    "idShort": "tR",
+    "name": {
+      "fr": "Bague de Boréale",
+      "en": "Borealis's Band",
+      "pt": "Anel da Boreal",
+      "de": "Bohrealisring",
+      "es": "Anillo de Boreal"
+    },
     "level": 183,
-    "panoply": "Panoplie de Boréale",
+    "panoply": "674e523f64788cc74141816b",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2773,10 +4565,18 @@
       "criticalResist": 10
     }
   },
-  "Anneau du Professeur Xa": {
-    "name": "Anneau du Professeur Xa",
+  "674e524064788cc741419b7e": {
+    "id": "674e524064788cc741419b7e",
+    "idShort": "tS",
+    "name": {
+      "fr": "Anneau du Professeur Xa",
+      "en": "Professor Xa's Ring",
+      "pt": "Anel do Professor Xa",
+      "de": "Professor Xas Ring",
+      "es": "Anillo del profesor Xa"
+    },
     "level": 191,
-    "panoply": "Panoplie du Professeur Xa",
+    "panoply": "674e523f64788cc74141816c",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -2794,10 +4594,18 @@
       "pushbackDamage": 10
     }
   },
-  "Alliance Gloursonne": {
-    "name": "Alliance Gloursonne",
+  "674e524064788cc741419b82": {
+    "id": "674e524064788cc741419b82",
+    "idShort": "tT",
+    "name": {
+      "fr": "Alliance Gloursonne",
+      "en": "Bearbaric Wedding Ring",
+      "pt": "Aliança Glursona",
+      "de": "Barbärenstarker Ehering",
+      "es": "Alianza golosona"
+    },
     "level": 198,
-    "panoply": "Panoplie Gloursonne",
+    "panoply": "674e523f64788cc74141816d",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2815,10 +4623,18 @@
       "lock": 5
     }
   },
-  "Bague Gloursonne": {
-    "name": "Bague Gloursonne",
+  "674e524064788cc741419b83": {
+    "id": "674e524064788cc741419b83",
+    "idShort": "tU",
+    "name": {
+      "fr": "Bague Gloursonne",
+      "en": "Bearbaric Band",
+      "pt": "Anel Glursão",
+      "de": "Barbärenstarker Ring",
+      "es": "Anillo golosón"
+    },
     "level": 197,
-    "panoply": "Panoplie Gloursonne",
+    "panoply": "674e523f64788cc74141816d",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2836,10 +4652,18 @@
       "lock": 5
     }
   },
-  "Anneau de la Fuji Givrefoux": {
-    "name": "Anneau de la Fuji Givrefoux",
+  "674e524064788cc741419b89": {
+    "id": "674e524064788cc741419b89",
+    "idShort": "tV",
+    "name": {
+      "fr": "Anneau de la Fuji Givrefoux",
+      "en": "Fuji Snowfoux Ring",
+      "pt": "Anel da Fuji Gelifox",
+      "de": "Fuji Eisfux Ring",
+      "es": "Anillo de Fuji Gélifux"
+    },
     "level": 192,
-    "panoply": "Panoplie de la Fuji Givrefoux",
+    "panoply": "674e523f64788cc74141816e",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -2859,10 +4683,18 @@
       "mpReduction": 5
     }
   },
-  "Gantelet du Gorgouille": {
-    "name": "Gantelet du Gorgouille",
+  "674e524064788cc741419c1e": {
+    "id": "674e524064788cc741419c1e",
+    "idShort": "tW",
+    "name": {
+      "fr": "Gantelet du Gorgouille",
+      "en": "Gorgoyle Glove",
+      "pt": "Luva do Górgula",
+      "de": "Gorgoyl-Handschuh",
+      "es": "Guantelete de marranárgola"
+    },
     "level": 97,
-    "panoply": "Panoplie du Gorgouille",
+    "panoply": "674e523f64788cc741418170",
     "category": "ring",
     "stats": {
       "health": 60,
@@ -2877,10 +4709,18 @@
       "pushbackDamage": 3
     }
   },
-  "Bracilozité": {
-    "name": "Bracilozité",
+  "674e524064788cc741419c25": {
+    "id": "674e524064788cc741419c25",
+    "idShort": "tX",
+    "name": {
+      "fr": "Bracilozité",
+      "en": "Hir Bracelet",
+      "pt": "Braceludo",
+      "de": "B-Haarmband",
+      "es": "Brazalete peloso"
+    },
     "level": 54,
-    "panoply": "Panoplilozité",
+    "panoply": "674e523f64788cc7414183cb",
     "category": "ring",
     "stats": {
       "wisdom": 15,
@@ -2889,24 +4729,48 @@
       "pushbackDamage": 4
     }
   },
-  "Mitaine Aibre": {
-    "name": "Mitaine Aibre",
+  "674e524064788cc741419c33": {
+    "id": "674e524064788cc741419c33",
+    "idShort": "tY",
+    "name": {
+      "fr": "Mitaine Aibre",
+      "en": "Enig Mittens",
+      "pt": "Luvas Enig",
+      "de": "Handschuhe der dunklen Magie",
+      "es": "Mitones Curidad"
+    },
     "level": 150,
-    "panoply": "Panoplie Explosive",
+    "panoply": "674e523f64788cc741418171",
     "category": "ring",
     "stats": {}
   },
-  "Bracelet Jande": {
-    "name": "Bracelet Jande",
+  "674e524064788cc741419c34": {
+    "id": "674e524064788cc741419c34",
+    "idShort": "tZ",
+    "name": {
+      "fr": "Bracelet Jande",
+      "en": "Mithik Bracelet",
+      "pt": "Bracelete Mithik",
+      "de": "Armreif der Legenden",
+      "es": "Brazalete Yenda"
+    },
     "level": 150,
-    "panoply": "Panoplie Lunatique",
+    "panoply": "674e523f64788cc741418172",
     "category": "ring",
     "stats": {}
   },
-  "Anneau du Vulkain": {
-    "name": "Anneau du Vulkain",
+  "674e524064788cc741419c3c": {
+    "id": "674e524064788cc741419c3c",
+    "idShort": "u0",
+    "name": {
+      "fr": "Anneau du Vulkain",
+      "en": "Vulkanian Ring",
+      "pt": "Anel vulkaniano",
+      "de": "Vulkamulett",
+      "es": "Anillo vulkaniano"
+    },
     "level": 54,
-    "panoply": "Panoplie du Vulkain",
+    "panoply": "674e523f64788cc741418173",
     "category": "ring",
     "stats": {
       "intelligence": 30,
@@ -2915,10 +4779,18 @@
       "apReduction": 3
     }
   },
-  "Bracelet du Vulkain": {
-    "name": "Bracelet du Vulkain",
+  "674e524064788cc741419c3d": {
+    "id": "674e524064788cc741419c3d",
+    "idShort": "u1",
+    "name": {
+      "fr": "Bracelet du Vulkain",
+      "en": "Vulkanian Bracelet",
+      "pt": "Bracelete vulkaniano",
+      "de": "Vulkarmband",
+      "es": "Brazalete vulkaniano"
+    },
     "level": 58,
-    "panoply": "Panoplie du Vulkain",
+    "panoply": "674e523f64788cc741418173",
     "category": "ring",
     "stats": {
       "health": 50,
@@ -2927,10 +4799,18 @@
       "mpReduction": 5
     }
   },
-  "Anneau Tétriste": {
-    "name": "Anneau Tétriste",
+  "674e524064788cc741419c4a": {
+    "id": "674e524064788cc741419c4a",
+    "idShort": "u2",
+    "name": {
+      "fr": "Anneau Tétriste",
+      "en": "Tetra Ring",
+      "pt": "Anel Tetrista",
+      "de": "Tetrist-Ring",
+      "es": "Anillo tetrista"
+    },
     "level": 10,
-    "panoply": "Panoplie Tétriste",
+    "panoply": "674e523f64788cc741418392",
     "category": "ring",
     "stats": {
       "summon": 1,
@@ -2940,8 +4820,16 @@
       "airResistPer": -1
     }
   },
-  "Boracelet": {
-    "name": "Boracelet",
+  "674e524064788cc741419c75": {
+    "id": "674e524064788cc741419c75",
+    "idShort": "u3",
+    "name": {
+      "fr": "Boracelet",
+      "en": "Boracelet",
+      "pt": "Boracelete",
+      "de": "Borarmreif",
+      "es": "Boracelete"
+    },
     "level": 59,
     "category": "ring",
     "stats": {
@@ -2953,18 +4841,34 @@
       "lock": 2
     }
   },
-  "Anneau de l'Envahisseur": {
-    "name": "Anneau de l'Envahisseur",
+  "674e524064788cc741419cef": {
+    "id": "674e524064788cc741419cef",
+    "idShort": "u4",
+    "name": {
+      "fr": "Anneau de l'Envahisseur",
+      "en": "Spacevader Ring",
+      "pt": "Anel do Invasor",
+      "de": "Spaß-in-Veda - Ring",
+      "es": "Anillo del invasor del espacio"
+    },
     "level": 10,
-    "panoply": "Panoplie de l'Envahisseur",
+    "panoply": "674e523f64788cc741418393",
     "category": "ring",
     "stats": {
       "intelligence": 10,
       "heal": 3
     }
   },
-  "Cosmobracelet": {
-    "name": "Cosmobracelet",
+  "674e524064788cc741419d26": {
+    "id": "674e524064788cc741419d26",
+    "idShort": "u5",
+    "name": {
+      "fr": "Cosmobracelet",
+      "en": "Thunderbracelet",
+      "pt": "Braceletander",
+      "de": "Donnerkatzenreif",
+      "es": "Cosmoclava"
+    },
     "level": 39,
     "category": "ring",
     "stats": {
@@ -2974,18 +4878,34 @@
       "criticalResist": 4
     }
   },
-  "Sac à Main": {
-    "name": "Sac à Main",
+  "674e524064788cc741419d29": {
+    "id": "674e524064788cc741419d29",
+    "idShort": "u6",
+    "name": {
+      "fr": "Sac à Main",
+      "en": "Handbag",
+      "pt": "Bolsa",
+      "de": "Handtäschchen",
+      "es": "Bolso"
+    },
     "level": 5,
     "category": "ring",
     "stats": {
       "pods": 80
     }
   },
-  "Bracelet du Glutin": {
-    "name": "Bracelet du Glutin",
+  "674e524064788cc741419dae": {
+    "id": "674e524064788cc741419dae",
+    "idShort": "u7",
+    "name": {
+      "fr": "Bracelet du Glutin",
+      "en": "Goblimp Bracelet",
+      "pt": "Bracelete do Gluende",
+      "de": "Gwichtel-Fäustling",
+      "es": "Brazalete de duende"
+    },
     "level": 25,
-    "panoply": "Panoplie du Glutin",
+    "panoply": "674e523f64788cc741418178",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -2994,8 +4914,16 @@
       "dodge": 2
     }
   },
-  "Bracelet du Minotoboule": {
-    "name": "Bracelet du Minotoboule",
+  "674e524064788cc741419e18": {
+    "id": "674e524064788cc741419e18",
+    "idShort": "u8",
+    "name": {
+      "fr": "Bracelet du Minotoboule",
+      "en": "Minotoball Bracelet",
+      "pt": "Bracelete do Minotobola",
+      "de": "Armband des Minotoballs",
+      "es": "Brazalete de minotobola"
+    },
     "level": 197,
     "category": "ring",
     "stats": {
@@ -3008,10 +4936,18 @@
       "dodge": 8
     }
   },
-  "Anneau de Brouce": {
-    "name": "Anneau de Brouce",
+  "674e524064788cc741419e59": {
+    "id": "674e524064788cc741419e59",
+    "idShort": "u9",
+    "name": {
+      "fr": "Anneau de Brouce",
+      "en": "Broucey Ring",
+      "pt": "Anel do Bruce",
+      "de": "Bruces Ring",
+      "es": "Anillo de Brus"
+    },
     "level": 198,
-    "panoply": "Panoplie de Brouce Boulgoure",
+    "panoply": "674e523f64788cc74141817c",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3025,10 +4961,18 @@
       "mpResist": 7
     }
   },
-  "Anneau d'Allister": {
-    "name": "Anneau d'Allister",
+  "674e524064788cc741419e62": {
+    "id": "674e524064788cc741419e62",
+    "idShort": "ua",
+    "name": {
+      "fr": "Anneau d'Allister",
+      "en": "Allister's Ring",
+      "pt": "Anel de Allister",
+      "de": "Allisters Prunkring",
+      "es": "Anillo de Allister"
+    },
     "level": 197,
-    "panoply": "Panoplie d'Allister",
+    "panoply": "674e523f64788cc74141817f",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3042,15 +4986,31 @@
       "criticalResist": 15
     }
   },
-  "Steamanneau Maître": {
-    "name": "Steamanneau Maître",
+  "674e524064788cc741419eda": {
+    "id": "674e524064788cc741419eda",
+    "idShort": "ub",
+    "name": {
+      "fr": "Steamanneau Maître",
+      "en": "Pressure Ring",
+      "pt": "Steamanel Mestre",
+      "de": "Baron Meters Ring",
+      "es": "Manometranillo"
+    },
     "level": 150,
-    "panoply": "Panoplie Submersible",
+    "panoply": "674e523f64788cc741418184",
     "category": "ring",
     "stats": {}
   },
-  "Bague Rafe": {
-    "name": "Bague Rafe",
+  "674e524064788cc741419ef9": {
+    "id": "674e524064788cc741419ef9",
+    "idShort": "uc",
+    "name": {
+      "fr": "Bague Rafe",
+      "en": "Staypul Ring",
+      "pt": "Anelgrafe",
+      "de": "Tackering",
+      "es": "Anillo pagra"
+    },
     "level": 43,
     "category": "ring",
     "stats": {
@@ -3060,10 +5020,18 @@
       "pushbackDamage": 4
     }
   },
-  "Bracelet Gume": {
-    "name": "Bracelet Gume",
+  "674e524064788cc741419efa": {
+    "id": "674e524064788cc741419efa",
+    "idShort": "ud",
+    "name": {
+      "fr": "Bracelet Gume",
+      "en": "Five Cawat Ring",
+      "pt": "Bracelegume",
+      "de": "Armreif \"S.G. Müse\"",
+      "es": "Brazal egumbre"
+    },
     "level": 48,
-    "panoply": "Panoplie Mijotée",
+    "panoply": "674e523f64788cc7414183c1",
     "category": "ring",
     "stats": {
       "wisdom": 20,
@@ -3071,10 +5039,18 @@
       "airDamage": 3
     }
   },
-  "Annokami": {
-    "name": "Annokami",
+  "674e524064788cc741419f0e": {
+    "id": "674e524064788cc741419f0e",
+    "idShort": "ue",
+    "name": {
+      "fr": "Annokami",
+      "en": "Imakoring",
+      "pt": "Arokami",
+      "de": "Okamring",
+      "es": "Arokami"
+    },
     "level": 54,
-    "panoply": "Panokami",
+    "panoply": "674e523f64788cc7414183ca",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -3084,10 +5060,18 @@
       "mpReduction": 3
     }
   },
-  "Diplanneau": {
-    "name": "Diplanneau",
+  "674e524064788cc741419f9a": {
+    "id": "674e524064788cc741419f9a",
+    "idShort": "uf",
+    "name": {
+      "fr": "Diplanneau",
+      "en": "Diploring",
+      "pt": "Anelirou",
+      "de": "Diploring",
+      "es": "Anilliesito"
+    },
     "level": 57,
-    "panoply": "Diplanoplie",
+    "panoply": "674e523f64788cc7414183cd",
     "category": "ring",
     "stats": {
       "wisdom": 15,
@@ -3097,10 +5081,18 @@
       "waterDamage": 5
     }
   },
-  "Anneau d'Henual": {
-    "name": "Anneau d'Henual",
+  "674e524064788cc74141a02f": {
+    "id": "674e524064788cc74141a02f",
+    "idShort": "ug",
+    "name": {
+      "fr": "Anneau d'Henual",
+      "en": "Henual's Ring",
+      "pt": "Anel de Henual",
+      "de": "Henuals Ring",
+      "es": "Anillo de Henual"
+    },
     "level": 196,
-    "panoply": "Panoplie d'Henual",
+    "panoply": "674e523f64788cc741418187",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3118,10 +5110,18 @@
       "criticalResist": -7
     }
   },
-  "Anneau de Padgref": {
-    "name": "Anneau de Padgref",
+  "674e524064788cc74141a03c": {
+    "id": "674e524064788cc74141a03c",
+    "idShort": "uh",
+    "name": {
+      "fr": "Anneau de Padgref",
+      "en": "Nomarow's Ring",
+      "pt": "Anel de Nondome",
+      "de": "Ring des Knöchernen Marks",
+      "es": "Anillo de Noai Aludem"
+    },
     "level": 197,
-    "panoply": "Panoplie de Padgref Demoël",
+    "panoply": "674e523f64788cc74141818b",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -3141,10 +5141,18 @@
       "criticalDamage": 12
     }
   },
-  "Glaglano": {
-    "name": "Glaglano",
+  "674e524064788cc74141a115": {
+    "id": "674e524064788cc74141a115",
+    "idShort": "ui",
+    "name": {
+      "fr": "Glaglano",
+      "en": "Brrrito Ring",
+      "pt": "Anel Polar",
+      "de": "FroFrostring",
+      "es": "Jabajonillo"
+    },
     "level": 55,
-    "panoply": "Glaglanoplie",
+    "panoply": "674e523f64788cc7414183cc",
     "category": "ring",
     "stats": {
       "agility": 25,
@@ -3153,8 +5161,16 @@
       "airDamage": 5
     }
   },
-  "Anneau Tamie": {
-    "name": "Anneau Tamie",
+  "674e524064788cc74141a11b": {
+    "id": "674e524064788cc74141a11b",
+    "idShort": "uj",
+    "name": {
+      "fr": "Anneau Tamie",
+      "en": "Shylock's Ring",
+      "pt": "Anel Tomia",
+      "de": "Annes Tommi-Ring",
+      "es": "Alianza Natomia"
+    },
     "level": 198,
     "category": "ring",
     "stats": {
@@ -3167,10 +5183,18 @@
       "mpReduction": 8
     }
   },
-  "Infernano": {
-    "name": "Infernano",
+  "674e524064788cc74141a188": {
+    "id": "674e524064788cc74141a188",
+    "idShort": "uk",
+    "name": {
+      "fr": "Infernano",
+      "en": "Ringferno",
+      "pt": "Infernanel",
+      "de": "Inferno-Ring",
+      "es": "Anillo de Infernus"
+    },
     "level": 150,
-    "panoply": "Panoplie Infernale",
+    "panoply": "674e523f64788cc74141818f",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3184,10 +5208,18 @@
       "fireResist": 15
     }
   },
-  "Styxano": {
-    "name": "Styxano",
+  "674e524064788cc74141a189": {
+    "id": "674e524064788cc74141a189",
+    "idShort": "ul",
+    "name": {
+      "fr": "Styxano",
+      "en": "Styxring",
+      "pt": "Styxanel",
+      "de": "Styx-Ring",
+      "es": "Anillo de Styx"
+    },
     "level": 150,
-    "panoply": "Panoplie Fluviale",
+    "panoply": "674e523f64788cc741418190",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3201,10 +5233,18 @@
       "waterResist": 15
     }
   },
-  "Mandrano": {
-    "name": "Mandrano",
+  "674e524064788cc74141a18a": {
+    "id": "674e524064788cc74141a18a",
+    "idShort": "um",
+    "name": {
+      "fr": "Mandrano",
+      "en": "Mandring",
+      "pt": "Mandranel",
+      "de": "Mandring",
+      "es": "Anillo de Mandrin"
+    },
     "level": 150,
-    "panoply": "Panoplie Contrebandière",
+    "panoply": "674e523f64788cc741418191",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3218,10 +5258,18 @@
       "earthResist": 15
     }
   },
-  "Willkillsano": {
-    "name": "Willkillsano",
+  "674e524064788cc74141a18b": {
+    "id": "674e524064788cc74141a18b",
+    "idShort": "un",
+    "name": {
+      "fr": "Willkillsano",
+      "en": "Willkills Ring",
+      "pt": "Anel de Will Killson",
+      "de": "Ring von Will Killson",
+      "es": "Anillo de Will Killson"
+    },
     "level": 150,
-    "panoply": "Panoplie Meurtrière",
+    "panoply": "674e523f64788cc741418192",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3235,10 +5283,18 @@
       "airResist": 15
     }
   },
-  "Bague Nostik": {
-    "name": "Bague Nostik",
+  "674e524164788cc74141a1b3": {
+    "id": "674e524164788cc74141a1b3",
+    "idShort": "uo",
+    "name": {
+      "fr": "Bague Nostik",
+      "en": "Copper Nickus Ring",
+      "pt": "Anel Agnostos",
+      "de": "Agnos dicker Ring",
+      "es": "Alianza G'nostika"
+    },
     "level": 196,
-    "panoply": "Panoplie Superstitieuse",
+    "panoply": "674e523f64788cc7414183fa",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3253,10 +5309,18 @@
       "criticalResist": 15
     }
   },
-  "Anneau Vicieux": {
-    "name": "Anneau Vicieux",
+  "674e524164788cc74141a1b8": {
+    "id": "674e524164788cc74141a1b8",
+    "idShort": "up",
+    "name": {
+      "fr": "Anneau Vicieux",
+      "en": "Vicious Ring",
+      "pt": "Anel Vicioso",
+      "de": "Heimtückischer Ring",
+      "es": "Anillo traicionero"
+    },
     "level": 199,
-    "panoply": "Panoplie Vicieuse",
+    "panoply": "674e523f64788cc74141819c",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3272,10 +5336,18 @@
       "criticalDamage": 10
     }
   },
-  "Anneau Glacial": {
-    "name": "Anneau Glacial",
+  "674e524164788cc74141a1bc": {
+    "id": "674e524164788cc74141a1bc",
+    "idShort": "uq",
+    "name": {
+      "fr": "Anneau Glacial",
+      "en": "Glacial Ring",
+      "pt": "Anel Glacial",
+      "de": "Eiskalter Ring",
+      "es": "Anillo glacial"
+    },
     "level": 197,
-    "panoply": "Panoplie Glaciale",
+    "panoply": "674e523f64788cc74141819d",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3288,10 +5360,18 @@
       "criticalResist": 20
     }
   },
-  "Alliance de Missiz Frizz": {
-    "name": "Alliance de Missiz Frizz",
+  "674e524164788cc74141a1bf": {
+    "id": "674e524164788cc74141a1bf",
+    "idShort": "ur",
+    "name": {
+      "fr": "Alliance de Missiz Frizz",
+      "en": "Missiz Freezz's Ring",
+      "pt": "Aliança da Missiz Frizz",
+      "de": "Ehering von Missiz Frizz",
+      "es": "Anillo de Mizz Frizz"
+    },
     "level": 198,
-    "panoply": "Panoplie de Missiz Frizz",
+    "panoply": "674e523f64788cc74141819e",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3307,10 +5387,18 @@
       "criticalDamage": 10
     }
   },
-  "Bague Instable": {
-    "name": "Bague Instable",
+  "674e524164788cc74141a1c5": {
+    "id": "674e524164788cc74141a1c5",
+    "idShort": "us",
+    "name": {
+      "fr": "Bague Instable",
+      "en": "Unstable Band",
+      "pt": "Aliança instável",
+      "de": "Labiler Schmuckring",
+      "es": "Alianza inestable"
+    },
     "level": 199,
-    "panoply": "Panoplie Instable",
+    "panoply": "674e523f64788cc7414181a0",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3325,10 +5413,18 @@
       "pushbackDamage": 40
     }
   },
-  "Anneau Instable": {
-    "name": "Anneau Instable",
+  "674e524164788cc74141a1c6": {
+    "id": "674e524164788cc74141a1c6",
+    "idShort": "ut",
+    "name": {
+      "fr": "Anneau Instable",
+      "en": "Unstable Ring",
+      "pt": "Anel instável",
+      "de": "Labiler Reif",
+      "es": "Anillo inestable"
+    },
     "level": 199,
-    "panoply": "Panoplie Instable",
+    "panoply": "674e523f64788cc7414181a0",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3343,10 +5439,18 @@
       "pushbackResist": 40
     }
   },
-  "Anneau du Comte Harebourg": {
-    "name": "Anneau du Comte Harebourg",
+  "674e524164788cc74141a1cf": {
+    "id": "674e524164788cc74141a1cf",
+    "idShort": "uu",
+    "name": {
+      "fr": "Anneau du Comte Harebourg",
+      "en": "Count Harebourg's Ring",
+      "pt": "Anel do Conde Traspafrent",
+      "de": "Ring von Graf Primzahl",
+      "es": "Anillo del conde Kontatrás"
+    },
     "level": 200,
-    "panoply": "Panoplie du Comte Harebourg",
+    "panoply": "674e523f64788cc741418193",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -3359,10 +5463,18 @@
       "criticalResist": 25
     }
   },
-  "Anneau Cryochrone": {
-    "name": "Anneau Cryochrone",
+  "674e524164788cc74141a1db": {
+    "id": "674e524164788cc74141a1db",
+    "idShort": "uv",
+    "name": {
+      "fr": "Anneau Cryochrone",
+      "en": "Cryochrone Ring",
+      "pt": "Anel Criocrono",
+      "de": "Cryochron-Ring",
+      "es": "Anillo criocrono"
+    },
     "level": 200,
-    "panoply": "Panoplie Cryochrone",
+    "panoply": "674e523f64788cc741418195",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3376,10 +5488,18 @@
       "criticalDamage": 10
     }
   },
-  "Anneau du Cycloïde": {
-    "name": "Anneau du Cycloïde",
+  "674e524164788cc74141a1de": {
+    "id": "674e524164788cc74141a1de",
+    "idShort": "uw",
+    "name": {
+      "fr": "Anneau du Cycloïde",
+      "en": "Cycloid Ring",
+      "pt": "Anel do Cicloide",
+      "de": "Zykloid-Ring",
+      "es": "Anillo de kukoloide"
+    },
     "level": 200,
-    "panoply": "Panoplie du Cycloïde",
+    "panoply": "674e523f64788cc741418196",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3395,10 +5515,18 @@
       "lock": 6
     }
   },
-  "Anneau Stroplante": {
-    "name": "Anneau Stroplante",
+  "674e524164788cc74141a296": {
+    "id": "674e524164788cc74141a296",
+    "idShort": "ux",
+    "name": {
+      "fr": "Anneau Stroplante",
+      "en": "Lightning Leaves",
+      "pt": "Anel Stroide",
+      "de": "Jaycring",
+      "es": "Anillo Onstruoplanta"
+    },
     "level": 59,
-    "panoply": "Panoplie Stroplante",
+    "panoply": "674e523f64788cc7414183d0",
     "category": "ring",
     "stats": {
       "strength": 15,
@@ -3407,8 +5535,16 @@
       "initiative": 100
     }
   },
-  "Justanneau": {
-    "name": "Justanneau",
+  "674e524164788cc74141a29f": {
+    "id": "674e524164788cc74141a29f",
+    "idShort": "uy",
+    "name": {
+      "fr": "Justanneau",
+      "en": "Just Ring",
+      "pt": "Justanel",
+      "de": "Gerächt-Ring",
+      "es": "Justosillo"
+    },
     "level": 60,
     "category": "ring",
     "stats": {
@@ -3419,10 +5555,18 @@
       "dodge": 4
     }
   },
-  "Bracelet du Blanc Pa Wabbit": {
-    "name": "Bracelet du Blanc Pa Wabbit",
+  "674e524164788cc74141a308": {
+    "id": "674e524164788cc74141a308",
+    "idShort": "uz",
+    "name": {
+      "fr": "Bracelet du Blanc Pa Wabbit",
+      "en": "Whitepaw Wabbit Bracelet",
+      "pt": "Bracelete do Vovô Wabbit Branco",
+      "de": "Armreif des White Grand Pa Wabbits",
+      "es": "Brazalete de awelito wabbit blanco"
+    },
     "level": 84,
-    "panoply": "Panoplie du Blanc Pa Wabbit",
+    "panoply": "674e523f64788cc7414181a8",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -3434,10 +5578,18 @@
       "apResist": 5
     }
   },
-  "Anneau du Wabbit Céphale": {
-    "name": "Anneau du Wabbit Céphale",
+  "674e524164788cc74141a309": {
+    "id": "674e524164788cc74141a309",
+    "idShort": "uA",
+    "name": {
+      "fr": "Anneau du Wabbit Céphale",
+      "en": "Janus Wabbit Ring",
+      "pt": "Anel do Wabbit Céfalo",
+      "de": "Wabbit Terböser Ring",
+      "es": "Anillo de wabbit céfalo"
+    },
     "level": 122,
-    "panoply": "Panoplie du Wabbit Céphale",
+    "panoply": "674e523f64788cc7414181a9",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -3451,10 +5603,18 @@
       "apResist": -4
     }
   },
-  "Bracelet Tmotiv": {
-    "name": "Bracelet Tmotiv",
+  "674e524164788cc74141a33b": {
+    "id": "674e524164788cc74141a33b",
+    "idShort": "uB",
+    "name": {
+      "fr": "Bracelet Tmotiv",
+      "en": "Cally Bangle",
+      "pt": "Bracelete Motivo",
+      "de": "Armleitmotivreif",
+      "es": "Brazal Eitmotiv"
+    },
     "level": 104,
-    "panoply": "Panoplie Dramatik",
+    "panoply": "674e523f64788cc7414181ab",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -3466,8 +5626,16 @@
       "airDamage": 6
     }
   },
-  "Anomen Tengu": {
-    "name": "Anomen Tengu",
+  "674e524164788cc74141a347": {
+    "id": "674e524164788cc74141a347",
+    "idShort": "uC",
+    "name": {
+      "fr": "Anomen Tengu",
+      "en": "Ringnomen Tengu",
+      "pt": "Anelmen Tengu",
+      "de": "Nomen Tengu - Ring",
+      "es": "Anillo nomen tengu"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
@@ -3475,8 +5643,16 @@
       "airDamage": 2
     }
   },
-  "Geishanneau": {
-    "name": "Geishanneau",
+  "674e524164788cc74141a353": {
+    "id": "674e524164788cc74141a353",
+    "idShort": "uD",
+    "name": {
+      "fr": "Geishanneau",
+      "en": "Ringeisha",
+      "pt": "Gueixanel",
+      "de": "Geishring",
+      "es": "Anillo de geisha"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
@@ -3484,8 +5660,16 @@
       "power": 10
     }
   },
-  "Kouinkano Noir": {
-    "name": "Kouinkano Noir",
+  "674e524164788cc74141a357": {
+    "id": "674e524164788cc74141a357",
+    "idShort": "uE",
+    "name": {
+      "fr": "Kouinkano Noir",
+      "en": "Black Quakhoop",
+      "pt": "Quaquanel Preto",
+      "de": "Schwarzer Quark-Quak - Ring",
+      "es": "Anillo de kuakuá negro"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
@@ -3493,8 +5677,16 @@
       "criticalChance": 2
     }
   },
-  "Kouinkano Jaune": {
-    "name": "Kouinkano Jaune",
+  "674e524164788cc74141a35b": {
+    "id": "674e524164788cc74141a35b",
+    "idShort": "uF",
+    "name": {
+      "fr": "Kouinkano Jaune",
+      "en": "Yellow Quakhoop",
+      "pt": "Quaquanel amarelo",
+      "de": "Gelber Quark-Quak - Ring",
+      "es": "Anillo de kuakuá amarillo"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
@@ -3502,10 +5694,18 @@
       "fireDamage": 3
     }
   },
-  "Nageanneau": {
-    "name": "Nageanneau",
+  "674e524164788cc74141a375": {
+    "id": "674e524164788cc74141a375",
+    "idShort": "uG",
+    "name": {
+      "fr": "Nageanneau",
+      "en": "Watring",
+      "pt": "Aguanel",
+      "de": "Junger Frauenmeerring",
+      "es": "Anillónar"
+    },
     "level": 136,
-    "panoply": "Panoplie Engloutie",
+    "panoply": "674e523f64788cc7414181ad",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -3522,8 +5722,16 @@
       "lock": -4
     }
   },
-  "Annolita": {
-    "name": "Annolita",
+  "674e524164788cc74141a41c": {
+    "id": "674e524164788cc74141a41c",
+    "idShort": "uH",
+    "name": {
+      "fr": "Annolita",
+      "en": "Bandita",
+      "pt": "Anelita",
+      "de": "Lolitas Ring",
+      "es": "Anillo de lolita"
+    },
     "level": 10,
     "category": "ring",
     "stats": {
@@ -3531,10 +5739,18 @@
       "criticalChance": 1
     }
   },
-  "Anneau Tique": {
-    "name": "Anneau Tique",
+  "674e524164788cc74141a44c": {
+    "id": "674e524164788cc74141a44c",
+    "idShort": "uI",
+    "name": {
+      "fr": "Anneau Tique",
+      "en": "Ringaling",
+      "pt": "Anel Náutico",
+      "de": "Rings Rum",
+      "es": "Anillo Céano"
+    },
     "level": 200,
-    "panoply": "Panoplie des Abysses",
+    "panoply": "674e523f64788cc7414181b0",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3553,10 +5769,18 @@
       "pushbackResist": 30
     }
   },
-  "Pikano": {
-    "name": "Pikano",
+  "674e524164788cc74141a44f": {
+    "id": "674e524164788cc74141a44f",
+    "idShort": "uJ",
+    "name": {
+      "fr": "Pikano",
+      "en": "Barbring",
+      "pt": "Pikoanel",
+      "de": "Pickollo-Ring",
+      "es": "Pikanillo"
+    },
     "level": 195,
-    "panoply": "Pikoplie",
+    "panoply": "674e523f64788cc7414181ae",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3575,10 +5799,18 @@
       "mpReduction": 5
     }
   },
-  "Anneau Kturne": {
-    "name": "Anneau Kturne",
+  "674e524164788cc74141a481": {
+    "id": "674e524164788cc74141a481",
+    "idShort": "uK",
+    "name": {
+      "fr": "Anneau Kturne",
+      "en": "Antumband",
+      "pt": "Noturnel",
+      "de": "Nachtring",
+      "es": "Anillo Kturno"
+    },
     "level": 196,
-    "panoply": "Panoplie d'Ombre",
+    "panoply": "674e523f64788cc7414181b2",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3594,10 +5826,18 @@
       "lock": 5
     }
   },
-  "Anneau du Père Fwetar": {
-    "name": "Anneau du Père Fwetar",
+  "674e524164788cc74141a4ca": {
+    "id": "674e524164788cc74141a4ca",
+    "idShort": "uL",
+    "name": {
+      "fr": "Anneau du Père Fwetar",
+      "en": "Father Whupper Ring",
+      "pt": "Anel do Papai Cruel",
+      "de": "Ring von Rubrächer, dem Knechter",
+      "es": "Anillo de Papa No-es"
+    },
     "level": 199,
-    "panoply": "Panoplie du Père Fwetar",
+    "panoply": "674e523f64788cc7414181b3",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3613,10 +5853,18 @@
       "criticalResist": 20
     }
   },
-  "Anneau du Kaniblou": {
-    "name": "Anneau du Kaniblou",
+  "674e524164788cc74141a4f3": {
+    "id": "674e524164788cc74141a4f3",
+    "idShort": "uM",
+    "name": {
+      "fr": "Anneau du Kaniblou",
+      "en": "Kanazure Ring",
+      "pt": "Anel do Kaniblu",
+      "de": "Kaniguaring",
+      "es": "Anillo de kanublú"
+    },
     "level": 162,
-    "panoply": "Panoplie du Kaniblou",
+    "panoply": "674e523f64788cc7414181b6",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3630,10 +5878,18 @@
       "apReduction": 5
     }
   },
-  "Anneau de Nidas": {
-    "name": "Anneau de Nidas",
+  "674e524164788cc74141a559": {
+    "id": "674e524164788cc74141a559",
+    "idShort": "uN",
+    "name": {
+      "fr": "Anneau de Nidas",
+      "en": "Nidas's Ring",
+      "pt": "Anel de Nidas",
+      "de": "König Nidas' Ring",
+      "es": "Anillo de Nidas"
+    },
     "level": 200,
-    "panoply": "Panoplie de Nidas",
+    "panoply": "674e523f64788cc7414181b9",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3647,10 +5903,18 @@
       "mpReduction": 5
     }
   },
-  "Bracelet du Piloztère": {
-    "name": "Bracelet du Piloztère",
+  "674e524164788cc74141a55c": {
+    "id": "674e524164788cc74141a55c",
+    "idShort": "uO",
+    "name": {
+      "fr": "Bracelet du Piloztère",
+      "en": "Hairsh Bracelet",
+      "pt": "Bracelete do Pelutrof",
+      "de": "Haarraff-Armreif",
+      "es": "Brazalete de melenutrof"
+    },
     "level": 200,
-    "panoply": "Panoplie du Piloztère",
+    "panoply": "674e523f64788cc7414181ba",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3663,10 +5927,18 @@
       "neutralResistPer": 10
     }
   },
-  "Alliance du Lévitrof": {
-    "name": "Alliance du Lévitrof",
+  "674e524164788cc74141a55f": {
+    "id": "674e524164788cc74141a55f",
+    "idShort": "uP",
+    "name": {
+      "fr": "Alliance du Lévitrof",
+      "en": "Levitrof Wedding Ring",
+      "pt": "Aliança do Levitrof",
+      "de": "Levitrof-Ring",
+      "es": "Alianza de levitrof"
+    },
     "level": 200,
-    "panoply": "Panoplie du Lévitrof",
+    "panoply": "674e523f64788cc7414181bb",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3683,10 +5955,18 @@
       "fireResistPer": 6
     }
   },
-  "Anneau Truche": {
-    "name": "Anneau Truche",
+  "674e524164788cc74141a5f6": {
+    "id": "674e524164788cc74141a5f6",
+    "idShort": "uQ",
+    "name": {
+      "fr": "Anneau Truche",
+      "en": "Strich Ring",
+      "pt": "Anel Truz",
+      "de": "Kamelspatzen-Ring",
+      "es": "Pestrunillo"
+    },
     "level": 130,
-    "panoply": "Panoplie Truche",
+    "panoply": "674e523f64788cc7414181c1",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -3699,10 +5979,18 @@
       "airResist": 12
     }
   },
-  "Anneau du Katcheur": {
-    "name": "Anneau du Katcheur",
+  "674e524164788cc74141a645": {
+    "id": "674e524164788cc74141a645",
+    "idShort": "uR",
+    "name": {
+      "fr": "Anneau du Katcheur",
+      "en": "Rassler Ring",
+      "pt": "Anel do lutador de Ketch",
+      "de": "Wresstel-Ring",
+      "es": "Anillo de luchador de presinkach"
+    },
     "level": 200,
-    "panoply": "Panoplie du Katcheur",
+    "panoply": "674e523f64788cc7414181c7",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -3719,10 +6007,18 @@
       "initiative": 400
     }
   },
-  "Gant du Capitaine Ekarlatte": {
-    "name": "Gant du Capitaine Ekarlatte",
+  "674e524164788cc74141a685": {
+    "id": "674e524164788cc74141a685",
+    "idShort": "uS",
+    "name": {
+      "fr": "Gant du Capitaine Ekarlatte",
+      "en": "Captain Scarlight's Glove",
+      "pt": "Luva do Capitão Skarlat",
+      "de": "Hauptmann Rot-Tekas Handschuhe",
+      "es": "Guante del Capitán Eskarlata"
+    },
     "level": 132,
-    "panoply": "Panoplie du Capitaine Ekarlatte",
+    "panoply": "674e523f64788cc7414181ca",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -3735,10 +6031,18 @@
       "pushbackDamage": 15
     }
   },
-  "Gant de Frakacia": {
-    "name": "Gant de Frakacia",
+  "674e524164788cc74141a697": {
+    "id": "674e524164788cc74141a697",
+    "idShort": "uT",
+    "name": {
+      "fr": "Gant de Frakacia",
+      "en": "Stellia's Glove",
+      "pt": "Luvas da Kebra",
+      "de": "Frakassura Leukocytinas Handschuh",
+      "es": "Guante de Tortacia"
+    },
     "level": 32,
-    "panoply": "Panoplie de Frakacia Leukocytine",
+    "panoply": "674e523f64788cc7414181cc",
     "category": "ring",
     "stats": {
       "health": 20,
@@ -3747,10 +6051,18 @@
       "prospecting": 5
     }
   },
-  "Anneau de Pol Ouatnos": {
-    "name": "Anneau de Pol Ouatnos",
+  "674e524164788cc74141a73c": {
+    "id": "674e524164788cc74141a73c",
+    "idShort": "uU",
+    "name": {
+      "fr": "Anneau de Pol Ouatnos",
+      "en": "Pawl Ouatnos' Ring",
+      "pt": "Anel do Pow Uatisson",
+      "de": "Kapitän Pol Tawnos Ring",
+      "es": "Anillo de Pol Guatson"
+    },
     "level": 200,
-    "panoply": "Panoplie de Pol Ouatnos",
+    "panoply": "674e523f64788cc7414183e0",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -3763,10 +6075,18 @@
       "lock": 10
     }
   },
-  "Anneau des égarés": {
-    "name": "Anneau des égarés",
+  "674e524164788cc74141a766": {
+    "id": "674e524164788cc74141a766",
+    "idShort": "uV",
+    "name": {
+      "fr": "Anneau des égarés",
+      "en": "Fugitive Ring",
+      "pt": "Anel dos Perdidos",
+      "de": "Ring der Verlorenen",
+      "es": "Anillo de los idos"
+    },
     "level": 200,
-    "panoply": "Panoplie des égarés",
+    "panoply": "674e523f64788cc7414181ce",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3781,10 +6101,18 @@
       "mpResist": 7
     }
   },
-  "Anneau de XLII": {
-    "name": "Anneau de XLII",
+  "674e524164788cc74141a781": {
+    "id": "674e524164788cc74141a781",
+    "idShort": "uW",
+    "name": {
+      "fr": "Anneau de XLII",
+      "en": "XLII Ring",
+      "pt": "Anel de XLII",
+      "de": "XLII-Ring",
+      "es": "Anillo de XLII"
+    },
     "level": 171,
-    "panoply": "Panoplie de XLII",
+    "panoply": "674e523f64788cc7414181d2",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -3799,10 +6127,18 @@
       "criticalResist": 12
     }
   },
-  "Anneau de Fraktale": {
-    "name": "Anneau de Fraktale",
+  "674e524164788cc74141a790": {
+    "id": "674e524164788cc74141a790",
+    "idShort": "uX",
+    "name": {
+      "fr": "Anneau de Fraktale",
+      "en": "Fraktal Ring",
+      "pt": "Anel de Fraktal",
+      "de": "Fraktal-Ring",
+      "es": "Anillo de Fraktal"
+    },
     "level": 120,
-    "panoply": "Panoplie de Fraktale",
+    "panoply": "674e523f64788cc7414181d4",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -3817,10 +6153,18 @@
       "mpResist": 7
     }
   },
-  "Anneau Xélomorphe": {
-    "name": "Anneau Xélomorphe",
+  "674e524164788cc74141a791": {
+    "id": "674e524164788cc74141a791",
+    "idShort": "uY",
+    "name": {
+      "fr": "Anneau Xélomorphe",
+      "en": "Xelomorph Ring",
+      "pt": "Anel Xelomorfo",
+      "de": "Ring der Xélomorphe",
+      "es": "Anillo xeloforme"
+    },
     "level": 117,
-    "panoply": "Panoplie Xélomorphe",
+    "panoply": "674e523f64788cc7414181d5",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -3834,10 +6178,18 @@
       "mpReduction": 5
     }
   },
-  "Anneau Bille": {
-    "name": "Anneau Bille",
+  "674e524164788cc74141a857": {
+    "id": "674e524164788cc74141a857",
+    "idShort": "uZ",
+    "name": {
+      "fr": "Anneau Bille",
+      "en": "Tinkly Bell Ring",
+      "pt": "Anel de Gude",
+      "de": "Garstinsektenring",
+      "es": "Anillo bola"
+    },
     "level": 36,
-    "panoply": "Microplie",
+    "panoply": "674e523f64788cc7414181d7",
     "category": "ring",
     "stats": {
       "agility": 25,
@@ -3845,10 +6197,18 @@
       "power": 10
     }
   },
-  "Alliance Apaisante": {
-    "name": "Alliance Apaisante",
+  "674e524164788cc74141a85d": {
+    "id": "674e524164788cc74141a85d",
+    "idShort": "v0",
+    "name": {
+      "fr": "Alliance Apaisante",
+      "en": "Soothing Ring",
+      "pt": "Aliança relaxante",
+      "de": "Beruhigungsring",
+      "es": "Alianza tranquilizadora"
+    },
     "level": 59,
-    "panoply": "Panoplie Palliative",
+    "panoply": "674e523f64788cc7414181d8",
     "category": "ring",
     "stats": {
       "intelligence": 30,
@@ -3858,10 +6218,18 @@
       "waterDamage": 3
     }
   },
-  "Anneau Tranchant": {
-    "name": "Anneau Tranchant",
+  "674e524164788cc74141a863": {
+    "id": "674e524164788cc74141a863",
+    "idShort": "v1",
+    "name": {
+      "fr": "Anneau Tranchant",
+      "en": "Cutting Ring",
+      "pt": "Anel cortante",
+      "de": "Klauenring",
+      "es": "Anillo cortante"
+    },
     "level": 129,
-    "panoply": "Panoplie de la Voleuse",
+    "panoply": "674e523f64788cc7414181d9",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -3875,10 +6243,18 @@
       "pushbackResist": 10
     }
   },
-  "Bracelet des Fonds marins": {
-    "name": "Bracelet des Fonds marins",
+  "674e524164788cc74141a864": {
+    "id": "674e524164788cc74141a864",
+    "idShort": "v2",
+    "name": {
+      "fr": "Bracelet des Fonds marins",
+      "en": "Deep Sea Bracelet",
+      "pt": "Bracelete do fundo do mar",
+      "de": "Ring des Meeresgrundes",
+      "es": "Brazalete de los fondos marinos"
+    },
     "level": 200,
-    "panoply": "Panoplie des Fonds marins",
+    "panoply": "674e523f64788cc7414181da",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -3892,17 +6268,33 @@
       "mpResist": 5
     }
   },
-  "Anneau Vae": {
-    "name": "Anneau Vae",
+  "674e524164788cc74141a8b6": {
+    "id": "674e524164788cc74141a8b6",
+    "idShort": "v3",
+    "name": {
+      "fr": "Anneau Vae",
+      "en": "Nova Ring",
+      "pt": "Novanel",
+      "de": "Nova-Ring",
+      "es": "Anillo nova"
+    },
     "level": 150,
-    "panoply": "Panoplie Transcendante",
+    "panoply": "674e523f64788cc7414181db",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Tissé": {
-    "name": "Anneau Tissé",
+  "674e524164788cc74141a8d1": {
+    "id": "674e524164788cc74141a8d1",
+    "idShort": "v4",
+    "name": {
+      "fr": "Anneau Tissé",
+      "en": "Spynner Ring",
+      "pt": "Anel tecido",
+      "de": "Gewebter Ring",
+      "es": "Anillo tejido"
+    },
     "level": 93,
-    "panoply": "Panoplie de la Tisseuse",
+    "panoply": "674e523f64788cc7414181dc",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -3912,8 +6304,16 @@
       "earthResistPer": 5
     }
   },
-  "Alliance des Forestiers": {
-    "name": "Alliance des Forestiers",
+  "674e524164788cc74141a8f4": {
+    "id": "674e524164788cc74141a8f4",
+    "idShort": "v5",
+    "name": {
+      "fr": "Alliance des Forestiers",
+      "en": "Forester's Ring",
+      "pt": "Aliança dos Florestais",
+      "de": "Bündnisring der Förster",
+      "es": "Alianza de los guardabosques"
+    },
     "level": 90,
     "category": "ring",
     "stats": {
@@ -3927,10 +6327,18 @@
       "apResist": 5
     }
   },
-  "Printanneau": {
-    "name": "Printanneau",
+  "674e524164788cc74141a912": {
+    "id": "674e524164788cc74141a912",
+    "idShort": "v6",
+    "name": {
+      "fr": "Printanneau",
+      "en": "Springy Ring",
+      "pt": "Anel primaveril",
+      "de": "Frühlingsring",
+      "es": "Primanillo"
+    },
     "level": 45,
-    "panoply": "Printanoplie",
+    "panoply": "674e523f64788cc7414183c0",
     "category": "ring",
     "stats": {
       "health": 15,
@@ -3940,28 +6348,52 @@
       "dodge": 3
     }
   },
-  "Bracelet de Kardorim": {
-    "name": "Bracelet de Kardorim",
+  "674e524164788cc74141a9e1": {
+    "id": "674e524164788cc74141a9e1",
+    "idShort": "v7",
+    "name": {
+      "fr": "Bracelet de Kardorim",
+      "en": "Kardorim's Bracelet",
+      "pt": "Bracelete do Kardorim",
+      "de": "Kardorims Armschützer",
+      "es": "Brazalete de Chadalid"
+    },
     "level": 12,
-    "panoply": "Panoplie de Kardorim",
+    "panoply": "674e523f64788cc7414181df",
     "category": "ring",
     "stats": {
       "chance": 15,
       "waterDamage": 2
     }
   },
-  "Sac à Main Renforcé": {
-    "name": "Sac à Main Renforcé",
+  "674e524164788cc74141aab4": {
+    "id": "674e524164788cc74141aab4",
+    "idShort": "v8",
+    "name": {
+      "fr": "Sac à Main Renforcé",
+      "en": "Reinforced Handbag",
+      "pt": "Bolsa reforçada",
+      "de": "Verstärktes Handtäschchen",
+      "es": "Bolso reforzado"
+    },
     "level": 8,
     "category": "ring",
     "stats": {
       "pods": 100
     }
   },
-  "Alliance du Capitaine Pirate": {
-    "name": "Alliance du Capitaine Pirate",
+  "674e524164788cc74141aba3": {
+    "id": "674e524164788cc74141aba3",
+    "idShort": "v9",
+    "name": {
+      "fr": "Alliance du Capitaine Pirate",
+      "en": "Pirate Captain's Wedding Ring",
+      "pt": "Aliança do Capitão Pirata",
+      "de": "Trauring des Piratenkapitäns",
+      "es": "Alianza de capitán pirata"
+    },
     "level": 94,
-    "panoply": "Panoplie du Capitaine Pirate",
+    "panoply": "674e523f64788cc7414181e1",
     "category": "ring",
     "stats": {
       "health": 90,
@@ -3975,15 +6407,31 @@
       "pushbackDamage": 3
     }
   },
-  "Anneau Riginel": {
-    "name": "Anneau Riginel",
+  "674e524164788cc74141ac85": {
+    "id": "674e524164788cc74141ac85",
+    "idShort": "va",
+    "name": {
+      "fr": "Anneau Riginel",
+      "en": "Oringinal",
+      "pt": "Anel original",
+      "de": "Kein Ring sie zu knechten",
+      "es": "Anillo rúnico"
+    },
     "level": 150,
-    "panoply": "Panoplie Quadramentale",
+    "panoply": "674e523f64788cc7414181e9",
     "category": "ring",
     "stats": {}
   },
-  "Anneau Welle": {
-    "name": "Anneau Welle",
+  "674e524164788cc74141ac8a": {
+    "id": "674e524164788cc74141ac8a",
+    "idShort": "vb",
+    "name": {
+      "fr": "Anneau Welle",
+      "en": "Kwismas Ring",
+      "pt": "Anel Talino",
+      "de": "Weißnachtsring",
+      "es": "Adornanillo"
+    },
     "level": 59,
     "category": "ring",
     "stats": {
@@ -3993,10 +6441,18 @@
       "heal": 2
     }
   },
-  "Chevalière du Roi Joueur": {
-    "name": "Chevalière du Roi Joueur",
+  "674e524164788cc74141ace3": {
+    "id": "674e524164788cc74141ace3",
+    "idShort": "vc",
+    "name": {
+      "fr": "Chevalière du Roi Joueur",
+      "en": "King Playa Signet Ring",
+      "pt": "Anel de Sinete do Rei Jogador",
+      "de": "Siegelring des Spielerkönigs",
+      "es": "Sello del rey jugador"
+    },
     "level": 200,
-    "panoply": "Panoplie du Roi Joueur",
+    "panoply": "674e523f64788cc7414181ea",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4014,10 +6470,18 @@
       "mpReduction": 6
     }
   },
-  "Gant du Valet Veinard": {
-    "name": "Gant du Valet Veinard",
+  "674e524164788cc74141aceb": {
+    "id": "674e524164788cc74141aceb",
+    "idShort": "vd",
+    "name": {
+      "fr": "Gant du Valet Veinard",
+      "en": "Jammy Jack Glove",
+      "pt": "Luva do Valete Venturoso",
+      "de": "Glücksbube-Handschuh",
+      "es": "Guantes de sota afortunada"
+    },
     "level": 200,
-    "panoply": "Panoplie du Valet Veinard",
+    "panoply": "674e523f64788cc7414181ed",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4031,10 +6495,18 @@
       "pushbackResist": 15
     }
   },
-  "Anneau des Matougarous": {
-    "name": "Anneau des Matougarous",
+  "674e524164788cc74141acf5": {
+    "id": "674e524164788cc74141acf5",
+    "idShort": "ve",
+    "name": {
+      "fr": "Anneau des Matougarous",
+      "en": "Weremoggy Ring",
+      "pt": "Anel dos Lobichanos",
+      "de": "Werkater-Ring",
+      "es": "Anillo de micholobo"
+    },
     "level": 161,
-    "panoply": "Panoplie des Matougarous",
+    "panoply": "674e523f64788cc7414181f0",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -4049,10 +6521,18 @@
       "criticalDamage": 10
     }
   },
-  "Bague des Ecaflipuces": {
-    "name": "Bague des Ecaflipuces",
+  "674e524164788cc74141acf9": {
+    "id": "674e524164788cc74141acf9",
+    "idShort": "vf",
+    "name": {
+      "fr": "Bague des Ecaflipuces",
+      "en": "Ecaflee Ring",
+      "pt": "Anel das Ecaflipulgas",
+      "de": "Ecafloh-Ring",
+      "es": "Anillo zurcapulgoso"
+    },
     "level": 114,
-    "panoply": "Panoplie des Ecaflipuces",
+    "panoply": "674e523f64788cc7414181f2",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -4065,10 +6545,18 @@
       "lock": 3
     }
   },
-  "Anneau Crustique": {
-    "name": "Anneau Crustique",
+  "674e524164788cc74141ae61": {
+    "id": "674e524164788cc74141ae61",
+    "idShort": "vg",
+    "name": {
+      "fr": "Anneau Crustique",
+      "en": "Crustic Ring",
+      "pt": "Anel crústico",
+      "de": "Krustenring",
+      "es": "Anillo crústico"
+    },
     "level": 200,
-    "panoply": "Panoplie des Tréfonds",
+    "panoply": "674e523f64788cc7414183ea",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -4082,10 +6570,18 @@
       "apReduction": 10
     }
   },
-  "Bague Trithon": {
-    "name": "Bague Trithon",
+  "674e524164788cc74141ae80": {
+    "id": "674e524164788cc74141ae80",
+    "idShort": "vh",
+    "name": {
+      "fr": "Bague Trithon",
+      "en": "Tritun Ring",
+      "pt": "Anel de Triatum",
+      "de": "Trithunring",
+      "es": "Anillo trithón"
+    },
     "level": 200,
-    "panoply": "Panoplie Trithon",
+    "panoply": "674e523f64788cc7414181f4",
     "category": "ring",
     "stats": {
       "health": 400,
@@ -4099,10 +6595,18 @@
       "pushbackDamage": 15
     }
   },
-  "Anneau Rifique": {
-    "name": "Anneau Rifique",
+  "674e524164788cc74141ae88": {
+    "id": "674e524164788cc74141ae88",
+    "idShort": "vi",
+    "name": {
+      "fr": "Anneau Rifique",
+      "en": "Horrifing",
+      "pt": "Anel horrendo",
+      "de": "Horroring",
+      "es": "Anillo Rorífico"
+    },
     "level": 200,
-    "panoply": "Panoplie de R'lyugluglu",
+    "panoply": "674e523f64788cc7414181f8",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4116,10 +6620,18 @@
       "criticalResist": 15
     }
   },
-  "Anneau Ouroboulos": {
-    "name": "Anneau Ouroboulos",
+  "674e524164788cc74141aff0": {
+    "id": "674e524164788cc74141aff0",
+    "idShort": "vj",
+    "name": {
+      "fr": "Anneau Ouroboulos",
+      "en": "Ourobubble Ring",
+      "pt": "Anel de Ourobolados",
+      "de": "Ouroballos-Ring",
+      "es": "Anillo de uróbolo"
+    },
     "level": 80,
-    "panoply": "Panoplie Ouroboulos",
+    "panoply": "674e523f64788cc7414181f9",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -4132,10 +6644,18 @@
       "lock": 3
     }
   },
-  "Anneau d'El Piko": {
-    "name": "Anneau d'El Piko",
+  "674e524164788cc74141affb": {
+    "id": "674e524164788cc74141affb",
+    "idShort": "vk",
+    "name": {
+      "fr": "Anneau d'El Piko",
+      "en": "El Piko Ring",
+      "pt": "Anel de El Piko",
+      "de": "El Pieksos Ring",
+      "es": "Anillo de El Piko"
+    },
     "level": 130,
-    "panoply": "Panoplie d'El Piko",
+    "panoply": "674e523f64788cc7414181fc",
     "category": "ring",
     "stats": {
       "health": 150,
@@ -4150,10 +6670,18 @@
       "apResist": 7
     }
   },
-  "Veranneau": {
-    "name": "Veranneau",
+  "674e524164788cc74141b07a": {
+    "id": "674e524164788cc74141b07a",
+    "idShort": "vl",
+    "name": {
+      "fr": "Veranneau",
+      "en": "Wurmring",
+      "pt": "Vermanel",
+      "de": "Wurmring",
+      "es": "Anillidón"
+    },
     "level": 169,
-    "panoply": "Pernoplie",
+    "panoply": "674e523f64788cc7414181ff",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4168,10 +6696,18 @@
       "criticalResist": 15
     }
   },
-  "Baguistik": {
-    "name": "Baguistik",
+  "674e524164788cc74141b07f": {
+    "id": "674e524164788cc74141b07f",
+    "idShort": "vm",
+    "name": {
+      "fr": "Baguistik",
+      "en": "Mumysring",
+      "pt": "Anelístika",
+      "de": "Mumforing",
+      "es": "Momistianillo"
+    },
     "level": 200,
-    "panoply": "Panoplistik",
+    "panoply": "674e523f64788cc741418201",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4188,10 +6724,18 @@
       "criticalResist": 30
     }
   },
-  "Anneauræus": {
-    "name": "Anneauræus",
+  "674e524164788cc74141b084": {
+    "id": "674e524164788cc74141b084",
+    "idShort": "vn",
+    "name": {
+      "fr": "Anneauræus",
+      "en": "Ringaeus",
+      "pt": "Anelureu",
+      "de": "Uräusring",
+      "es": "Anilluræus"
+    },
     "level": 200,
-    "panoply": "Panoplie des Maudits",
+    "panoply": "674e523f64788cc7414183e8",
     "category": "ring",
     "stats": {
       "health": 400,
@@ -4207,17 +6751,33 @@
       "criticalResist": -30
     }
   },
-  "Anneau Nos": {
-    "name": "Anneau Nos",
+  "674e524164788cc74141b08c": {
+    "id": "674e524164788cc74141b08c",
+    "idShort": "vo",
+    "name": {
+      "fr": "Anneau Nos",
+      "en": "Bone Band",
+      "pt": "Anelosso",
+      "de": "Knochi-Ring",
+      "es": "Anillóseo"
+    },
     "level": 150,
-    "panoply": "Panoplie Enragée",
+    "panoply": "674e523f64788cc741418202",
     "category": "ring",
     "stats": {}
   },
-  "Goulano": {
-    "name": "Goulano",
+  "674e524164788cc74141b1d9": {
+    "id": "674e524164788cc74141b1d9",
+    "idShort": "vp",
+    "name": {
+      "fr": "Goulano",
+      "en": "Goulring",
+      "pt": "Carniçanel",
+      "de": "Ghulring",
+      "es": "Ghulanillo"
+    },
     "level": 200,
-    "panoply": "Panoplie de la Goule",
+    "panoply": "674e523f64788cc741418206",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4233,10 +6793,18 @@
       "criticalResist": 25
     }
   },
-  "Anneau Riktus": {
-    "name": "Anneau Riktus",
+  "674e524164788cc74141b1e4": {
+    "id": "674e524164788cc74141b1e4",
+    "idShort": "vq",
+    "name": {
+      "fr": "Anneau Riktus",
+      "en": "Riktus Ring",
+      "pt": "Anel de Riktus",
+      "de": "Riktanz-Ring",
+      "es": "Anillo Riktus"
+    },
     "level": 88,
-    "panoply": "Panoplie Riktus",
+    "panoply": "674e523f64788cc741418209",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -4247,10 +6815,18 @@
       "waterResistPer": 3
     }
   },
-  "Alliance Brûlâme": {
-    "name": "Alliance Brûlâme",
+  "674e524164788cc74141b281": {
+    "id": "674e524164788cc74141b281",
+    "idShort": "vr",
+    "name": {
+      "fr": "Alliance Brûlâme",
+      "en": "Soul-Blaze Wedding Ring",
+      "pt": "Aliança de Almardente",
+      "de": "Trauring der Brennenden Seele",
+      "es": "Alianza quemaalmas"
+    },
     "level": 200,
-    "panoply": "Panoplie Brûlâme",
+    "panoply": "674e523f64788cc741418212",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4266,8 +6842,16 @@
       "airResistPer": 7
     }
   },
-  "Lavanneau": {
-    "name": "Lavanneau",
+  "674e524164788cc74141b3a0": {
+    "id": "674e524164788cc74141b3a0",
+    "idShort": "vs",
+    "name": {
+      "fr": "Lavanneau",
+      "en": "Lavaring",
+      "pt": "Lavanel",
+      "de": "Lavaring",
+      "es": "Lavanillo"
+    },
     "level": 200,
     "category": "ring",
     "stats": {
@@ -4282,10 +6866,18 @@
       "airResistPer": 10
     }
   },
-  "Anneau Toriété": {
-    "name": "Anneau Toriété",
+  "674e524164788cc74141b3ab": {
+    "id": "674e524164788cc74141b3ab",
+    "idShort": "vt",
+    "name": {
+      "fr": "Anneau Toriété",
+      "en": "Celebring",
+      "pt": "Anel Toriedade",
+      "de": "Promiring",
+      "es": "Anillo de famosillo"
+    },
     "level": 200,
-    "panoply": "Panoplie Noyée",
+    "panoply": "674e523f64788cc7414183e4",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4296,18 +6888,34 @@
       "waterResistPer": 7
     }
   },
-  "Anneau de l'Audacieux": {
-    "name": "Anneau de l'Audacieux",
+  "674e524164788cc74141b3b9": {
+    "id": "674e524164788cc74141b3b9",
+    "idShort": "vu",
+    "name": {
+      "fr": "Anneau de l'Audacieux",
+      "en": "Courageous Ring",
+      "pt": "Anel do Audacioso",
+      "de": "Ring des Wagemutigen",
+      "es": "Anillo del audaz"
+    },
     "level": 1,
     "category": "ring",
     "stats": {
       "power": 4
     }
   },
-  "Anneau en Grithril": {
-    "name": "Anneau en Grithril",
+  "674e524164788cc74141b516": {
+    "id": "674e524164788cc74141b516",
+    "idShort": "vv",
+    "name": {
+      "fr": "Anneau en Grithril",
+      "en": "Grithril Ring",
+      "pt": "Anel de Mithrinza",
+      "de": "Ring aus Grithril",
+      "es": "Anillo de grithril"
+    },
     "level": 200,
-    "panoply": "Grithriloplie",
+    "panoply": "674e523f64788cc741418217",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4323,10 +6931,18 @@
       "criticalResist": 15
     }
   },
-  "Anneau Volkorne": {
-    "name": "Anneau Volkorne",
+  "674e524164788cc74141b51e": {
+    "id": "674e524164788cc74141b51e",
+    "idShort": "vw",
+    "name": {
+      "fr": "Anneau Volkorne",
+      "en": "Rhineetle Ring",
+      "pt": "Anel de Vulkórnio",
+      "de": "Naskäfer-Ring",
+      "es": "Anillo de vueloceronte"
+    },
     "level": 200,
-    "panoply": "Panoplie Volkorne",
+    "panoply": "674e523f64788cc741418219",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4336,10 +6952,18 @@
       "waterResistPer": 10
     }
   },
-  "Rondelle de Waddict": {
-    "name": "Rondelle de Waddict",
+  "674e524164788cc74141b7fe": {
+    "id": "674e524164788cc74141b7fe",
+    "idShort": "vx",
+    "name": {
+      "fr": "Rondelle de Waddict",
+      "en": "Waddict Ring",
+      "pt": "Rodela de Waddict",
+      "de": "Wabhängigen-Ring",
+      "es": "Anillo de waddicto"
+    },
     "level": 56,
-    "panoply": "Panoplie du Mawabouaino",
+    "panoply": "674e523f64788cc74141821d",
     "category": "ring",
     "stats": {
       "health": 25,
@@ -4348,10 +6972,18 @@
       "dodge": 8
     }
   },
-  "Crocanneau": {
-    "name": "Crocanneau",
+  "674e524164788cc74141b959": {
+    "id": "674e524164788cc74141b959",
+    "idShort": "vy",
+    "name": {
+      "fr": "Crocanneau",
+      "en": "Crocoring",
+      "pt": "Crocanel",
+      "de": "Crocoring",
+      "es": "Coconillo"
+    },
     "level": 200,
-    "panoply": "Panoplie de Crocuzko",
+    "panoply": "674e523f64788cc7414183df",
     "category": "ring",
     "requirement": {
       "type": "apLessThanOrMpLessThan",
@@ -4368,10 +7000,18 @@
       "pushbackResist": 20
     }
   },
-  "Anneau Lunaire": {
-    "name": "Anneau Lunaire",
+  "674e524164788cc74141b95e": {
+    "id": "674e524164788cc74141b95e",
+    "idShort": "vz",
+    "name": {
+      "fr": "Anneau Lunaire",
+      "en": "Lunar Ring",
+      "pt": "Anel Lunar",
+      "de": "Mondring",
+      "es": "Anillo lunar"
+    },
     "level": 200,
-    "panoply": "Panoplie Lunaire",
+    "panoply": "674e523f64788cc74141821f",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4384,10 +7024,18 @@
       "apReduction": 10
     }
   },
-  "Convoitise de Misère": {
-    "name": "Convoitise de Misère",
+  "674e524164788cc74141bce9": {
+    "id": "674e524164788cc74141bce9",
+    "idShort": "vA",
+    "name": {
+      "fr": "Convoitise de Misère",
+      "en": "Misery's Greed",
+      "pt": "Cobiça de Miséria",
+      "de": "Elends Gier",
+      "es": "Codicia de Miseria"
+    },
     "level": 200,
-    "panoply": "Panoplie de Misère",
+    "panoply": "674e523f64788cc741418222",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4403,10 +7051,18 @@
       "criticalDamage": 10
     }
   },
-  "Ceste de Guerre": {
-    "name": "Ceste de Guerre",
+  "674e524164788cc74141bcef": {
+    "id": "674e524164788cc74141bcef",
+    "idShort": "vB",
+    "name": {
+      "fr": "Ceste de Guerre",
+      "en": "War's Gauntlet",
+      "pt": "Manopla de Guerra",
+      "de": "Kriegs Cestus",
+      "es": "Lanza de Guerra"
+    },
     "level": 200,
-    "panoply": "Panoplie de Guerre",
+    "panoply": "674e523f64788cc741418223",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -4420,10 +7076,18 @@
       "criticalDamage": 15
     }
   },
-  "Bague de Corruption": {
-    "name": "Bague de Corruption",
+  "674e524164788cc74141bcf7": {
+    "id": "674e524164788cc74141bcf7",
+    "idShort": "vC",
+    "name": {
+      "fr": "Bague de Corruption",
+      "en": "Corruption's Ring",
+      "pt": "Anel de Corrupção",
+      "de": "Verderbnis' Ring",
+      "es": "Anillo de Corrupción"
+    },
     "level": 200,
-    "panoply": "Panoplie de Corruption",
+    "panoply": "674e523f64788cc741418225",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4437,10 +7101,18 @@
       "criticalDamage": 10
     }
   },
-  "Alliance de Corruption": {
-    "name": "Alliance de Corruption",
+  "674e524164788cc74141bcf8": {
+    "id": "674e524164788cc74141bcf8",
+    "idShort": "vD",
+    "name": {
+      "fr": "Alliance de Corruption",
+      "en": "Corruption's Engagement Ring",
+      "pt": "Aliança de Corrupção",
+      "de": "Verderbnis' Trauring",
+      "es": "Alianza de Corrupción"
+    },
     "level": 200,
-    "panoply": "Panoplie de Corruption",
+    "panoply": "674e523f64788cc741418225",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4454,10 +7126,18 @@
       "mpReduction": 7
     }
   },
-  "Les Casse-noisettes": {
-    "name": "Les Casse-noisettes",
+  "674e524164788cc74141bf22": {
+    "id": "674e524164788cc74141bf22",
+    "idShort": "vE",
+    "name": {
+      "fr": "Les Casse-noisettes",
+      "en": "Nutcrackers",
+      "pt": "Quebra-Ovos",
+      "de": "Nussknacker",
+      "es": "Cascanueces"
+    },
     "level": 126,
-    "panoply": "Panoplie Tanuki",
+    "panoply": "674e523f64788cc741418229",
     "category": "ring",
     "stats": {
       "health": 100,
@@ -4471,10 +7151,18 @@
       "pushbackResist": 10
     }
   },
-  "Alliance des Firefoux": {
-    "name": "Alliance des Firefoux",
+  "674e524164788cc74141bf2a": {
+    "id": "674e524164788cc74141bf2a",
+    "idShort": "vF",
+    "name": {
+      "fr": "Alliance des Firefoux",
+      "en": "Firefoux Ring",
+      "pt": "Aliança dos Fogofox",
+      "de": "Feuerfux-Trauring",
+      "es": "Alianza firefux"
+    },
     "level": 136,
-    "panoply": "Panoplie Firefoux",
+    "panoply": "674e523f64788cc74141822a",
     "category": "ring",
     "stats": {
       "health": 120,
@@ -4489,18 +7177,34 @@
       "dodge": 5
     }
   },
-  "Sacrifice volontaire": {
-    "name": "Sacrifice volontaire",
+  "674e524164788cc74141c045": {
+    "id": "674e524164788cc74141c045",
+    "idShort": "vG",
+    "name": {
+      "fr": "Sacrifice volontaire",
+      "en": "Voluntary Sacrifice",
+      "pt": "Sacrifício Voluntário",
+      "de": "Freiwilliges Opfer",
+      "es": "Sacrificio voluntario"
+    },
     "level": 80,
     "category": "ring",
     "stats": {
       "health": -1
     }
   },
-  "Anneau de Koumiho": {
-    "name": "Anneau de Koumiho",
+  "674e524164788cc74141c07b": {
+    "id": "674e524164788cc74141c07b",
+    "idShort": "vH",
+    "name": {
+      "fr": "Anneau de Koumiho",
+      "en": "Koumiho Ring",
+      "pt": "Anel de Kumihu",
+      "de": "Kumihos Ring",
+      "es": "Anillo de Kumijo"
+    },
     "level": 164,
-    "panoply": "Panoplie des Tombeaux",
+    "panoply": "674e523f64788cc74141822b",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -4515,8 +7219,16 @@
       "pushbackResist": 10
     }
   },
-  "Anneau Menclatur": {
-    "name": "Anneau Menclatur",
+  "674e524164788cc74141c203": {
+    "id": "674e524164788cc74141c203",
+    "idShort": "vI",
+    "name": {
+      "fr": "Anneau Menclatur",
+      "en": "Nomenclatu Ring",
+      "pt": "Anel Menclatura",
+      "de": "Strukturring",
+      "es": "Negruraro"
+    },
     "level": 200,
     "category": "ring",
     "stats": {
@@ -4531,8 +7243,16 @@
       "pushbackDamage": 25
     }
   },
-  "Anneau Rtograf": {
-    "name": "Anneau Rtograf",
+  "674e524164788cc74141c206": {
+    "id": "674e524164788cc74141c206",
+    "idShort": "vJ",
+    "name": {
+      "fr": "Anneau Rtograf",
+      "en": "Spilling Ryng",
+      "pt": "Anel Togafia",
+      "de": "Rechtschreibring",
+      "es": "Anillo Rtografiko"
+    },
     "level": 200,
     "category": "ring",
     "stats": {
@@ -4553,10 +7273,18 @@
       "criticalDamage": 9
     }
   },
-  "Anneau Possédé": {
-    "name": "Anneau Possédé",
+  "674e524164788cc74141c36b": {
+    "id": "674e524164788cc74141c36b",
+    "idShort": "vK",
+    "name": {
+      "fr": "Anneau Possédé",
+      "en": "Possessed Ring",
+      "pt": "Anel Possuído",
+      "de": "Besessener Ring",
+      "es": "Anillo poseído"
+    },
     "level": 200,
-    "panoply": "Panoplie Possédée",
+    "panoply": "674e523f64788cc741418230",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4572,10 +7300,18 @@
       "mpReduction": 8
     }
   },
-  "Alliance du Pandamonium": {
-    "name": "Alliance du Pandamonium",
+  "674e524164788cc74141c36e": {
+    "id": "674e524164788cc74141c36e",
+    "idShort": "vL",
+    "name": {
+      "fr": "Alliance du Pandamonium",
+      "en": "Pandamonium Wedding Ring",
+      "pt": "Aliança do Pandamonium",
+      "de": "Allianz des Pandamoniums",
+      "es": "Alianza de Pandamonium"
+    },
     "level": 200,
-    "panoply": "Panoplie du Pandamonium",
+    "panoply": "674e523f64788cc741418231",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4591,8 +7327,16 @@
       "pushbackResist": 15
     }
   },
-  "Anneau du rat brâkmarien": {
-    "name": "Anneau du rat brâkmarien",
+  "674e524164788cc74141c402": {
+    "id": "674e524164788cc74141c402",
+    "idShort": "vM",
+    "name": {
+      "fr": "Anneau du rat brâkmarien",
+      "en": "Brakmarian Rat Ring",
+      "pt": "Anel do Rato Brakmariano",
+      "de": "Ring der Brâk-Ratte",
+      "es": "Anillo de rata brakmariana"
+    },
     "level": 110,
     "category": "ring",
     "stats": {
@@ -4607,8 +7351,16 @@
       "mpResist": -10
     }
   },
-  "Anneau du rat bontarien": {
-    "name": "Anneau du rat bontarien",
+  "674e524164788cc74141c403": {
+    "id": "674e524164788cc74141c403",
+    "idShort": "vN",
+    "name": {
+      "fr": "Anneau du rat bontarien",
+      "en": "Bontarian Rat Ring",
+      "pt": "Anel do Rato Bontariano",
+      "de": "Ring der Bonta-Ratte",
+      "es": "Anillo de rata bontariana"
+    },
     "level": 110,
     "category": "ring",
     "stats": {
@@ -4623,10 +7375,18 @@
       "criticalResist": -10
     }
   },
-  "Ceste de Ravageur": {
-    "name": "Ceste de Ravageur",
+  "674e524164788cc74141c4e9": {
+    "id": "674e524164788cc74141c4e9",
+    "idShort": "vO",
+    "name": {
+      "fr": "Ceste de Ravageur",
+      "en": "Destroyer Cestus",
+      "pt": "Manopla de Devastador",
+      "de": "Cestus des Zerstörers",
+      "es": "Cesto de devastador"
+    },
     "level": 200,
-    "panoply": "Panoplie des Ravageurs",
+    "panoply": "674e523f64788cc741418232",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4641,10 +7401,18 @@
       "pushbackDamage": 10
     }
   },
-  "Dernière Aube": {
-    "name": "Dernière Aube",
+  "674e524164788cc74141c4f4": {
+    "id": "674e524164788cc74141c4f4",
+    "idShort": "vP",
+    "name": {
+      "fr": "Dernière Aube",
+      "en": "Final Dawn",
+      "pt": "Última Aurora",
+      "de": "Letzte Dämmerung",
+      "es": "Último amanecer"
+    },
     "level": 200,
-    "panoply": "Reliques de l'Aurore Pourpre",
+    "panoply": "674e523f64788cc741418233",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4669,10 +7437,18 @@
       "pushbackResist": -24
     }
   },
-  "Mort du Centoror": {
-    "name": "Mort du Centoror",
+  "674e524164788cc74141c4f7": {
+    "id": "674e524164788cc74141c4f7",
+    "idShort": "vQ",
+    "name": {
+      "fr": "Mort du Centoror",
+      "en": "Death of the Centoror",
+      "pt": "Morte do Centoro",
+      "de": "Tod des Zentoror",
+      "es": "Muerte del centauroro"
+    },
     "level": 200,
-    "panoply": "Reliques de l'Aurore Pourpre",
+    "panoply": "674e523f64788cc741418233",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4697,10 +7473,18 @@
       "pushbackResist": 12
     }
   },
-  "Anneau poli de Malter": {
-    "name": "Anneau poli de Malter",
+  "674e524164788cc74141c60d": {
+    "id": "674e524164788cc74141c60d",
+    "idShort": "vR",
+    "name": {
+      "fr": "Anneau poli de Malter",
+      "en": "Polished Malter Ring",
+      "pt": "Anel Polido de Malter",
+      "de": "Polierter Malter-Ring",
+      "es": "Anillo pulido de malter"
+    },
     "level": 146,
-    "panoply": "Panoplie des Malters",
+    "panoply": "674e523f64788cc741418234",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -4714,10 +7498,18 @@
       "mpReduction": 7
     }
   },
-  "Alliance d'Hell Mina": {
-    "name": "Alliance d'Hell Mina",
+  "674e524164788cc74141c610": {
+    "id": "674e524164788cc74141c610",
+    "idShort": "vS",
+    "name": {
+      "fr": "Alliance d'Hell Mina",
+      "en": "Hell Mina's Wedding Ring",
+      "pt": "Aliança de Hell Mina",
+      "de": "Hell Minas Trauring",
+      "es": "Alianza de Hell Mina"
+    },
     "level": 146,
-    "panoply": "Panoplie d'Hell Mina",
+    "panoply": "674e523f64788cc741418235",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -4729,10 +7521,18 @@
       "pushbackDamage": 15
     }
   },
-  "Triste Sceau": {
-    "name": "Triste Sceau",
+  "674e524164788cc74141c92d": {
+    "id": "674e524164788cc74141c92d",
+    "idShort": "vU",
+    "name": {
+      "fr": "Triste Sceau",
+      "en": "Signet of Fate",
+      "pt": "Triste Selo",
+      "de": "Trauriger Siegelring",
+      "es": "Triste Sello"
+    },
     "level": 200,
-    "panoply": "Malédiction de Cire Momore",
+    "panoply": "674e523f64788cc741418239",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4748,10 +7548,18 @@
       "pushbackResist": 10
     }
   },
-  "Alliance des Rebelles": {
-    "name": "Alliance des Rebelles",
+  "674e524164788cc74141c935": {
+    "id": "674e524164788cc74141c935",
+    "idShort": "vV",
+    "name": {
+      "fr": "Alliance des Rebelles",
+      "en": "Rebels' Ring",
+      "pt": "Aliança dos Rebeldes",
+      "de": "Rebellenring",
+      "es": "Alianza de los rebeldes"
+    },
     "level": 48,
-    "panoply": "Panoplie des Rebelles",
+    "panoply": "674e523f64788cc74141823a",
     "category": "ring",
     "stats": {
       "health": 40,
@@ -4763,10 +7571,18 @@
       "fireDamage": 5
     }
   },
-  "Anneau Clochecuivre": {
-    "name": "Anneau Clochecuivre",
+  "674e524164788cc74141c937": {
+    "id": "674e524164788cc74141c937",
+    "idShort": "vW",
+    "name": {
+      "fr": "Anneau Clochecuivre",
+      "en": "Copperbeard Ring",
+      "pt": "Anel Sinocobre",
+      "de": "Glockenleder-Ring",
+      "es": "Anillo Decobre"
+    },
     "level": 194,
-    "panoply": "Panoplie Clochecuivre",
+    "panoply": "674e523f64788cc74141823c",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4786,10 +7602,18 @@
       "pushbackDamage": 10
     }
   },
-  "Anneau de guerrier albueran": {
-    "name": "Anneau de guerrier albueran",
+  "674e524164788cc74141c93d": {
+    "id": "674e524164788cc74141c93d",
+    "idShort": "vX",
+    "name": {
+      "fr": "Anneau de guerrier albueran",
+      "en": "Albueran Warrior Ring",
+      "pt": "Anel de Guerreiro Albuerano",
+      "de": "Albueranischer Kriegerring",
+      "es": "Anillo de guerrero albuereño"
+    },
     "level": 52,
-    "panoply": "Panoplie de guerrier albueran",
+    "panoply": "674e523f64788cc74141823d",
     "category": "ring",
     "stats": {
       "health": 30,
@@ -4799,10 +7623,18 @@
       "mpReduction": -10
     }
   },
-  "Cruauté de Belladone": {
-    "name": "Cruauté de Belladone",
+  "674e524164788cc74141c94c": {
+    "id": "674e524164788cc74141c94c",
+    "idShort": "vY",
+    "name": {
+      "fr": "Cruauté de Belladone",
+      "en": "Belladonna's Cruelty",
+      "pt": "Crueldade de Beladona",
+      "de": "Grausamkeit von Belladonna",
+      "es": "Crueldad de Belladona"
+    },
     "level": 200,
-    "panoply": "Maléfices d'Ephedrya",
+    "panoply": "674e523f64788cc741418240",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4819,10 +7651,18 @@
       "criticalResist": 10
     }
   },
-  "Amertume de Belladone": {
-    "name": "Amertume de Belladone",
+  "674e524164788cc74141c94d": {
+    "id": "674e524164788cc74141c94d",
+    "idShort": "vZ",
+    "name": {
+      "fr": "Amertume de Belladone",
+      "en": "Belladonna's Bitterness",
+      "pt": "Amargor de Beladona",
+      "de": "Bitterkeit von Belladonna",
+      "es": "Amargura de Belladona"
+    },
     "level": 200,
-    "panoply": "Maléfices d'Ephedrya",
+    "panoply": "674e523f64788cc741418240",
     "category": "ring",
     "stats": {
       "health": 250,
@@ -4836,10 +7676,18 @@
       "criticalResist": 10
     }
   },
-  "Tendresse de Belladone": {
-    "name": "Tendresse de Belladone",
+  "674e524164788cc74141c94e": {
+    "id": "674e524164788cc74141c94e",
+    "idShort": "w0",
+    "name": {
+      "fr": "Tendresse de Belladone",
+      "en": "Belladonna's Tenderness",
+      "pt": "Ternura de Beladona",
+      "de": "Zärtlichkeit der Belladonna",
+      "es": "Ternura de Belladona"
+    },
     "level": 200,
-    "panoply": "Maléfices d'Ephedrya",
+    "panoply": "674e523f64788cc741418240",
     "category": "ring",
     "stats": {
       "health": 350,
@@ -4853,17 +7701,33 @@
       "criticalResist": 10
     }
   },
-  "Gants Tologie": {
-    "name": "Gants Tologie",
+  "674e524164788cc74141c953": {
+    "id": "674e524164788cc74141c953",
+    "idShort": "w1",
+    "name": {
+      "fr": "Gants Tologie",
+      "en": "Gloves of the Great",
+      "pt": "Luvantologias",
+      "de": "Antje Ologies Handschuhe",
+      "es": "Guantes Peciales"
+    },
     "level": 150,
-    "panoply": "Panoplie de l'Héritage",
+    "panoply": "674e523f64788cc741418241",
     "category": "ring",
     "stats": {}
   },
-  "Alliance du Dark Vlad": {
-    "name": "Alliance du Dark Vlad",
+  "674e524164788cc74141d21a": {
+    "id": "674e524164788cc74141d21a",
+    "idShort": "w2",
+    "name": {
+      "fr": "Alliance du Dark Vlad",
+      "en": "Dark Vlad's Ring",
+      "pt": "Aliança do Dark Vlad",
+      "de": "Dark Vlads Trauring",
+      "es": "Alianza de Dark Vlad"
+    },
     "level": 200,
-    "panoply": "Panoplie du Dark Vlad",
+    "panoply": "674e523f64788cc7414183dc",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4877,10 +7741,18 @@
       "pushbackDamage": 25
     }
   },
-  "Poing du Supervizœuf": {
-    "name": "Poing du Supervizœuf",
+  "687f71551c815173560617f4": {
+    "id": "687f71551c815173560617f4",
+    "idShort": "w3",
+    "name": {
+      "fr": "Poing du Supervizœuf",
+      "en": "Bzzegg Supervisor's Fist",
+      "pt": "Punho do Supervizovo",
+      "de": "Faust des Supervizeis",
+      "es": "Puño del Bzupervibzor"
+    },
     "level": 179,
-    "panoply": "Panoplie du Supervizœuf",
+    "panoply": "687f71541c815173560616bb",
     "category": "ring",
     "stats": {
       "health": 200,
@@ -4894,10 +7766,18 @@
       "earthResist": 20
     }
   },
-  "Gant des Voyageurs": {
-    "name": "Gant des Voyageurs",
+  "687f71551c81517356061805": {
+    "id": "687f71551c81517356061805",
+    "idShort": "w4",
+    "name": {
+      "fr": "Gant des Voyageurs",
+      "en": "Voyager Glove",
+      "pt": "Luva dos Viajantes",
+      "de": "Handschuh der Reisenden",
+      "es": "Guante de los viajeros"
+    },
     "level": 197,
-    "panoply": "Panoplie des Voyageurs Dimensionnels",
+    "panoply": "687f71541c815173560616c1",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4913,10 +7793,18 @@
       "pushbackDamage": 20
     }
   },
-  "Malédiction du Vénérable Endormi": {
-    "name": "Malédiction du Vénérable Endormi",
+  "687f71551c81517356061821": {
+    "id": "687f71551c81517356061821",
+    "idShort": "w5",
+    "name": {
+      "fr": "Malédiction du Vénérable Endormi",
+      "en": "Sleeping Venerable One's Curse",
+      "pt": "Maldição do Venerável Adormecido",
+      "de": "Fluch des Ehrwürdigen Schläfers",
+      "es": "Maldición del Venerable Durmiente"
+    },
     "level": 200,
-    "panoply": "Panoplie du Vénérable Endormi",
+    "panoply": "687f71541c815173560616be",
     "category": "ring",
     "stats": {
       "health": 300,
@@ -4931,8 +7819,16 @@
       "pushbackResist": 15
     }
   },
-  "Ponctualité d'Henual": {
-    "name": "Ponctualité d'Henual",
+  "68d28de615631db46d7e4117": {
+    "id": "68d28de615631db46d7e4117",
+    "idShort": "w6",
+    "name": {
+      "fr": "Ponctualité d'Henual",
+      "en": "Henual's Punctuality",
+      "pt": "Pontualidade de Henual",
+      "de": "Henuals Pünktlichkeit",
+      "es": "Puntualidad de Henual"
+    },
     "level": 200,
     "category": "ring",
     "stats": {

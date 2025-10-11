@@ -7,8 +7,13 @@ import {
     type Requirement,
 } from "../types/item";
 import { type StatKey } from "../types/character";
+import { nextValue } from "../db/base62inc";
 
 const dofusDBUrl: string = "https://api.dofusdb.fr";
+let shortId: string = "";
+export function initShortId() {
+    shortId = "Z";
+}
 
 const StatSchema = z.object({
     from: z.number(),
@@ -18,19 +23,25 @@ const StatSchema = z.object({
 });
 type StatResp = z.infer<typeof StatSchema>;
 
+const NameSchema = z.object({
+    fr: z.string(),
+    en: z.string(),
+    pt: z.string(),
+    de: z.string(),
+    es: z.string(),
+});
+
 const ItemRespSchema = z.object({
+    _id: z.string(),
     level: z.number().int(),
-    name: z.object({
-        fr: z.string(),
-    }),
+    name: NameSchema,
     criterions: z.string().optional(), // max AP / MP
     itemSet: z
         .union([
             z.object({
                 // panoply
-                name: z.object({
-                    fr: z.string(),
-                }),
+                _id: z.string(),
+                name: NameSchema,
             }),
             z.any().transform(() => undefined),
         ])
@@ -81,11 +92,12 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             if (shouldSkipItem(dofusDbItem)) {
                 continue;
             }
-            const newItem = translateItems(dofusDbItem, category);
+            shortId = nextValue(shortId);
+            const newItem = translateItem(dofusDbItem, category, shortId);
             if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
                 continue;
             } else {
-                items[dofusDbItem.name.fr] = newItem;
+                items[dofusDbItem._id] = newItem;
             }
         }
 
@@ -96,12 +108,25 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     return items;
 }
 
-export function translateItems(dofusDbItem: ItemResp, category: ItemCategory): Item {
+export function translateItem(
+    dofusDbItem: ItemResp,
+    category: ItemCategory,
+    shortId: string,
+): Item {
     const requirement = translateCriterions(dofusDbItem.criterions);
     let item: Item = {
-        name: dofusDbItem.name.fr,
+        id: dofusDbItem._id,
+        idShort: shortId,
+        name: {
+            fr: dofusDbItem.name.fr,
+            en: dofusDbItem.name.en,
+            pt: dofusDbItem.name.pt,
+            de: dofusDbItem.name.de,
+            es: dofusDbItem.name.es,
+        },
         level: dofusDbItem.level,
-        panoply: dofusDbItem.itemSet?.name.fr,
+        // panoply: dofusDbItem.itemSet?.name.fr,
+        ...(dofusDbItem.itemSet ? { panoply: dofusDbItem.itemSet._id } : {}),
         category: category,
         ...(requirement ? { requirement: requirement } : {}),
         stats: {},
@@ -182,9 +207,8 @@ function translateCriterions(criterions: string | undefined): Requirement | unde
 }
 
 const PanoplyRespSchema = z.object({
-    name: z.object({
-        fr: z.string(),
-    }),
+    _id: z.string(),
+    name: NameSchema,
     effects: z.array(z.array(StatSchema)), // stats
     criterions: z.string().optional(), // max AP / MP
 });
@@ -223,8 +247,17 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
             if (shouldSkipPano(dofusDbPano)) {
                 continue;
             }
-            panoplies[dofusDbPano.name.fr] = {
-                name: dofusDbPano.name.fr,
+            // shortId = nextValue(shortId);
+            panoplies[dofusDbPano._id] = {
+                id: dofusDbPano._id,
+                // idShort: shortId,
+                name: {
+                    fr: dofusDbPano.name.fr,
+                    en: dofusDbPano.name.en,
+                    pt: dofusDbPano.name.pt,
+                    de: dofusDbPano.name.de,
+                    es: dofusDbPano.name.es,
+                },
                 items: [],
                 stats: translatePanoplyStats(dofusDbPano),
             };

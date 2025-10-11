@@ -1,21 +1,6 @@
 // import { panoplies } from "../db/itemDB";
-import type { Item, ItemCategory } from "../types/item";
-import type { Stats } from "./stats";
-
-// export type Character = {
-//     level: number;
-//     baseStats: Partial<Stats>;
-// };
-
-// export const baseCharacter: Character = {
-//     level: 200,
-//     baseStats: {
-//         ap: 7,
-//         mp: 3,
-//         health: 2000,
-//         pods: 2000,
-//     },
-// };
+import type { Item, ItemCategory } from "./item";
+import type { StatKey, Stats } from "./stats";
 
 export const baseStats: Partial<Stats> = {
     health: 50,
@@ -23,17 +8,15 @@ export const baseStats: Partial<Stats> = {
     mp: 3,
     range: 0,
     summon: 1,
+    prospecting: 100,
     pods: 995,
 };
 
 export function getLeveledStats(level: number): Partial<Stats> {
-    let leveledStats: Partial<Stats> = {
-        ap: baseStats.ap,
-        mp: baseStats.mp,
-        range: baseStats.range,
-        health: baseStats.health,
-        pods: baseStats.pods,
-    };
+    let leveledStats: Partial<Stats> = {};
+    for (const [statKey, value] of Object.entries(baseStats)) {
+        leveledStats[statKey as StatKey] = value;
+    }
     leveledStats.health! += level * 5;
     leveledStats.pods! += level * 5;
     if (level >= 100) {
@@ -49,11 +32,11 @@ export type CharacterBuild = {
     value: number;
 };
 
-export type BestBuildsResp = { value: number; names: string[] }[];
+export type BestBuildsResp = { value: number; ids: string[] }[];
 
-export type Slots = Partial<Record<BuildSlots, Item>>;
+export type Slots = Partial<Record<BuildSlot, Item>>;
 
-export const BUILD_SLOTS = [
+export const BUILD_SLOT = [
     "amulet",
     "ring1",
     "ring2",
@@ -72,9 +55,8 @@ export const BUILD_SLOTS = [
     "dofus6",
 ] as const;
 
-export type BuildSlots = (typeof BUILD_SLOTS)[number];
-
-export const SLOT_TO_CATEGORY: Record<BuildSlots, ItemCategory> = {
+export type BuildSlot = (typeof BUILD_SLOT)[number];
+export const SLOT_TO_CATEGORY: Record<BuildSlot, ItemCategory> = {
     amulet: "amulet",
     ring1: "ring",
     ring2: "ring",
@@ -91,4 +73,16 @@ export const SLOT_TO_CATEGORY: Record<BuildSlots, ItemCategory> = {
     dofus4: "dofus",
     dofus5: "dofus",
     dofus6: "dofus",
+};
+export const CATEGORY_TO_SLOTS: Record<ItemCategory, BuildSlot[]> = {
+    amulet: ["amulet"],
+    ring: ["ring1", "ring2"],
+    hat: ["hat"],
+    cloak: ["cloak"],
+    belt: ["belt"],
+    boots: ["boots"],
+    weapon: ["weapon"],
+    shield: ["shield"],
+    pet: ["pet"],
+    dofus: ["dofus1", "dofus2", "dofus3", "dofus4", "dofus5", "dofus6"],
 };

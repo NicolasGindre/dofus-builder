@@ -10,9 +10,14 @@ import * as dofusDB from "../clients/dofusDB";
 
 const dbPath = "./src/db/data";
 
-export let itemsCategory: Record<ItemCategory, Items> = Object.fromEntries(
-    ITEM_CATEGORIES.map((cat) => [cat, {}]),
-) as Record<ItemCategory, Items>;
+export let itemsCategory: Record<ItemCategory, Items> = getEmptyItemsCategory();
+
+function getEmptyItemsCategory(): Record<ItemCategory, Items> {
+    return Object.fromEntries(ITEM_CATEGORIES.map((cat) => [cat, {}])) as Record<
+        ItemCategory,
+        Items
+    >;
+}
 
 export let itemsCategoryFiltered: Record<ItemCategory, Items> = Object.fromEntries(
     ITEM_CATEGORIES.map((cat) => [cat, {}]),
@@ -22,8 +27,16 @@ export let itemsDB: Items = {};
 export let itemsFiltered: Items = {};
 export let panoplies: Panoplies = {};
 
-export function getItem(name: string): Item | undefined {
-    return itemsDB[name];
+export function getItem(id: string): Item | undefined {
+    return itemsDB[id];
+}
+export function getItemFromShortId(shortId: string): Item | undefined {
+    for (const item of Object.values(itemsDB)) {
+        if (item.idShort == shortId) {
+            return item;
+        }
+    }
+    return undefined;
 }
 
 export function getAllItems(): Items {
@@ -39,12 +52,12 @@ export async function loadItems(): Promise<void> {
     for (const category of ITEM_CATEGORIES) {
         const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json();
 
-        for (const [itemName, item] of Object.entries(itemsCategoryDB)) {
+        for (const [itemId, item] of Object.entries(itemsCategoryDB)) {
             // if (item.level >= levelMin && item.level <= levelMax) {
             // itemsFiltered[itemName] = item
-            itemsCategory[category][itemName] = item;
+            itemsCategory[category][itemId] = item;
             // }
-            itemsDB[itemName] = item;
+            itemsDB[itemId] = item;
         }
 
         console.log("Loaded " + Object.keys(itemsCategory[category]).length + " " + category);
@@ -73,15 +86,15 @@ export function filterItems(itemsToFilter: string[]) {
     // itemsCategoryFiltered = {}
     // for (const category of ITEM_CATEGORIES) {
     // for (const [category, items] of Object.entries(itemsCategory) as [ItemCategory, Items][]) {
-    for (const itemName of itemsToFilter) {
+    for (const itemId of itemsToFilter) {
         // console.log(itemName);
-        const item = getItem(itemName);
+        const item = getItem(itemId);
         if (item == undefined) {
             console.log("can't filter item");
             continue;
         }
-        itemsFiltered[itemName] = item;
-        itemsCategoryFiltered[item.category][itemName] = item;
+        itemsFiltered[itemId] = item;
+        itemsCategoryFiltered[item.category][itemId] = item;
     }
     // console.log(itemsFiltered);
     // console.log(itemsCategoryFiltered);
@@ -90,8 +103,8 @@ export function filterItems(itemsToFilter: string[]) {
 
 export function logFilteredItems() {
     for (const [category, items] of Object.entries(itemsCategoryFiltered)) {
-        for (const itemName of Object.keys(items)) {
-            console.log(category, itemName);
+        for (const itemId of Object.keys(items)) {
+            console.log(category, itemId);
         }
     }
 }
@@ -110,14 +123,35 @@ export async function savePanoplies(panoplies: Panoplies): Promise<void> {
 export async function downloadItems(): Promise<void> {
     console.log("Starting download from DofusDB");
 
+    dofusDB.initShortId();
+    let newItemsDB: Items = {};
     for (const category of ITEM_CATEGORIES) {
-        const itemsCategory = await dofusDB.downloadItems(category);
-        for (const [itemName, item] of Object.entries(itemsCategory)) {
-            itemsDB[itemName] = item;
+        let newItemsCategory: Record<string, Item> = {};
+        const itemsDofusDB = await dofusDB.downloadItems(category);
+
+        for (const [dofusDBId, dofusDBitem] of Object.entries(itemsDofusDB)) {
+            const oldItem = itemsDB[dofusDBId];
+            if (oldItem && oldItem.idShort && oldItem.idShort != dofusDBitem.idShort) {
+                dofusDBitem.idShort = oldItem.idShort;
+            } else {
+                const oldItemShort = getItemFromShortId(dofusDBitem.idShort);
+                if (oldItemShort && oldItemShort.id != dofusDBId) {
+                    console.error(
+                        oldItemShort.name.fr,
+                        "Error : shortId is already linked to a different item and may be duplicated",
+                    );
+                }
+            }
+            newItemsCategory[dofusDBId] = dofusDBitem;
+            newItemsDB[dofusDBId] = dofusDBitem;
         }
 
-        saveItems(category, itemsCategory);
+        itemsCategory[category] = newItemsCategory;
+        saveItems(category, newItemsCategory);
     }
+
+    itemsDB = newItemsDB;
+
     panoplies = await dofusDB.downloadPanopliesStats();
 
     fillPanopliesItems();
@@ -126,9 +160,9 @@ export async function downloadItems(): Promise<void> {
 }
 
 export function fillPanopliesItems() {
-    for (const [itemName, item] of Object.entries(itemsDB)) {
+    for (const [itemId, item] of Object.entries(itemsDB)) {
         if (item.panoply != undefined) {
-            panoplies[item.panoply]?.items.push(itemName);
+            panoplies[item.panoply]?.items.push(itemId);
         }
     }
 }

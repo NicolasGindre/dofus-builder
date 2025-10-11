@@ -1,9 +1,14 @@
 import { get } from "svelte/store";
 import {
+    bestBuilds,
+    bestBuildsDisplayed,
+    bestBuildShownCount,
     categoryDisplaySize,
     itemsCategoryBest,
     itemsCategoryDisplayed,
     itemsCategoryWithPanoBest,
+    itemsSelected,
+    level,
     panopliesBest,
     panopliesDisplayed,
     panopliesSelected,
@@ -12,7 +17,15 @@ import {
     showOnlySelectedPanos,
     sortBestItemsWithPanoValue,
 } from "../stores/builder";
-import { ITEM_CATEGORIES, type Item, type ItemCategory, type Panoply } from "../types/item";
+import {
+    getEmptyCategoriesItems,
+    ITEM_CATEGORIES,
+    type Item,
+    type ItemCategory,
+    type Panoply,
+} from "../types/item";
+import { getItem } from "./frontendDB";
+import type { CharacterBuild } from "../types/build";
 
 export function calculateAllItemsToDisplay() {
     for (const category of ITEM_CATEGORIES) {
@@ -31,6 +44,9 @@ export function calculateItemsToDisplay(category: ItemCategory) {
     }
     let i = 1;
     for (const item of itemsBest[category]) {
+        if (item.level > get(level)) {
+            continue;
+        }
         if (!get(showBonusPanoCappedItems) && item.requirement?.type == "panopliesBonusLessThan") {
             continue;
         }
@@ -59,8 +75,17 @@ export function calculatePanopliesToDisplay() {
     let i = 1;
     for (const pano of get(panopliesBest)) {
         if (i < get(panoplyDisplaySize) && !get(showOnlySelectedPanos)) {
-            panosToDisplay.push(pano);
-            i++;
+            let panoOverLevel = true;
+            for (const item of pano.itemsReal) {
+                if (item.level <= get(level)) {
+                    panoOverLevel = false;
+                    break;
+                }
+            }
+            if (!panoOverLevel) {
+                panosToDisplay.push(pano);
+                i++;
+            }
         } else {
             for (const panoSelected of get(panopliesSelected)) {
                 if (panoSelected.name == pano.name) {
@@ -72,4 +97,80 @@ export function calculatePanopliesToDisplay() {
     console.log(panosToDisplay);
     // return panosToDisplay;
     panopliesDisplayed.set(panosToDisplay);
+}
+
+export function addOrRemoveItem(itemId: string) {
+    const item = getItem(itemId);
+    if (get(itemsSelected)[item.category][item.id]) {
+        removeItem(item);
+    } else {
+        addItem(item);
+    }
+    calculatePanopliesToDisplay();
+}
+
+export function addItems(items: Item[]) {
+    for (const item of items) {
+        addItem(item);
+    }
+    calculatePanopliesToDisplay();
+}
+export function removeItems(items: Item[]) {
+    for (const item of items) {
+        removeItem(item);
+    }
+    calculatePanopliesToDisplay();
+}
+
+export function addItem(item: Item) {
+    itemsSelected.update((map) => {
+        // clone category map and insert
+        return {
+            ...map,
+            [item.category]: {
+                ...map[item.category],
+                [item.id]: item,
+            },
+        };
+    });
+}
+
+export function removeItem(item: Item) {
+    itemsSelected.update((map) => {
+        const { [item.id]: _, ...rest } = map[item.category]; // drop this item
+        return {
+            ...map,
+            [item.category]: rest,
+        };
+    });
+}
+export function showOnlySelected(showOnlySelected: boolean) {
+    showOnlySelectedPanos.set(showOnlySelected);
+    calculatePanopliesToDisplay();
+}
+// function setBonusPanoCappedItems(show: boolean) {
+//     showBonusPanoCappedItems.set(show);
+// }
+
+export function orderByValueWithPano(withPanoValue: boolean) {
+    sortBestItemsWithPanoValue.set(withPanoValue);
+}
+
+export function clearAll() {
+    itemsSelected.set(getEmptyCategoriesItems());
+    calculatePanopliesToDisplay();
+}
+
+export function calculateBestBuildToDisplay() {
+    let bestBuildShow: CharacterBuild[] = [];
+    // const showCount = get(bestBuildShownCount);
+    let i = 1;
+    for (const build of get(bestBuilds)) {
+        bestBuildShow.push(build);
+        i++;
+        if (i > get(bestBuildShownCount)) {
+            break;
+        }
+    }
+    bestBuildsDisplayed.set(bestBuildShow);
 }

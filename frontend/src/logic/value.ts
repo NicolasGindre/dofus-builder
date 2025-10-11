@@ -22,8 +22,6 @@ import { getPanoply } from "./frontendDB";
 
 export type StatsValueFM = Record<StatKey, number>;
 
-export type StatsValueWeight = Record<StatKey, number>;
-
 export function calculateCharStatsValue(
     stats: Stats,
     minStats: Partial<Stats>,
@@ -70,6 +68,11 @@ export function calculatePanoValue(panoply: Panoply) {
     const panoplyStats = panoply.statsWithBonus.at(panoMaxItems - 1)!;
 
     panoply.valuePerItem = calculateStatsValue(panoplyStats) / panoMaxItems;
+
+    panoply.value = [];
+    for (const comboStats of panoply.statsWithBonus) {
+        panoply.value.push(calculateStatsValue(comboStats));
+    }
 }
 
 export function calculatePanoAvgRelativeValue(pano: Panoply) {
@@ -130,6 +133,7 @@ export function calculateBestItems() {
     itemsCategoryWithPanoBest.set(bestItemsWithPanoCategories);
     calculateAllItemsToDisplay();
 
+    console.log("itemsCategoryBest", bestItemsCategories);
     const allPanos = get(panoplies);
     let bestPanos: Panoply[] = Object.values(allPanos);
     for (const pano of bestPanos) {
