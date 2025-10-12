@@ -126,6 +126,11 @@
 <style>
     .hover-stats-wrapper {
         position: relative;
+        /* width: 100%;  */
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         /* display: inline-block; */
         /* position: static;
         overflow: visible; */
@@ -149,14 +154,17 @@
         align-items: center;
         border-bottom: 1px solid currentColor; /* underline across the block */
         padding-bottom: 0.25rem;
-        margin-bottom: 0.5rem;
+        /* margin-bottom: 0.5rem; */
     }
     .combo-title {
         display: block;
         /* font-weight: 800; */
         /* text-decoration: underline; */
-        margin-top: 0.5rem;
-        margin-bottom: 0.25rem;
+        /* margin-top: 0.5rem;
+        margin-bottom: 0.25rem; */
         color: #fff;
+    }
+    .combo-value {
+        margin-left: 1.5rem;
     }
 </style>

@@ -125,8 +125,12 @@ export const bestBuildShownCount = writable<number>(10);
 
 export const totalPossibilities = derived(itemsSelected, ($itemsCategory) => {
     let possibilities = 1;
+    let atLeast1: boolean = false;
     for (const [category, items] of Object.entries($itemsCategory)) {
         let count = Object.values(items).length;
+        if (count > 0) {
+            atLeast1 = true;
+        }
         if (category == "ring") {
             count = (count * (count - 1)) / 2;
         }
@@ -134,10 +138,9 @@ export const totalPossibilities = derived(itemsSelected, ($itemsCategory) => {
             count =
                 (count * (count - 1) * (count - 2) * (count - 3) * (count - 4) * (count - 5)) / 720;
         }
-
         possibilities *= count == 0 ? 1 : count;
     }
-    return possibilities;
+    return atLeast1 ? possibilities : 0;
 });
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {

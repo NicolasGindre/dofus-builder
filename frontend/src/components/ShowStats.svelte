@@ -43,6 +43,7 @@
         align-items: flex-start;
         vertical-align: right;
         gap: 2rem;
+        padding-bottom: 2px;
         /* align-self: right; */
     }
     .build-stats td + td {

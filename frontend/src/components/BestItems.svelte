@@ -35,6 +35,7 @@
     import PreStats from "./PreStats.svelte";
     import { words } from "../stores/builder";
     import ItemSearch from "./ItemSearch.svelte";
+    import { slide } from "svelte/transition";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -55,6 +56,27 @@
     function showLessPano() {
         panoplyDisplaySize.set(Math.max(0, get(panoplyDisplaySize) - 5));
         calculatePanopliesToDisplay();
+    }
+
+    let collapsedCategories: Record<string, boolean> = {};
+    let collapsedPanos: Record<string, boolean> = {};
+    let collapsedSelected: Record<string, boolean> = {};
+
+    function toggleCat(id: string) {
+        collapsedCategories[id] = !collapsedCategories[id];
+    }
+    function togglePano(id: string) {
+        collapsedPanos[id] = !collapsedPanos[id];
+    }
+    function toggleSelected(id: string) {
+        collapsedSelected[id] = !collapsedSelected[id];
+    }
+
+    let hoveredId: string = null;
+    function setHovered(id: string) {
+        console.log(id);
+        hoveredId = id;
+        console.log(hoveredId);
     }
 </script>
 
@@ -77,6 +99,9 @@
                                 class="item-button"
                                 class:item-selected={$itemsSelected[item.category][item.id]}
                                 type="button"
+                                class:highlight={hoveredId === item.id}
+                                on:mouseenter={() => setHovered(item.id)}
+                                on:mouseleave={() => (hoveredId = null)}
                                 on:click={() => addOrRemoveItem(item.id)}
                             >
                                 {item.name[$lang]}
@@ -139,25 +164,36 @@
                 {#each ITEM_CATEGORIES as category}
                     <div class="list-elem">
                         <div class="sticky">
+                            <button
+                                class="toggle-collapse-icon"
+                                on:click={() => toggleCat(category)}
+                                >{collapsedCategories[category] ? "+" : "-"}</button
+                            >
                             <div class="sticky-title">{$words.category[category]}</div>
                         </div>
-
-                        {#if category == "dofus"}
-                            <label class="checkbox-label">
-                                {$words.displayItems}
-                                <span>{$words.panoBonusLessThan3}</span>
-                                <input type="checkbox" bind:checked={$showBonusPanoCappedItems} />
-                            </label>
+                        {#if !collapsedCategories[category]}
+                            <div transition:slide>
+                                {#if category == "dofus"}
+                                    <label class="checkbox-label">
+                                        {$words.displayItems}
+                                        <span>{$words.panoBonusLessThan3}</span>
+                                        <input
+                                            type="checkbox"
+                                            bind:checked={$showBonusPanoCappedItems}
+                                        />
+                                    </label>
+                                {/if}
+                                {@render addItemToSelecteds($itemsCategoryDisplayed[category])}
+                                <div class="end-list-elem">
+                                    <button on:click={() => showMore(5, category)}>
+                                        {$words.showMore}
+                                    </button>
+                                    <button on:click={() => showMore(-5, category)}>
+                                        {$words.showLess}
+                                    </button>
+                                </div>
+                            </div>
                         {/if}
-                        {@render addItemToSelecteds($itemsCategoryDisplayed[category])}
-                    </div>
-                    <div class="end-list-elem">
-                        <button on:click={() => showMore(5, category)}>
-                            {$words.showMore}
-                        </button>
-                        <button on:click={() => showMore(-5, category)}>
-                            {$words.showLess}
-                        </button>
                     </div>
                 {/each}
             </div>
@@ -187,21 +223,36 @@
                 {#each $panopliesDisplayed as panoply}
                     <div class="list-elem">
                         <div class="sticky">
+                            <button
+                                class="toggle-collapse-icon"
+                                on:click={() => togglePano(panoply.id)}
+                                >{collapsedPanos[panoply.id] ? "+" : "-"}</button
+                            >
                             <HoverItemOrPano {panoply}
                                 ><div class="sticky-title">
                                     {panoply.name[$lang]}
                                 </div></HoverItemOrPano
                             >
                         </div>
-                        {@render addItemToSelecteds(panoply.itemsReal)}
-                    </div>
-                    <div class="end-list-elem">
-                        <button type="button" on:click={() => addItems(panoply.itemsReal)}>
-                            {$words.addPanoply}
-                        </button>
-                        <button type="button" on:click={() => removeItems(panoply.itemsReal)}>
-                            {$words.removePanoply}
-                        </button>
+                        {#if !collapsedPanos[panoply.id]}
+                            <div transition:slide>
+                                {@render addItemToSelecteds(panoply.itemsReal)}
+                                <div class="end-list-elem">
+                                    <button
+                                        type="button"
+                                        on:click={() => addItems(panoply.itemsReal)}
+                                    >
+                                        {$words.addPanoply}
+                                    </button>
+                                    <button
+                                        type="button"
+                                        on:click={() => removeItems(panoply.itemsReal)}
+                                    >
+                                        {$words.removePanoply}
+                                    </button>
+                                </div>
+                            </div>
+                        {/if}
                     </div>
                 {/each}
             </div>
@@ -218,23 +269,38 @@
                     <div class="list-elem">
                         <!-- <h3 class="sticky">{cat}</h3> -->
                         <div class="sticky">
+                            <button
+                                class="toggle-collapse-icon"
+                                on:click={() => toggleSelected(cat)}
+                                >{collapsedSelected[cat] ? "+" : "-"}</button
+                            >
                             <div class="sticky-title">{$words.category[cat]}</div>
                         </div>
-                        <ul>
-                            {#each Object.values($itemsSelected[cat]) as item}
-                                <li>
-                                    <HoverItemStats {item}>
-                                        <button
-                                            class="item-button"
-                                            type="button"
-                                            on:click={() => removeItem(item)}
-                                        >
-                                            {item.name[$lang]}
-                                        </button>
-                                    </HoverItemStats>
-                                </li>
-                            {/each}
-                        </ul>
+                        {#if !collapsedSelected[cat]}
+                            <div transition:slide>
+                                <ul>
+                                    {#each Object.values($itemsSelected[cat]) as item}
+                                        <li>
+                                            <HoverItemStats {item}>
+                                                <button
+                                                    class="item-button"
+                                                    type="button"
+                                                    class:highlight={hoveredId === item.id}
+                                                    on:mouseenter={() => setHovered(item.id)}
+                                                    on:mouseleave={() => (hoveredId = null)}
+                                                    on:click={() => {
+                                                        removeItem(item);
+                                                        hoveredId = null;
+                                                    }}
+                                                >
+                                                    {item.name[$lang]}
+                                                </button>
+                                            </HoverItemStats>
+                                        </li>
+                                    {/each}
+                                </ul>
+                            </div>
+                        {/if}
                     </div>
                 {/each}
             </div>
@@ -338,6 +404,9 @@
         margin-bottom: 0.6rem;
     }
     .sticky {
+        /* position: relative; */
+        width: 100%;
+        display: flex;
         position: sticky;
         top: 0;
         /* background: #5a0707; same as your list background */
@@ -353,18 +422,40 @@
         /* border-width: 3px; */
         /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
     }
+    .toggle-collapse-icon {
+        position: absolute;
+        /* display: inline-block; */
+        /* text-align: center; */
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 0;
+        background: unset;
+        width: 2em;
+        font-size: 1.3rem;
+        height: 100%;
+        font-weight: 700;
+        border-radius: 4px;
+        z-index: 5;
+    }
     .sticky-title {
         font-weight: 600;
         font-size: 1.1rem;
         padding: 0.25rem 0.5rem;
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     ul {
+        margin-top: 0px;
+        margin-bottom: 0px;
         list-style: none;
         padding: 0;
     }
     ul li {
-        margin-bottom: 0.25rem; /* adjust spacing */
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
     table {
         table-layout: fixed;

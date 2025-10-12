@@ -157,10 +157,8 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
 
 function getBiggestCategoryIndex(minItemsCategory: MinItem[][]): number {
     let biggestCatCount = -1;
-    // let biggestMinItems: MinItem[] = minItemsCategory[0]!;
     let biggestIndex = 0;
     for (let i = 0; i < minItemsCategory.length; i++) {
-        // for (const items of minItemsCategory) {
         if (minItemsCategory[i]!.length > biggestCatCount) {
             biggestCatCount = minItemsCategory[i]!.length;
             biggestIndex = i;
@@ -176,10 +174,9 @@ function partitionEven(
 ): MinItem[][] {
     const items = minItemsCategory[biggestIndex]!;
     const itemsLength = items.length;
-    parts = Math.min(itemsLength, parts);
+    parts = Math.max(Math.min(itemsLength, parts), 1);
 
     const itemsPartitioned: MinItem[][] = new Array(parts);
-    // const itemsPartitioned: Items[] = [];
 
     for (let i = 0; i < parts; i++) {
         const start = Math.floor((i * itemsLength) / parts);

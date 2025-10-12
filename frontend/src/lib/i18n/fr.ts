@@ -15,7 +15,7 @@ export default {
     orderByValueWithPano: "Trier par Valeur avec Pano",
 
     value: "Valeur",
-    valueWithPano: "Valeur avec Panoply",
+    valueWithPano: "Valeur avec Panoplie",
 
     showMore: "Montrer plus",
     showLess: "Montrer moins",
