@@ -62,7 +62,7 @@
                     <td
                         ><input
                             type="number"
-                            step={($weights[statKey] / 10).toPrecision(1)}
+                            step={Math.max($weights[statKey] / 10, 0.01).toPrecision(1)}
                             bind:value={$weights[statKey]}
                             on:input={(e) => {
                                 const value = e.currentTarget.value;

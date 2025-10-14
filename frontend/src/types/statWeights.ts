@@ -40,7 +40,7 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
 
     for (const [key, weight] of Object.entries(weightsIn)) {
         const statKey = key as StatKey;
-        if (weight && weight < 0.01) {
+        if ((weight && weight < 0.01) || weight == 0) {
             weightsOut[statKey as StatKey] = 0.01;
             isUpdated = true;
         } else if (weight > 999) {
@@ -52,8 +52,8 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
     }
     if (get(automaticWeights)) {
         for (const statKey of STAT_ELEMENTAL_PER_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalElementalPerDefense) {
-                globalElementalPerDefense = weightsIn[statKey];
+            if (weightsOut[statKey] != globalElementalPerDefense) {
+                globalElementalPerDefense = weightsOut[statKey];
                 updateWeights(
                     weightsOut,
                     STAT_ELEMENTAL_PER_DEFENSE_KEYS,
@@ -64,16 +64,16 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
             }
         }
         for (const statKey of STAT_ELEMENTAL_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalElementalDefense) {
-                globalElementalDefense = weightsIn[statKey];
+            if (weightsOut[statKey] != globalElementalDefense) {
+                globalElementalDefense = weightsOut[statKey];
                 updateWeights(weightsOut, STAT_ELEMENTAL_DEFENSE_KEYS, globalElementalDefense);
                 isUpdated = true;
                 break;
             }
         }
         for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalCacRangeDefense) {
-                globalCacRangeDefense = weightsIn[statKey];
+            if (weightsOut[statKey] != globalCacRangeDefense) {
+                globalCacRangeDefense = weightsOut[statKey];
                 updateWeights(weightsOut, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
                 isUpdated = true;
                 break;
@@ -81,14 +81,14 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
         }
         let statSum = 0;
         for (const statKey of STAT_STAT_KEYS) {
-            statSum += weightsIn[statKey] ?? 0;
+            statSum += weightsOut[statKey] ?? 0;
         }
         // VERY DANGEROUS !!!
         statSum = Math.round(statSum * 1000) / 1000;
         if (statSum > 999) {
             statSum = 999;
         }
-        if (statSum != (weightsIn.power ?? 0)) {
+        if (statSum != (weightsOut.power ?? 0)) {
             if (statSum == 0) {
                 delete weightsOut.power;
             } else {
@@ -99,13 +99,13 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
 
         statSum = 0;
         for (const statKey of STAT_DAMAGE_KEYS) {
-            statSum += weightsIn[statKey] ?? 0;
+            statSum += weightsOut[statKey] ?? 0;
         }
         statSum = Math.round(statSum * 1000) / 1000;
         if (statSum > 999) {
             statSum = 999;
         }
-        if (statSum != (weightsIn.damage ?? 0)) {
+        if (statSum != (weightsOut.damage ?? 0)) {
             if (statSum == 0) {
                 delete weightsOut.damage;
             } else {
