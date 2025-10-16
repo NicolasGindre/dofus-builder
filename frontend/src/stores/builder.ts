@@ -24,7 +24,7 @@ import fr from "../lib/i18n/fr";
 import pt from "../lib/i18n/pt";
 import de from "../lib/i18n/de";
 import es from "../lib/i18n/es";
-import { checkWeightUpdate } from "../types/statWeights";
+import { checkWeightUpdate, defaultMax } from "../types/statWeights";
 
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
@@ -58,23 +58,8 @@ weights.subscribe((value) => {
 //     checkWeightUpdate($weights, "http://localhost:5173/");
 // });
 
-export const minStats = writable<Partial<Stats>>({
-    ap: 11,
-    mp: 5,
-    // range: 0,
-});
-export const maxStats = writable<Partial<Stats>>({
-    ap: 12,
-    mp: 6,
-    range: 6,
-    summon: 6,
-    criticalChance: 95,
-    neutralResistPer: 50,
-    airResistPer: 50,
-    fireResistPer: 50,
-    earthResistPer: 50,
-    waterResistPer: 50,
-});
+export const minStats = writable<Partial<Stats>>({});
+export const maxStats = writable<Partial<Stats>>(defaultMax);
 export const exoAp = writable<boolean>(false);
 export const exoMp = writable<boolean>(false);
 export const exoRange = writable<boolean>(false);

@@ -161,7 +161,7 @@ const defaultWeights: Stats = {
     fireDamage: 2.5,
     waterDamage: 2.5,
 
-    damage: 5,
+    damage: 6,
 
     pushbackDamage: 2.5,
 
@@ -207,4 +207,20 @@ const defaultWeights: Stats = {
     rangedDamagePer: 15,
     meleeDamagePer: 15,
     weaponDamagePer: 15,
+};
+export const defaultMin: Partial<Stats> = {};
+
+export const defaultMax: Partial<Stats> = {
+    ap: 12,
+    mp: 6,
+    range: 6,
+    summon: 6,
+    criticalChance: 95,
+    neutralResistPer: 50,
+    earthResistPer: 50,
+    fireResistPer: 50,
+    airResistPer: 50,
+    waterResistPer: 50,
+    rangedResistPer: 50,
+    meleeResistPer: 50,
 };

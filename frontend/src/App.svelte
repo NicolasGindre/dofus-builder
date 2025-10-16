@@ -10,6 +10,7 @@
     import Combination from "./components/Combination.svelte";
     import PreStats from "./components/PreStats.svelte";
     import LanguageSelect from "./components/LanguageSelect.svelte";
+    import SaveButton from "./components/SaveButton.svelte";
     // import init, { double } from "../wasm/combination/lib/pkg/combination";
 
     get(items);
@@ -34,6 +35,7 @@
 </script>
 
 <main>
+    <SaveButton />
     <LanguageSelect />
     <h1>Dofus Builder</h1>
     {#if error}

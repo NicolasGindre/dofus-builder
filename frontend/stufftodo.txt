@@ -1,3 +1,5 @@
+Hetzner
+
 lock items
 
 clear item category
@@ -43,27 +45,27 @@ min / max
 1100 - 9900 = 89 possibilities
 total : 369 p
 
+0 = 1p
+0.01 - 0.09 = 9 possibilities
+0.1 - 0.19 = 10 p
+0.2 - 0.28 = 5 p
+0.3 - 0.36 = 3 p
+0.4 - 0.45 = 2 p
+0.5 - 0.55 = 2 p
+0.6 - 0.65 = 2 p
+0.7 - 0.75 = 2 p
+0.8 - 0.85 = 2 p
+0.9 - 0.95 = 2 p
+total 30
 
-0.01 - 0.1 = total 10
+1 - 9.5  total 30
+10 - 95  total 30
+100 - 850 total 28
 
-0.1 - 0.19 = 10
-0.2 - 0.28 = 5
-0.3 - 0.36 = 3
-0.4 - 0.45 = 2
-0.5 - 0.65 = 2
-0.6 - 0.75 = 2
-0.7 - 0.85 = 2
-0.9 = 1 total 27
-
-1 = 1     total 28
-1.1 - 10  total 28
-11 - 100  total 28
-110 - 900 total 27
-
-total total = 121 = 2^7
+final total = 128 = 2^7
 
 
-
+0 -     = 1
 1 - 1.9 = 10
 2 - 2.8 = 5
 3 - 3.6 = 3
@@ -72,6 +74,108 @@ total total = 121 = 2^7
 6 - 6.5 = 2
 7 - 7.5 = 2
 8 - 8.5 = 2
-9 - 9.5 = 2 total 31 ^3 = 19683 x 4 = 78732 x51 = 4 015 332
+9 - 9.5 = 2 total 32 ^3 = 19683 x 4 = 78732 x51 = 4 015 332
             bits : 5 x 3 = 15   + 2 = 17    +6  = 23
+
+
+WEIGHTS
+0 -     = 1
+
+0.03 - 0.28 - 31 => x1
+
+0.3  - 2.8  - 31 => x10
+
+3 - 28      - 31 => x100
+
+30 - 280    - 31 => x1000
+
+
+
+MIN / MAX
+
+weight 30+ => x1
+
+0.2(1)  - 1.9 (1)
+2   - 19
+
+weight 3 - 28 => x10
+
+2  - 19
+20 - 190
+
+weight 0.3 - 2.8 => x100
+
+20  - 190
+200 - 1900
+
+
+weight 0.03 - 0.28 => x500
+
+200  - 1900
+200 - 1900
+
+Initiative :
+min : 1000
+max : 9500
+step : 100 -> 20p
+
+Health : 
+min : 50
+max : 4500 (5000 ?)
+step : 50 -> 20p
+
+prospecting : x10
+min : 100
+max : 950
+step : 10
+
+dodge / lock : x4
+min : 40
+max : 400
+step : 4
+
+wisdom :
+min : 50
+max : 475
+step : 5
+
+retPm
+min : 30
+max : 3xx
+step : 3
+
+esqPm 
+min : 30
+max : 300
+step : 3
+
+strength
+min : 200
+max : 1900
+step : 20
+
+do X 
+min : 20
+max : 200
+step : 2
+
+do : 
+min : 10
+max : 95
+step : 1
+
+do % :
+min : 1
+max : 95
+step : 1
+
+res %
+min : 1
+max : 95
+step : 1
+
+res flat 
+min : 20
+max : 190
+step : 2
 

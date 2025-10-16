@@ -100,7 +100,7 @@ export const STAT_DEFENSE_KEYS = [
     "reflect",
 ] as const;
 
-export const STAT_KEYS = [...STAT_DEFENSE_KEYS, ...STAT_OFFENSE_KEYS, ...STAT_UTILITY_KEYS];
+export const STAT_KEYS = [...STAT_UTILITY_KEYS, ...STAT_OFFENSE_KEYS, ...STAT_DEFENSE_KEYS];
 
 const bonusStatsMap: Partial<Record<StatKey, TargetBonusStat[]>> = {
     strength: [
