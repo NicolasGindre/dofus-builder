@@ -30,6 +30,7 @@
     import { CATEGORY_TO_SLOTS } from "../types/build";
     import { createCombinationOrchestrator } from "../workers/orchestrator";
     import { calculateBestBuildToDisplay } from "../logic/display";
+    import { saveHistoryEntry } from "../logic/encoding/urlEncode";
     // let bestBuilds: { score: number; names: string[] }[] | null = null;
     // let error: string | null = null;
     // let running = false;
@@ -49,6 +50,7 @@
     console.log(get(panopliesSelected));
 
     async function runComboSearch() {
+        saveHistoryEntry();
         combinationStart = $totalPossibilities;
         const raw = await orchestrator.start({
             selectedItems: $itemsSelected,
