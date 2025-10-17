@@ -1,83 +1,104 @@
 import { get } from "svelte/store";
-import type { StatKey } from "../../types/stats";
-import {
-    maxStats,
-    maxStatsIndex,
-    minStats,
-    minStatsIndex,
-    weights,
-    weightsIndex,
-} from "../../stores/builder";
-import { defaultMaxIndex } from "../../types/statWeights";
+import { itemsSelected } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
+import { getEmptyCategoriesItems, type Item } from "../../types/item";
+import { getItemFromShortId } from "../frontendDB";
+import { addItems } from "../display";
+import { calculateBestItems } from "../value";
 
+let canEncode: boolean = false;
 let timeout: number;
-export function encodeToUrl(saveToHistory: boolean) {
-    clearTimeout(timeout);
-    timeout = window.setTimeout(() => {
-        encodeToUrlNoThrottle(saveToHistory);
-    }, 350); // update at most every 200ms
+export function encodeToUrl() {
+    if (canEncode) {
+        clearTimeout(timeout);
+        timeout = window.setTimeout(() => {
+            encodeToUrlNoThrottle();
+        }, 350);
+    }
 }
 
-export function encodeToUrlNoThrottle(saveToHistory: boolean) {
-    const statsToEncode = new Set<StatKey>();
+export function encodeToUrlNoThrottle() {
+    const encodedStats = encodeStats();
+    const encodedItems = encodeItems();
 
-    const weightsToEncode = get(weightsIndex);
-    const minStatsToEncode = get(minStatsIndex);
-    const maxStatsToEncode = get(maxStatsIndex);
-    Object.entries(weightsToEncode)
-        .filter(([_, value]) => value > 0)
-        .forEach(([key]) => statsToEncode.add(key as StatKey));
-
-    Object.entries(minStatsToEncode)
-        .filter(([_, value]) => value > 0)
-        .forEach(([key]) => statsToEncode.add(key as StatKey));
-
-    // Add stats with max values that differ from defaults
-    Object.entries(maxStatsToEncode)
-        .filter(([key, value]) => {
-            const defaultIndex = defaultMaxIndex[key as StatKey];
-            return defaultIndex === undefined || value !== defaultIndex;
-        })
-        .forEach(([key]) => statsToEncode.add(key as StatKey));
-
-    console.log("statsToEncode", statsToEncode);
-    const encodedStats = encodeStats([...statsToEncode]);
-    console.log("encoded", encodedStats);
-
-    // Create the full URL
     const url = new URL(window.location.href);
 
-    // if (encodedStats != "") {
-    url.hash = `s=${encodedStats}`;
-    // return;
-    // }
-    // url.hash = `s=${encodedStats}`; //&i=${itemsEncoded}`;
-
+    if (encodedStats != "" || encodedItems != "") {
+        url.hash = "s=";
+        if (encodedStats != "") {
+            url.hash += encodedStats;
+        }
+        if (encodedItems != "") {
+            if (url.hash) url.hash += "&";
+            url.hash += `i=${encodedItems}`;
+        }
+    } else {
+        url.hash = "";
+    }
     window.history.replaceState(null, "", url.toString());
+}
 
-    // Copy to clipboard
-    // navigator.clipboard.writeText(url.toString()).then(() => {
-    //     copied = true;
-    //     clearTimeout(timeout);
-    //     timeout = setTimeout(() => {
-    //         copied = false;
-    //     }, 2000) as unknown as number;
-    // });
+function encodeItems(): string {
+    let encodedItems = "";
+    const itemsSelection = get(itemsSelected);
+    for (const items of Object.values(itemsSelection)) {
+        for (const item of Object.values(items)) {
+            encodedItems += item.idShort;
+        }
+    }
+    console.log("encodedItems", encodedItems);
+    return encodedItems;
 }
 
 export function decodeFromUrl() {
-    const hash = window.location.hash.slice(1); // remove the "#"
-    // const params = new URLSearchParams(hash);
-
-    // const encodedStats = params.get("s");
-    // const encodedItems = params.get("i");
+    clearTimeout(timeout);
+    canEncode = false;
+    const hash = window.location.hash.slice(1);
     const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
     const encodedStats = pairs.s || "";
-    // const encodedItems = pairs.i || "";
+    const encodedItems = pairs.i || "";
+    console.log("hash", hash);
+    // console.log("encoded stats", encodedStats);
+    // console.log("encoded items", encodedItems);
+    itemsSelected.set(getEmptyCategoriesItems());
 
-    if (encodedStats) {
-        console.log("encoded Stats", encodedStats);
-        decodeStats(encodedStats);
+    if (encodedItems) {
+        try {
+            console.log("itemsSelected", get(itemsSelected));
+            decodeItems(encodedItems);
+            console.log("itemsSelected", get(itemsSelected));
+        } catch (err) {
+            console.log(err);
+        }
     }
+    if (encodedStats) {
+        try {
+            decodeStats(encodedStats);
+            calculateBestItems();
+        } catch (err) {
+            console.log(err);
+        }
+    }
+    canEncode = true;
+}
+
+function decodeItems(encodedItems: string) {
+    // const parts = [];
+    const itemsToAdd: Item[] = [];
+    for (let i = 0; i < encodedItems.length; i += 2) {
+        const shortId = encodedItems.slice(i, i + 2);
+        const itemToAdd = getItemFromShortId(shortId);
+        // console.log("shortId", shortId);
+        // console.log("itemToAdd", itemToAdd);
+        if (itemToAdd) {
+            itemsToAdd.push(itemToAdd);
+        }
+    }
+    // console.log("itemsToAdd", itemsToAdd);
+    addItems(itemsToAdd);
+}
+
+export function saveHistoryEntry() {
+    const url = new URL(window.location.href);
+    window.history.pushState(null, "", url.toString());
 }

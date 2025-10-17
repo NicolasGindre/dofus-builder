@@ -1,12 +1,16 @@
-Hetzner
-
 Important :
 
-Weights + selected items in Url
+Set up server hosting : Vercel -> Hetzner
+
+selected items in Url
+save / load / name search
+example searches ?
+
+Icon + Website name -> replaced by saved search
 
 Compare builds
 
-lock items
+lock items -> update combination count
 If dofus contains bonus pano < 3 and length of other dofus < 6, add combination without [dofus with bonus pano < 3]
 
 Medium :
@@ -18,6 +22,9 @@ clear item category
 Minor :
 
 Add a way to scroll to the category item from pano (and reverse) 
-Scrolling on best items also scrolls on matching category (?)
+Scrolling on best items also scrolls on matching selected items category (?)
 
 Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)
+
+Save items / panos in local storage. Only download every Wednesday from 4 am
+Refresh dofusDB database items -> check minId is correct

@@ -106,7 +106,7 @@ function rankCombination(positions: number[]): bigint {
     // Convert stat IDs to their indices and sort
     // const positions = statIds.map((id) => STAT_INDEX[id]).sort((a, b) => a - b);
 
-    console.log("positions encode", positions);
+    // console.log("positions encode", positions);
 
     let rank = 0n;
     for (let i = 0; i < positions.length; i++) {
@@ -138,7 +138,7 @@ function unrankCombination(rank: bigint, k: number): StatKey[] {
         remainingRank -= binomial(pos, i + 1);
     }
     positions.reverse();
-    console.log("positions decode", positions);
+    // console.log("positions decode", positions);
 
     // Convert positions back to stat IDs
     return positions.map((pos) => INDEX_TO_KEY[pos]!);
@@ -209,17 +209,45 @@ function decompressRepeats(arr: string[]): string[] {
     return result;
 }
 
-// Main encoding/decoding functions
-export function encodeStats(statKeys: StatKey[]): string {
+export function encodeStats(): string {
+    const statsToEncode = new Set<StatKey>();
+
+    const weightsToEncode = get(weightsIndex);
+    const minStatsToEncode = get(minStatsIndex);
+    const maxStatsToEncode = get(maxStatsIndex);
+    Object.entries(weightsToEncode)
+        .filter(([_, value]) => value > 0)
+        .forEach(([key]) => statsToEncode.add(key as StatKey));
+
+    Object.entries(minStatsToEncode)
+        .filter(([_, value]) => value > 0)
+        .forEach(([key]) => statsToEncode.add(key as StatKey));
+
+    // Add stats with max values that differ from defaults
+    Object.entries(maxStatsToEncode)
+        .filter(([key, value]) => {
+            const defaultIndex = defaultMaxIndex[key as StatKey];
+            return defaultIndex === undefined || value !== defaultIndex;
+        })
+        .forEach(([key]) => statsToEncode.add(key as StatKey));
+
+    // console.log("statsToEncode", statsToEncode);
+    const encodedStats = encodeStatsKeys([...statsToEncode]);
+    // console.log("encoded", encodedStats);
+
+    return encodedStats;
+}
+
+function encodeStatsKeys(statKeys: StatKey[]): string {
     if (statKeys.length === 0) {
         return "";
     }
-    console.log("statKeys", statKeys);
+    // console.log("statKeys", statKeys);
     const positions = statKeys.map((id) => STAT_INDEX[id]).sort((a, b) => a - b);
 
     const rank = rankCombination(positions);
     // console.log("statKeys.length", statKeys.length);
-    console.log("rank", rank);
+    // console.log("rank", rank);
     // First character encodes the number of stats
 
     const statsWeight = get(weightsIndex);
@@ -272,12 +300,12 @@ export function decodeStats(encoded: string) {
         }
     }
     encodedStats = decompressRepeats(encodedStats);
-    console.log("encodedStats", encodedStats);
+    // console.log("encodedStats", encodedStats);
     // const rank = decodeBase64(encoded.slice(1));
     // const encodedStats = encodedSplit[1]!.match(/.{1,3}/g);
     // console.log("Decoded RANK :", rank, encodedStats.length);
     const statKeys = unrankCombination(rank, encodedStats.length);
-    console.log("statKeys", statKeys);
+    // console.log("statKeys", statKeys);
 
     let decodedWeights: Partial<Stats> = {};
     let decodedMin: Partial<Stats> = defaultMinIndex;

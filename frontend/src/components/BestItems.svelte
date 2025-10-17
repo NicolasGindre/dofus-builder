@@ -36,6 +36,7 @@
     import { words } from "../stores/builder";
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
+    import { saveHistoryEntry } from "../logic/encoding/urlEncode";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -142,7 +143,12 @@
             />
         </div>
 
-        <button on:click={calculateBestItems}>{$words.calculateBestItems}</button>
+        <button
+            on:click={() => {
+                calculateBestItems();
+                saveHistoryEntry();
+            }}>{$words.calculateBestItems}</button
+        >
         <!-- <button on:click={addAll}>Add All</button> -->
     </div>
     <div class="lists">

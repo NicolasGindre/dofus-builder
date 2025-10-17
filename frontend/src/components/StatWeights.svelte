@@ -169,26 +169,7 @@
         <tbody>
             {#each stats as statKey}
                 <tr>
-                    <td
-                        >{$words.stats[statKey]}
-                        <!-- <button
-                            class="icon-button"
-                            class:rotated={$weights[statKey]}
-                            title={$weights[statKey] ? $words.clearWeight : $words.setToDefault}
-                            on:click={() =>
-                                weightsIndex.update((w) => {
-                                    const next = { ...w };
-                                    if ($weights[statKey]) {
-                                        delete next[statKey];
-                                    } else {
-                                        next[statKey] = getDefaultWeightIndex(statKey);
-                                    }
-                                    return next;
-                                })}
-                        >
-                            <Plus size="14" />
-                        </button> -->
-                    </td>
+                    <td>{$words.stats[statKey]} </td>
                     <td>
                         <div class="weight-input">
                             <input
@@ -239,6 +220,12 @@
                             <input
                                 type="text"
                                 value={$minStats[statKey]}
+                                on:input={(e) => {
+                                    if (Number.isNaN(Number(e.currentTarget.value))) {
+                                        updateMinIndex(statKey, 0);
+                                        e.currentTarget.value = "";
+                                    }
+                                }}
                                 on:blur={(e) => {
                                     updateMinStat(statKey, e);
                                     e.currentTarget.value = $minStats[statKey]?.toString() ?? "";
@@ -276,6 +263,12 @@
                             <input
                                 type="text"
                                 value={$maxStats[statKey]}
+                                on:input={(e) => {
+                                    if (Number.isNaN(Number(e.currentTarget.value))) {
+                                        updateMaxIndex(statKey, 0);
+                                        e.currentTarget.value = "";
+                                    }
+                                }}
                                 on:blur={(e) => {
                                     updateMaxStat(statKey, e);
                                     e.currentTarget.value = $maxStats[statKey]?.toString() ?? "";
@@ -341,7 +334,7 @@
         width: 62px;
         height: 24px;
         /* border: 1px solid #ccc; */
-        border-radius: 4px;
+        /* border-radius: 4px; */
         overflow: hidden;
         box-sizing: border-box;
     }
@@ -368,34 +361,17 @@
         flex: 1;
         font-size: 0.6rem;
         border: none;
-        background: #333;
-        color: #777;
+        background: #3a3a3a;
+        color: #9e9e9e;
         cursor: pointer;
         padding: 0;
         line-height: 1;
-        /* color: dark; */
         border-radius: 0px;
     }
 
     .btn:hover {
         background: #555;
     }
-    /* .icon-button {
-        padding: 0.25em;
-        border-radius: 4px;
-        border: none;
-        background: transparent;
-        cursor: pointer;
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        transition: transform 0.2s ease;
-    }
-
-    .rotated {
-        transform: rotate(45deg);
-        transition: transform 0.2s ease;
-    } */
 
     table caption {
         font-weight: bold;
@@ -419,6 +395,14 @@
     .stats-grid td:first-child {
         text-align: right;
         padding-right: 10px;
+    }
+    .stats-grid td:nth-last-child(3) > :first-child {
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+    }
+    .stats-grid td:last-child > :first-child {
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
     }
     .stats-grid table tbody tr:nth-child(odd) {
         background-color: #222222;

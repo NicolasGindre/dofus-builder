@@ -86,3 +86,7 @@ export function getPanoply(id: string): Panoply {
 export function getItem(id: string): Item {
     return get(items)[id]!;
 }
+
+export function getItemFromShortId(shortId: string): Item | undefined {
+    return Object.values(get(items)).find((item) => item.idShort === shortId);
+}

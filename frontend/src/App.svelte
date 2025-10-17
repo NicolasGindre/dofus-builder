@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { onMount } from "svelte";
+    import { onDestroy, onMount } from "svelte";
     import StatWeights from "./components/StatWeights.svelte";
     import { initFrontendDB } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
@@ -7,19 +7,28 @@
     import LanguageSelect from "./components/LanguageSelect.svelte";
     import SaveButton from "./components/SaveButton.svelte";
     import { decodeFromUrl } from "./logic/encoding/urlEncode";
+    import { itemsSelected } from "./stores/builder";
+    import { getEmptyCategoriesItems } from "./types/item";
 
-    // get(items);
-    // get(panoplies);
     let error: string | null = null;
-
-    decodeFromUrl();
 
     onMount(async () => {
         try {
             await initFrontendDB();
+            decodeFromUrl();
+
+            window.addEventListener("popstate", handler);
         } catch (err) {
             error = err instanceof Error ? err.message : String(err);
         }
+    });
+    const handler = () => {
+        console.log("back/forward pressed");
+        itemsSelected.set(getEmptyCategoriesItems());
+        decodeFromUrl();
+    };
+    onDestroy(() => {
+        window.removeEventListener("popstate", handler);
     });
 </script>
 

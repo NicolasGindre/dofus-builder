@@ -1,49 +1,16 @@
 <script lang="ts">
-    import { weights, minStats, maxStats } from "../stores/builder";
-    import { decodeStats, encodeStats } from "../logic/encoding/encoding";
-    import type { StatKey } from "../types/stats";
     import { onDestroy } from "svelte";
 
     let copied = false;
     let timeout: number;
 
-    import { defaultMaxIndex } from "../types/statWeights";
-
     function saveToClipboard() {
-        // Get stats that have weights, min, or max values set
-        const statsToEncode = new Set<StatKey>();
-
-        // Add stats with weights
-        $weights &&
-            Object.entries($weights)
-                .filter(([_, value]) => value > 0)
-                .forEach(([key]) => statsToEncode.add(key as StatKey));
-
-        // Add stats with min values (any non-zero min is non-default)
-        $minStats &&
-            Object.entries($minStats)
-                .filter(([_, value]) => value > 0)
-                .forEach(([key]) => statsToEncode.add(key as StatKey));
-
-        // Add stats with max values that differ from defaults
-        $maxStats &&
-            Object.entries($maxStats)
-                .filter(([key, value]) => {
-                    const defaultIndex = defaultMaxIndex[key as StatKey];
-                    return defaultIndex === undefined || value !== defaultIndex;
-                })
-                .forEach(([key]) => statsToEncode.add(key as StatKey)); // Convert Set to Array and encode
-
-        console.log("statsToEncode", statsToEncode);
-        const encodedStats = encodeStats([...statsToEncode]);
-        console.log("encoded", encodedStats);
         // decodeStats(encoded);
 
         // Create the full URL
         const url = new URL(window.location.href);
-        url.hash = `s=${encodedStats}`; //&i=${itemsEncoded}`;
-
-        window.history.replaceState(null, "", url.toString());
+        // url.hash = `s=${encodedStats}`; //&i=${itemsEncoded}`;
+        // window.history.replaceState(null, "", url.toString());
 
         // Copy to clipboard
         navigator.clipboard.writeText(url.toString()).then(() => {

@@ -32,6 +32,8 @@ import {
 } from "../logic/encoding/valueEncoding";
 import { encodeToUrl } from "../logic/encoding/urlEncode";
 
+// export const appReady = writable<boolean>(false);
+
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
 
@@ -58,7 +60,7 @@ export const automaticWeights = writable<boolean>(true);
 export const weightsIndex = writable<Partial<Stats>>({});
 
 export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
-    encodeToUrl(false);
+    encodeToUrl();
     return Object.fromEntries(
         Object.entries($weightsIndex).map(([statKey, weightIndex]) => [
             statKey,
@@ -73,7 +75,7 @@ weightsIndex.subscribe((value) => {
 
 export const minStatsIndex = writable<Partial<Stats>>({});
 export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minStatsIndex) => {
-    encodeToUrl(false);
+    encodeToUrl();
     return Object.fromEntries(
         Object.entries($minStatsIndex).map(([statKey, minStatsIndex]) => [
             statKey,
@@ -84,7 +86,7 @@ export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minSt
 
 export const maxStatsIndex = writable<Partial<Stats>>(defaultMaxIndex);
 export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxStatsIndex) => {
-    encodeToUrl(false);
+    encodeToUrl();
     return Object.fromEntries(
         Object.entries($maxStatsIndex).map(([statKey, maxStatsIndex]) => [
             statKey,
@@ -142,6 +144,7 @@ export const bestBuildsDisplayed = writable<CharacterBuild[]>([]);
 export const bestBuildShownCount = writable<number>(10);
 
 export const totalPossibilities = derived(itemsSelected, ($itemsCategory) => {
+    encodeToUrl();
     let possibilities = 1;
     let atLeast1: boolean = false;
     for (const [category, items] of Object.entries($itemsCategory)) {
