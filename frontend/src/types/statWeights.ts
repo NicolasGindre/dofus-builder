@@ -76,16 +76,16 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
         let statSum = 0;
         for (const statKey of STAT_STAT_KEYS) {
             // const w = getWeightFromIndex(weightsIn[statKey]);
-            statSum += getWeightFromIndex(weightsIn[statKey]);
+            statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
             // console.log("statKey", statKey);
             // console.log(statKey, weightsIn[statKey], w);
         }
         // console.log("statSum", statSum);
-        const powerSumIndex = findClosestWeightIndex(statSum);
+        const powerSumIndex = findClosestWeightIndex("power", statSum);
         // console.log("powerSumIndex", powerSumIndex);
-        statSum = getWeightFromIndex(powerSumIndex);
+        statSum = getWeightFromIndex("power", powerSumIndex);
         // console.log("statSum", statSum);
-        if (statSum != getWeightFromIndex(weightsIn["power"])) {
+        if (statSum != getWeightFromIndex("power", weightsIn["power"])) {
             if (statSum == 0) {
                 delete weightsIn.power;
             } else {
@@ -95,11 +95,11 @@ export function checkWeightUpdate(weightsIn: Partial<Stats>) {
 
         statSum = 0;
         for (const statKey of STAT_DAMAGE_KEYS) {
-            statSum += getWeightFromIndex(weightsIn[statKey]);
+            statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
         }
-        const damageSumIndex = findClosestWeightIndex(statSum);
-        statSum = getWeightFromIndex(damageSumIndex);
-        if (statSum != getWeightFromIndex(weightsIn["damage"])) {
+        const damageSumIndex = findClosestWeightIndex("damage", statSum);
+        statSum = getWeightFromIndex("damage", damageSumIndex);
+        if (statSum != getWeightFromIndex("damage", weightsIn["damage"])) {
             if (statSum == 0) {
                 delete weightsIn.damage;
             } else {
@@ -200,7 +200,10 @@ const defaultWeights: Stats = {
 };
 
 export const defaultWeightsIndex: Stats = Object.fromEntries(
-    Object.entries(defaultWeights).map(([key, weight]) => [key, findClosestWeightIndex(weight)]),
+    Object.entries(defaultWeights).map(([statKey, weight]) => [
+        statKey,
+        findClosestWeightIndex(statKey as StatKey, weight),
+    ]),
 ) as Stats;
 
 export const defaultMinIndex: Partial<Stats> = {};

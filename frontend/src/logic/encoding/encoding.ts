@@ -222,16 +222,16 @@ export function encodeStats(statKeys: StatKey[]): string {
     console.log("rank", rank);
     // First character encodes the number of stats
 
-    const statsWeight = get(weights);
-    const statsMin = get(minStats);
-    const statsMax = get(maxStats);
+    const statsWeight = get(weightsIndex);
+    const statsMin = get(minStatsIndex);
+    const statsMax = get(maxStatsIndex);
 
     let encodedStats: string[] = [];
     for (const statIndex of positions) {
         // if (statKeys.includes(statKey)) {
         const statKey = INDEX_TO_KEY[statIndex] as StatKey;
         const encodedValues = encodeStatValues(
-            statKey,
+            // statKey,
             statsWeight[statKey],
             statsMin[statKey],
             statsMax[statKey],

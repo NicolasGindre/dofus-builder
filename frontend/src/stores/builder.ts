@@ -30,6 +30,7 @@ import {
     getWeightFromIndex,
     WEIGHT_ENCODING,
 } from "../logic/encoding/valueEncoding";
+import { encodeToUrl } from "../logic/encoding/urlEncode";
 
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
@@ -57,10 +58,11 @@ export const automaticWeights = writable<boolean>(true);
 export const weightsIndex = writable<Partial<Stats>>({});
 
 export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
+    encodeToUrl(false);
     return Object.fromEntries(
         Object.entries($weightsIndex).map(([statKey, weightIndex]) => [
             statKey,
-            getWeightFromIndex(weightIndex),
+            getWeightFromIndex(statKey as StatKey, weightIndex),
         ]),
     );
 });
@@ -71,6 +73,7 @@ weightsIndex.subscribe((value) => {
 
 export const minStatsIndex = writable<Partial<Stats>>({});
 export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minStatsIndex) => {
+    encodeToUrl(false);
     return Object.fromEntries(
         Object.entries($minStatsIndex).map(([statKey, minStatsIndex]) => [
             statKey,
@@ -81,6 +84,7 @@ export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minSt
 
 export const maxStatsIndex = writable<Partial<Stats>>(defaultMaxIndex);
 export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxStatsIndex) => {
+    encodeToUrl(false);
     return Object.fromEntries(
         Object.entries($maxStatsIndex).map(([statKey, maxStatsIndex]) => [
             statKey,

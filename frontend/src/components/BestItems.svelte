@@ -74,9 +74,9 @@
 
     let hoveredId: string = null;
     function setHovered(id: string) {
-        console.log(id);
+        // console.log(id);
         hoveredId = id;
-        console.log(hoveredId);
+        // console.log(hoveredId);
     }
 </script>
 

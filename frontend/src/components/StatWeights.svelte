@@ -31,7 +31,6 @@
         findClosestWeightIndex,
         findClosestWeightValue,
         MIN_MAX_ENCODING,
-        STAT_COEFFICIENTS,
         WEIGHT_ENCODING,
     } from "../logic/encoding/valueEncoding";
 
@@ -53,6 +52,9 @@
             newIndex = getDefaultWeightIndex(statKey);
         } else {
             newIndex += $weightsIndex[statKey];
+            if (newIndex == 0) {
+                newIndex = 1;
+            }
         }
         updateWeightIndex(statKey, newIndex);
     }
@@ -63,7 +65,7 @@
         if (Number.isNaN(newValue)) {
             updateWeightIndex(statKey, 0);
         } else {
-            updateWeightIndex(statKey, findClosestWeightIndex(newValue));
+            updateWeightIndex(statKey, findClosestWeightIndex(statKey, newValue));
         }
     }
     function updateWeightIndex(statKey: StatKey, newIndex: number) {
@@ -216,12 +218,14 @@
                             />
                             <div class="buttons">
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementWeight(statKey, 1);
                                     }}>▲</button
                                 >
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementWeight(statKey, -1);
@@ -251,12 +255,14 @@
                             />
                             <div class="buttons">
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementMinStat(statKey, 1);
                                     }}>▲</button
                                 >
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementMinStat(statKey, -1);
@@ -286,12 +292,14 @@
                             />
                             <div class="buttons">
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementMaxStat(statKey, 1);
                                     }}>▲</button
                                 >
                                 <button
+                                    tabindex="-1"
                                     class="btn"
                                     on:click={(e) => {
                                         incrementMaxStat(statKey, -1);
@@ -299,26 +307,6 @@
                                 >
                             </div>
                         </div>
-                        <!-- <input
-                            type="number"
-                            step={Math.max(
-                                $maxStats[statKey] / 10,
-                                STAT_COEFFICIENTS[statKey],
-                            ).toPrecision(1)}
-                            bind:value={$maxStats[statKey]}
-                            on:input={(e) => {
-                                const value = e.currentTarget.value;
-                                maxStats.update((w) => {
-                                    const next = { ...w };
-                                    if (value === "") {
-                                        delete next[statKey];
-                                    } else {
-                                        next[statKey] = +value;
-                                    }
-                                    return next;
-                                });
-                            }}
-                        /> -->
                     </td>
                 </tr>
             {/each}

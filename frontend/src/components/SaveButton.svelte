@@ -35,14 +35,15 @@
                 .forEach(([key]) => statsToEncode.add(key as StatKey)); // Convert Set to Array and encode
 
         console.log("statsToEncode", statsToEncode);
-        const encoded = encodeStats([...statsToEncode]);
-        console.log("encoded", encoded);
-        const decoded = decodeStats(encoded);
-        console.log("decoded", decoded);
+        const encodedStats = encodeStats([...statsToEncode]);
+        console.log("encoded", encodedStats);
+        // decodeStats(encoded);
 
         // Create the full URL
         const url = new URL(window.location.href);
-        url.searchParams.set("w", encoded);
+        url.hash = `s=${encodedStats}`; //&i=${itemsEncoded}`;
+
+        window.history.replaceState(null, "", url.toString());
 
         // Copy to clipboard
         navigator.clipboard.writeText(url.toString()).then(() => {
