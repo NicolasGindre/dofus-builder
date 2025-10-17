@@ -1,5 +1,5 @@
-import { derived, writable } from "svelte/store";
-import type { Stats } from "../types/stats";
+import { derived, writable, type Readable } from "svelte/store";
+import type { StatKey, Stats } from "../types/stats";
 import {
     getEmptyCategoriesItems,
     getEmptyCategoriesItemsArr,
@@ -24,7 +24,12 @@ import fr from "../lib/i18n/fr";
 import pt from "../lib/i18n/pt";
 import de from "../lib/i18n/de";
 import es from "../lib/i18n/es";
-import { checkWeightUpdate, defaultMax } from "../types/statWeights";
+import { checkWeightUpdate, defaultMaxIndex } from "../types/statWeights";
+import {
+    getMinMaxFromIndex,
+    getWeightFromIndex,
+    WEIGHT_ENCODING,
+} from "../logic/encoding/valueEncoding";
 
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
@@ -47,19 +52,43 @@ export const showBonusPanoCappedItems = writable<boolean>(true);
 export const sortBestItemsWithPanoValue = writable<boolean>(true);
 export const showOnlySelectedPanos = writable<boolean>(false);
 
-export const weights = writable<Partial<Stats>>({});
 export const automaticWeights = writable<boolean>(true);
-// export const globalElementalDefense = writable<number>();
+// export const displayedWeights = writable<Partial<Stats>>({});
+export const weightsIndex = writable<Partial<Stats>>({});
 
-weights.subscribe((value) => {
+export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
+    return Object.fromEntries(
+        Object.entries($weightsIndex).map(([statKey, weightIndex]) => [
+            statKey,
+            getWeightFromIndex(weightIndex),
+        ]),
+    );
+});
+
+weightsIndex.subscribe((value) => {
     checkWeightUpdate(value);
 });
-// weights.subscribe(($weights) => {
-//     checkWeightUpdate($weights, "http://localhost:5173/");
-// });
 
-export const minStats = writable<Partial<Stats>>({});
-export const maxStats = writable<Partial<Stats>>(defaultMax);
+export const minStatsIndex = writable<Partial<Stats>>({});
+export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minStatsIndex) => {
+    return Object.fromEntries(
+        Object.entries($minStatsIndex).map(([statKey, minStatsIndex]) => [
+            statKey,
+            getMinMaxFromIndex(statKey as StatKey, minStatsIndex),
+        ]),
+    );
+});
+
+export const maxStatsIndex = writable<Partial<Stats>>(defaultMaxIndex);
+export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxStatsIndex) => {
+    return Object.fromEntries(
+        Object.entries($maxStatsIndex).map(([statKey, maxStatsIndex]) => [
+            statKey,
+            getMinMaxFromIndex(statKey as StatKey, maxStatsIndex),
+        ]),
+    );
+});
+
 export const exoAp = writable<boolean>(false);
 export const exoMp = writable<boolean>(false);
 export const exoRange = writable<boolean>(false);

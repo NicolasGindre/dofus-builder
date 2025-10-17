@@ -1,5 +1,5 @@
 import { get } from "svelte/store";
-import { automaticWeights, weights } from "../stores/builder";
+import { automaticWeights, weights, weightsIndex } from "../stores/builder";
 import {
     STAT_CACRANGE_DEFENSE_KEYS,
     STAT_DAMAGE_KEYS,
@@ -10,20 +10,28 @@ import {
     type StatKey,
     type Stats,
 } from "./stats";
+import {
+    findClosestMinMaxIndex,
+    findClosestMinMaxValue,
+    findClosestWeightIndex,
+    findClosestWeightValue,
+    getMinMaxFromIndex,
+    getWeightFromIndex,
+} from "../logic/encoding/valueEncoding";
 
 let globalElementalPerDefense: number | undefined = undefined;
 let globalElementalDefense: number | undefined = undefined;
 let globalCacRangeDefense: number | undefined = undefined;
 
-export function getDefaultWeight(statKey: StatKey) {
-    return defaultWeights[statKey];
+export function getDefaultWeightIndex(statKey: StatKey) {
+    return defaultWeightsIndex[statKey];
 }
-export function copyDefaultWeights(): Partial<Stats> {
-    let newDefaultWeights: Partial<Stats> = {};
-    for (const [key, value] of Object.entries(defaultWeights)) {
-        newDefaultWeights[key as StatKey] = value;
+export function copyDefaultWeightsIndex(): Partial<Stats> {
+    let newDefaultWeightsIndex: Partial<Stats> = {};
+    for (const [key, value] of Object.entries(defaultWeightsIndex)) {
+        newDefaultWeightsIndex[key as StatKey] = value;
     }
-    return newDefaultWeights;
+    return newDefaultWeightsIndex;
 }
 
 export function getAllWeightsTo0(): Partial<Stats> {
@@ -35,87 +43,69 @@ export function getAllWeightsTo0(): Partial<Stats> {
 }
 
 export function checkWeightUpdate(weightsIn: Partial<Stats>) {
-    let weightsOut: Partial<Stats> = {};
-    let isUpdated: boolean = false;
+    // let weightsIn: Partial<Stats> = {};
 
-    for (const [key, weight] of Object.entries(weightsIn)) {
-        const statKey = key as StatKey;
-        if ((weight && weight < 0.01) || weight == 0) {
-            weightsOut[statKey as StatKey] = 0.01;
-            isUpdated = true;
-        } else if (weight > 999) {
-            weightsOut[statKey as StatKey] = 999;
-            isUpdated = true;
-        } else {
-            weightsOut[statKey as StatKey] = weight;
-        }
-    }
     if (get(automaticWeights)) {
         for (const statKey of STAT_ELEMENTAL_PER_DEFENSE_KEYS) {
-            if (weightsOut[statKey] != globalElementalPerDefense) {
-                globalElementalPerDefense = weightsOut[statKey];
+            if (weightsIn[statKey] != globalElementalPerDefense) {
+                globalElementalPerDefense = weightsIn[statKey];
                 updateWeights(
-                    weightsOut,
+                    weightsIn,
                     STAT_ELEMENTAL_PER_DEFENSE_KEYS,
                     globalElementalPerDefense,
                 );
-                isUpdated = true;
                 break;
             }
         }
         for (const statKey of STAT_ELEMENTAL_DEFENSE_KEYS) {
-            if (weightsOut[statKey] != globalElementalDefense) {
-                globalElementalDefense = weightsOut[statKey];
-                updateWeights(weightsOut, STAT_ELEMENTAL_DEFENSE_KEYS, globalElementalDefense);
-                isUpdated = true;
+            if (weightsIn[statKey] != globalElementalDefense) {
+                globalElementalDefense = weightsIn[statKey];
+                updateWeights(weightsIn, STAT_ELEMENTAL_DEFENSE_KEYS, globalElementalDefense);
                 break;
             }
         }
         for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
-            if (weightsOut[statKey] != globalCacRangeDefense) {
-                globalCacRangeDefense = weightsOut[statKey];
-                updateWeights(weightsOut, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
-                isUpdated = true;
+            if (weightsIn[statKey] != globalCacRangeDefense) {
+                globalCacRangeDefense = weightsIn[statKey];
+                updateWeights(weightsIn, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
                 break;
             }
         }
+        // console.log("weightsOut", weightsIn);
+        // const displayedWeights = get(weights);
         let statSum = 0;
         for (const statKey of STAT_STAT_KEYS) {
-            statSum += weightsOut[statKey] ?? 0;
+            // const w = getWeightFromIndex(weightsIn[statKey]);
+            statSum += getWeightFromIndex(weightsIn[statKey]);
+            // console.log("statKey", statKey);
+            // console.log(statKey, weightsIn[statKey], w);
         }
-        // VERY DANGEROUS !!!
-        statSum = Math.round(statSum * 1000) / 1000;
-        if (statSum > 999) {
-            statSum = 999;
-        }
-        if (statSum != (weightsOut.power ?? 0)) {
+        // console.log("statSum", statSum);
+        const powerSumIndex = findClosestWeightIndex(statSum);
+        // console.log("powerSumIndex", powerSumIndex);
+        statSum = getWeightFromIndex(powerSumIndex);
+        // console.log("statSum", statSum);
+        if (statSum != getWeightFromIndex(weightsIn["power"])) {
             if (statSum == 0) {
-                delete weightsOut.power;
+                delete weightsIn.power;
             } else {
-                weightsOut.power = statSum;
+                weightsIn.power = powerSumIndex;
             }
-            isUpdated = true;
         }
 
         statSum = 0;
         for (const statKey of STAT_DAMAGE_KEYS) {
-            statSum += weightsOut[statKey] ?? 0;
+            statSum += getWeightFromIndex(weightsIn[statKey]);
         }
-        statSum = Math.round(statSum * 1000) / 1000;
-        if (statSum > 999) {
-            statSum = 999;
-        }
-        if (statSum != (weightsOut.damage ?? 0)) {
+        const damageSumIndex = findClosestWeightIndex(statSum);
+        statSum = getWeightFromIndex(damageSumIndex);
+        if (statSum != getWeightFromIndex(weightsIn["damage"])) {
             if (statSum == 0) {
-                delete weightsOut.damage;
+                delete weightsIn.damage;
             } else {
-                weightsOut.damage = statSum;
+                weightsIn.damage = damageSumIndex;
             }
-            isUpdated = true;
         }
-    }
-    if (isUpdated) {
-        weights.set(weightsOut);
     }
 }
 function updateWeights(
@@ -208,9 +198,14 @@ const defaultWeights: Stats = {
     meleeDamagePer: 15,
     weaponDamagePer: 15,
 };
-export const defaultMin: Partial<Stats> = {};
 
-export const defaultMax: Partial<Stats> = {
+export const defaultWeightsIndex: Stats = Object.fromEntries(
+    Object.entries(defaultWeights).map(([key, weight]) => [key, findClosestWeightIndex(weight)]),
+) as Stats;
+
+export const defaultMinIndex: Partial<Stats> = {};
+
+const defaultMax: Partial<Stats> = {
     ap: 12,
     mp: 6,
     range: 6,
@@ -224,3 +219,10 @@ export const defaultMax: Partial<Stats> = {
     rangedResistPer: 50,
     meleeResistPer: 50,
 };
+
+export const defaultMaxIndex: Partial<Stats> = Object.fromEntries(
+    Object.entries(defaultMax).map(([key, value]) => [
+        key,
+        findClosestMinMaxIndex(key as StatKey, value),
+    ]),
+) as Partial<Stats>;

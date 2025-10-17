@@ -7,7 +7,7 @@
     let copied = false;
     let timeout: number;
 
-    import { defaultMax } from "../types/statWeights";
+    import { defaultMaxIndex } from "../types/statWeights";
 
     function saveToClipboard() {
         // Get stats that have weights, min, or max values set
@@ -29,8 +29,8 @@
         $maxStats &&
             Object.entries($maxStats)
                 .filter(([key, value]) => {
-                    const defaultValue = defaultMax[key as StatKey];
-                    return defaultValue === undefined || value !== defaultValue;
+                    const defaultIndex = defaultMaxIndex[key as StatKey];
+                    return defaultIndex === undefined || value !== defaultIndex;
                 })
                 .forEach(([key]) => statsToEncode.add(key as StatKey)); // Convert Set to Array and encode
 

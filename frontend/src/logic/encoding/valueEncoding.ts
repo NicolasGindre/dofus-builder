@@ -48,7 +48,7 @@ export const STAT_COEFFICIENTS: Record<StatKey, number> = {
     range: 1,
     summon: 1,
 
-    health: 50,
+    health: 80,
 
     wisdom: 8,
     prospecting: 8,
@@ -130,11 +130,14 @@ export function findClosestWeightIndex(value?: number): number {
             closest = i;
         }
     }
-
+    // console.log(closest);
     return closest;
 }
+export function findClosestWeightValue(value?: number): number {
+    return getWeightFromIndex(findClosestWeightIndex(value));
+}
 
-export function findClosestValueIndex(stat: StatKey, value?: number): number {
+export function findClosestMinMaxIndex(stat: StatKey, value?: number): number {
     if (!value) {
         return 0;
     }
@@ -152,12 +155,21 @@ export function findClosestValueIndex(stat: StatKey, value?: number): number {
     }
     return closest;
 }
+export function findClosestMinMaxValue(stat: StatKey, value?: number): number {
+    return getMinMaxFromIndex(stat, findClosestMinMaxIndex(stat, value));
+}
 
-export function getWeightFromIndex(index: number): number {
+export function getWeightFromIndex(index?: number): number {
+    if (!index) {
+        return 0;
+    }
     return WEIGHT_ENCODING[index] || 0;
 }
 
-export function getMinMaxFromIndex(index: number, stat: StatKey): number {
+export function getMinMaxFromIndex(stat: StatKey, index?: number): number {
+    if (!index) {
+        return 0;
+    }
     const coefficient = STAT_COEFFICIENTS[stat] || 1;
     return (MIN_MAX_ENCODING[index] || 0) * coefficient;
 }
@@ -170,8 +182,8 @@ export function encodeStatValues(
     max?: number,
 ): string {
     const weightIndex = findClosestWeightIndex(weight);
-    const minIndex = findClosestValueIndex(stat, min);
-    const maxIndex = findClosestValueIndex(stat, max);
+    const minIndex = findClosestMinMaxIndex(stat, min);
+    const maxIndex = findClosestMinMaxIndex(stat, max);
 
     const minMaxLength = MIN_MAX_ENCODING.length;
     let n = (weightIndex * minMaxLength + minIndex) * minMaxLength + maxIndex;
@@ -186,8 +198,8 @@ export function encodeStatValues(
     return out;
 }
 
-export function decodeStatValues(
-    stat: StatKey,
+export function decodeStatIndexes(
+    // stat: StatKey,
     encoded: string,
 ): { weight: number; min: number; max: number } {
     let n = 0;
@@ -200,8 +212,8 @@ export function decodeStatValues(
     const weightIndex = n; // 0..127
 
     return {
-        weight: getWeightFromIndex(weightIndex),
-        min: getMinMaxFromIndex(minIndex, stat),
-        max: getMinMaxFromIndex(maxIndex, stat),
+        weight: weightIndex,
+        min: minIndex,
+        max: maxIndex,
     };
 }

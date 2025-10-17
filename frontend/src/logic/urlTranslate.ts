@@ -25,7 +25,7 @@ export function decodeWeightsFromUrl(params: URLSearchParams) {
     const json = LZString.decompressFromEncodedURIComponent(packed);
     if (!json) throw new Error("Bad data");
     const importedWeights: Partial<Stats> = JSON.parse(json);
-    weights.set(importedWeights);
+    // weights.set(importedWeights);
 }
 
 // base64url helpers

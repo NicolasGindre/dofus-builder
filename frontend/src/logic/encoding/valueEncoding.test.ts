@@ -1,12 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import {
-    WEIGHT_ENCODING,
-    MIN_MAX_ENCODING,
-    findClosestWeightIndex,
-    findClosestValueIndex,
-    encodeStatValues,
-    decodeStatValues,
-} from "./valueEncoding";
+import { encodeStatValues, decodeStatIndexes } from "./valueEncoding";
 import type { StatKey } from "../../types/stats";
 
 describe("value encoding", () => {
@@ -22,7 +15,7 @@ describe("value encoding", () => {
             const encoded = encodeStatValues(test.stat, test.weight, test.min, test.max);
             expect(encoded.length).toBe(3);
 
-            const decoded = decodeStatValues(test.stat, encoded);
+            const decoded = decodeStatIndexes(encoded);
 
             expect(decoded.weight).toBe(test.weight);
             expect(decoded.min).toBe(test.min);
@@ -36,7 +29,7 @@ describe("value encoding", () => {
 
         // Maximum values
         const encoded = encodeStatValues("strength", 1, 109, 107);
-        const decoded = decodeStatValues("strength", encoded);
+        const decoded = decodeStatIndexes(encoded);
         expect(decoded.weight).toBe(1);
         expect(decoded.min).toBe(100);
         expect(decoded.max).toBe(100);

@@ -1,13 +1,20 @@
 import { get } from "svelte/store";
 import { STAT_KEYS, type StatKey, type Stats } from "../../types/stats";
-import { decodeStatValues, encodeStatValues } from "./valueEncoding";
-import { maxStats, minStats, weights } from "../../stores/builder";
+import { decodeStatIndexes, encodeStatValues } from "./valueEncoding";
+import {
+    maxStats,
+    maxStatsIndex,
+    minStats,
+    minStatsIndex,
+    weights,
+    weightsIndex,
+} from "../../stores/builder";
 import { partial } from "zod/v4-mini";
 import {
-    copyDefaultWeights,
-    defaultMax,
-    defaultMin,
-    getDefaultWeight,
+    // copyDefaultWeights,
+    defaultMaxIndex,
+    defaultMinIndex,
+    // getDefaultWeight,
 } from "../../types/statWeights";
 
 export const ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-" as const;
@@ -273,21 +280,21 @@ export function decodeStats(encoded: string) {
     console.log("statKeys", statKeys);
 
     let decodedWeights: Partial<Stats> = {};
-    let decodedMin: Partial<Stats> = defaultMin;
-    let decodedMax: Partial<Stats> = defaultMax;
+    let decodedMin: Partial<Stats> = defaultMinIndex;
+    let decodedMax: Partial<Stats> = defaultMaxIndex;
     let i = 0;
     for (const statKey of statKeys) {
         // if (statKeys.includes(statKey)) {
         // console.log("i", i);
         // console.log("encodedStats[i]!", encodedStats[i]!);
-        const { weight, min, max } = decodeStatValues(statKey, encodedStats[i]!);
+        const { weight, min, max } = decodeStatIndexes(encodedStats[i]!);
         i++;
         if (weight != 0) decodedWeights[statKey] = weight;
         if (min != 0) decodedMin[statKey] = min;
         if (max != 0) decodedMax[statKey] = max;
         // }
     }
-    weights.set(decodedWeights);
-    minStats.set(decodedMin);
-    maxStats.set(decodedMax);
+    weightsIndex.set(decodedWeights);
+    minStatsIndex.set(decodedMin);
+    maxStatsIndex.set(decodedMax);
 }
