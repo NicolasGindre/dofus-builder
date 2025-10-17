@@ -12,3 +12,8 @@ declare module "*.svelte" {
     import type { SvelteComponent } from "svelte";
     export default class Component extends SvelteComponent {}
 }
+
+declare module "*?worker" {
+    const WorkerFactory: new () => Worker;
+    export default WorkerFactory;
+}
