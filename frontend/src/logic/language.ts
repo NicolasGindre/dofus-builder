@@ -7,9 +7,9 @@ export function translateRequirement(requirement: Requirement): string {
         case "panopliesBonusLessThan":
             return `${get(words).panopliesBonus} < ${requirement.value}`;
         case "apLessThanOrMpLessThan":
-            return `${get(words).stats.ap} < ${requirement.apValue} OR ${get(words).stats.mp} < ${requirement.mpValue} `;
+            return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).or} ${get(words).stats.mp} < ${requirement.mpValue} `;
         case "apLessThanAndMpLessThan":
-            return `${get(words).stats.ap} < ${requirement.apValue} AND ${get(words).stats.mp} < ${requirement.mpValue} `;
+            return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).and} ${get(words).stats.mp} < ${requirement.mpValue} `;
         case "apLessThan":
             return `${get(words).stats.ap} < ${requirement.value}`;
         case "mpLessThan":

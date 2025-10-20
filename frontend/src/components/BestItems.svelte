@@ -20,6 +20,7 @@
     import { calculateBestItems } from "../logic/value";
     import { getItem } from "../logic/frontendDB";
     import {
+        addItem,
         addItems,
         addOrRemoveItem,
         calculatePanopliesToDisplay,
@@ -78,6 +79,21 @@
         // console.log(id);
         hoveredId = id;
         // console.log(hoveredId);
+    }
+
+    function quickSelection() {
+        for (const pano of $panopliesDisplayed) {
+            addItems(pano.itemsReal);
+        }
+        for (const [category, items] of Object.entries($itemsCategoryBest)) {
+            if (category == "dofus") {
+                continue;
+            }
+            addItem(items[0]);
+            if (category == "ring") {
+                addItem(items[1]);
+            }
+        }
     }
 </script>
 
@@ -267,6 +283,9 @@
         <div class="list-container">
             <div class="list-header">
                 <h2>{$words.itemsSelected}</h2>
+            </div>
+            <div class="selection-controls">
+                <button on:click={quickSelection}>{$words.quickSelection}</button>
                 <button on:click={clearAll}>{$words.clear}</button>
             </div>
             <ItemSearch />
@@ -387,6 +406,17 @@
     .list-header h2 {
         margin-bottom: 0px;
         line-height: 1.1;
+    }
+    .selection-controls {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 4px;
+    }
+    .selection-controls > button {
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
     }
     .list {
         /* flex: 1; */

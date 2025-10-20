@@ -1,18 +1,15 @@
 <script lang="ts">
     import { onDestroy } from "svelte";
+    import { saveHistoryEntry } from "../logic/encoding/urlEncode";
 
     let copied = false;
     let timeout: number;
 
     function saveToClipboard() {
-        // decodeStats(encoded);
-
-        // Create the full URL
-        const url = new URL(window.location.href);
-        // url.hash = `s=${encodedStats}`; //&i=${itemsEncoded}`;
-        // window.history.replaceState(null, "", url.toString());
+        saveHistoryEntry();
 
         // Copy to clipboard
+        const url = new URL(window.location.href);
         navigator.clipboard.writeText(url.toString()).then(() => {
             copied = true;
             clearTimeout(timeout);

@@ -35,7 +35,7 @@
 <main>
     <SaveButton />
     <LanguageSelect />
-    <h1>Dofus Builder</h1>
+    <h1>Dofus MinMax - Builder</h1>
     {#if error}
         <p style="color: red;">{error}</p>
     {/if}

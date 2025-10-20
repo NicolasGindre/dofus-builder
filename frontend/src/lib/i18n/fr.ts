@@ -3,6 +3,7 @@ export default {
 
     weight: "Poids",
     setAllWeightsTo0: "Effacer tous les poids",
+    reset: "Réinitialiser",
     setAllWeightsToDefault: "Mettre tous les poids par défaut",
     clearWeight: "Effacer le poids",
     setToDefault: "Ajouter le poids par défaut",
@@ -15,7 +16,7 @@ export default {
     orderByValueWithPano: "Trier par Valeur avec Pano",
 
     value: "Valeur",
-    valueWithPano: "Valeur avec Panoplie",
+    valueWithPano: "Avec Panoplie",
 
     showMore: "Montrer plus",
     showLess: "Montrer moins",
@@ -27,8 +28,12 @@ export default {
     onlySelected: "Sélectionnées",
     bestAndSelected: "Meilleures + Sélectionnées",
 
+    // add: "Ajouter",
+
     addPanoply: "Ajouter Panoplie",
     removePanoply: "Retirer Panoplie",
+
+    quickSelection: "Sélection rapide",
 
     addRemoveItemByName: "Ajouter ou Enlever un Objet",
 
@@ -46,6 +51,8 @@ export default {
     panopliesBonus: "Bonus de Panoplie",
     // apLessThan: "AP less than",
     // mpLessThan: "MP less than",
+    or: "OU",
+    and: "ET",
 
     statsType: {
         utility: "Stats Utilitaires",

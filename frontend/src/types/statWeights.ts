@@ -1,5 +1,5 @@
-import { get } from "svelte/store";
-import { automaticWeights, weights, weightsIndex } from "../stores/builder";
+import { get, readonly } from "svelte/store";
+import { automaticWeights, maxStatsIndex, weights, weightsIndex } from "../stores/builder";
 import {
     STAT_CACRANGE_DEFENSE_KEYS,
     STAT_DAMAGE_KEYS,
@@ -42,70 +42,82 @@ export function getAllWeightsTo0(): Partial<Stats> {
     return newWeights;
 }
 
-export function checkWeightUpdate(weightsIn: Partial<Stats>) {
-    // let weightsIn: Partial<Stats> = {};
+export function checkWeightUpdate() {
+    console.log("automaticWeights", get(automaticWeights));
+    if (!get(automaticWeights)) {
+        return;
+    }
+    const weightsIn = get(weightsIndex);
+    let weightsOut: Partial<Stats> = { ...weightsIn };
+    let isUpdated = false;
 
-    if (get(automaticWeights)) {
-        for (const statKey of STAT_ELEMENTAL_PER_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalElementalPerDefense) {
-                globalElementalPerDefense = weightsIn[statKey];
-                updateWeights(
-                    weightsIn,
-                    STAT_ELEMENTAL_PER_DEFENSE_KEYS,
-                    globalElementalPerDefense,
-                );
-                break;
-            }
-        }
-        for (const statKey of STAT_ELEMENTAL_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalElementalDefense) {
-                globalElementalDefense = weightsIn[statKey];
-                updateWeights(weightsIn, STAT_ELEMENTAL_DEFENSE_KEYS, globalElementalDefense);
-                break;
-            }
-        }
-        for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
-            if (weightsIn[statKey] != globalCacRangeDefense) {
-                globalCacRangeDefense = weightsIn[statKey];
-                updateWeights(weightsIn, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
-                break;
-            }
-        }
-        // console.log("weightsOut", weightsIn);
-        // const displayedWeights = get(weights);
-        let statSum = 0;
-        for (const statKey of STAT_STAT_KEYS) {
-            // const w = getWeightFromIndex(weightsIn[statKey]);
-            statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
-            // console.log("statKey", statKey);
-            // console.log(statKey, weightsIn[statKey], w);
-        }
-        // console.log("statSum", statSum);
-        const powerSumIndex = findClosestWeightIndex("power", statSum);
-        // console.log("powerSumIndex", powerSumIndex);
-        statSum = getWeightFromIndex("power", powerSumIndex);
-        // console.log("statSum", statSum);
-        if (statSum != getWeightFromIndex("power", weightsIn["power"])) {
-            if (statSum == 0) {
-                delete weightsIn.power;
-            } else {
-                weightsIn.power = powerSumIndex;
-            }
-        }
+    console.log("weightsIn", weightsIn);
+    console.log("globalElementalPerDefense", globalElementalPerDefense);
 
-        statSum = 0;
-        for (const statKey of STAT_DAMAGE_KEYS) {
-            statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
+    for (const statKey of STAT_ELEMENTAL_PER_DEFENSE_KEYS) {
+        if (weightsIn[statKey] != globalElementalPerDefense) {
+            globalElementalPerDefense = weightsIn[statKey];
+            updateWeights(weightsOut, STAT_ELEMENTAL_PER_DEFENSE_KEYS, globalElementalPerDefense);
+            isUpdated = true;
+            break;
         }
-        const damageSumIndex = findClosestWeightIndex("damage", statSum);
-        statSum = getWeightFromIndex("damage", damageSumIndex);
-        if (statSum != getWeightFromIndex("damage", weightsIn["damage"])) {
-            if (statSum == 0) {
-                delete weightsIn.damage;
-            } else {
-                weightsIn.damage = damageSumIndex;
-            }
+    }
+    console.log("globalElementalPerDefense", globalElementalPerDefense);
+    for (const statKey of STAT_ELEMENTAL_DEFENSE_KEYS) {
+        if (weightsIn[statKey] != globalElementalDefense) {
+            globalElementalDefense = weightsIn[statKey];
+            updateWeights(weightsOut, STAT_ELEMENTAL_DEFENSE_KEYS, globalElementalDefense);
+            isUpdated = true;
+            break;
         }
+    }
+    for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
+        if (weightsIn[statKey] != globalCacRangeDefense) {
+            globalCacRangeDefense = weightsIn[statKey];
+            updateWeights(weightsOut, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
+            isUpdated = true;
+            break;
+        }
+    }
+    // console.log("weightsOut", weightsIn);
+    // const displayedWeights = get(weights);
+    let statSum = 0;
+    for (const statKey of STAT_STAT_KEYS) {
+        // const w = getWeightFromIndex(weightsIn[statKey]);
+        statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
+        // console.log("statKey", statKey);
+        // console.log(statKey, weightsIn[statKey], w);
+    }
+    // console.log("statSum", statSum);
+    const powerSumIndex = findClosestWeightIndex("power", statSum);
+    // console.log("powerSumIndex", powerSumIndex);
+    statSum = getWeightFromIndex("power", powerSumIndex);
+    // console.log("statSum", statSum);
+    if (statSum != getWeightFromIndex("power", weightsIn["power"])) {
+        if (statSum == 0) {
+            delete weightsOut.power;
+        } else {
+            weightsOut.power = powerSumIndex;
+        }
+        isUpdated = true;
+    }
+
+    statSum = 0;
+    for (const statKey of STAT_DAMAGE_KEYS) {
+        statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
+    }
+    const damageSumIndex = findClosestWeightIndex("damage", statSum);
+    statSum = getWeightFromIndex("damage", damageSumIndex);
+    if (statSum != getWeightFromIndex("damage", weightsIn["damage"])) {
+        if (statSum == 0) {
+            delete weightsOut.damage;
+        } else {
+            weightsOut.damage = damageSumIndex;
+        }
+        isUpdated = true;
+    }
+    if (isUpdated) {
+        weightsIndex.set(weightsOut);
     }
 }
 function updateWeights(
@@ -190,7 +202,7 @@ const defaultWeights: Stats = {
     apResist: 2.5,
     mpResist: 2.5,
 
-    heal: 4,
+    heal: 3,
     reflect: 2,
 
     spellDamagePer: 15,
@@ -199,11 +211,13 @@ const defaultWeights: Stats = {
     weaponDamagePer: 15,
 };
 
-export const defaultWeightsIndex: Stats = Object.fromEntries(
-    Object.entries(defaultWeights).map(([statKey, weight]) => [
-        statKey,
-        findClosestWeightIndex(statKey as StatKey, weight),
-    ]),
+export const defaultWeightsIndex: Stats = Object.freeze(
+    Object.fromEntries(
+        Object.entries(defaultWeights).map(([statKey, weight]) => [
+            statKey,
+            findClosestWeightIndex(statKey as StatKey, weight),
+        ]),
+    ),
 ) as Stats;
 
 export const defaultMinIndex: Partial<Stats> = {};
@@ -223,9 +237,15 @@ const defaultMax: Partial<Stats> = {
     meleeResistPer: 50,
 };
 
-export const defaultMaxIndex: Partial<Stats> = Object.fromEntries(
-    Object.entries(defaultMax).map(([key, value]) => [
-        key,
-        findClosestMinMaxIndex(key as StatKey, value),
-    ]),
+// export function setMaxToDefault() {
+//     maxStatsIndex.set(defaultMaxIndex);
+// }
+
+export const defaultMaxIndex: Partial<Stats> = Object.freeze(
+    Object.fromEntries(
+        Object.entries(defaultMax).map(([key, value]) => [
+            key,
+            findClosestMinMaxIndex(key as StatKey, value),
+        ]),
+    ),
 ) as Partial<Stats>;

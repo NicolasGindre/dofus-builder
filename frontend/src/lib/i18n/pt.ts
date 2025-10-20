@@ -3,6 +3,7 @@ export default {
 
     weight: "Peso",
     setAllWeightsTo0: "Limpar todos os pesos",
+    reset: "Redefinir",
     setAllWeightsToDefault: "Definir todos os pesos como padrão",
     clearWeight: "Limpar peso",
     setToDefault: "Definir peso padrão",
@@ -30,6 +31,8 @@ export default {
     addPanoply: "Adicionar Conjunto",
     removePanoply: "Remover Conjunto",
 
+    quickSelection: "Seleção rápida",
+
     addRemoveItemByName: "Adicionar / Remover Item pelo Nome",
 
     clear: "Limpar",
@@ -43,6 +46,8 @@ export default {
 
     items: "Itens",
     panopliesBonus: "Bônus de conjuntos",
+    or: "OU",
+    and: "E",
 
     statsType: {
         utility: "Atributos Utilitários",

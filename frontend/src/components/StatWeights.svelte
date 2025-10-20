@@ -29,18 +29,14 @@
     import {
         findClosestMinMaxIndex,
         findClosestWeightIndex,
-        findClosestWeightValue,
         MIN_MAX_ENCODING,
         WEIGHT_ENCODING,
     } from "../logic/encoding/valueEncoding";
 
-    function setAllWeightsTo0() {
-        // let newWeights: Partial<Stats> = {};
-        // for (const statKey of STAT_KEYS) {
-        //     newWeights[statKey] = 0;
-        // }
-        // weights.set(newWeights);
+    function resetAll() {
         weightsIndex.set({});
+        minStatsIndex.set({});
+        maxStatsIndex.set({ ...defaultMaxIndex });
     }
     function setAllWeightsToDefault() {
         weightsIndex.set(copyDefaultWeightsIndex());
@@ -175,6 +171,15 @@
                             <input
                                 type="text"
                                 value={$weights[statKey]}
+                                class:show-crosshair={!$weights[statKey]}
+                                on:click={(e) => {
+                                    if (e.currentTarget.value === "") {
+                                        incrementWeight(statKey, 1);
+                                    }
+                                }}
+                                on:dblclick={() => {
+                                    updateWeightIndex(statKey, 0);
+                                }}
                                 on:input={(e) => {
                                     if (e.currentTarget.value === ".") {
                                         e.currentTarget.value = "0.";
@@ -195,6 +200,11 @@
                                         e.preventDefault();
                                         incrementWeight(statKey, -1);
                                     }
+                                }}
+                                on:wheel={(e) => {
+                                    e.preventDefault();
+                                    if (e.deltaY < 0) incrementWeight(statKey, 1);
+                                    else if (e.deltaY > 0) incrementWeight(statKey, -1);
                                 }}
                             />
                             <div class="buttons">
@@ -220,6 +230,15 @@
                             <input
                                 type="text"
                                 value={$minStats[statKey]}
+                                class:show-crosshair={!$minStats[statKey]}
+                                on:click={(e) => {
+                                    if (e.currentTarget.value === "") {
+                                        incrementMinStat(statKey, 1);
+                                    }
+                                }}
+                                on:dblclick={() => {
+                                    updateMinIndex(statKey, 0);
+                                }}
                                 on:input={(e) => {
                                     if (Number.isNaN(Number(e.currentTarget.value))) {
                                         updateMinIndex(statKey, 0);
@@ -238,6 +257,11 @@
                                         e.preventDefault();
                                         incrementMinStat(statKey, -1);
                                     }
+                                }}
+                                on:wheel={(e) => {
+                                    e.preventDefault();
+                                    if (e.deltaY < 0) incrementMinStat(statKey, 1);
+                                    else if (e.deltaY > 0) incrementMinStat(statKey, -1);
                                 }}
                             />
                             <div class="buttons">
@@ -263,6 +287,15 @@
                             <input
                                 type="text"
                                 value={$maxStats[statKey]}
+                                class:show-crosshair={!$maxStats[statKey]}
+                                on:click={(e) => {
+                                    if (e.currentTarget.value === "") {
+                                        incrementMaxStat(statKey, 1);
+                                    }
+                                }}
+                                on:dblclick={() => {
+                                    updateMaxIndex(statKey, 0);
+                                }}
                                 on:input={(e) => {
                                     if (Number.isNaN(Number(e.currentTarget.value))) {
                                         updateMaxIndex(statKey, 0);
@@ -281,6 +314,11 @@
                                         e.preventDefault();
                                         incrementMaxStat(statKey, -1);
                                     }
+                                }}
+                                on:wheel={(e) => {
+                                    e.preventDefault();
+                                    if (e.deltaY < 0) incrementMaxStat(statKey, 1);
+                                    else if (e.deltaY > 0) incrementMaxStat(statKey, -1);
                                 }}
                             />
                             <div class="buttons">
@@ -308,14 +346,14 @@
 {/snippet}
 
 <div class="controls">
-    <button on:click={setAllWeightsTo0}>{$words.setAllWeightsTo0}</button>
+    <button on:click={resetAll}>{$words.reset}</button>
     <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>
 
     <label class="checkbox-label">
         <input
             type="checkbox"
             bind:checked={$automaticWeights}
-            on:change={() => checkWeightUpdate($weights)}
+            on:change={() => checkWeightUpdate()}
         />
         {$words.automaticWeightCalculation}
     </label>
@@ -348,6 +386,10 @@
         height: 100%;
         outline: none;
         box-sizing: border-box;
+    }
+
+    .show-crosshair {
+        cursor: crosshair;
     }
 
     .buttons {
@@ -403,6 +445,9 @@
     .stats-grid td:last-child > :first-child {
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
+    }
+    .stats-grid tr {
+        height: 31px;
     }
     .stats-grid table tbody tr:nth-child(odd) {
         background-color: #222222;

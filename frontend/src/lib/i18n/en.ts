@@ -3,6 +3,7 @@ export default {
 
     weight: "Weight",
     setAllWeightsTo0: "Clear all Weights",
+    reset: "Reset",
     setAllWeightsToDefault: "Set all Weights to default",
     clearWeight: "Clear Weight",
     setToDefault: "Set Weight to Default",
@@ -30,6 +31,8 @@ export default {
     addPanoply: "Add Panoply",
     removePanoply: "Remove Panoply",
 
+    quickSelection: "Quick selection",
+
     addRemoveItemByName: "Add / Remove Item by Name",
 
     clear: "Clear All",
@@ -46,6 +49,8 @@ export default {
     panopliesBonus: "Panoplies bonus",
     // apLessThan: "AP less than",
     // mpLessThan: "MP less than",
+    or: "OR",
+    and: "AND",
 
     statsType: {
         utility: "Utility Stats",

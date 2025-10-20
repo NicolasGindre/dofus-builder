@@ -9,7 +9,8 @@ try {
     const app = new Hono();
     registerRoutes(app);
     await itemDB.loadItems();
-    app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
+    // app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
+    app.use(serveStatic({ root: "./frontend/dist" }));
 
     app.get("*", serveStatic({ path: "./frontend/dist/index.html" }));
 

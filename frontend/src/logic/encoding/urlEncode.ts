@@ -1,10 +1,11 @@
 import { get } from "svelte/store";
-import { itemsSelected } from "../../stores/builder";
+import { itemsSelected, maxStatsIndex, minStatsIndex, weightsIndex } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
 import { getItemFromShortId } from "../frontendDB";
 import { addItems } from "../display";
 import { calculateBestItems } from "../value";
+import { defaultMaxIndex } from "../../types/statWeights";
 
 let canEncode: boolean = false;
 let timeout: number;
@@ -60,6 +61,9 @@ export function decodeFromUrl() {
     console.log("hash", hash);
     // console.log("encoded stats", encodedStats);
     // console.log("encoded items", encodedItems);
+    weightsIndex.set({});
+    minStatsIndex.set({});
+    maxStatsIndex.set({ ...defaultMaxIndex });
     itemsSelected.set(getEmptyCategoriesItems());
 
     if (encodedItems) {

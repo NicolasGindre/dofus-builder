@@ -115,12 +115,12 @@ export const WEIGHT_COEFFICIENTS: Record<StatKey, number> = {
     wisdom: 10,
     prospecting: 10,
 
-    strength: 2,
-    agility: 2,
-    chance: 2,
-    intelligence: 2,
+    strength: 5,
+    agility: 5,
+    chance: 5,
+    intelligence: 5,
 
-    power: 10,
+    power: 5,
 
     trapPower: 10,
     trapDamage: 10,
@@ -131,7 +131,7 @@ export const WEIGHT_COEFFICIENTS: Record<StatKey, number> = {
     fireDamage: 10,
     waterDamage: 10,
 
-    damage: 20,
+    damage: 10,
 
     pushbackDamage: 10,
 
@@ -189,7 +189,6 @@ export function findClosestWeightIndex(stat: StatKey, value?: number): number {
     if (!value) {
         return 0;
     }
-    // const coefficient = WEIGHT_COEFFICIENTS[stat] || 1;
 
     let closest = 0;
     let minDiff = Math.abs(WEIGHTS_COEFF_ENCODING[stat][0]! - value);

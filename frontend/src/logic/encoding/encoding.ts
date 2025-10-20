@@ -308,8 +308,8 @@ export function decodeStats(encoded: string) {
     // console.log("statKeys", statKeys);
 
     let decodedWeights: Partial<Stats> = {};
-    let decodedMin: Partial<Stats> = defaultMinIndex;
-    let decodedMax: Partial<Stats> = defaultMaxIndex;
+    let decodedMin: Partial<Stats> = {};
+    let decodedMax: Partial<Stats> = { ...defaultMaxIndex };
     let i = 0;
     for (const statKey of statKeys) {
         // if (statKeys.includes(statKey)) {

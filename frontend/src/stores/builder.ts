@@ -69,8 +69,8 @@ export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weights
     );
 });
 
-weightsIndex.subscribe((value) => {
-    checkWeightUpdate(value);
+weightsIndex.subscribe(() => {
+    checkWeightUpdate();
 });
 
 export const minStatsIndex = writable<Partial<Stats>>({});
@@ -84,7 +84,7 @@ export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minSt
     );
 });
 
-export const maxStatsIndex = writable<Partial<Stats>>(defaultMaxIndex);
+export const maxStatsIndex = writable<Partial<Stats>>({ ...defaultMaxIndex });
 export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxStatsIndex) => {
     encodeToUrl();
     return Object.fromEntries(
