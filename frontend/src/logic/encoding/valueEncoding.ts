@@ -122,8 +122,8 @@ export const WEIGHT_COEFFICIENTS: Record<StatKey, number> = {
 
     power: 5,
 
-    trapPower: 10,
-    trapDamage: 10,
+    trapPower: 5,
+    trapDamage: 20,
 
     neutralDamage: 10,
     earthDamage: 10,
@@ -131,12 +131,12 @@ export const WEIGHT_COEFFICIENTS: Record<StatKey, number> = {
     fireDamage: 10,
     waterDamage: 10,
 
-    damage: 10,
+    damage: 20,
 
-    pushbackDamage: 10,
+    pushbackDamage: 20,
 
-    criticalDamage: 10,
-    criticalChance: 20,
+    criticalDamage: 20,
+    criticalChance: 50,
 
     neutralResistPer: 20,
     airResistPer: 20,

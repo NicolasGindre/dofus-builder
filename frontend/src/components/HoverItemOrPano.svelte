@@ -124,17 +124,17 @@
 </div>
 
 <style>
-    .hover-stats-wrapper {
-        position: relative;
-        /* width: 100%;  */
-        margin-inline: auto;
-        display: flex;
+    /* .hover-stats-wrapper { */
+    /* position: relative; */
+    /* width: 100%;  */
+    /* margin-inline: auto; */
+    /* display: flex;
         justify-content: center;
-        align-items: center;
-        /* display: inline-block; */
-        /* position: static;
+        align-items: center; */
+    /* display: inline-block; */
+    /* position: static;
         overflow: visible; */
-    }
+    /* } */
 
     .hover-stats-tooltip {
         position: fixed;

@@ -7,6 +7,7 @@ import {
     itemsCategoryBest,
     itemsCategoryDisplayed,
     itemsCategoryWithPanoBest,
+    itemsLocked,
     itemsSelected,
     level,
     panopliesBest,
@@ -65,7 +66,17 @@ export function calculateItemsToDisplay(category: ItemCategory) {
     });
 }
 
+let panoDisplayScheduled = false;
 export function calculatePanopliesToDisplay() {
+    if (panoDisplayScheduled) return;
+    panoDisplayScheduled = true;
+
+    setTimeout(() => {
+        panoDisplayScheduled = false;
+        calculatePanopliesToDisplayNow();
+    }, 0);
+}
+export function calculatePanopliesToDisplayNow() {
     // panopliesBest: Panoply[],
     // panopliesSelected: Panoply[],
     // : Panoply[]
@@ -143,6 +154,16 @@ export function removeItem(item: Item) {
             [item.category]: rest,
         };
     });
+
+    itemsLocked.update((locked) => {
+        const categoryLocks = locked[item.category];
+
+        if (categoryLocks[item.id]) {
+            delete categoryLocks[item.id];
+        }
+
+        return { ...locked, [item.category]: categoryLocks };
+    });
 }
 export function showOnlySelected(showOnlySelected: boolean) {
     showOnlySelectedPanos.set(showOnlySelected);
@@ -158,6 +179,7 @@ export function orderByValueWithPano(withPanoValue: boolean) {
 
 export function clearAll() {
     itemsSelected.set(getEmptyCategoriesItems());
+    itemsLocked.set(getEmptyCategoriesItems());
     calculatePanopliesToDisplay();
 }
 

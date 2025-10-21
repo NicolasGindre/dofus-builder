@@ -4,17 +4,16 @@ Set up server hosting : Vercel -> Hetzner
 
 Compare builds
 
-lock items -> update combination count
-If dofus contains bonus pano < 3 and length of other dofus < 6, add combination without [dofus with bonus pano < 3]
+Add stat icons
 
 Medium :
 
 clear item category
 
 save / load / name search + example searches ?
-Icon replaced by saved search
+Website title replaced by saved search name
 
-Add missing stat conditions
+Add missing stat requirements
 
 Minor :
 
@@ -23,5 +22,5 @@ Scrolling on best items also scrolls on matching selected items category (?)
 
 Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)
 
-Save items / panos in local storage. Only download every Wednesday from 4 am
+Save items / panos in local storage. Only download every Wednesday/Tuesday from 4 am
 Refresh dofusDB database items -> check minId is correct

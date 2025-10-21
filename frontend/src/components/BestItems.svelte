@@ -13,6 +13,7 @@
         categoryDisplaySize,
         panoplyDisplaySize,
         totalPossibilities,
+        itemsLocked,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item, ItemCategory, Items } from "../types/item";
@@ -38,6 +39,7 @@
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
+    import { CATEGORY_TO_SLOTS, slotLength } from "../types/build";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -95,6 +97,34 @@
             }
         }
     }
+
+    function lockItem(category: ItemCategory, item: Item) {
+        console.log($itemsLocked);
+        itemsLocked.update((locked) => {
+            const categoryLocks = locked[category];
+            const ids = Object.keys(categoryLocks);
+
+            if (categoryLocks[item.id]) {
+                delete categoryLocks[item.id];
+            } else {
+                // at limit → remove oldest
+                if (ids.length >= slotLength(category)) {
+                    delete categoryLocks[ids[0]];
+                }
+                categoryLocks[item.id] = item;
+            }
+
+            return { ...locked, [category]: categoryLocks };
+        });
+    }
+    function isSkipped(category: ItemCategory, item: Item): boolean {
+        const categoryLocks = $itemsLocked[category];
+        const ids = Object.keys(categoryLocks);
+        if (!categoryLocks[item.id] && ids.length >= slotLength(category)) {
+            return true;
+        }
+        return false;
+    }
 </script>
 
 {#snippet addItemToSelecteds(items: Item[])}
@@ -130,7 +160,7 @@
                         {Math.round(item.value)}
                     </td>
                     <td>
-                        {#if item.valueWithPano !== item.value}
+                        {#if item.panoply}
                             {Math.round(item.valueWithPano)}
                         {/if}
                     </td>
@@ -281,7 +311,7 @@
         </div>
 
         <div class="list-container">
-            <div class="list-header">
+            <div class="list-header centered">
                 <h2>{$words.itemsSelected}</h2>
             </div>
             <div class="selection-controls">
@@ -292,7 +322,6 @@
             <div class="list">
                 {#each ITEM_CATEGORIES as cat}
                     <div class="list-elem">
-                        <!-- <h3 class="sticky">{cat}</h3> -->
                         <div class="sticky">
                             <button
                                 class="toggle-collapse-icon"
@@ -303,27 +332,47 @@
                         </div>
                         {#if !collapsedSelected[cat]}
                             <div transition:slide>
-                                <ul>
-                                    {#each Object.values($itemsSelected[cat]) as item}
-                                        <li>
-                                            <HoverItemStats {item}>
-                                                <button
-                                                    class="item-button"
-                                                    type="button"
-                                                    class:highlight={hoveredId === item.id}
-                                                    on:mouseenter={() => setHovered(item.id)}
-                                                    on:mouseleave={() => (hoveredId = null)}
-                                                    on:click={() => {
-                                                        removeItem(item);
-                                                        hoveredId = null;
-                                                    }}
-                                                >
-                                                    {item.name[$lang]}
-                                                </button>
-                                            </HoverItemStats>
-                                        </li>
-                                    {/each}
-                                </ul>
+                                <table>
+                                    <tbody>
+                                        {#each Object.values($itemsSelected[cat]) as item}
+                                            <!-- <li class="selected-item"> -->
+                                            <tr class="selected-item">
+                                                <td>
+                                                    <HoverItemStats {item}>
+                                                        <button
+                                                            class="item-button"
+                                                            type="button"
+                                                            class:highlight={hoveredId === item.id}
+                                                            class:skipped-item={isSkipped(
+                                                                cat,
+                                                                item,
+                                                            )}
+                                                            on:mouseenter={() =>
+                                                                setHovered(item.id)}
+                                                            on:mouseleave={() => (hoveredId = null)}
+                                                            on:click={() => {
+                                                                removeItem(item);
+                                                                hoveredId = null;
+                                                            }}
+                                                        >
+                                                            {item.name[$lang]}
+                                                        </button>
+                                                    </HoverItemStats>
+                                                </td>
+                                                <td>
+                                                    <button
+                                                        class="lock"
+                                                        class:locked={$itemsLocked[cat][item.id]}
+                                                        on:click={() => lockItem(cat, item)}
+                                                    >
+                                                        {$itemsLocked[cat][item.id] ? "🔒" : "🔓"}
+                                                    </button>
+                                                </td>
+                                                <!-- </li> -->
+                                            </tr>
+                                        {/each}
+                                    </tbody>
+                                </table>
                             </div>
                         {/if}
                     </div>
@@ -400,8 +449,10 @@
         align-items: center;
         justify-content: space-between;
         /* gap: 1rem; space if they’re side by side */
-        vertical-align: middle;
         margin-bottom: 10px;
+    }
+    .centered {
+        justify-content: center;
     }
     .list-header h2 {
         margin-bottom: 0px;
@@ -430,6 +481,13 @@
         /* min-width: 400px; */
         /* max-width: 400px; */
     }
+    /* .list::-webkit-scrollbar {
+        width: 4px;
+        background: transparent;
+    }
+    .list::-webkit-scrollbar-track {
+        margin-right: -50px;
+    } */
     /* .list > * + * {
         margin-bottom: 1rem;
     } */
@@ -444,6 +502,8 @@
         width: 100%;
         display: flex;
         position: sticky;
+        align-items: center;
+        justify-content: center;
         top: 0;
         /* background: #5a0707; same as your list background */
         /* background: #3f2d53; */
@@ -464,6 +524,7 @@
         /* text-align: center; */
         top: 50%;
         transform: translateY(-50%);
+        left: 0;
         padding: 0;
         background: unset;
         width: 2em;
@@ -483,7 +544,7 @@
         align-items: center;
     }
 
-    ul {
+    /* ul {
         margin-top: 0px;
         margin-bottom: 0px;
         list-style: none;
@@ -492,15 +553,61 @@
     ul li {
         margin-top: 3px;
         margin-bottom: 3px;
-    }
+    } */
     table {
         table-layout: fixed;
         width: 100%;
+    }
+    /* .selected-item {
+        display: flex;
+    } */
+    .skipped-item {
+        /* background-color: #694c4c; */
+        color: #959595;
+        opacity: 55%;
+    }
+    .lock {
+        /* background-color: #343434; */
+        opacity: 35%;
+        margin: 0px;
+        margin-right: 3px;
+
+        padding-left: 9px;
+        padding-right: 9px;
+
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+        border-radius: 4px;
+        width: 100%;
+        height: 100%;
+        /* flex: 1; */
+        /* height: 31px; */
+        display: block;
+        /* line-height: normal; */
+        position: absolute;
+        inset: 0;
+        font-size: 1.281rem;
+    }
+    .locked {
+        opacity: 100%;
     }
 
     th:first-child,
     td:first-child {
         width: 50%; /* force half the table */
+    }
+
+    /* th:first-child, */
+    .selected-item td:first-child {
+        width: 80%;
+        /* display: flex; */
+    }
+    .selected-item td {
+        padding: 0px;
+        position: relative;
+
+        /* height: ; */
     }
 
     .pano-display-size {

@@ -1,5 +1,5 @@
 import { writable, type Writable } from "svelte/store";
-import type { BestBuildsResp, CharacterBuild } from "../types/build";
+import { slotLength, type BestBuildsResp, type CharacterBuild } from "../types/build";
 import {
     // getBiggestCategory,
     sumStatsWithBonus,
@@ -13,6 +13,7 @@ import {
 import type { Stats } from "../types/stats";
 import type { Payload } from "./combinationSearch";
 import CombinationSearchWorker from "./combinationSearch.ts?worker";
+import { shouldAddComboNoBonusPanoLessThan3 } from "../logic/build";
 
 type MinItem = {
     id: string;
@@ -23,6 +24,7 @@ type MinItem = {
 
 export type CombinationPayload = {
     selectedItems: Record<ItemCategory, Items>;
+    lockedItems: Record<ItemCategory, Items>;
     weights: Partial<Stats>;
     minStats: Partial<Stats>;
     maxStats: Partial<Stats>;
@@ -68,7 +70,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
             : 1;
 
         let partialPayload: Payload[] = [];
-        const minItemsCategory = convertToMinItems(payload.selectedItems);
+        const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
         const biggestCategoryIndex = getBiggestCategoryIndex(minItemsCategory);
 
         const itemschunks = partitionEven(minItemsCategory, biggestCategoryIndex, workerCount);
@@ -186,18 +188,31 @@ function partitionEven(
     return itemsPartitioned;
 }
 
-function convertToMinItems(selectedItems: Record<ItemCategory, Items>): MinItem[][] {
+function convertToMinItems(
+    selectedItems: Record<ItemCategory, Items>,
+    lockedItems: Record<ItemCategory, Items>,
+): MinItem[][] {
     const minItemsCategory: MinItem[][] = [];
 
     for (const [category, items] of Object.entries(selectedItems)) {
         const itemsArr = Object.values(items);
+        const itemsLockedArr = Object.values(lockedItems[category as ItemCategory]);
         if (itemsArr.length == 0) {
             continue;
         }
-        if (category == "ring") {
-            minItemsCategory.push(getCombinations(itemsArr, 2));
-        } else if (category == "dofus") {
-            minItemsCategory.push(getCombinations(itemsArr, 6));
+        if (category == "ring" || category == "dofus") {
+            minItemsCategory.push(getCombinations(itemsArr, itemsLockedArr, slotLength(category)));
+            if (
+                category == "dofus" &&
+                shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)
+            ) {
+                console.log(getComboItemsNoBonusPanoLessThan3(itemsArr));
+                minItemsCategory[minItemsCategory.length - 1]!.push(
+                    getComboItemsNoBonusPanoLessThan3(itemsArr),
+                );
+                console.log("AHAHAHHAAHAHAHAHAH");
+                console.log("minItemsCategory", minItemsCategory);
+            }
         } else {
             const minItemsOtherCats: MinItem[] = itemsArr.map((item) => ({
                 id: item.id,
@@ -210,30 +225,59 @@ function convertToMinItems(selectedItems: Record<ItemCategory, Items>): MinItem[
     }
     return minItemsCategory;
 }
-
-function getCombinations(items: Item[], k: number): MinItem[] {
-    // const itemsArr = Object.values(items);
+function getCombinations(items: Item[], itemsLocked: Item[], k: number): MinItem[] {
     const minItems: MinItem[] = [];
-    if (items.length < k) {
-        return [mergeItems(items)];
+
+    // Remove locked items from the pool if they're also in items
+    const unlockedItems = items.filter((i) => !itemsLocked.some((locked) => locked.id === i.id));
+
+    // Adjust k since locked items are already included
+    const remaining = k - itemsLocked.length;
+
+    // If not enough items to fill the rest, merge all we can
+    if (unlockedItems.length < remaining) {
+        return [mergeItems([...itemsLocked, ...unlockedItems])];
     }
+
     function backtrack(start: number, combo: Item[]) {
-        if (combo.length === k) {
-            minItems.push(mergeItems(combo));
+        if (combo.length === remaining) {
+            minItems.push(mergeItems([...itemsLocked, ...combo]));
             return;
         }
-        for (let i = start; i < items.length; i++) {
-            combo.push(items[i]!);
+        for (let i = start; i < unlockedItems.length; i++) {
+            combo.push(unlockedItems[i]!);
             backtrack(i + 1, combo);
             combo.pop();
         }
     }
 
     backtrack(0, []);
-    // console.log("Combinations: ", minItems.length);
-    // console.log(minItems);
+
     return minItems;
 }
+
+// function getCombinations(items: Item[], k: number): MinItem[] {
+//     const minItems: MinItem[] = [];
+//     if (items.length < k) {
+//         return [mergeItems(items)];
+//     }
+//     function backtrack(start: number, combo: Item[]) {
+//         if (combo.length === k) {
+//             minItems.push(mergeItems(combo));
+//             return;
+//         }
+//         for (let i = start; i < items.length; i++) {
+//             combo.push(items[i]!);
+//             backtrack(i + 1, combo);
+//             combo.pop();
+//         }
+//     }
+
+//     backtrack(0, []);
+//     // console.log("Combinations: ", minItems.length);
+//     // console.log(minItems);
+//     return minItems;
+// }
 
 function mergeItems(items: Item[]): MinItem {
     const minItem: MinItem = {
@@ -253,4 +297,13 @@ function mergeItemsRequirement(items: Item[]): Requirement | undefined {
         }
     }
     return undefined;
+}
+
+export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
+    // let itemsNoBonusPano: MinItem[] = [];
+    const noBonusPanoItems = items.filter(
+        (item) => item.requirement?.type !== "panopliesBonusLessThan",
+    );
+    // itemsNoBonusPano.push();
+    return mergeItems(noBonusPanoItems);
 }

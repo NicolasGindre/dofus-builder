@@ -43,7 +43,7 @@ export function getAllWeightsTo0(): Partial<Stats> {
 }
 
 export function checkWeightUpdate() {
-    console.log("automaticWeights", get(automaticWeights));
+    // console.log("automaticWeights", get(automaticWeights));
     if (!get(automaticWeights)) {
         return;
     }
@@ -51,8 +51,8 @@ export function checkWeightUpdate() {
     let weightsOut: Partial<Stats> = { ...weightsIn };
     let isUpdated = false;
 
-    console.log("weightsIn", weightsIn);
-    console.log("globalElementalPerDefense", globalElementalPerDefense);
+    // console.log("weightsIn", weightsIn);
+    // console.log("globalElementalPerDefense", globalElementalPerDefense);
 
     for (const statKey of STAT_ELEMENTAL_PER_DEFENSE_KEYS) {
         if (weightsIn[statKey] != globalElementalPerDefense) {
@@ -62,7 +62,7 @@ export function checkWeightUpdate() {
             break;
         }
     }
-    console.log("globalElementalPerDefense", globalElementalPerDefense);
+    // console.log("globalElementalPerDefense", globalElementalPerDefense);
     for (const statKey of STAT_ELEMENTAL_DEFENSE_KEYS) {
         if (weightsIn[statKey] != globalElementalDefense) {
             globalElementalDefense = weightsIn[statKey];
@@ -157,15 +157,15 @@ const defaultWeights: Stats = {
 
     power: 2,
 
-    neutralDamage: 2.5,
-    earthDamage: 2.5,
-    airDamage: 2.5,
-    fireDamage: 2.5,
-    waterDamage: 2.5,
+    neutralDamage: 3,
+    earthDamage: 3,
+    airDamage: 3,
+    fireDamage: 3,
+    waterDamage: 3,
 
     damage: 6,
 
-    pushbackDamage: 2.5,
+    pushbackDamage: 3,
 
     criticalDamage: 5,
     criticalChance: 10,
@@ -192,7 +192,7 @@ const defaultWeights: Stats = {
     initiative: 0.03,
 
     trapPower: 1,
-    trapDamage: 2.5,
+    trapDamage: 3,
 
     lock: 3,
     dodge: 3,

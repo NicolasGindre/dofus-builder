@@ -86,3 +86,7 @@ export const CATEGORY_TO_SLOTS: Record<ItemCategory, BuildSlot[]> = {
     pet: ["pet"],
     dofus: ["dofus1", "dofus2", "dofus3", "dofus4", "dofus5", "dofus6"],
 };
+
+export function slotLength(category: ItemCategory) {
+    return CATEGORY_TO_SLOTS[category].length;
+}

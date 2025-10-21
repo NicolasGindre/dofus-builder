@@ -1,6 +1,7 @@
 <script lang="ts">
     import {
         bestBuildsDisplayed,
+        itemsLocked,
         itemsSelected,
         maxStats,
         minStats,
@@ -54,6 +55,7 @@
         combinationStart = $totalPossibilities;
         const raw = await orchestrator.start({
             selectedItems: $itemsSelected,
+            lockedItems: $itemsLocked,
             weights: $weights,
             minStats: $minStats,
             maxStats: $maxStats,

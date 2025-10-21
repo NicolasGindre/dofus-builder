@@ -31,6 +31,7 @@ import {
     WEIGHT_ENCODING,
 } from "../logic/encoding/valueEncoding";
 import { encodeToUrl } from "../logic/encoding/urlEncode";
+import { totalCombinations } from "../logic/build";
 
 // export const appReady = writable<boolean>(false);
 
@@ -131,41 +132,30 @@ export const itemsCategoryWithPanoBest = writable(getEmptyCategoriesItemsArr());
 export const itemsCategoryDisplayed = writable(getEmptyCategoriesItemsArr());
 
 export const itemsSelected = writable(getEmptyCategoriesItems());
+itemsSelected.subscribe(() => {
+    encodeToUrl();
+});
+export const itemsLocked = writable(getEmptyCategoriesItems());
 
 export const categoryBestValue = writable<Record<ItemCategory, number>>();
 
 export const panopliesBest = writable<Panoply[]>([]);
-// export const panopliesDisplayed = writable<Panoply[]>([]);
-
-// export const progress = writable<number>(0);
 
 export const bestBuilds = writable<CharacterBuild[]>([]);
 export const bestBuildsDisplayed = writable<CharacterBuild[]>([]);
 export const bestBuildShownCount = writable<number>(10);
 
-export const totalPossibilities = derived(itemsSelected, ($itemsCategory) => {
-    encodeToUrl();
-    let possibilities = 1;
-    let atLeast1: boolean = false;
-    for (const [category, items] of Object.entries($itemsCategory)) {
-        let count = Object.values(items).length;
-        if (count > 0) {
-            atLeast1 = true;
-        }
-        if (category == "ring") {
-            count = (count * (count - 1)) / 2;
-        }
-        if (category == "dofus") {
-            count =
-                (count * (count - 1) * (count - 2) * (count - 3) * (count - 4) * (count - 5)) / 720;
-        }
-        possibilities *= count == 0 ? 1 : count;
-    }
-    return atLeast1 ? possibilities : 0;
-});
+export const totalPossibilities: Readable<number> = derived(
+    [itemsSelected, itemsLocked],
+    ([$itemsSelected, $itemsLocked], set) => {
+        clearTimeout((totalPossibilities as any)._timeout);
+        (totalPossibilities as any)._timeout = setTimeout(() => {
+            set(totalCombinations($itemsSelected, $itemsLocked));
+        }, 0);
+    },
+);
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
-    // const panoplies: Panoply[] = [];
     const panoplies: Panoplies = {};
     for (const items of Object.values($itemsCategory)) {
         for (const item of Object.values(items)) {
@@ -177,11 +167,6 @@ export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
     return Object.values(panoplies);
 });
 export const panopliesDisplayed = writable<Panoply[]>([]);
-// export const panopliesDisplayed = derived(
-//     [panopliesBest, panopliesSelected],
-//     ([$panopliesBest, $panopliesSelected]) =>
-//         calculatePanopliesToDisplay($panopliesBest, $panopliesSelected),
-// );
 
 sortBestItemsWithPanoValue.subscribe(() => {
     calculateAllItemsToDisplay();
