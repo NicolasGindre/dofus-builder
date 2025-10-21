@@ -200,27 +200,16 @@ function convertToMinItems(
         if (itemsArr.length == 0) {
             continue;
         }
-        if (category == "ring" || category == "dofus") {
-            minItemsCategory.push(getCombinations(itemsArr, itemsLockedArr, slotLength(category)));
-            if (
-                category == "dofus" &&
-                shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)
-            ) {
-                console.log(getComboItemsNoBonusPanoLessThan3(itemsArr));
-                minItemsCategory[minItemsCategory.length - 1]!.push(
-                    getComboItemsNoBonusPanoLessThan3(itemsArr),
-                );
-                console.log("AHAHAHHAAHAHAHAHAH");
-                console.log("minItemsCategory", minItemsCategory);
-            }
-        } else {
-            const minItemsOtherCats: MinItem[] = itemsArr.map((item) => ({
-                id: item.id,
-                stats: item.statsWithBonus,
-                panoplies: item.panoply ? [item.panoply] : [],
-                requirement: item.requirement,
-            }));
-            minItemsCategory.push(minItemsOtherCats);
+        minItemsCategory.push(
+            getCombinations(itemsArr, itemsLockedArr, slotLength(category as ItemCategory)),
+        );
+        if (category == "dofus" && shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)) {
+            // console.log(getComboItemsNoBonusPanoLessThan3(itemsArr));
+            minItemsCategory[minItemsCategory.length - 1]!.push(
+                getComboItemsNoBonusPanoLessThan3(itemsArr),
+            );
+            // console.log("AHAHAHHAAHAHAHAHAH");
+            // console.log("minItemsCategory", minItemsCategory);
         }
     }
     return minItemsCategory;
