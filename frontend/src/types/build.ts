@@ -25,16 +25,21 @@ export function getLeveledStats(level: number): Partial<Stats> {
     return leveledStats;
 }
 
-export type CharacterBuild = {
+export type Build = {
     slots: Slots;
     panoplies: Record<string, number>;
     stats: Partial<Stats>;
     value: number;
+    diffBuild?: Build;
 };
+export type Slots = Record<BuildSlot, Item | undefined>;
+
+// export type DiffBuild = Omit<Build, "slots"> & {
+//     slots: DiffSlots;
+// };
+// type DiffSlots = Partial<Record<BuildSlot, Item | null>>;
 
 export type BestBuildsResp = { value: number; ids: string[] }[];
-
-export type Slots = Partial<Record<BuildSlot, Item>>;
 
 export const BUILD_SLOT = [
     "amulet",
@@ -54,6 +59,13 @@ export const BUILD_SLOT = [
     "dofus5",
     "dofus6",
 ] as const;
+
+export function getEmptySlots(): Record<BuildSlot, Item | undefined> {
+    return Object.fromEntries(BUILD_SLOT.map((slot) => [slot, undefined])) as Record<
+        BuildSlot,
+        Item | undefined
+    >;
+}
 
 export type BuildSlot = (typeof BUILD_SLOT)[number];
 export const SLOT_TO_CATEGORY: Record<BuildSlot, ItemCategory> = {

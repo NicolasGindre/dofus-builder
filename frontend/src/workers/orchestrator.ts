@@ -1,5 +1,5 @@
 import { writable, type Writable } from "svelte/store";
-import { slotLength, type BestBuildsResp, type CharacterBuild } from "../types/build";
+import { slotLength, type BestBuildsResp, type Build } from "../types/build";
 import {
     // getBiggestCategory,
     sumStatsWithBonus,
@@ -98,7 +98,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         }
 
         // aggregate results here
-        const partialResults: CharacterBuild[][] = Array.from({ length: workerCount }, () => []);
+        const partialResults: Build[][] = Array.from({ length: workerCount }, () => []);
         const partialDone: number[] = Array(workerCount).fill(0);
 
         return new Promise<any>((res, rej) => {
@@ -131,7 +131,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
                         finished++;
                         if (finished === workerCount) {
                             // merge top-K from all workers
-                            const merged = ([] as CharacterBuild[]).concat(...partialResults);
+                            const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
                             const top = merged.slice(0, 100);
                             cancel();
@@ -239,34 +239,10 @@ function getCombinations(items: Item[], itemsLocked: Item[], k: number): MinItem
             combo.pop();
         }
     }
-
     backtrack(0, []);
 
     return minItems;
 }
-
-// function getCombinations(items: Item[], k: number): MinItem[] {
-//     const minItems: MinItem[] = [];
-//     if (items.length < k) {
-//         return [mergeItems(items)];
-//     }
-//     function backtrack(start: number, combo: Item[]) {
-//         if (combo.length === k) {
-//             minItems.push(mergeItems(combo));
-//             return;
-//         }
-//         for (let i = start; i < items.length; i++) {
-//             combo.push(items[i]!);
-//             backtrack(i + 1, combo);
-//             combo.pop();
-//         }
-//     }
-
-//     backtrack(0, []);
-//     // console.log("Combinations: ", minItems.length);
-//     // console.log(minItems);
-//     return minItems;
-// }
 
 function mergeItems(items: Item[]): MinItem {
     const minItem: MinItem = {

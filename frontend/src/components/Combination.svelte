@@ -9,7 +9,7 @@
         preStats,
         weights,
     } from "../stores/builder";
-    import { buildsFromWasm } from "../logic/build";
+    import { buildsFromWasm, diffBuild } from "../logic/build";
     import { ITEM_CATEGORIES } from "../types/item";
     import { get } from "svelte/store";
     import { bestBuilds, totalPossibilities, panoplies } from "../stores/builder";
@@ -28,7 +28,7 @@
     import { getPanoply } from "../logic/frontendDB";
     import { lang } from "../stores/builder";
     import { words } from "../stores/builder";
-    import { CATEGORY_TO_SLOTS } from "../types/build";
+    import { CATEGORY_TO_SLOTS, type Build } from "../types/build";
     import { createCombinationOrchestrator } from "../workers/orchestrator";
     import { calculateBestBuildToDisplay } from "../logic/display";
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
@@ -66,6 +66,21 @@
         bestBuilds.set(buildsFromWasm(raw));
         calculateBestBuildToDisplay();
     }
+    // function compareBuild(comparedBuild: Build) {
+    //     // comparedBuild = build;
+    //     for (const build of $bestBuildsDisplayed) {
+    //         diffBuild(build, comparedBuild);
+    //     }
+    // }
+    function compareBuild(comparedBuild: Build) {
+        const builds = get(bestBuildsDisplayed);
+        for (const build of builds) {
+            diffBuild(build, comparedBuild);
+        }
+        bestBuildsDisplayed.set([...builds]); // triggers reactivity
+    }
+
+    // let comparedBuild: Build;
 </script>
 
 <button
@@ -97,28 +112,84 @@
     {#each $bestBuildsDisplayed as build}
         <div class="build">
             <div class="build-items">
-                <h3>{$words.value} {build.value?.toFixed(0)}</h3>
-                <div class="panoplies">
-                    {#each Object.entries(build.panoplies) as [panoId, count]}
-                        {#if count > 1}
-                            <div class="panoply">
-                                <HoverItemOrPano panoply={getPanoply(panoId)}>
-                                    <span>
-                                        {getPanoply(panoId).name[$lang]}:
-                                    </span>
-                                </HoverItemOrPano>
-                                <HoverItemOrPano
-                                    panoply={getPanoply(panoId)}
-                                    panoplyItemCount={count}
-                                >
-                                    <span>
-                                        {count}
-                                        {$words.items}
-                                    </span>
-                                </HoverItemOrPano>
-                            </div>
+                <div class="build-header">
+                    <button class="button-compare" on:click={() => compareBuild(build)}
+                        >Compare Build</button
+                    >
+                    <h3>
+                        {$words.value}
+                        {build.value?.toFixed(0)}
+
+                        {#if build.diffBuild}
+                            <span
+                                class:green-text={build.diffBuild.value > 0}
+                                class:red-text={build.diffBuild.value < 0}
+                            >
+                                ({build.diffBuild.value >= 0
+                                    ? "+"
+                                    : ""}{build.diffBuild.value.toFixed(0)})
+                            </span>
                         {/if}
-                    {/each}
+                        <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
+                    </h3>
+                </div>
+                <div class="panoplies">
+                    {#if !build.diffBuild}
+                        {#each Object.entries(build.panoplies) as [panoId, count]}
+                            {#if count > 1}
+                                <div class="panoply">
+                                    <HoverItemOrPano panoply={getPanoply(panoId)}>
+                                        <span>
+                                            {getPanoply(panoId).name[$lang]}:
+                                        </span>
+                                    </HoverItemOrPano>
+                                    <HoverItemOrPano
+                                        panoply={getPanoply(panoId)}
+                                        panoplyItemCount={count}
+                                    >
+                                        <span>
+                                            {count}
+                                            {$words.items}
+                                        </span>
+                                    </HoverItemOrPano>
+                                </div>
+                            {/if}
+                        {/each}
+                    {:else}
+                        {#each Object.entries(build.diffBuild.panoplies) as [panoId, comparedCount]}
+                            {#if comparedCount > 1 || build.panoplies[panoId] > 1}
+                                <div class="panoply">
+                                    <HoverItemOrPano panoply={getPanoply(panoId)}>
+                                        <span
+                                            class:crossed-text={!build.panoplies[panoId] ||
+                                                build.panoplies[panoId] < 2}
+                                            class:red-background={!build.panoplies[panoId] ||
+                                                build.panoplies[panoId] < 2}
+                                            class:green-background={build.panoplies[panoId] &&
+                                                comparedCount < 2}
+                                        >
+                                            {getPanoply(panoId).name[$lang]}:
+                                        </span>
+                                    </HoverItemOrPano>
+                                    {#if comparedCount != build.panoplies[panoId]}
+                                        <span>
+                                            {comparedCount}
+                                        </span>
+                                        <span class="arrow">→</span>
+                                    {/if}
+                                    <HoverItemOrPano
+                                        panoply={getPanoply(panoId)}
+                                        panoplyItemCount={build.panoplies[panoId]}
+                                    >
+                                        <span>
+                                            {build.panoplies[panoId] ?? 0}
+                                            {$words.items}
+                                        </span>
+                                    </HoverItemOrPano>
+                                </div>
+                            {/if}
+                        {/each}
+                    {/if}
                 </div>
 
                 <ul class="slots">
@@ -127,9 +198,21 @@
                             <strong>{$words.category[category]}:</strong>
                             <div class="item-tag-container">
                                 {#each CATEGORY_TO_SLOTS[category] as slot}
+                                    {#if build.diffBuild && build.diffBuild.slots[slot] && build.diffBuild.slots[slot] != build.slots[slot]}
+                                        <HoverItemOrPano item={build.diffBuild.slots[slot]}>
+                                            <span class="item-tag red-background crossed-text">
+                                                {build.diffBuild.slots[slot].name[$lang]}
+                                            </span>
+                                        </HoverItemOrPano>
+                                    {/if}
                                     {#if build.slots[slot]}
                                         <HoverItemOrPano item={build.slots[slot]}>
-                                            <span class="item-tag">
+                                            <span
+                                                class="item-tag"
+                                                class:green-background={build.diffBuild &&
+                                                    build.diffBuild.slots[slot] !=
+                                                        build.slots[slot]}
+                                            >
                                                 {build.slots[slot].name[$lang]}
                                             </span>
                                         </HoverItemOrPano>
@@ -149,6 +232,22 @@
 {/if}
 
 <style>
+    .green-text {
+        color: #2ecc71;
+    }
+
+    .red-text {
+        color: #e74c3c;
+    }
+    .green-background {
+        background-color: #13552f !important;
+    }
+    .red-background {
+        background-color: #650f05 !important;
+    }
+    .crossed-text {
+        text-decoration: line-through;
+    }
     .button-calculate {
         margin-top: 0.6rem;
     }
@@ -170,6 +269,13 @@
         max-width: 40%;
         padding-left: 30px;
     }
+    .build-header {
+        display: inline-flex;
+        /* height: 80px; */
+    }
+    .button-compare {
+        height: 40px;
+    }
 
     .category-slots {
         display: flex;
@@ -177,7 +283,13 @@
         align-items: center;
         flex-wrap: wrap;
         min-height: 30px;
+        border-bottom: 1px solid #666;
+        padding-top: 3px;
+        padding-bottom: 3px;
         /* gap: 0.4rem; */
+    }
+    .category-slots:last-child {
+        border-bottom: unset;
     }
     .category-slots strong {
         flex-shrink: 0;
@@ -194,10 +306,10 @@
         display: inline-block;
         padding: 0.25rem 0.5rem;
         margin: 3px;
-        background: #333; /* tag background color */
-        color: #fff; /* text color */
+        background: #333;
+        color: #fff;
         font-size: 1rem;
-        border-radius: 0.5rem; /* rounded corners */
+        border-radius: 0.5rem;
         font-weight: 500;
         line-height: 1;
         /* white-space: nowrap; */
@@ -217,6 +329,7 @@
     .slots {
         margin-left: 0px;
         padding-left: 0px;
+        padding-bottom: 0px;
         /* display: flex;
         list-style: none;
         padding: 2px 0;

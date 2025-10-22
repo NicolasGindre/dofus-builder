@@ -99,7 +99,7 @@
     }
 
     function lockItem(category: ItemCategory, item: Item) {
-        console.log($itemsLocked);
+        // console.log($itemsLocked);
         itemsLocked.update((locked) => {
             const categoryLocks = locked[category];
             const ids = Object.keys(categoryLocks);
@@ -600,7 +600,7 @@
 
     /* th:first-child, */
     .selected-item td:first-child {
-        width: 80%;
+        width: 84%;
         /* display: flex; */
     }
     .selected-item td {

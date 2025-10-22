@@ -26,7 +26,7 @@ import {
     type Panoply,
 } from "../types/item";
 import { getItem } from "./frontendDB";
-import type { CharacterBuild } from "../types/build";
+import type { Build } from "../types/build";
 
 export function calculateAllItemsToDisplay() {
     for (const category of ITEM_CATEGORIES) {
@@ -184,7 +184,7 @@ export function clearAll() {
 }
 
 export function calculateBestBuildToDisplay() {
-    let bestBuildShow: CharacterBuild[] = [];
+    let bestBuildShow: Build[] = [];
     // const showCount = get(bestBuildShownCount);
     let i = 1;
     for (const build of get(bestBuilds)) {

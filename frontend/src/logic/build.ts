@@ -4,19 +4,25 @@ import {
     slotLength,
     type BestBuildsResp,
     type BuildSlot,
-    type CharacterBuild,
+    type Build,
+    type Slots,
+    BUILD_SLOT,
+    getEmptySlots,
+    SLOT_TO_CATEGORY,
+    CATEGORY_TO_SLOTS,
 } from "../types/build";
-import { concatStats } from "../types/stats";
+import { concatStats, type Stats } from "../types/stats";
 import { getItem, getPanoply } from "./frontendDB";
-import type { Item, ItemCategory, Items } from "../types/item";
+import { ITEM_CATEGORIES, type Item, type ItemCategory, type Items } from "../types/item";
 
 export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
-    let bestBuilds: CharacterBuild[] = [];
+    let bestBuilds: Build[] = [];
+    console.log("rust response", bestBuildsResp);
     for (const buildResp of bestBuildsResp) {
         const slotCounter: { ring: number; dofus: number } = { ring: 0, dofus: 0 };
 
-        let build: CharacterBuild = {
-            slots: {},
+        let build: Build = {
+            slots: getEmptySlots(),
             panoplies: {},
             stats: {},
             value: buildResp.value,
@@ -24,6 +30,9 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
         for (const itemIdRaw of buildResp.ids) {
             for (const itemId of itemIdRaw.split("+")) {
                 const item = getItem(itemId);
+                if (!item) {
+                    continue;
+                }
                 const category = item.category;
 
                 if (category === "ring") {
@@ -57,6 +66,94 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
     console.log("bestBuilds : ", bestBuilds);
     return bestBuilds;
 }
+
+export function diffBuild(build: Build, comparedBuild: Build) {
+    const diffBuild: Build = {
+        slots: getEmptySlots(),
+        panoplies: {},
+        stats: {},
+        value: build.value - comparedBuild.value,
+    };
+
+    // items
+    for (const category of ITEM_CATEGORIES) {
+        const categorySlots = CATEGORY_TO_SLOTS[category];
+
+        let slotIndex = 0;
+        let newCategorySlots: Partial<Record<BuildSlot, Item | undefined>> = {};
+        let matchedItems: Item[] = [];
+        for (const buildSlot of categorySlots) {
+            const item = build.slots[buildSlot];
+            if (!item) {
+                continue;
+            }
+            for (const compareSlot of categorySlots) {
+                if (item == comparedBuild.slots[compareSlot]) {
+                    matchedItems.push(item);
+                    const currSlot = categorySlots[slotIndex] as BuildSlot;
+                    diffBuild.slots[currSlot] = item;
+                    newCategorySlots[currSlot] = item;
+                    slotIndex++;
+                }
+            }
+        }
+
+        let slotNewItemsIndex = slotIndex;
+        for (const buildSlot of categorySlots) {
+            const item = build.slots[buildSlot];
+            if (!item) {
+                continue;
+            }
+            if (!matchedItems.includes(item)) {
+                const currSlot = categorySlots[slotNewItemsIndex] as BuildSlot;
+                newCategorySlots[currSlot] = item;
+                slotNewItemsIndex++;
+            }
+        }
+        for (const [slot, item] of Object.entries(newCategorySlots)) {
+            build.slots[slot as BuildSlot] = item;
+        }
+        console.log("matchedItems", matchedItems);
+        console.log("newCategorySlots", newCategorySlots);
+
+        let slotRemovedItemsIndex = slotIndex;
+        for (const comparedSlot of categorySlots) {
+            const comparedSlotItem = comparedBuild.slots[comparedSlot];
+            if (!comparedSlotItem) {
+                continue;
+            }
+            console.log("comparedSlotItem.id", comparedSlotItem.id);
+            if (!matchedItems.includes(comparedSlotItem)) {
+                const currSlot = categorySlots[slotRemovedItemsIndex] as BuildSlot;
+                diffBuild.slots[currSlot] = comparedSlotItem;
+                slotRemovedItemsIndex++;
+            }
+        }
+        console.log("diffBuild.slots", diffBuild.slots);
+    }
+
+    // panoplies
+    for (const id of Object.keys(build.panoplies)) {
+        // const prevCount = comparedBuild.panoplies[id] ?? 0;
+        diffBuild.panoplies[id] = comparedBuild.panoplies[id] ?? 0;
+    }
+    for (const [id, count] of Object.entries(comparedBuild.panoplies)) {
+        if (!diffBuild.panoplies[id]) {
+            diffBuild.panoplies[id] = count;
+        }
+    }
+
+    // stats
+    for (const [key, value] of Object.entries(build.stats)) {
+        const prevValue = comparedBuild.stats[key as keyof Stats] ?? 0;
+        const delta = value - prevValue;
+        if (delta !== 0) diffBuild.stats[key as keyof Stats] = delta;
+    }
+
+    console.log(diffBuild);
+    build.diffBuild = diffBuild;
+}
+
 export function totalCombinations(
     itemsSelected: Record<ItemCategory, Items>,
     itemsLocked: Record<ItemCategory, Items>,
@@ -92,7 +189,7 @@ export function totalCombinations(
             atLeast1 = true;
         }
     }
-    console.log("totalCombinations", totalCombinations);
+    // console.log("totalCombinations", totalCombinations);
     return atLeast1 ? totalCombinations : 0;
 }
 export function combinations(itemCount: number, groupSize: number): number {

@@ -8,7 +8,7 @@ import {
     type Panoplies,
     type Panoply,
 } from "../types/item";
-import { getLeveledStats, type CharacterBuild } from "../types/build";
+import { getLeveledStats, type Build } from "../types/build";
 import { getPanoply } from "../logic/frontendDB";
 import {
     calculateAllItemsToDisplay,
@@ -141,8 +141,8 @@ export const categoryBestValue = writable<Record<ItemCategory, number>>();
 
 export const panopliesBest = writable<Panoply[]>([]);
 
-export const bestBuilds = writable<CharacterBuild[]>([]);
-export const bestBuildsDisplayed = writable<CharacterBuild[]>([]);
+export const bestBuilds = writable<Build[]>([]);
+export const bestBuildsDisplayed = writable<Build[]>([]);
 export const bestBuildShownCount = writable<number>(10);
 
 export const totalPossibilities: Readable<number> = derived(
