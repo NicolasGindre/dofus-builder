@@ -1,9 +1,15 @@
 import { get } from "svelte/store";
-import { itemsSelected, maxStatsIndex, minStatsIndex, weightsIndex } from "../../stores/builder";
+import {
+    itemsLocked,
+    itemsSelected,
+    maxStatsIndex,
+    minStatsIndex,
+    weightsIndex,
+} from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
 import { getItemFromShortId } from "../frontendDB";
-import { addItems } from "../display";
+import { addItems, lockItem } from "../item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
 
@@ -20,6 +26,7 @@ export function encodeToUrl() {
 
 export function encodeToUrlNoThrottle() {
     const encodedStats = encodeStats();
+    // const encodedPreStats= encodePrestats();
     const encodedItems = encodeItems();
 
     const url = new URL(window.location.href);
@@ -41,10 +48,16 @@ export function encodeToUrlNoThrottle() {
 
 function encodeItems(): string {
     let encodedItems = "";
-    const itemsSelection = get(itemsSelected);
-    for (const items of Object.values(itemsSelection)) {
+    // const itemsSelection = get(itemsSelected);
+    for (const items of Object.values(get(itemsSelected))) {
         for (const item of Object.values(items)) {
             encodedItems += item.idShort;
+            for (const lockeds of Object.values(get(itemsLocked))) {
+                if (lockeds[item.id]) {
+                    encodedItems += "+";
+                    break;
+                }
+            }
         }
     }
     console.log("encodedItems", encodedItems);
@@ -83,6 +96,7 @@ export function decodeFromUrl() {
             console.log(err);
         }
     }
+    // calculateBestItems();
     canEncode = true;
 }
 
@@ -96,6 +110,12 @@ function decodeItems(encodedItems: string) {
         // console.log("itemToAdd", itemToAdd);
         if (itemToAdd) {
             itemsToAdd.push(itemToAdd);
+        }
+        if (encodedItems.slice(i + 2, i + 3) == "+") {
+            if (itemToAdd) {
+                lockItem(itemToAdd.category, itemToAdd);
+            }
+            i++;
         }
     }
     // console.log("itemsToAdd", itemsToAdd);

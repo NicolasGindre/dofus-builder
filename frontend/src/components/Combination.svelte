@@ -1,6 +1,7 @@
 <script lang="ts">
     import {
         bestBuildsDisplayed,
+        comparedBuild,
         itemsLocked,
         itemsSelected,
         maxStats,
@@ -65,6 +66,9 @@
 
         bestBuilds.set(buildsFromWasm(raw));
         calculateBestBuildToDisplay();
+        if ($comparedBuild) {
+            compareBuild($comparedBuild);
+        }
     }
     // function compareBuild(comparedBuild: Build) {
     //     // comparedBuild = build;
@@ -72,49 +76,51 @@
     //         diffBuild(build, comparedBuild);
     //     }
     // }
-    function compareBuild(comparedBuild: Build) {
+    function compareBuild(buildToCompare: Build) {
         const builds = get(bestBuildsDisplayed);
         for (const build of builds) {
-            diffBuild(build, comparedBuild);
+            diffBuild(build, buildToCompare);
         }
-        bestBuildsDisplayed.set([...builds]); // triggers reactivity
+        bestBuildsDisplayed.set([...builds]);
+        comparedBuild.set(buildToCompare);
     }
 
     // let comparedBuild: Build;
 </script>
 
-<button
-    class="button-calculate"
-    on:click={runComboSearch}
-    disabled={$running || $totalPossibilities < 1}
->
-    {$running ? `${$words.calculating}...` : $words.calculateBestBuilds}
-</button>
-{#if $running}
-    <button class="button-cancel" on:click={() => orchestrator.cancel()} disabled={!$running}
-        >{$words.cancel}</button
+<div class="calculations">
+    <button
+        class="button-calculate"
+        on:click={runComboSearch}
+        disabled={$running || $totalPossibilities < 1}
     >
-{/if}
-{#if combinationStart > 0}
-    <p>
-        {$words.combinationsCalculated}: {new Intl.NumberFormat("en-US", {
-            notation: "compact",
-            compactDisplay: "short",
-        }).format($combinationDone)}
-        - {Math.round(($combinationDone / combinationStart) * 100)}%
-    </p>
-{/if}
+        {$running ? `${$words.calculating}...` : $words.calculateBestBuilds}
+    </button>
+    {#if $running}
+        <button class="button-cancel" on:click={() => orchestrator.cancel()} disabled={!$running}
+            >{$words.cancel}</button
+        >
+    {/if}
+    {#if combinationStart > 0}
+        <p>
+            {$words.combinationsCalculated}: {new Intl.NumberFormat("en-US", {
+                notation: "compact",
+                compactDisplay: "short",
+            }).format($combinationDone)}
+            - {Math.round(($combinationDone / combinationStart) * 100)}%
+        </p>
+    {/if}
+</div>
 
 {#if $error}
     <p style="color: red;">{$error}</p>
 {:else if $bestBuildsDisplayed.length > 0}
-    <!-- <h3>Best combination value: {$bestBuilds[0]?.value.toFixed(2)}</h3> -->
     {#each $bestBuildsDisplayed as build}
         <div class="build">
             <div class="build-items">
                 <div class="build-header">
                     <button class="button-compare" on:click={() => compareBuild(build)}
-                        >Compare Build</button
+                        >{$words.compare}</button
                     >
                     <h3>
                         {$words.value}
@@ -225,19 +231,20 @@
             </div>
 
             <div class="build-stats">
-                <ShowStats stats={build.stats} />
+                <ShowStats
+                    stats={build.stats}
+                    showHeaders={true}
+                    compareStats={build.diffBuild?.stats}
+                    overStats={build.overStats}
+                />
             </div>
         </div>
     {/each}
 {/if}
 
 <style>
-    .green-text {
-        color: #2ecc71;
-    }
-
-    .red-text {
-        color: #e74c3c;
+    .calculations {
+        height: 120px;
     }
     .green-background {
         background-color: #13552f !important;
@@ -266,14 +273,23 @@
         margin-bottom: 1rem;
     }
     .build-items {
-        max-width: 40%;
+        max-width: 32%;
         padding-left: 30px;
+        margin-right: 10px;
     }
     .build-header {
         display: inline-flex;
-        /* height: 80px; */
+        /* height: 60px; */
+        align-items: center;
+        /* justify-content: space-between; */
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .build-header h3 {
+        margin: 0px;
     }
     .button-compare {
+        margin-right: 15px;
         height: 40px;
     }
 

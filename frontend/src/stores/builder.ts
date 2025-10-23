@@ -105,6 +105,7 @@ export const level = writable<number>(200);
 export const preStats = derived(
     [level, exoAp, exoMp, exoRange, exoSummon],
     ([$level, $exoAp, $exoMp, $exoRange, $exoSummon]) => {
+        encodeToUrl();
         let preStats = getLeveledStats($level);
         if ($exoAp) {
             preStats.ap!++;
@@ -132,9 +133,9 @@ export const itemsCategoryWithPanoBest = writable(getEmptyCategoriesItemsArr());
 export const itemsCategoryDisplayed = writable(getEmptyCategoriesItemsArr());
 
 export const itemsSelected = writable(getEmptyCategoriesItems());
-itemsSelected.subscribe(() => {
-    encodeToUrl();
-});
+// itemsSelected.subscribe(() => {
+//     encodeToUrl();
+// });
 export const itemsLocked = writable(getEmptyCategoriesItems());
 
 export const categoryBestValue = writable<Record<ItemCategory, number>>();
@@ -145,9 +146,12 @@ export const bestBuilds = writable<Build[]>([]);
 export const bestBuildsDisplayed = writable<Build[]>([]);
 export const bestBuildShownCount = writable<number>(10);
 
+export const comparedBuild = writable<Build>(undefined);
+
 export const totalPossibilities: Readable<number> = derived(
     [itemsSelected, itemsLocked],
     ([$itemsSelected, $itemsLocked], set) => {
+        encodeToUrl();
         clearTimeout((totalPossibilities as any)._timeout);
         (totalPossibilities as any)._timeout = setTimeout(() => {
             set(totalCombinations($itemsSelected, $itemsLocked));

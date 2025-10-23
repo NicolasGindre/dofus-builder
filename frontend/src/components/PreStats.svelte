@@ -30,12 +30,12 @@
         </label>
     </div>
 
-    <!-- <div class="stat">
+    <div class="stat">
         <label>
             {$words.stats.summon}: {$preStats.summon} - Exo
             <input type="checkbox" bind:checked={$exoSummon} />
         </label>
-    </div> -->
+    </div>
 
     <!-- <div class="stat">
         {$words.stats.health}: {$preStats.health}

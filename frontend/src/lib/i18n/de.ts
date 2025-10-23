@@ -44,15 +44,16 @@ export default {
     combinationsCalculated: "Kombinationen berechnet",
     cancel: "Abbrechen",
 
+    compare: "Vergleichen",
     items: "Gegenstände",
     panopliesBonus: "Set-Bonus",
     or: "ODER",
     and: "UND",
 
     statsType: {
-        utility: "Nützliche Werte",
-        offense: "Offensive Werte",
-        defense: "Defensive Werte",
+        utility: "Nützlich",
+        offense: "Offensiv",
+        defense: "Defensiv",
     },
     stats: {
         mp: "BP", // Bewegungs­punkte (Bewegungspunkte)
@@ -98,7 +99,7 @@ export default {
         weaponDamagePer: "% Waffenschaden",
 
         criticalDamage: "Kritischer Schaden",
-        criticalChance: "Kritisch",
+        criticalChance: "% Kritisch",
 
         pushbackDamage: "Rückstoßschaden",
 

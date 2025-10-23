@@ -52,6 +52,18 @@ export function calculateStatsValue(stats: Partial<Stats>): number {
     }
     return statsValue;
 }
+export function calculateStatKeysValue(
+    stats: Partial<Stats>,
+    statsKeys: readonly StatKey[],
+): number {
+    let statsValue = 0;
+    const currWeights = get(weights);
+    for (const key of statsKeys) {
+        const statValueWeight = (stats[key] ?? 0) * (currWeights[key as StatKey] ?? 0);
+        statsValue += statValueWeight;
+    }
+    return statsValue;
+}
 
 export function calculateItemValue(item: Item) {
     item.value = calculateStatsValue(item.statsWithBonus);
@@ -144,21 +156,3 @@ export function calculateBestItems() {
 
     calculatePanopliesToDisplay();
 }
-
-// export async function calculateBestPanoplies(): Promise<void> {
-//     let bestPanoplies: Panoply[] = [];
-//     let bestValueFound: number = 0;
-//     for (const panoply of Object.values(get(panoplies))) {
-//         calculatePanoplyValue(panoply);
-
-//         if (panoply.value > bestValueFound) {
-//             bestValueFound = panoply.value;
-//         }
-//     }
-//     // for (const panoply of Object.values(get(panoplies))) {
-//     //     if (panoply.value * get(distanceFromBestRatio) >= bestValueFound) {
-//     //         bestPanoplies.push(panoply);
-//     //     }
-//     // }
-//     bestPanoplies.sort((a, b) => b.value - a.value).slice(0, get(panoplyDisplaySize));
-// }

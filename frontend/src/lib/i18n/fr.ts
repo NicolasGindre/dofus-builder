@@ -46,6 +46,7 @@ export default {
     combinationsCalculated: "Combinaisons calculées",
     cancel: "Annuler",
 
+    compare: "Comparer",
     items: "Objets",
 
     panopliesBonus: "Bonus de Panoplie",
@@ -55,9 +56,9 @@ export default {
     and: "ET",
 
     statsType: {
-        utility: "Stats Utilitaires",
-        offense: "Stats Offensives",
-        defense: "Stats Défensives",
+        utility: "Utilitaire",
+        offense: "Offensif",
+        defense: "Défensif",
     },
     stats: {
         mp: "PM",
@@ -103,7 +104,7 @@ export default {
         weaponDamagePer: "% Dommages d'arme",
 
         criticalDamage: "Dommages Critiques",
-        criticalChance: "Critique",
+        criticalChance: "% Critique",
 
         pushbackDamage: "Dommages Poussée",
 
@@ -116,8 +117,8 @@ export default {
         airResistPer: "% Résistance Air",
         waterResistPer: "% Résistance Eau",
 
-        meleeResistPer: "% Resistance Mélée",
-        rangedResistPer: "% Resistance Distance",
+        meleeResistPer: "% Résistance Mélée",
+        rangedResistPer: "% Résistance Distance",
 
         criticalResist: "Résistances Critiques",
         pushbackResist: "Résistances Poussée",

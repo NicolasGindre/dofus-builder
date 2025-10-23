@@ -44,15 +44,16 @@ export default {
     combinationsCalculated: "Combinações calculadas",
     cancel: "Cancelar",
 
+    compare: "Comparar",
     items: "Itens",
     panopliesBonus: "Bônus de conjuntos",
     or: "OU",
     and: "E",
 
     statsType: {
-        utility: "Atributos Utilitários",
-        offense: "Atributos Ofensivos",
-        defense: "Atributos Defensivos",
+        utility: "Utilitário",
+        offense: "Ofensivo",
+        defense: "Defensivo",
     },
     stats: {
         mp: "PM",
@@ -98,7 +99,7 @@ export default {
         weaponDamagePer: "% Dano de Arma",
 
         criticalDamage: "Dano Crítico",
-        criticalChance: "Crítico",
+        criticalChance: "% Crítico",
 
         pushbackDamage: "Dano de Empurrão",
 

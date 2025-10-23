@@ -60,8 +60,10 @@ function addPanopliesItemsReal() {
 function calculatePanopliesBonus() {
     for (const pano of Object.values(get(panoplies))) {
         pano.statsWithBonus = [];
+        pano.value = [];
         for (const stats of pano.stats) {
             pano.statsWithBonus.push(getBonusStats(stats));
+            pano.value.push(0);
         }
     }
 }

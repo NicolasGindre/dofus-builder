@@ -1,5 +1,5 @@
 import { writable, type Writable } from "svelte/store";
-import { slotLength, type BestBuildsResp, type Build } from "../types/build";
+import { categoryLength, type BestBuildsResp, type Build } from "../types/build";
 import {
     // getBiggestCategory,
     sumStatsWithBonus,
@@ -201,7 +201,7 @@ function convertToMinItems(
             continue;
         }
         minItemsCategory.push(
-            getCombinations(itemsArr, itemsLockedArr, slotLength(category as ItemCategory)),
+            getCombinations(itemsArr, itemsLockedArr, categoryLength(category as ItemCategory)),
         );
         if (category == "dofus" && shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)) {
             // console.log(getComboItemsNoBonusPanoLessThan3(itemsArr));

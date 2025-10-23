@@ -1,5 +1,5 @@
 // import { panoplies } from "../db/itemDB";
-import type { Item, ItemCategory } from "./item";
+import type { Item, ItemCategory, Requirement } from "./item";
 import type { StatKey, Stats } from "./stats";
 
 export const baseStats: Partial<Stats> = {
@@ -29,7 +29,9 @@ export type Build = {
     slots: Slots;
     panoplies: Record<string, number>;
     stats: Partial<Stats>;
+    overStats: Partial<Stats>;
     value: number;
+    requirements: Requirement[];
     diffBuild?: Build;
 };
 export type Slots = Record<BuildSlot, Item | undefined>;
@@ -99,6 +101,6 @@ export const CATEGORY_TO_SLOTS: Record<ItemCategory, BuildSlot[]> = {
     dofus: ["dofus1", "dofus2", "dofus3", "dofus4", "dofus5", "dofus6"],
 };
 
-export function slotLength(category: ItemCategory) {
+export function categoryLength(category: ItemCategory) {
     return CATEGORY_TO_SLOTS[category].length;
 }

@@ -1,7 +1,14 @@
 import { get } from "svelte/store";
-import { itemsLocked, itemsSelected, preStats } from "../stores/builder";
 import {
-    slotLength,
+    itemsLocked,
+    itemsSelected,
+    maxStats,
+    minStats,
+    preStats,
+    weights,
+} from "../stores/builder";
+import {
+    categoryLength,
     type BestBuildsResp,
     type BuildSlot,
     type Build,
@@ -11,7 +18,7 @@ import {
     SLOT_TO_CATEGORY,
     CATEGORY_TO_SLOTS,
 } from "../types/build";
-import { concatStats, type Stats } from "../types/stats";
+import { concatStats, type StatKey, type Stats } from "../types/stats";
 import { getItem, getPanoply } from "./frontendDB";
 import { ITEM_CATEGORIES, type Item, type ItemCategory, type Items } from "../types/item";
 
@@ -25,6 +32,8 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
             slots: getEmptySlots(),
             panoplies: {},
             stats: {},
+            overStats: {},
+            requirements: [],
             value: buildResp.value,
         };
         for (const itemIdRaw of buildResp.ids) {
@@ -52,6 +61,10 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
                 }
 
                 build.stats = concatStats(build.stats, item.statsWithBonus);
+
+                if (item.requirement) {
+                    build.requirements.push(item.requirement);
+                }
             }
         }
         for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
@@ -59,8 +72,87 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
                 build.stats,
                 getPanoply(panoId).statsWithBonus[setNumber - 1]!,
             );
+            // if (pano.requirement) {
+            //     build.requirements.push(pano.requirement);
+            // }
         }
         build.stats = concatStats(build.stats, get(preStats));
+
+        for (const [key, maxStat] of Object.entries(get(maxStats))) {
+            const keyStat = key as StatKey;
+            if ((build.stats[keyStat] ?? -999999) > maxStat) {
+                build.overStats[keyStat] = build.stats[keyStat];
+                build.stats[keyStat] = maxStat;
+            }
+        }
+        for (const requirement of build.requirements) {
+            switch (requirement.type) {
+                case "apLessThanOrMpLessThan":
+                    if (
+                        build.stats["mp"] &&
+                        build.stats["mp"] >= (requirement.mpValue ?? 9999) &&
+                        build.stats["ap"] &&
+                        build.stats["ap"] >= (requirement.apValue ?? 9999)
+                    ) {
+                        const min = get(minStats);
+                        if ((min["ap"] ?? 0) >= requirement.apValue!) {
+                            if (!build.overStats["mp"]) {
+                                build.overStats["mp"] = build.stats["mp"];
+                            }
+                            build.stats["mp"] = requirement.mpValue! - 1;
+                        } else if ((min["mp"] ?? 0) >= requirement.mpValue!) {
+                            if (!build.overStats["ap"]) {
+                                build.overStats["ap"] = build.stats["ap"];
+                            }
+                            build.stats["ap"] = requirement.apValue! - 1;
+                        } else {
+                            const w = get(weights);
+                            if ((w["ap"] ?? 0) > (w["mp"] ?? 0)) {
+                                if (!build.overStats["mp"]) {
+                                    build.overStats["mp"] = build.stats["mp"];
+                                }
+                                build.stats["mp"] = requirement.mpValue! - 1;
+                            } else {
+                                if (!build.overStats["ap"]) {
+                                    build.overStats["ap"] = build.stats["ap"];
+                                }
+                                build.stats["ap"] = requirement.apValue! - 1;
+                            }
+                        }
+                    }
+                    break;
+                case "apLessThanAndMpLessThan":
+                    if (build.stats["ap"] && build.stats["ap"] >= (requirement.apValue ?? 9999)) {
+                        if (!build.overStats["ap"]) {
+                            build.overStats["ap"] = build.stats["ap"];
+                        }
+                        build.stats["ap"] = requirement.apValue! - 1;
+                    }
+                    if (build.stats["mp"] && build.stats["mp"] >= (requirement.mpValue ?? 9999)) {
+                        if (!build.overStats["mp"]) {
+                            build.overStats["mp"] = build.stats["mp"];
+                        }
+                        build.stats["mp"] = requirement.mpValue! - 1;
+                    }
+                    break;
+                case "apLessThan":
+                    if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
+                        if (!build.overStats["ap"]) {
+                            build.overStats["ap"] = build.stats["ap"];
+                        }
+                        build.stats["ap"] = requirement.value! - 1;
+                    }
+                    break;
+                case "mpLessThan":
+                    if (build.stats["mp"] && build.stats["mp"] >= (requirement.value ?? 9999)) {
+                        if (!build.overStats["mp"]) {
+                            build.overStats["mp"] = build.stats["mp"];
+                        }
+                        build.stats["mp"] = requirement.value! - 1;
+                    }
+                    break;
+            }
+        }
         bestBuilds.push(build);
     }
     console.log("bestBuilds : ", bestBuilds);
@@ -72,6 +164,8 @@ export function diffBuild(build: Build, comparedBuild: Build) {
         slots: getEmptySlots(),
         panoplies: {},
         stats: {},
+        overStats: {},
+        requirements: [],
         value: build.value - comparedBuild.value,
     };
 
@@ -134,7 +228,6 @@ export function diffBuild(build: Build, comparedBuild: Build) {
 
     // panoplies
     for (const id of Object.keys(build.panoplies)) {
-        // const prevCount = comparedBuild.panoplies[id] ?? 0;
         diffBuild.panoplies[id] = comparedBuild.panoplies[id] ?? 0;
     }
     for (const [id, count] of Object.entries(comparedBuild.panoplies)) {
@@ -144,10 +237,13 @@ export function diffBuild(build: Build, comparedBuild: Build) {
     }
 
     // stats
-    for (const [key, value] of Object.entries(build.stats)) {
-        const prevValue = comparedBuild.stats[key as keyof Stats] ?? 0;
-        const delta = value - prevValue;
-        if (delta !== 0) diffBuild.stats[key as keyof Stats] = delta;
+    for (const key of Object.keys(build.stats)) {
+        diffBuild.stats[key as keyof Stats] = comparedBuild.stats[key as keyof Stats] ?? 0;
+    }
+    for (const [key, value] of Object.entries(comparedBuild.stats)) {
+        if (!diffBuild.stats[key as keyof Stats]) {
+            diffBuild.stats[key as keyof Stats] = value;
+        }
     }
 
     console.log(diffBuild);
@@ -171,11 +267,11 @@ export function totalCombinations(
         // console.log("category", category);
         // console.log("itemcount", itemCount);
         // console.log("lockedCount", lockedCount);
-        // console.log("slotLength(category)", slotLength(category));
+        // console.log("categoryLength(category)", categoryLength(category));
 
         let categoryCombinations = combinations(
             itemCount - lockedCount,
-            slotLength(category) - lockedCount,
+            categoryLength(category) - lockedCount,
         );
         // console.log("categoryCombinations", categoryCombinations);
         if (categoryCombinations >= 1) {
@@ -220,8 +316,8 @@ export function shouldAddComboNoBonusPanoLessThan3(items: Item[], itemsLocked: I
     }
     const itemCountWithNOPanoLessThan3Req = items.length - itemCountWithPanoLessThan3Req;
     // console.log("itemCountWithNOPanoLessThan3Req", itemCountWithNOPanoLessThan3Req);
-    // console.log("slotLength() - itemsLocked.length", slotLength("dofus") - itemsLocked.length);
-    if (itemCountWithNOPanoLessThan3Req < slotLength("dofus") - itemsLocked.length) {
+    // console.log("categoryLength() - itemsLocked.length", categoryLength("dofus") - itemsLocked.length);
+    if (itemCountWithNOPanoLessThan3Req < categoryLength("dofus") - itemsLocked.length) {
         return true;
     }
     return false;

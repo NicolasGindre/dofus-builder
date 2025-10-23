@@ -2,6 +2,11 @@ import { get } from "svelte/store";
 import { STAT_KEYS, type StatKey, type Stats } from "../../types/stats";
 import { decodeStatIndexes, encodeStatValues } from "./valueEncoding";
 import {
+    exoAp,
+    exoMp,
+    exoRange,
+    exoSummon,
+    level,
     maxStats,
     maxStatsIndex,
     minStats,
@@ -234,8 +239,14 @@ export function encodeStats(): string {
     // console.log("statsToEncode", statsToEncode);
     const encodedStats = encodeStatsKeys([...statsToEncode]);
     // console.log("encoded", encodedStats);
-
-    return encodedStats;
+    const encodedExosAndlevel = encodeExosAndLevel(
+        get(exoAp),
+        get(exoMp),
+        get(exoRange),
+        get(exoSummon),
+        get(level),
+    );
+    return encodedExosAndlevel.concat("|", encodedStats);
 }
 
 function encodeStatsKeys(statKeys: StatKey[]): string {
@@ -278,13 +289,12 @@ export function decodeStats(encoded: string) {
 
     const encodedSplit = encoded.split("|");
 
-    // console.log(encodedSplit[0]);
-    const rank = decodeBase64(encodedSplit[0]!);
-    // const k = ALPHABET.indexOf(encodedSplit[0]![0]!);
-    // if (k === -1) throw new Error(`Invalid length encoding: ${encoded[0]}`);
+    decodeExosAndLevel(encodedSplit[0]!);
+
+    const rank = decodeBase64(encodedSplit[1]!);
 
     let encodedStats: string[] = [];
-    const encodedStatsStr = encodedSplit[1]!;
+    const encodedStatsStr = encodedSplit[2]!;
     let previousEncodedStr = "";
     for (let i = 0; i < encodedStatsStr.length; i += 1) {
         if (encodedStatsStr[i] == "+") {
@@ -302,7 +312,6 @@ export function decodeStats(encoded: string) {
     encodedStats = decompressRepeats(encodedStats);
     // console.log("encodedStats", encodedStats);
     // const rank = decodeBase64(encoded.slice(1));
-    // const encodedStats = encodedSplit[1]!.match(/.{1,3}/g);
     // console.log("Decoded RANK :", rank, encodedStats.length);
     const statKeys = unrankCombination(rank, encodedStats.length);
     // console.log("statKeys", statKeys);
@@ -325,4 +334,44 @@ export function decodeStats(encoded: string) {
     weightsIndex.set(decodedWeights);
     minStatsIndex.set(decodedMin);
     maxStatsIndex.set(decodedMax);
+}
+
+export function encodeExosAndLevel(
+    exoAp: boolean,
+    exoMp: boolean,
+    exoRange: boolean,
+    exoSummon: boolean,
+    level: number,
+): string {
+    // pack bits: 4 bits for booleans + 8 bits for level
+    let bits =
+        (exoAp ? 1 : 0) |
+        ((exoMp ? 1 : 0) << 1) |
+        ((exoRange ? 1 : 0) << 2) |
+        ((exoSummon ? 1 : 0) << 3) |
+        ((level & 0xff) << 4); // 8 bits for level
+
+    // split into 2 groups of 6 bits
+    const c1 = bits & 0b111111;
+    const c2 = (bits >> 6) & 0b111111;
+
+    return ALPHABET[c1]! + ALPHABET[c2]!;
+}
+export function decodeExosAndLevel(encoded: string) {
+    const c1 = ALPHABET.indexOf(encoded[0]!);
+    const c2 = ALPHABET.indexOf(encoded[1]!);
+
+    const bits = c1 | (c2 << 6);
+
+    const decodedExoAp = !!(bits & 1);
+    const decodedExoMp = !!(bits & 2);
+    const decodedExoRange = !!(bits & 4);
+    const decodedExoSummon = !!(bits & 8);
+    const decodedLevel = (bits >> 4) & 0xff; // 8 bits for level
+
+    exoAp.set(decodedExoAp);
+    exoMp.set(decodedExoMp);
+    exoRange.set(decodedExoRange);
+    exoSummon.set(decodedExoSummon);
+    level.set(decodedLevel);
 }

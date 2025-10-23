@@ -19,16 +19,18 @@
     import type { Item, ItemCategory, Items } from "../types/item";
     import { getEmptyCategoriesItems, ITEM_CATEGORIES } from "../types/item";
     import { calculateBestItems } from "../logic/value";
-    import { getItem } from "../logic/frontendDB";
     import {
+        lockItem,
         addItem,
         addItems,
         addOrRemoveItem,
-        calculatePanopliesToDisplay,
         clearAll,
-        orderByValueWithPano,
         removeItem,
         removeItems,
+    } from "../logic/item";
+    import {
+        calculatePanopliesToDisplay,
+        orderByValueWithPano,
         showOnlySelected,
     } from "../logic/display";
     import HoverItemStats from "./HoverItemOrPano.svelte";
@@ -39,7 +41,7 @@
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
-    import { CATEGORY_TO_SLOTS, slotLength } from "../types/build";
+    import { CATEGORY_TO_SLOTS, categoryLength } from "../types/build";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -85,42 +87,53 @@
 
     function quickSelection() {
         for (const pano of $panopliesDisplayed) {
-            addItems(pano.itemsReal);
+            for (const item of Object.values(pano.itemsReal)) {
+                if (item.level <= $level) {
+                    addItem(item);
+                }
+            }
         }
         for (const [category, items] of Object.entries($itemsCategoryBest)) {
             if (category == "dofus") {
                 continue;
             }
-            addItem(items[0]);
-            if (category == "ring") {
-                addItem(items[1]);
+            let itemsAdded = 0;
+            const itemsToAdd = categoryLength(category as ItemCategory);
+            for (const item of Object.values(items)) {
+                if (item.level <= $level) {
+                    addItem(item);
+                    itemsAdded++;
+                    if (itemsAdded >= itemsToAdd) {
+                        break;
+                    }
+                }
             }
         }
     }
 
-    function lockItem(category: ItemCategory, item: Item) {
-        // console.log($itemsLocked);
-        itemsLocked.update((locked) => {
-            const categoryLocks = locked[category];
-            const ids = Object.keys(categoryLocks);
+    // function lockItem(category: ItemCategory, item: Item) {
+    //     // console.log($itemsLocked);
+    //     itemsLocked.update((locked) => {
+    //         const categoryLocks = locked[category];
+    //         const ids = Object.keys(categoryLocks);
 
-            if (categoryLocks[item.id]) {
-                delete categoryLocks[item.id];
-            } else {
-                // at limit → remove oldest
-                if (ids.length >= slotLength(category)) {
-                    delete categoryLocks[ids[0]];
-                }
-                categoryLocks[item.id] = item;
-            }
+    //         if (categoryLocks[item.id]) {
+    //             delete categoryLocks[item.id];
+    //         } else {
+    //             // at limit → remove oldest
+    //             if (ids.length >= categoryLength(category)) {
+    //                 delete categoryLocks[ids[0]];
+    //             }
+    //             categoryLocks[item.id] = item;
+    //         }
 
-            return { ...locked, [category]: categoryLocks };
-        });
-    }
+    //         return { ...locked, [category]: categoryLocks };
+    //     });
+    // }
     function isSkipped(category: ItemCategory, item: Item): boolean {
         const categoryLocks = $itemsLocked[category];
         const ids = Object.keys(categoryLocks);
-        if (!categoryLocks[item.id] && ids.length >= slotLength(category)) {
+        if (!categoryLocks[item.id] && ids.length >= categoryLength(category)) {
             return true;
         }
         return false;

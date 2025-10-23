@@ -44,6 +44,7 @@ export default {
     combinationsCalculated: "Combinations calculated",
     cancel: "Cancel",
 
+    compare: "Compare",
     items: "Items",
 
     panopliesBonus: "Panoplies bonus",
@@ -53,9 +54,9 @@ export default {
     and: "AND",
 
     statsType: {
-        utility: "Utility Stats",
-        offense: "Offensive Stats",
-        defense: "Defensive Stats",
+        utility: "Utility",
+        offense: "Offense",
+        defense: "Defense",
     },
     stats: {
         mp: "MP",
@@ -101,7 +102,7 @@ export default {
         weaponDamagePer: "% Weapon Damage",
 
         criticalDamage: "Critical Damage",
-        criticalChance: "Critical",
+        criticalChance: "% Critical",
 
         pushbackDamage: "Pushback Damage",
 

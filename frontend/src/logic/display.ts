@@ -7,8 +7,6 @@ import {
     itemsCategoryBest,
     itemsCategoryDisplayed,
     itemsCategoryWithPanoBest,
-    itemsLocked,
-    itemsSelected,
     level,
     panopliesBest,
     panopliesDisplayed,
@@ -18,14 +16,7 @@ import {
     showOnlySelectedPanos,
     sortBestItemsWithPanoValue,
 } from "../stores/builder";
-import {
-    getEmptyCategoriesItems,
-    ITEM_CATEGORIES,
-    type Item,
-    type ItemCategory,
-    type Panoply,
-} from "../types/item";
-import { getItem } from "./frontendDB";
+import { ITEM_CATEGORIES, type Item, type ItemCategory, type Panoply } from "../types/item";
 import type { Build } from "../types/build";
 
 export function calculateAllItemsToDisplay() {
@@ -110,61 +101,6 @@ export function calculatePanopliesToDisplayNow() {
     panopliesDisplayed.set(panosToDisplay);
 }
 
-export function addOrRemoveItem(itemId: string) {
-    const item = getItem(itemId);
-    if (get(itemsSelected)[item.category][item.id]) {
-        removeItem(item);
-    } else {
-        addItem(item);
-    }
-    calculatePanopliesToDisplay();
-}
-
-export function addItems(items: Item[]) {
-    for (const item of items) {
-        addItem(item);
-    }
-    calculatePanopliesToDisplay();
-}
-export function removeItems(items: Item[]) {
-    for (const item of items) {
-        removeItem(item);
-    }
-    calculatePanopliesToDisplay();
-}
-
-export function addItem(item: Item) {
-    itemsSelected.update((map) => {
-        // clone category map and insert
-        return {
-            ...map,
-            [item.category]: {
-                ...map[item.category],
-                [item.id]: item,
-            },
-        };
-    });
-}
-
-export function removeItem(item: Item) {
-    itemsSelected.update((map) => {
-        const { [item.id]: _, ...rest } = map[item.category]; // drop this item
-        return {
-            ...map,
-            [item.category]: rest,
-        };
-    });
-
-    itemsLocked.update((locked) => {
-        const categoryLocks = locked[item.category];
-
-        if (categoryLocks[item.id]) {
-            delete categoryLocks[item.id];
-        }
-
-        return { ...locked, [item.category]: categoryLocks };
-    });
-}
 export function showOnlySelected(showOnlySelected: boolean) {
     showOnlySelectedPanos.set(showOnlySelected);
     calculatePanopliesToDisplay();
@@ -175,12 +111,6 @@ export function showOnlySelected(showOnlySelected: boolean) {
 
 export function orderByValueWithPano(withPanoValue: boolean) {
     sortBestItemsWithPanoValue.set(withPanoValue);
-}
-
-export function clearAll() {
-    itemsSelected.set(getEmptyCategoriesItems());
-    itemsLocked.set(getEmptyCategoriesItems());
-    calculatePanopliesToDisplay();
 }
 
 export function calculateBestBuildToDisplay() {

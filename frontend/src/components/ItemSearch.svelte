@@ -1,7 +1,7 @@
 <script lang="ts">
     import { get } from "svelte/store";
     import { items, lang, itemsSelected, words } from "../stores/builder";
-    import { addOrRemoveItem } from "../logic/display";
+    import { addOrRemoveItem } from "../logic/item";
 
     // Props
     // export let items: { id: number; name: string }[] = [];
