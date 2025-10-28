@@ -1,4 +1,11 @@
 export default {
+    // saveSearch: "Guardar búsqueda",
+    savedSearches: "Búsquedas guardadas",
+    SavedSearchName: "Nombre de la búsqueda",
+    share: "Compartir",
+    load: "Cargar",
+    copied: "Copiado",
+
     level: "Nivel",
 
     weight: "Peso",
@@ -43,6 +50,16 @@ export default {
     totalCombinations: "Total de Combinaciones",
     combinationsCalculated: "Combinaciones calculadas",
     cancel: "Cancelar",
+
+    savedBuilds: "Builds guardadas",
+    save: "Guardar",
+    results: "Resultados",
+    showSavedBuilds: "Mostrar builds guardadas",
+    showResults: "Mostrar resultados",
+    page: "Página",
+    comparing: "Comparación",
+
+    noBuild: "Ninguna build",
 
     compare: "Comparar",
     items: "Objetos",

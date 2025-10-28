@@ -3,12 +3,12 @@
     import StatWeights from "./components/StatWeights.svelte";
     import { initFrontendDB } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
-    import Combination from "./components/Combination.svelte";
     import LanguageSelect from "./components/LanguageSelect.svelte";
-    import SaveButton from "./components/SaveButton.svelte";
     import { decodeFromUrl } from "./logic/encoding/urlEncode";
     import { itemsSelected } from "./stores/builder";
     import { getEmptyCategoriesItems } from "./types/item";
+    import Builds from "./components/Builds.svelte";
+    import SavedSearches from "./components/SavedSearches.svelte";
 
     let error: string | null = null;
 
@@ -33,7 +33,7 @@
 </script>
 
 <main>
-    <SaveButton />
+    <SavedSearches />
     <LanguageSelect />
     <h1>Dofus MinMax - Builder</h1>
     {#if error}
@@ -41,22 +41,17 @@
     {/if}
     <StatWeights />
     <BestItems />
-    <Combination />
+    <Builds />
 </main>
 
 <style>
     main {
         font-family: system-ui, sans-serif;
-        padding: 1rem;
+        /* padding: 1rem; */
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* padding-bottom: 0; */
         /* max-width: 800px; */
         margin: auto;
     }
-    /* ul {
-    list-style: none;
-    padding: 0;
-  }
-  li {
-    padding: 0.25rem 0;
-    border-bottom: 1px solid #ddd;
-  } */
 </style>

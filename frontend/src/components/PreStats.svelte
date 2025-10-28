@@ -1,8 +1,5 @@
 <script lang="ts">
-    import { get } from "svelte/store";
-    import { level, exoAp, exoMp, exoRange, preStats, words, exoSummon } from "../stores/builder";
-
-    // auto-subscribe with $ syntax
+    import { exoAp, exoMp, exoRange, preStats, words, exoSummon } from "../stores/builder";
 </script>
 
 <div class="stats">
@@ -32,7 +29,8 @@
 
     <div class="stat">
         <label>
-            {$words.stats.summon}: {$preStats.summon} - Exo
+            {$preStats.summon}
+            {$words.stats.summon} - Exo
             <input type="checkbox" bind:checked={$exoSummon} />
         </label>
     </div>

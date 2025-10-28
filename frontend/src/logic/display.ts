@@ -1,8 +1,9 @@
 import { get } from "svelte/store";
 import {
     bestBuilds,
-    bestBuildsDisplayed,
-    bestBuildShownCount,
+    bestBuildsPage,
+    buildsDisplayed,
+    buildShownCount,
     categoryDisplaySize,
     itemsCategoryBest,
     itemsCategoryDisplayed,
@@ -12,8 +13,11 @@ import {
     panopliesDisplayed,
     panopliesSelected,
     panoplyDisplaySize,
+    savedBuilds,
+    savedBuildsPage,
     showBonusPanoCappedItems,
     showOnlySelectedPanos,
+    showSavedBuilds,
     sortBestItemsWithPanoValue,
 } from "../stores/builder";
 import { ITEM_CATEGORIES, type Item, type ItemCategory, type Panoply } from "../types/item";
@@ -113,16 +117,24 @@ export function orderByValueWithPano(withPanoValue: boolean) {
     sortBestItemsWithPanoValue.set(withPanoValue);
 }
 
-export function calculateBestBuildToDisplay() {
-    let bestBuildShow: Build[] = [];
-    // const showCount = get(bestBuildShownCount);
-    let i = 1;
-    for (const build of get(bestBuilds)) {
-        bestBuildShow.push(build);
-        i++;
-        if (i > get(bestBuildShownCount)) {
-            break;
-        }
-    }
-    bestBuildsDisplayed.set(bestBuildShow);
+export function calculateBuildToDisplay() {
+    // let bestBuildShow: Build[] = [];
+    const shownCount = get(buildShownCount);
+    const builds = get(showSavedBuilds) ? get(savedBuilds) : get(bestBuilds);
+    const currPage = get(showSavedBuilds) ? get(savedBuildsPage) : get(bestBuildsPage);
+    // const pages = Math.ceil(builds.length / shownCount);
+
+    const start = (currPage - 1) * shownCount;
+    const end = start + shownCount;
+
+    let bestBuildShow = builds.slice(start, end);
+
+    // for (const build of get(bestBuilds)) {
+    //     bestBuildShow.push(build);
+    //     i++;
+    //     if (i > get(buildShownCount)) {
+    //         break;
+    //     }
+    // }
+    buildsDisplayed.set(bestBuildShow);
 }

@@ -77,7 +77,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
 
-        const resp = await fetch(url);
+        const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
 
         if (!resp.ok) {
             const jsonErr = (await resp.json()) as { message: string };
@@ -232,7 +232,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
 
-        const resp = await fetch(url);
+        const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
 
         if (!resp.ok) {
             const jsonErr = (await resp.json()) as { message: string };

@@ -7,15 +7,12 @@
         type Stats,
     } from "../types/stats";
     import { words } from "../stores/builder";
-    import { calculateStatKeysValue } from "../logic/value";
-    // export let title: string;
+    import { calculateStatsValue } from "../logic/value";
+
     export let stats: Partial<Stats>;
     export let compareStats: Partial<Stats> | null = null;
     export let overStats: Partial<Stats> | null = null;
     export let showHeaders = false;
-    // export let statsKeys: readonly StatKey[];
-
-    // function calculateStatKeysValue(stats: Partial<Stats>, statsKeys: readonly StatKey[]) {}
 </script>
 
 <div class="build-stats">
@@ -25,8 +22,8 @@
 </div>
 
 {#snippet showStats(title: String, statsKeys: readonly StatKey[])}
-    {@const value = calculateStatKeysValue(stats, statsKeys)}
-    {@const diffValue = compareStats ? value - calculateStatKeysValue(compareStats, statsKeys) : 0}
+    {@const value = calculateStatsValue(stats, statsKeys)}
+    {@const diffValue = compareStats ? value - calculateStatsValue(compareStats, statsKeys) : 0}
     <table>
         {#if showHeaders}
             <caption
@@ -45,7 +42,7 @@
                     {#if stats[statKey]}
                         <tr>
                             <td>
-                                {#if overStats && overStats[statKey]}
+                                {#if overStats && overStats[statKey] != stats[statKey]}
                                     <span class="overstat">{overStats[statKey]}→</span>
                                 {/if}{stats[statKey]}</td
                             >
@@ -70,7 +67,7 @@
                                             : ""}{(stats[statKey] ?? 0) -
                                             compareStats[statKey]})</span
                                     >{/if}
-                                {#if overStats && overStats[statKey]}
+                                {#if overStats && overStats[statKey] != stats[statKey]}
                                     <span class="overstat">{overStats[statKey]}→</span>{/if}<span
                                     >{stats[statKey] ?? 0}</span
                                 ></td

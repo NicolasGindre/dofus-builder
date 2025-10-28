@@ -41,7 +41,7 @@
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
-    import { CATEGORY_TO_SLOTS, categoryLength } from "../types/build";
+    import { categoryLength } from "../types/build";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -52,6 +52,14 @@
             return {
                 ...old,
                 [category]: newCatDisplaySize,
+            };
+        });
+    }
+    function resetCatDisplaySize(category: ItemCategory) {
+        categoryDisplaySize.update((old) => {
+            return {
+                ...old,
+                [category]: 15,
             };
         });
     }
@@ -80,9 +88,7 @@
 
     let hoveredId: string = null;
     function setHovered(id: string) {
-        // console.log(id);
         hoveredId = id;
-        // console.log(hoveredId);
     }
 
     function quickSelection() {
@@ -277,8 +283,7 @@
                         </div>
                     </div>
                     <button on:click={() => showOnlySelected(true)}>{$words.onlySelected}</button>
-                {/if}
-                {#if $showOnlySelectedPanos}
+                {:else}
                     <button on:click={() => showOnlySelected(false)}
                         >{$words.bestAndSelected}</button
                     >
@@ -437,9 +442,10 @@
     .lists {
         display: flex;
         gap: 2rem;
-        height: 850px;
-        /* max-height: 750px; */
-        /* min-height: 750px; */
+        /* height: 90vh; */
+        height: calc(100vh - 125px);
+
+        min-height: 500px;
     }
     .list-container {
         /* height: 100%; */

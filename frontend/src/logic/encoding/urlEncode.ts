@@ -4,6 +4,7 @@ import {
     itemsSelected,
     maxStatsIndex,
     minStatsIndex,
+    urlHash,
     weightsIndex,
 } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
@@ -44,6 +45,8 @@ export function encodeToUrlNoThrottle() {
         url.hash = "";
     }
     window.history.replaceState(null, "", url.toString());
+    urlHash.set(url.hash.slice(1));
+    // console.log("URL HASH SET", get(urlHash));
 }
 
 function encodeItems(): string {
@@ -60,30 +63,38 @@ function encodeItems(): string {
             }
         }
     }
-    console.log("encodedItems", encodedItems);
+    // console.log("encodedItems", encodedItems);
     return encodedItems;
 }
 
-export function decodeFromUrl() {
+export function decodeFromUrl(hash?: string) {
     clearTimeout(timeout);
     canEncode = false;
-    const hash = window.location.hash.slice(1);
+    if (!hash) {
+        hash = window.location.hash.slice(1);
+    }
+    const url = new URL(window.location.href);
+    url.hash = hash;
+    window.history.replaceState(null, "", url.toString());
+    urlHash.set(hash);
+
+    console.log("hash", hash);
     const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
     const encodedStats = pairs.s || "";
     const encodedItems = pairs.i || "";
-    console.log("hash", hash);
     // console.log("encoded stats", encodedStats);
     // console.log("encoded items", encodedItems);
     weightsIndex.set({});
     minStatsIndex.set({});
     maxStatsIndex.set({ ...defaultMaxIndex });
     itemsSelected.set(getEmptyCategoriesItems());
+    itemsLocked.set(getEmptyCategoriesItems());
 
     if (encodedItems) {
         try {
-            console.log("itemsSelected", get(itemsSelected));
+            // console.log("itemsSelected", get(itemsSelected));
             decodeItems(encodedItems);
-            console.log("itemsSelected", get(itemsSelected));
+            // console.log("itemsSelected", get(itemsSelected));
         } catch (err) {
             console.log(err);
         }

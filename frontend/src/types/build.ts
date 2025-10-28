@@ -26,10 +26,12 @@ export function getLeveledStats(level: number): Partial<Stats> {
 }
 
 export type Build = {
+    name: string;
+    id: string;
     slots: Slots;
     panoplies: Record<string, number>;
     stats: Partial<Stats>;
-    overStats: Partial<Stats>;
+    cappedStats: Partial<Stats>;
     value: number;
     requirements: Requirement[];
     diffBuild?: Build;

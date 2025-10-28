@@ -38,6 +38,10 @@ import { totalCombinations } from "../logic/build";
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
 
+export const urlHash = writable<string>("");
+export const savedSearch = writable<string>(undefined);
+export const savedSearches = writable<Record<string, string>>({});
+
 // export const distanceFromBestRatio = writable<number>(3);
 export const panoplyDisplaySize = writable<number>(20);
 export const categoryDisplaySize = writable<Record<ItemCategory, number>>({
@@ -143,10 +147,20 @@ export const categoryBestValue = writable<Record<ItemCategory, number>>();
 export const panopliesBest = writable<Panoply[]>([]);
 
 export const bestBuilds = writable<Build[]>([]);
-export const bestBuildsDisplayed = writable<Build[]>([]);
-export const bestBuildShownCount = writable<number>(10);
+export const buildsDisplayed = writable<Build[]>([]);
+export const buildShownCount = writable<number>(10);
+
+export const bestBuildsPage = writable<number>(1);
+// export const bestBuildsTotPage: Readable<number> = derived(bestBuildsPage, ($bestBuildsPage) ={
+//     return $
+// })
+export const savedBuildsPage = writable<number>(1);
+
+export const savedBuilds = writable<Build[]>([]);
 
 export const comparedBuild = writable<Build>(undefined);
+
+export const showSavedBuilds = writable<boolean>(false);
 
 export const totalPossibilities: Readable<number> = derived(
     [itemsSelected, itemsLocked],

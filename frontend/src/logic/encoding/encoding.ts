@@ -285,13 +285,20 @@ function encodeStatsKeys(statKeys: StatKey[]): string {
 }
 
 export function decodeStats(encoded: string) {
-    if (encoded.length === 0) return [];
+    // if (encoded.length === 0) return [];
 
     const encodedSplit = encoded.split("|");
 
-    decodeExosAndLevel(encodedSplit[0]!);
+    if (encodedSplit[0]) {
+        decodeExosAndLevel(encodedSplit[0]);
+    } else {
+        return;
+    }
 
-    const rank = decodeBase64(encodedSplit[1]!);
+    if (!encodedSplit[1] || !encodedSplit[2]) {
+        return;
+    }
+    const rank = decodeBase64(encodedSplit[1]);
 
     let encodedStats: string[] = [];
     const encodedStatsStr = encodedSplit[2]!;
@@ -367,7 +374,7 @@ export function decodeExosAndLevel(encoded: string) {
     const decodedExoMp = !!(bits & 2);
     const decodedExoRange = !!(bits & 4);
     const decodedExoSummon = !!(bits & 8);
-    const decodedLevel = (bits >> 4) & 0xff; // 8 bits for level
+    const decodedLevel = Math.max(200, (bits >> 4) & 0xff);
 
     exoAp.set(decodedExoAp);
     exoMp.set(decodedExoMp);

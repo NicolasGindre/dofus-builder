@@ -43,23 +43,23 @@ export function calculateCharStatsValue(
     return value;
 }
 
-export function calculateStatsValue(stats: Partial<Stats>): number {
+// export function calculateStatsValue(stats: Partial<Stats>): number {
+//     let statsValue = 0;
+//     const currWeights = get(weights);
+//     for (const [stat, statValue] of Object.entries(stats)) {
+//         const statValueWeight = statValue * (currWeights[stat as StatKey] ?? 0);
+//         statsValue += statValueWeight;
+//     }
+//     return statsValue;
+// }
+export function calculateStatsValue(stats: Partial<Stats>, statsKeys?: readonly StatKey[]): number {
     let statsValue = 0;
     const currWeights = get(weights);
-    for (const [stat, statValue] of Object.entries(stats)) {
-        const statValueWeight = statValue * (currWeights[stat as StatKey] ?? 0);
-        statsValue += statValueWeight;
-    }
-    return statsValue;
-}
-export function calculateStatKeysValue(
-    stats: Partial<Stats>,
-    statsKeys: readonly StatKey[],
-): number {
-    let statsValue = 0;
-    const currWeights = get(weights);
-    for (const key of statsKeys) {
-        const statValueWeight = (stats[key] ?? 0) * (currWeights[key as StatKey] ?? 0);
+    for (const [key, value] of Object.entries(stats)) {
+        if (statsKeys && !statsKeys.includes(key as StatKey)) {
+            continue;
+        }
+        const statValueWeight = value * (currWeights[key as StatKey] ?? 0);
         statsValue += statValueWeight;
     }
     return statsValue;

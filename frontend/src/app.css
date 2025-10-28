@@ -90,6 +90,11 @@ button {
 button:hover {
     border-color: #646cff;
 }
+button:disabled {
+    background-color: #292929;
+    /* border: 0px; */
+    border: 1px solid transparent;
+}
 button:focus,
 button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;

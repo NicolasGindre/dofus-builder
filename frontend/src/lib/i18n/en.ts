@@ -1,4 +1,11 @@
 export default {
+    // saveSearch: "Save Search",
+    savedSearches: "Saved Searches",
+    SavedSearchName: "Saved Search Name",
+    share: "Share",
+    load: "Load",
+    copied: "Copied",
+
     level: "Level",
 
     weight: "Weight",
@@ -16,20 +23,20 @@ export default {
     orderByValueWithPano: "Order by Value with Pano",
 
     value: "Value",
-    valueWithPano: "Value with Panoply",
+    valueWithPano: "Value with Set",
 
     showMore: "Show more",
     showLess: "Show less",
 
     displayItems: "Display Items",
-    panoBonusLessThan3: "Panoply Bonus < 3",
+    panoBonusLessThan3: "Set Bonus < 3",
 
-    panoplies: "Panoplies",
+    panoplies: "Sets",
     onlySelected: "Selected",
     bestAndSelected: "Best + Selected",
 
-    addPanoply: "Add Panoply",
-    removePanoply: "Remove Panoply",
+    addPanoply: "Add Set",
+    removePanoply: "Remove Set",
 
     quickSelection: "Quick selection",
 
@@ -44,10 +51,18 @@ export default {
     combinationsCalculated: "Combinations calculated",
     cancel: "Cancel",
 
+    savedBuilds: "Saved Builds",
+    save: "Save",
+    results: "Results",
+    showSavedBuilds: "Show saved Builds",
+    showResults: "Show results",
+    page: "Page",
+    comparing: "Comparing",
+
     compare: "Compare",
     items: "Items",
 
-    panopliesBonus: "Panoplies bonus",
+    panopliesBonus: "Set bonus",
     // apLessThan: "AP less than",
     // mpLessThan: "MP less than",
     or: "OR",

@@ -5,6 +5,7 @@ import {
     maxStats,
     minStats,
     preStats,
+    savedBuilds,
     weights,
 } from "../stores/builder";
 import {
@@ -20,28 +21,43 @@ import {
 } from "../types/build";
 import { concatStats, type StatKey, type Stats } from "../types/stats";
 import { getItem, getPanoply } from "./frontendDB";
-import { ITEM_CATEGORIES, type Item, type ItemCategory, type Items } from "../types/item";
+import {
+    ITEM_CATEGORIES,
+    type Item,
+    type ItemCategory,
+    type Items,
+    type Requirement,
+} from "../types/item";
+import { calculateStatsValue } from "./value";
 
 export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
     let bestBuilds: Build[] = [];
     console.log("rust response", bestBuildsResp);
+
+    let buildIndex = 1;
     for (const buildResp of bestBuildsResp) {
         const slotCounter: { ring: number; dofus: number } = { ring: 0, dofus: 0 };
 
         let build: Build = {
+            id: "",
+            name: `#${buildIndex}`,
             slots: getEmptySlots(),
             panoplies: {},
             stats: {},
-            overStats: {},
+            cappedStats: {},
             requirements: [],
-            value: buildResp.value,
+            value: 0,
         };
+        let idBuilder: string[] = [];
+        buildIndex++;
         for (const itemIdRaw of buildResp.ids) {
             for (const itemId of itemIdRaw.split("+")) {
                 const item = getItem(itemId);
                 if (!item) {
+                    console.error("No matching item found from Rust response", itemId);
                     continue;
                 }
+                idBuilder.push(item.idShort);
                 const category = item.category;
 
                 if (category === "ring") {
@@ -62,9 +78,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
 
                 build.stats = concatStats(build.stats, item.statsWithBonus);
 
-                if (item.requirement) {
-                    build.requirements.push(item.requirement);
-                }
+                addBuildRequirement(build, item.requirement);
             }
         }
         for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
@@ -78,80 +92,23 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
         }
         build.stats = concatStats(build.stats, get(preStats));
 
-        for (const [key, maxStat] of Object.entries(get(maxStats))) {
-            const keyStat = key as StatKey;
-            if ((build.stats[keyStat] ?? -999999) > maxStat) {
-                build.overStats[keyStat] = build.stats[keyStat];
-                build.stats[keyStat] = maxStat;
-            }
+        calculateBuildValue(build);
+
+        if (build.value > 0 && buildResp.value == 0) {
+            continue;
         }
-        for (const requirement of build.requirements) {
-            switch (requirement.type) {
-                case "apLessThanOrMpLessThan":
-                    if (
-                        build.stats["mp"] &&
-                        build.stats["mp"] >= (requirement.mpValue ?? 9999) &&
-                        build.stats["ap"] &&
-                        build.stats["ap"] >= (requirement.apValue ?? 9999)
-                    ) {
-                        const min = get(minStats);
-                        if ((min["ap"] ?? 0) >= requirement.apValue!) {
-                            if (!build.overStats["mp"]) {
-                                build.overStats["mp"] = build.stats["mp"];
-                            }
-                            build.stats["mp"] = requirement.mpValue! - 1;
-                        } else if ((min["mp"] ?? 0) >= requirement.mpValue!) {
-                            if (!build.overStats["ap"]) {
-                                build.overStats["ap"] = build.stats["ap"];
-                            }
-                            build.stats["ap"] = requirement.apValue! - 1;
-                        } else {
-                            const w = get(weights);
-                            if ((w["ap"] ?? 0) > (w["mp"] ?? 0)) {
-                                if (!build.overStats["mp"]) {
-                                    build.overStats["mp"] = build.stats["mp"];
-                                }
-                                build.stats["mp"] = requirement.mpValue! - 1;
-                            } else {
-                                if (!build.overStats["ap"]) {
-                                    build.overStats["ap"] = build.stats["ap"];
-                                }
-                                build.stats["ap"] = requirement.apValue! - 1;
-                            }
-                        }
-                    }
-                    break;
-                case "apLessThanAndMpLessThan":
-                    if (build.stats["ap"] && build.stats["ap"] >= (requirement.apValue ?? 9999)) {
-                        if (!build.overStats["ap"]) {
-                            build.overStats["ap"] = build.stats["ap"];
-                        }
-                        build.stats["ap"] = requirement.apValue! - 1;
-                    }
-                    if (build.stats["mp"] && build.stats["mp"] >= (requirement.mpValue ?? 9999)) {
-                        if (!build.overStats["mp"]) {
-                            build.overStats["mp"] = build.stats["mp"];
-                        }
-                        build.stats["mp"] = requirement.mpValue! - 1;
-                    }
-                    break;
-                case "apLessThan":
-                    if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
-                        if (!build.overStats["ap"]) {
-                            build.overStats["ap"] = build.stats["ap"];
-                        }
-                        build.stats["ap"] = requirement.value! - 1;
-                    }
-                    break;
-                case "mpLessThan":
-                    if (build.stats["mp"] && build.stats["mp"] >= (requirement.value ?? 9999)) {
-                        if (!build.overStats["mp"]) {
-                            build.overStats["mp"] = build.stats["mp"];
-                        }
-                        build.stats["mp"] = requirement.value! - 1;
-                    }
-                    break;
-            }
+
+        if (Math.round(build.value * 10) != Math.round(buildResp.value * 10)) {
+            console.error(
+                "Build response value and calculated value are different",
+                Math.round(buildResp.value * 10),
+                Math.round(build.value * 10),
+            );
+        }
+        build.id = idBuilder.sort().join("");
+        const savedBuild = getSavedBuild(build.id);
+        if (savedBuild) {
+            build.name = savedBuild.name;
         }
         bestBuilds.push(build);
     }
@@ -159,12 +116,122 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
     return bestBuilds;
 }
 
-export function diffBuild(build: Build, comparedBuild: Build) {
+function addBuildRequirement(build: Build, requirement?: Requirement) {
+    if (!requirement) {
+        return;
+    }
+
+    let requirementExists = false;
+    for (const buildReq of build.requirements) {
+        if (buildReq.type == requirement.type) {
+            requirementExists = true;
+            if (requirement.type.includes("LessThan")) {
+                if (requirement.apValue && requirement.apValue < buildReq.apValue!) {
+                    buildReq.apValue = requirement.apValue;
+                }
+                if (requirement.mpValue && requirement.mpValue < buildReq.mpValue!) {
+                    buildReq.mpValue = requirement.mpValue;
+                }
+                if (requirement.value && requirement.value < buildReq.value!) {
+                    buildReq.value = requirement.value;
+                }
+            } else {
+                if (requirement.apValue && requirement.apValue > buildReq.apValue!) {
+                    buildReq.apValue = requirement.apValue;
+                }
+                if (requirement.mpValue && requirement.mpValue > buildReq.mpValue!) {
+                    buildReq.mpValue = requirement.mpValue;
+                }
+                if (requirement.value && requirement.value > buildReq.value!) {
+                    buildReq.value = requirement.value;
+                }
+            }
+            break;
+        }
+    }
+    if (!requirementExists) {
+        build.requirements.push(requirement);
+    }
+}
+
+export function calculateBuildValue(build: Build) {
+    capBuildStats(build);
+    build.value = calculateStatsValue(build.cappedStats);
+}
+function capBuildStats(build: Build) {
+    build.cappedStats = { ...build.stats };
+
+    function capStat(cappedStats: Partial<Stats>, statKey: StatKey, value: number) {
+        if (!cappedStats[statKey] || cappedStats[statKey] > value) {
+            build.cappedStats[statKey] = value;
+        }
+    }
+
+    for (const [key, maxStat] of Object.entries(get(maxStats))) {
+        const keyStat = key as StatKey;
+        if ((build.stats[keyStat] ?? -999999) > maxStat) {
+            // build.cappedStats[keyStat] = maxStat;
+            capStat(build.cappedStats, keyStat, maxStat);
+        }
+    }
+    for (const requirement of build.requirements) {
+        switch (requirement.type) {
+            case "apLessThanOrMpLessThan":
+                if (
+                    build.stats["mp"] &&
+                    build.stats["mp"] >= (requirement.mpValue ?? 9999) &&
+                    build.stats["ap"] &&
+                    build.stats["ap"] >= (requirement.apValue ?? 9999)
+                ) {
+                    const min = get(minStats);
+                    if ((min["ap"] ?? 0) >= requirement.apValue!) {
+                        capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                    } else if ((min["mp"] ?? 0) >= requirement.mpValue!) {
+                        capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                    } else {
+                        const w = get(weights);
+                        if ((w["ap"] ?? 0) > (w["mp"] ?? 0)) {
+                            capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                        } else {
+                            capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                        }
+                    }
+                }
+                break;
+            case "apLessThanAndMpLessThan":
+                if (build.stats["ap"] && build.stats["ap"] >= (requirement.apValue ?? 9999)) {
+                    capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                }
+                if (build.stats["mp"] && build.stats["mp"] >= (requirement.mpValue ?? 9999)) {
+                    capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                }
+                break;
+            case "apLessThan":
+                if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
+                    capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                }
+                break;
+            case "mpLessThan":
+                if (build.stats["mp"] && build.stats["mp"] >= (requirement.value ?? 9999)) {
+                    capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                }
+                break;
+        }
+    }
+}
+
+export function diffBuild(build: Build, comparedBuild: Build | undefined) {
+    if (!comparedBuild) {
+        build.diffBuild = undefined;
+        return;
+    }
     const diffBuild: Build = {
+        id: comparedBuild.id,
+        name: comparedBuild.name,
         slots: getEmptySlots(),
         panoplies: {},
         stats: {},
-        overStats: {},
+        cappedStats: {},
         requirements: [],
         value: build.value - comparedBuild.value,
     };
@@ -207,8 +274,8 @@ export function diffBuild(build: Build, comparedBuild: Build) {
         for (const [slot, item] of Object.entries(newCategorySlots)) {
             build.slots[slot as BuildSlot] = item;
         }
-        console.log("matchedItems", matchedItems);
-        console.log("newCategorySlots", newCategorySlots);
+        // console.log("matchedItems", matchedItems);
+        // console.log("newCategorySlots", newCategorySlots);
 
         let slotRemovedItemsIndex = slotIndex;
         for (const comparedSlot of categorySlots) {
@@ -216,14 +283,14 @@ export function diffBuild(build: Build, comparedBuild: Build) {
             if (!comparedSlotItem) {
                 continue;
             }
-            console.log("comparedSlotItem.id", comparedSlotItem.id);
+            // console.log("comparedSlotItem.id", comparedSlotItem.id);
             if (!matchedItems.includes(comparedSlotItem)) {
                 const currSlot = categorySlots[slotRemovedItemsIndex] as BuildSlot;
                 diffBuild.slots[currSlot] = comparedSlotItem;
                 slotRemovedItemsIndex++;
             }
         }
-        console.log("diffBuild.slots", diffBuild.slots);
+        // console.log("diffBuild.slots", diffBuild.slots);
     }
 
     // panoplies
@@ -237,16 +304,18 @@ export function diffBuild(build: Build, comparedBuild: Build) {
     }
 
     // stats
-    for (const key of Object.keys(build.stats)) {
-        diffBuild.stats[key as keyof Stats] = comparedBuild.stats[key as keyof Stats] ?? 0;
+    for (const k of Object.keys(build.cappedStats)) {
+        const key: StatKey = k as keyof Stats;
+        diffBuild.cappedStats[key] = comparedBuild.cappedStats[key] ?? 0;
     }
-    for (const [key, value] of Object.entries(comparedBuild.stats)) {
-        if (!diffBuild.stats[key as keyof Stats]) {
-            diffBuild.stats[key as keyof Stats] = value;
+    for (const [k, value] of Object.entries(comparedBuild.cappedStats)) {
+        const key: StatKey = k as keyof Stats;
+        if (!diffBuild.cappedStats[key]) {
+            diffBuild.cappedStats[key] = value;
         }
     }
 
-    console.log(diffBuild);
+    // console.log(diffBuild);
     build.diffBuild = diffBuild;
 }
 
@@ -270,7 +339,7 @@ export function totalCombinations(
         // console.log("categoryLength(category)", categoryLength(category));
 
         let categoryCombinations = combinations(
-            itemCount - lockedCount,
+            itemCount ? Math.max(itemCount - lockedCount, 1) : 0,
             categoryLength(category) - lockedCount,
         );
         // console.log("categoryCombinations", categoryCombinations);
@@ -322,3 +391,38 @@ export function shouldAddComboNoBonusPanoLessThan3(items: Item[], itemsLocked: I
     }
     return false;
 }
+
+export function addToSavedBuilds(build: Build) {
+    let alreadyExists = false;
+    for (const savedBuild of get(savedBuilds)) {
+        if (savedBuild.id == build.id) {
+            alreadyExists = true;
+            savedBuild.name = build.name;
+            break;
+        }
+    }
+    if (!alreadyExists) {
+        // savedBuilds.update((builds) => [...builds, build]);
+        savedBuilds.update((builds) => [...builds, build].sort((a, b) => b.value - a.value));
+    }
+}
+export function getSavedBuild(id: string): Build | undefined {
+    for (const savedBuild of get(savedBuilds)) {
+        if (savedBuild.id == id) {
+            return savedBuild;
+        }
+    }
+    return undefined;
+}
+// export function addToSavedBuilds(build: Build) {
+//     const savBuilds = get(savedBuilds);
+//     const index = savBuilds.findIndex((b) => b.id === build.id);
+
+//     if (index !== -1) {
+//         const updated = [...savBuilds];
+//         updated[index] = { ...updated[index], name: build.name } as Build;
+//         savedBuilds.set(updated);
+//     } else {
+//         savedBuilds.set([...savBuilds, build]);
+//     }
+// }
