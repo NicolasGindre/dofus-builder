@@ -1,6 +1,7 @@
 import { get } from "svelte/store";
 import {
     bestBuilds,
+    buildsDisplayed,
     comparedBuild,
     itemsLocked,
     itemsSelected,
@@ -38,6 +39,7 @@ import { calculateBuildToDisplay } from "./display";
 function initBuild(name: string, buildId?: string, value?: number): Build {
     return {
         id: buildId ?? "",
+        level: 1,
         name: name,
         slots: getEmptySlots(),
         panoplies: {},
@@ -66,6 +68,10 @@ function addItemToBuild(
     }
     build.slots[slot] = item;
     slotCounter[category]++;
+
+    if (item.level > build.level) {
+        build.level = item.level;
+    }
     return true;
 }
 
@@ -103,6 +109,7 @@ export function buildFromId(buildId: string, name: string): Build {
         addBuildMinRequirement(build, item.minRequirement);
         addBuildRequirement(build, item.requirements);
     }
+    addBuildRequirement(build, [[{ type: "equals", stat: "level", value: build.level }]]);
     for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
         build.noCharStats = concatStats(
             build.noCharStats,
@@ -113,30 +120,6 @@ export function buildFromId(buildId: string, name: string): Build {
         // }
     }
     // build.noCharStats = build.stats;
-    build.stats = concatStats(build.noCharStats, get(preStats));
-
-    calculateBuildValue(build);
-
-    return build;
-}
-
-let timeout: number;
-export function refreshBuildsValue() {
-    clearTimeout(timeout);
-    timeout = window.setTimeout(() => {
-        bestBuilds.update(refreshBuildsValueNoThrottle);
-        savedBuilds.update(refreshBuildsValueNoThrottle);
-        calculateBuildToDisplay();
-    }, 150);
-}
-export function refreshBuildsValueNoThrottle(builds: Build[]): Build[] {
-    for (const build of builds) {
-        refreshBuildValue(build);
-    }
-    builds.sort((a, b) => b.value - a.value);
-    return builds;
-}
-export function refreshBuildValue(build: Build) {
     build.stats = concatStats(build.noCharStats, get(preStats));
 
     calculateBuildValue(build);
@@ -177,6 +160,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
                 addBuildRequirement(build, item.requirements);
             }
         }
+        addBuildRequirement(build, [[{ type: "equals", stat: "level", value: build.level }]]);
         for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
             build.noCharStats = concatStats(
                 build.noCharStats,
@@ -256,6 +240,39 @@ function addBuildMinRequirement(build: Build, requirement?: MinRequirement) {
     }
 }
 
+let timeout: number;
+export function refreshBuildsValue() {
+    clearTimeout(timeout);
+    timeout = window.setTimeout(() => {
+        bestBuilds.update(refreshBuildsValueNoThrottle);
+        savedBuilds.update(refreshBuildsValueNoThrottle);
+        calculateBuildToDisplay();
+        const buildToCompare = get(comparedBuild);
+        if (buildToCompare) {
+            comparedBuild.update(refreshBuildValue);
+            const builds = get(buildsDisplayed);
+            for (const build of builds) {
+                diffBuild(build, buildToCompare);
+            }
+            buildsDisplayed.set([...builds]);
+        }
+    }, 150);
+}
+export function refreshBuildsValueNoThrottle(builds: Build[]): Build[] {
+    for (const build of builds) {
+        refreshBuildValue(build);
+    }
+    builds.sort((a, b) => b.value - a.value);
+    return builds;
+}
+export function refreshBuildValue(build: Build) {
+    build.stats = concatStats(build.noCharStats, get(preStats));
+
+    calculateBuildValue(build);
+
+    return build;
+}
+
 export function calculateBuildValue(build: Build) {
     capBuildStats(build);
     if (isBuildMinStatsOk(build)) {
@@ -300,6 +317,12 @@ function capBuildStats(build: Build) {
                     build.stats["ap"] >= (requirement.value ?? 9999)
                 ) {
                     const min = get(minStats);
+                    if (
+                        (min["ap"] ?? 0) >= requirement.value! &&
+                        (min["mp"] ?? 0) >= requirement.value2!
+                    ) {
+                        build.value = 0;
+                    }
                     if ((min["ap"] ?? 0) >= requirement.value!) {
                         capStat(build.cappedStats, "mp", requirement.value2! - 1);
                     } else if ((min["mp"] ?? 0) >= requirement.value2!) {

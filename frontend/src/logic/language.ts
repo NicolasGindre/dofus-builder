@@ -27,6 +27,8 @@ export function translateRequirement(requirement: Requirement): string {
         translation += " < ";
     } else if (requirement.type == "moreThan") {
         translation += " > ";
+    } else {
+        translation += " ";
     }
 
     translation += requirement.value;

@@ -28,6 +28,7 @@ export function getLeveledStats(level: number): Partial<Stats> {
 
 export type Build = {
     name: string;
+    level: number;
     id: string;
     slots: Slots;
     panoplies: Record<string, number>;

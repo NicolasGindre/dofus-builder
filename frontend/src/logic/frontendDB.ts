@@ -19,10 +19,10 @@ import {
 import { getBonusStats } from "../types/stats";
 import type { Build } from "../types/build";
 import { buildsFromIds } from "./build";
-import type { MinRequirement } from "../workers/orchestrator";
 
 let init = false;
-const itemsVersion = "3.3.13.12";
+const itemsVersionDisplayed = "3.3.13.12";
+const itemsVersion = "1";
 
 export async function loadItemsAndPanos() {
     let itemsUpToDate = false;

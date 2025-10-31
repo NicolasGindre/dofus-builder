@@ -10,11 +10,15 @@ import {
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
 
+export type DofusBookDBIdMap = Record<string, { name: string; id: number; shortId: string }>;
+export type DofusBookDBNameMap = Record<string, { dofusDBId: string; id: number; shortId: string }>;
+
+const dbPath = "./src/db/data";
 const dofusDBUrl: string = "https://api.dofusdb.fr";
-let shortId: string = "";
-export function initShortId() {
-    shortId = "Z";
-}
+// let shortId: string = "";
+// export function initShortId() {
+//     shortId = "Z";
+// }
 
 const StatSchema = z.object({
     from: z.number(),
@@ -74,6 +78,14 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
 
     let totalItems = 10000;
     let itemIndex = 0;
+    let itemNames: string[] = [];
+
+    let dofusBookIdMap: DofusBookDBIdMap = await Bun.file(
+        `${dbPath}/dofusBookMap/idMap.json`,
+    ).json();
+    let dofusBookNameMap: DofusBookDBNameMap = await Bun.file(
+        `${dbPath}/dofusBookMap/nameMap.json`,
+    ).json();
 
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
@@ -93,11 +105,36 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             if (shouldSkipItem(dofusDbItem)) {
                 continue;
             }
-            shortId = nextValue(shortId);
-            const newItem = translateItem(dofusDbItem, category, shortId);
+            let dofusBookId: number;
+            let shortId: string;
+            if (!dofusBookIdMap[dofusDbItem._id]) {
+                if (!dofusBookNameMap[dofusDbItem.name.fr]) {
+                    console.log("item has no match in dofusbook", dofusDbItem.name.fr);
+                    continue;
+                } else {
+                    dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
+                    shortId = dofusBookNameMap[dofusDbItem.name.fr]!.shortId;
+                    console.log(
+                        "There was no id match but found name match",
+                        dofusDbItem.name.fr,
+                        dofusBookNameMap[dofusDbItem.name.fr]!.id,
+                    );
+                }
+            } else {
+                dofusBookId = dofusBookIdMap[dofusDbItem._id]!.id;
+                shortId = dofusBookIdMap[dofusDbItem._id]!.shortId;
+            }
+
+            // shortId = nextValue(shortId);
+            const newItem = translateItem(dofusDbItem, category, shortId, dofusBookId);
             if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
                 continue;
             } else {
+                if (itemNames.includes(dofusDbItem.name.fr)) {
+                    console.log("skipping duplicate name item", dofusDbItem.name.fr);
+                    continue;
+                }
+                itemNames.push(dofusDbItem.name.fr);
                 items[dofusDbItem._id] = newItem;
             }
         }
@@ -113,12 +150,14 @@ export function translateItem(
     dofusDbItem: ItemResp,
     category: ItemCategory,
     shortId: string,
+    dofusBookId: number,
 ): Item {
     const requirements = translateCriterions(dofusDbItem.criterions);
     const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
         id: dofusDbItem._id,
         idShort: shortId,
+        idDofusBook: dofusBookId,
         name: {
             fr: dofusDbItem.name.fr,
             en: dofusDbItem.name.en,

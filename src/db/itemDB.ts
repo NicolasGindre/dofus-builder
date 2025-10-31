@@ -39,6 +39,15 @@ export function getItemFromShortId(shortId: string): Item | undefined {
     return undefined;
 }
 
+export function getItemFromNameFrench(nameFr: string, category: ItemCategory): Item | undefined {
+    for (const item of Object.values(itemsCategory[category])) {
+        if (item.name.fr == nameFr) {
+            return item;
+        }
+    }
+    return undefined;
+}
+
 export function getAllItems(): Items {
     return itemsDB;
 }
@@ -109,6 +118,12 @@ export function logFilteredItems() {
     }
 }
 
+export async function saveAllItems() {
+    for (const [category, items] of Object.entries(itemsCategory)) {
+        await saveItems(category as ItemCategory, items);
+    }
+}
+
 export async function saveItems(
     category: ItemCategory,
     items: Record<string, Item>,
@@ -123,25 +138,25 @@ export async function savePanoplies(panoplies: Panoplies): Promise<void> {
 export async function downloadItems(): Promise<void> {
     console.log("Starting download from DofusDB");
 
-    dofusDB.initShortId();
+    // dofusDB.initShortId();
     let newItemsDB: Items = {};
     for (const category of ITEM_CATEGORIES) {
         let newItemsCategory: Record<string, Item> = {};
         const itemsDofusDB = await dofusDB.downloadItems(category);
 
         for (const [dofusDBId, dofusDBitem] of Object.entries(itemsDofusDB)) {
-            const oldItem = itemsDB[dofusDBId];
-            if (oldItem && oldItem.idShort && oldItem.idShort != dofusDBitem.idShort) {
-                dofusDBitem.idShort = oldItem.idShort;
-            } else {
-                const oldItemShort = getItemFromShortId(dofusDBitem.idShort);
-                if (oldItemShort && oldItemShort.id != dofusDBId) {
-                    console.error(
-                        oldItemShort.name.fr,
-                        "Error : shortId is already linked to a different item and may be duplicated",
-                    );
-                }
-            }
+            // const oldItem = itemsDB[dofusDBId];
+            // if (oldItem && oldItem.idShort && oldItem.idShort != dofusDBitem.idShort) {
+            //     dofusDBitem.idShort = oldItem.idShort;
+            // } else {
+            //     const oldItemShort = getItemFromShortId(dofusDBitem.idShort);
+            //     if (oldItemShort && oldItemShort.id != dofusDBId) {
+            //         console.error(
+            //             oldItemShort.name.fr,
+            //             "Error : shortId is already linked to a different item and may be duplicated",
+            //         );
+            //     }
+            // }
             newItemsCategory[dofusDBId] = dofusDBitem;
             newItemsDB[dofusDBId] = dofusDBitem;
         }
