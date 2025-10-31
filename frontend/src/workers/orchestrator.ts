@@ -14,12 +14,18 @@ import type { Stats } from "../types/stats";
 import type { Payload } from "./combinationSearch";
 import CombinationSearchWorker from "./combinationSearch.ts?worker";
 import { shouldAddComboNoBonusPanoLessThan3 } from "../logic/build";
+import { isItemBonusPanoCapped } from "../logic/item";
 
 type MinItem = {
     id: string;
     stats: Partial<Stats>;
     panoplies: string[];
-    requirement?: Requirement;
+    requirement?: MinRequirement;
+};
+export type MinRequirement = {
+    type: string;
+    value: number;
+    value2?: number;
 };
 
 export type CombinationPayload = {
@@ -254,11 +260,13 @@ function mergeItems(items: Item[]): MinItem {
     return minItem;
 }
 
-function mergeItemsRequirement(items: Item[]): Requirement | undefined {
+function mergeItemsRequirement(items: Item[]): MinRequirement | undefined {
     for (const item of items) {
         // console.log("item requirement of: ", item.name.fr, item.requirement);
-        if (item.requirement) {
-            return item.requirement;
+        // CAREFUL ! Potential issue : we only link one possible requirement per item to Rust.
+        // It should cover everything we need for now but.
+        if (item.minRequirement) {
+            return item.minRequirement;
         }
     }
     return undefined;
@@ -267,7 +275,8 @@ function mergeItemsRequirement(items: Item[]): Requirement | undefined {
 export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
     // let itemsNoBonusPano: MinItem[] = [];
     const noBonusPanoItems = items.filter(
-        (item) => item.requirement?.type !== "panopliesBonusLessThan",
+        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
+        (item) => !isItemBonusPanoCapped(item),
     );
     // itemsNoBonusPano.push();
     return mergeItems(noBonusPanoItems);

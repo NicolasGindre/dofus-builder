@@ -493,6 +493,7 @@
     },
     "level": 51,
     "category": "amulet",
+    "criterions": "Ps=1&Pa>10",
     "stats": {
       "strength": 30,
       "power": 10,
@@ -689,6 +690,16 @@
     },
     "level": 22,
     "category": "amulet",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 10
+        }
+      ]
+    ],
+    "criterions": "CC>10",
     "stats": {
       "chance": 20,
       "agility": 20
@@ -1338,6 +1349,16 @@
     },
     "level": 39,
     "category": "amulet",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 30
+        }
+      ]
+    ],
+    "criterions": "CC>30",
     "stats": {
       "health": 50,
       "chance": 35,
@@ -3126,6 +3147,7 @@
     "level": 45,
     "panoply": "674e523f64788cc74141821a",
     "category": "amulet",
+    "criterions": "PO!10119",
     "stats": {
       "health": 25,
       "strength": 20,
@@ -3321,6 +3343,7 @@
     },
     "level": 64,
     "category": "amulet",
+    "criterions": "Sc=18",
     "stats": {
       "chance": 10,
       "ap": 1,
@@ -3651,6 +3674,37 @@
     },
     "level": 127,
     "category": "amulet",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CI>199&CC>199&CA>199",
     "stats": {
       "strength": 50,
       "intelligence": 50,
@@ -3976,6 +4030,37 @@
     },
     "level": 163,
     "category": "amulet",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CS>249&CI>249&CC>249&CA>249",
     "stats": {
       "strength": 70,
       "intelligence": 70,
@@ -6866,11 +6951,26 @@
     },
     "level": 200,
     "category": "amulet",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 500,
       "wisdom": 40,
@@ -7243,6 +7343,16 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183dc",
     "category": "amulet",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 666
+        }
+      ]
+    ],
+    "criterions": "CI>666",
     "stats": {
       "health": 400,
       "intelligence": 66,

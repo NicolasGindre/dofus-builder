@@ -53,6 +53,7 @@ export default {
 
     savedBuilds: "Builds salvos",
     save: "Salvar",
+    delete: "Excluir",
     results: "Resultados",
     showSavedBuilds: "Mostrar builds salvos",
     showResults: "Mostrar resultados",

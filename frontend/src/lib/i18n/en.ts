@@ -53,6 +53,7 @@ export default {
 
     savedBuilds: "Saved Builds",
     save: "Save",
+    delete: "Delete",
     results: "Results",
     showSavedBuilds: "Show saved Builds",
     showResults: "Show results",

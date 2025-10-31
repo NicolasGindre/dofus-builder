@@ -370,6 +370,7 @@
         display: flex;
         align-items: center;
         width: 62px;
+        max-width: 62px;
         height: 24px;
         /* border: 1px solid #ccc; */
         /* border-radius: 4px; */
@@ -477,6 +478,7 @@
     .stats-grid td:nth-child(3),
     .stats-grid td:nth-child(4) {
         width: 60px;
+        max-width: 60px;
         text-align: center;
     }
 

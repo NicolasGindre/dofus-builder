@@ -180,10 +180,20 @@
     },
     "level": 25,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 8
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 8
     },
+    "criterions": "CP<8",
     "stats": {
       "ap": 1,
       "initiative": -100,
@@ -531,6 +541,7 @@
     },
     "level": 90,
     "category": "weapon",
+    "criterions": "Ps=1",
     "stats": {
       "agility": -150
     }
@@ -1029,10 +1040,34 @@
     },
     "level": 79,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 12
     },
+    "criterions": "CI>99&CC>99&CP<12",
     "stats": {
       "intelligence": 35,
       "chance": 35,
@@ -1100,6 +1135,23 @@
     },
     "level": 185,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CA>249&CI>249",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -1125,6 +1177,23 @@
     },
     "level": 183,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CS>249&CI>249",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -1148,6 +1217,30 @@
     },
     "level": 167,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 149
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 149
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CS>149&CC>149&CI>149",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -1175,6 +1268,16 @@
     },
     "level": 175,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CC>249",
     "stats": {
       "health": 200,
       "chance": 30,
@@ -1231,6 +1334,23 @@
     },
     "level": 196,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CC>299",
     "stats": {
       "health": 350,
       "chance": 40,
@@ -1290,6 +1410,26 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 399
+        },
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 399
+        },
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CI>399|CC>399|CA>399",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -1370,6 +1510,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>299",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -1425,6 +1582,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CC>299&CA>299",
     "stats": {
       "health": 350,
       "chance": 60,
@@ -1480,6 +1654,37 @@
     "level": 200,
     "panoply": "674e523f64788cc741418219",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 349
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 349
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 349
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 349
+        }
+      ]
+    ],
+    "criterions": "CI>349&CS>349&CA>349&CC>349",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -1530,6 +1735,23 @@
     "level": 200,
     "panoply": "674e523f64788cc74141822f",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CC>299",
     "stats": {
       "health": 350,
       "strength": 80,
@@ -1585,6 +1807,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CI>299",
     "stats": {
       "health": 300,
       "strength": 70,
@@ -1707,11 +1946,35 @@
     },
     "level": 105,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ],
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ],
+      [
+        {
+          "stat": "wisdom",
+          "type": "moreThan",
+          "value": 99
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanAndMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12&CM<6&CW>99",
     "stats": {
       "strength": -11,
       "intelligence": 40,
@@ -1893,10 +2156,20 @@
     },
     "level": 50,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 9
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 9
     },
+    "criterions": "CP<9",
     "stats": {
       "health": 90,
       "intelligence": -90,
@@ -2248,6 +2521,23 @@
     },
     "level": 171,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>199",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -2318,6 +2608,16 @@
     },
     "level": 113,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199",
     "stats": {
       "health": 80,
       "intelligence": 40,
@@ -2520,6 +2820,16 @@
     },
     "level": 112,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199",
     "stats": {
       "health": 70,
       "intelligence": 40,
@@ -2541,6 +2851,23 @@
     },
     "level": 127,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 149
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CI>149&CA>149",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -2641,6 +2968,37 @@
     },
     "level": 138,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 99
+        }
+      ]
+    ],
+    "criterions": "CI>99&CA>99&CC>99&CS>99",
     "stats": {
       "health": 200,
       "strength": 35,
@@ -2755,10 +3113,20 @@
     },
     "level": 74,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 6
     },
+    "criterions": "CM<6",
     "stats": {
       "health": 40,
       "agility": 40,
@@ -2826,6 +3194,23 @@
     },
     "level": 180,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CI>249&CA>249",
     "stats": {
       "health": 300,
       "intelligence": 50,
@@ -2849,6 +3234,23 @@
     },
     "level": 163,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199&CC>199",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -2878,6 +3280,23 @@
     "level": 177,
     "panoply": "674e523f64788cc7414183f2",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CI>199",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -2907,6 +3326,23 @@
     },
     "level": 187,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>249&CA>199",
     "stats": {
       "health": 300,
       "intelligence": 50,
@@ -2936,6 +3372,23 @@
     },
     "level": 193,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CI>249&CC>249",
     "stats": {
       "health": 300,
       "intelligence": 45,
@@ -3023,6 +3476,23 @@
     "level": 198,
     "panoply": "674e523f64788cc7414181a5",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CC>249&CA>249",
     "stats": {
       "health": 300,
       "agility": 50,
@@ -3078,6 +3548,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CC>299",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -3127,6 +3614,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CA>299",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -3233,6 +3737,23 @@
     "level": 200,
     "panoply": "674e523f64788cc741418220",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CS>299",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -3261,6 +3782,37 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CC>299&CI>299&CS>299",
     "stats": {
       "health": 350,
       "wisdom": 50,
@@ -3469,10 +4021,20 @@
     },
     "level": 67,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 11
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 11
     },
+    "criterions": "CP<11",
     "stats": {
       "health": 40,
       "agility": -40,
@@ -4334,6 +4896,16 @@
     },
     "level": 176,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CI>399",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -4741,6 +5313,23 @@
     },
     "level": 191,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CC>199",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -4790,6 +5379,16 @@
     },
     "level": 161,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CC>249",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -4846,6 +5445,16 @@
     },
     "level": 188,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 349
+        }
+      ]
+    ],
+    "criterions": "CA>349",
     "stats": {
       "health": 250,
       "agility": 60,
@@ -4872,6 +5481,16 @@
     },
     "level": 195,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CI>399",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -5002,6 +5621,16 @@
     },
     "level": 165,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CS>249",
     "stats": {
       "health": 180,
       "strength": 60,
@@ -5063,6 +5692,23 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CA>299",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -5092,6 +5738,33 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        },
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        },
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&(CI>299|CC>299|CA>299)",
     "stats": {
       "health": 350,
       "wisdom": 50,
@@ -5259,6 +5932,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CS>299",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -5361,6 +6051,7 @@
     },
     "level": 110,
     "category": "weapon",
+    "criterions": "Qf=2181",
     "stats": {
       "health": 150,
       "wisdom": 20,
@@ -5506,10 +6197,20 @@
     },
     "level": 73,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 12
     },
+    "criterions": "CP<12",
     "stats": {
       "health": 40,
       "chance": 30,
@@ -5547,10 +6248,20 @@
     },
     "level": 46,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 5
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 5
     },
+    "criterions": "CM<5",
     "stats": {
       "mp": 1
     }
@@ -5728,10 +6439,20 @@
     },
     "level": 80,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 6
     },
+    "criterions": "CM<6",
     "stats": {
       "health": 30,
       "agility": 50,
@@ -5829,10 +6550,20 @@
     },
     "level": 44,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 5
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 5
     },
+    "criterions": "CM<5",
     "stats": {
       "health": 45,
       "intelligence": -50,
@@ -6093,6 +6824,21 @@
     },
     "level": 150,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        },
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CA>249|CS>249",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -6199,10 +6945,20 @@
     },
     "level": 100,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 6
     },
+    "criterions": "CM<6",
     "stats": {
       "health": 80,
       "agility": 60,
@@ -6291,11 +7047,47 @@
     "level": 128,
     "panoply": "674e523f64788cc741418109",
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 89
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 89
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 89
+        }
+      ],
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "(CS>89&CI>89&CA>89)&(CP<12|CM<6)",
     "stats": {
       "health": 130,
       "strength": 40,
@@ -6349,6 +7141,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "criterions": "Qa=166",
     "stats": {
       "health": 10,
       "strength": -21,
@@ -6405,6 +7198,23 @@
     },
     "level": 175,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CA>199&CC>199",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -6430,6 +7240,23 @@
     },
     "level": 171,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CS>299&CA>149",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -6455,6 +7282,16 @@
     },
     "level": 158,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299",
     "stats": {
       "health": 250,
       "agility": 50,
@@ -6529,6 +7366,23 @@
     "level": 182,
     "panoply": "674e523f64788cc74141813a",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199&CC>199",
     "stats": {
       "health": 300,
       "intelligence": 50,
@@ -6567,11 +7421,40 @@
     },
     "level": 164,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CS>199&CA>199&(CP<12|CM<6)",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -6600,6 +7483,16 @@
     },
     "level": 176,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CI>249",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -6651,6 +7544,23 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CA>299",
     "stats": {
       "health": 300,
       "strength": 60,
@@ -6707,6 +7617,16 @@
     },
     "level": 198,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299",
     "stats": {
       "health": 300,
       "intelligence": 75,
@@ -6736,6 +7656,26 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 399
+        },
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 399
+        },
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CS>399|CI>399|CA>399",
     "stats": {
       "health": 400,
       "strength": 50,
@@ -6764,6 +7704,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CC>299",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -7199,10 +8156,20 @@
     },
     "level": 33,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 5
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 5
     },
+    "criterions": "CM<5",
     "stats": {
       "mp": 1,
       "lock": -12,
@@ -7486,6 +8453,30 @@
     },
     "level": 99,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 99
+        }
+      ],
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 99
+        }
+      ]
+    ],
+    "criterions": "CS>99&CA>99&CV>99",
     "stats": {
       "health": 99,
       "strength": 29,
@@ -7892,6 +8883,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "criterions": "PG=6&PS=0",
     "stats": {
       "initiative": 10
     }
@@ -7908,6 +8900,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "criterions": "PG=6&PS=1",
     "stats": {
       "initiative": 10
     }
@@ -8009,6 +9002,16 @@
     },
     "level": 158,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299",
     "stats": {
       "health": 250,
       "agility": 50,
@@ -8175,6 +9178,16 @@
     },
     "level": 169,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299",
     "stats": {
       "health": 300,
       "strength": 50,
@@ -8379,6 +9392,23 @@
     },
     "level": 163,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CA>199&CI>199",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -8402,6 +9432,30 @@
     },
     "level": 186,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CA>199&CC>199&CS>199",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -8426,6 +9480,21 @@
     },
     "level": 179,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        },
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>249|CA>199",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -8451,6 +9520,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8469,6 +9548,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8487,6 +9576,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8505,6 +9604,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8523,6 +9632,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8541,6 +9660,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8559,6 +9688,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8577,6 +9716,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8595,6 +9744,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8613,6 +9772,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8631,6 +9800,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8649,6 +9828,16 @@
     },
     "level": 100,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 140
+        }
+      ]
+    ],
+    "criterions": "CS>140",
     "stats": {
       "health": 60,
       "strength": 70,
@@ -8693,6 +9882,23 @@
     },
     "level": 184,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CC>249&CA>249",
     "stats": {
       "health": 250,
       "chance": 50,
@@ -8811,6 +10017,23 @@
     },
     "level": 177,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CI>199",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -8837,6 +10060,16 @@
     },
     "level": 184,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 1999
+        }
+      ]
+    ],
+    "criterions": "CV>1999",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -8859,6 +10092,23 @@
     },
     "level": 196,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>299&CI>199",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -8995,6 +10245,16 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CC>399",
     "stats": {
       "health": 300,
       "chance": 80,
@@ -9023,6 +10283,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CA>299",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -9096,6 +10373,30 @@
     "level": 200,
     "panoply": "674e523f64788cc7414181ee",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>299&CA>299",
     "stats": {
       "health": 350,
       "intelligence": 40,
@@ -9154,6 +10455,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CC>299",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -9207,6 +10525,7 @@
     },
     "level": 160,
     "category": "weapon",
+    "criterions": "Pm=181404680&Qa=1865&Qo>12441&Qo<12443",
     "stats": {
       "health": 300,
       "power": 60,
@@ -9226,6 +10545,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>299",
     "stats": {
       "health": 350,
       "intelligence": 70,
@@ -9402,6 +10738,16 @@
     },
     "level": 160,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 449
+        }
+      ]
+    ],
+    "criterions": "CS>449",
     "stats": {
       "health": 80,
       "strength": 100,
@@ -9460,6 +10806,7 @@
     },
     "level": 180,
     "category": "weapon",
+    "criterions": "Qa=2415",
     "stats": {
       "health": 250,
       "neutralResistPer": 5,
@@ -9558,6 +10905,16 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183dc",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 666
+        }
+      ]
+    ],
+    "criterions": "CI>666",
     "stats": {
       "health": 350,
       "intelligence": 99,
@@ -9585,6 +10942,16 @@
     "level": 200,
     "panoply": "687f71541c815173560616c2",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 3949
+        }
+      ]
+    ],
+    "criterions": "CV>3949",
     "stats": {
       "health": 500,
       "wisdom": 60,
@@ -10747,6 +12114,16 @@
     },
     "level": 178,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -10909,6 +12286,23 @@
     },
     "level": 166,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199&CA>199",
     "stats": {
       "health": 250,
       "intelligence": 40,
@@ -10939,6 +12333,16 @@
     "level": 156,
     "panoply": "674e523f64788cc7414183ff",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -10965,6 +12369,23 @@
     },
     "level": 173,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CA>199&CS>199",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -10993,6 +12414,23 @@
     },
     "level": 187,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CA>249&CS>149",
     "stats": {
       "health": 250,
       "agility": 30,
@@ -11020,6 +12458,30 @@
     },
     "level": 195,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199&CA>199&CC>199",
     "stats": {
       "health": 300,
       "intelligence": 45,
@@ -11096,6 +12558,23 @@
     "level": 193,
     "panoply": "674e523f64788cc741418187",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CI>299",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -11126,6 +12605,23 @@
     },
     "level": 199,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CC>299&CI>149",
     "stats": {
       "health": 300,
       "intelligence": 40,
@@ -11182,6 +12678,23 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CC>299&CA>299",
     "stats": {
       "health": 350,
       "chance": 60,
@@ -11213,6 +12726,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CI>299",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -11240,6 +12770,37 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>199&CS>199&CC>199&CA>199",
     "stats": {
       "health": 400,
       "strength": 50,
@@ -11360,6 +12921,30 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CI>249&CS>249&CA>249",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -11413,6 +12998,7 @@
     },
     "level": 112,
     "category": "weapon",
+    "criterions": "Qa=2113&Qo=15771",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -11545,6 +13131,16 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183db",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 999
+        }
+      ]
+    ],
+    "criterions": "CS>999",
     "stats": {
       "health": 450,
       "strength": 90,
@@ -11636,6 +13232,16 @@
     "level": 200,
     "panoply": "687f71541c815173560616c2",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 3949
+        }
+      ]
+    ],
+    "criterions": "CV>3949",
     "stats": {
       "health": 500,
       "wisdom": 60,
@@ -11778,10 +13384,20 @@
     },
     "level": 72,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 12
     },
+    "criterions": "CP<12",
     "stats": {
       "health": 30,
       "chance": 20,
@@ -11940,10 +13556,20 @@
     },
     "level": 53,
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 5
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "mpLessThan",
       "value": 5
     },
+    "criterions": "CM<5",
     "stats": {
       "strength": -60,
       "intelligence": -60,
@@ -12537,6 +14163,23 @@
     },
     "level": 172,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CC>199&CI>199",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -12586,6 +14229,23 @@
     },
     "level": 155,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CI>199",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -12611,6 +14271,16 @@
     },
     "level": 191,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CC>399",
     "stats": {
       "health": 300,
       "chance": 60,
@@ -12676,6 +14346,16 @@
     },
     "level": 178,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CC>249",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -12704,6 +14384,16 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CC>399",
     "stats": {
       "health": 300,
       "chance": 60,
@@ -12731,6 +14421,30 @@
     },
     "level": 181,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CI>199&CA>199",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -12759,6 +14473,30 @@
     },
     "level": 50,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 30
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 30
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 30
+        }
+      ]
+    ],
+    "criterions": "CS>30&CI>30&CC>30",
     "stats": {
       "strength": 30,
       "intelligence": 30,
@@ -12778,11 +14516,26 @@
     "level": 191,
     "panoply": "674e523f64788cc74141816c",
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -12840,6 +14593,16 @@
     },
     "level": 197,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 399
+        }
+      ]
+    ],
+    "criterions": "CS>399",
     "stats": {
       "health": 300,
       "strength": 75,
@@ -12867,6 +14630,23 @@
     },
     "level": 199,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>199",
     "stats": {
       "health": 300,
       "intelligence": 75,
@@ -12920,6 +14700,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CC>299",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -13002,6 +14799,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299&CC>299",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -14088,11 +15902,33 @@
     "level": 139,
     "panoply": "674e523f64788cc74141812c",
     "category": "weapon",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 1499
+        }
+      ],
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CV>1499&(CP<12|CM<6)",
     "stats": {
       "health": 300,
       "wisdom": 35,
@@ -14136,6 +15972,16 @@
     },
     "level": 162,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299",
     "stats": {
       "health": 200,
       "strength": 45,
@@ -14223,6 +16069,16 @@
     },
     "level": 154,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CI>299",
     "stats": {
       "health": 200,
       "intelligence": 60,
@@ -14251,6 +16107,16 @@
     "level": 153,
     "panoply": "674e523f64788cc7414183ff",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299",
     "stats": {
       "health": 200,
       "agility": 50,
@@ -14280,6 +16146,23 @@
     "level": 188,
     "panoply": "674e523f64788cc741418159",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CA>249&CC>249",
     "stats": {
       "health": 250,
       "chance": 50,
@@ -14306,6 +16189,23 @@
     },
     "level": 170,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CS>199&CA>199",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -14335,6 +16235,23 @@
     },
     "level": 194,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CS>249&CI>249",
     "stats": {
       "health": 300,
       "strength": 30,
@@ -14364,6 +16281,23 @@
     },
     "level": 185,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 149
+        }
+      ]
+    ],
+    "criterions": "CI>249&CA>149",
     "stats": {
       "health": 300,
       "intelligence": 60,
@@ -14391,6 +16325,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CA>299",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -14420,6 +16371,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CS>299&CC>299",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -14499,6 +16467,30 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 249
+        }
+      ],
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 249
+        }
+      ]
+    ],
+    "criterions": "CS>249&CI>249&CC>249",
     "stats": {
       "health": 400,
       "strength": 50,
@@ -14774,6 +16766,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "criterions": "Sc=13",
     "stats": {
       "health": 10,
       "initiative": 30
@@ -15290,6 +17283,23 @@
     "level": 154,
     "panoply": "674e523f64788cc74141815c",
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 199
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 199
+        }
+      ]
+    ],
+    "criterions": "CA>199&CI>199",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -15317,6 +17327,23 @@
     },
     "level": 200,
     "category": "weapon",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 299
+        }
+      ],
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 299
+        }
+      ]
+    ],
+    "criterions": "CA>299&CS>299",
     "stats": {
       "health": 400,
       "strength": 70,

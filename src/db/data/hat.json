@@ -669,10 +669,20 @@
     "level": 45,
     "panoply": "674e523f64788cc7414180d5",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 9
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 9
     },
+    "criterions": "CP<9",
     "stats": {
       "health": 70,
       "ap": 1,
@@ -790,10 +800,20 @@
     "level": 60,
     "panoply": "674e523f64788cc7414180db",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 12
     },
+    "criterions": "CP<12",
     "stats": {
       "health": 80,
       "ap": 1
@@ -3020,11 +3040,26 @@
     "level": 164,
     "panoply": "674e523f64788cc7414183ef",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -3692,6 +3727,7 @@
     "level": 42,
     "panoply": "674e523f64788cc74141821a",
     "category": "hat",
+    "criterions": "PO!10119",
     "stats": {
       "health": 30,
       "wisdom": 15,
@@ -4812,11 +4848,26 @@
     },
     "level": 199,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -5194,11 +5245,26 @@
     },
     "level": 200,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -6165,11 +6231,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e2",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 400,
       "chance": 50,
@@ -6769,11 +6850,26 @@
     },
     "level": 200,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -6992,11 +7088,26 @@
     },
     "level": 200,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -7479,11 +7590,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e6",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -7676,11 +7802,26 @@
     },
     "level": 200,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "wisdom": 60,
@@ -7957,11 +8098,26 @@
     "level": 155,
     "panoply": "674e523f64788cc7414183ed",
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -8352,11 +8508,26 @@
     },
     "level": 198,
     "category": "hat",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "chance": 60,

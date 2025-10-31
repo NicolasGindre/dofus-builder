@@ -1,4 +1,5 @@
-import type { Stats } from "./stats";
+import type { MinRequirement } from "../workers/orchestrator";
+import type { StatKey, Stats } from "./stats";
 
 export const ITEM_CATEGORIES = [
     "amulet",
@@ -20,7 +21,8 @@ export type Item = {
     idShort: string;
     level: number;
     name: Name;
-    requirement?: Requirement;
+    requirements?: Requirement[][]; // []and -> []or
+    minRequirement?: MinRequirement;
     panoply?: string;
     category: ItemCategory;
     stats: ItemStats;
@@ -37,9 +39,8 @@ export type Name = {
 };
 export type Requirement = {
     type: string;
-    value?: number;
-    apValue?: number;
-    mpValue?: number;
+    stat: StatKey | string;
+    value: number;
 };
 export type ItemStats = Partial<Stats>;
 

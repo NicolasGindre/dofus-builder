@@ -3222,10 +3222,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "lock": 8
     }
@@ -3242,10 +3252,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "lock": 16
     }
@@ -3262,10 +3282,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "lock": 32
     }
@@ -3282,10 +3312,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "dodge": 8
     }
@@ -3302,10 +3342,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "dodge": 16
     }
@@ -3322,10 +3372,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "dodge": 32
     }
@@ -3342,10 +3402,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "heal": 8
     }
@@ -3362,10 +3432,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "heal": 16
     }
@@ -3382,10 +3462,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "heal": 32
     }
@@ -3402,10 +3492,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "health": 80
     }
@@ -3422,10 +3522,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "health": 160
     }
@@ -3442,10 +3552,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "health": 320
     }
@@ -3462,10 +3582,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "strength": 25
     }
@@ -3482,10 +3612,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "strength": 50
     }
@@ -3502,10 +3642,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "strength": 100
     }
@@ -3522,10 +3672,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "intelligence": 25
     }
@@ -3542,10 +3702,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "intelligence": 50
     }
@@ -3562,10 +3732,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "intelligence": 100
     }
@@ -3582,10 +3762,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "agility": 25
     }
@@ -3602,10 +3792,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "agility": 50
     }
@@ -3622,10 +3822,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "agility": 100
     }
@@ -3642,10 +3852,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "chance": 25
     }
@@ -3662,10 +3882,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "chance": 50
     }
@@ -3682,10 +3912,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "chance": 100
     }
@@ -3702,10 +3942,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "criticalResist": 8
     }
@@ -3722,10 +3972,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "criticalResist": 16
     }
@@ -3742,10 +4002,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "criticalResist": 32
     }
@@ -3762,10 +4032,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthDamage": 5
     }
@@ -3782,10 +4062,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthDamage": 10
     }
@@ -3802,10 +4092,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthDamage": 20
     }
@@ -3822,10 +4122,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 5
     }
@@ -3842,10 +4152,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 10
     }
@@ -3862,10 +4182,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 20
     }
@@ -3882,10 +4212,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireDamage": 5
     }
@@ -3902,10 +4242,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireDamage": 10
     }
@@ -3922,10 +4272,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireDamage": 20
     }
@@ -3942,10 +4302,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterDamage": 5
     }
@@ -3962,10 +4332,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterDamage": 10
     }
@@ -3982,10 +4362,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterDamage": 20
     }
@@ -4002,10 +4392,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airDamage": 5
     }
@@ -4022,10 +4422,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airDamage": 10
     }
@@ -4042,10 +4452,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airDamage": 20
     }
@@ -4062,10 +4482,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpReduction": 6
     }
@@ -4082,10 +4512,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpReduction": 12
     }
@@ -4102,10 +4542,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpReduction": 24
     }
@@ -4122,10 +4572,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apReduction": 6
     }
@@ -4142,10 +4602,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apReduction": 12
     }
@@ -4162,10 +4632,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apReduction": 24
     }
@@ -4182,10 +4662,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apResist": 8
     }
@@ -4202,10 +4692,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apResist": 16
     }
@@ -4222,10 +4722,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "apResist": 32
     }
@@ -4242,10 +4752,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpResist": 8
     }
@@ -4262,10 +4782,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpResist": 16
     }
@@ -4282,10 +4812,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mpResist": 32
     }
@@ -4302,10 +4842,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackDamage": 16
     }
@@ -4322,10 +4872,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackDamage": 32
     }
@@ -4342,10 +4902,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackDamage": 64
     }
@@ -4362,10 +4932,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackResist": 24
     }
@@ -4382,10 +4962,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackResist": 48
     }
@@ -4402,10 +4992,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "pushbackResist": 96
     }
@@ -4422,10 +5022,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "initiative": 200
     }
@@ -4442,10 +5052,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "initiative": 400
     }
@@ -4462,10 +5082,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "initiative": 800
     }
@@ -4482,10 +5112,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthResistPer": 3
     }
@@ -4502,10 +5142,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthResistPer": 6
     }
@@ -4522,10 +5172,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "earthResistPer": 12
     }
@@ -4542,10 +5202,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralResistPer": 3
     }
@@ -4562,10 +5232,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralResistPer": 6
     }
@@ -4582,10 +5262,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralResistPer": 12
     }
@@ -4602,10 +5292,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireResistPer": 3
     }
@@ -4622,10 +5322,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireResistPer": 6
     }
@@ -4642,10 +5352,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "fireResistPer": 12
     }
@@ -4662,10 +5382,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterResistPer": 3
     }
@@ -4682,10 +5412,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterResistPer": 6
     }
@@ -4702,10 +5442,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "waterResistPer": 12
     }
@@ -4722,10 +5472,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airResistPer": 3
     }
@@ -4742,10 +5502,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airResistPer": 6
     }
@@ -4762,10 +5532,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "airResistPer": 12
     }
@@ -4782,10 +5562,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "power": 20
     }
@@ -4802,10 +5592,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "power": 40
     }
@@ -4822,10 +5622,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "power": 80
     }
@@ -4842,10 +5652,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "ap": 1
     }
@@ -4862,10 +5682,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "mp": 1
     }
@@ -4882,10 +5712,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "range": 2
     }
@@ -4902,10 +5742,20 @@
     },
     "level": 50,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 3,
       "earthDamage": 3,
@@ -4926,10 +5776,20 @@
     },
     "level": 100,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 6,
       "earthDamage": 6,
@@ -4950,10 +5810,20 @@
     },
     "level": 150,
     "category": "dofus",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "panopliesBonusLessThan",
       "value": 3
     },
+    "criterions": "Pk<3",
     "stats": {
       "neutralDamage": 12,
       "earthDamage": 12,

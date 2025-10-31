@@ -42,17 +42,17 @@ pub enum Requirement {
     ApLessThan { value: f64 },
     MpLessThan { value: f64 },
     ApLessThanOrMpLessThan {
-        #[serde(rename = "apValue")]
-        ap_value: f64,
-        #[serde(rename = "mpValue")]
-        mp_value: f64,
+        #[serde(rename = "value")]
+        value: f64,
+        #[serde(rename = "value2")]
+        value_2: f64,
     },
     // If you also have this variant, same deal:
     ApLessThanAndMpLessThan {
-        #[serde(rename = "apValue")]
-        ap_value: f64,
-        #[serde(rename = "mpValue")]
-        mp_value: f64,
+        #[serde(rename = "value")]
+        value: f64,
+        #[serde(rename = "value2")]
+        value_2: f64,
     },
 }
 
@@ -72,34 +72,34 @@ impl Requirement {
                 }
                 return true;
             }
-            Requirement::ApLessThanAndMpLessThan { ap_value, mp_value } => {
-                if stats.ap >= *ap_value {
-                    stats.ap = *ap_value - 1.0;
+            Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
+                if stats.ap >= *value {
+                    stats.ap = *value - 1.0;
                 }
-                if stats.mp >= *mp_value {
-                    stats.mp = *mp_value - 1.0;
+                if stats.mp >= *value_2 {
+                    stats.mp = *value_2 - 1.0;
                 }
                 return true;
             }
-            Requirement::ApLessThanOrMpLessThan { ap_value, mp_value } => {
+            Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
 
                 // if either one of the stat is already capped no need to do anything
-                if     stats.ap < *ap_value || stats.mp < *mp_value ||
-                   max_stats.ap < *ap_value || max_stats.mp < *mp_value  {
+                if     stats.ap < *value || stats.mp < *value_2 ||
+                   max_stats.ap < *value || max_stats.mp < *value_2  {
                     return true;
                 }
                 // try to choose the stat to cap from min_stats
-                if min_stats.ap >= *ap_value && min_stats.mp >= *mp_value {
+                if min_stats.ap >= *value && min_stats.mp >= *value_2 {
                     return false;
-                } else if min_stats.ap >= *ap_value {
-                    stats.mp = *mp_value - 1.0;
-                } else if min_stats.mp >= *mp_value {
-                    stats.ap = *ap_value - 1.0;
+                } else if min_stats.ap >= *value {
+                    stats.mp = *value_2 - 1.0;
+                } else if min_stats.mp >= *value_2 {
+                    stats.ap = *value - 1.0;
                 // try to choose the stat to cap from weights
                 } else if weights.ap > weights.mp {
-                    stats.mp = *mp_value - 1.0;
+                    stats.mp = *value_2 - 1.0;
                 } else {
-                    stats.ap = *ap_value - 1.0; // default to cap ap if equal weights
+                    stats.ap = *value - 1.0; // default to cap ap if equal weights
                 }
                 return true;
             }

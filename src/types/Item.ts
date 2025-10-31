@@ -1,4 +1,5 @@
-import type { Stats } from "./character";
+import type { MinRequirement } from "../../frontend/src/workers/orchestrator";
+import type { StatKey, Stats } from "./character";
 
 export const ITEM_CATEGORIES = [
     "amulet",
@@ -20,8 +21,9 @@ export type Item = {
     idShort: string;
     level: number;
     name: Name;
-    requirement?: Requirement;
-    // value : number | undefined
+    requirements?: Requirement[][]; // []and -> []or
+    minRequirement?: MinRequirement;
+    criterions?: string;
     panoply?: string;
     category: ItemCategory;
     stats: ItemStats;
@@ -35,9 +37,8 @@ export type Name = {
 };
 export type Requirement = {
     type: string;
-    value?: number;
-    apValue?: number;
-    mpValue?: number;
+    stat: StatKey | "panopliesBonus";
+    value: number;
 };
 export type ItemStats = Partial<Stats>;
 
@@ -51,3 +52,54 @@ export type Panoply = {
     stats: ItemStats[];
 };
 export type Panoplies = Record<string, Panoply>;
+
+export function convertItemRequirement(requirements: Requirement[][]): MinRequirement | undefined {
+    let apRequirement;
+    let mpRequirement;
+    for (const andRequirement of requirements ?? []) {
+        if (andRequirement[0] && andRequirement[0].stat == "panopliesBonus") {
+            return {
+                type: "panopliesBonusLessThan",
+                value: andRequirement[0].value,
+            };
+        } else {
+            let foundApOrMpCount = 0;
+            for (const orRequirement of andRequirement) {
+                if (orRequirement.stat == "ap" && orRequirement.type == "lessThan") {
+                    apRequirement = orRequirement.value;
+                    foundApOrMpCount++;
+                } else if (orRequirement.stat == "mp" && orRequirement.type == "lessThan") {
+                    mpRequirement = orRequirement.value;
+                    foundApOrMpCount++;
+                }
+            }
+            if (foundApOrMpCount >= 2 && apRequirement && mpRequirement) {
+                return {
+                    type: "apLessThanOrMpLessThan",
+                    value: apRequirement,
+                    value2: mpRequirement,
+                };
+            }
+        }
+    }
+    if (apRequirement && mpRequirement) {
+        return {
+            type: "apLessThanAndMpLessThan",
+            value: apRequirement,
+            value2: mpRequirement,
+        };
+    }
+    if (apRequirement) {
+        return {
+            type: "apLessThan",
+            value: apRequirement,
+        };
+    }
+    if (mpRequirement) {
+        return {
+            type: "mpLessThan",
+            value: mpRequirement,
+        };
+    }
+    return undefined;
+}

@@ -1,5 +1,7 @@
 import { get } from "svelte/store";
 import {
+    bestBuilds,
+    comparedBuild,
     itemsLocked,
     itemsSelected,
     maxStats,
@@ -20,7 +22,7 @@ import {
     CATEGORY_TO_SLOTS,
 } from "../types/build";
 import { concatStats, type StatKey, type Stats } from "../types/stats";
-import { getItem, getPanoply } from "./frontendDB";
+import { getItem, getItemFromShortId, getPanoply } from "./frontendDB";
 import {
     ITEM_CATEGORIES,
     type Item,
@@ -29,25 +31,128 @@ import {
     type Requirement,
 } from "../types/item";
 import { calculateStatsValue } from "./value";
+import { isItemBonusPanoCapped } from "./item";
+import type { MinRequirement } from "../workers/orchestrator";
+import { calculateBuildToDisplay } from "./display";
 
-export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
+function initBuild(name: string, buildId?: string, value?: number): Build {
+    return {
+        id: buildId ?? "",
+        name: name,
+        slots: getEmptySlots(),
+        panoplies: {},
+        noCharStats: {},
+        stats: {},
+        cappedStats: {},
+        requirements: [],
+        minRequirements: [],
+        value: value ?? 0,
+    };
+}
+function addItemToBuild(
+    build: Build,
+    item: Item,
+    slotCounter: Partial<Record<ItemCategory, number>>,
+): boolean {
+    const category = item.category;
+    if (slotCounter[category] == undefined) {
+        slotCounter[category] = 0;
+    }
+    const slot = CATEGORY_TO_SLOTS[category][slotCounter[category]];
+
+    if (!slot) {
+        console.error("Used all available slots for category", category);
+        return false;
+    }
+    build.slots[slot] = item;
+    slotCounter[category]++;
+    return true;
+}
+
+export function buildsFromIds(buildIds: Record<string, string>): Build[] {
+    let builds: Build[] = [];
+    console.log("buildsIds", buildIds);
+
+    for (const [buildId, name] of Object.entries(buildIds)) {
+        builds.push(buildFromId(buildId, name));
+    }
+    builds.sort((a, b) => b.value - a.value);
+    return builds;
+}
+export function buildFromId(buildId: string, name: string): Build {
+    const slotCounter: Partial<Record<ItemCategory, number>> = {};
+
+    let build: Build = initBuild(name, buildId);
+    for (let i = 0; i < buildId.length; i += 2) {
+        const itemShortId = buildId.slice(i, i + 2);
+        const item = getItemFromShortId(itemShortId);
+        if (!item) {
+            console.error("No matching item found from short Id", itemShortId);
+            continue;
+        }
+        if (!addItemToBuild(build, item, slotCounter)) {
+            continue;
+        }
+
+        if (item.panoply != undefined) {
+            build.panoplies[item.panoply] = 1 + (build.panoplies[item.panoply] ?? 0);
+        }
+
+        build.noCharStats = concatStats(build.noCharStats, item.statsWithBonus);
+
+        addBuildMinRequirement(build, item.minRequirement);
+        addBuildRequirement(build, item.requirements);
+    }
+    for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
+        build.noCharStats = concatStats(
+            build.noCharStats,
+            getPanoply(panoId).statsWithBonus[setNumber - 1]!,
+        );
+        // if (pano.requirement) {
+        //     build.requirements.push(pano.requirement);
+        // }
+    }
+    // build.noCharStats = build.stats;
+    build.stats = concatStats(build.noCharStats, get(preStats));
+
+    calculateBuildValue(build);
+
+    return build;
+}
+
+let timeout: number;
+export function refreshBuildsValue() {
+    clearTimeout(timeout);
+    timeout = window.setTimeout(() => {
+        bestBuilds.update(refreshBuildsValueNoThrottle);
+        savedBuilds.update(refreshBuildsValueNoThrottle);
+        calculateBuildToDisplay();
+    }, 150);
+}
+export function refreshBuildsValueNoThrottle(builds: Build[]): Build[] {
+    for (const build of builds) {
+        refreshBuildValue(build);
+    }
+    builds.sort((a, b) => b.value - a.value);
+    return builds;
+}
+export function refreshBuildValue(build: Build) {
+    build.stats = concatStats(build.noCharStats, get(preStats));
+
+    calculateBuildValue(build);
+
+    return build;
+}
+
+export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
     let bestBuilds: Build[] = [];
     console.log("rust response", bestBuildsResp);
 
     let buildIndex = 1;
     for (const buildResp of bestBuildsResp) {
-        const slotCounter: { ring: number; dofus: number } = { ring: 0, dofus: 0 };
+        const slotCounter: Partial<Record<ItemCategory, number>> = {};
+        let build: Build = initBuild(`#${buildIndex}`);
 
-        let build: Build = {
-            id: "",
-            name: `#${buildIndex}`,
-            slots: getEmptySlots(),
-            panoplies: {},
-            stats: {},
-            cappedStats: {},
-            requirements: [],
-            value: 0,
-        };
         let idBuilder: string[] = [];
         buildIndex++;
         for (const itemIdRaw of buildResp.ids) {
@@ -58,39 +163,30 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
                     continue;
                 }
                 idBuilder.push(item.idShort);
-                const category = item.category;
-
-                if (category === "ring") {
-                    slotCounter.ring++;
-                    const slot = `ring${slotCounter.ring}` as BuildSlot;
-                    build.slots[slot] = item;
-                } else if (category === "dofus") {
-                    slotCounter.dofus++;
-                    const slot = `dofus${slotCounter.dofus}` as BuildSlot;
-                    build.slots[slot] = item;
-                } else {
-                    build.slots[category as BuildSlot] = item;
+                if (!addItemToBuild(build, item, slotCounter)) {
+                    continue;
                 }
 
                 if (item.panoply != undefined) {
                     build.panoplies[item.panoply] = 1 + (build.panoplies[item.panoply] ?? 0);
                 }
 
-                build.stats = concatStats(build.stats, item.statsWithBonus);
+                build.noCharStats = concatStats(build.noCharStats, item.statsWithBonus);
 
-                addBuildRequirement(build, item.requirement);
+                addBuildMinRequirement(build, item.minRequirement);
+                addBuildRequirement(build, item.requirements);
             }
         }
         for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
-            build.stats = concatStats(
-                build.stats,
+            build.noCharStats = concatStats(
+                build.noCharStats,
                 getPanoply(panoId).statsWithBonus[setNumber - 1]!,
             );
             // if (pano.requirement) {
             //     build.requirements.push(pano.requirement);
             // }
         }
-        build.stats = concatStats(build.stats, get(preStats));
+        build.stats = concatStats(build.noCharStats, get(preStats));
 
         calculateBuildValue(build);
 
@@ -106,41 +202,47 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp) {
             );
         }
         build.id = idBuilder.sort().join("");
-        const savedBuild = getSavedBuild(build.id);
-        if (savedBuild) {
-            build.name = savedBuild.name;
-        }
+        // const savedBuild = getSavedBuild(build.id);
+        // if (savedBuild) {
+        //     build.name = savedBuild.name;
+        // }
         bestBuilds.push(build);
     }
+    updateBestBuildsNames(bestBuilds);
     console.log("bestBuilds : ", bestBuilds);
     return bestBuilds;
 }
 
-function addBuildRequirement(build: Build, requirement?: Requirement) {
+function addBuildRequirement(build: Build, requirements?: Requirement[][]) {
+    if (requirements) {
+        build.requirements.push(...requirements);
+    }
+}
+function addBuildMinRequirement(build: Build, requirement?: MinRequirement) {
     if (!requirement) {
         return;
     }
 
     let requirementExists = false;
-    for (const buildReq of build.requirements) {
+    for (const buildReq of build.minRequirements) {
         if (buildReq.type == requirement.type) {
             requirementExists = true;
             if (requirement.type.includes("LessThan")) {
-                if (requirement.apValue && requirement.apValue < buildReq.apValue!) {
-                    buildReq.apValue = requirement.apValue;
+                if (requirement.value && requirement.value < buildReq.value!) {
+                    buildReq.value = requirement.value;
                 }
-                if (requirement.mpValue && requirement.mpValue < buildReq.mpValue!) {
-                    buildReq.mpValue = requirement.mpValue;
+                if (requirement.value2 && requirement.value2 < buildReq.value2!) {
+                    buildReq.value2 = requirement.value2;
                 }
                 if (requirement.value && requirement.value < buildReq.value!) {
                     buildReq.value = requirement.value;
                 }
             } else {
-                if (requirement.apValue && requirement.apValue > buildReq.apValue!) {
-                    buildReq.apValue = requirement.apValue;
+                if (requirement.value && requirement.value > buildReq.value!) {
+                    buildReq.value = requirement.value;
                 }
-                if (requirement.mpValue && requirement.mpValue > buildReq.mpValue!) {
-                    buildReq.mpValue = requirement.mpValue;
+                if (requirement.value2 && requirement.value2 > buildReq.value2!) {
+                    buildReq.value2 = requirement.value2;
                 }
                 if (requirement.value && requirement.value > buildReq.value!) {
                     buildReq.value = requirement.value;
@@ -150,14 +252,28 @@ function addBuildRequirement(build: Build, requirement?: Requirement) {
         }
     }
     if (!requirementExists) {
-        build.requirements.push(requirement);
+        build.minRequirements.push(requirement);
     }
 }
 
 export function calculateBuildValue(build: Build) {
     capBuildStats(build);
-    build.value = calculateStatsValue(build.cappedStats);
+    if (isBuildMinStatsOk(build)) {
+        build.value = calculateStatsValue(build.cappedStats);
+    } else {
+        build.value = 0;
+    }
 }
+function isBuildMinStatsOk(build: Build): boolean {
+    for (const [key, minStat] of Object.entries(get(minStats))) {
+        const keyStat = key as StatKey;
+        if ((build.stats[keyStat] ?? 0) < minStat) {
+            return false;
+        }
+    }
+    return true;
+}
+
 function capBuildStats(build: Build) {
     build.cappedStats = { ...build.stats };
 
@@ -174,46 +290,46 @@ function capBuildStats(build: Build) {
             capStat(build.cappedStats, keyStat, maxStat);
         }
     }
-    for (const requirement of build.requirements) {
+    for (const requirement of build.minRequirements) {
         switch (requirement.type) {
             case "apLessThanOrMpLessThan":
                 if (
                     build.stats["mp"] &&
-                    build.stats["mp"] >= (requirement.mpValue ?? 9999) &&
+                    build.stats["mp"] >= (requirement.value2 ?? 9999) &&
                     build.stats["ap"] &&
-                    build.stats["ap"] >= (requirement.apValue ?? 9999)
+                    build.stats["ap"] >= (requirement.value ?? 9999)
                 ) {
                     const min = get(minStats);
-                    if ((min["ap"] ?? 0) >= requirement.apValue!) {
-                        capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
-                    } else if ((min["mp"] ?? 0) >= requirement.mpValue!) {
-                        capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                    if ((min["ap"] ?? 0) >= requirement.value!) {
+                        capStat(build.cappedStats, "mp", requirement.value2! - 1);
+                    } else if ((min["mp"] ?? 0) >= requirement.value2!) {
+                        capStat(build.cappedStats, "ap", requirement.value! - 1);
                     } else {
                         const w = get(weights);
                         if ((w["ap"] ?? 0) > (w["mp"] ?? 0)) {
-                            capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                            capStat(build.cappedStats, "mp", requirement.value2! - 1);
                         } else {
-                            capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                            capStat(build.cappedStats, "ap", requirement.value! - 1);
                         }
                     }
                 }
                 break;
             case "apLessThanAndMpLessThan":
-                if (build.stats["ap"] && build.stats["ap"] >= (requirement.apValue ?? 9999)) {
-                    capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
+                    capStat(build.cappedStats, "ap", requirement.value! - 1);
                 }
-                if (build.stats["mp"] && build.stats["mp"] >= (requirement.mpValue ?? 9999)) {
-                    capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                if (build.stats["mp"] && build.stats["mp"] >= (requirement.value2 ?? 9999)) {
+                    capStat(build.cappedStats, "mp", requirement.value2! - 1);
                 }
                 break;
             case "apLessThan":
                 if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
-                    capStat(build.cappedStats, "ap", requirement.apValue! - 1);
+                    capStat(build.cappedStats, "ap", requirement.value! - 1);
                 }
                 break;
             case "mpLessThan":
                 if (build.stats["mp"] && build.stats["mp"] >= (requirement.value ?? 9999)) {
-                    capStat(build.cappedStats, "mp", requirement.mpValue! - 1);
+                    capStat(build.cappedStats, "mp", requirement.value2! - 1);
                 }
                 break;
         }
@@ -225,16 +341,11 @@ export function diffBuild(build: Build, comparedBuild: Build | undefined) {
         build.diffBuild = undefined;
         return;
     }
-    const diffBuild: Build = {
-        id: comparedBuild.id,
-        name: comparedBuild.name,
-        slots: getEmptySlots(),
-        panoplies: {},
-        stats: {},
-        cappedStats: {},
-        requirements: [],
-        value: build.value - comparedBuild.value,
-    };
+    const diffBuild = initBuild(
+        comparedBuild.name,
+        comparedBuild.id,
+        build.value - comparedBuild.value,
+    );
 
     // items
     for (const category of ITEM_CATEGORIES) {
@@ -345,7 +456,6 @@ export function totalCombinations(
         // console.log("categoryCombinations", categoryCombinations);
         if (categoryCombinations >= 1) {
             if (category == "dofus") {
-                // TODO CHECK
                 if (shouldAddComboNoBonusPanoLessThan3(items, itemsLockedArr)) {
                     categoryCombinations += 1;
                 }
@@ -369,13 +479,13 @@ export function combinations(itemCount: number, groupSize: number): number {
 
 export function shouldAddComboNoBonusPanoLessThan3(items: Item[], itemsLocked: Item[]): boolean {
     for (const itemLocked of itemsLocked) {
-        if (itemLocked.requirement && itemLocked.requirement.type == "panopliesBonusLessThan") {
+        if (isItemBonusPanoCapped(itemLocked)) {
             return false;
         }
     }
     let itemCountWithPanoLessThan3Req = 0;
     for (const item of items) {
-        if (item.requirement && item.requirement.type == "panopliesBonusLessThan") {
+        if (isItemBonusPanoCapped(item)) {
             itemCountWithPanoLessThan3Req++;
         }
     }
@@ -398,6 +508,11 @@ export function addToSavedBuilds(build: Build) {
         if (savedBuild.id == build.id) {
             alreadyExists = true;
             savedBuild.name = build.name;
+
+            // const updated = [...savBuilds];
+            // updated[index] = { ...updated[index], name: build.name } as Build;
+            // savedBuilds.set(updated);
+            savedBuilds.update((builds) => [...builds, savedBuild]);
             break;
         }
     }
@@ -405,6 +520,9 @@ export function addToSavedBuilds(build: Build) {
         // savedBuilds.update((builds) => [...builds, build]);
         savedBuilds.update((builds) => [...builds, build].sort((a, b) => b.value - a.value));
     }
+}
+export function deleteSavedBuild(id: string) {
+    savedBuilds.update((builds) => builds.filter((b) => b.id !== id));
 }
 export function getSavedBuild(id: string): Build | undefined {
     for (const savedBuild of get(savedBuilds)) {
@@ -414,6 +532,37 @@ export function getSavedBuild(id: string): Build | undefined {
     }
     return undefined;
 }
+
+export function updateComparedBuildName(build: Build) {
+    comparedBuild.update((comparedB) => {
+        if (comparedB && comparedB.id == build.id) {
+            console.log("replacing name", build.name);
+            return { ...comparedB, name: build.name };
+        }
+        return comparedB;
+    });
+}
+export function updateBestBuildsNames(bestBuilds: Build[]) {
+    for (const savedBuild of get(savedBuilds)) {
+        updateComparedBuildName(savedBuild);
+        for (const bestBuild of bestBuilds) {
+            if (savedBuild.id == bestBuild.id) {
+                console.log("check name", savedBuild.name);
+                bestBuild.name = savedBuild.name;
+            }
+        }
+    }
+    // return undefined;
+    // for (const build of bestBuilds) {
+    //     const savedBuild = getSavedBuild(build.id);
+    //     if (savedBuild) {
+    //         console.log("check name", savedBuild.name);
+    //         build.name = savedBuild.name;
+    //         updateComparedBuildName(build);
+    //     }
+    // }
+}
+
 // export function addToSavedBuilds(build: Build) {
 //     const savBuilds = get(savedBuilds);
 //     const index = savBuilds.findIndex((b) => b.id === build.id);

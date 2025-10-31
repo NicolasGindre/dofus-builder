@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
     import StatWeights from "./components/StatWeights.svelte";
-    import { initFrontendDB } from "./logic/frontendDB";
+    import { checkHashIsSavedSearch, initFrontendDB, loadItemsAndPanos } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
     import LanguageSelect from "./components/LanguageSelect.svelte";
     import { decodeFromUrl } from "./logic/encoding/urlEncode";
@@ -14,8 +14,10 @@
 
     onMount(async () => {
         try {
-            await initFrontendDB();
+            await loadItemsAndPanos();
             decodeFromUrl();
+            initFrontendDB();
+            checkHashIsSavedSearch();
 
             window.addEventListener("popstate", handler);
         } catch (err) {
@@ -24,7 +26,7 @@
     });
     const handler = () => {
         console.log("back/forward pressed");
-        itemsSelected.set(getEmptyCategoriesItems());
+        // itemsSelected.set(getEmptyCategoriesItems());
         decodeFromUrl();
     };
     onDestroy(() => {

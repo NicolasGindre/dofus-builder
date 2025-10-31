@@ -54,8 +54,8 @@
         console.log("hashUrl", $urlHash);
         console.log($savedSearches);
 
-        saveHistoryEntry();
         inputSearchName = "";
+        saveHistoryEntry();
     }
     function loadSearch() {
         console.log("hashUrl", $urlHash);
@@ -65,6 +65,7 @@
         // encodeToUrl();
         savedSearch.set(inputSearchName);
         inputSearchName = "";
+        saveHistoryEntry();
     }
     function deleteSearch() {
         if ($savedSearch == inputSearchName) {
@@ -104,6 +105,9 @@
                     bind:this={inputEl}
                     on:dblclick={() => (showSavedSearches = !showSavedSearches)}
                     on:input={() => (showSavedSearches = false)}
+                    on:keydown={(e) => {
+                        if (e.key === "Escape") showSavedSearches = false;
+                    }}
                     placeholder={$words.SavedSearchName}
                     class="search-input"
                 />

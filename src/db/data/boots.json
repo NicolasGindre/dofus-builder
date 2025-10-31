@@ -546,6 +546,16 @@
     },
     "level": 39,
     "category": "boots",
+    "requirements": [
+      [
+        {
+          "stat": "chance",
+          "type": "moreThan",
+          "value": 50
+        }
+      ]
+    ],
+    "criterions": "CC>50",
     "stats": {
       "health": 20,
       "intelligence": -40,
@@ -3003,6 +3013,7 @@
     "level": 41,
     "panoply": "674e523f64788cc74141821a",
     "category": "boots",
+    "criterions": "PO!10119",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -5048,11 +5059,26 @@
     "level": 196,
     "panoply": "674e523f64788cc7414183ee",
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 300,
       "intelligence": 40,
@@ -5080,11 +5106,26 @@
     },
     "level": 196,
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 300,
       "strength": 60,
@@ -6248,11 +6289,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e2",
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -6283,11 +6339,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e1",
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -7784,11 +7855,26 @@
     },
     "level": 200,
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -8403,13 +8489,28 @@
       "de": "Merianas Hellsicht",
       "es": "Clarividencia de Mériana"
     },
-    "level": 197,
+    "level": 200,
     "category": "boots",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 200,
       "wisdom": 60,

@@ -19,7 +19,9 @@
         addToSavedBuilds,
         buildsFromWasm,
         calculateBuildValue,
+        deleteSavedBuild,
         diffBuild,
+        getSavedBuild,
     } from "../logic/build";
     import { ITEM_CATEGORIES } from "../types/item";
     import { get } from "svelte/store";
@@ -136,28 +138,25 @@
         savingBuildIndex = null;
     }
 
-    function saveBuild(i: number) {
+    function saveBuild(build: Build) {
         if (tempBuildName != "") {
-            $buildsDisplayed[i].name = tempBuildName;
-            buildsDisplayed.set([...$buildsDisplayed]);
-            addToSavedBuilds($buildsDisplayed[i]);
-            comparedBuild.update((comparedB) => {
-                if (comparedB && comparedB.id == $buildsDisplayed[i].id) {
-                    return { ...comparedB, name: tempBuildName };
-                }
-            });
+            build.name = tempBuildName;
+            // buildsDisplayed.set([...$buildsDisplayed]);
+            addToSavedBuilds(build);
             // if ($comparedBuild.id == $buildsDisplayed[i].id) {
             //     comparedBuild.update({})
             // }
         }
         savingBuildIndex = null;
     }
+    // function deleteSavedBuild(buildId: string) {}
 
-    $: currPage = $showSavedBuilds ? $savedBuildsPage : $bestBuildsPage;
     $: total = Math.max(
         Math.ceil(($showSavedBuilds ? $savedBuilds.length : $bestBuilds.length) / $buildShownCount),
         1,
     );
+    $: currPage = $showSavedBuilds ? $savedBuildsPage : $bestBuildsPage;
+
     function prev() {
         const pageW = $showSavedBuilds ? savedBuildsPage : bestBuildsPage;
         pageW.set(Math.max(1, currPage - 1));
@@ -254,7 +253,11 @@
                 <div class="build-info">
                     <div class="build-name">
                         {#if index != savingBuildIndex}
-                            <h2>{build.name}</h2>
+                            <!-- svelte-ignore a11y_click_events_have_key_events -->
+                            <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+                            <h2 on:click={() => startSavingBuild(index, build.name)}>
+                                {build.name}
+                            </h2>
                         {:else}
                             <div
                                 class="edit-name"
@@ -269,11 +272,11 @@
                                     bind:this={inputEl}
                                     bind:value={tempBuildName}
                                     on:keydown={(e) => {
-                                        if (e.key === "Enter") saveBuild(index);
+                                        if (e.key === "Enter") saveBuild(build);
                                         if (e.key === "Escape") cancelSaveBuild();
                                     }}
                                 />
-                                <button aria-label="Save" on:click={() => saveBuild(index)}>
+                                <button aria-label="Save" on:click={() => saveBuild(build)}>
                                     <svg viewBox="0 0 24 24" width="34" height="34">
                                         <path
                                             fill="currentColor"
@@ -288,11 +291,19 @@
                         <button class="button-compare" on:click={() => compareBuild(build)}
                             >{$words.compare}</button
                         >
-                        <button
-                            class="button-save"
-                            on:click={() => startSavingBuild(index, build.name)}
-                            disabled={index == savingBuildIndex}>{$words.save}</button
-                        >
+                        {#if getSavedBuild(build.id)}
+                            <button
+                                class="button-save delete"
+                                on:click={() => deleteSavedBuild(build.id)}
+                                disabled={index == savingBuildIndex}>{$words.delete}</button
+                            >
+                        {:else}
+                            <button
+                                class="button-save"
+                                on:click={() => startSavingBuild(index, build.name)}
+                                disabled={index == savingBuildIndex}>{$words.save}</button
+                            >
+                        {/if}
                         <h3>
                             {$words.value}
                             {build.value?.toFixed(0)}
@@ -423,8 +434,16 @@
                         overStats={build.stats}
                     />
                     <div class="requirememnts">
-                        {#each build.requirements as requirement}
-                            <strong>{translateRequirement(requirement)}</strong>
+                        {#each build.requirements as andRequirement}
+                            <div>
+                                {#each andRequirement as orRequirement, i}
+                                    <strong>{translateRequirement(orRequirement)}</strong>
+                                    {#if i < andRequirement.length - 1}
+                                        {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                    {/if}
+                                {/each}
+                                <br />
+                            </div>
                         {/each}
                     </div>
                 </div>

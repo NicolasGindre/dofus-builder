@@ -22,6 +22,7 @@ import {
 } from "../stores/builder";
 import { ITEM_CATEGORIES, type Item, type ItemCategory, type Panoply } from "../types/item";
 import type { Build } from "../types/build";
+import { isItemBonusPanoCapped } from "./item";
 
 export function calculateAllItemsToDisplay() {
     for (const category of ITEM_CATEGORIES) {
@@ -43,7 +44,7 @@ export function calculateItemsToDisplay(category: ItemCategory) {
         if (item.level > get(level)) {
             continue;
         }
-        if (!get(showBonusPanoCappedItems) && item.requirement?.type == "panopliesBonusLessThan") {
+        if (!get(showBonusPanoCappedItems) && isItemBonusPanoCapped(item)) {
             continue;
         }
         itemsToDisplay.push(item);

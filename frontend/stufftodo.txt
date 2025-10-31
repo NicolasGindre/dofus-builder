@@ -1,31 +1,29 @@
 Important :
 
-Set up server hosting : Vercel -> Hetzner
+- Set up server hosting : Vercel -> Hetzner
 
-Add stat icons
+- Add instructions: tooltips + tutorial (text and video ?)
 
-Add instructions: tooltips + tutorial (text and video ?)
+- Merge build requirements
 
-Medium :
+- import/export build from/to dofusDB / and the other one
 
-save / load / name search + example searches ?
-Website title replaced by saved search name
+- meta tags
 
-save build -> change view saved builds / search results
-remove compared build
-import/export build from/to dofusDB / and the other one
+- Add a way to scroll to the category item from pano (and reverse) 
+- Scrolling on best items also scrolls on matching selected items category (?)
 
-Add missing stat requirements
-show build requirements ?
+- Only download every Wednesday/Tuesday from 4 am
+- Refresh dofusDB database items every Wednesday/Tuesday from 4 am -> check minId is correct
 
-Recalculate compared build value on calculate combinations
+Do later :
 
-Minor :
+- example saved searches + edit saved search
 
-Add a way to scroll to the category item from pano (and reverse) 
-Scrolling on best items also scrolls on matching selected items category (?)
+- Associate build to array of saved searches
 
-Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)
+- Highlight stat in red if min stat is more than actual stat
 
-Save items / panos in local storage. Only download every Wednesday/Tuesday from 4 am
-Refresh dofusDB database items every Wednesday/Tuesday from 4 am -> check minId is correct
+- ? Add stat icons
+
+- ? Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)

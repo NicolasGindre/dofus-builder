@@ -1,4 +1,4 @@
-import { derived, writable, type Readable } from "svelte/store";
+import { derived, get, writable, type Readable } from "svelte/store";
 import type { StatKey, Stats } from "../types/stats";
 import {
     getEmptyCategoriesItems,
@@ -9,11 +9,11 @@ import {
     type Panoply,
 } from "../types/item";
 import { getLeveledStats, type Build } from "../types/build";
-import { getPanoply } from "../logic/frontendDB";
+import { getPanoply, saveBuildsStorage, saveSearchStorage } from "../logic/frontendDB";
 import {
     calculateAllItemsToDisplay,
+    calculateBuildToDisplay,
     calculateItemsToDisplay,
-    calculatePanopliesToDisplay,
 } from "../logic/display";
 import type { CountryCode, Translations } from "../types/language";
 
@@ -31,7 +31,7 @@ import {
     WEIGHT_ENCODING,
 } from "../logic/encoding/valueEncoding";
 import { encodeToUrl } from "../logic/encoding/urlEncode";
-import { totalCombinations } from "../logic/build";
+import { refreshBuildsValue, totalCombinations, updateBestBuildsNames } from "../logic/build";
 
 // export const appReady = writable<boolean>(false);
 
@@ -39,8 +39,14 @@ const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
 
 export const urlHash = writable<string>("");
-export const savedSearch = writable<string>(undefined);
+export const savedSearch = writable<string | undefined>(undefined);
+savedSearch.subscribe((savedSearch) => {
+    document.title = savedSearch ? `${savedSearch} - Dofus MinMax` : "Dofus MinMax";
+});
 export const savedSearches = writable<Record<string, string>>({});
+savedSearches.subscribe((savedSearches) => {
+    saveSearchStorage(savedSearches);
+});
 
 // export const distanceFromBestRatio = writable<number>(3);
 export const panoplyDisplaySize = writable<number>(20);
@@ -66,6 +72,7 @@ export const weightsIndex = writable<Partial<Stats>>({});
 
 export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
     encodeToUrl();
+    refreshBuildsValue();
     return Object.fromEntries(
         Object.entries($weightsIndex).map(([statKey, weightIndex]) => [
             statKey,
@@ -81,6 +88,7 @@ weightsIndex.subscribe(() => {
 export const minStatsIndex = writable<Partial<Stats>>({});
 export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minStatsIndex) => {
     encodeToUrl();
+    refreshBuildsValue();
     return Object.fromEntries(
         Object.entries($minStatsIndex).map(([statKey, minStatsIndex]) => [
             statKey,
@@ -92,6 +100,7 @@ export const minStats: Readable<Partial<Stats>> = derived(minStatsIndex, ($minSt
 export const maxStatsIndex = writable<Partial<Stats>>({ ...defaultMaxIndex });
 export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxStatsIndex) => {
     encodeToUrl();
+    refreshBuildsValue();
     return Object.fromEntries(
         Object.entries($maxStatsIndex).map(([statKey, maxStatsIndex]) => [
             statKey,
@@ -110,6 +119,7 @@ export const preStats = derived(
     [level, exoAp, exoMp, exoRange, exoSummon],
     ([$level, $exoAp, $exoMp, $exoRange, $exoSummon]) => {
         encodeToUrl();
+        refreshBuildsValue();
         let preStats = getLeveledStats($level);
         if ($exoAp) {
             preStats.ap!++;
@@ -156,11 +166,18 @@ export const bestBuildsPage = writable<number>(1);
 // })
 export const savedBuildsPage = writable<number>(1);
 
+export const showSavedBuilds = writable<boolean>(false);
 export const savedBuilds = writable<Build[]>([]);
+savedBuilds.subscribe((savedBuilds) => {
+    console.log("Update the view", savedBuilds);
+    saveBuildsStorage(savedBuilds);
+    // if (get(showSavedBuilds)) {
+    updateBestBuildsNames(get(bestBuilds));
+    calculateBuildToDisplay();
+    // }
+});
 
 export const comparedBuild = writable<Build>(undefined);
-
-export const showSavedBuilds = writable<boolean>(false);
 
 export const totalPossibilities: Readable<number> = derived(
     [itemsSelected, itemsLocked],

@@ -6,12 +6,13 @@ import type { BestBuildsResp } from "../types/build";
 import { sumStats, sumStatsWithBonus } from "../types/item";
 import type { CategoryItems, Item, Requirement, Panoply } from "../types/item";
 import type { Stats } from "../types/stats";
+import type { MinRequirement } from "./orchestrator";
 
 type MinItem = {
     id: string;
     stats: Partial<Stats>;
     panoplies: string[];
-    requirement?: Requirement;
+    requirement?: MinRequirement;
 };
 
 let initialized = false;

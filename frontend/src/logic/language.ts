@@ -3,17 +3,33 @@ import type { Requirement } from "../types/item";
 import { words } from "../stores/builder";
 
 export function translateRequirement(requirement: Requirement): string {
-    switch (requirement.type) {
-        case "panopliesBonusLessThan":
-            return `${get(words).panopliesBonus} < ${requirement.value}`;
-        case "apLessThanOrMpLessThan":
-            return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).or} ${get(words).stats.mp} < ${requirement.mpValue} `;
-        case "apLessThanAndMpLessThan":
-            return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).and} ${get(words).stats.mp} < ${requirement.mpValue} `;
-        case "apLessThan":
-            return `${get(words).stats.ap} < ${requirement.value}`;
-        case "mpLessThan":
-            return `${get(words).stats.mp} < ${requirement.value}`;
+    // switch (requirement.type) {
+    //     case "panopliesBonusLessThan":
+    //         return `${get(words).panopliesBonus} < ${requirement.value}`;
+    //     case "apLessThanOrMpLessThan":
+    //         return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).or} ${get(words).stats.mp} < ${requirement.mpValue} `;
+    //     case "apLessThanAndMpLessThan":
+    //         return `${get(words).stats.ap} < ${requirement.apValue} ${get(words).and} ${get(words).stats.mp} < ${requirement.mpValue} `;
+    //     case "apLessThan":
+    //         return `${get(words).stats.ap} < ${requirement.value}`;
+    //     case "mpLessThan":
+    //         return `${get(words).stats.mp} < ${requirement.value}`;
+    // }
+    const dict = get(words);
+    let translation;
+    if (dict.stats[requirement.stat]) {
+        translation = dict.stats[requirement.stat];
+    } else {
+        translation = dict[requirement.stat];
     }
-    return requirement.type;
+
+    if (requirement.type == "lessThan") {
+        translation += " < ";
+    } else if (requirement.type == "moreThan") {
+        translation += " > ";
+    }
+
+    translation += requirement.value;
+
+    return translation;
 }

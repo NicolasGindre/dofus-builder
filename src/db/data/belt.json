@@ -169,10 +169,20 @@
     "level": 50,
     "panoply": "6807d9a601b972ee0ea59ce8",
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 10
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 10
     },
+    "criterions": "CP<10",
     "stats": {
       "health": 30,
       "wisdom": 30,
@@ -336,6 +346,23 @@
     },
     "level": 28,
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "lessThan",
+          "value": 40
+        }
+      ],
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 80
+        }
+      ]
+    ],
+    "criterions": "CS<40&CI>80",
     "stats": {
       "health": 30,
       "strength": -40,
@@ -357,6 +384,17 @@
     },
     "level": 37,
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "wisdom",
+          "type": "moreThan",
+          "value": 49
+        }
+      ],
+      []
+    ],
+    "criterions": "CW>49&Ps=1",
     "stats": {
       "health": 50,
       "wisdom": 25,
@@ -377,6 +415,17 @@
     },
     "level": 36,
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "wisdom",
+          "type": "moreThan",
+          "value": 49
+        }
+      ],
+      []
+    ],
+    "criterions": "CW>49&Ps=2",
     "stats": {
       "health": 60,
       "wisdom": 25,
@@ -398,10 +447,20 @@
     "level": 80,
     "panoply": "6807d9a601b972ee0ea59ce9",
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 12
     },
+    "criterions": "CP<12",
     "stats": {
       "health": 40,
       "wisdom": 40,
@@ -421,6 +480,16 @@
     },
     "level": 41,
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "agility",
+          "type": "moreThan",
+          "value": 50
+        }
+      ]
+    ],
+    "criterions": "CA>50",
     "stats": {
       "strength": 25,
       "agility": 25,
@@ -1020,6 +1089,7 @@
     },
     "level": 53,
     "category": "belt",
+    "criterions": "Ps=1",
     "stats": {
       "intelligence": 30,
       "initiative": 150,
@@ -1041,6 +1111,7 @@
     },
     "level": 53,
     "category": "belt",
+    "criterions": "Ps=2",
     "stats": {
       "strength": 40,
       "earthDamage": 3,
@@ -1511,6 +1582,16 @@
     },
     "level": 86,
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 90
+        }
+      ]
+    ],
+    "criterions": "CS>90",
     "stats": {
       "health": 80,
       "agility": 60,
@@ -3146,6 +3227,7 @@
     "level": 42,
     "panoply": "674e523f64788cc74141821a",
     "category": "belt",
+    "criterions": "PO!10119",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -5193,11 +5275,26 @@
     },
     "level": 200,
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -6014,11 +6111,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e2",
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -6699,11 +6811,26 @@
     },
     "level": 200,
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -6729,11 +6856,26 @@
     },
     "level": 200,
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "agility": 80,
@@ -7172,11 +7314,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e5",
     "category": "belt",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -7852,6 +8009,16 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183dc",
     "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 666
+        }
+      ]
+    ],
+    "criterions": "CI>666",
     "stats": {
       "health": 400,
       "intelligence": 66,

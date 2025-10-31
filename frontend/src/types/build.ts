@@ -1,4 +1,5 @@
 // import { panoplies } from "../db/itemDB";
+import type { MinRequirement } from "../workers/orchestrator";
 import type { Item, ItemCategory, Requirement } from "./item";
 import type { StatKey, Stats } from "./stats";
 
@@ -31,9 +32,11 @@ export type Build = {
     slots: Slots;
     panoplies: Record<string, number>;
     stats: Partial<Stats>;
+    noCharStats: Partial<Stats>;
     cappedStats: Partial<Stats>;
     value: number;
-    requirements: Requirement[];
+    requirements: Requirement[][];
+    minRequirements: MinRequirement[];
     diffBuild?: Build;
 };
 export type Slots = Record<BuildSlot, Item | undefined>;

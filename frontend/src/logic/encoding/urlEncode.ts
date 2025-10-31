@@ -21,7 +21,7 @@ export function encodeToUrl() {
         clearTimeout(timeout);
         timeout = window.setTimeout(() => {
             encodeToUrlNoThrottle();
-        }, 350);
+        }, 150);
     }
 }
 

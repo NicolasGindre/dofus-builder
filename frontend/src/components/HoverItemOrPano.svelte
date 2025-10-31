@@ -90,9 +90,20 @@
             style="top:{coords.top}px; left:{coords.left}px;"
         >
             {#if item}
-                {#if item.requirement}
+                {#each item.requirements as andRequirement}
+                    <div>
+                        {#each andRequirement as orRequirement, i}
+                            <strong>{translateRequirement(orRequirement)}</strong>
+                            {#if i < andRequirement.length - 1}
+                                {" "}<strong><em>{$words.or}</em></strong>{" "}
+                            {/if}
+                        {/each}
+                        <br />
+                    </div>
+                {/each}
+                <!-- {#if item.requirement}
                     <strong>{translateRequirement(item.requirement)}</strong>
-                {/if}
+                {/if} -->
                 <ShowStats stats={item.stats} />
             {/if}
             {#if panoply && !panoplyItemCount}

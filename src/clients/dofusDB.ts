@@ -5,6 +5,7 @@ import {
     type ItemCategory,
     type Panoplies,
     type Requirement,
+    convertItemRequirement,
 } from "../types/item";
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
@@ -113,7 +114,8 @@ export function translateItem(
     category: ItemCategory,
     shortId: string,
 ): Item {
-    const requirement = translateCriterions(dofusDbItem.criterions);
+    const requirements = translateCriterions(dofusDbItem.criterions);
+    const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
         id: dofusDbItem._id,
         idShort: shortId,
@@ -128,7 +130,9 @@ export function translateItem(
         // panoply: dofusDbItem.itemSet?.name.fr,
         ...(dofusDbItem.itemSet ? { panoply: dofusDbItem.itemSet._id } : {}),
         category: category,
-        ...(requirement ? { requirement: requirement } : {}),
+        ...(requirements[0] && requirements[0].length > 0 ? { requirements: requirements } : {}),
+        ...(minRequirement ? { minRequirement: minRequirement } : {}),
+        ...(dofusDbItem.criterions ? { criterions: dofusDbItem.criterions } : {}),
         stats: {},
     };
     for (const dofusDbStat of dofusDbItem.effects) {
@@ -149,61 +153,53 @@ function translateStat(dofusDbStat: StatResp): number {
     }
     return dofusDbStat.to > dofusDbStat.from ? dofusDbStat.to : dofusDbStat.from;
 }
-function translateCriterions(criterions: string | undefined): Requirement | undefined {
-    // let requirement: Requirement = {}
+
+const validCriterions: Record<string, StatKey | "panopliesBonus"> = {
+    Pk: "panopliesBonus",
+    CP: "ap",
+    CM: "mp",
+    CS: "strength",
+    CC: "chance",
+    CI: "intelligence",
+    CA: "agility",
+    CW: "wisdom",
+    CV: "health",
+};
+
+function translateCriterions(criterions: string | undefined): Requirement[][] {
     if (criterions === undefined) {
-        return undefined;
+        return [];
     }
-    if (criterions == "Pk<3") {
-        const requirement: Requirement = {
-            type: "panopliesBonusLessThan",
-            value: 3,
-        };
-        return requirement;
-    } else if (criterions.includes("CP<12|CM<6")) {
-        const requirement: Requirement = {
-            type: "apLessThanOrMpLessThan",
-            apValue: 12,
-            mpValue: 6,
-        };
-        return requirement;
-    } else if (criterions.includes("CP<12&CM<6")) {
-        const requirement: Requirement = {
-            type: "apLessThanAndMpLessThan",
-            apValue: 12,
-            mpValue: 6,
-        };
-        return requirement;
-    } else {
-        const matchApLessThan = criterions.match(/CP<(\d+)/);
-        if (matchApLessThan && matchApLessThan[1] !== undefined) {
-            const requirement: Requirement = {
-                type: "apLessThan",
-                value: parseInt(matchApLessThan[1], 10),
-            };
-            return requirement;
+    let andRequirements: Requirement[][] = [];
+    const andCriterions = criterions.replace(/[()]/g, "").split("&");
+
+    for (const andCrit of andCriterions) {
+        const orCriterions = andCrit.split("|");
+        let orRequirements: Requirement[] = [];
+        for (const orCrit of orCriterions) {
+            const lessThanSplit = orCrit.split("<");
+            if (lessThanSplit[0] && lessThanSplit[1] && validCriterions[lessThanSplit[0]]) {
+                orRequirements.push({
+                    stat: validCriterions[lessThanSplit[0]]!,
+                    type: "lessThan",
+                    value: parseInt(lessThanSplit[1]),
+                });
+                continue;
+            }
+            const moreThanSplit = orCrit.split(">");
+            if (moreThanSplit[0] && moreThanSplit[1] && validCriterions[moreThanSplit[0]]) {
+                orRequirements.push({
+                    stat: validCriterions[moreThanSplit[0]]!,
+                    type: "moreThan",
+                    value: parseInt(moreThanSplit[1]),
+                });
+            }
         }
-        const matchMpLessThan = criterions.match(/CM<(\d+)/);
-        if (matchMpLessThan && matchMpLessThan[1] !== undefined) {
-            const requirement: Requirement = {
-                type: "mpLessThan",
-                value: parseInt(matchMpLessThan[1], 10),
-            };
-            return requirement;
+        if (orRequirements.length > 0) {
+            andRequirements.push(orRequirements);
         }
     }
-    return undefined;
-    // const validCriterions: Record<string, string> = {
-    //     Pk: "panoplyBonus",
-    //     CP: "ap",
-    //     CM: "mp",
-    //     // CS: "strength",
-    //     // CC: "chance",
-    //     // CI: "intelligence",
-    //     // CA: "agility",
-    //     // CW: "wisdom",
-    //     // CV: "health",
-    // };
+    return andRequirements;
 }
 
 const PanoplyRespSchema = z.object({

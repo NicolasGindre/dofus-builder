@@ -64,6 +64,7 @@
     },
     "level": 30,
     "category": "cloak",
+    "criterions": "Ps=1&Pa>20",
     "stats": {
       "health": 40,
       "power": 30,
@@ -190,10 +191,20 @@
     },
     "level": 44,
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 9
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 9
     },
+    "criterions": "CP<9",
     "stats": {
       "chance": 15,
       "mp": 1,
@@ -212,6 +223,7 @@
     },
     "level": 6,
     "category": "cloak",
+    "criterions": "Ps=2&Pa>30",
     "stats": {
       "intelligence": 10,
       "chance": -10
@@ -496,10 +508,20 @@
     "level": 55,
     "panoply": "6807d9a601b972ee0ea59ce8",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 10
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 10
     },
+    "criterions": "CP<10",
     "stats": {
       "health": 25,
       "wisdom": 15,
@@ -633,6 +655,7 @@
     },
     "level": 6,
     "category": "cloak",
+    "criterions": "PJ>2,40|PJ>24,40|PJ>36,40|PJ>28,40|PJ>26,40|PJ>41,40",
     "stats": {
       "pods": 250
     }
@@ -665,6 +688,7 @@
     },
     "level": 15,
     "category": "cloak",
+    "criterions": "PJ>2,80|PJ>24,80|PJ>36,80|PJ>28,80|PJ>26,80|PJ>41,80",
     "stats": {
       "pods": 400
     }
@@ -681,6 +705,7 @@
     },
     "level": 20,
     "category": "cloak",
+    "criterions": "PJ>2,120|PJ>24,120|PJ>36,120|PJ>28,120|PJ>26,120|PJ>41,120",
     "stats": {
       "pods": 800
     }
@@ -697,6 +722,7 @@
     },
     "level": 20,
     "category": "cloak",
+    "criterions": "PJ>2,180|PJ>24,180|PJ>36,180|PJ>28,180|PJ>26,180|PJ>41,180",
     "stats": {
       "pods": 1500
     }
@@ -803,6 +829,16 @@
     },
     "level": 61,
     "category": "cloak",
+    "requirements": [
+      [
+        {
+          "stat": "intelligence",
+          "type": "moreThan",
+          "value": 90
+        }
+      ]
+    ],
+    "criterions": "CI>90",
     "stats": {
       "health": 90,
       "power": 25,
@@ -841,6 +877,16 @@
     },
     "level": 49,
     "category": "cloak",
+    "requirements": [
+      [
+        {
+          "stat": "strength",
+          "type": "moreThan",
+          "value": 90
+        }
+      ]
+    ],
+    "criterions": "CS>90",
     "stats": {
       "health": 40,
       "intelligence": 25,
@@ -900,6 +946,23 @@
     },
     "level": 63,
     "category": "cloak",
+    "requirements": [
+      [
+        {
+          "stat": "wisdom",
+          "type": "moreThan",
+          "value": 30
+        }
+      ],
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 50
+        }
+      ]
+    ],
+    "criterions": "CW>30&CV>50",
     "stats": {
       "health": 50,
       "wisdom": 20,
@@ -1864,10 +1927,20 @@
     "level": 50,
     "panoply": "674e523f64788cc7414180fc",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 10
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThan",
       "value": 10
     },
+    "criterions": "CP<10",
     "stats": {
       "mp": 1
     }
@@ -2811,11 +2884,26 @@
     "level": 110,
     "panoply": "6807d9a601b972ee0ea59ce9",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 40,
       "wisdom": 40,
@@ -2977,6 +3065,7 @@
     "level": 41,
     "panoply": "674e523f64788cc74141821a",
     "category": "cloak",
+    "criterions": "PO!10119",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -3032,6 +3121,7 @@
     },
     "level": 28,
     "category": "cloak",
+    "criterions": "Sc=14",
     "stats": {
       "health": 60,
       "power": 15,
@@ -3050,6 +3140,7 @@
     },
     "level": 61,
     "category": "cloak",
+    "criterions": "Sc=19",
     "stats": {
       "health": 50,
       "power": 30,
@@ -3070,6 +3161,7 @@
     },
     "level": 20,
     "category": "cloak",
+    "criterions": "Sc=23",
     "stats": {
       "pods": 300
     }
@@ -3514,11 +3606,26 @@
     "level": 194,
     "panoply": "674e523f64788cc74141816c",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 200,
       "strength": 30,
@@ -4033,11 +4140,26 @@
     "level": 196,
     "panoply": "674e523f64788cc7414183ee",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 250,
       "chance": 45,
@@ -4418,11 +4540,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183d7",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -5369,11 +5506,26 @@
     },
     "level": 200,
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -6001,11 +6153,26 @@
     "level": 200,
     "panoply": "674e523f64788cc7414183e3",
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -6528,11 +6695,26 @@
     },
     "level": 200,
     "category": "cloak",
-    "requirement": {
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
       "type": "apLessThanOrMpLessThan",
-      "apValue": 12,
-      "mpValue": 6
+      "value": 12,
+      "value2": 6
     },
+    "criterions": "CP<12|CM<6",
     "stats": {
       "health": 400,
       "agility": 70,

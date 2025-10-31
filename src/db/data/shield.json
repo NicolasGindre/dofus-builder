@@ -712,6 +712,7 @@
     },
     "level": 50,
     "category": "shield",
+    "criterions": "PK>49999",
     "stats": {
       "health": 50,
       "prospecting": 10,
@@ -1533,6 +1534,7 @@
     },
     "level": 130,
     "category": "shield",
+    "criterions": "Qf=2183",
     "stats": {
       "lock": -10,
       "dodge": -10
@@ -2119,6 +2121,16 @@
     "level": 200,
     "panoply": "687f71541c815173560616c2",
     "category": "shield",
+    "requirements": [
+      [
+        {
+          "stat": "health",
+          "type": "moreThan",
+          "value": 3949
+        }
+      ]
+    ],
+    "criterions": "CV>3949",
     "stats": {
       "health": 250,
       "wisdom": 50,
