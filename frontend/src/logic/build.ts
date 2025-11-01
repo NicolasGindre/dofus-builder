@@ -313,7 +313,7 @@ function capBuildStats(build: Build) {
     build.cappedStats = { ...build.stats };
 
     function capStat(cappedStats: Partial<Stats>, statKey: StatKey, value: number) {
-        if (!cappedStats[statKey] || cappedStats[statKey] > value) {
+        if (cappedStats[statKey] == undefined || cappedStats[statKey] > value) {
             build.cappedStats[statKey] = value;
         }
     }
