@@ -137,9 +137,9 @@ export function getBonusStats(stats: Partial<Stats>): Partial<Stats> {
         // bonusStats[statKey] = value; // + (bonusStats[statKey] ?? 0);
         if (stats[statKey]) {
             for (const targetStat of targetStats) {
-                bonusStats[targetStat.target] = Math.round(
-                    (stats[statKey] * targetStat.multiplicator * 100) / 100,
-                );
+                bonusStats[targetStat.target] =
+                    Math.round((stats[statKey] * targetStat.multiplicator * 100) / 100) +
+                    (bonusStats[targetStat.target] ?? 0);
             }
         }
     }

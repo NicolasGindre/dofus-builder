@@ -3,6 +3,9 @@ import {
     bestBuilds,
     buildsDisplayed,
     comparedBuild,
+    exoAp,
+    exoMp,
+    exoRange,
     itemsLocked,
     itemsSelected,
     maxStats,
@@ -35,6 +38,7 @@ import { calculateStatsValue } from "./value";
 import { isItemBonusPanoCapped } from "./item";
 import type { MinRequirement } from "../workers/orchestrator";
 import { calculateBuildToDisplay } from "./display";
+import { encodeDofusStufferUrlFromSlots } from "./encoding/dofusBookUrl";
 
 function initBuild(name: string, buildId?: string, value?: number): Build {
     return {
@@ -49,6 +53,10 @@ function initBuild(name: string, buildId?: string, value?: number): Build {
         requirements: [],
         minRequirements: [],
         value: value ?? 0,
+        export: {
+            dofusBookUrl: "",
+            dofusDBUrl: "",
+        },
     };
 }
 function addItemToBuild(
@@ -139,10 +147,18 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
         let idBuilder: string[] = [];
         buildIndex++;
         for (const itemIdRaw of buildResp.ids) {
+            if (itemIdRaw == "") {
+                continue;
+            }
             for (const itemId of itemIdRaw.split("+")) {
                 const item = getItem(itemId);
                 if (!item) {
-                    console.error("No matching item found from Rust response", itemId);
+                    console.error(
+                        "No matching item found from Rust response",
+                        itemId,
+                        itemIdRaw,
+                        buildResp,
+                    );
                     continue;
                 }
                 idBuilder.push(item.idShort);
@@ -181,8 +197,8 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
         if (Math.round(build.value * 10) != Math.round(buildResp.value * 10)) {
             console.error(
                 "Build response value and calculated value are different",
-                Math.round(buildResp.value * 10),
-                Math.round(build.value * 10),
+                Math.round(buildResp.value * 10) / 10,
+                Math.round(build.value * 10) / 10,
             );
         }
         build.id = idBuilder.sort().join("");
@@ -190,8 +206,10 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
         // if (savedBuild) {
         //     build.name = savedBuild.name;
         // }
+        build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
         bestBuilds.push(build);
     }
+    console.log("DOFUSBOOK URL", bestBuilds[0]?.export.dofusBookUrl);
     updateBestBuildsNames(bestBuilds);
     console.log("bestBuilds : ", bestBuilds);
     return bestBuilds;
@@ -284,7 +302,7 @@ export function calculateBuildValue(build: Build) {
 function isBuildMinStatsOk(build: Build): boolean {
     for (const [key, minStat] of Object.entries(get(minStats))) {
         const keyStat = key as StatKey;
-        if ((build.stats[keyStat] ?? 0) < minStat) {
+        if ((build.cappedStats[keyStat] ?? 0) < minStat) {
             return false;
         }
     }
@@ -307,14 +325,39 @@ function capBuildStats(build: Build) {
             capStat(build.cappedStats, keyStat, maxStat);
         }
     }
+
+    const PANO_CIRE_MOMORE_ID = "674e523f64788cc741418239";
+    const count = build.panoplies[PANO_CIRE_MOMORE_ID];
+    if (count && count >= 2) {
+        switch (count) {
+            case 2:
+                capStat(build.cappedStats, "mp", 4);
+                capStat(build.cappedStats, "range", 4);
+                capStat(build.cappedStats, "summon", 4);
+                break;
+            case 3:
+            case 4:
+            case 5:
+                capStat(build.cappedStats, "mp", 3);
+                capStat(build.cappedStats, "range", 3);
+                capStat(build.cappedStats, "summon", 3);
+                break;
+            default:
+                capStat(build.cappedStats, "mp", 2);
+                capStat(build.cappedStats, "range", 2);
+                capStat(build.cappedStats, "summon", 2);
+                break;
+        }
+    }
+
     for (const requirement of build.minRequirements) {
         switch (requirement.type) {
             case "apLessThanOrMpLessThan":
                 if (
-                    build.stats["mp"] &&
-                    build.stats["mp"] >= (requirement.value2 ?? 9999) &&
                     build.stats["ap"] &&
-                    build.stats["ap"] >= (requirement.value ?? 9999)
+                    build.stats["ap"] >= (requirement.value ?? 9999) &&
+                    build.stats["mp"] &&
+                    build.stats["mp"] >= (requirement.value2 ?? 9999)
                 ) {
                     const min = get(minStats);
                     if (

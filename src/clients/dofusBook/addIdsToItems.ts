@@ -60,11 +60,21 @@ for (const item of itemsDofusBook.data) {
         console.error("no matching item", item.name, item.category_name);
         continue;
     }
-    dbItem.idDofusBook = item.id;
+    dbItem.idDofusBook = item.official;
     shortId = nextValue(shortId);
 
-    dofusBookDBIdMap[dbItem.id] = { id: item.id, name: item.name, shortId };
-    dofusBookDBNameMap[item.name] = { id: item.id, dofusDBId: dbItem.id, shortId };
+    dofusBookDBIdMap[dbItem.id] = {
+        id: item.id,
+        official: item.official,
+        name: item.name,
+        shortId,
+    };
+    dofusBookDBNameMap[item.name] = {
+        id: item.id,
+        official: item.official,
+        dofusDBId: dbItem.id,
+        shortId,
+    };
 }
 
 for (const item of weaponsDofusBook.data) {
@@ -74,11 +84,21 @@ for (const item of weaponsDofusBook.data) {
         console.error("no matching item", item.name, item.category_name);
         continue;
     }
-    dbItem.idDofusBook = item.id;
+    dbItem.idDofusBook = item.official;
     shortId = nextValue(shortId);
 
-    dofusBookDBIdMap[dbItem.id] = { id: item.id, name: item.name, shortId };
-    dofusBookDBNameMap[item.name] = { id: item.id, dofusDBId: dbItem.id, shortId };
+    dofusBookDBIdMap[dbItem.id] = {
+        id: item.id,
+        official: item.official,
+        name: item.name,
+        shortId,
+    };
+    dofusBookDBNameMap[item.name] = {
+        id: item.id,
+        official: item.official,
+        dofusDBId: dbItem.id,
+        shortId,
+    };
 }
 
 for (const [category, items] of Object.entries(itemDB.itemsCategory)) {

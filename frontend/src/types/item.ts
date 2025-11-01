@@ -19,6 +19,7 @@ export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 export type Item = {
     id: string;
     idShort: string;
+    idDofusBook: number;
     level: number;
     name: Name;
     requirements?: Requirement[][]; // []and -> []or

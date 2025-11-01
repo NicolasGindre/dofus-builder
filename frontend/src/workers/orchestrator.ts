@@ -279,5 +279,6 @@ export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
         (item) => !isItemBonusPanoCapped(item),
     );
     // itemsNoBonusPano.push();
+    console.log(noBonusPanoItems);
     return mergeItems(noBonusPanoItems);
 }

@@ -260,6 +260,10 @@ fn prepare_items(
     // log(format!("panoplies: {:?}", pan));
     // log(format!("items: {:?}", items));
 
+    // Hardcoded Malédiction de Cire Momore
+    const PANO_CIRE_MOMORE_ID: &str = "674e523f64788cc741418239";
+    let pano_cire_momore_pid = pan.panoply_to_pid.get(PANO_CIRE_MOMORE_ID).copied();
+
     // if items.is_empty() {
     //     let empty = BestResult { value: 0.0, names: vec![] };
     //     return serde_wasm_bindgen::to_value(&empty).map_err(|e| JsValue::from_str(&format!("{e}")));
@@ -294,7 +298,9 @@ fn prepare_items(
     loop {
         let mut build_stats = pre_stats.clone();
 
-        // clear touched marker list
+
+        // reset only touched counters
+        for &pid in &touched { pcount[pid] = 0; }
         touched.clear();
 
         for (ci, &ii) in idx.iter().enumerate() {
@@ -330,6 +336,33 @@ fn prepare_items(
         }
         // log(format!("panoplies_bonus: {:?}", panoplies_bonus));
 
+        if let Some(pid_momore) = pano_cire_momore_pid {
+            if touched.contains(&pid_momore) {
+                let count = *pcount.get(pid_momore).unwrap_or(&0);
+                if count >= 2 {
+                    match count {
+                        2 => {
+                            if build_stats.mp > 4.0 { build_stats.mp = 4.0; }
+                            if build_stats.range > 4.0 { build_stats.range = 4.0; }
+                            if build_stats.summon > 4.0 { build_stats.summon = 4.0; }
+                        }
+                        3 | 4 | 5 => {
+                            if build_stats.mp > 3.0 { build_stats.mp = 3.0; }
+                            if build_stats.range > 3.0 { build_stats.range = 3.0; }
+                            if build_stats.summon > 3.0 { build_stats.summon = 3.0; }
+                        }
+                        6.. => {
+                            if build_stats.mp > 2.0 { build_stats.mp = 2.0; }
+                            if build_stats.range > 2.0 { build_stats.range = 2.0; }
+                            if build_stats.summon > 2.0 { build_stats.summon = 2.0; }
+                        }
+                        _ => {}
+                    }
+                }
+            }
+        }
+        // log(format!("build_stats: {:?}", build_stats));
+        
         let mut skip_build = false;
 
         for (category_i, &item_i) in idx.iter().enumerate() {
@@ -368,10 +401,6 @@ fn prepare_items(
             heap.push(Reverse(build));
             lowest_best_value = heap.peek().unwrap().0.value;
         }
-
-        // reset only touched counters
-        for &pid in &touched { pcount[pid] = 0; }
-
 
         combinations_done += 1;
         if let Some(callback) = &progress_cb {

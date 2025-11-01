@@ -87,13 +87,19 @@ export function lockItem(category: ItemCategory, item: Item) {
     });
 }
 
+// export function isItemBonusPanoCapped(item: Item): boolean {
+//     for (const andRequirements of item.requirements ?? []) {
+//         for (const orRequirements of andRequirements) {
+//             if (orRequirements.stat == "panopliesBonus") {
+//                 return true;
+//             }
+//         }
+//     }
+//     return false;
+// }
 export function isItemBonusPanoCapped(item: Item): boolean {
-    for (const andRequirements of item.requirements ?? []) {
-        for (const orRequirements of andRequirements) {
-            if (orRequirements.stat == "panopliesBonus") {
-                return true;
-            }
-        }
+    if (item.minRequirement?.type == "panopliesBonusLessThan") {
+        return true;
     }
     return false;
 }

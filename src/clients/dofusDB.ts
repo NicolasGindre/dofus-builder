@@ -10,8 +10,14 @@ import {
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
 
-export type DofusBookDBIdMap = Record<string, { name: string; id: number; shortId: string }>;
-export type DofusBookDBNameMap = Record<string, { dofusDBId: string; id: number; shortId: string }>;
+export type DofusBookDBIdMap = Record<
+    string,
+    { name: string; id: number; official: number; shortId: string }
+>;
+export type DofusBookDBNameMap = Record<
+    string,
+    { dofusDBId: string; id: number; official: number; shortId: string }
+>;
 
 const dbPath = "./src/db/data";
 const dofusDBUrl: string = "https://api.dofusdb.fr";
