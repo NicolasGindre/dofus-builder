@@ -133,7 +133,21 @@ function decodeItems(encodedItems: string) {
     addItems(itemsToAdd);
 }
 
+let lastHistoryEntry = window.location.href;
+
 export function saveHistoryEntry() {
-    const url = new URL(window.location.href);
-    window.history.pushState(null, "", url.toString());
+    const newUrl = new URL(window.location.href).toString();
+
+    console.log(newUrl, lastHistoryEntry);
+    if (newUrl !== lastHistoryEntry) {
+        console.log("IT IS NEW");
+        window.history.pushState(null, "", newUrl);
+        setLastHistoryEntry(newUrl);
+    } else {
+        console.log("IT IS OLD");
+    }
+}
+
+export function setLastHistoryEntry(url: string) {
+    lastHistoryEntry = url;
 }

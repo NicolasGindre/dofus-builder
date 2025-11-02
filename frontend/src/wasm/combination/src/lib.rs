@@ -6,6 +6,7 @@ use crate::stats::{Stats, MaxStats, MinStats};
 pub mod stats;
 use std::cmp::Reverse;
 use std::collections::BinaryHeap;
+// use smallvec::SmallVec;
 
 #[wasm_bindgen(start)]
 pub fn main() {
@@ -57,6 +58,7 @@ pub enum Requirement {
 }
 
 impl Requirement {
+    #[inline(always)] // confirmed improves performances with flags
     pub fn is_satisfied(&self, stats: &mut Stats, weights: &Stats, min_stats: &MinStats, max_stats: &MaxStats, panoply_bonus: usize) -> bool {
         match self {
             Requirement::PanopliesBonusLessThan { value } => panoply_bonus < *value,
@@ -293,11 +295,15 @@ fn prepare_items(
     // panoply counters reused across iterations, we reset only touched ones
     let pcount_len = pan.bonus.len();
     let mut pcount = vec![0u8; pcount_len];
-    let mut touched: Vec<usize> = Vec::with_capacity(8); // typically small
+    // let mut pcount: Box<[u8]> = vec![0u8; pcount_len].into_boxed_slice(); // slower performances
+
+    let mut touched: Vec<usize> = Vec::with_capacity(8);
+    // let mut touched: SmallVec<[usize; 4]> = SmallVec::new(); // slower performances
+
 
     loop {
         let mut build_stats = pre_stats.clone();
-
+        // let mut build_stats = pre_stats; // seems slower
 
         // reset only touched counters
         for &pid in &touched { pcount[pid] = 0; }

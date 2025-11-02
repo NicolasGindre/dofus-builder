@@ -602,7 +602,7 @@ export function getSavedBuild(id: string): Build | undefined {
 export function updateComparedBuildName(build: Build) {
     comparedBuild.update((comparedB) => {
         if (comparedB && comparedB.id == build.id) {
-            console.log("replacing name", build.name);
+            // console.log("replacing name", build.name);
             return { ...comparedB, name: build.name };
         }
         return comparedB;
@@ -613,7 +613,7 @@ export function updateBestBuildsNames(bestBuilds: Build[]) {
         updateComparedBuildName(savedBuild);
         for (const bestBuild of bestBuilds) {
             if (savedBuild.id == bestBuild.id) {
-                console.log("check name", savedBuild.name);
+                // console.log("check name", savedBuild.name);
                 bestBuild.name = savedBuild.name;
             }
         }

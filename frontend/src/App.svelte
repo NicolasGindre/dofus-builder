@@ -4,7 +4,7 @@
     import { checkHashIsSavedSearch, initFrontendDB, loadItemsAndPanos } from "./logic/frontendDB";
     import BestItems from "./components/BestItems.svelte";
     import LanguageSelect from "./components/LanguageSelect.svelte";
-    import { decodeFromUrl } from "./logic/encoding/urlEncode";
+    import { decodeFromUrl, setLastHistoryEntry } from "./logic/encoding/urlEncode";
     import { itemsSelected } from "./stores/builder";
     import { getEmptyCategoriesItems } from "./types/item";
     import Builds from "./components/Builds.svelte";
@@ -27,7 +27,9 @@
     const handler = () => {
         console.log("back/forward pressed");
         // itemsSelected.set(getEmptyCategoriesItems());
+        setLastHistoryEntry(window.location.href);
         decodeFromUrl();
+        checkHashIsSavedSearch();
     };
     onDestroy(() => {
         window.removeEventListener("popstate", handler);

@@ -169,7 +169,7 @@ export const savedBuildsPage = writable<number>(1);
 export const showSavedBuilds = writable<boolean>(false);
 export const savedBuilds = writable<Build[]>([]);
 savedBuilds.subscribe((savedBuilds) => {
-    console.log("Update the view", savedBuilds);
+    // console.log("Update the view", savedBuilds);
     saveBuildsStorage(savedBuilds);
     // if (get(showSavedBuilds)) {
     updateBestBuildsNames(get(bestBuilds));

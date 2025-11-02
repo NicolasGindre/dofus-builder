@@ -44,7 +44,7 @@ export const STAT_UTILITY_KEYS = [
     "pods",
 ] as const;
 
-export const STAT_STAT_KEYS = ["strength", "agility", "chance", "intelligence"] as const;
+export const STAT_STAT_KEYS = ["strength", "intelligence", "chance", "agility"] as const;
 export const STAT_DAMAGE_KEYS = [
     "neutralDamage",
     "earthDamage",

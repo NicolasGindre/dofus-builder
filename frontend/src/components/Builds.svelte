@@ -51,7 +51,10 @@
     // let error: string | null = null;
     // let running = false;
     let combinationStart = 0;
-    // let progress = 0;
+    let timeStart: number;
+    let elapsedSec: number;
+    let combosPerMin: number = 0;
+    let intervalId: number;
 
     // function runComboSearch() {
     // error = null;
@@ -68,6 +71,15 @@
     async function runComboSearch() {
         saveHistoryEntry();
         combinationStart = $totalPossibilities;
+        timeStart = performance.now();
+
+        intervalId = setInterval(() => {
+            refreshCalculSpeed();
+            // console.log(
+            //     `⏱ ${elapsedMin.toFixed(1)}s elapsed — ${combosPerMin.toFixed(2)} combos/s`,
+            // );
+        }, 1000);
+
         const raw = await orchestrator.start({
             selectedItems: $itemsSelected,
             lockedItems: $itemsLocked,
@@ -77,6 +89,8 @@
             preStats: $preStats,
             panoplies: $panopliesSelected,
         });
+        clearInterval(intervalId);
+        refreshCalculSpeed();
 
         bestBuilds.set(buildsFromWasm(raw));
         calculateBuildToDisplay();
@@ -88,6 +102,17 @@
             compareBuild($comparedBuild);
         }
     }
+    function refreshCalculSpeed() {
+        if (!running) return;
+        const now = performance.now();
+        elapsedSec = (now - timeStart) / 1000;
+        combosPerMin = (60 * $combinationDone) / elapsedSec;
+    }
+    function cancelCalcul() {
+        orchestrator.cancel();
+        clearInterval(intervalId);
+    }
+
     function compareBuild(buildToCompare: Build | undefined) {
         const builds = get(buildsDisplayed);
         for (const build of builds) {
@@ -193,7 +218,7 @@
         {$running ? `${$words.calculating}...` : $words.calculateBestBuilds}
     </button>
     {#if $running}
-        <button class="button-cancel" on:click={() => orchestrator.cancel()} disabled={!$running}
+        <button class="button-cancel" on:click={() => cancelCalcul()} disabled={!$running}
             >{$words.cancel}</button
         >
     {/if}
@@ -203,7 +228,13 @@
                 notation: "compact",
                 compactDisplay: "short",
             }).format($combinationDone)}
-            - {Math.round(($combinationDone / combinationStart) * 100)}%
+            - {(() => {
+                const percent = ($combinationDone / combinationStart) * 100;
+                return percent === 100 ? "100%" : `${percent.toFixed(1)}%`;
+            })()} [{new Intl.NumberFormat("en-US", {
+                notation: "compact",
+                compactDisplay: "short",
+            }).format(combosPerMin)} / min]
         </p>
     {/if}
 </div>
@@ -455,6 +486,9 @@
 </div>
 
 <style>
+    p {
+        font-variant-numeric: tabular-nums;
+    }
     .builds-header {
         display: inline-flex;
         align-items: center;

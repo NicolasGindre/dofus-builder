@@ -27,6 +27,8 @@ macro_rules! stat_fields {
 macro_rules! define_stats {
     ( $( $field:ident ),+ ) => {
         #[derive(Serialize, Deserialize, Clone, Debug, Default)]
+        // #[derive(Serialize, Deserialize, Clone, Copy, Debug, Default)] // seems slower
+        // #[repr(C)] // seems slower
         #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct Stats {
@@ -95,6 +97,7 @@ use std::ops::AddAssign;
 macro_rules! define_add_assign {
     ( $( $field:ident ),+ ) => {
         impl AddAssign<&Stats> for Stats {
+            // #[inline(always)] // confirmed slows down with flags
             fn add_assign(&mut self, other: &Stats) {
                 $( self.$field += other.$field; )+
             }
