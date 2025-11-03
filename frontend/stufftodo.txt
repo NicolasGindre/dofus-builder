@@ -24,8 +24,10 @@ Do later :
 
 - example saved searches + edit saved search
 
-- Highlight stat in red if min stat is more than actual stat
+- Highlight stat/requirement in red/orange if min stat is more than actual stat
 
 - ? Add stat icons
 
 - ? Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)
+
+- ? binomiale encoding for item selection - saves 50% length for big selection but performance cost

@@ -1,6 +1,6 @@
 import { nextValue } from "../../db/base62inc";
 import * as itemDB from "../../db/itemDB";
-import type { Item, ItemCategory } from "../../types/item";
+import type { Item, ItemCategory, Items } from "../../types/item";
 import type { DofusBookDBIdMap, DofusBookDBNameMap } from "../dofusDB";
 
 const dbPath = "./src/db/data";
@@ -21,6 +21,17 @@ const categoryMap: Record<string, ItemCategory> = {
     fa: "pet",
     mt: "pet",
     // W: "weapon",
+    ma: "weapon",
+    fx: "weapon",
+    la: "weapon",
+    ar: "weapon",
+    ep: "weapon",
+    bn: "weapon",
+    da: "weapon",
+    ha: "weapon",
+    pe: "weapon",
+    ba: "weapon",
+    pi: "weapon",
 };
 
 type DofusBookItem = {
@@ -48,52 +59,74 @@ let dofusMinMaxId = "Z";
 let dofusBookDBIdMap: DofusBookDBIdMap = {};
 let dofusBookDBNameMap: DofusBookDBNameMap = {};
 
-for (const item of itemsDofusBook.data) {
-    const category = categoryMap[item.category_name];
+const allItemsDofusBook = [...itemsDofusBook.data, ...weaponsDofusBook.data].sort(
+    (a, b) => a.level - b.level,
+);
+
+// let newItemsDB: Items = {};
+let indexesToSkip: number[] = [];
+for (let index = 0; index < allItemsDofusBook.length; index++) {
+    if (indexesToSkip.includes(index)) {
+        continue;
+    }
+    addItem(index);
+
+    const item = allItemsDofusBook[index]!;
+    const minMaxItem = itemDB.itemsDB[item.id];
+
+    if (minMaxItem?.panoply) {
+        const panoply = itemDB.panoplies[minMaxItem.panoply]!;
+        for (const panoItemId of Object.values(panoply.items)) {
+            const itemToAdd = itemDB.itemsDB[panoItemId];
+            if (!itemToAdd) {
+                console.error("didn't find pano item to add", panoItemId, minMaxItem.name.fr);
+                continue;
+            }
+            let panoIndex = 0;
+            let found = false;
+            for (panoIndex; panoIndex < allItemsDofusBook.length; panoIndex++) {
+                if (itemToAdd?.idDofusBook === allItemsDofusBook[panoIndex]?.official) {
+                    found = true;
+                    break;
+                }
+            }
+            if (found) {
+                addItem(panoIndex);
+                indexesToSkip.push(panoIndex);
+            } else {
+                console.error("didn't find pano item", minMaxItem, itemToAdd);
+            }
+        }
+    }
+}
+
+function addItem(index: number) {
+    const item = allItemsDofusBook[index]!;
+    const category = categoryMap[item.category_name] as ItemCategory;
     if (!category) {
         console.error("no matching category", item.name, item.category_name);
-        continue;
+        return;
     }
     // const dbItem = itemDB.itemsCategory[category][item.name]
     let dbItem = itemDB.getItemFromNameFrench(item.name, category);
     if (!dbItem) {
         console.error("no matching item", item.name, item.category_name);
-        continue;
+        return;
     }
-    dbItem.idDofusBook = item.official;
+    // dbItem.idDofusBook = item.official;
     dofusMinMaxId = nextValue(dofusMinMaxId);
 
     dofusBookDBIdMap[dbItem.idDofusDB] = {
         id: dofusMinMaxId,
         dofusBookId: item.official,
         name: item.name,
+        level: item.level,
     };
     dofusBookDBNameMap[item.name] = {
         id: dofusMinMaxId,
-        dofusDBId: dbItem.id,
-        dofusBookId: item.id,
-    };
-}
-
-for (const item of weaponsDofusBook.data) {
-    const category: ItemCategory = "weapon";
-    let dbItem = itemDB.getItemFromNameFrench(item.name, category);
-    if (!dbItem) {
-        console.error("no matching item", item.name, item.category_name);
-        continue;
-    }
-    dbItem.idDofusBook = item.official;
-    dofusMinMaxId = nextValue(dofusMinMaxId);
-
-    dofusBookDBIdMap[dbItem.idDofusDB] = {
-        id: dofusMinMaxId,
+        dofusDBId: dbItem.idDofusDB,
         dofusBookId: item.official,
-        name: item.name,
-    };
-    dofusBookDBNameMap[item.name] = {
-        id: dofusMinMaxId,
-        dofusDBId: dbItem.id,
-        dofusBookId: item.id,
+        level: item.level,
     };
 }
 
@@ -105,6 +138,6 @@ for (const [category, items] of Object.entries(itemDB.itemsCategory)) {
     }
 }
 
-await itemDB.saveAllItems();
+// await itemDB.saveAllItems();
 await Bun.write(`${dbPath}/dofusBookMap/idMap.json`, JSON.stringify(dofusBookDBIdMap, null, 2));
 await Bun.write(`${dbPath}/dofusBookMap/nameMap.json`, JSON.stringify(dofusBookDBNameMap, null, 2));

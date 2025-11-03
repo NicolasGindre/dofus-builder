@@ -9,7 +9,7 @@ import {
 } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
-import { addItems, lockItem } from "../item";
+import { addItem, addItems, lockItem } from "../item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
 import { getItem } from "../frontendDB";
@@ -50,21 +50,26 @@ export function encodeToUrlNoThrottle() {
 }
 
 function encodeItems(): string {
-    let encodedItems = "";
+    // let encodedItems = "";
+    let encodedItems: string[] = [];
+    let lockedItems: string[] = [];
     // const itemsSelection = get(itemsSelected);
     for (const items of Object.values(get(itemsSelected))) {
         for (const item of Object.values(items)) {
-            encodedItems += item.id;
+            let isLocked = false;
             for (const lockeds of Object.values(get(itemsLocked))) {
                 if (lockeds[item.id]) {
-                    encodedItems += "+";
+                    isLocked = true;
+                    lockedItems.push(item.id);
                     break;
                 }
             }
+            if (!isLocked) encodedItems.push(item.id);
         }
     }
-    // console.log("encodedItems", encodedItems);
-    return encodedItems;
+    const encodedItemsStr = encodedItems.sort().join("");
+    const lockedItemsStr = lockedItems.sort().join("");
+    return lockedItemsStr ? `${encodedItemsStr}|${lockedItemsStr}` : encodedItemsStr;
 }
 
 export function decodeFromUrl(hash?: string) {
@@ -112,25 +117,30 @@ export function decodeFromUrl(hash?: string) {
 }
 
 function decodeItems(encodedItems: string) {
-    // const parts = [];
-    const itemsToAdd: Item[] = [];
-    for (let i = 0; i < encodedItems.length; i += 2) {
-        const id = encodedItems.slice(i, i + 2);
+    const split = encodedItems.split("|");
+
+    if (!split[0]) {
+        return;
+    }
+    for (let i = 0; i < split[0].length; i += 2) {
+        const id = split[0].slice(i, i + 2);
         const itemToAdd = getItem(id);
-        // console.log("itemId", id);
-        // console.log("itemToAdd", itemToAdd);
         if (itemToAdd) {
-            itemsToAdd.push(itemToAdd);
-        }
-        if (encodedItems.slice(i + 2, i + 3) == "+") {
-            if (itemToAdd) {
-                lockItem(itemToAdd.category, itemToAdd);
-            }
-            i++;
+            addItem(itemToAdd);
         }
     }
-    // console.log("itemsToAdd", itemsToAdd);
-    addItems(itemsToAdd);
+
+    if (!split[1]) {
+        return;
+    }
+    for (let i = 0; i < split[1].length; i += 2) {
+        const id = split[1].slice(i, i + 2);
+        const lockedToAdd = getItem(id);
+        if (lockedToAdd) {
+            addItem(lockedToAdd);
+            lockItem(lockedToAdd.category, lockedToAdd);
+        }
+    }
 }
 
 let lastHistoryEntry = window.location.href;

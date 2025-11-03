@@ -10,10 +10,13 @@ import {
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
 
-export type DofusBookDBIdMap = Record<string, { name: string; dofusBookId: number; id: string }>;
+export type DofusBookDBIdMap = Record<
+    string,
+    { name: string; level: number; dofusBookId: number; id: string }
+>;
 export type DofusBookDBNameMap = Record<
     string,
-    { dofusDBId: string; dofusBookId: number; id: string }
+    { dofusDBId: string; level: number; dofusBookId: number; id: string }
 >;
 
 const dbPath = "./src/db/data";
@@ -108,7 +111,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             let dofusMinMaxId: string;
             if (!dofusBookIdMap[dofusDbItem._id]) {
                 if (!dofusBookNameMap[dofusDbItem.name.fr]) {
-                    console.log("item has no match in dofusbook", dofusDbItem.name.fr);
+                    console.error("item has no match in dofusbook", dofusDbItem.name.fr);
                     continue;
                 } else {
                     dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId;
