@@ -2,6 +2,9 @@ const ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 export function nextValue(prev?: string): string {
     if (!prev) return "0";
+    if (prev == "ZZ") {
+        throw new Error("Reached maximum allowed encoding");
+    }
     const base = ALPHABET.length;
     const chars = prev.split("");
     let i = chars.length - 1;

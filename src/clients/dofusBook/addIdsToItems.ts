@@ -92,6 +92,9 @@ for (let index = 0; index < allItemsDofusBook.length; index++) {
                 console.error("didn't find pano item to add", panoItemId, minMaxItem.name.fr);
                 continue;
             }
+            if (itemToAdd.name.fr == dofusBookitem.name) {
+                continue;
+            }
             let panoIndex = 0;
             let found = false;
             for (panoIndex; panoIndex < allItemsDofusBook.length; panoIndex++) {
@@ -101,27 +104,30 @@ for (let index = 0; index < allItemsDofusBook.length; index++) {
                 }
             }
             if (found) {
-                const dofusBookitem = allItemsDofusBook[panoIndex]!;
-                const category = categoryMap[dofusBookitem.category_name] as ItemCategory;
+                const dofusBookitemFromPano = allItemsDofusBook[panoIndex]!;
+                const category = categoryMap[dofusBookitemFromPano.category_name] as ItemCategory;
                 if (!category) {
                     console.error(
                         "no matching category",
-                        dofusBookitem.name,
-                        dofusBookitem.category_name,
+                        dofusBookitemFromPano.name,
+                        dofusBookitemFromPano.category_name,
                     );
                     continue;
                 }
-                // const dbItem = itemDB.itemsCategory[category][item.name]
-                let dbItem = itemDB.getItemFromNameFrench(dofusBookitem.name, category);
-                if (!dbItem) {
+                // const dbItemFromPano = itemDB.itemsCategory[category][item.name]
+                let dbItemFromPano = itemDB.getItemFromNameFrench(
+                    dofusBookitemFromPano.name,
+                    category,
+                );
+                if (!dbItemFromPano) {
                     console.error(
                         "no matching item",
-                        dofusBookitem.name,
-                        dofusBookitem.category_name,
+                        dofusBookitemFromPano.name,
+                        dofusBookitemFromPano.category_name,
                     );
                     continue;
                 }
-                addItem(dofusBookitem, dbItem);
+                addItem(dofusBookitemFromPano, dbItemFromPano);
                 indexesToSkip.push(panoIndex);
             } else {
                 console.error("didn't find pano item", minMaxItem, itemToAdd);
