@@ -1,7 +1,294 @@
 {
-  "674e524064788cc741418616": {
-    "id": "674e524064788cc741418616",
-    "idShort": "Ja",
+  "11": {
+    "id": "11",
+    "idDofusDB": "674e524164788cc74141bcf3",
+    "idDofusBook": 22201,
+    "name": {
+      "fr": "Manteau de Servitude",
+      "en": "Servitude's Coat",
+      "pt": "Manto de Servidão",
+      "de": "Knechtschafts Mantel",
+      "es": "Abrigo de Servidumbre"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418224",
+    "category": "cloak",
+    "stats": {
+      "health": 400,
+      "chance": 100,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "waterDamage": 20,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "waterResistPer": 7,
+      "lock": 10,
+      "dodge": -5,
+      "apReduction": -10,
+      "mpResist": 10,
+      "pushbackResist": 40
+    }
+  },
+  "20": {
+    "id": "20",
+    "idDofusDB": "674e524164788cc74141b398",
+    "idDofusBook": 19589,
+    "name": {
+      "fr": "Cape Ardente",
+      "en": "Burning Cape",
+      "pt": "Capa Ardente",
+      "de": "Feuriger Umhang",
+      "es": "Capa ardiente"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418213",
+    "category": "cloak",
+    "stats": {
+      "health": 400,
+      "intelligence": 70,
+      "wisdom": 50,
+      "criticalChance": -10,
+      "fireDamage": 15,
+      "heal": 10,
+      "prospecting": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "lock": 7,
+      "apReduction": 7,
+      "mpResist": 7
+    }
+  },
+  "33": {
+    "id": "33",
+    "idDofusDB": "674e524164788cc74141ae7b",
+    "idDofusBook": 18024,
+    "name": {
+      "fr": "Cape de Meno",
+      "en": "Meno Cape",
+      "pt": "Capa de Meno",
+      "de": "Menos Umhang",
+      "es": "Capa de Meno"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414181f5",
+    "category": "cloak",
+    "stats": {
+      "health": 400,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "summon": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "heal": 12,
+      "waterResistPer": 10,
+      "dodge": 10,
+      "mpReduction": 6,
+      "criticalDamage": 15
+    }
+  },
+  "41": {
+    "id": "41",
+    "idDofusDB": "674e524164788cc74141a73b",
+    "idDofusBook": 15697,
+    "name": {
+      "fr": "Voilamibe",
+      "en": "Kapmeba",
+      "pt": "Capameba",
+      "de": "Capmöbe",
+      "es": "Velameba"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414183e1",
+    "category": "cloak",
+    "stats": {
+      "health": 400,
+      "wisdom": 50,
+      "power": 70,
+      "mp": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "waterResistPer": 7,
+      "criticalDamage": -20
+    }
+  },
+  "42": {
+    "id": "42",
+    "idDofusDB": "674e524164788cc74141a73a",
+    "idDofusBook": 15696,
+    "name": {
+      "fr": "Capchalot",
+      "en": "Whailtail",
+      "pt": "Capalote",
+      "de": "Pottcape",
+      "es": "Capachalote"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414183e2",
+    "category": "cloak",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "ap": 1,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
+      "dodge": 10,
+      "apResist": 7,
+      "mpResist": 7,
+      "criticalResist": 15,
+      "pushbackResist": 15
+    }
+  },
+  "50": {
+    "id": "50",
+    "idDofusDB": "674e524164788cc74141a1d7",
+    "idDofusBook": 14085,
+    "name": {
+      "fr": "Cape du Sinistrofu",
+      "en": "Sinistrofu Cloak",
+      "pt": "Capa do Sinistrofu",
+      "de": "Sinistrofu-Umhang",
+      "es": "Capa de buhotofu"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418198",
+    "category": "cloak",
+    "stats": {
+      "health": 300,
+      "chance": 100,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "earthDamage": -11,
+      "waterDamage": 18,
+      "heal": 10,
+      "prospecting": 20,
+      "neutralResistPer": 12,
+      "waterResistPer": 8,
+      "earthResist": 15,
+      "dodge": 12
+    }
+  },
+  "62": {
+    "id": "62",
+    "idDofusDB": "674e524164788cc74141a1bb",
+    "idDofusBook": 14057,
+    "name": {
+      "fr": "Cape Glaciale",
+      "en": "Glacial Cape",
+      "pt": "Capa Glacial",
+      "de": "Eiskalter Umhang",
+      "es": "Capa glacial"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141819d",
+    "category": "cloak",
+    "stats": {
+      "health": 350,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "range": 1,
+      "waterDamage": 16,
+      "prospecting": 15,
+      "fireResistPer": 10,
+      "earthResist": 25,
+      "dodge": 15
+    }
+  },
+  "64": {
+    "id": "64",
+    "idDofusDB": "674e524164788cc74141a1b5",
+    "idDofusBook": 14051,
+    "name": {
+      "fr": "Cape de Klime",
+      "en": "Klime's Cloak",
+      "pt": "Capa do Klim",
+      "de": "Mantel von R.Klimm",
+      "es": "Capa de Klim"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141819b",
+    "category": "cloak",
+    "stats": {
+      "health": 350,
+      "agility": 70,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "range": 1,
+      "airDamage": 18,
+      "prospecting": 15,
+      "initiative": 400,
+      "waterResistPer": 10,
+      "pushbackResist": 30
+    }
+  },
+  "84": {
+    "id": "84",
+    "idDofusDB": "674e524064788cc74141933a",
+    "idDofusBook": 9180,
+    "name": {
+      "fr": "Cape Erforée",
+      "en": "Chee Cape",
+      "pt": "Capa Chee",
+      "de": "Lügenmäntelchen",
+      "es": "Caperforada"
+    },
+    "level": 185,
+    "panoply": "674e523f64788cc741418139",
+    "category": "cloak",
+    "stats": {
+      "health": 250,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "power": 10,
+      "range": 1,
+      "damage": 6,
+      "prospecting": 30,
+      "waterResistPer": 10,
+      "trapPower": 30
+    }
+  },
+  "98": {
+    "id": "98",
+    "idDofusDB": "687f71551c8151735606181c",
+    "idDofusBook": 31793,
+    "name": {
+      "fr": "Panier de zœufs",
+      "en": "Bzzegg Basket",
+      "pt": "Cesta de Zovos",
+      "de": "Zeier-Korb",
+      "es": "Cesta de bzuevos"
+    },
+    "level": 172,
+    "panoply": "687f71541c815173560616bc",
+    "category": "cloak",
+    "stats": {
+      "health": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 30,
+      "summon": 2,
+      "damage": 6,
+      "heal": 8,
+      "prospecting": 10,
+      "pods": 500,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "apResist": 6,
+      "mpResist": 6,
+      "pushbackResist": -20
+    }
+  },
+  "Ja": {
+    "id": "Ja",
+    "idDofusDB": "674e524064788cc741418616",
     "idDofusBook": 677,
     "name": {
       "fr": "Cape du Pirate",
@@ -16,9 +303,9 @@
       "mp": -1
     }
   },
-  "674e524064788cc741418641": {
-    "id": "674e524064788cc741418641",
-    "idShort": "Eg",
+  "Eg": {
+    "id": "Eg",
+    "idDofusDB": "674e524064788cc741418641",
     "idDofusBook": 744,
     "name": {
       "fr": "Cape de Bowisse",
@@ -35,9 +322,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741418649": {
-    "id": "674e524064788cc741418649",
-    "idShort": "Cf",
+  "Cf": {
+    "id": "Cf",
+    "idDofusDB": "674e524064788cc741418649",
     "idDofusBook": 754,
     "name": {
       "fr": "Cape du Vampire",
@@ -55,9 +342,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc74141864c": {
-    "id": "674e524064788cc74141864c",
-    "idShort": "C1",
+  "C1": {
+    "id": "C1",
+    "idDofusDB": "674e524064788cc74141864c",
     "idDofusBook": 758,
     "name": {
       "fr": "Cape du Justicier",
@@ -75,9 +362,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc74141864d": {
-    "id": "674e524064788cc74141864d",
-    "idShort": "B8",
+  "B8": {
+    "id": "B8",
+    "idDofusDB": "674e524064788cc74141864d",
     "idDofusBook": 759,
     "name": {
       "fr": "Cape du Poolay Chogrelotant",
@@ -97,9 +384,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418656": {
-    "id": "674e524064788cc741418656",
-    "idShort": "CW",
+  "CW": {
+    "id": "CW",
+    "idDofusDB": "674e524064788cc741418656",
     "idDofusBook": 772,
     "name": {
       "fr": "Cape Edépée",
@@ -116,9 +403,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418657": {
-    "id": "674e524064788cc741418657",
-    "idShort": "Gb",
+  "Gb": {
+    "id": "Gb",
+    "idDofusDB": "674e524064788cc741418657",
     "idDofusBook": 773,
     "name": {
       "fr": "Cape Ellinie",
@@ -134,9 +421,9 @@
       "agility": 15
     }
   },
-  "674e524064788cc741418658": {
-    "id": "674e524064788cc741418658",
-    "idShort": "Ga",
+  "Ga": {
+    "id": "Ga",
+    "idDofusDB": "674e524064788cc741418658",
     "idDofusBook": 774,
     "name": {
       "fr": "Cape Ulais",
@@ -153,9 +440,9 @@
       "pushbackDamage": 4
     }
   },
-  "674e524064788cc741418659": {
-    "id": "674e524064788cc741418659",
-    "idShort": "FM",
+  "FM": {
+    "id": "FM",
+    "idDofusDB": "674e524064788cc741418659",
     "idDofusBook": 775,
     "name": {
       "fr": "Cape Abilité",
@@ -171,9 +458,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc74141865a": {
-    "id": "674e524064788cc74141865a",
-    "idShort": "G9",
+  "G9": {
+    "id": "G9",
+    "idDofusDB": "674e524064788cc74141865a",
     "idDofusBook": 776,
     "name": {
       "fr": "Cape Sulcorpe",
@@ -189,9 +476,9 @@
       "earthDamage": 1
     }
   },
-  "674e524064788cc74141865b": {
-    "id": "674e524064788cc74141865b",
-    "idShort": "xj",
+  "xj": {
+    "id": "xj",
+    "idDofusDB": "674e524064788cc74141865b",
     "idDofusBook": 777,
     "name": {
       "fr": "Cape du Coq Hû",
@@ -222,9 +509,9 @@
       "dodge": -15
     }
   },
-  "674e524064788cc74141865c": {
-    "id": "674e524064788cc74141865c",
-    "idShort": "Ie",
+  "Ie": {
+    "id": "Ie",
+    "idDofusDB": "674e524064788cc74141865c",
     "idDofusBook": 778,
     "name": {
       "fr": "Cape de Mori Arty",
@@ -241,9 +528,9 @@
       "chance": -10
     }
   },
-  "674e524064788cc74141865d": {
-    "id": "674e524064788cc74141865d",
-    "idShort": "B2",
+  "B2": {
+    "id": "B2",
+    "idDofusDB": "674e524064788cc74141865d",
     "idDofusBook": 779,
     "name": {
       "fr": "Cape Maj'Hic",
@@ -262,9 +549,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc74141865e": {
-    "id": "674e524064788cc74141865e",
-    "idShort": "D4",
+  "D4": {
+    "id": "D4",
+    "idDofusDB": "674e524064788cc74141865e",
     "idDofusBook": 781,
     "name": {
       "fr": "Cape Itou Lascione",
@@ -279,9 +566,9 @@
       "intelligence": 35
     }
   },
-  "674e524064788cc741418666": {
-    "id": "674e524064788cc741418666",
-    "idShort": "C0",
+  "C0": {
+    "id": "C0",
+    "idDofusDB": "674e524064788cc741418666",
     "idDofusBook": 790,
     "name": {
       "fr": "Cape de Bonne Espérance",
@@ -302,9 +589,9 @@
       "waterDamage": 2
     }
   },
-  "674e524064788cc7414186c1": {
-    "id": "674e524064788cc7414186c1",
-    "idShort": "FT",
+  "FT": {
+    "id": "FT",
+    "idDofusDB": "674e524064788cc7414186c1",
     "idDofusBook": 934,
     "name": {
       "fr": "Cape de Rougeur",
@@ -320,9 +607,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414186c2": {
-    "id": "674e524064788cc7414186c2",
-    "idShort": "HY",
+  "HY": {
+    "id": "HY",
+    "idDofusDB": "674e524064788cc7414186c2",
     "idDofusBook": 937,
     "name": {
       "fr": "Cape Bleutée",
@@ -338,9 +625,9 @@
       "chance": 7
     }
   },
-  "674e524064788cc7414186c7": {
-    "id": "674e524064788cc7414186c7",
-    "idShort": "FH",
+  "FH": {
+    "id": "FH",
+    "idDofusDB": "674e524064788cc7414186c7",
     "idDofusBook": 947,
     "name": {
       "fr": "Cape Sombre",
@@ -357,9 +644,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc7414186c8": {
-    "id": "674e524064788cc7414186c8",
-    "idShort": "zD",
+  "zD": {
+    "id": "zD",
+    "idDofusDB": "674e524064788cc7414186c8",
     "idDofusBook": 948,
     "name": {
       "fr": "Abracape",
@@ -380,9 +667,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc7414186ca": {
-    "id": "674e524064788cc7414186ca",
-    "idShort": "B7",
+  "B7": {
+    "id": "B7",
+    "idDofusDB": "674e524064788cc7414186ca",
     "idDofusBook": 952,
     "name": {
       "fr": "Cape du Mulou Fou",
@@ -399,9 +686,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc7414186cb": {
-    "id": "674e524064788cc7414186cb",
-    "idShort": "AM",
+  "AM": {
+    "id": "AM",
+    "idDofusDB": "674e524064788cc7414186cb",
     "idDofusBook": 953,
     "name": {
       "fr": "Cape du Tofu Fou",
@@ -419,9 +706,9 @@
       "mp": 2
     }
   },
-  "674e524064788cc7414186cc": {
-    "id": "674e524064788cc7414186cc",
-    "idShort": "CU",
+  "CU": {
+    "id": "CU",
+    "idDofusDB": "674e524064788cc7414186cc",
     "idDofusBook": 954,
     "name": {
       "fr": "La Samoulaille",
@@ -437,9 +724,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc7414186cd": {
-    "id": "674e524064788cc7414186cd",
-    "idShort": "B1",
+  "B1": {
+    "id": "B1",
+    "idDofusDB": "674e524064788cc7414186cd",
     "idDofusBook": 955,
     "name": {
       "fr": "Cape Hilère",
@@ -455,9 +742,9 @@
       "heal": 10
     }
   },
-  "674e524064788cc7414186ce": {
-    "id": "674e524064788cc7414186ce",
-    "idShort": "Bk",
+  "Bk": {
+    "id": "Bk",
+    "idDofusDB": "674e524064788cc7414186ce",
     "idDofusBook": 956,
     "name": {
       "fr": "Cape Rice",
@@ -473,9 +760,9 @@
       "range": 2
     }
   },
-  "674e524064788cc7414186cf": {
-    "id": "674e524064788cc7414186cf",
-    "idShort": "CN",
+  "CN": {
+    "id": "CN",
+    "idDofusDB": "674e524064788cc7414186cf",
     "idDofusBook": 957,
     "name": {
       "fr": "La Boufteuse",
@@ -492,9 +779,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc7414186d0": {
-    "id": "674e524064788cc7414186d0",
-    "idShort": "2F",
+  "2F": {
+    "id": "2F",
+    "idDofusDB": "674e524064788cc7414186d0",
     "idDofusBook": 958,
     "name": {
       "fr": "Dofusteuse",
@@ -521,9 +808,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc7414186d6": {
-    "id": "674e524064788cc7414186d6",
-    "idShort": "sM",
+  "sM": {
+    "id": "sM",
+    "idDofusDB": "674e524064788cc7414186d6",
     "idDofusBook": 967,
     "name": {
       "fr": "Cape Fulgurante",
@@ -555,9 +842,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc7414186da": {
-    "id": "674e524064788cc7414186da",
-    "idShort": "po",
+  "po": {
+    "id": "po",
+    "idDofusDB": "674e524064788cc7414186da",
     "idDofusBook": 971,
     "name": {
       "fr": "Cape du Wa Wabbit",
@@ -576,9 +863,9 @@
       "lock": 7
     }
   },
-  "674e524064788cc7414186fb": {
-    "id": "674e524064788cc7414186fb",
-    "idShort": "DD",
+  "DD": {
+    "id": "DD",
+    "idDofusDB": "674e524064788cc7414186fb",
     "idDofusBook": 1021,
     "name": {
       "fr": "Ailes en bois",
@@ -596,9 +883,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc74141879a": {
-    "id": "674e524064788cc74141879a",
-    "idShort": "xA",
+  "xA": {
+    "id": "xA",
+    "idDofusDB": "674e524064788cc74141879a",
     "idDofusBook": 1500,
     "name": {
       "fr": "La Mokette",
@@ -616,9 +903,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524064788cc74141880f": {
-    "id": "674e524064788cc74141880f",
-    "idShort": "sV",
+  "sV": {
+    "id": "sV",
+    "idDofusDB": "674e524064788cc74141880f",
     "idDofusBook": 1693,
     "name": {
       "fr": "Cape de Jules Yanos",
@@ -636,9 +923,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418811": {
-    "id": "674e524064788cc741418811",
-    "idShort": "kM",
+  "kM": {
+    "id": "kM",
+    "idDofusDB": "674e524064788cc741418811",
     "idDofusBook": 1695,
     "name": {
       "fr": "Cape d'Elya Wood",
@@ -659,9 +946,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418813": {
-    "id": "674e524064788cc741418813",
-    "idShort": "ID",
+  "ID": {
+    "id": "ID",
+    "idDofusDB": "674e524064788cc741418813",
     "idDofusBook": 1697,
     "name": {
       "fr": "Petit Sac en Laine de Boufton",
@@ -676,9 +963,9 @@
       "pods": 100
     }
   },
-  "674e524064788cc741418814": {
-    "id": "674e524064788cc741418814",
-    "idShort": "Ib",
+  "Ib": {
+    "id": "Ib",
+    "idDofusDB": "674e524064788cc741418814",
     "idDofusBook": 1698,
     "name": {
       "fr": "Sac du Petit Récolteur",
@@ -694,9 +981,9 @@
       "pods": 250
     }
   },
-  "674e524064788cc741418815": {
-    "id": "674e524064788cc741418815",
-    "idShort": "GM",
+  "GM": {
+    "id": "GM",
+    "idDofusDB": "674e524064788cc741418815",
     "idDofusBook": 1699,
     "name": {
       "fr": "Sac du Petit Aventurier",
@@ -711,9 +998,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741418818": {
-    "id": "674e524064788cc741418818",
-    "idShort": "G1",
+  "G1": {
+    "id": "G1",
+    "idDofusDB": "674e524064788cc741418818",
     "idDofusBook": 1702,
     "name": {
       "fr": "Sac du Récolteur",
@@ -729,9 +1016,9 @@
       "pods": 400
     }
   },
-  "674e524064788cc741418819": {
-    "id": "674e524064788cc741418819",
-    "idShort": "Dx",
+  "Dx": {
+    "id": "Dx",
+    "idDofusDB": "674e524064788cc741418819",
     "idDofusBook": 1703,
     "name": {
       "fr": "Sac du Grand Récolteur",
@@ -747,9 +1034,9 @@
       "pods": 800
     }
   },
-  "674e524064788cc74141881a": {
-    "id": "674e524064788cc74141881a",
-    "idShort": "Dw",
+  "Dw": {
+    "id": "Dw",
+    "idDofusDB": "674e524064788cc74141881a",
     "idDofusBook": 1704,
     "name": {
       "fr": "Sac du Staca Noviste",
@@ -765,9 +1052,9 @@
       "pods": 1500
     }
   },
-  "674e524064788cc74141881b": {
-    "id": "674e524064788cc74141881b",
-    "idShort": "zw",
+  "zw": {
+    "id": "zw",
+    "idDofusDB": "674e524064788cc74141881b",
     "idDofusBook": 1705,
     "name": {
       "fr": "Sac de l'Aventurier",
@@ -782,9 +1069,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141881c": {
-    "id": "674e524064788cc74141881c",
-    "idShort": "nd",
+  "nd": {
+    "id": "nd",
+    "idDofusDB": "674e524064788cc74141881c",
     "idDofusBook": 1707,
     "name": {
       "fr": "Sac du Grand Aventurier",
@@ -799,9 +1086,9 @@
       "pods": 1000
     }
   },
-  "674e524064788cc741418896": {
-    "id": "674e524064788cc741418896",
-    "idShort": "tT",
+  "tT": {
+    "id": "tT",
+    "idDofusDB": "674e524064788cc741418896",
     "idDofusBook": 1910,
     "name": {
       "fr": "Cape Ouginak",
@@ -820,9 +1107,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc7414188eb": {
-    "id": "674e524064788cc7414188eb",
-    "idShort": "wS",
+  "wS": {
+    "id": "wS",
+    "idDofusDB": "674e524064788cc7414188eb",
     "idDofusBook": 2061,
     "name": {
       "fr": "Cape du Corbac",
@@ -840,9 +1127,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc7414189e9": {
-    "id": "674e524064788cc7414189e9",
-    "idShort": "yQ",
+  "yQ": {
+    "id": "yQ",
+    "idDofusDB": "674e524064788cc7414189e9",
     "idDofusBook": 2380,
     "name": {
       "fr": "Cape de Bou",
@@ -860,9 +1147,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc7414189ea": {
-    "id": "674e524064788cc7414189ea",
-    "idShort": "mM",
+  "mM": {
+    "id": "mM",
+    "idDofusDB": "674e524064788cc7414189ea",
     "idDofusBook": 2381,
     "name": {
       "fr": "Cape Flotteuse",
@@ -890,9 +1177,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc7414189eb": {
-    "id": "674e524064788cc7414189eb",
-    "idShort": "AI",
+  "AI": {
+    "id": "AI",
+    "idDofusDB": "674e524064788cc7414189eb",
     "idDofusBook": 2382,
     "name": {
       "fr": "Cape Maimpa",
@@ -910,9 +1197,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc7414189ec": {
-    "id": "674e524064788cc7414189ec",
-    "idShort": "vV",
+  "vV": {
+    "id": "vV",
+    "idDofusDB": "674e524064788cc7414189ec",
     "idDofusBook": 2383,
     "name": {
       "fr": "Cape Sanguine",
@@ -941,9 +1228,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc7414189ee": {
-    "id": "674e524064788cc7414189ee",
-    "idShort": "k4",
+  "k4": {
+    "id": "k4",
+    "idDofusDB": "674e524064788cc7414189ee",
     "idDofusBook": 2385,
     "name": {
       "fr": "La Brouteuse",
@@ -963,9 +1250,9 @@
       "fireResistPer": 4
     }
   },
-  "674e524064788cc7414189ef": {
-    "id": "674e524064788cc7414189ef",
-    "idShort": "tb",
+  "tb": {
+    "id": "tb",
+    "idDofusDB": "674e524064788cc7414189ef",
     "idDofusBook": 2386,
     "name": {
       "fr": "La Guenille",
@@ -982,9 +1269,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc7414189f0": {
-    "id": "674e524064788cc7414189f0",
-    "idShort": "mA",
+  "mA": {
+    "id": "mA",
+    "idDofusDB": "674e524064788cc7414189f0",
     "idDofusBook": 2387,
     "name": {
       "fr": "La Poilue",
@@ -1020,9 +1307,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418a04": {
-    "id": "674e524064788cc741418a04",
-    "idShort": "yO",
+  "yO": {
+    "id": "yO",
+    "idDofusDB": "674e524064788cc741418a04",
     "idDofusBook": 2412,
     "name": {
       "fr": "Kwape de Flammes",
@@ -1041,9 +1328,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741418a05": {
-    "id": "674e524064788cc741418a05",
-    "idShort": "wQ",
+  "wQ": {
+    "id": "wQ",
+    "idDofusDB": "674e524064788cc741418a05",
     "idDofusBook": 2413,
     "name": {
       "fr": "Abracapa",
@@ -1062,9 +1349,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418a06": {
-    "id": "674e524064788cc741418a06",
-    "idShort": "Dl",
+  "Dl": {
+    "id": "Dl",
+    "idDofusDB": "674e524064788cc741418a06",
     "idDofusBook": 2414,
     "name": {
       "fr": "Cape Bouffante",
@@ -1081,9 +1368,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741418a23": {
-    "id": "674e524064788cc741418a23",
-    "idShort": "Cd",
+  "Cd": {
+    "id": "Cd",
+    "idDofusDB": "674e524064788cc741418a23",
     "idDofusBook": 2445,
     "name": {
       "fr": "Cape Bouffante Royale",
@@ -1101,9 +1388,9 @@
       "earthResistPer": 3
     }
   },
-  "674e524064788cc741418a24": {
-    "id": "674e524064788cc741418a24",
-    "idShort": "nb",
+  "nb": {
+    "id": "nb",
+    "idDofusDB": "674e524064788cc741418a24",
     "idDofusBook": 2446,
     "name": {
       "fr": "Gelocape",
@@ -1120,9 +1407,9 @@
       "prospecting": 20
     }
   },
-  "674e524064788cc741418a38": {
-    "id": "674e524064788cc741418a38",
-    "idShort": "HF",
+  "HF": {
+    "id": "HF",
+    "idDofusDB": "674e524064788cc741418a38",
     "idDofusBook": 2473,
     "name": {
       "fr": "Cape de l'Aventurier",
@@ -1141,9 +1428,9 @@
       "agility": 5
     }
   },
-  "674e524064788cc741418a48": {
-    "id": "674e524064788cc741418a48",
-    "idShort": "su",
+  "su": {
+    "id": "su",
+    "idDofusDB": "674e524064788cc741418a48",
     "idDofusBook": 2489,
     "name": {
       "fr": "Vegacape",
@@ -1162,9 +1449,9 @@
       "damage": 7
     }
   },
-  "674e524064788cc741418a73": {
-    "id": "674e524064788cc741418a73",
-    "idShort": "n3",
+  "n3": {
+    "id": "n3",
+    "idDofusDB": "674e524064788cc741418a73",
     "idDofusBook": 2532,
     "name": {
       "fr": "Caracape",
@@ -1184,9 +1471,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418a74": {
-    "id": "674e524064788cc741418a74",
-    "idShort": "yM",
+  "yM": {
+    "id": "yM",
+    "idDofusDB": "674e524064788cc741418a74",
     "idDofusBook": 2534,
     "name": {
       "fr": "Kwape de Glace",
@@ -1205,9 +1492,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418a80": {
-    "id": "674e524064788cc741418a80",
-    "idShort": "eP",
+  "eP": {
+    "id": "eP",
+    "idDofusDB": "674e524064788cc741418a80",
     "idDofusBook": 2547,
     "name": {
       "fr": "Corbacape Mastralis",
@@ -1229,9 +1516,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524064788cc741418ad1": {
-    "id": "674e524064788cc741418ad1",
-    "idShort": "fq",
+  "fq": {
+    "id": "fq",
+    "idDofusDB": "674e524064788cc741418ad1",
     "idDofusBook": 2629,
     "name": {
       "fr": "Caracape Minotoris",
@@ -1256,9 +1543,9 @@
       "airResist": 15
     }
   },
-  "674e524064788cc741418b2c": {
-    "id": "674e524064788cc741418b2c",
-    "idShort": "gt",
+  "gt": {
+    "id": "gt",
+    "idDofusDB": "674e524064788cc741418b2c",
     "idDofusBook": 6449,
     "name": {
       "fr": "Corbacape",
@@ -1281,9 +1568,9 @@
       "pushbackDamage": 12
     }
   },
-  "674e524064788cc741418b5e": {
-    "id": "674e524064788cc741418b5e",
-    "idShort": "mW",
+  "mW": {
+    "id": "mW",
+    "idDofusDB": "674e524064788cc741418b5e",
     "idDofusBook": 6501,
     "name": {
       "fr": "Sac-Cawotte",
@@ -1303,9 +1590,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418c04": {
-    "id": "674e524064788cc741418c04",
-    "idShort": "m0",
+  "m0": {
+    "id": "m0",
+    "idDofusDB": "674e524064788cc741418c04",
     "idDofusBook": 6712,
     "name": {
       "fr": "Cape Hucine",
@@ -1329,9 +1616,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524064788cc741418c0a": {
-    "id": "674e524064788cc741418c0a",
-    "idShort": "Db",
+  "Db": {
+    "id": "Db",
+    "idDofusDB": "674e524064788cc741418c0a",
     "idDofusBook": 6720,
     "name": {
       "fr": "Cape de l'Homme Ours",
@@ -1348,9 +1635,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc741418c24": {
-    "id": "674e524064788cc741418c24",
-    "idShort": "yJ",
+  "yJ": {
+    "id": "yJ",
+    "idDofusDB": "674e524064788cc741418c24",
     "idDofusBook": 6756,
     "name": {
       "fr": "Kwape de Terre",
@@ -1369,9 +1656,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418c25": {
-    "id": "674e524064788cc741418c25",
-    "idShort": "yI",
+  "yI": {
+    "id": "yI",
+    "idDofusDB": "674e524064788cc741418c25",
     "idDofusBook": 6757,
     "name": {
       "fr": "Kwape de Vent",
@@ -1390,9 +1677,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418c2b": {
-    "id": "674e524064788cc741418c2b",
-    "idShort": "hd",
+  "hd": {
+    "id": "hd",
+    "idDofusDB": "674e524064788cc741418c2b",
     "idDofusBook": 6763,
     "name": {
       "fr": "Fourbacapa",
@@ -1416,9 +1703,9 @@
       "lock": 6
     }
   },
-  "674e524064788cc741418c34": {
-    "id": "674e524064788cc741418c34",
-    "idShort": "lI",
+  "lI": {
+    "id": "lI",
+    "idDofusDB": "674e524064788cc741418c34",
     "idDofusBook": 6775,
     "name": {
       "fr": "Cape de Farle",
@@ -1440,9 +1727,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418c46": {
-    "id": "674e524064788cc741418c46",
-    "idShort": "Gf",
+  "Gf": {
+    "id": "Gf",
+    "idDofusDB": "674e524064788cc741418c46",
     "idDofusBook": 6795,
     "name": {
       "fr": "Capouze des Champs",
@@ -1458,9 +1745,9 @@
       "strength": 20
     }
   },
-  "674e524064788cc741418c52": {
-    "id": "674e524064788cc741418c52",
-    "idShort": "ho",
+  "ho": {
+    "id": "ho",
+    "idDofusDB": "674e524064788cc741418c52",
     "idDofusBook": 6811,
     "name": {
       "fr": "Cape du Chef Bwork",
@@ -1483,9 +1770,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418c5c": {
-    "id": "674e524064788cc741418c5c",
-    "idShort": "m5",
+  "m5": {
+    "id": "m5",
+    "idDofusDB": "674e524064788cc741418c5c",
     "idDofusBook": 6830,
     "name": {
       "fr": "Petit sac d'écolier du Chef Crocodaille",
@@ -1507,9 +1794,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418c95": {
-    "id": "674e524064788cc741418c95",
-    "idShort": "FR",
+  "FR": {
+    "id": "FR",
+    "idDofusDB": "674e524064788cc741418c95",
     "idDofusBook": 6916,
     "name": {
       "fr": "Sac du Petit Moskito",
@@ -1526,9 +1813,9 @@
       "pods": 100
     }
   },
-  "674e524064788cc741418c9b": {
-    "id": "674e524064788cc741418c9b",
-    "idShort": "GJ",
+  "GJ": {
+    "id": "GJ",
+    "idDofusDB": "674e524064788cc741418c9b",
     "idDofusBook": 6922,
     "name": {
       "fr": "Cape du Champ Champ",
@@ -1545,9 +1832,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc741418ca0": {
-    "id": "674e524064788cc741418ca0",
-    "idShort": "AH",
+  "AH": {
+    "id": "AH",
+    "idDofusDB": "674e524064788cc741418ca0",
     "idDofusBook": 6927,
     "name": {
       "fr": "Cape du Prespic",
@@ -1567,9 +1854,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418ca4": {
-    "id": "674e524064788cc741418ca4",
-    "idShort": "mV",
+  "mV": {
+    "id": "mV",
+    "idDofusDB": "674e524064788cc741418ca4",
     "idDofusBook": 6931,
     "name": {
       "fr": "Craquelocape",
@@ -1591,9 +1878,9 @@
       "dodge": -5
     }
   },
-  "674e524064788cc741418cac": {
-    "id": "674e524064788cc741418cac",
-    "idShort": "xe",
+  "xe": {
+    "id": "xe",
+    "idDofusDB": "674e524064788cc741418cac",
     "idDofusBook": 6940,
     "name": {
       "fr": "Scaracape Verte",
@@ -1612,9 +1899,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418cad": {
-    "id": "674e524064788cc741418cad",
-    "idShort": "xd",
+  "xd": {
+    "id": "xd",
+    "idDofusDB": "674e524064788cc741418cad",
     "idDofusBook": 6941,
     "name": {
       "fr": "Scaracape Bleue",
@@ -1633,9 +1920,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418cae": {
-    "id": "674e524064788cc741418cae",
-    "idShort": "xc",
+  "xc": {
+    "id": "xc",
+    "idDofusDB": "674e524064788cc741418cae",
     "idDofusBook": 6942,
     "name": {
       "fr": "Scaracape Rouge",
@@ -1654,9 +1941,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741418caf": {
-    "id": "674e524064788cc741418caf",
-    "idShort": "xb",
+  "xb": {
+    "id": "xb",
+    "idDofusDB": "674e524064788cc741418caf",
     "idDofusBook": 6943,
     "name": {
       "fr": "Scaracape Blanche",
@@ -1675,9 +1962,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418cba": {
-    "id": "674e524064788cc741418cba",
-    "idShort": "mv",
+  "mv": {
+    "id": "mv",
+    "idDofusDB": "674e524064788cc741418cba",
     "idDofusBook": 6954,
     "name": {
       "fr": "Cape du Mulou",
@@ -1698,9 +1985,9 @@
       "prospecting": 5
     }
   },
-  "674e524064788cc741418cd0": {
-    "id": "674e524064788cc741418cd0",
-    "idShort": "wG",
+  "wG": {
+    "id": "wG",
+    "idDofusDB": "674e524064788cc741418cd0",
     "idDofusBook": 6993,
     "name": {
       "fr": "Cape Ricéfini",
@@ -1718,9 +2005,9 @@
       "heal": 10
     }
   },
-  "674e524064788cc741418cd1": {
-    "id": "674e524064788cc741418cd1",
-    "idShort": "sI",
+  "sI": {
+    "id": "sI",
+    "idDofusDB": "674e524064788cc741418cd1",
     "idDofusBook": 6994,
     "name": {
       "fr": "Cape Hôte",
@@ -1740,9 +2027,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741418cd2": {
-    "id": "674e524064788cc741418cd2",
-    "idShort": "gM",
+  "gM": {
+    "id": "gM",
+    "idDofusDB": "674e524064788cc741418cd2",
     "idDofusBook": 6995,
     "name": {
       "fr": "Cape Houte",
@@ -1764,9 +2051,9 @@
       "airResist": 10
     }
   },
-  "674e524064788cc741418cdc": {
-    "id": "674e524064788cc741418cdc",
-    "idShort": "mj",
+  "mj": {
+    "id": "mj",
+    "idDofusDB": "674e524064788cc741418cdc",
     "idDofusBook": 7011,
     "name": {
       "fr": "Cape du Désir O'Boul",
@@ -1786,9 +2073,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741418d2a": {
-    "id": "674e524064788cc741418d2a",
-    "idShort": "Cv",
+  "Cv": {
+    "id": "Cv",
+    "idDofusDB": "674e524064788cc741418d2a",
     "idDofusBook": 7108,
     "name": {
       "fr": "Larvasac",
@@ -1805,9 +2092,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc741418d44": {
-    "id": "674e524064788cc741418d44",
-    "idShort": "xr",
+  "xr": {
+    "id": "xr",
+    "idDofusDB": "674e524064788cc741418d44",
     "idDofusBook": 7137,
     "name": {
       "fr": "Cape Huccino",
@@ -1825,9 +2112,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741418d45": {
-    "id": "674e524064788cc741418d45",
-    "idShort": "fb",
+  "fb": {
+    "id": "fb",
+    "idDofusDB": "674e524064788cc741418d45",
     "idDofusBook": 7138,
     "name": {
       "fr": "Ortiz",
@@ -1848,9 +2135,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc741418d68": {
-    "id": "674e524064788cc741418d68",
-    "idShort": "GI",
+  "GI": {
+    "id": "GI",
+    "idDofusDB": "674e524064788cc741418d68",
     "idDofusBook": 7174,
     "name": {
       "fr": "Cape Pandawushu",
@@ -1867,9 +2154,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418d9d": {
-    "id": "674e524064788cc741418d9d",
-    "idShort": "zk",
+  "zk": {
+    "id": "zk",
+    "idDofusDB": "674e524064788cc741418d9d",
     "idDofusBook": 7230,
     "name": {
       "fr": "Cape Akwadala",
@@ -1887,9 +2174,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418d9e": {
-    "id": "674e524064788cc741418d9e",
-    "idShort": "mD",
+  "mD": {
+    "id": "mD",
+    "idDofusDB": "674e524064788cc741418d9e",
     "idDofusBook": 7231,
     "name": {
       "fr": "Cape Terrdala",
@@ -1910,9 +2197,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418d9f": {
-    "id": "674e524064788cc741418d9f",
-    "idShort": "jQ",
+  "jQ": {
+    "id": "jQ",
+    "idDofusDB": "674e524064788cc741418d9f",
     "idDofusBook": 7232,
     "name": {
       "fr": "Cape Feudala",
@@ -1933,9 +2220,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418da0": {
-    "id": "674e524064788cc741418da0",
-    "idShort": "mq",
+  "mq": {
+    "id": "mq",
+    "idDofusDB": "674e524064788cc741418da0",
     "idDofusBook": 7233,
     "name": {
       "fr": "Cape Aerdala",
@@ -1956,9 +2243,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418dd5": {
-    "id": "674e524064788cc741418dd5",
-    "idShort": "mI",
+  "mI": {
+    "id": "mI",
+    "idDofusDB": "674e524064788cc741418dd5",
     "idDofusBook": 7340,
     "name": {
       "fr": "Cape du Kitsou",
@@ -1978,9 +2265,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418e31": {
-    "id": "674e524064788cc741418e31",
-    "idShort": "cX",
+  "cX": {
+    "id": "cX",
+    "idDofusDB": "674e524064788cc741418e31",
     "idDofusBook": 7515,
     "name": {
       "fr": "Cape Itaineflam",
@@ -2008,9 +2295,9 @@
       "trapPower": 15
     }
   },
-  "674e524064788cc741418e3e": {
-    "id": "674e524064788cc741418e3e",
-    "idShort": "vQ",
+  "vQ": {
+    "id": "vQ",
+    "idDofusDB": "674e524064788cc741418e3e",
     "idDofusBook": 7552,
     "name": {
       "fr": "Capodindo",
@@ -2040,9 +2327,9 @@
       "mp": 1
     }
   },
-  "674e524064788cc741418f2a": {
-    "id": "674e524064788cc741418f2a",
-    "idShort": "k1",
+  "k1": {
+    "id": "k1",
+    "idDofusDB": "674e524064788cc741418f2a",
     "idDofusBook": 7884,
     "name": {
       "fr": "Cape du Boufcoul",
@@ -2069,9 +2356,9 @@
       "mpResist": 4
     }
   },
-  "674e524064788cc741418f2e": {
-    "id": "674e524064788cc741418f2e",
-    "idShort": "md",
+  "md": {
+    "id": "md",
+    "idDofusDB": "674e524064788cc741418f2e",
     "idDofusBook": 7888,
     "name": {
       "fr": "Sac du Koulosse",
@@ -2098,9 +2385,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418f91": {
-    "id": "674e524064788cc741418f91",
-    "idShort": "mR",
+  "mR": {
+    "id": "mR",
+    "idDofusDB": "674e524064788cc741418f91",
     "idDofusBook": 8007,
     "name": {
       "fr": "Cape du Koalak",
@@ -2120,9 +2407,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418fcb": {
-    "id": "674e524064788cc741418fcb",
-    "idShort": "CB",
+  "CB": {
+    "id": "CB",
+    "idDofusDB": "674e524064788cc741418fcb",
     "idDofusBook": 8112,
     "name": {
       "fr": "Cape du Tofu",
@@ -2140,9 +2427,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418fcf": {
-    "id": "674e524064788cc741418fcf",
-    "idShort": "se",
+  "se": {
+    "id": "se",
+    "idDofusDB": "674e524064788cc741418fcf",
     "idDofusBook": 8117,
     "name": {
       "fr": "Scaracape Dorée",
@@ -2162,9 +2449,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741418fdd": {
-    "id": "674e524064788cc741418fdd",
-    "idShort": "FI",
+  "FI": {
+    "id": "FI",
+    "idDofusDB": "674e524064788cc741418fdd",
     "idDofusBook": 8131,
     "name": {
       "fr": "Sac du Paysan",
@@ -2181,9 +2468,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741418fe0": {
-    "id": "674e524064788cc741418fe0",
-    "idShort": "tO",
+  "tO": {
+    "id": "tO",
+    "idDofusDB": "674e524064788cc741418fe0",
     "idDofusBook": 8134,
     "name": {
       "fr": "Scaracape Noire",
@@ -2202,9 +2489,9 @@
       "trapPower": 20
     }
   },
-  "674e524064788cc741419005": {
-    "id": "674e524064788cc741419005",
-    "idShort": "ko",
+  "ko": {
+    "id": "ko",
+    "idDofusDB": "674e524064788cc741419005",
     "idDofusBook": 8181,
     "name": {
       "fr": "Craquelocape Légendaire",
@@ -2226,9 +2513,9 @@
       "lock": 10
     }
   },
-  "674e524064788cc741419019": {
-    "id": "674e524064788cc741419019",
-    "idShort": "HS",
+  "HS": {
+    "id": "HS",
+    "idDofusDB": "674e524064788cc741419019",
     "idDofusBook": 8231,
     "name": {
       "fr": "Cape du Piou Rouge",
@@ -2245,9 +2532,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc74141901a": {
-    "id": "674e524064788cc74141901a",
-    "idShort": "I6",
+  "I6": {
+    "id": "I6",
+    "idDofusDB": "674e524064788cc74141901a",
     "idDofusBook": 8232,
     "name": {
       "fr": "Cape du Piou Bleu",
@@ -2264,9 +2551,9 @@
       "waterDamage": 1
     }
   },
-  "674e524064788cc74141901b": {
-    "id": "674e524064788cc74141901b",
-    "idShort": "Hm",
+  "Hm": {
+    "id": "Hm",
+    "idDofusDB": "674e524064788cc74141901b",
     "idDofusBook": 8233,
     "name": {
       "fr": "Cape du Piou Jaune",
@@ -2283,9 +2570,9 @@
       "agility": 20
     }
   },
-  "674e524064788cc74141901c": {
-    "id": "674e524064788cc74141901c",
-    "idShort": "Gs",
+  "Gs": {
+    "id": "Gs",
+    "idDofusDB": "674e524064788cc74141901c",
     "idDofusBook": 8234,
     "name": {
       "fr": "Cape du Piou Violet",
@@ -2302,9 +2589,9 @@
       "initiative": 50
     }
   },
-  "674e524064788cc74141901d": {
-    "id": "674e524064788cc74141901d",
-    "idShort": "GE",
+  "GE": {
+    "id": "GE",
+    "idDofusDB": "674e524064788cc74141901d",
     "idDofusBook": 8235,
     "name": {
       "fr": "Cape du Piou Rose",
@@ -2321,9 +2608,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc74141901e": {
-    "id": "674e524064788cc74141901e",
-    "idShort": "HA",
+  "HA": {
+    "id": "HA",
+    "idDofusDB": "674e524064788cc74141901e",
     "idDofusBook": 8236,
     "name": {
       "fr": "Cape du Piou Vert",
@@ -2340,9 +2627,9 @@
       "earthDamage": 1
     }
   },
-  "674e524064788cc741419033": {
-    "id": "674e524064788cc741419033",
-    "idShort": "F1",
+  "F1": {
+    "id": "F1",
+    "idDofusDB": "674e524064788cc741419033",
     "idDofusBook": 8258,
     "name": {
       "fr": "Cape en Mousse",
@@ -2359,9 +2646,9 @@
       "agility": 15
     }
   },
-  "674e524064788cc741419039": {
-    "id": "674e524064788cc741419039",
-    "idShort": "do",
+  "do": {
+    "id": "do",
+    "idDofusDB": "674e524064788cc741419039",
     "idDofusBook": 8265,
     "name": {
       "fr": "Cape du Meulou",
@@ -2386,9 +2673,9 @@
       "fireResistPer": 10
     }
   },
-  "674e524064788cc741419047": {
-    "id": "674e524064788cc741419047",
-    "idShort": "gz",
+  "gz": {
+    "id": "gz",
+    "idDofusDB": "674e524064788cc741419047",
     "idDofusBook": 8279,
     "name": {
       "fr": "Cape du Minotoror",
@@ -2413,9 +2700,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419048": {
-    "id": "674e524064788cc741419048",
-    "idShort": "at",
+  "at": {
+    "id": "at",
+    "idDofusDB": "674e524064788cc741419048",
     "idDofusBook": 8280,
     "name": {
       "fr": "Cape du Minotot",
@@ -2437,9 +2724,9 @@
       "prospecting": 30
     }
   },
-  "674e524064788cc741419049": {
-    "id": "674e524064788cc741419049",
-    "idShort": "h3",
+  "h3": {
+    "id": "h3",
+    "idDofusDB": "674e524064788cc741419049",
     "idDofusBook": 8281,
     "name": {
       "fr": "Cape du Dragon Cochon",
@@ -2463,9 +2750,9 @@
       "fireResistPer": 3
     }
   },
-  "674e524064788cc74141904e": {
-    "id": "674e524064788cc74141904e",
-    "idShort": "f7",
+  "f7": {
+    "id": "f7",
+    "idDofusDB": "674e524064788cc74141904e",
     "idDofusBook": 8286,
     "name": {
       "fr": "Cape Dragoeuf",
@@ -2489,9 +2776,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524064788cc74141905e": {
-    "id": "674e524064788cc74141905e",
-    "idShort": "lt",
+  "lt": {
+    "id": "lt",
+    "idDofusDB": "674e524064788cc74141905e",
     "idDofusBook": 8302,
     "name": {
       "fr": "Cape de Shika",
@@ -2513,9 +2800,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741419078": {
-    "id": "674e524064788cc741419078",
-    "idShort": "FD",
+  "FD": {
+    "id": "FD",
+    "idDofusDB": "674e524064788cc741419078",
     "idDofusBook": 8333,
     "name": {
       "fr": "Cape du Papa Nowel",
@@ -2534,9 +2821,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741419099": {
-    "id": "674e524064788cc741419099",
-    "idShort": "9g",
+  "9g": {
+    "id": "9g",
+    "idDofusDB": "674e524064788cc741419099",
     "idDofusBook": 8366,
     "name": {
       "fr": "Cape du Petit Chapon Rouge",
@@ -2558,9 +2845,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc7414190bd": {
-    "id": "674e524064788cc7414190bd",
-    "idShort": "g6",
+  "g6": {
+    "id": "g6",
+    "idDofusDB": "674e524064788cc7414190bd",
     "idDofusBook": 8416,
     "name": {
       "fr": "Cape du Mominotor",
@@ -2584,9 +2871,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc7414190cc": {
-    "id": "674e524064788cc7414190cc",
-    "idShort": "gL",
+  "gL": {
+    "id": "gL",
+    "idDofusDB": "674e524064788cc7414190cc",
     "idDofusBook": 8443,
     "name": {
       "fr": "Cape du Rat Noir",
@@ -2612,9 +2899,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc7414190d5": {
-    "id": "674e524064788cc7414190d5",
-    "idShort": "hb",
+  "hb": {
+    "id": "hb",
+    "idDofusDB": "674e524064788cc7414190d5",
     "idDofusBook": 8452,
     "name": {
       "fr": "Cape du Rat Blanc",
@@ -2639,9 +2926,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc7414190db": {
-    "id": "674e524064788cc7414190db",
-    "idShort": "ev",
+  "ev": {
+    "id": "ev",
+    "idDofusDB": "674e524064788cc7414190db",
     "idDofusBook": 8458,
     "name": {
       "fr": "Cape Cérémoniale du Seigneur des Rats",
@@ -2668,9 +2955,9 @@
       "airResist": 6
     }
   },
-  "674e524064788cc7414190e1": {
-    "id": "674e524064788cc7414190e1",
-    "idShort": "g4",
+  "g4": {
+    "id": "g4",
+    "idDofusDB": "674e524064788cc7414190e1",
     "idDofusBook": 8464,
     "name": {
       "fr": "Abracapa Ancestrale",
@@ -2695,9 +2982,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc7414190e9": {
-    "id": "674e524064788cc7414190e9",
-    "idShort": "df",
+  "df": {
+    "id": "df",
+    "idDofusDB": "674e524064788cc7414190e9",
     "idDofusBook": 8472,
     "name": {
       "fr": "Cape Usée du Chêne Mou",
@@ -2723,9 +3010,9 @@
       "fireResist": 7
     }
   },
-  "674e524064788cc74141910f": {
-    "id": "674e524064788cc74141910f",
-    "idShort": "GB",
+  "GB": {
+    "id": "GB",
+    "idDofusDB": "674e524064788cc74141910f",
     "idDofusBook": 8521,
     "name": {
       "fr": "La cape rouge",
@@ -2741,9 +3028,9 @@
       "wisdom": -10
     }
   },
-  "674e524064788cc741419118": {
-    "id": "674e524064788cc741419118",
-    "idShort": "Jm",
+  "Jm": {
+    "id": "Jm",
+    "idDofusDB": "674e524064788cc741419118",
     "idDofusBook": 8534,
     "name": {
       "fr": "La Cape S'loque",
@@ -2760,9 +3047,9 @@
       "wisdom": 4
     }
   },
-  "674e524064788cc741419158": {
-    "id": "674e524064788cc741419158",
-    "idShort": "lq",
+  "lq": {
+    "id": "lq",
+    "idDofusDB": "674e524064788cc741419158",
     "idDofusBook": 8639,
     "name": {
       "fr": "Cape Aurale",
@@ -2776,9 +3063,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419159": {
-    "id": "674e524064788cc741419159",
-    "idShort": "lp",
+  "lp": {
+    "id": "lp",
+    "idDofusDB": "674e524064788cc741419159",
     "idDofusBook": 8640,
     "name": {
       "fr": "Cape Aillé",
@@ -2792,9 +3079,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915a": {
-    "id": "674e524064788cc74141915a",
-    "idShort": "lo",
+  "lo": {
+    "id": "lo",
+    "idDofusDB": "674e524064788cc74141915a",
     "idDofusBook": 8641,
     "name": {
       "fr": "Cape Routh",
@@ -2808,9 +3095,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915b": {
-    "id": "674e524064788cc74141915b",
-    "idShort": "ln",
+  "ln": {
+    "id": "ln",
+    "idDofusDB": "674e524064788cc74141915b",
     "idDofusBook": 8642,
     "name": {
       "fr": "Cape Huchon",
@@ -2824,9 +3111,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915c": {
-    "id": "674e524064788cc74141915c",
-    "idShort": "lm",
+  "lm": {
+    "id": "lm",
+    "idDofusDB": "674e524064788cc74141915c",
     "idDofusBook": 8643,
     "name": {
       "fr": "Cape Sulhit",
@@ -2840,9 +3127,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915d": {
-    "id": "674e524064788cc74141915d",
-    "idShort": "ll",
+  "ll": {
+    "id": "ll",
+    "idDofusDB": "674e524064788cc74141915d",
     "idDofusBook": 8644,
     "name": {
       "fr": "Cape Hitton",
@@ -2856,9 +3143,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915e": {
-    "id": "674e524064788cc74141915e",
-    "idShort": "lk",
+  "lk": {
+    "id": "lk",
+    "idDofusDB": "674e524064788cc74141915e",
     "idDofusBook": 8645,
     "name": {
       "fr": "Cape Ytale",
@@ -2872,9 +3159,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc74141915f": {
-    "id": "674e524064788cc74141915f",
-    "idShort": "lj",
+  "lj": {
+    "id": "lj",
+    "idDofusDB": "674e524064788cc74141915f",
     "idDofusBook": 8646,
     "name": {
       "fr": "Cape Lyne",
@@ -2888,9 +3175,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419160": {
-    "id": "674e524064788cc741419160",
-    "idShort": "li",
+  "li": {
+    "id": "li",
+    "idDofusDB": "674e524064788cc741419160",
     "idDofusBook": 8647,
     "name": {
       "fr": "Cape Wéra",
@@ -2904,9 +3191,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419161": {
-    "id": "674e524064788cc741419161",
-    "idShort": "lh",
+  "lh": {
+    "id": "lh",
+    "idDofusDB": "674e524064788cc741419161",
     "idDofusBook": 8648,
     "name": {
       "fr": "Cape Hulco",
@@ -2920,9 +3207,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419162": {
-    "id": "674e524064788cc741419162",
-    "idShort": "lg",
+  "lg": {
+    "id": "lg",
+    "idDofusDB": "674e524064788cc741419162",
     "idDofusBook": 8649,
     "name": {
       "fr": "Cape Hadosse",
@@ -2936,9 +3223,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419163": {
-    "id": "674e524064788cc741419163",
-    "idShort": "lf",
+  "lf": {
+    "id": "lf",
+    "idDofusDB": "674e524064788cc741419163",
     "idDofusBook": 8650,
     "name": {
       "fr": "Cape Haharnum",
@@ -2952,9 +3239,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc7414191f5": {
-    "id": "674e524064788cc7414191f5",
-    "idShort": "aO",
+  "aO": {
+    "id": "aO",
+    "idDofusDB": "674e524064788cc7414191f5",
     "idDofusBook": 8818,
     "name": {
       "fr": "Cape Souveraine du Roissingue",
@@ -2980,9 +3267,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc7414191f6": {
-    "id": "674e524064788cc7414191f6",
-    "idShort": "h1",
+  "h1": {
+    "id": "h1",
+    "idDofusDB": "674e524064788cc7414191f6",
     "idDofusBook": 8819,
     "name": {
       "fr": "Cape de la Ouassingue",
@@ -3011,9 +3298,9 @@
       "mpReduction": 3
     }
   },
-  "674e524064788cc741419220": {
-    "id": "674e524064788cc741419220",
-    "idShort": "gl",
+  "gl": {
+    "id": "gl",
+    "idDofusDB": "674e524064788cc741419220",
     "idDofusBook": 8866,
     "name": {
       "fr": "Puissante Cape Fulgurante",
@@ -3052,9 +3339,9 @@
       "damage": 5
     }
   },
-  "674e524064788cc741419221": {
-    "id": "674e524064788cc741419221",
-    "idShort": "mQ",
+  "mQ": {
+    "id": "mQ",
+    "idDofusDB": "674e524064788cc741419221",
     "idDofusBook": 8867,
     "name": {
       "fr": "Cape de la Meupette",
@@ -3073,9 +3360,9 @@
       "heal": 3
     }
   },
-  "674e524064788cc741419229": {
-    "id": "674e524064788cc741419229",
-    "idShort": "7I",
+  "7I": {
+    "id": "7I",
+    "idDofusDB": "674e524064788cc741419229",
     "idDofusBook": 8876,
     "name": {
       "fr": "Voile d'encre",
@@ -3099,9 +3386,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc74141924c": {
-    "id": "674e524064788cc74141924c",
-    "idShort": "C8",
+  "C8": {
+    "id": "C8",
+    "idDofusDB": "674e524064788cc74141924c",
     "idDofusBook": 8919,
     "name": {
       "fr": "Ailes en bois améliorées",
@@ -3119,9 +3406,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741419313": {
-    "id": "674e524064788cc741419313",
-    "idShort": "8m",
+  "8m": {
+    "id": "8m",
+    "idDofusDB": "674e524064788cc741419313",
     "idDofusBook": 9141,
     "name": {
       "fr": "Caprin",
@@ -3145,9 +3432,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc741419314": {
-    "id": "674e524064788cc741419314",
-    "idShort": "7N",
+  "7N": {
+    "id": "7N",
+    "idDofusDB": "674e524064788cc741419314",
     "idDofusBook": 9142,
     "name": {
       "fr": "Capignon",
@@ -3172,36 +3459,9 @@
       "neutralResist": 10
     }
   },
-  "674e524064788cc74141933a": {
-    "id": "674e524064788cc74141933a",
-    "idShort": "84",
-    "idDofusBook": 9180,
-    "name": {
-      "fr": "Cape Erforée",
-      "en": "Chee Cape",
-      "pt": "Capa Chee",
-      "de": "Lügenmäntelchen",
-      "es": "Caperforada"
-    },
-    "level": 185,
-    "panoply": "674e523f64788cc741418139",
-    "category": "cloak",
-    "stats": {
-      "health": 250,
-      "strength": 60,
-      "agility": 60,
-      "wisdom": 40,
-      "power": 10,
-      "range": 1,
-      "damage": 6,
-      "prospecting": 30,
-      "waterResistPer": 10,
-      "trapPower": 30
-    }
-  },
-  "674e524064788cc741419581": {
-    "id": "674e524064788cc741419581",
-    "idShort": "zf",
+  "zf": {
+    "id": "zf",
+    "idDofusDB": "674e524064788cc741419581",
     "idDofusBook": 10058,
     "name": {
       "fr": "Cape du Vampyre",
@@ -3220,9 +3480,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414196e0": {
-    "id": "674e524064788cc7414196e0",
-    "idShort": "t6",
+  "t6": {
+    "id": "t6",
+    "idDofusDB": "674e524064788cc7414196e0",
     "idDofusBook": 10686,
     "name": {
       "fr": "Cape du Roks Or",
@@ -3240,9 +3500,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc74141970b": {
-    "id": "674e524064788cc74141970b",
-    "idShort": "Jc",
+  "Jc": {
+    "id": "Jc",
+    "idDofusDB": "674e524064788cc74141970b",
     "idDofusBook": 10800,
     "name": {
       "fr": "Cape de l'intrépide",
@@ -3259,9 +3519,9 @@
       "initiative": 1
     }
   },
-  "674e524064788cc74141971a": {
-    "id": "674e524064788cc74141971a",
-    "idShort": "Cn",
+  "Cn": {
+    "id": "Cn",
+    "idDofusDB": "674e524064788cc74141971a",
     "idDofusBook": 10830,
     "name": {
       "fr": "Banana Cape",
@@ -3279,9 +3539,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741419728": {
-    "id": "674e524064788cc741419728",
-    "idShort": "mP",
+  "mP": {
+    "id": "mP",
+    "idDofusDB": "674e524064788cc741419728",
     "idDofusBook": 10846,
     "name": {
       "fr": "Phéro-Cape",
@@ -3301,9 +3561,9 @@
       "pods": 150
     }
   },
-  "674e524064788cc741419791": {
-    "id": "674e524064788cc741419791",
-    "idShort": "EF",
+  "EF": {
+    "id": "EF",
+    "idDofusDB": "674e524064788cc741419791",
     "idDofusBook": 10971,
     "name": {
       "fr": "Sac ripant",
@@ -3319,9 +3579,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141995f": {
-    "id": "674e524064788cc74141995f",
-    "idShort": "7n",
+  "7n": {
+    "id": "7n",
+    "idDofusDB": "674e524064788cc74141995f",
     "idDofusBook": 11472,
     "name": {
       "fr": "Grésilocape",
@@ -3348,9 +3608,9 @@
       "airResist": 10
     }
   },
-  "674e524064788cc7414199b8": {
-    "id": "674e524064788cc7414199b8",
-    "idShort": "db",
+  "db": {
+    "id": "db",
+    "idDofusDB": "674e524064788cc7414199b8",
     "idDofusBook": 11580,
     "name": {
       "fr": "Cape du Mansot Royal",
@@ -3378,9 +3638,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199b9": {
-    "id": "674e524064788cc7414199b9",
-    "idShort": "9J",
+  "9J": {
+    "id": "9J",
+    "idDofusDB": "674e524064788cc7414199b9",
     "idDofusBook": 11581,
     "name": {
       "fr": "Cape de l'Obsidiantre",
@@ -3410,9 +3670,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199d0": {
-    "id": "674e524064788cc7414199d0",
-    "idShort": "dX",
+  "dX": {
+    "id": "dX",
+    "idDofusDB": "674e524064788cc7414199d0",
     "idDofusBook": 11605,
     "name": {
       "fr": "Cape Ricieuse",
@@ -3441,9 +3701,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc7414199d1": {
-    "id": "674e524064788cc7414199d1",
-    "idShort": "9R",
+  "9R": {
+    "id": "9R",
+    "idDofusDB": "674e524064788cc7414199d1",
     "idDofusBook": 11606,
     "name": {
       "fr": "Cape Tivante",
@@ -3470,9 +3730,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419a29": {
-    "id": "674e524064788cc741419a29",
-    "idShort": "8O",
+  "8O": {
+    "id": "8O",
+    "idDofusDB": "674e524064788cc741419a29",
     "idDofusBook": 11708,
     "name": {
       "fr": "Cape de Tengu Givrefoux",
@@ -3500,9 +3760,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419a2d": {
-    "id": "674e524064788cc741419a2d",
-    "idShort": "8E",
+  "8E": {
+    "id": "8E",
+    "idDofusDB": "674e524064788cc741419a2d",
     "idDofusBook": 11712,
     "name": {
       "fr": "Cape du Korriandre",
@@ -3531,9 +3791,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419a34": {
-    "id": "674e524064788cc741419a34",
-    "idShort": "6e",
+  "6e": {
+    "id": "6e",
+    "idDofusDB": "674e524064788cc741419a34",
     "idDofusBook": 11719,
     "name": {
       "fr": "Cape du Glourséleste",
@@ -3563,9 +3823,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741419a3b": {
-    "id": "674e524064788cc741419a3b",
-    "idShort": "8S",
+  "8S": {
+    "id": "8S",
+    "idDofusDB": "674e524064788cc741419a3b",
     "idDofusBook": 11726,
     "name": {
       "fr": "Cape Surde",
@@ -3594,9 +3854,9 @@
       "apResist": -4
     }
   },
-  "674e524064788cc741419a3c": {
-    "id": "674e524064788cc741419a3c",
-    "idShort": "8g",
+  "8g": {
+    "id": "8g",
+    "idDofusDB": "674e524064788cc741419a3c",
     "idDofusBook": 11727,
     "name": {
       "fr": "Cape Peupret",
@@ -3629,9 +3889,9 @@
       "mpResist": -5
     }
   },
-  "674e524064788cc741419a3d": {
-    "id": "674e524064788cc741419a3d",
-    "idShort": "6H",
+  "6H": {
+    "id": "6H",
+    "idDofusDB": "674e524064788cc741419a3d",
     "idDofusBook": 11728,
     "name": {
       "fr": "Cape Hiculteur",
@@ -3661,9 +3921,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419b04": {
-    "id": "674e524064788cc741419b04",
-    "idShort": "yZ",
+  "yZ": {
+    "id": "yZ",
+    "idDofusDB": "674e524064788cc741419b04",
     "idDofusBook": 11980,
     "name": {
       "fr": "Cape du Boostache",
@@ -3681,9 +3941,9 @@
       "lock": 6
     }
   },
-  "674e524064788cc741419b57": {
-    "id": "674e524064788cc741419b57",
-    "idShort": "m2",
+  "m2": {
+    "id": "m2",
+    "idDofusDB": "674e524064788cc741419b57",
     "idDofusBook": 12070,
     "name": {
       "fr": "Cape de Nelween",
@@ -3704,9 +3964,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419b68": {
-    "id": "674e524064788cc741419b68",
-    "idShort": "fe",
+  "fe": {
+    "id": "fe",
+    "idDofusDB": "674e524064788cc741419b68",
     "idDofusBook": 12087,
     "name": {
       "fr": "Cape Mouthante",
@@ -3729,9 +3989,9 @@
       "lock": 10
     }
   },
-  "674e524064788cc741419b6e": {
-    "id": "674e524064788cc741419b6e",
-    "idShort": "aK",
+  "aK": {
+    "id": "aK",
+    "idDofusDB": "674e524064788cc741419b6e",
     "idDofusBook": 12093,
     "name": {
       "fr": "Cape de Cantile",
@@ -3761,9 +4021,9 @@
       "apResist": 4
     }
   },
-  "674e524064788cc741419b7d": {
-    "id": "674e524064788cc741419b7d",
-    "idShort": "7j",
+  "7j": {
+    "id": "7j",
+    "idDofusDB": "674e524064788cc741419b7d",
     "idDofusBook": 12108,
     "name": {
       "fr": "Cape du Professeur Xa",
@@ -3814,9 +4074,9 @@
       "waterResistPer": 4
     }
   },
-  "674e524064788cc741419b86": {
-    "id": "674e524064788cc741419b86",
-    "idShort": "7u",
+  "7u": {
+    "id": "7u",
+    "idDofusDB": "674e524064788cc741419b86",
     "idDofusBook": 12117,
     "name": {
       "fr": "Cape de la Fuji Givrefoux",
@@ -3845,9 +4105,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419c1d": {
-    "id": "674e524064788cc741419c1d",
-    "idShort": "jo",
+  "jo": {
+    "id": "jo",
+    "idDofusDB": "674e524064788cc741419c1d",
     "idDofusBook": 12371,
     "name": {
       "fr": "Cape du Gorgouille",
@@ -3874,9 +4134,9 @@
       "pushbackDamage": 8
     }
   },
-  "674e524064788cc741419c2d": {
-    "id": "674e524064788cc741419c2d",
-    "idShort": "kX",
+  "kX": {
+    "id": "kX",
+    "idDofusDB": "674e524064788cc741419c2d",
     "idDofusBook": 12387,
     "name": {
       "fr": "Cape Endaison",
@@ -3890,9 +4150,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419c2e": {
-    "id": "674e524064788cc741419c2e",
-    "idShort": "kW",
+  "kW": {
+    "id": "kW",
+    "idDofusDB": "674e524064788cc741419c2e",
     "idDofusBook": 12388,
     "name": {
       "fr": "Cape Aircussion",
@@ -3906,9 +4166,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419c40": {
-    "id": "674e524064788cc741419c40",
-    "idShort": "hh",
+  "hh": {
+    "id": "hh",
+    "idDofusDB": "674e524064788cc741419c40",
     "idDofusBook": 12413,
     "name": {
       "fr": "Cape du Krokilleur",
@@ -3935,9 +4195,9 @@
       "criticalResist": 6
     }
   },
-  "674e524064788cc741419c41": {
-    "id": "674e524064788cc741419c41",
-    "idShort": "vv",
+  "vv": {
+    "id": "vv",
+    "idDofusDB": "674e524064788cc741419c41",
     "idDofusBook": 12414,
     "name": {
       "fr": "Sac de Voyage du Parfait Petit Vulkain",
@@ -3956,9 +4216,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741419dab": {
-    "id": "674e524064788cc741419dab",
-    "idShort": "CJ",
+  "CJ": {
+    "id": "CJ",
+    "idDofusDB": "674e524064788cc741419dab",
     "idDofusBook": 12848,
     "name": {
       "fr": "Manteau du Glutin",
@@ -3977,9 +4237,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741419daf": {
-    "id": "674e524064788cc741419daf",
-    "idShort": "c9",
+  "c9": {
+    "id": "c9",
+    "idDofusDB": "674e524064788cc741419daf",
     "idDofusBook": 12852,
     "name": {
       "fr": "Cape du Nowel Cauchemardesque",
@@ -4003,9 +4263,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419db3": {
-    "id": "674e524064788cc741419db3",
-    "idShort": "kj",
+  "kj": {
+    "id": "kj",
+    "idDofusDB": "674e524064788cc741419db3",
     "idDofusBook": 12856,
     "name": {
       "fr": "Sacoche de Redolphe",
@@ -4027,9 +4287,9 @@
       "mpResist": 4
     }
   },
-  "674e524064788cc741419e64": {
-    "id": "674e524064788cc741419e64",
-    "idShort": "7f",
+  "7f": {
+    "id": "7f",
+    "idDofusDB": "674e524064788cc741419e64",
     "idDofusBook": 13127,
     "name": {
       "fr": "Cape de Léthaline",
@@ -4056,9 +4316,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524064788cc741419e68": {
-    "id": "674e524064788cc741419e68",
-    "idShort": "7Y",
+  "7Y": {
+    "id": "7Y",
+    "idDofusDB": "674e524064788cc741419e68",
     "idDofusBook": 13131,
     "name": {
       "fr": "Cape d'Ogivol",
@@ -4087,9 +4347,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419e9b": {
-    "id": "674e524064788cc741419e9b",
-    "idShort": "5E",
+  "5E": {
+    "id": "5E",
+    "idDofusDB": "674e524064788cc741419e9b",
     "idDofusBook": 13197,
     "name": {
       "fr": "Cape Reski",
@@ -4116,9 +4376,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524064788cc741419ed7": {
-    "id": "674e524064788cc741419ed7",
-    "idShort": "kV",
+  "kV": {
+    "id": "kV",
+    "idDofusDB": "674e524064788cc741419ed7",
     "idDofusBook": 13262,
     "name": {
       "fr": "Sac Rebleux",
@@ -4132,9 +4392,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524064788cc741419f15": {
-    "id": "674e524064788cc741419f15",
-    "idShort": "hg",
+  "hg": {
+    "id": "hg",
+    "idDofusDB": "674e524064788cc741419f15",
     "idDofusBook": 13327,
     "name": {
       "fr": "Capitrouille",
@@ -4162,9 +4422,9 @@
       "criticalResist": 8
     }
   },
-  "674e524064788cc74141a010": {
-    "id": "674e524064788cc74141a010",
-    "idShort": "eR",
+  "eR": {
+    "id": "eR",
+    "idDofusDB": "674e524064788cc74141a010",
     "idDofusBook": 13584,
     "name": {
       "fr": "Coffresac du Koalak",
@@ -4191,9 +4451,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524064788cc74141a035": {
-    "id": "674e524064788cc74141a035",
-    "idShort": "6C",
+  "6C": {
+    "id": "6C",
+    "idDofusDB": "674e524064788cc74141a035",
     "idDofusBook": 13635,
     "name": {
       "fr": "Cape de Nevark",
@@ -4221,9 +4481,9 @@
       "criticalDamage": -16
     }
   },
-  "674e524064788cc74141a038": {
-    "id": "674e524064788cc74141a038",
-    "idShort": "5C",
+  "5C": {
+    "id": "5C",
+    "idDofusDB": "674e524064788cc74141a038",
     "idDofusBook": 13638,
     "name": {
       "fr": "Cape de Théodoran Ax",
@@ -4252,9 +4512,9 @@
       "criticalDamage": -16
     }
   },
-  "674e524064788cc74141a03f": {
-    "id": "674e524064788cc74141a03f",
-    "idShort": "7b",
+  "7b": {
+    "id": "7b",
+    "idDofusDB": "674e524064788cc74141a03f",
     "idDofusBook": 13645,
     "name": {
       "fr": "Cape d'Hel Munster",
@@ -4285,9 +4545,9 @@
       "criticalResist": 15
     }
   },
-  "674e524064788cc74141a042": {
-    "id": "674e524064788cc74141a042",
-    "idShort": "6A",
+  "6A": {
+    "id": "6A",
+    "idDofusDB": "674e524064788cc74141a042",
     "idDofusBook": 13648,
     "name": {
       "fr": "Cape d'Aermyne",
@@ -4315,9 +4575,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524064788cc74141a04a": {
-    "id": "674e524064788cc74141a04a",
-    "idShort": "6z",
+  "6z": {
+    "id": "6z",
+    "idDofusDB": "674e524064788cc74141a04a",
     "idDofusBook": 13657,
     "name": {
       "fr": "Cape Matelassée",
@@ -4367,9 +4627,9 @@
       "criticalResist": -7
     }
   },
-  "674e524064788cc74141a183": {
-    "id": "674e524064788cc74141a183",
-    "idShort": "aR",
+  "aR": {
+    "id": "aR",
+    "idDofusDB": "674e524064788cc74141a183",
     "idDofusBook": 14001,
     "name": {
       "fr": "Pèlerine d'Augilol",
@@ -4394,63 +4654,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a1b5": {
-    "id": "674e524164788cc74141a1b5",
-    "idShort": "64",
-    "idDofusBook": 14051,
-    "name": {
-      "fr": "Cape de Klime",
-      "en": "Klime's Cloak",
-      "pt": "Capa do Klim",
-      "de": "Mantel von R.Klimm",
-      "es": "Capa de Klim"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141819b",
-    "category": "cloak",
-    "stats": {
-      "health": 350,
-      "agility": 70,
-      "wisdom": 50,
-      "criticalChance": 6,
-      "range": 1,
-      "airDamage": 18,
-      "prospecting": 15,
-      "initiative": 400,
-      "waterResistPer": 10,
-      "pushbackResist": 30
-    }
-  },
-  "674e524164788cc74141a1bb": {
-    "id": "674e524164788cc74141a1bb",
-    "idShort": "62",
-    "idDofusBook": 14057,
-    "name": {
-      "fr": "Cape Glaciale",
-      "en": "Glacial Cape",
-      "pt": "Capa Glacial",
-      "de": "Eiskalter Umhang",
-      "es": "Capa glacial"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141819d",
-    "category": "cloak",
-    "stats": {
-      "health": 350,
-      "chance": 80,
-      "wisdom": 50,
-      "criticalChance": 5,
-      "range": 1,
-      "waterDamage": 16,
-      "prospecting": 15,
-      "fireResistPer": 10,
-      "earthResist": 25,
-      "dodge": 15
-    }
-  },
-  "674e524164788cc74141a1c2": {
-    "id": "674e524164788cc74141a1c2",
-    "idShort": "5u",
+  "5u": {
+    "id": "5u",
+    "idDofusDB": "674e524164788cc74141a1c2",
     "idDofusBook": 14064,
     "name": {
       "fr": "Cape de Nileza",
@@ -4474,9 +4680,9 @@
       "airResistPer": 10
     }
   },
-  "674e524164788cc74141a1c9": {
-    "id": "674e524164788cc74141a1c9",
-    "idShort": "5t",
+  "5t": {
+    "id": "5t",
+    "idDofusDB": "674e524164788cc74141a1c9",
     "idDofusBook": 14071,
     "name": {
       "fr": "Cape de Sylargh",
@@ -4501,9 +4707,9 @@
       "mpResist": 6
     }
   },
-  "674e524164788cc74141a1cc": {
-    "id": "674e524164788cc74141a1cc",
-    "idShort": "5s",
+  "5s": {
+    "id": "5s",
+    "idDofusDB": "674e524164788cc74141a1cc",
     "idDofusBook": 14074,
     "name": {
       "fr": "Cape du Kanimate",
@@ -4531,38 +4737,9 @@
       "pushbackResist": -16
     }
   },
-  "674e524164788cc74141a1d7": {
-    "id": "674e524164788cc74141a1d7",
-    "idShort": "50",
-    "idDofusBook": 14085,
-    "name": {
-      "fr": "Cape du Sinistrofu",
-      "en": "Sinistrofu Cloak",
-      "pt": "Capa do Sinistrofu",
-      "de": "Sinistrofu-Umhang",
-      "es": "Capa de buhotofu"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418198",
-    "category": "cloak",
-    "stats": {
-      "health": 300,
-      "chance": 100,
-      "wisdom": 25,
-      "criticalChance": 5,
-      "earthDamage": -11,
-      "waterDamage": 18,
-      "heal": 10,
-      "prospecting": 20,
-      "neutralResistPer": 12,
-      "waterResistPer": 8,
-      "earthResist": 15,
-      "dodge": 12
-    }
-  },
-  "674e524164788cc74141a20d": {
-    "id": "674e524164788cc74141a20d",
-    "idShort": "4K",
+  "4K": {
+    "id": "4K",
+    "idDofusDB": "674e524164788cc74141a20d",
     "idDofusBook": 14159,
     "name": {
       "fr": "Cape Lati",
@@ -4591,9 +4768,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141a20f": {
-    "id": "674e524164788cc74141a20f",
-    "idShort": "4J",
+  "4J": {
+    "id": "4J",
+    "idDofusDB": "674e524164788cc74141a20f",
     "idDofusBook": 14161,
     "name": {
       "fr": "Cape Ovri",
@@ -4620,9 +4797,9 @@
       "lock": -11
     }
   },
-  "674e524164788cc74141a216": {
-    "id": "674e524164788cc74141a216",
-    "idShort": "5r",
+  "5r": {
+    "id": "5r",
+    "idDofusDB": "674e524164788cc74141a216",
     "idDofusBook": 14168,
     "name": {
       "fr": "Cape au Logis",
@@ -4646,9 +4823,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141a304": {
-    "id": "674e524164788cc74141a304",
-    "idShort": "kE",
+  "kE": {
+    "id": "kE",
+    "idDofusDB": "674e524164788cc74141a304",
     "idDofusBook": 14492,
     "name": {
       "fr": "Cape du Wa Wobot",
@@ -4672,9 +4849,9 @@
       "dodge": 3
     }
   },
-  "674e524164788cc74141a30d": {
-    "id": "674e524164788cc74141a30d",
-    "idShort": "fC",
+  "fC": {
+    "id": "fC",
+    "idDofusDB": "674e524164788cc74141a30d",
     "idDofusBook": 14501,
     "name": {
       "fr": "Cape du Wabbit Garou",
@@ -4698,9 +4875,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a452": {
-    "id": "674e524164788cc74141a452",
-    "idShort": "5Y",
+  "5Y": {
+    "id": "5Y",
+    "idDofusDB": "674e524164788cc74141a452",
     "idDofusBook": 14885,
     "name": {
       "fr": "Cape Parition",
@@ -4729,9 +4906,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141a486": {
-    "id": "674e524164788cc74141a486",
-    "idShort": "4B",
+  "4B": {
+    "id": "4B",
+    "idDofusDB": "674e524164788cc74141a486",
     "idDofusBook": 14937,
     "name": {
       "fr": "Cape des Justiciers",
@@ -4780,9 +4957,9 @@
       "airResistPer": 10
     }
   },
-  "674e524164788cc74141a4cc": {
-    "id": "674e524164788cc74141a4cc",
-    "idShort": "gp",
+  "gp": {
+    "id": "gp",
+    "idDofusDB": "674e524164788cc74141a4cc",
     "idDofusBook": 15013,
     "name": {
       "fr": "Cape de Flèche Mauve",
@@ -4805,9 +4982,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141a4cf": {
-    "id": "674e524164788cc74141a4cf",
-    "idShort": "zR",
+  "zR": {
+    "id": "zR",
+    "idDofusDB": "674e524164788cc74141a4cf",
     "idDofusBook": 15016,
     "name": {
       "fr": "Caponion",
@@ -4827,9 +5004,9 @@
       "lock": 3
     }
   },
-  "674e524164788cc74141a4f5": {
-    "id": "674e524164788cc74141a4f5",
-    "idShort": "9Z",
+  "9Z": {
+    "id": "9Z",
+    "idDofusDB": "674e524164788cc74141a4f5",
     "idDofusBook": 15061,
     "name": {
       "fr": "Cape du Kaniblou",
@@ -4854,9 +5031,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141a556": {
-    "id": "674e524164788cc74141a556",
-    "idShort": "4z",
+  "4z": {
+    "id": "4z",
+    "idDofusDB": "674e524164788cc74141a556",
     "idDofusBook": 15184,
     "name": {
       "fr": "Cape du Barbétoal",
@@ -4884,9 +5061,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141a563": {
-    "id": "674e524164788cc74141a563",
-    "idShort": "4m",
+  "4m": {
+    "id": "4m",
+    "idDofusDB": "674e524164788cc74141a563",
     "idDofusBook": 15197,
     "name": {
       "fr": "Cape du Kamasterisk",
@@ -4914,9 +5091,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141a566": {
-    "id": "674e524164788cc74141a566",
-    "idShort": "cP",
+  "cP": {
+    "id": "cP",
+    "idDofusDB": "674e524164788cc74141a566",
     "idDofusBook": 15200,
     "name": {
       "fr": "Cape Phossile",
@@ -4940,9 +5117,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141a568": {
-    "id": "674e524164788cc74141a568",
-    "idShort": "d2",
+  "d2": {
+    "id": "d2",
+    "idDofusDB": "674e524164788cc74141a568",
     "idDofusBook": 15202,
     "name": {
       "fr": "Cape du Père Phorreur",
@@ -4968,9 +5145,9 @@
       "criticalResist": 10
     }
   },
-  "674e524164788cc74141a56b": {
-    "id": "674e524164788cc74141a56b",
-    "idShort": "gQ",
+  "gQ": {
+    "id": "gQ",
+    "idDofusDB": "674e524164788cc74141a56b",
     "idDofusBook": 15207,
     "name": {
       "fr": "Cape Précieuse",
@@ -4996,9 +5173,9 @@
       "dodge": 10
     }
   },
-  "674e524164788cc74141a5f7": {
-    "id": "674e524164788cc74141a5f7",
-    "idShort": "ec",
+  "ec": {
+    "id": "ec",
+    "idDofusDB": "674e524164788cc74141a5f7",
     "idDofusBook": 15359,
     "name": {
       "fr": "Gruchape",
@@ -5023,9 +5200,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141a63b": {
-    "id": "674e524164788cc74141a63b",
-    "idShort": "4j",
+  "4j": {
+    "id": "4j",
+    "idDofusDB": "674e524164788cc74141a63b",
     "idDofusBook": 15430,
     "name": {
       "fr": "Cape de la Cour Sombre",
@@ -5051,9 +5228,9 @@
       "apReduction": 6
     }
   },
-  "674e524164788cc74141a644": {
-    "id": "674e524164788cc74141a644",
-    "idShort": "4a",
+  "4a": {
+    "id": "4a",
+    "idDofusDB": "674e524164788cc74141a644",
     "idDofusBook": 15439,
     "name": {
       "fr": "Cape des Malveilleurs",
@@ -5081,9 +5258,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141a67e": {
-    "id": "674e524164788cc74141a67e",
-    "idShort": "8f",
+  "8f": {
+    "id": "8f",
+    "idDofusDB": "674e524164788cc74141a67e",
     "idDofusBook": 15501,
     "name": {
       "fr": "Cape Nécrotique",
@@ -5110,9 +5287,9 @@
       "apReduction": 5
     }
   },
-  "674e524164788cc74141a681": {
-    "id": "674e524164788cc74141a681",
-    "idShort": "8e",
+  "8e": {
+    "id": "8e",
+    "idDofusDB": "674e524164788cc74141a681",
     "idDofusBook": 15504,
     "name": {
       "fr": "Cape de Dremoan",
@@ -5138,9 +5315,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141a694": {
-    "id": "674e524164788cc74141a694",
-    "idShort": "eZ",
+  "eZ": {
+    "id": "eZ",
+    "idDofusDB": "674e524164788cc74141a694",
     "idDofusBook": 15523,
     "name": {
       "fr": "Cape d'Ali Grothor",
@@ -5163,66 +5340,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141a73a": {
-    "id": "674e524164788cc74141a73a",
-    "idShort": "42",
-    "idDofusBook": 15696,
-    "name": {
-      "fr": "Capchalot",
-      "en": "Whailtail",
-      "pt": "Capalote",
-      "de": "Pottcape",
-      "es": "Capachalote"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414183e2",
-    "category": "cloak",
-    "stats": {
-      "health": 350,
-      "wisdom": 50,
-      "ap": 1,
-      "prospecting": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
-      "dodge": 10,
-      "apResist": 7,
-      "mpResist": 7,
-      "criticalResist": 15,
-      "pushbackResist": 15
-    }
-  },
-  "674e524164788cc74141a73b": {
-    "id": "674e524164788cc74141a73b",
-    "idShort": "41",
-    "idDofusBook": 15697,
-    "name": {
-      "fr": "Voilamibe",
-      "en": "Kapmeba",
-      "pt": "Capameba",
-      "de": "Capmöbe",
-      "es": "Velameba"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414183e1",
-    "category": "cloak",
-    "stats": {
-      "health": 400,
-      "wisdom": 50,
-      "power": 70,
-      "mp": 1,
-      "range": 1,
-      "neutralDamage": 15,
-      "earthDamage": 15,
-      "fireDamage": 15,
-      "waterDamage": 15,
-      "airDamage": 15,
-      "waterResistPer": 7,
-      "criticalDamage": -20
-    }
-  },
-  "674e524164788cc74141a765": {
-    "id": "674e524164788cc74141a765",
-    "idShort": "3U",
+  "3U": {
+    "id": "3U",
+    "idDofusDB": "674e524164788cc74141a765",
     "idDofusBook": 15739,
     "name": {
       "fr": "Capibou",
@@ -5250,9 +5370,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141a76d": {
-    "id": "674e524164788cc74141a76d",
-    "idShort": "3M",
+  "3M": {
+    "id": "3M",
+    "idDofusDB": "674e524164788cc74141a76d",
     "idDofusBook": 15747,
     "name": {
       "fr": "Capille",
@@ -5275,9 +5395,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524164788cc74141a798": {
-    "id": "674e524164788cc74141a798",
-    "idShort": "f5",
+  "f5": {
+    "id": "f5",
+    "idDofusDB": "674e524164788cc74141a798",
     "idDofusBook": 15791,
     "name": {
       "fr": "Cape Xélomorphe",
@@ -5304,9 +5424,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a858": {
-    "id": "674e524164788cc74141a858",
-    "idShort": "Au",
+  "Au": {
+    "id": "Au",
+    "idDofusDB": "674e524164788cc74141a858",
     "idDofusBook": 15993,
     "name": {
       "fr": "Cape Lumette",
@@ -5325,9 +5445,9 @@
       "range": 1
     }
   },
-  "674e524164788cc74141a8b3": {
-    "id": "674e524164788cc74141a8b3",
-    "idShort": "kT",
+  "kT": {
+    "id": "kT",
+    "idDofusDB": "674e524164788cc74141a8b3",
     "idDofusBook": 16141,
     "name": {
       "fr": "Cape Ortail",
@@ -5341,9 +5461,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524164788cc74141a8cf": {
-    "id": "674e524164788cc74141a8cf",
-    "idShort": "DU",
+  "DU": {
+    "id": "DU",
+    "idDofusDB": "674e524164788cc74141a8cf",
     "idDofusBook": 16171,
     "name": {
       "fr": "Cape Invisible",
@@ -5361,9 +5481,9 @@
       "dodge": 3
     }
   },
-  "674e524164788cc74141a8d5": {
-    "id": "674e524164788cc74141a8d5",
-    "idShort": "jG",
+  "jG": {
+    "id": "jG",
+    "idDofusDB": "674e524164788cc74141a8d5",
     "idDofusBook": 16177,
     "name": {
       "fr": "Caparak",
@@ -5387,9 +5507,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524164788cc74141a9e0": {
-    "id": "674e524164788cc74141a9e0",
-    "idShort": "Gn",
+  "Gn": {
+    "id": "Gn",
+    "idDofusDB": "674e524164788cc74141a9e0",
     "idDofusBook": 16501,
     "name": {
       "fr": "Cape de Kardorim",
@@ -5406,9 +5526,9 @@
       "chance": 10
     }
   },
-  "674e524164788cc74141a9e3": {
-    "id": "674e524164788cc74141a9e3",
-    "idShort": "HI",
+  "HI": {
+    "id": "HI",
+    "idDofusDB": "674e524164788cc74141a9e3",
     "idDofusBook": 16504,
     "name": {
       "fr": "Cape Syché",
@@ -5425,9 +5545,9 @@
       "power": 10
     }
   },
-  "674e524164788cc74141ab91": {
-    "id": "674e524164788cc74141ab91",
-    "idShort": "gZ",
+  "gZ": {
+    "id": "gZ",
+    "idDofusDB": "674e524164788cc74141ab91",
     "idDofusBook": 17093,
     "name": {
       "fr": "Cape de Moon",
@@ -5452,9 +5572,9 @@
       "mpResist": 4
     }
   },
-  "674e524164788cc74141ab95": {
-    "id": "674e524164788cc74141ab95",
-    "idShort": "9L",
+  "9L": {
+    "id": "9L",
+    "idDofusDB": "674e524164788cc74141ab95",
     "idDofusBook": 17097,
     "name": {
       "fr": "Cape du Bretteur Céleste",
@@ -5482,9 +5602,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141ab9e": {
-    "id": "674e524164788cc74141ab9e",
-    "idShort": "3B",
+  "3B": {
+    "id": "3B",
+    "idDofusDB": "674e524164788cc74141ab9e",
     "idDofusBook": 17106,
     "name": {
       "fr": "Cape de Kongoku",
@@ -5511,9 +5631,9 @@
       "criticalResist": 25
     }
   },
-  "674e524164788cc74141aba1": {
-    "id": "674e524164788cc74141aba1",
-    "idShort": "jO",
+  "jO": {
+    "id": "jO",
+    "idDofusDB": "674e524164788cc74141aba1",
     "idDofusBook": 17109,
     "name": {
       "fr": "Cape du Capitaine Pirate",
@@ -5537,9 +5657,9 @@
       "pushbackDamage": 7
     }
   },
-  "674e524164788cc74141ac82": {
-    "id": "674e524164788cc74141ac82",
-    "idShort": "kS",
+  "kS": {
+    "id": "kS",
+    "idDofusDB": "674e524164788cc74141ac82",
     "idDofusBook": 17449,
     "name": {
       "fr": "Cape Rimordiale",
@@ -5553,9 +5673,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524164788cc74141ace6": {
-    "id": "674e524164788cc74141ace6",
-    "idShort": "3t",
+  "3t": {
+    "id": "3t",
+    "idDofusDB": "674e524164788cc74141ace6",
     "idDofusBook": 17577,
     "name": {
       "fr": "Cape de la Dame du Hasard",
@@ -5584,9 +5704,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141ace9": {
-    "id": "674e524164788cc74141ace9",
-    "idShort": "3q",
+  "3q": {
+    "id": "3q",
+    "idDofusDB": "674e524164788cc74141ace9",
     "idDofusBook": 17580,
     "name": {
       "fr": "Cape du Chalœil",
@@ -5616,9 +5736,9 @@
       "criticalResist": 20
     }
   },
-  "674e524164788cc74141acec": {
-    "id": "674e524164788cc74141acec",
-    "idShort": "3n",
+  "3n": {
+    "id": "3n",
+    "idDofusDB": "674e524164788cc74141acec",
     "idDofusBook": 17583,
     "name": {
       "fr": "Cape du Valet Veinard",
@@ -5645,9 +5765,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141aced": {
-    "id": "674e524164788cc74141aced",
-    "idShort": "3m",
+  "3m": {
+    "id": "3m",
+    "idDofusDB": "674e524164788cc74141aced",
     "idDofusBook": 17584,
     "name": {
       "fr": "Cape d'Atcham",
@@ -5676,9 +5796,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141acf3": {
-    "id": "674e524164788cc74141acf3",
-    "idShort": "9K",
+  "9K": {
+    "id": "9K",
+    "idDofusDB": "674e524164788cc74141acf3",
     "idDofusBook": 17590,
     "name": {
       "fr": "Cape des Matougarous",
@@ -5704,9 +5824,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141acfb": {
-    "id": "674e524164788cc74141acfb",
-    "idShort": "g3",
+  "g3": {
+    "id": "g3",
+    "idDofusDB": "674e524164788cc74141acfb",
     "idDofusBook": 17598,
     "name": {
       "fr": "Cape des Ecaflipuces",
@@ -5733,9 +5853,9 @@
       "apResist": 4
     }
   },
-  "674e524164788cc74141ae65": {
-    "id": "674e524164788cc74141ae65",
-    "idShort": "3g",
+  "3g": {
+    "id": "3g",
+    "idDofusDB": "674e524164788cc74141ae65",
     "idDofusBook": 18002,
     "name": {
       "fr": "Cape de Diondin",
@@ -5779,9 +5899,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141ae68": {
-    "id": "674e524164788cc74141ae68",
-    "idShort": "3d",
+  "3d": {
+    "id": "3d",
+    "idDofusDB": "674e524164788cc74141ae68",
     "idDofusBook": 18005,
     "name": {
       "fr": "Cape de Mantaze",
@@ -5805,9 +5925,9 @@
       "lock": 20
     }
   },
-  "674e524164788cc74141ae6b": {
-    "id": "674e524164788cc74141ae6b",
-    "idShort": "3a",
+  "3a": {
+    "id": "3a",
+    "idDofusDB": "674e524164788cc74141ae6b",
     "idDofusBook": 18008,
     "name": {
       "fr": "Cape Indescriptible",
@@ -5829,39 +5949,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141ae7b": {
-    "id": "674e524164788cc74141ae7b",
-    "idShort": "33",
-    "idDofusBook": 18024,
-    "name": {
-      "fr": "Cape de Meno",
-      "en": "Meno Cape",
-      "pt": "Capa de Meno",
-      "de": "Menos Umhang",
-      "es": "Capa de Meno"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414181f5",
-    "category": "cloak",
-    "stats": {
-      "health": 400,
-      "intelligence": 50,
-      "chance": 50,
-      "wisdom": 40,
-      "criticalChance": 5,
-      "summon": 1,
-      "fireDamage": 12,
-      "waterDamage": 12,
-      "heal": 12,
-      "waterResistPer": 10,
-      "dodge": 10,
-      "mpReduction": 6,
-      "criticalDamage": 15
-    }
-  },
-  "674e524164788cc74141ae85": {
-    "id": "674e524164788cc74141ae85",
-    "idShort": "2U",
+  "2U": {
+    "id": "2U",
+    "idDofusDB": "674e524164788cc74141ae85",
     "idDofusBook": 18034,
     "name": {
       "fr": "Cape Luminescente",
@@ -5890,9 +5980,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141afef": {
-    "id": "674e524164788cc74141afef",
-    "idShort": "lC",
+  "lC": {
+    "id": "lC",
+    "idDofusDB": "674e524164788cc74141afef",
     "idDofusBook": 18423,
     "name": {
       "fr": "Cape Ouroboulos",
@@ -5914,9 +6004,9 @@
       "mpReduction": 3
     }
   },
-  "674e524164788cc74141aff2": {
-    "id": "674e524164788cc74141aff2",
-    "idShort": "ly",
+  "ly": {
+    "id": "ly",
+    "idDofusDB": "674e524164788cc74141aff2",
     "idDofusBook": 18426,
     "name": {
       "fr": "Cape du Désert",
@@ -5938,9 +6028,9 @@
       "apReduction": 3
     }
   },
-  "674e524164788cc74141aff7": {
-    "id": "674e524164788cc74141aff7",
-    "idShort": "ex",
+  "ex": {
+    "id": "ex",
+    "idDofusDB": "674e524164788cc74141aff7",
     "idDofusBook": 18431,
     "name": {
       "fr": "Capterre",
@@ -5966,9 +6056,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141b079": {
-    "id": "674e524164788cc74141b079",
-    "idShort": "9d",
+  "9d": {
+    "id": "9d",
+    "idDofusDB": "674e524164788cc74141b079",
     "idDofusBook": 18588,
     "name": {
       "fr": "Capikténia",
@@ -5996,9 +6086,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141b07c": {
-    "id": "674e524164788cc74141b07c",
-    "idShort": "2H",
+  "2H": {
+    "id": "2H",
+    "idDofusDB": "674e524164788cc74141b07c",
     "idDofusBook": 18591,
     "name": {
       "fr": "Chevelure de Tal Kasha",
@@ -6026,9 +6116,9 @@
       "criticalDamage": 30
     }
   },
-  "674e524164788cc74141b082": {
-    "id": "674e524164788cc74141b082",
-    "idShort": "2N",
+  "2N": {
+    "id": "2N",
+    "idDofusDB": "674e524164788cc74141b082",
     "idDofusBook": 18597,
     "name": {
       "fr": "Ankhape",
@@ -6055,9 +6145,9 @@
       "criticalDamage": -30
     }
   },
-  "674e524164788cc74141b08e": {
-    "id": "674e524164788cc74141b08e",
-    "idShort": "kO",
+  "kO": {
+    "id": "kO",
+    "idDofusDB": "674e524164788cc74141b08e",
     "idDofusBook": 18617,
     "name": {
       "fr": "Cape Hoile",
@@ -6071,9 +6161,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "674e524164788cc74141b120": {
-    "id": "674e524164788cc74141b120",
-    "idShort": "5T",
+  "5T": {
+    "id": "5T",
+    "idDofusDB": "674e524164788cc74141b120",
     "idDofusBook": 18777,
     "name": {
       "fr": "Cape Tif",
@@ -6099,9 +6189,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141b1d7": {
-    "id": "674e524164788cc74141b1d7",
-    "idShort": "2x",
+  "2x": {
+    "id": "2x",
+    "idDofusDB": "674e524164788cc74141b1d7",
     "idDofusBook": 19076,
     "name": {
       "fr": "Cape d'Anerice",
@@ -6125,9 +6215,9 @@
       "airResistPer": 7
     }
   },
-  "674e524164788cc74141b1dd": {
-    "id": "674e524164788cc74141b1dd",
-    "idShort": "m8",
+  "m8": {
+    "id": "m8",
+    "idDofusDB": "674e524164788cc74141b1dd",
     "idDofusBook": 19082,
     "name": {
       "fr": "Cape du Scorbute",
@@ -6149,9 +6239,9 @@
       "heal": 10
     }
   },
-  "674e524164788cc74141b1e3": {
-    "id": "674e524164788cc74141b1e3",
-    "idShort": "jS",
+  "jS": {
+    "id": "jS",
+    "idDofusDB": "674e524164788cc74141b1e3",
     "idDofusBook": 19088,
     "name": {
       "fr": "Cape Riktus",
@@ -6173,9 +6263,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141b1e6": {
-    "id": "674e524164788cc74141b1e6",
-    "idShort": "hx",
+  "hx": {
+    "id": "hx",
+    "idDofusDB": "674e524164788cc74141b1e6",
     "idDofusBook": 19091,
     "name": {
       "fr": "Cape du Muloubar",
@@ -6201,9 +6291,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141b26c": {
-    "id": "674e524164788cc74141b26c",
-    "idShort": "2q",
+  "2q": {
+    "id": "2q",
+    "idDofusDB": "674e524164788cc74141b26c",
     "idDofusBook": 19243,
     "name": {
       "fr": "Cape du Cœur Vaillant",
@@ -6231,9 +6321,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141b26f": {
-    "id": "674e524164788cc74141b26f",
-    "idShort": "2n",
+  "2n": {
+    "id": "2n",
+    "idDofusDB": "674e524164788cc74141b26f",
     "idDofusBook": 19246,
     "name": {
       "fr": "Cape du Cœur Saignant",
@@ -6261,9 +6351,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141b276": {
-    "id": "674e524164788cc74141b276",
-    "idShort": "2g",
+  "2g": {
+    "id": "2g",
+    "idDofusDB": "674e524164788cc74141b276",
     "idDofusBook": 19253,
     "name": {
       "fr": "Cape de l'Œil Attentif",
@@ -6289,9 +6379,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141b279": {
-    "id": "674e524164788cc74141b279",
-    "idShort": "2d",
+  "2d": {
+    "id": "2d",
+    "idDofusDB": "674e524164788cc74141b279",
     "idDofusBook": 19256,
     "name": {
       "fr": "Cape de l'Œil Putride",
@@ -6319,38 +6409,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141b398": {
-    "id": "674e524164788cc74141b398",
-    "idShort": "20",
-    "idDofusBook": 19589,
-    "name": {
-      "fr": "Cape Ardente",
-      "en": "Burning Cape",
-      "pt": "Capa Ardente",
-      "de": "Feuriger Umhang",
-      "es": "Capa ardiente"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418213",
-    "category": "cloak",
-    "stats": {
-      "health": 400,
-      "intelligence": 70,
-      "wisdom": 50,
-      "criticalChance": -10,
-      "fireDamage": 15,
-      "heal": 10,
-      "prospecting": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "lock": 7,
-      "apReduction": 7,
-      "mpResist": 7
-    }
-  },
-  "674e524164788cc74141b39a": {
-    "id": "674e524164788cc74141b39a",
-    "idShort": "1Y",
+  "1Y": {
+    "id": "1Y",
+    "idDofusDB": "674e524164788cc74141b39a",
     "idDofusBook": 19591,
     "name": {
       "fr": "Sac Volcanique",
@@ -6377,9 +6438,9 @@
       "lock": 15
     }
   },
-  "674e524164788cc74141b3a4": {
-    "id": "674e524164788cc74141b3a4",
-    "idShort": "1Q",
+  "1Q": {
+    "id": "1Q",
+    "idDofusDB": "674e524164788cc74141b3a4",
     "idDofusBook": 19601,
     "name": {
       "fr": "Cape de Crânonier",
@@ -6403,9 +6464,9 @@
       "pushbackResist": 35
     }
   },
-  "674e524164788cc74141b3aa": {
-    "id": "674e524164788cc74141b3aa",
-    "idShort": "1M",
+  "1M": {
+    "id": "1M",
+    "idDofusDB": "674e524164788cc74141b3aa",
     "idDofusBook": 19607,
     "name": {
       "fr": "Cape Solution",
@@ -6451,9 +6512,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141b518": {
-    "id": "674e524164788cc74141b518",
-    "idShort": "1F",
+  "1F": {
+    "id": "1F",
+    "idDofusDB": "674e524164788cc74141b518",
     "idDofusBook": 19979,
     "name": {
       "fr": "Cape Martegel",
@@ -6481,9 +6542,9 @@
       "dodge": 7
     }
   },
-  "674e524164788cc74141b677": {
-    "id": "674e524164788cc74141b677",
-    "idShort": "1u",
+  "1u": {
+    "id": "1u",
+    "idDofusDB": "674e524164788cc74141b677",
     "idDofusBook": 20361,
     "name": {
       "fr": "Bravoure de Rykke Errel",
@@ -6512,9 +6573,9 @@
       "criticalResist": -30
     }
   },
-  "674e524164788cc74141b678": {
-    "id": "674e524164788cc74141b678",
-    "idShort": "1t",
+  "1t": {
+    "id": "1t",
+    "idDofusDB": "674e524164788cc74141b678",
     "idDofusBook": 20362,
     "name": {
       "fr": "Noblesse de Jahash Jurgen",
@@ -6534,9 +6595,9 @@
       "spellDamagePer": 4
     }
   },
-  "674e524164788cc74141b6db": {
-    "id": "674e524164788cc74141b6db",
-    "idShort": "1n",
+  "1n": {
+    "id": "1n",
+    "idDofusDB": "674e524164788cc74141b6db",
     "idDofusBook": 20464,
     "name": {
       "fr": "Cape Paztek",
@@ -6564,9 +6625,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141b87c": {
-    "id": "674e524164788cc74141b87c",
-    "idShort": "e5",
+  "e5": {
+    "id": "e5",
+    "idDofusDB": "674e524164788cc74141b87c",
     "idDofusBook": 20983,
     "name": {
       "fr": "Sac à Croquer",
@@ -6590,9 +6651,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141b960": {
-    "id": "674e524164788cc74141b960",
-    "idShort": "1b",
+  "1b": {
+    "id": "1b",
+    "idDofusDB": "674e524164788cc74141b960",
     "idDofusBook": 21230,
     "name": {
       "fr": "Carapace de Torkélonia",
@@ -6619,39 +6680,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141bcf3": {
-    "id": "674e524164788cc74141bcf3",
-    "idShort": "11",
-    "idDofusBook": 22201,
-    "name": {
-      "fr": "Manteau de Servitude",
-      "en": "Servitude's Coat",
-      "pt": "Manto de Servidão",
-      "de": "Knechtschafts Mantel",
-      "es": "Abrigo de Servidumbre"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418224",
-    "category": "cloak",
-    "stats": {
-      "health": 400,
-      "chance": 100,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "waterDamage": 20,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "waterResistPer": 7,
-      "lock": 10,
-      "dodge": -5,
-      "apReduction": -10,
-      "mpResist": 10,
-      "pushbackResist": 40
-    }
-  },
-  "674e524164788cc74141bd01": {
-    "id": "674e524164788cc74141bd01",
-    "idShort": "0V",
+  "0V": {
+    "id": "0V",
+    "idDofusDB": "674e524164788cc74141bd01",
     "idDofusBook": 22215,
     "name": {
       "fr": "Parure du Vautour",
@@ -6677,9 +6708,9 @@
       "pushbackDamage": 60
     }
   },
-  "674e524164788cc74141bdaa": {
-    "id": "674e524164788cc74141bdaa",
-    "idShort": "0U",
+  "0U": {
+    "id": "0U",
+    "idDofusDB": "674e524164788cc74141bdaa",
     "idDofusBook": 22412,
     "name": {
       "fr": "Pestilence de Corruption",
@@ -6710,9 +6741,9 @@
       "meleeResistPer": 5
     }
   },
-  "674e524164788cc74141bf1a": {
-    "id": "674e524164788cc74141bf1a",
-    "idShort": "eX",
+  "eX": {
+    "id": "eX",
+    "idDofusDB": "674e524164788cc74141bf1a",
     "idDofusBook": 23253,
     "name": {
       "fr": "Kwarapace",
@@ -6737,9 +6768,9 @@
       "apResist": 6
     }
   },
-  "674e524164788cc74141bf21": {
-    "id": "674e524164788cc74141bf21",
-    "idShort": "g2",
+  "g2": {
+    "id": "g2",
+    "idDofusDB": "674e524164788cc74141bf21",
     "idDofusBook": 23260,
     "name": {
       "fr": "Capistil",
@@ -6771,9 +6802,9 @@
       "lock": 6
     }
   },
-  "674e524164788cc74141bf25": {
-    "id": "674e524164788cc74141bf25",
-    "idShort": "eB",
+  "eB": {
+    "id": "eB",
+    "idDofusDB": "674e524164788cc74141bf25",
     "idDofusBook": 23264,
     "name": {
       "fr": "Caparavent",
@@ -6797,9 +6828,9 @@
       "mpResist": 10
     }
   },
-  "674e524164788cc74141bf2d": {
-    "id": "674e524164788cc74141bf2d",
-    "idShort": "dQ",
+  "dQ": {
+    "id": "dQ",
+    "idDofusDB": "674e524164788cc74141bf2d",
     "idDofusBook": 23272,
     "name": {
       "fr": "Crache-feu Firefoux",
@@ -6824,9 +6855,9 @@
       "dodge": 6
     }
   },
-  "674e524164788cc74141bf2e": {
-    "id": "674e524164788cc74141bf2e",
-    "idShort": "dj",
+  "dj": {
+    "id": "dj",
+    "idDofusDB": "674e524164788cc74141bf2e",
     "idDofusBook": 23273,
     "name": {
       "fr": "Sac des Firefoux",
@@ -6850,9 +6881,9 @@
       "fireResist": 10
     }
   },
-  "674e524164788cc74141c077": {
-    "id": "674e524164788cc74141c077",
-    "idShort": "aA",
+  "aA": {
+    "id": "aA",
+    "idDofusDB": "674e524164788cc74141c077",
     "idDofusBook": 23618,
     "name": {
       "fr": "Sac mortuaire de Jiangshi-Nobi",
@@ -6882,9 +6913,9 @@
       "apReduction": 4
     }
   },
-  "674e524164788cc74141c081": {
-    "id": "674e524164788cc74141c081",
-    "idShort": "a5",
+  "a5": {
+    "id": "a5",
+    "idDofusDB": "674e524164788cc74141c081",
     "idDofusBook": 23628,
     "name": {
       "fr": "Fût d'Aspiratueur",
@@ -6915,9 +6946,9 @@
       "pushbackResist": -15
     }
   },
-  "674e524164788cc74141c1fe": {
-    "id": "674e524164788cc74141c1fe",
-    "idShort": "0O",
+  "0O": {
+    "id": "0O",
+    "idDofusDB": "674e524164788cc74141c1fe",
     "idDofusBook": 24027,
     "name": {
       "fr": "Cape Ostrophe",
@@ -6948,9 +6979,9 @@
       "mpResist": -12
     }
   },
-  "674e524164788cc74141c371": {
-    "id": "674e524164788cc74141c371",
-    "idShort": "0D",
+  "0D": {
+    "id": "0D",
+    "idDofusDB": "674e524164788cc74141c371",
     "idDofusBook": 25221,
     "name": {
       "fr": "Ailes du Chaos",
@@ -6996,9 +7027,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141c611": {
-    "id": "674e524164788cc74141c611",
-    "idShort": "cT",
+  "cT": {
+    "id": "cT",
+    "idDofusDB": "674e524164788cc74141c611",
     "idDofusBook": 26313,
     "name": {
       "fr": "Cape d'Hell Mina",
@@ -7023,9 +7054,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141c92a": {
-    "id": "674e524164788cc74141c92a",
-    "idShort": "0t",
+  "0t": {
+    "id": "0t",
+    "idDofusDB": "674e524164788cc74141c92a",
     "idDofusBook": 27512,
     "name": {
       "fr": "Âmes Hurlantes",
@@ -7053,9 +7084,9 @@
       "pushbackResist": 25
     }
   },
-  "674e524164788cc74141c934": {
-    "id": "674e524164788cc74141c934",
-    "idShort": "tX",
+  "tX": {
+    "id": "tX",
+    "idDofusDB": "674e524164788cc74141c934",
     "idDofusBook": 27523,
     "name": {
       "fr": "Cape des Rebelles",
@@ -7077,9 +7108,9 @@
       "fireDamage": 7
     }
   },
-  "674e524164788cc74141c93a": {
-    "id": "674e524164788cc74141c93a",
-    "idShort": "tW",
+  "tW": {
+    "id": "tW",
+    "idDofusDB": "674e524164788cc74141c93a",
     "idDofusBook": 27529,
     "name": {
       "fr": "Queue de Rakoopeur",
@@ -7100,9 +7131,9 @@
       "airDamage": 2
     }
   },
-  "674e524164788cc74141c950": {
-    "id": "674e524164788cc74141c950",
-    "idShort": "kN",
+  "kN": {
+    "id": "kN",
+    "idDofusDB": "674e524164788cc74141c950",
     "idDofusBook": 27552,
     "name": {
       "fr": "Cape Anthéon",
@@ -7116,9 +7147,9 @@
     "category": "cloak",
     "stats": {}
   },
-  "687f71551c815173560617f1": {
-    "id": "687f71551c815173560617f1",
-    "idShort": "8H",
+  "8H": {
+    "id": "8H",
+    "idDofusDB": "687f71551c815173560617f1",
     "idDofusBook": 31750,
     "name": {
       "fr": "Carapace ailée du Supervizœuf",
@@ -7144,9 +7175,9 @@
       "dodge": 10
     }
   },
-  "687f71551c81517356061804": {
-    "id": "687f71551c81517356061804",
-    "idShort": "5N",
+  "5N": {
+    "id": "5N",
+    "idDofusDB": "687f71551c81517356061804",
     "idDofusBook": 31769,
     "name": {
       "fr": "Portail des Voyageurs",
@@ -7173,40 +7204,9 @@
       "pushbackDamage": 15
     }
   },
-  "687f71551c8151735606181c": {
-    "id": "687f71551c8151735606181c",
-    "idShort": "98",
-    "idDofusBook": 31793,
-    "name": {
-      "fr": "Panier de zœufs",
-      "en": "Bzzegg Basket",
-      "pt": "Cesta de Zovos",
-      "de": "Zeier-Korb",
-      "es": "Cesta de bzuevos"
-    },
-    "level": 172,
-    "panoply": "687f71541c815173560616bc",
-    "category": "cloak",
-    "stats": {
-      "health": 200,
-      "strength": 40,
-      "intelligence": 40,
-      "wisdom": 30,
-      "summon": 2,
-      "damage": 6,
-      "heal": 8,
-      "prospecting": 10,
-      "pods": 500,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
-      "apResist": 6,
-      "mpResist": 6,
-      "pushbackResist": -20
-    }
-  },
-  "687f71551c8151735606181f": {
-    "id": "687f71551c8151735606181f",
-    "idShort": "06",
+  "06": {
+    "id": "06",
+    "idDofusDB": "687f71551c8151735606181f",
     "idDofusBook": 31797,
     "name": {
       "fr": "Manteau du Vénérable Endormi",

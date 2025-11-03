@@ -10,13 +10,10 @@ import {
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
 
-export type DofusBookDBIdMap = Record<
-    string,
-    { name: string; id: number; official: number; shortId: string }
->;
+export type DofusBookDBIdMap = Record<string, { name: string; dofusBookId: number; id: string }>;
 export type DofusBookDBNameMap = Record<
     string,
-    { dofusDBId: string; id: number; official: number; shortId: string }
+    { dofusDBId: string; dofusBookId: number; id: string }
 >;
 
 const dbPath = "./src/db/data";
@@ -112,27 +109,27 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                 continue;
             }
             let dofusBookId: number;
-            let shortId: string;
+            let dofusMinMaxId: string;
             if (!dofusBookIdMap[dofusDbItem._id]) {
                 if (!dofusBookNameMap[dofusDbItem.name.fr]) {
                     console.log("item has no match in dofusbook", dofusDbItem.name.fr);
                     continue;
                 } else {
-                    dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
-                    shortId = dofusBookNameMap[dofusDbItem.name.fr]!.shortId;
+                    dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId;
+                    dofusMinMaxId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
                     console.log(
                         "There was no id match but found name match",
                         dofusDbItem.name.fr,
-                        dofusBookNameMap[dofusDbItem.name.fr]!.id,
+                        dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId,
                     );
                 }
             } else {
-                dofusBookId = dofusBookIdMap[dofusDbItem._id]!.id;
-                shortId = dofusBookIdMap[dofusDbItem._id]!.shortId;
+                dofusBookId = dofusBookIdMap[dofusDbItem._id]!.dofusBookId;
+                dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
             }
 
             // shortId = nextValue(shortId);
-            const newItem = translateItem(dofusDbItem, category, shortId, dofusBookId);
+            const newItem = translateItem(dofusDbItem, category, dofusMinMaxId, dofusBookId);
             if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
                 continue;
             } else {
@@ -141,7 +138,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                     continue;
                 }
                 itemNames.push(dofusDbItem.name.fr);
-                items[dofusDbItem._id] = newItem;
+                items[dofusMinMaxId] = newItem;
             }
         }
 
@@ -155,14 +152,14 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
 export function translateItem(
     dofusDbItem: ItemResp,
     category: ItemCategory,
-    shortId: string,
+    dofusMinMaxId: string,
     dofusBookId: number,
 ): Item {
     const requirements = translateCriterions(dofusDbItem.criterions);
     const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
-        id: dofusDbItem._id,
-        idShort: shortId,
+        id: dofusMinMaxId,
+        idDofusDB: dofusDbItem._id,
         idDofusBook: dofusBookId,
         name: {
             fr: dofusDbItem.name.fr,

@@ -41,7 +41,7 @@ export type Build = {
     diffBuild?: Build;
 
     export: {
-        dofusDBUrl: string;
+        // dofusDBUrl: string;
         dofusBookUrl: string;
     };
 };

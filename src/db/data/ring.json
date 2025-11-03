@@ -1,7 +1,391 @@
 {
-  "674e524064788cc7414184f3": {
-    "id": "674e524064788cc7414184f3",
-    "idShort": "Hu",
+  "13": {
+    "id": "13",
+    "idDofusDB": "674e524164788cc74141bcef",
+    "idDofusBook": 22192,
+    "name": {
+      "fr": "Ceste de Guerre",
+      "en": "War's Gauntlet",
+      "pt": "Manopla de Guerra",
+      "de": "Kriegs Cestus",
+      "es": "Lanza de Guerra"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418223",
+    "category": "ring",
+    "stats": {
+      "health": 350,
+      "intelligence": 60,
+      "wisdom": 30,
+      "criticalChance": 4,
+      "fireDamage": 10,
+      "heal": -10,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "criticalDamage": 15
+    }
+  },
+  "19": {
+    "id": "19",
+    "idDofusDB": "674e524164788cc74141bce9",
+    "idDofusBook": 22186,
+    "name": {
+      "fr": "Convoitise de Misère",
+      "en": "Misery's Greed",
+      "pt": "Cobiça de Miséria",
+      "de": "Elends Gier",
+      "es": "Codicia de Miseria"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418222",
+    "category": "ring",
+    "stats": {
+      "health": 300,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "airResistPer": 10,
+      "lock": -10,
+      "apResist": 10,
+      "criticalDamage": 10
+    }
+  },
+  "25": {
+    "id": "25",
+    "idDofusDB": "674e524164788cc74141b281",
+    "idDofusBook": 19264,
+    "name": {
+      "fr": "Alliance Brûlâme",
+      "en": "Soul-Blaze Wedding Ring",
+      "pt": "Aliança de Almardente",
+      "de": "Trauring der Brennenden Seele",
+      "es": "Alianza quemaalmas"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418212",
+    "category": "ring",
+    "stats": {
+      "health": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 30,
+      "neutralDamage": 7,
+      "earthDamage": 7,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7
+    }
+  },
+  "40": {
+    "id": "40",
+    "idDofusDB": "674e524164788cc74141a73c",
+    "idDofusBook": 15698,
+    "name": {
+      "fr": "Anneau de Pol Ouatnos",
+      "en": "Pawl Ouatnos' Ring",
+      "pt": "Anel do Pow Uatisson",
+      "de": "Kapitän Pol Tawnos Ring",
+      "es": "Anillo de Pol Guatson"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414183e0",
+    "category": "ring",
+    "stats": {
+      "health": 300,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "mp": 1,
+      "range": 1,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "lock": 10
+    }
+  },
+  "49": {
+    "id": "49",
+    "idDofusDB": "674e524164788cc74141a645",
+    "idDofusBook": 15440,
+    "name": {
+      "fr": "Anneau du Katcheur",
+      "en": "Rassler Ring",
+      "pt": "Anel do lutador de Ketch",
+      "de": "Wresstel-Ring",
+      "es": "Anillo de luchador de presinkach"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414181c7",
+    "category": "ring",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "initiative": 400
+    }
+  },
+  "57": {
+    "id": "57",
+    "idDofusDB": "674e524164788cc74141a1cf",
+    "idDofusBook": 14077,
+    "name": {
+      "fr": "Anneau du Comte Harebourg",
+      "en": "Count Harebourg's Ring",
+      "pt": "Anel do Conde Traspafrent",
+      "de": "Ring von Graf Primzahl",
+      "es": "Anillo del conde Kontatrás"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418193",
+    "category": "ring",
+    "stats": {
+      "health": 350,
+      "strength": 50,
+      "wisdom": 50,
+      "criticalChance": 7,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "initiative": -401,
+      "criticalResist": 25
+    }
+  },
+  "61": {
+    "id": "61",
+    "idDofusDB": "674e524164788cc74141a1bc",
+    "idDofusBook": 14058,
+    "name": {
+      "fr": "Anneau Glacial",
+      "en": "Glacial Ring",
+      "pt": "Anel Glacial",
+      "de": "Eiskalter Ring",
+      "es": "Anillo glacial"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141819d",
+    "category": "ring",
+    "stats": {
+      "health": 250,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "dodge": 8,
+      "criticalResist": 20
+    }
+  },
+  "65": {
+    "id": "65",
+    "idDofusDB": "674e524064788cc74141a03c",
+    "idDofusBook": 13642,
+    "name": {
+      "fr": "Anneau de Padgref",
+      "en": "Nomarow's Ring",
+      "pt": "Anel de Nondome",
+      "de": "Ring des Knöchernen Marks",
+      "es": "Anillo de Noai Aludem"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141818b",
+    "category": "ring",
+    "stats": {
+      "health": 100,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "range": 1,
+      "summon": 1,
+      "fireDamage": 7,
+      "airDamage": 7,
+      "waterResistPer": 8,
+      "earthResist": 10,
+      "airResist": 10,
+      "lock": -4,
+      "mpResist": -3,
+      "criticalDamage": 12
+    }
+  },
+  "67": {
+    "id": "67",
+    "idDofusDB": "674e524064788cc741419e62",
+    "idDofusBook": 13124,
+    "name": {
+      "fr": "Anneau d'Allister",
+      "en": "Allister's Ring",
+      "pt": "Anel de Allister",
+      "de": "Allisters Prunkring",
+      "es": "Anillo de Allister"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141817f",
+    "category": "ring",
+    "stats": {
+      "health": 250,
+      "agility": 75,
+      "wisdom": 45,
+      "criticalChance": 5,
+      "summon": 1,
+      "airDamage": 15,
+      "prospecting": 15,
+      "apResist": 6,
+      "criticalResist": 15
+    }
+  },
+  "75": {
+    "id": "75",
+    "idDofusDB": "674e524064788cc74141995c",
+    "idDofusBook": 11469,
+    "name": {
+      "fr": "Frimanneau",
+      "en": "Sleet Ring",
+      "pt": "Anel da Geada",
+      "de": "Raureifring",
+      "es": "Congeladillo"
+    },
+    "level": 195,
+    "panoply": "674e523f64788cc74141814c",
+    "category": "ring",
+    "stats": {
+      "health": 250,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "damage": 12,
+      "prospecting": 20,
+      "initiative": 300,
+      "earthResistPer": 10,
+      "neutralResist": 10,
+      "fireResist": 10,
+      "waterResist": 10
+    }
+  },
+  "78": {
+    "id": "78",
+    "idDofusDB": "674e524164788cc74141c937",
+    "idDofusBook": 27526,
+    "name": {
+      "fr": "Anneau Clochecuivre",
+      "en": "Copperbeard Ring",
+      "pt": "Anel Sinocobre",
+      "de": "Glockenleder-Ring",
+      "es": "Anillo Decobre"
+    },
+    "level": 194,
+    "panoply": "674e523f64788cc74141823c",
+    "category": "ring",
+    "stats": {
+      "health": 250,
+      "strength": 30,
+      "intelligence": 40,
+      "agility": 50,
+      "wisdom": 20,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 8,
+      "airDamage": 10,
+      "heal": 10,
+      "prospecting": 10,
+      "initiative": -200,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "pushbackDamage": 10
+    }
+  },
+  "80": {
+    "id": "80",
+    "idDofusDB": "674e524064788cc74141930b",
+    "idDofusBook": 9133,
+    "name": {
+      "fr": "Alliance Boletée",
+      "en": "Fungal Ring",
+      "pt": "Aliança Boletada",
+      "de": "Fungiering",
+      "es": "Alianza Boletusa"
+    },
+    "level": 186,
+    "panoply": "674e523f64788cc741418138",
+    "category": "ring",
+    "stats": {
+      "health": 150,
+      "intelligence": 50,
+      "wisdom": 40,
+      "summon": 2,
+      "damage": 5,
+      "heal": 10,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "neutralResist": 10,
+      "waterResist": 10
+    }
+  },
+  "91": {
+    "id": "91",
+    "idDofusDB": "674e524064788cc741419338",
+    "idDofusBook": 9178,
+    "name": {
+      "fr": "Anneau Bliteré",
+      "en": "Nose Ring",
+      "pt": "Anel de Nariz",
+      "de": "Akkumulierring",
+      "es": "Anillo Bliterado"
+    },
+    "level": 174,
+    "panoply": "674e523f64788cc74141813a",
+    "category": "ring",
+    "stats": {
+      "health": 200,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "earthResistPer": 10,
+      "earthResist": 10
+    }
+  },
+  "95": {
+    "id": "95",
+    "idDofusDB": "674e524064788cc741419b76",
+    "idDofusBook": 12101,
+    "name": {
+      "fr": "Alliance de Guten Tak",
+      "en": "Guten Tak's Wedding Ring",
+      "pt": "Aliança de Guten Tak",
+      "de": "Guten Tarks Ehering",
+      "es": "Alianza de Gwen Astarde"
+    },
+    "level": 173,
+    "panoply": "674e523f64788cc74141816a",
+    "category": "ring",
+    "stats": {
+      "health": 350,
+      "wisdom": 30,
+      "range": 1,
+      "prospecting": 10,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "fireResist": 20,
+      "airResist": 20,
+      "dodge": 10,
+      "pushbackResist": 15
+    }
+  },
+  "Hu": {
+    "id": "Hu",
+    "idDofusDB": "674e524064788cc7414184f3",
     "idDofusBook": 103,
     "name": {
       "fr": "Anneau de Sagesse",
@@ -16,9 +400,9 @@
       "wisdom": 10
     }
   },
-  "674e524064788cc7414184f4": {
-    "id": "674e524064788cc7414184f4",
-    "idShort": "Ht",
+  "Ht": {
+    "id": "Ht",
+    "idDofusDB": "674e524064788cc7414184f4",
     "idDofusBook": 112,
     "name": {
       "fr": "Anneau de Chance",
@@ -33,9 +417,9 @@
       "chance": 10
     }
   },
-  "674e524064788cc7414184f5": {
-    "id": "674e524064788cc7414184f5",
-    "idShort": "Hs",
+  "Hs": {
+    "id": "Hs",
+    "idDofusDB": "674e524064788cc7414184f5",
     "idDofusBook": 121,
     "name": {
       "fr": "Anneau d'Agilité",
@@ -50,9 +434,9 @@
       "agility": 10
     }
   },
-  "674e524064788cc741418527": {
-    "id": "674e524064788cc741418527",
-    "idShort": "GA",
+  "GA": {
+    "id": "GA",
+    "idDofusDB": "674e524064788cc741418527",
     "idDofusBook": 278,
     "name": {
       "fr": "Anneau des Rocheuses",
@@ -68,9 +452,9 @@
       "agility": 10
     }
   },
-  "674e524064788cc74141855a": {
-    "id": "674e524064788cc74141855a",
-    "idShort": "FP",
+  "FP": {
+    "id": "FP",
+    "idDofusDB": "674e524064788cc74141855a",
     "idDofusBook": 346,
     "name": {
       "fr": "Anneau Rak",
@@ -87,9 +471,9 @@
       "waterDamage": 1
     }
   },
-  "674e524064788cc741418560": {
-    "id": "674e524064788cc741418560",
-    "idShort": "Gp",
+  "Gp": {
+    "id": "Gp",
+    "idDofusDB": "674e524064788cc741418560",
     "idDofusBook": 355,
     "name": {
       "fr": "L'Anneau de Valeur",
@@ -106,9 +490,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418564": {
-    "id": "674e524064788cc741418564",
-    "idShort": "Ch",
+  "Ch": {
+    "id": "Ch",
+    "idDofusDB": "674e524064788cc741418564",
     "idDofusBook": 359,
     "name": {
       "fr": "L'Ecaliseur",
@@ -125,9 +509,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc74141863a": {
-    "id": "674e524064788cc74141863a",
-    "idShort": "Cz",
+  "Cz": {
+    "id": "Cz",
+    "idDofusDB": "674e524064788cc74141863a",
     "idDofusBook": 732,
     "name": {
       "fr": "Alliance de Silimelle",
@@ -148,9 +532,9 @@
       "mpReduction": 2
     }
   },
-  "674e524064788cc741418652": {
-    "id": "674e524064788cc741418652",
-    "idShort": "If",
+  "If": {
+    "id": "If",
+    "idDofusDB": "674e524064788cc741418652",
     "idDofusBook": 767,
     "name": {
       "fr": "Gantie Royal",
@@ -165,9 +549,9 @@
       "strength": 7
     }
   },
-  "674e524064788cc741418653": {
-    "id": "674e524064788cc741418653",
-    "idShort": "Iq",
+  "Iq": {
+    "id": "Iq",
+    "idDofusDB": "674e524064788cc741418653",
     "idDofusBook": 768,
     "name": {
       "fr": "Camaïneux",
@@ -182,9 +566,9 @@
       "health": 10
     }
   },
-  "674e524064788cc741418662": {
-    "id": "674e524064788cc741418662",
-    "idShort": "Ha",
+  "Ha": {
+    "id": "Ha",
+    "idDofusDB": "674e524064788cc741418662",
     "idDofusBook": 785,
     "name": {
       "fr": "Anneau Fortifiant",
@@ -199,9 +583,9 @@
       "strength": 10
     }
   },
-  "674e524064788cc741418664": {
-    "id": "674e524064788cc741418664",
-    "idShort": "J8",
+  "J8": {
+    "id": "J8",
+    "idDofusDB": "674e524064788cc741418664",
     "idDofusBook": 787,
     "name": {
       "fr": "Anneau Rexik",
@@ -216,9 +600,9 @@
       "agility": 5
     }
   },
-  "674e524064788cc741418688": {
-    "id": "674e524064788cc741418688",
-    "idShort": "zQ",
+  "zQ": {
+    "id": "zQ",
+    "idDofusDB": "674e524064788cc741418688",
     "idDofusBook": 836,
     "name": {
       "fr": "Abranneau",
@@ -239,9 +623,9 @@
       "range": 1
     }
   },
-  "674e524064788cc74141868c": {
-    "id": "674e524064788cc74141868c",
-    "idShort": "HL",
+  "HL": {
+    "id": "HL",
+    "idDofusDB": "674e524064788cc74141868c",
     "idDofusBook": 841,
     "name": {
       "fr": "Anneau de Satisfaction",
@@ -260,9 +644,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc741418694": {
-    "id": "674e524064788cc741418694",
-    "idShort": "IA",
+  "IA": {
+    "id": "IA",
+    "idDofusDB": "674e524064788cc741418694",
     "idDofusBook": 849,
     "name": {
       "fr": "Anneau Forcesque",
@@ -277,9 +661,9 @@
       "strength": 5
     }
   },
-  "674e524064788cc741418695": {
-    "id": "674e524064788cc741418695",
-    "idShort": "Iz",
+  "Iz": {
+    "id": "Iz",
+    "idDofusDB": "674e524064788cc741418695",
     "idDofusBook": 850,
     "name": {
       "fr": "Anneau Agilesque",
@@ -294,9 +678,9 @@
       "agility": 5
     }
   },
-  "674e524064788cc741418696": {
-    "id": "674e524064788cc741418696",
-    "idShort": "Iy",
+  "Iy": {
+    "id": "Iy",
+    "idDofusDB": "674e524064788cc741418696",
     "idDofusBook": 851,
     "name": {
       "fr": "Anneau Vitalesque",
@@ -311,9 +695,9 @@
       "health": 10
     }
   },
-  "674e524064788cc741418697": {
-    "id": "674e524064788cc741418697",
-    "idShort": "IV",
+  "IV": {
+    "id": "IV",
+    "idDofusDB": "674e524064788cc741418697",
     "idDofusBook": 852,
     "name": {
       "fr": "Petit Anneau Magique",
@@ -328,9 +712,9 @@
       "intelligence": 7
     }
   },
-  "674e524064788cc741418698": {
-    "id": "674e524064788cc741418698",
-    "idShort": "IU",
+  "IU": {
+    "id": "IU",
+    "idDofusDB": "674e524064788cc741418698",
     "idDofusBook": 853,
     "name": {
       "fr": "Petit Anneau du Chanceux",
@@ -345,9 +729,9 @@
       "chance": 7
     }
   },
-  "674e524064788cc741418714": {
-    "id": "674e524064788cc741418714",
-    "idShort": "G8",
+  "G8": {
+    "id": "G8",
+    "idDofusDB": "674e524064788cc741418714",
     "idDofusBook": 1087,
     "name": {
       "fr": "Anneau du Mental",
@@ -362,9 +746,9 @@
       "intelligence": 15
     }
   },
-  "674e524064788cc741418793": {
-    "id": "674e524064788cc741418793",
-    "idShort": "G4",
+  "G4": {
+    "id": "G4",
+    "idDofusDB": "674e524064788cc741418793",
     "idDofusBook": 1493,
     "name": {
       "fr": "Blessure du Sacrieur",
@@ -380,9 +764,9 @@
       "strength": 10
     }
   },
-  "674e524064788cc741418794": {
-    "id": "674e524064788cc741418794",
-    "idShort": "G3",
+  "G3": {
+    "id": "G3",
+    "idDofusDB": "674e524064788cc741418794",
     "idDofusBook": 1494,
     "name": {
       "fr": "Le Bagueur",
@@ -399,9 +783,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741418795": {
-    "id": "674e524064788cc741418795",
-    "idShort": "AK",
+  "AK": {
+    "id": "AK",
+    "idDofusDB": "674e524064788cc741418795",
     "idDofusBook": 1495,
     "name": {
       "fr": "L'Anneau Dhyn",
@@ -420,9 +804,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc741418796": {
-    "id": "674e524064788cc741418796",
-    "idShort": "Dz",
+  "Dz": {
+    "id": "Dz",
+    "idDofusDB": "674e524064788cc741418796",
     "idDofusBook": 1496,
     "name": {
       "fr": "Chance d'Ecaflip",
@@ -439,9 +823,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741418797": {
-    "id": "674e524064788cc741418797",
-    "idShort": "BN",
+  "BN": {
+    "id": "BN",
+    "idDofusDB": "674e524064788cc741418797",
     "idDofusBook": 1497,
     "name": {
       "fr": "Passé de Xélor",
@@ -458,9 +842,9 @@
       "wisdom": 15
     }
   },
-  "674e524064788cc741418798": {
-    "id": "674e524064788cc741418798",
-    "idShort": "BM",
+  "BM": {
+    "id": "BM",
+    "idDofusDB": "674e524064788cc741418798",
     "idDofusBook": 1498,
     "name": {
       "fr": "Souvenir d'Enutrof",
@@ -477,9 +861,9 @@
       "wisdom": 15
     }
   },
-  "674e524064788cc741418799": {
-    "id": "674e524064788cc741418799",
-    "idShort": "rT",
+  "rT": {
+    "id": "rT",
+    "idDofusDB": "674e524064788cc741418799",
     "idDofusBook": 1499,
     "name": {
       "fr": "L'Enutrofion",
@@ -497,9 +881,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc7414187c7": {
-    "id": "674e524064788cc7414187c7",
-    "idShort": "wv",
+  "wv": {
+    "id": "wv",
+    "idDofusDB": "674e524064788cc7414187c7",
     "idDofusBook": 1559,
     "name": {
       "fr": "Abranneau Mou",
@@ -521,9 +905,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414187d1": {
-    "id": "674e524064788cc7414187d1",
-    "idShort": "w7",
+  "w7": {
+    "id": "w7",
+    "idDofusDB": "674e524064788cc7414187d1",
     "idDofusBook": 1602,
     "name": {
       "fr": "Abranneau Sombre",
@@ -542,9 +926,9 @@
       "wisdom": 5
     }
   },
-  "674e524064788cc7414187de": {
-    "id": "674e524064788cc7414187de",
-    "idShort": "IJ",
+  "IJ": {
+    "id": "IJ",
+    "idDofusDB": "674e524064788cc7414187de",
     "idDofusBook": 1628,
     "name": {
       "fr": "Artefact Feu",
@@ -560,9 +944,9 @@
       "intelligence": 1
     }
   },
-  "674e524064788cc7414187df": {
-    "id": "674e524064788cc7414187df",
-    "idShort": "II",
+  "II": {
+    "id": "II",
+    "idDofusDB": "674e524064788cc7414187df",
     "idDofusBook": 1629,
     "name": {
       "fr": "Artefact Terre",
@@ -578,9 +962,9 @@
       "intelligence": -10
     }
   },
-  "674e524064788cc7414187e0": {
-    "id": "674e524064788cc7414187e0",
-    "idShort": "IH",
+  "IH": {
+    "id": "IH",
+    "idDofusDB": "674e524064788cc7414187e0",
     "idDofusBook": 1630,
     "name": {
       "fr": "Artefact Air",
@@ -596,9 +980,9 @@
       "wisdom": -10
     }
   },
-  "674e524064788cc7414187e1": {
-    "id": "674e524064788cc7414187e1",
-    "idShort": "IG",
+  "IG": {
+    "id": "IG",
+    "idDofusDB": "674e524064788cc7414187e1",
     "idDofusBook": 1631,
     "name": {
       "fr": "Artefact Eau",
@@ -614,9 +998,9 @@
       "chance": 1
     }
   },
-  "674e524064788cc7414187e2": {
-    "id": "674e524064788cc7414187e2",
-    "idShort": "IF",
+  "IF": {
+    "id": "IF",
+    "idDofusDB": "674e524064788cc7414187e2",
     "idDofusBook": 1632,
     "name": {
       "fr": "Artefact Lumière",
@@ -632,9 +1016,9 @@
       "wisdom": 1
     }
   },
-  "674e524064788cc7414187e3": {
-    "id": "674e524064788cc7414187e3",
-    "idShort": "IE",
+  "IE": {
+    "id": "IE",
+    "idDofusDB": "674e524064788cc7414187e3",
     "idDofusBook": 1633,
     "name": {
       "fr": "Artefact Vie",
@@ -650,9 +1034,9 @@
       "chance": -10
     }
   },
-  "674e524064788cc7414187ec": {
-    "id": "674e524064788cc7414187ec",
-    "idShort": "Cy",
+  "Cy": {
+    "id": "Cy",
+    "idDofusDB": "674e524064788cc7414187ec",
     "idDofusBook": 1656,
     "name": {
       "fr": "Fécaliseur du Magicien",
@@ -669,9 +1053,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc7414187ed": {
-    "id": "674e524064788cc7414187ed",
-    "idShort": "Cx",
+  "Cx": {
+    "id": "Cx",
+    "idDofusDB": "674e524064788cc7414187ed",
     "idDofusBook": 1657,
     "name": {
       "fr": "Fécaliseur du Guerrier",
@@ -688,9 +1072,9 @@
       "earthResistPer": 2
     }
   },
-  "674e524064788cc741418824": {
-    "id": "674e524064788cc741418824",
-    "idShort": "zv",
+  "zv": {
+    "id": "zv",
+    "idDofusDB": "674e524064788cc741418824",
     "idDofusBook": 1718,
     "name": {
       "fr": "Force de Crocoburio",
@@ -709,9 +1093,9 @@
       "earthDamage": 2
     }
   },
-  "674e524064788cc74141882e": {
-    "id": "674e524064788cc74141882e",
-    "idShort": "CE",
+  "CE": {
+    "id": "CE",
+    "idDofusDB": "674e524064788cc74141882e",
     "idDofusBook": 1729,
     "name": {
       "fr": "Anneau Mèr",
@@ -744,9 +1128,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418a0a": {
-    "id": "674e524064788cc741418a0a",
-    "idShort": "yd",
+  "yd": {
+    "id": "yd",
+    "idDofusDB": "674e524064788cc741418a0a",
     "idDofusBook": 2418,
     "name": {
       "fr": "Kwakanneau de Flammes",
@@ -763,9 +1147,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741418a0b": {
-    "id": "674e524064788cc741418a0b",
-    "idShort": "Dk",
+  "Dk": {
+    "id": "Dk",
+    "idDofusDB": "674e524064788cc741418a0b",
     "idDofusBook": 2419,
     "name": {
       "fr": "Anneau de Bouze le Clerc",
@@ -782,9 +1166,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418a0c": {
-    "id": "674e524064788cc741418a0c",
-    "idShort": "zu",
+  "zu": {
+    "id": "zu",
+    "idDofusDB": "674e524064788cc741418a0c",
     "idDofusBook": 2420,
     "name": {
       "fr": "Anobra",
@@ -802,9 +1186,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418a1f": {
-    "id": "674e524064788cc741418a1f",
-    "idShort": "Bw",
+  "Bw": {
+    "id": "Bw",
+    "idDofusDB": "674e524064788cc741418a1f",
     "idDofusBook": 2441,
     "name": {
       "fr": "Anneau Royal du Bouftou",
@@ -821,9 +1205,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418a34": {
-    "id": "674e524064788cc741418a34",
-    "idShort": "n9",
+  "n9": {
+    "id": "n9",
+    "idDofusDB": "674e524064788cc741418a34",
     "idDofusBook": 2469,
     "name": {
       "fr": "Gelano",
@@ -839,9 +1223,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc741418a3a": {
-    "id": "674e524064788cc741418a3a",
-    "idShort": "In",
+  "In": {
+    "id": "In",
+    "idDofusDB": "674e524064788cc741418a3a",
     "idDofusBook": 2475,
     "name": {
       "fr": "Anneau de l'Aventurier",
@@ -860,9 +1244,9 @@
       "agility": 2
     }
   },
-  "674e524064788cc741418b0d": {
-    "id": "674e524064788cc741418b0d",
-    "idShort": "tE",
+  "tE": {
+    "id": "tE",
+    "idDofusDB": "674e524064788cc741418b0d",
     "idDofusBook": 3203,
     "name": {
       "fr": "Anneau Tribal",
@@ -880,9 +1264,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418b38": {
-    "id": "674e524064788cc741418b38",
-    "idShort": "xf",
+  "xf": {
+    "id": "xf",
+    "idDofusDB": "674e524064788cc741418b38",
     "idDofusBook": 6463,
     "name": {
       "fr": "Anneau Forain",
@@ -900,9 +1284,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418b39": {
-    "id": "674e524064788cc741418b39",
-    "idShort": "zo",
+  "zo": {
+    "id": "zo",
+    "idDofusDB": "674e524064788cc741418b39",
     "idDofusBook": 6464,
     "name": {
       "fr": "Anneau de l'Invocateur Satisfait",
@@ -922,9 +1306,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741418b3a": {
-    "id": "674e524064788cc741418b3a",
-    "idShort": "m1",
+  "m1": {
+    "id": "m1",
+    "idDofusDB": "674e524064788cc741418b3a",
     "idDofusBook": 6465,
     "name": {
       "fr": "Anneau de Loopine",
@@ -945,9 +1329,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418b3c": {
-    "id": "674e524064788cc741418b3c",
-    "idShort": "mh",
+  "mh": {
+    "id": "mh",
+    "idDofusDB": "674e524064788cc741418b3c",
     "idDofusBook": 6467,
     "name": {
       "fr": "Anneau Nime",
@@ -967,9 +1351,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418b3d": {
-    "id": "674e524064788cc741418b3d",
-    "idShort": "rS",
+  "rS": {
+    "id": "rS",
+    "idDofusDB": "674e524064788cc741418b3d",
     "idDofusBook": 6468,
     "name": {
       "fr": "Anneau du Jeune Vald",
@@ -988,9 +1372,9 @@
       "waterResistPer": 2
     }
   },
-  "674e524064788cc741418b3e": {
-    "id": "674e524064788cc741418b3e",
-    "idShort": "k9",
+  "k9": {
+    "id": "k9",
+    "idDofusDB": "674e524064788cc741418b3e",
     "idDofusBook": 6469,
     "name": {
       "fr": "Alliance de Farle",
@@ -1011,9 +1395,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418b62": {
-    "id": "674e524064788cc741418b62",
-    "idShort": "kl",
+  "kl": {
+    "id": "kl",
+    "idDofusDB": "674e524064788cc741418b62",
     "idDofusBook": 6506,
     "name": {
       "fr": "Anneau du Mineur Gogorifiant",
@@ -1035,9 +1419,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418c0c": {
-    "id": "674e524064788cc741418c0c",
-    "idShort": "D9",
+  "D9": {
+    "id": "D9",
+    "idDofusDB": "674e524064788cc741418c0c",
     "idDofusBook": 6722,
     "name": {
       "fr": "Alliance de l'Homme Ours",
@@ -1055,9 +1439,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418c11": {
-    "id": "674e524064788cc741418c11",
-    "idShort": "y9",
+  "y9": {
+    "id": "y9",
+    "idDofusDB": "674e524064788cc741418c11",
     "idDofusBook": 6732,
     "name": {
       "fr": "Kwakanneau de Glace",
@@ -1074,9 +1458,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418c17": {
-    "id": "674e524064788cc741418c17",
-    "idShort": "gO",
+  "gO": {
+    "id": "gO",
+    "idDofusDB": "674e524064788cc741418c17",
     "idDofusBook": 6743,
     "name": {
       "fr": "Fourballiance",
@@ -1101,9 +1485,9 @@
       "airResist": 7
     }
   },
-  "674e524064788cc741418c1c": {
-    "id": "674e524064788cc741418c1c",
-    "idShort": "y6",
+  "y6": {
+    "id": "y6",
+    "idDofusDB": "674e524064788cc741418c1c",
     "idDofusBook": 6748,
     "name": {
       "fr": "Kwakanneau de Terre",
@@ -1120,9 +1504,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418c1d": {
-    "id": "674e524064788cc741418c1d",
-    "idShort": "y5",
+  "y5": {
+    "id": "y5",
+    "idDofusDB": "674e524064788cc741418c1d",
     "idDofusBook": 6749,
     "name": {
       "fr": "Kwakanneau de Vent",
@@ -1139,9 +1523,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418c2f": {
-    "id": "674e524064788cc741418c2f",
-    "idShort": "lx",
+  "lx": {
+    "id": "lx",
+    "idDofusDB": "674e524064788cc741418c2f",
     "idDofusBook": 6767,
     "name": {
       "fr": "Bracelet Magique de Farle",
@@ -1164,9 +1548,9 @@
       "waterResistPer": 2
     }
   },
-  "674e524064788cc741418c42": {
-    "id": "674e524064788cc741418c42",
-    "idShort": "FX",
+  "FX": {
+    "id": "FX",
+    "idDofusDB": "674e524064788cc741418c42",
     "idDofusBook": 6791,
     "name": {
       "fr": "Anneau Champêtre",
@@ -1183,9 +1567,9 @@
       "agility": 20
     }
   },
-  "674e524064788cc741418c44": {
-    "id": "674e524064788cc741418c44",
-    "idShort": "CD",
+  "CD": {
+    "id": "CD",
+    "idDofusDB": "674e524064788cc741418c44",
     "idDofusBook": 6793,
     "name": {
       "fr": "Anneau Thé",
@@ -1202,9 +1586,9 @@
       "power": 10
     }
   },
-  "674e524064788cc741418c50": {
-    "id": "674e524064788cc741418c50",
-    "idShort": "hq",
+  "hq": {
+    "id": "hq",
+    "idDofusDB": "674e524064788cc741418c50",
     "idDofusBook": 6805,
     "name": {
       "fr": "Bracelet du Chef Bwork",
@@ -1227,9 +1611,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418c57": {
-    "id": "674e524064788cc741418c57",
-    "idShort": "m6",
+  "m6": {
+    "id": "m6",
+    "idDofusDB": "674e524064788cc741418c57",
     "idDofusBook": 6819,
     "name": {
       "fr": "Bracelet du Chef Crocodaille",
@@ -1250,9 +1634,9 @@
       "fireResistPer": 2
     }
   },
-  "674e524064788cc741418c8f": {
-    "id": "674e524064788cc741418c8f",
-    "idShort": "FB",
+  "FB": {
+    "id": "FB",
+    "idDofusDB": "674e524064788cc741418c8f",
     "idDofusBook": 6910,
     "name": {
       "fr": "Anneau du Sanglier",
@@ -1269,9 +1653,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741418c90": {
-    "id": "674e524064788cc741418c90",
-    "idShort": "Hq",
+  "Hq": {
+    "id": "Hq",
+    "idDofusDB": "674e524064788cc741418c90",
     "idDofusBook": 6911,
     "name": {
       "fr": "Araknoton",
@@ -1288,9 +1672,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741418c94": {
-    "id": "674e524064788cc741418c94",
-    "idShort": "D3",
+  "D3": {
+    "id": "D3",
+    "idDofusDB": "674e524064788cc741418c94",
     "idDofusBook": 6915,
     "name": {
       "fr": "Mos Kitano",
@@ -1308,9 +1692,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc741418c98": {
-    "id": "674e524064788cc741418c98",
-    "idShort": "Gd",
+  "Gd": {
+    "id": "Gd",
+    "idDofusDB": "674e524064788cc741418c98",
     "idDofusBook": 6919,
     "name": {
       "fr": "Anneau du Champ Champ",
@@ -1327,9 +1711,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418c99": {
-    "id": "674e524064788cc741418c99",
-    "idShort": "GK",
+  "GK": {
+    "id": "GK",
+    "idDofusDB": "674e524064788cc741418c99",
     "idDofusBook": 6920,
     "name": {
       "fr": "Alliance Du Champ Champ",
@@ -1346,9 +1730,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741418ca1": {
-    "id": "674e524064788cc741418ca1",
-    "idShort": "Ax",
+  "Ax": {
+    "id": "Ax",
+    "idDofusDB": "674e524064788cc741418ca1",
     "idDofusBook": 6928,
     "name": {
       "fr": "Anneau du Prespic",
@@ -1367,9 +1751,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741418cb0": {
-    "id": "674e524064788cc741418cb0",
-    "idShort": "y4",
+  "y4": {
+    "id": "y4",
+    "idDofusDB": "674e524064788cc741418cb0",
     "idDofusBook": 6944,
     "name": {
       "fr": "Scaranneau Vert",
@@ -1388,9 +1772,9 @@
       "earthResistPer": 3
     }
   },
-  "674e524064788cc741418cb1": {
-    "id": "674e524064788cc741418cb1",
-    "idShort": "y3",
+  "y3": {
+    "id": "y3",
+    "idDofusDB": "674e524064788cc741418cb1",
     "idDofusBook": 6945,
     "name": {
       "fr": "Scaranneau Rouge",
@@ -1409,9 +1793,9 @@
       "fireResistPer": 3
     }
   },
-  "674e524064788cc741418cb2": {
-    "id": "674e524064788cc741418cb2",
-    "idShort": "y2",
+  "y2": {
+    "id": "y2",
+    "idDofusDB": "674e524064788cc741418cb2",
     "idDofusBook": 6946,
     "name": {
       "fr": "Scaranneau Blanc",
@@ -1430,9 +1814,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418cb3": {
-    "id": "674e524064788cc741418cb3",
-    "idShort": "y1",
+  "y1": {
+    "id": "y1",
+    "idDofusDB": "674e524064788cc741418cb3",
     "idDofusBook": 6947,
     "name": {
       "fr": "Scaranneau Bleu",
@@ -1451,9 +1835,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418cbc": {
-    "id": "674e524064788cc741418cbc",
-    "idShort": "tQ",
+  "tQ": {
+    "id": "tQ",
+    "idDofusDB": "674e524064788cc741418cbc",
     "idDofusBook": 6956,
     "name": {
       "fr": "Anneau du Mulou",
@@ -1472,9 +1856,9 @@
       "prospecting": 3
     }
   },
-  "674e524064788cc741418cbf": {
-    "id": "674e524064788cc741418cbf",
-    "idShort": "FQ",
+  "FQ": {
+    "id": "FQ",
+    "idDofusDB": "674e524064788cc741418cbf",
     "idDofusBook": 6961,
     "name": {
       "fr": "Anneau du Bandit",
@@ -1491,9 +1875,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741418cd3": {
-    "id": "674e524064788cc741418cd3",
-    "idShort": "wi",
+  "wi": {
+    "id": "wi",
+    "idDofusDB": "674e524064788cc741418cd3",
     "idDofusBook": 6996,
     "name": {
       "fr": "Anneau Stradamus",
@@ -1511,9 +1895,9 @@
       "waterResistPer": 2
     }
   },
-  "674e524064788cc741418cd4": {
-    "id": "674e524064788cc741418cd4",
-    "idShort": "mr",
+  "mr": {
+    "id": "mr",
+    "idDofusDB": "674e524064788cc741418cd4",
     "idDofusBook": 6997,
     "name": {
       "fr": "Anneau Fioutioure",
@@ -1532,9 +1916,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741418cd5": {
-    "id": "674e524064788cc741418cd5",
-    "idShort": "fE",
+  "fE": {
+    "id": "fE",
+    "idDofusDB": "674e524064788cc741418cd5",
     "idDofusBook": 6998,
     "name": {
       "fr": "Alliance d'Elya Wood",
@@ -1557,9 +1941,9 @@
       "fireResist": 12
     }
   },
-  "674e524064788cc741418d31": {
-    "id": "674e524064788cc741418d31",
-    "idShort": "s4",
+  "s4": {
+    "id": "s4",
+    "idDofusDB": "674e524064788cc741418d31",
     "idDofusBook": 7116,
     "name": {
       "fr": "Anneau Merta",
@@ -1578,9 +1962,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418d32": {
-    "id": "674e524064788cc741418d32",
-    "idShort": "tr",
+  "tr": {
+    "id": "tr",
+    "idDofusDB": "674e524064788cc741418d32",
     "idDofusBook": 7117,
     "name": {
       "fr": "Alliance Ethnique",
@@ -1598,9 +1982,9 @@
       "prospecting": 5
     }
   },
-  "674e524064788cc741418d33": {
-    "id": "674e524064788cc741418d33",
-    "idShort": "k8",
+  "k8": {
+    "id": "k8",
+    "idDofusDB": "674e524064788cc741418d33",
     "idDofusBook": 7118,
     "name": {
       "fr": "Anneau K'Tuelle",
@@ -1621,9 +2005,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418d34": {
-    "id": "674e524064788cc741418d34",
-    "idShort": "si",
+  "si": {
+    "id": "si",
+    "idDofusDB": "674e524064788cc741418d34",
     "idDofusBook": 7119,
     "name": {
       "fr": "Anneau Ha",
@@ -1641,9 +2025,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418d35": {
-    "id": "674e524064788cc741418d35",
-    "idShort": "xs",
+  "xs": {
+    "id": "xs",
+    "idDofusDB": "674e524064788cc741418d35",
     "idDofusBook": 7120,
     "name": {
       "fr": "Anneau Hé",
@@ -1660,9 +2044,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741418d36": {
-    "id": "674e524064788cc741418d36",
-    "idShort": "vR",
+  "vR": {
+    "id": "vR",
+    "idDofusDB": "674e524064788cc741418d36",
     "idDofusBook": 7121,
     "name": {
       "fr": "Anneau Zocomial",
@@ -1681,9 +2065,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418d37": {
-    "id": "674e524064788cc741418d37",
-    "idShort": "FJ",
+  "FJ": {
+    "id": "FJ",
+    "idDofusDB": "674e524064788cc741418d37",
     "idDofusBook": 7122,
     "name": {
       "fr": "Anneau Vice",
@@ -1700,9 +2084,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418d38": {
-    "id": "674e524064788cc741418d38",
-    "idShort": "mg",
+  "mg": {
+    "id": "mg",
+    "idDofusDB": "674e524064788cc741418d38",
     "idDofusBook": 7123,
     "name": {
       "fr": "Anneau Bsène",
@@ -1722,9 +2106,9 @@
       "waterResistPer": 2
     }
   },
-  "674e524064788cc741418d3b": {
-    "id": "674e524064788cc741418d3b",
-    "idShort": "t8",
+  "t8": {
+    "id": "t8",
+    "idDofusDB": "674e524064788cc741418d3b",
     "idDofusBook": 7128,
     "name": {
       "fr": "Anneau Karina",
@@ -1743,9 +2127,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418d3e": {
-    "id": "674e524064788cc741418d3e",
-    "idShort": "sH",
+  "sH": {
+    "id": "sH",
+    "idDofusDB": "674e524064788cc741418d3e",
     "idDofusBook": 7131,
     "name": {
       "fr": "Anneau Piaume",
@@ -1762,9 +2146,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418d3f": {
-    "id": "674e524064788cc741418d3f",
-    "idShort": "w4",
+  "w4": {
+    "id": "w4",
+    "idDofusDB": "674e524064788cc741418d3f",
     "idDofusBook": 7132,
     "name": {
       "fr": "Anneau Rigami",
@@ -1783,9 +2167,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418dad": {
-    "id": "674e524064788cc741418dad",
-    "idShort": "AG",
+  "AG": {
+    "id": "AG",
+    "idDofusDB": "674e524064788cc741418dad",
     "idDofusBook": 7246,
     "name": {
       "fr": "Alliance Akwadala",
@@ -1804,9 +2188,9 @@
       "waterResistPer": 2
     }
   },
-  "674e524064788cc741418dae": {
-    "id": "674e524064788cc741418dae",
-    "idShort": "lF",
+  "lF": {
+    "id": "lF",
+    "idDofusDB": "674e524064788cc741418dae",
     "idDofusBook": 7247,
     "name": {
       "fr": "Alliance Terrdala",
@@ -1826,9 +2210,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418daf": {
-    "id": "674e524064788cc741418daf",
-    "idShort": "kF",
+  "kF": {
+    "id": "kF",
+    "idDofusDB": "674e524064788cc741418daf",
     "idDofusBook": 7248,
     "name": {
       "fr": "Alliance Feudala",
@@ -1849,9 +2233,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418db0": {
-    "id": "674e524064788cc741418db0",
-    "idShort": "ss",
+  "ss": {
+    "id": "ss",
+    "idDofusDB": "674e524064788cc741418db0",
     "idDofusBook": 7249,
     "name": {
       "fr": "Alliance Aerdala",
@@ -1869,9 +2253,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418dd6": {
-    "id": "674e524064788cc741418dd6",
-    "idShort": "sS",
+  "sS": {
+    "id": "sS",
+    "idDofusDB": "674e524064788cc741418dd6",
     "idDofusBook": 7341,
     "name": {
       "fr": "Anneau du Kitsou",
@@ -1890,9 +2274,9 @@
       "airResist": 6
     }
   },
-  "674e524064788cc741418e41": {
-    "id": "674e524064788cc741418e41",
-    "idShort": "vN",
+  "vN": {
+    "id": "vN",
+    "idDofusDB": "674e524064788cc741418e41",
     "idDofusBook": 7555,
     "name": {
       "fr": "Anodindo",
@@ -1912,9 +2296,9 @@
       "wisdom": 10
     }
   },
-  "674e524064788cc741418f27": {
-    "id": "674e524064788cc741418f27",
-    "idShort": "kd",
+  "kd": {
+    "id": "kd",
+    "idDofusDB": "674e524064788cc741418f27",
     "idDofusBook": 7881,
     "name": {
       "fr": "Anneau du Boufcoul",
@@ -1938,9 +2322,9 @@
       "fireResistPer": 3
     }
   },
-  "674e524064788cc741418f8e": {
-    "id": "674e524064788cc741418f8e",
-    "idShort": "tq",
+  "tq": {
+    "id": "tq",
+    "idDofusDB": "674e524064788cc741418f8e",
     "idDofusBook": 8004,
     "name": {
       "fr": "Anneau du Koalak",
@@ -1958,9 +2342,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741418fc8": {
-    "id": "674e524064788cc741418fc8",
-    "idShort": "D6",
+  "D6": {
+    "id": "D6",
+    "idDofusDB": "674e524064788cc741418fc8",
     "idDofusBook": 8109,
     "name": {
       "fr": "Anneau du Tofu",
@@ -1977,9 +2361,9 @@
       "wisdom": 10
     }
   },
-  "674e524064788cc741418fd3": {
-    "id": "674e524064788cc741418fd3",
-    "idShort": "xZ",
+  "xZ": {
+    "id": "xZ",
+    "idDofusDB": "674e524064788cc741418fd3",
     "idDofusBook": 8121,
     "name": {
       "fr": "Anneau du Scarabosse Doré",
@@ -1999,9 +2383,9 @@
       "heal": 6
     }
   },
-  "674e524064788cc741418fd8": {
-    "id": "674e524064788cc741418fd8",
-    "idShort": "Gw",
+  "Gw": {
+    "id": "Gw",
+    "idDofusDB": "674e524064788cc741418fd8",
     "idDofusBook": 8126,
     "name": {
       "fr": "Mitaines Mitées du Paysan",
@@ -2018,9 +2402,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741418fe2": {
-    "id": "674e524064788cc741418fe2",
-    "idShort": "wh",
+  "wh": {
+    "id": "wh",
+    "idDofusDB": "674e524064788cc741418fe2",
     "idDofusBook": 8136,
     "name": {
       "fr": "Scaranneau Noir",
@@ -2039,9 +2423,9 @@
       "neutralResistPer": 3
     }
   },
-  "674e524064788cc741418fef": {
-    "id": "674e524064788cc741418fef",
-    "idShort": "lZ",
+  "lZ": {
+    "id": "lZ",
+    "idDofusDB": "674e524064788cc741418fef",
     "idDofusBook": 8149,
     "name": {
       "fr": "Craquanneau Légendaire",
@@ -2061,9 +2445,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc74141900d": {
-    "id": "674e524064788cc74141900d",
-    "idShort": "Ho",
+  "Ho": {
+    "id": "Ho",
+    "idDofusDB": "674e524064788cc74141900d",
     "idDofusBook": 8219,
     "name": {
       "fr": "Anneau du Piou Rouge",
@@ -2080,9 +2464,9 @@
       "intelligence": 20
     }
   },
-  "674e524064788cc74141900e": {
-    "id": "674e524064788cc74141900e",
-    "idShort": "HC",
+  "HC": {
+    "id": "HC",
+    "idDofusDB": "674e524064788cc74141900e",
     "idDofusBook": 8220,
     "name": {
       "fr": "Anneau du Piou Bleu",
@@ -2099,9 +2483,9 @@
       "waterDamage": 1
     }
   },
-  "674e524064788cc74141900f": {
-    "id": "674e524064788cc74141900f",
-    "idShort": "HU",
+  "HU": {
+    "id": "HU",
+    "idDofusDB": "674e524064788cc74141900f",
     "idDofusBook": 8221,
     "name": {
       "fr": "Anneau du Piou Violet",
@@ -2118,9 +2502,9 @@
       "initiative": 50
     }
   },
-  "674e524064788cc741419010": {
-    "id": "674e524064788cc741419010",
-    "idShort": "Gu",
+  "Gu": {
+    "id": "Gu",
+    "idDofusDB": "674e524064788cc741419010",
     "idDofusBook": 8222,
     "name": {
       "fr": "Anneau du Piou Jaune",
@@ -2137,9 +2521,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741419011": {
-    "id": "674e524064788cc741419011",
-    "idShort": "GG",
+  "GG": {
+    "id": "GG",
+    "idDofusDB": "674e524064788cc741419011",
     "idDofusBook": 8223,
     "name": {
       "fr": "Anneau du Piou Vert",
@@ -2156,9 +2540,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741419012": {
-    "id": "674e524064788cc741419012",
-    "idShort": "I8",
+  "I8": {
+    "id": "I8",
+    "idDofusDB": "674e524064788cc741419012",
     "idDofusBook": 8224,
     "name": {
       "fr": "Anneau du Piou Rose",
@@ -2175,9 +2559,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc74141902f": {
-    "id": "674e524064788cc74141902f",
-    "idShort": "F4",
+  "F4": {
+    "id": "F4",
+    "idDofusDB": "674e524064788cc74141902f",
     "idDofusBook": 8254,
     "name": {
       "fr": "Anneau en Mousse",
@@ -2195,9 +2579,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741419037": {
-    "id": "674e524064788cc741419037",
-    "idShort": "f3",
+  "f3": {
+    "id": "f3",
+    "idDofusDB": "674e524064788cc741419037",
     "idDofusBook": 8263,
     "name": {
       "fr": "Anneau du Meulou",
@@ -2221,9 +2605,9 @@
       "neutralResist": 6
     }
   },
-  "674e524064788cc74141903d": {
-    "id": "674e524064788cc74141903d",
-    "idShort": "g5",
+  "g5": {
+    "id": "g5",
+    "idDofusDB": "674e524064788cc74141903d",
     "idDofusBook": 8269,
     "name": {
       "fr": "Anneau du Minotoror",
@@ -2249,9 +2633,9 @@
       "pushbackDamage": 5
     }
   },
-  "674e524064788cc74141903e": {
-    "id": "674e524064788cc74141903e",
-    "idShort": "cR",
+  "cR": {
+    "id": "cR",
+    "idDofusDB": "674e524064788cc74141903e",
     "idDofusBook": 8270,
     "name": {
       "fr": "Bracelet du Minotot",
@@ -2277,9 +2661,9 @@
       "fireResist": 7
     }
   },
-  "674e524064788cc74141903f": {
-    "id": "674e524064788cc74141903f",
-    "idShort": "gv",
+  "gv": {
+    "id": "gv",
+    "idDofusDB": "674e524064788cc74141903f",
     "idDofusBook": 8271,
     "name": {
       "fr": "Anneau du Dragon Cochon",
@@ -2301,9 +2685,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741419051": {
-    "id": "674e524064788cc741419051",
-    "idShort": "eV",
+  "eV": {
+    "id": "eV",
+    "idDofusDB": "674e524064788cc741419051",
     "idDofusBook": 8289,
     "name": {
       "fr": "Anneau du Dragoeuf",
@@ -2325,9 +2709,9 @@
       "apResist": 7
     }
   },
-  "674e524064788cc74141905b": {
-    "id": "674e524064788cc74141905b",
-    "idShort": "lU",
+  "lU": {
+    "id": "lU",
+    "idDofusDB": "674e524064788cc74141905b",
     "idDofusBook": 8299,
     "name": {
       "fr": "Bracelet Magique de Shika",
@@ -2350,9 +2734,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc7414190b9": {
-    "id": "674e524064788cc7414190b9",
-    "idShort": "g7",
+  "g7": {
+    "id": "g7",
+    "idDofusDB": "674e524064788cc7414190b9",
     "idDofusBook": 8412,
     "name": {
       "fr": "Alliance du Mominotor",
@@ -2377,9 +2761,9 @@
       "mpReduction": 3
     }
   },
-  "674e524064788cc7414190d1": {
-    "id": "674e524064788cc7414190d1",
-    "idShort": "jr",
+  "jr": {
+    "id": "jr",
+    "idDofusDB": "674e524064788cc7414190d1",
     "idDofusBook": 8448,
     "name": {
       "fr": "Gant du Rat Noir",
@@ -2403,9 +2787,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc7414190d7": {
-    "id": "674e524064788cc7414190d7",
-    "idShort": "hi",
+  "hi": {
+    "id": "hi",
+    "idDofusDB": "674e524064788cc7414190d7",
     "idDofusBook": 8454,
     "name": {
       "fr": "Gant du Rat Blanc",
@@ -2429,9 +2813,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc7414190dd": {
-    "id": "674e524064788cc7414190dd",
-    "idShort": "dY",
+  "dY": {
+    "id": "dY",
+    "idDofusDB": "674e524064788cc7414190dd",
     "idDofusBook": 8460,
     "name": {
       "fr": "Anneau Cérémonial du Seigneur des Rats",
@@ -2455,9 +2839,9 @@
       "fireResist": 7
     }
   },
-  "674e524064788cc7414190e3": {
-    "id": "674e524064788cc7414190e3",
-    "idShort": "fY",
+  "fY": {
+    "id": "fY",
+    "idDofusDB": "674e524064788cc7414190e3",
     "idDofusBook": 8466,
     "name": {
       "fr": "Anneau Ancestral",
@@ -2479,9 +2863,9 @@
       "waterResistPer": 6
     }
   },
-  "674e524064788cc7414190e7": {
-    "id": "674e524064788cc7414190e7",
-    "idShort": "dn",
+  "dn": {
+    "id": "dn",
+    "idDofusDB": "674e524064788cc7414190e7",
     "idDofusBook": 8470,
     "name": {
       "fr": "Anneau du Chêne Mou",
@@ -2506,9 +2890,9 @@
       "fireResistPer": 6
     }
   },
-  "674e524064788cc74141911b": {
-    "id": "674e524064788cc74141911b",
-    "idShort": "Jj",
+  "Jj": {
+    "id": "Jj",
+    "idDofusDB": "674e524064788cc74141911b",
     "idDofusBook": 8537,
     "name": {
       "fr": "Le Plussain",
@@ -2525,9 +2909,9 @@
       "agility": 6
     }
   },
-  "674e524064788cc741419192": {
-    "id": "674e524064788cc741419192",
-    "idShort": "cO",
+  "cO": {
+    "id": "cO",
+    "idDofusDB": "674e524064788cc741419192",
     "idDofusBook": 8714,
     "name": {
       "fr": "Anneau Bhli",
@@ -2541,9 +2925,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419193": {
-    "id": "674e524064788cc741419193",
-    "idShort": "cN",
+  "cN": {
+    "id": "cN",
+    "idDofusDB": "674e524064788cc741419193",
     "idDofusBook": 8715,
     "name": {
       "fr": "Bague Houx",
@@ -2557,9 +2941,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419194": {
-    "id": "674e524064788cc741419194",
-    "idShort": "cM",
+  "cM": {
+    "id": "cM",
+    "idDofusDB": "674e524064788cc741419194",
     "idDofusBook": 8716,
     "name": {
       "fr": "Bague Héra",
@@ -2573,9 +2957,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419195": {
-    "id": "674e524064788cc741419195",
-    "idShort": "cL",
+  "cL": {
+    "id": "cL",
+    "idDofusDB": "674e524064788cc741419195",
     "idDofusBook": 8717,
     "name": {
       "fr": "Bague Harre",
@@ -2589,9 +2973,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419196": {
-    "id": "674e524064788cc741419196",
-    "idShort": "cK",
+  "cK": {
+    "id": "cK",
+    "idDofusDB": "674e524064788cc741419196",
     "idDofusBook": 8718,
     "name": {
       "fr": "Anneau Tassion",
@@ -2605,9 +2989,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419197": {
-    "id": "674e524064788cc741419197",
-    "idShort": "cJ",
+  "cJ": {
+    "id": "cJ",
+    "idDofusDB": "674e524064788cc741419197",
     "idDofusBook": 8719,
     "name": {
       "fr": "Anneau Stalgik",
@@ -2621,9 +3005,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419198": {
-    "id": "674e524064788cc741419198",
-    "idShort": "cI",
+  "cI": {
+    "id": "cI",
+    "idDofusDB": "674e524064788cc741419198",
     "idDofusBook": 8720,
     "name": {
       "fr": "Anneau Zamour",
@@ -2637,9 +3021,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419199": {
-    "id": "674e524064788cc741419199",
-    "idShort": "cH",
+  "cH": {
+    "id": "cH",
+    "idDofusDB": "674e524064788cc741419199",
     "idDofusBook": 8721,
     "name": {
       "fr": "Anneau Raille",
@@ -2653,9 +3037,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc74141919a": {
-    "id": "674e524064788cc74141919a",
-    "idShort": "cG",
+  "cG": {
+    "id": "cG",
+    "idDofusDB": "674e524064788cc74141919a",
     "idDofusBook": 8722,
     "name": {
       "fr": "Anneau Hell",
@@ -2669,9 +3053,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc74141919b": {
-    "id": "674e524064788cc74141919b",
-    "idShort": "cF",
+  "cF": {
+    "id": "cF",
+    "idDofusDB": "674e524064788cc74141919b",
     "idDofusBook": 8723,
     "name": {
       "fr": "Anneau Tilus",
@@ -2685,9 +3069,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc74141919c": {
-    "id": "674e524064788cc74141919c",
-    "idShort": "cE",
+  "cE": {
+    "id": "cE",
+    "idDofusDB": "674e524064788cc74141919c",
     "idDofusBook": 8724,
     "name": {
       "fr": "Anneau Pwal",
@@ -2701,9 +3085,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc74141919d": {
-    "id": "674e524064788cc74141919d",
-    "idShort": "cD",
+  "cD": {
+    "id": "cD",
+    "idDofusDB": "674e524064788cc74141919d",
     "idDofusBook": 8725,
     "name": {
       "fr": "Anneau Pitale",
@@ -2717,9 +3101,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419219": {
-    "id": "674e524064788cc741419219",
-    "idShort": "ae",
+  "ae": {
+    "id": "ae",
+    "idDofusDB": "674e524064788cc741419219",
     "idDofusBook": 8859,
     "name": {
       "fr": "Sceau Souverain du Roissingue",
@@ -2744,9 +3128,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc74141921a": {
-    "id": "674e524064788cc74141921a",
-    "idShort": "rK",
+  "rK": {
+    "id": "rK",
+    "idDofusDB": "674e524064788cc74141921a",
     "idDofusBook": 8860,
     "name": {
       "fr": "Alliance de Corail",
@@ -2766,9 +3150,9 @@
       "criticalDamage": 3
     }
   },
-  "674e524064788cc74141921f": {
-    "id": "674e524064788cc74141921f",
-    "idShort": "fR",
+  "fR": {
+    "id": "fR",
+    "idDofusDB": "674e524064788cc74141921f",
     "idDofusBook": 8865,
     "name": {
       "fr": "Anneau Skargo",
@@ -2790,9 +3174,9 @@
       "waterResist": 7
     }
   },
-  "674e524064788cc741419226": {
-    "id": "674e524064788cc741419226",
-    "idShort": "wE",
+  "wE": {
+    "id": "wE",
+    "idDofusDB": "674e524064788cc741419226",
     "idDofusBook": 8872,
     "name": {
       "fr": "Palmano",
@@ -2809,9 +3193,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc74141922a": {
-    "id": "674e524064788cc74141922a",
-    "idShort": "5k",
+  "5k": {
+    "id": "5k",
+    "idDofusDB": "674e524064788cc74141922a",
     "idDofusBook": 8877,
     "name": {
       "fr": "Kralano",
@@ -2837,9 +3221,9 @@
       "neutralResist": 10
     }
   },
-  "674e524064788cc74141922c": {
-    "id": "674e524064788cc74141922c",
-    "idShort": "mm",
+  "mm": {
+    "id": "mm",
+    "idDofusDB": "674e524064788cc74141922c",
     "idDofusBook": 8879,
     "name": {
       "fr": "Anneau Poli",
@@ -2868,9 +3252,9 @@
       "airResistPer": -5
     }
   },
-  "674e524064788cc74141922e": {
-    "id": "674e524064788cc74141922e",
-    "idShort": "BE",
+  "BE": {
+    "id": "BE",
+    "idDofusDB": "674e524064788cc74141922e",
     "idDofusBook": 8881,
     "name": {
       "fr": "Anneau Solo",
@@ -2887,9 +3271,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc74141928b": {
-    "id": "674e524064788cc74141928b",
-    "idShort": "7R",
+  "7R": {
+    "id": "7R",
+    "idDofusDB": "674e524064788cc74141928b",
     "idDofusBook": 8991,
     "name": {
       "fr": "Annolamour",
@@ -2914,9 +3298,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc741419300": {
-    "id": "674e524064788cc741419300",
-    "idShort": "vM",
+  "vM": {
+    "id": "vM",
+    "idDofusDB": "674e524064788cc741419300",
     "idDofusBook": 9122,
     "name": {
       "fr": "Blopanneau Griotte",
@@ -2933,9 +3317,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419301": {
-    "id": "674e524064788cc741419301",
-    "idShort": "vL",
+  "vL": {
+    "id": "vL",
+    "idDofusDB": "674e524064788cc741419301",
     "idDofusBook": 9123,
     "name": {
       "fr": "Blopanneau Reinette",
@@ -2952,9 +3336,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419302": {
-    "id": "674e524064788cc741419302",
-    "idShort": "vK",
+  "vK": {
+    "id": "vK",
+    "idDofusDB": "674e524064788cc741419302",
     "idDofusBook": 9124,
     "name": {
       "fr": "Blopanneau Coco",
@@ -2971,9 +3355,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419303": {
-    "id": "674e524064788cc741419303",
-    "idShort": "vJ",
+  "vJ": {
+    "id": "vJ",
+    "idDofusDB": "674e524064788cc741419303",
     "idDofusBook": 9125,
     "name": {
       "fr": "Blopanneau Indigo",
@@ -2990,9 +3374,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419304": {
-    "id": "674e524064788cc741419304",
-    "idShort": "le",
+  "le": {
+    "id": "le",
+    "idDofusDB": "674e524064788cc741419304",
     "idDofusBook": 9126,
     "name": {
       "fr": "Blopanneau Griotte Royal",
@@ -3013,9 +3397,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741419305": {
-    "id": "674e524064788cc741419305",
-    "idShort": "ld",
+  "ld": {
+    "id": "ld",
+    "idDofusDB": "674e524064788cc741419305",
     "idDofusBook": 9127,
     "name": {
       "fr": "Blopanneau Reinette Royal",
@@ -3036,9 +3420,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741419306": {
-    "id": "674e524064788cc741419306",
-    "idShort": "lc",
+  "lc": {
+    "id": "lc",
+    "idDofusDB": "674e524064788cc741419306",
     "idDofusBook": 9128,
     "name": {
       "fr": "Blopanneau Coco Royal",
@@ -3059,9 +3443,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741419307": {
-    "id": "674e524064788cc741419307",
-    "idShort": "lb",
+  "lb": {
+    "id": "lb",
+    "idDofusDB": "674e524064788cc741419307",
     "idDofusBook": 9129,
     "name": {
       "fr": "Blopanneau Indigo Royal",
@@ -3082,9 +3466,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc741419309": {
-    "id": "674e524064788cc741419309",
-    "idShort": "7U",
+  "7U": {
+    "id": "7U",
+    "idDofusDB": "674e524064788cc741419309",
     "idDofusBook": 9131,
     "name": {
       "fr": "Anneau Colerette",
@@ -3110,9 +3494,9 @@
       "trapDamage": 20
     }
   },
-  "674e524064788cc74141930a": {
-    "id": "674e524064788cc74141930a",
-    "idShort": "8A",
+  "8A": {
+    "id": "8A",
+    "idDofusDB": "674e524064788cc74141930a",
     "idDofusBook": 9132,
     "name": {
       "fr": "Anneau Chevelu",
@@ -3137,36 +3521,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc74141930b": {
-    "id": "674e524064788cc74141930b",
-    "idShort": "80",
-    "idDofusBook": 9133,
-    "name": {
-      "fr": "Alliance Boletée",
-      "en": "Fungal Ring",
-      "pt": "Aliança Boletada",
-      "de": "Fungiering",
-      "es": "Alianza Boletusa"
-    },
-    "level": 186,
-    "panoply": "674e523f64788cc741418138",
-    "category": "ring",
-    "stats": {
-      "health": 150,
-      "intelligence": 50,
-      "wisdom": 40,
-      "summon": 2,
-      "damage": 5,
-      "heal": 10,
-      "prospecting": 15,
-      "airResistPer": 10,
-      "neutralResist": 10,
-      "waterResist": 10
-    }
-  },
-  "674e524064788cc74141931a": {
-    "id": "674e524064788cc74141931a",
-    "idShort": "k0",
+  "k0": {
+    "id": "k0",
+    "idDofusDB": "674e524064788cc74141931a",
     "idDofusBook": 9148,
     "name": {
       "fr": "Blopanneau Multicolore Royal",
@@ -3187,9 +3544,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741419337": {
-    "id": "674e524064788cc741419337",
-    "idShort": "8F",
+  "8F": {
+    "id": "8F",
+    "idDofusDB": "674e524064788cc741419337",
     "idDofusBook": 9177,
     "name": {
       "fr": "Bracelet Ventré",
@@ -3214,36 +3571,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc741419338": {
-    "id": "674e524064788cc741419338",
-    "idShort": "91",
-    "idDofusBook": 9178,
-    "name": {
-      "fr": "Anneau Bliteré",
-      "en": "Nose Ring",
-      "pt": "Anel de Nariz",
-      "de": "Akkumulierring",
-      "es": "Anillo Bliterado"
-    },
-    "level": 174,
-    "panoply": "674e523f64788cc74141813a",
-    "category": "ring",
-    "stats": {
-      "health": 200,
-      "intelligence": 40,
-      "chance": 40,
-      "wisdom": 30,
-      "criticalChance": 3,
-      "damage": 10,
-      "prospecting": 20,
-      "initiative": 400,
-      "earthResistPer": 10,
-      "earthResist": 10
-    }
-  },
-  "674e524064788cc74141934c": {
-    "id": "674e524064788cc74141934c",
-    "idShort": "x8",
+  "x8": {
+    "id": "x8",
+    "idDofusDB": "674e524064788cc74141934c",
     "idDofusBook": 9198,
     "name": {
       "fr": "Anneau Paupayahn",
@@ -3262,9 +3592,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc7414193d4": {
-    "id": "674e524064788cc7414193d4",
-    "idShort": "A3",
+  "A3": {
+    "id": "A3",
+    "idDofusDB": "674e524064788cc7414193d4",
     "idDofusBook": 9408,
     "name": {
       "fr": "Jambanneau",
@@ -3281,9 +3611,9 @@
       "damage": 5
     }
   },
-  "674e524064788cc7414193dc": {
-    "id": "674e524064788cc7414193dc",
-    "idShort": "EW",
+  "EW": {
+    "id": "EW",
+    "idDofusDB": "674e524064788cc7414193dc",
     "idDofusBook": 9416,
     "name": {
       "fr": "Anneau Zest",
@@ -3299,9 +3629,9 @@
       "chance": 10
     }
   },
-  "674e524064788cc7414193e0": {
-    "id": "674e524064788cc7414193e0",
-    "idShort": "AF",
+  "AF": {
+    "id": "AF",
+    "idDofusDB": "674e524064788cc7414193e0",
     "idDofusBook": 9452,
     "name": {
       "fr": "Bague Cristalline",
@@ -3319,9 +3649,9 @@
       "apResist": 2
     }
   },
-  "674e524064788cc7414193e3": {
-    "id": "674e524064788cc7414193e3",
-    "idShort": "C6",
+  "C6": {
+    "id": "C6",
+    "idDofusDB": "674e524064788cc7414193e3",
     "idDofusBook": 9455,
     "name": {
       "fr": "Pompanneau",
@@ -3339,9 +3669,9 @@
       "fireDamage": 2
     }
   },
-  "674e524064788cc74141942e": {
-    "id": "674e524064788cc74141942e",
-    "idShort": "A1",
+  "A1": {
+    "id": "A1",
+    "idDofusDB": "674e524064788cc74141942e",
     "idDofusBook": 9543,
     "name": {
       "fr": "Grosse Bagouze du Parrain",
@@ -3360,9 +3690,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc741419485": {
-    "id": "674e524064788cc741419485",
-    "idShort": "xS",
+  "xS": {
+    "id": "xS",
+    "idDofusDB": "674e524064788cc741419485",
     "idDofusBook": 9662,
     "name": {
       "fr": "Anneau de Slait",
@@ -3382,9 +3712,9 @@
       "mpResist": 4
     }
   },
-  "674e524064788cc741419507": {
-    "id": "674e524064788cc741419507",
-    "idShort": "x7",
+  "x7": {
+    "id": "x7",
+    "idDofusDB": "674e524064788cc741419507",
     "idDofusBook": 9921,
     "name": {
       "fr": "Bracelet du Tétounik",
@@ -3402,9 +3732,9 @@
       "heal": 3
     }
   },
-  "674e524064788cc74141950b": {
-    "id": "674e524064788cc74141950b",
-    "idShort": "xq",
+  "xq": {
+    "id": "xq",
+    "idDofusDB": "674e524064788cc74141950b",
     "idDofusBook": 9925,
     "name": {
       "fr": "Fulgu au poing",
@@ -3423,9 +3753,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc74141951c": {
-    "id": "674e524064788cc74141951c",
-    "idShort": "AQ",
+  "AQ": {
+    "id": "AQ",
+    "idDofusDB": "674e524064788cc74141951c",
     "idDofusBook": 9942,
     "name": {
       "fr": "Anneau de la mort",
@@ -3442,9 +3772,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc74141957d": {
-    "id": "674e524064788cc74141957d",
-    "idShort": "yB",
+  "yB": {
+    "id": "yB",
+    "idDofusDB": "674e524064788cc74141957d",
     "idDofusBook": 10054,
     "name": {
       "fr": "Anneau du Vampyre",
@@ -3463,9 +3793,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc7414195da": {
-    "id": "674e524064788cc7414195da",
-    "idShort": "xp",
+  "xp": {
+    "id": "xp",
+    "idDofusDB": "674e524064788cc7414195da",
     "idDofusBook": 10171,
     "name": {
       "fr": "Mitaines de Chisp",
@@ -3483,9 +3813,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc7414195e4": {
-    "id": "674e524064788cc7414195e4",
-    "idShort": "zc",
+  "zc": {
+    "id": "zc",
+    "idDofusDB": "674e524064788cc7414195e4",
     "idDofusBook": 10181,
     "name": {
       "fr": "Anneau solaire",
@@ -3502,9 +3832,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414195ec": {
-    "id": "674e524064788cc7414195ec",
-    "idShort": "AE",
+  "AE": {
+    "id": "AE",
+    "idDofusDB": "674e524064788cc7414195ec",
     "idDofusBook": 10189,
     "name": {
       "fr": "Oxano",
@@ -3523,9 +3853,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc741419699": {
-    "id": "674e524064788cc741419699",
-    "idShort": "xM",
+  "xM": {
+    "id": "xM",
+    "idDofusDB": "674e524064788cc741419699",
     "idDofusBook": 10557,
     "name": {
       "fr": "Gantelet du Real Boitar",
@@ -3545,9 +3875,9 @@
       "airResistPer": -2
     }
   },
-  "674e524064788cc74141969a": {
-    "id": "674e524064788cc74141969a",
-    "idShort": "xL",
+  "xL": {
+    "id": "xL",
+    "idDofusDB": "674e524064788cc74141969a",
     "idDofusBook": 10558,
     "name": {
       "fr": "Gantelet des Bouftons Rouges",
@@ -3567,9 +3897,9 @@
       "waterResistPer": -2
     }
   },
-  "674e524064788cc7414196af": {
-    "id": "674e524064788cc7414196af",
-    "idShort": "z8",
+  "z8": {
+    "id": "z8",
+    "idDofusDB": "674e524064788cc7414196af",
     "idDofusBook": 10627,
     "name": {
       "fr": "Anneau de Kocksis",
@@ -3587,9 +3917,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414196b5": {
-    "id": "674e524064788cc7414196b5",
-    "idShort": "xn",
+  "xn": {
+    "id": "xn",
+    "idDofusDB": "674e524064788cc7414196b5",
     "idDofusBook": 10633,
     "name": {
       "fr": "Anneau de Gobeuf",
@@ -3608,9 +3938,9 @@
       "pushbackDamage": 6
     }
   },
-  "674e524064788cc7414196b8": {
-    "id": "674e524064788cc7414196b8",
-    "idShort": "yo",
+  "yo": {
+    "id": "yo",
+    "idDofusDB": "674e524064788cc7414196b8",
     "idDofusBook": 10636,
     "name": {
       "fr": "Anneau de Laikteur",
@@ -3628,9 +3958,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc7414196bf": {
-    "id": "674e524064788cc7414196bf",
-    "idShort": "xJ",
+  "xJ": {
+    "id": "xJ",
+    "idDofusDB": "674e524064788cc7414196bf",
     "idDofusBook": 10643,
     "name": {
       "fr": "Anneau de Grizou",
@@ -3649,9 +3979,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc7414196e1": {
-    "id": "674e524064788cc7414196e1",
-    "idShort": "tN",
+  "tN": {
+    "id": "tN",
+    "idDofusDB": "674e524064788cc7414196e1",
     "idDofusBook": 10687,
     "name": {
       "fr": "Anneau du Roks Or",
@@ -3669,9 +3999,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc7414196fc": {
-    "id": "674e524064788cc7414196fc",
-    "idShort": "Jg",
+  "Jg": {
+    "id": "Jg",
+    "idDofusDB": "674e524064788cc7414196fc",
     "idDofusBook": 10785,
     "name": {
       "fr": "Anneau de l'intrépide",
@@ -3688,9 +4018,9 @@
       "initiative": 1
     }
   },
-  "674e524064788cc741419730": {
-    "id": "674e524064788cc741419730",
-    "idShort": "t5",
+  "t5": {
+    "id": "t5",
+    "idDofusDB": "674e524064788cc741419730",
     "idDofusBook": 10854,
     "name": {
       "fr": "Anneau de Klüme",
@@ -3710,9 +4040,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741419731": {
-    "id": "674e524064788cc741419731",
-    "idShort": "tK",
+  "tK": {
+    "id": "tK",
+    "idDofusDB": "674e524064788cc741419731",
     "idDofusBook": 10855,
     "name": {
       "fr": "Anneau de Kloug",
@@ -3733,9 +4063,9 @@
       "mpReduction": 2
     }
   },
-  "674e524064788cc741419781": {
-    "id": "674e524064788cc741419781",
-    "idShort": "Bc",
+  "Bc": {
+    "id": "Bc",
+    "idDofusDB": "674e524064788cc741419781",
     "idDofusBook": 10955,
     "name": {
       "fr": "Anneau du Corbeau Noir",
@@ -3753,9 +4083,9 @@
       "airDamage": 3
     }
   },
-  "674e524064788cc741419796": {
-    "id": "674e524064788cc741419796",
-    "idShort": "Bb",
+  "Bb": {
+    "id": "Bb",
+    "idDofusDB": "674e524064788cc741419796",
     "idDofusBook": 10976,
     "name": {
       "fr": "Anneau de Phong Huss",
@@ -3773,9 +4103,9 @@
       "earthDamage": 3
     }
   },
-  "674e524064788cc74141979b": {
-    "id": "674e524064788cc74141979b",
-    "idShort": "Bq",
+  "Bq": {
+    "id": "Bq",
+    "idDofusDB": "674e524064788cc74141979b",
     "idDofusBook": 10981,
     "name": {
       "fr": "Anneau d'Hectaupe",
@@ -3793,9 +4123,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414197cd": {
-    "id": "674e524064788cc7414197cd",
-    "idShort": "xH",
+  "xH": {
+    "id": "xH",
+    "idDofusDB": "674e524064788cc7414197cd",
     "idDofusBook": 11058,
     "name": {
       "fr": "Anneau Pomdeupin",
@@ -3813,9 +4143,9 @@
       "earthDamage": 5
     }
   },
-  "674e524064788cc7414197e5": {
-    "id": "674e524064788cc7414197e5",
-    "idShort": "BB",
+  "BB": {
+    "id": "BB",
+    "idDofusDB": "674e524064788cc7414197e5",
     "idDofusBook": 11083,
     "name": {
       "fr": "Bague de Boufbowl",
@@ -3834,9 +4164,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414197e9": {
-    "id": "674e524064788cc7414197e9",
-    "idShort": "w0",
+  "w0": {
+    "id": "w0",
+    "idDofusDB": "674e524064788cc7414197e9",
     "idDofusBook": 11087,
     "name": {
       "fr": "Anneau de Gadjète",
@@ -3855,9 +4185,9 @@
       "pods": 150
     }
   },
-  "674e524064788cc7414198e2": {
-    "id": "674e524064788cc7414198e2",
-    "idShort": "sF",
+  "sF": {
+    "id": "sF",
+    "idDofusDB": "674e524064788cc7414198e2",
     "idDofusBook": 11346,
     "name": {
       "fr": "Anneau d'Ougicle",
@@ -3878,9 +4208,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc7414198e6": {
-    "id": "674e524064788cc7414198e6",
-    "idShort": "we",
+  "we": {
+    "id": "we",
+    "idDofusDB": "674e524064788cc7414198e6",
     "idDofusBook": 11350,
     "name": {
       "fr": "Anneau de Karotz",
@@ -3900,9 +4230,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414198ea": {
-    "id": "674e524064788cc7414198ea",
-    "idShort": "wB",
+  "wB": {
+    "id": "wB",
+    "idDofusDB": "674e524064788cc7414198ea",
     "idDofusBook": 11354,
     "name": {
       "fr": "Anneau de Grouillot",
@@ -3921,9 +4251,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc7414198f2": {
-    "id": "674e524064788cc7414198f2",
-    "idShort": "s3",
+  "s3": {
+    "id": "s3",
+    "idDofusDB": "674e524064788cc7414198f2",
     "idDofusBook": 11362,
     "name": {
       "fr": "Anneau de Piggy Paupe",
@@ -3943,9 +4273,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741419908": {
-    "id": "674e524064788cc741419908",
-    "idShort": "sc",
+  "sc": {
+    "id": "sc",
+    "idDofusDB": "674e524064788cc741419908",
     "idDofusBook": 11384,
     "name": {
       "fr": "Anoppinz",
@@ -3965,9 +4295,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741419917": {
-    "id": "674e524064788cc741419917",
-    "idShort": "s0",
+  "s0": {
+    "id": "s0",
+    "idDofusDB": "674e524064788cc741419917",
     "idDofusBook": 11399,
     "name": {
       "fr": "Anauffe-souris",
@@ -3986,9 +4316,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc741419928": {
-    "id": "674e524064788cc741419928",
-    "idShort": "mN",
+  "mN": {
+    "id": "mN",
+    "idDofusDB": "674e524064788cc741419928",
     "idDofusBook": 11417,
     "name": {
       "fr": "Anokio",
@@ -4008,36 +4338,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc74141995c": {
-    "id": "674e524064788cc74141995c",
-    "idShort": "75",
-    "idDofusBook": 11469,
-    "name": {
-      "fr": "Frimanneau",
-      "en": "Sleet Ring",
-      "pt": "Anel da Geada",
-      "de": "Raureifring",
-      "es": "Congeladillo"
-    },
-    "level": 195,
-    "panoply": "674e523f64788cc74141814c",
-    "category": "ring",
-    "stats": {
-      "health": 250,
-      "wisdom": 50,
-      "criticalChance": 5,
-      "damage": 12,
-      "prospecting": 20,
-      "initiative": 300,
-      "earthResistPer": 10,
-      "neutralResist": 10,
-      "fireResist": 10,
-      "waterResist": 10
-    }
-  },
-  "674e524064788cc74141995d": {
-    "id": "674e524064788cc74141995d",
-    "idShort": "6J",
+  "6J": {
+    "id": "6J",
+    "idDofusDB": "674e524064788cc74141995d",
     "idDofusBook": 11470,
     "name": {
       "fr": "Grésilanneau",
@@ -4060,9 +4363,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc7414199b5": {
-    "id": "674e524064788cc7414199b5",
-    "idShort": "dm",
+  "dm": {
+    "id": "dm",
+    "idDofusDB": "674e524064788cc7414199b5",
     "idDofusBook": 11577,
     "name": {
       "fr": "Anneau du Mansot Royal",
@@ -4089,9 +4392,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199b6": {
-    "id": "674e524064788cc7414199b6",
-    "idShort": "az",
+  "az": {
+    "id": "az",
+    "idDofusDB": "674e524064788cc7414199b6",
     "idDofusBook": 11578,
     "name": {
       "fr": "Crochet de Ben le Ripate",
@@ -4120,9 +4423,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc7414199b7": {
-    "id": "674e524064788cc7414199b7",
-    "idShort": "9S",
+  "9S": {
+    "id": "9S",
+    "idDofusDB": "674e524064788cc7414199b7",
     "idDofusBook": 11579,
     "name": {
       "fr": "Bague de l'Obsidiantre",
@@ -4148,9 +4451,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199db": {
-    "id": "674e524064788cc7414199db",
-    "idShort": "cV",
+  "cV": {
+    "id": "cV",
+    "idDofusDB": "674e524064788cc7414199db",
     "idDofusBook": 11620,
     "name": {
       "fr": "Anneau Frage",
@@ -4175,9 +4478,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc7414199dc": {
-    "id": "674e524064788cc7414199dc",
-    "idShort": "dg",
+  "dg": {
+    "id": "dg",
+    "idDofusDB": "674e524064788cc7414199dc",
     "idDofusBook": 11621,
     "name": {
       "fr": "Anneau Made",
@@ -4200,9 +4503,9 @@
       "pushbackDamage": 7
     }
   },
-  "674e524064788cc7414199dd": {
-    "id": "674e524064788cc7414199dd",
-    "idShort": "d3",
+  "d3": {
+    "id": "d3",
+    "idDofusDB": "674e524064788cc7414199dd",
     "idDofusBook": 11622,
     "name": {
       "fr": "Anneau Nobstant",
@@ -4222,9 +4525,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199de": {
-    "id": "674e524064788cc7414199de",
-    "idShort": "9x",
+  "9x": {
+    "id": "9x",
+    "idDofusDB": "674e524064788cc7414199de",
     "idDofusBook": 11623,
     "name": {
       "fr": "Anneau Tabéné",
@@ -4251,9 +4554,9 @@
       "criticalResist": 5
     }
   },
-  "674e524064788cc741419a2f": {
-    "id": "674e524064788cc741419a2f",
-    "idShort": "8T",
+  "8T": {
+    "id": "8T",
+    "idDofusDB": "674e524064788cc741419a2f",
     "idDofusBook": 11714,
     "name": {
       "fr": "Anneau du Korriandre",
@@ -4279,9 +4582,9 @@
       "criticalResist": 6
     }
   },
-  "674e524064788cc741419a32": {
-    "id": "674e524064788cc741419a32",
-    "idShort": "7L",
+  "7L": {
+    "id": "7L",
+    "idDofusDB": "674e524064788cc741419a32",
     "idDofusBook": 11717,
     "name": {
       "fr": "Anneau de Kolosso",
@@ -4307,9 +4610,9 @@
       "apResist": 6
     }
   },
-  "674e524064788cc741419a44": {
-    "id": "674e524064788cc741419a44",
-    "idShort": "9t",
+  "9t": {
+    "id": "9t",
+    "idDofusDB": "674e524064788cc741419a44",
     "idDofusBook": 11735,
     "name": {
       "fr": "Alliance Hestrale",
@@ -4336,9 +4639,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419a45": {
-    "id": "674e524064788cc741419a45",
-    "idShort": "7W",
+  "7W": {
+    "id": "7W",
+    "idDofusDB": "674e524064788cc741419a45",
     "idDofusBook": 11736,
     "name": {
       "fr": "Alliance Sorcelée",
@@ -4363,9 +4666,9 @@
       "criticalResist": 15
     }
   },
-  "674e524064788cc741419a46": {
-    "id": "674e524064788cc741419a46",
-    "idShort": "6c",
+  "6c": {
+    "id": "6c",
+    "idDofusDB": "674e524064788cc741419a46",
     "idDofusBook": 11737,
     "name": {
       "fr": "Bracelet Ming",
@@ -4386,9 +4689,9 @@
       "dodge": 8
     }
   },
-  "674e524064788cc741419a47": {
-    "id": "674e524064788cc741419a47",
-    "idShort": "7l",
+  "7l": {
+    "id": "7l",
+    "idDofusDB": "674e524064788cc741419a47",
     "idDofusBook": 11738,
     "name": {
       "fr": "Anneau Aimgéroks",
@@ -4432,9 +4735,9 @@
       "airDamage": 7
     }
   },
-  "674e524064788cc741419b01": {
-    "id": "674e524064788cc741419b01",
-    "idShort": "xF",
+  "xF": {
+    "id": "xF",
+    "idDofusDB": "674e524064788cc741419b01",
     "idDofusBook": 11977,
     "name": {
       "fr": "Alliance du Kanniboul Ebil",
@@ -4453,9 +4756,9 @@
       "apReduction": 6
     }
   },
-  "674e524064788cc741419b02": {
-    "id": "674e524064788cc741419b02",
-    "idShort": "xl",
+  "xl": {
+    "id": "xl",
+    "idDofusDB": "674e524064788cc741419b02",
     "idDofusBook": 11978,
     "name": {
       "fr": "Anneau du Boostache",
@@ -4474,9 +4777,9 @@
       "mpReduction": 6
     }
   },
-  "674e524064788cc741419b24": {
-    "id": "674e524064788cc741419b24",
-    "idShort": "tA",
+  "tA": {
+    "id": "tA",
+    "idDofusDB": "674e524064788cc741419b24",
     "idDofusBook": 12019,
     "name": {
       "fr": "Kwakwanneau",
@@ -4496,9 +4799,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419b25": {
-    "id": "674e524064788cc741419b25",
-    "idShort": "tz",
+  "tz": {
+    "id": "tz",
+    "idDofusDB": "674e524064788cc741419b25",
     "idDofusBook": 12020,
     "name": {
       "fr": "Kwakwalliance",
@@ -4518,9 +4821,9 @@
       "apResist": 5
     }
   },
-  "674e524064788cc741419b2c": {
-    "id": "674e524064788cc741419b2c",
-    "idShort": "sC",
+  "sC": {
+    "id": "sC",
+    "idDofusDB": "674e524064788cc741419b2c",
     "idDofusBook": 12027,
     "name": {
       "fr": "Anneau de Mirh",
@@ -4540,9 +4843,9 @@
       "mpResist": 4
     }
   },
-  "674e524064788cc741419b32": {
-    "id": "674e524064788cc741419b32",
-    "idShort": "vw",
+  "vw": {
+    "id": "vw",
+    "idDofusDB": "674e524064788cc741419b32",
     "idDofusBook": 12033,
     "name": {
       "fr": "Anneau de Logram",
@@ -4562,9 +4865,9 @@
       "criticalResist": 4
     }
   },
-  "674e524064788cc741419b38": {
-    "id": "674e524064788cc741419b38",
-    "idShort": "th",
+  "th": {
+    "id": "th",
+    "idDofusDB": "674e524064788cc741419b38",
     "idDofusBook": 12039,
     "name": {
       "fr": "Alliance d'Hichète",
@@ -4584,9 +4887,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741419b3e": {
-    "id": "674e524064788cc741419b3e",
-    "idShort": "wx",
+  "wx": {
+    "id": "wx",
+    "idDofusDB": "674e524064788cc741419b3e",
     "idDofusBook": 12045,
     "name": {
       "fr": "Anneau d'Haku",
@@ -4606,9 +4909,9 @@
       "criticalResist": 4
     }
   },
-  "674e524064788cc741419b66": {
-    "id": "674e524064788cc741419b66",
-    "idShort": "eS",
+  "eS": {
+    "id": "eS",
+    "idDofusDB": "674e524064788cc741419b66",
     "idDofusBook": 12085,
     "name": {
       "fr": "Anneau Moutheur",
@@ -4631,9 +4934,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419b67": {
-    "id": "674e524064788cc741419b67",
-    "idShort": "fs",
+  "fs": {
+    "id": "fs",
+    "idDofusDB": "674e524064788cc741419b67",
     "idDofusBook": 12086,
     "name": {
       "fr": "Bague Moutheuze",
@@ -4656,9 +4959,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc741419b6b": {
-    "id": "674e524064788cc741419b6b",
-    "idShort": "da",
+  "da": {
+    "id": "da",
+    "idDofusDB": "674e524064788cc741419b6b",
     "idDofusBook": 12090,
     "name": {
       "fr": "Anneau de Frigostine",
@@ -4686,9 +4989,9 @@
       "lock": -4
     }
   },
-  "674e524064788cc741419b6f": {
-    "id": "674e524064788cc741419b6f",
-    "idShort": "aJ",
+  "aJ": {
+    "id": "aJ",
+    "idDofusDB": "674e524064788cc741419b6f",
     "idDofusBook": 12094,
     "name": {
       "fr": "Anneau de Cantile",
@@ -4715,9 +5018,9 @@
       "criticalResist": 12
     }
   },
-  "674e524064788cc741419b72": {
-    "id": "674e524064788cc741419b72",
-    "idShort": "9r",
+  "9r": {
+    "id": "9r",
+    "idDofusDB": "674e524064788cc741419b72",
     "idDofusBook": 12097,
     "name": {
       "fr": "Anneau des Prophètes",
@@ -4744,9 +5047,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc741419b75": {
-    "id": "674e524064788cc741419b75",
-    "idShort": "8V",
+  "8V": {
+    "id": "8V",
+    "idDofusDB": "674e524064788cc741419b75",
     "idDofusBook": 12100,
     "name": {
       "fr": "Anneau de Guten Tak",
@@ -4773,36 +5076,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524064788cc741419b76": {
-    "id": "674e524064788cc741419b76",
-    "idShort": "95",
-    "idDofusBook": 12101,
-    "name": {
-      "fr": "Alliance de Guten Tak",
-      "en": "Guten Tak's Wedding Ring",
-      "pt": "Aliança de Guten Tak",
-      "de": "Guten Tarks Ehering",
-      "es": "Alianza de Gwen Astarde"
-    },
-    "level": 173,
-    "panoply": "674e523f64788cc74141816a",
-    "category": "ring",
-    "stats": {
-      "health": 350,
-      "wisdom": 30,
-      "range": 1,
-      "prospecting": 10,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
-      "fireResist": 20,
-      "airResist": 20,
-      "dodge": 10,
-      "pushbackResist": 15
-    }
-  },
-  "674e524064788cc741419b79": {
-    "id": "674e524064788cc741419b79",
-    "idShort": "8a",
+  "8a": {
+    "id": "8a",
+    "idDofusDB": "674e524064788cc741419b79",
     "idDofusBook": 12104,
     "name": {
       "fr": "Bague de Boréale",
@@ -4824,9 +5100,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419b7e": {
-    "id": "674e524064788cc741419b7e",
-    "idShort": "7H",
+  "7H": {
+    "id": "7H",
+    "idDofusDB": "674e524064788cc741419b7e",
     "idDofusBook": 12109,
     "name": {
       "fr": "Anneau du Professeur Xa",
@@ -4854,9 +5130,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419b82": {
-    "id": "674e524064788cc741419b82",
-    "idShort": "5G",
+  "5G": {
+    "id": "5G",
+    "idDofusDB": "674e524064788cc741419b82",
     "idDofusBook": 12113,
     "name": {
       "fr": "Alliance Gloursonne",
@@ -4884,9 +5160,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc741419b83": {
-    "id": "674e524064788cc741419b83",
-    "idShort": "6b",
+  "6b": {
+    "id": "6b",
+    "idDofusDB": "674e524064788cc741419b83",
     "idDofusBook": 12114,
     "name": {
       "fr": "Bague Gloursonne",
@@ -4914,9 +5190,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc741419b89": {
-    "id": "674e524064788cc741419b89",
-    "idShort": "7C",
+  "7C": {
+    "id": "7C",
+    "idDofusDB": "674e524064788cc741419b89",
     "idDofusBook": 12120,
     "name": {
       "fr": "Anneau de la Fuji Givrefoux",
@@ -4946,9 +5222,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741419c1e": {
-    "id": "674e524064788cc741419c1e",
-    "idShort": "jv",
+  "jv": {
+    "id": "jv",
+    "idDofusDB": "674e524064788cc741419c1e",
     "idDofusBook": 12372,
     "name": {
       "fr": "Gantelet du Gorgouille",
@@ -4973,9 +5249,9 @@
       "pushbackDamage": 3
     }
   },
-  "674e524064788cc741419c25": {
-    "id": "674e524064788cc741419c25",
-    "idShort": "t1",
+  "t1": {
+    "id": "t1",
+    "idDofusDB": "674e524064788cc741419c25",
     "idDofusBook": 12379,
     "name": {
       "fr": "Bracilozité",
@@ -4994,9 +5270,9 @@
       "pushbackDamage": 4
     }
   },
-  "674e524064788cc741419c33": {
-    "id": "674e524064788cc741419c33",
-    "idShort": "cC",
+  "cC": {
+    "id": "cC",
+    "idDofusDB": "674e524064788cc741419c33",
     "idDofusBook": 12393,
     "name": {
       "fr": "Mitaine Aibre",
@@ -5010,9 +5286,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419c34": {
-    "id": "674e524064788cc741419c34",
-    "idShort": "cB",
+  "cB": {
+    "id": "cB",
+    "idDofusDB": "674e524064788cc741419c34",
     "idDofusBook": 12394,
     "name": {
       "fr": "Bracelet Jande",
@@ -5026,9 +5302,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419c3c": {
-    "id": "674e524064788cc741419c3c",
-    "idShort": "t0",
+  "t0": {
+    "id": "t0",
+    "idDofusDB": "674e524064788cc741419c3c",
     "idDofusBook": 12409,
     "name": {
       "fr": "Anneau du Vulkain",
@@ -5047,9 +5323,9 @@
       "apReduction": 3
     }
   },
-  "674e524064788cc741419c3d": {
-    "id": "674e524064788cc741419c3d",
-    "idShort": "s8",
+  "s8": {
+    "id": "s8",
+    "idDofusDB": "674e524064788cc741419c3d",
     "idDofusBook": 12410,
     "name": {
       "fr": "Bracelet du Vulkain",
@@ -5068,9 +5344,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741419c4a": {
-    "id": "674e524064788cc741419c4a",
-    "idShort": "Hh",
+  "Hh": {
+    "id": "Hh",
+    "idDofusDB": "674e524064788cc741419c4a",
     "idDofusBook": 12423,
     "name": {
       "fr": "Anneau Tétriste",
@@ -5090,9 +5366,9 @@
       "airResistPer": -1
     }
   },
-  "674e524064788cc741419c75": {
-    "id": "674e524064788cc741419c75",
-    "idShort": "rZ",
+  "rZ": {
+    "id": "rZ",
+    "idDofusDB": "674e524064788cc741419c75",
     "idDofusBook": 12466,
     "name": {
       "fr": "Boracelet",
@@ -5112,9 +5388,9 @@
       "lock": 2
     }
   },
-  "674e524064788cc741419cef": {
-    "id": "674e524064788cc741419cef",
-    "idShort": "Hg",
+  "Hg": {
+    "id": "Hg",
+    "idDofusDB": "674e524064788cc741419cef",
     "idDofusBook": 12598,
     "name": {
       "fr": "Anneau de l'Envahisseur",
@@ -5131,9 +5407,9 @@
       "heal": 3
     }
   },
-  "674e524064788cc741419d26": {
-    "id": "674e524064788cc741419d26",
-    "idShort": "Ak",
+  "Ak": {
+    "id": "Ak",
+    "idDofusDB": "674e524064788cc741419d26",
     "idDofusBook": 12658,
     "name": {
       "fr": "Cosmobracelet",
@@ -5151,9 +5427,9 @@
       "criticalResist": 4
     }
   },
-  "674e524064788cc741419d29": {
-    "id": "674e524064788cc741419d29",
-    "idShort": "Il",
+  "Il": {
+    "id": "Il",
+    "idDofusDB": "674e524064788cc741419d29",
     "idDofusBook": 12661,
     "name": {
       "fr": "Sac à Main",
@@ -5168,9 +5444,9 @@
       "pods": 80
     }
   },
-  "674e524064788cc741419dae": {
-    "id": "674e524064788cc741419dae",
-    "idShort": "CG",
+  "CG": {
+    "id": "CG",
+    "idDofusDB": "674e524064788cc741419dae",
     "idDofusBook": 12851,
     "name": {
       "fr": "Bracelet du Glutin",
@@ -5189,9 +5465,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741419e18": {
-    "id": "674e524064788cc741419e18",
-    "idShort": "6a",
+  "6a": {
+    "id": "6a",
+    "idDofusDB": "674e524064788cc741419e18",
     "idDofusBook": 12969,
     "name": {
       "fr": "Bracelet du Minotoboule",
@@ -5212,9 +5488,9 @@
       "dodge": 8
     }
   },
-  "674e524064788cc741419e59": {
-    "id": "674e524064788cc741419e59",
-    "idShort": "5F",
+  "5F": {
+    "id": "5F",
+    "idDofusDB": "674e524064788cc741419e59",
     "idDofusBook": 13115,
     "name": {
       "fr": "Anneau de Brouce",
@@ -5238,35 +5514,9 @@
       "mpResist": 7
     }
   },
-  "674e524064788cc741419e62": {
-    "id": "674e524064788cc741419e62",
-    "idShort": "67",
-    "idDofusBook": 13124,
-    "name": {
-      "fr": "Anneau d'Allister",
-      "en": "Allister's Ring",
-      "pt": "Anel de Allister",
-      "de": "Allisters Prunkring",
-      "es": "Anillo de Allister"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141817f",
-    "category": "ring",
-    "stats": {
-      "health": 250,
-      "agility": 75,
-      "wisdom": 45,
-      "criticalChance": 5,
-      "summon": 1,
-      "airDamage": 15,
-      "prospecting": 15,
-      "apResist": 6,
-      "criticalResist": 15
-    }
-  },
-  "674e524064788cc741419eda": {
-    "id": "674e524064788cc741419eda",
-    "idShort": "c5",
+  "c5": {
+    "id": "c5",
+    "idDofusDB": "674e524064788cc741419eda",
     "idDofusBook": 13265,
     "name": {
       "fr": "Steamanneau Maître",
@@ -5280,9 +5530,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524064788cc741419ef9": {
-    "id": "674e524064788cc741419ef9",
-    "idShort": "xC",
+  "xC": {
+    "id": "xC",
+    "idDofusDB": "674e524064788cc741419ef9",
     "idDofusBook": 13297,
     "name": {
       "fr": "Bague Rafe",
@@ -5300,9 +5550,9 @@
       "pushbackDamage": 4
     }
   },
-  "674e524064788cc741419efa": {
-    "id": "674e524064788cc741419efa",
-    "idShort": "wb",
+  "wb": {
+    "id": "wb",
+    "idDofusDB": "674e524064788cc741419efa",
     "idDofusBook": 13298,
     "name": {
       "fr": "Bracelet Gume",
@@ -5320,9 +5570,9 @@
       "airDamage": 3
     }
   },
-  "674e524064788cc741419f0e": {
-    "id": "674e524064788cc741419f0e",
-    "idShort": "sY",
+  "sY": {
+    "id": "sY",
+    "idDofusDB": "674e524064788cc741419f0e",
     "idDofusBook": 13320,
     "name": {
       "fr": "Annokami",
@@ -5342,9 +5592,9 @@
       "mpReduction": 3
     }
   },
-  "674e524064788cc741419f9a": {
-    "id": "674e524064788cc741419f9a",
-    "idShort": "sl",
+  "sl": {
+    "id": "sl",
+    "idDofusDB": "674e524064788cc741419f9a",
     "idDofusBook": 13460,
     "name": {
       "fr": "Diplanneau",
@@ -5364,9 +5614,9 @@
       "waterDamage": 5
     }
   },
-  "674e524064788cc74141a02f": {
-    "id": "674e524064788cc74141a02f",
-    "idShort": "6E",
+  "6E": {
+    "id": "6E",
+    "idDofusDB": "674e524064788cc74141a02f",
     "idDofusBook": 13629,
     "name": {
       "fr": "Anneau d'Henual",
@@ -5394,41 +5644,9 @@
       "criticalResist": -7
     }
   },
-  "674e524064788cc74141a03c": {
-    "id": "674e524064788cc74141a03c",
-    "idShort": "65",
-    "idDofusBook": 13642,
-    "name": {
-      "fr": "Anneau de Padgref",
-      "en": "Nomarow's Ring",
-      "pt": "Anel de Nondome",
-      "de": "Ring des Knöchernen Marks",
-      "es": "Anillo de Noai Aludem"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141818b",
-    "category": "ring",
-    "stats": {
-      "health": 100,
-      "intelligence": 60,
-      "agility": 60,
-      "wisdom": 40,
-      "criticalChance": 6,
-      "range": 1,
-      "summon": 1,
-      "fireDamage": 7,
-      "airDamage": 7,
-      "waterResistPer": 8,
-      "earthResist": 10,
-      "airResist": 10,
-      "lock": -4,
-      "mpResist": -3,
-      "criticalDamage": 12
-    }
-  },
-  "674e524064788cc74141a115": {
-    "id": "674e524064788cc74141a115",
-    "idShort": "sO",
+  "sO": {
+    "id": "sO",
+    "idDofusDB": "674e524064788cc74141a115",
     "idDofusBook": 13891,
     "name": {
       "fr": "Glaglano",
@@ -5447,9 +5665,9 @@
       "airDamage": 5
     }
   },
-  "674e524064788cc74141a11b": {
-    "id": "674e524064788cc74141a11b",
-    "idShort": "5y",
+  "5y": {
+    "id": "5y",
+    "idDofusDB": "674e524064788cc74141a11b",
     "idDofusBook": 13897,
     "name": {
       "fr": "Anneau Tamie",
@@ -5470,9 +5688,9 @@
       "mpReduction": 8
     }
   },
-  "674e524064788cc74141a188": {
-    "id": "674e524064788cc74141a188",
-    "idShort": "bD",
+  "bD": {
+    "id": "bD",
+    "idDofusDB": "674e524064788cc74141a188",
     "idDofusBook": 14006,
     "name": {
       "fr": "Infernano",
@@ -5496,9 +5714,9 @@
       "fireResist": 15
     }
   },
-  "674e524064788cc74141a189": {
-    "id": "674e524064788cc74141a189",
-    "idShort": "bC",
+  "bC": {
+    "id": "bC",
+    "idDofusDB": "674e524064788cc74141a189",
     "idDofusBook": 14007,
     "name": {
       "fr": "Styxano",
@@ -5522,9 +5740,9 @@
       "waterResist": 15
     }
   },
-  "674e524064788cc74141a18a": {
-    "id": "674e524064788cc74141a18a",
-    "idShort": "bB",
+  "bB": {
+    "id": "bB",
+    "idDofusDB": "674e524064788cc74141a18a",
     "idDofusBook": 14008,
     "name": {
       "fr": "Mandrano",
@@ -5548,9 +5766,9 @@
       "earthResist": 15
     }
   },
-  "674e524064788cc74141a18b": {
-    "id": "674e524064788cc74141a18b",
-    "idShort": "bA",
+  "bA": {
+    "id": "bA",
+    "idDofusDB": "674e524064788cc74141a18b",
     "idDofusBook": 14009,
     "name": {
       "fr": "Willkillsano",
@@ -5574,9 +5792,9 @@
       "airResist": 15
     }
   },
-  "674e524164788cc74141a1b3": {
-    "id": "674e524164788cc74141a1b3",
-    "idShort": "6w",
+  "6w": {
+    "id": "6w",
+    "idDofusDB": "674e524164788cc74141a1b3",
     "idDofusBook": 14049,
     "name": {
       "fr": "Bague Nostik",
@@ -5601,9 +5819,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141a1b8": {
-    "id": "674e524164788cc74141a1b8",
-    "idShort": "5g",
+  "5g": {
+    "id": "5g",
+    "idDofusDB": "674e524164788cc74141a1b8",
     "idDofusBook": 14054,
     "name": {
       "fr": "Anneau Vicieux",
@@ -5629,34 +5847,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a1bc": {
-    "id": "674e524164788cc74141a1bc",
-    "idShort": "61",
-    "idDofusBook": 14058,
-    "name": {
-      "fr": "Anneau Glacial",
-      "en": "Glacial Ring",
-      "pt": "Anel Glacial",
-      "de": "Eiskalter Ring",
-      "es": "Anillo glacial"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141819d",
-    "category": "ring",
-    "stats": {
-      "health": 250,
-      "chance": 60,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "waterDamage": 15,
-      "prospecting": 15,
-      "dodge": 8,
-      "criticalResist": 20
-    }
-  },
-  "674e524164788cc74141a1bf": {
-    "id": "674e524164788cc74141a1bf",
-    "idShort": "5v",
+  "5v": {
+    "id": "5v",
+    "idDofusDB": "674e524164788cc74141a1bf",
     "idDofusBook": 14061,
     "name": {
       "fr": "Alliance de Missiz Frizz",
@@ -5682,9 +5875,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a1c5": {
-    "id": "674e524164788cc74141a1c5",
-    "idShort": "5e",
+  "5e": {
+    "id": "5e",
+    "idDofusDB": "674e524164788cc74141a1c5",
     "idDofusBook": 14067,
     "name": {
       "fr": "Bague Instable",
@@ -5709,9 +5902,9 @@
       "pushbackDamage": 40
     }
   },
-  "674e524164788cc74141a1c6": {
-    "id": "674e524164788cc74141a1c6",
-    "idShort": "5d",
+  "5d": {
+    "id": "5d",
+    "idDofusDB": "674e524164788cc74141a1c6",
     "idDofusBook": 14068,
     "name": {
       "fr": "Anneau Instable",
@@ -5736,34 +5929,9 @@
       "pushbackResist": 40
     }
   },
-  "674e524164788cc74141a1cf": {
-    "id": "674e524164788cc74141a1cf",
-    "idShort": "57",
-    "idDofusBook": 14077,
-    "name": {
-      "fr": "Anneau du Comte Harebourg",
-      "en": "Count Harebourg's Ring",
-      "pt": "Anel do Conde Traspafrent",
-      "de": "Ring von Graf Primzahl",
-      "es": "Anillo del conde Kontatrás"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418193",
-    "category": "ring",
-    "stats": {
-      "health": 350,
-      "strength": 50,
-      "wisdom": 50,
-      "criticalChance": 7,
-      "neutralDamage": 15,
-      "earthDamage": 15,
-      "initiative": -401,
-      "criticalResist": 25
-    }
-  },
-  "674e524164788cc74141a1db": {
-    "id": "674e524164788cc74141a1db",
-    "idShort": "4W",
+  "4W": {
+    "id": "4W",
+    "idDofusDB": "674e524164788cc74141a1db",
     "idDofusBook": 14089,
     "name": {
       "fr": "Anneau Cryochrone",
@@ -5787,9 +5955,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a1de": {
-    "id": "674e524164788cc74141a1de",
-    "idShort": "4T",
+  "4T": {
+    "id": "4T",
+    "idDofusDB": "674e524164788cc74141a1de",
     "idDofusBook": 14092,
     "name": {
       "fr": "Anneau du Cycloïde",
@@ -5815,9 +5983,9 @@
       "lock": 6
     }
   },
-  "674e524164788cc74141a296": {
-    "id": "674e524164788cc74141a296",
-    "idShort": "rY",
+  "rY": {
+    "id": "rY",
+    "idDofusDB": "674e524164788cc74141a296",
     "idDofusBook": 14302,
     "name": {
       "fr": "Anneau Stroplante",
@@ -5836,9 +6004,9 @@
       "initiative": 100
     }
   },
-  "674e524164788cc74141a29f": {
-    "id": "674e524164788cc74141a29f",
-    "idShort": "qA",
+  "qA": {
+    "id": "qA",
+    "idDofusDB": "674e524164788cc74141a29f",
     "idDofusBook": 14311,
     "name": {
       "fr": "Justanneau",
@@ -5857,9 +6025,9 @@
       "dodge": 4
     }
   },
-  "674e524164788cc74141a308": {
-    "id": "674e524164788cc74141a308",
-    "idShort": "kn",
+  "kn": {
+    "id": "kn",
+    "idDofusDB": "674e524164788cc74141a308",
     "idDofusBook": 14496,
     "name": {
       "fr": "Bracelet du Blanc Pa Wabbit",
@@ -5881,9 +6049,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141a309": {
-    "id": "674e524164788cc74141a309",
-    "idShort": "fn",
+  "fn": {
+    "id": "fn",
+    "idDofusDB": "674e524164788cc74141a309",
     "idDofusBook": 14497,
     "name": {
       "fr": "Anneau du Wabbit Céphale",
@@ -5907,9 +6075,9 @@
       "apResist": -4
     }
   },
-  "674e524164788cc74141a33b": {
-    "id": "674e524164788cc74141a33b",
-    "idShort": "gR",
+  "gR": {
+    "id": "gR",
+    "idDofusDB": "674e524164788cc74141a33b",
     "idDofusBook": 14581,
     "name": {
       "fr": "Bracelet Tmotiv",
@@ -5931,9 +6099,9 @@
       "airDamage": 6
     }
   },
-  "674e524164788cc74141a347": {
-    "id": "674e524164788cc74141a347",
-    "idShort": "H7",
+  "H7": {
+    "id": "H7",
+    "idDofusDB": "674e524164788cc74141a347",
     "idDofusBook": 14593,
     "name": {
       "fr": "Anomen Tengu",
@@ -5949,9 +6117,9 @@
       "airDamage": 2
     }
   },
-  "674e524164788cc74141a353": {
-    "id": "674e524164788cc74141a353",
-    "idShort": "H4",
+  "H4": {
+    "id": "H4",
+    "idDofusDB": "674e524164788cc74141a353",
     "idDofusBook": 14605,
     "name": {
       "fr": "Geishanneau",
@@ -5967,9 +6135,9 @@
       "power": 10
     }
   },
-  "674e524164788cc74141a357": {
-    "id": "674e524164788cc74141a357",
-    "idShort": "H3",
+  "H3": {
+    "id": "H3",
+    "idDofusDB": "674e524164788cc74141a357",
     "idDofusBook": 14609,
     "name": {
       "fr": "Kouinkano Noir",
@@ -5985,9 +6153,9 @@
       "criticalChance": 2
     }
   },
-  "674e524164788cc74141a35b": {
-    "id": "674e524164788cc74141a35b",
-    "idShort": "H2",
+  "H2": {
+    "id": "H2",
+    "idDofusDB": "674e524164788cc74141a35b",
     "idDofusBook": 14613,
     "name": {
       "fr": "Kouinkano Jaune",
@@ -6003,9 +6171,9 @@
       "fireDamage": 3
     }
   },
-  "674e524164788cc74141a375": {
-    "id": "674e524164788cc74141a375",
-    "idShort": "dw",
+  "dw": {
+    "id": "dw",
+    "idDofusDB": "674e524164788cc74141a375",
     "idDofusBook": 14639,
     "name": {
       "fr": "Nageanneau",
@@ -6032,9 +6200,9 @@
       "lock": -4
     }
   },
-  "674e524164788cc74141a41c": {
-    "id": "674e524164788cc74141a41c",
-    "idShort": "GU",
+  "GU": {
+    "id": "GU",
+    "idDofusDB": "674e524164788cc74141a41c",
     "idDofusBook": 14806,
     "name": {
       "fr": "Annolita",
@@ -6050,9 +6218,9 @@
       "criticalChance": 1
     }
   },
-  "674e524164788cc74141a44c": {
-    "id": "674e524164788cc74141a44c",
-    "idShort": "4C",
+  "4C": {
+    "id": "4C",
+    "idDofusDB": "674e524164788cc74141a44c",
     "idDofusBook": 14879,
     "name": {
       "fr": "Anneau Tique",
@@ -6081,9 +6249,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141a44f": {
-    "id": "674e524164788cc74141a44f",
-    "idShort": "6R",
+  "6R": {
+    "id": "6R",
+    "idDofusDB": "674e524164788cc74141a44f",
     "idDofusBook": 14882,
     "name": {
       "fr": "Pikano",
@@ -6112,9 +6280,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a481": {
-    "id": "674e524164788cc74141a481",
-    "idShort": "6i",
+  "6i": {
+    "id": "6i",
+    "idDofusDB": "674e524164788cc74141a481",
     "idDofusBook": 14932,
     "name": {
       "fr": "Anneau Kturne",
@@ -6140,9 +6308,9 @@
       "lock": 5
     }
   },
-  "674e524164788cc74141a4ca": {
-    "id": "674e524164788cc74141a4ca",
-    "idShort": "5b",
+  "5b": {
+    "id": "5b",
+    "idDofusDB": "674e524164788cc74141a4ca",
     "idDofusBook": 15011,
     "name": {
       "fr": "Anneau du Père Fwetar",
@@ -6168,9 +6336,9 @@
       "criticalResist": 20
     }
   },
-  "674e524164788cc74141a4f3": {
-    "id": "674e524164788cc74141a4f3",
-    "idShort": "9N",
+  "9N": {
+    "id": "9N",
+    "idDofusDB": "674e524164788cc74141a4f3",
     "idDofusBook": 15059,
     "name": {
       "fr": "Anneau du Kaniblou",
@@ -6194,9 +6362,9 @@
       "apReduction": 5
     }
   },
-  "674e524164788cc74141a559": {
-    "id": "674e524164788cc74141a559",
-    "idShort": "4w",
+  "4w": {
+    "id": "4w",
+    "idDofusDB": "674e524164788cc74141a559",
     "idDofusBook": 15187,
     "name": {
       "fr": "Anneau de Nidas",
@@ -6220,9 +6388,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a55c": {
-    "id": "674e524164788cc74141a55c",
-    "idShort": "4t",
+  "4t": {
+    "id": "4t",
+    "idDofusDB": "674e524164788cc74141a55c",
     "idDofusBook": 15190,
     "name": {
       "fr": "Bracelet du Piloztère",
@@ -6245,9 +6413,9 @@
       "neutralResistPer": 10
     }
   },
-  "674e524164788cc74141a55f": {
-    "id": "674e524164788cc74141a55f",
-    "idShort": "4q",
+  "4q": {
+    "id": "4q",
+    "idDofusDB": "674e524164788cc74141a55f",
     "idDofusBook": 15193,
     "name": {
       "fr": "Alliance du Lévitrof",
@@ -6274,9 +6442,9 @@
       "fireResistPer": 6
     }
   },
-  "674e524164788cc74141a5f6": {
-    "id": "674e524164788cc74141a5f6",
-    "idShort": "ed",
+  "ed": {
+    "id": "ed",
+    "idDofusDB": "674e524164788cc74141a5f6",
     "idDofusBook": 15358,
     "name": {
       "fr": "Anneau Truche",
@@ -6299,38 +6467,9 @@
       "airResist": 12
     }
   },
-  "674e524164788cc74141a645": {
-    "id": "674e524164788cc74141a645",
-    "idShort": "49",
-    "idDofusBook": 15440,
-    "name": {
-      "fr": "Anneau du Katcheur",
-      "en": "Rassler Ring",
-      "pt": "Anel do lutador de Ketch",
-      "de": "Wresstel-Ring",
-      "es": "Anillo de luchador de presinkach"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414181c7",
-    "category": "ring",
-    "stats": {
-      "health": 350,
-      "strength": 50,
-      "intelligence": 50,
-      "agility": 50,
-      "wisdom": 40,
-      "criticalChance": 3,
-      "neutralDamage": 10,
-      "earthDamage": 10,
-      "fireDamage": 10,
-      "airDamage": 10,
-      "prospecting": 15,
-      "initiative": 400
-    }
-  },
-  "674e524164788cc74141a685": {
-    "id": "674e524164788cc74141a685",
-    "idShort": "dU",
+  "dU": {
+    "id": "dU",
+    "idDofusDB": "674e524164788cc74141a685",
     "idDofusBook": 15508,
     "name": {
       "fr": "Gant du Capitaine Ekarlatte",
@@ -6353,9 +6492,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141a697": {
-    "id": "674e524164788cc74141a697",
-    "idShort": "Bl",
+  "Bl": {
+    "id": "Bl",
+    "idDofusDB": "674e524164788cc74141a697",
     "idDofusBook": 15526,
     "name": {
       "fr": "Gant de Frakacia",
@@ -6374,34 +6513,9 @@
       "prospecting": 5
     }
   },
-  "674e524164788cc74141a73c": {
-    "id": "674e524164788cc74141a73c",
-    "idShort": "40",
-    "idDofusBook": 15698,
-    "name": {
-      "fr": "Anneau de Pol Ouatnos",
-      "en": "Pawl Ouatnos' Ring",
-      "pt": "Anel do Pow Uatisson",
-      "de": "Kapitän Pol Tawnos Ring",
-      "es": "Anillo de Pol Guatson"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414183e0",
-    "category": "ring",
-    "stats": {
-      "health": 300,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "mp": 1,
-      "range": 1,
-      "earthResistPer": 7,
-      "airResistPer": 7,
-      "lock": 10
-    }
-  },
-  "674e524164788cc74141a766": {
-    "id": "674e524164788cc74141a766",
-    "idShort": "3T",
+  "3T": {
+    "id": "3T",
+    "idDofusDB": "674e524164788cc74141a766",
     "idDofusBook": 15740,
     "name": {
       "fr": "Anneau des égarés",
@@ -6426,9 +6540,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141a781": {
-    "id": "674e524164788cc74141a781",
-    "idShort": "9f",
+  "9f": {
+    "id": "9f",
+    "idDofusDB": "674e524164788cc74141a781",
     "idDofusBook": 15768,
     "name": {
       "fr": "Anneau de XLII",
@@ -6453,9 +6567,9 @@
       "criticalResist": 12
     }
   },
-  "674e524164788cc74141a790": {
-    "id": "674e524164788cc74141a790",
-    "idShort": "fx",
+  "fx": {
+    "id": "fx",
+    "idDofusDB": "674e524164788cc74141a790",
     "idDofusBook": 15783,
     "name": {
       "fr": "Anneau de Fraktale",
@@ -6480,9 +6594,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141a791": {
-    "id": "674e524164788cc74141a791",
-    "idShort": "fL",
+  "fL": {
+    "id": "fL",
+    "idDofusDB": "674e524164788cc74141a791",
     "idDofusBook": 15784,
     "name": {
       "fr": "Anneau Xélomorphe",
@@ -6506,9 +6620,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a857": {
-    "id": "674e524164788cc74141a857",
-    "idShort": "AN",
+  "AN": {
+    "id": "AN",
+    "idDofusDB": "674e524164788cc74141a857",
     "idDofusBook": 15992,
     "name": {
       "fr": "Anneau Bille",
@@ -6526,9 +6640,9 @@
       "power": 10
     }
   },
-  "674e524164788cc74141a85d": {
-    "id": "674e524164788cc74141a85d",
-    "idShort": "rW",
+  "rW": {
+    "id": "rW",
+    "idDofusDB": "674e524164788cc74141a85d",
     "idDofusBook": 15998,
     "name": {
       "fr": "Alliance Apaisante",
@@ -6548,9 +6662,9 @@
       "waterDamage": 3
     }
   },
-  "674e524164788cc74141a863": {
-    "id": "674e524164788cc74141a863",
-    "idShort": "ey",
+  "ey": {
+    "id": "ey",
+    "idDofusDB": "674e524164788cc74141a863",
     "idDofusBook": 16004,
     "name": {
       "fr": "Anneau Tranchant",
@@ -6574,9 +6688,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141a864": {
-    "id": "674e524164788cc74141a864",
-    "idShort": "3H",
+  "3H": {
+    "id": "3H",
+    "idDofusDB": "674e524164788cc74141a864",
     "idDofusBook": 16005,
     "name": {
       "fr": "Bracelet des Fonds marins",
@@ -6600,9 +6714,9 @@
       "mpResist": 5
     }
   },
-  "674e524164788cc74141a8b6": {
-    "id": "674e524164788cc74141a8b6",
-    "idShort": "by",
+  "by": {
+    "id": "by",
+    "idDofusDB": "674e524164788cc74141a8b6",
     "idDofusBook": 16144,
     "name": {
       "fr": "Anneau Vae",
@@ -6616,9 +6730,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524164788cc74141a8d1": {
-    "id": "674e524164788cc74141a8d1",
-    "idShort": "jL",
+  "jL": {
+    "id": "jL",
+    "idDofusDB": "674e524164788cc74141a8d1",
     "idDofusBook": 16173,
     "name": {
       "fr": "Anneau Tissé",
@@ -6638,9 +6752,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524164788cc74141a8f4": {
-    "id": "674e524164788cc74141a8f4",
-    "idShort": "jW",
+  "jW": {
+    "id": "jW",
+    "idDofusDB": "674e524164788cc74141a8f4",
     "idDofusBook": 16209,
     "name": {
       "fr": "Alliance des Forestiers",
@@ -6662,9 +6776,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141a912": {
-    "id": "674e524164788cc74141a912",
-    "idShort": "wV",
+  "wV": {
+    "id": "wV",
+    "idDofusDB": "674e524164788cc74141a912",
     "idDofusBook": 16240,
     "name": {
       "fr": "Printanneau",
@@ -6684,9 +6798,9 @@
       "dodge": 3
     }
   },
-  "674e524164788cc74141a9e1": {
-    "id": "674e524164788cc74141a9e1",
-    "idShort": "Gm",
+  "Gm": {
+    "id": "Gm",
+    "idDofusDB": "674e524164788cc74141a9e1",
     "idDofusBook": 16502,
     "name": {
       "fr": "Bracelet de Kardorim",
@@ -6703,9 +6817,9 @@
       "waterDamage": 2
     }
   },
-  "674e524164788cc74141aab4": {
-    "id": "674e524164788cc74141aab4",
-    "idShort": "HH",
+  "HH": {
+    "id": "HH",
+    "idDofusDB": "674e524164788cc74141aab4",
     "idDofusBook": 16843,
     "name": {
       "fr": "Sac à Main Renforcé",
@@ -6720,9 +6834,9 @@
       "pods": 100
     }
   },
-  "674e524164788cc74141aba3": {
-    "id": "674e524164788cc74141aba3",
-    "idShort": "jF",
+  "jF": {
+    "id": "jF",
+    "idDofusDB": "674e524164788cc74141aba3",
     "idDofusBook": 17111,
     "name": {
       "fr": "Alliance du Capitaine Pirate",
@@ -6746,9 +6860,9 @@
       "pushbackDamage": 3
     }
   },
-  "674e524164788cc74141ac85": {
-    "id": "674e524164788cc74141ac85",
-    "idShort": "b5",
+  "b5": {
+    "id": "b5",
+    "idDofusDB": "674e524164788cc74141ac85",
     "idDofusBook": 17452,
     "name": {
       "fr": "Anneau Riginel",
@@ -6762,9 +6876,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524164788cc74141ac8a": {
-    "id": "674e524164788cc74141ac8a",
-    "idShort": "rU",
+  "rU": {
+    "id": "rU",
+    "idDofusDB": "674e524164788cc74141ac8a",
     "idDofusBook": 17457,
     "name": {
       "fr": "Anneau Welle",
@@ -6782,9 +6896,9 @@
       "heal": 2
     }
   },
-  "674e524164788cc74141ace3": {
-    "id": "674e524164788cc74141ace3",
-    "idShort": "3w",
+  "3w": {
+    "id": "3w",
+    "idDofusDB": "674e524164788cc74141ace3",
     "idDofusBook": 17574,
     "name": {
       "fr": "Chevalière du Roi Joueur",
@@ -6812,9 +6926,9 @@
       "mpReduction": 6
     }
   },
-  "674e524164788cc74141aceb": {
-    "id": "674e524164788cc74141aceb",
-    "idShort": "3o",
+  "3o": {
+    "id": "3o",
+    "idDofusDB": "674e524164788cc74141aceb",
     "idDofusBook": 17582,
     "name": {
       "fr": "Gant du Valet Veinard",
@@ -6838,9 +6952,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141acf5": {
-    "id": "674e524164788cc74141acf5",
-    "idShort": "9Q",
+  "9Q": {
+    "id": "9Q",
+    "idDofusDB": "674e524164788cc74141acf5",
     "idDofusBook": 17592,
     "name": {
       "fr": "Anneau des Matougarous",
@@ -6865,9 +6979,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141acf9": {
-    "id": "674e524164788cc74141acf9",
-    "idShort": "fU",
+  "fU": {
+    "id": "fU",
+    "idDofusDB": "674e524164788cc74141acf9",
     "idDofusBook": 17596,
     "name": {
       "fr": "Bague des Ecaflipuces",
@@ -6890,9 +7004,9 @@
       "lock": 3
     }
   },
-  "674e524164788cc74141ae61": {
-    "id": "674e524164788cc74141ae61",
-    "idShort": "3j",
+  "3j": {
+    "id": "3j",
+    "idDofusDB": "674e524164788cc74141ae61",
     "idDofusBook": 17998,
     "name": {
       "fr": "Anneau Crustique",
@@ -6916,9 +7030,9 @@
       "apReduction": 10
     }
   },
-  "674e524164788cc74141ae80": {
-    "id": "674e524164788cc74141ae80",
-    "idShort": "2Z",
+  "2Z": {
+    "id": "2Z",
+    "idDofusDB": "674e524164788cc74141ae80",
     "idDofusBook": 18029,
     "name": {
       "fr": "Bague Trithon",
@@ -6942,9 +7056,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141ae88": {
-    "id": "674e524164788cc74141ae88",
-    "idShort": "2R",
+  "2R": {
+    "id": "2R",
+    "idDofusDB": "674e524164788cc74141ae88",
     "idDofusBook": 18037,
     "name": {
       "fr": "Anneau Rifique",
@@ -6968,9 +7082,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141aff0": {
-    "id": "674e524164788cc74141aff0",
-    "idShort": "kQ",
+  "kQ": {
+    "id": "kQ",
+    "idDofusDB": "674e524164788cc74141aff0",
     "idDofusBook": 18424,
     "name": {
       "fr": "Anneau Ouroboulos",
@@ -6993,9 +7107,9 @@
       "lock": 3
     }
   },
-  "674e524164788cc74141affb": {
-    "id": "674e524164788cc74141affb",
-    "idShort": "e8",
+  "e8": {
+    "id": "e8",
+    "idDofusDB": "674e524164788cc74141affb",
     "idDofusBook": 18435,
     "name": {
       "fr": "Anneau d'El Piko",
@@ -7020,9 +7134,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141b07a": {
-    "id": "674e524164788cc74141b07a",
-    "idShort": "9n",
+  "9n": {
+    "id": "9n",
+    "idDofusDB": "674e524164788cc74141b07a",
     "idDofusBook": 18589,
     "name": {
       "fr": "Veranneau",
@@ -7047,9 +7161,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141b07f": {
-    "id": "674e524164788cc74141b07f",
-    "idShort": "2K",
+  "2K": {
+    "id": "2K",
+    "idDofusDB": "674e524164788cc74141b07f",
     "idDofusBook": 18594,
     "name": {
       "fr": "Baguistik",
@@ -7076,9 +7190,9 @@
       "criticalResist": 30
     }
   },
-  "674e524164788cc74141b084": {
-    "id": "674e524164788cc74141b084",
-    "idShort": "2P",
+  "2P": {
+    "id": "2P",
+    "idDofusDB": "674e524164788cc74141b084",
     "idDofusBook": 18599,
     "name": {
       "fr": "Anneauræus",
@@ -7104,9 +7218,9 @@
       "criticalResist": -30
     }
   },
-  "674e524164788cc74141b08c": {
-    "id": "674e524164788cc74141b08c",
-    "idShort": "b3",
+  "b3": {
+    "id": "b3",
+    "idDofusDB": "674e524164788cc74141b08c",
     "idDofusBook": 18615,
     "name": {
       "fr": "Anneau Nos",
@@ -7120,9 +7234,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524164788cc74141b1d9": {
-    "id": "674e524164788cc74141b1d9",
-    "idShort": "2v",
+  "2v": {
+    "id": "2v",
+    "idDofusDB": "674e524164788cc74141b1d9",
     "idDofusBook": 19078,
     "name": {
       "fr": "Goulano",
@@ -7148,9 +7262,9 @@
       "criticalResist": 25
     }
   },
-  "674e524164788cc74141b1e4": {
-    "id": "674e524164788cc74141b1e4",
-    "idShort": "k5",
+  "k5": {
+    "id": "k5",
+    "idDofusDB": "674e524164788cc74141b1e4",
     "idDofusBook": 19089,
     "name": {
       "fr": "Anneau Riktus",
@@ -7171,37 +7285,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524164788cc74141b281": {
-    "id": "674e524164788cc74141b281",
-    "idShort": "25",
-    "idDofusBook": 19264,
-    "name": {
-      "fr": "Alliance Brûlâme",
-      "en": "Soul-Blaze Wedding Ring",
-      "pt": "Aliança de Almardente",
-      "de": "Trauring der Brennenden Seele",
-      "es": "Alianza quemaalmas"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418212",
-    "category": "ring",
-    "stats": {
-      "health": 300,
-      "strength": 60,
-      "intelligence": 60,
-      "agility": 60,
-      "wisdom": 30,
-      "neutralDamage": 7,
-      "earthDamage": 7,
-      "fireDamage": 7,
-      "airDamage": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7
-    }
-  },
-  "674e524164788cc74141b3a0": {
-    "id": "674e524164788cc74141b3a0",
-    "idShort": "1U",
+  "1U": {
+    "id": "1U",
+    "idDofusDB": "674e524164788cc74141b3a0",
     "idDofusBook": 19597,
     "name": {
       "fr": "Lavanneau",
@@ -7224,9 +7310,9 @@
       "airResistPer": 10
     }
   },
-  "674e524164788cc74141b3ab": {
-    "id": "674e524164788cc74141b3ab",
-    "idShort": "1L",
+  "1L": {
+    "id": "1L",
+    "idDofusDB": "674e524164788cc74141b3ab",
     "idDofusBook": 19608,
     "name": {
       "fr": "Anneau Toriété",
@@ -7247,9 +7333,9 @@
       "waterResistPer": 7
     }
   },
-  "674e524164788cc74141b3b9": {
-    "id": "674e524164788cc74141b3b9",
-    "idShort": "IL",
+  "IL": {
+    "id": "IL",
+    "idDofusDB": "674e524164788cc74141b3b9",
     "idDofusBook": 19622,
     "name": {
       "fr": "Anneau de l'Audacieux",
@@ -7264,9 +7350,9 @@
       "power": 4
     }
   },
-  "674e524164788cc74141b516": {
-    "id": "674e524164788cc74141b516",
-    "idShort": "1H",
+  "1H": {
+    "id": "1H",
+    "idDofusDB": "674e524164788cc74141b516",
     "idDofusBook": 19977,
     "name": {
       "fr": "Anneau en Grithril",
@@ -7292,9 +7378,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141b51e": {
-    "id": "674e524164788cc74141b51e",
-    "idShort": "1z",
+  "1z": {
+    "id": "1z",
+    "idDofusDB": "674e524164788cc74141b51e",
     "idDofusBook": 19985,
     "name": {
       "fr": "Anneau Volkorne",
@@ -7314,9 +7400,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524164788cc74141b7fe": {
-    "id": "674e524164788cc74141b7fe",
-    "idShort": "sv",
+  "sv": {
+    "id": "sv",
+    "idDofusDB": "674e524164788cc74141b7fe",
     "idDofusBook": 20852,
     "name": {
       "fr": "Rondelle de Waddict",
@@ -7335,9 +7421,9 @@
       "dodge": 8
     }
   },
-  "674e524164788cc74141b959": {
-    "id": "674e524164788cc74141b959",
-    "idShort": "1h",
+  "1h": {
+    "id": "1h",
+    "idDofusDB": "674e524164788cc74141b959",
     "idDofusBook": 21223,
     "name": {
       "fr": "Crocanneau",
@@ -7379,9 +7465,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141b95e": {
-    "id": "674e524164788cc74141b95e",
-    "idShort": "1c",
+  "1c": {
+    "id": "1c",
+    "idDofusDB": "674e524164788cc74141b95e",
     "idDofusBook": 21228,
     "name": {
       "fr": "Anneau Lunaire",
@@ -7404,63 +7490,9 @@
       "apReduction": 10
     }
   },
-  "674e524164788cc74141bce9": {
-    "id": "674e524164788cc74141bce9",
-    "idShort": "19",
-    "idDofusBook": 22186,
-    "name": {
-      "fr": "Convoitise de Misère",
-      "en": "Misery's Greed",
-      "pt": "Cobiça de Miséria",
-      "de": "Elends Gier",
-      "es": "Codicia de Miseria"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418222",
-    "category": "ring",
-    "stats": {
-      "health": 300,
-      "chance": 50,
-      "agility": 50,
-      "wisdom": 30,
-      "criticalChance": 3,
-      "waterDamage": 10,
-      "airDamage": 10,
-      "airResistPer": 10,
-      "lock": -10,
-      "apResist": 10,
-      "criticalDamage": 10
-    }
-  },
-  "674e524164788cc74141bcef": {
-    "id": "674e524164788cc74141bcef",
-    "idShort": "13",
-    "idDofusBook": 22192,
-    "name": {
-      "fr": "Ceste de Guerre",
-      "en": "War's Gauntlet",
-      "pt": "Manopla de Guerra",
-      "de": "Kriegs Cestus",
-      "es": "Lanza de Guerra"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418223",
-    "category": "ring",
-    "stats": {
-      "health": 350,
-      "intelligence": 60,
-      "wisdom": 30,
-      "criticalChance": 4,
-      "fireDamage": 10,
-      "heal": -10,
-      "earthResistPer": 7,
-      "airResistPer": 7,
-      "criticalDamage": 15
-    }
-  },
-  "674e524164788cc74141bcf7": {
-    "id": "674e524164788cc74141bcf7",
-    "idShort": "0Z",
+  "0Z": {
+    "id": "0Z",
+    "idDofusDB": "674e524164788cc74141bcf7",
     "idDofusBook": 22205,
     "name": {
       "fr": "Bague de Corruption",
@@ -7484,9 +7516,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141bcf8": {
-    "id": "674e524164788cc74141bcf8",
-    "idShort": "0Y",
+  "0Y": {
+    "id": "0Y",
+    "idDofusDB": "674e524164788cc74141bcf8",
     "idDofusBook": 22206,
     "name": {
       "fr": "Alliance de Corruption",
@@ -7510,9 +7542,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141bf22": {
-    "id": "674e524164788cc74141bf22",
-    "idShort": "eW",
+  "eW": {
+    "id": "eW",
+    "idDofusDB": "674e524164788cc74141bf22",
     "idDofusBook": 23261,
     "name": {
       "fr": "Les Casse-noisettes",
@@ -7536,9 +7568,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141bf2a": {
-    "id": "674e524164788cc74141bf2a",
-    "idShort": "dv",
+  "dv": {
+    "id": "dv",
+    "idDofusDB": "674e524164788cc74141bf2a",
     "idDofusBook": 23269,
     "name": {
       "fr": "Alliance des Firefoux",
@@ -7563,9 +7595,9 @@
       "dodge": 5
     }
   },
-  "674e524164788cc74141c07b": {
-    "id": "674e524164788cc74141c07b",
-    "idShort": "9B",
+  "9B": {
+    "id": "9B",
+    "idDofusDB": "674e524164788cc74141c07b",
     "idDofusBook": 23622,
     "name": {
       "fr": "Anneau de Koumiho",
@@ -7590,9 +7622,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141c203": {
-    "id": "674e524164788cc74141c203",
-    "idShort": "0L",
+  "0L": {
+    "id": "0L",
+    "idDofusDB": "674e524164788cc74141c203",
     "idDofusBook": 24032,
     "name": {
       "fr": "Anneau Menclatur",
@@ -7615,9 +7647,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141c206": {
-    "id": "674e524164788cc74141c206",
-    "idShort": "0K",
+  "0K": {
+    "id": "0K",
+    "idDofusDB": "674e524164788cc74141c206",
     "idDofusBook": 24035,
     "name": {
       "fr": "Anneau Rtograf",
@@ -7646,9 +7678,9 @@
       "criticalDamage": 9
     }
   },
-  "674e524164788cc74141c36b": {
-    "id": "674e524164788cc74141c36b",
-    "idShort": "0I",
+  "0I": {
+    "id": "0I",
+    "idDofusDB": "674e524164788cc74141c36b",
     "idDofusBook": 25215,
     "name": {
       "fr": "Anneau Possédé",
@@ -7674,9 +7706,9 @@
       "mpReduction": 8
     }
   },
-  "674e524164788cc74141c36e": {
-    "id": "674e524164788cc74141c36e",
-    "idShort": "0F",
+  "0F": {
+    "id": "0F",
+    "idDofusDB": "674e524164788cc74141c36e",
     "idDofusBook": 25218,
     "name": {
       "fr": "Alliance du Pandamonium",
@@ -7702,9 +7734,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141c402": {
-    "id": "674e524164788cc74141c402",
-    "idShort": "gf",
+  "gf": {
+    "id": "gf",
+    "idDofusDB": "674e524164788cc74141c402",
     "idDofusBook": 25752,
     "name": {
       "fr": "Anneau du rat brâkmarien",
@@ -7727,9 +7759,9 @@
       "mpResist": -10
     }
   },
-  "674e524164788cc74141c403": {
-    "id": "674e524164788cc74141c403",
-    "idShort": "ge",
+  "ge": {
+    "id": "ge",
+    "idDofusDB": "674e524164788cc74141c403",
     "idDofusBook": 25753,
     "name": {
       "fr": "Anneau du rat bontarien",
@@ -7752,9 +7784,9 @@
       "criticalResist": -10
     }
   },
-  "674e524164788cc74141c4e9": {
-    "id": "674e524164788cc74141c4e9",
-    "idShort": "0B",
+  "0B": {
+    "id": "0B",
+    "idDofusDB": "674e524164788cc74141c4e9",
     "idDofusBook": 26007,
     "name": {
       "fr": "Ceste de Ravageur",
@@ -7779,9 +7811,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524164788cc74141c4f4": {
-    "id": "674e524164788cc74141c4f4",
-    "idShort": "0A",
+  "0A": {
+    "id": "0A",
+    "idDofusDB": "674e524164788cc74141c4f4",
     "idDofusBook": 26018,
     "name": {
       "fr": "Dernière Aube",
@@ -7816,9 +7848,9 @@
       "pushbackResist": -24
     }
   },
-  "674e524164788cc74141c4f7": {
-    "id": "674e524164788cc74141c4f7",
-    "idShort": "0x",
+  "0x": {
+    "id": "0x",
+    "idDofusDB": "674e524164788cc74141c4f7",
     "idDofusBook": 26021,
     "name": {
       "fr": "Mort du Centoror",
@@ -7853,9 +7885,9 @@
       "pushbackResist": 12
     }
   },
-  "674e524164788cc74141c60d": {
-    "id": "674e524164788cc74141c60d",
-    "idShort": "d1",
+  "d1": {
+    "id": "d1",
+    "idDofusDB": "674e524164788cc74141c60d",
     "idDofusBook": 26308,
     "name": {
       "fr": "Anneau poli de Malter",
@@ -7879,9 +7911,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141c610": {
-    "id": "674e524164788cc74141c610",
-    "idShort": "d0",
+  "d0": {
+    "id": "d0",
+    "idDofusDB": "674e524164788cc74141c610",
     "idDofusBook": 26311,
     "name": {
       "fr": "Alliance d'Hell Mina",
@@ -7903,9 +7935,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141c92d": {
-    "id": "674e524164788cc74141c92d",
-    "idShort": "0q",
+  "0q": {
+    "id": "0q",
+    "idDofusDB": "674e524164788cc74141c92d",
     "idDofusBook": 27515,
     "name": {
       "fr": "Triste Sceau",
@@ -7931,9 +7963,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141c935": {
-    "id": "674e524164788cc74141c935",
-    "idShort": "w9",
+  "w9": {
+    "id": "w9",
+    "idDofusDB": "674e524164788cc74141c935",
     "idDofusBook": 27524,
     "name": {
       "fr": "Alliance des Rebelles",
@@ -7955,41 +7987,9 @@
       "fireDamage": 5
     }
   },
-  "674e524164788cc74141c937": {
-    "id": "674e524164788cc74141c937",
-    "idShort": "78",
-    "idDofusBook": 27526,
-    "name": {
-      "fr": "Anneau Clochecuivre",
-      "en": "Copperbeard Ring",
-      "pt": "Anel Sinocobre",
-      "de": "Glockenleder-Ring",
-      "es": "Anillo Decobre"
-    },
-    "level": 194,
-    "panoply": "674e523f64788cc74141823c",
-    "category": "ring",
-    "stats": {
-      "health": 250,
-      "strength": 30,
-      "intelligence": 40,
-      "agility": 50,
-      "wisdom": 20,
-      "neutralDamage": 6,
-      "earthDamage": 6,
-      "fireDamage": 8,
-      "airDamage": 10,
-      "heal": 10,
-      "prospecting": 10,
-      "initiative": -200,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
-      "pushbackDamage": 10
-    }
-  },
-  "674e524164788cc74141c93d": {
-    "id": "674e524164788cc74141c93d",
-    "idShort": "tv",
+  "tv": {
+    "id": "tv",
+    "idDofusDB": "674e524164788cc74141c93d",
     "idDofusBook": 27532,
     "name": {
       "fr": "Anneau de guerrier albueran",
@@ -8009,9 +8009,9 @@
       "mpReduction": -10
     }
   },
-  "674e524164788cc74141c94c": {
-    "id": "674e524164788cc74141c94c",
-    "idShort": "0o",
+  "0o": {
+    "id": "0o",
+    "idDofusDB": "674e524164788cc74141c94c",
     "idDofusBook": 27547,
     "name": {
       "fr": "Cruauté de Belladone",
@@ -8038,9 +8038,9 @@
       "criticalResist": 10
     }
   },
-  "674e524164788cc74141c94d": {
-    "id": "674e524164788cc74141c94d",
-    "idShort": "0n",
+  "0n": {
+    "id": "0n",
+    "idDofusDB": "674e524164788cc74141c94d",
     "idDofusBook": 27548,
     "name": {
       "fr": "Amertume de Belladone",
@@ -8064,9 +8064,9 @@
       "criticalResist": 10
     }
   },
-  "674e524164788cc74141c94e": {
-    "id": "674e524164788cc74141c94e",
-    "idShort": "0m",
+  "0m": {
+    "id": "0m",
+    "idDofusDB": "674e524164788cc74141c94e",
     "idDofusBook": 27549,
     "name": {
       "fr": "Tendresse de Belladone",
@@ -8090,9 +8090,9 @@
       "criticalResist": 10
     }
   },
-  "674e524164788cc74141c953": {
-    "id": "674e524164788cc74141c953",
-    "idShort": "b1",
+  "b1": {
+    "id": "b1",
+    "idDofusDB": "674e524164788cc74141c953",
     "idDofusBook": 27555,
     "name": {
       "fr": "Gants Tologie",
@@ -8106,9 +8106,9 @@
     "category": "ring",
     "stats": {}
   },
-  "674e524164788cc74141d21a": {
-    "id": "674e524164788cc74141d21a",
-    "idShort": "0d",
+  "0d": {
+    "id": "0d",
+    "idDofusDB": "674e524164788cc74141d21a",
     "idDofusBook": 30943,
     "name": {
       "fr": "Alliance du Dark Vlad",
@@ -8132,9 +8132,9 @@
       "pushbackDamage": 25
     }
   },
-  "687f71551c815173560617f4": {
-    "id": "687f71551c815173560617f4",
-    "idShort": "8D",
+  "8D": {
+    "id": "8D",
+    "idDofusDB": "687f71551c815173560617f4",
     "idDofusBook": 31753,
     "name": {
       "fr": "Poing du Supervizœuf",
@@ -8158,9 +8158,9 @@
       "earthResist": 20
     }
   },
-  "687f71551c81517356061805": {
-    "id": "687f71551c81517356061805",
-    "idShort": "5M",
+  "5M": {
+    "id": "5M",
+    "idDofusDB": "687f71551c81517356061805",
     "idDofusBook": 31770,
     "name": {
       "fr": "Gant des Voyageurs",
@@ -8186,9 +8186,9 @@
       "pushbackDamage": 20
     }
   },
-  "687f71551c81517356061821": {
-    "id": "687f71551c81517356061821",
-    "idShort": "04",
+  "04": {
+    "id": "04",
+    "idDofusDB": "687f71551c81517356061821",
     "idDofusBook": 31799,
     "name": {
       "fr": "Malédiction du Vénérable Endormi",
@@ -8213,9 +8213,9 @@
       "pushbackResist": 15
     }
   },
-  "68d28de615631db46d7e4117": {
-    "id": "68d28de615631db46d7e4117",
-    "idShort": "00",
+  "00": {
+    "id": "00",
+    "idDofusDB": "68d28de615631db46d7e4117",
     "idDofusBook": 32119,
     "name": {
       "fr": "Ponctualité d'Henual",

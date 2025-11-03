@@ -1,7 +1,308 @@
 {
-  "674e524064788cc7414184ee": {
-    "id": "674e524064788cc7414184ee",
-    "idShort": "HN",
+  "12": {
+    "id": "12",
+    "idDofusDB": "674e524164788cc74141bcf2",
+    "idDofusBook": 22200,
+    "name": {
+      "fr": "Écharpe de Servitude",
+      "en": "Servitude's Scarf",
+      "pt": "Echarpe de Servidão",
+      "de": "Knechtschafts Schal",
+      "es": "Bufanda de Servidumbre"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418224",
+    "category": "amulet",
+    "stats": {
+      "health": 350,
+      "chance": 100,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "ap": 1,
+      "range": 1,
+      "waterDamage": 20,
+      "initiative": 500,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 5,
+      "dodge": -5,
+      "apReduction": -10,
+      "mpResist": 5,
+      "pushbackResist": 20
+    }
+  },
+  "28": {
+    "id": "28",
+    "idDofusDB": "674e524164788cc74141b27e",
+    "idDofusBook": 19261,
+    "name": {
+      "fr": "Amulette d'Ilyzaelle",
+      "en": "Ilyzaelle Amulet",
+      "pt": "Amuleto de Ilyzaelle",
+      "de": "Ilyzaelles Amulett",
+      "es": "Amuleto de Ilyzaelle"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418211",
+    "category": "amulet",
+    "stats": {
+      "health": 400,
+      "chance": 80,
+      "agility": 80,
+      "wisdom": 30,
+      "criticalChance": -10,
+      "ap": 1,
+      "range": 1,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "neutralResistPer": 10,
+      "fireResistPer": 10,
+      "mpResist": 10
+    }
+  },
+  "32": {
+    "id": "32",
+    "idDofusDB": "674e524164788cc74141ae7c",
+    "idDofusBook": 18025,
+    "name": {
+      "fr": "Amulette de l'Indicible",
+      "en": "Amulet of the Unspeakable",
+      "pt": "Amuleto do indizível",
+      "de": "Amulett des Unaussprechlichen",
+      "es": "Amuleto de lo indecible"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414181f6",
+    "category": "amulet",
+    "stats": {
+      "health": 350,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "ap": 1,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "airResistPer": 10,
+      "dodge": 15
+    }
+  },
+  "51": {
+    "id": "51",
+    "idDofusDB": "674e524164788cc74141a1d5",
+    "idDofusBook": 14083,
+    "name": {
+      "fr": "Amulette du Granduk",
+      "en": "Bubotron Amulet",
+      "pt": "Amuleto do Bububo",
+      "de": "Obu-Bobub - Amulett",
+      "es": "Amuleto de bubobubo"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418199",
+    "category": "amulet",
+    "stats": {
+      "health": 350,
+      "agility": 100,
+      "wisdom": 50,
+      "criticalChance": 4,
+      "ap": 1,
+      "range": -1,
+      "summon": 1,
+      "airDamage": 15,
+      "prospecting": 15,
+      "waterResist": 20,
+      "airResist": 20,
+      "lock": 10,
+      "criticalDamage": 10
+    }
+  },
+  "54": {
+    "id": "54",
+    "idDofusDB": "674e524164788cc74141a1d2",
+    "idDofusBook": 14080,
+    "name": {
+      "fr": "Amulette Séculaire",
+      "en": "Age-Old Amulet",
+      "pt": "Amuleto Secular",
+      "de": "Säkular-Amulett",
+      "es": "Amuleto secular"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418194",
+    "category": "amulet",
+    "stats": {
+      "health": 300,
+      "intelligence": 80,
+      "agility": 25,
+      "wisdom": 40,
+      "ap": 1,
+      "fireDamage": 12,
+      "airDamage": 12,
+      "prospecting": 20,
+      "neutralResistPer": 8,
+      "fireResistPer": 8,
+      "criticalResist": 15
+    }
+  },
+  "68": {
+    "id": "68",
+    "idDofusDB": "674e524064788cc741419e5b",
+    "idDofusBook": 13117,
+    "name": {
+      "fr": "Amulette d'Otomaï",
+      "en": "Otomai's Amulet",
+      "pt": "Amuleto de Otomai",
+      "de": "Otomaïs Amulett",
+      "es": "Amuleto de Otomai"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc74141817d",
+    "category": "amulet",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "ap": 1,
+      "fireDamage": 18,
+      "heal": 12,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 6
+    }
+  },
+  "72": {
+    "id": "72",
+    "idDofusDB": "674e524064788cc741419b80",
+    "idDofusBook": 12111,
+    "name": {
+      "fr": "Amulette du Professeur Xa",
+      "en": "Professor Xa's Amulet",
+      "pt": "Amuleto do Professor Xa",
+      "de": "Professor Xas Amulett",
+      "es": "Amuleto del profesor Xa"
+    },
+    "level": 195,
+    "panoply": "674e523f64788cc74141816c",
+    "category": "amulet",
+    "stats": {
+      "health": 300,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 40,
+      "power": 30,
+      "mp": 1,
+      "range": 2,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "heal": 10,
+      "prospecting": 20,
+      "initiative": 600,
+      "dodge": 5,
+      "apReduction": 5,
+      "criticalResist": 25
+    }
+  },
+  "83": {
+    "id": "83",
+    "idDofusDB": "674e524064788cc741419a3f",
+    "idDofusBook": 11730,
+    "name": {
+      "fr": "Amulette Héroclite",
+      "en": "Eroclite Amulet",
+      "pt": "Amuleto Eroclite",
+      "de": "Amulett-Cetera",
+      "es": "Amuleto xímeron"
+    },
+    "level": 185,
+    "panoply": "674e523f64788cc7414183f2",
+    "category": "amulet",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "wisdom": 50,
+      "power": 25,
+      "criticalChance": 4,
+      "ap": 1,
+      "summon": 2,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "pushbackDamage": 10
+    }
+  },
+  "88": {
+    "id": "88",
+    "idDofusDB": "674e524064788cc741419339",
+    "idDofusBook": 9179,
+    "name": {
+      "fr": "Amulette Ripage",
+      "en": "Memori Amulet",
+      "pt": "Amuleto Memori",
+      "de": "Amulett des Bworkrippers",
+      "es": "Amuleto del descanso eterno"
+    },
+    "level": 184,
+    "panoply": "674e523f64788cc741418139",
+    "category": "amulet",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "criticalChance": 2,
+      "ap": 1,
+      "damage": 10,
+      "prospecting": 20,
+      "initiative": 400,
+      "fireResist": 10,
+      "trapPower": 20
+    }
+  },
+  "96": {
+    "id": "96",
+    "idDofusDB": "674e524064788cc741419a3e",
+    "idDofusBook": 11729,
+    "name": {
+      "fr": "Amulette Cætera",
+      "en": "Amulet Cetera",
+      "pt": "Amuleto de Cetera",
+      "de": "Amulett Zätera",
+      "es": "Colgante cétera"
+    },
+    "level": 173,
+    "panoply": "674e523f64788cc7414183fc",
+    "category": "amulet",
+    "stats": {
+      "health": 250,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 40,
+      "power": 25,
+      "ap": 1,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 25,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  "HN": {
+    "id": "HN",
+    "idDofusDB": "674e524064788cc7414184ee",
     "idDofusBook": 70,
     "name": {
       "fr": "Amulette du Hibou",
@@ -16,9 +317,9 @@
       "intelligence": 13
     }
   },
-  "674e524064788cc7414184ef": {
-    "id": "674e524064788cc7414184ef",
-    "idShort": "HM",
+  "HM": {
+    "id": "HM",
+    "idDofusDB": "674e524064788cc7414184ef",
     "idDofusBook": 77,
     "name": {
       "fr": "Amulette de l'Ours",
@@ -33,9 +334,9 @@
       "strength": 13
     }
   },
-  "674e524064788cc7414184f0": {
-    "id": "674e524064788cc7414184f0",
-    "idShort": "HK",
+  "HK": {
+    "id": "HK",
+    "idDofusDB": "674e524064788cc7414184f0",
     "idDofusBook": 84,
     "name": {
       "fr": "Amulette du Mulou",
@@ -51,9 +352,9 @@
       "heal": 4
     }
   },
-  "674e524064788cc7414184fd": {
-    "id": "674e524064788cc7414184fd",
-    "idShort": "FK",
+  "FK": {
+    "id": "FK",
+    "idDofusDB": "674e524064788cc7414184fd",
     "idDofusBook": 157,
     "name": {
       "fr": "La Gougnole",
@@ -70,9 +371,9 @@
       "heal": 3
     }
   },
-  "674e524064788cc7414184fe": {
-    "id": "674e524064788cc7414184fe",
-    "idShort": "Gj",
+  "Gj": {
+    "id": "Gj",
+    "idDofusDB": "674e524064788cc7414184fe",
     "idDofusBook": 158,
     "name": {
       "fr": "La Destinée Dorée",
@@ -89,9 +390,9 @@
       "lock": 2
     }
   },
-  "674e524064788cc7414184ff": {
-    "id": "674e524064788cc7414184ff",
-    "idShort": "zr",
+  "zr": {
+    "id": "zr",
+    "idDofusDB": "674e524064788cc7414184ff",
     "idDofusBook": 159,
     "name": {
       "fr": "La Broche Céleste",
@@ -108,9 +409,9 @@
       "initiative": -300
     }
   },
-  "674e524064788cc741418500": {
-    "id": "674e524064788cc741418500",
-    "idShort": "mL",
+  "mL": {
+    "id": "mL",
+    "idDofusDB": "674e524064788cc741418500",
     "idDofusBook": 160,
     "name": {
       "fr": "Le Flan des Étoiles",
@@ -128,9 +429,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc741418501": {
-    "id": "674e524064788cc741418501",
-    "idShort": "Co",
+  "Co": {
+    "id": "Co",
+    "idDofusDB": "674e524064788cc741418501",
     "idDofusBook": 161,
     "name": {
       "fr": "La Célébrité",
@@ -146,9 +447,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418528": {
-    "id": "674e524064788cc741418528",
-    "idShort": "Im",
+  "Im": {
+    "id": "Im",
+    "idDofusDB": "674e524064788cc741418528",
     "idDofusBook": 279,
     "name": {
       "fr": "La Larme du Bouftou",
@@ -163,9 +464,9 @@
       "chance": 7
     }
   },
-  "674e524064788cc741418529": {
-    "id": "674e524064788cc741418529",
-    "idShort": "Hx",
+  "Hx": {
+    "id": "Hx",
+    "idDofusDB": "674e524064788cc741418529",
     "idDofusBook": 280,
     "name": {
       "fr": "Collier de l'Arc en Ciel",
@@ -181,9 +482,9 @@
       "chance": 10
     }
   },
-  "674e524064788cc741418548": {
-    "id": "674e524064788cc741418548",
-    "idShort": "xX",
+  "xX": {
+    "id": "xX",
+    "idDofusDB": "674e524064788cc741418548",
     "idDofusBook": 323,
     "name": {
       "fr": "Amulette du Kam Assutra",
@@ -199,9 +500,9 @@
       "initiative": -350
     }
   },
-  "674e524064788cc741418549": {
-    "id": "674e524064788cc741418549",
-    "idShort": "Hw",
+  "Hw": {
+    "id": "Hw",
+    "idDofusDB": "674e524064788cc741418549",
     "idDofusBook": 324,
     "name": {
       "fr": "Amulette de Krokette",
@@ -217,9 +518,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc74141854a": {
-    "id": "674e524064788cc74141854a",
-    "idShort": "I3",
+  "I3": {
+    "id": "I3",
+    "idDofusDB": "674e524064788cc74141854a",
     "idDofusBook": 325,
     "name": {
       "fr": "Amulette du Sram",
@@ -235,9 +536,9 @@
       "airDamage": 2
     }
   },
-  "674e524064788cc74141854b": {
-    "id": "674e524064788cc74141854b",
-    "idShort": "Bd",
+  "Bd": {
+    "id": "Bd",
+    "idDofusDB": "674e524064788cc74141854b",
     "idDofusBook": 326,
     "name": {
       "fr": "Amulette Deulegarnoulle",
@@ -253,9 +554,9 @@
       "summon": 2
     }
   },
-  "674e524064788cc7414185bf": {
-    "id": "674e524064788cc7414185bf",
-    "idShort": "FC",
+  "FC": {
+    "id": "FC",
+    "idDofusDB": "674e524064788cc7414185bf",
     "idDofusBook": 458,
     "name": {
       "fr": "Amulette du Chafer",
@@ -272,9 +573,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc7414185fb": {
-    "id": "674e524064788cc7414185fb",
-    "idShort": "CK",
+  "CK": {
+    "id": "CK",
+    "idDofusDB": "674e524064788cc7414185fb",
     "idDofusBook": 610,
     "name": {
       "fr": "Amulette en Crabe",
@@ -289,9 +590,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414185fc": {
-    "id": "674e524064788cc7414185fc",
-    "idShort": "CZ",
+  "CZ": {
+    "id": "CZ",
+    "idDofusDB": "674e524064788cc7414185fc",
     "idDofusBook": 616,
     "name": {
       "fr": "Amulette du Marin",
@@ -307,9 +608,9 @@
       "chance": 30
     }
   },
-  "674e524064788cc7414185fd": {
-    "id": "674e524064788cc7414185fd",
-    "idShort": "z1",
+  "z1": {
+    "id": "z1",
+    "idDofusDB": "674e524064788cc7414185fd",
     "idDofusBook": 617,
     "name": {
       "fr": "Amulette du Pirate",
@@ -327,9 +628,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418601": {
-    "id": "674e524064788cc741418601",
-    "idShort": "AV",
+  "AV": {
+    "id": "AV",
+    "idDofusDB": "674e524064788cc741418601",
     "idDofusBook": 638,
     "name": {
       "fr": "Amulette du Pêcheur de Somoon",
@@ -344,9 +645,9 @@
       "chance": 41
     }
   },
-  "674e524064788cc741418602": {
-    "id": "674e524064788cc741418602",
-    "idShort": "wp",
+  "wp": {
+    "id": "wp",
+    "idDofusDB": "674e524064788cc741418602",
     "idDofusBook": 639,
     "name": {
       "fr": "Amulette des Abîmes",
@@ -364,9 +665,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524064788cc741418651": {
-    "id": "674e524064788cc741418651",
-    "idShort": "J9",
+  "J9": {
+    "id": "J9",
+    "idDofusDB": "674e524064788cc741418651",
     "idDofusBook": 766,
     "name": {
       "fr": "Koliet Aclou",
@@ -386,9 +687,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741418660": {
-    "id": "674e524064788cc741418660",
-    "idShort": "CV",
+  "CV": {
+    "id": "CV",
+    "idDofusDB": "674e524064788cc741418660",
     "idDofusBook": 783,
     "name": {
       "fr": "Amulette du Bûcheron",
@@ -405,9 +706,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418663": {
-    "id": "674e524064788cc741418663",
-    "idShort": "Iu",
+  "Iu": {
+    "id": "Iu",
+    "idDofusDB": "674e524064788cc741418663",
     "idDofusBook": 786,
     "name": {
       "fr": "Pendentif du Hibou Chétif",
@@ -423,9 +724,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418699": {
-    "id": "674e524064788cc741418699",
-    "idShort": "IT",
+  "IT": {
+    "id": "IT",
+    "idDofusDB": "674e524064788cc741418699",
     "idDofusBook": 856,
     "name": {
       "fr": "Grenouillette",
@@ -440,9 +741,9 @@
       "agility": 1
     }
   },
-  "674e524064788cc74141869f": {
-    "id": "674e524064788cc74141869f",
-    "idShort": "Bm",
+  "Bm": {
+    "id": "Bm",
+    "idDofusDB": "674e524064788cc74141869f",
     "idDofusBook": 867,
     "name": {
       "fr": "Dragolyre",
@@ -462,9 +763,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414186b4": {
-    "id": "674e524064788cc7414186b4",
-    "idShort": "AA",
+  "AA": {
+    "id": "AA",
+    "idDofusDB": "674e524064788cc7414186b4",
     "idDofusBook": 916,
     "name": {
       "fr": "Amulette de Silicate",
@@ -484,9 +785,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc7414186b5": {
-    "id": "674e524064788cc7414186b5",
-    "idShort": "k2",
+  "k2": {
+    "id": "k2",
+    "idDofusDB": "674e524064788cc7414186b5",
     "idDofusBook": 917,
     "name": {
       "fr": "La Feuille d'Automne",
@@ -508,9 +809,9 @@
       "prospecting": 15
     }
   },
-  "674e524064788cc741418732": {
-    "id": "674e524064788cc741418732",
-    "idShort": "tG",
+  "tG": {
+    "id": "tG",
+    "idDofusDB": "674e524064788cc741418732",
     "idDofusBook": 1331,
     "name": {
       "fr": "Médaille Oly",
@@ -530,9 +831,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524064788cc741418781": {
-    "id": "674e524064788cc741418781",
-    "idShort": "tx",
+  "tx": {
+    "id": "tx",
+    "idDofusDB": "674e524064788cc741418781",
     "idDofusBook": 1474,
     "name": {
       "fr": "Amulette de Xélor",
@@ -551,9 +852,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418783": {
-    "id": "674e524064788cc741418783",
-    "idShort": "wk",
+  "wk": {
+    "id": "wk",
+    "idDofusDB": "674e524064788cc741418783",
     "idDofusBook": 1476,
     "name": {
       "fr": "Amulette du Craqueleur",
@@ -572,9 +873,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418784": {
-    "id": "674e524064788cc741418784",
-    "idShort": "xi",
+  "xi": {
+    "id": "xi",
+    "idDofusDB": "674e524064788cc741418784",
     "idDofusBook": 1477,
     "name": {
       "fr": "Chance à Mulette",
@@ -592,9 +893,9 @@
       "dodge": 10
     }
   },
-  "674e524064788cc741418785": {
-    "id": "674e524064788cc741418785",
-    "idShort": "wj",
+  "wj": {
+    "id": "wj",
+    "idDofusDB": "674e524064788cc741418785",
     "idDofusBook": 1478,
     "name": {
       "fr": "Harmonie",
@@ -615,9 +916,9 @@
       "power": 15
     }
   },
-  "674e524064788cc741418787": {
-    "id": "674e524064788cc741418787",
-    "idShort": "Ar",
+  "Ar": {
+    "id": "Ar",
+    "idDofusDB": "674e524064788cc741418787",
     "idDofusBook": 1480,
     "name": {
       "fr": "Accord",
@@ -638,9 +939,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418788": {
-    "id": "674e524064788cc741418788",
-    "idShort": "CM",
+  "CM": {
+    "id": "CM",
+    "idDofusDB": "674e524064788cc741418788",
     "idDofusBook": 1481,
     "name": {
       "fr": "Entente",
@@ -659,9 +960,9 @@
       "wisdom": 3
     }
   },
-  "674e524064788cc741418789": {
-    "id": "674e524064788cc741418789",
-    "idShort": "yT",
+  "yT": {
+    "id": "yT",
+    "idDofusDB": "674e524064788cc741418789",
     "idDofusBook": 1482,
     "name": {
       "fr": "Emblème Livide",
@@ -680,9 +981,9 @@
       "lock": 6
     }
   },
-  "674e524064788cc74141878a": {
-    "id": "674e524064788cc74141878a",
-    "idShort": "Ce",
+  "Ce": {
+    "id": "Ce",
+    "idDofusDB": "674e524064788cc74141878a",
     "idDofusBook": 1483,
     "name": {
       "fr": "Kabale",
@@ -698,9 +999,9 @@
       "wisdom": 15
     }
   },
-  "674e524064788cc74141878b": {
-    "id": "674e524064788cc74141878b",
-    "idShort": "Gk",
+  "Gk": {
+    "id": "Gk",
+    "idDofusDB": "674e524064788cc74141878b",
     "idDofusBook": 1484,
     "name": {
       "fr": "Amulette Itby",
@@ -715,9 +1016,9 @@
       "agility": 20
     }
   },
-  "674e524064788cc74141878c": {
-    "id": "674e524064788cc74141878c",
-    "idShort": "CT",
+  "CT": {
+    "id": "CT",
+    "idDofusDB": "674e524064788cc74141878c",
     "idDofusBook": 1485,
     "name": {
       "fr": "La Reinette",
@@ -743,9 +1044,9 @@
       "agility": 20
     }
   },
-  "674e524064788cc74141878d": {
-    "id": "674e524064788cc74141878d",
-    "idShort": "By",
+  "By": {
+    "id": "By",
+    "idDofusDB": "674e524064788cc74141878d",
     "idDofusBook": 1486,
     "name": {
       "fr": "Médaille Holy",
@@ -764,9 +1065,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc74141878f": {
-    "id": "674e524064788cc74141878f",
-    "idShort": "e1",
+  "e1": {
+    "id": "e1",
+    "idDofusDB": "674e524064788cc74141878f",
     "idDofusBook": 1488,
     "name": {
       "fr": "Plimclik",
@@ -783,9 +1084,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418790": {
-    "id": "674e524064788cc741418790",
-    "idShort": "Ck",
+  "Ck": {
+    "id": "Ck",
+    "idDofusDB": "674e524064788cc741418790",
     "idDofusBook": 1489,
     "name": {
       "fr": "La Broche Hète",
@@ -802,9 +1103,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418791": {
-    "id": "674e524064788cc741418791",
-    "idShort": "Gh",
+  "Gh": {
+    "id": "Gh",
+    "idDofusDB": "674e524064788cc741418791",
     "idDofusBook": 1490,
     "name": {
       "fr": "La Chaîne Nhanor Kibrill",
@@ -820,9 +1121,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741418792": {
-    "id": "674e524064788cc741418792",
-    "idShort": "wT",
+  "wT": {
+    "id": "wT",
+    "idDofusDB": "674e524064788cc741418792",
     "idDofusBook": 1491,
     "name": {
       "fr": "Chaîne de la Liche",
@@ -840,9 +1141,9 @@
       "summon": 2
     }
   },
-  "674e524064788cc7414187d7": {
-    "id": "674e524064788cc7414187d7",
-    "idShort": "wu",
+  "wu": {
+    "id": "wu",
+    "idDofusDB": "674e524064788cc7414187d7",
     "idDofusBook": 1619,
     "name": {
       "fr": "Abramu",
@@ -865,9 +1166,9 @@
       "damage": 5
     }
   },
-  "674e524064788cc7414187ef": {
-    "id": "674e524064788cc7414187ef",
-    "idShort": "zx",
+  "zx": {
+    "id": "zx",
+    "idDofusDB": "674e524064788cc7414187ef",
     "idDofusBook": 1661,
     "name": {
       "fr": "Ambramulette Moskito",
@@ -886,9 +1187,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc7414187f0": {
-    "id": "674e524064788cc7414187f0",
-    "idShort": "B0",
+  "B0": {
+    "id": "B0",
+    "idDofusDB": "674e524064788cc7414187f0",
     "idDofusBook": 1662,
     "name": {
       "fr": "Ambramulette Arakne",
@@ -909,9 +1210,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc7414189f1": {
-    "id": "674e524064788cc7414189f1",
-    "idShort": "xh",
+  "xh": {
+    "id": "xh",
+    "idDofusDB": "674e524064788cc7414189f1",
     "idDofusBook": 2388,
     "name": {
       "fr": "L'Amulette du Puzzle de la Griffe",
@@ -929,9 +1230,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc7414189f2": {
-    "id": "674e524064788cc7414189f2",
-    "idShort": "Bj",
+  "Bj": {
+    "id": "Bj",
+    "idDofusDB": "674e524064788cc7414189f2",
     "idDofusBook": 2389,
     "name": {
       "fr": "Amulette du Badoul",
@@ -948,9 +1249,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc7414189f3": {
-    "id": "674e524064788cc7414189f3",
-    "idShort": "vU",
+  "vU": {
+    "id": "vU",
+    "idDofusDB": "674e524064788cc7414189f3",
     "idDofusBook": 2390,
     "name": {
       "fr": "Amulette de la Boule",
@@ -966,9 +1267,9 @@
       "neutralResistPer": 7
     }
   },
-  "674e524064788cc7414189f4": {
-    "id": "674e524064788cc7414189f4",
-    "idShort": "ks",
+  "ks": {
+    "id": "ks",
+    "idDofusDB": "674e524064788cc7414189f4",
     "idDofusBook": 2391,
     "name": {
       "fr": "Amulette de la Bouboule",
@@ -989,9 +1290,9 @@
       "waterResistPer": 4
     }
   },
-  "674e524064788cc7414189f5": {
-    "id": "674e524064788cc7414189f5",
-    "idShort": "yf",
+  "yf": {
+    "id": "yf",
+    "idDofusDB": "674e524064788cc7414189f5",
     "idDofusBook": 2392,
     "name": {
       "fr": "Dragolyre Remaniée",
@@ -1011,9 +1312,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414189f6": {
-    "id": "674e524064788cc7414189f6",
-    "idShort": "FL",
+  "FL": {
+    "id": "FL",
+    "idDofusDB": "674e524064788cc7414189f6",
     "idDofusBook": 2393,
     "name": {
       "fr": "Omelette Amulette",
@@ -1029,9 +1330,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc7414189f7": {
-    "id": "674e524064788cc7414189f7",
-    "idShort": "Bi",
+  "Bi": {
+    "id": "Bi",
+    "idDofusDB": "674e524064788cc7414189f7",
     "idDofusBook": 2394,
     "name": {
       "fr": "La Bourgeonette",
@@ -1051,9 +1352,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc7414189f8": {
-    "id": "674e524064788cc7414189f8",
-    "idShort": "ye",
+  "ye": {
+    "id": "ye",
+    "idDofusDB": "674e524064788cc7414189f8",
     "idDofusBook": 2395,
     "name": {
       "fr": "Le foulard du Lard Fou",
@@ -1072,9 +1373,9 @@
       "neutralResistPer": 3
     }
   },
-  "674e524064788cc7414189f9": {
-    "id": "674e524064788cc7414189f9",
-    "idShort": "FZ",
+  "FZ": {
+    "id": "FZ",
+    "idDofusDB": "674e524064788cc7414189f9",
     "idDofusBook": 2396,
     "name": {
       "fr": "La Lou Ptiote",
@@ -1089,9 +1390,9 @@
       "intelligence": 25
     }
   },
-  "674e524064788cc7414189fa": {
-    "id": "674e524064788cc7414189fa",
-    "idShort": "BK",
+  "BK": {
+    "id": "BK",
+    "idDofusDB": "674e524064788cc7414189fa",
     "idDofusBook": 2397,
     "name": {
       "fr": "La Bibelaw",
@@ -1110,9 +1411,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc7414189fb": {
-    "id": "674e524064788cc7414189fb",
-    "idShort": "tt",
+  "tt": {
+    "id": "tt",
+    "idDofusDB": "674e524064788cc7414189fb",
     "idDofusBook": 2398,
     "name": {
       "fr": "L'Œil de Kanigrou",
@@ -1131,9 +1432,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524064788cc7414189fc": {
-    "id": "674e524064788cc7414189fc",
-    "idShort": "Gz",
+  "Gz": {
+    "id": "Gz",
+    "idDofusDB": "674e524064788cc7414189fc",
     "idDofusBook": 2399,
     "name": {
       "fr": "La Veaux Doux",
@@ -1148,9 +1449,9 @@
       "strength": 17
     }
   },
-  "674e524064788cc741418a10": {
-    "id": "674e524064788cc741418a10",
-    "idShort": "yc",
+  "yc": {
+    "id": "yc",
+    "idDofusDB": "674e524064788cc741418a10",
     "idDofusBook": 2424,
     "name": {
       "fr": "Amukwak de Flammes",
@@ -1169,9 +1470,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741418a11": {
-    "id": "674e524064788cc741418a11",
-    "idShort": "Di",
+  "Di": {
+    "id": "Di",
+    "idDofusDB": "674e524064788cc741418a11",
     "idDofusBook": 2425,
     "name": {
       "fr": "Amulette du Bouftou",
@@ -1189,9 +1490,9 @@
       "intelligence": 15
     }
   },
-  "674e524064788cc741418a12": {
-    "id": "674e524064788cc741418a12",
-    "idShort": "zs",
+  "zs": {
+    "id": "zs",
+    "idDofusDB": "674e524064788cc741418a12",
     "idDofusBook": 2426,
     "name": {
       "fr": "Araknamu",
@@ -1208,9 +1509,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418a21": {
-    "id": "674e524064788cc741418a21",
-    "idShort": "Ci",
+  "Ci": {
+    "id": "Ci",
+    "idDofusDB": "674e524064788cc741418a21",
     "idDofusBook": 2443,
     "name": {
       "fr": "Amulette Royale du Bouftou",
@@ -1228,9 +1529,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741418a37": {
-    "id": "674e524064788cc741418a37",
-    "idShort": "n6",
+  "n6": {
+    "id": "n6",
+    "idDofusDB": "674e524064788cc741418a37",
     "idDofusBook": 2472,
     "name": {
       "fr": "Gelamu",
@@ -1248,9 +1549,9 @@
       "initiative": 300
     }
   },
-  "674e524064788cc741418a3d": {
-    "id": "674e524064788cc741418a3d",
-    "idShort": "Ii",
+  "Ii": {
+    "id": "Ii",
+    "idDofusDB": "674e524064788cc741418a3d",
     "idDofusBook": 2478,
     "name": {
       "fr": "Amulette de l'Aventurier",
@@ -1269,9 +1570,9 @@
       "agility": 5
     }
   },
-  "674e524064788cc741418a51": {
-    "id": "674e524064788cc741418a51",
-    "idShort": "zp",
+  "zp": {
+    "id": "zp",
+    "idDofusDB": "674e524064788cc741418a51",
     "idDofusBook": 2498,
     "name": {
       "fr": "Vegamu",
@@ -1290,9 +1591,9 @@
       "range": 2
     }
   },
-  "674e524064788cc741418b1e": {
-    "id": "674e524064788cc741418b1e",
-    "idShort": "ky",
+  "ky": {
+    "id": "ky",
+    "idDofusDB": "674e524064788cc741418b1e",
     "idDofusBook": 4381,
     "name": {
       "fr": "Amulette Argie",
@@ -1314,9 +1615,9 @@
       "airResist": 10
     }
   },
-  "674e524064788cc741418b20": {
-    "id": "674e524064788cc741418b20",
-    "idShort": "ts",
+  "ts": {
+    "id": "ts",
+    "idDofusDB": "674e524064788cc741418b20",
     "idDofusBook": 4684,
     "name": {
       "fr": "Amulette du Craqueleur des Plaines",
@@ -1336,9 +1637,9 @@
       "earthResist": 8
     }
   },
-  "674e524064788cc741418b21": {
-    "id": "674e524064788cc741418b21",
-    "idShort": "mc",
+  "mc": {
+    "id": "mc",
+    "idDofusDB": "674e524064788cc741418b21",
     "idDofusBook": 5122,
     "name": {
       "fr": "La Maîtrise des Poupées",
@@ -1361,9 +1662,9 @@
       "earthResistPer": 2
     }
   },
-  "674e524064788cc741418b28": {
-    "id": "674e524064788cc741418b28",
-    "idShort": "fF",
+  "fF": {
+    "id": "fF",
+    "idDofusDB": "674e524064788cc741418b28",
     "idDofusBook": 6443,
     "name": {
       "fr": "Amulette du Renouveau",
@@ -1385,9 +1686,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418b29": {
-    "id": "674e524064788cc741418b29",
-    "idShort": "mz",
+  "mz": {
+    "id": "mz",
+    "idDofusDB": "674e524064788cc741418b29",
     "idDofusBook": 6444,
     "name": {
       "fr": "Amulette Turquoise",
@@ -1407,9 +1708,9 @@
       "prospecting": 5
     }
   },
-  "674e524064788cc741418b34": {
-    "id": "674e524064788cc741418b34",
-    "idShort": "Ah",
+  "Ah": {
+    "id": "Ah",
+    "idDofusDB": "674e524064788cc741418b34",
     "idDofusBook": 6459,
     "name": {
       "fr": "Amulette du Mineur Sombre",
@@ -1442,9 +1743,9 @@
       "airResistPer": -2
     }
   },
-  "674e524064788cc741418b35": {
-    "id": "674e524064788cc741418b35",
-    "idShort": "jB",
+  "jB": {
+    "id": "jB",
+    "idDofusDB": "674e524064788cc741418b35",
     "idDofusBook": 6460,
     "name": {
       "fr": "La Feuille d'Hiver",
@@ -1465,9 +1766,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418b36": {
-    "id": "674e524064788cc741418b36",
-    "idShort": "fg",
+  "fg": {
+    "id": "fg",
+    "idDofusDB": "674e524064788cc741418b36",
     "idDofusBook": 6461,
     "name": {
       "fr": "La Feuille de Printemps",
@@ -1490,9 +1791,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418b37": {
-    "id": "674e524064788cc741418b37",
-    "idShort": "wM",
+  "wM": {
+    "id": "wM",
+    "idDofusDB": "674e524064788cc741418b37",
     "idDofusBook": 6462,
     "name": {
       "fr": "La Feuille d'Eté",
@@ -1516,9 +1817,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741418b3b": {
-    "id": "674e524064788cc741418b3b",
-    "idShort": "Cb",
+  "Cb": {
+    "id": "Cb",
+    "idDofusDB": "674e524064788cc741418b3b",
     "idDofusBook": 6466,
     "name": {
       "fr": "Amulette de Shika",
@@ -1536,9 +1837,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc741418b5c": {
-    "id": "674e524064788cc741418b5c",
-    "idShort": "mX",
+  "mX": {
+    "id": "mX",
+    "idDofusDB": "674e524064788cc741418b5c",
     "idDofusBook": 6499,
     "name": {
       "fr": "Amulette \"Dents de Wabbits\"",
@@ -1559,9 +1860,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418c0d": {
-    "id": "674e524064788cc741418c0d",
-    "idShort": "D8",
+  "D8": {
+    "id": "D8",
+    "idDofusDB": "674e524064788cc741418c0d",
     "idDofusBook": 6723,
     "name": {
       "fr": "Amulette de l'Homme Ours",
@@ -1579,9 +1880,9 @@
       "fireResistPer": -7
     }
   },
-  "674e524064788cc741418c10": {
-    "id": "674e524064788cc741418c10",
-    "idShort": "ya",
+  "ya": {
+    "id": "ya",
+    "idDofusDB": "674e524064788cc741418c10",
     "idDofusBook": 6731,
     "name": {
       "fr": "Amukwak de Glace",
@@ -1600,9 +1901,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418c16": {
-    "id": "674e524064788cc741418c16",
-    "idShort": "gW",
+  "gW": {
+    "id": "gW",
+    "idDofusDB": "674e524064788cc741418c16",
     "idDofusBook": 6742,
     "name": {
       "fr": "Fourbamulette",
@@ -1627,9 +1928,9 @@
       "neutralResistPer": 7
     }
   },
-  "674e524064788cc741418c1a": {
-    "id": "674e524064788cc741418c1a",
-    "idShort": "y8",
+  "y8": {
+    "id": "y8",
+    "idDofusDB": "674e524064788cc741418c1a",
     "idDofusBook": 6746,
     "name": {
       "fr": "Amukwak de Terre",
@@ -1648,9 +1949,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418c1b": {
-    "id": "674e524064788cc741418c1b",
-    "idShort": "y7",
+  "y7": {
+    "id": "y7",
+    "idDofusDB": "674e524064788cc741418c1b",
     "idDofusBook": 6747,
     "name": {
       "fr": "Amukwak de Vent",
@@ -1669,9 +1970,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418c2e": {
-    "id": "674e524064788cc741418c2e",
-    "idShort": "lM",
+  "lM": {
+    "id": "lM",
+    "idDofusDB": "674e524064788cc741418c2e",
     "idDofusBook": 6766,
     "name": {
       "fr": "Epis de Farle",
@@ -1692,9 +1993,9 @@
       "prospecting": 5
     }
   },
-  "674e524064788cc741418c32": {
-    "id": "674e524064788cc741418c32",
-    "idShort": "IX",
+  "IX": {
+    "id": "IX",
+    "idDofusDB": "674e524064788cc741418c32",
     "idDofusBook": 6773,
     "name": {
       "fr": "Amulette Tude",
@@ -1710,9 +2011,9 @@
       "initiative": 5
     }
   },
-  "674e524064788cc741418c40": {
-    "id": "674e524064788cc741418c40",
-    "idShort": "FY",
+  "FY": {
+    "id": "FY",
+    "idDofusDB": "674e524064788cc741418c40",
     "idDofusBook": 6789,
     "name": {
       "fr": "Amulette des Champs",
@@ -1730,9 +2031,9 @@
       "lock": -9
     }
   },
-  "674e524064788cc741418c4f": {
-    "id": "674e524064788cc741418c4f",
-    "idShort": "hr",
+  "hr": {
+    "id": "hr",
+    "idDofusDB": "674e524064788cc741418c4f",
     "idDofusBook": 6804,
     "name": {
       "fr": "Amulette du Chef Bwork",
@@ -1756,9 +2057,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418c56": {
-    "id": "674e524064788cc741418c56",
-    "idShort": "m7",
+  "m7": {
+    "id": "m7",
+    "idDofusDB": "674e524064788cc741418c56",
     "idDofusBook": 6817,
     "name": {
       "fr": "Amulette du Chef Crocodaille",
@@ -1778,9 +2079,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418c97": {
-    "id": "674e524064788cc741418c97",
-    "idShort": "FV",
+  "FV": {
+    "id": "FV",
+    "idDofusDB": "674e524064788cc741418c97",
     "idDofusBook": 6918,
     "name": {
       "fr": "Amulette du Moskito",
@@ -1797,9 +2098,9 @@
       "chance": 20
     }
   },
-  "674e524064788cc741418c9c": {
-    "id": "674e524064788cc741418c9c",
-    "idShort": "FU",
+  "FU": {
+    "id": "FU",
+    "idDofusDB": "674e524064788cc741418c9c",
     "idDofusBook": 6923,
     "name": {
       "fr": "Amulette du Bandit",
@@ -1821,9 +2122,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741418ca6": {
-    "id": "674e524064788cc741418ca6",
-    "idShort": "sj",
+  "sj": {
+    "id": "sj",
+    "idDofusDB": "674e524064788cc741418ca6",
     "idDofusBook": 6934,
     "name": {
       "fr": "Craquamulette",
@@ -1843,9 +2144,9 @@
       "dodge": -7
     }
   },
-  "674e524064788cc741418cd6": {
-    "id": "674e524064788cc741418cd6",
-    "idShort": "BF",
+  "BF": {
+    "id": "BF",
+    "idDofusDB": "674e524064788cc741418cd6",
     "idDofusBook": 6999,
     "name": {
       "fr": "Médaille Lahilama",
@@ -1863,9 +2164,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741418cd7": {
-    "id": "674e524064788cc741418cd7",
-    "idShort": "Ag",
+  "Ag": {
+    "id": "Ag",
+    "idDofusDB": "674e524064788cc741418cd7",
     "idDofusBook": 7000,
     "name": {
       "fr": "Bambamulette",
@@ -1886,9 +2187,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418cd8": {
-    "id": "674e524064788cc741418cd8",
-    "idShort": "sT",
+  "sT": {
+    "id": "sT",
+    "idDofusDB": "674e524064788cc741418cd8",
     "idDofusBook": 7001,
     "name": {
       "fr": "Talisman du Faucheur d'Avoine",
@@ -1909,9 +2210,9 @@
       "criticalDamage": -10
     }
   },
-  "674e524064788cc741418cd9": {
-    "id": "674e524064788cc741418cd9",
-    "idShort": "jI",
+  "jI": {
+    "id": "jI",
+    "idDofusDB": "674e524064788cc741418cd9",
     "idDofusBook": 7002,
     "name": {
       "fr": "La Résinette",
@@ -1932,9 +2233,9 @@
       "fireResistPer": 4
     }
   },
-  "674e524064788cc741418cda": {
-    "id": "674e524064788cc741418cda",
-    "idShort": "dD",
+  "dD": {
+    "id": "dD",
+    "idDofusDB": "674e524064788cc741418cda",
     "idDofusBook": 7003,
     "name": {
       "fr": "Talisman d'Elya Wood",
@@ -1958,9 +2259,9 @@
       "fireResist": 13
     }
   },
-  "674e524064788cc741418cdd": {
-    "id": "674e524064788cc741418cdd",
-    "idShort": "lH",
+  "lH": {
+    "id": "lH",
+    "idDofusDB": "674e524064788cc741418cdd",
     "idDofusBook": 7012,
     "name": {
       "fr": "La Doubitch O'Boul",
@@ -1979,9 +2280,9 @@
       "prospecting": 15
     }
   },
-  "674e524064788cc741418cee": {
-    "id": "674e524064788cc741418cee",
-    "idShort": "wF",
+  "wF": {
+    "id": "wF",
+    "idDofusDB": "674e524064788cc741418cee",
     "idDofusBook": 7031,
     "name": {
       "fr": "Pendule du Gudule",
@@ -1999,9 +2300,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc741418d28": {
-    "id": "674e524064788cc741418d28",
-    "idShort": "CC",
+  "CC": {
+    "id": "CC",
+    "idDofusDB": "674e524064788cc741418d28",
     "idDofusBook": 7106,
     "name": {
       "fr": "Larvamulette",
@@ -2019,9 +2320,9 @@
       "agility": 20
     }
   },
-  "674e524064788cc741418d43": {
-    "id": "674e524064788cc741418d43",
-    "idShort": "fc",
+  "fc": {
+    "id": "fc",
+    "idDofusDB": "674e524064788cc741418d43",
     "idDofusBook": 7136,
     "name": {
       "fr": "Médaille Kido",
@@ -2042,9 +2343,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc741418d94": {
-    "id": "674e524064788cc741418d94",
-    "idShort": "aP",
+  "aP": {
+    "id": "aP",
+    "idDofusDB": "674e524064788cc741418d94",
     "idDofusBook": 7221,
     "name": {
       "fr": "Collier du Tanukouï San",
@@ -2067,9 +2368,9 @@
       "neutralResist": 10
     }
   },
-  "674e524064788cc741418db1": {
-    "id": "674e524064788cc741418db1",
-    "idShort": "zi",
+  "zi": {
+    "id": "zi",
+    "idDofusDB": "674e524064788cc741418db1",
     "idDofusBook": 7250,
     "name": {
       "fr": "Amulette Akwadala",
@@ -2088,9 +2389,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc741418db2": {
-    "id": "674e524064788cc741418db2",
-    "idShort": "lE",
+  "lE": {
+    "id": "lE",
+    "idDofusDB": "674e524064788cc741418db2",
     "idDofusBook": 7251,
     "name": {
       "fr": "Amulette Terrdala",
@@ -2110,9 +2411,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418db3": {
-    "id": "674e524064788cc741418db3",
-    "idShort": "jR",
+  "jR": {
+    "id": "jR",
+    "idDofusDB": "674e524064788cc741418db3",
     "idDofusBook": 7252,
     "name": {
       "fr": "Amulette Feudala",
@@ -2133,9 +2434,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418db4": {
-    "id": "674e524064788cc741418db4",
-    "idShort": "mJ",
+  "mJ": {
+    "id": "mJ",
+    "idDofusDB": "674e524064788cc741418db4",
     "idDofusBook": 7253,
     "name": {
       "fr": "Amulette Aerdala",
@@ -2154,9 +2455,9 @@
       "airDamage": 3
     }
   },
-  "674e524064788cc741418dd7": {
-    "id": "674e524064788cc741418dd7",
-    "idShort": "sg",
+  "sg": {
+    "id": "sg",
+    "idDofusDB": "674e524064788cc741418dd7",
     "idDofusBook": 7342,
     "name": {
       "fr": "Amulette du Kitsou",
@@ -2175,9 +2476,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418f26": {
-    "id": "674e524064788cc741418f26",
-    "idShort": "kq",
+  "kq": {
+    "id": "kq",
+    "idDofusDB": "674e524064788cc741418f26",
     "idDofusBook": 7880,
     "name": {
       "fr": "Amulette du Boufcoul",
@@ -2203,9 +2504,9 @@
       "initiative": -50
     }
   },
-  "674e524064788cc741418f8d": {
-    "id": "674e524064788cc741418f8d",
-    "idShort": "rO",
+  "rO": {
+    "id": "rO",
+    "idDofusDB": "674e524064788cc741418f8d",
     "idDofusBook": 8003,
     "name": {
       "fr": "Amulette du Koalak",
@@ -2226,9 +2527,9 @@
       "criticalDamage": 6
     }
   },
-  "674e524064788cc741418fc7": {
-    "id": "674e524064788cc741418fc7",
-    "idShort": "D2",
+  "D2": {
+    "id": "D2",
+    "idDofusDB": "674e524064788cc741418fc7",
     "idDofusBook": 8108,
     "name": {
       "fr": "Amulette du Tofu",
@@ -2246,9 +2547,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc741418fd2": {
-    "id": "674e524064788cc741418fd2",
-    "idShort": "xa",
+  "xa": {
+    "id": "xa",
+    "idDofusDB": "674e524064788cc741418fd2",
     "idDofusBook": 8120,
     "name": {
       "fr": "Amulette du Scarabosse Doré",
@@ -2266,9 +2567,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741418fd5": {
-    "id": "674e524064788cc741418fd5",
-    "idShort": "Fc",
+  "Fc": {
+    "id": "Fc",
+    "idDofusDB": "674e524064788cc741418fd5",
     "idDofusBook": 8123,
     "name": {
       "fr": "Amulette Paysanne",
@@ -2287,9 +2588,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418fdb": {
-    "id": "674e524064788cc741418fdb",
-    "idShort": "sr",
+  "sr": {
+    "id": "sr",
+    "idDofusDB": "674e524064788cc741418fdb",
     "idDofusBook": 8129,
     "name": {
       "fr": "Amuloumulette",
@@ -2308,9 +2609,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418ff0": {
-    "id": "674e524064788cc741418ff0",
-    "idShort": "kp",
+  "kp": {
+    "id": "kp",
+    "idDofusDB": "674e524064788cc741418ff0",
     "idDofusBook": 8150,
     "name": {
       "fr": "Amulette du Craqueleur Légendaire",
@@ -2332,9 +2633,9 @@
       "waterResist": 5
     }
   },
-  "674e524064788cc741419007": {
-    "id": "674e524064788cc741419007",
-    "idShort": "GH",
+  "GH": {
+    "id": "GH",
+    "idDofusDB": "674e524064788cc741419007",
     "idDofusBook": 8213,
     "name": {
       "fr": "Amulette du Piou Rouge",
@@ -2351,9 +2652,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741419008": {
-    "id": "674e524064788cc741419008",
-    "idShort": "Hp",
+  "Hp": {
+    "id": "Hp",
+    "idDofusDB": "674e524064788cc741419008",
     "idDofusBook": 8214,
     "name": {
       "fr": "Amulette du Piou Bleu",
@@ -2370,9 +2671,9 @@
       "chance": 20
     }
   },
-  "674e524064788cc741419009": {
-    "id": "674e524064788cc741419009",
-    "idShort": "HD",
+  "HD": {
+    "id": "HD",
+    "idDofusDB": "674e524064788cc741419009",
     "idDofusBook": 8215,
     "name": {
       "fr": "Amulette du Piou Violet",
@@ -2389,9 +2690,9 @@
       "power": 10
     }
   },
-  "674e524064788cc74141900a": {
-    "id": "674e524064788cc74141900a",
-    "idShort": "I9",
+  "I9": {
+    "id": "I9",
+    "idDofusDB": "674e524064788cc74141900a",
     "idDofusBook": 8216,
     "name": {
       "fr": "Amulette du Piou Jaune",
@@ -2408,9 +2709,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc74141900b": {
-    "id": "674e524064788cc74141900b",
-    "idShort": "Gv",
+  "Gv": {
+    "id": "Gv",
+    "idDofusDB": "674e524064788cc74141900b",
     "idDofusBook": 8217,
     "name": {
       "fr": "Amulette du Piou Vert",
@@ -2427,9 +2728,9 @@
       "earthDamage": 1
     }
   },
-  "674e524064788cc74141900c": {
-    "id": "674e524064788cc74141900c",
-    "idShort": "HV",
+  "HV": {
+    "id": "HV",
+    "idDofusDB": "674e524064788cc74141900c",
     "idDofusBook": 8218,
     "name": {
       "fr": "Amulette du Piou Rose",
@@ -2446,9 +2747,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc74141902e": {
-    "id": "674e524064788cc74141902e",
-    "idShort": "F5",
+  "F5": {
+    "id": "F5",
+    "idDofusDB": "674e524064788cc74141902e",
     "idDofusBook": 8253,
     "name": {
       "fr": "Amulette en Mousse",
@@ -2466,9 +2767,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741419036": {
-    "id": "674e524064788cc741419036",
-    "idShort": "dc",
+  "dc": {
+    "id": "dc",
+    "idDofusDB": "674e524064788cc741419036",
     "idDofusBook": 8262,
     "name": {
       "fr": "La Meulette",
@@ -2493,9 +2794,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc74141903c": {
-    "id": "674e524064788cc74141903c",
-    "idShort": "ga",
+  "ga": {
+    "id": "ga",
+    "idDofusDB": "674e524064788cc74141903c",
     "idDofusBook": 8268,
     "name": {
       "fr": "Collier du Minotoror",
@@ -2520,9 +2821,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419040": {
-    "id": "674e524064788cc741419040",
-    "idShort": "aj",
+  "aj": {
+    "id": "aj",
+    "idDofusDB": "674e524064788cc741419040",
     "idDofusBook": 8272,
     "name": {
       "fr": "Collier du Minotot",
@@ -2547,9 +2848,9 @@
       "prospecting": 25
     }
   },
-  "674e524064788cc741419041": {
-    "id": "674e524064788cc741419041",
-    "idShort": "jm",
+  "jm": {
+    "id": "jm",
+    "idDofusDB": "674e524064788cc741419041",
     "idDofusBook": 8273,
     "name": {
       "fr": "Collier du Dragon Cochon",
@@ -2571,9 +2872,9 @@
       "heal": 6
     }
   },
-  "674e524064788cc741419052": {
-    "id": "674e524064788cc741419052",
-    "idShort": "ff",
+  "ff": {
+    "id": "ff",
+    "idDofusDB": "674e524064788cc741419052",
     "idDofusBook": 8290,
     "name": {
       "fr": "Amulette du Dragoeuf",
@@ -2597,9 +2898,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524064788cc74141905a": {
-    "id": "674e524064788cc74141905a",
-    "idShort": "lJ",
+  "lJ": {
+    "id": "lJ",
+    "idDofusDB": "674e524064788cc74141905a",
     "idDofusBook": 8298,
     "name": {
       "fr": "Epis de Shika",
@@ -2620,9 +2921,9 @@
       "prospecting": 5
     }
   },
-  "674e524064788cc7414190b8": {
-    "id": "674e524064788cc7414190b8",
-    "idShort": "g8",
+  "g8": {
+    "id": "g8",
+    "idDofusDB": "674e524064788cc7414190b8",
     "idDofusBook": 8411,
     "name": {
       "fr": "Pendentif du Mominotor",
@@ -2646,9 +2947,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc7414190ce": {
-    "id": "674e524064788cc7414190ce",
-    "idShort": "h2",
+  "h2": {
+    "id": "h2",
+    "idDofusDB": "674e524064788cc7414190ce",
     "idDofusBook": 8445,
     "name": {
       "fr": "Collier du Rat Noir",
@@ -2673,9 +2974,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc7414190d6": {
-    "id": "674e524064788cc7414190d6",
-    "idShort": "ha",
+  "ha": {
+    "id": "ha",
+    "idDofusDB": "674e524064788cc7414190d6",
     "idDofusBook": 8453,
     "name": {
       "fr": "Collier du Rat Blanc",
@@ -2700,9 +3001,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc7414190dc": {
-    "id": "674e524064788cc7414190dc",
-    "idShort": "dH",
+  "dH": {
+    "id": "dH",
+    "idDofusDB": "674e524064788cc7414190dc",
     "idDofusBook": 8459,
     "name": {
       "fr": "Collier Cérémonial du Seigneur des Rats",
@@ -2726,9 +3027,9 @@
       "neutralResistPer": 10
     }
   },
-  "674e524064788cc7414190e2": {
-    "id": "674e524064788cc7414190e2",
-    "idShort": "gn",
+  "gn": {
+    "id": "gn",
+    "idDofusDB": "674e524064788cc7414190e2",
     "idDofusBook": 8465,
     "name": {
       "fr": "Torque Ancestral",
@@ -2752,9 +3053,9 @@
       "fireResist": 7
     }
   },
-  "674e524064788cc7414190e6": {
-    "id": "674e524064788cc7414190e6",
-    "idShort": "ds",
+  "ds": {
+    "id": "ds",
+    "idDofusDB": "674e524064788cc7414190e6",
     "idDofusBook": 8469,
     "name": {
       "fr": "Talisman du Chêne Mou",
@@ -2778,9 +3079,9 @@
       "initiative": 300
     }
   },
-  "674e524064788cc74141911c": {
-    "id": "674e524064788cc74141911c",
-    "idShort": "Ji",
+  "Ji": {
+    "id": "Ji",
+    "idDofusDB": "674e524064788cc74141911c",
     "idDofusBook": 8538,
     "name": {
       "fr": "Le S'Mesme",
@@ -2797,9 +3098,9 @@
       "chance": 6
     }
   },
-  "674e524064788cc74141921d": {
-    "id": "674e524064788cc74141921d",
-    "idShort": "a6",
+  "a6": {
+    "id": "a6",
+    "idDofusDB": "674e524064788cc74141921d",
     "idDofusBook": 8863,
     "name": {
       "fr": "Zothulette",
@@ -2823,9 +3124,9 @@
       "fireResistPer": 10
     }
   },
-  "674e524064788cc741419228": {
-    "id": "674e524064788cc741419228",
-    "idShort": "gJ",
+  "gJ": {
+    "id": "gJ",
+    "idDofusDB": "674e524064788cc741419228",
     "idDofusBook": 8874,
     "name": {
       "fr": "Ouassulette",
@@ -2850,9 +3151,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc74141922d": {
-    "id": "674e524064788cc74141922d",
-    "idShort": "kx",
+  "kx": {
+    "id": "kx",
+    "idDofusDB": "674e524064788cc74141922d",
     "idDofusBook": 8880,
     "name": {
       "fr": "Amufafah",
@@ -2874,9 +3175,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524064788cc741419308": {
-    "id": "674e524064788cc741419308",
-    "idShort": "8o",
+  "8o": {
+    "id": "8o",
+    "idDofusDB": "674e524064788cc741419308",
     "idDofusBook": 9130,
     "name": {
       "fr": "Ougamulette",
@@ -2899,9 +3200,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524064788cc74141931b": {
-    "id": "674e524064788cc74141931b",
-    "idShort": "vI",
+  "vI": {
+    "id": "vI",
+    "idDofusDB": "674e524064788cc74141931b",
     "idDofusBook": 9149,
     "name": {
       "fr": "Amublop Griotte",
@@ -2920,9 +3221,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc74141931c": {
-    "id": "674e524064788cc74141931c",
-    "idShort": "vH",
+  "vH": {
+    "id": "vH",
+    "idDofusDB": "674e524064788cc74141931c",
     "idDofusBook": 9150,
     "name": {
       "fr": "Amublop Reinette",
@@ -2941,9 +3242,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc74141931d": {
-    "id": "674e524064788cc74141931d",
-    "idShort": "vG",
+  "vG": {
+    "id": "vG",
+    "idDofusDB": "674e524064788cc74141931d",
     "idDofusBook": 9151,
     "name": {
       "fr": "Amublop Coco",
@@ -2962,9 +3263,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc74141931e": {
-    "id": "674e524064788cc74141931e",
-    "idShort": "vF",
+  "vF": {
+    "id": "vF",
+    "idDofusDB": "674e524064788cc74141931e",
     "idDofusBook": 9152,
     "name": {
       "fr": "Amublop Indigo",
@@ -2983,9 +3284,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc74141931f": {
-    "id": "674e524064788cc74141931f",
-    "idShort": "la",
+  "la": {
+    "id": "la",
+    "idDofusDB": "674e524064788cc74141931f",
     "idDofusBook": 9153,
     "name": {
       "fr": "Amublop Griotte Royale",
@@ -3006,9 +3307,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741419320": {
-    "id": "674e524064788cc741419320",
-    "idShort": "l9",
+  "l9": {
+    "id": "l9",
+    "idDofusDB": "674e524064788cc741419320",
     "idDofusBook": 9154,
     "name": {
       "fr": "Amublop Reinette Royale",
@@ -3029,9 +3330,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741419321": {
-    "id": "674e524064788cc741419321",
-    "idShort": "l8",
+  "l8": {
+    "id": "l8",
+    "idDofusDB": "674e524064788cc741419321",
     "idDofusBook": 9155,
     "name": {
       "fr": "Amublop Coco Royale",
@@ -3052,9 +3353,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741419322": {
-    "id": "674e524064788cc741419322",
-    "idShort": "l7",
+  "l7": {
+    "id": "l7",
+    "idDofusDB": "674e524064788cc741419322",
     "idDofusBook": 9156,
     "name": {
       "fr": "Amublop Indigo Royale",
@@ -3075,9 +3376,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741419323": {
-    "id": "674e524064788cc741419323",
-    "idShort": "jZ",
+  "jZ": {
+    "id": "jZ",
+    "idDofusDB": "674e524064788cc741419323",
     "idDofusBook": 9157,
     "name": {
       "fr": "Amublop Multicolore Royale",
@@ -3098,37 +3399,9 @@
       "fireResistPer": 3
     }
   },
-  "674e524064788cc741419339": {
-    "id": "674e524064788cc741419339",
-    "idShort": "88",
-    "idDofusBook": 9179,
-    "name": {
-      "fr": "Amulette Ripage",
-      "en": "Memori Amulet",
-      "pt": "Amuleto Memori",
-      "de": "Amulett des Bworkrippers",
-      "es": "Amuleto del descanso eterno"
-    },
-    "level": 184,
-    "panoply": "674e523f64788cc741418139",
-    "category": "amulet",
-    "stats": {
-      "health": 250,
-      "strength": 50,
-      "agility": 50,
-      "wisdom": 40,
-      "criticalChance": 2,
-      "ap": 1,
-      "damage": 10,
-      "prospecting": 20,
-      "initiative": 400,
-      "fireResist": 10,
-      "trapPower": 20
-    }
-  },
-  "674e524064788cc741419347": {
-    "id": "674e524064788cc741419347",
-    "idShort": "xW",
+  "xW": {
+    "id": "xW",
+    "idDofusDB": "674e524064788cc741419347",
     "idDofusBook": 9193,
     "name": {
       "fr": "Tartamulette",
@@ -3147,9 +3420,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc7414193e2": {
-    "id": "674e524064788cc7414193e2",
-    "idShort": "Cu",
+  "Cu": {
+    "id": "Cu",
+    "idDofusDB": "674e524064788cc7414193e2",
     "idDofusBook": 9454,
     "name": {
       "fr": "Pompamulette",
@@ -3166,9 +3439,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414193e9": {
-    "id": "674e524064788cc7414193e9",
-    "idShort": "7P",
+  "7P": {
+    "id": "7P",
+    "idDofusDB": "674e524064788cc7414193e9",
     "idDofusBook": 9463,
     "name": {
       "fr": "Amunite",
@@ -3193,9 +3466,9 @@
       "fireResist": 10
     }
   },
-  "674e524064788cc7414193ea": {
-    "id": "674e524064788cc7414193ea",
-    "idShort": "7o",
+  "7o": {
+    "id": "7o",
+    "idDofusDB": "674e524064788cc7414193ea",
     "idDofusBook": 9464,
     "name": {
       "fr": "Kralamansion",
@@ -3220,9 +3493,9 @@
       "prospecting": 30
     }
   },
-  "674e524064788cc741419482": {
-    "id": "674e524064788cc741419482",
-    "idShort": "wq",
+  "wq": {
+    "id": "wq",
+    "idDofusDB": "674e524064788cc741419482",
     "idDofusBook": 9658,
     "name": {
       "fr": "Amulette Papayou",
@@ -3242,9 +3515,9 @@
       "apReduction": 3
     }
   },
-  "674e524064788cc741419483": {
-    "id": "674e524064788cc741419483",
-    "idShort": "xT",
+  "xT": {
+    "id": "xT",
+    "idDofusDB": "674e524064788cc741419483",
     "idDofusBook": 9659,
     "name": {
       "fr": "Collier Sleump",
@@ -3264,9 +3537,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc74141951e": {
-    "id": "674e524064788cc74141951e",
-    "idShort": "xP",
+  "xP": {
+    "id": "xP",
+    "idDofusDB": "674e524064788cc74141951e",
     "idDofusBook": 9944,
     "name": {
       "fr": "La Chaplivate",
@@ -3286,9 +3559,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc74141957e": {
-    "id": "674e524064788cc74141957e",
-    "idShort": "x6",
+  "x6": {
+    "id": "x6",
+    "idDofusDB": "674e524064788cc74141957e",
     "idDofusBook": 10055,
     "name": {
       "fr": "Amulette du Vampyre",
@@ -3308,9 +3581,9 @@
       "summon": 2
     }
   },
-  "674e524064788cc7414195ca": {
-    "id": "674e524064788cc7414195ca",
-    "idShort": "xO",
+  "xO": {
+    "id": "xO",
+    "idDofusDB": "674e524064788cc7414195ca",
     "idDofusBook": 10155,
     "name": {
       "fr": "Yugolette",
@@ -3329,9 +3602,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc7414195db": {
-    "id": "674e524064788cc7414195db",
-    "idShort": "yx",
+  "yx": {
+    "id": "yx",
+    "idDofusDB": "674e524064788cc7414195db",
     "idDofusBook": 10172,
     "name": {
       "fr": "Collertue",
@@ -3350,9 +3623,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524064788cc7414195e3": {
-    "id": "674e524064788cc7414195e3",
-    "idShort": "yw",
+  "yw": {
+    "id": "yw",
+    "idDofusDB": "674e524064788cc7414195e3",
     "idDofusBook": 10180,
     "name": {
       "fr": "L'Esteban",
@@ -3371,9 +3644,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc7414195e9": {
-    "id": "674e524064788cc7414195e9",
-    "idShort": "zb",
+  "zb": {
+    "id": "zb",
+    "idDofusDB": "674e524064788cc7414195e9",
     "idDofusBook": 10186,
     "name": {
       "fr": "Collier de Noké",
@@ -3391,9 +3664,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc7414196ab": {
-    "id": "674e524064788cc7414196ab",
-    "idShort": "yt",
+  "yt": {
+    "id": "yt",
+    "idDofusDB": "674e524064788cc7414196ab",
     "idDofusBook": 10623,
     "name": {
       "fr": "Amulette de Grüt",
@@ -3413,9 +3686,9 @@
       "lock": 4
     }
   },
-  "674e524064788cc7414196b3": {
-    "id": "674e524064788cc7414196b3",
-    "idShort": "yq",
+  "yq": {
+    "id": "yq",
+    "idDofusDB": "674e524064788cc7414196b3",
     "idDofusBook": 10631,
     "name": {
       "fr": "Amulette de Gobeuf",
@@ -3434,9 +3707,9 @@
       "mpResist": 3
     }
   },
-  "674e524064788cc7414196b7": {
-    "id": "674e524064788cc7414196b7",
-    "idShort": "z7",
+  "z7": {
+    "id": "z7",
+    "idDofusDB": "674e524064788cc7414196b7",
     "idDofusBook": 10635,
     "name": {
       "fr": "Amulette de Laikteur",
@@ -3454,9 +3727,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc7414196bb": {
-    "id": "674e524064788cc7414196bb",
-    "idShort": "z6",
+  "z6": {
+    "id": "z6",
+    "idDofusDB": "674e524064788cc7414196bb",
     "idDofusBook": 10639,
     "name": {
       "fr": "Amulette de Rekto Topi",
@@ -3474,9 +3747,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc7414196fb": {
-    "id": "674e524064788cc7414196fb",
-    "idShort": "Jh",
+  "Jh": {
+    "id": "Jh",
+    "idDofusDB": "674e524064788cc7414196fb",
     "idDofusBook": 10784,
     "name": {
       "fr": "Amulette de l'intrépide",
@@ -3493,9 +3766,9 @@
       "initiative": 1
     }
   },
-  "674e524064788cc741419720": {
-    "id": "674e524064788cc741419720",
-    "idShort": "mt",
+  "mt": {
+    "id": "mt",
+    "idDofusDB": "674e524064788cc741419720",
     "idDofusBook": 10836,
     "name": {
       "fr": "Boufbamu",
@@ -3513,9 +3786,9 @@
       "range": 1
     }
   },
-  "674e524064788cc74141972e": {
-    "id": "674e524064788cc74141972e",
-    "idShort": "tl",
+  "tl": {
+    "id": "tl",
+    "idDofusDB": "674e524064788cc74141972e",
     "idDofusBook": 10852,
     "name": {
       "fr": "Amulette d'Hulkrap",
@@ -3533,9 +3806,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc74141972f": {
-    "id": "674e524064788cc74141972f",
-    "idShort": "tk",
+  "tk": {
+    "id": "tk",
+    "idDofusDB": "674e524064788cc74141972f",
     "idDofusBook": 10853,
     "name": {
       "fr": "Amulette de Kloug",
@@ -3555,9 +3828,9 @@
       "mpResist": 4
     }
   },
-  "674e524064788cc74141978b": {
-    "id": "674e524064788cc74141978b",
-    "idShort": "BC",
+  "BC": {
+    "id": "BC",
+    "idDofusDB": "674e524064788cc74141978b",
     "idDofusBook": 10965,
     "name": {
       "fr": "Amulette de Rapine",
@@ -3575,9 +3848,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc74141979a": {
-    "id": "674e524064788cc74141979a",
-    "idShort": "Br",
+  "Br": {
+    "id": "Br",
+    "idDofusDB": "674e524064788cc74141979a",
     "idDofusBook": 10980,
     "name": {
       "fr": "Amulette d'Hectaupe",
@@ -3594,9 +3867,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414197c8": {
-    "id": "674e524064788cc7414197c8",
-    "idShort": "Bo",
+  "Bo": {
+    "id": "Bo",
+    "idDofusDB": "674e524064788cc7414197c8",
     "idDofusBook": 11051,
     "name": {
       "fr": "Clémentamulette",
@@ -3614,9 +3887,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc7414197ee": {
-    "id": "674e524064788cc7414197ee",
-    "idShort": "x5",
+  "x5": {
+    "id": "x5",
+    "idDofusDB": "674e524064788cc7414197ee",
     "idDofusBook": 11092,
     "name": {
       "fr": "Amulette de Grilliane",
@@ -3636,9 +3909,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc7414198e1": {
-    "id": "674e524064788cc7414198e1",
-    "idShort": "yn",
+  "yn": {
+    "id": "yn",
+    "idDofusDB": "674e524064788cc7414198e1",
     "idDofusBook": 11345,
     "name": {
       "fr": "Amulette de Rapiat",
@@ -3657,9 +3930,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc7414198e4": {
-    "id": "674e524064788cc7414198e4",
-    "idShort": "t4",
+  "t4": {
+    "id": "t4",
+    "idDofusDB": "674e524064788cc7414198e4",
     "idDofusBook": 11348,
     "name": {
       "fr": "Amulette d'Ougicle",
@@ -3678,9 +3951,9 @@
       "ap": 1
     }
   },
-  "674e524064788cc7414198e7": {
-    "id": "674e524064788cc7414198e7",
-    "idShort": "vZ",
+  "vZ": {
+    "id": "vZ",
+    "idDofusDB": "674e524064788cc7414198e7",
     "idDofusBook": 11351,
     "name": {
       "fr": "Amulette de Karotz",
@@ -3700,9 +3973,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc7414198f0": {
-    "id": "674e524064788cc7414198f0",
-    "idShort": "z2",
+  "z2": {
+    "id": "z2",
+    "idDofusDB": "674e524064788cc7414198f0",
     "idDofusBook": 11360,
     "name": {
       "fr": "Amulette de Kubitus",
@@ -3721,9 +3994,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414198f4": {
-    "id": "674e524064788cc7414198f4",
-    "idShort": "sd",
+  "sd": {
+    "id": "sd",
+    "idDofusDB": "674e524064788cc7414198f4",
     "idDofusBook": 11364,
     "name": {
       "fr": "Amulette de Piggy Paupe",
@@ -3743,9 +4016,9 @@
       "lock": 3
     }
   },
-  "674e524064788cc7414198fe": {
-    "id": "674e524064788cc7414198fe",
-    "idShort": "mH",
+  "mH": {
+    "id": "mH",
+    "idDofusDB": "674e524064788cc7414198fe",
     "idDofusBook": 11374,
     "name": {
       "fr": "Amupapier",
@@ -3766,9 +4039,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741419903": {
-    "id": "674e524064788cc741419903",
-    "idShort": "s2",
+  "s2": {
+    "id": "s2",
+    "idDofusDB": "674e524064788cc741419903",
     "idDofusBook": 11379,
     "name": {
       "fr": "Plumamulette",
@@ -3789,9 +4062,9 @@
       "heal": 4
     }
   },
-  "674e524064788cc741419913": {
-    "id": "674e524064788cc741419913",
-    "idShort": "t3",
+  "t3": {
+    "id": "t3",
+    "idDofusDB": "674e524064788cc741419913",
     "idDofusBook": 11395,
     "name": {
       "fr": "Amusonnier",
@@ -3811,9 +4084,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc74141995b": {
-    "id": "674e524064788cc74141995b",
-    "idShort": "7D",
+  "7D": {
+    "id": "7D",
+    "idDofusDB": "674e524064788cc74141995b",
     "idDofusBook": 11468,
     "name": {
       "fr": "Frimamulette",
@@ -3840,9 +4113,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc7414199a7": {
-    "id": "674e524064788cc7414199a7",
-    "idShort": "eU",
+  "eU": {
+    "id": "eU",
+    "idDofusDB": "674e524064788cc7414199a7",
     "idDofusBook": 11563,
     "name": {
       "fr": "Amulette Ementaire",
@@ -3901,9 +4174,9 @@
       "airResistPer": 8
     }
   },
-  "674e524064788cc7414199b3": {
-    "id": "674e524064788cc7414199b3",
-    "idShort": "eJ",
+  "eJ": {
+    "id": "eJ",
+    "idDofusDB": "674e524064788cc7414199b3",
     "idDofusBook": 11575,
     "name": {
       "fr": "Amulette du Royalmouth",
@@ -3932,9 +4205,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc7414199b4": {
-    "id": "674e524064788cc7414199b4",
-    "idShort": "9D",
+  "9D": {
+    "id": "9D",
+    "idDofusDB": "674e524064788cc7414199b4",
     "idDofusBook": 11576,
     "name": {
       "fr": "Amulette de l'Obsidiantre",
@@ -3963,9 +4236,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199d2": {
-    "id": "674e524064788cc7414199d2",
-    "idShort": "a2",
+  "a2": {
+    "id": "a2",
+    "idDofusDB": "674e524064788cc7414199d2",
     "idDofusBook": 11607,
     "name": {
       "fr": "Collier Yé",
@@ -3994,9 +4267,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc7414199d3": {
-    "id": "674e524064788cc7414199d3",
-    "idShort": "aE",
+  "aE": {
+    "id": "aE",
+    "idDofusDB": "674e524064788cc7414199d3",
     "idDofusBook": 11608,
     "name": {
       "fr": "Talisman Choh",
@@ -4024,9 +4297,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc7414199d4": {
-    "id": "674e524064788cc7414199d4",
-    "idShort": "du",
+  "du": {
+    "id": "du",
+    "idDofusDB": "674e524064788cc7414199d4",
     "idDofusBook": 11609,
     "name": {
       "fr": "Talisman Doline",
@@ -4053,9 +4326,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419a2e": {
-    "id": "674e524064788cc741419a2e",
-    "idShort": "8h",
+  "8h": {
+    "id": "8h",
+    "idDofusDB": "674e524064788cc741419a2e",
     "idDofusBook": 11713,
     "name": {
       "fr": "Amulette du Korriandre",
@@ -4083,9 +4356,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419a35": {
-    "id": "674e524064788cc741419a35",
-    "idShort": "5H",
+  "5H": {
+    "id": "5H",
+    "idDofusDB": "674e524064788cc741419a35",
     "idDofusBook": 11720,
     "name": {
       "fr": "Amulette du Glourséleste",
@@ -4115,69 +4388,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524064788cc741419a3e": {
-    "id": "674e524064788cc741419a3e",
-    "idShort": "96",
-    "idDofusBook": 11729,
-    "name": {
-      "fr": "Amulette Cætera",
-      "en": "Amulet Cetera",
-      "pt": "Amuleto de Cetera",
-      "de": "Amulett Zätera",
-      "es": "Colgante cétera"
-    },
-    "level": 173,
-    "panoply": "674e523f64788cc7414183fc",
-    "category": "amulet",
-    "stats": {
-      "health": 250,
-      "strength": 50,
-      "chance": 50,
-      "wisdom": 40,
-      "power": 25,
-      "ap": 1,
-      "range": 1,
-      "neutralDamage": 10,
-      "earthDamage": 10,
-      "fireDamage": 10,
-      "waterDamage": 10,
-      "prospecting": 25,
-      "dodge": 5,
-      "apReduction": 5
-    }
-  },
-  "674e524064788cc741419a3f": {
-    "id": "674e524064788cc741419a3f",
-    "idShort": "83",
-    "idDofusBook": 11730,
-    "name": {
-      "fr": "Amulette Héroclite",
-      "en": "Eroclite Amulet",
-      "pt": "Amuleto Eroclite",
-      "de": "Amulett-Cetera",
-      "es": "Amuleto xímeron"
-    },
-    "level": 185,
-    "panoply": "674e523f64788cc7414183f2",
-    "category": "amulet",
-    "stats": {
-      "health": 300,
-      "strength": 50,
-      "wisdom": 50,
-      "power": 25,
-      "criticalChance": 4,
-      "ap": 1,
-      "summon": 2,
-      "neutralDamage": 12,
-      "earthDamage": 12,
-      "prospecting": 15,
-      "waterResistPer": 10,
-      "pushbackDamage": 10
-    }
-  },
-  "674e524064788cc741419a40": {
-    "id": "674e524064788cc741419a40",
-    "idShort": "6d",
+  "6d": {
+    "id": "6d",
+    "idDofusDB": "674e524064788cc741419a40",
     "idDofusBook": 11731,
     "name": {
       "fr": "Amulette Hendart",
@@ -4207,9 +4420,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419a6b": {
-    "id": "674e524064788cc741419a6b",
-    "idShort": "9I",
+  "9I": {
+    "id": "9I",
+    "idDofusDB": "674e524064788cc741419a6b",
     "idDofusBook": 11792,
     "name": {
       "fr": "Amulette Ementaire Deluxe",
@@ -4269,9 +4482,9 @@
       "airResistPer": 8
     }
   },
-  "674e524064788cc741419a6d": {
-    "id": "674e524064788cc741419a6d",
-    "idShort": "7Z",
+  "7Z": {
+    "id": "7Z",
+    "idDofusDB": "674e524064788cc741419a6d",
     "idDofusBook": 11794,
     "name": {
       "fr": "Racine Hueuse",
@@ -4298,9 +4511,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc741419b00": {
-    "id": "674e524064788cc741419b00",
-    "idShort": "wd",
+  "wd": {
+    "id": "wd",
+    "idDofusDB": "674e524064788cc741419b00",
     "idDofusBook": 11976,
     "name": {
       "fr": "Amulette du Boostache",
@@ -4319,9 +4532,9 @@
       "apResist": 6
     }
   },
-  "674e524064788cc741419b2a": {
-    "id": "674e524064788cc741419b2a",
-    "idShort": "x0",
+  "x0": {
+    "id": "x0",
+    "idDofusDB": "674e524064788cc741419b2a",
     "idDofusBook": 12025,
     "name": {
       "fr": "Amulette de Traçon",
@@ -4341,9 +4554,9 @@
       "apReduction": 4
     }
   },
-  "674e524064788cc741419b2e": {
-    "id": "674e524064788cc741419b2e",
-    "idShort": "tj",
+  "tj": {
+    "id": "tj",
+    "idDofusDB": "674e524064788cc741419b2e",
     "idDofusBook": 12029,
     "name": {
       "fr": "Amulette de Mirh",
@@ -4362,9 +4575,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741419b31": {
-    "id": "674e524064788cc741419b31",
-    "idShort": "vY",
+  "vY": {
+    "id": "vY",
+    "idDofusDB": "674e524064788cc741419b31",
     "idDofusBook": 12032,
     "name": {
       "fr": "Amulette de Logram",
@@ -4384,9 +4597,9 @@
       "apResist": 4
     }
   },
-  "674e524064788cc741419b36": {
-    "id": "674e524064788cc741419b36",
-    "idShort": "xD",
+  "xD": {
+    "id": "xD",
+    "idDofusDB": "674e524064788cc741419b36",
     "idDofusBook": 12037,
     "name": {
       "fr": "Amulette de Kalkanéus",
@@ -4406,9 +4619,9 @@
       "lock": 4
     }
   },
-  "674e524064788cc741419b3a": {
-    "id": "674e524064788cc741419b3a",
-    "idShort": "so",
+  "so": {
+    "id": "so",
+    "idDofusDB": "674e524064788cc741419b3a",
     "idDofusBook": 12041,
     "name": {
       "fr": "Amulette d'Hichète",
@@ -4426,9 +4639,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419b3d": {
-    "id": "674e524064788cc741419b3d",
-    "idShort": "wy",
+  "wy": {
+    "id": "wy",
+    "idDofusDB": "674e524064788cc741419b3d",
     "idDofusBook": 12044,
     "name": {
       "fr": "Amulette d'Haku",
@@ -4447,9 +4660,9 @@
       "fireDamage": 5
     }
   },
-  "674e524064788cc741419b56": {
-    "id": "674e524064788cc741419b56",
-    "idShort": "lR",
+  "lR": {
+    "id": "lR",
+    "idDofusDB": "674e524064788cc741419b56",
     "idDofusBook": 12069,
     "name": {
       "fr": "Amulette de Nelween",
@@ -4470,9 +4683,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419b6a": {
-    "id": "674e524064788cc741419b6a",
-    "idShort": "cZ",
+  "cZ": {
+    "id": "cZ",
+    "idDofusDB": "674e524064788cc741419b6a",
     "idDofusBook": 12089,
     "name": {
       "fr": "Amulette de Frigostine",
@@ -4500,9 +4713,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741419b70": {
-    "id": "674e524064788cc741419b70",
-    "idShort": "aq",
+  "aq": {
+    "id": "aq",
+    "idDofusDB": "674e524064788cc741419b70",
     "idDofusBook": 12095,
     "name": {
       "fr": "Amulette de Cantile",
@@ -4531,9 +4744,9 @@
       "apResist": 5
     }
   },
-  "674e524064788cc741419b77": {
-    "id": "674e524064788cc741419b77",
-    "idShort": "8M",
+  "8M": {
+    "id": "8M",
+    "idDofusDB": "674e524064788cc741419b77",
     "idDofusBook": 12102,
     "name": {
       "fr": "Amulette de Guten Tak",
@@ -4561,44 +4774,9 @@
       "apReduction": 5
     }
   },
-  "674e524064788cc741419b80": {
-    "id": "674e524064788cc741419b80",
-    "idShort": "72",
-    "idDofusBook": 12111,
-    "name": {
-      "fr": "Amulette du Professeur Xa",
-      "en": "Professor Xa's Amulet",
-      "pt": "Amuleto do Professor Xa",
-      "de": "Professor Xas Amulett",
-      "es": "Amuleto del profesor Xa"
-    },
-    "level": 195,
-    "panoply": "674e523f64788cc74141816c",
-    "category": "amulet",
-    "stats": {
-      "health": 300,
-      "strength": 30,
-      "intelligence": 30,
-      "chance": 30,
-      "wisdom": 40,
-      "power": 30,
-      "mp": 1,
-      "range": 2,
-      "neutralDamage": 15,
-      "earthDamage": 15,
-      "fireDamage": 15,
-      "waterDamage": 15,
-      "heal": 10,
-      "prospecting": 20,
-      "initiative": 600,
-      "dodge": 5,
-      "apReduction": 5,
-      "criticalResist": 25
-    }
-  },
-  "674e524064788cc741419c1c": {
-    "id": "674e524064788cc741419c1c",
-    "idShort": "jz",
+  "jz": {
+    "id": "jz",
+    "idDofusDB": "674e524064788cc741419c1c",
     "idDofusBook": 12370,
     "name": {
       "fr": "Amulette du Gorgouille",
@@ -4625,9 +4803,9 @@
       "pushbackDamage": 7
     }
   },
-  "674e524064788cc741419c3a": {
-    "id": "674e524064788cc741419c3a",
-    "idShort": "gy",
+  "gy": {
+    "id": "gy",
+    "idDofusDB": "674e524064788cc741419c3a",
     "idDofusBook": 12407,
     "name": {
       "fr": "Amulette du Krokilleur",
@@ -4654,9 +4832,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419c3b": {
-    "id": "674e524064788cc741419c3b",
-    "idShort": "aT",
+  "aT": {
+    "id": "aT",
+    "idDofusDB": "674e524064788cc741419c3b",
     "idDofusBook": 12408,
     "name": {
       "fr": "Amulette de Grozilla",
@@ -4685,9 +4863,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc741419c48": {
-    "id": "674e524064788cc741419c48",
-    "idShort": "Hi",
+  "Hi": {
+    "id": "Hi",
+    "idDofusDB": "674e524064788cc741419c48",
     "idDofusBook": 12421,
     "name": {
       "fr": "Amulette Tétriste",
@@ -4707,9 +4885,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419d25": {
-    "id": "674e524064788cc741419d25",
-    "idShort": "yY",
+  "yY": {
+    "id": "yY",
+    "idDofusDB": "674e524064788cc741419d25",
     "idDofusBook": 12657,
     "name": {
       "fr": "Snarmulette",
@@ -4728,9 +4906,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741419d2f": {
-    "id": "674e524064788cc741419d2f",
-    "idShort": "kb",
+  "kb": {
+    "id": "kb",
+    "idDofusDB": "674e524064788cc741419d2f",
     "idDofusBook": 12675,
     "name": {
       "fr": "Collier Rouge de Daïgoro",
@@ -4752,9 +4930,9 @@
       "criticalResist": 8
     }
   },
-  "674e524064788cc741419d70": {
-    "id": "674e524064788cc741419d70",
-    "idShort": "Hd",
+  "Hd": {
+    "id": "Hd",
+    "idDofusDB": "674e524064788cc741419d70",
     "idDofusBook": 12754,
     "name": {
       "fr": "Amulettong",
@@ -4771,9 +4949,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741419d72": {
-    "id": "674e524064788cc741419d72",
-    "idShort": "Hc",
+  "Hc": {
+    "id": "Hc",
+    "idDofusDB": "674e524064788cc741419d72",
     "idDofusBook": 12756,
     "name": {
       "fr": "Pacmamulette",
@@ -4790,9 +4968,9 @@
       "power": 10
     }
   },
-  "674e524064788cc741419db1": {
-    "id": "674e524064788cc741419db1",
-    "idShort": "c7",
+  "c7": {
+    "id": "c7",
+    "idDofusDB": "674e524064788cc741419db1",
     "idDofusBook": 12854,
     "name": {
       "fr": "Porte-Malheur du Nowel Cauchemardesque",
@@ -4818,9 +4996,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419db5": {
-    "id": "674e524064788cc741419db5",
-    "idShort": "kh",
+  "kh": {
+    "id": "kh",
+    "idDofusDB": "674e524064788cc741419db5",
     "idDofusBook": 12858,
     "name": {
       "fr": "Licol de Redolphe",
@@ -4844,9 +5022,9 @@
       "criticalResist": 5
     }
   },
-  "674e524064788cc741419dcd": {
-    "id": "674e524064788cc741419dcd",
-    "idShort": "yk",
+  "yk": {
+    "id": "yk",
+    "idDofusDB": "674e524064788cc741419dcd",
     "idDofusBook": 12883,
     "name": {
       "fr": "Peignentif",
@@ -4866,9 +5044,9 @@
       "mpResist": 3
     }
   },
-  "674e524064788cc741419e35": {
-    "id": "674e524064788cc741419e35",
-    "idShort": "tf",
+  "tf": {
+    "id": "tf",
+    "idDofusDB": "674e524064788cc741419e35",
     "idDofusBook": 13022,
     "name": {
       "fr": "Collier de Féline",
@@ -4889,36 +5067,9 @@
       "criticalResist": 5
     }
   },
-  "674e524064788cc741419e5b": {
-    "id": "674e524064788cc741419e5b",
-    "idShort": "68",
-    "idDofusBook": 13117,
-    "name": {
-      "fr": "Amulette d'Otomaï",
-      "en": "Otomai's Amulet",
-      "pt": "Amuleto de Otomai",
-      "de": "Otomaïs Amulett",
-      "es": "Amuleto de Otomai"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc74141817d",
-    "category": "amulet",
-    "stats": {
-      "health": 350,
-      "intelligence": 80,
-      "wisdom": 50,
-      "criticalChance": 6,
-      "ap": 1,
-      "fireDamage": 18,
-      "heal": 12,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
-      "lock": 6
-    }
-  },
-  "674e524064788cc741419e5f": {
-    "id": "674e524064788cc741419e5f",
-    "idShort": "7g",
+  "7g": {
+    "id": "7g",
+    "idDofusDB": "674e524064788cc741419e5f",
     "idDofusBook": 13121,
     "name": {
       "fr": "Amulette de Danathor",
@@ -4944,9 +5095,9 @@
       "mpResist": 7
     }
   },
-  "674e524064788cc741419e6d": {
-    "id": "674e524064788cc741419e6d",
-    "idShort": "sx",
+  "sx": {
+    "id": "sx",
+    "idDofusDB": "674e524064788cc741419e6d",
     "idDofusBook": 13138,
     "name": {
       "fr": "Pendentiffre",
@@ -4966,9 +5117,9 @@
       "mpReduction": 3
     }
   },
-  "674e524064788cc741419e87": {
-    "id": "674e524064788cc741419e87",
-    "idShort": "td",
+  "td": {
+    "id": "td",
+    "idDofusDB": "674e524064788cc741419e87",
     "idDofusBook": 13170,
     "name": {
       "fr": "Amulette de Pwâk",
@@ -4988,9 +5139,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741419f99": {
-    "id": "674e524064788cc741419f99",
-    "idShort": "sN",
+  "sN": {
+    "id": "sN",
+    "idDofusDB": "674e524064788cc741419f99",
     "idDofusBook": 13459,
     "name": {
       "fr": "Diplamu",
@@ -5012,9 +5163,9 @@
       "pushbackDamage": 5
     }
   },
-  "674e524064788cc74141a033": {
-    "id": "674e524064788cc74141a033",
-    "idShort": "6D",
+  "6D": {
+    "id": "6D",
+    "idDofusDB": "674e524064788cc74141a033",
     "idDofusBook": 13633,
     "name": {
       "fr": "Amulette d'Oshimo",
@@ -5045,9 +5196,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524064788cc74141a036": {
-    "id": "674e524064788cc74141a036",
-    "idShort": "7c",
+  "7c": {
+    "id": "7c",
+    "idDofusDB": "674e524064788cc74141a036",
     "idDofusBook": 13636,
     "name": {
       "fr": "Amulette de Nevark",
@@ -5074,9 +5225,9 @@
       "criticalDamage": -21
     }
   },
-  "674e524064788cc74141a039": {
-    "id": "674e524064788cc74141a039",
-    "idShort": "7s",
+  "7s": {
+    "id": "7s",
+    "idDofusDB": "674e524064788cc74141a039",
     "idDofusBook": 13639,
     "name": {
       "fr": "Amulette de Théodoran Ax",
@@ -5106,9 +5257,9 @@
       "criticalDamage": -11
     }
   },
-  "674e524064788cc74141a040": {
-    "id": "674e524064788cc74141a040",
-    "idShort": "6W",
+  "6W": {
+    "id": "6W",
+    "idDofusDB": "674e524064788cc74141a040",
     "idDofusBook": 13646,
     "name": {
       "fr": "Amulette d'Hel Munster",
@@ -5138,9 +5289,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524064788cc74141a117": {
-    "id": "674e524064788cc74141a117",
-    "idShort": "sm",
+  "sm": {
+    "id": "sm",
+    "idDofusDB": "674e524064788cc74141a117",
     "idDofusBook": 13893,
     "name": {
       "fr": "Glaglamu",
@@ -5161,9 +5312,9 @@
       "apResist": 2
     }
   },
-  "674e524164788cc74141a1c3": {
-    "id": "674e524164788cc74141a1c3",
-    "idShort": "6r",
+  "6r": {
+    "id": "6r",
+    "idDofusDB": "674e524164788cc74141a1c3",
     "idDofusBook": 14065,
     "name": {
       "fr": "Amulette de Nileza",
@@ -5188,9 +5339,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141a1cd": {
-    "id": "674e524164788cc74141a1cd",
-    "idShort": "6o",
+  "6o": {
+    "id": "6o",
+    "idDofusDB": "674e524164788cc74141a1cd",
     "idDofusBook": 14075,
     "name": {
       "fr": "Amulette du Kanimate",
@@ -5221,67 +5372,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141a1d2": {
-    "id": "674e524164788cc74141a1d2",
-    "idShort": "54",
-    "idDofusBook": 14080,
-    "name": {
-      "fr": "Amulette Séculaire",
-      "en": "Age-Old Amulet",
-      "pt": "Amuleto Secular",
-      "de": "Säkular-Amulett",
-      "es": "Amuleto secular"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418194",
-    "category": "amulet",
-    "stats": {
-      "health": 300,
-      "intelligence": 80,
-      "agility": 25,
-      "wisdom": 40,
-      "ap": 1,
-      "fireDamage": 12,
-      "airDamage": 12,
-      "prospecting": 20,
-      "neutralResistPer": 8,
-      "fireResistPer": 8,
-      "criticalResist": 15
-    }
-  },
-  "674e524164788cc74141a1d5": {
-    "id": "674e524164788cc74141a1d5",
-    "idShort": "51",
-    "idDofusBook": 14083,
-    "name": {
-      "fr": "Amulette du Granduk",
-      "en": "Bubotron Amulet",
-      "pt": "Amuleto do Bububo",
-      "de": "Obu-Bobub - Amulett",
-      "es": "Amuleto de bubobubo"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418199",
-    "category": "amulet",
-    "stats": {
-      "health": 350,
-      "agility": 100,
-      "wisdom": 50,
-      "criticalChance": 4,
-      "ap": 1,
-      "range": -1,
-      "summon": 1,
-      "airDamage": 15,
-      "prospecting": 15,
-      "waterResist": 20,
-      "airResist": 20,
-      "lock": 10,
-      "criticalDamage": 10
-    }
-  },
-  "674e524164788cc74141a1d8": {
-    "id": "674e524164788cc74141a1d8",
-    "idShort": "4Z",
+  "4Z": {
+    "id": "4Z",
+    "idDofusDB": "674e524164788cc74141a1d8",
     "idDofusBook": 14086,
     "name": {
       "fr": "Amulette du Sinistrofu",
@@ -5310,9 +5403,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141a1dc": {
-    "id": "674e524164788cc74141a1dc",
-    "idShort": "4V",
+  "4V": {
+    "id": "4V",
+    "idDofusDB": "674e524164788cc74141a1dc",
     "idDofusBook": 14090,
     "name": {
       "fr": "Amulette Cryochrone",
@@ -5340,9 +5433,9 @@
       "lock": 10
     }
   },
-  "674e524164788cc74141a1dd": {
-    "id": "674e524164788cc74141a1dd",
-    "idShort": "4U",
+  "4U": {
+    "id": "4U",
+    "idDofusDB": "674e524164788cc74141a1dd",
     "idDofusBook": 14091,
     "name": {
       "fr": "Amulette du Cycloïde",
@@ -5372,9 +5465,9 @@
       "apResist": -6
     }
   },
-  "674e524164788cc74141a1e0": {
-    "id": "674e524164788cc74141a1e0",
-    "idShort": "4R",
+  "4R": {
+    "id": "4R",
+    "idDofusDB": "674e524164788cc74141a1e0",
     "idDofusBook": 14094,
     "name": {
       "fr": "Amulette du Strigide",
@@ -5400,9 +5493,9 @@
       "criticalResist": -16
     }
   },
-  "674e524164788cc74141a1e3": {
-    "id": "674e524164788cc74141a1e3",
-    "idShort": "4O",
+  "4O": {
+    "id": "4O",
+    "idDofusDB": "674e524164788cc74141a1e3",
     "idDofusBook": 14097,
     "name": {
       "fr": "Amulette du Nocturlabe",
@@ -5427,9 +5520,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141a20e": {
-    "id": "674e524164788cc74141a20e",
-    "idShort": "6n",
+  "6n": {
+    "id": "6n",
+    "idDofusDB": "674e524164788cc74141a20e",
     "idDofusBook": 14160,
     "name": {
       "fr": "Amulette Rangleur",
@@ -5457,9 +5550,9 @@
       "criticalResist": -11
     }
   },
-  "674e524164788cc74141a217": {
-    "id": "674e524164788cc74141a217",
-    "idShort": "4H",
+  "4H": {
+    "id": "4H",
+    "idDofusDB": "674e524164788cc74141a217",
     "idDofusBook": 14169,
     "name": {
       "fr": "Talisman Songe",
@@ -5489,9 +5582,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141a277": {
-    "id": "674e524164788cc74141a277",
-    "idShort": "uA",
+  "uA": {
+    "id": "uA",
+    "idDofusDB": "674e524164788cc74141a277",
     "idDofusBook": 14271,
     "name": {
       "fr": "Dés de la Chance",
@@ -5509,9 +5602,9 @@
       "criticalResist": -20
     }
   },
-  "674e524164788cc74141a281": {
-    "id": "674e524164788cc74141a281",
-    "idShort": "5Z",
+  "5Z": {
+    "id": "5Z",
+    "idDofusDB": "674e524164788cc74141a281",
     "idDofusBook": 14281,
     "name": {
       "fr": "Phylactère Mic",
@@ -5537,9 +5630,9 @@
       "criticalResist": 10
     }
   },
-  "674e524164788cc74141a287": {
-    "id": "674e524164788cc74141a287",
-    "idShort": "7a",
+  "7a": {
+    "id": "7a",
+    "idDofusDB": "674e524164788cc74141a287",
     "idDofusBook": 14287,
     "name": {
       "fr": "Pendentif Oton",
@@ -5568,9 +5661,9 @@
       "apResist": -11
     }
   },
-  "674e524164788cc74141a298": {
-    "id": "674e524164788cc74141a298",
-    "idShort": "s6",
+  "s6": {
+    "id": "s6",
+    "idDofusDB": "674e524164788cc74141a298",
     "idDofusBook": 14304,
     "name": {
       "fr": "Amulette Stroplante",
@@ -5588,9 +5681,9 @@
       "ap": 1
     }
   },
-  "674e524164788cc74141a30a": {
-    "id": "674e524164788cc74141a30a",
-    "idShort": "fN",
+  "fN": {
+    "id": "fN",
+    "idDofusDB": "674e524164788cc74141a30a",
     "idDofusBook": 14498,
     "name": {
       "fr": "Amulette du Wabbit Céphale",
@@ -5614,9 +5707,9 @@
       "apResist": -6
     }
   },
-  "674e524164788cc74141a34b": {
-    "id": "674e524164788cc74141a34b",
-    "idShort": "H6",
+  "H6": {
+    "id": "H6",
+    "idDofusDB": "674e524164788cc74141a34b",
     "idDofusBook": 14597,
     "name": {
       "fr": "Shinchamu",
@@ -5633,9 +5726,9 @@
       "earthDamage": 2
     }
   },
-  "674e524164788cc74141a35f": {
-    "id": "674e524164788cc74141a35f",
-    "idShort": "H1",
+  "H1": {
+    "id": "H1",
+    "idDofusDB": "674e524164788cc74141a35f",
     "idDofusBook": 14617,
     "name": {
       "fr": "Ninjamu Blanche",
@@ -5652,9 +5745,9 @@
       "criticalChance": 1
     }
   },
-  "674e524164788cc74141a363": {
-    "id": "674e524164788cc74141a363",
-    "idShort": "H0",
+  "H0": {
+    "id": "H0",
+    "idDofusDB": "674e524164788cc74141a363",
     "idDofusBook": 14621,
     "name": {
       "fr": "Ninjamu Noire",
@@ -5670,9 +5763,9 @@
       "criticalChance": 1
     }
   },
-  "674e524164788cc74141a420": {
-    "id": "674e524164788cc74141a420",
-    "idShort": "gC",
+  "gC": {
+    "id": "gC",
+    "idDofusDB": "674e524164788cc74141a420",
     "idDofusBook": 14810,
     "name": {
       "fr": "Insigne de Keukeuf",
@@ -5694,9 +5787,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141a44b": {
-    "id": "674e524164788cc74141a44b",
-    "idShort": "4D",
+  "4D": {
+    "id": "4D",
+    "idDofusDB": "674e524164788cc74141a44b",
     "idDofusBook": 14878,
     "name": {
       "fr": "Talisman Glouti",
@@ -5725,9 +5818,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141a451": {
-    "id": "674e524164788cc74141a451",
-    "idShort": "6k",
+  "6k": {
+    "id": "6k",
+    "idDofusDB": "674e524164788cc74141a451",
     "idDofusBook": 14884,
     "name": {
       "fr": "Amulette Ikête",
@@ -5758,9 +5851,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141a47e": {
-    "id": "674e524164788cc74141a47e",
-    "idShort": "5W",
+  "5W": {
+    "id": "5W",
+    "idDofusDB": "674e524164788cc74141a47e",
     "idDofusBook": 14929,
     "name": {
       "fr": "Amulule",
@@ -5790,9 +5883,9 @@
       "mpResist": -4
     }
   },
-  "674e524164788cc74141a4f8": {
-    "id": "674e524164788cc74141a4f8",
-    "idShort": "ak",
+  "ak": {
+    "id": "ak",
+    "idDofusDB": "674e524164788cc74141a4f8",
     "idDofusBook": 15064,
     "name": {
       "fr": "Amulette de l'Orfélin",
@@ -5818,9 +5911,9 @@
       "pushbackDamage": 12
     }
   },
-  "674e524164788cc74141a55b": {
-    "id": "674e524164788cc74141a55b",
-    "idShort": "4u",
+  "4u": {
+    "id": "4u",
+    "idDofusDB": "674e524164788cc74141a55b",
     "idDofusBook": 15189,
     "name": {
       "fr": "Amulette du Piloztère",
@@ -5848,9 +5941,9 @@
       "pushbackResist": -21
     }
   },
-  "674e524164788cc74141a561": {
-    "id": "674e524164788cc74141a561",
-    "idShort": "4o",
+  "4o": {
+    "id": "4o",
+    "idDofusDB": "674e524164788cc74141a561",
     "idDofusBook": 15195,
     "name": {
       "fr": "Amulette du Kamasterisk",
@@ -5879,9 +5972,9 @@
       "pushbackResist": -21
     }
   },
-  "674e524164788cc74141a569": {
-    "id": "674e524164788cc74141a569",
-    "idShort": "aL",
+  "aL": {
+    "id": "aL",
+    "idDofusDB": "674e524164788cc74141a569",
     "idDofusBook": 15203,
     "name": {
       "fr": "Amulette du Père Phorreur",
@@ -5907,9 +6000,9 @@
       "lock": 10
     }
   },
-  "674e524164788cc74141a5f9": {
-    "id": "674e524164788cc74141a5f9",
-    "idShort": "dW",
+  "dW": {
+    "id": "dW",
+    "idDofusDB": "674e524164788cc74141a5f9",
     "idDofusBook": 15361,
     "name": {
       "fr": "Gruchette",
@@ -5933,9 +6026,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141a63e": {
-    "id": "674e524164788cc74141a63e",
-    "idShort": "4g",
+  "4g": {
+    "id": "4g",
+    "idDofusDB": "674e524164788cc74141a63e",
     "idDofusBook": 15433,
     "name": {
       "fr": "Amulette de Gein",
@@ -5963,9 +6056,9 @@
       "criticalDamage": 25
     }
   },
-  "674e524164788cc74141a67c": {
-    "id": "674e524164788cc74141a67c",
-    "idShort": "8I",
+  "8I": {
+    "id": "8I",
+    "idDofusDB": "674e524164788cc74141a67c",
     "idDofusBook": 15499,
     "name": {
       "fr": "Amulette Nécrotique",
@@ -5991,9 +6084,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524164788cc74141a68f": {
-    "id": "674e524164788cc74141a68f",
-    "idShort": "dK",
+  "dK": {
+    "id": "dK",
+    "idDofusDB": "674e524164788cc74141a68f",
     "idDofusBook": 15518,
     "name": {
       "fr": "Amulette d'Ali Grothor",
@@ -6016,9 +6109,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141a6ae": {
-    "id": "674e524164788cc74141a6ae",
-    "idShort": "BX",
+  "BX": {
+    "id": "BX",
+    "idDofusDB": "674e524164788cc74141a6ae",
     "idDofusBook": 15549,
     "name": {
       "fr": "Amulette Verréhor",
@@ -6038,9 +6131,9 @@
       "apResist": -4
     }
   },
-  "674e524164788cc74141a73f": {
-    "id": "674e524164788cc74141a73f",
-    "idShort": "3X",
+  "3X": {
+    "id": "3X",
+    "idDofusDB": "674e524164788cc74141a73f",
     "idDofusBook": 15701,
     "name": {
       "fr": "Amulette de Pol Ouatnos",
@@ -6065,9 +6158,9 @@
       "criticalResist": 25
     }
   },
-  "674e524164788cc74141a763": {
-    "id": "674e524164788cc74141a763",
-    "idShort": "3W",
+  "3W": {
+    "id": "3W",
+    "idDofusDB": "674e524164788cc74141a763",
     "idDofusBook": 15737,
     "name": {
       "fr": "Amibou",
@@ -6095,9 +6188,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141a76c": {
-    "id": "674e524164788cc74141a76c",
-    "idShort": "3N",
+  "3N": {
+    "id": "3N",
+    "idDofusDB": "674e524164788cc74141a76c",
     "idDofusBook": 15746,
     "name": {
       "fr": "Harpendentif",
@@ -6120,9 +6213,9 @@
       "apResist": 25
     }
   },
-  "674e524164788cc74141a76f": {
-    "id": "674e524164788cc74141a76f",
-    "idShort": "3K",
+  "3K": {
+    "id": "3K",
+    "idDofusDB": "674e524164788cc74141a76f",
     "idDofusBook": 15749,
     "name": {
       "fr": "Talisman Igans",
@@ -6148,9 +6241,9 @@
       "earthResistPer": 7
     }
   },
-  "674e524164788cc74141a79d": {
-    "id": "674e524164788cc74141a79d",
-    "idShort": "GR",
+  "GR": {
+    "id": "GR",
+    "idDofusDB": "674e524164788cc74141a79d",
     "idDofusBook": 15796,
     "name": {
       "fr": "Amulette de Fouduglen",
@@ -6167,9 +6260,9 @@
       "pushbackDamage": 4
     }
   },
-  "674e524164788cc74141a85a": {
-    "id": "674e524164788cc74141a85a",
-    "idShort": "AB",
+  "AB": {
+    "id": "AB",
+    "idDofusDB": "674e524164788cc74141a85a",
     "idDofusBook": 15995,
     "name": {
       "fr": "Amulette Perle",
@@ -6188,9 +6281,9 @@
       "summon": 1
     }
   },
-  "674e524164788cc74141a85b": {
-    "id": "674e524164788cc74141a85b",
-    "idShort": "qy",
+  "qy": {
+    "id": "qy",
+    "idDofusDB": "674e524164788cc74141a85b",
     "idDofusBook": 15996,
     "name": {
       "fr": "Pendentif Curatif",
@@ -6211,9 +6304,9 @@
       "fireResistPer": -5
     }
   },
-  "674e524164788cc74141a8d4": {
-    "id": "674e524164788cc74141a8d4",
-    "idShort": "jP",
+  "jP": {
+    "id": "jP",
+    "idDofusDB": "674e524164788cc74141a8d4",
     "idDofusBook": 16176,
     "name": {
       "fr": "Amulette des Huit Yeux",
@@ -6236,9 +6329,9 @@
       "airResistPer": 3
     }
   },
-  "674e524164788cc74141a9e4": {
-    "id": "674e524164788cc74141a9e4",
-    "idShort": "HZ",
+  "HZ": {
+    "id": "HZ",
+    "idDofusDB": "674e524164788cc74141a9e4",
     "idDofusBook": 16505,
     "name": {
       "fr": "Animulette",
@@ -6255,9 +6348,9 @@
       "summon": 1
     }
   },
-  "674e524164788cc74141ab92": {
-    "id": "674e524164788cc74141ab92",
-    "idShort": "h4",
+  "h4": {
+    "id": "h4",
+    "idDofusDB": "674e524164788cc74141ab92",
     "idDofusBook": 17094,
     "name": {
       "fr": "Amulette de Moon",
@@ -6282,9 +6375,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141ab9b": {
-    "id": "674e524164788cc74141ab9b",
-    "idShort": "3E",
+  "3E": {
+    "id": "3E",
+    "idDofusDB": "674e524164788cc74141ab9b",
     "idDofusBook": 17103,
     "name": {
       "fr": "Amulette Voldelor",
@@ -6312,9 +6405,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141abac": {
-    "id": "674e524164788cc74141abac",
-    "idShort": "8j",
+  "8j": {
+    "id": "8j",
+    "idDofusDB": "674e524164788cc74141abac",
     "idDofusBook": 17120,
     "name": {
       "fr": "Amulette du K.O.",
@@ -6342,9 +6435,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141aca3": {
-    "id": "674e524164788cc74141aca3",
-    "idShort": "GQ",
+  "GQ": {
+    "id": "GQ",
+    "idDofusDB": "674e524164788cc74141aca3",
     "idDofusBook": 17487,
     "name": {
       "fr": "Collier de Khan Karkass",
@@ -6361,9 +6454,9 @@
       "strength": 20
     }
   },
-  "674e524164788cc74141aca4": {
-    "id": "674e524164788cc74141aca4",
-    "idShort": "zJ",
+  "zJ": {
+    "id": "zJ",
+    "idDofusDB": "674e524164788cc74141aca4",
     "idDofusBook": 17488,
     "name": {
       "fr": "Torque du Monarque",
@@ -6383,9 +6476,9 @@
       "pushbackDamage": 4
     }
   },
-  "674e524164788cc74141acb4": {
-    "id": "674e524164788cc74141acb4",
-    "idShort": "qv",
+  "qv": {
+    "id": "qv",
+    "idDofusDB": "674e524164788cc74141acb4",
     "idDofusBook": 17504,
     "name": {
       "fr": "Torque des 1001 Griffes",
@@ -6406,9 +6499,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524164788cc74141acb8": {
-    "id": "674e524164788cc74141acb8",
-    "idShort": "GO",
+  "GO": {
+    "id": "GO",
+    "idDofusDB": "674e524164788cc74141acb8",
     "idDofusBook": 17508,
     "name": {
       "fr": "Collier de Lilotte",
@@ -6425,9 +6518,9 @@
       "waterDamage": 3
     }
   },
-  "674e524164788cc74141ace5": {
-    "id": "674e524164788cc74141ace5",
-    "idShort": "3u",
+  "3u": {
+    "id": "3u",
+    "idDofusDB": "674e524164788cc74141ace5",
     "idDofusBook": 17576,
     "name": {
       "fr": "Collier de la Dame du Hasard",
@@ -6455,9 +6548,9 @@
       "criticalDamage": 25
     }
   },
-  "674e524164788cc74141acea": {
-    "id": "674e524164788cc74141acea",
-    "idShort": "3p",
+  "3p": {
+    "id": "3p",
+    "idDofusDB": "674e524164788cc74141acea",
     "idDofusBook": 17581,
     "name": {
       "fr": "Collier du Valet Veinard",
@@ -6484,9 +6577,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141acf0": {
-    "id": "674e524164788cc74141acf0",
-    "idShort": "9C",
+  "9C": {
+    "id": "9C",
+    "idDofusDB": "674e524164788cc74141acf0",
     "idDofusBook": 17587,
     "name": {
       "fr": "Col de Ush",
@@ -6512,9 +6605,9 @@
       "pushbackDamage": 12
     }
   },
-  "674e524164788cc74141acfa": {
-    "id": "674e524164788cc74141acfa",
-    "idShort": "fT",
+  "fT": {
+    "id": "fT",
+    "idDofusDB": "674e524164788cc74141acfa",
     "idDofusBook": 17597,
     "name": {
       "fr": "Collier des Ecaflipuces",
@@ -6538,9 +6631,9 @@
       "lock": 4
     }
   },
-  "674e524164788cc74141ae60": {
-    "id": "674e524164788cc74141ae60",
-    "idShort": "3k",
+  "3k": {
+    "id": "3k",
+    "idDofusDB": "674e524164788cc74141ae60",
     "idDofusBook": 17997,
     "name": {
       "fr": "Collier de Tourthon",
@@ -6564,9 +6657,9 @@
       "lock": 15
     }
   },
-  "674e524164788cc74141ae64": {
-    "id": "674e524164788cc74141ae64",
-    "idShort": "3h",
+  "3h": {
+    "id": "3h",
+    "idDofusDB": "674e524164788cc74141ae64",
     "idDofusBook": 18001,
     "name": {
       "fr": "Pendentif affamé",
@@ -6590,9 +6683,9 @@
       "dodge": 20
     }
   },
-  "674e524164788cc74141ae67": {
-    "id": "674e524164788cc74141ae67",
-    "idShort": "3e",
+  "3e": {
+    "id": "3e",
+    "idDofusDB": "674e524164788cc74141ae67",
     "idDofusBook": 18004,
     "name": {
       "fr": "Amulette de Shokkoth",
@@ -6616,41 +6709,9 @@
       "airResistPer": 10
     }
   },
-  "674e524164788cc74141ae7c": {
-    "id": "674e524164788cc74141ae7c",
-    "idShort": "32",
-    "idDofusBook": 18025,
-    "name": {
-      "fr": "Amulette de l'Indicible",
-      "en": "Amulet of the Unspeakable",
-      "pt": "Amuleto do indizível",
-      "de": "Amulett des Unaussprechlichen",
-      "es": "Amuleto de lo indecible"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414181f6",
-    "category": "amulet",
-    "stats": {
-      "health": 350,
-      "strength": 40,
-      "intelligence": 40,
-      "chance": 40,
-      "agility": 40,
-      "wisdom": 40,
-      "ap": 1,
-      "range": 1,
-      "neutralDamage": 15,
-      "earthDamage": 15,
-      "fireDamage": 15,
-      "waterDamage": 15,
-      "airDamage": 15,
-      "airResistPer": 10,
-      "dodge": 15
-    }
-  },
-  "674e524164788cc74141ae83": {
-    "id": "674e524164788cc74141ae83",
-    "idShort": "2W",
+  "2W": {
+    "id": "2W",
+    "idDofusDB": "674e524164788cc74141ae83",
     "idDofusBook": 18032,
     "name": {
       "fr": "Amulette Luminescente",
@@ -6678,9 +6739,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141ae86": {
-    "id": "674e524164788cc74141ae86",
-    "idShort": "2T",
+  "2T": {
+    "id": "2T",
+    "idDofusDB": "674e524164788cc74141ae86",
     "idDofusBook": 18035,
     "name": {
       "fr": "Pendentif mignon de Koutoulou",
@@ -6706,9 +6767,9 @@
       "criticalResist": 20
     }
   },
-  "674e524164788cc74141af34": {
-    "id": "674e524164788cc74141af34",
-    "idShort": "u5",
+  "u5": {
+    "id": "u5",
+    "idDofusDB": "674e524164788cc74141af34",
     "idDofusBook": 18230,
     "name": {
       "fr": "Amuronce",
@@ -6729,9 +6790,9 @@
       "ap": 1
     }
   },
-  "674e524164788cc74141affc": {
-    "id": "674e524164788cc74141affc",
-    "idShort": "dS",
+  "dS": {
+    "id": "dS",
+    "idDofusDB": "674e524164788cc74141affc",
     "idDofusBook": 18436,
     "name": {
       "fr": "Amulette d'El Piko",
@@ -6756,9 +6817,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141b077": {
-    "id": "674e524164788cc74141b077",
-    "idShort": "9m",
+  "9m": {
+    "id": "9m",
+    "idDofusDB": "674e524164788cc74141b077",
     "idDofusBook": 18586,
     "name": {
       "fr": "Crolier",
@@ -6785,9 +6846,9 @@
       "mpReduction": 6
     }
   },
-  "674e524164788cc74141b080": {
-    "id": "674e524164788cc74141b080",
-    "idShort": "2L",
+  "2L": {
+    "id": "2L",
+    "idDofusDB": "674e524164788cc74141b080",
     "idDofusBook": 18595,
     "name": {
       "fr": "Torquistik",
@@ -6817,9 +6878,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141b09e": {
-    "id": "674e524164788cc74141b09e",
-    "idShort": "Bz",
+  "Bz": {
+    "id": "Bz",
+    "idDofusDB": "674e524164788cc74141b09e",
     "idDofusBook": 18640,
     "name": {
       "fr": "Amulette du Molosse",
@@ -6838,9 +6899,9 @@
       "mpResist": 3
     }
   },
-  "674e524164788cc74141b122": {
-    "id": "674e524164788cc74141b122",
-    "idShort": "7p",
+  "7p": {
+    "id": "7p",
+    "idDofusDB": "674e524164788cc74141b122",
     "idDofusBook": 18779,
     "name": {
       "fr": "Amulette Hale",
@@ -6867,9 +6928,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141b1de": {
-    "id": "674e524164788cc74141b1de",
-    "idShort": "lX",
+  "lX": {
+    "id": "lX",
+    "idDofusDB": "674e524164788cc74141b1de",
     "idDofusBook": 19083,
     "name": {
       "fr": "Amulette du Scorbute",
@@ -6891,9 +6952,9 @@
       "lock": 3
     }
   },
-  "674e524164788cc74141b26a": {
-    "id": "674e524164788cc74141b26a",
-    "idShort": "2s",
+  "2s": {
+    "id": "2s",
+    "idDofusDB": "674e524164788cc74141b26a",
     "idDofusBook": 19241,
     "name": {
       "fr": "Amulette du Cœur Vaillant",
@@ -6921,9 +6982,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141b26d": {
-    "id": "674e524164788cc74141b26d",
-    "idShort": "2p",
+  "2p": {
+    "id": "2p",
+    "idDofusDB": "674e524164788cc74141b26d",
     "idDofusBook": 19244,
     "name": {
       "fr": "Amulette du Cœur Saignant",
@@ -6951,9 +7012,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141b278": {
-    "id": "674e524164788cc74141b278",
-    "idShort": "2e",
+  "2e": {
+    "id": "2e",
+    "idDofusDB": "674e524164788cc74141b278",
     "idDofusBook": 19255,
     "name": {
       "fr": "Amulette de l'Œil Attentif",
@@ -6979,9 +7040,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141b27b": {
-    "id": "674e524164788cc74141b27b",
-    "idShort": "2b",
+  "2b": {
+    "id": "2b",
+    "idDofusDB": "674e524164788cc74141b27b",
     "idDofusBook": 19258,
     "name": {
       "fr": "Amulette de l'Œil Putride",
@@ -7010,38 +7071,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141b27e": {
-    "id": "674e524164788cc74141b27e",
-    "idShort": "28",
-    "idDofusBook": 19261,
-    "name": {
-      "fr": "Amulette d'Ilyzaelle",
-      "en": "Ilyzaelle Amulet",
-      "pt": "Amuleto de Ilyzaelle",
-      "de": "Ilyzaelles Amulett",
-      "es": "Amuleto de Ilyzaelle"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418211",
-    "category": "amulet",
-    "stats": {
-      "health": 400,
-      "chance": 80,
-      "agility": 80,
-      "wisdom": 30,
-      "criticalChance": -10,
-      "ap": 1,
-      "range": 1,
-      "waterDamage": 15,
-      "airDamage": 15,
-      "neutralResistPer": 10,
-      "fireResistPer": 10,
-      "mpResist": 10
-    }
-  },
-  "674e524164788cc74141b399": {
-    "id": "674e524164788cc74141b399",
-    "idShort": "1Z",
+  "1Z": {
+    "id": "1Z",
+    "idDofusDB": "674e524164788cc74141b399",
     "idDofusBook": 19590,
     "name": {
       "fr": "Amulette Volcanique",
@@ -7068,9 +7100,9 @@
       "mpReduction": 10
     }
   },
-  "674e524164788cc74141b3ac": {
-    "id": "674e524164788cc74141b3ac",
-    "idShort": "1K",
+  "1K": {
+    "id": "1K",
+    "idDofusDB": "674e524164788cc74141b3ac",
     "idDofusBook": 19609,
     "name": {
       "fr": "Collier Rophante",
@@ -7094,9 +7126,9 @@
       "lock": 15
     }
   },
-  "674e524164788cc74141b51a": {
-    "id": "674e524164788cc74141b51a",
-    "idShort": "1D",
+  "1D": {
+    "id": "1D",
+    "idDofusDB": "674e524164788cc74141b51a",
     "idDofusBook": 19981,
     "name": {
       "fr": "Amulette Martegel",
@@ -7124,9 +7156,9 @@
       "pushbackResist": 30
     }
   },
-  "674e524164788cc74141b51d": {
-    "id": "674e524164788cc74141b51d",
-    "idShort": "1A",
+  "1A": {
+    "id": "1A",
+    "idDofusDB": "674e524164788cc74141b51d",
     "idDofusBook": 19984,
     "name": {
       "fr": "Amulette Volkorne",
@@ -7152,9 +7184,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141b844": {
-    "id": "674e524164788cc74141b844",
-    "idShort": "1k",
+  "1k": {
+    "id": "1k",
+    "idDofusDB": "674e524164788cc74141b844",
     "idDofusBook": 20924,
     "name": {
       "fr": "Amulette des Chocomanciens",
@@ -7182,9 +7214,9 @@
       "pushbackResist": -20
     }
   },
-  "674e524164788cc74141b95d": {
-    "id": "674e524164788cc74141b95d",
-    "idShort": "1d",
+  "1d": {
+    "id": "1d",
+    "idDofusDB": "674e524164788cc74141b95d",
     "idDofusBook": 21227,
     "name": {
       "fr": "Collier Lunaire",
@@ -7209,41 +7241,9 @@
       "mpReduction": 10
     }
   },
-  "674e524164788cc74141bcf2": {
-    "id": "674e524164788cc74141bcf2",
-    "idShort": "12",
-    "idDofusBook": 22200,
-    "name": {
-      "fr": "Écharpe de Servitude",
-      "en": "Servitude's Scarf",
-      "pt": "Echarpe de Servidão",
-      "de": "Knechtschafts Schal",
-      "es": "Bufanda de Servidumbre"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418224",
-    "category": "amulet",
-    "stats": {
-      "health": 350,
-      "chance": 100,
-      "wisdom": 40,
-      "criticalChance": 3,
-      "ap": 1,
-      "range": 1,
-      "waterDamage": 20,
-      "initiative": 500,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
-      "lock": 5,
-      "dodge": -5,
-      "apReduction": -10,
-      "mpResist": 5,
-      "pushbackResist": 20
-    }
-  },
-  "674e524164788cc74141bd00": {
-    "id": "674e524164788cc74141bd00",
-    "idShort": "0W",
+  "0W": {
+    "id": "0W",
+    "idDofusDB": "674e524164788cc74141bd00",
     "idDofusBook": 22214,
     "name": {
       "fr": "Collier de Bavdur",
@@ -7289,9 +7289,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141bf1d": {
-    "id": "674e524164788cc74141bf1d",
-    "idShort": "gu",
+  "gu": {
+    "id": "gu",
+    "idDofusDB": "674e524164788cc74141bf1d",
     "idDofusBook": 23256,
     "name": {
       "fr": "Plantamulette",
@@ -7316,9 +7316,9 @@
       "mpResist": 5
     }
   },
-  "674e524164788cc74141bf20": {
-    "id": "674e524164788cc74141bf20",
-    "idShort": "dR",
+  "dR": {
+    "id": "dR",
+    "idDofusDB": "674e524164788cc74141bf20",
     "idDofusBook": 23259,
     "name": {
       "fr": "Larme de Nagate",
@@ -7342,9 +7342,9 @@
       "mpResist": 6
     }
   },
-  "674e524164788cc74141bf27": {
-    "id": "674e524164788cc74141bf27",
-    "idShort": "e2",
+  "e2": {
+    "id": "e2",
+    "idDofusDB": "674e524164788cc74141bf27",
     "idDofusBook": 23266,
     "name": {
       "fr": "Collier de perlouzes",
@@ -7369,9 +7369,9 @@
       "criticalDamage": 8
     }
   },
-  "674e524164788cc74141c1f9": {
-    "id": "674e524164788cc74141c1f9",
-    "idShort": "0S",
+  "0S": {
+    "id": "0S",
+    "idDofusDB": "674e524164788cc74141c1f9",
     "idDofusBook": 24022,
     "name": {
       "fr": "Amulette Rinne",
@@ -7402,9 +7402,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141c200": {
-    "id": "674e524164788cc74141c200",
-    "idShort": "0N",
+  "0N": {
+    "id": "0N",
+    "idDofusDB": "674e524164788cc74141c200",
     "idDofusBook": 24029,
     "name": {
       "fr": "Amulette de Wulan",
@@ -7435,9 +7435,9 @@
       "criticalDamage": 20
     }
   },
-  "674e524164788cc74141c36a": {
-    "id": "674e524164788cc74141c36a",
-    "idShort": "0J",
+  "0J": {
+    "id": "0J",
+    "idDofusDB": "674e524164788cc74141c36a",
     "idDofusBook": 25214,
     "name": {
       "fr": "Amulette Possédée",
@@ -7466,9 +7466,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141c36d": {
-    "id": "674e524164788cc74141c36d",
-    "idShort": "0G",
+  "0G": {
+    "id": "0G",
+    "idDofusDB": "674e524164788cc74141c36d",
     "idDofusBook": 25217,
     "name": {
       "fr": "Amulette du Pandamonium",
@@ -7495,9 +7495,9 @@
       "apResist": 8
     }
   },
-  "674e524164788cc74141c4e8": {
-    "id": "674e524164788cc74141c4e8",
-    "idShort": "0C",
+  "0C": {
+    "id": "0C",
+    "idDofusDB": "674e524164788cc74141c4e8",
     "idDofusBook": 26006,
     "name": {
       "fr": "Torque de Ravageur",
@@ -7525,9 +7525,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141c4f5": {
-    "id": "674e524164788cc74141c4f5",
-    "idShort": "0z",
+  "0z": {
+    "id": "0z",
+    "idDofusDB": "674e524164788cc74141c4f5",
     "idDofusBook": 26019,
     "name": {
       "fr": "Chant du Nécromant",
@@ -7563,9 +7563,9 @@
       "pushbackResist": -20
     }
   },
-  "674e524164788cc74141c92b": {
-    "id": "674e524164788cc74141c92b",
-    "idShort": "0s",
+  "0s": {
+    "id": "0s",
+    "idDofusDB": "674e524164788cc74141c92b",
     "idDofusBook": 27513,
     "name": {
       "fr": "Lourd Fardeau",
@@ -7592,9 +7592,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141c93c": {
-    "id": "674e524164788cc74141c93c",
-    "idShort": "sX",
+  "sX": {
+    "id": "sX",
+    "idDofusDB": "674e524164788cc74141c93c",
     "idDofusBook": 27531,
     "name": {
       "fr": "Amulette de guerrier albueran",
@@ -7615,9 +7615,9 @@
       "mpReduction": -10
     }
   },
-  "674e524164788cc74141c943": {
-    "id": "674e524164788cc74141c943",
-    "idShort": "7y",
+  "7y": {
+    "id": "7y",
+    "idDofusDB": "674e524164788cc74141c943",
     "idDofusBook": 27538,
     "name": {
       "fr": "Collier Gris",
@@ -7645,9 +7645,9 @@
       "dodge": -10
     }
   },
-  "674e524164788cc74141d1d1": {
-    "id": "674e524164788cc74141d1d1",
-    "idShort": "0e",
+  "0e": {
+    "id": "0e",
+    "idDofusDB": "674e524164788cc74141d1d1",
     "idDofusBook": 30863,
     "name": {
       "fr": "Col du Dark Vlad",
@@ -7684,9 +7684,9 @@
       "waterResist": -11
     }
   },
-  "687f71551c815173560617fc": {
-    "id": "687f71551c815173560617fc",
-    "idShort": "0a",
+  "0a": {
+    "id": "0a",
+    "idDofusDB": "687f71551c815173560617fc",
     "idDofusBook": 31761,
     "name": {
       "fr": "Collier Rhoarim",
@@ -7716,9 +7716,9 @@
       "criticalDamage": 15
     }
   },
-  "687f71551c81517356061818": {
-    "id": "687f71551c81517356061818",
-    "idShort": "07",
+  "07": {
+    "id": "07",
+    "idDofusDB": "687f71551c81517356061818",
     "idDofusBook": 31789,
     "name": {
       "fr": "Collier de Gargandyas",
@@ -7747,9 +7747,9 @@
       "rangedResistPer": 5
     }
   },
-  "68d28de615631db46d7e4116": {
-    "id": "68d28de615631db46d7e4116",
-    "idShort": "01",
+  "01": {
+    "id": "01",
+    "idDofusDB": "68d28de615631db46d7e4116",
     "idDofusBook": 32118,
     "name": {
       "fr": "Amour d'Helséphine",

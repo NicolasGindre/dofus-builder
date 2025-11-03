@@ -1,7 +1,349 @@
 {
-  "674e524064788cc7414184fc": {
-    "id": "674e524064788cc7414184fc",
-    "idShort": "Bx",
+  "17": {
+    "id": "17",
+    "idDofusDB": "674e524164788cc74141bceb",
+    "idDofusBook": 22188,
+    "name": {
+      "fr": "Corset de Misère",
+      "en": "Misery's Girdle",
+      "pt": "Corpete de Miséria",
+      "de": "Elends Korsage",
+      "es": "Corsé de Miseria"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418222",
+    "category": "belt",
+    "stats": {
+      "health": 400,
+      "strength": 70,
+      "intelligence": 70,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "lock": -10,
+      "apResist": 10,
+      "mpResist": 10,
+      "criticalDamage": 20
+    }
+  },
+  "31": {
+    "id": "31",
+    "idDofusDB": "674e524164788cc74141ae7d",
+    "idDofusBook": 18026,
+    "name": {
+      "fr": "Ceinture de l'Indicible",
+      "en": "Belt of the Unspeakable",
+      "pt": "Cinto do indizível",
+      "de": "Gürtel des Unaussprechlichen",
+      "es": "Cinturón de lo indecible"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414181f6",
+    "category": "belt",
+    "stats": {
+      "health": 300,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "dodge": 10
+    }
+  },
+  "38": {
+    "id": "38",
+    "idDofusDB": "674e524164788cc74141ae76",
+    "idDofusBook": 18019,
+    "name": {
+      "fr": "Ceintouse",
+      "en": "Sashucker",
+      "pt": "Cintosa",
+      "de": "Saugnapfbund",
+      "es": "Cintuventosa"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc7414181f3",
+    "category": "belt",
+    "stats": {
+      "health": 350,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "airDamage": 12,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "lock": 10,
+      "apReduction": 6
+    }
+  },
+  "39": {
+    "id": "39",
+    "idDofusDB": "674e524164788cc74141ae6c",
+    "idDofusBook": 18009,
+    "name": {
+      "fr": "Menoture",
+      "en": "Menobelt",
+      "pt": "Menocinto",
+      "de": "Menogürtel",
+      "es": "Menoturón"
+    },
+    "level": 200,
+    "category": "belt",
+    "requirements": [
+      [
+        {
+          "stat": "ap",
+          "type": "lessThan",
+          "value": 12
+        },
+        {
+          "stat": "mp",
+          "type": "lessThan",
+          "value": 6
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "apLessThanOrMpLessThan",
+      "value": 12,
+      "value2": 6
+    },
+    "criterions": "CP<12|CM<6",
+    "stats": {
+      "health": 350,
+      "agility": 80,
+      "wisdom": 40,
+      "criticalChance": 6,
+      "ap": 1,
+      "airDamage": 20,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "apReduction": 12
+    }
+  },
+  "53": {
+    "id": "53",
+    "idDofusDB": "674e524164788cc74141a1d3",
+    "idDofusBook": 14081,
+    "name": {
+      "fr": "Ceinture Séculaire",
+      "en": "Age-Old Belt",
+      "pt": "Cinto Secular",
+      "de": "Säkular-Gürtel",
+      "es": "Cinturón secular"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418194",
+    "category": "belt",
+    "stats": {
+      "health": 350,
+      "intelligence": 80,
+      "agility": 40,
+      "wisdom": 50,
+      "criticalChance": 7,
+      "range": 1,
+      "fireDamage": 10,
+      "heal": 10,
+      "initiative": 300,
+      "airResistPer": 10,
+      "dodge": 15,
+      "criticalDamage": 15
+    }
+  },
+  "66": {
+    "id": "66",
+    "idDofusDB": "674e524064788cc74141a030",
+    "idDofusBook": 13630,
+    "name": {
+      "fr": "Ceinture d'Henual",
+      "en": "Henual's Belt",
+      "pt": "Cinto de Henual",
+      "de": "Henuals Gürtel",
+      "es": "Cinturón de Henual"
+    },
+    "level": 197,
+    "panoply": "674e523f64788cc741418187",
+    "category": "belt",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 50,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "prospecting": 20,
+      "earthResistPer": 8,
+      "neutralResist": 8,
+      "waterResist": 8,
+      "dodge": 10,
+      "mpReduction": -7,
+      "criticalResist": -11
+    }
+  },
+  "74": {
+    "id": "74",
+    "idDofusDB": "674e524064788cc741419a36",
+    "idDofusBook": 11721,
+    "name": {
+      "fr": "Ceinture du Glourséleste",
+      "en": "Celestial Bearbarian Belt",
+      "pt": "Cinto do Glurseleste",
+      "de": "Himmlischer Barbärengürtel",
+      "es": "Cinturón de Golosotrón Real"
+    },
+    "level": 195,
+    "panoply": "674e523f64788cc74141815b",
+    "category": "belt",
+    "stats": {
+      "health": 300,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "range": 2,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "neutralResist": 12,
+      "earthResist": 12,
+      "fireResist": 12,
+      "waterResist": 12,
+      "airResist": 12,
+      "dodge": 5,
+      "mpReduction": 5
+    }
+  },
+  "82": {
+    "id": "82",
+    "idDofusDB": "674e524064788cc741419b7a",
+    "idDofusBook": 12105,
+    "name": {
+      "fr": "Ceinture de Boréale",
+      "en": "Borealis's Belt",
+      "pt": "Cinto da Boreal",
+      "de": "Bohrealisgürtel",
+      "es": "Cinturón de Boreal"
+    },
+    "level": 185,
+    "panoply": "674e523f64788cc74141816b",
+    "category": "belt",
+    "stats": {
+      "health": 300,
+      "strength": 80,
+      "wisdom": 40,
+      "earthDamage": 20,
+      "prospecting": 25,
+      "initiative": 600,
+      "airResist": 25,
+      "lock": 10
+    }
+  },
+  "85": {
+    "id": "85",
+    "idDofusDB": "674e524064788cc741419318",
+    "idDofusBook": 9146,
+    "name": {
+      "fr": "Ougature",
+      "en": "Ougaabelt",
+      "pt": "Cintugah",
+      "de": "Stinkelinggurt",
+      "es": "Cintugah"
+    },
+    "level": 185,
+    "panoply": "674e523f64788cc74141813b",
+    "category": "belt",
+    "stats": {
+      "health": 350,
+      "wisdom": 50,
+      "power": 40,
+      "range": 1,
+      "summon": 2,
+      "damage": 10,
+      "prospecting": 20,
+      "earthResistPer": 10
+    }
+  },
+  "89": {
+    "id": "89",
+    "idDofusDB": "674e524164788cc74141abab",
+    "idDofusBook": 17119,
+    "name": {
+      "fr": "Ceinture du K.O.",
+      "en": "KOs' Belt",
+      "pt": "Cinto do K.O.",
+      "de": "K.Os-Gürtel",
+      "es": "Cinturón de Kaos"
+    },
+    "level": 183,
+    "panoply": "674e523f64788cc7414181e5",
+    "category": "belt",
+    "stats": {
+      "health": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "initiative": 400,
+      "waterResistPer": 7,
+      "apResist": 5,
+      "pushbackDamage": 20
+    }
+  },
+  "92": {
+    "id": "92",
+    "idDofusDB": "674e524164788cc74141b076",
+    "idDofusBook": 18585,
+    "name": {
+      "fr": "Ceintrémorse",
+      "en": "Beltrus",
+      "pt": "Cintremorsa",
+      "de": "Sandzeckürtel",
+      "es": "Cintomorso"
+    },
+    "level": 173,
+    "panoply": "674e523f64788cc7414181fe",
+    "category": "belt",
+    "stats": {
+      "health": 200,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "heal": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "mpReduction": 6,
+      "pushbackResist": 12
+    }
+  },
+  "Bx": {
+    "id": "Bx",
+    "idDofusDB": "674e524064788cc7414184fc",
     "idDofusBook": 156,
     "name": {
       "fr": "Ceinture de Puissance",
@@ -20,9 +362,9 @@
       "waterDamage": 2
     }
   },
-  "674e524064788cc74141850b": {
-    "id": "674e524064788cc74141850b",
-    "idShort": "B6",
+  "B6": {
+    "id": "B6",
+    "idDofusDB": "674e524064788cc74141850b",
     "idDofusBook": 203,
     "name": {
       "fr": "Ceinture du Tot",
@@ -40,9 +382,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc74141851d": {
-    "id": "674e524064788cc74141851d",
-    "idShort": "HE",
+  "HE": {
+    "id": "HE",
+    "idDofusDB": "674e524064788cc74141851d",
     "idDofusBook": 255,
     "name": {
       "fr": "Ceinture Vitalesque",
@@ -57,9 +399,9 @@
       "health": 35
     }
   },
-  "674e524064788cc74141851e": {
-    "id": "674e524064788cc74141851e",
-    "idShort": "HP",
+  "HP": {
+    "id": "HP",
+    "idDofusDB": "674e524064788cc74141851e",
     "idDofusBook": 259,
     "name": {
       "fr": "Ceinture Forcesque",
@@ -75,9 +417,9 @@
       "earthDamage": 1
     }
   },
-  "674e524064788cc74141851f": {
-    "id": "674e524064788cc74141851f",
-    "idShort": "HO",
+  "HO": {
+    "id": "HO",
+    "idDofusDB": "674e524064788cc74141851f",
     "idDofusBook": 263,
     "name": {
       "fr": "Ceinture Agilesque",
@@ -93,9 +435,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741418561": {
-    "id": "674e524064788cc741418561",
-    "idShort": "Ct",
+  "Ct": {
+    "id": "Ct",
+    "idDofusDB": "674e524064788cc741418561",
     "idDofusBook": 356,
     "name": {
       "fr": "Ceinture d'Endurance",
@@ -112,9 +454,9 @@
       "agility": -30
     }
   },
-  "674e524064788cc74141863c": {
-    "id": "674e524064788cc74141863c",
-    "idShort": "FN",
+  "FN": {
+    "id": "FN",
+    "idDofusDB": "674e524064788cc74141863c",
     "idDofusBook": 734,
     "name": {
       "fr": "Ceinture de Sécurité",
@@ -130,9 +472,9 @@
       "dodge": 4
     }
   },
-  "674e524064788cc741418665": {
-    "id": "674e524064788cc741418665",
-    "idShort": "J7",
+  "J7": {
+    "id": "J7",
+    "idDofusDB": "674e524064788cc741418665",
     "idDofusBook": 789,
     "name": {
       "fr": "Ceinture du Kobeer",
@@ -148,9 +490,9 @@
       "agility": -2
     }
   },
-  "674e524064788cc74141869a": {
-    "id": "674e524064788cc74141869a",
-    "idShort": "IS",
+  "IS": {
+    "id": "IS",
+    "idDofusDB": "674e524064788cc74141869a",
     "idDofusBook": 860,
     "name": {
       "fr": "Ceinture de Chance",
@@ -165,9 +507,9 @@
       "chance": 7
     }
   },
-  "674e524064788cc7414186d7": {
-    "id": "674e524064788cc7414186d7",
-    "idShort": "u2",
+  "u2": {
+    "id": "u2",
+    "idDofusDB": "674e524064788cc7414186d7",
     "idDofusBook": 968,
     "name": {
       "fr": "Ceinture Fulgurante",
@@ -200,9 +542,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc74141878e": {
-    "id": "674e524064788cc74141878e",
-    "idShort": "wa",
+  "wa": {
+    "id": "wa",
+    "idDofusDB": "674e524064788cc74141878e",
     "idDofusBook": 1487,
     "name": {
       "fr": "L'Adelus",
@@ -220,9 +562,9 @@
       "damage": 4
     }
   },
-  "674e524064788cc7414187f5": {
-    "id": "674e524064788cc7414187f5",
-    "idShort": "tU",
+  "tU": {
+    "id": "tU",
+    "idDofusDB": "674e524064788cc7414187f5",
     "idDofusBook": 1667,
     "name": {
       "fr": "Ceinture Luthuthu",
@@ -244,9 +586,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc7414187f6": {
-    "id": "674e524064788cc7414187f6",
-    "idShort": "sK",
+  "sK": {
+    "id": "sK",
+    "idDofusDB": "674e524064788cc7414187f6",
     "idDofusBook": 1668,
     "name": {
       "fr": "Ceinture du Dodu Trembleur",
@@ -271,9 +613,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc7414187f7": {
-    "id": "674e524064788cc7414187f7",
-    "idShort": "km",
+  "km": {
+    "id": "km",
+    "idDofusDB": "674e524064788cc7414187f7",
     "idDofusBook": 1669,
     "name": {
       "fr": "Ceinture des Vents",
@@ -293,9 +635,9 @@
       "damage": 6
     }
   },
-  "674e524064788cc741418816": {
-    "id": "674e524064788cc741418816",
-    "idShort": "Cq",
+  "Cq": {
+    "id": "Cq",
+    "idDofusDB": "674e524064788cc741418816",
     "idDofusBook": 1700,
     "name": {
       "fr": "Ceinture de Célérité",
@@ -313,9 +655,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418817": {
-    "id": "674e524064788cc741418817",
-    "idShort": "Gg",
+  "Gg": {
+    "id": "Gg",
+    "idDofusDB": "674e524064788cc741418817",
     "idDofusBook": 1701,
     "name": {
       "fr": "Ceinture de Poche",
@@ -331,9 +673,9 @@
       "pods": 110
     }
   },
-  "674e524064788cc741418826": {
-    "id": "674e524064788cc741418826",
-    "idShort": "AZ",
+  "AZ": {
+    "id": "AZ",
+    "idDofusDB": "674e524064788cc741418826",
     "idDofusBook": 1720,
     "name": {
       "fr": "Puissance de Crocoburio",
@@ -351,9 +693,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc74141896d": {
-    "id": "674e524064788cc74141896d",
-    "idShort": "Cj",
+  "Cj": {
+    "id": "Cj",
+    "idDofusDB": "674e524064788cc74141896d",
     "idDofusBook": 2233,
     "name": {
       "fr": "La Croqueuse",
@@ -390,9 +732,9 @@
       "neutralResistPer": -2
     }
   },
-  "674e524064788cc7414189de": {
-    "id": "674e524064788cc7414189de",
-    "idShort": "Ay",
+  "Ay": {
+    "id": "Ay",
+    "idDofusDB": "674e524064788cc7414189de",
     "idDofusBook": 2367,
     "name": {
       "fr": "L'Ami Léhunui",
@@ -421,9 +763,9 @@
       "fireResistPer": -5
     }
   },
-  "674e524064788cc7414189df": {
-    "id": "674e524064788cc7414189df",
-    "idShort": "AJ",
+  "AJ": {
+    "id": "AJ",
+    "idDofusDB": "674e524064788cc7414189df",
     "idDofusBook": 2368,
     "name": {
       "fr": "Ramoume l'Eternelle",
@@ -452,9 +794,9 @@
       "earthResistPer": -5
     }
   },
-  "674e524064788cc7414189e0": {
-    "id": "674e524064788cc7414189e0",
-    "idShort": "kK",
+  "kK": {
+    "id": "kK",
+    "idDofusDB": "674e524064788cc7414189e0",
     "idDofusBook": 2369,
     "name": {
       "fr": "Puissante Ceinture Fulgurante",
@@ -487,9 +829,9 @@
       "damage": 5
     }
   },
-  "674e524064788cc7414189e1": {
-    "id": "674e524064788cc7414189e1",
-    "idShort": "yR",
+  "yR": {
+    "id": "yR",
+    "idDofusDB": "674e524064788cc7414189e1",
     "idDofusBook": 2370,
     "name": {
       "fr": "La Végète Hâtif",
@@ -519,9 +861,9 @@
       "waterResistPer": -5
     }
   },
-  "674e524064788cc7414189e2": {
-    "id": "674e524064788cc7414189e2",
-    "idShort": "Cp",
+  "Cp": {
+    "id": "Cp",
+    "idDofusDB": "674e524064788cc7414189e2",
     "idDofusBook": 2371,
     "name": {
       "fr": "La Mouthmou",
@@ -538,9 +880,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414189ff": {
-    "id": "674e524064788cc7414189ff",
-    "idShort": "vT",
+  "vT": {
+    "id": "vT",
+    "idDofusDB": "674e524064788cc7414189ff",
     "idDofusBook": 2403,
     "name": {
       "fr": "Chtévu",
@@ -557,9 +899,9 @@
       "neutralResistPer": 5
     }
   },
-  "674e524064788cc741418a00": {
-    "id": "674e524064788cc741418a00",
-    "idShort": "sJ",
+  "sJ": {
+    "id": "sJ",
+    "idDofusDB": "674e524064788cc741418a00",
     "idDofusBook": 2404,
     "name": {
       "fr": "Ceinture du Rat",
@@ -579,9 +921,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418a13": {
-    "id": "674e524064788cc741418a13",
-    "idShort": "yN",
+  "yN": {
+    "id": "yN",
+    "idDofusDB": "674e524064788cc741418a13",
     "idDofusBook": 2427,
     "name": {
       "fr": "Kwakture de Flammes",
@@ -600,9 +942,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418a14": {
-    "id": "674e524064788cc741418a14",
-    "idShort": "Dh",
+  "Dh": {
+    "id": "Dh",
+    "idDofusDB": "674e524064788cc741418a14",
     "idDofusBook": 2428,
     "name": {
       "fr": "Ceinture du Bouftou",
@@ -620,9 +962,9 @@
       "pods": 500
     }
   },
-  "674e524064788cc741418a15": {
-    "id": "674e524064788cc741418a15",
-    "idShort": "wO",
+  "wO": {
+    "id": "wO",
+    "idDofusDB": "674e524064788cc741418a15",
     "idDofusBook": 2429,
     "name": {
       "fr": "Abrature",
@@ -640,9 +982,9 @@
       "neutralResistPer": 6
     }
   },
-  "674e524064788cc741418a22": {
-    "id": "674e524064788cc741418a22",
-    "idShort": "BI",
+  "BI": {
+    "id": "BI",
+    "idDofusDB": "674e524064788cc741418a22",
     "idDofusBook": 2444,
     "name": {
       "fr": "Ceinture Royale du Bouftou",
@@ -660,9 +1002,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741418a36": {
-    "id": "674e524064788cc741418a36",
-    "idShort": "n7",
+  "n7": {
+    "id": "n7",
+    "idDofusDB": "674e524064788cc741418a36",
     "idDofusBook": 2471,
     "name": {
       "fr": "Geloture",
@@ -681,9 +1023,9 @@
       "dodge": 7
     }
   },
-  "674e524064788cc741418a3c": {
-    "id": "674e524064788cc741418a3c",
-    "idShort": "Ia",
+  "Ia": {
+    "id": "Ia",
+    "idDofusDB": "674e524064788cc741418a3c",
     "idDofusBook": 2477,
     "name": {
       "fr": "Ceinture de l'aventurier",
@@ -702,9 +1044,9 @@
       "agility": 5
     }
   },
-  "674e524064788cc741418a6a": {
-    "id": "674e524064788cc741418a6a",
-    "idShort": "wN",
+  "wN": {
+    "id": "wN",
+    "idDofusDB": "674e524064788cc741418a6a",
     "idDofusBook": 2523,
     "name": {
       "fr": "Mégature",
@@ -724,9 +1066,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418a6b": {
-    "id": "674e524064788cc741418a6b",
-    "idShort": "wt",
+  "wt": {
+    "id": "wt",
+    "idDofusDB": "674e524064788cc741418a6b",
     "idDofusBook": 2524,
     "name": {
       "fr": "Ceinture Vioutifoule",
@@ -746,9 +1088,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418a76": {
-    "id": "674e524064788cc741418a76",
-    "idShort": "yK",
+  "yK": {
+    "id": "yK",
+    "idDofusDB": "674e524064788cc741418a76",
     "idDofusBook": 2537,
     "name": {
       "fr": "Kwakture de Glace",
@@ -767,9 +1109,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418ae7": {
-    "id": "674e524064788cc741418ae7",
-    "idShort": "fu",
+  "fu": {
+    "id": "fu",
+    "idDofusDB": "674e524064788cc741418ae7",
     "idDofusBook": 2655,
     "name": {
       "fr": "Ceinture Corbaquiale",
@@ -790,9 +1132,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418af6": {
-    "id": "674e524064788cc741418af6",
-    "idShort": "jy",
+  "jy": {
+    "id": "jy",
+    "idDofusDB": "674e524064788cc741418af6",
     "idDofusBook": 2677,
     "name": {
       "fr": "Ceinture Chouqueuse",
@@ -813,9 +1155,9 @@
       "waterResistPer": 4
     }
   },
-  "674e524064788cc741418af7": {
-    "id": "674e524064788cc741418af7",
-    "idShort": "yb",
+  "yb": {
+    "id": "yb",
+    "idDofusDB": "674e524064788cc741418af7",
     "idDofusBook": 2678,
     "name": {
       "fr": "Ceinture Kokokette",
@@ -833,9 +1175,9 @@
       "neutralResistPer": 3
     }
   },
-  "674e524064788cc741418af8": {
-    "id": "674e524064788cc741418af8",
-    "idShort": "n2",
+  "n2": {
+    "id": "n2",
+    "idDofusDB": "674e524064788cc741418af8",
     "idDofusBook": 2681,
     "name": {
       "fr": "Ceinture Tortue Jaune",
@@ -854,9 +1196,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418af9": {
-    "id": "674e524064788cc741418af9",
-    "idShort": "n1",
+  "n1": {
+    "id": "n1",
+    "idDofusDB": "674e524064788cc741418af9",
     "idDofusBook": 2683,
     "name": {
       "fr": "Ceinture Tortue Bleue",
@@ -875,9 +1217,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418afa": {
-    "id": "674e524064788cc741418afa",
-    "idShort": "n0",
+  "n0": {
+    "id": "n0",
+    "idDofusDB": "674e524064788cc741418afa",
     "idDofusBook": 2685,
     "name": {
       "fr": "Ceinture Tortue Verte",
@@ -896,9 +1238,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418afb": {
-    "id": "674e524064788cc741418afb",
-    "idShort": "mZ",
+  "mZ": {
+    "id": "mZ",
+    "idDofusDB": "674e524064788cc741418afb",
     "idDofusBook": 2687,
     "name": {
       "fr": "Ceinture Tortue Rouge",
@@ -917,9 +1259,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc741418afc": {
-    "id": "674e524064788cc741418afc",
-    "idShort": "tR",
+  "tR": {
+    "id": "tR",
+    "idDofusDB": "674e524064788cc741418afc",
     "idDofusBook": 2688,
     "name": {
       "fr": "Ceinture Kolante",
@@ -938,9 +1280,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418afd": {
-    "id": "674e524064788cc741418afd",
-    "idShort": "Cc",
+  "Cc": {
+    "id": "Cc",
+    "idDofusDB": "674e524064788cc741418afd",
     "idDofusBook": 2689,
     "name": {
       "fr": "Ceinture Banisation",
@@ -956,9 +1298,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc741418afe": {
-    "id": "674e524064788cc741418afe",
-    "idShort": "Bg",
+  "Bg": {
+    "id": "Bg",
+    "idDofusDB": "674e524064788cc741418afe",
     "idDofusBook": 2710,
     "name": {
       "fr": "Ceinture Banisation Sauvage",
@@ -975,9 +1317,9 @@
       "initiative": 65
     }
   },
-  "674e524064788cc741418aff": {
-    "id": "674e524064788cc741418aff",
-    "idShort": "HW",
+  "HW": {
+    "id": "HW",
+    "idDofusDB": "674e524064788cc741418aff",
     "idDofusBook": 2803,
     "name": {
       "fr": "Ceinture du Kwabe",
@@ -993,9 +1335,9 @@
       "waterDamage": 2
     }
   },
-  "674e524064788cc741418b00": {
-    "id": "674e524064788cc741418b00",
-    "idShort": "kD",
+  "kD": {
+    "id": "kD",
+    "idDofusDB": "674e524064788cc741418b00",
     "idDofusBook": 2804,
     "name": {
       "fr": "Ceinture Mulante",
@@ -1016,9 +1358,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418b03": {
-    "id": "674e524064788cc741418b03",
-    "idShort": "ew",
+  "ew": {
+    "id": "ew",
+    "idDofusDB": "674e524064788cc741418b03",
     "idDofusBook": 2807,
     "name": {
       "fr": "Ceinture Meulante",
@@ -1040,9 +1382,9 @@
       "airResist": 15
     }
   },
-  "674e524064788cc741418b04": {
-    "id": "674e524064788cc741418b04",
-    "idShort": "jx",
+  "jx": {
+    "id": "jx",
+    "idDofusDB": "674e524064788cc741418b04",
     "idDofusBook": 2808,
     "name": {
       "fr": "Ceinture Dracochoune",
@@ -1065,9 +1407,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524064788cc741418b05": {
-    "id": "674e524064788cc741418b05",
-    "idShort": "vS",
+  "vS": {
+    "id": "vS",
+    "idDofusDB": "674e524064788cc741418b05",
     "idDofusBook": 2809,
     "name": {
       "fr": "Ceinture Chafeuse",
@@ -1085,9 +1427,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524064788cc741418b06": {
-    "id": "674e524064788cc741418b06",
-    "idShort": "Cw",
+  "Cw": {
+    "id": "Cw",
+    "idDofusDB": "674e524064788cc741418b06",
     "idDofusBook": 2810,
     "name": {
       "fr": "Ceinture Piquante",
@@ -1104,9 +1446,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741418b07": {
-    "id": "674e524064788cc741418b07",
-    "idShort": "mn",
+  "mn": {
+    "id": "mn",
+    "idDofusDB": "674e524064788cc741418b07",
     "idDofusBook": 2811,
     "name": {
       "fr": "Ceinture Ouginakale",
@@ -1126,9 +1468,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418b0e": {
-    "id": "674e524064788cc741418b0e",
-    "idShort": "ta",
+  "ta": {
+    "id": "ta",
+    "idDofusDB": "674e524064788cc741418b0e",
     "idDofusBook": 3204,
     "name": {
       "fr": "Ceinture Bontarienne",
@@ -1149,9 +1491,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc741418b0f": {
-    "id": "674e524064788cc741418b0f",
-    "idShort": "t9",
+  "t9": {
+    "id": "t9",
+    "idDofusDB": "674e524064788cc741418b0f",
     "idDofusBook": 3205,
     "name": {
       "fr": "Ceinture Brâkmarienne",
@@ -1170,9 +1512,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741418b10": {
-    "id": "674e524064788cc741418b10",
-    "idShort": "mi",
+  "mi": {
+    "id": "mi",
+    "idDofusDB": "674e524064788cc741418b10",
     "idDofusBook": 3206,
     "name": {
       "fr": "La Xerbo",
@@ -1193,9 +1535,9 @@
       "airResistPer": 2
     }
   },
-  "674e524064788cc741418b2d": {
-    "id": "674e524064788cc741418b2d",
-    "idShort": "fJ",
+  "fJ": {
+    "id": "fJ",
+    "idDofusDB": "674e524064788cc741418b2d",
     "idDofusBook": 6450,
     "name": {
       "fr": "Ceinture de l'Amant d'Ha",
@@ -1219,9 +1561,9 @@
       "airResist": 10
     }
   },
-  "674e524064788cc741418b5b": {
-    "id": "674e524064788cc741418b5b",
-    "idShort": "rR",
+  "rR": {
+    "id": "rR",
+    "idDofusDB": "674e524064788cc741418b5b",
     "idDofusBook": 6498,
     "name": {
       "fr": "Slip Kangouwou du Wabbit GM",
@@ -1240,9 +1582,9 @@
       "prospecting": 10
     }
   },
-  "674e524064788cc741418c0e": {
-    "id": "674e524064788cc741418c0e",
-    "idShort": "D7",
+  "D7": {
+    "id": "D7",
+    "idDofusDB": "674e524064788cc741418c0e",
     "idDofusBook": 6724,
     "name": {
       "fr": "Ceinture de l'Homme Ours",
@@ -1260,9 +1602,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc741418c19": {
-    "id": "674e524064788cc741418c19",
-    "idShort": "gV",
+  "gV": {
+    "id": "gV",
+    "idDofusDB": "674e524064788cc741418c19",
     "idDofusBook": 6745,
     "name": {
       "fr": "Ceinture Fourbissante",
@@ -1287,9 +1629,9 @@
       "lock": 4
     }
   },
-  "674e524064788cc741418c26": {
-    "id": "674e524064788cc741418c26",
-    "idShort": "yH",
+  "yH": {
+    "id": "yH",
+    "idDofusDB": "674e524064788cc741418c26",
     "idDofusBook": 6758,
     "name": {
       "fr": "Kwakture de Terre",
@@ -1308,9 +1650,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418c27": {
-    "id": "674e524064788cc741418c27",
-    "idShort": "yG",
+  "yG": {
+    "id": "yG",
+    "idDofusDB": "674e524064788cc741418c27",
     "idDofusBook": 6759,
     "name": {
       "fr": "Kwakture de Vent",
@@ -1329,9 +1671,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418c35": {
-    "id": "674e524064788cc741418c35",
-    "idShort": "kI",
+  "kI": {
+    "id": "kI",
+    "idDofusDB": "674e524064788cc741418c35",
     "idDofusBook": 6776,
     "name": {
       "fr": "Farlature",
@@ -1353,9 +1695,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418c47": {
-    "id": "674e524064788cc741418c47",
-    "idShort": "Ge",
+  "Ge": {
+    "id": "Ge",
+    "idDofusDB": "674e524064788cc741418c47",
     "idDofusBook": 6796,
     "name": {
       "fr": "Ceinture Fleurie",
@@ -1371,9 +1713,9 @@
       "strength": 20
     }
   },
-  "674e524064788cc741418c53": {
-    "id": "674e524064788cc741418c53",
-    "idShort": "hn",
+  "hn": {
+    "id": "hn",
+    "idDofusDB": "674e524064788cc741418c53",
     "idDofusBook": 6812,
     "name": {
       "fr": "Slip du Chef Bwork",
@@ -1398,9 +1740,9 @@
       "fireResistPer": -4
     }
   },
-  "674e524064788cc741418c5d": {
-    "id": "674e524064788cc741418c5d",
-    "idShort": "mk",
+  "mk": {
+    "id": "mk",
+    "idDofusDB": "674e524064788cc741418c5d",
     "idDofusBook": 6831,
     "name": {
       "fr": "Ceinture du Chef Crocodaille",
@@ -1420,9 +1762,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418c8d": {
-    "id": "674e524064788cc741418c8d",
-    "idShort": "FG",
+  "FG": {
+    "id": "FG",
+    "idDofusDB": "674e524064788cc741418c8d",
     "idDofusBook": 6908,
     "name": {
       "fr": "Sanglature",
@@ -1440,9 +1782,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741418c91": {
-    "id": "674e524064788cc741418c91",
-    "idShort": "Gy",
+  "Gy": {
+    "id": "Gy",
+    "idDofusDB": "674e524064788cc741418c91",
     "idDofusBook": 6912,
     "name": {
       "fr": "Araknoture",
@@ -1459,9 +1801,9 @@
       "agility": 10
     }
   },
-  "674e524064788cc741418c9e": {
-    "id": "674e524064788cc741418c9e",
-    "idShort": "G5",
+  "G5": {
+    "id": "G5",
+    "idDofusDB": "674e524064788cc741418c9e",
     "idDofusBook": 6925,
     "name": {
       "fr": "Ceinture du Bandit",
@@ -1483,9 +1825,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741418ca2": {
-    "id": "674e524064788cc741418ca2",
-    "idShort": "Bf",
+  "Bf": {
+    "id": "Bf",
+    "idDofusDB": "674e524064788cc741418ca2",
     "idDofusBook": 6929,
     "name": {
       "fr": "Ceinture du Prespic",
@@ -1503,9 +1845,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418ca7": {
-    "id": "674e524064788cc741418ca7",
-    "idShort": "rP",
+  "rP": {
+    "id": "rP",
+    "idDofusDB": "674e524064788cc741418ca7",
     "idDofusBook": 6935,
     "name": {
       "fr": "Ceinture du Craqueleur",
@@ -1528,9 +1870,9 @@
       "dodge": -3
     }
   },
-  "674e524064788cc741418cb4": {
-    "id": "674e524064788cc741418cb4",
-    "idShort": "wL",
+  "wL": {
+    "id": "wL",
+    "idDofusDB": "674e524064788cc741418cb4",
     "idDofusBook": 6948,
     "name": {
       "fr": "Scarature Verte",
@@ -1551,9 +1893,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc741418cb5": {
-    "id": "674e524064788cc741418cb5",
-    "idShort": "wK",
+  "wK": {
+    "id": "wK",
+    "idDofusDB": "674e524064788cc741418cb5",
     "idDofusBook": 6949,
     "name": {
       "fr": "Scarature Blanche",
@@ -1574,9 +1916,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc741418cb6": {
-    "id": "674e524064788cc741418cb6",
-    "idShort": "wJ",
+  "wJ": {
+    "id": "wJ",
+    "idDofusDB": "674e524064788cc741418cb6",
     "idDofusBook": 6950,
     "name": {
       "fr": "Scarature Rouge",
@@ -1597,9 +1939,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc741418cb7": {
-    "id": "674e524064788cc741418cb7",
-    "idShort": "wI",
+  "wI": {
+    "id": "wI",
+    "idDofusDB": "674e524064788cc741418cb7",
     "idDofusBook": 6951,
     "name": {
       "fr": "Scarature Bleue",
@@ -1620,9 +1962,9 @@
       "airResist": 5
     }
   },
-  "674e524064788cc741418cbb": {
-    "id": "674e524064788cc741418cbb",
-    "idShort": "w5",
+  "w5": {
+    "id": "w5",
+    "idDofusDB": "674e524064788cc741418cbb",
     "idDofusBook": 6955,
     "name": {
       "fr": "String du Mulou",
@@ -1642,9 +1984,9 @@
       "earthResistPer": 3
     }
   },
-  "674e524064788cc741418cec": {
-    "id": "674e524064788cc741418cec",
-    "idShort": "ke",
+  "ke": {
+    "id": "ke",
+    "idDofusDB": "674e524064788cc741418cec",
     "idDofusBook": 7029,
     "name": {
       "fr": "Ceinture de Sangroku",
@@ -1674,9 +2016,9 @@
       "dodge": 7
     }
   },
-  "674e524064788cc741418cf6": {
-    "id": "674e524064788cc741418cf6",
-    "idShort": "ws",
+  "ws": {
+    "id": "ws",
+    "idDofusDB": "674e524064788cc741418cf6",
     "idDofusBook": 7039,
     "name": {
       "fr": "Ceinture Noire de Frank Lee Bruce",
@@ -1694,9 +2036,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741418d46": {
-    "id": "674e524064788cc741418d46",
-    "idShort": "fa",
+  "fa": {
+    "id": "fa",
+    "idDofusDB": "674e524064788cc741418d46",
     "idDofusBook": 7139,
     "name": {
       "fr": "Ceinture Sula",
@@ -1719,9 +2061,9 @@
       "trapDamage": 20
     }
   },
-  "674e524064788cc741418d47": {
-    "id": "674e524064788cc741418d47",
-    "idShort": "f9",
+  "f9": {
+    "id": "f9",
+    "idDofusDB": "674e524064788cc741418d47",
     "idDofusBook": 7140,
     "name": {
       "fr": "Xénature",
@@ -1744,9 +2086,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418da5": {
-    "id": "674e524064788cc741418da5",
-    "idShort": "zj",
+  "zj": {
+    "id": "zj",
+    "idDofusDB": "674e524064788cc741418da5",
     "idDofusBook": 7238,
     "name": {
       "fr": "Ceinture Akwadala",
@@ -1765,9 +2107,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741418da6": {
-    "id": "674e524064788cc741418da6",
-    "idShort": "lw",
+  "lw": {
+    "id": "lw",
+    "idDofusDB": "674e524064788cc741418da6",
     "idDofusBook": 7239,
     "name": {
       "fr": "Ceinture Terrdala",
@@ -1788,9 +2130,9 @@
       "earthResistPer": 10
     }
   },
-  "674e524064788cc741418da7": {
-    "id": "674e524064788cc741418da7",
-    "idShort": "kG",
+  "kG": {
+    "id": "kG",
+    "idDofusDB": "674e524064788cc741418da7",
     "idDofusBook": 7240,
     "name": {
       "fr": "Ceinture Feudala",
@@ -1811,9 +2153,9 @@
       "heal": 20
     }
   },
-  "674e524064788cc741418da8": {
-    "id": "674e524064788cc741418da8",
-    "idShort": "ma",
+  "ma": {
+    "id": "ma",
+    "idDofusDB": "674e524064788cc741418da8",
     "idDofusBook": 7241,
     "name": {
       "fr": "Ceinture Aerdala",
@@ -1833,9 +2175,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741418e45": {
-    "id": "674e524064788cc741418e45",
-    "idShort": "9F",
+  "9F": {
+    "id": "9F",
+    "idDofusDB": "674e524064788cc741418e45",
     "idDofusBook": 7559,
     "name": {
       "fr": "Goldoture",
@@ -1857,9 +2199,9 @@
       "neutralResist": 10
     }
   },
-  "674e524064788cc741418f2b": {
-    "id": "674e524064788cc741418f2b",
-    "idShort": "kk",
+  "kk": {
+    "id": "kk",
+    "idDofusDB": "674e524064788cc741418f2b",
     "idDofusBook": 7885,
     "name": {
       "fr": "Ceinture du Boufcoul",
@@ -1886,9 +2228,9 @@
       "airResistPer": 3
     }
   },
-  "674e524064788cc741418f35": {
-    "id": "674e524064788cc741418f35",
-    "idShort": "m3",
+  "m3": {
+    "id": "m3",
+    "idDofusDB": "674e524064788cc741418f35",
     "idDofusBook": 7902,
     "name": {
       "fr": "Ceinture d'une Femme en Or",
@@ -1907,9 +2249,9 @@
       "pods": 500
     }
   },
-  "674e524064788cc741418f92": {
-    "id": "674e524064788cc741418f92",
-    "idShort": "rM",
+  "rM": {
+    "id": "rM",
+    "idDofusDB": "674e524064788cc741418f92",
     "idDofusBook": 8008,
     "name": {
       "fr": "Ceinture du Koalak",
@@ -1930,9 +2272,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741418fcc": {
-    "id": "674e524064788cc741418fcc",
-    "idShort": "D1",
+  "D1": {
+    "id": "D1",
+    "idDofusDB": "674e524064788cc741418fcc",
     "idDofusBook": 8113,
     "name": {
       "fr": "Ceinture du Tofu",
@@ -1950,9 +2292,9 @@
       "pods": 200
     }
   },
-  "674e524064788cc741418fd1": {
-    "id": "674e524064788cc741418fd1",
-    "idShort": "tP",
+  "tP": {
+    "id": "tP",
+    "idDofusDB": "674e524064788cc741418fd1",
     "idDofusBook": 8119,
     "name": {
       "fr": "Scarature Dorée",
@@ -1972,9 +2314,9 @@
       "neutralResistPer": 5
     }
   },
-  "674e524064788cc741418fd6": {
-    "id": "674e524064788cc741418fd6",
-    "idShort": "Fb",
+  "Fb": {
+    "id": "Fb",
+    "idDofusDB": "674e524064788cc741418fd6",
     "idDofusBook": 8124,
     "name": {
       "fr": "Ceinturemuda du Paysan",
@@ -1992,9 +2334,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741418fde": {
-    "id": "674e524064788cc741418fde",
-    "idShort": "xY",
+  "xY": {
+    "id": "xY",
+    "idDofusDB": "674e524064788cc741418fde",
     "idDofusBook": 8132,
     "name": {
       "fr": "Scarature Noire",
@@ -2013,9 +2355,9 @@
       "initiative": 100
     }
   },
-  "674e524064788cc741418ff2": {
-    "id": "674e524064788cc741418ff2",
-    "idShort": "lz",
+  "lz": {
+    "id": "lz",
+    "idDofusDB": "674e524064788cc741418ff2",
     "idDofusBook": 8152,
     "name": {
       "fr": "Ceinture du Craqueleur Légendaire",
@@ -2037,9 +2379,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141901f": {
-    "id": "674e524064788cc74141901f",
-    "idShort": "I5",
+  "I5": {
+    "id": "I5",
+    "idDofusDB": "674e524064788cc74141901f",
     "idDofusBook": 8237,
     "name": {
       "fr": "Ceinture du Piou Rouge",
@@ -2056,9 +2398,9 @@
       "fireDamage": 1
     }
   },
-  "674e524064788cc741419020": {
-    "id": "674e524064788cc741419020",
-    "idShort": "Gr",
+  "Gr": {
+    "id": "Gr",
+    "idDofusDB": "674e524064788cc741419020",
     "idDofusBook": 8238,
     "name": {
       "fr": "Ceinture du Piou Bleu",
@@ -2075,9 +2417,9 @@
       "waterDamage": 1
     }
   },
-  "674e524064788cc741419021": {
-    "id": "674e524064788cc741419021",
-    "idShort": "GD",
+  "GD": {
+    "id": "GD",
+    "idDofusDB": "674e524064788cc741419021",
     "idDofusBook": 8239,
     "name": {
       "fr": "Ceinture du Piou Violet",
@@ -2094,9 +2436,9 @@
       "initiative": 50
     }
   },
-  "674e524064788cc741419022": {
-    "id": "674e524064788cc741419022",
-    "idShort": "Hz",
+  "Hz": {
+    "id": "Hz",
+    "idDofusDB": "674e524064788cc741419022",
     "idDofusBook": 8240,
     "name": {
       "fr": "Ceinture du Piou Jaune",
@@ -2113,9 +2455,9 @@
       "airDamage": 1
     }
   },
-  "674e524064788cc741419023": {
-    "id": "674e524064788cc741419023",
-    "idShort": "HR",
+  "HR": {
+    "id": "HR",
+    "idDofusDB": "674e524064788cc741419023",
     "idDofusBook": 8241,
     "name": {
       "fr": "Ceinture du Piou Vert",
@@ -2132,9 +2474,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741419024": {
-    "id": "674e524064788cc741419024",
-    "idShort": "Hl",
+  "Hl": {
+    "id": "Hl",
+    "idDofusDB": "674e524064788cc741419024",
     "idDofusBook": 8242,
     "name": {
       "fr": "Ceinture du Piou Rose",
@@ -2151,9 +2493,9 @@
       "heal": 1
     }
   },
-  "674e524064788cc741419032": {
-    "id": "674e524064788cc741419032",
-    "idShort": "F2",
+  "F2": {
+    "id": "F2",
+    "idDofusDB": "674e524064788cc741419032",
     "idDofusBook": 8257,
     "name": {
       "fr": "Ceinture en Mousse",
@@ -2170,9 +2512,9 @@
       "dodge": 2
     }
   },
-  "674e524064788cc74141903a": {
-    "id": "674e524064788cc74141903a",
-    "idShort": "f8",
+  "f8": {
+    "id": "f8",
+    "idDofusDB": "674e524064788cc74141903a",
     "idDofusBook": 8266,
     "name": {
       "fr": "Ceinture du Meulou",
@@ -2196,9 +2538,9 @@
       "airResistPer": -4
     }
   },
-  "674e524064788cc74141904a": {
-    "id": "674e524064788cc74141904a",
-    "idShort": "gs",
+  "gs": {
+    "id": "gs",
+    "idDofusDB": "674e524064788cc74141904a",
     "idDofusBook": 8282,
     "name": {
       "fr": "Ceinture du Minotoror",
@@ -2224,9 +2566,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc74141904b": {
-    "id": "674e524064788cc74141904b",
-    "idShort": "cQ",
+  "cQ": {
+    "id": "cQ",
+    "idDofusDB": "674e524064788cc74141904b",
     "idDofusBook": 8283,
     "name": {
       "fr": "Ceinture du Minotot",
@@ -2253,9 +2595,9 @@
       "airResist": 6
     }
   },
-  "674e524064788cc741419050": {
-    "id": "674e524064788cc741419050",
-    "idShort": "f2",
+  "f2": {
+    "id": "f2",
+    "idDofusDB": "674e524064788cc741419050",
     "idDofusBook": 8288,
     "name": {
       "fr": "Ceinture du Dragoeuf",
@@ -2282,9 +2624,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc74141905f": {
-    "id": "674e524064788cc74141905f",
-    "idShort": "ls",
+  "ls": {
+    "id": "ls",
+    "idDofusDB": "674e524064788cc74141905f",
     "idDofusBook": 8303,
     "name": {
       "fr": "Shikature",
@@ -2306,9 +2648,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc7414190bf": {
-    "id": "674e524064788cc7414190bf",
-    "idShort": "g1",
+  "g1": {
+    "id": "g1",
+    "idDofusDB": "674e524064788cc7414190bf",
     "idDofusBook": 8418,
     "name": {
       "fr": "Ceinture du Mominotor",
@@ -2333,9 +2675,9 @@
       "mpReduction": 4
     }
   },
-  "674e524064788cc7414190d0": {
-    "id": "674e524064788cc7414190d0",
-    "idShort": "hj",
+  "hj": {
+    "id": "hj",
+    "idDofusDB": "674e524064788cc7414190d0",
     "idDofusBook": 8447,
     "name": {
       "fr": "Ceinture du Rat Noir",
@@ -2361,9 +2703,9 @@
       "apResist": 6
     }
   },
-  "674e524064788cc7414190d8": {
-    "id": "674e524064788cc7414190d8",
-    "idShort": "h9",
+  "h9": {
+    "id": "h9",
+    "idDofusDB": "674e524064788cc7414190d8",
     "idDofusBook": 8455,
     "name": {
       "fr": "Ceinture du Rat Blanc",
@@ -2388,9 +2730,9 @@
       "apReduction": 4
     }
   },
-  "674e524064788cc7414190de": {
-    "id": "674e524064788cc7414190de",
-    "idShort": "dN",
+  "dN": {
+    "id": "dN",
+    "idDofusDB": "674e524064788cc7414190de",
     "idDofusBook": 8461,
     "name": {
       "fr": "Ceinture Cérémoniale du Seigneur des Rats",
@@ -2417,9 +2759,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc7414190e5": {
-    "id": "674e524064788cc7414190e5",
-    "idShort": "g9",
+  "g9": {
+    "id": "g9",
+    "idDofusDB": "674e524064788cc7414190e5",
     "idDofusBook": 8468,
     "name": {
       "fr": "Abrature Ancestrale",
@@ -2446,9 +2788,9 @@
       "airResist": 6
     }
   },
-  "674e524064788cc7414190ea": {
-    "id": "674e524064788cc7414190ea",
-    "idShort": "dh",
+  "dh": {
+    "id": "dh",
+    "idDofusDB": "674e524064788cc7414190ea",
     "idDofusBook": 8473,
     "name": {
       "fr": "String Automnal du Chêne Mou",
@@ -2476,9 +2818,9 @@
       "airResist": 10
     }
   },
-  "674e524064788cc74141911a": {
-    "id": "674e524064788cc74141911a",
-    "idShort": "Jk",
+  "Jk": {
+    "id": "Jk",
+    "idDofusDB": "674e524064788cc74141911a",
     "idDofusBook": 8536,
     "name": {
       "fr": "La Spamette",
@@ -2495,9 +2837,9 @@
       "intelligence": 6
     }
   },
-  "674e524064788cc741419164": {
-    "id": "674e524064788cc741419164",
-    "idShort": "eu",
+  "eu": {
+    "id": "eu",
+    "idDofusDB": "674e524064788cc741419164",
     "idDofusBook": 8651,
     "name": {
       "fr": "Sangle Hynère",
@@ -2511,9 +2853,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419165": {
-    "id": "674e524064788cc741419165",
-    "idShort": "et",
+  "et": {
+    "id": "et",
+    "idDofusDB": "674e524064788cc741419165",
     "idDofusBook": 8652,
     "name": {
       "fr": "Ceinture Buhlent",
@@ -2527,9 +2869,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419166": {
-    "id": "674e524064788cc741419166",
-    "idShort": "es",
+  "es": {
+    "id": "es",
+    "idDofusDB": "674e524064788cc741419166",
     "idDofusBook": 8653,
     "name": {
       "fr": "Sangle Glinglin",
@@ -2543,9 +2885,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419167": {
-    "id": "674e524064788cc741419167",
-    "idShort": "er",
+  "er": {
+    "id": "er",
+    "idDofusDB": "674e524064788cc741419167",
     "idDofusBook": 8654,
     "name": {
       "fr": "Ceinture Lupine",
@@ -2559,9 +2901,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419168": {
-    "id": "674e524064788cc741419168",
-    "idShort": "eq",
+  "eq": {
+    "id": "eq",
+    "idDofusDB": "674e524064788cc741419168",
     "idDofusBook": 8655,
     "name": {
       "fr": "Sangle Holon",
@@ -2575,9 +2917,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419169": {
-    "id": "674e524064788cc741419169",
-    "idShort": "ep",
+  "ep": {
+    "id": "ep",
+    "idDofusDB": "674e524064788cc741419169",
     "idDofusBook": 8656,
     "name": {
       "fr": "Ceinture Luthe",
@@ -2591,9 +2933,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916a": {
-    "id": "674e524064788cc74141916a",
-    "idShort": "eo",
+  "eo": {
+    "id": "eo",
+    "idDofusDB": "674e524064788cc74141916a",
     "idDofusBook": 8657,
     "name": {
       "fr": "Sangle Hans",
@@ -2607,9 +2949,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916b": {
-    "id": "674e524064788cc74141916b",
-    "idShort": "en",
+  "en": {
+    "id": "en",
+    "idDofusDB": "674e524064788cc74141916b",
     "idDofusBook": 8658,
     "name": {
       "fr": "Ceinture Bodiézèle",
@@ -2623,9 +2965,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916c": {
-    "id": "674e524064788cc74141916c",
-    "idShort": "em",
+  "em": {
+    "id": "em",
+    "idDofusDB": "674e524064788cc74141916c",
     "idDofusBook": 8659,
     "name": {
       "fr": "Sangle Huée",
@@ -2639,9 +2981,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916d": {
-    "id": "674e524064788cc74141916d",
-    "idShort": "el",
+  "el": {
+    "id": "el",
+    "idDofusDB": "674e524064788cc74141916d",
     "idDofusBook": 8660,
     "name": {
       "fr": "Sangle Cible",
@@ -2655,9 +2997,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916e": {
-    "id": "674e524064788cc74141916e",
-    "idShort": "ek",
+  "ek": {
+    "id": "ek",
+    "idDofusDB": "674e524064788cc74141916e",
     "idDofusBook": 8661,
     "name": {
       "fr": "Gaine Hage",
@@ -2671,9 +3013,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc74141916f": {
-    "id": "674e524064788cc74141916f",
-    "idShort": "ej",
+  "ej": {
+    "id": "ej",
+    "idDofusDB": "674e524064788cc74141916f",
     "idDofusBook": 8662,
     "name": {
       "fr": "Ceinture Gessant",
@@ -2687,9 +3029,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419217": {
-    "id": "674e524064788cc741419217",
-    "idShort": "8i",
+  "8i": {
+    "id": "8i",
+    "idDofusDB": "674e524064788cc741419217",
     "idDofusBook": 8856,
     "name": {
       "fr": "Ceinture Rasboulaire du Rasboul",
@@ -2713,9 +3055,9 @@
       "waterResistPer": 10
     }
   },
-  "674e524064788cc74141921c": {
-    "id": "674e524064788cc74141921c",
-    "idShort": "cW",
+  "cW": {
+    "id": "cW",
+    "idDofusDB": "674e524064788cc74141921c",
     "idDofusBook": 8862,
     "name": {
       "fr": "Ceinture Bitoufale de Prosper Youpla",
@@ -2741,9 +3083,9 @@
       "airResistPer": 10
     }
   },
-  "674e524064788cc741419224": {
-    "id": "674e524064788cc741419224",
-    "idShort": "eK",
+  "eK": {
+    "id": "eK",
+    "idDofusDB": "674e524064788cc741419224",
     "idDofusBook": 8870,
     "name": {
       "fr": "Ceinture sombre en Abrakleur",
@@ -2768,9 +3110,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741419225": {
-    "id": "674e524064788cc741419225",
-    "idShort": "f0",
+  "f0": {
+    "id": "f0",
+    "idDofusDB": "674e524064788cc741419225",
     "idDofusBook": 8871,
     "name": {
       "fr": "Ceinture Claire en Abrakleur",
@@ -2794,9 +3136,9 @@
       "fireResistPer": 10
     }
   },
-  "674e524064788cc741419227": {
-    "id": "674e524064788cc741419227",
-    "idShort": "Ap",
+  "Ap": {
+    "id": "Ap",
+    "idDofusDB": "674e524064788cc741419227",
     "idDofusBook": 8873,
     "name": {
       "fr": "Krustoture",
@@ -2814,9 +3156,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741419315": {
-    "id": "674e524064788cc741419315",
-    "idShort": "7E",
+  "7E": {
+    "id": "7E",
+    "idDofusDB": "674e524064788cc741419315",
     "idDofusBook": 9143,
     "name": {
       "fr": "String Tue-Mouche",
@@ -2841,9 +3183,9 @@
       "fireResistPer": 7
     }
   },
-  "674e524064788cc741419316": {
-    "id": "674e524064788cc741419316",
-    "idShort": "8P",
+  "8P": {
+    "id": "8P",
+    "idDofusDB": "674e524064788cc741419316",
     "idDofusBook": 9144,
     "name": {
       "fr": "Ceinture Mycosine",
@@ -2869,9 +3211,9 @@
       "waterResist": 10
     }
   },
-  "674e524064788cc741419317": {
-    "id": "674e524064788cc741419317",
-    "idShort": "8G",
+  "8G": {
+    "id": "8G",
+    "idDofusDB": "674e524064788cc741419317",
     "idDofusBook": 9145,
     "name": {
       "fr": "Tranche des Sous-bois",
@@ -2894,34 +3236,9 @@
       "earthResistPer": 10
     }
   },
-  "674e524064788cc741419318": {
-    "id": "674e524064788cc741419318",
-    "idShort": "85",
-    "idDofusBook": 9146,
-    "name": {
-      "fr": "Ougature",
-      "en": "Ougaabelt",
-      "pt": "Cintugah",
-      "de": "Stinkelinggurt",
-      "es": "Cintugah"
-    },
-    "level": 185,
-    "panoply": "674e523f64788cc74141813b",
-    "category": "belt",
-    "stats": {
-      "health": 350,
-      "wisdom": 50,
-      "power": 40,
-      "range": 1,
-      "summon": 2,
-      "damage": 10,
-      "prospecting": 20,
-      "earthResistPer": 10
-    }
-  },
-  "674e524064788cc74141932d": {
-    "id": "674e524064788cc74141932d",
-    "idShort": "vA",
+  "vA": {
+    "id": "vA",
+    "idDofusDB": "674e524064788cc74141932d",
     "idDofusBook": 9167,
     "name": {
       "fr": "Blopture Griotte",
@@ -2941,9 +3258,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141932e": {
-    "id": "674e524064788cc74141932e",
-    "idShort": "vz",
+  "vz": {
+    "id": "vz",
+    "idDofusDB": "674e524064788cc74141932e",
     "idDofusBook": 9168,
     "name": {
       "fr": "Blopture Reinette",
@@ -2963,9 +3280,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141932f": {
-    "id": "674e524064788cc74141932f",
-    "idShort": "vy",
+  "vy": {
+    "id": "vy",
+    "idDofusDB": "674e524064788cc74141932f",
     "idDofusBook": 9169,
     "name": {
       "fr": "Blopture Coco",
@@ -2985,9 +3302,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc741419330": {
-    "id": "674e524064788cc741419330",
-    "idShort": "vx",
+  "vx": {
+    "id": "vx",
+    "idDofusDB": "674e524064788cc741419330",
     "idDofusBook": 9170,
     "name": {
       "fr": "Blopture Indigo",
@@ -3007,9 +3324,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc741419331": {
-    "id": "674e524064788cc741419331",
-    "idShort": "l2",
+  "l2": {
+    "id": "l2",
+    "idDofusDB": "674e524064788cc741419331",
     "idDofusBook": 9171,
     "name": {
       "fr": "Blopture Griotte Royale",
@@ -3031,9 +3348,9 @@
       "fireResistPer": 5
     }
   },
-  "674e524064788cc741419332": {
-    "id": "674e524064788cc741419332",
-    "idShort": "l1",
+  "l1": {
+    "id": "l1",
+    "idDofusDB": "674e524064788cc741419332",
     "idDofusBook": 9172,
     "name": {
       "fr": "Blopture Reinette Royale",
@@ -3055,9 +3372,9 @@
       "earthResistPer": 5
     }
   },
-  "674e524064788cc741419333": {
-    "id": "674e524064788cc741419333",
-    "idShort": "l0",
+  "l0": {
+    "id": "l0",
+    "idDofusDB": "674e524064788cc741419333",
     "idDofusBook": 9173,
     "name": {
       "fr": "Blopture Coco Royale",
@@ -3079,9 +3396,9 @@
       "airResistPer": 5
     }
   },
-  "674e524064788cc741419334": {
-    "id": "674e524064788cc741419334",
-    "idShort": "kZ",
+  "kZ": {
+    "id": "kZ",
+    "idDofusDB": "674e524064788cc741419334",
     "idDofusBook": 9174,
     "name": {
       "fr": "Blopture Indigo Royale",
@@ -3103,9 +3420,9 @@
       "waterResistPer": 5
     }
   },
-  "674e524064788cc741419335": {
-    "id": "674e524064788cc741419335",
-    "idShort": "k7",
+  "k7": {
+    "id": "k7",
+    "idDofusDB": "674e524064788cc741419335",
     "idDofusBook": 9175,
     "name": {
       "fr": "Blopture Multicolore Royale",
@@ -3126,9 +3443,9 @@
       "earthResistPer": 3
     }
   },
-  "674e524064788cc74141933d": {
-    "id": "674e524064788cc74141933d",
-    "idShort": "8l",
+  "8l": {
+    "id": "8l",
+    "idDofusDB": "674e524064788cc74141933d",
     "idDofusBook": 9183,
     "name": {
       "fr": "Ceinture Toré",
@@ -3155,9 +3472,9 @@
       "neutralResist": 10
     }
   },
-  "674e524064788cc741419340": {
-    "id": "674e524064788cc741419340",
-    "idShort": "wg",
+  "wg": {
+    "id": "wg",
+    "idDofusDB": "674e524064788cc741419340",
     "idDofusBook": 9186,
     "name": {
       "fr": "Ceinture de Flash Gorgone",
@@ -3176,9 +3493,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419346": {
-    "id": "674e524064788cc741419346",
-    "idShort": "x9",
+  "x9": {
+    "id": "x9",
+    "idDofusDB": "674e524064788cc741419346",
     "idDofusBook": 9192,
     "name": {
       "fr": "Beignature",
@@ -3196,9 +3513,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc7414193bc": {
-    "id": "674e524064788cc7414193bc",
-    "idShort": "w3",
+  "w3": {
+    "id": "w3",
+    "idDofusDB": "674e524064788cc7414193bc",
     "idDofusBook": 9366,
     "name": {
       "fr": "Tutu Rose",
@@ -3216,9 +3533,9 @@
       "criticalChance": 7
     }
   },
-  "674e524064788cc7414193d5": {
-    "id": "674e524064788cc7414193d5",
-    "idShort": "Ao",
+  "Ao": {
+    "id": "Ao",
+    "idDofusDB": "674e524064788cc7414193d5",
     "idDofusBook": 9409,
     "name": {
       "fr": "Ceinture Lardière",
@@ -3237,9 +3554,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc7414193d8": {
-    "id": "674e524064788cc7414193d8",
-    "idShort": "Bv",
+  "Bv": {
+    "id": "Bv",
+    "idDofusDB": "674e524064788cc7414193d8",
     "idDofusBook": 9412,
     "name": {
       "fr": "Ceinture du bois de l'est",
@@ -3256,9 +3573,9 @@
       "initiative": 65
     }
   },
-  "674e524064788cc7414193e1": {
-    "id": "674e524064788cc7414193e1",
-    "idShort": "zh",
+  "zh": {
+    "id": "zh",
+    "idDofusDB": "674e524064788cc7414193e1",
     "idDofusBook": 9453,
     "name": {
       "fr": "Ceinture Cristalline",
@@ -3279,9 +3596,9 @@
       "fireResistPer": -5
     }
   },
-  "674e524064788cc741419434": {
-    "id": "674e524064788cc741419434",
-    "idShort": "wf",
+  "wf": {
+    "id": "wf",
+    "idDofusDB": "674e524064788cc741419434",
     "idDofusBook": 9549,
     "name": {
       "fr": "Caleçon à bretelles du Parrain",
@@ -3300,9 +3617,9 @@
       "criticalChance": 5
     }
   },
-  "674e524064788cc74141944b": {
-    "id": "674e524064788cc74141944b",
-    "idShort": "wD",
+  "wD": {
+    "id": "wD",
+    "idDofusDB": "674e524064788cc74141944b",
     "idDofusBook": 9575,
     "name": {
       "fr": "Ceinture du Black Wab",
@@ -3321,9 +3638,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524064788cc741419508": {
-    "id": "674e524064788cc741419508",
-    "idShort": "Aw",
+  "Aw": {
+    "id": "Aw",
+    "idDofusDB": "674e524064788cc741419508",
     "idDofusBook": 9922,
     "name": {
       "fr": "Ceinture du Tétounik",
@@ -3342,9 +3659,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc74141950f": {
-    "id": "674e524064788cc74141950f",
-    "idShort": "zg",
+  "zg": {
+    "id": "zg",
+    "idDofusDB": "674e524064788cc74141950f",
     "idDofusBook": 9929,
     "name": {
       "fr": "Ceinture Siks Won Naïne",
@@ -3363,9 +3680,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc74141957f": {
-    "id": "674e524064788cc74141957f",
-    "idShort": "yA",
+  "yA": {
+    "id": "yA",
+    "idDofusDB": "674e524064788cc74141957f",
     "idDofusBook": 10056,
     "name": {
       "fr": "Ceinture du Vampyre",
@@ -3385,9 +3702,9 @@
       "initiative": 300
     }
   },
-  "674e524064788cc7414195cc": {
-    "id": "674e524064788cc7414195cc",
-    "idShort": "xN",
+  "xN": {
+    "id": "xN",
+    "idDofusDB": "674e524064788cc7414195cc",
     "idDofusBook": 10157,
     "name": {
       "fr": "Yugure",
@@ -3406,9 +3723,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc7414195ee": {
-    "id": "674e524064788cc7414195ee",
-    "idShort": "AD",
+  "AD": {
+    "id": "AD",
+    "idDofusDB": "674e524064788cc7414195ee",
     "idDofusBook": 10191,
     "name": {
       "fr": "L'oxolature",
@@ -3427,9 +3744,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc74141969b": {
-    "id": "674e524064788cc74141969b",
-    "idShort": "za",
+  "za": {
+    "id": "za",
+    "idDofusDB": "674e524064788cc74141969b",
     "idDofusBook": 10559,
     "name": {
       "fr": "Ceinture de Tolot",
@@ -3447,9 +3764,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc74141969c": {
-    "id": "674e524064788cc74141969c",
-    "idShort": "z9",
+  "z9": {
+    "id": "z9",
+    "idDofusDB": "674e524064788cc74141969c",
     "idDofusBook": 10560,
     "name": {
       "fr": "Ceinture de Mounu",
@@ -3467,9 +3784,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc7414196ac": {
-    "id": "674e524064788cc7414196ac",
-    "idShort": "zZ",
+  "zZ": {
+    "id": "zZ",
+    "idDofusDB": "674e524064788cc7414196ac",
     "idDofusBook": 10624,
     "name": {
       "fr": "Ceinture de Grüt",
@@ -3487,9 +3804,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc7414196b1": {
-    "id": "674e524064788cc7414196b1",
-    "idShort": "yr",
+  "yr": {
+    "id": "yr",
+    "idDofusDB": "674e524064788cc7414196b1",
     "idDofusBook": 10629,
     "name": {
       "fr": "Ceinture de Kocksis",
@@ -3508,9 +3825,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414196b4": {
-    "id": "674e524064788cc7414196b4",
-    "idShort": "yp",
+  "yp": {
+    "id": "yp",
+    "idDofusDB": "674e524064788cc7414196b4",
     "idDofusBook": 10632,
     "name": {
       "fr": "Ceinture de Gobeuf",
@@ -3528,9 +3845,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc7414196bc": {
-    "id": "674e524064788cc7414196bc",
-    "idShort": "zY",
+  "zY": {
+    "id": "zY",
+    "idDofusDB": "674e524064788cc7414196bc",
     "idDofusBook": 10640,
     "name": {
       "fr": "Ceinture de Rekto Topi",
@@ -3548,9 +3865,9 @@
       "heal": 2
     }
   },
-  "674e524064788cc7414196c1": {
-    "id": "674e524064788cc7414196c1",
-    "idShort": "xI",
+  "xI": {
+    "id": "xI",
+    "idDofusDB": "674e524064788cc7414196c1",
     "idDofusBook": 10645,
     "name": {
       "fr": "Ceinture de Grizou",
@@ -3568,9 +3885,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc7414196e2": {
-    "id": "674e524064788cc7414196e2",
-    "idShort": "tn",
+  "tn": {
+    "id": "tn",
+    "idDofusDB": "674e524064788cc7414196e2",
     "idDofusBook": 10688,
     "name": {
       "fr": "Ceinture du Roks Or",
@@ -3589,9 +3906,9 @@
       "range": 1
     }
   },
-  "674e524064788cc74141970a": {
-    "id": "674e524064788cc74141970a",
-    "idShort": "Jd",
+  "Jd": {
+    "id": "Jd",
+    "idDofusDB": "674e524064788cc74141970a",
     "idDofusBook": 10799,
     "name": {
       "fr": "Ceinture de l'intrépide",
@@ -3608,9 +3925,9 @@
       "initiative": 1
     }
   },
-  "674e524064788cc74141972b": {
-    "id": "674e524064788cc74141972b",
-    "idShort": "tM",
+  "tM": {
+    "id": "tM",
+    "idDofusDB": "674e524064788cc74141972b",
     "idDofusBook": 10849,
     "name": {
       "fr": "Ceinture d'Hulkrap",
@@ -3629,9 +3946,9 @@
       "damage": 3
     }
   },
-  "674e524064788cc74141972c": {
-    "id": "674e524064788cc74141972c",
-    "idShort": "tB",
+  "tB": {
+    "id": "tB",
+    "idDofusDB": "674e524064788cc74141972c",
     "idDofusBook": 10850,
     "name": {
       "fr": "Ceinture de Klüme",
@@ -3650,9 +3967,9 @@
       "range": 1
     }
   },
-  "674e524064788cc74141972d": {
-    "id": "674e524064788cc74141972d",
-    "idShort": "tL",
+  "tL": {
+    "id": "tL",
+    "idDofusDB": "674e524064788cc74141972d",
     "idDofusBook": 10851,
     "name": {
       "fr": "Ceinture de Kloug",
@@ -3671,9 +3988,9 @@
       "pods": 300
     }
   },
-  "674e524064788cc74141978a": {
-    "id": "674e524064788cc74141978a",
-    "idShort": "BD",
+  "BD": {
+    "id": "BD",
+    "idDofusDB": "674e524064788cc74141978a",
     "idDofusBook": 10964,
     "name": {
       "fr": "Ceinture de Rapine",
@@ -3691,9 +4008,9 @@
       "criticalChance": 3
     }
   },
-  "674e524064788cc741419797": {
-    "id": "674e524064788cc741419797",
-    "idShort": "C5",
+  "C5": {
+    "id": "C5",
+    "idDofusDB": "674e524064788cc741419797",
     "idDofusBook": 10977,
     "name": {
       "fr": "Ceinture de Phong Huss",
@@ -3710,9 +4027,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc74141979c": {
-    "id": "674e524064788cc74141979c",
-    "idShort": "Bp",
+  "Bp": {
+    "id": "Bp",
+    "idDofusDB": "674e524064788cc74141979c",
     "idDofusBook": 10982,
     "name": {
       "fr": "Ceinture d'Hectaupe",
@@ -3729,9 +4046,9 @@
       "damage": 1
     }
   },
-  "674e524064788cc74141979f": {
-    "id": "674e524064788cc74141979f",
-    "idShort": "AW",
+  "AW": {
+    "id": "AW",
+    "idDofusDB": "674e524064788cc74141979f",
     "idDofusBook": 10987,
     "name": {
       "fr": "Givrature",
@@ -3748,9 +4065,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414197bf": {
-    "id": "674e524064788cc7414197bf",
-    "idShort": "zX",
+  "zX": {
+    "id": "zX",
+    "idDofusDB": "674e524064788cc7414197bf",
     "idDofusBook": 11042,
     "name": {
       "fr": "Cordon Père au gnon",
@@ -3767,9 +4084,9 @@
       "range": 1
     }
   },
-  "674e524064788cc7414197cc": {
-    "id": "674e524064788cc7414197cc",
-    "idShort": "zW",
+  "zW": {
+    "id": "zW",
+    "idDofusDB": "674e524064788cc7414197cc",
     "idDofusBook": 11057,
     "name": {
       "fr": "Ceinture Pomdeupin",
@@ -3787,9 +4104,9 @@
       "initiative": 200
     }
   },
-  "674e524064788cc7414197e7": {
-    "id": "674e524064788cc7414197e7",
-    "idShort": "w1",
+  "w1": {
+    "id": "w1",
+    "idDofusDB": "674e524064788cc7414197e7",
     "idDofusBook": 11085,
     "name": {
       "fr": "Ceinture de Gadjète",
@@ -3809,9 +4126,9 @@
       "pods": 150
     }
   },
-  "674e524064788cc7414198e0": {
-    "id": "674e524064788cc7414198e0",
-    "idShort": "Am",
+  "Am": {
+    "id": "Am",
+    "idDofusDB": "674e524064788cc7414198e0",
     "idDofusBook": 11344,
     "name": {
       "fr": "Ceinture de Rapiat",
@@ -3830,9 +4147,9 @@
       "earthDamage": 4
     }
   },
-  "674e524064788cc7414198e3": {
-    "id": "674e524064788cc7414198e3",
-    "idShort": "sq",
+  "sq": {
+    "id": "sq",
+    "idDofusDB": "674e524064788cc7414198e3",
     "idDofusBook": 11347,
     "name": {
       "fr": "Ceinture d'Ougicle",
@@ -3853,9 +4170,9 @@
       "airDamage": 5
     }
   },
-  "674e524064788cc7414198ec": {
-    "id": "674e524064788cc7414198ec",
-    "idShort": "xG",
+  "xG": {
+    "id": "xG",
+    "idDofusDB": "674e524064788cc7414198ec",
     "idDofusBook": 11356,
     "name": {
       "fr": "Ceinture de Grouillot",
@@ -3874,9 +4191,9 @@
       "initiative": 150
     }
   },
-  "674e524064788cc7414198ef": {
-    "id": "674e524064788cc7414198ef",
-    "idShort": "ym",
+  "ym": {
+    "id": "ym",
+    "idDofusDB": "674e524064788cc7414198ef",
     "idDofusBook": 11359,
     "name": {
       "fr": "Ceinture de Kubitus",
@@ -3896,9 +4213,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc7414198f3": {
-    "id": "674e524064788cc7414198f3",
-    "idShort": "sE",
+  "sE": {
+    "id": "sE",
+    "idDofusDB": "674e524064788cc7414198f3",
     "idDofusBook": 11363,
     "name": {
       "fr": "Ceinture de Piggy Paupe",
@@ -3920,9 +4237,9 @@
       "criticalResist": 4
     }
   },
-  "674e524064788cc7414198ff": {
-    "id": "674e524064788cc7414198ff",
-    "idShort": "mO",
+  "mO": {
+    "id": "mO",
+    "idDofusDB": "674e524064788cc7414198ff",
     "idDofusBook": 11375,
     "name": {
       "fr": "Slipapier",
@@ -3943,9 +4260,9 @@
       "mpReduction": 5
     }
   },
-  "674e524064788cc741419914": {
-    "id": "674e524064788cc741419914",
-    "idShort": "sb",
+  "sb": {
+    "id": "sb",
+    "idDofusDB": "674e524064788cc741419914",
     "idDofusBook": 11396,
     "name": {
       "fr": "Ceintusonnier",
@@ -3965,9 +4282,9 @@
       "heal": 5
     }
   },
-  "674e524064788cc741419960": {
-    "id": "674e524064788cc741419960",
-    "idShort": "6f",
+  "6f": {
+    "id": "6f",
+    "idDofusDB": "674e524064788cc741419960",
     "idDofusBook": 11473,
     "name": {
       "fr": "Frimature",
@@ -3992,9 +4309,9 @@
       "airResist": 15
     }
   },
-  "674e524064788cc7414199bc": {
-    "id": "674e524064788cc7414199bc",
-    "idShort": "ei",
+  "ei": {
+    "id": "ei",
+    "idDofusDB": "674e524064788cc7414199bc",
     "idDofusBook": 11584,
     "name": {
       "fr": "Ceinture du Royalmouth",
@@ -4023,9 +4340,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc7414199bd": {
-    "id": "674e524064788cc7414199bd",
-    "idShort": "al",
+  "al": {
+    "id": "al",
+    "idDofusDB": "674e524064788cc7414199bd",
     "idDofusBook": 11585,
     "name": {
       "fr": "Ceinture de Ben le Ripate",
@@ -4053,9 +4370,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc7414199d6": {
-    "id": "674e524064788cc7414199d6",
-    "idShort": "aM",
+  "aM": {
+    "id": "aM",
+    "idDofusDB": "674e524064788cc7414199d6",
     "idDofusBook": 11611,
     "name": {
       "fr": "Slip Hie",
@@ -4082,9 +4399,9 @@
       "lock": 5
     }
   },
-  "674e524064788cc7414199d7": {
-    "id": "674e524064788cc7414199d7",
-    "idShort": "9P",
+  "9P": {
+    "id": "9P",
+    "idDofusDB": "674e524064788cc7414199d7",
     "idDofusBook": 11612,
     "name": {
       "fr": "Slip Noze",
@@ -4111,9 +4428,9 @@
       "dodge": -7
     }
   },
-  "674e524064788cc741419a13": {
-    "id": "674e524064788cc741419a13",
-    "idShort": "dt",
+  "dt": {
+    "id": "dt",
+    "idDofusDB": "674e524064788cc741419a13",
     "idDofusBook": 11686,
     "name": {
       "fr": "Pagniglou",
@@ -4141,9 +4458,9 @@
       "pushbackDamage": -7
     }
   },
-  "674e524064788cc741419a2a": {
-    "id": "674e524064788cc741419a2a",
-    "idShort": "8N",
+  "8N": {
+    "id": "8N",
+    "idDofusDB": "674e524064788cc741419a2a",
     "idDofusBook": 11709,
     "name": {
       "fr": "Ceinture du Tengu Givrefoux",
@@ -4172,9 +4489,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419a31": {
-    "id": "674e524064788cc741419a31",
-    "idShort": "7X",
+  "7X": {
+    "id": "7X",
+    "idDofusDB": "674e524064788cc741419a31",
     "idDofusBook": 11716,
     "name": {
       "fr": "Ceinture de Kolosso",
@@ -4201,43 +4518,9 @@
       "apResist": 6
     }
   },
-  "674e524064788cc741419a36": {
-    "id": "674e524064788cc741419a36",
-    "idShort": "74",
-    "idDofusBook": 11721,
-    "name": {
-      "fr": "Ceinture du Glourséleste",
-      "en": "Celestial Bearbarian Belt",
-      "pt": "Cinto do Glurseleste",
-      "de": "Himmlischer Barbärengürtel",
-      "es": "Cinturón de Golosotrón Real"
-    },
-    "level": 195,
-    "panoply": "674e523f64788cc74141815b",
-    "category": "belt",
-    "stats": {
-      "health": 300,
-      "intelligence": 40,
-      "chance": 40,
-      "agility": 40,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "range": 2,
-      "fireDamage": 10,
-      "waterDamage": 10,
-      "airDamage": 10,
-      "neutralResist": 12,
-      "earthResist": 12,
-      "fireResist": 12,
-      "waterResist": 12,
-      "airResist": 12,
-      "dodge": 5,
-      "mpReduction": 5
-    }
-  },
-  "674e524064788cc741419a41": {
-    "id": "674e524064788cc741419a41",
-    "idShort": "8W",
+  "8W": {
+    "id": "8W",
+    "idDofusDB": "674e524064788cc741419a41",
     "idDofusBook": 11732,
     "name": {
       "fr": "Pagne du Soryo Givrefoux",
@@ -4264,9 +4547,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419a43": {
-    "id": "674e524064788cc741419a43",
-    "idShort": "7m",
+  "7m": {
+    "id": "7m",
+    "idDofusDB": "674e524064788cc741419a43",
     "idDofusBook": 11734,
     "name": {
       "fr": "Ceinture Hanium",
@@ -4291,9 +4574,9 @@
       "mpReduction": 6
     }
   },
-  "674e524064788cc741419a7e": {
-    "id": "674e524064788cc741419a7e",
-    "idShort": "x3",
+  "x3": {
+    "id": "x3",
+    "idDofusDB": "674e524064788cc741419a7e",
     "idDofusBook": 11816,
     "name": {
       "fr": "Ceinture de Percimol",
@@ -4312,9 +4595,9 @@
       "neutralResistPer": 3
     }
   },
-  "674e524064788cc741419aa0": {
-    "id": "674e524064788cc741419aa0",
-    "idShort": "8J",
+  "8J": {
+    "id": "8J",
+    "idDofusDB": "674e524064788cc741419aa0",
     "idDofusBook": 11850,
     "name": {
       "fr": "Slip Iholo",
@@ -4342,9 +4625,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419aa6": {
-    "id": "674e524064788cc741419aa6",
-    "idShort": "z0",
+  "z0": {
+    "id": "z0",
+    "idDofusDB": "674e524064788cc741419aa6",
     "idDofusBook": 11856,
     "name": {
       "fr": "Ceinture de Stroud",
@@ -4363,9 +4646,9 @@
       "pods": 150
     }
   },
-  "674e524064788cc741419b05": {
-    "id": "674e524064788cc741419b05",
-    "idShort": "x1",
+  "x1": {
+    "id": "x1",
+    "idDofusDB": "674e524064788cc741419b05",
     "idDofusBook": 11981,
     "name": {
       "fr": "Ceinture du Boostache",
@@ -4385,9 +4668,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc741419b28": {
-    "id": "674e524064788cc741419b28",
-    "idShort": "xE",
+  "xE": {
+    "id": "xE",
+    "idDofusDB": "674e524064788cc741419b28",
     "idDofusBook": 12023,
     "name": {
       "fr": "Ceinture de Traçon",
@@ -4407,9 +4690,9 @@
       "apReduction": 3
     }
   },
-  "674e524064788cc741419b2d": {
-    "id": "674e524064788cc741419b2d",
-    "idShort": "sQ",
+  "sQ": {
+    "id": "sQ",
+    "idDofusDB": "674e524064788cc741419b2d",
     "idDofusBook": 12028,
     "name": {
       "fr": "Ceinture de Mirh",
@@ -4430,9 +4713,9 @@
       "apReduction": 5
     }
   },
-  "674e524064788cc741419b34": {
-    "id": "674e524064788cc741419b34",
-    "idShort": "zV",
+  "zV": {
+    "id": "zV",
+    "idDofusDB": "674e524064788cc741419b34",
     "idDofusBook": 12035,
     "name": {
       "fr": "Slip de Kalkanéus",
@@ -4452,9 +4735,9 @@
       "lock": 4
     }
   },
-  "674e524064788cc741419b39": {
-    "id": "674e524064788cc741419b39",
-    "idShort": "sB",
+  "sB": {
+    "id": "sB",
+    "idDofusDB": "674e524064788cc741419b39",
     "idDofusBook": 12040,
     "name": {
       "fr": "Ceinture d'Hichète",
@@ -4474,9 +4757,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419b55": {
-    "id": "674e524064788cc741419b55",
-    "idShort": "8b",
+  "8b": {
+    "id": "8b",
+    "idDofusDB": "674e524064788cc741419b55",
     "idDofusBook": 12068,
     "name": {
       "fr": "Ceinture Bine",
@@ -4506,9 +4789,9 @@
       "pushbackDamage": -7
     }
   },
-  "674e524064788cc741419b59": {
-    "id": "674e524064788cc741419b59",
-    "idShort": "lD",
+  "lD": {
+    "id": "lD",
+    "idDofusDB": "674e524064788cc741419b59",
     "idDofusBook": 12072,
     "name": {
       "fr": "Ceinture de Nelween",
@@ -4529,9 +4812,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc741419b6c": {
-    "id": "674e524064788cc741419b6c",
-    "idShort": "dl",
+  "dl": {
+    "id": "dl",
+    "idDofusDB": "674e524064788cc741419b6c",
     "idDofusBook": 12091,
     "name": {
       "fr": "Ceinture de Frigostine",
@@ -4557,9 +4840,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524064788cc741419b73": {
-    "id": "674e524064788cc741419b73",
-    "idShort": "9H",
+  "9H": {
+    "id": "9H",
+    "idDofusDB": "674e524064788cc741419b73",
     "idDofusBook": 12098,
     "name": {
       "fr": "Ceinture des Prophètes",
@@ -4587,34 +4870,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524064788cc741419b7a": {
-    "id": "674e524064788cc741419b7a",
-    "idShort": "82",
-    "idDofusBook": 12105,
-    "name": {
-      "fr": "Ceinture de Boréale",
-      "en": "Borealis's Belt",
-      "pt": "Cinto da Boreal",
-      "de": "Bohrealisgürtel",
-      "es": "Cinturón de Boreal"
-    },
-    "level": 185,
-    "panoply": "674e523f64788cc74141816b",
-    "category": "belt",
-    "stats": {
-      "health": 300,
-      "strength": 80,
-      "wisdom": 40,
-      "earthDamage": 20,
-      "prospecting": 25,
-      "initiative": 600,
-      "airResist": 25,
-      "lock": 10
-    }
-  },
-  "674e524064788cc741419c31": {
-    "id": "674e524064788cc741419c31",
-    "idShort": "eg",
+  "eg": {
+    "id": "eg",
+    "idDofusDB": "674e524064788cc741419c31",
     "idDofusBook": 12391,
     "name": {
       "fr": "Sangle Hyssérine",
@@ -4628,9 +4886,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419c32": {
-    "id": "674e524064788cc741419c32",
-    "idShort": "ef",
+  "ef": {
+    "id": "ef",
+    "idDofusDB": "674e524064788cc741419c32",
     "idDofusBook": 12392,
     "name": {
       "fr": "Corde Ure",
@@ -4644,9 +4902,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419c42": {
-    "id": "674e524064788cc741419c42",
-    "idShort": "gT",
+  "gT": {
+    "id": "gT",
+    "idDofusDB": "674e524064788cc741419c42",
     "idDofusBook": 12415,
     "name": {
       "fr": "Ceinture du Krokilleur",
@@ -4674,9 +4932,9 @@
       "mpReduction": 3
     }
   },
-  "674e524064788cc741419c43": {
-    "id": "674e524064788cc741419c43",
-    "idShort": "ad",
+  "ad": {
+    "id": "ad",
+    "idDofusDB": "674e524064788cc741419c43",
     "idDofusBook": 12416,
     "name": {
       "fr": "Ceinture de Grozilla",
@@ -4704,9 +4962,9 @@
       "mpReduction": 6
     }
   },
-  "674e524064788cc741419c72": {
-    "id": "674e524064788cc741419c72",
-    "idShort": "sn",
+  "sn": {
+    "id": "sn",
+    "idDofusDB": "674e524064788cc741419c72",
     "idDofusBook": 12463,
     "name": {
       "fr": "Slip Vert",
@@ -4725,9 +4983,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419c98": {
-    "id": "674e524064788cc741419c98",
-    "idShort": "tg",
+  "tg": {
+    "id": "tg",
+    "idDofusDB": "674e524064788cc741419c98",
     "idDofusBook": 12502,
     "name": {
       "fr": "Ceinture de Pandalida",
@@ -4746,9 +5004,9 @@
       "dodge": 3
     }
   },
-  "674e524064788cc741419cf0": {
-    "id": "674e524064788cc741419cf0",
-    "idShort": "Hf",
+  "Hf": {
+    "id": "Hf",
+    "idDofusDB": "674e524064788cc741419cf0",
     "idDofusBook": 12599,
     "name": {
       "fr": "Ceinture de l'Envahisseur",
@@ -4765,9 +5023,9 @@
       "criticalChance": 2
     }
   },
-  "674e524064788cc741419d2b": {
-    "id": "674e524064788cc741419d2b",
-    "idShort": "sZ",
+  "sZ": {
+    "id": "sZ",
+    "idDofusDB": "674e524064788cc741419d2b",
     "idDofusBook": 12671,
     "name": {
       "fr": "Ceinture de Danioule",
@@ -4787,9 +5045,9 @@
       "earthResistPer": 4
     }
   },
-  "674e524064788cc741419d30": {
-    "id": "674e524064788cc741419d30",
-    "idShort": "kB",
+  "kB": {
+    "id": "kB",
+    "idDofusDB": "674e524064788cc741419d30",
     "idDofusBook": 12676,
     "name": {
       "fr": "Pagne de Daïgoro",
@@ -4812,9 +5070,9 @@
       "pushbackResist": 8
     }
   },
-  "674e524064788cc741419d6f": {
-    "id": "674e524064788cc741419d6f",
-    "idShort": "He",
+  "He": {
+    "id": "He",
+    "idDofusDB": "674e524064788cc741419d6f",
     "idDofusBook": 12753,
     "name": {
       "fr": "Ceinturong",
@@ -4831,9 +5089,9 @@
       "damage": 2
     }
   },
-  "674e524064788cc741419d78": {
-    "id": "674e524064788cc741419d78",
-    "idShort": "fW",
+  "fW": {
+    "id": "fW",
+    "idDofusDB": "674e524064788cc741419d78",
     "idDofusBook": 12775,
     "name": {
       "fr": "Ceinture Abdominable",
@@ -4862,9 +5120,9 @@
       "criticalResist": 12
     }
   },
-  "674e524064788cc741419dad": {
-    "id": "674e524064788cc741419dad",
-    "idShort": "CH",
+  "CH": {
+    "id": "CH",
+    "idDofusDB": "674e524064788cc741419dad",
     "idDofusBook": 12850,
     "name": {
       "fr": "Caleçon Fourré du Glutin",
@@ -4880,9 +5138,9 @@
       "range": 1
     }
   },
-  "674e524064788cc741419dd1": {
-    "id": "674e524064788cc741419dd1",
-    "idShort": "ww",
+  "ww": {
+    "id": "ww",
+    "idDofusDB": "674e524064788cc741419dd1",
     "idDofusBook": 12887,
     "name": {
       "fr": "Gladialeçon",
@@ -4900,9 +5158,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741419e30": {
-    "id": "674e524064788cc741419e30",
-    "idShort": "rH",
+  "rH": {
+    "id": "rH",
+    "idDofusDB": "674e524064788cc741419e30",
     "idDofusBook": 13017,
     "name": {
       "fr": "Ceinturoduvet",
@@ -4923,9 +5181,9 @@
       "dodge": 5
     }
   },
-  "674e524064788cc741419e49": {
-    "id": "674e524064788cc741419e49",
-    "idShort": "wY",
+  "wY": {
+    "id": "wY",
+    "idDofusDB": "674e524064788cc741419e49",
     "idDofusBook": 13093,
     "name": {
       "fr": "Pagne du Chafer Rōnin",
@@ -4946,9 +5204,9 @@
       "pushbackResist": 5
     }
   },
-  "674e524064788cc741419e58": {
-    "id": "674e524064788cc741419e58",
-    "idShort": "7h",
+  "7h": {
+    "id": "7h",
+    "idDofusDB": "674e524064788cc741419e58",
     "idDofusBook": 13114,
     "name": {
       "fr": "Ceinture de Brouce",
@@ -4973,9 +5231,9 @@
       "criticalResist": 15
     }
   },
-  "674e524064788cc741419e60": {
-    "id": "674e524064788cc741419e60",
-    "idShort": "7S",
+  "7S": {
+    "id": "7S",
+    "idDofusDB": "674e524064788cc741419e60",
     "idDofusBook": 13122,
     "name": {
       "fr": "Ceinture de Danathor",
@@ -4999,9 +5257,9 @@
       "criticalResist": 15
     }
   },
-  "674e524064788cc741419e65": {
-    "id": "674e524064788cc741419e65",
-    "idShort": "7e",
+  "7e": {
+    "id": "7e",
+    "idDofusDB": "674e524064788cc741419e65",
     "idDofusBook": 13128,
     "name": {
       "fr": "Ceinture de Léthaline",
@@ -5025,9 +5283,9 @@
       "apReduction": 5
     }
   },
-  "674e524064788cc741419e69": {
-    "id": "674e524064788cc741419e69",
-    "idShort": "6Z",
+  "6Z": {
+    "id": "6Z",
+    "idDofusDB": "674e524064788cc741419e69",
     "idDofusBook": 13132,
     "name": {
       "fr": "Ceinture d'Ogivol",
@@ -5057,9 +5315,9 @@
       "apReduction": 5
     }
   },
-  "674e524064788cc741419e6c": {
-    "id": "674e524064788cc741419e6c",
-    "idShort": "tI",
+  "tI": {
+    "id": "tI",
+    "idDofusDB": "674e524064788cc741419e6c",
     "idDofusBook": 13137,
     "name": {
       "fr": "Ceinture de Coffreté",
@@ -5080,9 +5338,9 @@
       "apReduction": 3
     }
   },
-  "674e524064788cc741419ed9": {
-    "id": "674e524064788cc741419ed9",
-    "idShort": "ee",
+  "ee": {
+    "id": "ee",
+    "idDofusDB": "674e524064788cc741419ed9",
     "idDofusBook": 13264,
     "name": {
       "fr": "Ceinture Blot",
@@ -5096,9 +5354,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524064788cc741419eff": {
-    "id": "674e524064788cc741419eff",
-    "idShort": "wW",
+  "wW": {
+    "id": "wW",
+    "idDofusDB": "674e524064788cc741419eff",
     "idDofusBook": 13303,
     "name": {
       "fr": "Ceinture Nikoti",
@@ -5116,9 +5374,9 @@
       "apResist": 4
     }
   },
-  "674e524064788cc741419f00": {
-    "id": "674e524064788cc741419f00",
-    "idShort": "yj",
+  "yj": {
+    "id": "yj",
+    "idDofusDB": "674e524064788cc741419f00",
     "idDofusBook": 13304,
     "name": {
       "fr": "Ceinture Teule",
@@ -5136,9 +5394,9 @@
       "mpResist": 5
     }
   },
-  "674e524064788cc741419f16": {
-    "id": "674e524064788cc741419f16",
-    "idShort": "gE",
+  "gE": {
+    "id": "gE",
+    "idDofusDB": "674e524064788cc741419f16",
     "idDofusBook": 13328,
     "name": {
       "fr": "Ceintrouille",
@@ -5166,9 +5424,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524064788cc741419f75": {
-    "id": "674e524064788cc741419f75",
-    "idShort": "Hv",
+  "Hv": {
+    "id": "Hv",
+    "idDofusDB": "674e524064788cc741419f75",
     "idDofusBook": 13423,
     "name": {
       "fr": "Slip de Rechange du Captain Chafer",
@@ -5184,9 +5442,9 @@
       "summon": 1
     }
   },
-  "674e524064788cc741419faf": {
-    "id": "674e524064788cc741419faf",
-    "idShort": "hu",
+  "hu": {
+    "id": "hu",
+    "idDofusDB": "674e524064788cc741419faf",
     "idDofusBook": 13485,
     "name": {
       "fr": "Krosmangle",
@@ -5212,42 +5470,9 @@
       "criticalResist": 10
     }
   },
-  "674e524064788cc74141a030": {
-    "id": "674e524064788cc74141a030",
-    "idShort": "66",
-    "idDofusBook": 13630,
-    "name": {
-      "fr": "Ceinture d'Henual",
-      "en": "Henual's Belt",
-      "pt": "Cinto de Henual",
-      "de": "Henuals Gürtel",
-      "es": "Cinturón de Henual"
-    },
-    "level": 197,
-    "panoply": "674e523f64788cc741418187",
-    "category": "belt",
-    "stats": {
-      "health": 300,
-      "strength": 50,
-      "intelligence": 50,
-      "wisdom": 50,
-      "criticalChance": 3,
-      "range": 1,
-      "neutralDamage": 15,
-      "earthDamage": 15,
-      "fireDamage": 15,
-      "prospecting": 20,
-      "earthResistPer": 8,
-      "neutralResist": 8,
-      "waterResist": 8,
-      "dodge": 10,
-      "mpReduction": -7,
-      "criticalResist": -11
-    }
-  },
-  "674e524064788cc74141a037": {
-    "id": "674e524064788cc74141a037",
-    "idShort": "6Y",
+  "6Y": {
+    "id": "6Y",
+    "idDofusDB": "674e524064788cc74141a037",
     "idDofusBook": 13637,
     "name": {
       "fr": "Ceinture de Nevark",
@@ -5273,9 +5498,9 @@
       "criticalDamage": -16
     }
   },
-  "674e524064788cc74141a0ed": {
-    "id": "674e524064788cc74141a0ed",
-    "idShort": "aI",
+  "aI": {
+    "id": "aI",
+    "idDofusDB": "674e524064788cc74141a0ed",
     "idDofusBook": 13851,
     "name": {
       "fr": "Ceinture du Frelon Noir",
@@ -5304,9 +5529,9 @@
       "mpResist": 4
     }
   },
-  "674e524164788cc74141a1b6": {
-    "id": "674e524164788cc74141a1b6",
-    "idShort": "5x",
+  "5x": {
+    "id": "5x",
+    "idDofusDB": "674e524164788cc74141a1b6",
     "idDofusBook": 14052,
     "name": {
       "fr": "Ceinture de Klime",
@@ -5332,9 +5557,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141a1bd": {
-    "id": "674e524164788cc74141a1bd",
-    "idShort": "6u",
+  "6u": {
+    "id": "6u",
+    "idDofusDB": "674e524164788cc74141a1bd",
     "idDofusBook": 14059,
     "name": {
       "fr": "Ceinture Glaciale",
@@ -5358,9 +5583,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141a1c7": {
-    "id": "674e524164788cc74141a1c7",
-    "idShort": "6q",
+  "6q": {
+    "id": "6q",
+    "idDofusDB": "674e524164788cc74141a1c7",
     "idDofusBook": 14069,
     "name": {
       "fr": "Ceinture Instable",
@@ -5384,9 +5609,9 @@
       "mpReduction": 12
     }
   },
-  "674e524164788cc74141a1ca": {
-    "id": "674e524164788cc74141a1ca",
-    "idShort": "6V",
+  "6V": {
+    "id": "6V",
+    "idDofusDB": "674e524164788cc74141a1ca",
     "idDofusBook": 14072,
     "name": {
       "fr": "Sangle de Sylargh",
@@ -5413,38 +5638,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a1d3": {
-    "id": "674e524164788cc74141a1d3",
-    "idShort": "53",
-    "idDofusBook": 14081,
-    "name": {
-      "fr": "Ceinture Séculaire",
-      "en": "Age-Old Belt",
-      "pt": "Cinto Secular",
-      "de": "Säkular-Gürtel",
-      "es": "Cinturón secular"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418194",
-    "category": "belt",
-    "stats": {
-      "health": 350,
-      "intelligence": 80,
-      "agility": 40,
-      "wisdom": 50,
-      "criticalChance": 7,
-      "range": 1,
-      "fireDamage": 10,
-      "heal": 10,
-      "initiative": 300,
-      "airResistPer": 10,
-      "dodge": 15,
-      "criticalDamage": 15
-    }
-  },
-  "674e524164788cc74141a1e1": {
-    "id": "674e524164788cc74141a1e1",
-    "idShort": "4Q",
+  "4Q": {
+    "id": "4Q",
+    "idDofusDB": "674e524164788cc74141a1e1",
     "idDofusBook": 14095,
     "name": {
       "fr": "Ceinture du Strigide",
@@ -5474,9 +5670,9 @@
       "criticalResist": -16
     }
   },
-  "674e524164788cc74141a1e4": {
-    "id": "674e524164788cc74141a1e4",
-    "idShort": "4N",
+  "4N": {
+    "id": "4N",
+    "idDofusDB": "674e524164788cc74141a1e4",
     "idDofusBook": 14098,
     "name": {
       "fr": "Ceinture du Nocturlabe",
@@ -5501,9 +5697,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141a1f0": {
-    "id": "674e524164788cc74141a1f0",
-    "idShort": "4L",
+  "4L": {
+    "id": "4L",
+    "idDofusDB": "674e524164788cc74141a1f0",
     "idDofusBook": 14130,
     "name": {
       "fr": "Sangle Aise",
@@ -5549,9 +5745,9 @@
       "criticalResist": 20
     }
   },
-  "674e524164788cc74141a210": {
-    "id": "674e524164788cc74141a210",
-    "idShort": "4I",
+  "4I": {
+    "id": "4I",
+    "idDofusDB": "674e524164788cc74141a210",
     "idDofusBook": 14162,
     "name": {
       "fr": "Sangle Ouare",
@@ -5580,9 +5776,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141a279": {
-    "id": "674e524164788cc74141a279",
-    "idShort": "6T",
+  "6T": {
+    "id": "6T",
+    "idDofusDB": "674e524164788cc74141a279",
     "idDofusBook": 14273,
     "name": {
       "fr": "Slip du Roi de Bonta",
@@ -5606,9 +5802,9 @@
       "mpResist": 8
     }
   },
-  "674e524164788cc74141a27d": {
-    "id": "674e524164788cc74141a27d",
-    "idShort": "i9",
+  "i9": {
+    "id": "i9",
+    "idDofusDB": "674e524164788cc74141a27d",
     "idDofusBook": 14277,
     "name": {
       "fr": "Ceinture Ding Dong",
@@ -5630,9 +5826,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a283": {
-    "id": "674e524164788cc74141a283",
-    "idShort": "6S",
+  "6S": {
+    "id": "6S",
+    "idDofusDB": "674e524164788cc74141a283",
     "idDofusBook": 14283,
     "name": {
       "fr": "Ceinture Hyolite",
@@ -5662,9 +5858,9 @@
       "mpResist": -11
     }
   },
-  "674e524164788cc74141a305": {
-    "id": "674e524164788cc74141a305",
-    "idShort": "kv",
+  "kv": {
+    "id": "kv",
+    "idDofusDB": "674e524164788cc74141a305",
     "idDofusBook": 14493,
     "name": {
       "fr": "Ceinture du Wa Wobot",
@@ -5687,9 +5883,9 @@
       "dodge": 10
     }
   },
-  "674e524164788cc74141a307": {
-    "id": "674e524164788cc74141a307",
-    "idShort": "ku",
+  "ku": {
+    "id": "ku",
+    "idDofusDB": "674e524164788cc74141a307",
     "idDofusBook": 14495,
     "name": {
       "fr": "Ceinture du Blanc Pa Wabbit",
@@ -5711,9 +5907,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a30e": {
-    "id": "674e524164788cc74141a30e",
-    "idShort": "fi",
+  "fi": {
+    "id": "fi",
+    "idDofusDB": "674e524164788cc74141a30e",
     "idDofusBook": 14502,
     "name": {
       "fr": "Ceinture du Wabbit Garou",
@@ -5738,9 +5934,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a33a": {
-    "id": "674e524164788cc74141a33a",
-    "idShort": "hf",
+  "hf": {
+    "id": "hf",
+    "idDofusDB": "674e524164788cc74141a33a",
     "idDofusBook": 14580,
     "name": {
       "fr": "Ceinture Hétorique",
@@ -5763,9 +5959,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141a33c": {
-    "id": "674e524164788cc74141a33c",
-    "idShort": "ju",
+  "ju": {
+    "id": "ju",
+    "idDofusDB": "674e524164788cc74141a33c",
     "idDofusBook": 14582,
     "name": {
       "fr": "Brighellanière",
@@ -5789,9 +5985,9 @@
       "pushbackResist": 10
     }
   },
-  "674e524164788cc74141a343": {
-    "id": "674e524164788cc74141a343",
-    "idShort": "H8",
+  "H8": {
+    "id": "H8",
+    "idDofusDB": "674e524164788cc74141a343",
     "idDofusBook": 14589,
     "name": {
       "fr": "Ceintulotté",
@@ -5807,9 +6003,9 @@
       "fireDamage": 2
     }
   },
-  "674e524164788cc74141a34f": {
-    "id": "674e524164788cc74141a34f",
-    "idShort": "H5",
+  "H5": {
+    "id": "H5",
+    "idDofusDB": "674e524164788cc74141a34f",
     "idDofusBook": 14601,
     "name": {
       "fr": "Slipwaïï",
@@ -5825,9 +6021,9 @@
       "chance": 15
     }
   },
-  "674e524164788cc74141a36b": {
-    "id": "674e524164788cc74141a36b",
-    "idShort": "GY",
+  "GY": {
+    "id": "GY",
+    "idDofusDB": "674e524164788cc74141a36b",
     "idDofusBook": 14629,
     "name": {
       "fr": "Makiture",
@@ -5844,9 +6040,9 @@
       "wisdom": 5
     }
   },
-  "674e524164788cc74141a374": {
-    "id": "674e524164788cc74141a374",
-    "idShort": "d9",
+  "d9": {
+    "id": "d9",
+    "idDofusDB": "674e524164788cc74141a374",
     "idDofusBook": 14638,
     "name": {
       "fr": "Nageoiture",
@@ -5873,9 +6069,9 @@
       "lock": -4
     }
   },
-  "674e524164788cc74141a37a": {
-    "id": "674e524164788cc74141a37a",
-    "idShort": "GX",
+  "GX": {
+    "id": "GX",
+    "idDofusDB": "674e524164788cc74141a37a",
     "idDofusBook": 14644,
     "name": {
       "fr": "Soubretture",
@@ -5891,9 +6087,9 @@
       "heal": 3
     }
   },
-  "674e524164788cc74141a414": {
-    "id": "674e524164788cc74141a414",
-    "idShort": "GW",
+  "GW": {
+    "id": "GW",
+    "idDofusDB": "674e524164788cc74141a414",
     "idDofusBook": 14798,
     "name": {
       "fr": "Ceinture du Samouraï",
@@ -5909,9 +6105,9 @@
       "dodge": 3
     }
   },
-  "674e524164788cc74141a47f": {
-    "id": "674e524164788cc74141a47f",
-    "idShort": "6Q",
+  "6Q": {
+    "id": "6Q",
+    "idDofusDB": "674e524164788cc74141a47f",
     "idDofusBook": 14930,
     "name": {
       "fr": "Obscture",
@@ -5941,9 +6137,9 @@
       "mpResist": -4
     }
   },
-  "674e524164788cc74141a4c8": {
-    "id": "674e524164788cc74141a4c8",
-    "idShort": "5p",
+  "5p": {
+    "id": "5p",
+    "idDofusDB": "674e524164788cc74141a4c8",
     "idDofusBook": 15009,
     "name": {
       "fr": "Ceinture du Père Fwetar",
@@ -5972,9 +6168,9 @@
       "criticalResist": 30
     }
   },
-  "674e524164788cc74141a4f4": {
-    "id": "674e524164788cc74141a4f4",
-    "idShort": "ac",
+  "ac": {
+    "id": "ac",
+    "idDofusDB": "674e524164788cc74141a4f4",
     "idDofusBook": 15060,
     "name": {
       "fr": "Ceinture du Kaniblou",
@@ -5999,9 +6195,9 @@
       "dodge": 5
     }
   },
-  "674e524164788cc74141a4f7": {
-    "id": "674e524164788cc74141a4f7",
-    "idShort": "ab",
+  "ab": {
+    "id": "ab",
+    "idDofusDB": "674e524164788cc74141a4f7",
     "idDofusBook": 15063,
     "name": {
       "fr": "Ceinture de l'Orfélin",
@@ -6028,9 +6224,9 @@
       "pushbackDamage": 12
     }
   },
-  "674e524164788cc74141a50e": {
-    "id": "674e524164788cc74141a50e",
-    "idShort": "E8",
+  "E8": {
+    "id": "E8",
+    "idDofusDB": "674e524164788cc74141a50e",
     "idDofusBook": 15099,
     "name": {
       "fr": "Ceinture Karnaval",
@@ -6049,9 +6245,9 @@
       "criticalDamage": -20
     }
   },
-  "674e524164788cc74141a557": {
-    "id": "674e524164788cc74141a557",
-    "idShort": "4y",
+  "4y": {
+    "id": "4y",
+    "idDofusDB": "674e524164788cc74141a557",
     "idDofusBook": 15185,
     "name": {
       "fr": "Ceinture du Barbétoal",
@@ -6078,9 +6274,9 @@
       "fireResistPer": 7
     }
   },
-  "674e524164788cc74141a565": {
-    "id": "674e524164788cc74141a565",
-    "idShort": "cY",
+  "cY": {
+    "id": "cY",
+    "idDofusDB": "674e524164788cc74141a565",
     "idDofusBook": 15199,
     "name": {
       "fr": "Ceinture Phossile",
@@ -6107,9 +6303,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141a567": {
-    "id": "674e524164788cc74141a567",
-    "idShort": "aC",
+  "aC": {
+    "id": "aC",
+    "idDofusDB": "674e524164788cc74141a567",
     "idDofusBook": 15201,
     "name": {
       "fr": "Ceinture du Père Phorreur",
@@ -6135,9 +6331,9 @@
       "lock": 10
     }
   },
-  "674e524164788cc74141a56c": {
-    "id": "674e524164788cc74141a56c",
-    "idShort": "he",
+  "he": {
+    "id": "he",
+    "idDofusDB": "674e524164788cc74141a56c",
     "idDofusBook": 15208,
     "name": {
       "fr": "Ceinture Précieuse",
@@ -6161,9 +6357,9 @@
       "airResistPer": 7
     }
   },
-  "674e524164788cc74141a571": {
-    "id": "674e524164788cc74141a571",
-    "idShort": "i7",
+  "i7": {
+    "id": "i7",
+    "idDofusDB": "674e524164788cc74141a571",
     "idDofusBook": 15213,
     "name": {
       "fr": "Ceinture du Berserkoffre",
@@ -6187,9 +6383,9 @@
       "lock": 7
     }
   },
-  "674e524164788cc74141a58d": {
-    "id": "674e524164788cc74141a58d",
-    "idShort": "IP",
+  "IP": {
+    "id": "IP",
+    "idDofusDB": "674e524164788cc74141a58d",
     "idDofusBook": 15241,
     "name": {
       "fr": "Kamature",
@@ -6204,9 +6400,9 @@
       "prospecting": 5
     }
   },
-  "674e524164788cc74141a5f5": {
-    "id": "674e524164788cc74141a5f5",
-    "idShort": "eI",
+  "eI": {
+    "id": "eI",
+    "idDofusDB": "674e524164788cc74141a5f5",
     "idDofusBook": 15357,
     "name": {
       "fr": "Ceintruche",
@@ -6231,9 +6427,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141a63a": {
-    "id": "674e524164788cc74141a63a",
-    "idShort": "4k",
+  "4k": {
+    "id": "4k",
+    "idDofusDB": "674e524164788cc74141a63a",
     "idDofusBook": 15429,
     "name": {
       "fr": "Ceinture de la Cour Sombre",
@@ -6261,9 +6457,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141a63d": {
-    "id": "674e524164788cc74141a63d",
-    "idShort": "4h",
+  "4h": {
+    "id": "4h",
+    "idDofusDB": "674e524164788cc74141a63d",
     "idDofusBook": 15432,
     "name": {
       "fr": "Ceinture de Gein",
@@ -6290,9 +6486,9 @@
       "criticalDamage": 25
     }
   },
-  "674e524164788cc74141a63f": {
-    "id": "674e524164788cc74141a63f",
-    "idShort": "4f",
+  "4f": {
+    "id": "4f",
+    "idDofusDB": "674e524164788cc74141a63f",
     "idDofusBook": 15434,
     "name": {
       "fr": "Ceinture de la Reine des Voleurs",
@@ -6319,9 +6515,9 @@
       "criticalResist": 30
     }
   },
-  "674e524164788cc74141a683": {
-    "id": "674e524164788cc74141a683",
-    "idShort": "eH",
+  "eH": {
+    "id": "eH",
+    "idDofusDB": "674e524164788cc74141a683",
     "idDofusBook": 15506,
     "name": {
       "fr": "Ceinture du Capitaine Ekarlatte",
@@ -6349,9 +6545,9 @@
       "fireResistPer": 7
     }
   },
-  "674e524164788cc74141a6ad": {
-    "id": "674e524164788cc74141a6ad",
-    "idShort": "BY",
+  "BY": {
+    "id": "BY",
+    "idDofusDB": "674e524164788cc74141a6ad",
     "idDofusBook": 15548,
     "name": {
       "fr": "Ceinture Verréhor",
@@ -6369,9 +6565,9 @@
       "wisdom": 15
     }
   },
-  "674e524164788cc74141a73d": {
-    "id": "674e524164788cc74141a73d",
-    "idShort": "3Z",
+  "3Z": {
+    "id": "3Z",
+    "idDofusDB": "674e524164788cc74141a73d",
     "idDofusBook": 15699,
     "name": {
       "fr": "Ceintacé",
@@ -6418,9 +6614,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141a73e": {
-    "id": "674e524164788cc74141a73e",
-    "idShort": "3Y",
+  "3Y": {
+    "id": "3Y",
+    "idDofusDB": "674e524164788cc74141a73e",
     "idDofusBook": 15700,
     "name": {
       "fr": "Protopagne",
@@ -6445,9 +6641,9 @@
       "criticalResist": 25
     }
   },
-  "674e524164788cc74141a769": {
-    "id": "674e524164788cc74141a769",
-    "idShort": "3Q",
+  "3Q": {
+    "id": "3Q",
+    "idDofusDB": "674e524164788cc74141a769",
     "idDofusBook": 15743,
     "name": {
       "fr": "Ceinture de Vortex",
@@ -6474,9 +6670,9 @@
       "apReduction": 5
     }
   },
-  "674e524164788cc74141a770": {
-    "id": "674e524164788cc74141a770",
-    "idShort": "3J",
+  "3J": {
+    "id": "3J",
+    "idDofusDB": "674e524164788cc74141a770",
     "idDofusBook": 15750,
     "name": {
       "fr": "Ceintrigue",
@@ -6502,9 +6698,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141a77d": {
-    "id": "674e524164788cc74141a77d",
-    "idShort": "9k",
+  "9k": {
+    "id": "9k",
+    "idDofusDB": "674e524164788cc74141a77d",
     "idDofusBook": 15764,
     "name": {
       "fr": "Ceinture de XLII",
@@ -6532,9 +6728,9 @@
       "lock": 7
     }
   },
-  "674e524164788cc74141a784": {
-    "id": "674e524164788cc74141a784",
-    "idShort": "9e",
+  "9e": {
+    "id": "9e",
+    "idDofusDB": "674e524164788cc74141a784",
     "idDofusBook": 15771,
     "name": {
       "fr": "Ceinture de Soissanth",
@@ -6561,9 +6757,9 @@
       "airResist": 10
     }
   },
-  "674e524164788cc74141a78d": {
-    "id": "674e524164788cc74141a78d",
-    "idShort": "fm",
+  "fm": {
+    "id": "fm",
+    "idDofusDB": "674e524164788cc74141a78d",
     "idDofusBook": 15780,
     "name": {
       "fr": "Ceinture de Fraktale",
@@ -6586,9 +6782,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141a85c": {
-    "id": "674e524164788cc74141a85c",
-    "idShort": "mG",
+  "mG": {
+    "id": "mG",
+    "idDofusDB": "674e524164788cc74141a85c",
     "idDofusBook": 15997,
     "name": {
       "fr": "Ceinture Anesthésiante",
@@ -6608,9 +6804,9 @@
       "heal": 5
     }
   },
-  "674e524164788cc74141a862": {
-    "id": "674e524164788cc74141a862",
-    "idShort": "eG",
+  "eG": {
+    "id": "eG",
+    "idDofusDB": "674e524164788cc74141a862",
     "idDofusBook": 16003,
     "name": {
       "fr": "String Fouetteur",
@@ -6633,9 +6829,9 @@
       "airDamage": 15
     }
   },
-  "674e524164788cc74141a8b5": {
-    "id": "674e524164788cc74141a8b5",
-    "idShort": "ea",
+  "ea": {
+    "id": "ea",
+    "idDofusDB": "674e524164788cc74141a8b5",
     "idDofusBook": 16143,
     "name": {
       "fr": "Ceinture Billonnante",
@@ -6649,9 +6845,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524164788cc74141a8d6": {
-    "id": "674e524164788cc74141a8d6",
-    "idShort": "jX",
+  "jX": {
+    "id": "jX",
+    "idDofusDB": "674e524164788cc74141a8d6",
     "idDofusBook": 16178,
     "name": {
       "fr": "Gaine Nyée",
@@ -6675,9 +6871,9 @@
       "apResist": 5
     }
   },
-  "674e524164788cc74141ab51": {
-    "id": "674e524164788cc74141ab51",
-    "idShort": "zN",
+  "zN": {
+    "id": "zN",
+    "idDofusDB": "674e524164788cc74141ab51",
     "idDofusBook": 17012,
     "name": {
       "fr": "Ceinture du chasseur",
@@ -6694,9 +6890,9 @@
       "dodge": 4
     }
   },
-  "674e524164788cc74141ab94": {
-    "id": "674e524164788cc74141ab94",
-    "idShort": "9M",
+  "9M": {
+    "id": "9M",
+    "idDofusDB": "674e524164788cc74141ab94",
     "idDofusBook": 17096,
     "name": {
       "fr": "Ceinture du Bretteur Céleste",
@@ -6724,9 +6920,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141ab97": {
-    "id": "674e524164788cc74141ab97",
-    "idShort": "aH",
+  "aH": {
+    "id": "aH",
+    "idDofusDB": "674e524164788cc74141ab97",
     "idDofusBook": 17099,
     "name": {
       "fr": "Ceinture de Zatoïshwan",
@@ -6754,9 +6950,9 @@
       "lock": 5
     }
   },
-  "674e524164788cc74141ab9c": {
-    "id": "674e524164788cc74141ab9c",
-    "idShort": "3C",
+  "3C": {
+    "id": "3C",
+    "idDofusDB": "674e524164788cc74141ab9c",
     "idDofusBook": 17104,
     "name": {
       "fr": "Ceinture Voldelor",
@@ -6784,9 +6980,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141aba0": {
-    "id": "674e524164788cc74141aba0",
-    "idShort": "3z",
+  "3z": {
+    "id": "3z",
+    "idDofusDB": "674e524164788cc74141aba0",
     "idDofusBook": 17108,
     "name": {
       "fr": "Ceinture de Kongoku",
@@ -6814,39 +7010,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141abab": {
-    "id": "674e524164788cc74141abab",
-    "idShort": "89",
-    "idDofusBook": 17119,
-    "name": {
-      "fr": "Ceinture du K.O.",
-      "en": "KOs' Belt",
-      "pt": "Cinto do K.O.",
-      "de": "K.Os-Gürtel",
-      "es": "Cinturón de Kaos"
-    },
-    "level": 183,
-    "panoply": "674e523f64788cc7414181e5",
-    "category": "belt",
-    "stats": {
-      "health": 300,
-      "strength": 50,
-      "intelligence": 50,
-      "wisdom": 40,
-      "criticalChance": 5,
-      "range": 1,
-      "neutralDamage": 12,
-      "earthDamage": 12,
-      "fireDamage": 12,
-      "initiative": 400,
-      "waterResistPer": 7,
-      "apResist": 5,
-      "pushbackDamage": 20
-    }
-  },
-  "674e524164788cc74141ac0a": {
-    "id": "674e524164788cc74141ac0a",
-    "idShort": "qw",
+  "qw": {
+    "id": "qw",
+    "idDofusDB": "674e524164788cc74141ac0a",
     "idDofusBook": 17214,
     "name": {
       "fr": "Culotte des 1001 Griffes",
@@ -6866,9 +7032,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141ac5f": {
-    "id": "674e524164788cc74141ac5f",
-    "idShort": "BS",
+  "BS": {
+    "id": "BS",
+    "idDofusDB": "674e524164788cc74141ac5f",
     "idDofusBook": 17300,
     "name": {
       "fr": "Ceinture des Grocoricos",
@@ -6886,9 +7052,9 @@
       "wisdom": 15
     }
   },
-  "674e524164788cc74141ac60": {
-    "id": "674e524164788cc74141ac60",
-    "idShort": "zL",
+  "zL": {
+    "id": "zL",
+    "idDofusDB": "674e524164788cc74141ac60",
     "idDofusBook": 17301,
     "name": {
       "fr": "Ceinture des Redroz",
@@ -6906,9 +7072,9 @@
       "wisdom": 15
     }
   },
-  "674e524164788cc74141ac61": {
-    "id": "674e524164788cc74141ac61",
-    "idShort": "BR",
+  "BR": {
+    "id": "BR",
+    "idDofusDB": "674e524164788cc74141ac61",
     "idDofusBook": 17302,
     "name": {
       "fr": "Ceinture des Pamous",
@@ -6926,9 +7092,9 @@
       "wisdom": 15
     }
   },
-  "674e524164788cc74141ac62": {
-    "id": "674e524164788cc74141ac62",
-    "idShort": "BQ",
+  "BQ": {
+    "id": "BQ",
+    "idDofusDB": "674e524164788cc74141ac62",
     "idDofusBook": 17303,
     "name": {
       "fr": "Ceinture des Zoblaks",
@@ -6946,9 +7112,9 @@
       "wisdom": 15
     }
   },
-  "674e524164788cc74141ac84": {
-    "id": "674e524164788cc74141ac84",
-    "idShort": "e9",
+  "e9": {
+    "id": "e9",
+    "idDofusDB": "674e524164788cc74141ac84",
     "idDofusBook": 17451,
     "name": {
       "fr": "L'Élémenture",
@@ -6962,9 +7128,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524164788cc74141acb2": {
-    "id": "674e524164788cc74141acb2",
-    "idShort": "GP",
+  "GP": {
+    "id": "GP",
+    "idDofusDB": "674e524164788cc74141acb2",
     "idDofusBook": 17502,
     "name": {
       "fr": "Slip de Khan Karkass",
@@ -6981,9 +7147,9 @@
       "lock": 3
     }
   },
-  "674e524164788cc74141acb3": {
-    "id": "674e524164788cc74141acb3",
-    "idShort": "zH",
+  "zH": {
+    "id": "zH",
+    "idDofusDB": "674e524164788cc74141acb3",
     "idDofusBook": 17503,
     "name": {
       "fr": "Ceinture du Monarque",
@@ -7001,9 +7167,9 @@
       "pods": 200
     }
   },
-  "674e524164788cc74141acb6": {
-    "id": "674e524164788cc74141acb6",
-    "idShort": "At",
+  "At": {
+    "id": "At",
+    "idDofusDB": "674e524164788cc74141acb6",
     "idDofusBook": 17506,
     "name": {
       "fr": "Ceinture du Garde Royal",
@@ -7022,9 +7188,9 @@
       "criticalChance": 3
     }
   },
-  "674e524164788cc74141acf4": {
-    "id": "674e524164788cc74141acf4",
-    "idShort": "9X",
+  "9X": {
+    "id": "9X",
+    "idDofusDB": "674e524164788cc74141acf4",
     "idDofusBook": 17591,
     "name": {
       "fr": "Ceinture des Matougarous",
@@ -7050,9 +7216,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141acf7": {
-    "id": "674e524164788cc74141acf7",
-    "idShort": "fV",
+  "fV": {
+    "id": "fV",
+    "idDofusDB": "674e524164788cc74141acf7",
     "idDofusBook": 17594,
     "name": {
       "fr": "Ceinture du Pounicheur",
@@ -7079,9 +7245,9 @@
       "apReduction": 3
     }
   },
-  "674e524164788cc74141ad7e": {
-    "id": "674e524164788cc74141ad7e",
-    "idShort": "zF",
+  "zF": {
+    "id": "zF",
+    "idDofusDB": "674e524164788cc74141ad7e",
     "idDofusBook": 17734,
     "name": {
       "fr": "Ceinture Dragocourse",
@@ -7099,9 +7265,9 @@
       "initiative": 100
     }
   },
-  "674e524164788cc74141ae69": {
-    "id": "674e524164788cc74141ae69",
-    "idShort": "3c",
+  "3c": {
+    "id": "3c",
+    "idDofusDB": "674e524164788cc74141ae69",
     "idDofusBook": 18006,
     "name": {
       "fr": "Poulpagne",
@@ -7145,116 +7311,9 @@
       "apResist": 15
     }
   },
-  "674e524164788cc74141ae6c": {
-    "id": "674e524164788cc74141ae6c",
-    "idShort": "39",
-    "idDofusBook": 18009,
-    "name": {
-      "fr": "Menoture",
-      "en": "Menobelt",
-      "pt": "Menocinto",
-      "de": "Menogürtel",
-      "es": "Menoturón"
-    },
-    "level": 200,
-    "category": "belt",
-    "requirements": [
-      [
-        {
-          "stat": "ap",
-          "type": "lessThan",
-          "value": 12
-        },
-        {
-          "stat": "mp",
-          "type": "lessThan",
-          "value": 6
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "apLessThanOrMpLessThan",
-      "value": 12,
-      "value2": 6
-    },
-    "criterions": "CP<12|CM<6",
-    "stats": {
-      "health": 350,
-      "agility": 80,
-      "wisdom": 40,
-      "criticalChance": 6,
-      "ap": 1,
-      "airDamage": 20,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "apReduction": 12
-    }
-  },
-  "674e524164788cc74141ae76": {
-    "id": "674e524164788cc74141ae76",
-    "idShort": "38",
-    "idDofusBook": 18019,
-    "name": {
-      "fr": "Ceintouse",
-      "en": "Sashucker",
-      "pt": "Cintosa",
-      "de": "Saugnapfbund",
-      "es": "Cintuventosa"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414181f3",
-    "category": "belt",
-    "stats": {
-      "health": 350,
-      "strength": 60,
-      "agility": 60,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "neutralDamage": 12,
-      "earthDamage": 12,
-      "airDamage": 12,
-      "fireResistPer": 10,
-      "airResistPer": 10,
-      "lock": 10,
-      "apReduction": 6
-    }
-  },
-  "674e524164788cc74141ae7d": {
-    "id": "674e524164788cc74141ae7d",
-    "idShort": "31",
-    "idDofusBook": 18026,
-    "name": {
-      "fr": "Ceinture de l'Indicible",
-      "en": "Belt of the Unspeakable",
-      "pt": "Cinto do indizível",
-      "de": "Gürtel des Unaussprechlichen",
-      "es": "Cinturón de lo indecible"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc7414181f6",
-    "category": "belt",
-    "stats": {
-      "health": 300,
-      "strength": 40,
-      "intelligence": 40,
-      "chance": 40,
-      "agility": 40,
-      "wisdom": 40,
-      "criticalChance": 4,
-      "range": 1,
-      "neutralDamage": 12,
-      "earthDamage": 12,
-      "fireDamage": 12,
-      "waterDamage": 12,
-      "airDamage": 12,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "dodge": 10
-    }
-  },
-  "674e524164788cc74141ae84": {
-    "id": "674e524164788cc74141ae84",
-    "idShort": "2V",
+  "2V": {
+    "id": "2V",
+    "idDofusDB": "674e524164788cc74141ae84",
     "idDofusBook": 18033,
     "name": {
       "fr": "Ceinture Luminescente",
@@ -7283,9 +7342,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141af33": {
-    "id": "674e524164788cc74141af33",
-    "idShort": "u4",
+  "u4": {
+    "id": "u4",
+    "idDofusDB": "674e524164788cc74141af33",
     "idDofusBook": 18229,
     "name": {
       "fr": "Ceinturonce",
@@ -7307,9 +7366,9 @@
       "dodge": -2
     }
   },
-  "674e524164788cc74141aff4": {
-    "id": "674e524164788cc74141aff4",
-    "idShort": "kR",
+  "kR": {
+    "id": "kR",
+    "idDofusDB": "674e524164788cc74141aff4",
     "idDofusBook": 18428,
     "name": {
       "fr": "String Léolhyène",
@@ -7333,9 +7392,9 @@
       "mpResist": 3
     }
   },
-  "674e524164788cc74141aff9": {
-    "id": "674e524164788cc74141aff9",
-    "idShort": "dI",
+  "dI": {
+    "id": "dI",
+    "idDofusDB": "674e524164788cc74141aff9",
     "idDofusBook": 18433,
     "name": {
       "fr": "Cacture",
@@ -7363,9 +7422,9 @@
       "criticalDamage": 15
     }
   },
-  "674e524164788cc74141b040": {
-    "id": "674e524164788cc74141b040",
-    "idShort": "wl",
+  "wl": {
+    "id": "wl",
+    "idDofusDB": "674e524164788cc74141b040",
     "idDofusBook": 18529,
     "name": {
       "fr": "Lainture",
@@ -7384,38 +7443,9 @@
       "waterResistPer": 3
     }
   },
-  "674e524164788cc74141b076": {
-    "id": "674e524164788cc74141b076",
-    "idShort": "92",
-    "idDofusBook": 18585,
-    "name": {
-      "fr": "Ceintrémorse",
-      "en": "Beltrus",
-      "pt": "Cintremorsa",
-      "de": "Sandzeckürtel",
-      "es": "Cintomorso"
-    },
-    "level": 173,
-    "panoply": "674e523f64788cc7414181fe",
-    "category": "belt",
-    "stats": {
-      "health": 200,
-      "chance": 40,
-      "agility": 40,
-      "wisdom": 30,
-      "criticalChance": 3,
-      "waterDamage": 7,
-      "airDamage": 7,
-      "heal": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "mpReduction": 6,
-      "pushbackResist": 12
-    }
-  },
-  "674e524164788cc74141b083": {
-    "id": "674e524164788cc74141b083",
-    "idShort": "2O",
+  "2O": {
+    "id": "2O",
+    "idDofusDB": "674e524164788cc74141b083",
     "idDofusBook": 18598,
     "name": {
       "fr": "Pagne du Rykaon",
@@ -7443,9 +7473,9 @@
       "criticalDamage": 20
     }
   },
-  "674e524164788cc74141b093": {
-    "id": "674e524164788cc74141b093",
-    "idShort": "e6",
+  "e6": {
+    "id": "e6",
+    "idDofusDB": "674e524164788cc74141b093",
     "idDofusBook": 18622,
     "name": {
       "fr": "Ceinture Leumant",
@@ -7459,9 +7489,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524164788cc74141b09d": {
-    "id": "674e524164788cc74141b09d",
-    "idShort": "BA",
+  "BA": {
+    "id": "BA",
+    "idDofusDB": "674e524164788cc74141b09d",
     "idDofusBook": 18639,
     "name": {
       "fr": "Ceinture du Molosse",
@@ -7481,9 +7511,9 @@
       "mpResist": 5
     }
   },
-  "674e524164788cc74141b11d": {
-    "id": "674e524164788cc74141b11d",
-    "idShort": "6N",
+  "6N": {
+    "id": "6N",
+    "idDofusDB": "674e524164788cc74141b11d",
     "idDofusBook": 18774,
     "name": {
       "fr": "Ceinture du Comte Razof",
@@ -7511,9 +7541,9 @@
       "apReduction": 7
     }
   },
-  "674e524164788cc74141b13f": {
-    "id": "674e524164788cc74141b13f",
-    "idShort": "zB",
+  "zB": {
+    "id": "zB",
+    "idDofusDB": "674e524164788cc74141b13f",
     "idDofusBook": 18808,
     "name": {
       "fr": "Magture",
@@ -7532,9 +7562,9 @@
       "fireDamage": 5
     }
   },
-  "674e524164788cc74141b1e7": {
-    "id": "674e524164788cc74141b1e7",
-    "idShort": "jt",
+  "jt": {
+    "id": "jt",
+    "idDofusDB": "674e524164788cc74141b1e7",
     "idDofusBook": 19092,
     "name": {
       "fr": "Pagne du Muloubar",
@@ -7559,9 +7589,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524164788cc74141b270": {
-    "id": "674e524164788cc74141b270",
-    "idShort": "2m",
+  "2m": {
+    "id": "2m",
+    "idDofusDB": "674e524164788cc74141b270",
     "idDofusBook": 19247,
     "name": {
       "fr": "Ceinture de l'Esprit Salvateur",
@@ -7590,9 +7620,9 @@
       "dodge": 10
     }
   },
-  "674e524164788cc74141b273": {
-    "id": "674e524164788cc74141b273",
-    "idShort": "2j",
+  "2j": {
+    "id": "2j",
+    "idDofusDB": "674e524164788cc74141b273",
     "idDofusBook": 19250,
     "name": {
       "fr": "Ceinture de l'Esprit Malsain",
@@ -7619,9 +7649,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141b39f": {
-    "id": "674e524164788cc74141b39f",
-    "idShort": "1V",
+  "1V": {
+    "id": "1V",
+    "idDofusDB": "674e524164788cc74141b39f",
     "idDofusBook": 19596,
     "name": {
       "fr": "Ceinture Gence",
@@ -7668,9 +7698,9 @@
       "pushbackDamage": 25
     }
   },
-  "674e524164788cc74141b3a2": {
-    "id": "674e524164788cc74141b3a2",
-    "idShort": "1S",
+  "1S": {
+    "id": "1S",
+    "idDofusDB": "674e524164788cc74141b3a2",
     "idDofusBook": 19599,
     "name": {
       "fr": "Sangle Oriole",
@@ -7696,9 +7726,9 @@
       "criticalDamage": 12
     }
   },
-  "674e524164788cc74141b3a5": {
-    "id": "674e524164788cc74141b3a5",
-    "idShort": "1P",
+  "1P": {
+    "id": "1P",
+    "idDofusDB": "674e524164788cc74141b3a5",
     "idDofusBook": 19602,
     "name": {
       "fr": "Culotte de Bethel",
@@ -7727,9 +7757,9 @@
       "pushbackResist": 25
     }
   },
-  "674e524164788cc74141b515": {
-    "id": "674e524164788cc74141b515",
-    "idShort": "1I",
+  "1I": {
+    "id": "1I",
+    "idDofusDB": "674e524164788cc74141b515",
     "idDofusBook": 19976,
     "name": {
       "fr": "Ceinture en Grithril",
@@ -7755,9 +7785,9 @@
       "criticalResist": 25
     }
   },
-  "674e524164788cc74141b51c": {
-    "id": "674e524164788cc74141b51c",
-    "idShort": "1B",
+  "1B": {
+    "id": "1B",
+    "idDofusDB": "674e524164788cc74141b51c",
     "idDofusBook": 19983,
     "name": {
       "fr": "Ceinture Volkorne",
@@ -7781,9 +7811,9 @@
       "earthResistPer": 10
     }
   },
-  "674e524164788cc74141b67b": {
-    "id": "674e524164788cc74141b67b",
-    "idShort": "1q",
+  "1q": {
+    "id": "1q",
+    "idDofusDB": "674e524164788cc74141b67b",
     "idDofusBook": 20365,
     "name": {
       "fr": "Audace de Dodge",
@@ -7810,9 +7840,9 @@
       "pushbackDamage": 40
     }
   },
-  "674e524164788cc74141b67c": {
-    "id": "674e524164788cc74141b67c",
-    "idShort": "1p",
+  "1p": {
+    "id": "1p",
+    "idDofusDB": "674e524164788cc74141b67c",
     "idDofusBook": 20366,
     "name": {
       "fr": "Courage de Dame Jhessica",
@@ -7835,9 +7865,9 @@
       "spellDamagePer": 2
     }
   },
-  "674e524164788cc74141b7fd": {
-    "id": "674e524164788cc74141b7fd",
-    "idShort": "tc",
+  "tc": {
+    "id": "tc",
+    "idDofusDB": "674e524164788cc74141b7fd",
     "idDofusBook": 20851,
     "name": {
       "fr": "Ceinture Amincissante",
@@ -7858,9 +7888,9 @@
       "dodge": 6
     }
   },
-  "674e524164788cc74141b845": {
-    "id": "674e524164788cc74141b845",
-    "idShort": "1j",
+  "1j": {
+    "id": "1j",
+    "idDofusDB": "674e524164788cc74141b845",
     "idDofusBook": 20925,
     "name": {
       "fr": "Ceinture des Chocomanciens",
@@ -7889,9 +7919,9 @@
       "pushbackResist": -20
     }
   },
-  "674e524164788cc74141b95a": {
-    "id": "674e524164788cc74141b95a",
-    "idShort": "1g",
+  "1g": {
+    "id": "1g",
+    "idDofusDB": "674e524164788cc74141b95a",
     "idDofusBook": 21224,
     "name": {
       "fr": "Croture",
@@ -7916,39 +7946,9 @@
       "pushbackDamage": 15
     }
   },
-  "674e524164788cc74141bceb": {
-    "id": "674e524164788cc74141bceb",
-    "idShort": "17",
-    "idDofusBook": 22188,
-    "name": {
-      "fr": "Corset de Misère",
-      "en": "Misery's Girdle",
-      "pt": "Corpete de Miséria",
-      "de": "Elends Korsage",
-      "es": "Corsé de Miseria"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418222",
-    "category": "belt",
-    "stats": {
-      "health": 400,
-      "strength": 70,
-      "intelligence": 70,
-      "wisdom": 30,
-      "criticalChance": 3,
-      "earthDamage": 12,
-      "fireDamage": 12,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
-      "lock": -10,
-      "apResist": 10,
-      "mpResist": 10,
-      "criticalDamage": 20
-    }
-  },
-  "674e524164788cc74141bcfb": {
-    "id": "674e524164788cc74141bcfb",
-    "idShort": "0X",
+  "0X": {
+    "id": "0X",
+    "idDofusDB": "674e524164788cc74141bcfb",
     "idDofusBook": 22209,
     "name": {
       "fr": "Ceinturonce de Corruption",
@@ -7975,9 +7975,9 @@
       "criticalDamage": 20
     }
   },
-  "674e524164788cc74141bdb7": {
-    "id": "674e524164788cc74141bdb7",
-    "idShort": "0T",
+  "0T": {
+    "id": "0T",
+    "idDofusDB": "674e524164788cc74141bdb7",
     "idDofusBook": 22429,
     "name": {
       "fr": "Étreinte de Servitude",
@@ -8005,9 +8005,9 @@
       "rangedResistPer": 10
     }
   },
-  "674e524164788cc74141bf26": {
-    "id": "674e524164788cc74141bf26",
-    "idShort": "e3",
+  "e3": {
+    "id": "e3",
+    "idDofusDB": "674e524164788cc74141bf26",
     "idDofusBook": 23265,
     "name": {
       "fr": "Ceinture Pitude",
@@ -8032,9 +8032,9 @@
       "mpReduction": 6
     }
   },
-  "674e524164788cc74141bf2c": {
-    "id": "674e524164788cc74141bf2c",
-    "idShort": "dp",
+  "dp": {
+    "id": "dp",
+    "idDofusDB": "674e524164788cc74141bf2c",
     "idDofusBook": 23271,
     "name": {
       "fr": "Ceinture d'artifices",
@@ -8059,9 +8059,9 @@
       "dodge": 10
     }
   },
-  "674e524164788cc74141c079": {
-    "id": "674e524164788cc74141c079",
-    "idShort": "a9",
+  "a9": {
+    "id": "a9",
+    "idDofusDB": "674e524164788cc74141c079",
     "idDofusBook": 23620,
     "name": {
       "fr": "Ceinture de Tsukinochi",
@@ -8091,9 +8091,9 @@
       "apReduction": 5
     }
   },
-  "674e524164788cc74141c07d": {
-    "id": "674e524164788cc74141c07d",
-    "idShort": "9q",
+  "9q": {
+    "id": "9q",
+    "idDofusDB": "674e524164788cc74141c07d",
     "idDofusBook": 23624,
     "name": {
       "fr": "Ceinture d'Onigori",
@@ -8120,9 +8120,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141c1fa": {
-    "id": "674e524164788cc74141c1fa",
-    "idShort": "0R",
+  "0R": {
+    "id": "0R",
+    "idDofusDB": "674e524164788cc74141c1fa",
     "idDofusBook": 24023,
     "name": {
       "fr": "Sangle Icisme",
@@ -8153,9 +8153,9 @@
       "mpResist": 12
     }
   },
-  "674e524164788cc74141c36c": {
-    "id": "674e524164788cc74141c36c",
-    "idShort": "0H",
+  "0H": {
+    "id": "0H",
+    "idDofusDB": "674e524164788cc74141c36c",
     "idDofusBook": 25216,
     "name": {
       "fr": "Ceinture Possédée",
@@ -8183,9 +8183,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141c4f9": {
-    "id": "674e524164788cc74141c4f9",
-    "idShort": "0v",
+  "0v": {
+    "id": "0v",
+    "idDofusDB": "674e524164788cc74141c4f9",
     "idDofusBook": 26023,
     "name": {
       "fr": "Bois de la Liche",
@@ -8220,9 +8220,9 @@
       "pushbackResist": 8
     }
   },
-  "674e524164788cc74141c622": {
-    "id": "674e524164788cc74141c622",
-    "idShort": "AL",
+  "AL": {
+    "id": "AL",
+    "idDofusDB": "674e524164788cc74141c622",
     "idDofusBook": 26343,
     "name": {
       "fr": "Ceinture du Directeur Grunob",
@@ -8241,9 +8241,9 @@
       "dodge": 5
     }
   },
-  "674e524164788cc74141c940": {
-    "id": "674e524164788cc74141c940",
-    "idShort": "tu",
+  "tu": {
+    "id": "tu",
+    "idDofusDB": "674e524164788cc74141c940",
     "idDofusBook": 27535,
     "name": {
       "fr": "Ceinture de trappeur albueran",
@@ -8265,9 +8265,9 @@
       "apReduction": -10
     }
   },
-  "674e524164788cc74141c947": {
-    "id": "674e524164788cc74141c947",
-    "idShort": "7x",
+  "7x": {
+    "id": "7x",
+    "idDofusDB": "674e524164788cc74141c947",
     "idDofusBook": 27542,
     "name": {
       "fr": "Subligar de Barbéryl",
@@ -8293,9 +8293,9 @@
       "criticalDamage": 10
     }
   },
-  "674e524164788cc74141c951": {
-    "id": "674e524164788cc74141c951",
-    "idShort": "e0",
+  "e0": {
+    "id": "e0",
+    "idDofusDB": "674e524164788cc74141c951",
     "idDofusBook": 27553,
     "name": {
       "fr": "Baudrier Popée",
@@ -8309,9 +8309,9 @@
     "category": "belt",
     "stats": {}
   },
-  "674e524164788cc74141d1ca": {
-    "id": "674e524164788cc74141d1ca",
-    "idShort": "0j",
+  "0j": {
+    "id": "0j",
+    "idDofusDB": "674e524164788cc74141d1ca",
     "idDofusBook": 30856,
     "name": {
       "fr": "Slip du Captain Chafer",
@@ -8339,9 +8339,9 @@
       "mpResist": 10
     }
   },
-  "674e524164788cc74141d1d0": {
-    "id": "674e524164788cc74141d1d0",
-    "idShort": "0f",
+  "0f": {
+    "id": "0f",
+    "idDofusDB": "674e524164788cc74141d1d0",
     "idDofusBook": 30862,
     "name": {
       "fr": "Tabard du Dark Vlad",
@@ -8377,9 +8377,9 @@
       "waterResist": -11
     }
   },
-  "687f71551c815173560617fd": {
-    "id": "687f71551c815173560617fd",
-    "idShort": "09",
+  "09": {
+    "id": "09",
+    "idDofusDB": "687f71551c815173560617fd",
     "idDofusBook": 31762,
     "name": {
       "fr": "Pagne Rhoarim",
@@ -8407,9 +8407,9 @@
       "criticalDamage": 15
     }
   },
-  "687f71551c81517356061801": {
-    "id": "687f71551c81517356061801",
-    "idShort": "5Q",
+  "5Q": {
+    "id": "5Q",
+    "idDofusDB": "687f71551c81517356061801",
     "idDofusBook": 31766,
     "name": {
       "fr": "Zarbaudrier",
@@ -8440,9 +8440,9 @@
       "pushbackResist": 20
     }
   },
-  "687f71551c81517356061807": {
-    "id": "687f71551c81517356061807",
-    "idShort": "5K",
+  "5K": {
+    "id": "5K",
+    "idDofusDB": "687f71551c81517356061807",
     "idDofusBook": 31772,
     "name": {
       "fr": "Ceinture des Voyageurs",
@@ -8468,9 +8468,9 @@
       "apResist": 10
     }
   },
-  "687f71551c8151735606181b": {
-    "id": "687f71551c8151735606181b",
-    "idShort": "9b",
+  "9b": {
+    "id": "9b",
+    "idDofusDB": "687f71551c8151735606181b",
     "idDofusBook": 31792,
     "name": {
       "fr": "Pagne de Kabombz",

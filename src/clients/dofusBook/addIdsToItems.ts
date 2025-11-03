@@ -43,7 +43,7 @@ const weaponsDofusBook: DofusBookItem = await Bun.file(
 ).json();
 
 await itemDB.loadItems();
-let shortId = "Z";
+let dofusMinMaxId = "Z";
 
 let dofusBookDBIdMap: DofusBookDBIdMap = {};
 let dofusBookDBNameMap: DofusBookDBNameMap = {};
@@ -61,19 +61,17 @@ for (const item of itemsDofusBook.data) {
         continue;
     }
     dbItem.idDofusBook = item.official;
-    shortId = nextValue(shortId);
+    dofusMinMaxId = nextValue(dofusMinMaxId);
 
-    dofusBookDBIdMap[dbItem.id] = {
-        id: item.id,
-        official: item.official,
+    dofusBookDBIdMap[dbItem.idDofusDB] = {
+        id: dofusMinMaxId,
+        dofusBookId: item.official,
         name: item.name,
-        shortId,
     };
     dofusBookDBNameMap[item.name] = {
-        id: item.id,
-        official: item.official,
+        id: dofusMinMaxId,
         dofusDBId: dbItem.id,
-        shortId,
+        dofusBookId: item.id,
     };
 }
 
@@ -85,19 +83,17 @@ for (const item of weaponsDofusBook.data) {
         continue;
     }
     dbItem.idDofusBook = item.official;
-    shortId = nextValue(shortId);
+    dofusMinMaxId = nextValue(dofusMinMaxId);
 
-    dofusBookDBIdMap[dbItem.id] = {
-        id: item.id,
-        official: item.official,
+    dofusBookDBIdMap[dbItem.idDofusDB] = {
+        id: dofusMinMaxId,
+        dofusBookId: item.official,
         name: item.name,
-        shortId,
     };
     dofusBookDBNameMap[item.name] = {
-        id: item.id,
-        official: item.official,
+        id: dofusMinMaxId,
         dofusDBId: dbItem.id,
-        shortId,
+        dofusBookId: item.id,
     };
 }
 

@@ -1,7 +1,157 @@
 {
-  "674e524064788cc741419709": {
-    "id": "674e524064788cc741419709",
-    "idShort": "Je",
+  "14": {
+    "id": "14",
+    "idDofusDB": "674e524164788cc74141bcee",
+    "idDofusBook": 22191,
+    "name": {
+      "fr": "Forteresse de Guerre",
+      "en": "War's Fortress",
+      "pt": "Fortaleza de Guerra",
+      "de": "Kriegs Festung",
+      "es": "Fortaleza de Guerra"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418223",
+    "category": "shield",
+    "stats": {
+      "health": 250,
+      "intelligence": 80,
+      "wisdom": 40,
+      "criticalChance": 5,
+      "range": -1,
+      "neutralResistPer": 5,
+      "fireResistPer": 15,
+      "lock": 15,
+      "mpReduction": 10
+    }
+  },
+  "26": {
+    "id": "26",
+    "idDofusDB": "674e524164788cc74141b280",
+    "idDofusBook": 19263,
+    "name": {
+      "fr": "Bouclier d'Ilyzaelle",
+      "en": "Ilyzaelle Shield",
+      "pt": "Escudo de Ilyzaelle",
+      "de": "Ilyzaelles Schild",
+      "es": "Escudo de Ilyzaelle"
+    },
+    "level": 200,
+    "panoply": "674e523f64788cc741418211",
+    "category": "shield",
+    "stats": {
+      "health": 250,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "criticalChance": -10,
+      "neutralResistPer": 5,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "mpResist": 10
+    }
+  },
+  "29": {
+    "id": "29",
+    "idDofusDB": "674e524164788cc74141b27d",
+    "idDofusBook": 19260,
+    "name": {
+      "fr": "Bouclier Brâkmarien",
+      "en": "Brakmarian Shield",
+      "pt": "Escudo Brakmariano",
+      "de": "Brâkmar-Schild",
+      "es": "Escudo brakmariano"
+    },
+    "level": 200,
+    "category": "shield",
+    "stats": {
+      "health": 250,
+      "power": 40,
+      "initiative": 500,
+      "neutralResistPer": 10,
+      "dodge": 15,
+      "mpResist": 15,
+      "criticalDamage": 10,
+      "criticalResist": 30,
+      "meleeResistPer": 7
+    }
+  },
+  "77": {
+    "id": "77",
+    "idDofusDB": "674e524164788cc74141c942",
+    "idDofusBook": 27537,
+    "name": {
+      "fr": "Bouclier Gris",
+      "en": "Bitter-Shield",
+      "pt": "Escudo Amargo",
+      "de": "Saugrauer Schild",
+      "es": "Escudo seco"
+    },
+    "level": 194,
+    "panoply": "674e523f64788cc741418242",
+    "category": "shield",
+    "stats": {
+      "health": 200,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "neutralResistPer": 15,
+      "lock": 10,
+      "meleeResistPer": 6
+    }
+  },
+  "79": {
+    "id": "79",
+    "idDofusDB": "674e524164788cc74141b0d7",
+    "idDofusBook": 18701,
+    "name": {
+      "fr": "Sept ans de malheur",
+      "en": "Seven Years Bad Luck",
+      "pt": "Sete Anos de Azar",
+      "de": "Sieben Jahre Pech",
+      "es": "Siete años de mala suerte"
+    },
+    "level": 194,
+    "panoply": "674e523f64788cc7414183fa",
+    "category": "shield",
+    "stats": {
+      "health": 200,
+      "power": 35,
+      "reflect": 28,
+      "neutralResistPer": 5,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "lock": 14,
+      "apReduction": 7
+    }
+  },
+  "81": {
+    "id": "81",
+    "idDofusDB": "674e524164788cc74141b0d1",
+    "idDofusBook": 18695,
+    "name": {
+      "fr": "La Rondelle",
+      "en": "Cawwot Wound",
+      "pt": "Rodela",
+      "de": "Das Rondell",
+      "es": "La Rodaja"
+    },
+    "level": 185,
+    "category": "shield",
+    "stats": {
+      "health": 190,
+      "intelligence": 60,
+      "wisdom": 30,
+      "summon": 1,
+      "heal": 20,
+      "dodge": 15,
+      "pushbackResist": 50
+    }
+  },
+  "Je": {
+    "id": "Je",
+    "idDofusDB": "674e524064788cc741419709",
     "idDofusBook": 10798,
     "name": {
       "fr": "Bouclier de l'intrépide",
@@ -17,9 +167,9 @@
       "health": 3
     }
   },
-  "674e524164788cc74141b0ad": {
-    "id": "674e524164788cc74141b0ad",
-    "idShort": "CF",
+  "CF": {
+    "id": "CF",
+    "idDofusDB": "674e524164788cc74141b0ad",
     "idDofusBook": 18659,
     "name": {
       "fr": "Bouclier en Mousse",
@@ -37,9 +187,9 @@
       "airResistPer": 6
     }
   },
-  "674e524164788cc74141b0ae": {
-    "id": "674e524164788cc74141b0ae",
-    "idShort": "hy",
+  "hy": {
+    "id": "hy",
+    "idDofusDB": "674e524164788cc74141b0ae",
     "idDofusBook": 18660,
     "name": {
       "fr": "Coupe de Dragokart",
@@ -60,9 +210,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141b0af": {
-    "id": "674e524164788cc74141b0af",
-    "idShort": "mp",
+  "mp": {
+    "id": "mp",
+    "idDofusDB": "674e524164788cc74141b0af",
     "idDofusBook": 18661,
     "name": {
       "fr": "Bouclier Aerdala",
@@ -82,9 +232,9 @@
       "airResistPer": 7
     }
   },
-  "674e524164788cc74141b0b0": {
-    "id": "674e524164788cc74141b0b0",
-    "idShort": "jC",
+  "jC": {
+    "id": "jC",
+    "idDofusDB": "674e524164788cc74141b0b0",
     "idDofusBook": 18662,
     "name": {
       "fr": "Bouclier Feudala",
@@ -105,9 +255,9 @@
       "fireResistPer": 10
     }
   },
-  "674e524164788cc74141b0b1": {
-    "id": "674e524164788cc74141b0b1",
-    "idShort": "lN",
+  "lN": {
+    "id": "lN",
+    "idDofusDB": "674e524164788cc74141b0b1",
     "idDofusBook": 18663,
     "name": {
       "fr": "Bouclier Terrdala",
@@ -127,9 +277,9 @@
       "earthResistPer": 7
     }
   },
-  "674e524164788cc74141b0b2": {
-    "id": "674e524164788cc74141b0b2",
-    "idShort": "mC",
+  "mC": {
+    "id": "mC",
+    "idDofusDB": "674e524164788cc74141b0b2",
     "idDofusBook": 18664,
     "name": {
       "fr": "Bouclier du Craqueleur",
@@ -153,9 +303,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141b0b3": {
-    "id": "674e524164788cc74141b0b3",
-    "idShort": "BO",
+  "BO": {
+    "id": "BO",
+    "idDofusDB": "674e524164788cc74141b0b3",
     "idDofusBook": 18665,
     "name": {
       "fr": "Bouclier de Bowisse",
@@ -176,9 +326,9 @@
       "airResist": 6
     }
   },
-  "674e524164788cc74141b0b4": {
-    "id": "674e524164788cc74141b0b4",
-    "idShort": "DG",
+  "DG": {
+    "id": "DG",
+    "idDofusDB": "674e524164788cc74141b0b4",
     "idDofusBook": 18666,
     "name": {
       "fr": "Bouclier du Bouftou",
@@ -195,9 +345,9 @@
       "power": 10
     }
   },
-  "674e524164788cc74141b0b5": {
-    "id": "674e524164788cc74141b0b5",
-    "idShort": "kf",
+  "kf": {
+    "id": "kf",
+    "idDofusDB": "674e524164788cc74141b0b5",
     "idDofusBook": 18667,
     "name": {
       "fr": "Bouclier du Chouque",
@@ -218,9 +368,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524164788cc74141b0b6": {
-    "id": "674e524164788cc74141b0b6",
-    "idShort": "GN",
+  "GN": {
+    "id": "GN",
+    "idDofusDB": "674e524164788cc74141b0b6",
     "idDofusBook": 18668,
     "name": {
       "fr": "Bouclier Volant",
@@ -235,9 +385,9 @@
       "dodge": 5
     }
   },
-  "674e524164788cc74141b0b7": {
-    "id": "674e524164788cc74141b0b7",
-    "idShort": "sL",
+  "sL": {
+    "id": "sL",
+    "idDofusDB": "674e524164788cc74141b0b7",
     "idDofusBook": 18669,
     "name": {
       "fr": "Kloume",
@@ -257,9 +407,9 @@
       "pushbackDamage": 20
     }
   },
-  "674e524164788cc74141b0b8": {
-    "id": "674e524164788cc74141b0b8",
-    "idShort": "2E",
+  "2E": {
+    "id": "2E",
+    "idDofusDB": "674e524164788cc74141b0b8",
     "idDofusBook": 18670,
     "name": {
       "fr": "Bouclier du Captain Amakna",
@@ -288,9 +438,9 @@
       "criticalDamage": 5
     }
   },
-  "674e524164788cc74141b0b9": {
-    "id": "674e524164788cc74141b0b9",
-    "idShort": "mo",
+  "mo": {
+    "id": "mo",
+    "idDofusDB": "674e524164788cc74141b0b9",
     "idDofusBook": 18671,
     "name": {
       "fr": "Derma Tho",
@@ -310,9 +460,9 @@
       "apReduction": 4
     }
   },
-  "674e524164788cc74141b0ba": {
-    "id": "674e524164788cc74141b0ba",
-    "idShort": "pp",
+  "pp": {
+    "id": "pp",
+    "idDofusDB": "674e524164788cc74141b0ba",
     "idDofusBook": 18672,
     "name": {
       "fr": "Bouclier du Bawbawe",
@@ -332,9 +482,9 @@
       "dodge": 6
     }
   },
-  "674e524164788cc74141b0bb": {
-    "id": "674e524164788cc74141b0bb",
-    "idShort": "gH",
+  "gH": {
+    "id": "gH",
+    "idDofusDB": "674e524164788cc74141b0bb",
     "idDofusBook": 18673,
     "name": {
       "fr": "Le Karde Cœur",
@@ -356,9 +506,9 @@
       "mpReduction": 6
     }
   },
-  "674e524164788cc74141b0bc": {
-    "id": "674e524164788cc74141b0bc",
-    "idShort": "f4",
+  "f4": {
+    "id": "f4",
+    "idDofusDB": "674e524164788cc74141b0bc",
     "idDofusBook": 18674,
     "name": {
       "fr": "Bouclier des Brigandins",
@@ -379,9 +529,9 @@
       "waterResist": 30
     }
   },
-  "674e524164788cc74141b0bd": {
-    "id": "674e524164788cc74141b0bd",
-    "idShort": "d5",
+  "d5": {
+    "id": "d5",
+    "idDofusDB": "674e524164788cc74141b0bd",
     "idDofusBook": 18675,
     "name": {
       "fr": "Bouclier du Mont Kipou",
@@ -402,9 +552,9 @@
       "mpReduction": 7
     }
   },
-  "674e524164788cc74141b0be": {
-    "id": "674e524164788cc74141b0be",
-    "idShort": "IM",
+  "IM": {
+    "id": "IM",
+    "idDofusDB": "674e524164788cc74141b0be",
     "idDofusBook": 18676,
     "name": {
       "fr": "Bouclier du Bûcheron",
@@ -419,9 +569,9 @@
       "health": 7
     }
   },
-  "674e524164788cc74141b0bf": {
-    "id": "674e524164788cc74141b0bf",
-    "idShort": "9W",
+  "9W": {
+    "id": "9W",
+    "idDofusDB": "674e524164788cc74141b0bf",
     "idDofusBook": 18677,
     "name": {
       "fr": "Cadran d'Eau",
@@ -441,9 +591,9 @@
       "mpReduction": 12
     }
   },
-  "674e524164788cc74141b0c0": {
-    "id": "674e524164788cc74141b0c0",
-    "idShort": "9A",
+  "9A": {
+    "id": "9A",
+    "idDofusDB": "674e524164788cc74141b0c0",
     "idDofusBook": 18678,
     "name": {
       "fr": "Cadran de Terre",
@@ -463,9 +613,9 @@
       "apReduction": 12
     }
   },
-  "674e524164788cc74141b0c1": {
-    "id": "674e524164788cc74141b0c1",
-    "idShort": "9j",
+  "9j": {
+    "id": "9j",
+    "idDofusDB": "674e524164788cc74141b0c1",
     "idDofusBook": 18679,
     "name": {
       "fr": "Cadran d'Air",
@@ -485,9 +635,9 @@
       "mpResist": 12
     }
   },
-  "674e524164788cc74141b0c2": {
-    "id": "674e524164788cc74141b0c2",
-    "idShort": "8U",
+  "8U": {
+    "id": "8U",
+    "idDofusDB": "674e524164788cc74141b0c2",
     "idDofusBook": 18680,
     "name": {
       "fr": "Cadran de Feu",
@@ -507,9 +657,9 @@
       "apResist": 12
     }
   },
-  "674e524164788cc74141b0c3": {
-    "id": "674e524164788cc74141b0c3",
-    "idShort": "b4",
+  "b4": {
+    "id": "b4",
+    "idDofusDB": "674e524164788cc74141b0c3",
     "idDofusBook": 18681,
     "name": {
       "fr": "Bouclier Pandawa",
@@ -530,9 +680,9 @@
       "mpResist": 10
     }
   },
-  "674e524164788cc74141b0c4": {
-    "id": "674e524164788cc74141b0c4",
-    "idShort": "wU",
+  "wU": {
+    "id": "wU",
+    "idDofusDB": "674e524164788cc74141b0c4",
     "idDofusBook": 18682,
     "name": {
       "fr": "Bouclier Abraknyde",
@@ -551,9 +701,9 @@
       "earthResist": 10
     }
   },
-  "674e524164788cc74141b0c5": {
-    "id": "674e524164788cc74141b0c5",
-    "idShort": "gG",
+  "gG": {
+    "id": "gG",
+    "idDofusDB": "674e524164788cc74141b0c5",
     "idDofusBook": 18683,
     "name": {
       "fr": "Bouclier d'Asse",
@@ -574,9 +724,9 @@
       "apReduction": 6
     }
   },
-  "674e524164788cc74141b0c6": {
-    "id": "674e524164788cc74141b0c6",
-    "idShort": "fw",
+  "fw": {
+    "id": "fw",
+    "idDofusDB": "674e524164788cc74141b0c6",
     "idDofusBook": 18684,
     "name": {
       "fr": "Bouclier en Slip",
@@ -596,9 +746,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141b0c7": {
-    "id": "674e524164788cc74141b0c7",
-    "idShort": "e7",
+  "e7": {
+    "id": "e7",
+    "idDofusDB": "674e524164788cc74141b0c7",
     "idDofusBook": 18685,
     "name": {
       "fr": "Bouclier du Sadida",
@@ -620,9 +770,9 @@
       "mpReduction": 5
     }
   },
-  "674e524164788cc74141b0c8": {
-    "id": "674e524164788cc74141b0c8",
-    "idShort": "dk",
+  "dk": {
+    "id": "dk",
+    "idDofusDB": "674e524164788cc74141b0c8",
     "idDofusBook": 18686,
     "name": {
       "fr": "Bouclier Ventaille",
@@ -644,9 +794,9 @@
       "pushbackResist": 25
     }
   },
-  "674e524164788cc74141b0c9": {
-    "id": "674e524164788cc74141b0c9",
-    "idShort": "zC",
+  "zC": {
+    "id": "zC",
+    "idDofusDB": "674e524164788cc74141b0c9",
     "idDofusBook": 18687,
     "name": {
       "fr": "Bouclier Akwadala",
@@ -666,9 +816,9 @@
       "waterResistPer": 7
     }
   },
-  "674e524164788cc74141b0ca": {
-    "id": "674e524164788cc74141b0ca",
-    "idShort": "aw",
+  "aw": {
+    "id": "aw",
+    "idDofusDB": "674e524164788cc74141b0ca",
     "idDofusBook": 18688,
     "name": {
       "fr": "Bouclier Taverne",
@@ -688,9 +838,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141b0cb": {
-    "id": "674e524164788cc74141b0cb",
-    "idShort": "jU",
+  "jU": {
+    "id": "jU",
+    "idDofusDB": "674e524164788cc74141b0cb",
     "idDofusBook": 18689,
     "name": {
       "fr": "Ftalmo",
@@ -710,9 +860,9 @@
       "mpReduction": 6
     }
   },
-  "674e524164788cc74141b0cc": {
-    "id": "674e524164788cc74141b0cc",
-    "idShort": "kP",
+  "kP": {
+    "id": "kP",
+    "idDofusDB": "674e524164788cc74141b0cc",
     "idDofusBook": 18690,
     "name": {
       "fr": "Bouclier de Sidimote",
@@ -733,9 +883,9 @@
       "pushbackDamage": 10
     }
   },
-  "674e524164788cc74141b0cd": {
-    "id": "674e524164788cc74141b0cd",
-    "idShort": "u1",
+  "u1": {
+    "id": "u1",
+    "idDofusDB": "674e524164788cc74141b0cd",
     "idDofusBook": 18691,
     "name": {
       "fr": "Bouclier Fi'Squale",
@@ -756,9 +906,9 @@
       "pushbackResist": 40
     }
   },
-  "674e524164788cc74141b0ce": {
-    "id": "674e524164788cc74141b0ce",
-    "idShort": "2D",
+  "2D": {
+    "id": "2D",
+    "idDofusDB": "674e524164788cc74141b0ce",
     "idDofusBook": 18692,
     "name": {
       "fr": "Bouclistik",
@@ -782,9 +932,9 @@
       "meleeResistPer": 7
     }
   },
-  "674e524164788cc74141b0cf": {
-    "id": "674e524164788cc74141b0cf",
-    "idShort": "6h",
+  "6h": {
+    "id": "6h",
+    "idDofusDB": "674e524164788cc74141b0cf",
     "idDofusBook": 18693,
     "name": {
       "fr": "Écorce de Brouce",
@@ -807,9 +957,9 @@
       "dodge": 7
     }
   },
-  "674e524164788cc74141b0d0": {
-    "id": "674e524164788cc74141b0d0",
-    "idShort": "8w",
+  "8w": {
+    "id": "8w",
+    "idDofusDB": "674e524164788cc74141b0d0",
     "idDofusBook": 18694,
     "name": {
       "fr": "Roncier",
@@ -832,32 +982,9 @@
       "mpReduction": 10
     }
   },
-  "674e524164788cc74141b0d1": {
-    "id": "674e524164788cc74141b0d1",
-    "idShort": "81",
-    "idDofusBook": 18695,
-    "name": {
-      "fr": "La Rondelle",
-      "en": "Cawwot Wound",
-      "pt": "Rodela",
-      "de": "Das Rondell",
-      "es": "La Rodaja"
-    },
-    "level": 185,
-    "category": "shield",
-    "stats": {
-      "health": 190,
-      "intelligence": 60,
-      "wisdom": 30,
-      "summon": 1,
-      "heal": 20,
-      "dodge": 15,
-      "pushbackResist": 50
-    }
-  },
-  "674e524164788cc74141b0d2": {
-    "id": "674e524164788cc74141b0d2",
-    "idShort": "2C",
+  "2C": {
+    "id": "2C",
+    "idDofusDB": "674e524164788cc74141b0d2",
     "idDofusBook": 18696,
     "name": {
       "fr": "Ambrouclier",
@@ -879,9 +1006,9 @@
       "apReduction": 12
     }
   },
-  "674e524164788cc74141b0d3": {
-    "id": "674e524164788cc74141b0d3",
-    "idShort": "2B",
+  "2B": {
+    "id": "2B",
+    "idDofusDB": "674e524164788cc74141b0d3",
     "idDofusBook": 18697,
     "name": {
       "fr": "Jadis",
@@ -905,9 +1032,9 @@
       "rangedResistPer": 5
     }
   },
-  "674e524164788cc74141b0d4": {
-    "id": "674e524164788cc74141b0d4",
-    "idShort": "7K",
+  "7K": {
+    "id": "7K",
+    "idDofusDB": "674e524164788cc74141b0d4",
     "idDofusBook": 18698,
     "name": {
       "fr": "Bouclier du serrurier",
@@ -930,9 +1057,9 @@
       "rangedResistPer": 4
     }
   },
-  "674e524164788cc74141b0d5": {
-    "id": "674e524164788cc74141b0d5",
-    "idShort": "7z",
+  "7z": {
+    "id": "7z",
+    "idDofusDB": "674e524164788cc74141b0d5",
     "idDofusBook": 18699,
     "name": {
       "fr": "Carapar",
@@ -953,9 +1080,9 @@
       "rangedResistPer": 5
     }
   },
-  "674e524164788cc74141b0d6": {
-    "id": "674e524164788cc74141b0d6",
-    "idShort": "7r",
+  "7r": {
+    "id": "7r",
+    "idDofusDB": "674e524164788cc74141b0d6",
     "idDofusBook": 18700,
     "name": {
       "fr": "Quatre-feuilles",
@@ -975,34 +1102,9 @@
       "criticalResist": 16
     }
   },
-  "674e524164788cc74141b0d7": {
-    "id": "674e524164788cc74141b0d7",
-    "idShort": "79",
-    "idDofusBook": 18701,
-    "name": {
-      "fr": "Sept ans de malheur",
-      "en": "Seven Years Bad Luck",
-      "pt": "Sete Anos de Azar",
-      "de": "Sieben Jahre Pech",
-      "es": "Siete años de mala suerte"
-    },
-    "level": 194,
-    "panoply": "674e523f64788cc7414183fa",
-    "category": "shield",
-    "stats": {
-      "health": 200,
-      "power": 35,
-      "reflect": 28,
-      "neutralResistPer": 5,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
-      "lock": 14,
-      "apReduction": 7
-    }
-  },
-  "674e524164788cc74141b0d8": {
-    "id": "674e524164788cc74141b0d8",
-    "idShort": "6O",
+  "6O": {
+    "id": "6O",
+    "idDofusDB": "674e524164788cc74141b0d8",
     "idDofusBook": 18702,
     "name": {
       "fr": "Détourné",
@@ -1024,9 +1126,9 @@
       "rangedResistPer": 4
     }
   },
-  "674e524164788cc74141b0d9": {
-    "id": "674e524164788cc74141b0d9",
-    "idShort": "5V",
+  "5V": {
+    "id": "5V",
+    "idDofusDB": "674e524164788cc74141b0d9",
     "idDofusBook": 18703,
     "name": {
       "fr": "Bivalve",
@@ -1051,9 +1153,9 @@
       "pushbackDamage": 35
     }
   },
-  "674e524164788cc74141b0df": {
-    "id": "674e524164788cc74141b0df",
-    "idShort": "7F",
+  "7F": {
+    "id": "7F",
+    "idDofusDB": "674e524164788cc74141b0df",
     "idDofusBook": 18709,
     "name": {
       "fr": "Bouclier à hélice",
@@ -1077,9 +1179,9 @@
       "rangedResistPer": 5
     }
   },
-  "674e524164788cc74141b0e0": {
-    "id": "674e524164788cc74141b0e0",
-    "idShort": "AU",
+  "AU": {
+    "id": "AU",
+    "idDofusDB": "674e524164788cc74141b0e0",
     "idDofusBook": 18710,
     "name": {
       "fr": "Bouclier du Chafer fantassin",
@@ -1097,9 +1199,9 @@
       "neutralResist": 15
     }
   },
-  "674e524164788cc74141b0e1": {
-    "id": "674e524164788cc74141b0e1",
-    "idShort": "5n",
+  "5n": {
+    "id": "5n",
+    "idDofusDB": "674e524164788cc74141b0e1",
     "idDofusBook": 18711,
     "name": {
       "fr": "Bouclier cubiste",
@@ -1121,9 +1223,9 @@
       "mpReduction": 12
     }
   },
-  "674e524164788cc74141b0e2": {
-    "id": "674e524164788cc74141b0e2",
-    "idShort": "5a",
+  "5a": {
+    "id": "5a",
+    "idDofusDB": "674e524164788cc74141b0e2",
     "idDofusBook": 18712,
     "name": {
       "fr": "Bouclier alvéolé",
@@ -1149,9 +1251,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141b0e3": {
-    "id": "674e524164788cc74141b0e3",
-    "idShort": "m9",
+  "m9": {
+    "id": "m9",
+    "idDofusDB": "674e524164788cc74141b0e3",
     "idDofusBook": 18713,
     "name": {
       "fr": "Bouclier du Chef Crocodaille",
@@ -1173,9 +1275,9 @@
       "waterResistPer": 6
     }
   },
-  "674e524164788cc74141b0e4": {
-    "id": "674e524164788cc74141b0e4",
-    "idShort": "Ij",
+  "Ij": {
+    "id": "Ij",
+    "idDofusDB": "674e524164788cc74141b0e4",
     "idDofusBook": 18714,
     "name": {
       "fr": "Bouclier du tournesol sauvage",
@@ -1190,9 +1292,9 @@
       "criticalChance": 3
     }
   },
-  "674e524164788cc74141b0e5": {
-    "id": "674e524164788cc74141b0e5",
-    "idShort": "2A",
+  "2A": {
+    "id": "2A",
+    "idDofusDB": "674e524164788cc74141b0e5",
     "idDofusBook": 18715,
     "name": {
       "fr": "Bouclier du Stalak",
@@ -1215,9 +1317,9 @@
       "rangedResistPer": 4
     }
   },
-  "674e524164788cc74141b0e7": {
-    "id": "674e524164788cc74141b0e7",
-    "idShort": "2z",
+  "2z": {
+    "id": "2z",
+    "idDofusDB": "674e524164788cc74141b0e7",
     "idDofusBook": 18718,
     "name": {
       "fr": "Bouclier du Cycloïde",
@@ -1242,9 +1344,9 @@
       "lock": 10
     }
   },
-  "674e524164788cc74141b1d8": {
-    "id": "674e524164788cc74141b1d8",
-    "idShort": "2w",
+  "2w": {
+    "id": "2w",
+    "idDofusDB": "674e524164788cc74141b1d8",
     "idDofusBook": 19077,
     "name": {
       "fr": "Bouclier d'Anerice",
@@ -1266,9 +1368,9 @@
       "meleeResistPer": 10
     }
   },
-  "674e524164788cc74141b1db": {
-    "id": "674e524164788cc74141b1db",
-    "idShort": "2t",
+  "2t": {
+    "id": "2t",
+    "idDofusDB": "674e524164788cc74141b1db",
     "idDofusBook": 19080,
     "name": {
       "fr": "Goulclier",
@@ -1293,9 +1395,9 @@
       "criticalResist": 30
     }
   },
-  "674e524164788cc74141b1df": {
-    "id": "674e524164788cc74141b1df",
-    "idShort": "jT",
+  "jT": {
+    "id": "jT",
+    "idDofusDB": "674e524164788cc74141b1df",
     "idDofusBook": 19084,
     "name": {
       "fr": "Bouclier de Choudini",
@@ -1318,9 +1420,9 @@
       "criticalDamage": 7
     }
   },
-  "674e524164788cc74141b1f5": {
-    "id": "674e524164788cc74141b1f5",
-    "idShort": "DC",
+  "DC": {
+    "id": "DC",
+    "idDofusDB": "674e524164788cc74141b1f5",
     "idDofusBook": 19116,
     "name": {
       "fr": "Bouclier Invisible",
@@ -1336,9 +1438,9 @@
       "health": 40
     }
   },
-  "674e524164788cc74141b27c": {
-    "id": "674e524164788cc74141b27c",
-    "idShort": "2a",
+  "2a": {
+    "id": "2a",
+    "idDofusDB": "674e524164788cc74141b27c",
     "idDofusBook": 19259,
     "name": {
       "fr": "Bouclier Bontarien",
@@ -1361,60 +1463,9 @@
       "rangedResistPer": 5
     }
   },
-  "674e524164788cc74141b27d": {
-    "id": "674e524164788cc74141b27d",
-    "idShort": "29",
-    "idDofusBook": 19260,
-    "name": {
-      "fr": "Bouclier Brâkmarien",
-      "en": "Brakmarian Shield",
-      "pt": "Escudo Brakmariano",
-      "de": "Brâkmar-Schild",
-      "es": "Escudo brakmariano"
-    },
-    "level": 200,
-    "category": "shield",
-    "stats": {
-      "health": 250,
-      "power": 40,
-      "initiative": 500,
-      "neutralResistPer": 10,
-      "dodge": 15,
-      "mpResist": 15,
-      "criticalDamage": 10,
-      "criticalResist": 30,
-      "meleeResistPer": 7
-    }
-  },
-  "674e524164788cc74141b280": {
-    "id": "674e524164788cc74141b280",
-    "idShort": "26",
-    "idDofusBook": 19263,
-    "name": {
-      "fr": "Bouclier d'Ilyzaelle",
-      "en": "Ilyzaelle Shield",
-      "pt": "Escudo de Ilyzaelle",
-      "de": "Ilyzaelles Schild",
-      "es": "Escudo de Ilyzaelle"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418211",
-    "category": "shield",
-    "stats": {
-      "health": 250,
-      "chance": 70,
-      "agility": 70,
-      "wisdom": 40,
-      "criticalChance": -10,
-      "neutralResistPer": 5,
-      "waterResistPer": 10,
-      "airResistPer": 10,
-      "mpResist": 10
-    }
-  },
-  "674e524164788cc74141b3a1": {
-    "id": "674e524164788cc74141b3a1",
-    "idShort": "1T",
+  "1T": {
+    "id": "1T",
+    "idDofusDB": "674e524164788cc74141b3a1",
     "idDofusBook": 19598,
     "name": {
       "fr": "Bouclier de Solar",
@@ -1436,9 +1487,9 @@
       "pushbackResist": 80
     }
   },
-  "674e524164788cc74141b673": {
-    "id": "674e524164788cc74141b673",
-    "idShort": "1y",
+  "1y": {
+    "id": "1y",
+    "idDofusDB": "674e524164788cc74141b673",
     "idDofusBook": 20357,
     "name": {
       "fr": "Droiture de Fallanster",
@@ -1461,9 +1512,9 @@
       "rangedResistPer": 10
     }
   },
-  "674e524164788cc74141b674": {
-    "id": "674e524164788cc74141b674",
-    "idShort": "1x",
+  "1x": {
+    "id": "1x",
+    "idDofusDB": "674e524164788cc74141b674",
     "idDofusBook": 20358,
     "name": {
       "fr": "Trompe-la-Mort",
@@ -1486,9 +1537,9 @@
       "pushbackResist": -100
     }
   },
-  "674e524164788cc74141b846": {
-    "id": "674e524164788cc74141b846",
-    "idShort": "1i",
+  "1i": {
+    "id": "1i",
+    "idDofusDB": "674e524164788cc74141b846",
     "idDofusBook": 20926,
     "name": {
       "fr": "Bouclier des Chocomanciens",
@@ -1514,9 +1565,9 @@
       "mpReduction": 15
     }
   },
-  "674e524164788cc74141b95b": {
-    "id": "674e524164788cc74141b95b",
-    "idShort": "1f",
+  "1f": {
+    "id": "1f",
+    "idDofusDB": "674e524164788cc74141b95b",
     "idDofusBook": 21225,
     "name": {
       "fr": "Croclier",
@@ -1538,35 +1589,9 @@
       "mpResist": 12
     }
   },
-  "674e524164788cc74141bcee": {
-    "id": "674e524164788cc74141bcee",
-    "idShort": "14",
-    "idDofusBook": 22191,
-    "name": {
-      "fr": "Forteresse de Guerre",
-      "en": "War's Fortress",
-      "pt": "Fortaleza de Guerra",
-      "de": "Kriegs Festung",
-      "es": "Fortaleza de Guerra"
-    },
-    "level": 200,
-    "panoply": "674e523f64788cc741418223",
-    "category": "shield",
-    "stats": {
-      "health": 250,
-      "intelligence": 80,
-      "wisdom": 40,
-      "criticalChance": 5,
-      "range": -1,
-      "neutralResistPer": 5,
-      "fireResistPer": 15,
-      "lock": 15,
-      "mpReduction": 10
-    }
-  },
-  "674e524164788cc74141bf1f": {
-    "id": "674e524164788cc74141bf1f",
-    "idShort": "gg",
+  "gg": {
+    "id": "gg",
+    "idDofusDB": "674e524164788cc74141bf1f",
     "idDofusBook": 23258,
     "name": {
       "fr": "Bulbouclier",
@@ -1590,9 +1615,9 @@
       "airResist": 5
     }
   },
-  "674e524164788cc74141c00b": {
-    "id": "674e524164788cc74141c00b",
-    "idShort": "e4",
+  "e4": {
+    "id": "e4",
+    "idDofusDB": "674e524164788cc74141c00b",
     "idDofusBook": 23501,
     "name": {
       "fr": "Bouclier d'entraînement au Pandasiman",
@@ -1609,9 +1634,9 @@
       "dodge": -10
     }
   },
-  "674e524164788cc74141c07a": {
-    "id": "674e524164788cc74141c07a",
-    "idShort": "av",
+  "av": {
+    "id": "av",
+    "idDofusDB": "674e524164788cc74141c07a",
     "idDofusBook": 23621,
     "name": {
       "fr": "Bouclier du Yokomaïnu",
@@ -1637,9 +1662,9 @@
       "apReduction": 6
     }
   },
-  "674e524164788cc74141c370": {
-    "id": "674e524164788cc74141c370",
-    "idShort": "0E",
+  "0E": {
+    "id": "0E",
+    "idDofusDB": "674e524164788cc74141c370",
     "idDofusBook": 25220,
     "name": {
       "fr": "Bouclier Possédé",
@@ -1662,34 +1687,9 @@
       "pushbackDamage": 30
     }
   },
-  "674e524164788cc74141c942": {
-    "id": "674e524164788cc74141c942",
-    "idShort": "77",
-    "idDofusBook": 27537,
-    "name": {
-      "fr": "Bouclier Gris",
-      "en": "Bitter-Shield",
-      "pt": "Escudo Amargo",
-      "de": "Saugrauer Schild",
-      "es": "Escudo seco"
-    },
-    "level": 194,
-    "panoply": "674e523f64788cc741418242",
-    "category": "shield",
-    "stats": {
-      "health": 200,
-      "strength": 50,
-      "chance": 50,
-      "wisdom": 30,
-      "criticalChance": 5,
-      "neutralResistPer": 15,
-      "lock": 10,
-      "meleeResistPer": 6
-    }
-  },
-  "674e524164788cc74141c949": {
-    "id": "674e524164788cc74141c949",
-    "idShort": "0p",
+  "0p": {
+    "id": "0p",
+    "idDofusDB": "674e524164788cc74141c949",
     "idDofusBook": 27544,
     "name": {
       "fr": "Mur de Ronces",
@@ -1712,9 +1712,9 @@
       "criticalResist": 20
     }
   },
-  "674e524164788cc74141cdc4": {
-    "id": "674e524164788cc74141cdc4",
-    "idShort": "G2",
+  "G2": {
+    "id": "G2",
+    "idDofusDB": "674e524164788cc74141cdc4",
     "idDofusBook": 29463,
     "name": {
       "fr": "Bouclier Tonbarien",
@@ -1729,9 +1729,9 @@
       "initiative": 150
     }
   },
-  "674e524164788cc74141cec9": {
-    "id": "674e524164788cc74141cec9",
-    "idShort": "5S",
+  "5S": {
+    "id": "5S",
+    "idDofusDB": "674e524164788cc74141cec9",
     "idDofusBook": 30060,
     "name": {
       "fr": "Égide d'Allister",
@@ -1754,9 +1754,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141d11f": {
-    "id": "674e524164788cc74141d11f",
-    "idShort": "AT",
+  "AT": {
+    "id": "AT",
+    "idDofusDB": "674e524164788cc74141d11f",
     "idDofusBook": 30681,
     "name": {
       "fr": "Bouclier hérissé du Prespic",
@@ -1775,9 +1775,9 @@
       "reflect": 4
     }
   },
-  "674e524164788cc74141d120": {
-    "id": "674e524164788cc74141d120",
-    "idShort": "0l",
+  "0l": {
+    "id": "0l",
+    "idDofusDB": "674e524164788cc74141d120",
     "idDofusBook": 30682,
     "name": {
       "fr": "Bouclier Ponyme",
@@ -1805,9 +1805,9 @@
       "criticalResist": 15
     }
   },
-  "674e524164788cc74141d121": {
-    "id": "674e524164788cc74141d121",
-    "idShort": "0k",
+  "0k": {
+    "id": "0k",
+    "idDofusDB": "674e524164788cc74141d121",
     "idDofusBook": 30683,
     "name": {
       "fr": "Carapace Onance",
@@ -1835,9 +1835,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141d122": {
-    "id": "674e524164788cc74141d122",
-    "idShort": "dB",
+  "dB": {
+    "id": "dB",
+    "idDofusDB": "674e524164788cc74141d122",
     "idDofusBook": 30684,
     "name": {
       "fr": "Bélier du Royalmouth",
@@ -1860,9 +1860,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141d123": {
-    "id": "674e524164788cc74141d123",
-    "idShort": "dA",
+  "dA": {
+    "id": "dA",
+    "idDofusDB": "674e524164788cc74141d123",
     "idDofusBook": 30685,
     "name": {
       "fr": "Bouclier de Boufbowler Bontarien",
@@ -1886,9 +1886,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141d124": {
-    "id": "674e524164788cc74141d124",
-    "idShort": "dz",
+  "dz": {
+    "id": "dz",
+    "idDofusDB": "674e524164788cc74141d124",
     "idDofusBook": 30686,
     "name": {
       "fr": "Bouclier de Boufbowler Brâkmarien",
@@ -1912,9 +1912,9 @@
       "pushbackResist": 15
     }
   },
-  "674e524164788cc74141d125": {
-    "id": "674e524164788cc74141d125",
-    "idShort": "BL",
+  "BL": {
+    "id": "BL",
+    "idDofusDB": "674e524164788cc74141d125",
     "idDofusBook": 30687,
     "name": {
       "fr": "Cuirasse Royale du Bouftou",
@@ -1933,9 +1933,9 @@
       "fireResistPer": 3
     }
   },
-  "674e524164788cc74141d126": {
-    "id": "674e524164788cc74141d126",
-    "idShort": "kL",
+  "kL": {
+    "id": "kL",
+    "idDofusDB": "674e524164788cc74141d126",
     "idDofusBook": 30688,
     "name": {
       "fr": "Doritoclier",
@@ -1955,9 +1955,9 @@
       "pushbackResist": -30
     }
   },
-  "674e524164788cc74141d127": {
-    "id": "674e524164788cc74141d127",
-    "idShort": "6g",
+  "6g": {
+    "id": "6g",
+    "idDofusDB": "674e524164788cc74141d127",
     "idDofusBook": 30689,
     "name": {
       "fr": "Fiole d'Otomaï",
@@ -1980,9 +1980,9 @@
       "apResist": 7
     }
   },
-  "674e524164788cc74141d128": {
-    "id": "674e524164788cc74141d128",
-    "idShort": "6L",
+  "6L": {
+    "id": "6L",
+    "idDofusDB": "674e524164788cc74141d128",
     "idDofusBook": 30690,
     "name": {
       "fr": "L'Écu de Danathor",
@@ -2005,9 +2005,9 @@
       "lock": 7
     }
   },
-  "674e524164788cc74141d129": {
-    "id": "674e524164788cc74141d129",
-    "idShort": "G0",
+  "G0": {
+    "id": "G0",
+    "idDofusDB": "674e524164788cc74141d129",
     "idDofusBook": 30691,
     "name": {
       "fr": "Le Blanclier",
@@ -2022,9 +2022,9 @@
       "summon": 1
     }
   },
-  "674e524164788cc74141d12a": {
-    "id": "674e524164788cc74141d12a",
-    "idShort": "9V",
+  "9V": {
+    "id": "9V",
+    "idDofusDB": "674e524164788cc74141d12a",
     "idDofusBook": 30692,
     "name": {
       "fr": "Pupille de Madura",
@@ -2050,9 +2050,9 @@
       "pushbackResist": 20
     }
   },
-  "674e524164788cc74141d12b": {
-    "id": "674e524164788cc74141d12b",
-    "idShort": "fQ",
+  "fQ": {
+    "id": "fQ",
+    "idDofusDB": "674e524164788cc74141d12b",
     "idDofusBook": 30693,
     "name": {
       "fr": "Pupitre de Virgil",
@@ -2073,9 +2073,9 @@
       "mpResist": 7
     }
   },
-  "674e524164788cc74141d133": {
-    "id": "674e524164788cc74141d133",
-    "idShort": "IC",
+  "IC": {
+    "id": "IC",
+    "idDofusDB": "674e524164788cc74141d133",
     "idDofusBook": 30701,
     "name": {
       "fr": "La Halte Efkat",
@@ -2095,9 +2095,9 @@
       "airResist": 1
     }
   },
-  "674e524164788cc74141d1cc": {
-    "id": "674e524164788cc74141d1cc",
-    "idShort": "0h",
+  "0h": {
+    "id": "0h",
+    "idDofusDB": "674e524164788cc74141d1cc",
     "idDofusBook": 30858,
     "name": {
       "fr": "Paravoile de Mama Ayuto",
@@ -2121,9 +2121,9 @@
       "pushbackDamage": 30
     }
   },
-  "687f71551c815173560617f2": {
-    "id": "687f71551c815173560617f2",
-    "idShort": "8d",
+  "8d": {
+    "id": "8d",
+    "idDofusDB": "687f71551c815173560617f2",
     "idDofusBook": 31751,
     "name": {
       "fr": "Blindage du Supervizœuf",
@@ -2146,9 +2146,9 @@
       "neutralResist": 20
     }
   },
-  "687f71551c815173560617f8": {
-    "id": "687f71551c815173560617f8",
-    "idShort": "0b",
+  "0b": {
+    "id": "0b",
+    "idDofusDB": "687f71551c815173560617f8",
     "idDofusBook": 31757,
     "name": {
       "fr": "Trophée de la Déchireuse",
@@ -2173,9 +2173,9 @@
       "pushbackDamage": 25
     }
   },
-  "687f71551c81517356061802": {
-    "id": "687f71551c81517356061802",
-    "idShort": "5P",
+  "5P": {
+    "id": "5P",
+    "idDofusDB": "687f71551c81517356061802",
     "idDofusBook": 31767,
     "name": {
       "fr": "Bouclier des Voyageurs",
@@ -2201,9 +2201,9 @@
       "pushbackDamage": 25
     }
   },
-  "687f71551c81517356061817": {
-    "id": "687f71551c81517356061817",
-    "idShort": "08",
+  "08": {
+    "id": "08",
+    "idDofusDB": "687f71551c81517356061817",
     "idDofusBook": 31788,
     "name": {
       "fr": "Bélier de Gargandyas",
@@ -2239,9 +2239,9 @@
       "rangedResistPer": 5
     }
   },
-  "687f71551c8151735606181e": {
-    "id": "687f71551c8151735606181e",
-    "idShort": "5J",
+  "5J": {
+    "id": "5J",
+    "idDofusDB": "687f71551c8151735606181e",
     "idDofusBook": 31796,
     "name": {
       "fr": "Zarbouclier",
@@ -2268,9 +2268,9 @@
       "pushbackResist": 20
     }
   },
-  "68d28de615631db46d7e4113": {
-    "id": "68d28de615631db46d7e4113",
-    "idShort": "02",
+  "02": {
+    "id": "02",
+    "idDofusDB": "68d28de615631db46d7e4113",
     "idDofusBook": 32115,
     "name": {
       "fr": "Bouclier Miroir",

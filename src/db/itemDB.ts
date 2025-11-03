@@ -30,14 +30,14 @@ export let panoplies: Panoplies = {};
 export function getItem(id: string): Item | undefined {
     return itemsDB[id];
 }
-export function getItemFromShortId(shortId: string): Item | undefined {
-    for (const item of Object.values(itemsDB)) {
-        if (item.idShort == shortId) {
-            return item;
-        }
-    }
-    return undefined;
-}
+// export function getItemFromShortId(shortId: string): Item | undefined {
+//     for (const item of Object.values(itemsDB)) {
+//         if (item.idShort == shortId) {
+//             return item;
+//         }
+//     }
+//     return undefined;
+// }
 
 export function getItemFromNameFrench(nameFr: string, category: ItemCategory): Item | undefined {
     for (const item of Object.values(itemsCategory[category])) {

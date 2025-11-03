@@ -38,7 +38,8 @@ import { calculateStatsValue } from "./value";
 import { isItemBonusPanoCapped } from "./item";
 import type { MinRequirement } from "../workers/orchestrator";
 import { calculateBuildToDisplay } from "./display";
-import { encodeDofusStufferUrlFromSlots } from "./encoding/dofusBookUrl";
+import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
+import { createDofusDBBuild } from "../clients/dofusDB";
 
 function initBuild(name: string, buildId?: string, value?: number): Build {
     return {
@@ -55,7 +56,7 @@ function initBuild(name: string, buildId?: string, value?: number): Build {
         value: value ?? 0,
         export: {
             dofusBookUrl: "",
-            dofusDBUrl: "",
+            // dofusDBUrl: "",
         },
     };
 }
@@ -131,6 +132,7 @@ export function buildFromId(buildId: string, name: string): Build {
     build.stats = concatStats(build.noCharStats, get(preStats));
 
     calculateBuildValue(build);
+    build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
 
     return build;
 }
@@ -207,6 +209,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
         //     build.name = savedBuild.name;
         // }
         build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
+        // build.export.dofusDBUrl = createDofusDBBuild(build);
         bestBuilds.push(build);
     }
     console.log("DOFUSBOOK URL", bestBuilds[0]?.export.dofusBookUrl);
@@ -354,10 +357,10 @@ function capBuildStats(build: Build) {
         switch (requirement.type) {
             case "apLessThanOrMpLessThan":
                 if (
-                    build.stats["ap"] &&
-                    build.stats["ap"] >= (requirement.value ?? 9999) &&
-                    build.stats["mp"] &&
-                    build.stats["mp"] >= (requirement.value2 ?? 9999)
+                    build.cappedStats["ap"] &&
+                    build.cappedStats["ap"] >= (requirement.value ?? 9999) &&
+                    build.cappedStats["mp"] &&
+                    build.cappedStats["mp"] >= (requirement.value2 ?? 9999)
                 ) {
                     const min = get(minStats);
                     if (
@@ -381,20 +384,32 @@ function capBuildStats(build: Build) {
                 }
                 break;
             case "apLessThanAndMpLessThan":
-                if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
+                if (
+                    build.cappedStats["ap"] &&
+                    build.cappedStats["ap"] >= (requirement.value ?? 9999)
+                ) {
                     capStat(build.cappedStats, "ap", requirement.value! - 1);
                 }
-                if (build.stats["mp"] && build.stats["mp"] >= (requirement.value2 ?? 9999)) {
+                if (
+                    build.cappedStats["mp"] &&
+                    build.cappedStats["mp"] >= (requirement.value2 ?? 9999)
+                ) {
                     capStat(build.cappedStats, "mp", requirement.value2! - 1);
                 }
                 break;
             case "apLessThan":
-                if (build.stats["ap"] && build.stats["ap"] >= (requirement.value ?? 9999)) {
+                if (
+                    build.cappedStats["ap"] &&
+                    build.cappedStats["ap"] >= (requirement.value ?? 9999)
+                ) {
                     capStat(build.cappedStats, "ap", requirement.value! - 1);
                 }
                 break;
             case "mpLessThan":
-                if (build.stats["mp"] && build.stats["mp"] >= (requirement.value ?? 9999)) {
+                if (
+                    build.cappedStats["mp"] &&
+                    build.cappedStats["mp"] >= (requirement.value ?? 9999)
+                ) {
                     capStat(build.cappedStats, "mp", requirement.value2! - 1);
                 }
                 break;

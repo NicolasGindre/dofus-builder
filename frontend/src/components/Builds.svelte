@@ -47,6 +47,8 @@
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { translateRequirement } from "../logic/language";
     import { tick } from "svelte";
+    import { createDofusDBBuild } from "../clients/dofusDB";
+    import ExportBuild from "./ExportBuild.svelte";
     // let bestBuilds: { score: number; names: string[] }[] | null = null;
     // let error: string | null = null;
     // let running = false;
@@ -322,19 +324,6 @@
                         <button class="button-compare" on:click={() => compareBuild(build)}
                             >{$words.compare}</button
                         >
-                        {#if getSavedBuild(build.id)}
-                            <button
-                                class="button-save delete"
-                                on:click={() => deleteSavedBuild(build.id)}
-                                disabled={index == savingBuildIndex}>{$words.delete}</button
-                            >
-                        {:else}
-                            <button
-                                class="button-save"
-                                on:click={() => startSavingBuild(index, build.name)}
-                                disabled={index == savingBuildIndex}>{$words.save}</button
-                            >
-                        {/if}
                         <h3>
                             {$words.value}
                             {build.value?.toFixed(0)}
@@ -351,6 +340,25 @@
                             {/if}
                             <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
                         </h3>
+                    </div>
+                    <div>
+                        {#if getSavedBuild(build.id)}
+                            <button
+                                class="button-save delete"
+                                on:click={() => deleteSavedBuild(build.id)}
+                                disabled={index == savingBuildIndex}>{$words.delete}</button
+                            >
+                        {:else}
+                            <button
+                                class="button-save"
+                                on:click={() => startSavingBuild(index, build.name)}
+                                disabled={index == savingBuildIndex}>{$words.save}</button
+                            >
+                        {/if}
+                        <ExportBuild {build} />
+                        <!-- <button class="button-export" on:click={() => await createDofusDBBuild(build)}
+                            >{$words.export}</button
+                        > -->
                     </div>
                     <div class="panoplies">
                         {#if !build.diffBuild}
