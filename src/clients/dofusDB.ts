@@ -18,10 +18,6 @@ export type DofusBookDBNameMap = Record<
 
 const dbPath = "./src/db/data";
 const dofusDBUrl: string = "https://api.dofusdb.fr";
-// let shortId: string = "";
-// export function initShortId() {
-//     shortId = "Z";
-// }
 
 const StatSchema = z.object({
     from: z.number(),
@@ -128,7 +124,6 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                 dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
             }
 
-            // shortId = nextValue(shortId);
             const newItem = translateItem(dofusDbItem, category, dofusMinMaxId, dofusBookId);
             if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
                 continue;
@@ -285,10 +280,8 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
             if (shouldSkipPano(dofusDbPano)) {
                 continue;
             }
-            // shortId = nextValue(shortId);
             panoplies[dofusDbPano._id] = {
                 id: dofusDbPano._id,
-                // idShort: shortId,
                 name: {
                     fr: dofusDbPano.name.fr,
                     en: dofusDbPano.name.en,

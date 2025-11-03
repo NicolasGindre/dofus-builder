@@ -138,25 +138,12 @@ export async function savePanoplies(panoplies: Panoplies): Promise<void> {
 export async function downloadItems(): Promise<void> {
     console.log("Starting download from DofusDB");
 
-    // dofusDB.initShortId();
     let newItemsDB: Items = {};
     for (const category of ITEM_CATEGORIES) {
         let newItemsCategory: Record<string, Item> = {};
         const itemsDofusDB = await dofusDB.downloadItems(category);
 
         for (const [dofusDBId, dofusDBitem] of Object.entries(itemsDofusDB)) {
-            // const oldItem = itemsDB[dofusDBId];
-            // if (oldItem && oldItem.idShort && oldItem.idShort != dofusDBitem.idShort) {
-            //     dofusDBitem.idShort = oldItem.idShort;
-            // } else {
-            //     const oldItemShort = getItemFromShortId(dofusDBitem.idShort);
-            //     if (oldItemShort && oldItemShort.id != dofusDBId) {
-            //         console.error(
-            //             oldItemShort.name.fr,
-            //             "Error : shortId is already linked to a different item and may be duplicated",
-            //         );
-            //     }
-            // }
             newItemsCategory[dofusDBId] = dofusDBitem;
             newItemsDB[dofusDBId] = dofusDBitem;
         }

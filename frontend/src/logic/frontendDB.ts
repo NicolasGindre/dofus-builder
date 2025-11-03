@@ -22,7 +22,7 @@ import { buildsFromIds } from "./build";
 
 let init = false;
 const itemsVersionDisplayed = "3.3.13.12";
-const itemsVersion = "3";
+const itemsVersion = "1";
 
 export async function loadItemsAndPanos() {
     let itemsUpToDate = false;
@@ -118,9 +118,9 @@ export function getItem(id: string): Item {
     return get(items)[id]!;
 }
 
-export function getItemFromShortId(shortId: string): Item | undefined {
-    return Object.values(get(items)).find((item) => item.idShort === shortId);
-}
+// export function getItemFromShortId(shortId: string): Item | undefined {
+//     return Object.values(get(items)).find((item) => item.idShort === shortId);
+// }
 
 export function saveSearchStorage(savedSearches: Record<string, string>) {
     if (!init) {

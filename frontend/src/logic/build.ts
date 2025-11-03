@@ -26,7 +26,7 @@ import {
     CATEGORY_TO_SLOTS,
 } from "../types/build";
 import { concatStats, type StatKey, type Stats } from "../types/stats";
-import { getItem, getItemFromShortId, getPanoply } from "./frontendDB";
+import { getItem, getPanoply } from "./frontendDB";
 import {
     ITEM_CATEGORIES,
     type Item,
@@ -99,10 +99,10 @@ export function buildFromId(buildId: string, name: string): Build {
 
     let build: Build = initBuild(name, buildId);
     for (let i = 0; i < buildId.length; i += 2) {
-        const itemShortId = buildId.slice(i, i + 2);
-        const item = getItemFromShortId(itemShortId);
+        const itemId = buildId.slice(i, i + 2);
+        const item = getItem(itemId);
         if (!item) {
-            console.error("No matching item found from short Id", itemShortId);
+            console.error("No matching item found from Id", itemId);
             continue;
         }
         if (!addItemToBuild(build, item, slotCounter)) {
@@ -163,7 +163,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
                     );
                     continue;
                 }
-                idBuilder.push(item.idShort);
+                idBuilder.push(item.id);
                 if (!addItemToBuild(build, item, slotCounter)) {
                     continue;
                 }

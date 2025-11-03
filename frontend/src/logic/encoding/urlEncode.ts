@@ -9,10 +9,10 @@ import {
 } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
-import { getItemFromShortId } from "../frontendDB";
 import { addItems, lockItem } from "../item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
+import { getItem } from "../frontendDB";
 
 let canEncode: boolean = false;
 let timeout: number;
@@ -54,7 +54,7 @@ function encodeItems(): string {
     // const itemsSelection = get(itemsSelected);
     for (const items of Object.values(get(itemsSelected))) {
         for (const item of Object.values(items)) {
-            encodedItems += item.idShort;
+            encodedItems += item.id;
             for (const lockeds of Object.values(get(itemsLocked))) {
                 if (lockeds[item.id]) {
                     encodedItems += "+";
@@ -115,9 +115,9 @@ function decodeItems(encodedItems: string) {
     // const parts = [];
     const itemsToAdd: Item[] = [];
     for (let i = 0; i < encodedItems.length; i += 2) {
-        const shortId = encodedItems.slice(i, i + 2);
-        const itemToAdd = getItemFromShortId(shortId);
-        // console.log("shortId", shortId);
+        const id = encodedItems.slice(i, i + 2);
+        const itemToAdd = getItem(id);
+        // console.log("itemId", id);
         // console.log("itemToAdd", itemToAdd);
         if (itemToAdd) {
             itemsToAdd.push(itemToAdd);
