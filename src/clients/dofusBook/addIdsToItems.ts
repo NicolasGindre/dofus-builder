@@ -35,21 +35,19 @@ const categoryMap: Record<string, ItemCategory> = {
 };
 
 type DofusBookItem = {
-    data: {
-        id: number;
-        official: number;
-        level: number;
-        category_id: number;
-        name: string;
-        category_name: string;
-        category_type: string;
-    }[];
+    id: number;
+    official: number;
+    level: number;
+    category_id: number;
+    name: string;
+    category_name: string;
+    category_type: string;
 };
 
-const itemsDofusBook: DofusBookItem = await Bun.file(
+const itemsDofusBook: { data: DofusBookItem[] } = await Bun.file(
     `src/clients/dofusBook/merged_items.json`,
 ).json();
-const weaponsDofusBook: DofusBookItem = await Bun.file(
+const weaponsDofusBook: { data: DofusBookItem[] } = await Bun.file(
     `src/clients/dofusBook/merged_weapons.json`,
 ).json();
 
@@ -69,10 +67,22 @@ for (let index = 0; index < allItemsDofusBook.length; index++) {
     if (indexesToSkip.includes(index)) {
         continue;
     }
-    addItem(index);
 
-    const item = allItemsDofusBook[index]!;
-    const minMaxItem = itemDB.itemsDB[item.id];
+    const dofusBookitem = allItemsDofusBook[index]!;
+    const category = categoryMap[dofusBookitem.category_name] as ItemCategory;
+    if (!category) {
+        console.error("no matching category", dofusBookitem.name, dofusBookitem.category_name);
+        continue;
+    }
+    // const dbItem = itemDB.itemsCategory[category][item.name]
+    let dbItem = itemDB.getItemFromNameFrench(dofusBookitem.name, category);
+    if (!dbItem) {
+        console.error("no matching item", dofusBookitem.name, dofusBookitem.category_name);
+        continue;
+    }
+    addItem(dofusBookitem, dbItem);
+
+    const minMaxItem = itemDB.itemsDB[dbItem.id];
 
     if (minMaxItem?.panoply) {
         const panoply = itemDB.panoplies[minMaxItem.panoply]!;
@@ -91,7 +101,27 @@ for (let index = 0; index < allItemsDofusBook.length; index++) {
                 }
             }
             if (found) {
-                addItem(panoIndex);
+                const dofusBookitem = allItemsDofusBook[panoIndex]!;
+                const category = categoryMap[dofusBookitem.category_name] as ItemCategory;
+                if (!category) {
+                    console.error(
+                        "no matching category",
+                        dofusBookitem.name,
+                        dofusBookitem.category_name,
+                    );
+                    continue;
+                }
+                // const dbItem = itemDB.itemsCategory[category][item.name]
+                let dbItem = itemDB.getItemFromNameFrench(dofusBookitem.name, category);
+                if (!dbItem) {
+                    console.error(
+                        "no matching item",
+                        dofusBookitem.name,
+                        dofusBookitem.category_name,
+                    );
+                    continue;
+                }
+                addItem(dofusBookitem, dbItem);
                 indexesToSkip.push(panoIndex);
             } else {
                 console.error("didn't find pano item", minMaxItem, itemToAdd);
@@ -100,33 +130,21 @@ for (let index = 0; index < allItemsDofusBook.length; index++) {
     }
 }
 
-function addItem(index: number) {
-    const item = allItemsDofusBook[index]!;
-    const category = categoryMap[item.category_name] as ItemCategory;
-    if (!category) {
-        console.error("no matching category", item.name, item.category_name);
-        return;
-    }
-    // const dbItem = itemDB.itemsCategory[category][item.name]
-    let dbItem = itemDB.getItemFromNameFrench(item.name, category);
-    if (!dbItem) {
-        console.error("no matching item", item.name, item.category_name);
-        return;
-    }
+function addItem(dofusBookitem: DofusBookItem, dbItem: Item) {
     // dbItem.idDofusBook = item.official;
     dofusMinMaxId = nextValue(dofusMinMaxId);
 
     dofusBookDBIdMap[dbItem.idDofusDB] = {
         id: dofusMinMaxId,
-        dofusBookId: item.official,
-        name: item.name,
-        level: item.level,
+        dofusBookId: dofusBookitem.official,
+        name: dofusBookitem.name,
+        level: dofusBookitem.level,
     };
-    dofusBookDBNameMap[item.name] = {
+    dofusBookDBNameMap[dofusBookitem.name] = {
         id: dofusMinMaxId,
         dofusDBId: dbItem.idDofusDB,
-        dofusBookId: item.official,
-        level: item.level,
+        dofusBookId: dofusBookitem.official,
+        level: dofusBookitem.level,
     };
 }
 
