@@ -108,44 +108,30 @@ export function binomial(n: number, k: number): bigint {
 }
 
 export function rankCombination(positions: number[]): bigint {
-    // Convert stat IDs to their indices and sort
-    // const positions = statIds.map((id) => STAT_INDEX[id]).sort((a, b) => a - b);
-
-    // console.log("positions encode", positions);
-
     let rank = 0n;
     for (let i = 0; i < positions.length; i++) {
-        // Add up binomial coefficients to get the rank
         rank += binomial(positions[i]!, i + 1);
     }
     return rank;
 }
-
-export function unrankCombination(rank: bigint, k: number): StatKey[] {
-    const n = STAT_KEYS.length;
+export function unrankCombination<T>(rank: bigint, k: number, allElements: T[]): T[] {
+    const n = allElements.length;
     const positions: number[] = [];
-
-    // Find each position that contributes to the rank
     let remainingRank = rank;
-    for (let i = k - 1; i >= 0; i--) {
-        // let pos = i;
-        let pos = n - 1;
-        // Find largest value that doesn't exceed remaining rank
-        // while (pos < n && binomial(pos, i + 1) <= remainingRank) {
-        //     pos++;
-        // }
 
+    for (let i = k - 1; i >= 0; i--) {
+        let pos = n - 1;
+
+        // Find largest pos such that C(pos, i + 1) <= remainingRank
         while (pos >= i && binomial(pos, i + 1) > remainingRank) {
             pos--;
         }
         positions.push(pos);
+        // positions.unshift(pos);
         remainingRank -= binomial(pos, i + 1);
     }
-    positions.reverse();
-    // console.log("positions decode", positions);
-
-    // Convert positions back to stat IDs
-    return positions.map((pos) => INDEX_TO_KEY[pos]!);
+    // positions.reverse();
+    return positions.map((pos) => allElements[pos]!);
 }
 
 // Convert a bigint to base64 string using our alphabet
@@ -254,10 +240,10 @@ function encodeStatsKeys(statKeys: StatKey[]): string {
     }
     // console.log("statKeys", statKeys);
     const positions = statKeys.map((id) => STAT_INDEX[id]).sort((a, b) => a - b);
+    // console.log("positions", positions);
 
     const rank = rankCombination(positions);
-    // console.log("statKeys.length", statKeys.length);
-    // console.log("rank", rank);
+
     // First character encodes the number of stats
 
     const statsWeight = get(weightsIndex);
@@ -319,7 +305,7 @@ export function decodeStats(encoded: string) {
     // console.log("encodedStats", encodedStats);
     // const rank = decodeBase64(encoded.slice(1));
     // console.log("Decoded RANK :", rank, encodedStats.length);
-    const statKeys = unrankCombination(rank, encodedStats.length);
+    const statKeys = unrankCombination(rank, encodedStats.length, INDEX_TO_KEY).reverse();
     // console.log("statKeys", statKeys);
 
     let decodedWeights: Partial<Stats> = {};

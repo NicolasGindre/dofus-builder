@@ -381,7 +381,7 @@
                                                     <button
                                                         class="lock"
                                                         class:locked={$itemsLocked[cat][item.id]}
-                                                        on:click={() => lockItem(cat, item)}
+                                                        on:click={() => lockItem(item)}
                                                     >
                                                         {$itemsLocked[cat][item.id] ? "🔒" : "🔓"}
                                                     </button>

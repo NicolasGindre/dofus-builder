@@ -9,11 +9,9 @@ import {
 } from "../../stores/builder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
-import { addItem, addItems, lockItem } from "../item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
-import { getItem } from "../frontendDB";
-import { encodeItems } from "./encodeItems";
+import { decodeItems, encodeItems } from "./encodeItems";
 
 let canEncode: boolean = false;
 let timeout: number;
@@ -92,33 +90,6 @@ export function decodeFromUrl(hash?: string) {
     }
     // calculateBestItems();
     canEncode = true;
-}
-
-function decodeItems(encodedItems: string) {
-    const split = encodedItems.split("|");
-
-    if (!split[0]) {
-        return;
-    }
-    for (let i = 0; i < split[0].length; i += 2) {
-        const id = split[0].slice(i, i + 2);
-        const itemToAdd = getItem(id);
-        if (itemToAdd) {
-            addItem(itemToAdd);
-        }
-    }
-
-    if (!split[1]) {
-        return;
-    }
-    for (let i = 0; i < split[1].length; i += 2) {
-        const id = split[1].slice(i, i + 2);
-        const lockedToAdd = getItem(id);
-        if (lockedToAdd) {
-            addItem(lockedToAdd);
-            lockItem(lockedToAdd.category, lockedToAdd);
-        }
-    }
 }
 
 let lastHistoryEntry = window.location.href;

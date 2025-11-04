@@ -9,12 +9,14 @@
     import { getEmptyCategoriesItems } from "./types/item";
     import Builds from "./components/Builds.svelte";
     import SavedSearches from "./components/SavedSearches.svelte";
+    import { setPanopliesSorted } from "./logic/encoding/encodeItems";
 
     let error: string | null = null;
 
     onMount(async () => {
         try {
             await loadItemsAndPanos();
+            setPanopliesSorted();
             decodeFromUrl();
             initFrontendDB();
             checkHashIsSavedSearch();

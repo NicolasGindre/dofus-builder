@@ -51,16 +51,16 @@
             ...current,
             [inputSearchName]: window.location.hash.slice(1),
         }));
-        console.log("hashUrl", $urlHash);
-        console.log($savedSearches);
+        // console.log("hashUrl", $urlHash);
+        // console.log($savedSearches);
 
         inputSearchName = "";
         saveHistoryEntry();
     }
     function loadSearch() {
-        console.log("hashUrl", $urlHash);
-        console.log($savedSearches);
-        console.log($savedSearches[inputSearchName]);
+        // console.log("hashUrl", $urlHash);
+        // console.log($savedSearches);
+        // console.log($savedSearches[inputSearchName]);
         decodeFromUrl($savedSearches[inputSearchName]);
         // encodeToUrl();
         savedSearch.set(inputSearchName);

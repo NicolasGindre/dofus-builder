@@ -67,9 +67,10 @@ export function clearAll() {
     calculatePanopliesToDisplay();
 }
 
-export function lockItem(category: ItemCategory, item: Item) {
+export function lockItem(item: Item) {
     // console.log($itemsLocked);
     itemsLocked.update((locked) => {
+        const category = item.category;
         const categoryLocks = locked[category];
         const ids = Object.keys(categoryLocks);
 
