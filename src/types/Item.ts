@@ -47,8 +47,9 @@ export type Items = Record<string, Item>;
 
 export type Panoply = {
     id: string;
-    // idShort: string;
+    idDofusDB: string;
     name: Name;
+    level: number;
     items: string[];
     stats: ItemStats[];
 };

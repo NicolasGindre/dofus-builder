@@ -9,7 +9,16 @@ export async function loadItemsDofusDB(c: Context) {
         logError("Download items failed", err);
         return c.text("Internal Server Error", 500);
     }
+    return c.body(null, 200);
+}
 
+export async function loadPanopliesDofusDB(c: Context) {
+    try {
+        await itemDB.downloadPanoplies();
+    } catch (err) {
+        logError("Download panoplies failed", err);
+        return c.text("Internal Server Error", 500);
+    }
     return c.body(null, 200);
 }
 

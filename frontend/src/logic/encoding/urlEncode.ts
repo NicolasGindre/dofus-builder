@@ -13,6 +13,7 @@ import { addItem, addItems, lockItem } from "../item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
 import { getItem } from "../frontendDB";
+import { encodeItems } from "./encodeItems";
 
 let canEncode: boolean = false;
 let timeout: number;
@@ -47,29 +48,6 @@ export function encodeToUrlNoThrottle() {
     window.history.replaceState(null, "", url.toString());
     urlHash.set(url.hash.slice(1));
     // console.log("URL HASH SET", get(urlHash));
-}
-
-function encodeItems(): string {
-    // let encodedItems = "";
-    let encodedItems: string[] = [];
-    let lockedItems: string[] = [];
-    // const itemsSelection = get(itemsSelected);
-    for (const items of Object.values(get(itemsSelected))) {
-        for (const item of Object.values(items)) {
-            let isLocked = false;
-            for (const lockeds of Object.values(get(itemsLocked))) {
-                if (lockeds[item.id]) {
-                    isLocked = true;
-                    lockedItems.push(item.id);
-                    break;
-                }
-            }
-            if (!isLocked) encodedItems.push(item.id);
-        }
-    }
-    const encodedItemsStr = encodedItems.sort().join("");
-    const lockedItemsStr = lockedItems.sort().join("");
-    return lockedItemsStr ? `${encodedItemsStr}|${lockedItemsStr}` : encodedItemsStr;
 }
 
 export function decodeFromUrl(hash?: string) {

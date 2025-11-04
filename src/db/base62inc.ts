@@ -25,9 +25,12 @@ export function nextValue(prev?: string): string {
     return ALPHABET[0]! + chars.join("");
 }
 
-// Example
-// let val = "";
-// for (let i = 0; i < 400000; i++) {
-//     val = nextValue(val);
-//     console.log(val);
-// }
+function idToIndex(id: string): number {
+    const a = ALPHABET.indexOf(id[0]!);
+    const b = ALPHABET.indexOf(id[1]!);
+    return a * ALPHABET.length + b;
+}
+
+export function sortItemsIds(itemIds: string[]): string[] {
+    return [...itemIds].sort((a, b) => idToIndex(a) - idToIndex(b));
+}

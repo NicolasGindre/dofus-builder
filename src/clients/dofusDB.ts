@@ -19,6 +19,9 @@ export type DofusBookDBNameMap = Record<
     { dofusDBId: string; level: number; dofusBookId: number; id: string }
 >;
 
+export type PanoMap = Record<string, PanoMapValue>;
+export type PanoMapValue = { id: string; dofusDBId: string; name: string; level: number };
+
 const dbPath = "./src/db/data";
 const dofusDBUrl: string = "https://api.dofusdb.fr";
 
@@ -82,12 +85,14 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     let itemIndex = 0;
     let itemNames: string[] = [];
 
-    let dofusBookIdMap: DofusBookDBIdMap = await Bun.file(
+    const dofusBookIdMap: DofusBookDBIdMap = await Bun.file(
         `${dbPath}/dofusBookMap/idMap.json`,
     ).json();
-    let dofusBookNameMap: DofusBookDBNameMap = await Bun.file(
+    const dofusBookNameMap: DofusBookDBNameMap = await Bun.file(
         `${dbPath}/dofusBookMap/nameMap.json`,
     ).json();
+    const panoIdMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoIdMap.json`).json();
+    // const panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
 
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
@@ -109,6 +114,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             }
             let dofusBookId: number;
             let dofusMinMaxId: string;
+            let panoMinMaxId: string = "";
             if (!dofusBookIdMap[dofusDbItem._id]) {
                 if (!dofusBookNameMap[dofusDbItem.name.fr]) {
                     console.error("item has no match in dofusbook", dofusDbItem.name.fr);
@@ -126,8 +132,17 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                 dofusBookId = dofusBookIdMap[dofusDbItem._id]!.dofusBookId;
                 dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
             }
+            if (dofusDbItem.itemSet) {
+                panoMinMaxId = panoIdMap[dofusDbItem.itemSet._id]!.id;
+            }
 
-            const newItem = translateItem(dofusDbItem, category, dofusMinMaxId, dofusBookId);
+            const newItem = translateItem(
+                dofusDbItem,
+                category,
+                dofusMinMaxId,
+                dofusBookId,
+                panoMinMaxId,
+            );
             if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
                 continue;
             } else {
@@ -152,6 +167,7 @@ export function translateItem(
     category: ItemCategory,
     dofusMinMaxId: string,
     dofusBookId: number,
+    panoMinMaxId: string,
 ): Item {
     const requirements = translateCriterions(dofusDbItem.criterions);
     const minRequirement = convertItemRequirement(requirements);
@@ -168,7 +184,7 @@ export function translateItem(
         },
         level: dofusDbItem.level,
         // panoply: dofusDbItem.itemSet?.name.fr,
-        ...(dofusDbItem.itemSet ? { panoply: dofusDbItem.itemSet._id } : {}),
+        ...(panoMinMaxId ? { panoply: panoMinMaxId } : {}),
         category: category,
         ...(requirements[0] && requirements[0].length > 0 ? { requirements: requirements } : {}),
         ...(minRequirement ? { minRequirement: minRequirement } : {}),
@@ -265,6 +281,9 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
     let totalItems = 10000;
     let itemIndex = 0;
 
+    let panoIdMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoIdMap.json`).json();
+    let panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
+
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
 
@@ -283,8 +302,21 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
             if (shouldSkipPano(dofusDbPano)) {
                 continue;
             }
-            panoplies[dofusDbPano._id] = {
-                id: dofusDbPano._id,
+            let panoMap: PanoMapValue;
+            if (!panoIdMap[dofusDbPano._id]) {
+                if (!panoNameMap[dofusDbPano.name.fr]) {
+                    console.error("item has no match in dofusbook", dofusDbPano.name.fr);
+                    continue;
+                } else {
+                    panoMap = panoNameMap[dofusDbPano.name.fr]!;
+                    console.log("There was no id match but found name match", panoMap);
+                }
+            } else {
+                panoMap = panoIdMap[dofusDbPano._id]!;
+            }
+            panoplies[panoMap.id] = {
+                id: panoMap.id,
+                idDofusDB: dofusDbPano._id,
                 name: {
                     fr: dofusDbPano.name.fr,
                     en: dofusDbPano.name.en,
@@ -292,6 +324,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
                     de: dofusDbPano.name.de,
                     es: dofusDbPano.name.es,
                 },
+                level: panoMap.level,
                 items: [],
                 stats: translatePanoplyStats(dofusDbPano),
             };

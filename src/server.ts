@@ -8,7 +8,9 @@ import * as itemDB from "./db/itemDB";
 try {
     const app = new Hono();
     registerRoutes(app);
-    await itemDB.loadItems();
+    await itemDB.loadItemsAndPanos();
+    // itemDB.addPanopliesLevel();
+    // itemDB.savePanoplies(itemDB.panoplies);
     // app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
     app.use(serveStatic({ root: "./frontend/dist" }));
 

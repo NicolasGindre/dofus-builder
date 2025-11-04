@@ -22,7 +22,7 @@ import { buildsFromIds } from "./build";
 
 let init = false;
 const itemsVersionDisplayed = "3.3.13.12";
-const itemsVersion = "1";
+const itemsVersion = "2";
 
 export async function loadItemsAndPanos() {
     let itemsUpToDate = false;

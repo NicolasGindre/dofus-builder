@@ -54,6 +54,7 @@ export type CategoryItemsArr = Record<ItemCategory, Item[]>;
 export type Panoply = {
     id: string;
     name: Name;
+    level: number;
     items: string[];
     itemsReal: Item[];
     stats: ItemStats[];

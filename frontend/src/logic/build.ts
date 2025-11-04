@@ -40,6 +40,7 @@ import type { MinRequirement } from "../workers/orchestrator";
 import { calculateBuildToDisplay } from "./display";
 import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
 import { createDofusDBBuild } from "../clients/dofusDB";
+import { sortItemsIds } from "./encoding/encodeItems";
 
 function initBuild(name: string, buildId?: string, value?: number): Build {
     return {
@@ -203,7 +204,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
                 Math.round(build.value * 10) / 10,
             );
         }
-        build.id = idBuilder.sort().join("");
+        build.id = sortItemsIds(idBuilder).join("");
         // const savedBuild = getSavedBuild(build.id);
         // if (savedBuild) {
         //     build.name = savedBuild.name;

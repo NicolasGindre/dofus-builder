@@ -93,7 +93,7 @@ export const STAT_INDEX = {
 export const STAT_INDEX_KEYS = Object.keys(STAT_INDEX) as StatKey[];
 export const INDEX_TO_KEY = STAT_INDEX_KEYS.sort((a, b) => STAT_INDEX[a] - STAT_INDEX[b]);
 
-function binomial(n: number, k: number): bigint {
+export function binomial(n: number, k: number): bigint {
     if (k < 0 || k > n) return 0n;
     if (k === 0 || k === n) return 1n;
 
@@ -107,7 +107,7 @@ function binomial(n: number, k: number): bigint {
     return result;
 }
 
-function rankCombination(positions: number[]): bigint {
+export function rankCombination(positions: number[]): bigint {
     // Convert stat IDs to their indices and sort
     // const positions = statIds.map((id) => STAT_INDEX[id]).sort((a, b) => a - b);
 
@@ -121,7 +121,7 @@ function rankCombination(positions: number[]): bigint {
     return rank;
 }
 
-function unrankCombination(rank: bigint, k: number): StatKey[] {
+export function unrankCombination(rank: bigint, k: number): StatKey[] {
     const n = STAT_KEYS.length;
     const positions: number[] = [];
 
@@ -138,7 +138,6 @@ function unrankCombination(rank: bigint, k: number): StatKey[] {
         while (pos >= i && binomial(pos, i + 1) > remainingRank) {
             pos--;
         }
-        // pos--;
         positions.push(pos);
         remainingRank -= binomial(pos, i + 1);
     }
@@ -150,7 +149,7 @@ function unrankCombination(rank: bigint, k: number): StatKey[] {
 }
 
 // Convert a bigint to base64 string using our alphabet
-function encodeBase64(num: bigint): string {
+export function encodeBase64(num: bigint): string {
     if (num === 0n) return ALPHABET[0]!;
 
     let result = "";
@@ -163,7 +162,7 @@ function encodeBase64(num: bigint): string {
 }
 
 // Convert a base64 string back to bigint
-function decodeBase64(str: string): bigint {
+export function decodeBase64(str: string): bigint {
     let result = 0n;
     for (const char of str) {
         const value = ALPHABET.indexOf(char);

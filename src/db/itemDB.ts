@@ -7,6 +7,7 @@ import {
     ITEM_CATEGORIES,
 } from "../types/item";
 import * as dofusDB from "../clients/dofusDB";
+import { sortItemsIds } from "./base62inc";
 
 const dbPath = "./src/db/data";
 
@@ -55,7 +56,7 @@ export function getAllPanoplies(): Panoplies {
     return panoplies;
 }
 
-export async function loadItems(): Promise<void> {
+export async function loadItemsAndPanos(): Promise<void> {
     panoplies = await Bun.file(`${dbPath}/panoplies.json`).json();
 
     for (const category of ITEM_CATEGORIES) {
@@ -151,9 +152,10 @@ export async function downloadItems(): Promise<void> {
         itemsCategory[category] = newItemsCategory;
         saveItems(category, newItemsCategory);
     }
-
     itemsDB = newItemsDB;
+}
 
+export async function downloadPanoplies(): Promise<void> {
     panoplies = await dofusDB.downloadPanopliesStats();
 
     fillPanopliesItems();
@@ -164,7 +166,29 @@ export async function downloadItems(): Promise<void> {
 export function fillPanopliesItems() {
     for (const [itemId, item] of Object.entries(itemsDB)) {
         if (item.panoply != undefined) {
-            panoplies[item.panoply]?.items.push(itemId);
+            if (panoplies[item.panoply] != undefined) {
+                panoplies[item.panoply]!.items.push(itemId);
+            } else {
+                console.error("couldn't find matching panoply from item", item.name.fr);
+            }
+        }
+    }
+    sortPanopliesItems();
+    addPanopliesLevel();
+}
+
+export function sortPanopliesItems() {
+    for (const pano of Object.values(panoplies)) {
+        pano.items = sortItemsIds(pano.items);
+    }
+}
+export function addPanopliesLevel() {
+    for (const pano of Object.values(panoplies)) {
+        for (const itemId of pano.items) {
+            const itemLevel = itemsDB[itemId]!.level;
+            if (itemLevel > (pano.level ?? 0)) {
+                pano.level = itemLevel;
+            }
         }
     }
 }

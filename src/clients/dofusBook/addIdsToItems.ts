@@ -51,7 +51,7 @@ const weaponsDofusBook: { data: DofusBookItem[] } = await Bun.file(
     `src/clients/dofusBook/merged_weapons.json`,
 ).json();
 
-await itemDB.loadItems();
+await itemDB.loadItemsAndPanos();
 let dofusMinMaxId = "Z";
 
 let dofusBookDBIdMap: DofusBookDBIdMap = {};
