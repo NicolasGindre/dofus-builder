@@ -121,24 +121,7 @@ export function buildFromId(buildId: string, name: string): Build {
         addBuildMinRequirement(build, item.minRequirement);
         addBuildRequirement(build, item.requirements);
     }
-    build.requirements = mergeRequirements(build.requirements);
-    addBuildRequirement(build, [[{ type: "moreThanOrEquals", stat: "level", value: build.level }]]);
-    for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
-        build.noCharStats = concatStats(
-            build.noCharStats,
-            getPanoply(panoId).statsWithBonus[setNumber - 1]!,
-        );
-        build.panopliesBonus += setNumber - 1;
-        // if (pano.requirement) {
-        //     build.requirements.push(pano.requirement);
-        // }
-    }
-    // build.noCharStats = build.stats;
-    build.stats = concatStats(build.noCharStats, get(preStats));
-
-    calculateBuildValue(build);
-    build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
-
+    finaliseBuild(build);
     return build;
 }
 
@@ -183,23 +166,7 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
                 addBuildRequirement(build, item.requirements);
             }
         }
-        build.requirements = mergeRequirements(build.requirements);
-        addBuildRequirement(build, [
-            [{ type: "moreThanOrEquals", stat: "level", value: build.level }],
-        ]);
-        for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
-            build.noCharStats = concatStats(
-                build.noCharStats,
-                getPanoply(panoId).statsWithBonus[setNumber - 1]!,
-            );
-            build.panopliesBonus += setNumber - 1;
-            // if (pano.requirement) {
-            //     build.requirements.push(pano.requirement);
-            // }
-        }
-        build.stats = concatStats(build.noCharStats, get(preStats));
-
-        calculateBuildValue(build);
+        finaliseBuild(build);
 
         if (build.value > 0 && buildResp.value == 0) {
             continue;
@@ -213,18 +180,30 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
             );
         }
         build.id = sortItemsIds(idBuilder).join("");
-        // const savedBuild = getSavedBuild(build.id);
-        // if (savedBuild) {
-        //     build.name = savedBuild.name;
-        // }
-        build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
-        // build.export.dofusDBUrl = createDofusDBBuild(build);
         bestBuilds.push(build);
     }
-    console.log("DOFUSBOOK URL", bestBuilds[0]?.export.dofusBookUrl);
     updateBestBuildsNames(bestBuilds);
-    console.log("bestBuilds : ", bestBuilds);
     return bestBuilds;
+}
+
+function finaliseBuild(build: Build) {
+    addBuildRequirement(build, [[{ type: "moreThanOrEquals", stat: "level", value: build.level }]]);
+    for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
+        const pano = getPanoply(panoId);
+        build.noCharStats = concatStats(
+            build.noCharStats,
+            getPanoply(panoId).statsWithBonus[setNumber - 1]!,
+        );
+        build.panopliesBonus += setNumber - 1;
+        if (pano.requirements) {
+            build.requirements.push(...pano.requirements[setNumber - 1]!);
+        }
+    }
+    build.requirements = mergeRequirements(build.requirements);
+    build.stats = concatStats(build.noCharStats, get(preStats));
+
+    calculateBuildValue(build);
+    build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
 }
 
 function addBuildRequirement(build: Build, requirements?: Requirement[][]) {
@@ -338,7 +317,7 @@ function capBuildStats(build: Build) {
         }
     }
 
-    const PANO_CIRE_MOMORE_ID = "1a";
+    const PANO_CIRE_MOMORE_ID = "6h";
     const count = build.panoplies[PANO_CIRE_MOMORE_ID];
     if (count && count >= 2) {
         switch (count) {
@@ -687,39 +666,52 @@ export function checkAndRequirement(
 export function checkOrRequirement(build: Build, orRequirements: Requirement[]): RequirementResult {
     let orStatuses: RequirementResult[] = [];
     for (const requirement of orRequirements) {
+        let requirementValue: number = requirement.value;
+        let statToCheck: number;
+        let failResult: RequirementResult;
+
         if (requirement.stat == "level") {
-            if (get(level) < requirement.value) {
-                orStatuses.push("invalid");
-            } else {
-                return "ok";
-            }
+            statToCheck = get(level);
+            failResult = "invalid";
         } else if (requirement.stat == "panopliesBonus") {
-            if (build.panopliesBonus > requirement.value) {
-                orStatuses.push("invalid");
-            } else {
-                return "ok";
-            }
+            statToCheck = build.panopliesBonus;
+            failResult = "invalid";
         } else {
-            let updatedRequirementValue = requirement.value;
-            if (requirement.stat == "health") {
-                updatedRequirementValue += get(preStats).health ?? 0;
-            }
-            switch (requirement.type) {
-                case "lessThan":
-                    if (updatedRequirementValue <= (build.cappedStats[requirement.stat] ?? 0)) {
-                        orStatuses.push("warning");
-                    } else {
-                        return "ok";
-                    }
-                    break;
-                case "moreThan":
-                    if (updatedRequirementValue >= (build.cappedStats[requirement.stat] ?? 0)) {
-                        orStatuses.push("warning");
-                    } else {
-                        return "ok";
-                    }
-                    break;
-            }
+            statToCheck = build.cappedStats[requirement.stat] ?? 0;
+            failResult = "warning";
+        }
+        if (requirement.stat == "health") {
+            requirementValue += get(preStats).health ?? 0;
+        }
+        switch (requirement.type) {
+            case "lessThan":
+                if (requirementValue <= statToCheck) {
+                    orStatuses.push(failResult);
+                } else {
+                    return "ok";
+                }
+                break;
+            case "moreThan":
+                if (requirementValue >= statToCheck) {
+                    orStatuses.push(failResult);
+                } else {
+                    return "ok";
+                }
+                break;
+            case "lessThanOrEquals":
+                if (requirementValue < statToCheck) {
+                    orStatuses.push(failResult);
+                } else {
+                    return "ok";
+                }
+                break;
+            case "moreThanOrEquals":
+                if (requirementValue > statToCheck) {
+                    orStatuses.push(failResult);
+                } else {
+                    return "ok";
+                }
+                break;
         }
     }
     // if (orStatuses.includes("ok")) return "ok";

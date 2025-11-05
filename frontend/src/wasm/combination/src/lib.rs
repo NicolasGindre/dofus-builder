@@ -238,7 +238,7 @@ fn prepare_items(
     // log(format!("items: {:?}", items));
 
     // Hardcoded Malédiction de Cire Momore
-    const PANO_CIRE_MOMORE_ID: &str = "1a";
+    const PANO_CIRE_MOMORE_ID: &str = "6h";
     let pano_cire_momore_pid = pan.panoply_to_pid.get(PANO_CIRE_MOMORE_ID).copied();
 
     // if items.is_empty() {

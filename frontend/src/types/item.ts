@@ -15,6 +15,37 @@ export const ITEM_CATEGORIES = [
 ] as const;
 export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 
+export type SubCategory = (typeof SUB_CATEGORIES)[number];
+export const SUB_CATEGORIES = [
+    "amulet",
+    "belt",
+    "boots",
+    "cloak",
+    "dofus",
+    "trophy",
+    "ring",
+    "hat",
+    "shield",
+
+    "hammer",
+    "scythe",
+    "lance",
+    "bow",
+    "sword",
+    "staff",
+    "dagger",
+    "axe",
+    "shovel",
+    "wand",
+    "pickaxe",
+
+    "pet",
+    "dragoturkey", // mount
+    "rhineetle", // volkorne petsmount ?
+    "seemyool", // petsmount ?
+    "petmount", // montilier
+] as const;
+
 export type Item = {
     id: string;
     idDofusDB: string;
@@ -26,6 +57,7 @@ export type Item = {
     panoply?: string;
     category: ItemCategory;
     stats: ItemStats;
+    subCategory: SubCategory;
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;
@@ -68,6 +100,7 @@ export type Panoply = {
     stats: ItemStats[];
     statsWithBonus: ItemStats[];
     value: number[];
+    requirements?: Requirement[][][]; // []and -> []or
     valuePerItem: number;
     avgRelativeValue: number;
 };
@@ -102,16 +135,3 @@ export function sumStatsWithBonus(items: Item[]): ItemStats {
     }
     return sumStatsWithBonus;
 }
-
-// export function getBiggestCategory(itemsCategory: Record<ItemCategory, Items>): ItemCategory {
-//     let biggestCatCount = -1;
-//     let biggestCat: ItemCategory = "ring";
-//     for (const [category, items] of Object.entries(itemsCategory)) {
-//         const categoryLength = Object.keys(items).length;
-//         if (categoryLength > biggestCatCount) {
-//             biggestCatCount = categoryLength;
-//             biggestCat = category as ItemCategory;
-//         }
-//     }
-//     return biggestCat;
-// }

@@ -90,20 +90,17 @@
             style="top:{coords.top}px; left:{coords.left}px;"
         >
             {#if item}
-                {#each item.requirements as andRequirement}
+                {#each item.requirements as orRequirement}
                     <div>
-                        {#each andRequirement as orRequirement, i}
-                            <strong>{translateRequirement(orRequirement)}</strong>
-                            {#if i < andRequirement.length - 1}
+                        {#each orRequirement as requirement, i}
+                            <strong>{translateRequirement(requirement)}</strong>
+                            {#if i < orRequirement.length - 1}
                                 {" "}<strong><em>{$words.or}</em></strong>{" "}
                             {/if}
                         {/each}
                         <br />
                     </div>
                 {/each}
-                <!-- {#if item.requirement}
-                    <strong>{translateRequirement(item.requirement)}</strong>
-                {/if} -->
                 <ShowStats stats={item.stats} />
             {/if}
             {#if panoply && !panoplyItemCount}
@@ -117,6 +114,19 @@
                                 )}
                             </strong>
                         </div>
+                        {#if panoply.requirements}
+                            {#each panoply.requirements[i] as orRequirement}
+                                <div>
+                                    {#each orRequirement as requirement, i}
+                                        <strong>{translateRequirement(requirement)}</strong>
+                                        {#if i < orRequirement.length - 1}
+                                            {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                        {/if}
+                                    {/each}
+                                    <br />
+                                </div>
+                            {/each}
+                        {/if}
                         <ShowStats stats={diffStats(stats, panoply.stats[i - 1])} />
                     {/if}
                 {/each}
@@ -128,6 +138,19 @@
                         >{$words.value} : {Math.round(panoply.value[panoplyItemCount - 1])}
                     </strong>
                 </div>
+                {#if panoply.requirements}
+                    {#each panoply.requirements[panoplyItemCount - 1] as orRequirement}
+                        <div>
+                            {#each orRequirement as requirement, i}
+                                <strong>{translateRequirement(requirement)}</strong>
+                                {#if i < orRequirement.length - 1}
+                                    {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                {/if}
+                            {/each}
+                            <br />
+                        </div>
+                    {/each}
+                {/if}
                 <ShowStats stats={panoply.stats[panoplyItemCount - 1]}></ShowStats>
             {/if}
         </div>

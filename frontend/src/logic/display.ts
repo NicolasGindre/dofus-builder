@@ -101,7 +101,7 @@ export function calculatePanopliesToDisplayNow() {
             }
         }
     }
-    console.log(panosToDisplay);
+    // console.log(panosToDisplay);
     // return panosToDisplay;
     panopliesDisplayed.set(panosToDisplay);
 }

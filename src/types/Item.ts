@@ -67,11 +67,20 @@ export type Name = {
     pt: string;
     es: string;
 };
+
+export const REQUIREMENT_TYPE = [
+    "lessThan",
+    "moreThan",
+    "lessThanOrEquals",
+    "moreThanOrEquals",
+] as const;
+export type RequirementType = (typeof REQUIREMENT_TYPE)[number];
 export type Requirement = {
-    type: string;
-    stat: StatKey | "panopliesBonus";
+    type: RequirementType;
+    stat: StatKey | "level" | "panopliesBonus";
     value: number;
 };
+
 export type ItemStats = Partial<Stats>;
 
 export type Items = Record<string, Item>;
@@ -83,6 +92,7 @@ export type Panoply = {
     level: number;
     items: string[];
     stats: ItemStats[];
+    requirements?: Requirement[][][]; // []and -> []or
 };
 export type Panoplies = Record<string, Panoply>;
 

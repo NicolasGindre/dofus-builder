@@ -90,7 +90,7 @@ export function encodePanoplies(encodedItems: string[]): string {
         const startIdx = encodedItems.indexOf(panoItems[0]!);
         if (startIdx === -1) continue;
 
-        // Check if all items match consecutively
+        // Check if all items match
         let fullMatch = true;
         for (const panoItemId of panoItems) {
             if (!encodedItems.includes(panoItemId)) {

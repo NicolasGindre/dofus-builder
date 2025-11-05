@@ -31,7 +31,13 @@ export type ItemMapValue = {
 };
 
 export type PanoMap = Record<string, PanoMapValue>;
-export type PanoMapValue = { id: string; dofusDBId: string; name: string; level: number };
+export type PanoMapValue = {
+    id: string;
+    dofusDBId: string;
+    name: string;
+    level: number;
+    requirements?: Requirement[][][];
+};
 
 const dbPath = "./src/db/data";
 const dofusDBUrl: string = "https://api.dofusdb.fr";
@@ -128,14 +134,10 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                     continue;
                 } else {
                     itemMap = dofusBookNameMap[dofusDbItem.name.fr]!;
-                    // dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId;
-                    // dofusMinMaxId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
-                    console.log("There was no id match but found name match", itemMap);
+                    console.log("There was no id match but found name match", dofusDbItem.name.fr);
                 }
             } else {
                 itemMap = dofusBookIdMap[dofusDbItem._id]!;
-                // dofusBookId = dofusBookIdMap[dofusDbItem._id]!.dofusBookId;
-                // dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
             }
             let panoMinMaxId: string = "";
             if (dofusDbItem.itemSet) {
@@ -346,6 +348,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
                 level: panoMap.level,
                 items: [],
                 stats: translatePanoplyStats(dofusDbPano),
+                ...(panoMap.requirements ? { requirements: panoMap.requirements } : {}),
             };
         }
         totalItems = panopliesResp.total;
