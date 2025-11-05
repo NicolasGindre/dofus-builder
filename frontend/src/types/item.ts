@@ -13,7 +13,6 @@ export const ITEM_CATEGORIES = [
     "pet",
     "dofus",
 ] as const;
-
 export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 
 export type Item = {
@@ -38,11 +37,20 @@ export type Name = {
     pt: string;
     es: string;
 };
+
+export const REQUIREMENT_TYPE = [
+    "lessThan",
+    "moreThan",
+    "lessThanOrEquals",
+    "moreThanOrEquals",
+] as const;
+export type RequirementType = (typeof REQUIREMENT_TYPE)[number];
 export type Requirement = {
-    type: string;
-    stat: StatKey | string;
+    type: RequirementType;
+    stat: StatKey | "level" | "panopliesBonus";
     value: number;
 };
+
 export type ItemStats = Partial<Stats>;
 
 export type Items = Record<string, Item>;

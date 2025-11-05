@@ -22,6 +22,13 @@ type MinItem = {
     panoplies: string[];
     requirement?: MinRequirement;
 };
+export const MIN_REQUIREMENT_TYPE = [
+    "apLessThanOrMpLessThan",
+    "apLessThanAndMpLessThan",
+    "apLessThan",
+    "mpLessThan",
+] as const;
+export type RequirementType = (typeof MIN_REQUIREMENT_TYPE)[number] | string;
 export type MinRequirement = {
     type: string;
     value: number;

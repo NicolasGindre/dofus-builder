@@ -97,13 +97,13 @@ let lastHistoryEntry = window.location.href;
 export function saveHistoryEntry() {
     const newUrl = new URL(window.location.href).toString();
 
-    console.log(newUrl, lastHistoryEntry);
+    // console.log(newUrl, lastHistoryEntry);
     if (newUrl !== lastHistoryEntry) {
-        console.log("IT IS NEW");
+        // console.log("IT IS NEW");
         window.history.pushState(null, "", newUrl);
         setLastHistoryEntry(newUrl);
     } else {
-        console.log("IT IS OLD");
+        // console.log("IT IS OLD");
     }
 }
 

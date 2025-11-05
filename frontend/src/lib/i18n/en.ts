@@ -35,6 +35,8 @@ export default {
     onlySelected: "Selected",
     bestAndSelected: "Best + Selected",
 
+    baseVitality: "Base Vitality",
+
     addPanoply: "Add Set",
     removePanoply: "Remove Set",
 

@@ -32,6 +32,7 @@ export type Build = {
     id: string;
     slots: Slots;
     panoplies: Record<string, number>;
+    panopliesBonus: number;
     stats: Partial<Stats>;
     noCharStats: Partial<Stats>;
     cappedStats: Partial<Stats>;

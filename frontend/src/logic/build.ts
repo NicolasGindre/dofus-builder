@@ -8,6 +8,7 @@ import {
     exoRange,
     itemsLocked,
     itemsSelected,
+    level,
     maxStats,
     minStats,
     preStats,
@@ -49,6 +50,7 @@ function initBuild(name: string, buildId?: string, value?: number): Build {
         name: name,
         slots: getEmptySlots(),
         panoplies: {},
+        panopliesBonus: 0,
         noCharStats: {},
         stats: {},
         cappedStats: {},
@@ -119,12 +121,14 @@ export function buildFromId(buildId: string, name: string): Build {
         addBuildMinRequirement(build, item.minRequirement);
         addBuildRequirement(build, item.requirements);
     }
-    addBuildRequirement(build, [[{ type: "equals", stat: "level", value: build.level }]]);
+    build.requirements = mergeRequirements(build.requirements);
+    addBuildRequirement(build, [[{ type: "moreThanOrEquals", stat: "level", value: build.level }]]);
     for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
         build.noCharStats = concatStats(
             build.noCharStats,
             getPanoply(panoId).statsWithBonus[setNumber - 1]!,
         );
+        build.panopliesBonus += setNumber - 1;
         // if (pano.requirement) {
         //     build.requirements.push(pano.requirement);
         // }
@@ -179,12 +183,16 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
                 addBuildRequirement(build, item.requirements);
             }
         }
-        addBuildRequirement(build, [[{ type: "equals", stat: "level", value: build.level }]]);
+        build.requirements = mergeRequirements(build.requirements);
+        addBuildRequirement(build, [
+            [{ type: "moreThanOrEquals", stat: "level", value: build.level }],
+        ]);
         for (const [panoId, setNumber] of Object.entries(build.panoplies)) {
             build.noCharStats = concatStats(
                 build.noCharStats,
                 getPanoply(panoId).statsWithBonus[setNumber - 1]!,
             );
+            build.panopliesBonus += setNumber - 1;
             // if (pano.requirement) {
             //     build.requirements.push(pano.requirement);
             // }
@@ -297,7 +305,7 @@ export function refreshBuildValue(build: Build) {
 
 export function calculateBuildValue(build: Build) {
     capBuildStats(build);
-    if (isBuildMinStatsOk(build)) {
+    if (isBuildMinStatsOk(build) && checkAndRequirement(build) != "invalid") {
         build.value = calculateStatsValue(build.cappedStats);
     } else {
         build.value = 0;
@@ -657,3 +665,124 @@ export function updateBestBuildsNames(bestBuilds: Build[]) {
 //         savedBuilds.set([...savBuilds, build]);
 //     }
 // }
+export type RequirementResult = "ok" | "warning" | "invalid";
+
+export function checkAndRequirement(
+    build: Build,
+    // andRequirements: Requirement[][],
+): RequirementResult {
+    let andStatuses: RequirementResult[] = [];
+    for (const orRequirements of build.requirements) {
+        const orRequirement = checkOrRequirement(build, orRequirements);
+        if (orRequirement == "invalid") {
+            return "invalid";
+        } else {
+            andStatuses.push(orRequirement);
+        }
+    }
+    if (andStatuses.includes("warning")) return "warning";
+    return "ok";
+}
+
+export function checkOrRequirement(build: Build, orRequirements: Requirement[]): RequirementResult {
+    let orStatuses: RequirementResult[] = [];
+    for (const requirement of orRequirements) {
+        if (requirement.stat == "level") {
+            if (get(level) < requirement.value) {
+                orStatuses.push("invalid");
+            } else {
+                return "ok";
+            }
+        } else if (requirement.stat == "panopliesBonus") {
+            if (build.panopliesBonus > requirement.value) {
+                orStatuses.push("invalid");
+            } else {
+                return "ok";
+            }
+        } else {
+            let updatedRequirementValue = requirement.value;
+            if (requirement.stat == "health") {
+                updatedRequirementValue += get(preStats).health ?? 0;
+            }
+            switch (requirement.type) {
+                case "lessThan":
+                    if (updatedRequirementValue <= (build.cappedStats[requirement.stat] ?? 0)) {
+                        orStatuses.push("warning");
+                    } else {
+                        return "ok";
+                    }
+                    break;
+                case "moreThan":
+                    if (updatedRequirementValue >= (build.cappedStats[requirement.stat] ?? 0)) {
+                        orStatuses.push("warning");
+                    } else {
+                        return "ok";
+                    }
+                    break;
+            }
+        }
+    }
+    // if (orStatuses.includes("ok")) return "ok";
+    if (orStatuses.includes("warning")) return "warning";
+    return "invalid";
+}
+
+export function mergeRequirements(andRequirements: Requirement[][]): Requirement[][] {
+    let indexesToMerge: number[] = [];
+
+    for (let i = 0; i < andRequirements.length; i++) {
+        const iOrRequirement = andRequirements[i]!;
+        for (let j = i + 1; j < andRequirements.length; j++) {
+            const jOrRequirement = andRequirements[j]!;
+
+            const indexToMerge = compareOrRequirements(iOrRequirement, jOrRequirement, i, j);
+
+            if (!indexToMerge) {
+                continue;
+            }
+            indexesToMerge.push(indexToMerge);
+        }
+    }
+    // console.log("indexesToMerge", indexesToMerge);
+    // for (const orRequirements of andRequirements) {
+    let newRequirements: Requirement[][] = [];
+    for (let i = 0; i < andRequirements.length; i++) {
+        if (!indexesToMerge.includes(i)) {
+            newRequirements.push(andRequirements[i]!);
+        }
+    }
+    // console.log("newRequirements", newRequirements);
+    return newRequirements;
+}
+
+function compareOrRequirements(
+    orRequirement1: Requirement[],
+    orRequirement2: Requirement[],
+    i: number,
+    j: number,
+): number | false {
+    const aImpliesB = orImpliesOr(orRequirement1, orRequirement2);
+    const bImpliesA = orImpliesOr(orRequirement2, orRequirement1);
+    if (aImpliesB && bImpliesA) {
+        return i;
+    }
+    if (aImpliesB) return j;
+    if (bImpliesA) return i;
+
+    return false;
+}
+
+function orImpliesOr(A: Requirement[], B: Requirement[]): boolean {
+    return A.every((a) => B.some((b) => impliesReq(a, b)));
+}
+function impliesReq(a: Requirement, b: Requirement): boolean {
+    if (a.stat !== b.stat) return false;
+
+    if (a.type === "lessThan" && b.type === "lessThan") {
+        return a.value <= b.value;
+    }
+    if (a.type === "moreThan" && b.type === "moreThan") {
+        return a.value >= b.value;
+    }
+    return false;
+}

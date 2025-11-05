@@ -94,7 +94,7 @@ function getDofusDBStats(stats: Partial<Stats>): Record<number, number> {
     let dofusDBStats: Record<number, number> = {};
     for (const [idStr, statKey] of Object.entries(STAT_ID_DOFUSDB)) {
         const id = Number(idStr);
-        dofusDBStats[id] = stats[statKey as StatKey] ?? 0;
+        dofusDBStats[id] = Math.floor(stats[statKey as StatKey] ?? 0);
     }
     return dofusDBStats;
 }

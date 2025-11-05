@@ -359,11 +359,12 @@ export function decodeExosAndLevel(encoded: string) {
     const decodedExoMp = !!(bits & 2);
     const decodedExoRange = !!(bits & 4);
     const decodedExoSummon = !!(bits & 8);
-    const decodedLevel = Math.max(200, (bits >> 4) & 0xff);
+    const decodedLevel = Math.min(200, (bits >> 4) & 0xff);
 
     exoAp.set(decodedExoAp);
     exoMp.set(decodedExoMp);
     exoRange.set(decodedExoRange);
     exoSummon.set(decodedExoSummon);
+    console.log("DECODED LEVEL", decodedLevel);
     level.set(decodedLevel);
 }

@@ -14,10 +14,14 @@ import type { Panoply } from "../../types/item";
 const ITEM_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" as const;
 const ITEM_ALPHABET_LENGTH = ITEM_ALPHABET.length;
 
-let allPanoplies: Panoply[] = [];
-export function setPanopliesSorted() {
-    // allPanoplies = panoSorted;
-    allPanoplies = Object.values(get(panoplies)).sort((a, b) => idToIndex(a.id) - idToIndex(b.id));
+let allPanoplies: Panoply[] | null = null;
+function getAllPanoplies(): Panoply[] {
+    if (!allPanoplies) {
+        allPanoplies = Object.values(get(panoplies)).sort(
+            (a, b) => idToIndex(a.id) - idToIndex(b.id),
+        );
+    }
+    return allPanoplies;
 }
 
 function idToIndex(id: string): number {
@@ -67,12 +71,9 @@ export function encodeItems(): string {
     const encodedPanosStr = encodePanoplies(encodedItems);
     const encodedItemsStr = encodeConsecutive(encodedItems);
 
-    // const encodedItemsStr = encodedItems.sort().join("");
-    // const lockedItemsStr = lockedItems.sort().join("");
     return lockedItemsStr
         ? `${encodedPanosStr}|${encodedItemsStr}|${lockedItemsStr}`
         : `${encodedPanosStr}|${encodedItemsStr}`;
-    // return encodedItemsStr;
 }
 
 // Modifies encodedItems : Takes out items that were encoded in pano
@@ -80,10 +81,9 @@ export function encodePanoplies(encodedItems: string[]): string {
     if (encodedItems.length === 0) return "";
 
     const selectedPanoIndices: number[] = [];
-
     // For each panoply, check if all its items are selected consecutively
-    for (let panoIndex = 0; panoIndex < allPanoplies.length; panoIndex++) {
-        const pano = allPanoplies[panoIndex]!;
+    for (let panoIndex = 0; panoIndex < getAllPanoplies().length; panoIndex++) {
+        const pano = getAllPanoplies()[panoIndex]!;
         const panoItems = pano.items;
 
         // Find the first index of the first item in encodedItems
@@ -92,10 +92,9 @@ export function encodePanoplies(encodedItems: string[]): string {
 
         // Check if all items match consecutively
         let fullMatch = true;
-        for (let i = 0; i < panoItems.length; i++) {
-            if (encodedItems[startIdx + i] !== panoItems[i]) {
+        for (const panoItemId of panoItems) {
+            if (!encodedItems.includes(panoItemId)) {
                 fullMatch = false;
-                break;
             }
         }
 
@@ -103,8 +102,12 @@ export function encodePanoplies(encodedItems: string[]): string {
             // Mark this panoply as selected
             selectedPanoIndices.push(panoIndex);
             // Remove its items from encodedItems
-            encodedItems.splice(startIdx, panoItems.length);
-            // Adjust scanning after removal
+            const panoItemsSet = new Set(panoItems);
+            encodedItems.splice(
+                0,
+                encodedItems.length,
+                ...encodedItems.filter((x) => !panoItemsSet.has(x)),
+            );
         }
     }
 
@@ -113,7 +116,7 @@ export function encodePanoplies(encodedItems: string[]): string {
 
     const rank = rankCombination(selectedPanoIndices);
     const encodedRank = encodeBase64(rank);
-    // const kChar = ALPHABET[k];
+
     let kChar = encodeK(k);
     if (kChar.length > 1) {
         kChar = `[${kChar}]`;
@@ -248,7 +251,7 @@ export function decodePanoplies(encodedPanos: string): string[] {
         k = decodeK(firstChar);
         rank = decodeBase64(encodedPanos.slice(1));
     }
-    const decodedPanoplies = unrankCombination(rank, k, allPanoplies);
+    const decodedPanoplies = unrankCombination(rank, k, getAllPanoplies());
 
     let decodedItems: string[] = [];
     for (const pano of decodedPanoplies) {

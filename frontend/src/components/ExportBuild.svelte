@@ -92,9 +92,11 @@
         background: rgb(34, 34, 34);
         /* border: 1px solid #e5e7eb; */
         border: 1px solid white;
-        border-radius: 0.375rem;
+        /* border-radius: 0.375rem; */
+        border-radius: 8px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         z-index: 20;
+        overflow: hidden;
     }
     .menu button {
         display: flex;
@@ -102,14 +104,16 @@
         align-items: center;
         gap: 0.5rem;
         padding: 0.5rem 0.75rem;
+        border-radius: unset;
         background: none;
         /* border: none; */
         text-align: left;
         cursor: pointer;
     }
     .menu button:hover {
-        background: #f3f4f6;
-    } /* gray-100 */
+        background: #747474;
+        border-color: #747474;
+    }
     .spinner {
         width: 1rem;
         height: 1rem;

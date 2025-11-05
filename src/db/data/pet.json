@@ -1,25 +1,85 @@
 {
-  "53": {
-    "id": "53",
-    "idDofusDB": "674e524064788cc741418c08",
-    "idDofusBook": 6718,
+  "60": {
+    "id": "60",
+    "idDofusDB": "674e524164788cc74141ad61",
+    "idDofusBook": 17700,
     "name": {
-      "fr": "Chacha Blanc",
-      "en": "White Bow Meow",
-      "pt": "Miaw branco",
-      "de": "Weiße Maunzmiez",
-      "es": "Miaumiau blanco"
+      "fr": "Chaperlipopette",
+      "en": "Maulleycat",
+      "pt": "Gatzgrila",
+      "de": "Wuschelmaunz",
+      "es": "Maullino"
     },
     "level": 20,
     "category": "pet",
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "health": 15
+      "criticalChance": 15,
+      "initiative": 2000
     }
   },
-  "54": {
-    "id": "54",
+  "61": {
+    "id": "61",
+    "idDofusDB": "674e524064788cc7414195a8",
+    "idDofusBook": 10107,
+    "name": {
+      "fr": "Chauffe-souris",
+      "en": "Borbat",
+      "pt": "Borcego",
+      "de": "Fleddermaus",
+      "es": "Murciego"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "62": {
+    "id": "62",
+    "idDofusDB": "674e524064788cc7414197b7",
+    "idDofusBook": 11014,
+    "name": {
+      "fr": "Chauffe-souris Délavée",
+      "en": "Stone-washed Borbat",
+      "pt": "Borcego desbotado",
+      "de": "Ausgebleichte Fleddermaus",
+      "es": "Murciego pálido"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "criticalDamage": 50,
+      "pushbackResist": 100
+    }
+  },
+  "63": {
+    "id": "63",
+    "idDofusDB": "674e524064788cc7414196cc",
+    "idDofusBook": 10657,
+    "name": {
+      "fr": "Chercheur d'Ogrines",
+      "en": "Ogrine Seeker",
+      "pt": "Caçador de Ogrinas",
+      "de": "Ogrinenjäger",
+      "es": "Buscador de ogrinas"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "pushbackDamage": 80
+    }
+  },
+  "64": {
+    "id": "64",
     "idDofusDB": "674e524064788cc741418c07",
     "idDofusBook": 6717,
     "name": {
@@ -37,27 +97,425 @@
       "health": 15
     }
   },
-  "55": {
-    "id": "55",
-    "idDofusDB": "674e524064788cc741418c06",
-    "idDofusBook": 6716,
+  "65": {
+    "id": "65",
+    "idDofusDB": "674e524064788cc7414197b5",
+    "idDofusBook": 11012,
     "name": {
-      "fr": "Nomoon",
-      "en": "Nomoon",
-      "pt": "Nomoon",
-      "de": "Nomoon",
-      "es": "Nomoon"
+      "fr": "Chienchien Tigré",
+      "en": "Brindled Bow Wow",
+      "pt": "Awaw malhado",
+      "de": "Gescheckter Schnuffwuff",
+      "es": "Wauwau atigrado"
     },
     "level": 20,
     "category": "pet",
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "prospecting": 120
+      "ap": 1,
+      "apResist": 50
     }
   },
-  "56": {
-    "id": "56",
+  "67": {
+    "id": "67",
+    "idDofusDB": "674e524064788cc74141945f",
+    "idDofusBook": 9623,
+    "name": {
+      "fr": "Crocodaille",
+      "en": "Crocodyl",
+      "pt": "Crocodyl",
+      "de": "Crocodyll",
+      "es": "Cocodrail"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "fireResist": 80
+    }
+  },
+  "68": {
+    "id": "68",
+    "idDofusDB": "674e524064788cc741419a62",
+    "idDofusBook": 11765,
+    "name": {
+      "fr": "Cromeugnon",
+      "en": "Cromigmite",
+      "pt": "Cromignomo",
+      "de": "Cromagnum",
+      "es": "Cromiñoncito"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "strength": 120,
+      "intelligence": 120
+    }
+  },
+  "69": {
+    "id": "69",
+    "idDofusDB": "674e524064788cc741418e36",
+    "idDofusBook": 7520,
+    "name": {
+      "fr": "Croum",
+      "en": "Croum",
+      "pt": "Crum",
+      "de": "Croum",
+      "es": "Crum"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "neutralResistPer": 25
+    }
+  },
+  "70": {
+    "id": "70",
+    "idDofusDB": "674e524064788cc741418e0c",
+    "idDofusBook": 7415,
+    "name": {
+      "fr": "Petit Chienchien Noir",
+      "en": "Little Black Bow Wow",
+      "pt": "Pequeno Awaw Negro",
+      "de": "Kleiner schwarzer Schnuffwuff",
+      "es": "Pequeño wauwau negro"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "pushbackDamage": 80
+    }
+  },
+  "71": {
+    "id": "71",
+    "idDofusDB": "674e524164788cc74141a592",
+    "idDofusBook": 15254,
+    "name": {
+      "fr": "Phortiche",
+      "en": "Drhellbert",
+      "pt": "Perfofo",
+      "de": "Grieskribbel",
+      "es": "Perforábil"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "mp": 1,
+      "range": 2
+    }
+  },
+  "72": {
+    "id": "72",
+    "idDofusDB": "674e524064788cc741418e96",
+    "idDofusBook": 7708,
+    "name": {
+      "fr": "Pioute bleu",
+      "en": "Blue Piwin",
+      "pt": "Piuta Azul",
+      "de": "Blauer Piepmatz",
+      "es": "Piotín azul"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "chance": 120,
+      "criticalDamage": 40
+    }
+  },
+  "73": {
+    "id": "73",
+    "idDofusDB": "674e524064788cc741418e97",
+    "idDofusBook": 7709,
+    "name": {
+      "fr": "Pioute jaune",
+      "en": "Yellow Piwin",
+      "pt": "Piuta Amarela",
+      "de": "Gelber Piepmatz",
+      "es": "Piotín amarillo"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "agility": 120,
+      "criticalDamage": 40
+    }
+  },
+  "74": {
+    "id": "74",
+    "idDofusDB": "674e524064788cc741418e98",
+    "idDofusBook": 7710,
+    "name": {
+      "fr": "Pioute rose",
+      "en": "Pink Piwin",
+      "pt": "Piuta Rosa",
+      "de": "Rosa Piepmatz",
+      "es": "Piotín rosa"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "range": 2
+    }
+  },
+  "75": {
+    "id": "75",
+    "idDofusDB": "674e524064788cc741418e99",
+    "idDofusBook": 7711,
+    "name": {
+      "fr": "Pioute rouge",
+      "en": "Red Piwin",
+      "pt": "Piuta Vermelho",
+      "de": "Roter Piepmatz",
+      "es": "Piotín rojo"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "intelligence": 120,
+      "criticalDamage": 40
+    }
+  },
+  "76": {
+    "id": "76",
+    "idDofusDB": "674e524064788cc741418e9a",
+    "idDofusBook": 7712,
+    "name": {
+      "fr": "Pioute vert",
+      "en": "Green Piwin",
+      "pt": "Piuta Verde",
+      "de": "Grüner Piepmatz",
+      "es": "Piotín verde"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "strength": 120,
+      "criticalDamage": 40
+    }
+  },
+  "77": {
+    "id": "77",
+    "idDofusDB": "674e524064788cc741418e9b",
+    "idDofusBook": 7713,
+    "name": {
+      "fr": "Pioute violet",
+      "en": "Purple Piwin",
+      "pt": "Piuta Violeta",
+      "de": "Violetter Piepmatz",
+      "es": "Piotín violeta"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "summon": 2
+    }
+  },
+  "78": {
+    "id": "78",
+    "idDofusDB": "674e524064788cc741419b1e",
+    "idDofusBook": 12009,
+    "name": {
+      "fr": "Platypus",
+      "en": "Platypus",
+      "pt": "Ornito",
+      "de": "Platypus",
+      "es": "Orni"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "stats": {
+      "health": 400,
+      "lock": 40
+    }
+  },
+  "79": {
+    "id": "79",
+    "idDofusDB": "674e524064788cc741419e4f",
+    "idDofusBook": 13099,
+    "name": {
+      "fr": "Ploup",
+      "en": "Plop",
+      "pt": "Pulp",
+      "de": "Suptoko",
+      "es": "Pulp"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "heal": 50,
+      "mpResist": 50
+    }
+  },
+  "0w": {
+    "id": "0w",
+    "idDofusDB": "674e524064788cc74141881e",
+    "idDofusBook": 1711,
+    "name": {
+      "fr": "Chienchien",
+      "en": "Bow Wow",
+      "pt": "Awaw",
+      "de": "SchnuffWuff",
+      "es": "Wauwau"
+    },
+    "level": 1,
+    "category": "pet",
+    "subCategory": "pet",
+    "stats": {
+      "wisdom": 20
+    }
+  },
+  "5T": {
+    "id": "5T",
+    "idDofusDB": "674e524064788cc74141882d",
+    "idDofusBook": 1728,
+    "name": {
+      "fr": "Chacha",
+      "en": "Bow Meow",
+      "pt": "Miaw",
+      "de": "Maunzmiez",
+      "es": "Miaumiau"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "dodge": 40
+    }
+  },
+  "7A": {
+    "id": "7A",
+    "idDofusDB": "674e524064788cc74141883e",
+    "idDofusBook": 1748,
+    "name": {
+      "fr": "Wabbit",
+      "en": "Wabbit",
+      "pt": "Wabbit",
+      "de": "Wabbit",
+      "es": "Wabbit"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "criticalResist": 100
+    }
+  },
+  "5N": {
+    "id": "5N",
+    "idDofusDB": "674e524064788cc7414188f2",
+    "idDofusBook": 2074,
+    "name": {
+      "fr": "Bwak de Feu",
+      "en": "Fire Bwak",
+      "pt": "Bwak de Fogo",
+      "de": "Feuer-Bwack",
+      "es": "Bwak de fuego"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "fireResistPer": 25
+    }
+  },
+  "5M": {
+    "id": "5M",
+    "idDofusDB": "674e524064788cc7414188f3",
+    "idDofusBook": 2075,
+    "name": {
+      "fr": "Bwak d'Eau",
+      "en": "Water Bwak",
+      "pt": "Bwak de Água",
+      "de": "Wasser-Bwack",
+      "es": "Bwak de agua"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "waterResistPer": 25
+    }
+  },
+  "5L": {
+    "id": "5L",
+    "idDofusDB": "674e524064788cc7414188f4",
+    "idDofusBook": 2076,
+    "name": {
+      "fr": "Bwak d'Air",
+      "en": "Air Bwak",
+      "pt": "Bwak de Ar",
+      "de": "Luft-Bwack",
+      "es": "Bwak de aire"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "airResistPer": 25
+    }
+  },
+  "5O": {
+    "id": "5O",
+    "idDofusDB": "674e524064788cc7414188f5",
+    "idDofusBook": 2077,
+    "name": {
+      "fr": "Bwak de Terre",
+      "en": "Earth Bwak",
+      "pt": "Bwak de Terra",
+      "de": "Erd-Bwack",
+      "es": "Bwak de tierra"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "earthResistPer": 25
+    }
+  },
+  "6C": {
+    "id": "6C",
     "idDofusDB": "674e524064788cc741418bbc",
     "idDofusBook": 6604,
     "name": {
@@ -76,35 +534,134 @@
       "initiative": 200
     }
   },
-  "61": {
-    "id": "61",
-    "idDofusDB": "674e524164788cc74141a320",
-    "idDofusBook": 14545,
+  "6X": {
+    "id": "6X",
+    "idDofusDB": "674e524064788cc741418c06",
+    "idDofusBook": 6716,
     "name": {
-      "fr": "Fosfo",
-      "en": "Fosfor",
-      "pt": "Fosfo",
-      "de": "Fosfo",
-      "es": "Fosfo"
+      "fr": "Nomoon",
+      "en": "Nomoon",
+      "pt": "Nomoon",
+      "de": "Nomoon",
+      "es": "Nomoon"
     },
     "level": 20,
     "category": "pet",
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "pods": 2000
+      "prospecting": 120
     }
   },
-  "62": {
-    "id": "62",
-    "idDofusDB": "674e524164788cc74141a2ce",
-    "idDofusBook": 14433,
+  "5V": {
+    "id": "5V",
+    "idDofusDB": "674e524064788cc741418c08",
+    "idDofusBook": 6718,
     "name": {
-      "fr": "Boskito",
-      "en": "Tubskito",
-      "pt": "Boskito",
-      "de": "Boskito",
-      "es": "Moskitorro"
+      "fr": "Chacha Blanc",
+      "en": "White Bow Meow",
+      "pt": "Miaw branco",
+      "de": "Weiße Maunzmiez",
+      "es": "Miaumiau blanco"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "health": 15
+    }
+  },
+  "6Y": {
+    "id": "6Y",
+    "idDofusDB": "674e524064788cc741418cc4",
+    "idDofusBook": 6978,
+    "name": {
+      "fr": "Péki",
+      "en": "Peki",
+      "pt": "Peki",
+      "de": "Péki",
+      "es": "Peki"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "health": 400,
+      "pushbackDamage": 80
+    }
+  },
+  "6Z": {
+    "id": "6Z",
+    "idDofusDB": "674e524064788cc741418e0b",
+    "idDofusBook": 7414,
+    "name": {
+      "fr": "Petit Chacha Blanc",
+      "en": "Little White Bow Meow",
+      "pt": "Pequeno Miaw Branco",
+      "de": "Kleine weiße Maunzmiez",
+      "es": "Pequeño miaumiau blanco"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "initiative": 2000,
+      "apResist": 50
+    }
+  },
+  "6q": {
+    "id": "6q",
+    "idDofusDB": "674e524064788cc741418e34",
+    "idDofusBook": 7518,
+    "name": {
+      "fr": "Fotome",
+      "en": "Ghast",
+      "pt": "Fotasma",
+      "de": "Phantöffelchen",
+      "es": "Fotasma"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "health": 400,
+      "dodge": 40
+    }
+  },
+  "6h": {
+    "id": "6h",
+    "idDofusDB": "674e524064788cc741418e35",
+    "idDofusBook": 7519,
+    "name": {
+      "fr": "Dragoune Rose",
+      "en": "Pink Dragoone",
+      "pt": "Draguna Rosa",
+      "de": "Rosa Dragooner",
+      "es": "Dragún rosa"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "dodge": 50,
+      "apReduction": 40
+    }
+  },
+  "6T": {
+    "id": "6T",
+    "idDofusDB": "674e524064788cc741418e38",
+    "idDofusBook": 7522,
+    "name": {
+      "fr": "Minimino",
+      "en": "Minimino",
+      "pt": "Minimino",
+      "de": "Minimino",
+      "es": "Minimino"
     },
     "level": 20,
     "category": "pet",
@@ -115,115 +672,54 @@
       "apReduction": 40
     }
   },
-  "63": {
-    "id": "63",
-    "idDofusDB": "674e524064788cc74141a054",
-    "idDofusBook": 13679,
+  "0v": {
+    "id": "0v",
+    "idDofusDB": "674e524064788cc741418e39",
+    "idDofusBook": 7523,
     "name": {
-      "fr": "Toukancre",
-      "en": "Toucantankerous",
-      "pt": "Tukaos",
-      "de": "Tukanix",
-      "es": "Tukankón"
+      "fr": "Chachatte Rousse",
+      "en": "Ginger Bow Meowette",
+      "pt": "Miawa ruiva",
+      "de": "Rote Maunzmiez",
+      "es": "Miaumiau pelirroja"
+    },
+    "level": 1,
+    "category": "pet",
+    "subCategory": "pet",
+    "stats": {
+      "health": 15
+    }
+  },
+  "5X": {
+    "id": "5X",
+    "idDofusDB": "674e524064788cc741418e3a",
+    "idDofusBook": 7524,
+    "name": {
+      "fr": "Chacha Tigré",
+      "en": "Tabby Bow Meow",
+      "pt": "Miaw tigrado",
+      "de": "Getigerte Maunzmiez",
+      "es": "Miaumiau atigrado"
     },
     "level": 20,
     "category": "pet",
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50,
-      "earthResist": 80
+      "power": 70,
+      "pushbackResist": 100
     }
   },
-  "64": {
-    "id": "64",
-    "idDofusDB": "674e524064788cc74141a052",
-    "idDofusBook": 13673,
+  "7z": {
+    "id": "7z",
+    "idDofusDB": "674e524064788cc741418e91",
+    "idDofusBook": 7703,
     "name": {
-      "fr": "Kokulte",
-      "en": "Snailmate",
-      "pt": "Kokulto",
-      "de": "Schnelmyst",
-      "es": "Lokulto"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "criticalChance": 15,
-      "criticalDamage": 40
-    }
-  },
-  "65": {
-    "id": "65",
-    "idDofusDB": "674e524064788cc74141a050",
-    "idDofusBook": 13667,
-    "name": {
-      "fr": "Bulbouture",
-      "en": "Bulbutting",
-      "pt": "Bulbenxerta",
-      "de": "Bulbistecklim",
-      "es": "Bulbeskeje"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "pods": 2000
-    }
-  },
-  "66": {
-    "id": "66",
-    "idDofusDB": "674e524064788cc74141a04e",
-    "idDofusBook": 13661,
-    "name": {
-      "fr": "Kafarce",
-      "en": "Snickermite",
-      "pt": "Kafarsa",
-      "de": "Schlabbernack",
-      "es": "Kraxiste"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "criticalChance": 15,
-      "pushbackDamage": 80
-    }
-  },
-  "75": {
-    "id": "75",
-    "idDofusDB": "674e524064788cc741419006",
-    "idDofusBook": 8211,
-    "name": {
-      "fr": "Walk",
-      "en": "Pingoku",
-      "pt": "Walk",
-      "de": "Ping",
-      "es": "Walk"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "intelligence": 120,
-      "chance": 120
-    }
-  },
-  "76": {
-    "id": "76",
-    "idDofusDB": "674e524064788cc741418ff5",
-    "idDofusBook": 8155,
-    "name": {
-      "fr": "Tifoux",
-      "en": "Minifoux",
-      "pt": "Pekefox",
-      "de": "Minifux",
-      "es": "Pekefux"
+      "fr": "Vilain Petit Corbac",
+      "en": "Baby Crowdzilla",
+      "pt": "Corvoquinho Feio",
+      "de": "Kleiner böser Rabling",
+      "es": "Cuerbokito Feo"
     },
     "level": 20,
     "category": "pet",
@@ -233,8 +729,227 @@
       "prospecting": 120
     }
   },
-  "77": {
-    "id": "77",
+  "6k": {
+    "id": "6k",
+    "idDofusDB": "674e524064788cc741418e92",
+    "idDofusBook": 7704,
+    "name": {
+      "fr": "Écureuil Chenapan",
+      "en": "Mischievous Squirrel",
+      "pt": "Esquilo Travesso",
+      "de": "Wuseliges Eichhörnchen",
+      "es": "Ardilla pilla"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "dodge": 40
+    }
+  },
+  "6K": {
+    "id": "6K",
+    "idDofusDB": "674e524064788cc741418e93",
+    "idDofusBook": 7705,
+    "name": {
+      "fr": "Léopardo",
+      "en": "Leopardo",
+      "pt": "Leopardo",
+      "de": "Feuerfux",
+      "es": "Leopardo"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "mpReduction": 40
+    }
+  },
+  "5s": {
+    "id": "5s",
+    "idDofusDB": "674e524064788cc741418e94",
+    "idDofusBook": 7706,
+    "name": {
+      "fr": "Bilby",
+      "en": "Bilby",
+      "pt": "Bilby",
+      "de": "Bilby",
+      "es": "Bilby"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "heal": 50,
+      "lock": 50
+    }
+  },
+  "6L": {
+    "id": "6L",
+    "idDofusDB": "674e524064788cc741418e95",
+    "idDofusBook": 7707,
+    "name": {
+      "fr": "Marcassin",
+      "en": "Young Wild Boar",
+      "pt": "Javalino",
+      "de": "Frischling",
+      "es": "Cochino jabato"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "lock": 40
+    }
+  },
+  "5o": {
+    "id": "5o",
+    "idDofusDB": "674e524064788cc741418e9c",
+    "idDofusBook": 7714,
+    "name": {
+      "fr": "Atouin",
+      "en": "Atooin",
+      "pt": "Atuin",
+      "de": "Krötschild",
+      "es": "Tortuga"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "heal": 50,
+      "apResist": 50
+    }
+  },
+  "6R": {
+    "id": "6R",
+    "idDofusDB": "674e524064788cc741418f31",
+    "idDofusBook": 7891,
+    "name": {
+      "fr": "Mini Wa",
+      "en": "Mini Wa",
+      "pt": "Mini Wei",
+      "de": "Mini Wa",
+      "es": "Mini wey"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "chance": 120,
+      "agility": 120
+    }
+  },
+  "7C": {
+    "id": "7C",
+    "idDofusDB": "674e524064788cc741418f32",
+    "idDofusBook": 7892,
+    "name": {
+      "fr": "Willy le Relou",
+      "en": "Willy Peninzias",
+      "pt": "Willy, o Mala",
+      "de": "Willy Wirrwolf",
+      "es": "Willy, el Plasta"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "intelligence": 120,
+      "agility": 120
+    }
+  },
+  "6A": {
+    "id": "6A",
+    "idDofusDB": "674e524064788cc741418f3c",
+    "idDofusBook": 7911,
+    "name": {
+      "fr": "Koalak Sanguin",
+      "en": "Bloody Koalak",
+      "pt": "Koalak Sanguíneo",
+      "de": "Blutrünstiger Koalak",
+      "es": "Koalak sanguíneo"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "apReduction": 40
+    }
+  },
+  "5P": {
+    "id": "5P",
+    "idDofusDB": "674e524064788cc741418f8a",
+    "idDofusBook": 8000,
+    "name": {
+      "fr": "Bworky",
+      "en": "Bworky",
+      "pt": "Bworky",
+      "de": "Bworky",
+      "es": "Bworky"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "5G": {
+    "id": "5G",
+    "idDofusDB": "674e524064788cc741418ff1",
+    "idDofusBook": 8151,
+    "name": {
+      "fr": "Bouloute",
+      "en": "Gobtubby",
+      "pt": "Boloto",
+      "de": "Fresskügelchen",
+      "es": "Boluto"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "health": 400,
+      "apResist": 40
+    }
+  },
+  "4W": {
+    "id": "4W",
+    "idDofusDB": "674e524064788cc741418ff3",
+    "idDofusBook": 8153,
+    "name": {
+      "fr": "Abra Kadabra",
+      "en": "Treechster",
+      "pt": "Abra Kadabra",
+      "de": "Astaknydasta",
+      "es": "Abra kadabra"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "mpResist": 50
+    }
+  },
+  "6l": {
+    "id": "6l",
     "idDofusDB": "674e524064788cc741418ff4",
     "idDofusBook": 8154,
     "name": {
@@ -257,372 +972,16 @@
       "airResistPer": 5
     }
   },
-  "78": {
-    "id": "78",
-    "idDofusDB": "674e524064788cc741418ff3",
-    "idDofusBook": 8153,
+  "7o": {
+    "id": "7o",
+    "idDofusDB": "674e524064788cc741418ff5",
+    "idDofusBook": 8155,
     "name": {
-      "fr": "Abra Kadabra",
-      "en": "Treechster",
-      "pt": "Abra Kadabra",
-      "de": "Astaknydasta",
-      "es": "Abra kadabra"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "mpResist": 50
-    }
-  },
-  "79": {
-    "id": "79",
-    "idDofusDB": "674e524064788cc741418ff1",
-    "idDofusBook": 8151,
-    "name": {
-      "fr": "Bouloute",
-      "en": "Gobtubby",
-      "pt": "Boloto",
-      "de": "Fresskügelchen",
-      "es": "Boluto"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "health": 400,
-      "apResist": 40
-    }
-  },
-  "00": {
-    "id": "00",
-    "idDofusDB": "674e524064788cc74141881e",
-    "idDofusBook": 1711,
-    "name": {
-      "fr": "Chienchien",
-      "en": "Bow Wow",
-      "pt": "Awaw",
-      "de": "SchnuffWuff",
-      "es": "Wauwau"
-    },
-    "level": 1,
-    "category": "pet",
-    "subCategory": "pet",
-    "stats": {
-      "wisdom": 20
-    }
-  },
-  "5m": {
-    "id": "5m",
-    "idDofusDB": "674e524064788cc74141882d",
-    "idDofusBook": 1728,
-    "name": {
-      "fr": "Chacha",
-      "en": "Bow Meow",
-      "pt": "Miaw",
-      "de": "Maunzmiez",
-      "es": "Miaumiau"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "dodge": 40
-    }
-  },
-  "5l": {
-    "id": "5l",
-    "idDofusDB": "674e524064788cc74141883e",
-    "idDofusBook": 1748,
-    "name": {
-      "fr": "Wabbit",
-      "en": "Wabbit",
-      "pt": "Wabbit",
-      "de": "Wabbit",
-      "es": "Wabbit"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "criticalResist": 100
-    }
-  },
-  "5k": {
-    "id": "5k",
-    "idDofusDB": "674e524064788cc7414188f2",
-    "idDofusBook": 2074,
-    "name": {
-      "fr": "Bwak de Feu",
-      "en": "Fire Bwak",
-      "pt": "Bwak de Fogo",
-      "de": "Feuer-Bwack",
-      "es": "Bwak de fuego"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "fireResistPer": 25
-    }
-  },
-  "5j": {
-    "id": "5j",
-    "idDofusDB": "674e524064788cc7414188f3",
-    "idDofusBook": 2075,
-    "name": {
-      "fr": "Bwak d'Eau",
-      "en": "Water Bwak",
-      "pt": "Bwak de Água",
-      "de": "Wasser-Bwack",
-      "es": "Bwak de agua"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "waterResistPer": 25
-    }
-  },
-  "5i": {
-    "id": "5i",
-    "idDofusDB": "674e524064788cc7414188f4",
-    "idDofusBook": 2076,
-    "name": {
-      "fr": "Bwak d'Air",
-      "en": "Air Bwak",
-      "pt": "Bwak de Ar",
-      "de": "Luft-Bwack",
-      "es": "Bwak de aire"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "airResistPer": 25
-    }
-  },
-  "5h": {
-    "id": "5h",
-    "idDofusDB": "674e524064788cc7414188f5",
-    "idDofusBook": 2077,
-    "name": {
-      "fr": "Bwak de Terre",
-      "en": "Earth Bwak",
-      "pt": "Bwak de Terra",
-      "de": "Erd-Bwack",
-      "es": "Bwak de tierra"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "earthResistPer": 25
-    }
-  },
-  "7x": {
-    "id": "7x",
-    "idDofusDB": "674e524064788cc741418cc4",
-    "idDofusBook": 6978,
-    "name": {
-      "fr": "Péki",
-      "en": "Peki",
-      "pt": "Peki",
-      "de": "Péki",
-      "es": "Peki"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "health": 400,
-      "pushbackDamage": 80
-    }
-  },
-  "7w": {
-    "id": "7w",
-    "idDofusDB": "674e524064788cc741418e0b",
-    "idDofusBook": 7414,
-    "name": {
-      "fr": "Petit Chacha Blanc",
-      "en": "Little White Bow Meow",
-      "pt": "Pequeno Miaw Branco",
-      "de": "Kleine weiße Maunzmiez",
-      "es": "Pequeño miaumiau blanco"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "initiative": 2000,
-      "apResist": 50
-    }
-  },
-  "7v": {
-    "id": "7v",
-    "idDofusDB": "674e524064788cc741418e0c",
-    "idDofusBook": 7415,
-    "name": {
-      "fr": "Petit Chienchien Noir",
-      "en": "Little Black Bow Wow",
-      "pt": "Pequeno Awaw Negro",
-      "de": "Kleiner schwarzer Schnuffwuff",
-      "es": "Pequeño wauwau negro"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "pushbackDamage": 80
-    }
-  },
-  "7u": {
-    "id": "7u",
-    "idDofusDB": "674e524064788cc741418e34",
-    "idDofusBook": 7518,
-    "name": {
-      "fr": "Fotome",
-      "en": "Ghast",
-      "pt": "Fotasma",
-      "de": "Phantöffelchen",
-      "es": "Fotasma"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "health": 400,
-      "dodge": 40
-    }
-  },
-  "7t": {
-    "id": "7t",
-    "idDofusDB": "674e524064788cc741418e35",
-    "idDofusBook": 7519,
-    "name": {
-      "fr": "Dragoune Rose",
-      "en": "Pink Dragoone",
-      "pt": "Draguna Rosa",
-      "de": "Rosa Dragooner",
-      "es": "Dragún rosa"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "dodge": 50,
-      "apReduction": 40
-    }
-  },
-  "7s": {
-    "id": "7s",
-    "idDofusDB": "674e524064788cc741418e36",
-    "idDofusBook": 7520,
-    "name": {
-      "fr": "Croum",
-      "en": "Croum",
-      "pt": "Crum",
-      "de": "Croum",
-      "es": "Crum"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "neutralResistPer": 25
-    }
-  },
-  "7r": {
-    "id": "7r",
-    "idDofusDB": "674e524064788cc741418e38",
-    "idDofusBook": 7522,
-    "name": {
-      "fr": "Minimino",
-      "en": "Minimino",
-      "pt": "Minimino",
-      "de": "Minimino",
-      "es": "Minimino"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "apReduction": 40
-    }
-  },
-  "0Q": {
-    "id": "0Q",
-    "idDofusDB": "674e524064788cc741418e39",
-    "idDofusBook": 7523,
-    "name": {
-      "fr": "Chachatte Rousse",
-      "en": "Ginger Bow Meowette",
-      "pt": "Miawa ruiva",
-      "de": "Rote Maunzmiez",
-      "es": "Miaumiau pelirroja"
-    },
-    "level": 1,
-    "category": "pet",
-    "subCategory": "pet",
-    "stats": {
-      "health": 15
-    }
-  },
-  "7q": {
-    "id": "7q",
-    "idDofusDB": "674e524064788cc741418e3a",
-    "idDofusBook": 7524,
-    "name": {
-      "fr": "Chacha Tigré",
-      "en": "Tabby Bow Meow",
-      "pt": "Miaw tigrado",
-      "de": "Getigerte Maunzmiez",
-      "es": "Miaumiau atigrado"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "pushbackResist": 100
-    }
-  },
-  "7p": {
-    "id": "7p",
-    "idDofusDB": "674e524064788cc741418e91",
-    "idDofusBook": 7703,
-    "name": {
-      "fr": "Vilain Petit Corbac",
-      "en": "Baby Crowdzilla",
-      "pt": "Corvoquinho Feio",
-      "de": "Kleiner böser Rabling",
-      "es": "Cuerbokito Feo"
+      "fr": "Tifoux",
+      "en": "Minifoux",
+      "pt": "Pekefox",
+      "de": "Minifux",
+      "es": "Pekefux"
     },
     "level": 20,
     "category": "pet",
@@ -632,156 +991,16 @@
       "prospecting": 120
     }
   },
-  "7o": {
-    "id": "7o",
-    "idDofusDB": "674e524064788cc741418e92",
-    "idDofusBook": 7704,
+  "7B": {
+    "id": "7B",
+    "idDofusDB": "674e524064788cc741419006",
+    "idDofusBook": 8211,
     "name": {
-      "fr": "Écureuil Chenapan",
-      "en": "Mischievous Squirrel",
-      "pt": "Esquilo Travesso",
-      "de": "Wuseliges Eichhörnchen",
-      "es": "Ardilla pilla"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "dodge": 40
-    }
-  },
-  "7n": {
-    "id": "7n",
-    "idDofusDB": "674e524064788cc741418e93",
-    "idDofusBook": 7705,
-    "name": {
-      "fr": "Léopardo",
-      "en": "Leopardo",
-      "pt": "Leopardo",
-      "de": "Feuerfux",
-      "es": "Leopardo"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "mpReduction": 40
-    }
-  },
-  "7m": {
-    "id": "7m",
-    "idDofusDB": "674e524064788cc741418e94",
-    "idDofusBook": 7706,
-    "name": {
-      "fr": "Bilby",
-      "en": "Bilby",
-      "pt": "Bilby",
-      "de": "Bilby",
-      "es": "Bilby"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "heal": 50,
-      "lock": 50
-    }
-  },
-  "7l": {
-    "id": "7l",
-    "idDofusDB": "674e524064788cc741418e95",
-    "idDofusBook": 7707,
-    "name": {
-      "fr": "Marcassin",
-      "en": "Young Wild Boar",
-      "pt": "Javalino",
-      "de": "Frischling",
-      "es": "Cochino jabato"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "lock": 40
-    }
-  },
-  "7k": {
-    "id": "7k",
-    "idDofusDB": "674e524064788cc741418e96",
-    "idDofusBook": 7708,
-    "name": {
-      "fr": "Pioute bleu",
-      "en": "Blue Piwin",
-      "pt": "Piuta Azul",
-      "de": "Blauer Piepmatz",
-      "es": "Piotín azul"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "chance": 120,
-      "criticalDamage": 40
-    }
-  },
-  "7j": {
-    "id": "7j",
-    "idDofusDB": "674e524064788cc741418e97",
-    "idDofusBook": 7709,
-    "name": {
-      "fr": "Pioute jaune",
-      "en": "Yellow Piwin",
-      "pt": "Piuta Amarela",
-      "de": "Gelber Piepmatz",
-      "es": "Piotín amarillo"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "agility": 120,
-      "criticalDamage": 40
-    }
-  },
-  "7i": {
-    "id": "7i",
-    "idDofusDB": "674e524064788cc741418e98",
-    "idDofusBook": 7710,
-    "name": {
-      "fr": "Pioute rose",
-      "en": "Pink Piwin",
-      "pt": "Piuta Rosa",
-      "de": "Rosa Piepmatz",
-      "es": "Piotín rosa"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "range": 2
-    }
-  },
-  "7h": {
-    "id": "7h",
-    "idDofusDB": "674e524064788cc741418e99",
-    "idDofusBook": 7711,
-    "name": {
-      "fr": "Pioute rouge",
-      "en": "Red Piwin",
-      "pt": "Piuta Vermelho",
-      "de": "Roter Piepmatz",
-      "es": "Piotín rojo"
+      "fr": "Walk",
+      "en": "Pingoku",
+      "pt": "Walk",
+      "de": "Ping",
+      "es": "Walk"
     },
     "level": 20,
     "category": "pet",
@@ -789,150 +1008,11 @@
     "criterions": "PZ=1",
     "stats": {
       "intelligence": 120,
-      "criticalDamage": 40
+      "chance": 120
     }
   },
-  "7g": {
-    "id": "7g",
-    "idDofusDB": "674e524064788cc741418e9a",
-    "idDofusBook": 7712,
-    "name": {
-      "fr": "Pioute vert",
-      "en": "Green Piwin",
-      "pt": "Piuta Verde",
-      "de": "Grüner Piepmatz",
-      "es": "Piotín verde"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "strength": 120,
-      "criticalDamage": 40
-    }
-  },
-  "7f": {
-    "id": "7f",
-    "idDofusDB": "674e524064788cc741418e9b",
-    "idDofusBook": 7713,
-    "name": {
-      "fr": "Pioute violet",
-      "en": "Purple Piwin",
-      "pt": "Piuta Violeta",
-      "de": "Violetter Piepmatz",
-      "es": "Piotín violeta"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "summon": 2
-    }
-  },
-  "7e": {
-    "id": "7e",
-    "idDofusDB": "674e524064788cc741418e9c",
-    "idDofusBook": 7714,
-    "name": {
-      "fr": "Atouin",
-      "en": "Atooin",
-      "pt": "Atuin",
-      "de": "Krötschild",
-      "es": "Tortuga"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "heal": 50,
-      "apResist": 50
-    }
-  },
-  "7d": {
-    "id": "7d",
-    "idDofusDB": "674e524064788cc741418f31",
-    "idDofusBook": 7891,
-    "name": {
-      "fr": "Mini Wa",
-      "en": "Mini Wa",
-      "pt": "Mini Wei",
-      "de": "Mini Wa",
-      "es": "Mini wey"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "chance": 120,
-      "agility": 120
-    }
-  },
-  "7c": {
-    "id": "7c",
-    "idDofusDB": "674e524064788cc741418f32",
-    "idDofusBook": 7892,
-    "name": {
-      "fr": "Willy le Relou",
-      "en": "Willy Peninzias",
-      "pt": "Willy, o Mala",
-      "de": "Willy Wirrwolf",
-      "es": "Willy, el Plasta"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "intelligence": 120,
-      "agility": 120
-    }
-  },
-  "7b": {
-    "id": "7b",
-    "idDofusDB": "674e524064788cc741418f3c",
-    "idDofusBook": 7911,
-    "name": {
-      "fr": "Koalak Sanguin",
-      "en": "Bloody Koalak",
-      "pt": "Koalak Sanguíneo",
-      "de": "Blutrünstiger Koalak",
-      "es": "Koalak sanguíneo"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "apReduction": 40
-    }
-  },
-  "7a": {
-    "id": "7a",
-    "idDofusDB": "674e524064788cc741418f8a",
-    "idDofusBook": 8000,
-    "name": {
-      "fr": "Bworky",
-      "en": "Bworky",
-      "pt": "Bworky",
-      "de": "Bworky",
-      "es": "Bworky"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "pods": 2000
-    }
-  },
-  "6W": {
-    "id": "6W",
+  "5r": {
+    "id": "5r",
     "idDofusDB": "674e524064788cc741419125",
     "idDofusBook": 8561,
     "name": {
@@ -951,8 +1031,8 @@
       "chance": 120
     }
   },
-  "6V": {
-    "id": "6V",
+  "7d": {
+    "id": "7d",
     "idDofusDB": "674e524064788cc74141917e",
     "idDofusBook": 8677,
     "name": {
@@ -971,8 +1051,8 @@
       "apReduction": 40
     }
   },
-  "6U": {
-    "id": "6U",
+  "6o": {
+    "id": "6o",
     "idDofusDB": "674e524064788cc741419188",
     "idDofusBook": 8693,
     "name": {
@@ -991,8 +1071,8 @@
       "ap": 1
     }
   },
-  "6S": {
-    "id": "6S",
+  "5H": {
+    "id": "5H",
     "idDofusDB": "674e524064788cc741419458",
     "idDofusBook": 9594,
     "name": {
@@ -1011,8 +1091,8 @@
       "apResist": 40
     }
   },
-  "6R": {
-    "id": "6R",
+  "5U": {
+    "id": "5U",
     "idDofusDB": "674e524064788cc74141945a",
     "idDofusBook": 9617,
     "name": {
@@ -1031,8 +1111,8 @@
       "criticalDamage": 40
     }
   },
-  "6Q": {
-    "id": "6Q",
+  "7t": {
+    "id": "7t",
     "idDofusDB": "674e524064788cc74141945c",
     "idDofusBook": 9619,
     "name": {
@@ -1051,8 +1131,8 @@
       "airResist": 80
     }
   },
-  "6P": {
-    "id": "6P",
+  "6U": {
+    "id": "6U",
     "idDofusDB": "674e524064788cc74141945d",
     "idDofusBook": 9620,
     "name": {
@@ -1071,28 +1151,8 @@
       "waterResist": 80
     }
   },
-  "6O": {
-    "id": "6O",
-    "idDofusDB": "674e524064788cc74141945f",
-    "idDofusBook": 9623,
-    "name": {
-      "fr": "Crocodaille",
-      "en": "Crocodyl",
-      "pt": "Crocodyl",
-      "de": "Crocodyll",
-      "es": "Cocodrail"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 50,
-      "fireResist": 80
-    }
-  },
-  "6N": {
-    "id": "6N",
+  "6g": {
+    "id": "6g",
     "idDofusDB": "674e524064788cc741419460",
     "idDofusBook": 9624,
     "name": {
@@ -1111,8 +1171,8 @@
       "mpResist": 50
     }
   },
-  "6M": {
-    "id": "6M",
+  "7j": {
+    "id": "7j",
     "idDofusDB": "674e524064788cc7414194bb",
     "idDofusBook": 9785,
     "name": {
@@ -1131,8 +1191,8 @@
       "initiative": 2000
     }
   },
-  "6L": {
-    "id": "6L",
+  "7y": {
+    "id": "7y",
     "idDofusDB": "674e524064788cc7414195a7",
     "idDofusBook": 10106,
     "name": {
@@ -1151,27 +1211,8 @@
       "dodge": 40
     }
   },
-  "6K": {
-    "id": "6K",
-    "idDofusDB": "674e524064788cc7414195a8",
-    "idDofusBook": 10107,
-    "name": {
-      "fr": "Chauffe-souris",
-      "en": "Borbat",
-      "pt": "Borcego",
-      "de": "Fleddermaus",
-      "es": "Murciego"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "pods": 2000
-    }
-  },
-  "6J": {
-    "id": "6J",
+  "6r": {
+    "id": "6r",
     "idDofusDB": "674e524064788cc741419693",
     "idDofusBook": 10544,
     "name": {
@@ -1190,28 +1231,8 @@
       "pushbackDamage": 80
     }
   },
-  "6I": {
-    "id": "6I",
-    "idDofusDB": "674e524064788cc7414196cc",
-    "idDofusBook": 10657,
-    "name": {
-      "fr": "Chercheur d'Ogrines",
-      "en": "Ogrine Seeker",
-      "pt": "Caçador de Ogrinas",
-      "de": "Ogrinenjäger",
-      "es": "Buscador de ogrinas"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "power": 70,
-      "pushbackDamage": 80
-    }
-  },
-  "6D": {
-    "id": "6D",
+  "6b": {
+    "id": "6b",
     "idDofusDB": "674e524064788cc74141970d",
     "idDofusBook": 10802,
     "name": {
@@ -1231,8 +1252,8 @@
       "apResist": 40
     }
   },
-  "6C": {
-    "id": "6C",
+  "7b": {
+    "id": "7b",
     "idDofusDB": "674e524064788cc741419738",
     "idDofusBook": 10863,
     "name": {
@@ -1251,8 +1272,8 @@
       "criticalResist": 100
     }
   },
-  "6B": {
-    "id": "6B",
+  "6O": {
+    "id": "6O",
     "idDofusDB": "674e524064788cc741419739",
     "idDofusBook": 10864,
     "name": {
@@ -1271,8 +1292,8 @@
       "dodge": 50
     }
   },
-  "6A": {
-    "id": "6A",
+  "7u": {
+    "id": "7u",
     "idDofusDB": "674e524064788cc74141973a",
     "idDofusBook": 10865,
     "name": {
@@ -1291,8 +1312,8 @@
       "pushbackDamage": 80
     }
   },
-  "6z": {
-    "id": "6z",
+  "7a": {
+    "id": "7a",
     "idDofusDB": "674e524064788cc74141973b",
     "idDofusBook": 10866,
     "name": {
@@ -1310,8 +1331,8 @@
       "prospecting": 120
     }
   },
-  "6x": {
-    "id": "6x",
+  "5W": {
+    "id": "5W",
     "idDofusDB": "674e524064788cc74141979e",
     "idDofusBook": 10985,
     "name": {
@@ -1330,8 +1351,8 @@
       "pushbackResist": 100
     }
   },
-  "6w": {
-    "id": "6w",
+  "7p": {
+    "id": "7p",
     "idDofusDB": "674e524064788cc7414197b4",
     "idDofusBook": 11011,
     "name": {
@@ -1349,28 +1370,8 @@
       "prospecting": 120
     }
   },
-  "6v": {
-    "id": "6v",
-    "idDofusDB": "674e524064788cc7414197b5",
-    "idDofusBook": 11012,
-    "name": {
-      "fr": "Chienchien Tigré",
-      "en": "Brindled Bow Wow",
-      "pt": "Awaw malhado",
-      "de": "Gescheckter Schnuffwuff",
-      "es": "Wauwau atigrado"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "ap": 1,
-      "apResist": 50
-    }
-  },
-  "6u": {
-    "id": "6u",
+  "6E": {
+    "id": "6E",
     "idDofusDB": "674e524064788cc7414197b6",
     "idDofusBook": 11013,
     "name": {
@@ -1389,28 +1390,8 @@
       "apReduction": 40
     }
   },
-  "6t": {
-    "id": "6t",
-    "idDofusDB": "674e524064788cc7414197b7",
-    "idDofusBook": 11014,
-    "name": {
-      "fr": "Chauffe-souris Délavée",
-      "en": "Stone-washed Borbat",
-      "pt": "Borcego desbotado",
-      "de": "Ausgebleichte Fleddermaus",
-      "es": "Murciego pálido"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "criticalDamage": 50,
-      "pushbackResist": 100
-    }
-  },
-  "6s": {
-    "id": "6s",
+  "6u": {
+    "id": "6u",
     "idDofusDB": "674e524064788cc7414197b8",
     "idDofusBook": 11015,
     "name": {
@@ -1429,8 +1410,8 @@
       "neutralResistPer": 10
     }
   },
-  "6r": {
-    "id": "6r",
+  "6D": {
+    "id": "6D",
     "idDofusDB": "674e524064788cc7414197f9",
     "idDofusBook": 11104,
     "name": {
@@ -1449,28 +1430,8 @@
       "initiative": 220
     }
   },
-  "6q": {
-    "id": "6q",
-    "idDofusDB": "674e524064788cc741419a62",
-    "idDofusBook": 11765,
-    "name": {
-      "fr": "Cromeugnon",
-      "en": "Cromigmite",
-      "pt": "Cromignomo",
-      "de": "Cromagnum",
-      "es": "Cromiñoncito"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "strength": 120,
-      "intelligence": 120
-    }
-  },
-  "6p": {
-    "id": "6p",
+  "6M": {
+    "id": "6M",
     "idDofusDB": "674e524064788cc741419a64",
     "idDofusBook": 11771,
     "name": {
@@ -1489,8 +1450,8 @@
       "mpReduction": 40
     }
   },
-  "6o": {
-    "id": "6o",
+  "6j": {
+    "id": "6j",
     "idDofusDB": "674e524064788cc741419a66",
     "idDofusBook": 11777,
     "name": {
@@ -1509,8 +1470,8 @@
       "pushbackDamage": 80
     }
   },
-  "6n": {
-    "id": "6n",
+  "6s": {
+    "id": "6s",
     "idDofusDB": "674e524064788cc741419a68",
     "idDofusBook": 11783,
     "name": {
@@ -1529,8 +1490,8 @@
       "lock": 50
     }
   },
-  "6m": {
-    "id": "6m",
+  "6v": {
+    "id": "6v",
     "idDofusDB": "674e524064788cc741419aa8",
     "idDofusBook": 11858,
     "name": {
@@ -1549,8 +1510,8 @@
       "mpReduction": 40
     }
   },
-  "6l": {
-    "id": "6l",
+  "6z": {
+    "id": "6z",
     "idDofusDB": "674e524064788cc741419af8",
     "idDofusBook": 11950,
     "name": {
@@ -1569,8 +1530,8 @@
       "waterDamage": 20
     }
   },
-  "6k": {
-    "id": "6k",
+  "5J": {
+    "id": "5J",
     "idDofusDB": "674e524064788cc741419af9",
     "idDofusBook": 11955,
     "name": {
@@ -1589,8 +1550,8 @@
       "earthDamage": 20
     }
   },
-  "6j": {
-    "id": "6j",
+  "5v": {
+    "id": "5v",
     "idDofusDB": "674e524064788cc741419afe",
     "idDofusBook": 11966,
     "name": {
@@ -1609,8 +1570,8 @@
       "airDamage": 20
     }
   },
-  "6i": {
-    "id": "6i",
+  "5t": {
+    "id": "5t",
     "idDofusDB": "674e524064788cc741419aff",
     "idDofusBook": 11971,
     "name": {
@@ -1629,27 +1590,8 @@
       "fireDamage": 20
     }
   },
-  "6h": {
-    "id": "6h",
-    "idDofusDB": "674e524064788cc741419b1e",
-    "idDofusBook": 12009,
-    "name": {
-      "fr": "Platypus",
-      "en": "Platypus",
-      "pt": "Ornito",
-      "de": "Platypus",
-      "es": "Orni"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "stats": {
-      "health": 400,
-      "lock": 40
-    }
-  },
-  "6g": {
-    "id": "6g",
+  "7i": {
+    "id": "7i",
     "idDofusDB": "674e524064788cc741419b92",
     "idDofusBook": 12133,
     "name": {
@@ -1668,8 +1610,8 @@
       "neutralResist": 80
     }
   },
-  "6f": {
-    "id": "6f",
+  "7w": {
+    "id": "7w",
     "idDofusDB": "674e524064788cc741419b99",
     "idDofusBook": 12177,
     "name": {
@@ -1688,8 +1630,8 @@
       "criticalDamage": 40
     }
   },
-  "5U": {
-    "id": "5U",
+  "7v": {
+    "id": "7v",
     "idDofusDB": "674e524064788cc741419e1c",
     "idDofusBook": 12975,
     "name": {
@@ -1708,8 +1650,8 @@
       "dodge": 50
     }
   },
-  "5T": {
-    "id": "5T",
+  "7l": {
+    "id": "7l",
     "idDofusDB": "674e524064788cc741419e1f",
     "idDofusBook": 12982,
     "name": {
@@ -1728,8 +1670,8 @@
       "initiative": 2000
     }
   },
-  "5S": {
-    "id": "5S",
+  "7h": {
+    "id": "7h",
     "idDofusDB": "674e524064788cc741419e21",
     "idDofusBook": 12988,
     "name": {
@@ -1748,8 +1690,8 @@
       "pushbackDamage": 80
     }
   },
-  "5R": {
-    "id": "5R",
+  "7c": {
+    "id": "7c",
     "idDofusDB": "674e524064788cc741419e23",
     "idDofusBook": 12994,
     "name": {
@@ -1768,8 +1710,8 @@
       "apResist": 50
     }
   },
-  "6d": {
-    "id": "6d",
+  "6P": {
+    "id": "6P",
     "idDofusDB": "674e524064788cc741419e25",
     "idDofusBook": 13000,
     "name": {
@@ -1788,8 +1730,8 @@
       "criticalResist": 100
     }
   },
-  "6c": {
-    "id": "6c",
+  "6N": {
+    "id": "6N",
     "idDofusDB": "674e524064788cc741419e43",
     "idDofusBook": 13071,
     "name": {
@@ -1808,28 +1750,8 @@
       "agility": 120
     }
   },
-  "6b": {
-    "id": "6b",
-    "idDofusDB": "674e524064788cc741419e4f",
-    "idDofusBook": 13099,
-    "name": {
-      "fr": "Ploup",
-      "en": "Plop",
-      "pt": "Pulp",
-      "de": "Suptoko",
-      "es": "Pulp"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "heal": 50,
-      "mpResist": 50
-    }
-  },
-  "6a": {
-    "id": "6a",
+  "6F": {
+    "id": "6F",
     "idDofusDB": "674e524064788cc741419ebb",
     "idDofusBook": 13230,
     "name": {
@@ -1848,8 +1770,126 @@
       "range": 2
     }
   },
-  "5X": {
-    "id": "5X",
+  "6y": {
+    "id": "6y",
+    "idDofusDB": "674e524064788cc74141a04e",
+    "idDofusBook": 13661,
+    "name": {
+      "fr": "Kafarce",
+      "en": "Snickermite",
+      "pt": "Kafarsa",
+      "de": "Schlabbernack",
+      "es": "Kraxiste"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "criticalChance": 15,
+      "pushbackDamage": 80
+    }
+  },
+  "5K": {
+    "id": "5K",
+    "idDofusDB": "674e524064788cc74141a050",
+    "idDofusBook": 13667,
+    "name": {
+      "fr": "Bulbouture",
+      "en": "Bulbutting",
+      "pt": "Bulbenxerta",
+      "de": "Bulbistecklim",
+      "es": "Bulbeskeje"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "6B": {
+    "id": "6B",
+    "idDofusDB": "674e524064788cc74141a052",
+    "idDofusBook": 13673,
+    "name": {
+      "fr": "Kokulte",
+      "en": "Snailmate",
+      "pt": "Kokulto",
+      "de": "Schnelmyst",
+      "es": "Lokulto"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "criticalChance": 15,
+      "criticalDamage": 40
+    }
+  },
+  "7x": {
+    "id": "7x",
+    "idDofusDB": "674e524064788cc74141a054",
+    "idDofusBook": 13679,
+    "name": {
+      "fr": "Toukancre",
+      "en": "Toucantankerous",
+      "pt": "Tukaos",
+      "de": "Tukanix",
+      "es": "Tukankón"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 50,
+      "earthResist": 80
+    }
+  },
+  "5A": {
+    "id": "5A",
+    "idDofusDB": "674e524164788cc74141a2ce",
+    "idDofusBook": 14433,
+    "name": {
+      "fr": "Boskito",
+      "en": "Tubskito",
+      "pt": "Boskito",
+      "de": "Boskito",
+      "es": "Moskitorro"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "power": 70,
+      "apReduction": 40
+    }
+  },
+  "6p": {
+    "id": "6p",
+    "idDofusDB": "674e524164788cc74141a320",
+    "idDofusBook": 14545,
+    "name": {
+      "fr": "Fosfo",
+      "en": "Fosfor",
+      "pt": "Fosfo",
+      "de": "Fosfo",
+      "es": "Fosfo"
+    },
+    "level": 20,
+    "category": "pet",
+    "subCategory": "pet",
+    "criterions": "PZ=1",
+    "stats": {
+      "pods": 2000
+    }
+  },
+  "5Y": {
+    "id": "5Y",
     "idDofusDB": "674e524164788cc74141a515",
     "idDofusBook": 15110,
     "name": {
@@ -1868,8 +1908,8 @@
       "summon": 2
     }
   },
-  "5W": {
-    "id": "5W",
+  "5u": {
+    "id": "5u",
     "idDofusDB": "674e524164788cc74141a527",
     "idDofusBook": 15133,
     "name": {
@@ -1888,8 +1928,8 @@
       "pushbackDamage": 80
     }
   },
-  "5V": {
-    "id": "5V",
+  "7k": {
+    "id": "7k",
     "idDofusDB": "674e524164788cc74141a591",
     "idDofusBook": 15249,
     "name": {
@@ -1907,28 +1947,8 @@
       "prospecting": 120
     }
   },
-  "5Y": {
-    "id": "5Y",
-    "idDofusDB": "674e524164788cc74141a592",
-    "idDofusBook": 15254,
-    "name": {
-      "fr": "Phortiche",
-      "en": "Drhellbert",
-      "pt": "Perfofo",
-      "de": "Grieskribbel",
-      "es": "Perforábil"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "mp": 1,
-      "range": 2
-    }
-  },
-  "5Q": {
-    "id": "5Q",
+  "6w": {
+    "id": "6w",
     "idDofusDB": "674e524164788cc74141a662",
     "idDofusBook": 15469,
     "name": {
@@ -1947,8 +1967,8 @@
       "mpResist": 40
     }
   },
-  "5P": {
-    "id": "5P",
+  "7n": {
+    "id": "7n",
     "idDofusDB": "674e524164788cc74141a6e8",
     "idDofusBook": 15607,
     "name": {
@@ -1967,8 +1987,8 @@
       "pushbackDamage": 100
     }
   },
-  "5O": {
-    "id": "5O",
+  "5x": {
+    "id": "5x",
     "idDofusDB": "674e524164788cc74141a850",
     "idDofusBook": 15978,
     "name": {
@@ -1987,8 +2007,8 @@
       "mpReduction": 40
     }
   },
-  "5N": {
-    "id": "5N",
+  "6m": {
+    "id": "6m",
     "idDofusDB": "674e524164788cc74141a8a4",
     "idDofusBook": 16116,
     "name": {
@@ -2007,8 +2027,8 @@
       "fireResistPer": 10
     }
   },
-  "5M": {
-    "id": "5M",
+  "6i": {
+    "id": "6i",
     "idDofusDB": "674e524164788cc74141a8a6",
     "idDofusBook": 16122,
     "name": {
@@ -2027,8 +2047,8 @@
       "apReduction": 40
     }
   },
-  "5H": {
-    "id": "5H",
+  "7m": {
+    "id": "7m",
     "idDofusDB": "674e524164788cc74141a92f",
     "idDofusBook": 16269,
     "name": {
@@ -2047,8 +2067,8 @@
       "mpResist": 50
     }
   },
-  "5K": {
-    "id": "5K",
+  "5w": {
+    "id": "5w",
     "idDofusDB": "674e524164788cc74141a932",
     "idDofusBook": 16276,
     "name": {
@@ -2066,8 +2086,8 @@
       "prospecting": 120
     }
   },
-  "5L": {
-    "id": "5L",
+  "6W": {
+    "id": "6W",
     "idDofusDB": "674e524164788cc74141a941",
     "idDofusBook": 16295,
     "name": {
@@ -2086,8 +2106,8 @@
       "apResist": 40
     }
   },
-  "5J": {
-    "id": "5J",
+  "5y": {
+    "id": "5y",
     "idDofusDB": "674e524164788cc74141ab5c",
     "idDofusBook": 17023,
     "name": {
@@ -2126,8 +2146,8 @@
       "pushbackResist": 50
     }
   },
-  "5G": {
-    "id": "5G",
+  "7r": {
+    "id": "7r",
     "idDofusDB": "674e524164788cc74141ac63",
     "idDofusBook": 17379,
     "name": {
@@ -2146,8 +2166,8 @@
       "earthResistPer": 10
     }
   },
-  "5F": {
-    "id": "5F",
+  "6S": {
+    "id": "6S",
     "idDofusDB": "674e524164788cc74141acbb",
     "idDofusBook": 17511,
     "name": {
@@ -2166,28 +2186,8 @@
       "mpResist": 40
     }
   },
-  "5E": {
-    "id": "5E",
-    "idDofusDB": "674e524164788cc74141ad61",
-    "idDofusBook": 17700,
-    "name": {
-      "fr": "Chaperlipopette",
-      "en": "Maulleycat",
-      "pt": "Gatzgrila",
-      "de": "Wuschelmaunz",
-      "es": "Maullino"
-    },
-    "level": 20,
-    "category": "pet",
-    "subCategory": "pet",
-    "criterions": "PZ=1",
-    "stats": {
-      "criticalChance": 15,
-      "initiative": 2000
-    }
-  },
-  "5B": {
-    "id": "5B",
+  "7q": {
+    "id": "7q",
     "idDofusDB": "674e524164788cc74141adb7",
     "idDofusBook": 17795,
     "name": {
@@ -2205,8 +2205,8 @@
       "pods": 2000
     }
   },
-  "5D": {
-    "id": "5D",
+  "6t": {
+    "id": "6t",
     "idDofusDB": "674e524164788cc74141adc5",
     "idDofusBook": 17813,
     "name": {
@@ -2224,8 +2224,8 @@
       "prospecting": 120
     }
   },
-  "5C": {
-    "id": "5C",
+  "7s": {
+    "id": "7s",
     "idDofusDB": "674e524164788cc74141adc6",
     "idDofusBook": 17833,
     "name": {
@@ -2244,8 +2244,8 @@
       "mpResist": 40
     }
   },
-  "5A": {
-    "id": "5A",
+  "6a": {
+    "id": "6a",
     "idDofusDB": "674e524164788cc74141b094",
     "idDofusBook": 18626,
     "name": {
@@ -2264,8 +2264,8 @@
       "waterResistPer": 10
     }
   },
-  "5t": {
-    "id": "5t",
+  "6I": {
+    "id": "6I",
     "idDofusDB": "674e524164788cc74141b20a",
     "idDofusBook": 19139,
     "name": {
@@ -2284,8 +2284,8 @@
       "airResistPer": 10
     }
   },
-  "5s": {
-    "id": "5s",
+  "6V": {
+    "id": "6V",
     "idDofusDB": "674e524164788cc74141b362",
     "idDofusBook": 19531,
     "name": {
@@ -2304,8 +2304,8 @@
       "criticalDamage": 40
     }
   },
-  "0g": {
-    "id": "0g",
+  "0M": {
+    "id": "0M",
     "idDofusDB": "674e524164788cc74141c8e1",
     "idDofusBook": 27431,
     "name": {
@@ -2322,8 +2322,8 @@
       "wisdom": 20
     }
   },
-  "5n": {
-    "id": "5n",
+  "5z": {
+    "id": "5z",
     "idDofusDB": "674e524164788cc74141d227",
     "idDofusBook": 30957,
     "name": {
@@ -2342,8 +2342,8 @@
       "criticalChance": 15
     }
   },
-  "5g": {
-    "id": "5g",
+  "7D": {
+    "id": "7D",
     "idDofusDB": "687f71551c8151735606185e",
     "idDofusBook": 31862,
     "name": {
@@ -2362,8 +2362,8 @@
       "summon": 2
     }
   },
-  "5f": {
-    "id": "5f",
+  "6Q": {
+    "id": "6Q",
     "idDofusDB": "687f71551c81517356061874",
     "idDofusBook": 31885,
     "name": {
@@ -2382,8 +2382,8 @@
       "ap": 1
     }
   },
-  "rx": {
-    "id": "rx",
+  "nO": {
+    "id": "nO",
     "idDofusDB": "674e524064788cc741418ee1",
     "idDofusBook": 99003,
     "name": {
@@ -2402,8 +2402,8 @@
       "agility": 100
     }
   },
-  "qY": {
-    "id": "qY",
+  "nR": {
+    "id": "nR",
     "idDofusDB": "674e524064788cc741418ee3",
     "idDofusBook": 99009,
     "name": {
@@ -2423,8 +2423,8 @@
       "health": 300
     }
   },
-  "rA": {
-    "id": "rA",
+  "om": {
+    "id": "om",
     "idDofusDB": "674e524064788cc741418ee4",
     "idDofusBook": 99010,
     "name": {
@@ -2443,8 +2443,8 @@
       "health": 300
     }
   },
-  "r0": {
-    "id": "r0",
+  "o5": {
+    "id": "o5",
     "idDofusDB": "674e524064788cc741418ee5",
     "idDofusBook": 99011,
     "name": {
@@ -2464,8 +2464,8 @@
       "health": 300
     }
   },
-  "rk": {
-    "id": "rk",
+  "nU": {
+    "id": "nU",
     "idDofusDB": "674e524064788cc741418ee6",
     "idDofusBook": 99012,
     "name": {
@@ -2485,8 +2485,8 @@
       "heal": 35
     }
   },
-  "rt": {
-    "id": "rt",
+  "on": {
+    "id": "on",
     "idDofusDB": "674e524064788cc741418ee7",
     "idDofusBook": 99015,
     "name": {
@@ -2505,8 +2505,8 @@
       "health": 300
     }
   },
-  "ru": {
-    "id": "ru",
+  "o2": {
+    "id": "o2",
     "idDofusDB": "674e524064788cc741418ee8",
     "idDofusBook": 99016,
     "name": {
@@ -2525,8 +2525,8 @@
       "health": 300
     }
   },
-  "ry": {
-    "id": "ry",
+  "o0": {
+    "id": "o0",
     "idDofusDB": "674e524064788cc741418ee9",
     "idDofusBook": 99017,
     "name": {
@@ -2545,8 +2545,8 @@
       "health": 300
     }
   },
-  "rz": {
-    "id": "rz",
+  "nF": {
+    "id": "nF",
     "idDofusDB": "674e524064788cc741418eea",
     "idDofusBook": 99018,
     "name": {
@@ -2565,8 +2565,8 @@
       "health": 300
     }
   },
-  "rv": {
-    "id": "rv",
+  "o9": {
+    "id": "o9",
     "idDofusDB": "674e524064788cc741418eeb",
     "idDofusBook": 99019,
     "name": {
@@ -2585,8 +2585,8 @@
       "health": 300
     }
   },
-  "rB": {
-    "id": "rB",
+  "nv": {
+    "id": "nv",
     "idDofusDB": "674e524064788cc741418eec",
     "idDofusBook": 99020,
     "name": {
@@ -2605,8 +2605,8 @@
       "health": 300
     }
   },
-  "rs": {
-    "id": "rs",
+  "nW": {
+    "id": "nW",
     "idDofusDB": "674e524064788cc741418eed",
     "idDofusBook": 99021,
     "name": {
@@ -2625,8 +2625,8 @@
       "health": 300
     }
   },
-  "rw": {
-    "id": "rw",
+  "o6": {
+    "id": "o6",
     "idDofusDB": "674e524064788cc741418eee",
     "idDofusBook": 99022,
     "name": {
@@ -2645,8 +2645,8 @@
       "health": 300
     }
   },
-  "rr": {
-    "id": "rr",
+  "ob": {
+    "id": "ob",
     "idDofusDB": "674e524064788cc741418eef",
     "idDofusBook": 99023,
     "name": {
@@ -2665,8 +2665,8 @@
       "health": 300
     }
   },
-  "rp": {
-    "id": "rp",
+  "nw": {
+    "id": "nw",
     "idDofusDB": "674e524064788cc741418ef0",
     "idDofusBook": 99033,
     "name": {
@@ -2686,8 +2686,8 @@
       "initiative": 1000
     }
   },
-  "rl": {
-    "id": "rl",
+  "nx": {
+    "id": "nx",
     "idDofusDB": "674e524064788cc741418ef1",
     "idDofusBook": 99034,
     "name": {
@@ -2707,8 +2707,8 @@
       "health": 300
     }
   },
-  "qV": {
-    "id": "qV",
+  "ny": {
+    "id": "ny",
     "idDofusDB": "674e524064788cc741418ef2",
     "idDofusBook": 99035,
     "name": {
@@ -2728,8 +2728,8 @@
       "health": 300
     }
   },
-  "rn": {
-    "id": "rn",
+  "nz": {
+    "id": "nz",
     "idDofusDB": "674e524064788cc741418ef3",
     "idDofusBook": 99036,
     "name": {
@@ -2749,8 +2749,8 @@
       "initiative": 1000
     }
   },
-  "r1": {
-    "id": "r1",
+  "nA": {
+    "id": "nA",
     "idDofusDB": "674e524064788cc741418ef4",
     "idDofusBook": 99037,
     "name": {
@@ -2770,8 +2770,8 @@
       "initiative": 1000
     }
   },
-  "rq": {
-    "id": "rq",
+  "nD": {
+    "id": "nD",
     "idDofusDB": "674e524064788cc741418ef5",
     "idDofusBook": 99038,
     "name": {
@@ -2791,8 +2791,8 @@
       "heal": 35
     }
   },
-  "r7": {
-    "id": "r7",
+  "nE": {
+    "id": "nE",
     "idDofusDB": "674e524064788cc741418ef6",
     "idDofusBook": 99039,
     "name": {
@@ -2812,8 +2812,8 @@
       "initiative": 1000
     }
   },
-  "rh": {
-    "id": "rh",
+  "nB": {
+    "id": "nB",
     "idDofusDB": "674e524064788cc741418ef7",
     "idDofusBook": 99040,
     "name": {
@@ -2833,8 +2833,8 @@
       "initiative": 1000
     }
   },
-  "rd": {
-    "id": "rd",
+  "nC": {
+    "id": "nC",
     "idDofusDB": "674e524064788cc741418ef8",
     "idDofusBook": 99041,
     "name": {
@@ -2854,8 +2854,8 @@
       "initiative": 1000
     }
   },
-  "rj": {
-    "id": "rj",
+  "nG": {
+    "id": "nG",
     "idDofusDB": "674e524064788cc741418ef9",
     "idDofusBook": 99042,
     "name": {
@@ -2875,8 +2875,8 @@
       "health": 300
     }
   },
-  "qU": {
-    "id": "qU",
+  "nH": {
+    "id": "nH",
     "idDofusDB": "674e524064788cc741418efa",
     "idDofusBook": 99043,
     "name": {
@@ -2896,8 +2896,8 @@
       "summon": 1
     }
   },
-  "rm": {
-    "id": "rm",
+  "nI": {
+    "id": "nI",
     "idDofusDB": "674e524064788cc741418efb",
     "idDofusBook": 99044,
     "name": {
@@ -2917,8 +2917,8 @@
       "summon": 1
     }
   },
-  "qZ": {
-    "id": "qZ",
+  "nJ": {
+    "id": "nJ",
     "idDofusDB": "674e524064788cc741418efc",
     "idDofusBook": 99045,
     "name": {
@@ -2938,8 +2938,8 @@
       "health": 300
     }
   },
-  "ro": {
-    "id": "ro",
+  "nM": {
+    "id": "nM",
     "idDofusDB": "674e524064788cc741418efd",
     "idDofusBook": 99046,
     "name": {
@@ -2959,8 +2959,8 @@
       "summon": 1
     }
   },
-  "r5": {
-    "id": "r5",
+  "nN": {
+    "id": "nN",
     "idDofusDB": "674e524064788cc741418efe",
     "idDofusBook": 99047,
     "name": {
@@ -2980,8 +2980,8 @@
       "summon": 1
     }
   },
-  "rf": {
-    "id": "rf",
+  "nK": {
+    "id": "nK",
     "idDofusDB": "674e524064788cc741418eff",
     "idDofusBook": 99048,
     "name": {
@@ -3001,8 +3001,8 @@
       "health": 300
     }
   },
-  "rb": {
-    "id": "rb",
+  "nL": {
+    "id": "nL",
     "idDofusDB": "674e524064788cc741418f00",
     "idDofusBook": 99049,
     "name": {
@@ -3022,8 +3022,8 @@
       "health": 300
     }
   },
-  "qS": {
-    "id": "qS",
+  "nP": {
+    "id": "nP",
     "idDofusDB": "674e524064788cc741418f01",
     "idDofusBook": 99050,
     "name": {
@@ -3043,8 +3043,8 @@
       "agility": 70
     }
   },
-  "ri": {
-    "id": "ri",
+  "nQ": {
+    "id": "nQ",
     "idDofusDB": "674e524064788cc741418f02",
     "idDofusBook": 99051,
     "name": {
@@ -3064,8 +3064,8 @@
       "agility": 70
     }
   },
-  "r4": {
-    "id": "r4",
+  "nV": {
+    "id": "nV",
     "idDofusDB": "674e524064788cc741418f03",
     "idDofusBook": 99052,
     "name": {
@@ -3085,8 +3085,8 @@
       "prospecting": 60
     }
   },
-  "re": {
-    "id": "re",
+  "nS": {
+    "id": "nS",
     "idDofusDB": "674e524064788cc741418f04",
     "idDofusBook": 99053,
     "name": {
@@ -3106,8 +3106,8 @@
       "agility": 70
     }
   },
-  "r9": {
-    "id": "r9",
+  "nT": {
+    "id": "nT",
     "idDofusDB": "674e524064788cc741418f05",
     "idDofusBook": 99054,
     "name": {
@@ -3127,8 +3127,8 @@
       "agility": 70
     }
   },
-  "qT": {
-    "id": "qT",
+  "nX": {
+    "id": "nX",
     "idDofusDB": "674e524064788cc741418f06",
     "idDofusBook": 99055,
     "name": {
@@ -3148,8 +3148,8 @@
       "chance": 70
     }
   },
-  "qR": {
-    "id": "qR",
+  "nY": {
+    "id": "nY",
     "idDofusDB": "674e524064788cc741418f07",
     "idDofusBook": 99056,
     "name": {
@@ -3169,8 +3169,8 @@
       "criticalChance": 8
     }
   },
-  "0x": {
-    "id": "0x",
+  "0B": {
+    "id": "0B",
     "idDofusDB": "674e524064788cc741418f08",
     "idDofusBook": 99057,
     "name": {
@@ -3190,8 +3190,8 @@
       "heal": 35
     }
   },
-  "0u": {
-    "id": "0u",
+  "0C": {
+    "id": "0C",
     "idDofusDB": "674e524064788cc741418f09",
     "idDofusBook": 99058,
     "name": {
@@ -3211,8 +3211,8 @@
       "prospecting": 60
     }
   },
-  "0w": {
-    "id": "0w",
+  "0z": {
+    "id": "0z",
     "idDofusDB": "674e524064788cc741418f0a",
     "idDofusBook": 99059,
     "name": {
@@ -3232,8 +3232,8 @@
       "intelligence": 70
     }
   },
-  "0v": {
-    "id": "0v",
+  "0A": {
+    "id": "0A",
     "idDofusDB": "674e524064788cc741418f0b",
     "idDofusBook": 99060,
     "name": {
@@ -3253,8 +3253,8 @@
       "strength": 70
     }
   },
-  "0y": {
-    "id": "0y",
+  "0D": {
+    "id": "0D",
     "idDofusDB": "674e524064788cc741418f0c",
     "idDofusBook": 99061,
     "name": {
@@ -3274,8 +3274,8 @@
       "power": 50
     }
   },
-  "0C": {
-    "id": "0C",
+  "0F": {
+    "id": "0F",
     "idDofusDB": "674e524064788cc741418f0d",
     "idDofusBook": 99062,
     "name": {
@@ -3294,8 +3294,8 @@
       "chance": 70
     }
   },
-  "0A": {
-    "id": "0A",
+  "0G": {
+    "id": "0G",
     "idDofusDB": "674e524064788cc741418f0e",
     "idDofusBook": 99063,
     "name": {
@@ -3314,8 +3314,8 @@
       "prospecting": 60
     }
   },
-  "0B": {
-    "id": "0B",
+  "0E": {
+    "id": "0E",
     "idDofusDB": "674e524064788cc741418f0f",
     "idDofusBook": 99064,
     "name": {
@@ -3334,8 +3334,8 @@
       "health": 300
     }
   },
-  "ra": {
-    "id": "ra",
+  "o1": {
+    "id": "o1",
     "idDofusDB": "674e524064788cc741418f10",
     "idDofusBook": 99065,
     "name": {
@@ -3355,8 +3355,8 @@
       "chance": 70
     }
   },
-  "0z": {
-    "id": "0z",
+  "0H": {
+    "id": "0H",
     "idDofusDB": "674e524064788cc741418f11",
     "idDofusBook": 99066,
     "name": {
@@ -3375,8 +3375,8 @@
       "power": 50
     }
   },
-  "qX": {
-    "id": "qX",
+  "o3": {
+    "id": "o3",
     "idDofusDB": "674e524064788cc741418f12",
     "idDofusBook": 99067,
     "name": {
@@ -3396,8 +3396,8 @@
       "health": 300
     }
   },
-  "qW": {
-    "id": "qW",
+  "o4": {
+    "id": "o4",
     "idDofusDB": "674e524064788cc741418f13",
     "idDofusBook": 99068,
     "name": {
@@ -3417,8 +3417,8 @@
       "power": 50
     }
   },
-  "r6": {
-    "id": "r6",
+  "oq": {
+    "id": "oq",
     "idDofusDB": "674e524064788cc741418f14",
     "idDofusBook": 99069,
     "name": {
@@ -3438,8 +3438,8 @@
       "heal": 35
     }
   },
-  "rg": {
-    "id": "rg",
+  "o8": {
+    "id": "o8",
     "idDofusDB": "674e524064788cc741418f15",
     "idDofusBook": 99070,
     "name": {
@@ -3459,8 +3459,8 @@
       "health": 300
     }
   },
-  "rc": {
-    "id": "rc",
+  "oa": {
+    "id": "oa",
     "idDofusDB": "674e524064788cc741418f16",
     "idDofusBook": 99071,
     "name": {
@@ -3480,8 +3480,8 @@
       "health": 300
     }
   },
-  "r3": {
-    "id": "r3",
+  "oo": {
+    "id": "oo",
     "idDofusDB": "674e524064788cc741418f17",
     "idDofusBook": 99072,
     "name": {
@@ -3501,8 +3501,8 @@
       "intelligence": 70
     }
   },
-  "r2": {
-    "id": "r2",
+  "op": {
+    "id": "op",
     "idDofusDB": "674e524064788cc741418f18",
     "idDofusBook": 99073,
     "name": {
@@ -3522,8 +3522,8 @@
       "prospecting": 60
     }
   },
-  "r8": {
-    "id": "r8",
+  "o7": {
+    "id": "o7",
     "idDofusDB": "674e524064788cc741418f1a",
     "idDofusBook": 99076,
     "name": {
@@ -3543,8 +3543,8 @@
       "intelligence": 70
     }
   },
-  "qQ": {
-    "id": "qQ",
+  "oc": {
+    "id": "oc",
     "idDofusDB": "674e524064788cc741418f1b",
     "idDofusBook": 99077,
     "name": {
@@ -3564,8 +3564,8 @@
       "range": 1
     }
   },
-  "qO": {
-    "id": "qO",
+  "od": {
+    "id": "od",
     "idDofusDB": "674e524064788cc741418f1c",
     "idDofusBook": 99078,
     "name": {
@@ -3585,8 +3585,8 @@
       "summon": 1
     }
   },
-  "qM": {
-    "id": "qM",
+  "oe": {
+    "id": "oe",
     "idDofusDB": "674e524064788cc741418f1d",
     "idDofusBook": 99079,
     "name": {
@@ -3606,8 +3606,8 @@
       "health": 300
     }
   },
-  "qH": {
-    "id": "qH",
+  "of": {
+    "id": "of",
     "idDofusDB": "674e524064788cc741418f1e",
     "idDofusBook": 99080,
     "name": {
@@ -3627,8 +3627,8 @@
       "health": 300
     }
   },
-  "qN": {
-    "id": "qN",
+  "og": {
+    "id": "og",
     "idDofusDB": "674e524064788cc741418f1f",
     "idDofusBook": 99082,
     "name": {
@@ -3648,8 +3648,8 @@
       "health": 300
     }
   },
-  "qJ": {
-    "id": "qJ",
+  "oh": {
+    "id": "oh",
     "idDofusDB": "674e524064788cc741418f20",
     "idDofusBook": 99083,
     "name": {
@@ -3669,8 +3669,8 @@
       "health": 300
     }
   },
-  "qP": {
-    "id": "qP",
+  "ok": {
+    "id": "ok",
     "idDofusDB": "674e524064788cc741418f21",
     "idDofusBook": 99084,
     "name": {
@@ -3690,8 +3690,8 @@
       "heal": 35
     }
   },
-  "qI": {
-    "id": "qI",
+  "ol": {
+    "id": "ol",
     "idDofusDB": "674e524064788cc741418f22",
     "idDofusBook": 99085,
     "name": {
@@ -3711,8 +3711,8 @@
       "prospecting": 60
     }
   },
-  "qL": {
-    "id": "qL",
+  "oi": {
+    "id": "oi",
     "idDofusDB": "674e524064788cc741418f23",
     "idDofusBook": 99086,
     "name": {
@@ -3732,8 +3732,8 @@
       "health": 300
     }
   },
-  "qK": {
-    "id": "qK",
+  "oj": {
+    "id": "oj",
     "idDofusDB": "674e524064788cc741418f24",
     "idDofusBook": 99087,
     "name": {
@@ -3753,8 +3753,8 @@
       "health": 300
     }
   },
-  "rL": {
-    "id": "rL",
+  "nZ": {
+    "id": "nZ",
     "idDofusDB": "674e524064788cc741419452",
     "idDofusBook": 99088,
     "name": {
@@ -3777,8 +3777,8 @@
       "neutralResistPer": 5
     }
   },
-  "rK": {
-    "id": "rK",
+  "nu": {
+    "id": "nu",
     "idDofusDB": "674e524064788cc741419e2b",
     "idDofusBook": 99089,
     "name": {
@@ -3797,8 +3797,8 @@
       "health": 100
     }
   },
-  "rP": {
-    "id": "rP",
+  "or": {
+    "id": "or",
     "idDofusDB": "674e524064788cc741419cbd",
     "idDofusBook": 12541,
     "name": {
@@ -3817,8 +3817,8 @@
       "summon": 2
     }
   },
-  "rO": {
-    "id": "rO",
+  "oz": {
+    "id": "oz",
     "idDofusDB": "674e524064788cc741419e16",
     "idDofusBook": 12963,
     "name": {
@@ -3836,8 +3836,8 @@
       "prospecting": 120
     }
   },
-  "rJ": {
-    "id": "rJ",
+  "oJ": {
+    "id": "oJ",
     "idDofusDB": "674e524064788cc741419e93",
     "idDofusBook": 13182,
     "name": {
@@ -3860,8 +3860,8 @@
       "airResistPer": 5
     }
   },
-  "rI": {
-    "id": "rI",
+  "pV": {
+    "id": "pV",
     "idDofusDB": "674e524064788cc741419f9f",
     "idDofusBook": 13465,
     "name": {
@@ -3880,8 +3880,8 @@
       "criticalDamage": 50
     }
   },
-  "rH": {
-    "id": "rH",
+  "n6": {
+    "id": "n6",
     "idDofusDB": "674e524064788cc74141a019",
     "idDofusBook": 13603,
     "name": {
@@ -3900,8 +3900,8 @@
       "pushbackDamage": 100
     }
   },
-  "rG": {
-    "id": "rG",
+  "oK": {
+    "id": "oK",
     "idDofusDB": "674e524164788cc74141a431",
     "idDofusBook": 14827,
     "name": {
@@ -3920,8 +3920,8 @@
       "ap": 1
     }
   },
-  "rF": {
-    "id": "rF",
+  "pW": {
+    "id": "pW",
     "idDofusDB": "674e524164788cc74141a433",
     "idDofusBook": 14833,
     "name": {
@@ -3939,8 +3939,8 @@
       "agility": 160
     }
   },
-  "rE": {
-    "id": "rE",
+  "ns": {
+    "id": "ns",
     "idDofusDB": "674e524164788cc74141a434",
     "idDofusBook": 14838,
     "name": {
@@ -3958,8 +3958,8 @@
       "chance": 160
     }
   },
-  "rD": {
-    "id": "rD",
+  "oG": {
+    "id": "oG",
     "idDofusDB": "674e524164788cc74141a435",
     "idDofusBook": 14848,
     "name": {
@@ -3977,8 +3977,8 @@
       "strength": 160
     }
   },
-  "rC": {
-    "id": "rC",
+  "nj": {
+    "id": "nj",
     "idDofusDB": "674e524164788cc74141a437",
     "idDofusBook": 14854,
     "name": {
@@ -3996,8 +3996,8 @@
       "intelligence": 160
     }
   },
-  "qF": {
-    "id": "qF",
+  "pT": {
+    "id": "pT",
     "idDofusDB": "674e524164788cc74141a58f",
     "idDofusBook": 15243,
     "name": {
@@ -4016,8 +4016,8 @@
       "mp": 1
     }
   },
-  "qB": {
-    "id": "qB",
+  "oH": {
+    "id": "oH",
     "idDofusDB": "674e524164788cc74141aeba",
     "idDofusBook": 18088,
     "name": {
@@ -4036,8 +4036,8 @@
       "initiative": 2000
     }
   },
-  "ps": {
-    "id": "ps",
+  "oI": {
+    "id": "oI",
     "idDofusDB": "674e524164788cc74141b1bb",
     "idDofusBook": 19044,
     "name": {
@@ -4056,8 +4056,8 @@
       "criticalDamage": 40
     }
   },
-  "pr": {
-    "id": "pr",
+  "ni": {
+    "id": "ni",
     "idDofusDB": "674e524164788cc74141b297",
     "idDofusBook": 19286,
     "name": {
@@ -4076,8 +4076,8 @@
       "pushbackResist": 100
     }
   },
-  "pq": {
-    "id": "pq",
+  "nh": {
+    "id": "nh",
     "idDofusDB": "674e524164788cc74141b298",
     "idDofusBook": 19291,
     "name": {
@@ -4096,8 +4096,8 @@
       "pushbackDamage": 100
     }
   },
-  "ns": {
-    "id": "ns",
+  "pX": {
+    "id": "pX",
     "idDofusDB": "674e524164788cc74141c3b7",
     "idDofusBook": 25292,
     "name": {
@@ -4119,8 +4119,8 @@
       "airDamage": 15
     }
   },
-  "nr": {
-    "id": "nr",
+  "pY": {
+    "id": "pY",
     "idDofusDB": "674e524164788cc74141c3b8",
     "idDofusBook": 25293,
     "name": {
@@ -4139,8 +4139,8 @@
       "pushbackResist": 80
     }
   },
-  "nq": {
-    "id": "nq",
+  "oE": {
+    "id": "oE",
     "idDofusDB": "674e524164788cc74141cdaa",
     "idDofusBook": 29430,
     "name": {
@@ -4159,8 +4159,8 @@
       "criticalChance": 15
     }
   },
-  "np": {
-    "id": "np",
+  "oC": {
+    "id": "oC",
     "idDofusDB": "674e524164788cc74141cdab",
     "idDofusBook": 29431,
     "name": {
@@ -4179,8 +4179,8 @@
       "criticalChance": 15
     }
   },
-  "no": {
-    "id": "no",
+  "oD": {
+    "id": "oD",
     "idDofusDB": "674e524164788cc74141cdac",
     "idDofusBook": 29432,
     "name": {
@@ -4199,8 +4199,8 @@
       "criticalChance": 15
     }
   },
-  "nn": {
-    "id": "nn",
+  "oF": {
+    "id": "oF",
     "idDofusDB": "674e524164788cc74141cdad",
     "idDofusBook": 29433,
     "name": {
@@ -4219,8 +4219,8 @@
       "criticalChance": 15
     }
   },
-  "nm": {
-    "id": "nm",
+  "rV": {
+    "id": "rV",
     "idDofusDB": "674e524164788cc74141cdae",
     "idDofusBook": 29434,
     "name": {
@@ -4239,8 +4239,8 @@
       "mpReduction": 40
     }
   },
-  "nl": {
-    "id": "nl",
+  "oB": {
+    "id": "oB",
     "idDofusDB": "674e524164788cc74141cdaf",
     "idDofusBook": 29435,
     "name": {
@@ -4259,8 +4259,8 @@
       "mpResist": 50
     }
   },
-  "nk": {
-    "id": "nk",
+  "oy": {
+    "id": "oy",
     "idDofusDB": "674e524164788cc74141cdc3",
     "idDofusBook": 29456,
     "name": {
@@ -4278,8 +4278,8 @@
       "pods": 2000
     }
   },
-  "ni": {
-    "id": "ni",
+  "oM": {
+    "id": "oM",
     "idDofusDB": "687f71551c81517356061875",
     "idDofusBook": 31886,
     "name": {
@@ -4298,8 +4298,8 @@
       "summon": 2
     }
   },
-  "qt": {
-    "id": "qt",
+  "p1": {
+    "id": "p1",
     "idDofusDB": "674e524164788cc74141ade6",
     "idDofusBook": 99109,
     "name": {
@@ -4319,8 +4319,8 @@
       "airResistPer": 8
     }
   },
-  "qw": {
-    "id": "qw",
+  "pe": {
+    "id": "pe",
     "idDofusDB": "674e524164788cc74141ade7",
     "idDofusBook": 99090,
     "name": {
@@ -4339,8 +4339,8 @@
       "mp": 1
     }
   },
-  "qy": {
-    "id": "qy",
+  "oY": {
+    "id": "oY",
     "idDofusDB": "674e524164788cc74141ade8",
     "idDofusBook": 99091,
     "name": {
@@ -4359,8 +4359,8 @@
       "mp": 1
     }
   },
-  "qz": {
-    "id": "qz",
+  "p6": {
+    "id": "p6",
     "idDofusDB": "674e524164788cc74141ade9",
     "idDofusBook": 99092,
     "name": {
@@ -4379,8 +4379,8 @@
       "waterResistPer": 16
     }
   },
-  "qx": {
-    "id": "qx",
+  "pj": {
+    "id": "pj",
     "idDofusDB": "674e524164788cc74141adea",
     "idDofusBook": 99093,
     "name": {
@@ -4399,8 +4399,8 @@
       "earthResistPer": 16
     }
   },
-  "qA": {
-    "id": "qA",
+  "oQ": {
+    "id": "oQ",
     "idDofusDB": "674e524164788cc74141adeb",
     "idDofusBook": 99094,
     "name": {
@@ -4419,8 +4419,8 @@
       "mp": 1
     }
   },
-  "ql": {
-    "id": "ql",
+  "py": {
+    "id": "py",
     "idDofusDB": "674e524164788cc74141adec",
     "idDofusBook": 99095,
     "name": {
@@ -4439,8 +4439,8 @@
       "lock": 40
     }
   },
-  "qk": {
-    "id": "qk",
+  "oN": {
+    "id": "oN",
     "idDofusDB": "674e524164788cc74141aded",
     "idDofusBook": 99096,
     "name": {
@@ -4459,8 +4459,8 @@
       "mp": 1
     }
   },
-  "q8": {
-    "id": "q8",
+  "pc": {
+    "id": "pc",
     "idDofusDB": "674e524164788cc74141adee",
     "idDofusBook": 99097,
     "name": {
@@ -4479,8 +4479,8 @@
       "mp": 1
     }
   },
-  "q7": {
-    "id": "q7",
+  "pH": {
+    "id": "pH",
     "idDofusDB": "674e524164788cc74141adef",
     "idDofusBook": 99098,
     "name": {
@@ -4499,8 +4499,8 @@
       "mp": 1
     }
   },
-  "pQ": {
-    "id": "pQ",
+  "pn": {
+    "id": "pn",
     "idDofusDB": "674e524164788cc74141adf0",
     "idDofusBook": 99099,
     "name": {
@@ -4519,8 +4519,8 @@
       "criticalChance": 10
     }
   },
-  "pR": {
-    "id": "pR",
+  "p5": {
+    "id": "p5",
     "idDofusDB": "674e524164788cc74141adf1",
     "idDofusBook": 99100,
     "name": {
@@ -4539,8 +4539,8 @@
       "mp": 1
     }
   },
-  "qs": {
-    "id": "qs",
+  "oX": {
+    "id": "oX",
     "idDofusDB": "674e524164788cc74141adf2",
     "idDofusBook": 99101,
     "name": {
@@ -4560,8 +4560,8 @@
       "power": 40
     }
   },
-  "qq": {
-    "id": "qq",
+  "pb": {
+    "id": "pb",
     "idDofusDB": "674e524164788cc74141adf3",
     "idDofusBook": 99102,
     "name": {
@@ -4581,8 +4581,8 @@
       "waterResistPer": 8
     }
   },
-  "qo": {
-    "id": "qo",
+  "p4": {
+    "id": "p4",
     "idDofusDB": "674e524164788cc74141adf4",
     "idDofusBook": 99103,
     "name": {
@@ -4602,8 +4602,8 @@
       "earthResistPer": 8
     }
   },
-  "qm": {
-    "id": "qm",
+  "pi": {
+    "id": "pi",
     "idDofusDB": "674e524164788cc74141adf5",
     "idDofusBook": 99104,
     "name": {
@@ -4623,8 +4623,8 @@
       "fireResistPer": 8
     }
   },
-  "qu": {
-    "id": "qu",
+  "oS": {
+    "id": "oS",
     "idDofusDB": "674e524164788cc74141adf6",
     "idDofusBook": 99110,
     "name": {
@@ -4644,8 +4644,8 @@
       "power": 40
     }
   },
-  "qp": {
-    "id": "qp",
+  "pa": {
+    "id": "pa",
     "idDofusDB": "674e524164788cc74141adf7",
     "idDofusBook": 99106,
     "name": {
@@ -4665,8 +4665,8 @@
       "waterResistPer": 8
     }
   },
-  "qn": {
-    "id": "qn",
+  "p3": {
+    "id": "p3",
     "idDofusDB": "674e524164788cc74141adf8",
     "idDofusBook": 99107,
     "name": {
@@ -4686,8 +4686,8 @@
       "fireResistPer": 8
     }
   },
-  "qr": {
-    "id": "qr",
+  "oW": {
+    "id": "oW",
     "idDofusDB": "674e524164788cc74141adf9",
     "idDofusBook": 99105,
     "name": {
@@ -4707,8 +4707,8 @@
       "power": 40
     }
   },
-  "qe": {
-    "id": "qe",
+  "pG": {
+    "id": "pG",
     "idDofusDB": "674e524164788cc74141adfa",
     "idDofusBook": 99111,
     "name": {
@@ -4728,8 +4728,8 @@
       "mp": 1
     }
   },
-  "qd": {
-    "id": "qd",
+  "pF": {
+    "id": "pF",
     "idDofusDB": "674e524164788cc74141adfb",
     "idDofusBook": 99112,
     "name": {
@@ -4749,8 +4749,8 @@
       "fireResistPer": 8
     }
   },
-  "qc": {
-    "id": "qc",
+  "pD": {
+    "id": "pD",
     "idDofusDB": "674e524164788cc74141adfc",
     "idDofusBook": 99113,
     "name": {
@@ -4770,8 +4770,8 @@
       "mp": 1
     }
   },
-  "qb": {
-    "id": "qb",
+  "pB": {
+    "id": "pB",
     "idDofusDB": "674e524164788cc74141adfd",
     "idDofusBook": 99114,
     "name": {
@@ -4791,8 +4791,8 @@
       "airResistPer": 8
     }
   },
-  "qi": {
-    "id": "qi",
+  "pA": {
+    "id": "pA",
     "idDofusDB": "674e524164788cc74141adfe",
     "idDofusBook": 99115,
     "name": {
@@ -4812,8 +4812,8 @@
       "lock": 30
     }
   },
-  "qj": {
-    "id": "qj",
+  "pz": {
+    "id": "pz",
     "idDofusDB": "674e524164788cc74141adff",
     "idDofusBook": 99116,
     "name": {
@@ -4833,8 +4833,8 @@
       "dodge": 30
     }
   },
-  "qa": {
-    "id": "qa",
+  "pk": {
+    "id": "pk",
     "idDofusDB": "674e524164788cc74141ae00",
     "idDofusBook": 99117,
     "name": {
@@ -4854,8 +4854,8 @@
       "mp": 1
     }
   },
-  "q9": {
-    "id": "q9",
+  "pf": {
+    "id": "pf",
     "idDofusDB": "674e524164788cc74141ae01",
     "idDofusBook": 99118,
     "name": {
@@ -4875,8 +4875,8 @@
       "fireResistPer": 8
     }
   },
-  "qg": {
-    "id": "qg",
+  "p7": {
+    "id": "p7",
     "idDofusDB": "674e524164788cc74141ae02",
     "idDofusBook": 99119,
     "name": {
@@ -4896,8 +4896,8 @@
       "mp": 1
     }
   },
-  "qf": {
-    "id": "qf",
+  "oZ": {
+    "id": "oZ",
     "idDofusDB": "674e524164788cc74141ae03",
     "idDofusBook": 99120,
     "name": {
@@ -4917,8 +4917,8 @@
       "airResistPer": 8
     }
   },
-  "qh": {
-    "id": "qh",
+  "oR": {
+    "id": "oR",
     "idDofusDB": "674e524164788cc74141ae04",
     "idDofusBook": 99121,
     "name": {
@@ -4938,8 +4938,8 @@
       "dodge": 30
     }
   },
-  "pW": {
-    "id": "pW",
+  "pm": {
+    "id": "pm",
     "idDofusDB": "674e524164788cc74141ae05",
     "idDofusBook": 99122,
     "name": {
@@ -4959,8 +4959,8 @@
       "mp": 1
     }
   },
-  "pU": {
-    "id": "pU",
+  "ph": {
+    "id": "ph",
     "idDofusDB": "674e524164788cc74141ae06",
     "idDofusBook": 99123,
     "name": {
@@ -4980,8 +4980,8 @@
       "mp": 1
     }
   },
-  "q0": {
-    "id": "q0",
+  "p9": {
+    "id": "p9",
     "idDofusDB": "674e524164788cc74141ae07",
     "idDofusBook": 99124,
     "name": {
@@ -5001,8 +5001,8 @@
       "waterResistPer": 8
     }
   },
-  "pY": {
-    "id": "pY",
+  "p2": {
+    "id": "p2",
     "idDofusDB": "674e524164788cc74141ae08",
     "idDofusBook": 99125,
     "name": {
@@ -5022,8 +5022,8 @@
       "apResist": 30
     }
   },
-  "q2": {
-    "id": "q2",
+  "oV": {
+    "id": "oV",
     "idDofusDB": "674e524164788cc74141ae09",
     "idDofusBook": 99126,
     "name": {
@@ -5043,8 +5043,8 @@
       "power": 40
     }
   },
-  "q6": {
-    "id": "q6",
+  "pE": {
+    "id": "pE",
     "idDofusDB": "674e524164788cc74141ae0a",
     "idDofusBook": 99127,
     "name": {
@@ -5064,8 +5064,8 @@
       "mp": 1
     }
   },
-  "q4": {
-    "id": "q4",
+  "oP": {
+    "id": "oP",
     "idDofusDB": "674e524164788cc74141ae0b",
     "idDofusBook": 99138,
     "name": {
@@ -5085,8 +5085,8 @@
       "apResist": 30
     }
   },
-  "pS": {
-    "id": "pS",
+  "pN": {
+    "id": "pN",
     "idDofusDB": "674e524164788cc74141ae0c",
     "idDofusBook": 99139,
     "name": {
@@ -5106,8 +5106,8 @@
       "mp": 1
     }
   },
-  "pV": {
-    "id": "pV",
+  "pP": {
+    "id": "pP",
     "idDofusDB": "674e524164788cc74141ae0d",
     "idDofusBook": 99140,
     "name": {
@@ -5127,8 +5127,8 @@
       "earthResistPer": 8
     }
   },
-  "pT": {
-    "id": "pT",
+  "pO": {
+    "id": "pO",
     "idDofusDB": "674e524164788cc74141ae0e",
     "idDofusBook": 99165,
     "name": {
@@ -5148,8 +5148,8 @@
       "mpResist": 30
     }
   },
-  "pZ": {
-    "id": "pZ",
+  "pM": {
+    "id": "pM",
     "idDofusDB": "674e524164788cc74141ae0f",
     "idDofusBook": 99141,
     "name": {
@@ -5169,8 +5169,8 @@
       "mpResist": 30
     }
   },
-  "pX": {
-    "id": "pX",
+  "pK": {
+    "id": "pK",
     "idDofusDB": "674e524164788cc74141ae10",
     "idDofusBook": 99142,
     "name": {
@@ -5190,8 +5190,8 @@
       "mp": 1
     }
   },
-  "q5": {
-    "id": "q5",
+  "pQ": {
+    "id": "pQ",
     "idDofusDB": "674e524164788cc74141ae11",
     "idDofusBook": 99143,
     "name": {
@@ -5211,8 +5211,8 @@
       "mpResist": 30
     }
   },
-  "q3": {
-    "id": "q3",
+  "pI": {
+    "id": "pI",
     "idDofusDB": "674e524164788cc74141ae12",
     "idDofusBook": 99144,
     "name": {
@@ -5232,8 +5232,8 @@
       "dodge": 30
     }
   },
-  "q1": {
-    "id": "q1",
+  "pJ": {
+    "id": "pJ",
     "idDofusDB": "674e524164788cc74141ae13",
     "idDofusBook": 99145,
     "name": {
@@ -5253,8 +5253,8 @@
       "mp": 1
     }
   },
-  "pE": {
-    "id": "pE",
+  "pv": {
+    "id": "pv",
     "idDofusDB": "674e524164788cc74141ae14",
     "idDofusBook": 99146,
     "name": {
@@ -5274,8 +5274,8 @@
       "mp": 1
     }
   },
-  "pC": {
-    "id": "pC",
+  "pu": {
+    "id": "pu",
     "idDofusDB": "674e524164788cc74141ae15",
     "idDofusBook": 99147,
     "name": {
@@ -5295,8 +5295,8 @@
       "mp": 1
     }
   },
-  "pI": {
-    "id": "pI",
+  "ps": {
+    "id": "ps",
     "idDofusDB": "674e524164788cc74141ae16",
     "idDofusBook": 99148,
     "name": {
@@ -5316,8 +5316,8 @@
       "waterResistPer": 8
     }
   },
-  "pG": {
-    "id": "pG",
+  "pq": {
+    "id": "pq",
     "idDofusDB": "674e524164788cc74141ae17",
     "idDofusBook": 99149,
     "name": {
@@ -5337,8 +5337,8 @@
       "airResistPer": 8
     }
   },
-  "pK": {
-    "id": "pK",
+  "pp": {
+    "id": "pp",
     "idDofusDB": "674e524164788cc74141ae18",
     "idDofusBook": 99150,
     "name": {
@@ -5358,8 +5358,8 @@
       "criticalChance": 6
     }
   },
-  "pO": {
-    "id": "pO",
+  "pw": {
+    "id": "pw",
     "idDofusDB": "674e524164788cc74141ae19",
     "idDofusBook": 99151,
     "name": {
@@ -5379,8 +5379,8 @@
       "lock": 30
     }
   },
-  "pM": {
-    "id": "pM",
+  "po": {
+    "id": "po",
     "idDofusDB": "674e524164788cc74141ae1a",
     "idDofusBook": 99152,
     "name": {
@@ -5400,8 +5400,8 @@
       "criticalChance": 6
     }
   },
-  "nt": {
-    "id": "nt",
+  "pt": {
+    "id": "pt",
     "idDofusDB": "674e524164788cc74141ae1b",
     "idDofusBook": 99153,
     "name": {
@@ -5421,8 +5421,8 @@
       "mp": 1
     }
   },
-  "pz": {
-    "id": "pz",
+  "px": {
+    "id": "px",
     "idDofusDB": "674e524164788cc74141ae1c",
     "idDofusBook": 99154,
     "name": {
@@ -5442,8 +5442,8 @@
       "mpResist": 30
     }
   },
-  "py": {
-    "id": "py",
+  "pr": {
+    "id": "pr",
     "idDofusDB": "674e524164788cc74141ae1d",
     "idDofusBook": 99155,
     "name": {
@@ -5463,8 +5463,8 @@
       "mp": 1
     }
   },
-  "pF": {
-    "id": "pF",
+  "pl": {
+    "id": "pl",
     "idDofusDB": "674e524164788cc74141ae1e",
     "idDofusBook": 99156,
     "name": {
@@ -5484,8 +5484,8 @@
       "criticalDamage": 20
     }
   },
-  "pD": {
-    "id": "pD",
+  "pg": {
+    "id": "pg",
     "idDofusDB": "674e524164788cc74141ae1f",
     "idDofusBook": 99157,
     "name": {
@@ -5505,8 +5505,8 @@
       "criticalDamage": 20
     }
   },
-  "pJ": {
-    "id": "pJ",
+  "p8": {
+    "id": "p8",
     "idDofusDB": "674e524164788cc74141ae20",
     "idDofusBook": 99158,
     "name": {
@@ -5526,8 +5526,8 @@
       "criticalDamage": 20
     }
   },
-  "pH": {
-    "id": "pH",
+  "p0": {
+    "id": "p0",
     "idDofusDB": "674e524164788cc74141ae21",
     "idDofusBook": 99159,
     "name": {
@@ -5547,8 +5547,8 @@
       "mp": 1
     }
   },
-  "pL": {
-    "id": "pL",
+  "oT": {
+    "id": "oT",
     "idDofusDB": "674e524164788cc74141ae22",
     "idDofusBook": 99160,
     "name": {
@@ -5568,8 +5568,8 @@
       "criticalDamage": 20
     }
   },
-  "pP": {
-    "id": "pP",
+  "pC": {
+    "id": "pC",
     "idDofusDB": "674e524164788cc74141ae23",
     "idDofusBook": 99161,
     "name": {
@@ -5589,8 +5589,8 @@
       "mp": 1
     }
   },
-  "pN": {
-    "id": "pN",
+  "oO": {
+    "id": "oO",
     "idDofusDB": "674e524164788cc74141ae24",
     "idDofusBook": 99162,
     "name": {
@@ -5610,8 +5610,8 @@
       "criticalDamage": 20
     }
   },
-  "pB": {
-    "id": "pB",
+  "pd": {
+    "id": "pd",
     "idDofusDB": "674e524164788cc74141ae25",
     "idDofusBook": 99163,
     "name": {
@@ -5631,8 +5631,8 @@
       "criticalDamage": 20
     }
   },
-  "pA": {
-    "id": "pA",
+  "pL": {
+    "id": "pL",
     "idDofusDB": "674e524164788cc74141ae26",
     "idDofusBook": 99164,
     "name": {
@@ -5652,8 +5652,8 @@
       "criticalDamage": 20
     }
   },
-  "qv": {
-    "id": "qv",
+  "oU": {
+    "id": "oU",
     "idDofusDB": "674e524164788cc74141ae27",
     "idDofusBook": 99108,
     "name": {
@@ -5673,8 +5673,8 @@
       "mp": 1
     }
   },
-  "pp": {
-    "id": "pp",
+  "qE": {
+    "id": "qE",
     "idDofusDB": "674e524164788cc74141b45a",
     "idDofusBook": 99176,
     "name": {
@@ -5693,8 +5693,8 @@
       "chance": 70
     }
   },
-  "po": {
-    "id": "po",
+  "qu": {
+    "id": "qu",
     "idDofusDB": "674e524164788cc74141b45b",
     "idDofusBook": 99177,
     "name": {
@@ -5713,8 +5713,8 @@
       "agility": 70
     }
   },
-  "pn": {
-    "id": "pn",
+  "r4": {
+    "id": "r4",
     "idDofusDB": "674e524164788cc74141b45c",
     "idDofusBook": 99178,
     "name": {
@@ -5733,8 +5733,8 @@
       "ap": 1
     }
   },
-  "pm": {
-    "id": "pm",
+  "r1": {
+    "id": "r1",
     "idDofusDB": "674e524164788cc74141b45d",
     "idDofusBook": 99179,
     "name": {
@@ -5753,8 +5753,8 @@
       "intelligence": 70
     }
   },
-  "pl": {
-    "id": "pl",
+  "ri": {
+    "id": "ri",
     "idDofusDB": "674e524164788cc74141b45e",
     "idDofusBook": 99180,
     "name": {
@@ -5773,8 +5773,8 @@
       "pushbackDamage": 60
     }
   },
-  "pk": {
-    "id": "pk",
+  "pZ": {
+    "id": "pZ",
     "idDofusDB": "674e524164788cc74141b45f",
     "idDofusBook": 99181,
     "name": {
@@ -5793,8 +5793,8 @@
       "ap": 1
     }
   },
-  "pj": {
-    "id": "pj",
+  "qG": {
+    "id": "qG",
     "idDofusDB": "674e524164788cc74141b460",
     "idDofusBook": 99182,
     "name": {
@@ -5813,8 +5813,8 @@
       "apReduction": 30
     }
   },
-  "pi": {
-    "id": "pi",
+  "rQ": {
+    "id": "rQ",
     "idDofusDB": "674e524164788cc74141b461",
     "idDofusBook": 99183,
     "name": {
@@ -5833,8 +5833,8 @@
       "mpReduction": 30
     }
   },
-  "ph": {
-    "id": "ph",
+  "r8": {
+    "id": "r8",
     "idDofusDB": "674e524164788cc74141b462",
     "idDofusBook": 99184,
     "name": {
@@ -5853,8 +5853,8 @@
       "ap": 1
     }
   },
-  "pg": {
-    "id": "pg",
+  "qv": {
+    "id": "qv",
     "idDofusDB": "674e524164788cc74141b463",
     "idDofusBook": 99185,
     "name": {
@@ -5873,8 +5873,8 @@
       "criticalChance": 7
     }
   },
-  "pf": {
-    "id": "pf",
+  "qj": {
+    "id": "qj",
     "idDofusDB": "674e524164788cc74141b464",
     "idDofusBook": 99186,
     "name": {
@@ -5893,8 +5893,8 @@
       "health": 150
     }
   },
-  "pe": {
-    "id": "pe",
+  "qM": {
+    "id": "qM",
     "idDofusDB": "674e524164788cc74141b465",
     "idDofusBook": 99187,
     "name": {
@@ -5913,8 +5913,8 @@
       "earthResistPer": 12
     }
   },
-  "pc": {
-    "id": "pc",
+  "rD": {
+    "id": "rD",
     "idDofusDB": "674e524164788cc74141b466",
     "idDofusBook": 99189,
     "name": {
@@ -5933,8 +5933,8 @@
       "ap": 1
     }
   },
-  "pd": {
-    "id": "pd",
+  "rp": {
+    "id": "rp",
     "idDofusDB": "674e524164788cc74141b467",
     "idDofusBook": 99188,
     "name": {
@@ -5953,8 +5953,8 @@
       "ap": 1
     }
   },
-  "pb": {
-    "id": "pb",
+  "q7": {
+    "id": "q7",
     "idDofusDB": "674e524164788cc74141b468",
     "idDofusBook": 99190,
     "name": {
@@ -5973,8 +5973,8 @@
       "ap": 1
     }
   },
-  "pa": {
-    "id": "pa",
+  "r7": {
+    "id": "r7",
     "idDofusDB": "674e524164788cc74141b469",
     "idDofusBook": 99191,
     "name": {
@@ -5994,8 +5994,8 @@
       "ap": 1
     }
   },
-  "p9": {
-    "id": "p9",
+  "r6": {
+    "id": "r6",
     "idDofusDB": "674e524164788cc74141b46a",
     "idDofusBook": 99192,
     "name": {
@@ -6015,8 +6015,8 @@
       "strength": 50
     }
   },
-  "p8": {
-    "id": "p8",
+  "r5": {
+    "id": "r5",
     "idDofusDB": "674e524164788cc74141b46b",
     "idDofusBook": 99193,
     "name": {
@@ -6036,8 +6036,8 @@
       "agility": 50
     }
   },
-  "p7": {
-    "id": "p7",
+  "r3": {
+    "id": "r3",
     "idDofusDB": "674e524164788cc74141b46c",
     "idDofusBook": 99194,
     "name": {
@@ -6057,8 +6057,8 @@
       "intelligence": 50
     }
   },
-  "p6": {
-    "id": "p6",
+  "r2": {
+    "id": "r2",
     "idDofusDB": "674e524164788cc74141b46d",
     "idDofusBook": 99195,
     "name": {
@@ -6078,8 +6078,8 @@
       "intelligence": 50
     }
   },
-  "p5": {
-    "id": "p5",
+  "qF": {
+    "id": "qF",
     "idDofusDB": "674e524164788cc74141b46e",
     "idDofusBook": 99196,
     "name": {
@@ -6099,8 +6099,8 @@
       "agility": 50
     }
   },
-  "p4": {
-    "id": "p4",
+  "q4": {
+    "id": "q4",
     "idDofusDB": "674e524164788cc74141b46f",
     "idDofusBook": 99197,
     "name": {
@@ -6120,8 +6120,8 @@
       "ap": 1
     }
   },
-  "p3": {
-    "id": "p3",
+  "q3": {
+    "id": "q3",
     "idDofusDB": "674e524164788cc74141b470",
     "idDofusBook": 99198,
     "name": {
@@ -6141,8 +6141,8 @@
       "intelligence": 50
     }
   },
-  "p2": {
-    "id": "p2",
+  "q1": {
+    "id": "q1",
     "idDofusDB": "674e524164788cc74141b471",
     "idDofusBook": 99199,
     "name": {
@@ -6162,8 +6162,8 @@
       "ap": 1
     }
   },
-  "p1": {
-    "id": "p1",
+  "q0": {
+    "id": "q0",
     "idDofusDB": "674e524164788cc74141b472",
     "idDofusBook": 99200,
     "name": {
@@ -6183,8 +6183,8 @@
       "ap": 1
     }
   },
-  "p0": {
-    "id": "p0",
+  "q5": {
+    "id": "q5",
     "idDofusDB": "674e524164788cc74141b473",
     "idDofusBook": 99201,
     "name": {
@@ -6204,8 +6204,8 @@
       "pushbackDamage": 40
     }
   },
-  "oZ": {
-    "id": "oZ",
+  "q2": {
+    "id": "q2",
     "idDofusDB": "674e524164788cc74141b474",
     "idDofusBook": 99202,
     "name": {
@@ -6225,8 +6225,8 @@
       "apReduction": 20
     }
   },
-  "oY": {
-    "id": "oY",
+  "q6": {
+    "id": "q6",
     "idDofusDB": "674e524164788cc74141b475",
     "idDofusBook": 99203,
     "name": {
@@ -6246,8 +6246,8 @@
       "ap": 1
     }
   },
-  "oX": {
-    "id": "oX",
+  "rn": {
+    "id": "rn",
     "idDofusDB": "674e524164788cc74141b476",
     "idDofusBook": 99204,
     "name": {
@@ -6267,8 +6267,8 @@
       "strength": 50
     }
   },
-  "oW": {
-    "id": "oW",
+  "rm": {
+    "id": "rm",
     "idDofusDB": "674e524164788cc74141b477",
     "idDofusBook": 99205,
     "name": {
@@ -6288,8 +6288,8 @@
       "ap": 1
     }
   },
-  "oV": {
-    "id": "oV",
+  "rk": {
+    "id": "rk",
     "idDofusDB": "674e524164788cc74141b478",
     "idDofusBook": 99206,
     "name": {
@@ -6309,8 +6309,8 @@
       "chance": 50
     }
   },
-  "oU": {
-    "id": "oU",
+  "rj": {
+    "id": "rj",
     "idDofusDB": "674e524164788cc74141b479",
     "idDofusBook": 99207,
     "name": {
@@ -6330,8 +6330,8 @@
       "ap": 1
     }
   },
-  "oT": {
-    "id": "oT",
+  "rl": {
+    "id": "rl",
     "idDofusDB": "674e524164788cc74141b47a",
     "idDofusBook": 99208,
     "name": {
@@ -6351,8 +6351,8 @@
       "apReduction": 20
     }
   },
-  "oS": {
-    "id": "oS",
+  "ro": {
+    "id": "ro",
     "idDofusDB": "674e524164788cc74141b47b",
     "idDofusBook": 99209,
     "name": {
@@ -6372,8 +6372,8 @@
       "pushbackDamage": 40
     }
   },
-  "oR": {
-    "id": "oR",
+  "qK": {
+    "id": "qK",
     "idDofusDB": "674e524164788cc74141b47c",
     "idDofusBook": 99210,
     "name": {
@@ -6393,8 +6393,8 @@
       "strength": 50
     }
   },
-  "oQ": {
-    "id": "oQ",
+  "qJ": {
+    "id": "qJ",
     "idDofusDB": "674e524164788cc74141b47d",
     "idDofusBook": 99211,
     "name": {
@@ -6414,8 +6414,8 @@
       "intelligence": 50
     }
   },
-  "oP": {
-    "id": "oP",
+  "qI": {
+    "id": "qI",
     "idDofusDB": "674e524164788cc74141b47e",
     "idDofusBook": 99212,
     "name": {
@@ -6435,8 +6435,8 @@
       "chance": 50
     }
   },
-  "oO": {
-    "id": "oO",
+  "qH": {
+    "id": "qH",
     "idDofusDB": "674e524164788cc74141b47f",
     "idDofusBook": 99213,
     "name": {
@@ -6456,8 +6456,8 @@
       "agility": 50
     }
   },
-  "oN": {
-    "id": "oN",
+  "qL": {
+    "id": "qL",
     "idDofusDB": "674e524164788cc74141b480",
     "idDofusBook": 99214,
     "name": {
@@ -6477,8 +6477,8 @@
       "apReduction": 20
     }
   },
-  "oM": {
-    "id": "oM",
+  "rU": {
+    "id": "rU",
     "idDofusDB": "674e524164788cc74141b481",
     "idDofusBook": 99215,
     "name": {
@@ -6498,8 +6498,8 @@
       "strength": 50
     }
   },
-  "oL": {
-    "id": "oL",
+  "rT": {
+    "id": "rT",
     "idDofusDB": "674e524164788cc74141b482",
     "idDofusBook": 99216,
     "name": {
@@ -6519,8 +6519,8 @@
       "intelligence": 50
     }
   },
-  "oK": {
-    "id": "oK",
+  "rS": {
+    "id": "rS",
     "idDofusDB": "674e524164788cc74141b483",
     "idDofusBook": 99217,
     "name": {
@@ -6540,8 +6540,8 @@
       "mpReduction": 20
     }
   },
-  "oJ": {
-    "id": "oJ",
+  "rR": {
+    "id": "rR",
     "idDofusDB": "674e524164788cc74141b484",
     "idDofusBook": 99218,
     "name": {
@@ -6561,8 +6561,8 @@
       "mpReduction": 20
     }
   },
-  "oH": {
-    "id": "oH",
+  "re": {
+    "id": "re",
     "idDofusDB": "674e524164788cc74141b485",
     "idDofusBook": 99220,
     "name": {
@@ -6582,8 +6582,8 @@
       "intelligence": 50
     }
   },
-  "oG": {
-    "id": "oG",
+  "rc": {
+    "id": "rc",
     "idDofusDB": "674e524164788cc74141b486",
     "idDofusBook": 99221,
     "name": {
@@ -6603,8 +6603,8 @@
       "criticalResist": 35
     }
   },
-  "oF": {
-    "id": "oF",
+  "ra": {
+    "id": "ra",
     "idDofusDB": "674e524164788cc74141b487",
     "idDofusBook": 99222,
     "name": {
@@ -6624,8 +6624,8 @@
       "agility": 50
     }
   },
-  "oE": {
-    "id": "oE",
+  "r9": {
+    "id": "r9",
     "idDofusDB": "674e524164788cc74141b488",
     "idDofusBook": 99223,
     "name": {
@@ -6645,8 +6645,8 @@
       "criticalResist": 35
     }
   },
-  "nD": {
-    "id": "nD",
+  "rg": {
+    "id": "rg",
     "idDofusDB": "674e524164788cc74141b489",
     "idDofusBook": 99287,
     "name": {
@@ -6666,8 +6666,8 @@
       "ap": 1
     }
   },
-  "nC": {
-    "id": "nC",
+  "rd": {
+    "id": "rd",
     "idDofusDB": "674e524164788cc74141b48a",
     "idDofusBook": 99288,
     "name": {
@@ -6687,8 +6687,8 @@
       "apReduction": 20
     }
   },
-  "oD": {
-    "id": "oD",
+  "rh": {
+    "id": "rh",
     "idDofusDB": "674e524164788cc74141b48b",
     "idDofusBook": 99224,
     "name": {
@@ -6708,8 +6708,8 @@
       "mpReduction": 20
     }
   },
-  "oC": {
-    "id": "oC",
+  "rb": {
+    "id": "rb",
     "idDofusDB": "674e524164788cc74141b48c",
     "idDofusBook": 99225,
     "name": {
@@ -6729,8 +6729,8 @@
       "criticalChance": 5
     }
   },
-  "oI": {
-    "id": "oI",
+  "rf": {
+    "id": "rf",
     "idDofusDB": "674e524164788cc74141b48d",
     "idDofusBook": 99219,
     "name": {
@@ -6750,8 +6750,8 @@
       "strength": 50
     }
   },
-  "oB": {
-    "id": "oB",
+  "qB": {
+    "id": "qB",
     "idDofusDB": "674e524164788cc74141b48e",
     "idDofusBook": 99226,
     "name": {
@@ -6771,8 +6771,8 @@
       "strength": 50
     }
   },
-  "oA": {
-    "id": "oA",
+  "qA": {
+    "id": "qA",
     "idDofusDB": "674e524164788cc74141b48f",
     "idDofusBook": 99227,
     "name": {
@@ -6792,8 +6792,8 @@
       "intelligence": 50
     }
   },
-  "oz": {
-    "id": "oz",
+  "qy": {
+    "id": "qy",
     "idDofusDB": "674e524164788cc74141b490",
     "idDofusBook": 99228,
     "name": {
@@ -6813,8 +6813,8 @@
       "criticalChance": 5
     }
   },
-  "oy": {
-    "id": "oy",
+  "qx": {
+    "id": "qx",
     "idDofusDB": "674e524164788cc74141b491",
     "idDofusBook": 99229,
     "name": {
@@ -6834,8 +6834,8 @@
       "agility": 50
     }
   },
-  "ox": {
-    "id": "ox",
+  "qw": {
+    "id": "qw",
     "idDofusDB": "674e524164788cc74141b492",
     "idDofusBook": 99230,
     "name": {
@@ -6855,8 +6855,8 @@
       "ap": 1
     }
   },
-  "ow": {
-    "id": "ow",
+  "qC": {
+    "id": "qC",
     "idDofusDB": "674e524164788cc74141b493",
     "idDofusBook": 99231,
     "name": {
@@ -6876,8 +6876,8 @@
       "ap": 1
     }
   },
-  "ov": {
-    "id": "ov",
+  "qz": {
+    "id": "qz",
     "idDofusDB": "674e524164788cc74141b494",
     "idDofusBook": 99233,
     "name": {
@@ -6897,8 +6897,8 @@
       "ap": 1
     }
   },
-  "ou": {
-    "id": "ou",
+  "qD": {
+    "id": "qD",
     "idDofusDB": "674e524164788cc74141b495",
     "idDofusBook": 99234,
     "name": {
@@ -6918,8 +6918,8 @@
       "criticalChance": 5
     }
   },
-  "ot": {
-    "id": "ot",
+  "qq": {
+    "id": "qq",
     "idDofusDB": "674e524164788cc74141b496",
     "idDofusBook": 99235,
     "name": {
@@ -6939,8 +6939,8 @@
       "strength": 50
     }
   },
-  "os": {
-    "id": "os",
+  "qp": {
+    "id": "qp",
     "idDofusDB": "674e524164788cc74141b497",
     "idDofusBook": 99236,
     "name": {
@@ -6960,8 +6960,8 @@
       "ap": 1
     }
   },
-  "or": {
-    "id": "or",
+  "qn": {
+    "id": "qn",
     "idDofusDB": "674e524164788cc74141b498",
     "idDofusBook": 99237,
     "name": {
@@ -6981,8 +6981,8 @@
       "ap": 1
     }
   },
-  "oq": {
-    "id": "oq",
+  "ql": {
+    "id": "ql",
     "idDofusDB": "674e524164788cc74141b499",
     "idDofusBook": 99238,
     "name": {
@@ -7002,8 +7002,8 @@
       "ap": 1
     }
   },
-  "op": {
-    "id": "op",
+  "qV": {
+    "id": "qV",
     "idDofusDB": "674e524164788cc74141b49a",
     "idDofusBook": 99239,
     "name": {
@@ -7023,8 +7023,8 @@
       "ap": 1
     }
   },
-  "oo": {
-    "id": "oo",
+  "qU": {
+    "id": "qU",
     "idDofusDB": "674e524164788cc74141b49b",
     "idDofusBook": 99240,
     "name": {
@@ -7044,8 +7044,8 @@
       "earthResistPer": 6
     }
   },
-  "on": {
-    "id": "on",
+  "qS": {
+    "id": "qS",
     "idDofusDB": "674e524164788cc74141b49c",
     "idDofusBook": 99241,
     "name": {
@@ -7065,8 +7065,8 @@
       "earthResistPer": 6
     }
   },
-  "om": {
-    "id": "om",
+  "qQ": {
+    "id": "qQ",
     "idDofusDB": "674e524164788cc74141b49d",
     "idDofusBook": 99242,
     "name": {
@@ -7086,8 +7086,8 @@
       "ap": 1
     }
   },
-  "ol": {
-    "id": "ol",
+  "qN": {
+    "id": "qN",
     "idDofusDB": "674e524164788cc74141b49e",
     "idDofusBook": 99243,
     "name": {
@@ -7107,8 +7107,8 @@
       "pushbackResist": 60
     }
   },
-  "ok": {
-    "id": "ok",
+  "qX": {
+    "id": "qX",
     "idDofusDB": "674e524164788cc74141b49f",
     "idDofusBook": 99244,
     "name": {
@@ -7128,8 +7128,8 @@
       "pushbackDamage": 40
     }
   },
-  "oj": {
-    "id": "oj",
+  "qT": {
+    "id": "qT",
     "idDofusDB": "674e524164788cc74141b4a0",
     "idDofusBook": 99245,
     "name": {
@@ -7149,8 +7149,8 @@
       "ap": 1
     }
   },
-  "oi": {
-    "id": "oi",
+  "r0": {
+    "id": "r0",
     "idDofusDB": "674e524164788cc74141b4a1",
     "idDofusBook": 99246,
     "name": {
@@ -7170,8 +7170,8 @@
       "ap": 1
     }
   },
-  "oh": {
-    "id": "oh",
+  "qW": {
+    "id": "qW",
     "idDofusDB": "674e524164788cc74141b4a2",
     "idDofusBook": 99247,
     "name": {
@@ -7191,8 +7191,8 @@
       "criticalResist": 35
     }
   },
-  "og": {
-    "id": "og",
+  "qR": {
+    "id": "qR",
     "idDofusDB": "674e524164788cc74141b4a3",
     "idDofusBook": 99248,
     "name": {
@@ -7212,8 +7212,8 @@
       "ap": 1
     }
   },
-  "of": {
-    "id": "of",
+  "qP": {
+    "id": "qP",
     "idDofusDB": "674e524164788cc74141b4a4",
     "idDofusBook": 99249,
     "name": {
@@ -7233,8 +7233,8 @@
       "ap": 1
     }
   },
-  "oe": {
-    "id": "oe",
+  "qY": {
+    "id": "qY",
     "idDofusDB": "674e524164788cc74141b4a5",
     "idDofusBook": 99250,
     "name": {
@@ -7254,8 +7254,8 @@
       "earthResistPer": 6
     }
   },
-  "od": {
-    "id": "od",
+  "qZ": {
+    "id": "qZ",
     "idDofusDB": "674e524164788cc74141b4a6",
     "idDofusBook": 99251,
     "name": {
@@ -7275,8 +7275,8 @@
       "earthResistPer": 6
     }
   },
-  "oc": {
-    "id": "oc",
+  "qO": {
+    "id": "qO",
     "idDofusDB": "674e524164788cc74141b4a7",
     "idDofusBook": 99252,
     "name": {
@@ -7296,8 +7296,8 @@
       "earthResistPer": 6
     }
   },
-  "ob": {
-    "id": "ob",
+  "ry": {
+    "id": "ry",
     "idDofusDB": "674e524164788cc74141b4a8",
     "idDofusBook": 99253,
     "name": {
@@ -7317,8 +7317,8 @@
       "fireResistPer": 6
     }
   },
-  "oa": {
-    "id": "oa",
+  "rx": {
+    "id": "rx",
     "idDofusDB": "674e524164788cc74141b4a9",
     "idDofusBook": 99254,
     "name": {
@@ -7338,8 +7338,8 @@
       "intelligence": 50
     }
   },
-  "o9": {
-    "id": "o9",
+  "rv": {
+    "id": "rv",
     "idDofusDB": "674e524164788cc74141b4aa",
     "idDofusBook": 99255,
     "name": {
@@ -7359,8 +7359,8 @@
       "fireResistPer": 6
     }
   },
-  "o8": {
-    "id": "o8",
+  "rt": {
+    "id": "rt",
     "idDofusDB": "674e524164788cc74141b4ab",
     "idDofusBook": 99256,
     "name": {
@@ -7380,8 +7380,8 @@
       "fireResistPer": 6
     }
   },
-  "o7": {
-    "id": "o7",
+  "rq": {
+    "id": "rq",
     "idDofusDB": "674e524164788cc74141b4ac",
     "idDofusBook": 99257,
     "name": {
@@ -7401,8 +7401,8 @@
       "pushbackResist": 60
     }
   },
-  "o6": {
-    "id": "o6",
+  "rA": {
+    "id": "rA",
     "idDofusDB": "674e524164788cc74141b4ad",
     "idDofusBook": 99258,
     "name": {
@@ -7422,8 +7422,8 @@
       "ap": 1
     }
   },
-  "o5": {
-    "id": "o5",
+  "rw": {
+    "id": "rw",
     "idDofusDB": "674e524164788cc74141b4ae",
     "idDofusBook": 99259,
     "name": {
@@ -7443,8 +7443,8 @@
       "apReduction": 20
     }
   },
-  "o4": {
-    "id": "o4",
+  "rC": {
+    "id": "rC",
     "idDofusDB": "674e524164788cc74141b4af",
     "idDofusBook": 99260,
     "name": {
@@ -7464,8 +7464,8 @@
       "mpReduction": 20
     }
   },
-  "o3": {
-    "id": "o3",
+  "rz": {
+    "id": "rz",
     "idDofusDB": "674e524164788cc74141b4b0",
     "idDofusBook": 99261,
     "name": {
@@ -7485,8 +7485,8 @@
       "fireResistPer": 6
     }
   },
-  "o2": {
-    "id": "o2",
+  "ru": {
+    "id": "ru",
     "idDofusDB": "674e524164788cc74141b4b1",
     "idDofusBook": 99262,
     "name": {
@@ -7506,8 +7506,8 @@
       "fireResistPer": 6
     }
   },
-  "o1": {
-    "id": "o1",
+  "rs": {
+    "id": "rs",
     "idDofusDB": "674e524164788cc74141b4b2",
     "idDofusBook": 99263,
     "name": {
@@ -7527,8 +7527,8 @@
       "health": 100
     }
   },
-  "nB": {
-    "id": "nB",
+  "rB": {
+    "id": "rB",
     "idDofusDB": "674e524164788cc74141b4b3",
     "idDofusBook": 99289,
     "name": {
@@ -7548,8 +7548,8 @@
       "ap": 1
     }
   },
-  "nA": {
-    "id": "nA",
+  "rr": {
+    "id": "rr",
     "idDofusDB": "674e524164788cc74141b4b4",
     "idDofusBook": 99290,
     "name": {
@@ -7569,8 +7569,8 @@
       "airResistPer": 6
     }
   },
-  "o0": {
-    "id": "o0",
+  "rM": {
+    "id": "rM",
     "idDofusDB": "674e524164788cc74141b4b5",
     "idDofusBook": 99264,
     "name": {
@@ -7590,8 +7590,8 @@
       "ap": 1
     }
   },
-  "nZ": {
-    "id": "nZ",
+  "rL": {
+    "id": "rL",
     "idDofusDB": "674e524164788cc74141b4b6",
     "idDofusBook": 99265,
     "name": {
@@ -7611,8 +7611,8 @@
       "ap": 1
     }
   },
-  "nY": {
-    "id": "nY",
+  "rJ": {
+    "id": "rJ",
     "idDofusDB": "674e524164788cc74141b4b7",
     "idDofusBook": 99266,
     "name": {
@@ -7632,8 +7632,8 @@
       "ap": 1
     }
   },
-  "nX": {
-    "id": "nX",
+  "rH": {
+    "id": "rH",
     "idDofusDB": "674e524164788cc74141b4b8",
     "idDofusBook": 99267,
     "name": {
@@ -7653,8 +7653,8 @@
       "agility": 50
     }
   },
-  "nW": {
-    "id": "nW",
+  "rE": {
+    "id": "rE",
     "idDofusDB": "674e524164788cc74141b4b9",
     "idDofusBook": 99268,
     "name": {
@@ -7674,8 +7674,8 @@
       "ap": 1
     }
   },
-  "nV": {
-    "id": "nV",
+  "rO": {
+    "id": "rO",
     "idDofusDB": "674e524164788cc74141b4ba",
     "idDofusBook": 99269,
     "name": {
@@ -7695,8 +7695,8 @@
       "ap": 1
     }
   },
-  "nU": {
-    "id": "nU",
+  "rK": {
+    "id": "rK",
     "idDofusDB": "674e524164788cc74141b4bb",
     "idDofusBook": 99270,
     "name": {
@@ -7716,8 +7716,8 @@
       "apReduction": 20
     }
   },
-  "nT": {
-    "id": "nT",
+  "rP": {
+    "id": "rP",
     "idDofusDB": "674e524164788cc74141b4bc",
     "idDofusBook": 99271,
     "name": {
@@ -7737,8 +7737,8 @@
       "mpReduction": 20
     }
   },
-  "nS": {
-    "id": "nS",
+  "rN": {
+    "id": "rN",
     "idDofusDB": "674e524164788cc74141b4bd",
     "idDofusBook": 99272,
     "name": {
@@ -7758,8 +7758,8 @@
       "waterResistPer": 6
     }
   },
-  "nR": {
-    "id": "nR",
+  "rI": {
+    "id": "rI",
     "idDofusDB": "674e524164788cc74141b4be",
     "idDofusBook": 99273,
     "name": {
@@ -7779,8 +7779,8 @@
       "ap": 1
     }
   },
-  "nQ": {
-    "id": "nQ",
+  "rG": {
+    "id": "rG",
     "idDofusDB": "674e524164788cc74141b4bf",
     "idDofusBook": 99274,
     "name": {
@@ -7800,8 +7800,8 @@
       "waterResistPer": 6
     }
   },
-  "nP": {
-    "id": "nP",
+  "rF": {
+    "id": "rF",
     "idDofusDB": "674e524164788cc74141b4c0",
     "idDofusBook": 99275,
     "name": {
@@ -7821,8 +7821,8 @@
       "ap": 1
     }
   },
-  "nO": {
-    "id": "nO",
+  "qf": {
+    "id": "qf",
     "idDofusDB": "674e524164788cc74141b4c1",
     "idDofusBook": 99276,
     "name": {
@@ -7842,8 +7842,8 @@
       "ap": 1
     }
   },
-  "nN": {
-    "id": "nN",
+  "qe": {
+    "id": "qe",
     "idDofusDB": "674e524164788cc74141b4c2",
     "idDofusBook": 99277,
     "name": {
@@ -7863,8 +7863,8 @@
       "airResistPer": 6
     }
   },
-  "nM": {
-    "id": "nM",
+  "qc": {
+    "id": "qc",
     "idDofusDB": "674e524164788cc74141b4c3",
     "idDofusBook": 99278,
     "name": {
@@ -7884,8 +7884,8 @@
       "airResistPer": 6
     }
   },
-  "nL": {
-    "id": "nL",
+  "qa": {
+    "id": "qa",
     "idDofusDB": "674e524164788cc74141b4c4",
     "idDofusBook": 99279,
     "name": {
@@ -7905,8 +7905,8 @@
       "ap": 1
     }
   },
-  "nK": {
-    "id": "nK",
+  "q8": {
+    "id": "q8",
     "idDofusDB": "674e524164788cc74141b4c5",
     "idDofusBook": 99280,
     "name": {
@@ -7926,8 +7926,8 @@
       "pushbackResist": 60
     }
   },
-  "nJ": {
-    "id": "nJ",
+  "qh": {
+    "id": "qh",
     "idDofusDB": "674e524164788cc74141b4c6",
     "idDofusBook": 99281,
     "name": {
@@ -7947,8 +7947,8 @@
       "pushbackDamage": 40
     }
   },
-  "nI": {
-    "id": "nI",
+  "qd": {
+    "id": "qd",
     "idDofusDB": "674e524164788cc74141b4c7",
     "idDofusBook": 99282,
     "name": {
@@ -7968,8 +7968,8 @@
       "airResistPer": 6
     }
   },
-  "nH": {
-    "id": "nH",
+  "qi": {
+    "id": "qi",
     "idDofusDB": "674e524164788cc74141b4c8",
     "idDofusBook": 99283,
     "name": {
@@ -7989,8 +7989,8 @@
       "airResistPer": 6
     }
   },
-  "nG": {
-    "id": "nG",
+  "qg": {
+    "id": "qg",
     "idDofusDB": "674e524164788cc74141b4c9",
     "idDofusBook": 99284,
     "name": {
@@ -8010,8 +8010,8 @@
       "airResistPer": 6
     }
   },
-  "nF": {
-    "id": "nF",
+  "qb": {
+    "id": "qb",
     "idDofusDB": "674e524164788cc74141b4ca",
     "idDofusBook": 99285,
     "name": {
@@ -8031,8 +8031,8 @@
       "airResistPer": 6
     }
   },
-  "nE": {
-    "id": "nE",
+  "q9": {
+    "id": "q9",
     "idDofusDB": "674e524164788cc74141b4cb",
     "idDofusBook": 99286,
     "name": {
@@ -8052,8 +8052,8 @@
       "health": 100
     }
   },
-  "nz": {
-    "id": "nz",
+  "qs": {
+    "id": "qs",
     "idDofusDB": "674e524164788cc74141b4cc",
     "idDofusBook": 99291,
     "name": {
@@ -8073,8 +8073,8 @@
       "health": 100
     }
   },
-  "ny": {
-    "id": "ny",
+  "qk": {
+    "id": "qk",
     "idDofusDB": "674e524164788cc74141b4cd",
     "idDofusBook": 99292,
     "name": {
@@ -8094,8 +8094,8 @@
       "pushbackResist": 60
     }
   },
-  "nx": {
-    "id": "nx",
+  "qo": {
+    "id": "qo",
     "idDofusDB": "674e524164788cc74141b4ce",
     "idDofusBook": 99293,
     "name": {
@@ -8115,8 +8115,8 @@
       "ap": 1
     }
   },
-  "nw": {
-    "id": "nw",
+  "qt": {
+    "id": "qt",
     "idDofusDB": "674e524164788cc74141b4cf",
     "idDofusBook": 99294,
     "name": {
@@ -8136,8 +8136,8 @@
       "mpReduction": 20
     }
   },
-  "nv": {
-    "id": "nv",
+  "qr": {
+    "id": "qr",
     "idDofusDB": "674e524164788cc74141b4d0",
     "idDofusBook": 99295,
     "name": {
@@ -8157,8 +8157,8 @@
       "health": 100
     }
   },
-  "nu": {
-    "id": "nu",
+  "qm": {
+    "id": "qm",
     "idDofusDB": "674e524164788cc74141b4d1",
     "idDofusBook": 99296,
     "name": {

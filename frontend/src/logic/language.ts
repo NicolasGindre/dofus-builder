@@ -1,6 +1,6 @@
 import { get } from "svelte/store";
 import type { Requirement } from "../types/item";
-import { words } from "../stores/builder";
+import { preStats, words } from "../stores/builder";
 
 export function translateRequirement(requirement: Requirement): string {
     // switch (requirement.type) {
@@ -31,7 +31,14 @@ export function translateRequirement(requirement: Requirement): string {
         translation += " ";
     }
 
-    translation += requirement.value;
+    if (requirement.stat == "health") {
+        translation +=
+            requirement.value +
+            (get(preStats).health ?? 0) +
+            ` (${requirement.value} + ${dict.baseVitality})`;
+    } else {
+        translation += requirement.value;
+    }
 
     return translation;
 }

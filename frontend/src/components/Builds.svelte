@@ -19,6 +19,7 @@
         addToSavedBuilds,
         buildsFromWasm,
         calculateBuildValue,
+        checkOrRequirement,
         deleteSavedBuild,
         diffBuild,
         getSavedBuild,
@@ -321,44 +322,46 @@
                         {/if}
                     </div>
                     <div class="build-header">
-                        <button class="button-compare" on:click={() => compareBuild(build)}
-                            >{$words.compare}</button
-                        >
-                        <h3>
-                            {$words.value}
-                            {build.value?.toFixed(0)}
-
-                            {#if build.diffBuild}
-                                <span
-                                    class:green-text={build.diffBuild.value > 0}
-                                    class:red-text={build.diffBuild.value < 0}
+                        <div class="build-controls">
+                            {#if getSavedBuild(build.id)}
+                                <button
+                                    class="button-save delete"
+                                    on:click={() => deleteSavedBuild(build.id)}
+                                    disabled={index == savingBuildIndex}>{$words.delete}</button
                                 >
-                                    ({build.diffBuild.value >= 0
-                                        ? "+"
-                                        : ""}{build.diffBuild.value.toFixed(0)})
-                                </span>
+                            {:else}
+                                <button
+                                    class="button-save"
+                                    on:click={() => startSavingBuild(index, build.name)}
+                                    disabled={index == savingBuildIndex}>{$words.save}</button
+                                >
                             {/if}
-                            <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
-                        </h3>
-                    </div>
-                    <div>
-                        {#if getSavedBuild(build.id)}
-                            <button
-                                class="button-save delete"
-                                on:click={() => deleteSavedBuild(build.id)}
-                                disabled={index == savingBuildIndex}>{$words.delete}</button
+                            <ExportBuild {build} />
+                            <!-- <button class="button-export" on:click={() => await createDofusDBBuild(build)}
+                                >{$words.export}</button
+                            > -->
+                        </div>
+                        <div class="value-compare">
+                            <button class="button-compare" on:click={() => compareBuild(build)}
+                                >{$words.compare}</button
                             >
-                        {:else}
-                            <button
-                                class="button-save"
-                                on:click={() => startSavingBuild(index, build.name)}
-                                disabled={index == savingBuildIndex}>{$words.save}</button
-                            >
-                        {/if}
-                        <ExportBuild {build} />
-                        <!-- <button class="button-export" on:click={() => await createDofusDBBuild(build)}
-                            >{$words.export}</button
-                        > -->
+                            <h3>
+                                {$words.value}
+                                {build.value?.toFixed(0)}
+
+                                {#if build.diffBuild}
+                                    <span
+                                        class:green-text={build.diffBuild.value > 0}
+                                        class:red-text={build.diffBuild.value < 0}
+                                    >
+                                        ({build.diffBuild.value >= 0
+                                            ? "+"
+                                            : ""}{build.diffBuild.value.toFixed(0)})
+                                    </span>
+                                {/if}
+                                <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
+                            </h3>
+                        </div>
                     </div>
                     <div class="panoplies">
                         {#if !build.diffBuild}
@@ -472,12 +475,12 @@
                         compareStats={build.diffBuild?.cappedStats}
                         overStats={build.stats}
                     />
-                    <div class="requirememnts">
-                        {#each build.requirements as andRequirement}
-                            <div>
-                                {#each andRequirement as orRequirement, i}
-                                    <strong>{translateRequirement(orRequirement)}</strong>
-                                    {#if i < andRequirement.length - 1}
+                    <div class="requirements">
+                        {#each build.requirements as orRequirements}
+                            <div class="requirement {checkOrRequirement(build, orRequirements)}">
+                                {#each orRequirements as requirement, i}
+                                    <strong>{translateRequirement(requirement)}</strong>
+                                    {#if i < orRequirements.length - 1}
                                         {" "}<strong><em>{$words.or}</em></strong>{" "}
                                     {/if}
                                 {/each}
@@ -578,11 +581,21 @@
         margin-left: 2px;
     }
 
-    .requirememnts {
+    .requirements {
         /* margin-top: 1rem; */
         margin-top: 5px;
         text-align: left;
         display: grid;
+    }
+    .requirement {
+        width: fit-content;
+        height: fit-content;
+    }
+    .requirements .warning {
+        background-color: #917300;
+    }
+    .requirements .invalid {
+        background-color: #8c0000;
     }
     .button-calculate {
         margin-top: 0.6rem;
@@ -613,15 +626,26 @@
         margin-right: 10px;
     }
     .build-header {
-        display: inline-flex;
+        display: flex;
+        flex-direction: column;
         /* height: 60px; */
-        align-items: center;
+        /* align-items: center; */
         /* justify-content: space-between; */
         margin-bottom: 15px;
         width: 100%;
     }
     .build-header h3 {
         margin: 0px;
+    }
+    .build-controls {
+        margin-bottom: 10px;
+    }
+
+    .build-controls,
+    .value-compare {
+        display: flex;
+        align-items: center;
+        /* gap: 0.5rem; */
     }
     .button-compare {
         margin-right: 10px;

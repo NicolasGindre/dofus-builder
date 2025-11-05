@@ -37,6 +37,7 @@ export default {
     bestAndSelected: "Meilleures + Sélectionnées",
 
     // add: "Ajouter",
+    baseVitality: "Vitalité de base",
 
     addPanoply: "Ajouter Panoplie",
     removePanoply: "Retirer Panoplie",

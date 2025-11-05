@@ -87,9 +87,13 @@ let dofusMinMaxId = "Z";
 let dofusBookDBIdMap: ItemMap = {};
 let dofusBookDBNameMap: ItemMap = {};
 
-const allItemsDofusBook = [...itemsDofusBook.data, ...weaponsDofusBook.data].sort(
-    (a, b) => a.level - b.level,
-);
+// const allItemsDofusBook = [...itemsDofusBook.data, ...weaponsDofusBook.data].sort(
+//     (a, b) => a.level - b.level,
+// );
+const allItemsDofusBook = [...itemsDofusBook.data, ...weaponsDofusBook.data].sort((a, b) => {
+    if (a.level !== b.level) return a.level - b.level;
+    return a.name.localeCompare(b.name);
+});
 
 // let newItemsDB: Items = {};
 let indexesToSkip: number[] = [];
