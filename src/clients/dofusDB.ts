@@ -6,18 +6,29 @@ import {
     type Panoplies,
     type Requirement,
     convertItemRequirement,
+    type SubCategory,
 } from "../types/item";
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
 
-export type DofusBookDBIdMap = Record<
-    string,
-    { name: string; level: number; dofusBookId: number; id: string }
->;
-export type DofusBookDBNameMap = Record<
-    string,
-    { dofusDBId: string; level: number; dofusBookId: number; id: string }
->;
+// export type DofusBookDBIdMap = Record<
+//     string,
+//     { name: string; level: number; dofusBookId: number; id: string }
+// >;
+// export type DofusBookDBNameMap = Record<
+//     string,
+//     { dofusDBId: string; level: number; dofusBookId: number; id: string }
+// >;
+
+export type ItemMap = Record<string, ItemMapValue>;
+export type ItemMapValue = {
+    id: string;
+    dofusDBId: string;
+    dofusBookId: number;
+    name: string;
+    level: number;
+    subcategory: SubCategory;
+};
 
 export type PanoMap = Record<string, PanoMapValue>;
 export type PanoMapValue = { id: string; dofusDBId: string; name: string; level: number };
@@ -85,12 +96,8 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     let itemIndex = 0;
     let itemNames: string[] = [];
 
-    const dofusBookIdMap: DofusBookDBIdMap = await Bun.file(
-        `${dbPath}/dofusBookMap/idMap.json`,
-    ).json();
-    const dofusBookNameMap: DofusBookDBNameMap = await Bun.file(
-        `${dbPath}/dofusBookMap/nameMap.json`,
-    ).json();
+    const dofusBookIdMap: ItemMap = await Bun.file(`${dbPath}/dofusBookMap/idMap.json`).json();
+    const dofusBookNameMap: ItemMap = await Bun.file(`${dbPath}/dofusBookMap/nameMap.json`).json();
     const panoIdMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoIdMap.json`).json();
     // const panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
 
@@ -112,26 +119,25 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             if (shouldSkipItem(dofusDbItem)) {
                 continue;
             }
-            let dofusBookId: number;
-            let dofusMinMaxId: string;
-            let panoMinMaxId: string = "";
+            let itemMap: ItemMapValue;
+            // let dofusBookId: number;
+            // let dofusMinMaxId: string;
             if (!dofusBookIdMap[dofusDbItem._id]) {
                 if (!dofusBookNameMap[dofusDbItem.name.fr]) {
                     console.error("item has no match in dofusbook", dofusDbItem.name.fr);
                     continue;
                 } else {
-                    dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId;
-                    dofusMinMaxId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
-                    console.log(
-                        "There was no id match but found name match",
-                        dofusDbItem.name.fr,
-                        dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId,
-                    );
+                    itemMap = dofusBookNameMap[dofusDbItem.name.fr]!;
+                    // dofusBookId = dofusBookNameMap[dofusDbItem.name.fr]!.dofusBookId;
+                    // dofusMinMaxId = dofusBookNameMap[dofusDbItem.name.fr]!.id;
+                    console.log("There was no id match but found name match", itemMap);
                 }
             } else {
-                dofusBookId = dofusBookIdMap[dofusDbItem._id]!.dofusBookId;
-                dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
+                itemMap = dofusBookIdMap[dofusDbItem._id]!;
+                // dofusBookId = dofusBookIdMap[dofusDbItem._id]!.dofusBookId;
+                // dofusMinMaxId = dofusBookIdMap[dofusDbItem._id]!.id;
             }
+            let panoMinMaxId: string = "";
             if (dofusDbItem.itemSet) {
                 panoMinMaxId = panoIdMap[dofusDbItem.itemSet._id]!.id;
             }
@@ -139,11 +145,21 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             const newItem = translateItem(
                 dofusDbItem,
                 category,
-                dofusMinMaxId,
-                dofusBookId,
+                itemMap,
+                // dofusMinMaxId,
+                // dofusBookId,
                 panoMinMaxId,
             );
-            if (!newItem.panoply && Object.keys(newItem.stats).length == 0) {
+            const includeEmptyStatsItems: string[] = [
+                "Dofus Argenté Scintillant",
+                "Dofus Abyssal",
+                "Dofus Nébuleux",
+            ];
+            if (
+                !newItem.panoply &&
+                Object.keys(newItem.stats).length == 0 &&
+                !includeEmptyStatsItems.includes(newItem.name.fr)
+            ) {
                 continue;
             } else {
                 if (itemNames.includes(dofusDbItem.name.fr)) {
@@ -151,7 +167,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                     continue;
                 }
                 itemNames.push(dofusDbItem.name.fr);
-                items[dofusMinMaxId] = newItem;
+                items[itemMap.id] = newItem;
             }
         }
 
@@ -165,16 +181,18 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
 export function translateItem(
     dofusDbItem: ItemResp,
     category: ItemCategory,
-    dofusMinMaxId: string,
-    dofusBookId: number,
+    itemMap: ItemMapValue,
+    // subCategory: SubCategory,
+    // dofusMinMaxId: string,
+    // dofusBookId: number,
     panoMinMaxId: string,
 ): Item {
     const requirements = translateCriterions(dofusDbItem.criterions);
     const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
-        id: dofusMinMaxId,
+        id: itemMap.id,
         idDofusDB: dofusDbItem._id,
-        idDofusBook: dofusBookId,
+        idDofusBook: itemMap.dofusBookId,
         name: {
             fr: dofusDbItem.name.fr,
             en: dofusDbItem.name.en,
@@ -186,6 +204,7 @@ export function translateItem(
         // panoply: dofusDbItem.itemSet?.name.fr,
         ...(panoMinMaxId ? { panoply: panoMinMaxId } : {}),
         category: category,
+        subCategory: itemMap.subcategory,
         ...(requirements[0] && requirements[0].length > 0 ? { requirements: requirements } : {}),
         ...(minRequirement ? { minRequirement: minRequirement } : {}),
         ...(dofusDbItem.criterions ? { criterions: dofusDbItem.criterions } : {}),

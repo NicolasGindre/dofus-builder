@@ -1,7 +1,7 @@
 import { nextValue } from "../../db/base62inc";
 import * as itemDB from "../../db/itemDB";
-import type { Item, ItemCategory, Items } from "../../types/item";
-import type { DofusBookDBIdMap, DofusBookDBNameMap } from "../dofusDB";
+import type { Item, ItemCategory, Items, SubCategory } from "../../types/item";
+import type { ItemMap } from "../dofusDB";
 
 const dbPath = "./src/db/data";
 
@@ -33,6 +33,36 @@ const categoryMap: Record<string, ItemCategory> = {
     ba: "weapon",
     pi: "weapon",
 };
+const subCategoryMap: Record<string, SubCategory> = {
+    am: "amulet",
+    ce: "belt",
+    bo: "boots",
+    ca: "cloak",
+    do: "dofus",
+    tr: "trophy",
+    an: "ring",
+    ch: "hat",
+    br: "shield",
+
+    mo: "dragoturkey",
+    vo: "rhineetle",
+    mu: "seemyool",
+    fa: "pet",
+    mt: "petmount",
+
+    // W: "weapon",
+    ma: "hammer",
+    fx: "scythe",
+    la: "lance",
+    ar: "bow",
+    ep: "sword",
+    bn: "staff",
+    da: "dagger",
+    ha: "axe",
+    pe: "shovel",
+    ba: "wand",
+    pi: "pickaxe",
+};
 
 type DofusBookItem = {
     id: number;
@@ -54,8 +84,8 @@ const weaponsDofusBook: { data: DofusBookItem[] } = await Bun.file(
 await itemDB.loadItemsAndPanos();
 let dofusMinMaxId = "Z";
 
-let dofusBookDBIdMap: DofusBookDBIdMap = {};
-let dofusBookDBNameMap: DofusBookDBNameMap = {};
+let dofusBookDBIdMap: ItemMap = {};
+let dofusBookDBNameMap: ItemMap = {};
 
 const allItemsDofusBook = [...itemsDofusBook.data, ...weaponsDofusBook.data].sort(
     (a, b) => a.level - b.level,
@@ -143,14 +173,18 @@ function addItem(dofusBookitem: DofusBookItem, dbItem: Item) {
     dofusBookDBIdMap[dbItem.idDofusDB] = {
         id: dofusMinMaxId,
         dofusBookId: dofusBookitem.official,
+        dofusDBId: dbItem.idDofusDB,
         name: dofusBookitem.name,
         level: dofusBookitem.level,
+        subcategory: subCategoryMap[dofusBookitem.category_name] as SubCategory,
     };
     dofusBookDBNameMap[dofusBookitem.name] = {
         id: dofusMinMaxId,
         dofusDBId: dbItem.idDofusDB,
         dofusBookId: dofusBookitem.official,
+        name: dofusBookitem.name,
         level: dofusBookitem.level,
+        subcategory: subCategoryMap[dofusBookitem.category_name] as SubCategory,
     };
 }
 

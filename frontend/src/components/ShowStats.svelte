@@ -54,7 +54,7 @@
         {:else}
             <tbody>
                 {#each statsKeys as statKey}
-                    {#if compareStats[statKey]}
+                    {#if compareStats[statKey] || stats[statKey]}
                         <tr>
                             <td>
                                 {#if stats[statKey] != compareStats[statKey]}<span

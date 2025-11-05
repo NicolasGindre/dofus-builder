@@ -12,6 +12,7 @@
     },
     "level": 2,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 7
     }
@@ -29,6 +30,7 @@
     },
     "level": 2,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "chance": 6,
       "waterDamage": 1
@@ -47,6 +49,7 @@
     },
     "level": 3,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 5
     }
@@ -65,6 +68,7 @@
     "level": 15,
     "panoply": "7u",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 25,
       "strength": 10,
@@ -84,6 +88,7 @@
     },
     "level": 13,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "strength": 10,
       "criticalChance": 2,
@@ -103,6 +108,7 @@
     },
     "level": 13,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 20,
       "chance": 15
@@ -121,6 +127,7 @@
     },
     "level": 13,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 15,
       "chance": 15
@@ -139,6 +146,7 @@
     },
     "level": 13,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 25,
       "agility": 10,
@@ -159,6 +167,7 @@
     "level": 20,
     "panoply": "7o",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "intelligence": 7,
       "summon": 1
@@ -178,6 +187,7 @@
     "level": 20,
     "panoply": "7i",
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 10,
       "chance": 20,
@@ -197,6 +207,7 @@
     },
     "level": 22,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "strength": -11,
       "chance": 30
@@ -215,6 +226,7 @@
     },
     "level": 22,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 40,
       "agility": 25,
@@ -235,6 +247,7 @@
     },
     "level": 22,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 30,
       "chance": 30
@@ -253,6 +266,7 @@
     },
     "level": 23,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "intelligence": -40,
       "agility": 40,
@@ -273,6 +287,7 @@
     },
     "level": 23,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 30,
       "agility": 30
@@ -291,6 +306,7 @@
     },
     "level": 28,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "agility": 30,
@@ -310,6 +326,7 @@
     },
     "level": 28,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 60,
       "strength": -10,
@@ -332,6 +349,7 @@
     },
     "level": 7,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 20,
       "lock": 2
@@ -350,6 +368,7 @@
     },
     "level": 19,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 20,
       "chance": 15,
@@ -370,6 +389,7 @@
     },
     "level": 58,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 50,
       "strength": -40,
@@ -393,6 +413,7 @@
     },
     "level": 31,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 20,
       "intelligence": -20,
@@ -412,6 +433,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": -10,
       "intelligence": -10,
@@ -435,6 +457,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "range": 1
     }
@@ -452,6 +475,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 20,
       "earthDamage": 1
@@ -470,6 +494,7 @@
     },
     "level": 25,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -504,6 +529,7 @@
     },
     "level": 36,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 20,
       "intelligence": 20,
@@ -524,6 +550,7 @@
     },
     "level": 46,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "agility": 40,
       "power": 20,
@@ -544,6 +571,7 @@
     },
     "level": 11,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "power": 10,
       "dodge": 4
@@ -562,6 +590,7 @@
     },
     "level": 5,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "intelligence": 10
     }
@@ -579,6 +608,7 @@
     },
     "level": 24,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 30,
       "strength": 20,
@@ -600,6 +630,7 @@
     },
     "level": 38,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 20,
       "strength": 20,
@@ -619,6 +650,7 @@
     },
     "level": 47,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 35,
       "intelligence": 35,
@@ -639,6 +671,7 @@
     },
     "level": 33,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 30,
       "intelligence": 25,
@@ -660,6 +693,7 @@
     },
     "level": 56,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "intelligence": 40,
       "heal": -10,
@@ -684,6 +718,7 @@
     },
     "level": 72,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 60,
       "strength": 50,
@@ -706,6 +741,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 40,
       "chance": 30,
@@ -725,6 +761,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 40,
       "intelligence": -30,
@@ -750,6 +787,7 @@
     },
     "level": 41,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 40,
       "intelligence": 25,
@@ -771,6 +809,7 @@
     },
     "level": 49,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "agility": -1,
       "wisdom": 5,
@@ -791,6 +830,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "intelligence": 30,
       "agility": 30,
@@ -812,6 +852,7 @@
     "level": 39,
     "panoply": "6f",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "chance": 30,
       "summon": 1,
@@ -831,6 +872,7 @@
     },
     "level": 90,
     "category": "weapon",
+    "subCategory": "bow",
     "criterions": "Ps=1",
     "stats": {
       "agility": -150
@@ -849,6 +891,7 @@
     },
     "level": 10,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": -150
     }
@@ -866,6 +909,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 70,
       "chance": 60,
@@ -888,6 +932,7 @@
     },
     "level": 87,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 80,
       "wisdom": 25,
@@ -911,6 +956,7 @@
     },
     "level": 82,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 50,
       "intelligence": 50,
@@ -935,6 +981,7 @@
     },
     "level": 111,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 45,
       "agility": 45,
@@ -958,6 +1005,7 @@
     },
     "level": 70,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "strength": 40,
       "power": 15,
@@ -979,6 +1027,7 @@
     },
     "level": 89,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -1004,6 +1053,7 @@
     },
     "level": 115,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "chance": 40,
       "agility": 40,
@@ -1026,6 +1076,7 @@
     },
     "level": 57,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 40,
       "power": 15,
@@ -1047,6 +1098,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -1065,6 +1117,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 30,
       "intelligence": 40,
@@ -1086,6 +1139,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -1108,6 +1162,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "intelligence": 50,
       "agility": 50,
@@ -1130,6 +1185,7 @@
     },
     "level": 130,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "chance": 40,
       "agility": 40,
@@ -1149,6 +1205,7 @@
     },
     "level": 123,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 200,
       "agility": 45,
@@ -1170,6 +1227,7 @@
     },
     "level": 142,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -1193,6 +1251,7 @@
     },
     "level": 124,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 150,
       "chance": 50,
@@ -1212,6 +1271,7 @@
     },
     "level": 96,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 120,
       "intelligence": 50,
@@ -1237,6 +1297,7 @@
     "level": 61,
     "panoply": "58",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "agility": 60,
       "criticalChance": 4,
@@ -1257,6 +1318,7 @@
     },
     "level": 121,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 90,
       "strength": 35,
@@ -1281,6 +1343,7 @@
     },
     "level": 129,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 100,
       "intelligence": 35,
@@ -1306,6 +1369,7 @@
     "level": 118,
     "panoply": "40",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -1333,6 +1397,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 50,
       "agility": 70,
@@ -1354,6 +1419,7 @@
     },
     "level": 79,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1403,6 +1469,7 @@
     "level": 122,
     "panoply": "44",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 150,
       "chance": 50,
@@ -1428,6 +1495,7 @@
     },
     "level": 147,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 200,
       "agility": 40,
@@ -1439,8 +1507,8 @@
       "airResist": 10
     }
   },
-  "Kv": {
-    "id": "Kv",
+  "Ky": {
+    "id": "Ky",
     "idDofusDB": "674e524064788cc741419250",
     "idDofusBook": 8925,
     "name": {
@@ -1452,6 +1520,7 @@
     },
     "level": 185,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1482,8 +1551,8 @@
       "airResistPer": 6
     }
   },
-  "Ko": {
-    "id": "Ko",
+  "Kr": {
+    "id": "Kr",
     "idDofusDB": "674e524064788cc74141930c",
     "idDofusBook": 9134,
     "name": {
@@ -1495,6 +1564,7 @@
     },
     "level": 183,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1536,6 +1606,7 @@
     },
     "level": 167,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1588,6 +1659,7 @@
     },
     "level": 175,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1615,8 +1687,8 @@
       "apReduction": 5
     }
   },
-  "Kq": {
-    "id": "Kq",
+  "Kt": {
+    "id": "Kt",
     "idDofusDB": "674e524064788cc741419a58",
     "idDofusBook": 11755,
     "name": {
@@ -1628,6 +1700,7 @@
     },
     "level": 184,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -1643,8 +1716,8 @@
       "mpReduction": 5
     }
   },
-  "Nf": {
-    "id": "Nf",
+  "Ni": {
+    "id": "Ni",
     "idDofusDB": "674e524064788cc741419a59",
     "idDofusBook": 11756,
     "name": {
@@ -1656,6 +1729,7 @@
     },
     "level": 196,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1704,6 +1778,7 @@
     "level": 173,
     "panoply": "2B",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -1721,8 +1796,8 @@
       "criticalResist": 15
     }
   },
-  "Ul": {
-    "id": "Ul",
+  "Uo": {
+    "id": "Uo",
     "idDofusDB": "674e524164788cc74141a212",
     "idDofusBook": 14164,
     "name": {
@@ -1734,6 +1809,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1786,6 +1862,7 @@
     "level": 104,
     "panoply": "4q",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -1812,6 +1889,7 @@
     "level": 107,
     "panoply": "4f",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 200,
       "wisdom": 30,
@@ -1824,8 +1902,8 @@
       "mpResist": 5
     }
   },
-  "Ue": {
-    "id": "Ue",
+  "Uh": {
+    "id": "Uh",
     "idDofusDB": "674e524164788cc74141a678",
     "idDofusBook": 15495,
     "name": {
@@ -1837,6 +1915,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1870,8 +1949,8 @@
       "apReduction": 5
     }
   },
-  "U9": {
-    "id": "U9",
+  "Uc": {
+    "id": "Uc",
     "idDofusDB": "674e524164788cc74141ad4e",
     "idDofusBook": 17681,
     "name": {
@@ -1883,6 +1962,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -1898,8 +1978,8 @@
       "pushbackDamage": 25
     }
   },
-  "U4": {
-    "id": "U4",
+  "U7": {
+    "id": "U7",
     "idDofusDB": "674e524164788cc74141ae6f",
     "idDofusBook": 18012,
     "name": {
@@ -1911,6 +1991,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -1943,8 +2024,8 @@
       "apResist": 15
     }
   },
-  "TX": {
-    "id": "TX",
+  "U0": {
+    "id": "U0",
     "idDofusDB": "674e524164788cc74141b287",
     "idDofusBook": 19270,
     "name": {
@@ -1956,6 +2037,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 350,
       "intelligence": 70,
@@ -1971,8 +2053,8 @@
       "criticalResist": 25
     }
   },
-  "PQ": {
-    "id": "PQ",
+  "PT": {
+    "id": "PT",
     "idDofusDB": "674e524164788cc74141b51f",
     "idDofusBook": 19986,
     "name": {
@@ -1985,6 +2067,7 @@
     "level": 200,
     "panoply": "0U",
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -2030,8 +2113,8 @@
       "dodge": 10
     }
   },
-  "TV": {
-    "id": "TV",
+  "TY": {
+    "id": "TY",
     "idDofusDB": "674e524164788cc74141b672",
     "idDofusBook": 20356,
     "name": {
@@ -2043,6 +2126,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 350,
       "agility": 120,
@@ -2054,8 +2138,8 @@
       "pushbackDamage": 30
     }
   },
-  "P3": {
-    "id": "P3",
+  "P6": {
+    "id": "P6",
     "idDofusDB": "674e524164788cc74141c202",
     "idDofusBook": 24031,
     "name": {
@@ -2068,6 +2152,7 @@
     "level": 200,
     "panoply": "15",
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -2102,8 +2187,8 @@
       "criticalDamage": 15
     }
   },
-  "TQ": {
-    "id": "TQ",
+  "TT": {
+    "id": "TT",
     "idDofusDB": "674e524164788cc74141c204",
     "idDofusBook": 24033,
     "name": {
@@ -2115,6 +2200,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 400,
       "chance": 70,
@@ -2129,8 +2215,8 @@
       "lock": 12
     }
   },
-  "TI": {
-    "id": "TI",
+  "TL": {
+    "id": "TL",
     "idDofusDB": "674e524164788cc74141c9ab",
     "idDofusBook": 27644,
     "name": {
@@ -2142,6 +2228,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "bow",
     "requirements": [
       [
         {
@@ -2179,8 +2266,8 @@
       "pushbackResist": -15
     }
   },
-  "LZ": {
-    "id": "LZ",
+  "M2": {
+    "id": "M2",
     "idDofusDB": "687f71551c81517356061808",
     "idDofusBook": 31773,
     "name": {
@@ -2193,6 +2280,7 @@
     "level": 197,
     "panoply": "20",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -2208,8 +2296,8 @@
       "criticalDamage": -21
     }
   },
-  "O1": {
-    "id": "O1",
+  "O4": {
+    "id": "O4",
     "idDofusDB": "687f71551c81517356061822",
     "idDofusBook": 31800,
     "name": {
@@ -2222,6 +2310,7 @@
     "level": 200,
     "panoply": "1v",
     "category": "weapon",
+    "subCategory": "bow",
     "stats": {
       "health": 450,
       "strength": 100,
@@ -2251,6 +2340,7 @@
     },
     "level": 11,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 12,
       "fireDamage": 1
@@ -2269,6 +2359,7 @@
     },
     "level": 105,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -2320,6 +2411,7 @@
     },
     "level": 51,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 55,
       "strength": -10,
@@ -2344,6 +2436,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "strength": -20,
@@ -2365,6 +2458,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "agility": 15,
       "criticalChance": 3
@@ -2383,6 +2477,7 @@
     },
     "level": 33,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -2405,6 +2500,7 @@
     },
     "level": 29,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "strength": -30,
@@ -2426,6 +2522,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 60,
       "strength": -10,
@@ -2450,6 +2547,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "strength": 30,
       "intelligence": 30
@@ -2468,6 +2566,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -2488,6 +2587,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -2522,6 +2622,7 @@
     },
     "level": 45,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 45,
       "intelligence": 45,
@@ -2542,6 +2643,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": -60,
       "intelligence": 40,
@@ -2563,6 +2665,7 @@
     },
     "level": 71,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 60,
       "strength": 35,
@@ -2586,6 +2689,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "chance": 4
     }
@@ -2603,6 +2707,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "strength": -20,
@@ -2626,6 +2731,7 @@
     },
     "level": 59,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "strength": 20,
@@ -2650,6 +2756,7 @@
     },
     "level": 48,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": -60,
       "intelligence": 40,
@@ -2672,6 +2779,7 @@
     },
     "level": 43,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 40,
       "strength": -20,
@@ -2693,6 +2801,7 @@
     },
     "level": 65,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 60,
       "intelligence": 40,
@@ -2714,6 +2823,7 @@
     },
     "level": 10,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 7,
       "criticalChance": 2
@@ -2732,6 +2842,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 80,
       "strength": -60,
@@ -2755,6 +2866,7 @@
     },
     "level": 75,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 50,
       "intelligence": 50,
@@ -2777,6 +2889,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 80,
       "wisdom": 30,
@@ -2800,6 +2913,7 @@
     },
     "level": 90,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 50,
       "wisdom": 15,
@@ -2824,6 +2938,7 @@
     },
     "level": 95,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 100,
       "heal": 7,
@@ -2848,6 +2963,7 @@
     "level": 117,
     "panoply": "3I",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 40,
       "wisdom": 40,
@@ -2870,6 +2986,7 @@
     },
     "level": 171,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -2913,6 +3030,7 @@
     },
     "level": 67,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 40,
       "strength": -40,
@@ -2938,6 +3056,7 @@
     },
     "level": 63,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 50,
       "power": 15,
@@ -2960,6 +3079,7 @@
     },
     "level": 113,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -2992,6 +3112,7 @@
     },
     "level": 78,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 80,
       "intelligence": 50,
@@ -3014,6 +3135,7 @@
     },
     "level": 84,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 90,
       "wisdom": 20,
@@ -3037,6 +3159,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -3055,6 +3178,7 @@
     },
     "level": 145,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -3077,6 +3201,7 @@
     "level": 40,
     "panoply": "6R",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 40,
       "agility": 20,
@@ -3097,6 +3222,7 @@
     },
     "level": 102,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 40,
       "heal": 6,
@@ -3117,6 +3243,7 @@
     },
     "level": 43,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 60,
       "damage": 5,
@@ -3137,6 +3264,7 @@
     },
     "level": 63,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 50,
       "power": 15,
@@ -3159,6 +3287,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 80,
       "intelligence": 50,
@@ -3182,6 +3311,7 @@
     },
     "level": 112,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3214,6 +3344,7 @@
     },
     "level": 127,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3254,6 +3385,7 @@
     },
     "level": 105,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 130,
       "intelligence": 35,
@@ -3273,6 +3405,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -3292,6 +3425,7 @@
     },
     "level": 125,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "intelligence": 35,
@@ -3314,6 +3448,7 @@
     },
     "level": 128,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -3336,6 +3471,7 @@
     },
     "level": 138,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3394,6 +3530,7 @@
     "level": 25,
     "panoply": "7h",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "agility": 10,
       "range": 1
@@ -3413,6 +3550,7 @@
     "level": 59,
     "panoply": "5h",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "intelligence": 30,
       "agility": 15,
@@ -3435,6 +3573,7 @@
     "level": 124,
     "panoply": "40",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 200,
       "agility": 50,
@@ -3463,6 +3602,7 @@
     },
     "level": 69,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 50,
       "intelligence": 35,
@@ -3486,6 +3626,7 @@
     },
     "level": 74,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3522,6 +3663,7 @@
     "level": 130,
     "panoply": "3T",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -3547,6 +3689,7 @@
     "level": 132,
     "panoply": "3J",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -3557,8 +3700,8 @@
       "airResistPer": 8
     }
   },
-  "Ka": {
-    "id": "Ka",
+  "Kd": {
+    "id": "Kd",
     "idDofusDB": "674e524064788cc74141930d",
     "idDofusBook": 9135,
     "name": {
@@ -3570,6 +3713,7 @@
     },
     "level": 180,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3611,6 +3755,7 @@
     },
     "level": 163,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3658,6 +3803,7 @@
     "level": 177,
     "panoply": "2s",
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3692,8 +3838,8 @@
       "apResist": 5
     }
   },
-  "KJ": {
-    "id": "KJ",
+  "KM": {
+    "id": "KM",
     "idDofusDB": "674e524064788cc741419a5b",
     "idDofusBook": 11758,
     "name": {
@@ -3705,6 +3851,7 @@
     },
     "level": 187,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3739,8 +3886,8 @@
       "pushbackDamage": 10
     }
   },
-  "LM": {
-    "id": "LM",
+  "LP": {
+    "id": "LP",
     "idDofusDB": "674e524064788cc741419a5c",
     "idDofusBook": 11759,
     "name": {
@@ -3752,6 +3899,7 @@
     },
     "level": 193,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3799,6 +3947,7 @@
     "level": 149,
     "panoply": "3y",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "agility": 30,
@@ -3830,6 +3979,7 @@
     },
     "level": 134,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -3845,8 +3995,8 @@
       "mpReduction": 4
     }
   },
-  "Lo": {
-    "id": "Lo",
+  "Lr": {
+    "id": "Lr",
     "idDofusDB": "674e524164788cc74141a288",
     "idDofusBook": 14288,
     "name": {
@@ -3859,6 +4009,7 @@
     "level": 198,
     "panoply": "1S",
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3892,8 +4043,8 @@
       "mpReduction": 6
     }
   },
-  "Uj": {
-    "id": "Uj",
+  "Um": {
+    "id": "Um",
     "idDofusDB": "674e524164788cc74141a574",
     "idDofusBook": 15216,
     "name": {
@@ -3905,6 +4056,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -3920,8 +4072,8 @@
       "pushbackResist": 20
     }
   },
-  "Uc": {
-    "id": "Uc",
+  "Uf": {
+    "id": "Uf",
     "idDofusDB": "674e524164788cc74141a78c",
     "idDofusBook": 15779,
     "name": {
@@ -3933,6 +4085,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -3979,6 +4132,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 40,
       "chance": 15,
@@ -3988,8 +4142,8 @@
       "dodge": 5
     }
   },
-  "U5": {
-    "id": "U5",
+  "U8": {
+    "id": "U8",
     "idDofusDB": "674e524164788cc74141ae6e",
     "idDofusBook": 18011,
     "name": {
@@ -4001,6 +4155,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -4033,8 +4188,8 @@
       "criticalResist": 25
     }
   },
-  "Rd": {
-    "id": "Rd",
+  "Rg": {
+    "id": "Rg",
     "idDofusDB": "674e524164788cc74141b085",
     "idDofusBook": 18601,
     "name": {
@@ -4047,6 +4202,7 @@
     "level": 200,
     "panoply": "1p",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 350,
       "intelligence": 70,
@@ -4063,8 +4219,8 @@
       "criticalResist": 15
     }
   },
-  "Q1": {
-    "id": "Q1",
+  "Q4": {
+    "id": "Q4",
     "idDofusDB": "674e524164788cc74141b3a8",
     "idDofusBook": 19605,
     "name": {
@@ -4077,6 +4233,7 @@
     "level": 200,
     "panoply": "1k",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 350,
       "chance": 60,
@@ -4089,8 +4246,8 @@
       "pushbackResist": 25
     }
   },
-  "TG": {
-    "id": "TG",
+  "TJ": {
+    "id": "TJ",
     "idDofusDB": "674e524164788cc74141b671",
     "idDofusBook": 20355,
     "name": {
@@ -4102,6 +4259,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 400,
       "chance": 120,
@@ -4114,8 +4272,8 @@
       "pushbackResist": -60
     }
   },
-  "Pn": {
-    "id": "Pn",
+  "Pq": {
+    "id": "Pq",
     "idDofusDB": "674e524164788cc74141b95f",
     "idDofusBook": 21229,
     "name": {
@@ -4128,6 +4286,7 @@
     "level": 200,
     "panoply": "0Y",
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -4161,8 +4320,8 @@
       "criticalDamage": 20
     }
   },
-  "TR": {
-    "id": "TR",
+  "TU": {
+    "id": "TU",
     "idDofusDB": "674e524164788cc74141bdc6",
     "idDofusBook": 22444,
     "name": {
@@ -4174,6 +4333,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "requirements": [
       [
         {
@@ -4233,6 +4393,7 @@
     },
     "level": 132,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -4249,8 +4410,8 @@
       "mpReduction": 4
     }
   },
-  "TO": {
-    "id": "TO",
+  "TR": {
+    "id": "TR",
     "idDofusDB": "674e524164788cc74141c207",
     "idDofusBook": 24036,
     "name": {
@@ -4262,6 +4423,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 300,
       "intelligence": 80,
@@ -4277,8 +4439,8 @@
       "pushbackDamage": 30
     }
   },
-  "OY": {
-    "id": "OY",
+  "P1": {
+    "id": "P1",
     "idDofusDB": "674e524164788cc74141c36f",
     "idDofusBook": 25219,
     "name": {
@@ -4291,6 +4453,7 @@
     "level": 200,
     "panoply": "17",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 350,
       "strength": 80,
@@ -4306,8 +4469,8 @@
       "pushbackResist": 20
     }
   },
-  "Nl": {
-    "id": "Nl",
+  "No": {
+    "id": "No",
     "idDofusDB": "687f71551c815173560617ff",
     "idDofusBook": 31764,
     "name": {
@@ -4320,6 +4483,7 @@
     "level": 197,
     "panoply": "27",
     "category": "weapon",
+    "subCategory": "wand",
     "stats": {
       "health": 300,
       "strength": 40,
@@ -4350,6 +4514,7 @@
     },
     "level": 9,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": 10,
       "earthDamage": 1
@@ -4368,6 +4533,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": 15,
       "lock": 3
@@ -4386,6 +4552,7 @@
     },
     "level": 8,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "wisdom": 10
     }
@@ -4403,6 +4570,7 @@
     },
     "level": 16,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 20,
       "intelligence": 15,
@@ -4422,6 +4590,7 @@
     },
     "level": 67,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -4457,6 +4626,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": -1,
       "chance": 40,
@@ -4478,6 +4648,7 @@
     "level": 68,
     "panoply": "4Y",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": -11,
       "intelligence": 30,
@@ -4499,6 +4670,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 50,
       "agility": 50,
@@ -4518,6 +4690,7 @@
     },
     "level": 58,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "strength": -30,
@@ -4540,6 +4713,7 @@
     },
     "level": 32,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "wisdom": 15,
@@ -4559,6 +4733,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "chance": 25,
@@ -4578,6 +4753,7 @@
     },
     "level": 85,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": -50,
       "agility": 50,
@@ -4600,6 +4776,7 @@
     },
     "level": 56,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 35,
       "wisdom": 25,
@@ -4621,6 +4798,7 @@
     },
     "level": 34,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 60,
       "power": 15,
@@ -4640,6 +4818,7 @@
     },
     "level": 29,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "chance": 40,
       "agility": -1
@@ -4658,6 +4837,7 @@
     },
     "level": 34,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "intelligence": 20,
@@ -4679,6 +4859,7 @@
     "level": 60,
     "panoply": "5d",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 100,
       "strength": 30,
@@ -4703,6 +4884,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "intelligence": 35,
       "agility": 30
@@ -4721,6 +4903,7 @@
     },
     "level": 37,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -4743,6 +4926,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "chance": 50,
       "wisdom": 15,
@@ -4763,6 +4947,7 @@
     },
     "level": 60,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 40,
       "strength": -75,
@@ -4787,6 +4972,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -4809,6 +4995,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "intelligence": -30,
@@ -4830,6 +5017,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 25,
       "intelligence": 20,
@@ -4849,6 +5037,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 15,
       "strength": 7,
@@ -4868,6 +5057,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "intelligence": 30,
       "agility": 20,
@@ -4889,6 +5079,7 @@
     "level": 45,
     "panoply": "6g",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 60,
       "neutralDamage": 3,
@@ -4912,6 +5103,7 @@
     "level": 30,
     "panoply": "7a",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -4932,6 +5124,7 @@
     },
     "level": 109,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "intelligence": 50,
       "agility": 40,
@@ -4955,6 +5148,7 @@
     },
     "level": 87,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": 35,
       "intelligence": 35,
@@ -4976,6 +5170,7 @@
     },
     "level": 129,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 80,
       "strength": 50,
@@ -4998,6 +5193,7 @@
     },
     "level": 116,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 80,
       "strength": 50,
@@ -5020,6 +5216,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 80,
       "strength": 30,
@@ -5043,6 +5240,7 @@
     },
     "level": 54,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 50,
       "summon": 2,
@@ -5062,6 +5260,7 @@
     },
     "level": 94,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 40,
       "intelligence": 40,
@@ -5086,6 +5285,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -5104,6 +5304,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "agility": 45,
@@ -5127,6 +5328,7 @@
     },
     "level": 98,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 110,
       "chance": 50,
@@ -5151,6 +5353,7 @@
     },
     "level": 143,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -5173,6 +5376,7 @@
     },
     "level": 86,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 45,
       "intelligence": 45,
@@ -5196,6 +5400,7 @@
     },
     "level": 106,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "wisdom": 35
@@ -5214,6 +5419,7 @@
     },
     "level": 103,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 130,
       "intelligence": 40,
@@ -5236,6 +5442,7 @@
     },
     "level": 88,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 100,
       "intelligence": 60,
@@ -5259,6 +5466,7 @@
     },
     "level": 86,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "wisdom": 20,
@@ -5280,6 +5488,7 @@
     },
     "level": 101,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "power": 25,
@@ -5301,6 +5510,7 @@
     },
     "level": 176,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -5335,6 +5545,7 @@
     },
     "level": 46,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 60,
       "wisdom": 20,
@@ -5355,6 +5566,7 @@
     },
     "level": 62,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 45,
       "strength": 45,
@@ -5375,6 +5587,7 @@
     },
     "level": 77,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 70,
       "intelligence": 45,
@@ -5397,6 +5610,7 @@
     },
     "level": 93,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 90,
       "strength": 60,
@@ -5420,6 +5634,7 @@
     "level": 43,
     "panoply": "6s",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 20,
       "chance": 40,
@@ -5441,6 +5656,7 @@
     "level": 73,
     "panoply": "4P",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 300,
       "strength": -100,
@@ -5468,6 +5684,7 @@
     },
     "level": 114,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 100,
       "intelligence": 40,
@@ -5490,6 +5707,7 @@
     },
     "level": 133,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "strength": 35,
@@ -5514,6 +5732,7 @@
     "level": 151,
     "panoply": "2S",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 120,
       "intelligence": 40,
@@ -5538,6 +5757,7 @@
     "level": 124,
     "panoply": "40",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "strength": 35,
@@ -5565,6 +5785,7 @@
     },
     "level": 107,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 100,
       "intelligence": 40,
@@ -5587,6 +5808,7 @@
     },
     "level": 85,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 130,
       "wisdom": 30,
@@ -5608,6 +5830,7 @@
     },
     "level": 119,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "intelligence": 45,
@@ -5632,6 +5855,7 @@
     "level": 158,
     "panoply": "2W",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -5656,6 +5880,7 @@
     "level": 164,
     "panoply": "2N",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -5686,6 +5911,7 @@
     },
     "level": 136,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -5715,6 +5941,7 @@
     },
     "level": 144,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 300,
       "agility": 60,
@@ -5723,8 +5950,8 @@
       "prospecting": 20
     }
   },
-  "Lk": {
-    "id": "Lk",
+  "Ln": {
+    "id": "Ln",
     "idDofusDB": "674e524064788cc74141930e",
     "idDofusBook": 9136,
     "name": {
@@ -5736,6 +5963,7 @@
     },
     "level": 191,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -5765,8 +5993,8 @@
       "neutralResistPer": 10
     }
   },
-  "Ly": {
-    "id": "Ly",
+  "LB": {
+    "id": "LB",
     "idDofusDB": "674e524064788cc741419977",
     "idDofusBook": 11514,
     "name": {
@@ -5778,6 +6006,7 @@
     },
     "level": 192,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -5804,6 +6033,7 @@
     },
     "level": 161,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -5843,6 +6073,7 @@
     },
     "level": 130,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -5859,8 +6090,8 @@
       "criticalResist": 10
     }
   },
-  "KT": {
-    "id": "KT",
+  "KW": {
+    "id": "KW",
     "idDofusDB": "674e524064788cc741419a52",
     "idDofusBook": 11749,
     "name": {
@@ -5872,6 +6103,7 @@
     },
     "level": 188,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -5896,8 +6128,8 @@
       "criticalResist": 15
     }
   },
-  "MJ": {
-    "id": "MJ",
+  "MM": {
+    "id": "MM",
     "idDofusDB": "674e524064788cc741419a53",
     "idDofusBook": 11750,
     "name": {
@@ -5909,6 +6141,7 @@
     },
     "level": 195,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -5948,6 +6181,7 @@
     "level": 47,
     "panoply": "63",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "strength": 20,
       "intelligence": 20,
@@ -5969,6 +6203,7 @@
     },
     "level": 172,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 300,
       "intelligence": 60,
@@ -6000,6 +6235,7 @@
     "level": 169,
     "panoply": "2I",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "intelligence": 40,
@@ -6030,6 +6266,7 @@
     "level": 88,
     "panoply": "4H",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -6054,6 +6291,7 @@
     },
     "level": 165,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -6081,8 +6319,8 @@
       "criticalResist": 10
     }
   },
-  "Ma": {
-    "id": "Ma",
+  "Md": {
+    "id": "Md",
     "idDofusDB": "674e524064788cc74141a043",
     "idDofusBook": 13649,
     "name": {
@@ -6095,6 +6333,7 @@
     "level": 194,
     "panoply": "1N",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 350,
       "strength": -71,
@@ -6114,8 +6353,8 @@
       "criticalDamage": -11
     }
   },
-  "NI": {
-    "id": "NI",
+  "NL": {
+    "id": "NL",
     "idDofusDB": "674e524064788cc74141a118",
     "idDofusBook": 13894,
     "name": {
@@ -6127,6 +6366,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -6161,8 +6401,8 @@
       "pushbackResist": -11
     }
   },
-  "NF": {
-    "id": "NF",
+  "NI": {
+    "id": "NI",
     "idDofusDB": "674e524164788cc74141a214",
     "idDofusBook": 14166,
     "name": {
@@ -6174,6 +6414,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -6228,6 +6469,7 @@
     },
     "level": 126,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "chance": 50,
@@ -6259,6 +6501,7 @@
     "level": 139,
     "panoply": "3B",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -6288,6 +6531,7 @@
     "level": 140,
     "panoply": "3z",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -6317,6 +6561,7 @@
     "level": 150,
     "panoply": "35",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -6333,8 +6578,8 @@
       "criticalDamage": 10
     }
   },
-  "U8": {
-    "id": "U8",
+  "Ub": {
+    "id": "Ub",
     "idDofusDB": "674e524164788cc74141ad4f",
     "idDofusBook": 17682,
     "name": {
@@ -6346,6 +6591,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 400,
       "chance": 80,
@@ -6361,8 +6607,8 @@
       "criticalDamage": 10
     }
   },
-  "U6": {
-    "id": "U6",
+  "U9": {
+    "id": "U9",
     "idDofusDB": "674e524164788cc74141ae6d",
     "idDofusBook": 18010,
     "name": {
@@ -6374,6 +6620,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "staff",
     "requirements": [
       [
         {
@@ -6421,6 +6668,7 @@
     },
     "level": 61,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 30,
       "strength": 20,
@@ -6444,6 +6692,7 @@
     "level": 126,
     "panoply": "3X",
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 200,
       "agility": 60,
@@ -6470,6 +6719,7 @@
     },
     "level": 142,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 250,
       "agility": 70,
@@ -6497,6 +6747,7 @@
     },
     "level": 110,
     "category": "weapon",
+    "subCategory": "staff",
     "criterions": "Qf=2181",
     "stats": {
       "health": 150,
@@ -6510,8 +6761,8 @@
       "airResistPer": 4
     }
   },
-  "TF": {
-    "id": "TF",
+  "TI": {
+    "id": "TI",
     "idDofusDB": "687f71551c81517356061814",
     "idDofusBook": 31785,
     "name": {
@@ -6523,6 +6774,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "staff",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -6556,6 +6808,7 @@
     },
     "level": 7,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "agility": 10,
       "airDamage": 1
@@ -6574,6 +6827,7 @@
     },
     "level": 17,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 25,
       "agility": 20
@@ -6592,6 +6846,7 @@
     },
     "level": 29,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "agility": 30,
       "criticalChance": 4
@@ -6610,6 +6865,7 @@
     },
     "level": 64,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "strength": -11,
@@ -6631,6 +6887,7 @@
     },
     "level": 73,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -6666,6 +6923,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 15,
       "strength": 10
@@ -6684,6 +6942,7 @@
     },
     "level": 46,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -6715,6 +6974,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "intelligence": 20,
@@ -6735,6 +6995,7 @@
     },
     "level": 39,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "intelligence": -20,
@@ -6756,6 +7017,7 @@
     },
     "level": 34,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 20,
       "strength": -40,
@@ -6778,6 +7040,7 @@
     },
     "level": 41,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 60,
       "chance": -50,
@@ -6799,6 +7062,7 @@
     },
     "level": 25,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": -25,
       "chance": 25,
@@ -6818,6 +7082,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "agility": 40,
@@ -6838,6 +7103,7 @@
     },
     "level": 56,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "chance": 35,
       "agility": 40,
@@ -6860,6 +7126,7 @@
     },
     "level": 67,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 70,
       "strength": -35,
@@ -6884,6 +7151,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -6921,6 +7189,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 15,
       "strength": 20,
@@ -6940,6 +7209,7 @@
     },
     "level": 33,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "agility": 40,
       "criticalChance": 3,
@@ -6960,6 +7230,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 10,
       "chance": 20,
@@ -6979,6 +7250,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "strength": 20,
       "chance": 20,
@@ -7000,6 +7272,7 @@
     },
     "level": 44,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7033,6 +7306,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -7053,6 +7327,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -7076,6 +7351,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 20,
       "agility": 20
@@ -7094,6 +7370,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 70,
       "strength": 40,
@@ -7116,6 +7393,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 60,
       "agility": 60,
@@ -7139,6 +7417,7 @@
     },
     "level": 91,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "strength": 60,
       "chance": 40,
@@ -7162,6 +7441,7 @@
     },
     "level": 119,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "strength": 40,
       "agility": 40,
@@ -7184,6 +7464,7 @@
     },
     "level": 90,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 60,
       "agility": 60,
@@ -7206,6 +7487,7 @@
     },
     "level": 121,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 80,
       "agility": 50,
@@ -7228,6 +7510,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 60,
       "strength": 25,
@@ -7250,6 +7533,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -7269,6 +7553,7 @@
     "level": 12,
     "panoply": "7t",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 20,
       "power": 10
@@ -7287,6 +7572,7 @@
     },
     "level": 150,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7326,6 +7612,7 @@
     },
     "level": 46,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 40,
       "agility": 30,
@@ -7347,6 +7634,7 @@
     },
     "level": 143,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 250,
       "agility": 50,
@@ -7370,6 +7658,7 @@
     },
     "level": 113,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 100,
       "agility": 50,
@@ -7391,6 +7680,7 @@
     },
     "level": 113,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -7413,6 +7703,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7450,6 +7741,7 @@
     },
     "level": 127,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -7472,6 +7764,7 @@
     "level": 62,
     "panoply": "51",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 70,
       "agility": 30,
@@ -7494,6 +7787,7 @@
     },
     "level": 134,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -7519,6 +7813,7 @@
     "level": 128,
     "panoply": "40",
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7587,6 +7882,7 @@
     "level": 108,
     "panoply": "4j",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -7615,6 +7911,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "dagger",
     "criterions": "Qa=166",
     "stats": {
       "health": 10,
@@ -7635,6 +7932,7 @@
     },
     "level": 67,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "agility": 60,
       "wisdom": 25,
@@ -7655,6 +7953,7 @@
     },
     "level": 69,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 50,
       "strength": 40,
@@ -7675,6 +7974,7 @@
     },
     "level": 175,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7718,6 +8018,7 @@
     },
     "level": 171,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7761,6 +8062,7 @@
     },
     "level": 158,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7795,6 +8097,7 @@
     },
     "level": 149,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -7809,8 +8112,8 @@
       "waterResist": 10
     }
   },
-  "Ke": {
-    "id": "Ke",
+  "Kh": {
+    "id": "Kh",
     "idDofusDB": "674e524064788cc74141930f",
     "idDofusBook": 9137,
     "name": {
@@ -7823,6 +8126,7 @@
     "level": 187,
     "panoply": "2o",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 250,
       "agility": 50,
@@ -7848,6 +8152,7 @@
     "level": 182,
     "panoply": "2m",
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7888,6 +8193,7 @@
     },
     "level": 164,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7951,6 +8257,7 @@
     },
     "level": 176,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -7973,8 +8280,8 @@
       "initiative": 300
     }
   },
-  "Kn": {
-    "id": "Kn",
+  "Kq": {
+    "id": "Kq",
     "idDofusDB": "674e524064788cc741419a55",
     "idDofusBook": 11752,
     "name": {
@@ -7986,6 +8293,7 @@
     },
     "level": 183,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 250,
       "chance": 50,
@@ -8001,8 +8309,8 @@
       "mpReduction": 4
     }
   },
-  "NK": {
-    "id": "NK",
+  "NN": {
+    "id": "NN",
     "idDofusDB": "674e524064788cc741419a56",
     "idDofusBook": 11753,
     "name": {
@@ -8014,6 +8322,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -8061,6 +8370,7 @@
     "level": 124,
     "panoply": "3G",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -8076,8 +8386,8 @@
       "criticalDamage": 7
     }
   },
-  "NQ": {
-    "id": "NQ",
+  "NT": {
+    "id": "NT",
     "idDofusDB": "674e524164788cc74141a1f1",
     "idDofusBook": 14131,
     "name": {
@@ -8089,6 +8399,7 @@
     },
     "level": 198,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -8116,8 +8427,8 @@
       "criticalDamage": 10
     }
   },
-  "Un": {
-    "id": "Un",
+  "Uq": {
+    "id": "Uq",
     "idDofusDB": "674e524164788cc74141a1f2",
     "idDofusBook": 14132,
     "name": {
@@ -8129,6 +8440,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -8165,8 +8477,8 @@
       "criticalResist": 15
     }
   },
-  "Ug": {
-    "id": "Ug",
+  "Uj": {
+    "id": "Uj",
     "idDofusDB": "674e524164788cc74141a676",
     "idDofusBook": 15493,
     "name": {
@@ -8178,6 +8490,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "dagger",
     "requirements": [
       [
         {
@@ -8208,8 +8521,8 @@
       "criticalResist": 25
     }
   },
-  "RE": {
-    "id": "RE",
+  "RH": {
+    "id": "RH",
     "idDofusDB": "674e524164788cc74141ae74",
     "idDofusBook": 18017,
     "name": {
@@ -8222,6 +8535,7 @@
     "level": 200,
     "panoply": "1s",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 400,
       "chance": 80,
@@ -8247,6 +8561,7 @@
     },
     "level": 130,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 120,
       "intelligence": 40,
@@ -8259,8 +8574,8 @@
       "dodge": 10
     }
   },
-  "MI": {
-    "id": "MI",
+  "ML": {
+    "id": "ML",
     "idDofusDB": "674e524164788cc74141b123",
     "idDofusBook": 18780,
     "name": {
@@ -8272,6 +8587,7 @@
     },
     "level": 195,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 350,
       "agility": 70,
@@ -8286,8 +8602,8 @@
       "pushbackDamage": 30
     }
   },
-  "TZ": {
-    "id": "TZ",
+  "U2": {
+    "id": "U2",
     "idDofusDB": "674e524164788cc74141b285",
     "idDofusBook": 19268,
     "name": {
@@ -8299,6 +8615,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -8314,8 +8631,8 @@
       "pushbackResist": 40
     }
   },
-  "TH": {
-    "id": "TH",
+  "TK": {
+    "id": "TK",
     "idDofusDB": "674e524164788cc74141b670",
     "idDofusBook": 20354,
     "name": {
@@ -8327,6 +8644,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 450,
       "strength": 120,
@@ -8339,8 +8657,8 @@
       "meleeResistPer": -5
     }
   },
-  "PB": {
-    "id": "PB",
+  "PE": {
+    "id": "PE",
     "idDofusDB": "674e524164788cc74141b694",
     "idDofusBook": 20391,
     "name": {
@@ -8353,6 +8671,7 @@
     "level": 200,
     "panoply": "0V",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 400,
       "intelligence": 70,
@@ -8383,6 +8702,7 @@
     },
     "level": 142,
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -8398,8 +8718,8 @@
       "criticalDamage": 10
     }
   },
-  "KZ": {
-    "id": "KZ",
+  "L2": {
+    "id": "L2",
     "idDofusDB": "674e524164788cc74141c948",
     "idDofusBook": 27543,
     "name": {
@@ -8412,6 +8732,7 @@
     "level": 194,
     "panoply": "2i",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -8426,8 +8747,8 @@
       "criticalDamage": 12
     }
   },
-  "On": {
-    "id": "On",
+  "Oq": {
+    "id": "Oq",
     "idDofusDB": "674e524164788cc74141d1c9",
     "idDofusBook": 30855,
     "name": {
@@ -8440,6 +8761,7 @@
     "level": 200,
     "panoply": "1d",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -8456,8 +8778,8 @@
       "mpResist": 7
     }
   },
-  "Oc": {
-    "id": "Oc",
+  "Of": {
+    "id": "Of",
     "idDofusDB": "687f71551c815173560617fa",
     "idDofusBook": 31759,
     "name": {
@@ -8470,6 +8792,7 @@
     "level": 200,
     "panoply": "1x",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 350,
       "intelligence": 70,
@@ -8503,6 +8826,7 @@
     "level": 170,
     "panoply": "2H",
     "category": "weapon",
+    "subCategory": "dagger",
     "stats": {
       "health": 200,
       "intelligence": 40,
@@ -8534,6 +8858,7 @@
     },
     "level": 7,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 10,
       "earthDamage": 1
@@ -8552,6 +8877,7 @@
     },
     "level": 15,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 15,
       "strength": 10,
@@ -8572,6 +8898,7 @@
     },
     "level": 26,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": -20,
       "strength": 20,
@@ -8592,6 +8919,7 @@
     },
     "level": 21,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "criticalChance": 6
     }
@@ -8609,6 +8937,7 @@
     },
     "level": 17,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 20,
       "strength": 10,
@@ -8628,6 +8957,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -8648,6 +8978,7 @@
     },
     "level": 33,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -8681,6 +9012,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -8706,6 +9038,7 @@
     },
     "level": 16,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 20,
       "dodge": 3
@@ -8724,6 +9057,7 @@
     },
     "level": 18,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "agility": 25,
       "criticalChance": 2
@@ -8742,6 +9076,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 40,
       "intelligence": -30,
@@ -8762,6 +9097,7 @@
     },
     "level": 25,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 40,
       "chance": -40,
@@ -8783,6 +9119,7 @@
     },
     "level": 21,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "chance": -20,
@@ -8803,6 +9140,7 @@
     },
     "level": 61,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 30,
       "intelligence": -1,
@@ -8823,6 +9161,7 @@
     },
     "level": 17,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "criticalChance": 3
@@ -8841,6 +9180,7 @@
     },
     "level": 26,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 25,
       "chance": 30,
@@ -8860,6 +9200,7 @@
     },
     "level": 26,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": -30,
       "agility": 30,
@@ -8881,6 +9222,7 @@
     },
     "level": 45,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 40,
       "range": 1
@@ -8899,6 +9241,7 @@
     },
     "level": 60,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "chance": 40,
       "agility": 40,
@@ -8921,6 +9264,7 @@
     },
     "level": 99,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -8969,6 +9313,7 @@
     },
     "level": 60,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -8994,6 +9339,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 40,
       "strength": -20,
@@ -9017,6 +9363,7 @@
     },
     "level": 64,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 65,
       "intelligence": -65,
@@ -9040,6 +9387,7 @@
     "level": 41,
     "panoply": "6D",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -9061,6 +9409,7 @@
     "level": 30,
     "panoply": "74",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 40,
       "power": 30,
@@ -9081,6 +9430,7 @@
     "level": 110,
     "panoply": "4e",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -9107,6 +9457,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": -50,
       "strength": 30,
@@ -9127,6 +9478,7 @@
     },
     "level": 68,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -9149,6 +9501,7 @@
     },
     "level": 95,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "strength": 50,
@@ -9172,6 +9525,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "strength": 80,
@@ -9196,6 +9550,7 @@
     },
     "level": 75,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 40,
       "intelligence": 40,
@@ -9218,6 +9573,7 @@
     },
     "level": 85,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "chance": 50,
@@ -9243,6 +9599,7 @@
     "level": 41,
     "panoply": "6E",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -9264,6 +9621,7 @@
     "level": 41,
     "panoply": "6F",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -9285,6 +9643,7 @@
     "level": 41,
     "panoply": "6G",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -9305,6 +9664,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -9324,6 +9684,7 @@
     "level": 100,
     "panoply": "4w",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "strength": 50,
@@ -9349,6 +9710,7 @@
     "level": 70,
     "panoply": "50",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 55,
       "chance": 50,
@@ -9370,6 +9732,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "subCategory": "sword",
     "criterions": "PG=6&PS=0",
     "stats": {
       "initiative": 10
@@ -9388,6 +9751,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "subCategory": "sword",
     "criterions": "PG=6&PS=1",
     "stats": {
       "initiative": 10
@@ -9407,6 +9771,7 @@
     "level": 64,
     "panoply": "53",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -9431,6 +9796,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 20,
       "intelligence": 15,
@@ -9451,6 +9817,7 @@
     },
     "level": 111,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -9472,6 +9839,7 @@
     },
     "level": 126,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -9495,6 +9863,7 @@
     },
     "level": 158,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -9528,6 +9897,7 @@
     },
     "level": 105,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -9549,6 +9919,7 @@
     },
     "level": 130,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -9572,6 +9943,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 30,
       "agility": 30,
@@ -9591,6 +9963,7 @@
     },
     "level": 66,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 45,
       "agility": 45,
@@ -9612,6 +9985,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 80,
       "strength": 70,
@@ -9633,6 +10007,7 @@
     },
     "level": 92,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "strength": 30,
@@ -9658,6 +10033,7 @@
     "level": 76,
     "panoply": "4z",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 75,
       "intelligence": 50,
@@ -9679,6 +10055,7 @@
     },
     "level": 169,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -9710,6 +10087,7 @@
     },
     "level": 143,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -9733,6 +10111,7 @@
     "level": 127,
     "panoply": "3Z",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 100,
       "strength": 45,
@@ -9760,6 +10139,7 @@
     "level": 109,
     "panoply": "4h",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -9787,6 +10167,7 @@
     },
     "level": 145,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 200,
       "wisdom": 35,
@@ -9809,6 +10190,7 @@
     },
     "level": 97,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -9832,6 +10214,7 @@
     },
     "level": 73,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 60,
       "strength": 35,
@@ -9854,6 +10237,7 @@
     },
     "level": 177,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -9881,6 +10265,7 @@
     },
     "level": 95,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 45,
       "strength": 45,
@@ -9902,6 +10287,7 @@
     },
     "level": 163,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -9930,8 +10316,8 @@
       "airResistPer": 8
     }
   },
-  "KE": {
-    "id": "KE",
+  "KH": {
+    "id": "KH",
     "idDofusDB": "674e524064788cc741419256",
     "idDofusBook": 8931,
     "name": {
@@ -9943,6 +10329,7 @@
     },
     "level": 186,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -9992,6 +10379,7 @@
     },
     "level": 179,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10033,6 +10421,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10062,6 +10451,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10078,8 +10468,8 @@
       "wisdom": 40
     }
   },
-  "Up": {
-    "id": "Up",
+  "Us": {
+    "id": "Us",
     "idDofusDB": "674e524064788cc74141928d",
     "idDofusBook": 8993,
     "name": {
@@ -10091,6 +10481,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 165,
       "strength": 30,
@@ -10105,8 +10496,8 @@
       "airResistPer": 5
     }
   },
-  "Ks": {
-    "id": "Ks",
+  "Kv": {
+    "id": "Kv",
     "idDofusDB": "674e524064788cc7414193ec",
     "idDofusBook": 9469,
     "name": {
@@ -10118,6 +10509,7 @@
     },
     "level": 184,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10161,6 +10553,7 @@
     "level": 1,
     "panoply": "7N",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 1,
       "initiative": 1
@@ -10179,6 +10572,7 @@
     },
     "level": 49,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 50,
       "strength": 40,
@@ -10201,6 +10595,7 @@
     "level": 152,
     "panoply": "2Z",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -10229,6 +10624,7 @@
     },
     "level": 144,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -10258,6 +10654,7 @@
     },
     "level": 177,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10289,8 +10686,8 @@
       "mpResist": 5
     }
   },
-  "Kr": {
-    "id": "Kr",
+  "Ku": {
+    "id": "Ku",
     "idDofusDB": "674e524064788cc741419a4c",
     "idDofusBook": 11743,
     "name": {
@@ -10302,6 +10699,7 @@
     },
     "level": 184,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10322,8 +10720,8 @@
       "dodge": -10
     }
   },
-  "Ng": {
-    "id": "Ng",
+  "Nj": {
+    "id": "Nj",
     "idDofusDB": "674e524064788cc741419a4d",
     "idDofusBook": 11744,
     "name": {
@@ -10335,6 +10733,7 @@
     },
     "level": 196,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10382,6 +10781,7 @@
     "level": 56,
     "panoply": "5v",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "earthDamage": 5,
       "fireDamage": 5,
@@ -10392,8 +10792,8 @@
       "pushbackResist": 10
     }
   },
-  "NB": {
-    "id": "NB",
+  "NE": {
+    "id": "NE",
     "idDofusDB": "674e524064788cc741419b84",
     "idDofusBook": 12115,
     "name": {
@@ -10406,6 +10806,7 @@
     "level": 199,
     "panoply": "1B",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 300,
       "wisdom": 50,
@@ -10421,8 +10822,8 @@
       "criticalResist": 10
     }
   },
-  "Lr": {
-    "id": "Lr",
+  "Lu": {
+    "id": "Lu",
     "idDofusDB": "674e524064788cc741419e5d",
     "idDofusBook": 13119,
     "name": {
@@ -10435,6 +10836,7 @@
     "level": 196,
     "panoply": "1X",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 300,
       "intelligence": 80,
@@ -10451,8 +10853,8 @@
       "apResist": 6
     }
   },
-  "Tt": {
-    "id": "Tt",
+  "Tw": {
+    "id": "Tw",
     "idDofusDB": "674e524164788cc74141a1d6",
     "idDofusBook": 14084,
     "name": {
@@ -10465,6 +10867,7 @@
     "level": 200,
     "panoply": "06",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 350,
       "agility": 80,
@@ -10480,8 +10883,8 @@
       "criticalResist": 20
     }
   },
-  "NG": {
-    "id": "NG",
+  "NJ": {
+    "id": "NJ",
     "idDofusDB": "674e524164788cc74141a20a",
     "idDofusBook": 14156,
     "name": {
@@ -10493,6 +10896,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10519,8 +10923,8 @@
       "mpResist": 8
     }
   },
-  "Ud": {
-    "id": "Ud",
+  "Ug": {
+    "id": "Ug",
     "idDofusDB": "674e524164788cc74141a679",
     "idDofusBook": 15496,
     "name": {
@@ -10532,6 +10936,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10579,6 +10984,7 @@
     "level": 160,
     "panoply": "2P",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -10607,12 +11013,13 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 20
     }
   },
-  "RP": {
-    "id": "RP",
+  "RS": {
+    "id": "RS",
     "idDofusDB": "674e524164788cc74141acef",
     "idDofusBook": 17586,
     "name": {
@@ -10625,6 +11032,7 @@
     "level": 200,
     "panoply": "0v",
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10681,6 +11089,7 @@
     "level": 165,
     "panoply": "2M",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 250,
       "intelligence": 60,
@@ -10696,8 +11105,8 @@
       "pushbackDamage": 12
     }
   },
-  "U3": {
-    "id": "U3",
+  "U6": {
+    "id": "U6",
     "idDofusDB": "674e524164788cc74141ae72",
     "idDofusBook": 18015,
     "name": {
@@ -10709,6 +11118,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10754,6 +11164,7 @@
     },
     "level": 130,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 30,
@@ -10768,8 +11179,8 @@
       "criticalResist": 25
     }
   },
-  "TY": {
-    "id": "TY",
+  "U1": {
+    "id": "U1",
     "idDofusDB": "674e524164788cc74141b286",
     "idDofusBook": 19269,
     "name": {
@@ -10781,6 +11192,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -10815,8 +11227,8 @@
       "criticalDamage": 12
     }
   },
-  "TW": {
-    "id": "TW",
+  "TZ": {
+    "id": "TZ",
     "idDofusDB": "674e524164788cc74141b66f",
     "idDofusBook": 20353,
     "name": {
@@ -10828,6 +11240,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 500,
       "strength": 100,
@@ -10858,6 +11271,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "intelligence": 80,
       "wisdom": 30,
@@ -10882,6 +11296,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "agility": 80,
       "wisdom": 30,
@@ -10906,6 +11321,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "chance": 80,
       "wisdom": 30,
@@ -10930,6 +11346,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "strength": 80,
       "wisdom": 30,
@@ -10954,6 +11371,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "wisdom": 30,
       "power": 60,
@@ -10981,6 +11399,7 @@
     },
     "level": 160,
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -11019,6 +11438,7 @@
     "level": 157,
     "panoply": "2V",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 150,
       "strength": 60,
@@ -11038,8 +11458,8 @@
       "criticalResist": -10
     }
   },
-  "TK": {
-    "id": "TK",
+  "TN": {
+    "id": "TN",
     "idDofusDB": "674e524164788cc74141c4ec",
     "idDofusBook": 26010,
     "name": {
@@ -11051,6 +11471,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -11067,8 +11488,8 @@
       "criticalDamage": 12
     }
   },
-  "OH": {
-    "id": "OH",
+  "OK": {
+    "id": "OK",
     "idDofusDB": "674e524164788cc74141c928",
     "idDofusBook": 27510,
     "name": {
@@ -11081,6 +11502,7 @@
     "level": 200,
     "panoply": "1a",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 500,
       "wisdom": 40,
@@ -11113,12 +11535,13 @@
     "level": 1,
     "panoply": "7M",
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "damage": 1
     }
   },
-  "Oh": {
-    "id": "Oh",
+  "Ok": {
+    "id": "Ok",
     "idDofusDB": "674e524164788cc74141d1cf",
     "idDofusBook": 30861,
     "name": {
@@ -11131,6 +11554,7 @@
     "level": 200,
     "panoply": "1f",
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -11155,8 +11579,8 @@
       "waterResist": -11
     }
   },
-  "O3": {
-    "id": "O3",
+  "O6": {
+    "id": "O6",
     "idDofusDB": "687f71551c81517356061815",
     "idDofusBook": 31786,
     "name": {
@@ -11169,6 +11593,7 @@
     "level": 200,
     "panoply": "1y",
     "category": "weapon",
+    "subCategory": "sword",
     "requirements": [
       [
         {
@@ -11199,8 +11624,8 @@
       "meleeResistPer": 5
     }
   },
-  "TB": {
-    "id": "TB",
+  "TE": {
+    "id": "TE",
     "idDofusDB": "68d28de615631db46d7e4138",
     "idDofusBook": 32163,
     "name": {
@@ -11212,6 +11637,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "sword",
     "stats": {
       "health": 500,
       "wisdom": 50,
@@ -11240,6 +11666,7 @@
     },
     "level": 6,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 10,
       "criticalChance": 2
@@ -11258,6 +11685,7 @@
     },
     "level": 15,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 20,
       "intelligence": 10,
@@ -11277,6 +11705,7 @@
     },
     "level": 19,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 30,
       "fireDamage": 2,
@@ -11299,6 +11728,7 @@
     "level": 104,
     "panoply": "4i",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "strength": 20,
@@ -11323,6 +11753,7 @@
     },
     "level": 66,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 20,
       "intelligence": 45,
@@ -11343,6 +11774,7 @@
     },
     "level": 16,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "agility": 20,
       "lock": 3
@@ -11361,6 +11793,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 60,
       "strength": -40,
@@ -11381,6 +11814,7 @@
     },
     "level": 21,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "criticalChance": 1
     }
@@ -11398,6 +11832,7 @@
     },
     "level": 18,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "strength": 25,
       "criticalChance": 2
@@ -11416,6 +11851,7 @@
     },
     "level": 26,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 40,
       "strength": 20,
@@ -11438,6 +11874,7 @@
     },
     "level": 24,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 20,
       "strength": 20,
@@ -11458,6 +11895,7 @@
     },
     "level": 30,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 45,
       "intelligence": 30,
@@ -11477,6 +11915,7 @@
     },
     "level": 43,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -11500,6 +11939,7 @@
     },
     "level": 48,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -11521,6 +11961,7 @@
     },
     "level": 51,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 40,
       "intelligence": 40,
@@ -11542,6 +11983,7 @@
     },
     "level": 70,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "strength": 40,
@@ -11565,6 +12007,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": -50,
       "intelligence": 55,
@@ -11587,6 +12030,7 @@
     },
     "level": 79,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 50,
       "strength": 80,
@@ -11607,6 +12051,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 40,
       "intelligence": -40,
@@ -11628,6 +12073,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 30,
       "strength": 30,
@@ -11654,6 +12100,7 @@
     },
     "level": 54,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "intelligence": 30,
       "wisdom": 15,
@@ -11674,6 +12121,7 @@
     },
     "level": 15,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "neutralDamage": 2,
       "earthDamage": 2,
@@ -11695,6 +12143,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -11715,6 +12164,7 @@
     },
     "level": 46,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 55,
       "strength": -40,
@@ -11739,6 +12189,7 @@
     "level": 20,
     "panoply": "7n",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 20,
       "summon": 1
@@ -11757,6 +12208,7 @@
     },
     "level": 49,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "strength": 25,
       "intelligence": 25,
@@ -11778,6 +12230,7 @@
     },
     "level": 57,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "intelligence": 30,
       "power": 15,
@@ -11800,6 +12253,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 70,
       "strength": 55,
@@ -11823,6 +12277,7 @@
     },
     "level": 100,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 100,
       "chance": 60,
@@ -11846,6 +12301,7 @@
     },
     "level": 90,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "strength": 30,
@@ -11870,6 +12326,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 100,
       "summon": 2
@@ -11888,6 +12345,7 @@
     },
     "level": 120,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "wisdom": 35,
       "range": 1,
@@ -11910,6 +12368,7 @@
     },
     "level": 117,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 60,
       "chance": 50,
@@ -11935,6 +12394,7 @@
     },
     "level": 114,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "strength": 50,
       "intelligence": 50,
@@ -11959,6 +12419,7 @@
     },
     "level": 82,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "intelligence": 40,
@@ -11981,6 +12442,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -12003,6 +12465,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -12021,6 +12484,7 @@
     },
     "level": 126,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -12042,6 +12506,7 @@
     },
     "level": 107,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -12062,6 +12527,7 @@
     },
     "level": 113,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 200,
       "wisdom": 40
@@ -12080,6 +12546,7 @@
     },
     "level": 104,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 200,
       "intelligence": 40,
@@ -12100,6 +12567,7 @@
     },
     "level": 124,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 250,
       "wisdom": 35,
@@ -12122,6 +12590,7 @@
     },
     "level": 141,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 300,
       "agility": 50,
@@ -12143,6 +12612,7 @@
     },
     "level": 135,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 250,
       "chance": 50,
@@ -12166,6 +12636,7 @@
     },
     "level": 148,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 300,
       "intelligence": 50,
@@ -12186,6 +12657,7 @@
     "level": 88,
     "panoply": "4F",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 70,
       "strength": 30,
@@ -12214,6 +12686,7 @@
     },
     "level": 140,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -12237,6 +12710,7 @@
     },
     "level": 129,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -12262,6 +12736,7 @@
     "level": 81,
     "panoply": "4I",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "intelligence": 45,
@@ -12285,6 +12760,7 @@
     "level": 123,
     "panoply": "3Z",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -12313,6 +12789,7 @@
     "level": 112,
     "panoply": "4c",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 150,
       "wisdom": 40,
@@ -12338,6 +12815,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 120,
       "intelligence": 70,
@@ -12359,6 +12837,7 @@
     },
     "level": 178,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12391,6 +12870,7 @@
     },
     "level": 125,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "chance": 50,
@@ -12414,6 +12894,7 @@
     "level": 132,
     "panoply": "3P",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 120,
       "agility": 50,
@@ -12437,6 +12918,7 @@
     },
     "level": 85,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 80,
       "chance": 55,
@@ -12460,6 +12942,7 @@
     "level": 77,
     "panoply": "4O",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 40,
       "wisdom": 25,
@@ -12482,6 +12965,7 @@
     "level": 180,
     "panoply": "2r",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "wisdom": 40,
@@ -12503,6 +12987,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "strength": 5,
       "earthDamage": 1
@@ -12521,6 +13006,7 @@
     },
     "level": 166,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12569,6 +13055,7 @@
     "level": 156,
     "panoply": "32",
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12606,6 +13093,7 @@
     },
     "level": 173,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12639,8 +13127,8 @@
       "mpReduction": 5
     }
   },
-  "KK": {
-    "id": "KK",
+  "KN": {
+    "id": "KN",
     "idDofusDB": "674e524064788cc741419a4f",
     "idDofusBook": 11746,
     "name": {
@@ -12652,6 +13140,7 @@
     },
     "level": 187,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12684,8 +13173,8 @@
       "lock": 5
     }
   },
-  "MK": {
-    "id": "MK",
+  "MN": {
+    "id": "MN",
     "idDofusDB": "674e524064788cc741419a50",
     "idDofusBook": 11747,
     "name": {
@@ -12697,6 +13186,7 @@
     },
     "level": 195,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12751,6 +13241,7 @@
     "level": 122,
     "panoply": "41",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 200,
       "chance": 60,
@@ -12778,6 +13269,7 @@
     "level": 43,
     "panoply": "6i",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 35,
       "strength": 30,
@@ -12786,8 +13278,8 @@
       "earthDamage": 5
     }
   },
-  "LJ": {
-    "id": "LJ",
+  "LM": {
+    "id": "LM",
     "idDofusDB": "674e524064788cc74141a031",
     "idDofusBook": 13631,
     "name": {
@@ -12800,6 +13292,7 @@
     "level": 193,
     "panoply": "1Z",
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12835,8 +13328,8 @@
       "criticalResist": -11
     }
   },
-  "NS": {
-    "id": "NS",
+  "NV": {
+    "id": "NV",
     "idDofusDB": "674e524164788cc74141a215",
     "idDofusBook": 14167,
     "name": {
@@ -12848,6 +13341,7 @@
     },
     "level": 199,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12895,6 +13389,7 @@
     },
     "level": 151,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "chance": 60,
       "wisdom": 40,
@@ -12910,8 +13405,8 @@
       "criticalDamage": 10
     }
   },
-  "NE": {
-    "id": "NE",
+  "NH": {
+    "id": "NH",
     "idDofusDB": "674e524164788cc74141a453",
     "idDofusBook": 14886,
     "name": {
@@ -12923,6 +13418,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -12959,8 +13455,8 @@
       "pushbackResist": -21
     }
   },
-  "Ui": {
-    "id": "Ui",
+  "Ul": {
+    "id": "Ul",
     "idDofusDB": "674e524164788cc74141a575",
     "idDofusBook": 15217,
     "name": {
@@ -12972,6 +13468,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -13004,8 +13501,8 @@
       "apResist": 10
     }
   },
-  "Ub": {
-    "id": "Ub",
+  "Ue": {
+    "id": "Ue",
     "idDofusDB": "674e524164788cc74141a78e",
     "idDofusBook": 15781,
     "name": {
@@ -13017,6 +13514,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -13079,6 +13577,7 @@
     },
     "level": 8,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 10,
       "power": 10
@@ -13098,6 +13597,7 @@
     "level": 103,
     "panoply": "4u",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "intelligence": 40,
       "wisdom": 30,
@@ -13108,8 +13608,8 @@
       "mpResist": 4
     }
   },
-  "RM": {
-    "id": "RM",
+  "RP": {
+    "id": "RP",
     "idDofusDB": "674e524164788cc74141ae75",
     "idDofusBook": 18018,
     "name": {
@@ -13122,6 +13622,7 @@
     "level": 200,
     "panoply": "1r",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -13148,6 +13649,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "intelligence": 30,
       "agility": 30,
@@ -13160,8 +13662,8 @@
       "lock": 5
     }
   },
-  "U1": {
-    "id": "U1",
+  "U4": {
+    "id": "U4",
     "idDofusDB": "674e524164788cc74141b1eb",
     "idDofusBook": 19096,
     "name": {
@@ -13173,6 +13675,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -13213,8 +13716,8 @@
       "lock": 12
     }
   },
-  "Qh": {
-    "id": "Qh",
+  "Qk": {
+    "id": "Qk",
     "idDofusDB": "674e524164788cc74141b39d",
     "idDofusBook": 19594,
     "name": {
@@ -13227,6 +13730,7 @@
     "level": 200,
     "panoply": "1n",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -13239,8 +13743,8 @@
       "apResist": 15
     }
   },
-  "TN": {
-    "id": "TN",
+  "TQ": {
+    "id": "TQ",
     "idDofusDB": "674e524164788cc74141c208",
     "idDofusBook": 24037,
     "name": {
@@ -13252,6 +13756,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 450,
       "intelligence": 75,
@@ -13266,8 +13771,8 @@
       "pushbackResist": 25
     }
   },
-  "TM": {
-    "id": "TM",
+  "TP": {
+    "id": "TP",
     "idDofusDB": "674e524164788cc74141c372",
     "idDofusBook": 25222,
     "name": {
@@ -13279,6 +13784,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -13297,8 +13803,8 @@
       "criticalResist": 15
     }
   },
-  "LP": {
-    "id": "LP",
+  "LS": {
+    "id": "LS",
     "idDofusDB": "674e524164788cc74141c939",
     "idDofusBook": 27528,
     "name": {
@@ -13311,6 +13817,7 @@
     "level": 196,
     "panoply": "1V",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 300,
       "strength": 60,
@@ -13330,8 +13837,8 @@
       "pushbackDamage": 14
     }
   },
-  "L4": {
-    "id": "L4",
+  "L7": {
+    "id": "L7",
     "idDofusDB": "674e524164788cc74141c945",
     "idDofusBook": 27540,
     "name": {
@@ -13344,6 +13851,7 @@
     "level": 190,
     "panoply": "2j",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 300,
       "chance": 60,
@@ -13357,8 +13865,8 @@
       "lock": 15
     }
   },
-  "Oj": {
-    "id": "Oj",
+  "Om": {
+    "id": "Om",
     "idDofusDB": "674e524164788cc74141d1cd",
     "idDofusBook": 30859,
     "name": {
@@ -13371,6 +13879,7 @@
     "level": 200,
     "panoply": "1e",
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -13395,8 +13904,8 @@
       "pushbackDamage": 20
     }
   },
-  "SA": {
-    "id": "SA",
+  "SD": {
+    "id": "SD",
     "idDofusDB": "674e524164788cc74141d220",
     "idDofusBook": 30949,
     "name": {
@@ -13409,6 +13918,7 @@
     "level": 200,
     "panoply": "1j",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -13429,8 +13939,8 @@
       "mpResist": -7
     }
   },
-  "O8": {
-    "id": "O8",
+  "Ob": {
+    "id": "Ob",
     "idDofusDB": "687f71551c815173560617fb",
     "idDofusBook": 31760,
     "name": {
@@ -13443,6 +13953,7 @@
     "level": 200,
     "panoply": "1w",
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "intelligence": 60,
@@ -13461,8 +13972,8 @@
       "criticalDamage": 15
     }
   },
-  "O4": {
-    "id": "O4",
+  "O7": {
+    "id": "O7",
     "idDofusDB": "687f71551c81517356061816",
     "idDofusBook": 31787,
     "name": {
@@ -13475,6 +13986,7 @@
     "level": 200,
     "panoply": "1y",
     "category": "weapon",
+    "subCategory": "hammer",
     "requirements": [
       [
         {
@@ -13505,8 +14017,8 @@
       "meleeResistPer": 5
     }
   },
-  "TE": {
-    "id": "TE",
+  "TH": {
+    "id": "TH",
     "idDofusDB": "687f71551c81517356061819",
     "idDofusBook": 31790,
     "name": {
@@ -13518,6 +14030,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 400,
       "agility": 80,
@@ -13534,8 +14047,8 @@
       "pushbackResist": 30
     }
   },
-  "MH": {
-    "id": "MH",
+  "MK": {
+    "id": "MK",
     "idDofusDB": "687f71551c8151735606185c",
     "idDofusBook": 31860,
     "name": {
@@ -13547,6 +14060,7 @@
     },
     "level": 195,
     "category": "weapon",
+    "subCategory": "hammer",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -13579,6 +14093,7 @@
     },
     "level": 6,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "chance": 10
     }
@@ -13596,6 +14111,7 @@
     },
     "level": 17,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 30,
       "chance": 12
@@ -13614,6 +14130,7 @@
     },
     "level": 19,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 15,
       "chance": 15,
@@ -13633,6 +14150,7 @@
     },
     "level": 72,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -13668,6 +14186,7 @@
     },
     "level": 20,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 25,
       "lock": 3
@@ -13686,6 +14205,7 @@
     },
     "level": 29,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "intelligence": -9,
       "agility": 11,
@@ -13705,6 +14225,7 @@
     },
     "level": 40,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 40,
       "intelligence": -1,
@@ -13724,6 +14245,7 @@
     },
     "level": 31,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 25,
       "strength": 30,
@@ -13743,6 +14265,7 @@
     },
     "level": 43,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 60,
       "agility": -60,
@@ -13766,6 +14289,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -13790,6 +14314,7 @@
     },
     "level": 64,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": -50,
       "strength": 50,
@@ -13813,6 +14338,7 @@
     },
     "level": 53,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -13848,6 +14374,7 @@
     },
     "level": 34,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 40,
       "strength": -30,
@@ -13869,6 +14396,7 @@
     },
     "level": 15,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 25,
       "intelligence": 15
@@ -13887,6 +14415,7 @@
     },
     "level": 24,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 40,
       "intelligence": -30,
@@ -13907,6 +14436,7 @@
     },
     "level": 55,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 60,
       "chance": 50,
@@ -13930,6 +14460,7 @@
     },
     "level": 60,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": -30,
       "intelligence": 30,
@@ -13955,6 +14486,7 @@
     },
     "level": 21,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": -50,
       "strength": 30,
@@ -13976,6 +14508,7 @@
     },
     "level": 60,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 60,
       "chance": 60,
@@ -13998,6 +14531,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 100,
       "intelligence": 60,
@@ -14022,6 +14556,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": -50,
       "chance": 40,
@@ -14044,6 +14579,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 40,
       "chance": 40,
@@ -14067,6 +14603,7 @@
     },
     "level": 94,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 70,
       "chance": 50,
@@ -14090,6 +14627,7 @@
     },
     "level": 52,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -14111,6 +14649,7 @@
     },
     "level": 88,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 60,
       "intelligence": 45,
@@ -14137,6 +14676,7 @@
     },
     "level": 121,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 80,
       "chance": 50,
@@ -14159,6 +14699,7 @@
     },
     "level": 118,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 80,
       "chance": 50,
@@ -14181,6 +14722,7 @@
     },
     "level": 88,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 100,
       "chance": 50,
@@ -14203,6 +14745,7 @@
     },
     "level": 84,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 70,
       "chance": 40,
@@ -14223,6 +14766,7 @@
     },
     "level": 71,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 70,
       "intelligence": 40,
@@ -14245,6 +14789,7 @@
     },
     "level": 86,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 30,
       "chance": 70,
@@ -14269,6 +14814,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -14287,6 +14833,7 @@
     },
     "level": 142,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -14308,6 +14855,7 @@
     },
     "level": 131,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -14335,6 +14883,7 @@
     },
     "level": 115,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 200,
       "chance": 40,
@@ -14357,6 +14906,7 @@
     "level": 127,
     "panoply": "3Z",
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 150,
       "chance": 40,
@@ -14386,6 +14936,7 @@
     },
     "level": 70,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 80,
       "chance": 50,
@@ -14407,6 +14958,7 @@
     },
     "level": 66,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "intelligence": 30,
       "chance": 30,
@@ -14428,6 +14980,7 @@
     },
     "level": 172,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14470,6 +15023,7 @@
     },
     "level": 136,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 100,
       "chance": 40,
@@ -14496,6 +15050,7 @@
     },
     "level": 155,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14526,8 +15081,8 @@
       "fireResistPer": 7
     }
   },
-  "Lj": {
-    "id": "Lj",
+  "Lm": {
+    "id": "Lm",
     "idDofusDB": "674e524064788cc7414193eb",
     "idDofusBook": 9468,
     "name": {
@@ -14539,6 +15094,7 @@
     },
     "level": 191,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14571,6 +15127,7 @@
     },
     "level": 147,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 200,
       "strength": 30,
@@ -14600,6 +15157,7 @@
     },
     "level": 178,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14626,8 +15184,8 @@
       "criticalResist": 7
     }
   },
-  "NJ": {
-    "id": "NJ",
+  "NM": {
+    "id": "NM",
     "idDofusDB": "674e524064788cc741419a60",
     "idDofusBook": 11763,
     "name": {
@@ -14639,6 +15197,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14664,8 +15223,8 @@
       "apResist": -7
     }
   },
-  "Kf": {
-    "id": "Kf",
+  "Ki": {
+    "id": "Ki",
     "idDofusDB": "674e524064788cc741419a82",
     "idDofusBook": 11820,
     "name": {
@@ -14677,6 +15236,7 @@
     },
     "level": 181,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14730,6 +15290,7 @@
     },
     "level": 50,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14760,8 +15321,8 @@
       "chance": 30
     }
   },
-  "Lh": {
-    "id": "Lh",
+  "Lk": {
+    "id": "Lk",
     "idDofusDB": "674e524064788cc741419b81",
     "idDofusBook": 12112,
     "name": {
@@ -14774,6 +15335,7 @@
     "level": 191,
     "panoply": "2e",
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14825,6 +15387,7 @@
     "level": 102,
     "panoply": "4l",
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 100,
       "intelligence": 35,
@@ -14840,8 +15403,8 @@
       "mpReduction": 4
     }
   },
-  "NH": {
-    "id": "NH",
+  "NK": {
+    "id": "NK",
     "idDofusDB": "674e524164788cc74141a1b9",
     "idDofusBook": 14055,
     "name": {
@@ -14853,6 +15416,7 @@
     },
     "level": 197,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14878,8 +15442,8 @@
       "criticalDamage": 10
     }
   },
-  "NT": {
-    "id": "NT",
+  "NW": {
+    "id": "NW",
     "idDofusDB": "674e524164788cc74141a1f5",
     "idDofusBook": 14135,
     "name": {
@@ -14891,6 +15455,7 @@
     },
     "level": 199,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14936,6 +15501,7 @@
     },
     "level": 106,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 120,
       "agility": 40,
@@ -14950,8 +15516,8 @@
       "pushbackDamage": 10
     }
   },
-  "Uh": {
-    "id": "Uh",
+  "Uk": {
+    "id": "Uk",
     "idDofusDB": "674e524164788cc74141a576",
     "idDofusBook": 15218,
     "name": {
@@ -14963,6 +15529,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -14997,8 +15564,8 @@
       "criticalResist": 12
     }
   },
-  "Uf": {
-    "id": "Uf",
+  "Ui": {
+    "id": "Ui",
     "idDofusDB": "674e524164788cc74141a677",
     "idDofusBook": 15494,
     "name": {
@@ -15010,6 +15577,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 300,
       "agility": 80,
@@ -15025,8 +15593,8 @@
       "pushbackResist": 30
     }
   },
-  "RH": {
-    "id": "RH",
+  "RK": {
+    "id": "RK",
     "idDofusDB": "674e524164788cc74141ae70",
     "idDofusBook": 18013,
     "name": {
@@ -15039,6 +15607,7 @@
     "level": 200,
     "panoply": "1t",
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 400,
       "intelligence": 80,
@@ -15052,8 +15621,8 @@
       "criticalDamage": 20
     }
   },
-  "U2": {
-    "id": "U2",
+  "U5": {
+    "id": "U5",
     "idDofusDB": "674e524164788cc74141b1e8",
     "idDofusBook": 19093,
     "name": {
@@ -15065,6 +15634,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "shovel",
     "requirements": [
       [
         {
@@ -15097,8 +15667,8 @@
       "apResist": 15
     }
   },
-  "TU": {
-    "id": "TU",
+  "TX": {
+    "id": "TX",
     "idDofusDB": "674e524164788cc74141b84f",
     "idDofusBook": 20935,
     "name": {
@@ -15110,6 +15680,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -15126,8 +15697,8 @@
       "mpReduction": 10
     }
   },
-  "TT": {
-    "id": "TT",
+  "TW": {
+    "id": "TW",
     "idDofusDB": "674e524164788cc74141bcff",
     "idDofusBook": 22213,
     "name": {
@@ -15139,6 +15710,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "shovel",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -15168,6 +15740,7 @@
     },
     "level": 33,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": -6,
       "strength": 35,
@@ -15187,6 +15760,7 @@
     },
     "level": 47,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 45,
       "strength": -40,
@@ -15208,6 +15782,7 @@
     },
     "level": 17,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "intelligence": 30
     }
@@ -15225,6 +15800,7 @@
     },
     "level": 62,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 50,
       "wisdom": 20,
@@ -15246,6 +15822,7 @@
     },
     "level": 8,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "agility": 10,
       "airDamage": 1
@@ -15264,6 +15841,7 @@
     },
     "level": 32,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "power": 20,
@@ -15284,6 +15862,7 @@
     },
     "level": 21,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "strength": 10,
@@ -15304,6 +15883,7 @@
     },
     "level": 25,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "agility": 20,
       "criticalChance": -5,
@@ -15323,6 +15903,7 @@
     },
     "level": 8,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "chance": 10,
       "criticalChance": 2
@@ -15341,6 +15922,7 @@
     },
     "level": 27,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "strength": 20,
@@ -15360,6 +15942,7 @@
     },
     "level": 74,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "strength": 60,
@@ -15384,6 +15967,7 @@
     },
     "level": 93,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": -50,
       "strength": 50,
@@ -15406,6 +15990,7 @@
     },
     "level": 15,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "strength": 25
     }
@@ -15423,6 +16008,7 @@
     },
     "level": 35,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 60,
       "strength": 20,
@@ -15444,6 +16030,7 @@
     },
     "level": 1,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 10
     }
@@ -15461,6 +16048,7 @@
     },
     "level": 5,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 7,
       "strength": 7
@@ -15479,6 +16067,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 25,
       "agility": 10
@@ -15497,6 +16086,7 @@
     },
     "level": 39,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -15517,6 +16107,7 @@
     },
     "level": 42,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "strength": 20,
@@ -15538,6 +16129,7 @@
     },
     "level": 51,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -15559,6 +16151,7 @@
     },
     "level": 54,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -15581,6 +16174,7 @@
     },
     "level": 66,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "strength": 50,
@@ -15602,6 +16196,7 @@
     },
     "level": 57,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "chance": 30,
@@ -15626,6 +16221,7 @@
     },
     "level": 66,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "strength": 50,
@@ -15648,6 +16244,7 @@
     },
     "level": 78,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 60,
       "strength": 50,
@@ -15672,6 +16269,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "strength": -50,
@@ -15697,6 +16295,7 @@
     },
     "level": 84,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 50,
       "strength": 70,
@@ -15720,6 +16319,7 @@
     },
     "level": 87,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 120,
       "strength": 60,
@@ -15743,6 +16343,7 @@
     },
     "level": 89,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 120,
       "strength": 60,
@@ -15767,6 +16368,7 @@
     },
     "level": 96,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "strength": 30,
       "intelligence": 30,
@@ -15791,6 +16393,7 @@
     },
     "level": 99,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 70,
       "strength": 70,
@@ -15816,6 +16419,7 @@
     "level": 11,
     "panoply": "7D",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 15,
       "agility": 12
@@ -15834,6 +16438,7 @@
     },
     "level": 36,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "intelligence": 20,
@@ -15855,6 +16460,7 @@
     },
     "level": 59,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "strength": 30,
       "agility": 30,
@@ -15874,6 +16480,7 @@
     },
     "level": 83,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "wisdom": 25,
@@ -15896,6 +16503,7 @@
     },
     "level": 98,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 130,
       "intelligence": 60,
@@ -15918,6 +16526,7 @@
     },
     "level": 26,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 30,
       "power": 15,
@@ -15938,6 +16547,7 @@
     "level": 83,
     "panoply": "4L",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "strength": 60,
@@ -15947,8 +16557,8 @@
       "dodge": 5
     }
   },
-  "Uk": {
-    "id": "Uk",
+  "Un": {
+    "id": "Un",
     "idDofusDB": "674e524064788cc741418fbf",
     "idDofusBook": 8098,
     "name": {
@@ -15960,6 +16570,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 450,
       "chance": 80,
@@ -15986,6 +16597,7 @@
     },
     "level": 116,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "agility": 50,
       "wisdom": 20,
@@ -16011,6 +16623,7 @@
     },
     "level": 110,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 100,
       "strength": 40,
@@ -16037,6 +16650,7 @@
     },
     "level": 128,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -16060,6 +16674,7 @@
     "level": 55,
     "panoply": "54",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 65,
       "strength": 40,
@@ -16083,6 +16698,7 @@
     "level": 109,
     "panoply": "4b",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 150,
       "wisdom": 40,
@@ -16110,6 +16726,7 @@
     "level": 126,
     "panoply": "3Z",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 130,
       "intelligence": 40,
@@ -16138,6 +16755,7 @@
     },
     "level": 62,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 150,
       "wisdom": 30,
@@ -16159,6 +16777,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 40,
       "chance": 50,
@@ -16183,6 +16802,7 @@
     "level": 139,
     "panoply": "3F",
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16232,6 +16852,7 @@
     "level": 137,
     "panoply": "3D",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -16255,6 +16876,7 @@
     },
     "level": 162,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16287,6 +16909,7 @@
     },
     "level": 158,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -16314,6 +16937,7 @@
     "level": 157,
     "panoply": "2z",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 250,
       "chance": 60,
@@ -16338,6 +16962,7 @@
     },
     "level": 12,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 10,
       "initiative": 10
@@ -16356,6 +16981,7 @@
     },
     "level": 154,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16395,6 +17021,7 @@
     "level": 153,
     "panoply": "32",
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16435,6 +17062,7 @@
     "level": 188,
     "panoply": "2p",
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16479,6 +17107,7 @@
     },
     "level": 170,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16513,8 +17142,8 @@
       "pushbackDamage": 10
     }
   },
-  "Md": {
-    "id": "Md",
+  "Mg": {
+    "id": "Mg",
     "idDofusDB": "674e524064788cc741419a5e",
     "idDofusBook": 11761,
     "name": {
@@ -16526,6 +17155,7 @@
     },
     "level": 194,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16560,8 +17190,8 @@
       "apResist": 7
     }
   },
-  "Ku": {
-    "id": "Ku",
+  "Kx": {
+    "id": "Kx",
     "idDofusDB": "674e524064788cc741419af5",
     "idDofusBook": 11947,
     "name": {
@@ -16573,6 +17203,7 @@
     },
     "level": 185,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16605,8 +17236,8 @@
       "mpReduction": 5
     }
   },
-  "Uo": {
-    "id": "Uo",
+  "Ur": {
+    "id": "Ur",
     "idDofusDB": "674e524064788cc74141a11a",
     "idDofusBook": 13896,
     "name": {
@@ -16618,6 +17249,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16652,8 +17284,8 @@
       "pushbackDamage": 20
     }
   },
-  "Um": {
-    "id": "Um",
+  "Up": {
+    "id": "Up",
     "idDofusDB": "674e524164788cc74141a1f3",
     "idDofusBook": 14133,
     "name": {
@@ -16665,6 +17297,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16697,8 +17330,8 @@
       "pushbackDamage": 20
     }
   },
-  "Lx": {
-    "id": "Lx",
+  "LA": {
+    "id": "LA",
     "idDofusDB": "674e524164788cc74141a289",
     "idDofusBook": 14289,
     "name": {
@@ -16710,6 +17343,7 @@
     },
     "level": 192,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -16724,8 +17358,8 @@
       "criticalDamage": 15
     }
   },
-  "Ua": {
-    "id": "Ua",
+  "Ud": {
+    "id": "Ud",
     "idDofusDB": "674e524164788cc74141a78f",
     "idDofusBook": 15782,
     "name": {
@@ -16737,6 +17371,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -16751,8 +17386,8 @@
       "criticalResist": 25
     }
   },
-  "U7": {
-    "id": "U7",
+  "Ua": {
+    "id": "Ua",
     "idDofusDB": "674e524164788cc74141ad50",
     "idDofusBook": 17683,
     "name": {
@@ -16764,6 +17399,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "requirements": [
       [
         {
@@ -16806,8 +17442,8 @@
       "criticalDamage": 15
     }
   },
-  "RA": {
-    "id": "RA",
+  "RD": {
+    "id": "RD",
     "idDofusDB": "674e524164788cc74141ae71",
     "idDofusBook": 18014,
     "name": {
@@ -16820,6 +17456,7 @@
     "level": 200,
     "panoply": "1q",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 400,
       "agility": 80,
@@ -16844,6 +17481,7 @@
     },
     "level": 80,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "chance": 60,
       "wisdom": 15,
@@ -16854,8 +17492,8 @@
       "lock": 7
     }
   },
-  "Ra": {
-    "id": "Ra",
+  "Rd": {
+    "id": "Rd",
     "idDofusDB": "674e524164788cc74141b088",
     "idDofusBook": 18604,
     "name": {
@@ -16868,6 +17506,7 @@
     "level": 200,
     "panoply": "1o",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -16886,8 +17525,8 @@
       "pushbackDamage": 25
     }
   },
-  "Qf": {
-    "id": "Qf",
+  "Qi": {
+    "id": "Qi",
     "idDofusDB": "674e524164788cc74141b39c",
     "idDofusBook": 19593,
     "name": {
@@ -16900,6 +17539,7 @@
     "level": 200,
     "panoply": "1m",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 350,
       "strength": 80,
@@ -16915,8 +17555,8 @@
       "pushbackDamage": 25
     }
   },
-  "TS": {
-    "id": "TS",
+  "TV": {
+    "id": "TV",
     "idDofusDB": "674e524164788cc74141bd8d",
     "idDofusBook": 22368,
     "name": {
@@ -16928,6 +17568,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 450,
       "intelligence": 120,
@@ -16956,6 +17597,7 @@
     "level": 130,
     "panoply": "3W",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -16969,8 +17611,8 @@
       "lock": 10
     }
   },
-  "OQ": {
-    "id": "OQ",
+  "OT": {
+    "id": "OT",
     "idDofusDB": "674e524164788cc74141c4ea",
     "idDofusBook": 26008,
     "name": {
@@ -16983,6 +17625,7 @@
     "level": 200,
     "panoply": "18",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 350,
       "chance": 70,
@@ -16999,8 +17642,8 @@
       "pushbackDamage": 25
     }
   },
-  "Oz": {
-    "id": "Oz",
+  "OC": {
+    "id": "OC",
     "idDofusDB": "674e524164788cc74141c94a",
     "idDofusBook": 27545,
     "name": {
@@ -17013,6 +17656,7 @@
     "level": 200,
     "panoply": "1b",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 500,
       "wisdom": 50,
@@ -17028,8 +17672,8 @@
       "criticalResist": 25
     }
   },
-  "Od": {
-    "id": "Od",
+  "Og": {
+    "id": "Og",
     "idDofusDB": "687f71551c815173560617f9",
     "idDofusBook": 31758,
     "name": {
@@ -17042,6 +17686,7 @@
     "level": 200,
     "panoply": "1x",
     "category": "weapon",
+    "subCategory": "axe",
     "stats": {
       "health": 400,
       "intelligence": 70,
@@ -17074,14 +17719,15 @@
     "level": 17,
     "panoply": "7p",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 20,
       "criticalChance": 3,
       "waterDamage": 2
     }
   },
-  "Uq": {
-    "id": "Uq",
+  "Ut": {
+    "id": "Ut",
     "idDofusDB": "674e524064788cc74141928c",
     "idDofusBook": 8992,
     "name": {
@@ -17093,6 +17739,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 40,
       "strength": 40,
@@ -17107,8 +17754,8 @@
       "airResistPer": 5
     }
   },
-  "Ov": {
-    "id": "Ov",
+  "Oy": {
+    "id": "Oy",
     "idDofusDB": "674e524164788cc74141c1ff",
     "idDofusBook": 24028,
     "name": {
@@ -17121,6 +17768,7 @@
     "level": 200,
     "panoply": "14",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 500,
       "strength": 80,
@@ -17139,8 +17787,8 @@
       "pushbackResist": -20
     }
   },
-  "TP": {
-    "id": "TP",
+  "TS": {
+    "id": "TS",
     "idDofusDB": "674e524164788cc74141c205",
     "idDofusBook": 24034,
     "name": {
@@ -17152,6 +17800,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 450,
       "agility": 70,
@@ -17168,8 +17817,8 @@
       "pushbackResist": 25
     }
   },
-  "TL": {
-    "id": "TL",
+  "TO": {
+    "id": "TO",
     "idDofusDB": "674e524164788cc74141c4eb",
     "idDofusBook": 26009,
     "name": {
@@ -17181,6 +17830,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 350,
       "chance": 60,
@@ -17197,8 +17847,8 @@
       "criticalDamage": 12
     }
   },
-  "TJ": {
-    "id": "TJ",
+  "TM": {
+    "id": "TM",
     "idDofusDB": "674e524164788cc74141c4ed",
     "idDofusBook": 26011,
     "name": {
@@ -17210,6 +17860,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 350,
       "intelligence": 40,
@@ -17241,6 +17892,7 @@
     "level": 150,
     "panoply": "3v",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -17269,6 +17921,7 @@
     "level": 38,
     "panoply": "6K",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 40,
       "power": 35,
@@ -17290,6 +17943,7 @@
     "level": 52,
     "panoply": "5M",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 50,
       "strength": 35,
@@ -17300,8 +17954,8 @@
       "airDamage": 5
     }
   },
-  "L6": {
-    "id": "L6",
+  "L9": {
+    "id": "L9",
     "idDofusDB": "674e524164788cc74141c944",
     "idDofusBook": 27539,
     "name": {
@@ -17314,6 +17968,7 @@
     "level": 190,
     "panoply": "2j",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 300,
       "strength": 60,
@@ -17327,8 +17982,8 @@
       "lock": 15
     }
   },
-  "O9": {
-    "id": "O9",
+  "Oc": {
+    "id": "Oc",
     "idDofusDB": "687f71551c815173560617fe",
     "idDofusBook": 31763,
     "name": {
@@ -17341,6 +17996,7 @@
     "level": 200,
     "panoply": "1w",
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -17359,8 +18015,8 @@
       "criticalDamage": 15
     }
   },
-  "TC": {
-    "id": "TC",
+  "TF": {
+    "id": "TF",
     "idDofusDB": "68d28de615631db46d7e4115",
     "idDofusBook": 32117,
     "name": {
@@ -17372,6 +18028,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "scythe",
     "stats": {
       "wisdom": 60,
       "power": 120,
@@ -17399,6 +18056,7 @@
     },
     "level": 29,
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 20,
       "chance": 40,
@@ -17418,6 +18076,7 @@
     },
     "level": 53,
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 35,
       "strength": 35,
@@ -17438,6 +18097,7 @@
     },
     "level": 81,
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 60,
       "strength": 50,
@@ -17461,6 +18121,7 @@
     "level": 60,
     "panoply": "5e",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 50,
       "power": 20,
@@ -17483,6 +18144,7 @@
     "level": 102,
     "panoply": "4o",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 100,
       "strength": 45,
@@ -17511,6 +18173,7 @@
     "level": 76,
     "panoply": "4R",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 70,
       "strength": 80,
@@ -17534,6 +18197,7 @@
     "level": 80,
     "panoply": "4S",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 70,
       "intelligence": 60,
@@ -17558,6 +18222,7 @@
     "level": 154,
     "panoply": "33",
     "category": "weapon",
+    "subCategory": "lance",
     "requirements": [
       [
         {
@@ -17590,8 +18255,8 @@
       "pushbackDamage": 10
     }
   },
-  "U0": {
-    "id": "U0",
+  "U3": {
+    "id": "U3",
     "idDofusDB": "674e524164788cc74141b284",
     "idDofusBook": 19267,
     "name": {
@@ -17603,6 +18268,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "lance",
     "requirements": [
       [
         {
@@ -17636,8 +18302,8 @@
       "pushbackDamage": 30
     }
   },
-  "Q8": {
-    "id": "Q8",
+  "Qb": {
+    "id": "Qb",
     "idDofusDB": "674e524164788cc74141b3a9",
     "idDofusBook": 19606,
     "name": {
@@ -17650,6 +18316,7 @@
     "level": 200,
     "panoply": "0Q",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 350,
       "agility": 80,
@@ -17679,6 +18346,7 @@
     "level": 150,
     "panoply": "3w",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 300,
       "intelligence": 60,
@@ -17704,6 +18372,7 @@
     "level": 50,
     "panoply": "5E",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -17728,6 +18397,7 @@
     "level": 50,
     "panoply": "5F",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 40,
       "intelligence": 40,
@@ -17736,8 +18406,8 @@
       "heal": 7
     }
   },
-  "OA": {
-    "id": "OA",
+  "OD": {
+    "id": "OD",
     "idDofusDB": "674e524164788cc74141c94b",
     "idDofusBook": 27546,
     "name": {
@@ -17750,6 +18420,7 @@
     "level": 200,
     "panoply": "1b",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 450,
       "wisdom": 50,
@@ -17779,6 +18450,7 @@
     "level": 181,
     "panoply": "2x",
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 250,
       "chance": 30,
@@ -17793,8 +18465,8 @@
       "criticalDamage": -8
     }
   },
-  "TD": {
-    "id": "TD",
+  "TG": {
+    "id": "TG",
     "idDofusDB": "68d28de615631db46d7e4114",
     "idDofusBook": 32116,
     "name": {
@@ -17806,6 +18478,7 @@
     },
     "level": 200,
     "category": "weapon",
+    "subCategory": "lance",
     "stats": {
       "health": 500,
       "wisdom": 50,

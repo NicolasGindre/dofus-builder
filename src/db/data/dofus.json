@@ -12,6 +12,7 @@
     },
     "level": 110,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "power": 80
     }
@@ -29,6 +30,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "health": 200
     }
@@ -46,6 +48,7 @@
     },
     "level": 160,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "criticalChance": 10
     }
@@ -63,12 +66,13 @@
     },
     "level": 60,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "wisdom": 60
     }
   },
-  "K9": {
-    "id": "K9",
+  "Kc": {
+    "id": "Kc",
     "idDofusDB": "674e524064788cc741418cc5",
     "idDofusBook": 6980,
     "name": {
@@ -80,12 +84,13 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "mp": 1
     }
   },
-  "K7": {
-    "id": "K7",
+  "Ka": {
+    "id": "Ka",
     "idDofusDB": "674e524064788cc741418cf9",
     "idDofusBook": 7043,
     "name": {
@@ -97,6 +102,7 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "neutralDamage": 25,
       "earthDamage": 25,
@@ -118,6 +124,7 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "criticalResist": 30
     }
@@ -135,12 +142,13 @@
     },
     "level": 6,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "health": 1
     }
   },
-  "K0": {
-    "id": "K0",
+  "K1": {
+    "id": "K1",
     "idDofusDB": "674e524064788cc741418d2f",
     "idDofusBook": 7114,
     "name": {
@@ -152,12 +160,13 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "dodge": 40
     }
   },
-  "K2": {
-    "id": "K2",
+  "K3": {
+    "id": "K3",
     "idDofusDB": "674e524064788cc741418d30",
     "idDofusBook": 7115,
     "name": {
@@ -169,6 +178,7 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "neutralResistPer": 4,
       "earthResistPer": 4,
@@ -190,6 +200,7 @@
     },
     "level": 160,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "ap": 1
     }
@@ -207,9 +218,26 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "prospecting": 30
     }
+  },
+  "K9": {
+    "id": "K9",
+    "idDofusDB": "674e524064788cc74141918b",
+    "idDofusBook": 8698,
+    "name": {
+      "fr": "Dofus Nébuleux",
+      "en": "Cloudy Dofus",
+      "pt": "Dofus Nebuloso",
+      "de": "Nebel-Dofus",
+      "es": "Dofus nebuloso"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {}
   },
   "uq": {
     "id": "uq",
@@ -224,6 +252,7 @@
     },
     "level": 80,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "prospecting": 10
     }
@@ -241,6 +270,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "strength": 70,
       "intelligence": 70,
@@ -261,6 +291,7 @@
     },
     "level": 110,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "heal": 25
     }
@@ -278,12 +309,29 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "apResist": 20
     }
   },
-  "K1": {
-    "id": "K1",
+  "K5": {
+    "id": "K5",
+    "idDofusDB": "674e524164788cc74141ae8e",
+    "idDofusBook": 18043,
+    "name": {
+      "fr": "Dofus Abyssal",
+      "en": "Abyssal Dofus",
+      "pt": "Dofus Abissal",
+      "de": "Tiefsee-Dofus",
+      "es": "Dofus abisal"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {}
+  },
+  "K2": {
+    "id": "K2",
     "idDofusDB": "674e524164788cc74141b2df",
     "idDofusBook": 19398,
     "name": {
@@ -295,9 +343,26 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "pushbackResist": 100
     }
+  },
+  "K0": {
+    "id": "K0",
+    "idDofusDB": "674e524164788cc74141b632",
+    "idDofusBook": 20286,
+    "name": {
+      "fr": "Dofus Argenté Scintillant",
+      "en": "Sparkling Silver Dofus",
+      "pt": "Dofus Prateado Cintilante",
+      "de": "Glänzender Silberdofus",
+      "es": "Dofus plateado centelleante"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {}
   },
   "iq": {
     "id": "iq",
@@ -312,6 +377,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "lock": 10
     }
@@ -329,6 +395,7 @@
     },
     "level": 120,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "summon": 1
     }
@@ -346,6 +413,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "mpResist": 20
     }
@@ -363,6 +431,7 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "initiative": 1000
     }
@@ -380,6 +449,7 @@
     },
     "level": 180,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "range": 2
     }
@@ -397,6 +467,7 @@
     },
     "level": 20,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "health": 20
     }
@@ -414,6 +485,7 @@
     },
     "level": 170,
     "category": "dofus",
+    "subCategory": "dofus",
     "stats": {
       "summon": 1
     }
@@ -431,6 +503,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 4
     }
@@ -448,6 +521,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 8
     }
@@ -465,6 +539,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 16
     }
@@ -482,6 +557,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 4
     }
@@ -499,6 +575,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 8
     }
@@ -516,6 +593,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 16
     }
@@ -533,6 +611,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 3
     }
@@ -550,6 +629,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 6
     }
@@ -567,6 +647,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 12
     }
@@ -584,6 +665,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 3
     }
@@ -601,6 +683,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 6
     }
@@ -618,6 +701,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 12
     }
@@ -635,6 +719,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpResist": 4
     }
@@ -652,6 +737,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpResist": 8
     }
@@ -669,6 +755,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpResist": 16
     }
@@ -686,6 +773,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 4
     }
@@ -703,6 +791,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 8
     }
@@ -720,6 +809,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 16
     }
@@ -737,6 +827,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackDamage": 8
     }
@@ -754,6 +845,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackDamage": 16
     }
@@ -771,6 +863,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackDamage": 32
     }
@@ -788,6 +881,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackResist": 12
     }
@@ -805,6 +899,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackResist": 24
     }
@@ -822,6 +917,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pushbackResist": 48
     }
@@ -839,6 +935,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalResist": 3
     }
@@ -856,6 +953,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalResist": 6
     }
@@ -873,6 +971,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalResist": 12
     }
@@ -890,6 +989,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResist": 6
     }
@@ -907,6 +1007,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResist": 12
     }
@@ -924,6 +1025,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResist": 24
     }
@@ -941,6 +1043,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResist": 6
     }
@@ -958,6 +1061,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResist": 12
     }
@@ -975,6 +1079,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResist": 24
     }
@@ -992,6 +1097,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResist": 6
     }
@@ -1009,6 +1115,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResist": 12
     }
@@ -1026,6 +1133,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResist": 24
     }
@@ -1043,6 +1151,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResist": 6
     }
@@ -1060,6 +1169,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResist": 12
     }
@@ -1077,6 +1187,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResist": 24
     }
@@ -1094,6 +1205,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResist": 6
     }
@@ -1111,6 +1223,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResist": 12
     }
@@ -1128,6 +1241,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResist": 24
     }
@@ -1145,6 +1259,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 6
     }
@@ -1162,6 +1277,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 12
     }
@@ -1179,6 +1295,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 3
     }
@@ -1196,6 +1313,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 6
     }
@@ -1213,6 +1331,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 12
     }
@@ -1230,6 +1349,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 3
     }
@@ -1247,6 +1367,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 6
     }
@@ -1264,6 +1385,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 12
     }
@@ -1281,6 +1403,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 3
     }
@@ -1298,6 +1421,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 6
     }
@@ -1315,6 +1439,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 3
     }
@@ -1332,6 +1457,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 12
     }
@@ -1349,6 +1475,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 6
     }
@@ -1366,6 +1493,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "initiative": 200
     }
@@ -1383,6 +1511,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "initiative": 100
     }
@@ -1400,6 +1529,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "initiative": 400
     }
@@ -1417,6 +1547,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pods": 250
     }
@@ -1434,6 +1565,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pods": 500
     }
@@ -1451,6 +1583,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "pods": 1000
     }
@@ -1468,6 +1601,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "heal": 4
     }
@@ -1485,6 +1619,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "heal": 16
     }
@@ -1502,6 +1637,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "heal": 8
     }
@@ -1519,6 +1655,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "agility": 15
     }
@@ -1536,6 +1673,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "agility": 30
     }
@@ -1553,6 +1691,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "agility": 60
     }
@@ -1570,6 +1709,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "chance": 30
     }
@@ -1587,6 +1727,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "chance": 60
     }
@@ -1604,6 +1745,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "chance": 15
     }
@@ -1621,6 +1763,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "intelligence": 15
     }
@@ -1638,6 +1781,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "intelligence": 60
     }
@@ -1655,6 +1799,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "intelligence": 30
     }
@@ -1672,6 +1817,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "strength": 15
     }
@@ -1689,6 +1835,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "strength": 30
     }
@@ -1706,6 +1853,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "strength": 60
     }
@@ -1723,6 +1871,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": 80
     }
@@ -1740,6 +1889,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": 160
     }
@@ -1757,6 +1907,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": 40
     }
@@ -1774,6 +1925,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 12
     }
@@ -1791,6 +1943,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 3
     }
@@ -1808,6 +1961,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 8,
       "dodge": -8
@@ -1826,6 +1980,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 16,
       "dodge": -16
@@ -1844,6 +1999,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": 32,
       "dodge": -32
@@ -1862,6 +2018,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 8,
       "lock": -8
@@ -1880,6 +2037,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 16,
       "lock": -16
@@ -1898,6 +2056,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": 32,
       "lock": -32
@@ -1916,6 +2075,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "heal": 8
@@ -1934,6 +2094,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "heal": 16
@@ -1952,6 +2113,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -200,
       "heal": 32
@@ -1970,6 +2132,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "strength": 25
@@ -1988,6 +2151,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "strength": 50
@@ -2006,6 +2170,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -200,
       "strength": 100
@@ -2024,6 +2189,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "intelligence": 25
@@ -2042,6 +2208,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "intelligence": 50
@@ -2060,6 +2227,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -200,
       "intelligence": 100
@@ -2078,6 +2246,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "agility": 25
@@ -2096,6 +2265,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "agility": 50
@@ -2114,6 +2284,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -200,
       "agility": 100
@@ -2132,6 +2303,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "chance": 25
@@ -2150,6 +2322,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "chance": 50
@@ -2168,6 +2341,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -200,
       "chance": 100
@@ -2186,6 +2360,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalDamage": -8,
       "criticalResist": 8
@@ -2204,6 +2379,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalDamage": -16,
       "criticalResist": 16
@@ -2222,6 +2398,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "criticalDamage": -32,
       "criticalResist": 32
@@ -2240,6 +2417,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 5,
       "airResistPer": -2
@@ -2258,6 +2436,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 10,
       "airResistPer": -4
@@ -2276,6 +2455,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthDamage": 20,
       "airResistPer": -8
@@ -2294,6 +2474,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 5,
       "waterResistPer": -2
@@ -2312,6 +2493,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 10,
       "waterResistPer": -4
@@ -2330,6 +2512,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 20,
       "waterResistPer": -8
@@ -2348,6 +2531,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 5,
       "earthResistPer": -2
@@ -2366,6 +2550,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 10,
       "earthResistPer": -4
@@ -2384,6 +2569,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireDamage": 20,
       "earthResistPer": -8
@@ -2402,6 +2588,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 5,
       "neutralResistPer": -2
@@ -2420,6 +2607,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 10,
       "neutralResistPer": -4
@@ -2438,6 +2626,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterDamage": 20,
       "neutralResistPer": -8
@@ -2456,6 +2645,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 5,
       "fireResistPer": -2
@@ -2474,6 +2664,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 10,
       "fireResistPer": -4
@@ -2492,6 +2683,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airDamage": 20,
       "fireResistPer": -8
@@ -2510,6 +2702,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 6,
       "apResist": -6
@@ -2528,6 +2721,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 12,
       "apResist": -12
@@ -2546,6 +2740,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mpReduction": 24,
       "apResist": -24
@@ -2564,6 +2759,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 6,
       "mpResist": -6
@@ -2582,6 +2778,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 12,
       "mpResist": -12
@@ -2600,6 +2797,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apReduction": 24,
       "mpResist": -24
@@ -2618,6 +2816,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 8,
       "mpResist": -8
@@ -2636,6 +2835,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 16,
       "mpResist": -16
@@ -2654,6 +2854,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": 32,
       "mpResist": -32
@@ -2672,6 +2873,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": -8,
       "mpResist": 8
@@ -2690,6 +2892,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": -16,
       "mpResist": 16
@@ -2708,6 +2911,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "apResist": -32,
       "mpResist": 32
@@ -2726,6 +2930,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": -8,
       "pushbackDamage": 16
@@ -2744,6 +2949,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": -16,
       "pushbackDamage": 32
@@ -2762,6 +2968,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "lock": -32,
       "pushbackDamage": 64
@@ -2780,6 +2987,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": -8,
       "pushbackResist": 24
@@ -2798,6 +3006,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": -16,
       "pushbackResist": 48
@@ -2816,6 +3025,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "dodge": -32,
       "pushbackResist": 96
@@ -2834,6 +3044,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -25,
       "initiative": 200
@@ -2852,6 +3063,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -50,
       "initiative": 400
@@ -2870,6 +3082,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "health": -100,
       "initiative": 800
@@ -2888,6 +3101,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResistPer": -2,
       "earthResist": 10
@@ -2906,6 +3120,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResistPer": -4,
       "earthResist": 20
@@ -2924,6 +3139,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "airResistPer": -8,
       "earthResist": 40
@@ -2942,6 +3158,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResistPer": -2,
       "neutralResist": 10
@@ -2960,6 +3177,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResistPer": -4,
       "neutralResist": 20
@@ -2978,6 +3196,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "waterResistPer": -8,
       "neutralResist": 40
@@ -2996,6 +3215,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResistPer": -2,
       "fireResist": 10
@@ -3014,6 +3234,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResistPer": -4,
       "fireResist": 20
@@ -3032,6 +3253,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "earthResistPer": -8,
       "fireResist": 40
@@ -3050,6 +3272,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResistPer": -2,
       "waterResist": 10
@@ -3068,6 +3291,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResistPer": -4,
       "waterResist": 20
@@ -3086,6 +3310,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralResistPer": -8,
       "waterResist": 40
@@ -3104,6 +3329,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResistPer": -2,
       "airResist": 10
@@ -3122,6 +3348,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResistPer": -4,
       "airResist": 20
@@ -3140,6 +3367,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "fireResistPer": -8,
       "airResist": 40
@@ -3158,6 +3386,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 10
     }
@@ -3175,6 +3404,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 20
     }
@@ -3192,6 +3422,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 40
     }
@@ -3209,6 +3440,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 20,
       "criticalChance": -3
@@ -3227,6 +3459,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 40,
       "criticalChance": -6
@@ -3245,6 +3478,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "power": 80,
       "criticalChance": -12
@@ -3263,6 +3497,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "ap": 1,
       "mp": -1
@@ -3281,6 +3516,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "mp": 1,
       "lock": -30,
@@ -3300,6 +3536,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "range": 1
     }
@@ -3317,6 +3554,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 3,
       "earthDamage": 3,
@@ -3339,6 +3577,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 6,
       "earthDamage": 6,
@@ -3361,6 +3600,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "neutralDamage": 12,
       "earthDamage": 12,
@@ -3383,6 +3623,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3414,6 +3655,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3445,6 +3687,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3476,6 +3719,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3507,6 +3751,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3538,6 +3783,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3569,6 +3815,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3600,6 +3847,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3631,6 +3879,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3662,6 +3911,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3693,6 +3943,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3724,6 +3975,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3755,6 +4007,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3786,6 +4039,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3817,6 +4071,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3848,6 +4103,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3879,6 +4135,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3910,6 +4167,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3941,6 +4199,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -3972,6 +4231,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4003,6 +4263,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4034,6 +4295,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4065,6 +4327,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4096,6 +4359,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4127,6 +4391,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4158,6 +4423,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4189,6 +4455,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4220,6 +4487,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4251,6 +4519,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4282,6 +4551,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4313,6 +4583,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4344,6 +4615,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4375,6 +4647,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4406,6 +4679,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4437,6 +4711,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4468,6 +4743,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4499,6 +4775,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4530,6 +4807,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4561,6 +4839,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4592,6 +4871,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4623,6 +4903,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4654,6 +4935,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4685,6 +4967,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4716,6 +4999,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4747,6 +5031,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4778,6 +5063,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4809,6 +5095,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4840,6 +5127,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4871,6 +5159,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4902,6 +5191,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4933,6 +5223,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4964,6 +5255,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -4995,6 +5287,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5026,6 +5319,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5057,6 +5351,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5088,6 +5383,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5119,6 +5415,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5150,6 +5447,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5181,6 +5479,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5212,6 +5511,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5243,6 +5543,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5274,6 +5575,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5305,6 +5607,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5336,6 +5639,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5367,6 +5671,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5398,6 +5703,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5429,6 +5735,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5460,6 +5767,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5491,6 +5799,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5522,6 +5831,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5553,6 +5863,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5584,6 +5895,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5615,6 +5927,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5646,6 +5959,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5677,6 +5991,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5708,6 +6023,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5739,6 +6055,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5770,6 +6087,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5801,6 +6119,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5832,6 +6151,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5863,6 +6183,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5894,6 +6215,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5925,6 +6247,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5956,6 +6279,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -5987,6 +6311,7 @@
     },
     "level": 50,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -6022,6 +6347,7 @@
     },
     "level": 100,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -6057,6 +6383,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "requirements": [
       [
         {
@@ -6092,6 +6419,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "rangedResistPer": 6,
       "rangedDamagePer": -9,
@@ -6111,6 +6439,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "meleeResistPer": 6,
       "rangedDamagePer": -9,
@@ -6130,6 +6459,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "rangedDamagePer": 6,
       "rangedResistPer": -9,
@@ -6149,6 +6479,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "meleeDamagePer": 6,
       "rangedResistPer": -9,
@@ -6168,6 +6499,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "spellDamagePer": 6,
       "rangedResistPer": -9,
@@ -6187,6 +6519,7 @@
     },
     "level": 150,
     "category": "dofus",
+    "subCategory": "trophy",
     "stats": {
       "weaponDamagePer": 6,
       "rangedResistPer": -9,

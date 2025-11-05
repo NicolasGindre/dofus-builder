@@ -13,6 +13,7 @@
     "level": 12,
     "panoply": "7y",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "initiative": 50
@@ -32,6 +33,7 @@
     "level": 11,
     "panoply": "7z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "heal": 5
@@ -51,6 +53,7 @@
     "level": 20,
     "panoply": "5U",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "chance": 25,
       "dodge": 4
@@ -70,6 +73,7 @@
     "level": 20,
     "panoply": "7i",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "chance": 25,
       "agility": 15
@@ -88,6 +92,7 @@
     },
     "level": 23,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "power": 15,
@@ -107,6 +112,7 @@
     },
     "level": 28,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "Sc=14",
     "stats": {
       "health": 60,
@@ -127,6 +133,7 @@
     },
     "level": 1,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "mp": -1
     }
@@ -144,6 +151,7 @@
     },
     "level": 29,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "fireResistPer": 2,
@@ -164,6 +172,7 @@
     },
     "level": 30,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "Ps=1&Pa>20",
     "stats": {
       "health": 40,
@@ -184,6 +193,7 @@
     },
     "level": 33,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "neutralResistPer": 2,
@@ -206,6 +216,7 @@
     },
     "level": 22,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "strength": 15,
@@ -225,6 +236,7 @@
     },
     "level": 14,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "agility": 15
@@ -243,6 +255,7 @@
     },
     "level": 14,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 25,
       "lock": 3,
@@ -262,6 +275,7 @@
     },
     "level": 17,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "criticalChance": 3
@@ -280,6 +294,7 @@
     },
     "level": 14,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 25,
       "earthDamage": 1
@@ -298,6 +313,7 @@
     },
     "level": 44,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -331,6 +347,7 @@
     },
     "level": 6,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "Ps=2&Pa>30",
     "stats": {
       "intelligence": 10,
@@ -350,6 +367,7 @@
     },
     "level": 34,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "power": 10,
@@ -371,6 +389,7 @@
     },
     "level": 21,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 35
     }
@@ -388,6 +407,7 @@
     },
     "level": 30,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 10,
       "strength": -30,
@@ -411,6 +431,7 @@
     },
     "level": 16,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "dodge": 3
@@ -429,6 +450,7 @@
     },
     "level": 7,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 10,
       "chance": 7
@@ -447,6 +469,7 @@
     },
     "level": 18,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 25,
       "agility": 15,
@@ -467,6 +490,7 @@
     "level": 40,
     "panoply": "6f",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "strength": -50,
@@ -489,6 +513,7 @@
     },
     "level": 33,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "power": 20,
@@ -508,6 +533,7 @@
     },
     "level": 36,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "agility": 60,
       "wisdom": -30,
@@ -528,6 +554,7 @@
     },
     "level": 22,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "damage": 4
@@ -546,6 +573,7 @@
     },
     "level": 34,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "heal": 10
@@ -564,13 +592,14 @@
     },
     "level": 32,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "criticalChance": -12,
       "range": 2
     }
   },
-  "R4": {
-    "id": "R4",
+  "R7": {
+    "id": "R7",
     "idDofusDB": "674e524064788cc7414186d0",
     "idDofusBook": 958,
     "name": {
@@ -582,6 +611,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -612,6 +642,7 @@
     "level": 55,
     "panoply": "5B",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -646,6 +677,7 @@
     "level": 60,
     "panoply": "5d",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "power": 25,
@@ -667,6 +699,7 @@
     "level": 20,
     "panoply": "7s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 35,
       "criticalChance": 2,
@@ -686,6 +719,7 @@
     },
     "level": 43,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "criticalChance": 4,
@@ -706,6 +740,7 @@
     },
     "level": 54,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": -50,
       "wisdom": -30,
@@ -727,6 +762,7 @@
     "level": 80,
     "panoply": "3I",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 30,
       "range": 2,
@@ -749,6 +785,7 @@
     },
     "level": 1,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "pods": 100
     }
@@ -766,6 +803,7 @@
     },
     "level": 6,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "PJ>2,40|PJ>24,40|PJ>36,40|PJ>28,40|PJ>26,40|PJ>41,40",
     "stats": {
       "pods": 250
@@ -784,6 +822,7 @@
     },
     "level": 10,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "pods": 200
     }
@@ -801,6 +840,7 @@
     },
     "level": 15,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "PJ>2,80|PJ>24,80|PJ>36,80|PJ>28,80|PJ>26,80|PJ>41,80",
     "stats": {
       "pods": 400
@@ -819,6 +859,7 @@
     },
     "level": 20,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "PJ>2,120|PJ>24,120|PJ>36,120|PJ>28,120|PJ>26,120|PJ>41,120",
     "stats": {
       "pods": 800
@@ -837,6 +878,7 @@
     },
     "level": 20,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "PJ>2,180|PJ>24,180|PJ>36,180|PJ>28,180|PJ>26,180|PJ>41,180",
     "stats": {
       "pods": 1500
@@ -855,6 +897,7 @@
     },
     "level": 40,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "pods": 300
     }
@@ -872,6 +915,7 @@
     },
     "level": 60,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "pods": 1000
     }
@@ -890,6 +934,7 @@
     "level": 50,
     "panoply": "52",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "wisdom": 20,
@@ -910,6 +955,7 @@
     },
     "level": 45,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "wisdom": 15,
@@ -930,6 +976,7 @@
     },
     "level": 41,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "fireResistPer": 3,
@@ -950,6 +997,7 @@
     },
     "level": 61,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -980,6 +1028,7 @@
     },
     "level": 36,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "agility": 30,
@@ -1000,6 +1049,7 @@
     },
     "level": 49,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -1031,6 +1081,7 @@
     },
     "level": 88,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 50,
       "strength": 50,
@@ -1053,6 +1104,7 @@
     },
     "level": 53,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "criticalChance": 10,
       "damage": 5,
@@ -1072,6 +1124,7 @@
     },
     "level": 63,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -1111,6 +1164,7 @@
     "level": 41,
     "panoply": "6D",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 15,
       "summon": 1,
@@ -1132,6 +1186,7 @@
     "level": 45,
     "panoply": "6g",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 50,
       "strength": 30,
@@ -1153,6 +1208,7 @@
     "level": 20,
     "panoply": "7n",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "initiative": 200
@@ -1172,6 +1228,7 @@
     "level": 29,
     "panoply": "74",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "strength": 30,
@@ -1192,6 +1249,7 @@
     "level": 60,
     "panoply": "5a",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "range": 2,
       "prospecting": 20
@@ -1211,6 +1269,7 @@
     "level": 8,
     "panoply": "7K",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 5,
       "intelligence": 5,
@@ -1232,6 +1291,7 @@
     "level": 56,
     "panoply": "5u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "power": 30,
@@ -1253,6 +1313,7 @@
     "level": 60,
     "panoply": "5b",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -1275,6 +1336,7 @@
     "level": 41,
     "panoply": "6E",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "chance": 15,
       "summon": 1,
@@ -1295,6 +1357,7 @@
     },
     "level": 127,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "chance": 60,
@@ -1319,6 +1382,7 @@
     },
     "level": 121,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "agility": 20,
       "power": 20,
@@ -1347,6 +1411,7 @@
     "level": 108,
     "panoply": "4e",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -1372,6 +1437,7 @@
     "level": 60,
     "panoply": "5c",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 15,
       "fireDamage": 3,
@@ -1393,6 +1459,7 @@
     },
     "level": 71,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "strength": -100,
@@ -1420,6 +1487,7 @@
     "level": 20,
     "panoply": "7o",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 20,
       "lock": 5
@@ -1439,6 +1507,7 @@
     "level": 41,
     "panoply": "6F",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 15,
       "summon": 1,
@@ -1460,6 +1529,7 @@
     "level": 41,
     "panoply": "6G",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "agility": 15,
       "summon": 1,
@@ -1481,6 +1551,7 @@
     "level": 101,
     "panoply": "4s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "intelligence": 35,
@@ -1507,6 +1578,7 @@
     "level": 76,
     "panoply": "4R",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "agility": 35,
@@ -1531,6 +1603,7 @@
     "level": 13,
     "panoply": "7u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 20
     }
@@ -1549,6 +1622,7 @@
     "level": 100,
     "panoply": "4w",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 50,
       "chance": 40,
@@ -1574,6 +1648,7 @@
     "level": 70,
     "panoply": "50",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "agility": 30,
@@ -1598,6 +1673,7 @@
     "level": 16,
     "panoply": "7m",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "chance": 15,
       "pods": 100
@@ -1617,6 +1693,7 @@
     "level": 11,
     "panoply": "7v",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "lock": 5
@@ -1636,6 +1713,7 @@
     "level": 37,
     "panoply": "6X",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 35,
       "intelligence": 20,
@@ -1658,6 +1736,7 @@
     "level": 61,
     "panoply": "53",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 70,
       "strength": 25,
@@ -1682,6 +1761,7 @@
     "level": 45,
     "panoply": "66",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "strength": 30,
@@ -1703,6 +1783,7 @@
     "level": 45,
     "panoply": "69",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "chance": 30,
@@ -1724,6 +1805,7 @@
     "level": 45,
     "panoply": "67",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "intelligence": 30,
@@ -1745,6 +1827,7 @@
     "level": 45,
     "panoply": "68",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "agility": 30,
@@ -1766,6 +1849,7 @@
     "level": 64,
     "panoply": "54",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 80,
       "strength": 25,
@@ -1788,6 +1872,7 @@
     },
     "level": 46,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "power": 15,
@@ -1808,6 +1893,7 @@
     },
     "level": 56,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "intelligence": 30,
@@ -1831,6 +1917,7 @@
     "level": 105,
     "panoply": "47",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "intelligence": 40,
@@ -1855,6 +1942,7 @@
     "level": 67,
     "panoply": "4Y",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "wisdom": 30,
@@ -1877,6 +1965,7 @@
     "level": 27,
     "panoply": "6R",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "damage": 2
@@ -1895,6 +1984,7 @@
     },
     "level": 44,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "intelligence": 35,
@@ -1915,6 +2005,7 @@
     },
     "level": 125,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -1938,6 +2029,7 @@
     },
     "level": 11,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 15,
       "lock": 3,
@@ -1958,6 +2050,7 @@
     "level": 41,
     "panoply": "6s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "chance": 20,
@@ -1978,6 +2071,7 @@
     "level": 63,
     "panoply": "4L",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "strength": 40,
@@ -2001,6 +2095,7 @@
     "level": 92,
     "panoply": "4z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 80,
       "intelligence": 50,
@@ -2024,6 +2119,7 @@
     "level": 65,
     "panoply": "51",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "agility": 50,
@@ -2047,6 +2143,7 @@
     "level": 62,
     "panoply": "55",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "heal": 7,
@@ -2068,6 +2165,7 @@
     },
     "level": 148,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "agility": 50,
@@ -2099,6 +2197,7 @@
     "level": 50,
     "panoply": "5P",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -2131,6 +2230,7 @@
     "level": 90,
     "panoply": "4F",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 30,
@@ -2160,6 +2260,7 @@
     "level": 69,
     "panoply": "4P",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": -100,
@@ -2189,6 +2290,7 @@
     "level": 61,
     "panoply": "58",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "agility": 40,
@@ -2211,6 +2313,7 @@
     "level": 26,
     "panoply": "7h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "criticalChance": 3,
       "damage": 3,
@@ -2231,6 +2334,7 @@
     "level": 58,
     "panoply": "5h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "wisdom": 20,
@@ -2253,6 +2357,7 @@
     "level": 18,
     "panoply": "7p",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "chance": 20,
       "pods": 200
@@ -2272,6 +2377,7 @@
     "level": 51,
     "panoply": "5G",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 40,
       "damage": 3,
@@ -2293,6 +2399,7 @@
     "level": 84,
     "panoply": "4I",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 90,
       "agility": 40,
@@ -2317,6 +2424,7 @@
     "level": 8,
     "panoply": "7w",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "summon": 1
@@ -2336,6 +2444,7 @@
     "level": 7,
     "panoply": "7x",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "waterDamage": 1
@@ -2355,6 +2464,7 @@
     "level": 10,
     "panoply": "7A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 20,
       "agility": 20
@@ -2374,6 +2484,7 @@
     "level": 9,
     "panoply": "7B",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 20,
       "earthDamage": 1
@@ -2393,6 +2504,7 @@
     "level": 139,
     "panoply": "3C",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -2420,6 +2532,7 @@
     "level": 107,
     "panoply": "4b",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 40,
@@ -2447,6 +2560,7 @@
     "level": 156,
     "panoply": "2S",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -2471,6 +2585,7 @@
     "level": 103,
     "panoply": "4i",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 30,
@@ -2497,6 +2612,7 @@
     "level": 125,
     "panoply": "3Z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 25,
@@ -2523,6 +2639,7 @@
     "level": 80,
     "panoply": "4S",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "chance": 30,
@@ -2547,6 +2664,7 @@
     "level": 19,
     "panoply": "7l",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 25,
       "wisdom": 6,
@@ -2567,6 +2685,7 @@
     },
     "level": 171,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 70,
       "wisdom": 50,
@@ -2592,6 +2711,7 @@
     "level": 111,
     "panoply": "4c",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 40,
@@ -2618,6 +2738,7 @@
     "level": 105,
     "panoply": "4j",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "strength": 50,
@@ -2646,6 +2767,7 @@
     "level": 102,
     "panoply": "4h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "intelligence": 50,
@@ -2673,6 +2795,7 @@
     "level": 130,
     "panoply": "3K",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "intelligence": 30,
@@ -2702,6 +2825,7 @@
     "level": 112,
     "panoply": "49",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "strength": 30,
@@ -2729,6 +2853,7 @@
     "level": 142,
     "panoply": "3z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -2756,6 +2881,7 @@
     },
     "level": 11,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 20,
       "wisdom": -10
@@ -2775,6 +2901,7 @@
     "level": 1,
     "panoply": "7M",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 6,
       "wisdom": 4
@@ -2794,6 +2921,7 @@
     "level": 80,
     "panoply": "38",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "ey": {
@@ -2810,6 +2938,7 @@
     "level": 80,
     "panoply": "3f",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "et": {
@@ -2826,6 +2955,7 @@
     "level": 80,
     "panoply": "3g",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "eo": {
@@ -2842,6 +2972,7 @@
     "level": 80,
     "panoply": "3d",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "ej": {
@@ -2858,6 +2989,7 @@
     "level": 80,
     "panoply": "3a",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "ee": {
@@ -2874,6 +3006,7 @@
     "level": 80,
     "panoply": "3h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "e9": {
@@ -2890,6 +3023,7 @@
     "level": 80,
     "panoply": "3e",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "e4": {
@@ -2906,6 +3040,7 @@
     "level": 80,
     "panoply": "3b",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "dZ": {
@@ -2922,6 +3057,7 @@
     "level": 80,
     "panoply": "3j",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "dU": {
@@ -2938,6 +3074,7 @@
     "level": 80,
     "panoply": "39",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "dP": {
@@ -2954,6 +3091,7 @@
     "level": 80,
     "panoply": "3i",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "dK": {
@@ -2970,6 +3108,7 @@
     "level": 80,
     "panoply": "3c",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "GV": {
@@ -2986,6 +3125,7 @@
     "level": 152,
     "panoply": "2J",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 40,
@@ -3014,6 +3154,7 @@
     "level": 103,
     "panoply": "4m",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 40,
@@ -3045,6 +3186,7 @@
     "level": 110,
     "panoply": "4g",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -3085,6 +3227,7 @@
     },
     "level": 61,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "chance": 30,
@@ -3093,8 +3236,8 @@
       "heal": 3
     }
   },
-  "Li": {
-    "id": "Li",
+  "Ll": {
+    "id": "Ll",
     "idDofusDB": "674e524064788cc741419229",
     "idDofusBook": 8876,
     "name": {
@@ -3106,6 +3249,7 @@
     },
     "level": 191,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -3133,14 +3277,15 @@
     "level": 30,
     "panoply": "7c",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 45,
       "initiative": 200,
       "pods": 200
     }
   },
-  "Kb": {
-    "id": "Kb",
+  "Ke": {
+    "id": "Ke",
     "idDofusDB": "674e524064788cc741419313",
     "idDofusBook": 9141,
     "name": {
@@ -3153,6 +3298,7 @@
     "level": 181,
     "panoply": "2o",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "agility": 60,
@@ -3165,8 +3311,8 @@
       "fireResist": 10
     }
   },
-  "KD": {
-    "id": "KD",
+  "KG": {
+    "id": "KG",
     "idDofusDB": "674e524064788cc741419314",
     "idDofusBook": 9142,
     "name": {
@@ -3179,6 +3325,7 @@
     "level": 190,
     "panoply": "2l",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -3206,6 +3353,7 @@
     "level": 185,
     "panoply": "2q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -3233,6 +3381,7 @@
     "level": 41,
     "panoply": "6j",
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "PO!10119",
     "stats": {
       "health": 30,
@@ -3254,6 +3403,7 @@
     "level": 54,
     "panoply": "5C",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "wisdom": 15,
       "power": 25,
@@ -3274,6 +3424,7 @@
     "level": 1,
     "panoply": "7N",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 1,
       "initiative": 1
@@ -3292,6 +3443,7 @@
     },
     "level": 61,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "Sc=19",
     "stats": {
       "health": 50,
@@ -3314,13 +3466,14 @@
     },
     "level": 20,
     "category": "cloak",
+    "subCategory": "cloak",
     "criterions": "Sc=23",
     "stats": {
       "pods": 300
     }
   },
-  "L2": {
-    "id": "L2",
+  "L5": {
+    "id": "L5",
     "idDofusDB": "674e524064788cc74141995f",
     "idDofusBook": 11472,
     "name": {
@@ -3333,6 +3486,7 @@
     "level": 194,
     "panoply": "29",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -3362,6 +3516,7 @@
     "level": 144,
     "panoply": "3A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 45,
@@ -3392,6 +3547,7 @@
     "level": 163,
     "panoply": "2L",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -3423,6 +3579,7 @@
     },
     "level": 131,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "strength": 30,
@@ -3455,6 +3612,7 @@
     "level": 161,
     "panoply": "2R",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "chance": 60,
@@ -3484,6 +3642,7 @@
     "level": 177,
     "panoply": "2A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 60,
@@ -3514,6 +3673,7 @@
     "level": 179,
     "panoply": "2p",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "chance": 45,
@@ -3531,8 +3691,8 @@
       "criticalResist": 10
     }
   },
-  "MD": {
-    "id": "MD",
+  "MG": {
+    "id": "MG",
     "idDofusDB": "674e524064788cc741419a34",
     "idDofusBook": 11719,
     "name": {
@@ -3545,6 +3705,7 @@
     "level": 197,
     "panoply": "1A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "intelligence": 40,
@@ -3576,6 +3737,7 @@
     },
     "level": 176,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -3594,8 +3756,8 @@
       "apResist": -4
     }
   },
-  "Kg": {
-    "id": "Kg",
+  "Kj": {
+    "id": "Kj",
     "idDofusDB": "674e524064788cc741419a3c",
     "idDofusBook": 11727,
     "name": {
@@ -3608,6 +3770,7 @@
     "level": 182,
     "panoply": "2u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 50,
@@ -3629,8 +3792,8 @@
       "mpResist": -5
     }
   },
-  "Nd": {
-    "id": "Nd",
+  "Ng": {
+    "id": "Ng",
     "idDofusDB": "674e524064788cc741419a3d",
     "idDofusBook": 11728,
     "name": {
@@ -3643,6 +3806,7 @@
     "level": 196,
     "panoply": "1I",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 50,
@@ -3675,6 +3839,7 @@
     "level": 41,
     "panoply": "5Z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "criticalChance": 7,
       "airDamage": 6,
@@ -3695,6 +3860,7 @@
     "level": 71,
     "panoply": "4X",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "neutralDamage": 5,
@@ -3718,6 +3884,7 @@
     "level": 124,
     "panoply": "41",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 30,
@@ -3743,6 +3910,7 @@
     "level": 153,
     "panoply": "30",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -3761,8 +3929,8 @@
       "apResist": 4
     }
   },
-  "Lg": {
-    "id": "Lg",
+  "Lj": {
+    "id": "Lj",
     "idDofusDB": "674e524064788cc741419b7d",
     "idDofusBook": 12108,
     "name": {
@@ -3775,6 +3943,7 @@
     "level": 194,
     "panoply": "2e",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -3814,8 +3983,8 @@
       "waterResistPer": 4
     }
   },
-  "Lv": {
-    "id": "Lv",
+  "Ly": {
+    "id": "Ly",
     "idDofusDB": "674e524064788cc741419b86",
     "idDofusBook": 12117,
     "name": {
@@ -3828,6 +3997,7 @@
     "level": 193,
     "panoply": "2f",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 60,
       "agility": 60,
@@ -3859,6 +4029,7 @@
     "level": 99,
     "panoply": "4t",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "strength": 30,
@@ -3888,6 +4059,7 @@
     "level": 80,
     "panoply": "3k",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "do": {
@@ -3904,6 +4076,7 @@
     "level": 80,
     "panoply": "3l",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "zi": {
@@ -3920,6 +4093,7 @@
     "level": 101,
     "panoply": "4k",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 40,
@@ -3949,6 +4123,7 @@
     "level": 50,
     "panoply": "5n",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "wisdom": 25,
       "fireDamage": 5,
@@ -3970,6 +4145,7 @@
     "level": 25,
     "panoply": "7j",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "power": 15,
@@ -3991,6 +4167,7 @@
     "level": 150,
     "panoply": "3m",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -4017,6 +4194,7 @@
     "level": 85,
     "panoply": "4J",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "power": 40,
@@ -4027,8 +4205,8 @@
       "mpResist": 4
     }
   },
-  "M2": {
-    "id": "M2",
+  "M5": {
+    "id": "M5",
     "idDofusDB": "674e524064788cc741419e64",
     "idDofusBook": 13127,
     "name": {
@@ -4041,6 +4219,7 @@
     "level": 194,
     "panoply": "2h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -4056,8 +4235,8 @@
       "pushbackDamage": 20
     }
   },
-  "Kw": {
-    "id": "Kw",
+  "Kz": {
+    "id": "Kz",
     "idDofusDB": "674e524064788cc741419e68",
     "idDofusBook": 13131,
     "name": {
@@ -4070,6 +4249,7 @@
     "level": 186,
     "panoply": "2g",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "strength": 60,
@@ -4087,8 +4267,8 @@
       "criticalResist": 10
     }
   },
-  "NP": {
-    "id": "NP",
+  "NS": {
+    "id": "NS",
     "idDofusDB": "674e524064788cc741419e9b",
     "idDofusBook": 13197,
     "name": {
@@ -4100,6 +4280,7 @@
     },
     "level": 198,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": -251,
       "wisdom": 50,
@@ -4130,6 +4311,7 @@
     "level": 80,
     "panoply": "3n",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "ze": {
@@ -4146,6 +4328,7 @@
     "level": 101,
     "panoply": "4l",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "intelligence": 45,
@@ -4175,6 +4358,7 @@
     },
     "level": 127,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -4191,8 +4375,8 @@
       "pushbackResist": 15
     }
   },
-  "LY": {
-    "id": "LY",
+  "M1": {
+    "id": "M1",
     "idDofusDB": "674e524064788cc74141a035",
     "idDofusBook": 13635,
     "name": {
@@ -4205,6 +4389,7 @@
     "level": 196,
     "panoply": "20",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -4221,8 +4406,8 @@
       "criticalDamage": -16
     }
   },
-  "LI": {
-    "id": "LI",
+  "LL": {
+    "id": "LL",
     "idDofusDB": "674e524064788cc74141a038",
     "idDofusBook": 13638,
     "name": {
@@ -4235,6 +4420,7 @@
     "level": 198,
     "panoply": "1K",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -4252,8 +4438,8 @@
       "criticalDamage": -16
     }
   },
-  "LT": {
-    "id": "LT",
+  "LW": {
+    "id": "LW",
     "idDofusDB": "674e524064788cc74141a03f",
     "idDofusBook": 13645,
     "name": {
@@ -4266,6 +4452,7 @@
     "level": 194,
     "panoply": "1M",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -4285,8 +4472,8 @@
       "criticalResist": 15
     }
   },
-  "Mb": {
-    "id": "Mb",
+  "Me": {
+    "id": "Me",
     "idDofusDB": "674e524064788cc74141a042",
     "idDofusBook": 13648,
     "name": {
@@ -4299,6 +4486,7 @@
     "level": 196,
     "panoply": "1N",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "wisdom": 60,
@@ -4315,8 +4503,8 @@
       "waterResistPer": 10
     }
   },
-  "Mz": {
-    "id": "Mz",
+  "MC": {
+    "id": "MC",
     "idDofusDB": "674e524064788cc74141a04a",
     "idDofusBook": 13657,
     "name": {
@@ -4329,6 +4517,7 @@
     "level": 196,
     "panoply": "2b",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -4380,6 +4569,7 @@
     },
     "level": 151,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "wisdom": 40,
@@ -4394,8 +4584,8 @@
       "criticalDamage": 10
     }
   },
-  "N5": {
-    "id": "N5",
+  "N8": {
+    "id": "N8",
     "idDofusDB": "674e524164788cc74141a1b5",
     "idDofusBook": 14051,
     "name": {
@@ -4408,6 +4598,7 @@
     "level": 197,
     "panoply": "1O",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "agility": 70,
@@ -4421,8 +4612,8 @@
       "pushbackResist": 30
     }
   },
-  "N1": {
-    "id": "N1",
+  "N4": {
+    "id": "N4",
     "idDofusDB": "674e524164788cc74141a1bb",
     "idDofusBook": 14057,
     "name": {
@@ -4435,6 +4626,7 @@
     "level": 197,
     "panoply": "21",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "chance": 80,
@@ -4448,8 +4640,8 @@
       "dodge": 15
     }
   },
-  "MW": {
-    "id": "MW",
+  "MZ": {
+    "id": "MZ",
     "idDofusDB": "674e524164788cc74141a1c2",
     "idDofusBook": 14064,
     "name": {
@@ -4462,6 +4654,7 @@
     "level": 198,
     "panoply": "1E",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 80,
@@ -4474,8 +4667,8 @@
       "airResistPer": 10
     }
   },
-  "Mu": {
-    "id": "Mu",
+  "Mx": {
+    "id": "Mx",
     "idDofusDB": "674e524164788cc74141a1c9",
     "idDofusBook": 14071,
     "name": {
@@ -4488,6 +4681,7 @@
     "level": 198,
     "panoply": "1Q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 80,
@@ -4501,8 +4695,8 @@
       "mpResist": 6
     }
   },
-  "MP": {
-    "id": "MP",
+  "MS": {
+    "id": "MS",
     "idDofusDB": "674e524164788cc74141a1cc",
     "idDofusBook": 14074,
     "name": {
@@ -4515,6 +4709,7 @@
     "level": 198,
     "panoply": "1R",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 30,
@@ -4531,8 +4726,8 @@
       "pushbackResist": -16
     }
   },
-  "Tq": {
-    "id": "Tq",
+  "Tt": {
+    "id": "Tt",
     "idDofusDB": "674e524164788cc74141a1d7",
     "idDofusBook": 14085,
     "name": {
@@ -4545,6 +4740,7 @@
     "level": 200,
     "panoply": "05",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "chance": 100,
@@ -4560,8 +4756,8 @@
       "dodge": 12
     }
   },
-  "Td": {
-    "id": "Td",
+  "Tg": {
+    "id": "Tg",
     "idDofusDB": "674e524164788cc74141a20d",
     "idDofusBook": 14159,
     "name": {
@@ -4573,6 +4769,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "intelligence": 60,
@@ -4591,8 +4788,8 @@
       "criticalDamage": 12
     }
   },
-  "Tc": {
-    "id": "Tc",
+  "Tf": {
+    "id": "Tf",
     "idDofusDB": "674e524164788cc74141a20f",
     "idDofusBook": 14161,
     "name": {
@@ -4605,6 +4802,7 @@
     "level": 200,
     "panoply": "1u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 60,
@@ -4620,8 +4818,8 @@
       "lock": -11
     }
   },
-  "NN": {
-    "id": "NN",
+  "NQ": {
+    "id": "NQ",
     "idDofusDB": "674e524164788cc74141a216",
     "idDofusBook": 14168,
     "name": {
@@ -4633,6 +4831,7 @@
     },
     "level": 198,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 100,
@@ -4660,6 +4859,7 @@
     "level": 81,
     "panoply": "4M",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 30,
@@ -4686,6 +4886,7 @@
     "level": 119,
     "panoply": "45",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "strength": 40,
@@ -4698,8 +4899,8 @@
       "criticalDamage": 10
     }
   },
-  "MM": {
-    "id": "MM",
+  "MP": {
+    "id": "MP",
     "idDofusDB": "674e524164788cc74141a452",
     "idDofusBook": 14885,
     "name": {
@@ -4712,6 +4913,7 @@
     "level": 197,
     "panoply": "1G",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 50,
@@ -4729,8 +4931,8 @@
       "pushbackResist": 30
     }
   },
-  "R3": {
-    "id": "R3",
+  "R6": {
+    "id": "R6",
     "idDofusDB": "674e524164788cc74141a486",
     "idDofusBook": 14937,
     "name": {
@@ -4743,6 +4945,7 @@
     "level": 200,
     "panoply": "1c",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -4794,6 +4997,7 @@
     "level": 109,
     "panoply": "4f",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "wisdom": 30,
@@ -4819,6 +5023,7 @@
     "level": 40,
     "panoply": "6J",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 60,
       "intelligence": 20,
@@ -4841,6 +5046,7 @@
     "level": 160,
     "panoply": "2O",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "chance": 60,
@@ -4854,8 +5060,8 @@
       "criticalResist": 15
     }
   },
-  "T3": {
-    "id": "T3",
+  "T6": {
+    "id": "T6",
     "idDofusDB": "674e524164788cc74141a556",
     "idDofusBook": 15184,
     "name": {
@@ -4868,6 +5074,7 @@
     "level": 200,
     "panoply": "09",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "chance": 60,
@@ -4884,8 +5091,8 @@
       "pushbackDamage": 15
     }
   },
-  "SQ": {
-    "id": "SQ",
+  "ST": {
+    "id": "ST",
     "idDofusDB": "674e524164788cc74141a563",
     "idDofusBook": 15197,
     "name": {
@@ -4898,6 +5105,7 @@
     "level": 200,
     "panoply": "0d",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 60,
@@ -4928,6 +5136,7 @@
     "level": 149,
     "panoply": "37",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "wisdom": 50,
@@ -4954,6 +5163,7 @@
     "level": 146,
     "panoply": "34",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 40,
@@ -4982,6 +5192,7 @@
     "level": 104,
     "panoply": "4r",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "strength": 30,
@@ -5010,6 +5221,7 @@
     "level": 130,
     "panoply": "3S",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "agility": 50,
@@ -5023,8 +5235,8 @@
       "apResist": 7
     }
   },
-  "SN": {
-    "id": "SN",
+  "SQ": {
+    "id": "SQ",
     "idDofusDB": "674e524164788cc74141a63b",
     "idDofusBook": 15430,
     "name": {
@@ -5037,6 +5249,7 @@
     "level": 200,
     "panoply": "0e",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -5051,8 +5264,8 @@
       "apReduction": 6
     }
   },
-  "SE": {
-    "id": "SE",
+  "SH": {
+    "id": "SH",
     "idDofusDB": "674e524164788cc74141a644",
     "idDofusBook": 15439,
     "name": {
@@ -5065,6 +5278,7 @@
     "level": 200,
     "panoply": "0h",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -5095,6 +5309,7 @@
     "level": 182,
     "panoply": "2v",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -5124,6 +5339,7 @@
     "level": 182,
     "panoply": "2w",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -5152,6 +5368,7 @@
     "level": 126,
     "panoply": "3M",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "wisdom": 30,
@@ -5163,8 +5380,8 @@
       "criticalResist": 15
     }
   },
-  "Sy": {
-    "id": "Sy",
+  "SB": {
+    "id": "SB",
     "idDofusDB": "674e524164788cc74141a73a",
     "idDofusBook": 15696,
     "name": {
@@ -5177,6 +5394,7 @@
     "level": 200,
     "panoply": "1j",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "wisdom": 50,
@@ -5191,8 +5409,8 @@
       "pushbackResist": 15
     }
   },
-  "Su": {
-    "id": "Su",
+  "Sx": {
+    "id": "Sx",
     "idDofusDB": "674e524164788cc74141a73b",
     "idDofusBook": 15697,
     "name": {
@@ -5205,6 +5423,7 @@
     "level": 200,
     "panoply": "1i",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "wisdom": 50,
@@ -5220,8 +5439,8 @@
       "criticalDamage": -20
     }
   },
-  "Sn": {
-    "id": "Sn",
+  "Sq": {
+    "id": "Sq",
     "idDofusDB": "674e524164788cc74141a765",
     "idDofusBook": 15739,
     "name": {
@@ -5234,6 +5453,7 @@
     "level": 200,
     "panoply": "0j",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "agility": 60,
@@ -5250,8 +5470,8 @@
       "pushbackDamage": 20
     }
   },
-  "Sg": {
-    "id": "Sg",
+  "Sj": {
+    "id": "Sj",
     "idDofusDB": "674e524164788cc74141a76d",
     "idDofusBook": 15747,
     "name": {
@@ -5264,6 +5484,7 @@
     "level": 200,
     "panoply": "0m",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "wisdom": 40,
@@ -5289,6 +5510,7 @@
     "level": 125,
     "panoply": "42",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 30,
@@ -5318,6 +5540,7 @@
     "level": 38,
     "panoply": "6S",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "intelligence": 40,
       "power": 15,
@@ -5339,6 +5562,7 @@
     "level": 80,
     "panoply": "3s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "5v": {
@@ -5355,6 +5579,7 @@
     "level": 20,
     "panoply": "7q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "chance": 15,
@@ -5375,6 +5600,7 @@
     "level": 94,
     "panoply": "4A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 80,
       "strength": 30,
@@ -5401,6 +5627,7 @@
     "level": 12,
     "panoply": "7C",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "strength": 10,
       "chance": 10
@@ -5420,6 +5647,7 @@
     "level": 8,
     "panoply": "7L",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 15,
       "power": 10
@@ -5439,6 +5667,7 @@
     "level": 103,
     "panoply": "4u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "intelligence": 40,
@@ -5466,6 +5695,7 @@
     "level": 162,
     "panoply": "2P",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -5482,8 +5712,8 @@
       "criticalResist": 15
     }
   },
-  "S3": {
-    "id": "S3",
+  "S6": {
+    "id": "S6",
     "idDofusDB": "674e524164788cc74141ab9e",
     "idDofusBook": 17106,
     "name": {
@@ -5496,6 +5726,7 @@
     "level": 200,
     "panoply": "0q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -5525,6 +5756,7 @@
     "level": 92,
     "panoply": "4B",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "chance": 35,
@@ -5551,10 +5783,11 @@
     "level": 80,
     "panoply": "3t",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
-  "RW": {
-    "id": "RW",
+  "RZ": {
+    "id": "RZ",
     "idDofusDB": "674e524164788cc74141ace6",
     "idDofusBook": 17577,
     "name": {
@@ -5567,6 +5800,7 @@
     "level": 200,
     "panoply": "0s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 70,
@@ -5584,8 +5818,8 @@
       "criticalDamage": 15
     }
   },
-  "RT": {
-    "id": "RT",
+  "RW": {
+    "id": "RW",
     "idDofusDB": "674e524164788cc74141ace9",
     "idDofusBook": 17580,
     "name": {
@@ -5598,6 +5832,7 @@
     "level": 200,
     "panoply": "0t",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 40,
@@ -5616,8 +5851,8 @@
       "criticalResist": 20
     }
   },
-  "RQ": {
-    "id": "RQ",
+  "RT": {
+    "id": "RT",
     "idDofusDB": "674e524164788cc74141acec",
     "idDofusBook": 17583,
     "name": {
@@ -5630,6 +5865,7 @@
     "level": 200,
     "panoply": "0u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "agility": 80,
@@ -5645,8 +5881,8 @@
       "pushbackResist": 20
     }
   },
-  "RO": {
-    "id": "RO",
+  "RR": {
+    "id": "RR",
     "idDofusDB": "674e524164788cc74141aced",
     "idDofusBook": 17584,
     "name": {
@@ -5659,6 +5895,7 @@
     "level": 200,
     "panoply": "0v",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 60,
@@ -5690,6 +5927,7 @@
     "level": 162,
     "panoply": "2Q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -5718,6 +5956,7 @@
     "level": 112,
     "panoply": "4a",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -5733,8 +5972,8 @@
       "apResist": 4
     }
   },
-  "RI": {
-    "id": "RI",
+  "RL": {
+    "id": "RL",
     "idDofusDB": "674e524164788cc74141ae65",
     "idDofusBook": 18002,
     "name": {
@@ -5746,6 +5985,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -5779,8 +6019,8 @@
       "mpResist": 7
     }
   },
-  "RC": {
-    "id": "RC",
+  "RF": {
+    "id": "RF",
     "idDofusDB": "674e524164788cc74141ae68",
     "idDofusBook": 18005,
     "name": {
@@ -5793,6 +6033,7 @@
     "level": 200,
     "panoply": "1s",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "chance": 80,
@@ -5805,8 +6046,8 @@
       "lock": 20
     }
   },
-  "Ry": {
-    "id": "Ry",
+  "RB": {
+    "id": "RB",
     "idDofusDB": "674e524164788cc74141ae6b",
     "idDofusBook": 18008,
     "name": {
@@ -5819,6 +6060,7 @@
     "level": 200,
     "panoply": "1q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "agility": 90,
@@ -5829,8 +6071,8 @@
       "criticalDamage": 15
     }
   },
-  "Rr": {
-    "id": "Rr",
+  "Ru": {
+    "id": "Ru",
     "idDofusDB": "674e524164788cc74141ae7b",
     "idDofusBook": 18024,
     "name": {
@@ -5843,6 +6085,7 @@
     "level": 200,
     "panoply": "0y",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 50,
@@ -5859,8 +6102,8 @@
       "criticalDamage": 15
     }
   },
-  "Ri": {
-    "id": "Ri",
+  "Rl": {
+    "id": "Rl",
     "idDofusDB": "674e524164788cc74141ae85",
     "idDofusBook": 18034,
     "name": {
@@ -5873,6 +6116,7 @@
     "level": 200,
     "panoply": "0A",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 70,
@@ -5904,6 +6148,7 @@
     "level": 78,
     "panoply": "4N",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 80,
       "strength": 35,
@@ -5928,6 +6173,7 @@
     "level": 79,
     "panoply": "4Q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 70,
       "agility": 60,
@@ -5952,6 +6198,7 @@
     "level": 129,
     "panoply": "3O",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "strength": 50,
@@ -5980,6 +6227,7 @@
     "level": 171,
     "panoply": "2F",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 60,
@@ -5996,8 +6244,8 @@
       "criticalResist": 15
     }
   },
-  "R7": {
-    "id": "R7",
+  "Ra": {
+    "id": "Ra",
     "idDofusDB": "674e524164788cc74141b07c",
     "idDofusBook": 18591,
     "name": {
@@ -6010,6 +6258,7 @@
     "level": 200,
     "panoply": "0C",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "chance": 40,
@@ -6026,8 +6275,8 @@
       "criticalDamage": 30
     }
   },
-  "R9": {
-    "id": "R9",
+  "Rc": {
+    "id": "Rc",
     "idDofusDB": "674e524164788cc74141b082",
     "idDofusBook": 18597,
     "name": {
@@ -6040,6 +6289,7 @@
     "level": 200,
     "panoply": "1o",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "strength": 80,
@@ -6069,10 +6319,11 @@
     "level": 80,
     "panoply": "3u",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
-  "LB": {
-    "id": "LB",
+  "LE": {
+    "id": "LE",
     "idDofusDB": "674e524164788cc74141b120",
     "idDofusBook": 18777,
     "name": {
@@ -6085,6 +6336,7 @@
     "level": 197,
     "panoply": "25",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "chance": 50,
@@ -6099,8 +6351,8 @@
       "mpReduction": 7
     }
   },
-  "QP": {
-    "id": "QP",
+  "QS": {
+    "id": "QS",
     "idDofusDB": "674e524164788cc74141b1d7",
     "idDofusBook": 19076,
     "name": {
@@ -6113,6 +6365,7 @@
     "level": 200,
     "panoply": "0E",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "criticalChance": 10,
@@ -6139,6 +6392,7 @@
     "level": 70,
     "panoply": "4Z",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 90,
       "intelligence": 30,
@@ -6163,6 +6417,7 @@
     "level": 90,
     "panoply": "4E",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "intelligence": 50,
@@ -6187,6 +6442,7 @@
     "level": 100,
     "panoply": "4v",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 120,
       "strength": 40,
@@ -6201,8 +6457,8 @@
       "pushbackDamage": 15
     }
   },
-  "QI": {
-    "id": "QI",
+  "QL": {
+    "id": "QL",
     "idDofusDB": "674e524164788cc74141b26c",
     "idDofusBook": 19243,
     "name": {
@@ -6215,6 +6471,7 @@
     "level": 200,
     "panoply": "0G",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -6231,8 +6488,8 @@
       "pushbackDamage": 25
     }
   },
-  "QF": {
-    "id": "QF",
+  "QI": {
+    "id": "QI",
     "idDofusDB": "674e524164788cc74141b26f",
     "idDofusBook": 19246,
     "name": {
@@ -6245,6 +6502,7 @@
     "level": 200,
     "panoply": "0H",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -6261,8 +6519,8 @@
       "criticalDamage": 10
     }
   },
-  "Qx": {
-    "id": "Qx",
+  "QA": {
+    "id": "QA",
     "idDofusDB": "674e524164788cc74141b276",
     "idDofusBook": 19253,
     "name": {
@@ -6275,6 +6533,7 @@
     "level": 200,
     "panoply": "0K",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "chance": 90,
@@ -6289,8 +6548,8 @@
       "apResist": 7
     }
   },
-  "Qu": {
-    "id": "Qu",
+  "Qx": {
+    "id": "Qx",
     "idDofusDB": "674e524164788cc74141b279",
     "idDofusBook": 19256,
     "name": {
@@ -6303,6 +6562,7 @@
     "level": 200,
     "panoply": "0L",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 300,
       "intelligence": 60,
@@ -6319,8 +6579,8 @@
       "mpReduction": 7
     }
   },
-  "Qi": {
-    "id": "Qi",
+  "Ql": {
+    "id": "Ql",
     "idDofusDB": "674e524164788cc74141b398",
     "idDofusBook": 19589,
     "name": {
@@ -6333,6 +6593,7 @@
     "level": 200,
     "panoply": "0O",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 70,
@@ -6348,8 +6609,8 @@
       "mpResist": 7
     }
   },
-  "Qc": {
-    "id": "Qc",
+  "Qf": {
+    "id": "Qf",
     "idDofusDB": "674e524164788cc74141b39a",
     "idDofusBook": 19591,
     "name": {
@@ -6362,6 +6623,7 @@
     "level": 200,
     "panoply": "0P",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -6377,8 +6639,8 @@
       "lock": 15
     }
   },
-  "Q5": {
-    "id": "Q5",
+  "Q8": {
+    "id": "Q8",
     "idDofusDB": "674e524164788cc74141b3a4",
     "idDofusBook": 19601,
     "name": {
@@ -6391,6 +6653,7 @@
     "level": 200,
     "panoply": "0Q",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "agility": 60,
@@ -6403,8 +6666,8 @@
       "pushbackResist": 35
     }
   },
-  "Q0": {
-    "id": "Q0",
+  "Q3": {
+    "id": "Q3",
     "idDofusDB": "674e524164788cc74141b3aa",
     "idDofusBook": 19607,
     "name": {
@@ -6417,6 +6680,7 @@
     "level": 200,
     "panoply": "1k",
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -6451,8 +6715,8 @@
       "pushbackDamage": 15
     }
   },
-  "PS": {
-    "id": "PS",
+  "PV": {
+    "id": "PV",
     "idDofusDB": "674e524164788cc74141b518",
     "idDofusBook": 19979,
     "name": {
@@ -6465,6 +6729,7 @@
     "level": 200,
     "panoply": "0T",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "intelligence": 80,
@@ -6481,8 +6746,8 @@
       "dodge": 7
     }
   },
-  "PH": {
-    "id": "PH",
+  "PK": {
+    "id": "PK",
     "idDofusDB": "674e524164788cc74141b677",
     "idDofusBook": 20361,
     "name": {
@@ -6494,6 +6759,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "strength": 100,
@@ -6512,8 +6778,8 @@
       "criticalResist": -30
     }
   },
-  "PG": {
-    "id": "PG",
+  "PJ": {
+    "id": "PJ",
     "idDofusDB": "674e524164788cc74141b678",
     "idDofusBook": 20362,
     "name": {
@@ -6525,6 +6791,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "wisdom": 60,
@@ -6534,8 +6801,8 @@
       "spellDamagePer": 4
     }
   },
-  "PA": {
-    "id": "PA",
+  "PD": {
+    "id": "PD",
     "idDofusDB": "674e524164788cc74141b6db",
     "idDofusBook": 20464,
     "name": {
@@ -6548,6 +6815,7 @@
     "level": 200,
     "panoply": "0V",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 80,
@@ -6578,6 +6846,7 @@
     "level": 130,
     "panoply": "3V",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "strength": 35,
@@ -6590,8 +6859,8 @@
       "pushbackDamage": 20
     }
   },
-  "Pm": {
-    "id": "Pm",
+  "Pp": {
+    "id": "Pp",
     "idDofusDB": "674e524164788cc74141b960",
     "idDofusBook": 21230,
     "name": {
@@ -6604,6 +6873,7 @@
     "level": 200,
     "panoply": "0Y",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "strength": 50,
@@ -6619,8 +6889,8 @@
       "criticalDamage": 12
     }
   },
-  "Pd": {
-    "id": "Pd",
+  "Pg": {
+    "id": "Pg",
     "idDofusDB": "674e524164788cc74141bcf3",
     "idDofusBook": 22201,
     "name": {
@@ -6633,6 +6903,7 @@
     "level": 200,
     "panoply": "11",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "chance": 100,
@@ -6649,8 +6920,8 @@
       "pushbackResist": 40
     }
   },
-  "P6": {
-    "id": "P6",
+  "P9": {
+    "id": "P9",
     "idDofusDB": "674e524164788cc74141bd01",
     "idDofusBook": 22215,
     "name": {
@@ -6662,6 +6933,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 80,
@@ -6677,8 +6949,8 @@
       "pushbackDamage": 60
     }
   },
-  "P5": {
-    "id": "P5",
+  "P8": {
+    "id": "P8",
     "idDofusDB": "674e524164788cc74141bdaa",
     "idDofusBook": 22412,
     "name": {
@@ -6690,6 +6962,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -6724,6 +6997,7 @@
     "level": 126,
     "panoply": "3W",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "chance": 50,
@@ -6751,6 +7025,7 @@
     "level": 112,
     "panoply": "4d",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 100,
       "strength": 30,
@@ -6785,6 +7060,7 @@
     "level": 128,
     "panoply": "3X",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "agility": 70,
@@ -6810,6 +7086,7 @@
     },
     "level": 132,
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -6838,6 +7115,7 @@
     "level": 140,
     "panoply": "3E",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 150,
       "intelligence": 50,
@@ -6864,6 +7142,7 @@
     "level": 154,
     "panoply": "2Y",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 60,
@@ -6896,6 +7175,7 @@
     "level": 159,
     "panoply": "2V",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -6915,8 +7195,8 @@
       "pushbackResist": -15
     }
   },
-  "Ot": {
-    "id": "Ot",
+  "Ow": {
+    "id": "Ow",
     "idDofusDB": "674e524164788cc74141c1fe",
     "idDofusBook": 24027,
     "name": {
@@ -6929,6 +7209,7 @@
     "level": 200,
     "panoply": "14",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "strength": 70,
@@ -6948,8 +7229,8 @@
       "mpResist": -12
     }
   },
-  "OR": {
-    "id": "OR",
+  "OU": {
+    "id": "OU",
     "idDofusDB": "674e524164788cc74141c371",
     "idDofusBook": 25221,
     "name": {
@@ -6961,6 +7242,7 @@
     },
     "level": 200,
     "category": "cloak",
+    "subCategory": "cloak",
     "requirements": [
       [
         {
@@ -7010,6 +7292,7 @@
     "level": 148,
     "panoply": "3w",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 250,
       "intelligence": 50,
@@ -7023,8 +7306,8 @@
       "pushbackDamage": 20
     }
   },
-  "OF": {
-    "id": "OF",
+  "OI": {
+    "id": "OI",
     "idDofusDB": "674e524164788cc74141c92a",
     "idDofusBook": 27512,
     "name": {
@@ -7037,6 +7320,7 @@
     "level": 200,
     "panoply": "1a",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 500,
       "wisdom": 40,
@@ -7067,6 +7351,7 @@
     "level": 50,
     "panoply": "5L",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 50,
       "strength": 30,
@@ -7091,6 +7376,7 @@
     "level": 50,
     "panoply": "5M",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 30,
       "strength": 40,
@@ -7114,6 +7400,7 @@
     "level": 80,
     "panoply": "3x",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {}
   },
   "JH": {
@@ -7130,6 +7417,7 @@
     "level": 178,
     "panoply": "2x",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "agility": 30,
@@ -7144,8 +7432,8 @@
       "dodge": 10
     }
   },
-  "No": {
-    "id": "No",
+  "Nr": {
+    "id": "Nr",
     "idDofusDB": "687f71551c81517356061804",
     "idDofusBook": 31769,
     "name": {
@@ -7158,6 +7446,7 @@
     "level": 197,
     "panoply": "28",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 350,
       "wisdom": 40,
@@ -7187,6 +7476,7 @@
     "level": 172,
     "panoply": "2H",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -7204,8 +7494,8 @@
       "pushbackResist": -20
     }
   },
-  "NZ": {
-    "id": "NZ",
+  "O2": {
+    "id": "O2",
     "idDofusDB": "687f71551c8151735606181f",
     "idDofusBook": 31797,
     "name": {
@@ -7218,6 +7508,7 @@
     "level": 200,
     "panoply": "1v",
     "category": "cloak",
+    "subCategory": "cloak",
     "stats": {
       "health": 400,
       "intelligence": 100,

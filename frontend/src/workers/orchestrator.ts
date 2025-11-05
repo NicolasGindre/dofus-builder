@@ -71,9 +71,8 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         combinationDone.set(0);
         error.set(null);
 
-        let workerCount = multiThreading
-            ? Math.max(1, Math.min((navigator.hardwareConcurrency || 4) - 1, 8))
-            : 1;
+        const cores = navigator.hardwareConcurrency || 4;
+        let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
 
         let partialPayload: Payload[] = [];
         const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);

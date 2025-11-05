@@ -92,7 +92,8 @@ macro_rules! define_value {
 
 stat_fields!(define_value);
 
-use std::ops::AddAssign;
+// use std::ops::AddAssign;
+use std::ops::{AddAssign, Sub};
 
 macro_rules! define_add_assign {
     ( $( $field:ident ),+ ) => {
@@ -106,3 +107,42 @@ macro_rules! define_add_assign {
 }
 
 stat_fields!(define_add_assign);
+
+// macro_rules! define_sub {
+//     ( $( $field:ident ),+ ) => {
+//         impl Sub<&Stats> for &Stats {
+//             type Output = Stats;
+//             fn sub(self, rhs: &Stats) -> Stats {
+//                 Stats {
+//                     $( $field: self.$field - rhs.$field, )+
+//                 }
+//             }
+//         }
+//     };
+// }
+
+// stat_fields!(define_sub);
+
+macro_rules! define_sub_minmax {
+    ( $( $field:ident ),+ ) => {
+        impl Sub<&Stats> for &MaxStats {
+            type Output = MaxStats;
+            fn sub(self, rhs: &Stats) -> MaxStats {
+                MaxStats {
+                    $( $field: self.$field - rhs.$field, )+
+                }
+            }
+        }
+
+        impl Sub<&Stats> for &MinStats {
+            type Output = MinStats;
+            fn sub(self, rhs: &Stats) -> MinStats {
+                MinStats {
+                    $( $field: self.$field - rhs.$field, )+
+                }
+            }
+        }
+    };
+}
+
+stat_fields!(define_sub_minmax);

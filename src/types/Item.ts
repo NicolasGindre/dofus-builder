@@ -13,8 +13,38 @@ export const ITEM_CATEGORIES = [
     "weapon",
     "shield",
 ] as const;
-
 export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
+
+export type SubCategory = (typeof SUB_CATEGORIES)[number];
+export const SUB_CATEGORIES = [
+    "amulet",
+    "belt",
+    "boots",
+    "cloak",
+    "dofus",
+    "trophy",
+    "ring",
+    "hat",
+    "shield",
+
+    "hammer",
+    "scythe",
+    "lance",
+    "bow",
+    "sword",
+    "staff",
+    "dagger",
+    "axe",
+    "shovel",
+    "wand",
+    "pickaxe",
+
+    "pet",
+    "dragoturkey", // mount
+    "rhineetle", // volkorne petsmount ?
+    "seemyool", // petsmount ?
+    "petmount", // montilier
+] as const;
 
 export type Item = {
     id: string;
@@ -27,6 +57,7 @@ export type Item = {
     criterions?: string;
     panoply?: string;
     category: ItemCategory;
+    subCategory: SubCategory;
     stats: ItemStats;
 };
 export type Name = {

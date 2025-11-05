@@ -13,6 +13,7 @@
     "level": 30,
     "panoply": "5U",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 30,
       "chance": 15,
@@ -36,6 +37,7 @@
     "level": 25,
     "panoply": "7i",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 25,
       "agility": 15,
@@ -56,6 +58,7 @@
     "level": 1,
     "panoply": "7N",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 3
     }
@@ -73,6 +76,7 @@
     },
     "level": 100,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 100,
       "wisdom": 20,
@@ -97,6 +101,7 @@
     "level": 65,
     "panoply": "51",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 70,
       "agility": 40,
@@ -119,6 +124,7 @@
     "level": 95,
     "panoply": "4z",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 100,
       "intelligence": 40,
@@ -142,6 +148,7 @@
     "level": 75,
     "panoply": "4L",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 80,
       "strength": 40,
@@ -164,6 +171,7 @@
     "level": 63,
     "panoply": "53",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 70,
       "strength": 25,
@@ -190,6 +198,7 @@
     "level": 20,
     "panoply": "7n",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 20,
       "power": 10
@@ -209,6 +218,7 @@
     "level": 85,
     "panoply": "4B",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 90,
       "chance": 25,
@@ -231,6 +241,7 @@
     },
     "level": 10,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "dodge": 5
     }
@@ -248,6 +259,7 @@
     },
     "level": 55,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 60,
       "intelligence": 25,
@@ -257,8 +269,8 @@
       "pushbackDamage": 20
     }
   },
-  "R2": {
-    "id": "R2",
+  "R5": {
+    "id": "R5",
     "idDofusDB": "674e524164788cc74141b0b8",
     "idDofusBook": 18670,
     "name": {
@@ -271,6 +283,7 @@
     "level": 200,
     "panoply": "1c",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 50,
@@ -301,6 +314,7 @@
     },
     "level": 65,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 70,
       "intelligence": 25,
@@ -323,6 +337,7 @@
     },
     "level": 60,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 60,
       "strength": 25,
@@ -345,6 +360,7 @@
     },
     "level": 105,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 110,
       "strength": 40,
@@ -369,6 +385,7 @@
     },
     "level": 125,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 130,
       "strength": 35,
@@ -392,6 +409,7 @@
     },
     "level": 145,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 150,
       "range": 1,
@@ -415,6 +433,7 @@
     },
     "level": 1,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 7
     }
@@ -432,6 +451,7 @@
     },
     "level": 160,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "chance": 60,
@@ -454,6 +474,7 @@
     },
     "level": 165,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "strength": 60,
@@ -476,6 +497,7 @@
     },
     "level": 170,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "agility": 60,
@@ -498,6 +520,7 @@
     },
     "level": 175,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "intelligence": 60,
@@ -520,6 +543,7 @@
     },
     "level": 150,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 150,
       "wisdom": 40,
@@ -543,6 +567,7 @@
     },
     "level": 45,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 45,
       "strength": 25,
@@ -564,6 +589,7 @@
     },
     "level": 105,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 110,
       "chance": 50,
@@ -587,6 +613,7 @@
     },
     "level": 120,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "criticalChance": 10,
@@ -609,6 +636,7 @@
     },
     "level": 130,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 130,
       "strength": 35,
@@ -633,6 +661,7 @@
     },
     "level": 140,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 140,
       "strength": 35,
@@ -658,6 +687,7 @@
     "level": 40,
     "panoply": "6s",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 40,
       "chance": 25,
@@ -679,6 +709,7 @@
     },
     "level": 155,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 160,
       "power": 30,
@@ -701,6 +732,7 @@
     },
     "level": 90,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 90,
       "strength": 30,
@@ -723,6 +755,7 @@
     },
     "level": 80,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 80,
       "neutralDamage": 10,
@@ -746,6 +779,7 @@
     },
     "level": 50,
     "category": "shield",
+    "subCategory": "shield",
     "criterions": "PK>49999",
     "stats": {
       "health": 50,
@@ -756,8 +790,8 @@
       "pushbackResist": 40
     }
   },
-  "QY": {
-    "id": "QY",
+  "R1": {
+    "id": "R1",
     "idDofusDB": "674e524164788cc74141b0ce",
     "idDofusBook": 18692,
     "name": {
@@ -770,6 +804,7 @@
     "level": 200,
     "panoply": "0D",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -782,8 +817,8 @@
       "meleeResistPer": 7
     }
   },
-  "M6": {
-    "id": "M6",
+  "M9": {
+    "id": "M9",
     "idDofusDB": "674e524164788cc74141b0cf",
     "idDofusBook": 18693,
     "name": {
@@ -796,6 +831,7 @@
     "level": 196,
     "panoply": "1J",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "strength": 70,
@@ -807,8 +843,8 @@
       "dodge": 7
     }
   },
-  "K3": {
-    "id": "K3",
+  "K4": {
+    "id": "K4",
     "idDofusDB": "674e524164788cc74141b0d0",
     "idDofusBook": 18694,
     "name": {
@@ -820,6 +856,7 @@
     },
     "level": 180,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 180,
       "power": 30,
@@ -832,8 +869,8 @@
       "mpReduction": 10
     }
   },
-  "Kt": {
-    "id": "Kt",
+  "Kw": {
+    "id": "Kw",
     "idDofusDB": "674e524164788cc74141b0d1",
     "idDofusBook": 18695,
     "name": {
@@ -845,6 +882,7 @@
     },
     "level": 185,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 190,
       "intelligence": 60,
@@ -855,8 +893,8 @@
       "pushbackResist": 50
     }
   },
-  "QX": {
-    "id": "QX",
+  "R0": {
+    "id": "R0",
     "idDofusDB": "674e524164788cc74141b0d2",
     "idDofusBook": 18696,
     "name": {
@@ -868,6 +906,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -879,8 +918,8 @@
       "apReduction": 12
     }
   },
-  "QW": {
-    "id": "QW",
+  "QZ": {
+    "id": "QZ",
     "idDofusDB": "674e524164788cc74141b0d3",
     "idDofusBook": 18697,
     "name": {
@@ -892,6 +931,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -905,8 +945,8 @@
       "rangedResistPer": 5
     }
   },
-  "L0": {
-    "id": "L0",
+  "L3": {
+    "id": "L3",
     "idDofusDB": "674e524164788cc74141b0d4",
     "idDofusBook": 18698,
     "name": {
@@ -918,6 +958,7 @@
     },
     "level": 190,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 190,
       "chance": 50,
@@ -930,8 +971,8 @@
       "rangedResistPer": 4
     }
   },
-  "Ll": {
-    "id": "Ll",
+  "Lo": {
+    "id": "Lo",
     "idDofusDB": "674e524164788cc74141b0d5",
     "idDofusBook": 18699,
     "name": {
@@ -943,6 +984,7 @@
     },
     "level": 192,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "strength": 60,
@@ -953,8 +995,8 @@
       "rangedResistPer": 5
     }
   },
-  "LF": {
-    "id": "LF",
+  "LI": {
+    "id": "LI",
     "idDofusDB": "674e524164788cc74141b0d6",
     "idDofusBook": 18700,
     "name": {
@@ -966,6 +1008,7 @@
     },
     "level": 193,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "chance": 80,
@@ -975,8 +1018,8 @@
       "criticalResist": 16
     }
   },
-  "LQ": {
-    "id": "LQ",
+  "LT": {
+    "id": "LT",
     "idDofusDB": "674e524164788cc74141b0d7",
     "idDofusBook": 18701,
     "name": {
@@ -989,6 +1032,7 @@
     "level": 194,
     "panoply": "2d",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "power": 35,
@@ -1000,8 +1044,8 @@
       "apReduction": 7
     }
   },
-  "Me": {
-    "id": "Me",
+  "Mh": {
+    "id": "Mh",
     "idDofusDB": "674e524164788cc74141b0d8",
     "idDofusBook": 18702,
     "name": {
@@ -1013,6 +1057,7 @@
     },
     "level": 195,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "neutralResist": 30,
@@ -1038,6 +1083,7 @@
     "level": 197,
     "panoply": "26",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -1051,8 +1097,8 @@
       "pushbackDamage": 35
     }
   },
-  "L8": {
-    "id": "L8",
+  "Lb": {
+    "id": "Lb",
     "idDofusDB": "674e524164788cc74141b0df",
     "idDofusBook": 18709,
     "name": {
@@ -1064,6 +1110,7 @@
     },
     "level": 191,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -1090,6 +1137,7 @@
     },
     "level": 35,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 35,
       "power": 20,
@@ -1097,8 +1145,8 @@
       "neutralResist": 15
     }
   },
-  "NM": {
-    "id": "NM",
+  "NP": {
+    "id": "NP",
     "idDofusDB": "674e524164788cc74141b0e1",
     "idDofusBook": 18711,
     "name": {
@@ -1110,6 +1158,7 @@
     },
     "level": 198,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "wisdom": 30,
@@ -1121,8 +1170,8 @@
       "mpReduction": 12
     }
   },
-  "Ne": {
-    "id": "Ne",
+  "Nh": {
+    "id": "Nh",
     "idDofusDB": "674e524164788cc74141b0e2",
     "idDofusBook": 18712,
     "name": {
@@ -1135,6 +1184,7 @@
     "level": 199,
     "panoply": "1I",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "intelligence": 50,
@@ -1163,6 +1213,7 @@
     "level": 70,
     "panoply": "50",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 70,
       "chance": 40,
@@ -1186,12 +1237,13 @@
     },
     "level": 5,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "criticalChance": 3
     }
   },
-  "QV": {
-    "id": "QV",
+  "QY": {
+    "id": "QY",
     "idDofusDB": "674e524164788cc74141b0e5",
     "idDofusBook": 18715,
     "name": {
@@ -1203,6 +1255,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "chance": 40,
@@ -1215,8 +1268,8 @@
       "rangedResistPer": 4
     }
   },
-  "QR": {
-    "id": "QR",
+  "QU": {
+    "id": "QU",
     "idDofusDB": "674e524164788cc74141b0e7",
     "idDofusBook": 18718,
     "name": {
@@ -1229,6 +1282,7 @@
     "level": 200,
     "panoply": "03",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -1242,8 +1296,8 @@
       "lock": 10
     }
   },
-  "QO": {
-    "id": "QO",
+  "QR": {
+    "id": "QR",
     "idDofusDB": "674e524164788cc74141b1d8",
     "idDofusBook": 19077,
     "name": {
@@ -1256,6 +1310,7 @@
     "level": 200,
     "panoply": "0E",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -1266,8 +1321,8 @@
       "meleeResistPer": 10
     }
   },
-  "QL": {
-    "id": "QL",
+  "QO": {
+    "id": "QO",
     "idDofusDB": "674e524164788cc74141b1db",
     "idDofusBook": 19080,
     "name": {
@@ -1280,6 +1335,7 @@
     "level": 200,
     "panoply": "0F",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 60,
@@ -1307,6 +1363,7 @@
     "level": 90,
     "panoply": "4D",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 90,
       "intelligence": 30,
@@ -1332,12 +1389,13 @@
     "level": 20,
     "panoply": "7q",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 40
     }
   },
-  "Qs": {
-    "id": "Qs",
+  "Qv": {
+    "id": "Qv",
     "idDofusDB": "674e524164788cc74141b27c",
     "idDofusBook": 19259,
     "name": {
@@ -1349,6 +1407,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "power": 40,
@@ -1361,8 +1420,8 @@
       "rangedResistPer": 5
     }
   },
-  "Qr": {
-    "id": "Qr",
+  "Qu": {
+    "id": "Qu",
     "idDofusDB": "674e524164788cc74141b27d",
     "idDofusBook": 19260,
     "name": {
@@ -1374,6 +1433,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "power": 40,
@@ -1386,8 +1446,8 @@
       "meleeResistPer": 7
     }
   },
-  "Qo": {
-    "id": "Qo",
+  "Qr": {
+    "id": "Qr",
     "idDofusDB": "674e524164788cc74141b280",
     "idDofusBook": 19263,
     "name": {
@@ -1400,6 +1460,7 @@
     "level": 200,
     "panoply": "0M",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "chance": 70,
@@ -1412,8 +1473,8 @@
       "mpResist": 10
     }
   },
-  "Q9": {
-    "id": "Q9",
+  "Qc": {
+    "id": "Qc",
     "idDofusDB": "674e524164788cc74141b3a1",
     "idDofusBook": 19598,
     "name": {
@@ -1426,6 +1487,7 @@
     "level": 200,
     "panoply": "0P",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 70,
@@ -1436,8 +1498,8 @@
       "pushbackResist": 80
     }
   },
-  "PL": {
-    "id": "PL",
+  "PO": {
+    "id": "PO",
     "idDofusDB": "674e524164788cc74141b673",
     "idDofusBook": 20357,
     "name": {
@@ -1449,6 +1511,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 300,
       "wisdom": 60,
@@ -1461,8 +1524,8 @@
       "rangedResistPer": 10
     }
   },
-  "PK": {
-    "id": "PK",
+  "PN": {
+    "id": "PN",
     "idDofusDB": "674e524164788cc74141b674",
     "idDofusBook": 20358,
     "name": {
@@ -1474,6 +1537,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 300,
       "wisdom": 40,
@@ -1486,8 +1550,8 @@
       "pushbackResist": -100
     }
   },
-  "Pu": {
-    "id": "Pu",
+  "Px": {
+    "id": "Px",
     "idDofusDB": "674e524164788cc74141b846",
     "idDofusBook": 20926,
     "name": {
@@ -1500,6 +1564,7 @@
     "level": 200,
     "panoply": "0W",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 40,
@@ -1514,8 +1579,8 @@
       "mpReduction": 15
     }
   },
-  "Pr": {
-    "id": "Pr",
+  "Pu": {
+    "id": "Pu",
     "idDofusDB": "674e524164788cc74141b95b",
     "idDofusBook": 21225,
     "name": {
@@ -1528,6 +1593,7 @@
     "level": 200,
     "panoply": "1g",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "power": 50,
@@ -1538,8 +1604,8 @@
       "mpResist": 12
     }
   },
-  "Ph": {
-    "id": "Ph",
+  "Pk": {
+    "id": "Pk",
     "idDofusDB": "674e524164788cc74141bcee",
     "idDofusBook": 22191,
     "name": {
@@ -1552,6 +1618,7 @@
     "level": 200,
     "panoply": "10",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "intelligence": 80,
@@ -1578,6 +1645,7 @@
     "level": 110,
     "panoply": "4d",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 110,
       "wisdom": 20,
@@ -1603,6 +1671,7 @@
     },
     "level": 130,
     "category": "shield",
+    "subCategory": "shield",
     "criterions": "Qf=2183",
     "stats": {
       "lock": -10,
@@ -1623,6 +1692,7 @@
     "level": 155,
     "panoply": "2Y",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 160,
       "strength": 35,
@@ -1637,8 +1707,8 @@
       "apReduction": 6
     }
   },
-  "OS": {
-    "id": "OS",
+  "OV": {
+    "id": "OV",
     "idDofusDB": "674e524164788cc74141c370",
     "idDofusBook": 25220,
     "name": {
@@ -1651,6 +1721,7 @@
     "level": 200,
     "panoply": "16",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 70,
@@ -1662,8 +1733,8 @@
       "pushbackDamage": 30
     }
   },
-  "L7": {
-    "id": "L7",
+  "La": {
+    "id": "La",
     "idDofusDB": "674e524164788cc74141c942",
     "idDofusBook": 27537,
     "name": {
@@ -1676,6 +1747,7 @@
     "level": 194,
     "panoply": "2j",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "strength": 50,
@@ -1687,8 +1759,8 @@
       "meleeResistPer": 6
     }
   },
-  "OB": {
-    "id": "OB",
+  "OE": {
+    "id": "OE",
     "idDofusDB": "674e524164788cc74141c949",
     "idDofusBook": 27544,
     "name": {
@@ -1701,6 +1773,7 @@
     "level": 200,
     "panoply": "1b",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "wisdom": 40,
@@ -1725,12 +1798,13 @@
     },
     "level": 15,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "initiative": 150
     }
   },
-  "Lc": {
-    "id": "Lc",
+  "Lf": {
+    "id": "Lf",
     "idDofusDB": "674e524164788cc74141cec9",
     "idDofusBook": 30060,
     "name": {
@@ -1743,6 +1817,7 @@
     "level": 197,
     "panoply": "1Y",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "agility": 70,
@@ -1768,6 +1843,7 @@
     "level": 35,
     "panoply": "6X",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 35,
       "intelligence": 15,
@@ -1775,8 +1851,8 @@
       "reflect": 4
     }
   },
-  "Os": {
-    "id": "Os",
+  "Ov": {
+    "id": "Ov",
     "idDofusDB": "674e524164788cc74141d120",
     "idDofusBook": 30682,
     "name": {
@@ -1789,6 +1865,7 @@
     "level": 200,
     "panoply": "14",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 70,
@@ -1805,8 +1882,8 @@
       "criticalResist": 15
     }
   },
-  "Oo": {
-    "id": "Oo",
+  "Or": {
+    "id": "Or",
     "idDofusDB": "674e524164788cc74141d121",
     "idDofusBook": 30683,
     "name": {
@@ -1819,6 +1896,7 @@
     "level": 200,
     "panoply": "13",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "intelligence": 70,
@@ -1848,6 +1926,7 @@
     },
     "level": 135,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 140,
       "intelligence": 35,
@@ -1873,6 +1952,7 @@
     },
     "level": 135,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 140,
       "power": 30,
@@ -1899,6 +1979,7 @@
     },
     "level": 135,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 140,
       "power": 30,
@@ -1926,6 +2007,7 @@
     "level": 30,
     "panoply": "74",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 30,
       "intelligence": 30,
@@ -1946,6 +2028,7 @@
     },
     "level": 80,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 40,
       "power": 40,
@@ -1955,8 +2038,8 @@
       "pushbackResist": -30
     }
   },
-  "Ls": {
-    "id": "Ls",
+  "Lv": {
+    "id": "Lv",
     "idDofusDB": "674e524164788cc74141d127",
     "idDofusBook": 30689,
     "name": {
@@ -1969,6 +2052,7 @@
     "level": 196,
     "panoply": "1X",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "intelligence": 70,
@@ -1980,8 +2064,8 @@
       "apResist": 7
     }
   },
-  "KO": {
-    "id": "KO",
+  "KR": {
+    "id": "KR",
     "idDofusDB": "674e524164788cc74141d128",
     "idDofusBook": 30690,
     "name": {
@@ -1994,6 +2078,7 @@
     "level": 195,
     "panoply": "2a",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "chance": 70,
@@ -2018,6 +2103,7 @@
     },
     "level": 15,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "summon": 1
     }
@@ -2036,6 +2122,7 @@
     "level": 160,
     "panoply": "2K",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 160,
       "intelligence": 50,
@@ -2063,6 +2150,7 @@
     },
     "level": 115,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 120,
       "intelligence": 40,
@@ -2087,6 +2175,7 @@
     "level": 1,
     "panoply": "7M",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "neutralResist": 1,
       "earthResist": 1,
@@ -2095,8 +2184,8 @@
       "airResist": 1
     }
   },
-  "Ok": {
-    "id": "Ok",
+  "On": {
+    "id": "On",
     "idDofusDB": "674e524164788cc74141d1cc",
     "idDofusBook": 30858,
     "name": {
@@ -2109,6 +2198,7 @@
     "level": 200,
     "panoply": "1e",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "strength": 80,
@@ -2135,6 +2225,7 @@
     "level": 182,
     "panoply": "2x",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 180,
       "wisdom": 30,
@@ -2146,8 +2237,8 @@
       "neutralResist": 20
     }
   },
-  "Oa": {
-    "id": "Oa",
+  "Od": {
+    "id": "Od",
     "idDofusDB": "687f71551c815173560617f8",
     "idDofusBook": 31757,
     "name": {
@@ -2160,6 +2251,7 @@
     "level": 200,
     "panoply": "1x",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 250,
       "intelligence": 60,
@@ -2173,8 +2265,8 @@
       "pushbackDamage": 25
     }
   },
-  "Nr": {
-    "id": "Nr",
+  "Nu": {
+    "id": "Nu",
     "idDofusDB": "687f71551c81517356061802",
     "idDofusBook": 31767,
     "name": {
@@ -2187,6 +2279,7 @@
     "level": 197,
     "panoply": "28",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "wisdom": 30,
@@ -2201,8 +2294,8 @@
       "pushbackDamage": 25
     }
   },
-  "O5": {
-    "id": "O5",
+  "O8": {
+    "id": "O8",
     "idDofusDB": "687f71551c81517356061817",
     "idDofusBook": 31788,
     "name": {
@@ -2215,6 +2308,7 @@
     "level": 200,
     "panoply": "1y",
     "category": "shield",
+    "subCategory": "shield",
     "requirements": [
       [
         {
@@ -2239,8 +2333,8 @@
       "rangedResistPer": 5
     }
   },
-  "Ni": {
-    "id": "Ni",
+  "Nl": {
+    "id": "Nl",
     "idDofusDB": "687f71551c8151735606181e",
     "idDofusBook": 31796,
     "name": {
@@ -2253,6 +2347,7 @@
     "level": 197,
     "panoply": "27",
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 200,
       "strength": 40,
@@ -2268,8 +2363,8 @@
       "pushbackResist": 20
     }
   },
-  "NW": {
-    "id": "NW",
+  "NZ": {
+    "id": "NZ",
     "idDofusDB": "68d28de615631db46d7e4113",
     "idDofusBook": 32115,
     "name": {
@@ -2281,6 +2376,7 @@
     },
     "level": 200,
     "category": "shield",
+    "subCategory": "shield",
     "stats": {
       "health": 300,
       "wisdom": 50,

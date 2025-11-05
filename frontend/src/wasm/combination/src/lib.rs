@@ -57,60 +57,31 @@ pub enum Requirement {
     },
 }
 
-impl Requirement {
-    #[inline(always)] // confirmed improves performances with flags
-    pub fn is_satisfied(&self, stats: &mut Stats, weights: &Stats, min_stats: &MinStats, max_stats: &MaxStats, panoply_bonus: usize) -> bool {
-        match self {
-            Requirement::PanopliesBonusLessThan { value } => panoply_bonus < *value,
-            Requirement::ApLessThan { value } => {
-                if stats.ap >= *value {
-                    stats.ap = *value - 1.0;
-                }
-                return true;
-            }
-            Requirement::MpLessThan { value } => {
-                if stats.mp >= *value {
-                    stats.mp = *value - 1.0;
-                }
-                return true;
-            }
-            Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
-                if stats.ap >= *value {
-                    stats.ap = *value - 1.0;
-                }
-                if stats.mp >= *value_2 {
-                    stats.mp = *value_2 - 1.0;
-                }
-                return true;
-            }
-            Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
-
-                // if either one of the stat is already capped no need to do anything
-                if     stats.ap < *value || stats.mp < *value_2 ||
-                   max_stats.ap < *value || max_stats.mp < *value_2  {
-                    return true;
-                }
-                // try to choose the stat to cap from min_stats
-                if min_stats.ap >= *value && min_stats.mp >= *value_2 {
-                    return false;
-                } else if min_stats.ap >= *value {
-                    stats.mp = *value_2 - 1.0;
-                } else if min_stats.mp >= *value_2 {
-                    stats.ap = *value - 1.0;
-                // try to choose the stat to cap from weights
-                } else if weights.ap > weights.mp {
-                    stats.mp = *value_2 - 1.0;
-                } else {
-                    stats.ap = *value - 1.0; // default to cap ap if equal weights
-                }
-                return true;
-            }
+#[inline(never)]
+pub fn adjust_requirement_for_pre_stats(req: &mut Requirement, pre: &Stats) {
+    match req {
+        Requirement::PanopliesBonusLessThan { .. } => {
+            // nothing to adjust
+        }
+        Requirement::ApLessThan { value } => {
+            *value -= pre.ap;
+        }
+        Requirement::MpLessThan { value } => {
+            *value -= pre.mp;
+        }
+        Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
+            *value -= pre.ap;
+            *value_2 -= pre.mp;
+        }
+        Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
+            *value -= pre.ap;
+            *value_2 -= pre.mp;
         }
     }
 }
 
 #[derive(serde::Serialize, serde::Deserialize, Clone, Debug)]
-        #[serde(rename_all = "camelCase")]
+#[serde(rename_all = "camelCase")]
 pub struct PanoplyIn {
     pub id: String,
     pub items: Vec<String>,
@@ -152,6 +123,7 @@ impl PartialOrd for BuildResult {
     }
 }
 
+#[inline(never)]
 fn build_pan_data(all_panoplies: &[PanoplyIn]) -> PanData {
     let mut panoply_to_pid = HashMap::new();
     let mut bonus_tables = Vec::with_capacity(all_panoplies.len());
@@ -167,25 +139,11 @@ fn build_pan_data(all_panoplies: &[PanoplyIn]) -> PanData {
     }
 }
 
-// fn build_pan_data(pans: &[PanoplyIn]) -> PanData {
-//     let mut item_to_pid = HashMap::new();
-//     let mut bonus = Vec::with_capacity(pans.len());
-
-//     for (pid, p) in pans.iter().enumerate() {
-//         // map every item name in this panoply
-//         for item_name in &p.items {
-//             item_to_pid.insert(item_name.clone(), pid);
-//         }
-//         // store total-bonus table as-is
-//         bonus.push(p.stats.clone());
-//     }
-
-//     PanData { bonus, item_to_pid }
-// }
-
+#[inline(never)]
 fn prepare_items(
     categories_in: Vec<Vec<MinItem>>,
     panoply_data: &PanData,
+    // pre_stats: &Stats,
 ) -> Vec<Vec<ItemPrepared>> {
     categories_in
         .into_iter()
@@ -193,6 +151,10 @@ fn prepare_items(
             category_items
                 .into_iter()
                 .map(|min_item| {
+                // .map(|mut min_item| {
+                    // if let Some(req) = &mut min_item.requirement {
+                    //     adjust_requirement_for_pre_stats(req, &pre_stats);
+                    // }
                     // Count how many pieces this item contributes for each panoply it declares.
                     // If the item has no panoplies, this stays empty (as intended).
                     let mut per_panoply_counts: HashMap<usize, u8> = HashMap::new();
@@ -250,6 +212,10 @@ fn prepare_items(
             .map_err(|e| JsValue::from_str(&format!("deserialize panoplies: {e}")))?;
 
     log(format!("Rust starts calculating items in X categories: {:?}", items_category.len()));
+
+    // let min_adj = &min_stats - &pre_stats;
+    // let max_adj = &max_stats - &pre_stats;
+
     // log(format!("min_stats: {:?}", min_stats));
 
     // Expect Vec<Vec<MinItem>>: items_category[i] = list of items in that category
@@ -259,11 +225,20 @@ fn prepare_items(
     // Precompute panoply data & annotate items
     let pan: PanData = build_pan_data(&pans_in);
     let items = prepare_items(items_category, &pan);
+    // let items = prepare_items(items_category, &pan, &pre_stats);
+
+    // for category in &mut items {
+    //     for item in category {
+    //         if let Some(req) = &mut item.requirement {
+    //             req.adjust_for_pre_stats(&pre_stats);
+    //         }
+    //     }
+    // }
     // log(format!("panoplies: {:?}", pan));
     // log(format!("items: {:?}", items));
 
     // Hardcoded Malédiction de Cire Momore
-    const PANO_CIRE_MOMORE_ID: &str = "674e523f64788cc741418239";
+    const PANO_CIRE_MOMORE_ID: &str = "1a";
     let pano_cire_momore_pid = pan.panoply_to_pid.get(PANO_CIRE_MOMORE_ID).copied();
 
     // if items.is_empty() {
@@ -281,7 +256,7 @@ fn prepare_items(
         .map(|slot_items| slot_items.len() as u128)
         .product();
     let target_updates = 50u128;
-    let stride: u128 = (total_combinations / target_updates).max(100_000);
+    let stride: u128 = (total_combinations / target_updates).clamp(100_000, 1_000_000);
 
     let mut combinations_done: u128 = 0;
 
@@ -302,6 +277,7 @@ fn prepare_items(
 
 
     loop {
+        // let mut build_stats = Stats::default();
         let mut build_stats = pre_stats.clone();
         // let mut build_stats = pre_stats; // seems slower
 
@@ -377,19 +353,64 @@ fn prepare_items(
             // log(format!("item.requirement: {:?}", item.requirement));
 
             if let Some(req) = &item.requirement {
-                if !req.is_satisfied(&mut build_stats, &weights, &min_stats, &max_stats, panoplies_bonus) {
-                    skip_build = true;
-                    break;
+                // if !req.is_satisfied(&mut build_stats, &weights, &min_adj, &max_adj, panoplies_bonus) {
+                //     skip_build = true;
+                //     break;
+                // }
+                match req {
+                    Requirement::PanopliesBonusLessThan { value } => {
+                        if panoplies_bonus >= *value {
+                            skip_build = true;
+                            break;
+                        }
+                    }
+                    Requirement::ApLessThan { value } => {
+                        if build_stats.ap >= *value {
+                            build_stats.ap = *value - 1.0;
+                        }
+                    }
+                    Requirement::MpLessThan { value } => {
+                        if build_stats.mp >= *value {
+                            build_stats.mp = *value - 1.0;
+                        }
+                    }
+                    Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
+                        if build_stats.ap >= *value {
+                            build_stats.ap = *value - 1.0;
+                        }
+                        if build_stats.mp >= *value_2 {
+                            build_stats.mp = *value_2 - 1.0;
+                        }
+                    }
+                    Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
+                        if build_stats.ap < *value
+                            || build_stats.mp < *value_2
+                            || max_stats.ap < *value
+                            || max_stats.mp < *value_2
+                        {
+                            // if either one of the stat is already capped no need to do anything
+                        } else if min_stats.ap >= *value && min_stats.mp >= *value_2 {
+                            skip_build = true;
+                            break;
+                        } else if min_stats.ap >= *value {
+                            build_stats.mp = *value_2 - 1.0;
+                        } else if min_stats.mp >= *value_2 {
+                            build_stats.ap = *value - 1.0;
+                        } else if weights.ap > weights.mp {
+                            build_stats.mp = *value_2 - 1.0;
+                        } else {
+                            build_stats.ap = *value - 1.0; // default to cap ap if equal weights
+                        }
+                    }
                 }
             }
         }
-        // log(format!("skip_build: {:?}", skip_build));
-
         let build_value;
         if skip_build {
             build_value = 0.0;
         } else {
             build_value = build_stats.value(&weights, &min_stats, &max_stats);
+            // build_value = build_stats.value(&weights, &min_adj, &max_adj);
         }
 
         if heap.len() < 100 || build_value > lowest_best_value {

@@ -330,7 +330,7 @@ function capBuildStats(build: Build) {
         }
     }
 
-    const PANO_CIRE_MOMORE_ID = "674e523f64788cc741418239";
+    const PANO_CIRE_MOMORE_ID = "1a";
     const count = build.panoplies[PANO_CIRE_MOMORE_ID];
     if (count && count >= 2) {
         switch (count) {
