@@ -7,6 +7,7 @@
         itemsLocked,
         itemsSelected,
         maxStats,
+        minItems,
         minStats,
         panopliesSelected,
         preStats,
@@ -84,8 +85,9 @@
         }, 1000);
 
         const raw = await orchestrator.start({
-            selectedItems: $itemsSelected,
-            lockedItems: $itemsLocked,
+            // selectedItems: $itemsSelected,
+            // lockedItems: $itemsLocked,
+            minItems: $minItems,
             weights: $weights,
             minStats: $minStats,
             maxStats: $maxStats,
@@ -471,7 +473,7 @@
                 <div class="build-stats">
                     <ShowStats
                         stats={build.cappedStats}
-                        showHeaders={true}
+                        isBuild={true}
                         compareStats={build.diffBuild?.cappedStats}
                         overStats={build.stats}
                     />

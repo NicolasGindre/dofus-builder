@@ -40,11 +40,6 @@ export type Build = {
     requirements: Requirement[][];
     minRequirements: MinRequirement[];
     diffBuild?: Build;
-
-    export: {
-        // dofusDBUrl: string;
-        dofusBookUrl: string;
-    };
 };
 export type Slots = Record<BuildSlot, Item | undefined>;
 

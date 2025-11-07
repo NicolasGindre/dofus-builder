@@ -42,6 +42,26 @@
         weightsIndex.set(copyDefaultWeightsIndex());
     }
 
+    let holdTimeout: number;
+    let holdInterval: number;
+    function startHold(
+        statKey: StatKey,
+        increment: number,
+        action: (statKey: StatKey, increment: number) => void,
+    ) {
+        action(statKey, increment);
+
+        holdTimeout = window.setTimeout(() => {
+            holdInterval = window.setInterval(() => {
+                action(statKey, increment);
+            }, 40);
+        }, 180);
+    }
+    function stopHold() {
+        clearTimeout(holdTimeout);
+        clearInterval(holdInterval);
+    }
+
     function incrementWeight(statKey: StatKey, increment: number) {
         let newIndex = increment;
         if (!$weightsIndex[statKey]) {
@@ -211,16 +231,20 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementWeight(statKey, 1);
-                                    }}>▲</button
+                                    on:mousedown={() => startHold(statKey, 1, incrementWeight)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, 1, incrementWeight)}
+                                    on:touchend={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementWeight(statKey, -1);
-                                    }}>▼</button
+                                    on:mousedown={() => startHold(statKey, -1, incrementWeight)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, -1, incrementWeight)}
+                                    on:touchend={stopHold}>▼</button
                                 >
                             </div>
                         </div>
@@ -268,16 +292,20 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementMinStat(statKey, 1);
-                                    }}>▲</button
+                                    on:mousedown={() => startHold(statKey, 1, incrementMinStat)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, 1, incrementMinStat)}
+                                    on:touchend={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementMinStat(statKey, -1);
-                                    }}>▼</button
+                                    on:mousedown={() => startHold(statKey, -1, incrementMinStat)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, -1, incrementMinStat)}
+                                    on:touchend={stopHold}>▼</button
                                 >
                             </div>
                         </div>
@@ -325,16 +353,20 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementMaxStat(statKey, 1);
-                                    }}>▲</button
+                                    on:mousedown={() => startHold(statKey, 1, incrementMaxStat)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, 1, incrementMaxStat)}
+                                    on:touchend={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:click={(e) => {
-                                        incrementMaxStat(statKey, -1);
-                                    }}>▼</button
+                                    on:mousedown={() => startHold(statKey, -1, incrementMaxStat)}
+                                    on:mouseup={stopHold}
+                                    on:mouseleave={stopHold}
+                                    on:touchstart={() => startHold(statKey, -1, incrementMaxStat)}
+                                    on:touchend={stopHold}>▼</button
                                 >
                             </div>
                         </div>

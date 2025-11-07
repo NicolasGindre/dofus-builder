@@ -37,10 +37,9 @@ import {
 } from "../types/item";
 import { calculateStatsValue } from "./value";
 import { isItemBonusPanoCapped } from "./item";
-import type { MinRequirement } from "../workers/orchestrator";
+import type { MinItem, MinRequirement } from "../workers/orchestrator";
 import { calculateBuildToDisplay } from "./display";
 import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
-import { createDofusDBBuild } from "../clients/dofusDB";
 import { sortItemsIds } from "./encoding/encodeItems";
 
 function initBuild(name: string, buildId?: string, value?: number): Build {
@@ -57,10 +56,6 @@ function initBuild(name: string, buildId?: string, value?: number): Build {
         requirements: [],
         minRequirements: [],
         value: value ?? 0,
-        export: {
-            dofusBookUrl: "",
-            // dofusDBUrl: "",
-        },
     };
 }
 function addItemToBuild(
@@ -131,6 +126,10 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
 
     let buildIndex = 1;
     for (const buildResp of bestBuildsResp) {
+        if (buildResp.value == 0 && Object.keys(get(weights)).length > 0) {
+            continue;
+        }
+
         const slotCounter: Partial<Record<ItemCategory, number>> = {};
         let build: Build = initBuild(`#${buildIndex}`);
 
@@ -168,10 +167,6 @@ export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
         }
         finaliseBuild(build);
 
-        if (build.value > 0 && buildResp.value == 0) {
-            continue;
-        }
-
         if (Math.round(build.value * 10) != Math.round(buildResp.value * 10)) {
             console.error(
                 "Build response value and calculated value are different",
@@ -203,7 +198,6 @@ function finaliseBuild(build: Build) {
     build.stats = concatStats(build.noCharStats, get(preStats));
 
     calculateBuildValue(build);
-    build.export.dofusBookUrl = encodeDofusStufferUrlFromSlots(build.slots);
 }
 
 function addBuildRequirement(build: Build, requirements?: Requirement[][]) {
@@ -499,52 +493,56 @@ export function diffBuild(build: Build, comparedBuild: Build | undefined) {
     build.diffBuild = diffBuild;
 }
 
-export function totalCombinations(
-    itemsSelected: Record<ItemCategory, Items>,
-    itemsLocked: Record<ItemCategory, Items>,
-): number {
+export function totalCombinations(minItems: MinItem[][]): number {
+    if (!minItems) {
+        return 0;
+    }
     let totalCombinations = 1;
     let atLeast1: boolean = false;
-    for (const [cat, selectedItem] of Object.entries(itemsSelected)) {
-        const category = cat as ItemCategory;
-        // const categoryLocks = itemsLocked[category as ItemCategory];
-        const items = Object.values(selectedItem);
-        const itemCount = items.length;
-        const itemsLockedArr = Object.values(itemsLocked[category as ItemCategory]);
-        const lockedCount = itemsLockedArr.length;
-
-        // console.log("category", category);
-        // console.log("itemcount", itemCount);
-        // console.log("lockedCount", lockedCount);
-        // console.log("categoryLength(category)", categoryLength(category));
-
-        let categoryCombinations = combinations(
-            itemCount ? Math.max(itemCount - lockedCount, 1) : 0,
-            categoryLength(category) - lockedCount,
-        );
-        // console.log("categoryCombinations", categoryCombinations);
-        if (categoryCombinations >= 1) {
-            if (category == "dofus") {
-                if (shouldAddComboNoBonusPanoLessThan3(items, itemsLockedArr)) {
-                    categoryCombinations += 1;
-                }
-            }
-            totalCombinations *= categoryCombinations;
+    for (const minItemsCat of minItems) {
+        totalCombinations *= minItemsCat.length ?? 1;
+        if (minItemsCat.length > 0) {
             atLeast1 = true;
         }
+        // const category = cat as ItemCategory;
+        // // const categoryLocks = itemsLocked[category as ItemCategory];
+        // const items = Object.values(selectedItem);
+        // const itemCount = items.length;
+        // const itemsLockedArr = Object.values(itemsLocked[category as ItemCategory]);
+        // const lockedCount = itemsLockedArr.length;
+
+        // // console.log("category", category);
+        // // console.log("itemcount", itemCount);
+        // // console.log("lockedCount", lockedCount);
+        // // console.log("categoryLength(category)", categoryLength(category));
+
+        // let categoryCombinations = combinations(
+        //     itemCount ? Math.max(itemCount - lockedCount, 1) : 0,
+        //     categoryLength(category) - lockedCount,
+        // );
+        // // console.log("categoryCombinations", categoryCombinations);
+        // if (categoryCombinations >= 1) {
+        //     if (category == "dofus") {
+        //         if (shouldAddComboNoBonusPanoLessThan3(items, itemsLockedArr)) {
+        //             categoryCombinations += 1;
+        //         }
+        //     }
+        //     totalCombinations *= categoryCombinations;
+        //     atLeast1 = true;
+        // }
     }
     // console.log("totalCombinations", totalCombinations);
     return atLeast1 ? totalCombinations : 0;
 }
-export function combinations(itemCount: number, groupSize: number): number {
-    if (itemCount == 0) return 0;
-    if (groupSize === 0 || groupSize === itemCount || groupSize > itemCount) return 1;
-    let result = 1;
-    for (let i = 1; i <= groupSize; i++) {
-        result = (result * (itemCount - i + 1)) / i;
-    }
-    return result;
-}
+// export function combinations(itemCount: number, groupSize: number): number {
+//     if (itemCount == 0) return 0;
+//     if (groupSize === 0 || groupSize === itemCount || groupSize > itemCount) return 1;
+//     let result = 1;
+//     for (let i = 1; i <= groupSize; i++) {
+//         result = (result * (itemCount - i + 1)) / i;
+//     }
+//     return result;
+// }
 
 export function shouldAddComboNoBonusPanoLessThan3(items: Item[], itemsLocked: Item[]): boolean {
     for (const itemLocked of itemsLocked) {
@@ -726,13 +724,16 @@ export function mergeRequirements(andRequirements: Requirement[][]): Requirement
         const iOrRequirement = andRequirements[i]!;
         for (let j = i + 1; j < andRequirements.length; j++) {
             const jOrRequirement = andRequirements[j]!;
+            // console.log("i - j", i, j);
 
-            const indexToMerge = compareOrRequirements(iOrRequirement, jOrRequirement, i, j);
-
-            if (!indexToMerge) {
+            if (orImpliesOr(iOrRequirement, jOrRequirement)) {
+                indexesToMerge.push(j);
                 continue;
             }
-            indexesToMerge.push(indexToMerge);
+            if (orImpliesOr(jOrRequirement, iOrRequirement)) {
+                indexesToMerge.push(i);
+                continue;
+            }
         }
     }
     // console.log("indexesToMerge", indexesToMerge);
@@ -743,25 +744,9 @@ export function mergeRequirements(andRequirements: Requirement[][]): Requirement
             newRequirements.push(andRequirements[i]!);
         }
     }
+    // console.log("andRequirements", andRequirements);
     // console.log("newRequirements", newRequirements);
     return newRequirements;
-}
-
-function compareOrRequirements(
-    orRequirement1: Requirement[],
-    orRequirement2: Requirement[],
-    i: number,
-    j: number,
-): number | false {
-    const aImpliesB = orImpliesOr(orRequirement1, orRequirement2);
-    const bImpliesA = orImpliesOr(orRequirement2, orRequirement1);
-    if (aImpliesB && bImpliesA) {
-        return i;
-    }
-    if (aImpliesB) return j;
-    if (bImpliesA) return i;
-
-    return false;
 }
 
 function orImpliesOr(A: Requirement[], B: Requirement[]): boolean {
@@ -770,10 +755,16 @@ function orImpliesOr(A: Requirement[], B: Requirement[]): boolean {
 function impliesReq(a: Requirement, b: Requirement): boolean {
     if (a.stat !== b.stat) return false;
 
-    if (a.type === "lessThan" && b.type === "lessThan") {
+    if (
+        (a.type === "lessThan" || a.type === "lessThanOrEquals") &&
+        (b.type === "lessThan" || b.type === "lessThanOrEquals")
+    ) {
         return a.value <= b.value;
     }
-    if (a.type === "moreThan" && b.type === "moreThan") {
+    if (
+        (a.type === "moreThan" || a.type === "moreThanOrEquals") &&
+        (b.type === "moreThan" || b.type === "moreThanOrEquals")
+    ) {
         return a.value >= b.value;
     }
     return false;

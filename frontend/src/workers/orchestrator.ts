@@ -13,10 +13,9 @@ import {
 import type { Stats } from "../types/stats";
 import type { Payload } from "./combinationSearch";
 import CombinationSearchWorker from "./combinationSearch.ts?worker";
-import { shouldAddComboNoBonusPanoLessThan3 } from "../logic/build";
 import { isItemBonusPanoCapped } from "../logic/item";
 
-type MinItem = {
+export type MinItem = {
     id: string;
     stats: Partial<Stats>;
     panoplies: string[];
@@ -36,8 +35,9 @@ export type MinRequirement = {
 };
 
 export type CombinationPayload = {
-    selectedItems: Record<ItemCategory, Items>;
-    lockedItems: Record<ItemCategory, Items>;
+    // selectedItems: Record<ItemCategory, Items>;
+    // lockedItems: Record<ItemCategory, Items>;
+    minItems: MinItem[][];
     weights: Partial<Stats>;
     minStats: Partial<Stats>;
     maxStats: Partial<Stats>;
@@ -82,7 +82,12 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
 
         let partialPayload: Payload[] = [];
-        const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
+        // performance.now()
+        // const now = performance.now();
+        // const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
+        const minItemsCategory = payload.minItems;
+        // const elapsedSec = (now - performance.now()) / 1000;
+        // console.log("Elapsed secs", elapsedSec);
         const biggestCategoryIndex = getBiggestCategoryIndex(minItemsCategory);
 
         const itemschunks = partitionEven(minItemsCategory, biggestCategoryIndex, workerCount);
@@ -200,7 +205,7 @@ function partitionEven(
     return itemsPartitioned;
 }
 
-function convertToMinItems(
+export function convertToMinItems(
     selectedItems: Record<ItemCategory, Items>,
     lockedItems: Record<ItemCategory, Items>,
 ): MinItem[][] {
@@ -212,16 +217,61 @@ function convertToMinItems(
         if (itemsArr.length == 0) {
             continue;
         }
-        minItemsCategory.push(
-            getCombinations(itemsArr, itemsLockedArr, categoryLength(category as ItemCategory)),
-        );
-        if (category == "dofus" && shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)) {
+        if (category == "dofus") {
+            //  && shouldAddComboNoBonusPanoLessThan3(itemsArr, itemsLockedArr)
             // console.log(getComboItemsNoBonusPanoLessThan3(itemsArr));
-            minItemsCategory[minItemsCategory.length - 1]!.push(
-                getComboItemsNoBonusPanoLessThan3(itemsArr),
+
+            if (!itemsArr.some(isItemBonusPanoCapped)) {
+                minItemsCategory.push(
+                    getCombinations(
+                        itemsArr,
+                        itemsLockedArr,
+                        categoryLength(category as ItemCategory),
+                    ),
+                );
+                continue;
+            }
+            if (itemsLockedArr.some(isItemBonusPanoCapped)) {
+                minItemsCategory.push(
+                    getCombinations(
+                        itemsArr,
+                        itemsLockedArr,
+                        categoryLength(category as ItemCategory),
+                    ),
+                );
+                continue;
+            }
+
+            const noBonusPanoItems = itemsArr.filter((item) => !isItemBonusPanoCapped(item));
+            const noBonusPanoCombo = getCombinations(
+                noBonusPanoItems,
+                itemsLockedArr,
+                categoryLength(category as ItemCategory),
             );
-            // console.log("AHAHAHHAAHAHAHAHAH");
-            // console.log("minItemsCategory", minItemsCategory);
+
+            const bonusPanoItems = itemsArr.filter((item) => isItemBonusPanoCapped(item));
+            const freeSpots = categoryLength("dofus") - itemsLockedArr.length;
+
+            let bonusPanoCombo: MinItem[];
+            if (bonusPanoItems.length < freeSpots) {
+                bonusPanoCombo = getCombinations(
+                    itemsArr,
+                    [...itemsLockedArr, ...bonusPanoItems],
+                    categoryLength(category as ItemCategory),
+                );
+            } else {
+                bonusPanoCombo = getCombinations(
+                    bonusPanoItems,
+                    itemsLockedArr,
+                    categoryLength(category as ItemCategory),
+                );
+            }
+            minItemsCategory.push([...noBonusPanoCombo, ...bonusPanoCombo]);
+            console.log("minItemsCategory", minItemsCategory);
+        } else {
+            minItemsCategory.push(
+                getCombinations(itemsArr, itemsLockedArr, categoryLength(category as ItemCategory)),
+            );
         }
     }
     return minItemsCategory;
@@ -276,6 +326,17 @@ function mergeItemsRequirement(items: Item[]): MinRequirement | undefined {
         }
     }
     return undefined;
+}
+
+export function getComboItemsWithBonusPanoLessThan3(items: Item[]): MinItem {
+    // let itemsNoBonusPano: MinItem[] = [];
+    const noBonusPanoItems = items.filter(
+        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
+        (item) => !isItemBonusPanoCapped(item),
+    );
+    // itemsNoBonusPano.push();
+    console.log(noBonusPanoItems);
+    return mergeItems(noBonusPanoItems);
 }
 
 export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {

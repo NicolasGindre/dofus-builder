@@ -38,28 +38,28 @@ export const MIN_MAX_COEFFICIENTS: Record<StatKey, number> = {
     range: 1,
     summon: 1,
 
-    health: 80,
+    health: 70, // max 7000
 
-    wisdom: 8,
+    wisdom: 8, // max 680
     prospecting: 8,
 
-    strength: 20,
-    agility: 20,
-    chance: 20,
-    intelligence: 20,
+    strength: 15, // max 1530
+    intelligence: 15, // max 1580
+    chance: 15, // max 1550
+    agility: 15, // max 1525
 
-    power: 10,
+    power: 12, // max 1270
 
     trapPower: 10,
     trapDamage: 3,
 
     neutralDamage: 3,
-    earthDamage: 3,
+    earthDamage: 3, // max 298
     airDamage: 3,
     fireDamage: 3,
     waterDamage: 3,
 
-    damage: 2,
+    damage: 1, // max 118
 
     pushbackDamage: 8,
 

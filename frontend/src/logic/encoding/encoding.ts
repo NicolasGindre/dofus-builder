@@ -2,10 +2,10 @@ import { get } from "svelte/store";
 import { STAT_KEYS, type StatKey, type Stats } from "../../types/stats";
 import { decodeStatIndexes, encodeStatValues } from "./valueEncoding";
 import {
+    automaticWeights,
     exoAp,
     exoMp,
     exoRange,
-    exoSummon,
     level,
     maxStats,
     maxStatsIndex,
@@ -225,10 +225,10 @@ export function encodeStats(): string {
     const encodedStats = encodeStatsKeys([...statsToEncode]);
     // console.log("encoded", encodedStats);
     const encodedExosAndlevel = encodeExosAndLevel(
+        get(automaticWeights),
         get(exoAp),
         get(exoMp),
         get(exoRange),
-        get(exoSummon),
         get(level),
     );
     return encodedExosAndlevel.concat("|", encodedStats);
@@ -329,18 +329,18 @@ export function decodeStats(encoded: string) {
 }
 
 export function encodeExosAndLevel(
+    automaticWeights: boolean,
     exoAp: boolean,
     exoMp: boolean,
     exoRange: boolean,
-    exoSummon: boolean,
     level: number,
 ): string {
     // pack bits: 4 bits for booleans + 8 bits for level
     let bits =
-        (exoAp ? 1 : 0) |
-        ((exoMp ? 1 : 0) << 1) |
-        ((exoRange ? 1 : 0) << 2) |
-        ((exoSummon ? 1 : 0) << 3) |
+        (automaticWeights ? 1 : 0) |
+        ((exoAp ? 1 : 0) << 1) |
+        ((exoMp ? 1 : 0) << 2) |
+        ((exoRange ? 1 : 0) << 3) |
         ((level & 0xff) << 4); // 8 bits for level
 
     // split into 2 groups of 6 bits
@@ -355,16 +355,16 @@ export function decodeExosAndLevel(encoded: string) {
 
     const bits = c1 | (c2 << 6);
 
-    const decodedExoAp = !!(bits & 1);
-    const decodedExoMp = !!(bits & 2);
-    const decodedExoRange = !!(bits & 4);
-    const decodedExoSummon = !!(bits & 8);
+    const decodedAutomaticWeights = !!(bits & 1);
+    const decodedExoAp = !!(bits & 2);
+    const decodedExoMp = !!(bits & 4);
+    const decodedExoRange = !!(bits & 8);
     const decodedLevel = Math.min(200, (bits >> 4) & 0xff);
 
+    automaticWeights.set(decodedAutomaticWeights);
     exoAp.set(decodedExoAp);
     exoMp.set(decodedExoMp);
     exoRange.set(decodedExoRange);
-    exoSummon.set(decodedExoSummon);
-    console.log("DECODED LEVEL", decodedLevel);
+    // console.log("DECODED LEVEL", decodedLevel);
     level.set(decodedLevel);
 }

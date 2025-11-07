@@ -1,8 +1,13 @@
 <script lang="ts">
-    import { exoAp, exoMp, exoRange, preStats, words, exoSummon } from "../stores/builder";
+    import { exoAp, exoMp, exoRange, preStats, words } from "../stores/builder";
 </script>
 
 <div class="stats">
+    <div class="stat">
+        {$preStats.health}
+        {$words.baseVitality}
+    </div>
+
     <div class="stat">
         <label>
             {$preStats.ap}
@@ -27,16 +32,12 @@
         </label>
     </div>
 
-    <div class="stat">
+    <!-- <div class="stat">
         <label>
             {$preStats.summon}
             {$words.stats.summon} - Exo
             <input type="checkbox" bind:checked={$exoSummon} />
         </label>
-    </div>
-
-    <!-- <div class="stat">
-        {$words.stats.health}: {$preStats.health}
     </div> -->
 
     <!-- <div class="stat">

@@ -10,6 +10,7 @@ import {
 import { addItem, lockItem } from "../item";
 import { getItem } from "../frontendDB";
 import type { Panoply } from "../../types/item";
+import type { Build } from "../../types/build";
 
 const ITEM_ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" as const;
 const ITEM_ALPHABET_LENGTH = ITEM_ALPHABET.length;
@@ -74,6 +75,18 @@ export function encodeItems(): string {
     return lockedItemsStr
         ? `${encodedPanosStr}|${encodedItemsStr}|${lockedItemsStr}`
         : `${encodedPanosStr}|${encodedItemsStr}`;
+}
+
+export function encodeBuildItems(build: Build): string {
+    const itemIdsArr: string[] = [];
+    for (let i = 0; i < build.id.length; i += 2) {
+        itemIdsArr.push(build.id.slice(i, i + 2));
+    }
+
+    const encodedPanosStr = encodePanoplies(itemIdsArr);
+    const encodedItemsStr = encodeConsecutive(itemIdsArr);
+
+    return `${encodedPanosStr}|${encodedItemsStr}`;
 }
 
 // Modifies encodedItems : Takes out items that were encoded in pano
@@ -153,7 +166,7 @@ function encodeConsecutive(encodedItems: string[]): string {
 
 function encodeLocked(encodedItems: string[]): string {
     // console.log("encodedItems", encodedItems);
-    encodedItems = sortItemsIds(encodedItems);
+    // encodedItems = sortItemsIds(encodedItems);
 
     const lockeds = Object.values(get(itemsLocked));
     const n = encodedItems.length;

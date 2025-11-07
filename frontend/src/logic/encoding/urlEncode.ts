@@ -31,6 +31,24 @@ export function encodeToUrlNoThrottle() {
 
     const url = new URL(window.location.href);
 
+    setUrlHash(url, encodedStats, encodedItems);
+    // if (encodedStats != "" || encodedItems != "") {
+    //     url.hash = "s=";
+    //     if (encodedStats != "") {
+    //         url.hash += encodedStats;
+    //     }
+    //     if (encodedItems != "") {
+    //         if (url.hash) url.hash += "&";
+    //         url.hash += `i=${encodedItems}`;
+    //     }
+    // } else {
+    //     url.hash = "";
+    // }
+    window.history.replaceState(null, "", url.toString());
+    urlHash.set(url.hash.slice(1));
+    // console.log("URL HASH SET", get(urlHash));
+}
+export function setUrlHash(url: URL, encodedStats: string, encodedItems: string) {
     if (encodedStats != "" || encodedItems != "") {
         url.hash = "s=";
         if (encodedStats != "") {
@@ -43,9 +61,11 @@ export function encodeToUrlNoThrottle() {
     } else {
         url.hash = "";
     }
-    window.history.replaceState(null, "", url.toString());
-    urlHash.set(url.hash.slice(1));
-    // console.log("URL HASH SET", get(urlHash));
+}
+export function getEncodedStatsFromHash(hash: string): string {
+    const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
+    const encodedStats = pairs.s || "";
+    return encodedStats;
 }
 
 export function decodeFromUrl(hash?: string) {
@@ -59,7 +79,7 @@ export function decodeFromUrl(hash?: string) {
     window.history.replaceState(null, "", url.toString());
     urlHash.set(hash);
 
-    console.log("hash", hash);
+    // console.log("hash", hash);
     const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
     const encodedStats = pairs.s || "";
     const encodedItems = pairs.i || "";

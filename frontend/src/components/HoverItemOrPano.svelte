@@ -90,6 +90,7 @@
             style="top:{coords.top}px; left:{coords.left}px;"
         >
             {#if item}
+                <strong>{item.subCategory}</strong>
                 {#each item.requirements as orRequirement}
                     <div>
                         {#each orRequirement as requirement, i}

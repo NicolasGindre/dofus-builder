@@ -3,30 +3,45 @@
     import { onMount } from "svelte";
     import { createDofusDBBuild } from "../clients/dofusDB";
     import type { Build } from "../types/build";
+    import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
+    import { words } from "../stores/builder";
+    import { encodeBuildItems } from "../logic/encoding/encodeItems";
+    import { setUrlHash } from "../logic/encoding/urlEncode";
 
     export let build: Build;
-    export let words = { export: "Export", dofusDB: "DofusDB", dofusBook: "DofusBook" };
+    // export let words = { export: "Export", dofusDB: "DofusDB", dofusBook: "DofusBook" };
 
     let open = false;
     let loading = false;
     let root: HTMLDivElement;
 
-    async function exportTo(type: "dofusDB" | "dofusBook") {
+    async function exportTo(type: "dofusDB" | "dofusBook" | "asNewSearch") {
         open = false;
 
         if (type === "dofusBook") {
-            // just open the existing URL
-            window.open(build.export.dofusBookUrl, "_blank");
+            window.open(encodeDofusStufferUrlFromSlots(build.slots), "_blank");
             return;
         }
 
         if (type === "dofusDB") {
             loading = true;
             try {
-                await createDofusDBBuild(build);
+                const dofusDBBuildUrl = await createDofusDBBuild(build);
+                window.open(dofusDBBuildUrl);
             } finally {
                 loading = false;
             }
+        }
+
+        if (type === "asNewSearch") {
+            const buildEncoded = encodeBuildItems(build);
+            const buildNewUrl = new URL(window.location.href);
+            const hash = window.location.hash.slice(1);
+            const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
+            const encodedStats = pairs.s || "";
+            // const encodedItems = pairs.i || "";
+            setUrlHash(buildNewUrl, encodedStats, buildEncoded);
+            window.open(buildNewUrl);
         }
     }
 
@@ -43,22 +58,22 @@
 
 <div bind:this={root} class="export-dropdown">
     <button class="button-export" on:click={() => (open = !open)} disabled={loading}>
-        {#if loading}
-            <span class="spinner"></span>
-            <span>Exporting…</span>
-        {:else}
-            {words.export}
-        {/if}
+        {$words.export}
     </button>
 
     {#if open}
         <div class="menu">
             <button on:click={() => exportTo("dofusDB")}>
-                {words.dofusDB}
+                DofusDB
                 <ExternalLink size={14} />
             </button>
             <button on:click={() => exportTo("dofusBook")}>
-                {words.dofusBook}
+                <!-- {words.dofusBook} -->
+                DofusBook
+                <ExternalLink size={14} />
+            </button>
+            <button on:click={() => exportTo("asNewSearch")}>
+                {$words.asNewSearch}
                 <ExternalLink size={14} />
             </button>
         </div>
@@ -114,14 +129,14 @@
         background: #747474;
         border-color: #747474;
     }
-    .spinner {
+    /* .spinner {
         width: 1rem;
         height: 1rem;
         border: 2px solid white;
         border-top-color: transparent;
         border-radius: 50%;
         animation: spin 0.8s linear infinite;
-    }
+    } */
     @keyframes spin {
         to {
             transform: rotate(360deg);

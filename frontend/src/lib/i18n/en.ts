@@ -56,6 +56,8 @@ export default {
     savedBuilds: "Saved Builds",
     save: "Save",
     delete: "Delete",
+    export: "Exporter",
+    asNewSearch: "As new search",
     results: "Results",
     showSavedBuilds: "Show saved Builds",
     showResults: "Show results",

@@ -56,6 +56,8 @@ export default {
     savedBuilds: "Gespeicherte Builds",
     save: "Speichern",
     delete: "Löschen",
+    export: "Exportieren",
+    asNewSearch: "Als neue Suche",
     results: "Ergebnisse",
     showSavedBuilds: "Gespeicherte Builds anzeigen",
     showResults: "Ergebnisse anzeigen",

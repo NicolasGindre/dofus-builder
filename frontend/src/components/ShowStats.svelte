@@ -6,13 +6,19 @@
         type StatKey,
         type Stats,
     } from "../types/stats";
-    import { words } from "../stores/builder";
+    import { minStats, words } from "../stores/builder";
     import { calculateStatsValue } from "../logic/value";
+    import { object } from "zod/v4-mini";
 
     export let stats: Partial<Stats>;
     export let compareStats: Partial<Stats> | null = null;
     export let overStats: Partial<Stats> | null = null;
-    export let showHeaders = false;
+    export let isBuild = false;
+
+    // function formatSmallDecimals(num: number) {
+    //     const [intPart, decPart] = num.toFixed(2).split(".");
+    //     return `${intPart}<span class="decimals">.${decPart}</span>`;
+    // }
 </script>
 
 <div class="build-stats">
@@ -25,7 +31,7 @@
     {@const value = calculateStatsValue(stats, statsKeys)}
     {@const diffValue = compareStats ? value - calculateStatsValue(compareStats, statsKeys) : 0}
     <table>
-        {#if showHeaders}
+        {#if isBuild}
             <caption
                 >{title}: {value.toFixed(0)}
                 {#if compareStats}
@@ -37,20 +43,30 @@
         {/if}
 
         {#if !compareStats}
-            <tbody>
-                {#each statsKeys as statKey}
-                    {#if stats[statKey]}
-                        <tr>
-                            <td>
-                                {#if overStats && overStats[statKey] != stats[statKey]}
-                                    <span class="overstat">{overStats[statKey]}→</span>
-                                {/if}{stats[statKey]}</td
-                            >
-                            <td>{$words.stats[statKey]}</td>
-                        </tr>
-                    {/if}
-                {/each}
-            </tbody>
+            {#if Object.keys(stats).length > 0}
+                <tbody>
+                    {#each statsKeys as statKey}
+                        {#if stats[statKey]}
+                            <tr>
+                                <td>
+                                    {#if overStats && overStats[statKey] != stats[statKey]}
+                                        <span class="overstat">{overStats[statKey]}→</span>
+                                    {/if}<span
+                                        class:invalid={isBuild &&
+                                            $minStats[statKey] > stats[statKey]}
+                                        >{Math.floor(stats[statKey])}</span
+                                    >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
+                                            >{(stats[statKey] % 1).toString().slice(1)}</span
+                                        >{/if}</td
+                                >
+                                <td>{$words.stats[statKey]}</td>
+                            </tr>
+                        {/if}
+                    {/each}
+                </tbody>
+            {:else}
+                <tbody><tr><td>No stats</td></tr></tbody>
+            {/if}
         {:else}
             <tbody>
                 {#each statsKeys as statKey}
@@ -68,9 +84,15 @@
                                             compareStats[statKey]})</span
                                     >{/if}
                                 {#if overStats && overStats[statKey] != stats[statKey]}
-                                    <span class="overstat">{overStats[statKey]}→</span>{/if}<span
-                                    >{stats[statKey] ?? 0}</span
-                                ></td
+                                    <span class="overstat">{overStats[statKey]}→</span>{/if}
+                                <span
+                                    class:invalid={isBuild && $minStats[statKey] > stats[statKey]}
+                                >
+                                    <span>{Math.floor(stats[statKey] ?? 0)}</span
+                                    >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
+                                            >{(stats[statKey] ?? 0 % 1).toString().slice(1)}</span
+                                        >{/if}
+                                </span></td
                             >
                             <td>{$words.stats[statKey]}</td>
                         </tr>
@@ -82,6 +104,14 @@
 {/snippet}
 
 <style>
+    .decimals {
+        font-size: 0.7em; /* smaller relative to main number */
+        vertical-align: baseline; /* or 'text-top' / 'baseline' depending on taste */
+        opacity: 0.8;
+    }
+    .invalid {
+        background-color: #8c0000;
+    }
     table caption {
         font-weight: bold;
         text-align: center;

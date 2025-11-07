@@ -7,13 +7,12 @@
         panopliesDisplayed,
         sortBestItemsWithPanoValue,
         showOnlySelectedPanos,
-        panopliesBest,
-        panopliesSelected,
         showBonusPanoCappedItems,
         categoryDisplaySize,
         panoplyDisplaySize,
         totalPossibilities,
         itemsLocked,
+        urlHash,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item, ItemCategory, Items } from "../types/item";
@@ -40,8 +39,9 @@
     import { words } from "../stores/builder";
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
-    import { saveHistoryEntry } from "../logic/encoding/urlEncode";
+    import { getEncodedStatsFromHash, saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { categoryLength } from "../types/build";
+    import { onMount } from "svelte";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -117,25 +117,6 @@
         }
     }
 
-    // function lockItem(category: ItemCategory, item: Item) {
-    //     // console.log($itemsLocked);
-    //     itemsLocked.update((locked) => {
-    //         const categoryLocks = locked[category];
-    //         const ids = Object.keys(categoryLocks);
-
-    //         if (categoryLocks[item.id]) {
-    //             delete categoryLocks[item.id];
-    //         } else {
-    //             // at limit → remove oldest
-    //             if (ids.length >= categoryLength(category)) {
-    //                 delete categoryLocks[ids[0]];
-    //             }
-    //             categoryLocks[item.id] = item;
-    //         }
-
-    //         return { ...locked, [category]: categoryLocks };
-    //     });
-    // }
     function isSkipped(category: ItemCategory, item: Item): boolean {
         const categoryLocks = $itemsLocked[category];
         const ids = Object.keys(categoryLocks);
@@ -144,6 +125,8 @@
         }
         return false;
     }
+
+    let previousStatsSearch: string = getEncodedStatsFromHash(window.location.hash.slice(1));
 </script>
 
 {#snippet addItemToSelecteds(items: Item[])}
@@ -209,9 +192,11 @@
         </div>
 
         <button
+            class:modified={getEncodedStatsFromHash($urlHash) != previousStatsSearch}
             on:click={() => {
                 calculateBestItems();
                 saveHistoryEntry();
+                previousStatsSearch = getEncodedStatsFromHash($urlHash);
             }}>{$words.calculateBestItems}</button
         >
         <!-- <button on:click={addAll}>Add All</button> -->
@@ -407,6 +392,9 @@
 </div>
 
 <style>
+    .modified {
+        color: #f89f33;
+    }
     .level-input {
         /* text */
         font-weight: 600;

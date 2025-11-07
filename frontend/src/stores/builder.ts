@@ -32,6 +32,7 @@ import {
 } from "../logic/encoding/valueEncoding";
 import { encodeToUrl } from "../logic/encoding/urlEncode";
 import { refreshBuildsValue, totalCombinations, updateBestBuildsNames } from "../logic/build";
+import { convertToMinItems, type MinItem } from "../workers/orchestrator";
 
 // export const appReady = writable<boolean>(false);
 
@@ -112,12 +113,12 @@ export const maxStats: Readable<Partial<Stats>> = derived(maxStatsIndex, ($maxSt
 export const exoAp = writable<boolean>(false);
 export const exoMp = writable<boolean>(false);
 export const exoRange = writable<boolean>(false);
-export const exoSummon = writable<boolean>(false);
+// export const exoSummon = writable<boolean>(false);
 export const level = writable<number>(200);
 
 export const preStats = derived(
-    [level, exoAp, exoMp, exoRange, exoSummon],
-    ([$level, $exoAp, $exoMp, $exoRange, $exoSummon]) => {
+    [level, exoAp, exoMp, exoRange],
+    ([$level, $exoAp, $exoMp, $exoRange]) => {
         encodeToUrl();
         refreshBuildsValue();
         let preStats = getLeveledStats($level);
@@ -130,9 +131,9 @@ export const preStats = derived(
         if ($exoRange) {
             preStats.range!++;
         }
-        if ($exoSummon) {
-            preStats.summon!++;
-        }
+        // if ($exoSummon) {
+        //     preStats.summon!++;
+        // }
         return preStats;
     },
 );
@@ -179,16 +180,30 @@ savedBuilds.subscribe((savedBuilds) => {
 
 export const comparedBuild = writable<Build>(undefined);
 
-export const totalPossibilities: Readable<number> = derived(
+// export const totalPossibilities: Readable<number> = derived(
+//     [itemsSelected, itemsLocked],
+//     ([$itemsSelected, $itemsLocked], set) => {
+//         encodeToUrl();
+//         clearTimeout((totalPossibilities as any)._timeout);
+//         (totalPossibilities as any)._timeout = setTimeout(() => {
+//             set(totalCombinations($itemsSelected, $itemsLocked));
+//         }, 0);
+//     },
+// );
+export const minItems: Readable<MinItem[][]> = derived(
     [itemsSelected, itemsLocked],
     ([$itemsSelected, $itemsLocked], set) => {
         encodeToUrl();
-        clearTimeout((totalPossibilities as any)._timeout);
-        (totalPossibilities as any)._timeout = setTimeout(() => {
-            set(totalCombinations($itemsSelected, $itemsLocked));
+        clearTimeout((minItems as any)._timeout);
+        (minItems as any)._timeout = setTimeout(() => {
+            set(convertToMinItems($itemsSelected, $itemsLocked));
         }, 0);
     },
 );
+// export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
+export const totalPossibilities: Readable<number> = derived(minItems, ($minItems) => {
+    return totalCombinations($minItems);
+});
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
     const panoplies: Panoplies = {};

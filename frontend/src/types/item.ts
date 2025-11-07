@@ -100,6 +100,7 @@ export type Panoply = {
     stats: ItemStats[];
     statsWithBonus: ItemStats[];
     value: number[];
+    bestComboValue: number[];
     requirements?: Requirement[][][]; // []and -> []or
     valuePerItem: number;
     avgRelativeValue: number;

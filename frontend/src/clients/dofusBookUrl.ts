@@ -1,7 +1,7 @@
 import { encode } from "@msgpack/msgpack";
 import { CATEGORY_TO_SLOTS, getLeveledStats, type Slots } from "../types/build";
 import { get } from "svelte/store";
-import { exoAp, exoMp, exoRange, exoSummon, level, preStats } from "../stores/builder";
+import { exoAp, exoMp, exoRange, level, preStats } from "../stores/builder";
 import type { ItemCategory } from "../types/item";
 
 // Default number of picks per category (must be 17 entries). Dofus = 6.
@@ -40,7 +40,7 @@ export function encodeDofusStufferUrlFromSlots(slots: Slots): string {
         7: leveledStats.mp,
         9: 100, // prospecting
         10: 0, // po
-        11: leveledStats.summon! + (get(exoSummon) ? 1 : 0), // 1
+        11: leveledStats.summon, // 1
         23: leveledStats.pods,
         // 23: 1000,
     };

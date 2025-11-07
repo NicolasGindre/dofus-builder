@@ -1,18 +1,17 @@
 import { get } from "svelte/store";
 import { getLeveledStats, type Build } from "../types/build";
-import { exoAp, exoMp, exoRange, exoSummon, level } from "../stores/builder";
+import { exoAp, exoMp, exoRange, level } from "../stores/builder";
 import type { StatKey, Stats } from "../types/stats";
 import { STAT_ID_DOFUSDB } from "../../../src/clients/dofusDB";
 const dofusDBApi = "https://api.dofusdb.fr";
 const dofusDBWebsite = "https://dofusdb.fr";
 
-export async function createDofusDBBuild(build: Build) {
+export async function createDofusDBBuild(build: Build): Promise<string> {
     // const levelNow = get(level);
     // const leveledStats = getLeveledStats(levelNow);
     const exoApNow = get(exoAp);
     const exoMpNow = get(exoMp);
     const exoRangeNow = get(exoRange);
-    const exoSummonNow = get(exoSummon);
 
     const payload = {
         level: build.level ?? 200,
@@ -42,7 +41,7 @@ export async function createDofusDBBuild(build: Build) {
         },
 
         stats: getDofusDBStats(build.stats),
-        exo: getDofusDBExos(exoApNow, exoMpNow, exoRangeNow, exoSummonNow),
+        exo: getDofusDBExos(exoApNow, exoMpNow, exoRangeNow),
         base: {
             vitality: 0,
             strength: 0,
@@ -76,9 +75,6 @@ export async function createDofusDBBuild(build: Build) {
         const id = data._id as string;
 
         const finalUrl = `${dofusDBWebsite}/fr/tools/stuff/${id}`;
-        console.log("✅ DofusDB build created:", finalUrl);
-
-        window.open(finalUrl, "_blank");
         return finalUrl;
     } catch (err) {
         console.error("❌ Failed to create DofusDB build:", err);
@@ -104,12 +100,7 @@ type DofusDBExos = {
     stat: number;
     value: number;
 }[];
-function getDofusDBExos(
-    exoAp: boolean,
-    exoMp: boolean,
-    exoRange: boolean,
-    exoSummon: boolean,
-): DofusDBExos {
+function getDofusDBExos(exoAp: boolean, exoMp: boolean, exoRange: boolean): DofusDBExos {
     let dofusDBExos: DofusDBExos = [];
     if (exoAp) {
         dofusDBExos.push({ stat: 1, value: 1 });
@@ -119,9 +110,6 @@ function getDofusDBExos(
     }
     if (exoRange) {
         dofusDBExos.push({ stat: 19, value: 1 });
-    }
-    if (exoSummon) {
-        dofusDBExos.push({ stat: 26, value: 1 });
     }
     return dofusDBExos;
 }
