@@ -11,6 +11,14 @@ try {
     await itemDB.loadItemsAndPanos();
     // itemDB.addPanopliesLevel();
     // itemDB.savePanoplies(itemDB.panoplies);
+
+    app.use("/assets/*", async (c, next) => {
+        await next();
+        const res = c.res;
+        if (res) {
+            res.headers.set("Cache-Control", "public, max-age=31536000, immutable");
+        }
+    });
     // app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
     app.use(serveStatic({ root: "./frontend/dist" }));
 
@@ -22,7 +30,7 @@ try {
         idleTimeout: 30,
         hostname: "0.0.0.0",
     });
-    console.log("Dofus builder started and listening");
+    console.log("Dofus MinMax server started and listening");
 } catch (err) {
     logError("Startup error", err);
     process.exit(1);
