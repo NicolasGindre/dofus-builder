@@ -30,6 +30,7 @@ export default {
 
     displayItems: "Mostrar Objetos",
     panoBonusLessThan3: "Bono de Conjunto < 3",
+    panopliesBonus: "Bono de conjuntos",
 
     panoplies: "Conjuntos",
     onlySelected: "Seleccionados",
@@ -68,7 +69,6 @@ export default {
 
     compare: "Comparar",
     items: "Objetos",
-    panopliesBonus: "Bono de conjuntos",
     or: "O",
     and: "Y",
 
@@ -84,7 +84,7 @@ export default {
         summon: "Invocaciones",
         initiative: "Iniciativa",
 
-        health: "Vitalidad",
+        vitality: "Vitalidad",
 
         wisdom: "Sabiduría",
         prospecting: "Prospección",
@@ -159,5 +159,52 @@ export default {
         shield: "Escudo",
         pet: "Mascota",
         dofus: "Dofus",
+    },
+    subCategory: {
+        amulet: "Amuleto",
+        belt: "Cinturón",
+        boots: "Botas",
+        cloak: "Capa",
+        dofus: "Dofus",
+        trophy: "Trofeo",
+        ring: "Anillo",
+        hat: "Sombrero",
+        shield: "Escudo",
+
+        hammer: "Martillo",
+        scythe: "Guadaña",
+        lance: "Lanza",
+        bow: "Arco",
+        sword: "Espada",
+        staff: "Bastón",
+        dagger: "Dagas",
+        axe: "Hacha",
+        shovel: "Pala",
+        wand: "Varita",
+        pickaxe: "Pico",
+
+        pet: "Mascota",
+        dragoturkey: "Montura",
+        rhineetle: "Montura",
+        seemyool: "Montura",
+        petmount: "Mascotura",
+    },
+    to: "a",
+    cost: "Coste",
+    criticalChance: "Probabilidad crítica",
+    element: {
+        neutral: "Neutro",
+        fire: "Fuego",
+        earth: "Tierra",
+        water: "Agua",
+        air: "Aire",
+        mpReduce: "PM",
+        apReduce: "PA",
+        bestElem: "del mejor elemento",
+    },
+    spellType: {
+        damage: "daño",
+        steal: "robo",
+        heal: "curación",
     },
 };

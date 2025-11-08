@@ -4,7 +4,7 @@ macro_rules! stat_fields {
     ($macro:ident) => {
         $macro! {
             ap, mp, range, summon,
-            health,
+            vitality,
             strength, agility, chance, intelligence,
             power, wisdom, prospecting,
             lock, dodge,

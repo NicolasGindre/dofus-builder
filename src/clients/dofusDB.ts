@@ -7,6 +7,10 @@ import {
     type Requirement,
     convertItemRequirement,
     type SubCategory,
+    type Element,
+    type EffectType,
+    type SpellEffectLine,
+    type SpecialEffect,
 } from "../types/item";
 import { type StatKey } from "../types/character";
 import { nextValue } from "../db/base62inc";
@@ -46,9 +50,18 @@ const StatSchema = z.object({
     from: z.number(),
     to: z.number(),
     characteristic: z.number(),
+    category: z.number(),
     effectId: z.number(),
 });
 type StatResp = z.infer<typeof StatSchema>;
+
+const EffectSchema = z.object({
+    // baseEffectId: z.number(),
+    effectId: z.number(),
+    diceNum: z.number(),
+    // diceSide: z.number(),
+});
+type EffectResp = z.infer<typeof EffectSchema>;
 
 const NameSchema = z.object({
     fr: z.string(),
@@ -62,6 +75,7 @@ const ItemRespSchema = z.object({
     _id: z.string(),
     level: z.number().int(),
     name: NameSchema,
+    description: NameSchema,
     criterions: z.string().optional(), // max AP / MP
     itemSet: z
         .union([
@@ -80,6 +94,10 @@ const ItemRespSchema = z.object({
         }),
     }),
     effects: z.array(StatSchema), // stats
+    criticalHitBonus: z.number().optional(),
+    criticalHitProbability: z.number().optional(),
+    apCost: z.number().optional(),
+    possibleEffects: z.array(EffectSchema), // damages and ?
 });
 const ItemsRespSchema = z.object({
     total: z.number(),
@@ -144,7 +162,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                 panoMinMaxId = panoIdMap[dofusDbItem.itemSet._id]!.id;
             }
 
-            const newItem = translateItem(
+            const newItem = await translateItem(
                 dofusDbItem,
                 category,
                 itemMap,
@@ -180,7 +198,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     return items;
 }
 
-export function translateItem(
+export async function translateItem(
     dofusDbItem: ItemResp,
     category: ItemCategory,
     itemMap: ItemMapValue,
@@ -188,7 +206,7 @@ export function translateItem(
     // dofusMinMaxId: string,
     // dofusBookId: number,
     panoMinMaxId: string,
-): Item {
+): Promise<Item> {
     const requirements = translateCriterions(dofusDbItem.criterions);
     const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
@@ -212,15 +230,65 @@ export function translateItem(
         ...(dofusDbItem.criterions ? { criterions: dofusDbItem.criterions } : {}),
         stats: {},
     };
-    for (const dofusDbStat of dofusDbItem.effects) {
+    const dofusDBStats = dofusDbItem.effects.filter((effect) => effect.category == 0);
+    for (const dofusDbStat of dofusDBStats) {
         const statKey: StatKey = STAT_ID_DOFUSDB[dofusDbStat.characteristic]!;
         if (statKey == undefined) {
             continue;
         }
         item.stats[statKey] = translateStat(dofusDbStat);
     }
+    const dofusDBEffects = dofusDbItem.effects.filter((effect) => effect.category == 2);
+    let effectLines: SpellEffectLine[] = [];
+    for (const effect of dofusDBEffects) {
+        const elementAndType = ELEMENT_ID_DOFUSDB[effect.effectId]!;
+        if (!elementAndType) {
+            continue;
+        }
+        const element = elementAndType[0];
+        const type = elementAndType[1];
+        let line: SpellEffectLine = {
+            type: type,
+            element: element,
+            min: effect.from,
+            max: effect.to,
+        };
+        if (element != "apReduce" && element != "mpReduce" && dofusDbItem.criticalHitBonus) {
+            line.minCrit = effect.from + dofusDbItem.criticalHitBonus;
+            line.maxCrit = effect.to ? effect.to + dofusDbItem.criticalHitBonus : 0;
+        }
+        effectLines.push(line);
+    }
+    if (effectLines.length > 0) {
+        item.weaponEffect = {
+            cost: dofusDbItem.apCost ?? 0,
+            critChance: dofusDbItem.criticalHitProbability ?? 0,
+            effects: effectLines,
+        };
+    }
+
+    const dofusDBSpecialDescription = dofusDbItem.possibleEffects.filter(
+        (possibleEffect) => possibleEffect.effectId == 1175,
+    );
+    if (dofusDBSpecialDescription[0] && dofusDBSpecialDescription[0].diceNum) {
+        item.specialEffect = await fetchDofusDBSpecialEffect(dofusDBSpecialDescription[0].diceNum);
+    }
+
     return item;
 }
+async function fetchDofusDBSpecialEffect(specialEffectId: number): Promise<SpecialEffect> {
+    const url = new URL(`${dofusDBUrl}/items`);
+    const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
+
+    const json = await resp.json();
+    const itemResp: ItemResp = ItemRespSchema.parse(json);
+
+    return {
+        name: itemResp.name,
+        description: itemResp.description,
+    };
+}
+
 function translateStat(dofusDbStat: StatResp): number {
     if (dofusDbStat.to == 0) {
         return dofusDbStat.from;
@@ -240,7 +308,7 @@ const validCriterions: Record<string, StatKey | "panopliesBonus"> = {
     CI: "intelligence",
     CA: "agility",
     CW: "wisdom",
-    CV: "health",
+    CV: "vitality",
 };
 
 function translateCriterions(criterions: string | undefined): Requirement[][] {
@@ -386,13 +454,33 @@ export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {
     dofus: [151, 23],
 };
 
+export const ELEMENT_ID_DOFUSDB: Record<number, [Element, EffectType]> = {
+    100: ["neutral", "damage"],
+    97: ["earth", "damage"],
+    99: ["fire", "damage"],
+    96: ["water", "damage"],
+    98: ["air", "damage"],
+    2822: ["bestElem", "damage"],
+
+    95: ["neutral", "steal"],
+    94: ["fire", "steal"],
+    92: ["earth", "steal"],
+    91: ["water", "steal"],
+    93: ["air", "steal"],
+
+    108: ["fire", "heal"],
+
+    125: ["mpReduce", "damage"],
+    101: ["apReduce", "damage"],
+};
+
 export const STAT_ID_DOFUSDB: Record<number, StatKey> = {
     1: "ap",
     23: "mp",
     19: "range",
     26: "summon",
 
-    11: "health",
+    11: "vitality",
 
     10: "strength",
     14: "agility",

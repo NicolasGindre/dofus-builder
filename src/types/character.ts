@@ -98,7 +98,7 @@ export const STAT_KEYS = [
     "range",
     "summon",
 
-    "health",
+    "vitality",
 
     "strength",
     "agility",

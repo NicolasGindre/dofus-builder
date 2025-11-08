@@ -21,7 +21,7 @@ export type StatKey = (typeof STAT_KEYS)[number];
 // }
 
 export const STAT_UTILITY_KEYS = [
-    "health",
+    "vitality",
     "ap",
     "mp",
     "range",

@@ -678,8 +678,8 @@ export function checkOrRequirement(build: Build, orRequirements: Requirement[]):
             statToCheck = build.cappedStats[requirement.stat] ?? 0;
             failResult = "warning";
         }
-        if (requirement.stat == "health") {
-            requirementValue += get(preStats).health ?? 0;
+        if (requirement.stat == "vitality") {
+            requirementValue += get(preStats).vitality ?? 0;
         }
         switch (requirement.type) {
             case "lessThan":

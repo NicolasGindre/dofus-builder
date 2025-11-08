@@ -15,7 +15,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "summon": 1
     }
   },
@@ -75,7 +75,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "initiative": 200
     }
   },
@@ -94,7 +94,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "damage": 4
     }
   },
@@ -113,7 +113,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "power": 15,
       "lock": 5
     }
@@ -171,10 +171,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "vitality": 40
     }
   },
   "9I": {
@@ -193,7 +190,7 @@
     "subCategory": "cloak",
     "criterions": "Ps=1&Pa>20",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "power": 30,
       "heal": 5
     }
@@ -213,12 +210,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
-      "neutralResistPer": 2,
-      "earthResistPer": 2,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "vitality": 40
     }
   },
   "7X": {
@@ -236,7 +228,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 15,
       "lock": 3
     }
@@ -256,7 +248,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 15
     }
   },
@@ -275,7 +267,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "lock": 3,
       "pushbackDamage": 4
     }
@@ -295,7 +287,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "criticalChance": 3
     }
   },
@@ -387,11 +379,8 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
-      "power": 10,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "vitality": 40,
+      "power": 10
     }
   },
   "7L": {
@@ -427,7 +416,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "strength": -30,
       "chance": 30,
       "criticalChance": -4,
@@ -451,7 +440,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "dodge": 3
     }
   },
@@ -470,7 +459,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "chance": 7
     }
   },
@@ -489,7 +478,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "agility": 15,
       "lock": 3
     }
@@ -510,7 +499,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": -50,
       "intelligence": -50,
       "chance": -50,
@@ -533,7 +522,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "power": 20,
       "damage": 3
     }
@@ -574,7 +563,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "heal": 10
     }
   },
@@ -612,19 +601,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 40,
       "criticalChance": 5,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
-      "airDamage": 10,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5
+      "airDamage": 10
     }
   },
   "j2": {
@@ -657,7 +641,7 @@
     },
     "criterions": "CP<10",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "wisdom": 15,
       "ap": 1
     }
@@ -678,7 +662,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "power": 25,
       "range": 1,
       "lock": 7
@@ -700,7 +684,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "criticalChance": 2,
       "initiative": 100
     }
@@ -720,7 +704,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "criticalChance": 4,
       "damage": 5,
       "criticalDamage": 10
@@ -741,7 +725,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "wisdom": -30,
       "mp": 1,
       "range": 1
@@ -765,10 +749,7 @@
     "stats": {
       "intelligence": 30,
       "range": 2,
-      "damage": 3,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "damage": 3
     }
   },
   "0U": {
@@ -935,7 +916,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "wisdom": 20,
       "power": 35,
       "damage": 3
@@ -956,10 +937,9 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "wisdom": 15,
-      "summon": 1,
-      "airResistPer": 5
+      "summon": 1
     }
   },
   "fi": {
@@ -977,10 +957,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3
+      "vitality": 60
     }
   },
   "rX": {
@@ -1008,10 +985,8 @@
     ],
     "criterions": "CI>90",
     "stats": {
-      "health": 90,
-      "power": 25,
-      "neutralResistPer": 5,
-      "waterResistPer": 5
+      "vitality": 90,
+      "power": 25
     }
   },
   "bf": {
@@ -1029,7 +1004,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 30,
       "criticalChance": 2,
       "initiative": 200
@@ -1060,11 +1035,9 @@
     ],
     "criterions": "CS>90",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 25,
-      "heal": 5,
-      "fireResistPer": 5,
-      "fireResist": 10
+      "heal": 5
     }
   },
   "vT": {
@@ -1082,12 +1055,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 50,
       "summon": 2,
-      "damage": 3,
-      "neutralResistPer": 4,
-      "fireResistPer": 4
+      "damage": 3
     }
   },
   "lt": {
@@ -1134,7 +1105,7 @@
       ],
       [
         {
-          "stat": "health",
+          "stat": "vitality",
           "type": "moreThan",
           "value": 50
         }
@@ -1142,11 +1113,10 @@
     ],
     "criterions": "CW>30&CV>50",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 20,
       "power": 15,
-      "range": 1,
-      "earthResistPer": 5
+      "range": 1
     }
   },
   "e3": {
@@ -1167,8 +1137,7 @@
     "stats": {
       "intelligence": 15,
       "summon": 1,
-      "initiative": 30,
-      "fireResistPer": 5
+      "initiative": 30
     }
   },
   "ca": {
@@ -1187,7 +1156,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 30,
       "summon": 1,
       "damage": 3
@@ -1209,9 +1178,8 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
-      "strength": 30,
-      "earthResistPer": 3
+      "vitality": 20,
+      "strength": 30
     }
   },
   "ov": {
@@ -1272,7 +1240,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "power": 30,
       "criticalChance": 3,
       "damage": 7
@@ -1294,7 +1262,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
       "wisdom": 30,
       "criticalChance": 5,
@@ -1319,8 +1287,7 @@
     "stats": {
       "chance": 15,
       "summon": 1,
-      "initiative": 30,
-      "waterResistPer": 5
+      "initiative": 30
     }
   },
   "CW": {
@@ -1338,14 +1305,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "chance": 60,
       "wisdom": 50,
       "range": 2,
-      "prospecting": 10,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "waterResistPer": 10
+      "prospecting": 10
     }
   },
   "BV": {
@@ -1364,16 +1328,7 @@
     "subCategory": "cloak",
     "stats": {
       "agility": 20,
-      "power": 20,
-      "earthResistPer": 10,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
-      "airResistPer": 10,
-      "neutralResist": 15,
-      "earthResist": 15,
-      "fireResist": 15,
-      "waterResist": 15,
-      "airResist": 15
+      "power": 20
     }
   },
   "zC": {
@@ -1392,12 +1347,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "agility": 40,
       "wisdom": 20,
       "criticalChance": 3,
-      "airResistPer": 7,
       "dodge": 10,
       "pushbackDamage": 12
     }
@@ -1420,9 +1374,7 @@
     "stats": {
       "intelligence": 15,
       "fireDamage": 3,
-      "pods": 800,
-      "earthResistPer": 3,
-      "waterResistPer": 3
+      "pods": 800
     }
   },
   "tr": {
@@ -1440,16 +1392,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": -100,
       "intelligence": -100,
       "chance": -100,
       "agility": -100,
       "wisdom": 40,
       "ap": 1,
-      "summon": 2,
-      "earthResistPer": 10,
-      "waterResistPer": 10
+      "summon": 2
     }
   },
   "eh": {
@@ -1470,8 +1420,7 @@
     "stats": {
       "strength": 15,
       "summon": 1,
-      "initiative": 30,
-      "earthResistPer": 5
+      "initiative": 30
     }
   },
   "eo": {
@@ -1492,8 +1441,7 @@
     "stats": {
       "agility": 15,
       "summon": 1,
-      "initiative": 30,
-      "airResistPer": 5
+      "initiative": 30
     }
   },
   "y7": {
@@ -1512,14 +1460,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 35,
       "agility": 45,
       "wisdom": 30,
       "summon": 1,
       "fireDamage": 6,
       "airDamage": 6,
-      "earthResistPer": 7,
       "lock": 6
     }
   },
@@ -1539,13 +1486,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "agility": 35,
       "wisdom": 20,
       "summon": 1,
-      "pods": 300,
-      "waterResistPer": 3,
-      "airResistPer": 3
+      "pods": 300
     }
   },
   "3X": {
@@ -1583,14 +1528,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "chance": 40,
       "agility": 40,
       "damage": 4,
-      "prospecting": 5,
-      "fireResistPer": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5
+      "prospecting": 5
     }
   },
   "sD": {
@@ -1609,13 +1551,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 30,
       "wisdom": 20,
       "criticalChance": 3,
-      "pods": 300,
-      "fireResistPer": 3,
-      "waterResistPer": 3
+      "pods": 300
     }
   },
   "4f": {
@@ -1654,7 +1594,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "lock": 5
     }
   },
@@ -1674,7 +1614,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "intelligence": 20,
       "wisdom": 15,
       "fireDamage": 3,
@@ -1697,11 +1637,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "strength": 25,
       "chance": 25,
       "wisdom": 15,
-      "fireResistPer": 5,
       "lock": 5,
       "dodge": -5
     }
@@ -1722,10 +1661,9 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 30,
-      "damage": 3,
-      "earthResistPer": 5
+      "damage": 3
     }
   },
   "gD": {
@@ -1744,10 +1682,9 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 30,
-      "damage": 3,
-      "waterResistPer": 5
+      "damage": 3
     }
   },
   "gH": {
@@ -1766,10 +1703,9 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 30,
-      "damage": 3,
-      "fireResistPer": 5
+      "damage": 3
     }
   },
   "gz": {
@@ -1788,10 +1724,9 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "agility": 30,
-      "damage": 3,
-      "airResistPer": 5
+      "damage": 3
     }
   },
   "ie": {
@@ -1810,7 +1745,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 25,
       "wisdom": 15,
       "range": 1,
@@ -1833,7 +1768,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "power": 15,
       "criticalChance": 5,
       "heal": 10
@@ -1854,7 +1789,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 30,
       "wisdom": 15,
       "heal": 5,
@@ -1878,13 +1813,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 40,
       "wisdom": 25,
       "heal": 10,
-      "prospecting": 15,
-      "fireResist": 10,
-      "airResist": 10
+      "prospecting": 15
     }
   },
   "sQ": {
@@ -1903,7 +1836,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "wisdom": 30,
       "criticalChance": 5,
       "damage": 5,
@@ -1926,7 +1859,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "damage": 2
     }
   },
@@ -1945,7 +1878,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 35,
       "damage": 3,
       "initiative": 200
@@ -1966,13 +1899,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "wisdom": 35,
       "damage": 7,
-      "prospecting": -11,
-      "fireResistPer": 10,
-      "airResistPer": 10
+      "prospecting": -11
     }
   },
   "3o": {
@@ -1990,7 +1921,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "lock": 3,
       "dodge": 3
     }
@@ -2011,7 +1942,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": 20,
       "range": 1
     }
@@ -2032,12 +1963,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 40,
       "earthDamage": 5,
-      "initiative": 250,
-      "earthResistPer": 3,
-      "waterResistPer": 3
+      "initiative": 250
     }
   },
   "t5": {
@@ -2056,12 +1985,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "intelligence": 50,
       "wisdom": 25,
-      "criticalChance": 5,
-      "earthResistPer": 5,
-      "waterResistPer": 5
+      "criticalChance": 5
     }
   },
   "mk": {
@@ -2080,12 +2007,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "agility": 50,
       "airDamage": 5,
-      "prospecting": 10,
-      "fireResistPer": 3,
-      "waterResistPer": 3
+      "prospecting": 10
     }
   },
   "lN": {
@@ -2104,10 +2029,8 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "heal": 7,
-      "fireResistPer": 5,
-      "airResistPer": 5,
       "dodge": 5
     }
   },
@@ -2126,18 +2049,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "agility": 50,
       "wisdom": 30,
       "power": 15,
       "criticalChance": 3,
       "prospecting": 20,
       "initiative": 300,
-      "fireResistPer": 10,
-      "airResistPer": 10,
-      "waterResistPer": -6,
-      "neutralResist": 10,
-      "fireResist": 10,
       "criticalDamage": 12,
       "trapPower": 15
     }
@@ -2191,7 +2109,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 30,
       "intelligence": 30,
       "agility": 30,
@@ -2201,7 +2119,6 @@
       "airDamage": 3,
       "heal": 6,
       "initiative": -50,
-      "airResistPer": 3,
       "mpResist": 4
     }
   },
@@ -2221,7 +2138,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": -100,
       "intelligence": -100,
       "chance": -100,
@@ -2230,8 +2147,6 @@
       "summon": 1,
       "damage": 10,
       "pods": 500,
-      "earthResistPer": 5,
-      "waterResistPer": 5,
       "lock": 3
     }
   },
@@ -2251,11 +2166,8 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
-      "agility": 40,
-      "earthResistPer": 3,
-      "fireResistPer": 3,
-      "waterResistPer": 3
+      "vitality": 100,
+      "agility": 40
     }
   },
   "7I": {
@@ -2295,7 +2207,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 20,
       "range": 1,
       "damage": 3,
@@ -2338,9 +2250,8 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "damage": 3,
-      "neutralResistPer": 5,
       "trapPower": 20
     }
   },
@@ -2360,7 +2271,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 90,
+      "vitality": 90,
       "agility": 40,
       "wisdom": 25,
       "power": 20,
@@ -2385,7 +2296,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "waterDamage": 1
     }
   },
@@ -2405,7 +2316,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 20
     }
   },
@@ -2425,7 +2336,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "initiative": 50
     }
   },
@@ -2445,7 +2356,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "heal": 5
     }
   },
@@ -2485,16 +2396,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "wisdom": 30,
       "power": 15,
       "criticalChance": 3,
       "damage": 7,
       "prospecting": 20,
-      "initiative": 400,
-      "neutralResistPer": 7,
-      "fireResistPer": 10
+      "initiative": 400
     }
   },
   "zZ": {
@@ -2513,14 +2422,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 40,
       "criticalChance": 3,
       "summon": 1,
       "heal": 10,
       "prospecting": 15,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "criticalDamage": 10,
       "pushbackDamage": 10
     }
@@ -2541,7 +2448,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 25,
@@ -2566,15 +2473,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 30,
       "chance": 30,
       "agility": 30,
       "wisdom": 15,
       "power": 10,
-      "damage": 6,
-      "neutralResistPer": 3,
-      "fireResistPer": 3
+      "damage": 6
     }
   },
   "C4": {
@@ -2593,7 +2498,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 25,
       "power": 20,
       "criticalChance": 4,
@@ -2620,13 +2525,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
       "wisdom": 20,
       "summon": 1,
-      "pods": 200,
-      "earthResistPer": 5,
-      "fireResistPer": 5
+      "pods": 200
     }
   },
   "4S": {
@@ -2645,7 +2548,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "wisdom": 6,
       "lock": 4,
       "dodge": 4
@@ -2671,9 +2574,7 @@
       "power": 10,
       "damage": 10,
       "heal": 10,
-      "prospecting": 15,
-      "fireResistPer": 10,
-      "fireResist": 10
+      "prospecting": 15
     }
   },
   "Aj": {
@@ -2692,12 +2593,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 40,
       "range": 1,
       "prospecting": 15,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": 4,
       "apReduction": 4,
       "mpReduction": 4
@@ -2719,7 +2618,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 50,
       "agility": 50,
       "wisdom": 15,
@@ -2727,8 +2626,6 @@
       "earthDamage": 6,
       "airDamage": 6,
       "prospecting": 10,
-      "fireResistPer": 4,
-      "waterResistPer": 4,
       "mpResist": 5
     }
   },
@@ -2748,15 +2645,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 15,
       "fireDamage": 6,
       "waterDamage": 6,
       "prospecting": 10,
-      "earthResistPer": 4,
-      "airResistPer": 4,
       "mpReduction": 4
     }
   },
@@ -2776,18 +2671,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 30,
       "agility": 45,
       "wisdom": 20,
       "range": 1,
       "damage": 6,
       "heal": 6,
-      "prospecting": 15,
-      "fireResistPer": 7,
-      "airResistPer": 7,
-      "fireResist": 6,
-      "airResist": 6
+      "prospecting": 15
     }
   },
   "Au": {
@@ -2806,16 +2697,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "chance": 45,
       "wisdom": 25,
       "power": 10,
       "damage": 5,
       "prospecting": 10,
-      "initiative": 200,
-      "waterResistPer": 10,
-      "airResistPer": 10
+      "initiative": 200
     }
   },
   "Ea": {
@@ -2834,17 +2723,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 25,
       "damage": 6,
-      "prospecting": 15,
-      "neutralResistPer": 6,
-      "waterResistPer": 6,
-      "airResistPer": 6,
-      "earthResist": 7,
-      "fireResist": 7
+      "prospecting": 15
     }
   },
   "3p": {
@@ -3106,17 +2990,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 40,
       "chance": 60,
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 1,
       "damage": 7,
-      "prospecting": 15,
-      "neutralResistPer": 10,
-      "fireResistPer": 10,
-      "waterResist": 10
+      "prospecting": 15
     }
   },
   "zt": {
@@ -3135,7 +3016,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 40,
       "chance": 40,
       "wisdom": 15,
@@ -3145,8 +3026,6 @@
       "waterDamage": 3,
       "heal": 6,
       "initiative": -200,
-      "earthResistPer": 3,
-      "waterResistPer": 3,
       "dodge": 5,
       "mpReduction": 3
     }
@@ -3187,7 +3066,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 40,
       "ap": 1,
       "damage": 5
@@ -3208,7 +3087,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": 30,
       "agility": 40,
       "range": 1,
@@ -3230,16 +3109,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "intelligence": 70,
       "wisdom": 40,
       "criticalChance": 3,
       "range": 1,
-      "damage": 10,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
-      "airResistPer": 10
+      "damage": 10
     }
   },
   "9k": {
@@ -3258,7 +3134,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "initiative": 200,
       "pods": 200
     }
@@ -3279,15 +3155,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "damage": 10,
-      "prospecting": 30,
-      "earthResistPer": 10,
-      "neutralResist": 10,
-      "fireResist": 10
+      "prospecting": 30
     }
   },
   "KC": {
@@ -3306,16 +3179,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "wisdom": 40,
       "criticalChance": 2,
       "damage": 7,
       "heal": 7,
       "prospecting": 20,
-      "initiative": 500,
-      "neutralResistPer": 10,
-      "neutralResist": 10
+      "initiative": 500
     }
   },
   "JV": {
@@ -3334,7 +3205,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "agility": 60,
       "wisdom": 40,
@@ -3342,7 +3213,6 @@
       "range": 1,
       "damage": 6,
       "prospecting": 30,
-      "waterResistPer": 10,
       "trapPower": 30
     }
   },
@@ -3363,7 +3233,7 @@
     "subCategory": "cloak",
     "criterions": "PO!10119",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 30,
       "range": 1
     }
@@ -3405,7 +3275,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 1,
+      "vitality": 1,
       "initiative": 1
     }
   },
@@ -3425,7 +3295,7 @@
     "subCategory": "cloak",
     "criterions": "Sc=14",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "power": 15,
       "initiative": 150
     }
@@ -3446,7 +3316,7 @@
     "subCategory": "cloak",
     "criterions": "Sc=19",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "power": 30,
       "range": 1,
       "initiative": 250,
@@ -3488,7 +3358,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "chance": 60,
       "wisdom": 60,
@@ -3496,10 +3366,7 @@
       "summon": 2,
       "damage": 10,
       "prospecting": 15,
-      "initiative": 300,
-      "neutralResistPer": 10,
-      "earthResist": 10,
-      "airResist": 10
+      "initiative": 300
     }
   },
   "DZ": {
@@ -3518,7 +3385,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 45,
       "chance": 45,
       "wisdom": 35,
@@ -3526,11 +3393,7 @@
       "earthDamage": 10,
       "waterDamage": 10,
       "prospecting": 10,
-      "fireResistPer": 7,
-      "earthResist": 10,
-      "airResist": 10,
-      "lock": 5,
-      "pushbackResist": 10
+      "lock": 5
     }
   },
   "I3": {
@@ -3549,7 +3412,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "intelligence": 60,
       "wisdom": 40,
@@ -3559,11 +3422,7 @@
       "earthDamage": 8,
       "fireDamage": 8,
       "initiative": 300,
-      "airResistPer": 10,
-      "earthResist": 10,
-      "waterResist": 10,
-      "dodge": 5,
-      "pushbackResist": 10
+      "dodge": 5
     }
   },
   "DF": {
@@ -3581,7 +3440,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 30,
       "agility": 30,
       "wisdom": 25,
@@ -3591,9 +3450,6 @@
       "earthDamage": 5,
       "airDamage": 5,
       "prospecting": 20,
-      "earthResistPer": 7,
-      "airResistPer": 7,
-      "fireResist": 7,
       "dodge": 5,
       "criticalResist": 10
     }
@@ -3614,16 +3470,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "chance": 60,
       "wisdom": 45,
       "range": 1,
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 25,
-      "airResistPer": 7,
-      "neutralResist": 10,
-      "earthResist": 10,
       "lock": 6,
       "pushbackDamage": 10
     }
@@ -3644,7 +3497,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 60,
       "agility": 60,
       "wisdom": 40,
@@ -3654,7 +3507,6 @@
       "airDamage": 10,
       "heal": 7,
       "prospecting": 25,
-      "airResistPer": 10,
       "dodge": 4,
       "mpResist": 5
     }
@@ -3675,7 +3527,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 45,
       "agility": 45,
       "wisdom": 35,
@@ -3685,8 +3537,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
-      "waterResistPer": 10,
-      "neutralResist": 12,
       "apReduction": 5,
       "criticalResist": 10
     }
@@ -3707,7 +3557,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 40,
       "chance": 40,
       "agility": 40,
@@ -3717,9 +3567,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "heal": 10,
-      "fireResist": 12,
-      "waterResist": 12,
-      "airResist": 12,
       "dodge": 5,
       "mpReduction": 5
     }
@@ -3739,7 +3586,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "wisdom": 25,
       "power": 20,
@@ -3748,8 +3595,6 @@
       "earthDamage": 10,
       "prospecting": 25,
       "initiative": 400,
-      "fireResistPer": 10,
-      "earthResist": 10,
       "dodge": 5,
       "lock": -4,
       "apReduction": 5,
@@ -3772,7 +3617,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 50,
       "power": 50,
       "criticalChance": 2,
@@ -3784,8 +3629,6 @@
       "airDamage": 7,
       "prospecting": 25,
       "initiative": 250,
-      "neutralResistPer": 7,
-      "neutralResist": 7,
       "apReduction": 7,
       "mpReduction": 7,
       "apResist": -5,
@@ -3808,7 +3651,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 50,
@@ -3819,8 +3662,6 @@
       "airDamage": 12,
       "heal": 6,
       "prospecting": 10,
-      "earthResistPer": 10,
-      "neutralResist": 10,
       "apResist": 5,
       "mpResist": 5
     }
@@ -3862,7 +3703,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "neutralDamage": 5,
       "dodge": 10,
       "apResist": 10,
@@ -3886,13 +3727,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 30,
       "range": 1,
       "waterDamage": 15,
       "airDamage": 15,
       "prospecting": 10,
-      "neutralResistPer": 10,
       "lock": 10
     }
   },
@@ -3912,7 +3752,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "agility": 50,
       "wisdom": 30,
@@ -3922,9 +3762,6 @@
       "earthDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
-      "earthResist": 10,
-      "fireResist": 10,
-      "waterResist": 10,
       "lock": 5,
       "apResist": 4
     }
@@ -3965,7 +3802,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 30,
       "intelligence": 30,
       "chance": 30,
@@ -3976,11 +3813,7 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
-      "prospecting": 20,
-      "neutralResistPer": 4,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
-      "waterResistPer": 4
+      "prospecting": 20
     }
   },
   "Lq": {
@@ -4008,9 +3841,6 @@
       "earthDamage": 15,
       "airDamage": 15,
       "prospecting": 20,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "lock": 5,
       "pushbackDamage": 10
     }
@@ -4031,7 +3861,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 20,
@@ -4095,16 +3925,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 40,
       "wisdom": 20,
       "criticalChance": 3,
       "neutralDamage": 6,
       "earthDamage": 6,
       "prospecting": 10,
-      "earthResistPer": 6,
-      "neutralResist": 6,
-      "waterResist": 6,
       "lock": 5,
       "criticalResist": 6
     }
@@ -4147,7 +3974,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "power": 15,
       "damage": 2,
       "dodge": 3
@@ -4169,14 +3996,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "wisdom": 30,
       "airDamage": 15,
       "heal": 6,
       "prospecting": 15,
-      "waterResistPer": 10,
-      "earthResist": 20,
       "criticalResist": 10
     }
   },
@@ -4196,11 +4021,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "power": 40,
       "range": 1,
       "summon": 1,
-      "neutralResistPer": 3,
       "dodge": 5,
       "mpResist": 4
     }
@@ -4221,15 +4045,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "mp": 1,
       "range": 1,
       "summon": 2,
-      "earthResist": 18,
-      "fireResist": 18,
-      "waterResist": 18,
-      "airResist": 18,
       "dodge": 10,
       "mpReduction": 6,
       "pushbackDamage": 20
@@ -4251,7 +4071,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 60,
       "chance": 60,
       "agility": 60,
@@ -4263,7 +4083,6 @@
       "waterDamage": 8,
       "airDamage": 8,
       "prospecting": 20,
-      "fireResist": 12,
       "criticalResist": 10
     }
   },
@@ -4282,7 +4101,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": -251,
+      "vitality": -251,
       "wisdom": 50,
       "power": 100,
       "range": 1,
@@ -4330,7 +4149,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 45,
       "chance": 45,
       "wisdom": 20,
@@ -4339,8 +4158,6 @@
       "fireDamage": 4,
       "waterDamage": 4,
       "prospecting": 10,
-      "earthResist": 6,
-      "waterResist": 6,
       "apResist": 3,
       "criticalResist": 8
     }
@@ -4360,7 +4177,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "wisdom": 30,
       "criticalChance": 5,
@@ -4369,10 +4186,8 @@
       "earthDamage": 8,
       "initiative": 400,
       "pods": 600,
-      "neutralResistPer": 10,
       "lock": 6,
-      "mpReduction": 6,
-      "pushbackResist": 15
+      "mpReduction": 6
     }
   },
   "LS": {
@@ -4391,7 +4206,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "agility": 50,
       "wisdom": 30,
@@ -4399,8 +4214,6 @@
       "earthDamage": 20,
       "airDamage": 20,
       "prospecting": 15,
-      "earthResistPer": 8,
-      "fireResistPer": 8,
       "dodge": 8,
       "mpResist": 6,
       "criticalDamage": -16
@@ -4422,7 +4235,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 50,
@@ -4432,8 +4245,6 @@
       "waterDamage": 12,
       "heal": 12,
       "initiative": 300,
-      "earthResistPer": 8,
-      "earthResist": 8,
       "apResist": 5,
       "criticalDamage": -16
     }
@@ -4454,7 +4265,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 80,
       "agility": 80,
       "wisdom": 30,
@@ -4463,9 +4274,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "initiative": -301,
-      "neutralResistPer": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": 8,
       "dodge": -8,
       "apResist": -4,
@@ -4488,7 +4296,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 60,
       "summon": 2,
       "neutralDamage": -11,
@@ -4497,10 +4305,7 @@
       "waterDamage": -11,
       "airDamage": -11,
       "heal": 20,
-      "initiative": 500,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "waterResistPer": 10
+      "initiative": 500
     }
   },
   "Mv": {
@@ -4539,7 +4344,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 45,
       "agility": 45,
       "wisdom": 40,
@@ -4547,9 +4352,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
-      "neutralResistPer": 6,
-      "earthResistPer": 6,
-      "fireResistPer": 6,
       "dodge": 6,
       "apReduction": 6,
       "criticalDamage": 10,
@@ -4571,14 +4373,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 40,
       "power": 50,
       "criticalChance": 7,
       "mp": 1,
       "range": 1,
-      "waterResistPer": 10,
-      "waterResist": 10,
       "dodge": 10,
       "mpResist": 6,
       "criticalDamage": 10
@@ -4600,16 +4400,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "agility": 70,
       "wisdom": 50,
       "criticalChance": 6,
       "range": 1,
       "airDamage": 18,
       "prospecting": 15,
-      "initiative": 400,
-      "waterResistPer": 10,
-      "pushbackResist": 30
+      "initiative": 400
     }
   },
   "N7": {
@@ -4628,15 +4426,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 80,
       "wisdom": 50,
       "criticalChance": 5,
       "range": 1,
       "waterDamage": 16,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "earthResist": 25,
       "dodge": 15
     }
   },
@@ -4656,15 +4452,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 80,
       "wisdom": 50,
       "range": 1,
       "fireDamage": 15,
       "heal": 6,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "airResistPer": 10
+      "prospecting": 15
     }
   },
   "ML": {
@@ -4683,15 +4477,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 80,
       "wisdom": 60,
       "criticalChance": 5,
       "neutralDamage": 15,
       "earthDamage": 15,
       "prospecting": 15,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "mpResist": 6
     }
   },
@@ -4711,7 +4503,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 30,
       "chance": 30,
       "agility": 30,
@@ -4721,8 +4513,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
       "pushbackResist": -16
     }
   },
@@ -4742,7 +4532,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "chance": 100,
       "wisdom": 25,
       "criticalChance": 5,
@@ -4750,9 +4540,6 @@
       "waterDamage": 18,
       "heal": 10,
       "prospecting": 20,
-      "neutralResistPer": 12,
-      "waterResistPer": 8,
-      "earthResist": 15,
       "dodge": 12
     }
   },
@@ -4771,7 +4558,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 60,
       "agility": 60,
       "wisdom": 20,
@@ -4780,10 +4567,6 @@
       "airDamage": 12,
       "heal": 10,
       "initiative": 500,
-      "fireResistPer": 10,
-      "neutralResistPer": -11,
-      "neutralResist": 20,
-      "airResist": 15,
       "apReduction": 8,
       "criticalDamage": 12
     }
@@ -4804,7 +4587,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 60,
       "chance": 60,
       "wisdom": 50,
@@ -4813,8 +4596,6 @@
       "earthDamage": 16,
       "waterDamage": 16,
       "initiative": 400,
-      "neutralResistPer": 10,
-      "fireResist": 20,
       "lock": -11
     }
   },
@@ -4833,15 +4614,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 100,
       "criticalChance": 6,
       "mp": 1,
       "neutralDamage": 18,
       "earthDamage": 18,
-      "fireResistPer": 10,
-      "waterResistPer": 8,
-      "airResistPer": 5,
       "criticalResist": 15
     }
   },
@@ -4861,7 +4639,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 10,
@@ -4888,13 +4666,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 40,
       "wisdom": 30,
       "neutralDamage": 7,
       "earthDamage": 7,
-      "fireResistPer": 10,
-      "waterResist": 12,
       "apResist": 7,
       "criticalDamage": 10
     }
@@ -4915,7 +4691,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 40,
@@ -4923,12 +4699,9 @@
       "fireDamage": 12,
       "airDamage": 12,
       "heal": 10,
-      "neutralResistPer": 10,
-      "airResistPer": 10,
       "dodge": -9,
       "criticalDamage": -11,
-      "criticalResist": 20,
-      "pushbackResist": 30
+      "criticalResist": 20
     }
   },
   "S7": {
@@ -4967,7 +4740,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "chance": 40,
@@ -4979,8 +4752,7 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
-      "airDamage": 10,
-      "airResistPer": 10
+      "airDamage": 10
     }
   },
   "zX": {
@@ -4999,12 +4771,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 30,
       "summon": 1,
       "heal": 12,
       "prospecting": 15,
-      "earthResistPer": 7,
       "dodge": 10,
       "mpResist": 7
     }
@@ -5025,7 +4796,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "intelligence": 20,
       "chance": 20,
       "wisdom": 10,
@@ -5048,13 +4819,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "wisdom": 30,
       "criticalChance": 4,
       "waterDamage": 10,
       "prospecting": 20,
-      "airResistPer": 10,
       "dodge": 6,
       "apResist": 10,
       "criticalResist": 15
@@ -5076,7 +4846,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 60,
       "agility": 60,
       "wisdom": 40,
@@ -5084,7 +4854,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 25,
-      "airResistPer": 10,
       "dodge": -7,
       "apReduction": 7,
       "mpResist": 10,
@@ -5107,7 +4876,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "agility": 60,
       "wisdom": 50,
@@ -5117,8 +4886,6 @@
       "earthDamage": 12,
       "airDamage": 12,
       "prospecting": 15,
-      "earthResistPer": 7,
-      "airResistPer": 10,
       "apResist": 7
     }
   },
@@ -5138,14 +4905,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 50,
       "power": 50,
       "criticalChance": 3,
       "prospecting": 25,
-      "fireResistPer": 10,
-      "earthResist": 10,
-      "airResist": 10,
       "criticalDamage": 12
     }
   },
@@ -5165,7 +4929,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 40,
       "chance": 40,
       "wisdom": 30,
@@ -5173,7 +4937,6 @@
       "summon": 1,
       "fireDamage": 10,
       "waterDamage": 10,
-      "earthResistPer": 10,
       "lock": 7,
       "criticalResist": 10
     }
@@ -5194,7 +4957,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "chance": 30,
       "wisdom": 20,
@@ -5202,8 +4965,6 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "waterDamage": 6,
-      "fireResistPer": 6,
-      "airResistPer": 6,
       "dodge": 10
     }
   },
@@ -5223,14 +4984,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "agility": 50,
       "wisdom": 30,
       "criticalChance": 4,
       "summon": 1,
       "airDamage": 7,
       "prospecting": 15,
-      "fireResistPer": 10,
       "dodge": 5,
       "apResist": 7
     }
@@ -5251,7 +5011,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "wisdom": 50,
       "criticalChance": 4,
@@ -5259,7 +5019,6 @@
       "neutralDamage": 20,
       "earthDamage": 20,
       "prospecting": 15,
-      "airResistPer": 12,
       "lock": 10,
       "apReduction": 6
     }
@@ -5280,7 +5039,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 50,
       "chance": 50,
       "agility": 50,
@@ -5290,7 +5049,6 @@
       "fireDamage": 12,
       "waterDamage": 12,
       "airDamage": 12,
-      "airResistPer": 10,
       "lock": 10,
       "pushbackDamage": 30
     }
@@ -5311,7 +5069,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "agility": 40,
       "wisdom": 50,
@@ -5320,7 +5078,6 @@
       "neutralDamage": 15,
       "earthDamage": 15,
       "airDamage": 15,
-      "fireResistPer": 10,
       "dodge": 5,
       "apReduction": 5
     }
@@ -5341,7 +5098,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "wisdom": 40,
       "criticalChance": 5,
@@ -5350,8 +5107,7 @@
       "heal": 12,
       "lock": 12,
       "mpResist": 10,
-      "criticalDamage": 15,
-      "pushbackResist": 30
+      "criticalDamage": 15
     }
   },
   "Cv": {
@@ -5370,11 +5126,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 30,
       "criticalChance": 4,
       "prospecting": 15,
-      "neutralResistPer": 10,
       "apResist": 7,
       "mpResist": 7,
       "criticalResist": 15
@@ -5396,17 +5151,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 50,
       "ap": 1,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
       "dodge": 10,
       "apResist": 7,
       "mpResist": 7,
-      "criticalResist": 15,
-      "pushbackResist": 15
+      "criticalResist": 15
     }
   },
   "Ua": {
@@ -5425,7 +5177,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "power": 70,
       "mp": 1,
@@ -5435,7 +5187,6 @@
       "fireDamage": 15,
       "waterDamage": 15,
       "airDamage": 15,
-      "waterResistPer": 7,
       "criticalDamage": -20
     }
   },
@@ -5455,15 +5206,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 5,
       "summon": 1,
       "airDamage": 15,
       "prospecting": 15,
-      "fireResistPer": 12,
-      "fireResist": 20,
       "lock": -10,
       "mpReduction": 5,
       "criticalDamage": 10,
@@ -5486,14 +5235,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 40,
       "power": 60,
       "criticalChance": 3,
       "summon": 2,
-      "heal": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10
+      "heal": 15
     }
   },
   "B5": {
@@ -5512,7 +5259,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 30,
       "chance": 40,
       "wisdom": 30,
@@ -5581,7 +5328,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 15,
       "dodge": 3
     }
@@ -5602,15 +5349,14 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 30,
       "agility": 30,
       "wisdom": 20,
       "criticalChance": 3,
       "earthDamage": 5,
       "airDamage": 5,
-      "prospecting": 15,
-      "waterResistPer": 5
+      "prospecting": 15
     }
   },
   "3z": {
@@ -5649,7 +5395,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "power": 10
     }
   },
@@ -5669,14 +5415,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "wisdom": 25,
       "criticalChance": 4,
       "fireDamage": 7,
       "initiative": 300,
-      "waterResistPer": 7,
-      "waterResist": 10,
       "dodge": 4,
       "mpResist": 4
     }
@@ -5697,7 +5441,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 30,
@@ -5706,8 +5450,6 @@
       "fireDamage": 7,
       "airDamage": 7,
       "initiative": 400,
-      "earthResist": 15,
-      "waterResist": 15,
       "dodge": 6,
       "criticalResist": 15
     }
@@ -5728,15 +5470,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 40,
       "power": 30,
       "criticalChance": 7,
       "range": 1,
       "prospecting": 20,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "lock": 10,
       "mpReduction": 7,
       "criticalResist": 25
@@ -5758,7 +5497,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 35,
       "agility": 45,
       "wisdom": 25,
@@ -5802,7 +5541,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 70,
       "chance": 70,
       "wisdom": 40,
@@ -5811,8 +5550,6 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "prospecting": 15,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
       "dodge": 5,
       "mpReduction": 6,
       "criticalDamage": 15
@@ -5834,7 +5571,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 40,
       "intelligence": 40,
       "chance": 40,
@@ -5846,8 +5583,6 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "airDamage": 10,
-      "earthResistPer": 10,
-      "airResistPer": 10,
       "criticalResist": 20
     }
   },
@@ -5867,18 +5602,15 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "agility": 80,
       "wisdom": 50,
       "criticalChance": -5,
       "summon": 1,
       "airDamage": 20,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "waterResistPer": 10,
       "lock": 7,
-      "mpResist": 10,
-      "pushbackResist": 20
+      "mpResist": 10
     }
   },
   "So": {
@@ -5897,7 +5629,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "chance": 60,
       "agility": 60,
@@ -5907,7 +5639,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 15,
-      "earthResistPer": 10,
       "dodge": 7,
       "apReduction": 7,
       "criticalDamage": 15
@@ -5929,7 +5660,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "chance": 60,
       "wisdom": 35,
@@ -5937,7 +5668,6 @@
       "earthDamage": 10,
       "waterDamage": 10,
       "initiative": 500,
-      "airResistPer": 10,
       "mpReduction": 5,
       "criticalDamage": 12
     }
@@ -5958,16 +5688,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "agility": 30,
       "wisdom": 25,
       "range": 1,
       "fireDamage": 7,
       "airDamage": 7,
-      "neutralResist": 7,
-      "earthResist": 7,
-      "waterResist": 7,
       "lock": 4,
       "apResist": 4
     }
@@ -6007,14 +5734,13 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 80,
       "wisdom": 40,
       "ap": 1,
       "range": 2,
       "fireDamage": 15,
       "heal": 15,
-      "airResistPer": 10,
       "lock": 15,
       "mpResist": 7
     }
@@ -6035,14 +5761,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "chance": 80,
       "wisdom": 50,
       "criticalChance": 2,
       "range": 1,
       "waterDamage": 20,
       "prospecting": 15,
-      "airResistPer": 10,
       "lock": 20
     }
   },
@@ -6062,12 +5787,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "agility": 90,
       "wisdom": 60,
       "range": 2,
       "airDamage": 20,
-      "fireResistPer": 10,
       "criticalDamage": 15
     }
   },
@@ -6087,7 +5811,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 40,
@@ -6096,7 +5820,6 @@
       "fireDamage": 12,
       "waterDamage": 12,
       "heal": 12,
-      "waterResistPer": 10,
       "dodge": 10,
       "mpReduction": 6,
       "criticalDamage": 15
@@ -6118,7 +5841,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "chance": 70,
       "wisdom": 50,
@@ -6128,8 +5851,6 @@
       "earthDamage": 12,
       "waterDamage": 12,
       "prospecting": 15,
-      "neutralResistPer": 7,
-      "waterResistPer": 7,
       "lock": 7,
       "pushbackDamage": 20
     }
@@ -6150,11 +5871,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 35,
       "chance": 35,
       "wisdom": 20,
-      "airResistPer": 5,
       "lock": 5,
       "mpReduction": 3
     }
@@ -6175,11 +5895,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "agility": 60,
       "wisdom": 15,
       "range": 1,
-      "earthResistPer": 3,
       "dodge": 3,
       "apReduction": 3
     }
@@ -6200,7 +5919,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 50,
       "agility": 50,
       "wisdom": 30,
@@ -6208,7 +5927,6 @@
       "earthDamage": 7,
       "airDamage": 7,
       "prospecting": 15,
-      "waterResistPer": 10,
       "dodge": 7,
       "criticalDamage": 15
     }
@@ -6229,7 +5947,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 60,
       "wisdom": 40,
       "criticalChance": 2,
@@ -6237,8 +5955,6 @@
       "neutralDamage": 7,
       "earthDamage": 7,
       "prospecting": 15,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "dodge": 5,
       "apResist": 7,
       "criticalResist": 15
@@ -6260,7 +5976,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "chance": 40,
       "agility": 40,
       "wisdom": 30,
@@ -6268,9 +5984,6 @@
       "range": 1,
       "waterDamage": 7,
       "airDamage": 7,
-      "neutralResistPer": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "apReduction": 6,
       "criticalDamage": 30
     }
@@ -6291,7 +6004,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "strength": 80,
       "wisdom": 30,
       "criticalChance": 4,
@@ -6299,8 +6012,6 @@
       "neutralDamage": 20,
       "earthDamage": 20,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "airResistPer": 10,
       "mpResist": 12,
       "criticalDamage": -30
     }
@@ -6338,7 +6049,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 50,
       "agility": 50,
       "wisdom": 40,
@@ -6346,8 +6057,6 @@
       "summon": 1,
       "waterDamage": 10,
       "airDamage": 10,
-      "earthResistPer": 10,
-      "fireResistPer": 10,
       "mpReduction": 7
     }
   },
@@ -6367,15 +6076,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "criticalChance": 10,
       "summon": 1,
-      "prospecting": 20,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7
+      "prospecting": 20
     }
   },
   "t1": {
@@ -6394,7 +6098,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 90,
+      "vitality": 90,
       "intelligence": 30,
       "agility": 30,
       "wisdom": 20,
@@ -6419,11 +6123,10 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 50,
       "fireDamage": 5,
       "heal": 10,
-      "neutralResistPer": 5,
       "mpReduction": 3,
       "criticalResist": 15
     }
@@ -6444,7 +6147,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 40,
       "agility": 40,
       "wisdom": 20,
@@ -6473,7 +6176,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "agility": 50,
       "wisdom": 30,
@@ -6481,9 +6184,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "airDamage": 12,
-      "neutralResistPer": 7,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "apReduction": 7,
       "pushbackDamage": 25
     }
@@ -6504,15 +6204,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 80,
       "wisdom": 40,
       "criticalChance": 3,
       "summon": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
-      "earthResistPer": 10,
-      "airResistPer": 10,
       "lock": 7,
       "dodge": -5,
       "mpReduction": 5,
@@ -6535,15 +6233,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "chance": 90,
       "wisdom": 50,
       "criticalChance": 4,
       "waterDamage": 20,
       "prospecting": 15,
       "initiative": 500,
-      "fireResistPer": 10,
-      "airResistPer": 10,
       "dodge": 7,
       "apResist": 7
     }
@@ -6564,7 +6260,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 60,
       "chance": 60,
       "agility": 60,
@@ -6574,8 +6270,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
       "mpReduction": 7
     }
   },
@@ -6595,15 +6289,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 70,
       "wisdom": 50,
       "criticalChance": -10,
       "fireDamage": 15,
       "heal": 10,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
       "lock": 7,
       "apReduction": 7,
       "mpResist": 7
@@ -6625,7 +6317,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 80,
       "intelligence": 80,
       "wisdom": 40,
@@ -6635,7 +6327,6 @@
       "fireDamage": 15,
       "heal": 12,
       "prospecting": 15,
-      "earthResistPer": 10,
       "lock": 15
     }
   },
@@ -6655,15 +6346,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 4,
       "airDamage": 20,
-      "earthResistPer": 10,
-      "waterResistPer": 10,
-      "apResist": 15,
-      "pushbackResist": 35
+      "apResist": 15
     }
   },
   "QO": {
@@ -6702,7 +6390,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 80,
       "wisdom": 40,
       "criticalChance": 4,
@@ -6710,8 +6398,6 @@
       "summon": 1,
       "waterDamage": 15,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
       "pushbackDamage": 15
     }
   },
@@ -6731,7 +6417,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 80,
       "agility": 80,
       "wisdom": 40,
@@ -6741,8 +6427,6 @@
       "airDamage": 15,
       "heal": 12,
       "prospecting": 15,
-      "earthResistPer": 10,
-      "airResistPer": 10,
       "dodge": 7
     }
   },
@@ -6761,7 +6445,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "strength": 100,
       "intelligence": 100,
       "wisdom": 40,
@@ -6770,9 +6454,6 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "initiative": 400,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
       "lock": 15,
       "mpResist": 20,
       "criticalResist": -30
@@ -6793,7 +6474,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 60,
       "power": 120,
       "lock": -20,
@@ -6817,7 +6498,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 80,
       "chance": 80,
       "wisdom": 50,
@@ -6825,8 +6506,6 @@
       "range": -1,
       "fireDamage": 15,
       "waterDamage": 15,
-      "earthResistPer": 10,
-      "airResistPer": 10,
       "lock": 10,
       "mpResist": 10,
       "pushbackDamage": 20
@@ -6848,13 +6527,11 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 35,
       "chance": 35,
       "wisdom": 20,
       "range": 1,
-      "fireResistPer": 6,
-      "airResistPer": 6,
       "mpResist": 6,
       "pushbackDamage": 20
     }
@@ -6875,15 +6552,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "agility": 70,
       "wisdom": 30,
       "criticalChance": 5,
       "earthDamage": 15,
       "airDamage": 15,
-      "fireResistPer": 10,
-      "airResistPer": 10,
       "dodge": 5,
       "apResist": 5,
       "criticalDamage": 12
@@ -6905,19 +6580,15 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "chance": 100,
       "wisdom": 40,
       "criticalChance": 4,
       "waterDamage": 20,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "waterResistPer": 7,
       "lock": 10,
       "dodge": -5,
       "apReduction": -10,
-      "mpResist": 10,
-      "pushbackResist": 40
+      "mpResist": 10
     }
   },
   "Uf": {
@@ -6935,15 +6606,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 80,
       "wisdom": 30,
       "criticalChance": 5,
       "mp": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
-      "earthResistPer": 12,
-      "airResistPer": 3,
       "mpReduction": 10,
       "criticalResist": -30,
       "pushbackDamage": 60
@@ -6964,7 +6633,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 70,
       "chance": 70,
       "agility": 70,
@@ -6974,11 +6643,6 @@
       "earthDamage": 20,
       "waterDamage": 20,
       "airDamage": 20,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5,
-      "fireResistPer": -5,
       "lock": 20,
       "meleeResistPer": 5
     }
@@ -6999,14 +6663,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 50,
       "wisdom": 40,
       "summon": 1,
       "waterDamage": 5,
       "prospecting": 10,
-      "fireResistPer": 6,
-      "waterResist": 10,
       "lock": 7,
       "apResist": 6
     }
@@ -7027,7 +6689,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "intelligence": 30,
       "chance": 30,
@@ -7038,11 +6700,6 @@
       "fireDamage": 3,
       "waterDamage": 3,
       "airDamage": 3,
-      "neutralResist": 5,
-      "earthResist": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5,
       "lock": 6
     }
   },
@@ -7062,14 +6719,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "agility": 70,
       "wisdom": 40,
       "airDamage": 5,
       "heal": 8,
       "prospecting": 10,
-      "neutralResistPer": 5,
-      "airResist": 10,
       "mpResist": 10
     }
   },
@@ -7088,7 +6743,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 50,
       "agility": 30,
       "wisdom": 20,
@@ -7097,7 +6752,6 @@
       "fireDamage": 4,
       "prospecting": 10,
       "initiative": -200,
-      "airResistPer": 7,
       "dodge": 6
     }
   },
@@ -7117,15 +6771,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 50,
       "wisdom": 40,
       "range": 1,
       "fireDamage": 6,
-      "prospecting": 15,
-      "fireResistPer": 8,
-      "airResistPer": 8,
-      "fireResist": 10
+      "prospecting": 15
     }
   },
   "Hf": {
@@ -7144,7 +6795,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 60,
       "intelligence": 40,
       "chance": 60,
@@ -7156,7 +6807,6 @@
       "fireDamage": 5,
       "waterDamage": 10,
       "prospecting": 20,
-      "fireResistPer": 5,
       "lock": 4,
       "apReduction": 4
     }
@@ -7177,7 +6827,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "agility": 40,
@@ -7189,7 +6839,6 @@
       "fireDamage": 9,
       "airDamage": 9,
       "initiative": -300,
-      "earthResistPer": 5,
       "criticalDamage": 5,
       "criticalResist": -20,
       "pushbackResist": -15
@@ -7211,7 +6860,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 70,
       "agility": 70,
       "wisdom": 30,
@@ -7219,8 +6868,6 @@
       "range": 1,
       "earthDamage": 12,
       "airDamage": 12,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
       "dodge": 12,
       "lock": -12,
       "apReduction": -10,
@@ -7264,15 +6911,13 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "agility": 70,
       "wisdom": 30,
       "ap": 1,
       "range": 1,
       "airDamage": 18,
       "initiative": 300,
-      "waterResistPer": 8,
-      "airResistPer": 8,
       "dodge": -15,
       "mpReduction": 6,
       "criticalResist": 15
@@ -7294,13 +6939,12 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "wisdom": 30,
       "range": 1,
       "fireDamage": 12,
       "initiative": 400,
-      "earthResistPer": 7,
       "lock": 5,
       "mpResist": 8,
       "pushbackDamage": 20
@@ -7322,7 +6966,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "wisdom": 40,
       "power": 50,
       "summon": 1,
@@ -7332,9 +6976,7 @@
       "airDamage": 10,
       "prospecting": 15,
       "initiative": 600,
-      "airResistPer": 10,
-      "lock": 15,
-      "pushbackResist": 25
+      "lock": 15
     }
   },
   "hJ": {
@@ -7353,7 +6995,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 20,
@@ -7378,7 +7020,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 40,
       "agility": 40,
       "range": -1,
@@ -7419,7 +7061,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "agility": 30,
       "wisdom": 30,
       "power": 30,
@@ -7427,8 +7069,6 @@
       "summon": 1,
       "damage": 8,
       "heal": 10,
-      "airResistPer": 10,
-      "airResist": 20,
       "dodge": 10
     }
   },
@@ -7448,15 +7088,13 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 40,
       "power": 40,
       "range": 1,
       "summon": 1,
       "damage": 8,
       "initiative": 350,
-      "earthResistPer": 10,
-      "waterResistPer": 10,
       "dodge": 15,
       "apReduction": 10,
       "pushbackDamage": 15
@@ -7478,7 +7116,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 30,
@@ -7487,8 +7125,6 @@
       "heal": 8,
       "prospecting": 10,
       "pods": 500,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
       "apResist": 6,
       "mpResist": 6,
       "pushbackResist": -20
@@ -7510,7 +7146,7 @@
     "category": "cloak",
     "subCategory": "cloak",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 100,
       "wisdom": 50,
       "criticalChance": 7,
@@ -7519,11 +7155,7 @@
       "heal": 15,
       "prospecting": 15,
       "initiative": -200,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
-      "waterResistPer": 5,
-      "dodge": 12,
-      "pushbackResist": 30
+      "dodge": 12
     }
   }
 }

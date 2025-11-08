@@ -59,13 +59,49 @@ export type Item = {
     category: ItemCategory;
     subCategory: SubCategory;
     stats: ItemStats;
+    weaponEffect?: SpellEffect;
+    specialEffect?: SpecialEffect;
 };
+export type SpecialEffect = {
+    name: Name;
+    description: Name;
+};
+
 export type Name = {
     fr: string;
     en: string;
     de: string;
     pt: string;
     es: string;
+};
+
+export const ELEMENT = [
+    "neutral",
+    "fire",
+    "earth",
+    "water",
+    "air",
+    "mpReduce",
+    "apReduce",
+    "bestElem",
+] as const;
+export type Element = (typeof ELEMENT)[number];
+
+export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
+export type EffectType = (typeof EFFECT_TYPE)[number];
+export type SpellEffect = {
+    name?: string;
+    cost: number;
+    critChance: number;
+    effects: SpellEffectLine[];
+};
+export type SpellEffectLine = {
+    type: EffectType;
+    element: Element;
+    min: number;
+    max: number;
+    minCrit?: number;
+    maxCrit?: number;
 };
 
 export const REQUIREMENT_TYPE = [

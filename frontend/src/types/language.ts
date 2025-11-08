@@ -1,11 +1,14 @@
-import type { ItemCategory } from "./item";
+import type { ItemCategory, SubCategory } from "./item";
 import type { StatKey } from "./stats";
 
 export const LANGUAGES = ["en", "fr", "pt", "es", "de"];
 
 export type CountryCode = (typeof LANGUAGES)[number];
 
-export type Translations = Record<CountryCode, any & StatsTranslation & CategoryTranslation>;
+export type Translations = Record<
+    CountryCode,
+    any & StatsTranslation & CategoryTranslation & SubCategoryTranslation
+>;
 
 export type StatsTranslation = {
     stats: Record<StatKey, string>;
@@ -13,4 +16,8 @@ export type StatsTranslation = {
 
 export type CategoryTranslation = {
     category: Record<ItemCategory, string>;
+};
+
+export type SubCategoryTranslation = {
+    subCategory: Record<SubCategory, string>;
 };

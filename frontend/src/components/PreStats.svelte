@@ -4,7 +4,7 @@
 
 <div class="stats">
     <div class="stat">
-        {$preStats.health}
+        {$preStats.vitality}
         {$words.baseVitality}
     </div>
 

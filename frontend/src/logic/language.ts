@@ -33,10 +33,10 @@ export function translateRequirement(requirement: Requirement): string {
         translation += " ";
     }
 
-    if (requirement.stat == "health") {
+    if (requirement.stat == "vitality") {
         translation +=
             requirement.value +
-            (get(preStats).health ?? 0) +
+            (get(preStats).vitality ?? 0) +
             ` (${requirement.value} + ${dict.baseVitality})`;
     } else {
         translation += requirement.value;

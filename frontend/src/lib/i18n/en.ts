@@ -30,6 +30,7 @@ export default {
 
     displayItems: "Display Items",
     panoBonusLessThan3: "Set Bonus < 3",
+    panopliesBonus: "Set bonus",
 
     panoplies: "Sets",
     onlySelected: "Selected",
@@ -67,7 +68,6 @@ export default {
     compare: "Compare",
     items: "Items",
 
-    panopliesBonus: "Set bonus",
     // apLessThan: "AP less than",
     // mpLessThan: "MP less than",
     or: "OR",
@@ -85,7 +85,7 @@ export default {
         summon: "Summons",
         initiative: "Initiative",
 
-        health: "Vitality",
+        vitality: "Vitality",
 
         wisdom: "Wisdom",
         prospecting: "Prospecting",
@@ -160,5 +160,52 @@ export default {
         shield: "Shield",
         pet: "Pet",
         dofus: "Dofus",
+    },
+    subCategory: {
+        amulet: "Amulet",
+        belt: "Belt",
+        boots: "Boots",
+        cloak: "Cloak",
+        dofus: "Dofus",
+        trophy: "Trophy",
+        ring: "Ring",
+        hat: "Hat",
+        shield: "Shield",
+
+        hammer: "Hammer",
+        scythe: "Scythe",
+        lance: "Lance",
+        bow: "Bow",
+        sword: "Sword",
+        staff: "Staff",
+        dagger: "Daggers",
+        axe: "Axe",
+        shovel: "Shovel",
+        wand: "Wand",
+        pickaxe: "Pickaxe",
+
+        pet: "Pet",
+        dragoturkey: "Mount",
+        rhineetle: "Mount",
+        seemyool: "Mount",
+        petmount: "Petmount",
+    },
+    to: "to",
+    cost: "Cost",
+    criticalChance: "Critical Chance",
+    element: {
+        neutral: "Neutral",
+        fire: "Fire",
+        earth: "Earth",
+        water: "Water",
+        air: "Air",
+        mpReduce: "MP",
+        apReduce: "AP",
+        bestElem: "of the best element",
+    },
+    spellType: {
+        damage: "damage",
+        steal: "steal",
+        heal: "heal",
     },
 };

@@ -90,18 +90,48 @@
             style="top:{coords.top}px; left:{coords.left}px;"
         >
             {#if item}
-                <strong>{item.subCategory}</strong>
-                {#each item.requirements as orRequirement}
-                    <div>
-                        {#each orRequirement as requirement, i}
-                            <strong>{translateRequirement(requirement)}</strong>
-                            {#if i < orRequirement.length - 1}
-                                {" "}<strong><em>{$words.or}</em></strong>{" "}
-                            {/if}
+                <div class="item-title">
+                    <strong>{$words.subCategory[item.subCategory]}</strong>
+                    <strong>{$words.level} {item.level}</strong>
+                </div>
+                {#if item.requirements}
+                    <div class="requirements">
+                        {#each item.requirements as orRequirement}
+                            <div>
+                                {#each orRequirement as requirement, i}
+                                    <span>{translateRequirement(requirement)}</span>
+                                    {#if i < orRequirement.length - 1}
+                                        {" "}<em>{$words.or}</em>{" "}
+                                    {/if}
+                                {/each}
+                                <br />
+                            </div>
                         {/each}
-                        <br />
                     </div>
-                {/each}
+                {/if}
+                {#if item.weaponEffect}
+                    <div class="weapon-effects">
+                        <span>{$words.cost}: {item.weaponEffect.cost} {$words.stats.ap}</span>
+                        <br />
+                        <span>{$words.criticalChance}: {item.weaponEffect.critChance} %</span>
+                        <br />
+                        {#each item.weaponEffect.effects as effect}
+                            <span>{effect.min}</span>
+                            {#if effect.max}<span>{$words.to} {effect.max}</span>{/if}
+                            {#if effect.minCrit}
+                                <span>[{effect.minCrit}</span>{#if effect.maxCrit}<span
+                                        >&nbsp{$words.to} {effect.maxCrit}</span
+                                    >{/if}]{/if}
+                            <span
+                                >{effect.element != "mpReduce" && effect.element != "apReduce"
+                                    ? $words.spellType[effect.type]
+                                    : ""}
+                                {$words.element[effect.element]}</span
+                            >
+                            <br />
+                        {/each}
+                    </div>
+                {/if}
                 <ShowStats stats={item.stats} />
             {/if}
             {#if panoply && !panoplyItemCount}
@@ -159,18 +189,26 @@
 </div>
 
 <style>
-    /* .hover-stats-wrapper { */
-    /* position: relative; */
-    /* width: 100%;  */
-    /* margin-inline: auto; */
-    /* display: flex;
-        justify-content: center;
-        align-items: center; */
-    /* display: inline-block; */
-    /* position: static;
-        overflow: visible; */
-    /* } */
-
+    .combo-header,
+    .weapon-effects,
+    .requirements,
+    .item-title {
+        border-bottom: 1px solid #cccccca9;
+        padding-bottom: 0.3rem;
+    }
+    .weapon-effects,
+    .requirements {
+        padding-top: 0.2rem;
+    }
+    .item-title {
+        display: flex;
+    }
+    .item-title strong:first-child {
+        margin-right: 1rem;
+    }
+    .item-title strong:last-child {
+        margin-left: auto;
+    }
     .hover-stats-tooltip {
         position: fixed;
         background: #1a1a1a;
@@ -187,8 +225,8 @@
         display: flex;
         justify-content: space-between; /* left & right alignment */
         align-items: center;
-        border-bottom: 1px solid currentColor; /* underline across the block */
-        padding-bottom: 0.25rem;
+        /* border-bottom: 1px solid currentColor; */
+        /* padding-bottom: 0.25rem; */
         /* margin-bottom: 0.5rem; */
     }
     .combo-title {

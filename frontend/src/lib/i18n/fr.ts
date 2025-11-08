@@ -31,6 +31,7 @@ export default {
 
     displayItems: "Afficher",
     panoBonusLessThan3: "Bonus de Panoplies < 3",
+    panopliesBonus: "Bonus de Panoplie",
 
     panoplies: "Panoplies",
     onlySelected: "Sélectionnées",
@@ -72,7 +73,6 @@ export default {
     compare: "Comparer",
     items: "Objets",
 
-    panopliesBonus: "Bonus de Panoplie",
     // apLessThan: "AP less than",
     // mpLessThan: "MP less than",
     or: "OU",
@@ -90,7 +90,7 @@ export default {
         summon: "Invocations",
         initiative: "Initiative",
 
-        health: "Vitalité",
+        vitality: "Vitalité",
 
         wisdom: "Sagesse",
         prospecting: "Prospection",
@@ -165,5 +165,52 @@ export default {
         shield: "Bouclier",
         pet: "Familier",
         dofus: "Dofus",
+    },
+    subCategory: {
+        amulet: "Amulette",
+        belt: "Ceinture",
+        boots: "Bottes",
+        cloak: "Cape",
+        dofus: "Dofus",
+        trophy: "Trophée",
+        ring: "Anneau",
+        hat: "Chapeau",
+        shield: "Bouclier",
+
+        hammer: "Masse",
+        scythe: "Faux",
+        lance: "Lance",
+        bow: "Arc",
+        sword: "Épée",
+        staff: "Baton",
+        dagger: "Dagues",
+        axe: "Hache",
+        shovel: "Pelle",
+        wand: "Baguette",
+        pickaxe: "Pioche",
+
+        pet: "Familier",
+        dragoturkey: "Monture",
+        rhineetle: "Monture",
+        seemyool: "Monture",
+        petmount: "Montilier",
+    },
+    to: "à",
+    cost: "Coût",
+    criticalChance: "Chance de critique",
+    element: {
+        neutral: "Neutre",
+        fire: "Feu",
+        earth: "Terre",
+        water: "Eau",
+        air: "Air",
+        mpReduce: "PM",
+        apReduce: "PA",
+        bestElem: "du meilleur élément",
+    },
+    spellType: {
+        damage: "dommages",
+        steal: "vol",
+        heal: "soin",
     },
 };

@@ -30,6 +30,7 @@ export default {
 
     displayItems: "Gegenstände Anzeigen",
     panoBonusLessThan3: "Set-Bonus < 3",
+    panopliesBonus: "Set-Bonus",
 
     panoplies: "Sets",
     onlySelected: "Ausgewählt",
@@ -68,7 +69,6 @@ export default {
 
     compare: "Vergleichen",
     items: "Gegenstände",
-    panopliesBonus: "Set-Bonus",
     or: "ODER",
     and: "UND",
 
@@ -84,7 +84,7 @@ export default {
         summon: "Beschwörungen",
         initiative: "Initiative",
 
-        health: "Vitalität",
+        vitality: "Vitalität",
 
         wisdom: "Weisheit",
         prospecting: "Glücksbringer",
@@ -159,5 +159,52 @@ export default {
         shield: "Schild",
         pet: "Begleiter",
         dofus: "Dofus",
+    },
+    subCategory: {
+        amulet: "Amulett",
+        belt: "Gürtel",
+        boots: "Stiefel",
+        cloak: "Umhang",
+        dofus: "Dofus",
+        trophy: "Trophäe",
+        ring: "Ring",
+        hat: "Hut",
+        shield: "Schild",
+
+        hammer: "Hammer",
+        scythe: "Sense",
+        lance: "Lanze",
+        bow: "Bogen",
+        sword: "Schwert",
+        staff: "Stab",
+        dagger: "Dolche",
+        axe: "Axt",
+        shovel: "Schaufel",
+        wand: "Zauberstab",
+        pickaxe: "Spitzhacke",
+
+        pet: "Begleiter",
+        dragoturkey: "Reittier",
+        rhineetle: "Reittier",
+        seemyool: "Reittier",
+        petmount: "Reitbegleiter",
+    },
+    to: "bis",
+    cost: "Kosten",
+    criticalChance: "Kritische Chance",
+    element: {
+        neutral: "Neutral",
+        fire: "Feuer",
+        earth: "Erde",
+        water: "Wasser",
+        air: "Luft",
+        mpReduce: "BP",
+        apReduce: "AP",
+        bestElem: "des besten Elements",
+    },
+    spellType: {
+        damage: "Schaden",
+        steal: "Diebstahl",
+        heal: "Heilung",
     },
 };

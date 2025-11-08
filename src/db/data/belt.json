@@ -15,7 +15,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "summon": 1
     }
   },
@@ -94,7 +94,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 20,
       "heal": 2
     }
@@ -152,12 +152,10 @@
     ],
     "criterions": "CS<40&CI>80",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": -40,
       "intelligence": 40,
-      "heal": 10,
-      "fireResistPer": 2,
-      "neutralResistPer": -2
+      "heal": 10
     }
   },
   "a3": {
@@ -175,7 +173,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 40,
       "agility": -30,
       "criticalChance": 2,
@@ -197,7 +195,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "intelligence": -30,
       "criticalChance": 5,
       "damage": 3
@@ -218,7 +216,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 35
+      "vitality": 35
     }
   },
   "2q": {
@@ -274,7 +272,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 40,
       "agility": -30
     }
@@ -365,7 +363,7 @@
     },
     "criterions": "CP<10",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "wisdom": 30,
       "ap": 1,
       "damage": 3
@@ -407,14 +405,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 30,
       "agility": -21,
       "power": 10,
-      "range": 1,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "range": 1
     }
   },
   "lS": {
@@ -432,16 +427,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": -50,
       "agility": -50,
       "power": 10,
       "summon": 1,
-      "neutralResistPer": 2,
-      "earthResistPer": 2,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2,
       "criticalResist": 10
     }
   },
@@ -485,7 +475,6 @@
     "stats": {
       "agility": 30,
       "wisdom": -10,
-      "airResistPer": 2,
       "dodge": 5
     }
   },
@@ -505,7 +494,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "power": 15,
       "criticalChance": 3
     }
@@ -535,11 +524,9 @@
     ],
     "criterions": "CW>49&Ps=1",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 25,
-      "power": 20,
-      "waterResistPer": 5,
-      "fireResistPer": -5
+      "power": 20
     }
   },
   "bp": {
@@ -567,11 +554,9 @@
     ],
     "criterions": "CW>49&Ps=2",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "wisdom": 25,
-      "power": 15,
-      "airResistPer": 5,
-      "earthResistPer": -5
+      "power": 15
     }
   },
   "uN": {
@@ -604,7 +589,7 @@
     },
     "criterions": "CP<12",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 40,
       "ap": 1,
       "damage": 5
@@ -636,11 +621,7 @@
     "criterions": "CA>50",
     "stats": {
       "strength": 25,
-      "agility": 25,
-      "earthResistPer": 5,
-      "airResistPer": 5,
-      "fireResistPer": -5,
-      "waterResistPer": -5
+      "agility": 25
     }
   },
   "8M": {
@@ -658,7 +639,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "summon": 1,
       "dodge": 3
     }
@@ -679,8 +660,7 @@
     "subCategory": "belt",
     "stats": {
       "criticalChance": 3,
-      "range": 1,
-      "neutralResistPer": 5
+      "range": 1
     }
   },
   "lT": {
@@ -698,7 +678,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 30,
       "wisdom": 20,
       "criticalChance": 2,
@@ -722,9 +702,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 30,
-      "fireResistPer": 5,
       "dodge": 3
     }
   },
@@ -745,8 +724,7 @@
     "subCategory": "belt",
     "stats": {
       "strength": 30,
-      "pods": 150,
-      "neutralResistPer": 6
+      "pods": 150
     }
   },
   "8S": {
@@ -765,7 +743,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "criticalChance": 2,
       "pods": 200
     }
@@ -786,7 +764,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "intelligence": 50,
       "criticalChance": 5,
       "dodge": 7
@@ -830,11 +808,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
-      "wisdom": 15,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3
+      "vitality": 30,
+      "wisdom": 15
     }
   },
   "gg": {
@@ -853,11 +828,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 35,
-      "wisdom": 15,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3
+      "vitality": 35,
+      "wisdom": 15
     }
   },
   "e9": {
@@ -876,9 +848,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
-      "waterResistPer": 5,
       "dodge": 3
     }
   },
@@ -900,10 +871,7 @@
       "strength": 50,
       "wisdom": 40,
       "prospecting": 10,
-      "initiative": 330,
-      "earthResistPer": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5
+      "initiative": 330
     }
   },
   "wE": {
@@ -921,13 +889,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 50,
       "power": 15,
-      "damage": 7,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
-      "waterResistPer": 4
+      "damage": 7
     }
   },
   "fO": {
@@ -945,10 +910,9 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "strength": 30,
-      "intelligence": 30,
-      "neutralResistPer": 3
+      "intelligence": 30
     }
   },
   "no": {
@@ -966,7 +930,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "agility": 40,
       "range": 1,
       "prospecting": 10,
@@ -988,7 +952,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 40,
       "range": 1,
       "prospecting": 10,
@@ -1010,7 +974,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 40,
       "range": 1,
       "prospecting": 10,
@@ -1032,7 +996,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 40,
       "range": 1,
       "prospecting": 10,
@@ -1054,7 +1018,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 30,
       "power": 15,
       "criticalChance": 4,
@@ -1134,13 +1098,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "strength": 40,
       "agility": 40,
       "wisdom": 25,
-      "initiative": 200,
-      "earthResistPer": 3,
-      "waterResistPer": 3
+      "initiative": 200
     }
   },
   "Dn": {
@@ -1158,14 +1120,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 50,
       "damage": 10,
-      "initiative": 600,
-      "earthResist": 15,
-      "fireResist": 15,
-      "waterResist": 15,
-      "airResist": 15
+      "initiative": 600
     }
   },
   "wo": {
@@ -1184,14 +1142,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "chance": 20,
       "wisdom": 20,
       "power": 20,
       "range": 1,
       "summon": 1,
-      "damage": 3,
-      "waterResistPer": 3
+      "damage": 3
     }
   },
   "i6": {
@@ -1209,7 +1166,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 40,
       "criticalChance": 5,
       "criticalDamage": 5
@@ -1253,9 +1210,7 @@
     "stats": {
       "chance": 25,
       "agility": 25,
-      "power": 15,
-      "fireResistPer": 5,
-      "airResistPer": 5
+      "power": 15
     }
   },
   "lp": {
@@ -1275,11 +1230,7 @@
     "criterions": "Ps=1",
     "stats": {
       "intelligence": 30,
-      "initiative": 150,
-      "fireResistPer": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "initiative": 150
     }
   },
   "lq": {
@@ -1300,8 +1251,7 @@
     "stats": {
       "strength": 40,
       "earthDamage": 3,
-      "initiative": 300,
-      "earthResistPer": 5
+      "initiative": 300
     }
   },
   "sX": {
@@ -1324,8 +1274,7 @@
       "wisdom": 15,
       "summon": 1,
       "damage": 2,
-      "pods": 150,
-      "airResistPer": 2
+      "pods": 150
     }
   },
   "B6": {
@@ -1343,16 +1292,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "wisdom": 50,
       "damage": 8,
-      "prospecting": 13,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
-      "waterResistPer": 5,
-      "fireResist": 10,
-      "waterResist": 10,
-      "airResist": 10
+      "prospecting": 13
     }
   },
   "n1": {
@@ -1371,7 +1314,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "wisdom": 30,
       "criticalChance": 9,
       "prospecting": 10
@@ -1393,7 +1336,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 35,
       "chance": 45,
       "wisdom": 30,
@@ -1401,7 +1344,6 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "waterDamage": 6,
-      "airResistPer": 7,
       "lock": 4
     }
   },
@@ -1421,9 +1363,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 30,
-      "earthResistPer": 5,
       "dodge": 3
     }
   },
@@ -1443,9 +1384,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 30,
-      "airResistPer": 5,
       "dodge": 3
     }
   },
@@ -1468,10 +1408,7 @@
       "strength": 30,
       "wisdom": 15,
       "power": 10,
-      "prospecting": 5,
-      "fireResistPer": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5
+      "prospecting": 5
     }
   },
   "3Y": {
@@ -1509,16 +1446,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "strength": 35,
       "agility": 35,
       "wisdom": 25,
       "criticalChance": 4,
       "damage": 4,
-      "prospecting": 5,
-      "waterResistPer": 5,
-      "airResistPer": 5,
-      "fireResistPer": -4
+      "prospecting": 5
     }
   },
   "sA": {
@@ -1539,9 +1473,7 @@
     "stats": {
       "chance": 30,
       "agility": 30,
-      "power": 15,
-      "fireResistPer": 5,
-      "waterResistPer": 5
+      "power": 15
     }
   },
   "4N": {
@@ -1560,7 +1492,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "criticalChance": 2,
       "heal": 5
     }
@@ -1581,7 +1513,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 10
     }
   },
@@ -1601,7 +1533,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "criticalChance": 2,
       "neutralDamage": 1,
       "earthDamage": 1,
@@ -1647,12 +1579,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 20,
       "chance": 20,
       "wisdom": 15,
       "pods": 300,
-      "airResistPer": 5,
       "lock": 7,
       "dodge": -3
     }
@@ -1673,12 +1604,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
-      "wisdom": 15,
-      "earthResistPer": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "vitality": 20,
+      "wisdom": 15
     }
   },
   "gy": {
@@ -1697,12 +1624,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
-      "wisdom": 15,
-      "airResistPer": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "vitality": 20,
+      "wisdom": 15
     }
   },
   "gG": {
@@ -1721,12 +1644,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
-      "wisdom": 15,
-      "fireResistPer": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "vitality": 20,
+      "wisdom": 15
     }
   },
   "gC": {
@@ -1745,12 +1664,8 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
-      "wisdom": 15,
-      "waterResistPer": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
+      "vitality": 20,
+      "wisdom": 15
     }
   },
   "ib": {
@@ -1769,11 +1684,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 25,
       "chance": 25,
-      "damage": 3,
-      "earthResistPer": 3
+      "damage": 3
     }
   },
   "vD": {
@@ -1801,11 +1715,10 @@
     ],
     "criterions": "CS>90",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "agility": 60,
       "heal": 15,
       "prospecting": 15,
-      "waterResistPer": 5,
       "dodge": 7
     }
   },
@@ -1845,13 +1758,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 50,
       "agility": 50,
       "prospecting": 20,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "neutralResist": 12,
       "trapPower": 20,
       "trapDamage": 20
     }
@@ -1871,15 +1781,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "agility": 50,
       "heal": 5,
       "prospecting": 20,
-      "initiative": 300,
-      "neutralResistPer": 5,
-      "fireResistPer": 5,
-      "airResistPer": 5
+      "initiative": 300
     }
   },
   "aY": {
@@ -1898,10 +1805,9 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "wisdom": 20,
-      "pods": 150,
-      "waterResistPer": 5
+      "pods": 150
     }
   },
   "sd": {
@@ -1920,12 +1826,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 40,
       "summon": 2,
       "damage": 4,
-      "pods": 200,
-      "earthResistPer": 10
+      "pods": 200
     }
   },
   "t4": {
@@ -1944,7 +1849,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "intelligence": 40,
       "wisdom": 10,
       "criticalChance": 5,
@@ -1968,11 +1873,9 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "agility": 40,
-      "wisdom": 20,
-      "fireResistPer": 5,
-      "airResistPer": 5
+      "wisdom": 20
     }
   },
   "In": {
@@ -1990,14 +1893,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 50,
       "power": 25,
       "criticalChance": 4,
       "summon": 2,
       "damage": 10,
-      "prospecting": 20,
-      "neutralResist": 10
+      "prospecting": 20
     }
   },
   "vg": {
@@ -2016,7 +1918,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 30,
       "intelligence": 30,
       "agility": 30,
@@ -2026,8 +1928,7 @@
       "fireDamage": 3,
       "airDamage": 3,
       "initiative": -50,
-      "pods": 300,
-      "airResistPer": 3
+      "pods": 300
     }
   },
   "ts": {
@@ -2045,7 +1946,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "intelligence": 40,
       "summon": 1,
       "prospecting": 15,
@@ -2113,11 +2014,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 30,
       "criticalChance": 2,
-      "heal": 7,
-      "neutralResistPer": 5
+      "heal": 7
     }
   },
   "3P": {
@@ -2136,7 +2036,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "chance": 20,
       "dodge": 3
     }
@@ -2179,7 +2079,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "agility": 30,
       "wisdom": 25,
       "summon": 1,
@@ -2204,7 +2104,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "fireDamage": 1
     }
   },
@@ -2324,15 +2224,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "wisdom": 40,
       "range": 1,
       "damage": 6,
-      "prospecting": 20,
-      "neutralResistPer": 4,
-      "waterResistPer": 4,
-      "airResistPer": -4
+      "prospecting": 20
     }
   },
   "A1": {
@@ -2351,15 +2248,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "wisdom": 40,
       "criticalChance": 3,
       "summon": 1,
       "heal": 10,
       "prospecting": 10,
-      "neutralResistPer": 3,
-      "earthResistPer": 3,
-      "waterResistPer": 10,
       "criticalDamage": 10,
       "pushbackDamage": 10
     }
@@ -2380,7 +2274,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 40,
@@ -2388,10 +2282,7 @@
       "summon": 1,
       "heal": 8,
       "prospecting": 25,
-      "pods": 500,
-      "neutralResist": 6,
-      "earthResist": 6,
-      "airResist": 6
+      "pods": 500
     }
   },
   "Bc": {
@@ -2410,16 +2301,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "chance": 20,
       "wisdom": 20,
       "summon": 1,
       "pods": 350,
-      "fireResistPer": 3,
-      "airResistPer": 3,
-      "fireResist": 10,
-      "airResist": 10,
       "criticalDamage": 10,
       "pushbackDamage": 10
     }
@@ -2443,10 +2330,7 @@
       "intelligence": 30,
       "wisdom": 15,
       "power": 10,
-      "prospecting": 5,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "fireResistPer": 5
+      "prospecting": 5
     }
   },
   "Ai": {
@@ -2465,13 +2349,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "wisdom": 40,
       "range": 1,
       "prospecting": 10,
-      "neutralResistPer": 3,
-      "earthResistPer": 3,
-      "waterResistPer": 10,
       "lock": 4,
       "apReduction": 4,
       "mpReduction": 4
@@ -2493,7 +2374,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 140,
+      "vitality": 140,
       "strength": 50,
       "agility": 50,
       "wisdom": 15,
@@ -2502,7 +2383,6 @@
       "airDamage": 5,
       "prospecting": 5,
       "initiative": 150,
-      "fireResistPer": 7,
       "apResist": 6
     }
   },
@@ -2522,7 +2402,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 15,
@@ -2530,7 +2410,6 @@
       "waterDamage": 5,
       "prospecting": 5,
       "initiative": 150,
-      "airResistPer": 7,
       "apReduction": 4
     }
   },
@@ -2550,7 +2429,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 30,
       "agility": 50,
       "wisdom": 25,
@@ -2558,10 +2437,7 @@
       "summon": 1,
       "damage": 10,
       "prospecting": 15,
-      "pods": 500,
-      "waterResistPer": 8,
-      "neutralResist": 10,
-      "waterResist": 10
+      "pods": 500
     }
   },
   "At": {
@@ -2580,18 +2456,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 35,
       "chance": 45,
       "wisdom": 20,
       "criticalChance": 4,
       "damage": 6,
-      "prospecting": 15,
-      "neutralResist": 6,
-      "earthResist": 6,
-      "fireResist": 6,
-      "waterResist": 6,
-      "airResist": 6
+      "prospecting": 15
     }
   },
   "E9": {
@@ -2610,7 +2481,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 20,
@@ -2620,9 +2491,7 @@
       "heal": 4,
       "prospecting": 15,
       "initiative": 200,
-      "pods": 600,
-      "neutralResist": 10,
-      "airResist": 10
+      "pods": 600
     }
   },
   "0n": {
@@ -2641,7 +2510,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "intelligence": 6
     }
   },
@@ -2864,16 +2733,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "agility": 60,
       "wisdom": 40,
       "power": 15,
       "criticalChance": 6,
       "range": 1,
       "damage": 7,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "waterResistPer": 10
+      "prospecting": 15
     }
   },
   "EX": {
@@ -2899,10 +2766,7 @@
       "damage": 5,
       "heal": 5,
       "prospecting": 20,
-      "initiative": 300,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "airResistPer": 10
+      "initiative": 300
     }
   },
   "CL": {
@@ -2921,7 +2785,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 20,
@@ -2929,7 +2793,6 @@
       "damage": 5,
       "heal": 7,
       "prospecting": 10,
-      "airResistPer": 6,
       "dodge": 5
     }
   },
@@ -2949,15 +2812,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 45,
       "agility": 45,
       "wisdom": 40,
       "power": 10,
       "prospecting": 20,
-      "initiative": 300,
-      "neutralResistPer": 10,
-      "fireResistPer": 10
+      "initiative": 300
     }
   },
   "c1": {
@@ -2975,7 +2836,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 25,
       "agility": 25,
       "criticalChance": 2
@@ -2997,16 +2858,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "wisdom": 40,
       "criticalChance": 3,
       "damage": 5,
       "heal": 10,
       "prospecting": 20,
-      "initiative": 300,
-      "earthResistPer": 7,
-      "fireResistPer": 7
+      "initiative": 300
     }
   },
   "JC": {
@@ -3025,17 +2884,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "wisdom": 30,
       "criticalChance": 4,
       "summon": 1,
       "damage": 5,
       "prospecting": 20,
-      "initiative": 500,
-      "fireResistPer": 10,
-      "earthResist": 10,
-      "waterResist": 10
+      "initiative": 500
     }
   },
   "Hv": {
@@ -3054,14 +2910,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "chance": 50,
       "wisdom": 50,
       "criticalChance": 3,
       "summon": 1,
       "damage": 10,
-      "prospecting": 30,
-      "earthResistPer": 10
+      "prospecting": 30
     }
   },
   "JP": {
@@ -3080,14 +2935,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 50,
       "power": 40,
       "range": 1,
       "summon": 2,
       "damage": 10,
-      "prospecting": 20,
-      "earthResistPer": 10
+      "prospecting": 20
     }
   },
   "ir": {
@@ -3106,7 +2960,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "intelligence": 35,
       "wisdom": 15,
       "fireDamage": 3,
@@ -3129,7 +2983,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 35,
       "wisdom": 15,
       "earthDamage": 3,
@@ -3152,7 +3006,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 35,
       "wisdom": 15,
       "airDamage": 3,
@@ -3175,7 +3029,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "chance": 35,
       "wisdom": 15,
       "waterDamage": 3,
@@ -3198,13 +3052,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "intelligence": 30,
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400,
-      "fireResistPer": 5
+      "pods": 400
     }
   },
   "us": {
@@ -3223,13 +3076,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "strength": 30,
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400,
-      "earthResistPer": 5
+      "pods": 400
     }
   },
   "ug": {
@@ -3248,13 +3100,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "agility": 30,
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400,
-      "airResistPer": 5
+      "pods": 400
     }
   },
   "uo": {
@@ -3273,13 +3124,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 45,
+      "vitality": 45,
       "chance": 30,
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400,
-      "waterResistPer": 5
+      "pods": 400
     }
   },
   "vP": {
@@ -3298,12 +3148,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "wisdom": 30,
       "power": 35,
       "damage": 7,
-      "heal": 10,
-      "earthResistPer": 3
+      "heal": 10
     }
   },
   "Jb": {
@@ -3322,7 +3171,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 30,
@@ -3331,9 +3180,7 @@
       "range": 1,
       "damage": 5,
       "heal": 5,
-      "prospecting": 20,
-      "neutralResistPer": 10,
-      "neutralResist": 10
+      "prospecting": 20
     }
   },
   "hR": {
@@ -3351,7 +3198,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "damage": 3,
       "initiative": 200,
       "dodge": 10,
@@ -3373,9 +3220,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
-      "neutralResistPer": 4,
-      "earthResistPer": 4,
+      "vitality": 30,
       "criticalResist": 10
     }
   },
@@ -3395,7 +3240,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 25,
       "criticalChance": 7
     }
@@ -3416,7 +3261,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 25,
       "agility": 25,
       "criticalChance": 2
@@ -3458,12 +3303,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "wisdom": 15,
       "power": 20,
       "summon": 1,
-      "damage": 5,
-      "fireResistPer": -5
+      "damage": 5
     }
   },
   "dT": {
@@ -3504,7 +3348,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 20,
       "damage": 5,
       "criticalDamage": 10
@@ -3526,7 +3370,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "intelligence": 35,
       "heal": 5,
       "dodge": 5
@@ -3548,7 +3392,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "power": 20,
       "criticalChance": 2,
       "damage": 2
@@ -3571,7 +3415,7 @@
     "subCategory": "belt",
     "criterions": "PO!10119",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
       "waterDamage": 5,
       "initiative": 300
@@ -3593,7 +3437,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "damage": 3,
       "initiative": 60,
       "dodge": 5
@@ -3615,7 +3459,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 10,
       "summon": 1,
       "initiative": 200
@@ -3679,7 +3523,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "strength": 20,
       "damage": 3
     }
@@ -3700,7 +3544,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 25,
       "criticalChance": 2,
       "range": 1
@@ -3722,7 +3566,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 25,
       "damage": 3
     }
@@ -3764,7 +3608,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": 25,
       "damage": 2
     }
@@ -3785,7 +3629,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 15,
       "power": 20,
       "range": 1
@@ -3807,7 +3651,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 1,
+      "vitality": 1,
       "initiative": 1
     }
   },
@@ -3827,7 +3671,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 25,
       "criticalChance": 4,
       "damage": 3
@@ -3849,7 +3693,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 35,
       "power": 15,
       "range": 1
@@ -3871,7 +3715,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "chance": 30,
       "range": 1,
       "pods": 300
@@ -3994,7 +3838,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 30,
       "initiative": 200
     }
@@ -4015,7 +3859,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 30,
       "power": 20,
       "initiative": 200,
@@ -4038,7 +3882,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 25,
       "wisdom": 10,
       "earthDamage": 4
@@ -4060,7 +3904,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "agility": 30,
       "wisdom": 20,
       "criticalChance": 3,
@@ -4084,7 +3928,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 25,
       "fireDamage": 5,
       "initiative": 150
@@ -4106,7 +3950,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 25,
       "airDamage": 4,
       "initiative": 150,
@@ -4129,7 +3973,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 30,
       "criticalChance": 3,
       "summon": 1,
@@ -4154,7 +3998,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "chance": 30,
       "damage": 3,
       "prospecting": 10,
@@ -4178,7 +4022,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 30,
       "agility": 30,
       "criticalChance": 5,
@@ -4201,16 +4045,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "agility": 60,
       "wisdom": 50,
       "summon": 2,
       "damage": 10,
-      "prospecting": 10,
-      "neutralResist": 15,
-      "earthResist": 15,
-      "airResist": 15
+      "prospecting": 10
     }
   },
   "Bj": {
@@ -4229,7 +4070,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "chance": 40,
       "wisdom": 30,
@@ -4238,9 +4079,6 @@
       "waterDamage": 8,
       "heal": 5,
       "prospecting": 15,
-      "waterResistPer": 7,
-      "fireResist": 7,
-      "airResist": 7,
       "dodge": 5,
       "pushbackDamage": 10
     }
@@ -4261,7 +4099,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 230,
+      "vitality": 230,
       "agility": 50,
       "wisdom": 30,
       "criticalChance": 4,
@@ -4269,8 +4107,6 @@
       "airDamage": 10,
       "heal": 10,
       "prospecting": 15,
-      "fireResist": 10,
-      "waterResist": 10,
       "lock": 5,
       "dodge": -4,
       "criticalResist": 10
@@ -4292,7 +4128,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 40,
       "agility": 40,
       "power": 15,
@@ -4301,8 +4137,6 @@
       "airDamage": 7,
       "prospecting": 20,
       "initiative": 400,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "lock": 5
     }
   },
@@ -4322,7 +4156,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 60,
       "criticalChance": 5,
       "neutralDamage": 12,
@@ -4330,9 +4164,6 @@
       "fireDamage": 12,
       "prospecting": 20,
       "initiative": 300,
-      "waterResistPer": 7,
-      "earthResist": 10,
-      "fireResist": 10,
       "dodge": -7
     }
   },
@@ -4352,7 +4183,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 45,
       "wisdom": 40,
       "power": 15,
@@ -4360,9 +4191,6 @@
       "neutralDamage": 10,
       "waterDamage": 10,
       "prospecting": 20,
-      "fireResistPer": 7,
-      "airResistPer": 7,
-      "waterResist": 10,
       "dodge": 5,
       "pushbackDamage": -7
     }
@@ -4383,7 +4211,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 40,
@@ -4392,9 +4220,6 @@
       "airDamage": 12,
       "prospecting": 20,
       "initiative": 300,
-      "airResistPer": 7,
-      "neutralResist": 7,
-      "waterResist": 7,
       "dodge": 5,
       "mpResist": 5
     }
@@ -4415,7 +4240,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 30,
       "wisdom": 40,
       "power": 30,
@@ -4423,8 +4248,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "prospecting": 25,
-      "earthResist": 10,
-      "airResist": 10,
       "lock": 6,
       "apResist": 6
     }
@@ -4445,7 +4268,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 40,
       "chance": 40,
       "agility": 40,
@@ -4455,11 +4278,6 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "airDamage": 10,
-      "neutralResist": 12,
-      "earthResist": 12,
-      "fireResist": 12,
-      "waterResist": 12,
-      "airResist": 12,
       "dodge": 5,
       "mpReduction": 5
     }
@@ -4479,7 +4297,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "agility": 60,
       "wisdom": 40,
@@ -4488,7 +4306,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 25,
-      "fireResistPer": 7,
       "dodge": -4,
       "apReduction": 4,
       "pushbackDamage": 10
@@ -4509,7 +4326,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "intelligence": 60,
       "wisdom": 40,
@@ -4537,11 +4354,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
       "power": 15,
-      "criticalChance": 2,
-      "neutralResistPer": 3
+      "criticalChance": 2
     }
   },
   "JS": {
@@ -4559,16 +4375,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 30,
       "power": 40,
       "criticalChance": 6,
       "mp": 1,
       "heal": 6,
       "prospecting": 15,
-      "neutralResistPer": 5,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
       "lock": -6,
       "dodge": -6,
       "mpResist": -6,
@@ -4613,11 +4426,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 30,
       "airDamage": 5,
-      "pushbackDamage": 10,
-      "pushbackResist": 10
+      "pushbackDamage": 10
     }
   },
   "gk": {
@@ -4636,7 +4448,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 25,
       "wisdom": 10,
       "dodge": 2,
@@ -4659,7 +4471,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 40,
       "criticalChance": 3,
       "airDamage": 5,
@@ -4683,7 +4495,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 25,
       "summon": 1,
       "neutralDamage": 6,
@@ -4706,7 +4518,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 30,
       "range": 1,
       "dodge": 4,
@@ -4729,7 +4541,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "chance": 50,
       "wisdom": 50,
@@ -4739,8 +4551,6 @@
       "earthDamage": 10,
       "waterDamage": 10,
       "prospecting": 25,
-      "waterResist": 12,
-      "airResist": 12,
       "dodge": 5,
       "mpResist": 5,
       "pushbackDamage": -7
@@ -4762,12 +4572,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "neutralDamage": 10,
       "lock": 10,
       "mpReduction": 10,
-      "pushbackDamage": 10,
-      "pushbackResist": 10
+      "pushbackDamage": 10
     }
   },
   "Ej": {
@@ -4786,14 +4595,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 225,
+      "vitality": 225,
       "agility": 60,
       "wisdom": 25,
       "criticalChance": 4,
       "airDamage": 12,
       "prospecting": 15,
-      "earthResistPer": 10,
-      "airResist": 15,
       "lock": -4,
       "criticalResist": 10,
       "pushbackDamage": 15
@@ -4815,7 +4622,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 230,
+      "vitality": 230,
       "intelligence": 30,
       "chance": 30,
       "wisdom": 40,
@@ -4823,11 +4630,8 @@
       "fireDamage": 15,
       "waterDamage": 15,
       "prospecting": 20,
-      "earthResist": 15,
-      "airResist": 15,
       "dodge": 5,
-      "mpReduction": 4,
-      "pushbackResist": 10
+      "mpReduction": 4
     }
   },
   "Ko": {
@@ -4846,13 +4650,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 80,
       "wisdom": 40,
       "earthDamage": 20,
       "prospecting": 25,
       "initiative": 600,
-      "airResist": 25,
       "lock": 10
     }
   },
@@ -4906,7 +4709,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 40,
       "wisdom": 25,
       "range": 1,
@@ -4914,9 +4717,6 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "prospecting": 10,
-      "fireResistPer": 6,
-      "earthResist": 6,
-      "airResist": 6,
       "lock": 4,
       "mpReduction": 3
     }
@@ -4937,7 +4737,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 220,
+      "vitality": 220,
       "chance": 40,
       "agility": 40,
       "wisdom": 40,
@@ -4945,9 +4745,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 20,
-      "neutralResist": 15,
-      "earthResist": 15,
-      "airResist": 15,
       "lock": -4,
       "mpReduction": 6
     }
@@ -4967,10 +4764,9 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 25,
       "airDamage": 5,
-      "fireResist": 5,
       "pushbackDamage": 10
     }
   },
@@ -4989,7 +4785,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 25,
       "wisdom": 15,
       "heal": 5,
@@ -5012,7 +4808,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "criticalChance": 2
     }
   },
@@ -5032,11 +4828,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 30,
       "wisdom": 15,
-      "earthDamage": 10,
-      "earthResistPer": 4
+      "earthDamage": 10
     }
   },
   "v3": {
@@ -5055,14 +4850,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 70,
+      "vitality": 70,
       "chance": 30,
       "wisdom": 20,
       "range": 1,
       "waterDamage": 5,
-      "earthResistPer": 4,
-      "pushbackDamage": 7,
-      "pushbackResist": 8
+      "pushbackDamage": 7
     }
   },
   "2O": {
@@ -5081,7 +4874,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "damage": 2
     }
   },
@@ -5100,7 +4893,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 40,
       "wisdom": 20,
       "criticalChance": 3,
@@ -5109,9 +4902,6 @@
       "fireDamage": 6,
       "waterDamage": 6,
       "prospecting": 10,
-      "earthResistPer": 4,
-      "waterResistPer": 4,
-      "airResist": 12,
       "lock": 4,
       "apReduction": -3,
       "criticalResist": 12
@@ -5173,11 +4963,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "power": 20,
       "summon": 1,
       "prospecting": 10,
-      "waterResistPer": 5,
       "dodge": 5
     }
   },
@@ -5197,12 +4986,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 20,
       "wisdom": 15,
       "neutralDamage": 6,
-      "criticalResist": 5,
-      "pushbackResist": 5
+      "criticalResist": 5
     }
   },
   "M4": {
@@ -5221,14 +5009,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 100,
       "wisdom": 30,
       "criticalChance": 6,
       "range": 2,
       "neutralDamage": 18,
       "earthDamage": 18,
-      "neutralResist": 15,
       "mpResist": 7,
       "criticalResist": 15
     }
@@ -5249,7 +5036,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 80,
       "wisdom": 40,
       "criticalChance": 6,
@@ -5276,7 +5063,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "criticalChance": 9,
       "range": 1,
@@ -5303,7 +5090,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "chance": 50,
       "agility": 50,
@@ -5314,8 +5101,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 10,
-      "earthResistPer": 7,
-      "airResist": 15,
       "lock": 5,
       "apReduction": 5
     }
@@ -5336,7 +5121,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "power": 25,
       "criticalChance": 2,
       "fireDamage": 5,
@@ -5419,7 +5204,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "intelligence": 30,
       "chance": 40,
       "wisdom": 30,
@@ -5428,8 +5213,6 @@
       "waterDamage": 6,
       "prospecting": 8,
       "initiative": 150,
-      "fireResistPer": 5,
-      "airResist": 8,
       "apResist": 3,
       "pushbackDamage": 10
     }
@@ -5449,7 +5232,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": -70,
+      "vitality": -70,
       "summon": 1
     }
   },
@@ -5469,7 +5252,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 30,
       "agility": 30,
       "wisdom": 20,
@@ -5498,7 +5281,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "intelligence": 50,
       "wisdom": 50,
@@ -5508,9 +5291,6 @@
       "earthDamage": 15,
       "fireDamage": 15,
       "prospecting": 20,
-      "earthResistPer": 8,
-      "neutralResist": 8,
-      "waterResist": 8,
       "dodge": 10,
       "mpReduction": -7,
       "criticalResist": -11
@@ -5532,7 +5312,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "agility": 50,
       "wisdom": 50,
@@ -5540,7 +5320,6 @@
       "neutralDamage": 20,
       "earthDamage": 20,
       "airDamage": 20,
-      "neutralResistPer": 15,
       "dodge": 15,
       "criticalDamage": -16
     }
@@ -5561,7 +5340,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "agility": 40,
       "wisdom": 30,
@@ -5571,8 +5350,6 @@
       "earthDamage": 8,
       "airDamage": 8,
       "prospecting": 15,
-      "fireResistPer": 7,
-      "airResistPer": 7,
       "dodge": 6,
       "mpResist": 4
     }
@@ -5593,14 +5370,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "agility": 80,
       "wisdom": 50,
       "criticalChance": 3,
       "airDamage": 12,
       "prospecting": 20,
-      "neutralResistPer": 10,
-      "fireResist": 20,
       "dodge": 10,
       "apResist": 7,
       "criticalDamage": 12
@@ -5622,13 +5397,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 70,
       "wisdom": 50,
       "waterDamage": 20,
       "initiative": 500,
-      "waterResistPer": 9,
-      "airResistPer": 9,
       "mpReduction": 7,
       "pushbackDamage": 20
     }
@@ -5649,7 +5422,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 60,
       "criticalChance": 12,
       "range": 2,
@@ -5676,16 +5449,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 70,
       "wisdom": 40,
       "criticalChance": 4,
       "neutralDamage": 16,
       "earthDamage": 16,
       "prospecting": 10,
-      "airResistPer": 10,
-      "earthResist": 15,
-      "airResist": 15,
       "lock": 10,
       "criticalDamage": 10
     }
@@ -5706,7 +5476,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 80,
       "agility": 40,
       "wisdom": 50,
@@ -5715,7 +5485,6 @@
       "fireDamage": 10,
       "heal": 10,
       "initiative": 300,
-      "airResistPer": 10,
       "dodge": 15,
       "criticalDamage": 15
     }
@@ -5736,7 +5505,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 50,
       "power": 60,
       "criticalChance": 7,
@@ -5747,7 +5516,6 @@
       "airDamage": 10,
       "heal": 7,
       "initiative": 400,
-      "neutralResistPer": 8,
       "lock": 10,
       "criticalDamage": 15,
       "criticalResist": -16
@@ -5769,15 +5537,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "agility": 100,
       "wisdom": 60,
       "criticalChance": 7,
       "range": -1,
       "airDamage": 15,
       "prospecting": 20,
-      "waterResistPer": 10,
-      "earthResist": 20,
       "pushbackDamage": 25
     }
   },
@@ -5816,7 +5582,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "wisdom": 40,
       "criticalChance": 5,
@@ -5846,7 +5612,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "chance": 40,
       "wisdom": 30,
       "power": 40,
@@ -5854,8 +5620,6 @@
       "summon": 2,
       "prospecting": 15,
       "initiative": -301,
-      "waterResistPer": 10,
-      "airResistPer": 10,
       "lock": 15,
       "mpResist": -6,
       "criticalDamage": 25,
@@ -5877,14 +5641,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 30,
       "power": 40,
       "criticalChance": 3,
       "range": 1,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "airResistPer": 10,
       "dodge": 16,
       "mpResist": 8
     }
@@ -5908,8 +5670,6 @@
       "agility": 40,
       "wisdom": 30,
       "criticalChance": 3,
-      "fireResistPer": 6,
-      "airResistPer": 6,
       "lock": 7,
       "criticalDamage": 10
     }
@@ -5930,7 +5690,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 30,
@@ -5941,9 +5701,6 @@
       "earthDamage": 20,
       "fireDamage": 20,
       "prospecting": 15,
-      "earthResistPer": 6,
-      "airResistPer": 6,
-      "waterResist": 10,
       "mpResist": -11
     }
   },
@@ -5963,7 +5720,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 20,
       "intelligence": 20,
       "wisdom": 30,
@@ -5989,12 +5746,11 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "chance": 30,
       "wisdom": 20,
       "range": 1,
       "heal": 7,
-      "earthResistPer": 5,
       "mpReduction": 5
     }
   },
@@ -6014,14 +5770,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 50,
       "wisdom": 30,
       "range": 1,
       "summon": 1,
       "neutralDamage": 6,
       "earthDamage": 6,
-      "waterResistPer": 6,
       "apResist": 7,
       "criticalDamage": 10
     }
@@ -6042,12 +5797,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 15,
-      "waterResistPer": 6,
-      "airResistPer": 6,
       "apResist": 5,
       "criticalDamage": 10
     }
@@ -6068,15 +5821,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 40,
       "wisdom": 20,
       "criticalChance": 3,
       "waterDamage": 3,
       "prospecting": 15,
-      "airResistPer": 5,
-      "lock": 7,
-      "pushbackResist": 10
+      "lock": 7
     }
   },
   "2Y": {
@@ -6113,7 +5864,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "chance": 15
     }
   },
@@ -6133,7 +5884,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 30,
       "agility": 50,
       "wisdom": 30,
@@ -6142,8 +5893,6 @@
       "waterDamage": 12,
       "airDamage": 7,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "earthResist": 12,
       "lock": -4
     }
   },
@@ -6201,7 +5950,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "intelligence": 50,
       "chance": 50,
@@ -6212,7 +5961,6 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "prospecting": 15,
-      "airResistPer": 10,
       "dodge": 5,
       "apResist": 7,
       "mpResist": -4
@@ -6234,7 +5982,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 40,
       "power": 50,
       "criticalChance": 4,
@@ -6266,15 +6014,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "range": 1,
       "waterDamage": 6,
-      "fireResistPer": 10,
-      "airResistPer": 10,
-      "airResist": 12,
       "dodge": 5
     }
   },
@@ -6294,16 +6039,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "agility": 60,
       "wisdom": 30,
       "power": 15,
       "criticalChance": 4,
       "range": 1,
       "airDamage": 7,
-      "fireResistPer": 5,
-      "waterResistPer": 7,
-      "waterResist": 12,
       "mpReduction": 5,
       "pushbackDamage": 12
     }
@@ -6324,7 +6066,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "summon": 1,
       "apReduction": 5,
       "criticalDamage": -20
@@ -6346,7 +6088,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 70,
       "agility": 70,
       "wisdom": 40,
@@ -6354,10 +6096,7 @@
       "summon": 1,
       "waterDamage": 12,
       "airDamage": 12,
-      "prospecting": 15,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "fireResistPer": 7
+      "prospecting": 15
     }
   },
   "ER": {
@@ -6376,7 +6115,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "power": 40,
       "range": 1,
       "summon": 1,
@@ -6384,10 +6123,7 @@
       "earthDamage": 8,
       "fireDamage": 8,
       "waterDamage": 8,
-      "airDamage": 8,
-      "earthResistPer": 6,
-      "airResistPer": 6,
-      "pushbackResist": 20
+      "airDamage": 8
     }
   },
   "EO": {
@@ -6406,7 +6142,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 40,
@@ -6414,8 +6150,6 @@
       "range": 1,
       "fireDamage": 10,
       "waterDamage": 10,
-      "airResistPer": 7,
-      "earthResist": 10,
       "lock": 10
     }
   },
@@ -6435,15 +6169,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 40,
       "chance": 40,
       "range": 2,
       "neutralDamage": 6,
       "earthDamage": 6,
       "waterDamage": 6,
-      "prospecting": 15,
-      "airResistPer": 7
+      "prospecting": 15
     }
   },
   "xw": {
@@ -6462,14 +6195,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "agility": 40,
       "wisdom": 25,
       "fireDamage": 5,
       "airDamage": 5,
       "prospecting": 15,
-      "earthResistPer": 3,
       "lock": 7
     }
   },
@@ -6507,14 +6239,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "wisdom": 25,
       "summon": 1,
       "fireDamage": 7,
       "initiative": 600,
-      "neutralResistPer": 10,
-      "waterResist": 12,
       "lock": 10,
       "mpReduction": 5
     }
@@ -6535,7 +6265,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "wisdom": 40,
       "criticalChance": 4,
@@ -6544,10 +6274,8 @@
       "earthDamage": 15,
       "prospecting": 15,
       "initiative": 600,
-      "fireResistPer": 10,
       "lock": 15,
-      "apReduction": 6,
-      "pushbackResist": 20
+      "apReduction": 6
     }
   },
   "OC": {
@@ -6566,7 +6294,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "intelligence": 60,
       "wisdom": 40,
@@ -6575,7 +6303,6 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "prospecting": 15,
-      "fireResistPer": 15,
       "dodge": 10,
       "criticalDamage": 25
     }
@@ -6596,7 +6323,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "chance": 70,
       "wisdom": 40,
@@ -6606,7 +6333,6 @@
       "earthDamage": 15,
       "waterDamage": 15,
       "prospecting": 15,
-      "earthResistPer": 7,
       "criticalResist": 30
     }
   },
@@ -6626,7 +6352,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 30,
       "chance": 30,
       "wisdom": 30,
@@ -6637,8 +6363,7 @@
       "earthDamage": 7,
       "fireDamage": 7,
       "waterDamage": 7,
-      "airDamage": 7,
-      "fireResistPer": 7
+      "airDamage": 7
     }
   },
   "9n": {
@@ -6698,18 +6423,15 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 40,
       "power": 50,
       "criticalChance": 4,
       "ap": 1,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "waterResistPer": 10,
       "dodge": -10,
       "mpResist": 7,
-      "criticalDamage": 20,
-      "pushbackResist": 20
+      "criticalDamage": 20
     }
   },
   "U8": {
@@ -6728,12 +6450,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "mp": 1,
       "summon": 1,
-      "earthResistPer": 10,
-      "fireResistPer": 10,
       "lock": -15,
       "apResist": 10,
       "mpResist": 10,
@@ -6756,7 +6476,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "agility": 60,
       "wisdom": 40,
@@ -6765,8 +6485,6 @@
       "airDamage": 12,
       "heal": 12,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
       "apReduction": 5
     }
   },
@@ -6786,7 +6504,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "chance": 60,
       "wisdom": 40,
@@ -6795,7 +6513,6 @@
       "fireDamage": 20,
       "waterDamage": 20,
       "heal": 15,
-      "airResistPer": 10,
       "pushbackDamage": 20
     }
   },
@@ -6815,7 +6532,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 50,
       "agility": 50,
       "wisdom": 30,
@@ -6825,8 +6542,6 @@
       "earthDamage": 7,
       "airDamage": 7,
       "initiative": 500,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "lock": 7
     }
   },
@@ -6846,18 +6561,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 60,
       "chance": 60,
       "wisdom": 30,
       "criticalChance": 3,
       "fireDamage": 10,
       "waterDamage": 10,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "neutralResist": 10,
-      "earthResist": 10,
-      "airResist": 10
+      "prospecting": 15
     }
   },
   "Bt": {
@@ -6876,12 +6587,10 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 50,
       "intelligence": 50,
       "wisdom": 35,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": 7,
       "mpResist": 7
     }
@@ -6925,7 +6634,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 40,
       "range": 1,
       "neutralDamage": 15,
@@ -6968,14 +6677,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "strength": 30,
       "agility": 30,
       "wisdom": 25,
       "summon": 1,
       "earthDamage": 5,
       "airDamage": 5,
-      "waterResistPer": 3,
       "apResist": 5
     }
   },
@@ -6994,7 +6702,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 30,
       "dodge": 4
     }
@@ -7015,7 +6723,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 25,
@@ -7023,11 +6731,8 @@
       "summon": 1,
       "fireDamage": 7,
       "airDamage": 7,
-      "fireResist": 15,
-      "airResist": 15,
       "dodge": 7,
-      "mpResist": 6,
-      "pushbackResist": 15
+      "mpResist": 6
     }
   },
   "Fh": {
@@ -7046,7 +6751,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "chance": 40,
       "wisdom": 40,
@@ -7056,8 +6761,6 @@
       "earthDamage": 10,
       "waterDamage": 7,
       "initiative": 300,
-      "fireResistPer": 7,
-      "fireResist": 10,
       "lock": 5
     }
   },
@@ -7077,7 +6780,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "chance": 70,
       "agility": 70,
       "wisdom": 50,
@@ -7085,8 +6788,6 @@
       "waterDamage": 15,
       "airDamage": 15,
       "prospecting": 15,
-      "fireResistPer": 10,
-      "waterResistPer": 10,
       "dodge": 7,
       "mpResist": -5,
       "criticalDamage": 15
@@ -7108,16 +6809,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 40,
       "power": 30,
       "criticalChance": 5,
       "range": 1,
       "prospecting": 15,
       "initiative": 600,
-      "neutralResistPer": 7,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "lock": 12,
       "mpReduction": 7,
       "criticalResist": 15
@@ -7139,7 +6837,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "intelligence": 50,
       "wisdom": 40,
@@ -7149,7 +6847,6 @@
       "earthDamage": 12,
       "fireDamage": 12,
       "initiative": 400,
-      "waterResistPer": 7,
       "apResist": 5,
       "pushbackDamage": 20
     }
@@ -7170,7 +6867,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "chance": 40,
       "power": 15,
       "dodge": 10,
@@ -7315,7 +7012,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 30,
       "wisdom": 15,
       "criticalChance": 3
@@ -7337,7 +7034,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "chance": 60,
       "wisdom": 40,
@@ -7345,7 +7042,6 @@
       "neutralDamage": 10,
       "earthDamage": 10,
       "waterDamage": 10,
-      "fireResistPer": 7,
       "mpReduction": 5,
       "criticalDamage": 12
     }
@@ -7366,7 +7062,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "wisdom": 25,
       "power": 15,
@@ -7396,7 +7092,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "power": 15,
       "initiative": 100
     }
@@ -7436,15 +7132,13 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 70,
       "wisdom": 40,
       "criticalChance": 2,
       "ap": 1,
       "waterDamage": 15,
       "prospecting": 15,
-      "neutralResistPer": 7,
-      "fireResistPer": 7,
       "apResist": 15
     }
   },
@@ -7483,14 +7177,13 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "agility": 80,
       "wisdom": 40,
       "criticalChance": 6,
       "ap": 1,
       "airDamage": 20,
       "prospecting": 15,
-      "earthResistPer": 10,
       "apReduction": 12
     }
   },
@@ -7510,7 +7203,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "agility": 60,
       "wisdom": 40,
@@ -7518,8 +7211,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "airDamage": 12,
-      "fireResistPer": 10,
-      "airResistPer": 10,
       "lock": 10,
       "apReduction": 6
     }
@@ -7540,7 +7231,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 40,
       "intelligence": 40,
       "chance": 40,
@@ -7554,7 +7245,6 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 15,
-      "earthResistPer": 10,
       "dodge": 10
     }
   },
@@ -7574,7 +7264,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 70,
       "chance": 70,
       "wisdom": 40,
@@ -7583,8 +7273,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
-      "fireResistPer": 7,
-      "airResistPer": 7,
       "lock": 10,
       "mpReduction": 5,
       "pushbackDamage": 20
@@ -7606,7 +7294,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 20,
       "chance": 20,
       "earthDamage": 4,
@@ -7631,13 +7319,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 40,
       "wisdom": 15,
       "summon": 1,
       "airDamage": 3,
       "prospecting": 10,
-      "neutralResistPer": 4,
       "apReduction": 3,
       "mpResist": 3
     }
@@ -7658,7 +7345,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 40,
       "agility": 40,
       "wisdom": 25,
@@ -7668,7 +7355,6 @@
       "earthDamage": 5,
       "airDamage": 5,
       "prospecting": 10,
-      "neutralResistPer": 7,
       "dodge": 5,
       "criticalDamage": 15
     }
@@ -7689,10 +7375,9 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 40,
-      "fireDamage": 7,
-      "waterResistPer": 3
+      "fireDamage": 7
     }
   },
   "IB": {
@@ -7711,7 +7396,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 40,
       "agility": 40,
       "wisdom": 30,
@@ -7719,10 +7404,7 @@
       "waterDamage": 7,
       "airDamage": 7,
       "heal": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "mpReduction": 6,
-      "pushbackResist": 12
+      "mpReduction": 6
     }
   },
   "Qs": {
@@ -7741,15 +7423,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "chance": 80,
       "wisdom": 30,
       "criticalChance": 6,
       "range": 1,
       "waterDamage": 10,
       "prospecting": 15,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
       "dodge": 15,
       "apResist": 12,
       "mpResist": -15,
@@ -7789,7 +7469,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 40,
       "range": -1,
       "airDamage": 5,
@@ -7812,7 +7492,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "intelligence": 60,
       "wisdom": 30,
@@ -7822,7 +7502,6 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "heal": 12,
-      "airResistPer": 10,
       "lock": 10,
       "apReduction": 7
     }
@@ -7842,7 +7521,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 20,
       "intelligence": 20,
       "earthDamage": 5,
@@ -7865,14 +7544,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 35,
       "agility": 35,
       "wisdom": 15,
       "neutralDamage": 3,
       "earthDamage": 3,
       "airDamage": 3,
-      "waterResistPer": 5,
       "lock": 5,
       "pushbackDamage": 10
     }
@@ -7893,7 +7571,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "power": 70,
       "criticalChance": -10,
@@ -7904,8 +7582,6 @@
       "waterDamage": 15,
       "airDamage": 15,
       "prospecting": 15,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "dodge": 10
     }
   },
@@ -7925,7 +7601,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 40,
@@ -7933,8 +7609,6 @@
       "fireDamage": 15,
       "waterDamage": 15,
       "prospecting": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
       "mpResist": 7,
       "criticalDamage": 12
     }
@@ -7975,7 +7649,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 80,
       "wisdom": 40,
       "criticalChance": 3,
@@ -7983,7 +7657,6 @@
       "neutralDamage": 18,
       "earthDamage": 18,
       "prospecting": 15,
-      "airResistPer": 10,
       "lock": -20,
       "mpResist": 15,
       "pushbackDamage": 25
@@ -8005,15 +7678,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "agility": 80,
       "wisdom": 40,
       "criticalChance": 4,
       "range": 1,
       "airDamage": 15,
       "prospecting": 15,
-      "earthResistPer": 10,
-      "waterResistPer": 10,
       "apResist": 10,
       "criticalDamage": 12
     }
@@ -8034,7 +7705,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "chance": 70,
       "wisdom": 40,
@@ -8042,12 +7713,9 @@
       "neutralDamage": 15,
       "earthDamage": 15,
       "waterDamage": 15,
-      "neutralResistPer": 7,
-      "waterResistPer": 7,
       "dodge": 10,
       "lock": -10,
-      "apReduction": 7,
-      "pushbackResist": 25
+      "apReduction": 7
     }
   },
   "Qd": {
@@ -8066,7 +7734,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 60,
       "chance": 60,
       "wisdom": 40,
@@ -8074,7 +7742,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
-      "airResistPer": 15,
       "lock": 7,
       "criticalResist": 25
     }
@@ -8095,15 +7762,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 100,
       "wisdom": 40,
       "criticalChance": 5,
       "range": 1,
       "neutralDamage": 20,
-      "earthDamage": 20,
-      "neutralResistPer": 10,
-      "earthResistPer": 10
+      "earthDamage": 20
     }
   },
   "QE": {
@@ -8121,15 +7786,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 80,
       "chance": 80,
       "agility": 80,
       "wisdom": 40,
       "criticalChance": 7,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": -20,
       "apReduction": -20,
       "mpResist": 20,
@@ -8151,13 +7813,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 500,
+      "vitality": 500,
       "chance": 100,
       "agility": 100,
       "wisdom": 60,
       "criticalChance": -15,
       "dodge": -60,
-      "pushbackResist": 30,
       "meleeResistPer": 10,
       "spellDamagePer": 2
     }
@@ -8178,7 +7839,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": 40,
       "criticalChance": 3,
       "waterDamage": 4,
@@ -8202,7 +7863,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 450,
+      "vitality": 450,
       "strength": 50,
       "intelligence": 50,
       "wisdom": 30,
@@ -8210,9 +7871,6 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "prospecting": 10,
-      "neutralResistPer": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": 15,
       "mpReduction": 15,
       "pushbackResist": -20
@@ -8233,14 +7891,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 80,
       "wisdom": 30,
       "criticalChance": 4,
       "range": 1,
       "fireDamage": 20,
-      "earthResistPer": 12,
-      "waterResistPer": 12,
       "lock": 8,
       "mpResist": 5,
       "pushbackDamage": 15
@@ -8262,15 +7918,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 70,
       "intelligence": 70,
       "wisdom": 30,
       "criticalChance": 3,
       "earthDamage": 12,
       "fireDamage": 12,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
       "lock": -10,
       "apResist": 10,
       "mpResist": 10,
@@ -8293,15 +7947,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 70,
       "wisdom": 40,
       "criticalChance": 3,
       "range": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
-      "neutralResistPer": 10,
-      "earthResistPer": 7,
       "mpReduction": 10,
       "apResist": -5,
       "criticalDamage": 20
@@ -8322,7 +7974,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 100,
       "chance": 100,
       "wisdom": 50,
@@ -8334,7 +7986,6 @@
       "lock": 20,
       "apResist": -15,
       "criticalResist": -20,
-      "pushbackResist": 40,
       "rangedResistPer": 10
     }
   },
@@ -8354,14 +8005,12 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 50,
       "wisdom": 40,
       "criticalChance": 5,
       "range": 1,
       "prospecting": 10,
-      "waterResistPer": 4,
-      "earthResist": 10,
       "dodge": 8,
       "mpReduction": 6
     }
@@ -8382,15 +8031,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 60,
       "wisdom": 30,
       "fireDamage": 8,
       "heal": 20,
       "prospecting": 20,
       "initiative": 200,
-      "fireResistPer": 5,
-      "fireResist": 10,
       "dodge": 10
     }
   },
@@ -8410,7 +8057,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "chance": 20,
@@ -8422,7 +8069,6 @@
       "fireDamage": 10,
       "waterDamage": 5,
       "prospecting": 25,
-      "waterResistPer": 6,
       "lock": 5,
       "apReduction": 5
     }
@@ -8443,18 +8089,14 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 60,
       "wisdom": 35,
       "summon": 1,
       "fireDamage": 10,
       "heal": 6,
       "initiative": 400,
-      "waterResistPer": 6,
-      "airResistPer": 6,
-      "neutralResist": 10,
-      "mpResist": 7,
-      "pushbackResist": 20
+      "mpResist": 7
     }
   },
   "PC": {
@@ -8473,7 +8115,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 70,
       "chance": 70,
       "wisdom": 30,
@@ -8481,8 +8123,6 @@
       "range": 1,
       "fireDamage": 12,
       "waterDamage": 12,
-      "earthResistPer": 10,
-      "airResistPer": 10,
       "lock": 12,
       "dodge": -12,
       "apReduction": 10,
@@ -8507,7 +8147,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 60,
       "agility": 60,
       "wisdom": 40,
@@ -8517,7 +8157,6 @@
       "neutralDamage": 15,
       "earthDamage": 15,
       "airDamage": 15,
-      "earthResistPer": 15,
       "mpReduction": 6,
       "pushbackDamage": 20
     }
@@ -8538,7 +8177,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 90,
       "intelligence": 90,
       "chance": 45,
@@ -8548,16 +8187,11 @@
       "fireDamage": 20,
       "waterDamage": 10,
       "airDamage": 10,
-      "waterResistPer": 6,
-      "airResistPer": 6,
-      "earthResistPer": -3,
-      "fireResistPer": -3,
       "dodge": 5,
       "lock": -10,
       "apResist": 3,
       "mpResist": -6,
-      "criticalResist": -16,
-      "pushbackResist": 8
+      "criticalResist": -16
     }
   },
   "bg": {
@@ -8576,7 +8210,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "damage": 3,
       "initiative": 60,
       "dodge": 5
@@ -8598,7 +8232,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 15,
@@ -8623,15 +8257,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "chance": 80,
       "wisdom": 30,
       "criticalChance": 5,
       "range": 1,
       "waterDamage": 12,
       "prospecting": 20,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "dodge": 7,
       "criticalDamage": 10
     }
@@ -8669,7 +8301,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 70,
       "chance": 70,
       "wisdom": 40,
@@ -8678,8 +8310,6 @@
       "waterDamage": 15,
       "prospecting": 15,
       "initiative": 500,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
       "dodge": 7,
       "mpResist": 10
     }
@@ -8710,17 +8340,13 @@
     ],
     "criterions": "CI>666",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 66,
       "wisdom": 30,
       "criticalChance": 6,
       "fireDamage": 18,
-      "fireResistPer": 12,
-      "airResistPer": 9,
-      "waterResistPer": -3,
       "dodge": 9,
-      "pushbackDamage": 30,
-      "waterResist": -11
+      "pushbackDamage": 30
     }
   },
   "T9": {
@@ -8739,7 +8365,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "strength": 60,
       "intelligence": 60,
       "agility": 60,
@@ -8750,7 +8376,6 @@
       "airDamage": 10,
       "prospecting": 15,
       "initiative": 200,
-      "waterResistPer": 15,
       "criticalDamage": 15
     }
   },
@@ -8770,7 +8395,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "intelligence": 50,
       "chance": 50,
@@ -8779,13 +8404,10 @@
       "criticalChance": 3,
       "summon": 1,
       "damage": 10,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
       "lock": 8,
       "dodge": -10,
       "apResist": 6,
-      "pushbackDamage": 20,
-      "pushbackResist": 20
+      "pushbackDamage": 20
     }
   },
   "Nu": {
@@ -8804,15 +8426,13 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 30,
       "power": 30,
       "damage": 10,
       "prospecting": 15,
       "initiative": 350,
       "pods": 700,
-      "waterResistPer": 7,
-      "airResistPer": 5,
       "lock": 6,
       "apResist": 10
     }
@@ -8833,7 +8453,7 @@
     "category": "belt",
     "subCategory": "belt",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "chance": 40,
       "agility": 40,
@@ -8842,9 +8462,6 @@
       "heal": 8,
       "prospecting": 15,
       "pods": 300,
-      "earthResistPer": 4,
-      "waterResistPer": 4,
-      "airResistPer": 4,
       "dodge": 6,
       "mpReduction": 6,
       "pushbackResist": -20

@@ -145,7 +145,7 @@ const defaultWeights: Stats = {
     range: 50,
     summon: 40,
 
-    health: 0.4,
+    vitality: 0.4,
 
     wisdom: 2,
     prospecting: 2,

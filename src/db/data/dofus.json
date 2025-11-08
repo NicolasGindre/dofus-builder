@@ -32,7 +32,7 @@
     "category": "dofus",
     "subCategory": "dofus",
     "stats": {
-      "health": 200
+      "vitality": 200
     }
   },
   "HR": {
@@ -144,7 +144,7 @@
     "category": "dofus",
     "subCategory": "dofus",
     "stats": {
-      "health": 1
+      "vitality": 1
     }
   },
   "K6": {
@@ -163,28 +163,6 @@
     "subCategory": "dofus",
     "stats": {
       "dodge": 40
-    }
-  },
-  "K8": {
-    "id": "K8",
-    "idDofusDB": "674e524064788cc741418d30",
-    "idDofusBook": 7115,
-    "name": {
-      "fr": "Dofus Ivoire",
-      "en": "Ivory Dofus",
-      "pt": "Dofus Marfim",
-      "de": "Elfenbein-Dofus",
-      "es": "Dofus Marfil"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "neutralResistPer": 4,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
-      "waterResistPer": 4,
-      "airResistPer": 4
     }
   },
   "HQ": {
@@ -330,24 +308,6 @@
     "subCategory": "dofus",
     "stats": {}
   },
-  "K7": {
-    "id": "K7",
-    "idDofusDB": "674e524164788cc74141b2df",
-    "idDofusBook": 19398,
-    "name": {
-      "fr": "Dofus Forgelave",
-      "en": "Lavasmith Dofus",
-      "pt": "Dofus Forjalava",
-      "de": "Lavaschmied-Dofus",
-      "es": "Dofus forjalava"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "pushbackResist": 100
-    }
-  },
   "K3": {
     "id": "K3",
     "idDofusDB": "674e524164788cc74141b632",
@@ -469,7 +429,7 @@
     "category": "dofus",
     "subCategory": "dofus",
     "stats": {
-      "health": 20
+      "vitality": 20
     }
   },
   "IO": {
@@ -868,60 +828,6 @@
       "pushbackDamage": 32
     }
   },
-  "il": {
-    "id": "il",
-    "idDofusDB": "674e524064788cc741419d17",
-    "idDofusBook": 12643,
-    "name": {
-      "fr": "Adamantin mineur",
-      "en": "Minor Adamantin",
-      "pt": "Adamantino Menor",
-      "de": "Kleiner Adamantiner",
-      "es": "Adamantino menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "pushbackResist": 12
-    }
-  },
-  "xb": {
-    "id": "xb",
-    "idDofusDB": "674e524064788cc741419d18",
-    "idDofusBook": 12644,
-    "name": {
-      "fr": "Adamantin",
-      "en": "Adamantin",
-      "pt": "Adamantino",
-      "de": "Adamantiner",
-      "es": "Adamantino mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "pushbackResist": 24
-    }
-  },
-  "Fa": {
-    "id": "Fa",
-    "idDofusDB": "674e524064788cc741419d19",
-    "idDofusBook": 12645,
-    "name": {
-      "fr": "Adamantin majeur",
-      "en": "Major Adamantin",
-      "pt": "Adamantino Maior",
-      "de": "Großer Adamantiner",
-      "es": "Adamantino mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "pushbackResist": 48
-    }
-  },
   "kc": {
     "id": "kc",
     "idDofusDB": "674e524064788cc741419d1a",
@@ -974,276 +880,6 @@
     "subCategory": "trophy",
     "stats": {
       "criticalResist": 12
-    }
-  },
-  "j6": {
-    "id": "j6",
-    "idDofusDB": "674e524064788cc741419d1d",
-    "idDofusBook": 12649,
-    "name": {
-      "fr": "Cuirassé Air mineur",
-      "en": "Minor Air Defender",
-      "pt": "Defensor Aéreo Menor",
-      "de": "Kleiner Luftgepanzerter",
-      "es": "Acorazado de aire menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResist": 6
-    }
-  },
-  "xB": {
-    "id": "xB",
-    "idDofusDB": "674e524064788cc741419d1e",
-    "idDofusBook": 12650,
-    "name": {
-      "fr": "Cuirassé Air",
-      "en": "Air Defender",
-      "pt": "Defensor Aéreo",
-      "de": "Luftgepanzerter",
-      "es": "Acorazado de aire mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResist": 12
-    }
-  },
-  "Fy": {
-    "id": "Fy",
-    "idDofusDB": "674e524064788cc741419d1f",
-    "idDofusBook": 12651,
-    "name": {
-      "fr": "Cuirassé Air majeur",
-      "en": "Major Air Defender",
-      "pt": "Defensor Aéreo Maior",
-      "de": "Großer Luftgepanzerter",
-      "es": "Acorazado de aire mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResist": 24
-    }
-  },
-  "j7": {
-    "id": "j7",
-    "idDofusDB": "674e524064788cc741419d20",
-    "idDofusBook": 12652,
-    "name": {
-      "fr": "Cuirassé Eau mineur",
-      "en": "Minor Water Defender",
-      "pt": "Defensor Aquático Menor",
-      "de": "Kleiner Wassergepanzerter",
-      "es": "Acorazado de agua menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResist": 6
-    }
-  },
-  "xC": {
-    "id": "xC",
-    "idDofusDB": "674e524064788cc741419d21",
-    "idDofusBook": 12653,
-    "name": {
-      "fr": "Cuirassé Eau",
-      "en": "Water Defender",
-      "pt": "Defensor Aquático",
-      "de": "Wassergepanzerter",
-      "es": "Acorazado de agua mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResist": 12
-    }
-  },
-  "Fz": {
-    "id": "Fz",
-    "idDofusDB": "674e524064788cc741419d22",
-    "idDofusBook": 12654,
-    "name": {
-      "fr": "Cuirassé Eau majeur",
-      "en": "Major Water Defender",
-      "pt": "Defensor Aquático Maior",
-      "de": "Großer Wassergepanzerter",
-      "es": "Acorazado de agua mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResist": 24
-    }
-  },
-  "j8": {
-    "id": "j8",
-    "idDofusDB": "674e524064788cc741419d27",
-    "idDofusBook": 12659,
-    "name": {
-      "fr": "Cuirassé Feu mineur",
-      "en": "Minor Fire Defender",
-      "pt": "Defensor do Fogo Menor",
-      "de": "Kleiner Feuergepanzerter",
-      "es": "Acorazado de fuego menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResist": 6
-    }
-  },
-  "xD": {
-    "id": "xD",
-    "idDofusDB": "674e524064788cc741419d32",
-    "idDofusBook": 12678,
-    "name": {
-      "fr": "Cuirassé Feu",
-      "en": "Fire Defender",
-      "pt": "Defensor do Fogo",
-      "de": "Feuergepanzerter",
-      "es": "Acorazado de fuego mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResist": 12
-    }
-  },
-  "FA": {
-    "id": "FA",
-    "idDofusDB": "674e524064788cc741419d33",
-    "idDofusBook": 12679,
-    "name": {
-      "fr": "Cuirassé Feu majeur",
-      "en": "Major Fire Defender",
-      "pt": "Defensor do Fogo Maior",
-      "de": "Großer Feuergepanzerter",
-      "es": "Acorazado de fuego mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResist": 24
-    }
-  },
-  "ja": {
-    "id": "ja",
-    "idDofusDB": "674e524064788cc741419d34",
-    "idDofusBook": 12680,
-    "name": {
-      "fr": "Cuirassé Terre mineur",
-      "en": "Minor Earth Defender",
-      "pt": "Defensor da Terra Menor",
-      "de": "Kleiner Erdgepanzerter",
-      "es": "Acorazado de tierra menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResist": 6
-    }
-  },
-  "xF": {
-    "id": "xF",
-    "idDofusDB": "674e524064788cc741419d35",
-    "idDofusBook": 12681,
-    "name": {
-      "fr": "Cuirassé Terre",
-      "en": "Earth Defender",
-      "pt": "Defensor da Terra",
-      "de": "Erdgepanzerter",
-      "es": "Acorazado de tierra mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResist": 12
-    }
-  },
-  "FC": {
-    "id": "FC",
-    "idDofusDB": "674e524064788cc741419d36",
-    "idDofusBook": 12682,
-    "name": {
-      "fr": "Cuirassé Terre majeur",
-      "en": "Major Earth Defender",
-      "pt": "Defensor da Terra Maior",
-      "de": "Großer Erdgepanzerter",
-      "es": "Acorazado de tierra mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResist": 24
-    }
-  },
-  "j9": {
-    "id": "j9",
-    "idDofusDB": "674e524064788cc741419d37",
-    "idDofusBook": 12683,
-    "name": {
-      "fr": "Cuirassé Neutre mineur",
-      "en": "Minor Neutral Defender",
-      "pt": "Defensor Neutro Menor",
-      "de": "Kleiner Neutralgepanzerter",
-      "es": "Acorazado neutral menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResist": 6
-    }
-  },
-  "xE": {
-    "id": "xE",
-    "idDofusDB": "674e524064788cc741419d38",
-    "idDofusBook": 12684,
-    "name": {
-      "fr": "Cuirassé Neutre",
-      "en": "Neutral Defender",
-      "pt": "Defensor Neutro",
-      "de": "Neutralgepanzerter",
-      "es": "Acorazado neutral mediano"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResist": 12
-    }
-  },
-  "FB": {
-    "id": "FB",
-    "idDofusDB": "674e524064788cc741419d39",
-    "idDofusBook": 12685,
-    "name": {
-      "fr": "Cuirassé Neutre majeur",
-      "en": "Major Neutral Defender",
-      "pt": "Defensor Neutro Maior",
-      "de": "Großer Neutralgepanzerter",
-      "es": "Acorazado neutral mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResist": 24
     }
   },
   "yL": {
@@ -1873,7 +1509,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": 80
+      "vitality": 80
     }
   },
   "GE": {
@@ -1891,7 +1527,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": 160
+      "vitality": 160
     }
   },
   "ku": {
@@ -1909,7 +1545,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": 40
+      "vitality": 40
     }
   },
   "Gs": {
@@ -2077,7 +1713,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "heal": 8
     }
   },
@@ -2096,7 +1732,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "heal": 16
     }
   },
@@ -2115,7 +1751,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -200,
+      "vitality": -200,
       "heal": 32
     }
   },
@@ -2134,7 +1770,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "strength": 25
     }
   },
@@ -2153,7 +1789,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "strength": 50
     }
   },
@@ -2172,7 +1808,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -200,
+      "vitality": -200,
       "strength": 100
     }
   },
@@ -2191,7 +1827,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "intelligence": 25
     }
   },
@@ -2210,7 +1846,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "intelligence": 50
     }
   },
@@ -2229,7 +1865,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -200,
+      "vitality": -200,
       "intelligence": 100
     }
   },
@@ -2248,7 +1884,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "agility": 25
     }
   },
@@ -2267,7 +1903,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "agility": 50
     }
   },
@@ -2286,7 +1922,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -200,
+      "vitality": -200,
       "agility": 100
     }
   },
@@ -2305,7 +1941,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "chance": 25
     }
   },
@@ -2324,7 +1960,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "chance": 50
     }
   },
@@ -2343,7 +1979,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -200,
+      "vitality": -200,
       "chance": 100
     }
   },
@@ -2419,8 +2055,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 5,
-      "airResistPer": -2
+      "earthDamage": 5
     }
   },
   "yX": {
@@ -2438,8 +2073,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 10,
-      "airResistPer": -4
+      "earthDamage": 10
     }
   },
   "Gz": {
@@ -2457,8 +2091,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 20,
-      "airResistPer": -8
+      "earthDamage": 20
     }
   },
   "ko": {
@@ -2476,8 +2109,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 5,
-      "waterResistPer": -2
+      "neutralDamage": 5
     }
   },
   "yW": {
@@ -2495,8 +2127,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 10,
-      "waterResistPer": -4
+      "neutralDamage": 10
     }
   },
   "Gy": {
@@ -2514,8 +2145,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 20,
-      "waterResistPer": -8
+      "neutralDamage": 20
     }
   },
   "kn": {
@@ -2533,8 +2163,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 5,
-      "earthResistPer": -2
+      "fireDamage": 5
     }
   },
   "yV": {
@@ -2552,8 +2181,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 10,
-      "earthResistPer": -4
+      "fireDamage": 10
     }
   },
   "Gx": {
@@ -2571,8 +2199,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 20,
-      "earthResistPer": -8
+      "fireDamage": 20
     }
   },
   "km": {
@@ -2590,8 +2217,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 5,
-      "neutralResistPer": -2
+      "waterDamage": 5
     }
   },
   "yU": {
@@ -2609,8 +2235,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 10,
-      "neutralResistPer": -4
+      "waterDamage": 10
     }
   },
   "Gw": {
@@ -2628,8 +2253,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 20,
-      "neutralResistPer": -8
+      "waterDamage": 20
     }
   },
   "kl": {
@@ -2647,8 +2271,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 5,
-      "fireResistPer": -2
+      "airDamage": 5
     }
   },
   "yT": {
@@ -2666,8 +2289,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 10,
-      "fireResistPer": -4
+      "airDamage": 10
     }
   },
   "Gv": {
@@ -2685,8 +2307,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 20,
-      "fireResistPer": -8
+      "airDamage": 20
     }
   },
   "jn": {
@@ -2989,8 +2610,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -8,
-      "pushbackResist": 24
+      "dodge": -8
     }
   },
   "ye": {
@@ -3008,8 +2628,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -16,
-      "pushbackResist": 48
+      "dodge": -16
     }
   },
   "G5": {
@@ -3027,8 +2646,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -32,
-      "pushbackResist": 96
+      "dodge": -32
     }
   },
   "k4": {
@@ -3046,7 +2664,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -25,
+      "vitality": -25,
       "initiative": 200
     }
   },
@@ -3065,7 +2683,7 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -50,
+      "vitality": -50,
       "initiative": 400
     }
   },
@@ -3084,293 +2702,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "health": -100,
+      "vitality": -100,
       "initiative": 800
-    }
-  },
-  "jV": {
-    "id": "jV",
-    "idDofusDB": "674e524064788cc74141a0cc",
-    "idDofusBook": 13808,
-    "name": {
-      "fr": "Muraille Terre mineure",
-      "en": "Minor Earth Bulwark",
-      "pt": "Muralha Terra menor",
-      "de": "Kleine Erdmauer",
-      "es": "Muralla terráquea menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResistPer": -2,
-      "earthResist": 10
-    }
-  },
-  "yq": {
-    "id": "yq",
-    "idDofusDB": "674e524064788cc74141a0cd",
-    "idDofusBook": 13809,
-    "name": {
-      "fr": "Muraille Terre",
-      "en": "Earth Bulwark",
-      "pt": "Muralha Terra",
-      "de": "Erdmauer",
-      "es": "Muralla terráquea"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResistPer": -4,
-      "earthResist": 20
-    }
-  },
-  "Ge": {
-    "id": "Ge",
-    "idDofusDB": "674e524064788cc74141a0ce",
-    "idDofusBook": 13810,
-    "name": {
-      "fr": "Muraille Terre majeure",
-      "en": "Major Earth Bulwark",
-      "pt": "Muralha Terra maior",
-      "de": "Große Erdmauer",
-      "es": "Muralla terráquea mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "airResistPer": -8,
-      "earthResist": 40
-    }
-  },
-  "jU": {
-    "id": "jU",
-    "idDofusDB": "674e524064788cc74141a0cf",
-    "idDofusBook": 13811,
-    "name": {
-      "fr": "Muraille Neutre mineure",
-      "en": "Minor Neutral Bulwark",
-      "pt": "Muralha Neutra menor",
-      "de": "Kleine Neutralmauer",
-      "es": "Muralla neutral menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResistPer": -2,
-      "neutralResist": 10
-    }
-  },
-  "yp": {
-    "id": "yp",
-    "idDofusDB": "674e524064788cc74141a0d0",
-    "idDofusBook": 13812,
-    "name": {
-      "fr": "Muraille Neutre",
-      "en": "Neutral Bulwark",
-      "pt": "Muralha Neutra",
-      "de": "Neutralmauer",
-      "es": "Muralla neutral"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResistPer": -4,
-      "neutralResist": 20
-    }
-  },
-  "Gd": {
-    "id": "Gd",
-    "idDofusDB": "674e524064788cc74141a0d1",
-    "idDofusBook": 13813,
-    "name": {
-      "fr": "Muraille Neutre majeure",
-      "en": "Major Neutral Bulwark",
-      "pt": "Muralha Neutra maior",
-      "de": "Große Neutralmauer",
-      "es": "Muralla neutral mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "waterResistPer": -8,
-      "neutralResist": 40
-    }
-  },
-  "jT": {
-    "id": "jT",
-    "idDofusDB": "674e524064788cc74141a0d2",
-    "idDofusBook": 13814,
-    "name": {
-      "fr": "Muraille Feu mineure",
-      "en": "Minor Fire Bulwark",
-      "pt": "Muralha Fogo menor",
-      "de": "Kleine Feuermauer",
-      "es": "Muralla ígnea menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResistPer": -2,
-      "fireResist": 10
-    }
-  },
-  "yo": {
-    "id": "yo",
-    "idDofusDB": "674e524064788cc74141a0d3",
-    "idDofusBook": 13815,
-    "name": {
-      "fr": "Muraille Feu",
-      "en": "Fire Bulwark",
-      "pt": "Muralha Fogo",
-      "de": "Feuermauer",
-      "es": "Muralla ígnea"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResistPer": -4,
-      "fireResist": 20
-    }
-  },
-  "Gc": {
-    "id": "Gc",
-    "idDofusDB": "674e524064788cc74141a0d4",
-    "idDofusBook": 13816,
-    "name": {
-      "fr": "Muraille Feu majeure",
-      "en": "Major Fire Bulwark",
-      "pt": "Muralha Fogo maior",
-      "de": "Große Feuermauer",
-      "es": "Muralla ígnea mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "earthResistPer": -8,
-      "fireResist": 40
-    }
-  },
-  "jS": {
-    "id": "jS",
-    "idDofusDB": "674e524064788cc74141a0d5",
-    "idDofusBook": 13817,
-    "name": {
-      "fr": "Muraille Eau mineure",
-      "en": "Minor Water Bulwark",
-      "pt": "Muralha Água menor",
-      "de": "Kleine Wassermauer",
-      "es": "Muralla acuosa menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResistPer": -2,
-      "waterResist": 10
-    }
-  },
-  "yn": {
-    "id": "yn",
-    "idDofusDB": "674e524064788cc74141a0d6",
-    "idDofusBook": 13818,
-    "name": {
-      "fr": "Muraille Eau",
-      "en": "Water Bulwark",
-      "pt": "Muralha Água",
-      "de": "Wassermauer",
-      "es": "Muralla acuosa"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResistPer": -4,
-      "waterResist": 20
-    }
-  },
-  "Gb": {
-    "id": "Gb",
-    "idDofusDB": "674e524064788cc74141a0d7",
-    "idDofusBook": 13819,
-    "name": {
-      "fr": "Muraille Eau majeure",
-      "en": "Major Water Bulwark",
-      "pt": "Muralha Água maior",
-      "de": "Große Wassermauer",
-      "es": "Muralla acuosa mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "neutralResistPer": -8,
-      "waterResist": 40
-    }
-  },
-  "jR": {
-    "id": "jR",
-    "idDofusDB": "674e524064788cc74141a0d8",
-    "idDofusBook": 13820,
-    "name": {
-      "fr": "Muraille Air mineure",
-      "en": "Minor Air Bulwark",
-      "pt": "Muralha Ar menor",
-      "de": "Kleine Luftmauer",
-      "es": "Muralla airosa menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResistPer": -2,
-      "airResist": 10
-    }
-  },
-  "ym": {
-    "id": "ym",
-    "idDofusDB": "674e524064788cc74141a0d9",
-    "idDofusBook": 13821,
-    "name": {
-      "fr": "Muraille Air",
-      "en": "Air Bulwark",
-      "pt": "Muralha Ar",
-      "de": "Luftmauer",
-      "es": "Muralla airosa"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResistPer": -4,
-      "airResist": 20
-    }
-  },
-  "Ga": {
-    "id": "Ga",
-    "idDofusDB": "674e524064788cc74141a0da",
-    "idDofusBook": 13822,
-    "name": {
-      "fr": "Muraille Air majeure",
-      "en": "Major Air Bulwark",
-      "pt": "Muralha Ar maior",
-      "de": "Große Luftmauer",
-      "es": "Muralla airosa mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "fireResistPer": -8,
-      "airResist": 40
     }
   },
   "k5": {
@@ -3927,7 +3260,7 @@
     },
     "criterions": "Pk<3",
     "stats": {
-      "health": 80
+      "vitality": 80
     }
   },
   "yl": {
@@ -3959,7 +3292,7 @@
     },
     "criterions": "Pk<3",
     "stats": {
-      "health": 160
+      "vitality": 160
     }
   },
   "G9": {
@@ -3991,7 +3324,7 @@
     },
     "criterions": "Pk<3",
     "stats": {
-      "health": 320
+      "vitality": 320
     }
   },
   "jm": {
@@ -5434,102 +4767,6 @@
       "pushbackDamage": 64
     }
   },
-  "kt": {
-    "id": "kt",
-    "idDofusDB": "674e524164788cc74141a94a",
-    "idDofusBook": 16308,
-    "name": {
-      "fr": "Solide mineur",
-      "en": "Minor Solid",
-      "pt": "Sólido menor",
-      "de": "Kleiner Zäher",
-      "es": "Sólido menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "pushbackResist": 24
-    }
-  },
-  "z2": {
-    "id": "z2",
-    "idDofusDB": "674e524164788cc74141a94b",
-    "idDofusBook": 16309,
-    "name": {
-      "fr": "Solide",
-      "en": "Solid",
-      "pt": "Sólido",
-      "de": "Zäher",
-      "es": "Sólido"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "pushbackResist": 48
-    }
-  },
-  "GD": {
-    "id": "GD",
-    "idDofusDB": "674e524164788cc74141a94c",
-    "idDofusBook": 16310,
-    "name": {
-      "fr": "Solide majeur",
-      "en": "Major Solid",
-      "pt": "Sólido maior",
-      "de": "Großer Zäher",
-      "es": "Sólido mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "pushbackResist": 96
-    }
-  },
   "jv": {
     "id": "jv",
     "idDofusDB": "674e524164788cc74141a94d",
@@ -5624,486 +4861,6 @@
     "criterions": "Pk<3",
     "stats": {
       "initiative": 800
-    }
-  },
-  "iY": {
-    "id": "iY",
-    "idDofusDB": "674e524164788cc74141a950",
-    "idDofusBook": 16314,
-    "name": {
-      "fr": "Carapace Terre mineur",
-      "en": "Minor Earth Carapace",
-      "pt": "Carapaça de Terra menor",
-      "de": "Kleiner Erden-Schutzpanzer",
-      "es": "Caparazón de tierra menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "earthResistPer": 3
-    }
-  },
-  "xt": {
-    "id": "xt",
-    "idDofusDB": "674e524164788cc74141a951",
-    "idDofusBook": 16315,
-    "name": {
-      "fr": "Carapace Terre",
-      "en": "Earth Carapace",
-      "pt": "Carapaça de Terra",
-      "de": "Erden-Schutzpanzer",
-      "es": "Caparazón de tierra"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "earthResistPer": 6
-    }
-  },
-  "Fu": {
-    "id": "Fu",
-    "idDofusDB": "674e524164788cc74141a952",
-    "idDofusBook": 16316,
-    "name": {
-      "fr": "Carapace Terre majeur",
-      "en": "Major Earth Carapace",
-      "pt": "Carapaça de Terra maior",
-      "de": "Großer Erden-Schutzpanzer",
-      "es": "Caparazón de tierra mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "earthResistPer": 12
-    }
-  },
-  "iX": {
-    "id": "iX",
-    "idDofusDB": "674e524164788cc74141a953",
-    "idDofusBook": 16318,
-    "name": {
-      "fr": "Carapace Neutre mineur",
-      "en": "Minor Neutral Carapace",
-      "pt": "Carapaça Neutra menor",
-      "de": "Kleiner Neutral-Schutzpanzer",
-      "es": "Caparazón neutral menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "neutralResistPer": 3
-    }
-  },
-  "xs": {
-    "id": "xs",
-    "idDofusDB": "674e524164788cc74141a954",
-    "idDofusBook": 16319,
-    "name": {
-      "fr": "Carapace Neutre",
-      "en": "Neutral Carapace",
-      "pt": "Carapaça Neutra",
-      "de": "Neutral-Schutzpanzer",
-      "es": "Caparazón neutral"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "neutralResistPer": 6
-    }
-  },
-  "Ft": {
-    "id": "Ft",
-    "idDofusDB": "674e524164788cc74141a955",
-    "idDofusBook": 16320,
-    "name": {
-      "fr": "Carapace Neutre majeur",
-      "en": "Major Neutral Carapace",
-      "pt": "Carapaça Neutra maior",
-      "de": "Großer Neutral-Schutzpanzer",
-      "es": "Caparazón neutral mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "neutralResistPer": 12
-    }
-  },
-  "iW": {
-    "id": "iW",
-    "idDofusDB": "674e524164788cc74141a956",
-    "idDofusBook": 16321,
-    "name": {
-      "fr": "Carapace Feu mineur",
-      "en": "Minor Fire Carapace",
-      "pt": "Carapaça de Fogo menor",
-      "de": "Kleiner Feuer-Schutzpanzer",
-      "es": "Caparazón de fuego menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "fireResistPer": 3
-    }
-  },
-  "xr": {
-    "id": "xr",
-    "idDofusDB": "674e524164788cc74141a957",
-    "idDofusBook": 16322,
-    "name": {
-      "fr": "Carapace Feu",
-      "en": "Fire Carapace",
-      "pt": "Carapaça de Fogo",
-      "de": "Feuer-Schutzpanzer",
-      "es": "Caparazón de fuego"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "fireResistPer": 6
-    }
-  },
-  "Fs": {
-    "id": "Fs",
-    "idDofusDB": "674e524164788cc74141a958",
-    "idDofusBook": 16323,
-    "name": {
-      "fr": "Carapace Feu majeur",
-      "en": "Major Fire Carapace",
-      "pt": "Carapaça de Fogo maior",
-      "de": "Großer Feuer-Schutzpanzer",
-      "es": "Caparazón de fuego mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "fireResistPer": 12
-    }
-  },
-  "iV": {
-    "id": "iV",
-    "idDofusDB": "674e524164788cc74141a959",
-    "idDofusBook": 16324,
-    "name": {
-      "fr": "Carapace Eau mineur",
-      "en": "Minor Water Carapace",
-      "pt": "Carapaça de Água menor",
-      "de": "Kleiner Wasser-Schutzpanzer",
-      "es": "Caparazón de agua menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "waterResistPer": 3
-    }
-  },
-  "xq": {
-    "id": "xq",
-    "idDofusDB": "674e524164788cc74141a95a",
-    "idDofusBook": 16325,
-    "name": {
-      "fr": "Carapace Eau",
-      "en": "Water Carapace",
-      "pt": "Carapaça de Água",
-      "de": "Wasser-Schutzpanzer",
-      "es": "Caparazón de agua"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "waterResistPer": 6
-    }
-  },
-  "Fr": {
-    "id": "Fr",
-    "idDofusDB": "674e524164788cc74141a95b",
-    "idDofusBook": 16326,
-    "name": {
-      "fr": "Carapace Eau majeur",
-      "en": "Major Water Carapace",
-      "pt": "Carapaça de Água maior",
-      "de": "Großer Wasser-Schutzpanzer",
-      "es": "Caparazón de agua mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "waterResistPer": 12
-    }
-  },
-  "iU": {
-    "id": "iU",
-    "idDofusDB": "674e524164788cc74141a95c",
-    "idDofusBook": 16327,
-    "name": {
-      "fr": "Carapace Air mineur",
-      "en": "Minor Air Carapace",
-      "pt": "Carapaça de Ar menor",
-      "de": "Kleiner Luft-Schutzpanzer",
-      "es": "Caparazón de aire menor"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "airResistPer": 3
-    }
-  },
-  "xp": {
-    "id": "xp",
-    "idDofusDB": "674e524164788cc74141a95d",
-    "idDofusBook": 16328,
-    "name": {
-      "fr": "Carapace Air",
-      "en": "Air Carapace",
-      "pt": "Carapaça de Ar",
-      "de": "Luft-Schutzpanzer",
-      "es": "Caparazón de aire"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "airResistPer": 6
-    }
-  },
-  "Fq": {
-    "id": "Fq",
-    "idDofusDB": "674e524164788cc74141a95e",
-    "idDofusBook": 16329,
-    "name": {
-      "fr": "Carapace Air majeur",
-      "en": "Major Air Carapace",
-      "pt": "Carapaça de Ar maior",
-      "de": "Großer Luft-Schutzpanzer",
-      "es": "Caparazón de aire mayor"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "requirements": [
-      [
-        {
-          "stat": "panopliesBonus",
-          "type": "lessThan",
-          "value": 3
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "panopliesBonusLessThan",
-      "value": 3
-    },
-    "criterions": "Pk<3",
-    "stats": {
-      "airResistPer": 12
     }
   },
   "kz": {

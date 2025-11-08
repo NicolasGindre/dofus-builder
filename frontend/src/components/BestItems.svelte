@@ -501,6 +501,9 @@
     .list-elem {
         margin-bottom: 3px;
     }
+    .list-elem:has(.selected-item) {
+        margin-bottom: 0px;
+    }
     .end-list-elem {
         margin-bottom: 0.6rem;
     }

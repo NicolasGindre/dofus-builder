@@ -30,7 +30,7 @@ export function encodeDofusStufferUrlFromSlots(slots: Slots): string {
     const levelStore = get(level);
     const leveledStats = getLeveledStats(levelStore);
     const baseCaracs = {
-        0: leveledStats.health! + 100, // parcho 100 is forced
+        0: leveledStats.vitality! + 100, // parcho 100 is forced
         1: 0, // wisdom fm
         2: 0, // str
         3: 0, // int

@@ -61,6 +61,7 @@ export type Item = {
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;
+    weaponEffect?: SpellEffect;
 };
 export type Name = {
     fr: string;
@@ -68,6 +69,36 @@ export type Name = {
     de: string;
     pt: string;
     es: string;
+};
+
+export const ELEMENT = [
+    "neutral",
+    "fire",
+    "earth",
+    "water",
+    "air",
+    "mpReduce",
+    "apReduce",
+    "bestElem",
+] as const;
+export type Element = (typeof ELEMENT)[number];
+
+export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
+export type EffectType = (typeof EFFECT_TYPE)[number];
+export type SpellEffect = {
+    name?: string;
+    cost: number;
+    critChance: number;
+    effects: [
+        {
+            type: EffectType;
+            element: Element;
+            min: number;
+            max: number;
+            minCrit?: number;
+            maxCrit?: number;
+        },
+    ];
 };
 
 export const REQUIREMENT_TYPE = [

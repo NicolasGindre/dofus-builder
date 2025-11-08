@@ -43,30 +43,26 @@
         {/if}
 
         {#if !compareStats}
-            {#if Object.keys(stats).length > 0}
-                <tbody>
-                    {#each statsKeys as statKey}
-                        {#if stats[statKey]}
-                            <tr>
-                                <td>
-                                    {#if overStats && overStats[statKey] != stats[statKey]}
-                                        <span class="overstat">{overStats[statKey]}→</span>
-                                    {/if}<span
-                                        class:invalid={isBuild &&
-                                            $minStats[statKey] > stats[statKey]}
-                                        >{Math.floor(stats[statKey])}</span
-                                    >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
-                                            >{(stats[statKey] % 1).toString().slice(1)}</span
-                                        >{/if}</td
-                                >
-                                <td>{$words.stats[statKey]}</td>
-                            </tr>
-                        {/if}
-                    {/each}
-                </tbody>
-            {:else}
-                <tbody><tr><td>No stats</td></tr></tbody>
-            {/if}
+            <!-- {#if Object.keys(stats).length > 0} -->
+            <tbody>
+                {#each statsKeys as statKey}
+                    {#if stats[statKey]}
+                        <tr>
+                            <td>
+                                {#if overStats && overStats[statKey] != stats[statKey]}
+                                    <span class="overstat">{overStats[statKey]}→</span>
+                                {/if}<span
+                                    class:invalid={isBuild && $minStats[statKey] > stats[statKey]}
+                                    >{Math.floor(stats[statKey])}</span
+                                >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
+                                        >{(stats[statKey] % 1).toString().slice(1)}</span
+                                    >{/if}</td
+                            >
+                            <td>{$words.stats[statKey]}</td>
+                        </tr>
+                    {/if}
+                {/each}
+            </tbody>
         {:else}
             <tbody>
                 {#each statsKeys as statKey}
@@ -74,8 +70,8 @@
                         <tr>
                             <td>
                                 {#if stats[statKey] != compareStats[statKey]}<span
-                                        class:green-text={stats[statKey] ??
-                                            0 > compareStats[statKey]}
+                                        class:green-text={(stats[statKey] ?? 0) >
+                                            compareStats[statKey]}
                                         class:red-text={(stats[statKey] ?? 0) <
                                             compareStats[statKey]}
                                         >({(stats[statKey] ?? 0) > compareStats[statKey]
@@ -90,7 +86,7 @@
                                 >
                                     <span>{Math.floor(stats[statKey] ?? 0)}</span
                                     >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
-                                            >{(stats[statKey] ?? 0 % 1).toString().slice(1)}</span
+                                            >{(stats[statKey] % 1).toString().slice(1)}</span
                                         >{/if}
                                 </span></td
                             >

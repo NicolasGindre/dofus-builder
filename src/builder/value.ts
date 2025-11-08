@@ -8,7 +8,7 @@ export type StatsValueWeight = Record<StatKey, number>;
 
 // const statsValueFM: StatsValueFM = {
 //     initiative: 0.1,
-//     health: 0.2,
+//     vitality: 0.2,
 //     pods: 0.25,
 
 //     strength: 1,

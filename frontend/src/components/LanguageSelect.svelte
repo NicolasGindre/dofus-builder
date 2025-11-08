@@ -2,6 +2,8 @@
     import { lang } from "../stores/builder";
     import { get } from "svelte/store";
     import type { CountryCode } from "../types/language";
+    import { calculateBestItems } from "../logic/value";
+    import { calculateBuildToDisplay } from "../logic/display";
 
     type LangOption = {
         countryCode: CountryCode;
@@ -29,6 +31,7 @@
         const countryCode = (event.target as HTMLSelectElement).value;
         lang.set(countryCode);
         localStorage.setItem("lang", countryCode);
+        calculateBuildToDisplay(); // Requirement not translated on change for some reason
     }
 </script>
 

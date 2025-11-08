@@ -27,7 +27,7 @@ export const ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRS
 // Maps each stat to its position
 export const STAT_INDEX = {
     // 🟩 Utility (0–15)
-    health: 0,
+    vitality: 0,
     ap: 1,
     mp: 2,
     range: 3,

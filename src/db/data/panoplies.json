@@ -17,7 +17,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 20,
         "lock": 5
       }
@@ -74,11 +74,11 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "wisdom": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "wisdom": 20,
         "damage": 5
       }
@@ -103,12 +103,12 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "strength": 10
       },
       {
         "mp": 1,
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "earthDamage": 6
       }
@@ -182,12 +182,12 @@
       {},
       {
         "fireResistPer": 1,
-        "health": 15,
+        "vitality": 15,
         "intelligence": 15
       },
       {
         "intelligence": 20,
-        "health": 20,
+        "vitality": 20,
         "agility": 10,
         "fireResistPer": 2
       },
@@ -197,7 +197,7 @@
         "wisdom": 5,
         "agility": 15,
         "intelligence": 25,
-        "health": 25
+        "vitality": 25
       },
       {
         "ap": 1,
@@ -205,7 +205,7 @@
         "wisdom": 10,
         "agility": 20,
         "intelligence": 30,
-        "health": 30,
+        "vitality": 30,
         "range": 1
       },
       {
@@ -214,7 +214,7 @@
         "wisdom": 15,
         "agility": 25,
         "intelligence": 35,
-        "health": 35,
+        "vitality": 35,
         "range": 1
       },
       {
@@ -224,7 +224,7 @@
         "wisdom": 20,
         "agility": 30,
         "intelligence": 45,
-        "health": 45,
+        "vitality": 45,
         "range": 1
       }
     ]
@@ -253,12 +253,12 @@
       {},
       {
         "waterResistPer": 1,
-        "health": 15,
+        "vitality": 15,
         "chance": 15
       },
       {
         "chance": 20,
-        "health": 20,
+        "vitality": 20,
         "strength": 10,
         "waterResistPer": 2
       },
@@ -268,7 +268,7 @@
         "wisdom": 5,
         "strength": 15,
         "chance": 25,
-        "health": 25
+        "vitality": 25
       },
       {
         "ap": 1,
@@ -276,7 +276,7 @@
         "wisdom": 10,
         "strength": 20,
         "chance": 30,
-        "health": 30,
+        "vitality": 30,
         "range": 1
       },
       {
@@ -285,7 +285,7 @@
         "wisdom": 15,
         "strength": 25,
         "chance": 35,
-        "health": 35,
+        "vitality": 35,
         "range": 1
       },
       {
@@ -295,7 +295,7 @@
         "wisdom": 20,
         "strength": 30,
         "chance": 45,
-        "health": 45,
+        "vitality": 45,
         "range": 1
       }
     ]
@@ -324,12 +324,12 @@
       {},
       {
         "earthResistPer": 1,
-        "health": 15,
+        "vitality": 15,
         "strength": 15
       },
       {
         "strength": 20,
-        "health": 20,
+        "vitality": 20,
         "chance": 10,
         "earthResistPer": 2
       },
@@ -339,7 +339,7 @@
         "wisdom": 5,
         "chance": 15,
         "strength": 25,
-        "health": 25
+        "vitality": 25
       },
       {
         "ap": 1,
@@ -347,7 +347,7 @@
         "wisdom": 10,
         "chance": 20,
         "strength": 30,
-        "health": 30,
+        "vitality": 30,
         "range": 1
       },
       {
@@ -356,7 +356,7 @@
         "wisdom": 15,
         "chance": 25,
         "strength": 35,
-        "health": 35,
+        "vitality": 35,
         "range": 1
       },
       {
@@ -366,7 +366,7 @@
         "wisdom": 20,
         "chance": 30,
         "strength": 45,
-        "health": 45,
+        "vitality": 45,
         "range": 1
       }
     ]
@@ -395,12 +395,12 @@
       {},
       {
         "airResistPer": 1,
-        "health": 15,
+        "vitality": 15,
         "agility": 15
       },
       {
         "agility": 20,
-        "health": 20,
+        "vitality": 20,
         "intelligence": 10,
         "airResistPer": 2
       },
@@ -410,7 +410,7 @@
         "wisdom": 5,
         "intelligence": 15,
         "agility": 25,
-        "health": 25
+        "vitality": 25
       },
       {
         "ap": 1,
@@ -418,7 +418,7 @@
         "wisdom": 10,
         "intelligence": 20,
         "agility": 30,
-        "health": 30,
+        "vitality": 30,
         "range": 1
       },
       {
@@ -427,7 +427,7 @@
         "wisdom": 15,
         "intelligence": 25,
         "agility": 35,
-        "health": 35,
+        "vitality": 35,
         "range": 1
       },
       {
@@ -437,7 +437,7 @@
         "wisdom": 20,
         "intelligence": 30,
         "agility": 45,
-        "health": 45,
+        "vitality": 45,
         "range": 1
       }
     ]
@@ -485,7 +485,7 @@
       {},
       {
         "power": 50,
-        "health": 50
+        "vitality": 50
       }
     ]
   },
@@ -568,11 +568,11 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "intelligence": 20,
         "range": 1
       }
@@ -596,7 +596,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "criticalResist": 15
       }
@@ -621,11 +621,11 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "range": 1,
         "chance": 20
       }
@@ -650,13 +650,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 20,
         "apResist": 5,
         "lock": 5
       },
       {
-        "health": 30,
+        "vitality": 30,
         "intelligence": 30,
         "apResist": 8,
         "lock": 8
@@ -685,16 +685,16 @@
       {
         "power": 15,
         "neutralResistPer": 5,
-        "health": 25
+        "vitality": 25
       },
       {
-        "health": 50,
+        "vitality": 50,
         "neutralResistPer": 10,
         "power": 30,
         "range": 1
       },
       {
-        "health": 100,
+        "vitality": 100,
         "neutralResistPer": 20,
         "power": 60,
         "mp": 1,
@@ -752,11 +752,11 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20
       },
       {
-        "health": 30,
+        "vitality": 30,
         "range": 1,
         "strength": 30
       }
@@ -854,7 +854,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "earthDamage": 2,
         "neutralDamage": 2,
         "strength": 20
@@ -865,14 +865,14 @@
         "neutralResistPer": 5,
         "earthDamage": 4,
         "strength": 30,
-        "health": 30
+        "vitality": 30
       },
       {
         "neutralDamage": 4,
         "ap": 1,
         "neutralResistPer": 5,
         "earthResistPer": 5,
-        "health": 30,
+        "vitality": 30,
         "earthDamage": 4,
         "strength": 30
       },
@@ -880,7 +880,7 @@
         "neutralDamage": 6,
         "ap": 1,
         "earthResistPer": 10,
-        "health": 40,
+        "vitality": 40,
         "earthDamage": 6,
         "neutralResistPer": 10,
         "strength": 40
@@ -890,7 +890,7 @@
         "ap": 1,
         "mp": 1,
         "earthResistPer": 15,
-        "health": 40,
+        "vitality": 40,
         "earthDamage": 6,
         "neutralResistPer": 15,
         "strength": 40
@@ -899,7 +899,7 @@
         "neutralDamage": 10,
         "mp": 1,
         "earthResistPer": 20,
-        "health": 60,
+        "vitality": 60,
         "earthDamage": 10,
         "neutralResistPer": 20,
         "strength": 60,
@@ -910,7 +910,7 @@
         "range": 1,
         "mp": 1,
         "earthResistPer": 20,
-        "health": 60,
+        "vitality": 60,
         "earthDamage": 10,
         "neutralResistPer": 20,
         "strength": 60,
@@ -1089,7 +1089,7 @@
     "stats": [
       {},
       {
-        "health": 50,
+        "vitality": 50,
         "power": 30,
         "criticalChance": 4,
         "prospecting": 6,
@@ -1112,7 +1112,7 @@
         "pushbackDamage": 7
       },
       {
-        "health": 100,
+        "vitality": 100,
         "power": 60,
         "criticalChance": 8,
         "prospecting": 12,
@@ -1135,7 +1135,7 @@
         "pushbackDamage": 10
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 90,
         "criticalChance": 12,
         "prospecting": 18,
@@ -1180,20 +1180,20 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "damage": 3,
         "heal": 5,
         "power": 10
       },
       {
-        "health": 40,
+        "vitality": 40,
         "damage": 5,
         "heal": 10,
         "range": 1,
         "power": 20
       },
       {
-        "health": 60,
+        "vitality": 60,
         "damage": 10,
         "heal": 15,
         "range": 1,
@@ -1333,7 +1333,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "neutralResistPer": 5,
         "lock": 10,
         "waterResistPer": 5,
@@ -1343,7 +1343,7 @@
       },
       {
         "lock": 10,
-        "health": 150,
+        "vitality": 150,
         "neutralResistPer": 5,
         "waterResistPer": 5,
         "fireResistPer": 5,
@@ -1445,12 +1445,12 @@
       {
         "intelligence": 20,
         "agility": 20,
-        "health": 100,
+        "vitality": 100,
         "fireResistPer": 6
       },
       {
         "ap": 1,
-        "health": 100,
+        "vitality": 100,
         "fireResistPer": 6,
         "agility": 20,
         "intelligence": 20
@@ -1458,7 +1458,7 @@
       {
         "range": 1,
         "ap": 1,
-        "health": 100,
+        "vitality": 100,
         "fireResistPer": 6,
         "agility": 20,
         "intelligence": 20
@@ -1466,7 +1466,7 @@
       {
         "range": 1,
         "ap": 1,
-        "health": 150,
+        "vitality": 150,
         "fireResistPer": 8,
         "agility": 30,
         "intelligence": 30
@@ -1475,7 +1475,7 @@
         "mp": 1,
         "range": 1,
         "ap": 1,
-        "health": 150,
+        "vitality": 150,
         "fireResistPer": 8,
         "agility": 30,
         "intelligence": 30
@@ -1547,7 +1547,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "intelligence": 50,
         "heal": 20
       },
@@ -1555,14 +1555,14 @@
         "ap": 1,
         "heal": 20,
         "intelligence": 50,
-        "health": 100
+        "vitality": 100
       },
       {
         "ap": 1,
         "range": 1,
         "heal": 20,
         "intelligence": 50,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -2101,7 +2101,7 @@
         "chance": 30,
         "waterDamage": 10,
         "fireDamage": 10,
-        "health": 150,
+        "vitality": 150,
         "heal": 40,
         "criticalChance": -20,
         "earthResistPer": 10,
@@ -2110,7 +2110,7 @@
       {
         "waterDamage": 10,
         "fireDamage": 10,
-        "health": 150,
+        "vitality": 150,
         "intelligence": 30,
         "chance": 30,
         "heal": 40,
@@ -2266,7 +2266,7 @@
         "initiative": 500,
         "lock": 20,
         "apReduction": 10,
-        "health": 200,
+        "vitality": 200,
         "neutralDamage": 15,
         "earthDamage": 15,
         "waterDamage": 15
@@ -2278,7 +2278,7 @@
         "apReduction": 10,
         "chance": 30,
         "strength": 30,
-        "health": 200,
+        "vitality": 200,
         "neutralDamage": 15,
         "earthDamage": 15,
         "waterDamage": 15
@@ -2373,7 +2373,7 @@
         "earthResist": 15,
         "waterResistPer": 10,
         "heal": 20,
-        "health": 150,
+        "vitality": 150,
         "fireDamage": 15,
         "airDamage": 15,
         "criticalResist": 20,
@@ -2382,7 +2382,7 @@
       {
         "criticalDamage": 50,
         "dodge": 60,
-        "health": 150,
+        "vitality": 150,
         "heal": 20,
         "waterResistPer": 10,
         "earthResist": 15,
@@ -2566,7 +2566,7 @@
         "fireDamage": 10,
         "earthDamage": 10,
         "neutralDamage": 10,
-        "health": 150
+        "vitality": 150
       }
     ]
   },
@@ -2590,13 +2590,13 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "power": 50,
         "range": 1,
         "summon": 1
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 100,
         "range": 1,
         "summon": 1,
@@ -2604,7 +2604,7 @@
         "ap": 1
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 150,
         "range": 1,
         "summon": 1,
@@ -2859,12 +2859,12 @@
       {
         "strength": 5,
         "intelligence": 5,
-        "health": 5
+        "vitality": 5
       },
       {
         "strength": 10,
         "intelligence": 10,
-        "health": 10
+        "vitality": 10
       },
       {
         "neutralDamage": 1,
@@ -2872,7 +2872,7 @@
         "strength": 10,
         "intelligence": 10,
         "fireDamage": 1,
-        "health": 10
+        "vitality": 10
       },
       {
         "neutralDamage": 2,
@@ -2880,7 +2880,7 @@
         "strength": 20,
         "intelligence": 20,
         "fireDamage": 2,
-        "health": 20
+        "vitality": 20
       },
       {
         "neutralDamage": 3,
@@ -2888,7 +2888,7 @@
         "strength": 30,
         "intelligence": 30,
         "fireDamage": 3,
-        "health": 30
+        "vitality": 30
       },
       {
         "neutralDamage": 3,
@@ -2897,7 +2897,7 @@
         "intelligence": 30,
         "fireDamage": 3,
         "ap": 1,
-        "health": 30
+        "vitality": 30
       },
       {
         "neutralDamage": 5,
@@ -2906,7 +2906,7 @@
         "intelligence": 50,
         "fireDamage": 5,
         "ap": 1,
-        "health": 50
+        "vitality": 50
       }
     ]
   },
@@ -2934,18 +2934,18 @@
       {},
       {
         "strength": 10,
-        "health": 10
+        "vitality": 10
       },
       {
         "strength": 15,
-        "health": 15,
+        "vitality": 15,
         "neutralDamage": 2,
         "earthDamage": 2
       },
       {
         "mp": 1,
         "strength": 20,
-        "health": 20,
+        "vitality": 20,
         "neutralResistPer": 10,
         "neutralDamage": 2,
         "earthDamage": 2,
@@ -2954,7 +2954,7 @@
       {
         "mp": 1,
         "strength": 30,
-        "health": 30,
+        "vitality": 30,
         "neutralResistPer": 15,
         "earthResistPer": 15,
         "neutralDamage": 2,
@@ -2963,7 +2963,7 @@
       {
         "mp": 1,
         "strength": 40,
-        "health": 40,
+        "vitality": 40,
         "neutralResistPer": 20,
         "earthResistPer": 20,
         "fireResistPer": -20,
@@ -2973,7 +2973,7 @@
       },
       {
         "strength": 50,
-        "health": 50,
+        "vitality": 50,
         "neutralResistPer": 20,
         "earthResistPer": 20,
         "mp": 1,
@@ -3015,38 +3015,38 @@
         "intelligence": 10
       },
       {
-        "health": 20,
+        "vitality": 20,
         "damage": 1,
         "strength": 10,
         "intelligence": 10
       },
       {
-        "health": 40,
+        "vitality": 40,
         "damage": 2,
         "strength": 20,
         "intelligence": 20
       },
       {
-        "health": 60,
+        "vitality": 60,
         "damage": 3,
         "strength": 30,
         "intelligence": 30
       },
       {
-        "health": 80,
+        "vitality": 80,
         "damage": 4,
         "strength": 40,
         "intelligence": 40
       },
       {
-        "health": 80,
+        "vitality": 80,
         "damage": 4,
         "strength": 40,
         "intelligence": 40,
         "ap": 1
       },
       {
-        "health": 100,
+        "vitality": 100,
         "damage": 5,
         "strength": 50,
         "intelligence": 50,
@@ -3313,7 +3313,7 @@
     "stats": [
       {},
       {
-        "health": 60,
+        "vitality": 60,
         "intelligence": 30,
         "dodge": 10,
         "range": 1
@@ -3322,7 +3322,7 @@
         "range": 1,
         "dodge": 10,
         "intelligence": 30,
-        "health": 60,
+        "vitality": 60,
         "mp": 1
       }
     ]
@@ -3463,25 +3463,25 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "agility": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "strength": 30,
         "agility": 15,
         "earthResistPer": 5
       },
       {
-        "health": 40,
+        "vitality": 40,
         "strength": 40,
         "agility": 20,
         "earthResistPer": 5,
         "ap": 1
       },
       {
-        "health": 60,
+        "vitality": 60,
         "strength": 60,
         "agility": 30,
         "earthResistPer": 10,
@@ -3489,7 +3489,7 @@
         "ap": 1
       },
       {
-        "health": 80,
+        "vitality": 80,
         "strength": 80,
         "agility": 40,
         "earthResistPer": 15,
@@ -3498,7 +3498,7 @@
         "ap": 1
       },
       {
-        "health": 100,
+        "vitality": 100,
         "strength": 100,
         "agility": 50,
         "earthResistPer": 20,
@@ -3532,17 +3532,17 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 10,
         "initiative": 50
       },
       {
-        "health": 30,
+        "vitality": 30,
         "strength": 20,
         "initiative": 70
       },
       {
-        "health": 30,
+        "vitality": 30,
         "power": 20,
         "strength": 20,
         "initiative": 70
@@ -3551,7 +3551,7 @@
         "initiative": 100,
         "power": 20,
         "strength": 20,
-        "health": 30,
+        "vitality": 30,
         "criticalChance": 5
       },
       {
@@ -3559,7 +3559,7 @@
         "initiative": 150,
         "power": 30,
         "strength": 30,
-        "health": 50
+        "vitality": 50
       },
       {
         "mp": 1,
@@ -3567,7 +3567,7 @@
         "criticalChance": 5,
         "power": 30,
         "strength": 30,
-        "health": 50
+        "vitality": 50
       }
     ]
   },
@@ -3669,18 +3669,18 @@
       {
         "chance": 15,
         "agility": 15,
-        "health": 25
+        "vitality": 25
       },
       {
         "chance": 20,
-        "health": 30,
+        "vitality": 30,
         "agility": 20,
         "airResistPer": 5,
         "earthResistPer": 5
       },
       {
         "airResistPer": 10,
-        "health": 35,
+        "vitality": 35,
         "agility": 25,
         "chance": 25,
         "earthResistPer": 10,
@@ -3689,7 +3689,7 @@
       {
         "earthResistPer": 12,
         "airResistPer": 12,
-        "health": 40,
+        "vitality": 40,
         "agility": 30,
         "chance": 30,
         "ap": 1
@@ -3698,7 +3698,7 @@
         "wisdom": 10,
         "earthResistPer": 14,
         "airResistPer": 14,
-        "health": 55,
+        "vitality": 55,
         "agility": 40,
         "chance": 40,
         "ap": 1,
@@ -3709,7 +3709,7 @@
         "wisdom": 20,
         "earthResistPer": 16,
         "airResistPer": 16,
-        "health": 70,
+        "vitality": 70,
         "agility": 60,
         "chance": 60,
         "range": 1
@@ -3719,7 +3719,7 @@
         "wisdom": 30,
         "earthResistPer": 20,
         "airResistPer": 20,
-        "health": 100,
+        "vitality": 100,
         "agility": 80,
         "chance": 80,
         "range": 1,
@@ -3746,13 +3746,13 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "criticalChance": 3,
         "pushbackDamage": 10,
         "initiative": 50
       },
       {
-        "health": 60,
+        "vitality": 60,
         "criticalChance": 6,
         "initiative": 100,
         "pushbackDamage": 20
@@ -3815,17 +3815,17 @@
       {},
       {
         "chance": 20,
-        "health": 10,
+        "vitality": 10,
         "waterDamage": 2
       },
       {
         "waterDamage": 3,
-        "health": 20,
+        "vitality": 20,
         "chance": 30
       },
       {
         "waterDamage": 4,
-        "health": 30,
+        "vitality": 30,
         "chance": 40
       }
     ]
@@ -3850,17 +3850,17 @@
     "stats": [
       {},
       {
-        "health": 20
+        "vitality": 20
       },
       {
-        "health": 30,
+        "vitality": 30,
         "mpResist": 3
       },
       {
         "lock": 4,
         "mpResist": 4,
         "neutralResist": 4,
-        "health": 40
+        "vitality": 40
       }
     ]
   },
@@ -3884,7 +3884,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "earthDamage": 3,
         "initiative": 25,
         "waterDamage": 3,
@@ -3893,7 +3893,7 @@
         "fireDamage": 3
       },
       {
-        "health": 40,
+        "vitality": 40,
         "initiative": 50,
         "earthDamage": 5,
         "waterDamage": 5,
@@ -3902,7 +3902,7 @@
         "fireDamage": 5
       },
       {
-        "health": 50,
+        "vitality": 50,
         "initiative": 100,
         "earthDamage": 10,
         "waterDamage": 10,
@@ -3936,7 +3936,7 @@
       {},
       {
         "strength": 10,
-        "health": 20,
+        "vitality": 20,
         "airResist": 4,
         "waterResist": 4,
         "fireResist": 4,
@@ -3951,7 +3951,7 @@
         "earthResist": 8,
         "neutralResist": 8,
         "chance": 20,
-        "health": 40,
+        "vitality": 40,
         "strength": 20
       },
       {
@@ -3962,7 +3962,7 @@
         "earthResist": 8,
         "neutralResist": 8,
         "chance": 20,
-        "health": 40,
+        "vitality": 40,
         "strength": 20
       },
       {
@@ -3973,7 +3973,7 @@
         "earthResist": 12,
         "neutralResist": 12,
         "chance": 30,
-        "health": 60,
+        "vitality": 60,
         "strength": 30
       },
       {
@@ -3984,7 +3984,7 @@
         "earthResist": 15,
         "neutralResist": 15,
         "chance": 40,
-        "health": 80,
+        "vitality": 80,
         "strength": 40
       },
       {
@@ -3995,7 +3995,7 @@
         "earthResist": 15,
         "neutralResist": 15,
         "chance": 40,
-        "health": 80,
+        "vitality": 80,
         "strength": 40,
         "mp": 1
       }
@@ -4023,16 +4023,16 @@
       {
         "strength": 20,
         "earthResistPer": 5,
-        "health": 20
+        "vitality": 20
       },
       {
         "strength": 40,
-        "health": 40,
+        "vitality": 40,
         "earthResistPer": 10,
         "range": 1
       },
       {
-        "health": 80,
+        "vitality": 80,
         "earthResistPer": 20,
         "strength": 60,
         "range": 1,
@@ -4062,16 +4062,16 @@
       {
         "intelligence": 20,
         "fireResistPer": 5,
-        "health": 20
+        "vitality": 20
       },
       {
         "intelligence": 40,
-        "health": 40,
+        "vitality": 40,
         "fireResistPer": 10,
         "range": 1
       },
       {
-        "health": 80,
+        "vitality": 80,
         "fireResistPer": 20,
         "intelligence": 60,
         "range": 1,
@@ -4101,16 +4101,16 @@
       {
         "agility": 20,
         "airResistPer": 5,
-        "health": 20
+        "vitality": 20
       },
       {
         "agility": 40,
-        "health": 40,
+        "vitality": 40,
         "airResistPer": 10,
         "range": 1
       },
       {
-        "health": 80,
+        "vitality": 80,
         "airResistPer": 20,
         "agility": 60,
         "range": 1,
@@ -4140,16 +4140,16 @@
       {
         "chance": 20,
         "waterResistPer": 5,
-        "health": 20
+        "vitality": 20
       },
       {
         "chance": 40,
-        "health": 40,
+        "vitality": 40,
         "waterResistPer": 10,
         "range": 1
       },
       {
-        "health": 80,
+        "vitality": 80,
         "waterResistPer": 20,
         "chance": 60,
         "range": 1,
@@ -4227,20 +4227,20 @@
       {},
       {
         "strength": 10,
-        "health": 10,
+        "vitality": 10,
         "heal": 2,
         "agility": 10
       },
       {
         "strength": 20,
-        "health": 20,
+        "vitality": 20,
         "heal": 6,
         "agility": 20,
         "prospecting": 5
       },
       {
         "strength": 30,
-        "health": 30,
+        "vitality": 30,
         "heal": 10,
         "prospecting": 5,
         "agility": 30,
@@ -4248,7 +4248,7 @@
       },
       {
         "strength": 40,
-        "health": 40,
+        "vitality": 40,
         "heal": 14,
         "prospecting": 10,
         "agility": 40,
@@ -4257,7 +4257,7 @@
       },
       {
         "strength": 60,
-        "health": 60,
+        "vitality": 60,
         "heal": 18,
         "prospecting": 15,
         "agility": 60,
@@ -4266,7 +4266,7 @@
       },
       {
         "strength": 80,
-        "health": 80,
+        "vitality": 80,
         "heal": 22,
         "prospecting": 20,
         "wisdom": 30,
@@ -4296,7 +4296,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 10,
         "heal": 2,
         "fireResist": 2,
@@ -4306,14 +4306,14 @@
         "heal": 4,
         "fireResist": 4,
         "intelligence": 20,
-        "health": 40,
+        "vitality": 40,
         "agility": 10
       },
       {
         "heal": 8,
         "fireResist": 8,
         "intelligence": 30,
-        "health": 60,
+        "vitality": 60,
         "agility": 15
       },
       {
@@ -4321,7 +4321,7 @@
         "heal": 16,
         "fireResist": 16,
         "intelligence": 40,
-        "health": 80,
+        "vitality": 80,
         "agility": 25
       }
     ]
@@ -4351,34 +4351,34 @@
       {},
       {
         "chance": 10,
-        "health": 20
+        "vitality": 20
       },
       {
-        "health": 40,
+        "vitality": 40,
         "chance": 20
       },
       {
         "ap": 1,
         "chance": 20,
-        "health": 40
+        "vitality": 40
       },
       {
         "wisdom": 10,
         "ap": 1,
         "chance": 30,
-        "health": 60,
+        "vitality": 60,
         "prospecting": 10
       },
       {
         "chance": 40,
-        "health": 80,
+        "vitality": 80,
         "prospecting": 20,
         "wisdom": 20,
         "ap": 1
       },
       {
         "chance": 40,
-        "health": 80,
+        "vitality": 80,
         "prospecting": 20,
         "wisdom": 20,
         "ap": 1,
@@ -4387,7 +4387,7 @@
       {
         "range": 1,
         "chance": 50,
-        "health": 100,
+        "vitality": 100,
         "prospecting": 30,
         "wisdom": 30,
         "ap": 1,
@@ -4420,7 +4420,7 @@
       {},
       {
         "agility": 20,
-        "health": 20,
+        "vitality": 20,
         "prospecting": 5,
         "wisdom": 5
       },
@@ -4428,27 +4428,27 @@
         "prospecting": 10,
         "wisdom": 10,
         "agility": 30,
-        "health": 30
+        "vitality": 30
       },
       {
         "prospecting": 10,
         "ap": 1,
         "wisdom": 10,
         "agility": 30,
-        "health": 30
+        "vitality": 30
       },
       {
         "ap": 1,
         "prospecting": 15,
         "agility": 40,
-        "health": 40,
+        "vitality": 40,
         "wisdom": 15
       },
       {
         "ap": 1,
         "prospecting": 15,
         "agility": 40,
-        "health": 40,
+        "vitality": 40,
         "wisdom": 15,
         "range": 1
       },
@@ -4456,7 +4456,7 @@
         "ap": 1,
         "prospecting": 20,
         "agility": 50,
-        "health": 50,
+        "vitality": 50,
         "wisdom": 20,
         "range": 1
       },
@@ -4464,7 +4464,7 @@
         "ap": 1,
         "prospecting": 20,
         "agility": 50,
-        "health": 50,
+        "vitality": 50,
         "wisdom": 20,
         "range": 1,
         "mp": 1
@@ -4495,7 +4495,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "heal": 4,
         "intelligence": 20
       },
@@ -4503,14 +4503,14 @@
         "intelligence": 30,
         "initiative": 100,
         "heal": 6,
-        "health": 30
+        "vitality": 30
       },
       {
         "ap": 1,
         "intelligence": 30,
         "initiative": 100,
         "heal": 6,
-        "health": 30
+        "vitality": 30
       },
       {
         "ap": 1,
@@ -4518,7 +4518,7 @@
         "wisdom": 10,
         "initiative": 150,
         "heal": 10,
-        "health": 40
+        "vitality": 40
       },
       {
         "ap": 1,
@@ -4527,11 +4527,11 @@
         "wisdom": 10,
         "initiative": 150,
         "heal": 10,
-        "health": 40
+        "vitality": 40
       },
       {
         "ap": 1,
-        "health": 40,
+        "vitality": 40,
         "heal": 10,
         "initiative": 150,
         "wisdom": 10,
@@ -4542,7 +4542,7 @@
       {
         "summon": 1,
         "ap": 1,
-        "health": 60,
+        "vitality": 60,
         "heal": 20,
         "initiative": 300,
         "wisdom": 20,
@@ -4573,7 +4573,7 @@
       {},
       {
         "intelligence": 10,
-        "health": 20,
+        "vitality": 20,
         "chance": 10,
         "wisdom": 5,
         "criticalChance": 2
@@ -4582,14 +4582,14 @@
         "chance": 20,
         "wisdom": 10,
         "criticalChance": 4,
-        "health": 40,
+        "vitality": 40,
         "intelligence": 20
       },
       {
         "chance": 40,
         "wisdom": 20,
         "criticalChance": 8,
-        "health": 80,
+        "vitality": 80,
         "intelligence": 40,
         "ap": 1
       }
@@ -4614,7 +4614,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "airResistPer": 10,
         "earthResistPer": 10,
         "fireResistPer": 10,
@@ -4628,7 +4628,7 @@
         "neutralResistPer": 10,
         "waterResistPer": 10,
         "airResistPer": 10,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -4652,7 +4652,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "power": 15,
         "neutralDamage": 2,
         "earthDamage": 2,
@@ -4661,7 +4661,7 @@
         "airDamage": 2
       },
       {
-        "health": 60,
+        "vitality": 60,
         "power": 30,
         "airDamage": 5,
         "waterDamage": 5,
@@ -4670,7 +4670,7 @@
         "neutralDamage": 5
       },
       {
-        "health": 100,
+        "vitality": 100,
         "power": 60,
         "ap": 1,
         "airDamage": 10,
@@ -4702,7 +4702,7 @@
       {},
       {
         "agility": 20,
-        "health": 40,
+        "vitality": 40,
         "strength": 20,
         "intelligence": 20,
         "chance": 20,
@@ -4711,7 +4711,7 @@
       {
         "agility": 25,
         "prospecting": 15,
-        "health": 50,
+        "vitality": 50,
         "strength": 25,
         "intelligence": 25,
         "chance": 25
@@ -4719,7 +4719,7 @@
       {
         "ap": 1,
         "prospecting": 20,
-        "health": 60,
+        "vitality": 60,
         "agility": 30,
         "strength": 30,
         "intelligence": 30,
@@ -4794,14 +4794,14 @@
       {},
       {
         "agility": 20,
-        "health": 20,
+        "vitality": 20,
         "criticalChance": 1,
         "criticalDamage": 2
       },
       {
         "agility": 40,
         "wisdom": 10,
-        "health": 40,
+        "vitality": 40,
         "criticalChance": 2,
         "criticalDamage": 4
       },
@@ -4810,7 +4810,7 @@
         "criticalDamage": 6,
         "criticalChance": 4,
         "wisdom": 20,
-        "health": 60,
+        "vitality": 60,
         "ap": 1
       },
       {
@@ -4818,7 +4818,7 @@
         "criticalChance": 6,
         "wisdom": 30,
         "agility": 80,
-        "health": 80,
+        "vitality": 80,
         "ap": 1
       },
       {
@@ -4826,14 +4826,14 @@
         "criticalChance": 12,
         "wisdom": 40,
         "agility": 100,
-        "health": 100,
+        "vitality": 100,
         "ap": 1,
         "range": 1
       },
       {
         "criticalDamage": 20,
         "ap": 1,
-        "health": 120,
+        "vitality": 120,
         "criticalChance": 15,
         "wisdom": 50,
         "agility": 120,
@@ -4864,32 +4864,32 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "chance": 10
       },
       {
-        "health": 15,
+        "vitality": 15,
         "chance": 15
       },
       {
-        "health": 15,
+        "vitality": 15,
         "chance": 15,
         "waterDamage": 2
       },
       {
-        "health": 15,
+        "vitality": 15,
         "chance": 15,
         "waterDamage": 2,
         "wisdom": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "waterDamage": 5,
         "wisdom": 20
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "waterDamage": 5,
         "wisdom": 20,
@@ -4978,7 +4978,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "power": 10,
         "heal": 4,
         "damage": 2,
@@ -4989,7 +4989,7 @@
         "damage": 4,
         "wisdom": 20,
         "power": 20,
-        "health": 40
+        "vitality": 40
       },
       {
         "ap": 1,
@@ -4997,7 +4997,7 @@
         "damage": 4,
         "wisdom": 20,
         "power": 20,
-        "health": 40
+        "vitality": 40
       },
       {
         "ap": 1,
@@ -5005,7 +5005,7 @@
         "damage": 6,
         "wisdom": 30,
         "power": 30,
-        "health": 60
+        "vitality": 60
       },
       {
         "ap": 1,
@@ -5013,7 +5013,7 @@
         "damage": 8,
         "wisdom": 40,
         "power": 40,
-        "health": 80
+        "vitality": 80
       },
       {
         "mp": 1,
@@ -5022,7 +5022,7 @@
         "damage": 8,
         "wisdom": 40,
         "power": 40,
-        "health": 80
+        "vitality": 80
       }
     ]
   },
@@ -5049,7 +5049,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 20,
         "chance": 10
       },
@@ -5057,14 +5057,14 @@
         "fireResistPer": 5,
         "chance": 15,
         "intelligence": 30,
-        "health": 30
+        "vitality": 30
       },
       {
         "ap": 1,
         "fireResistPer": 5,
         "chance": 20,
         "intelligence": 40,
-        "health": 40
+        "vitality": 40
       },
       {
         "ap": 1,
@@ -5072,7 +5072,7 @@
         "fireResistPer": 10,
         "chance": 30,
         "intelligence": 60,
-        "health": 60
+        "vitality": 60
       },
       {
         "ap": 1,
@@ -5081,7 +5081,7 @@
         "fireResistPer": 15,
         "chance": 40,
         "intelligence": 80,
-        "health": 80
+        "vitality": 80
       },
       {
         "ap": 1,
@@ -5091,7 +5091,7 @@
         "fireResistPer": 20,
         "chance": 50,
         "intelligence": 100,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -5118,7 +5118,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "power": 50,
         "summon": 1,
         "wisdom": 10
@@ -5128,7 +5128,7 @@
         "summon": 1,
         "wisdom": 10,
         "power": 50,
-        "health": 100
+        "vitality": 100
       },
       {
         "range": 1,
@@ -5136,7 +5136,7 @@
         "summon": 1,
         "wisdom": 15,
         "power": 75,
-        "health": 150
+        "vitality": 150
       },
       {
         "range": 1,
@@ -5145,7 +5145,7 @@
         "summon": 1,
         "wisdom": 15,
         "power": 75,
-        "health": 150
+        "vitality": 150
       },
       {
         "range": 2,
@@ -5154,7 +5154,7 @@
         "summon": 1,
         "wisdom": 20,
         "power": 100,
-        "health": 200
+        "vitality": 200
       },
       {
         "range": 3,
@@ -5163,7 +5163,7 @@
         "summon": 1,
         "wisdom": 30,
         "power": 150,
-        "health": 300
+        "vitality": 300
       }
     ]
   },
@@ -5190,21 +5190,21 @@
       {},
       {
         "strength": 40,
-        "health": 150
+        "vitality": 150
       },
       {
         "strength": 40,
-        "health": 150,
+        "vitality": 150,
         "ap": 1
       },
       {
         "strength": 40,
-        "health": 150,
+        "vitality": 150,
         "ap": 1,
         "range": 1
       },
       {
-        "health": 200,
+        "vitality": 200,
         "strength": 50,
         "range": 1,
         "ap": 1
@@ -5212,7 +5212,7 @@
       {
         "strength": 50,
         "ap": 1,
-        "health": 200,
+        "vitality": 200,
         "range": 1,
         "mp": 1
       }
@@ -5448,20 +5448,20 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "power": 50,
         "criticalChance": 5,
         "range": 1
       },
       {
-        "health": 100,
+        "vitality": 100,
         "power": 50,
         "criticalChance": 5,
         "range": 1,
         "ap": 1
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 75,
         "criticalChance": 7,
         "range": 1,
@@ -5469,7 +5469,7 @@
         "summon": 1
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 75,
         "criticalChance": 7,
         "range": 1,
@@ -5478,7 +5478,7 @@
         "summon": 1
       },
       {
-        "health": 200,
+        "vitality": 200,
         "power": 100,
         "criticalChance": 10,
         "range": 1,
@@ -5487,7 +5487,7 @@
         "summon": 2
       },
       {
-        "health": 300,
+        "vitality": 300,
         "power": 150,
         "criticalChance": 15,
         "range": 1,
@@ -5642,17 +5642,17 @@
     "stats": [
       {},
       {
-        "health": 5,
+        "vitality": 5,
         "chance": 5,
         "agility": 5
       },
       {
-        "health": 10,
+        "vitality": 10,
         "chance": 10,
         "agility": 10
       },
       {
-        "health": 10,
+        "vitality": 10,
         "chance": 10,
         "agility": 10,
         "waterDamage": 1,
@@ -5660,7 +5660,7 @@
         "dodge": 1
       },
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "agility": 20,
         "waterDamage": 2,
@@ -5668,7 +5668,7 @@
         "dodge": 2
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "agility": 30,
         "dodge": 3,
@@ -5676,7 +5676,7 @@
         "airDamage": 3
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "agility": 30,
         "dodge": 3,
@@ -5686,7 +5686,7 @@
       },
       {
         "ap": 1,
-        "health": 50,
+        "vitality": 50,
         "chance": 50,
         "agility": 50,
         "dodge": 5,
@@ -5719,12 +5719,12 @@
       {
         "strength": 20,
         "chance": 20,
-        "health": 100,
+        "vitality": 100,
         "earthResistPer": 4
       },
       {
         "ap": 1,
-        "health": 100,
+        "vitality": 100,
         "earthResistPer": 4,
         "chance": 20,
         "strength": 20
@@ -5732,7 +5732,7 @@
       {
         "range": 1,
         "ap": 1,
-        "health": 100,
+        "vitality": 100,
         "earthResistPer": 4,
         "chance": 20,
         "strength": 20
@@ -5740,7 +5740,7 @@
       {
         "range": 1,
         "ap": 1,
-        "health": 150,
+        "vitality": 150,
         "earthResistPer": 4,
         "chance": 30,
         "strength": 30
@@ -5749,7 +5749,7 @@
         "mp": 1,
         "range": 1,
         "ap": 1,
-        "health": 150,
+        "vitality": 150,
         "earthResistPer": 4,
         "chance": 30,
         "strength": 30
@@ -5982,7 +5982,7 @@
     "stats": [
       {},
       {
-        "health": 3,
+        "vitality": 3,
         "agility": 3,
         "intelligence": 3,
         "chance": 3,
@@ -5990,7 +5990,7 @@
         "wisdom": 1
       },
       {
-        "health": 6,
+        "vitality": 6,
         "agility": 6,
         "intelligence": 6,
         "chance": 6,
@@ -5998,7 +5998,7 @@
         "wisdom": 2
       },
       {
-        "health": 9,
+        "vitality": 9,
         "agility": 9,
         "intelligence": 9,
         "chance": 9,
@@ -6006,7 +6006,7 @@
         "wisdom": 3
       },
       {
-        "health": 12,
+        "vitality": 12,
         "agility": 12,
         "intelligence": 12,
         "chance": 12,
@@ -6014,7 +6014,7 @@
         "wisdom": 4
       },
       {
-        "health": 15,
+        "vitality": 15,
         "agility": 15,
         "intelligence": 15,
         "chance": 15,
@@ -6022,7 +6022,7 @@
         "wisdom": 5
       },
       {
-        "health": 18,
+        "vitality": 18,
         "agility": 18,
         "intelligence": 18,
         "chance": 18,
@@ -6030,7 +6030,7 @@
         "wisdom": 8
       },
       {
-        "health": 21,
+        "vitality": 21,
         "agility": 21,
         "intelligence": 21,
         "chance": 21,
@@ -6061,25 +6061,25 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "heal": 2
       },
       {
-        "health": 30,
+        "vitality": 30,
         "heal": 4
       },
       {
         "heal": 6,
-        "health": 40
+        "vitality": 40
       },
       {
         "heal": 8,
-        "health": 50
+        "vitality": 50
       },
       {
         "range": 1,
         "heal": 8,
-        "health": 50
+        "vitality": 50
       }
     ]
   },
@@ -6237,7 +6237,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "heal": 10,
         "dodge": 10,
         "strength": 30,
@@ -6249,7 +6249,7 @@
         "strength": 30,
         "dodge": 10,
         "heal": 10,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -6279,7 +6279,7 @@
         "prospecting": 10,
         "heal": 3,
         "damage": 3,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 20,
         "chance": 20,
         "strength": 20
@@ -6288,7 +6288,7 @@
         "prospecting": 20,
         "heal": 7,
         "damage": 7,
-        "health": 200,
+        "vitality": 200,
         "wisdom": 40,
         "chance": 40,
         "strength": 40,
@@ -6305,7 +6305,7 @@
         "summon": 1,
         "heal": 12,
         "damage": 12,
-        "health": 500,
+        "vitality": 500,
         "wisdom": 70,
         "chance": 70,
         "strength": 70,
@@ -6323,7 +6323,7 @@
         "ap": 1,
         "heal": 20,
         "damage": 20,
-        "health": 800,
+        "vitality": 800,
         "wisdom": 100,
         "chance": 100,
         "strength": 100,
@@ -6358,7 +6358,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6369,7 +6369,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6380,7 +6380,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -6397,7 +6397,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "ap": 1,
@@ -6437,7 +6437,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6448,7 +6448,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6459,7 +6459,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -6481,7 +6481,7 @@
         "ap": 1,
         "summon": 1,
         "prospecting": 40,
-        "health": 800,
+        "vitality": 800,
         "airResistPer": 10,
         "waterResistPer": 10,
         "fireResistPer": 10,
@@ -6517,7 +6517,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "heal": 3,
         "prospecting": 10
       },
@@ -6528,7 +6528,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "heal": 7,
         "prospecting": 20
       },
@@ -6539,7 +6539,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "heal": 12,
         "summon": 2,
         "prospecting": 30,
@@ -6556,7 +6556,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "heal": 20,
         "ap": 1,
         "summon": 3,
@@ -6595,7 +6595,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6606,7 +6606,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6617,7 +6617,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -6634,7 +6634,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "ap": 1,
@@ -6674,7 +6674,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6685,7 +6685,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6696,7 +6696,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "heal": 12,
         "damage": 12,
         "prospecting": 30,
@@ -6713,7 +6713,7 @@
         "strength": 100,
         "chance": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 1,
@@ -6753,7 +6753,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6764,7 +6764,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6775,7 +6775,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -6792,7 +6792,7 @@
         "strength": 100,
         "intelligence": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 1,
@@ -6832,7 +6832,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -6843,7 +6843,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -6854,7 +6854,7 @@
         "strength": 70,
         "chance": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "summon": 1,
         "damage": 12,
         "heal": 12,
@@ -6871,7 +6871,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 1,
@@ -6911,7 +6911,7 @@
         "prospecting": 10,
         "heal": 3,
         "damage": 3,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 20,
         "strength": 20,
         "chance": 20
@@ -6920,7 +6920,7 @@
         "prospecting": 20,
         "heal": 7,
         "damage": 7,
-        "health": 200,
+        "vitality": 200,
         "wisdom": 40,
         "strength": 40,
         "chance": 40,
@@ -6937,7 +6937,7 @@
         "summon": 1,
         "heal": 12,
         "damage": 12,
-        "health": 500,
+        "vitality": 500,
         "wisdom": 70,
         "strength": 70,
         "chance": 70,
@@ -6951,7 +6951,7 @@
         "waterResistPer": 10,
         "airResistPer": 10,
         "prospecting": 40,
-        "health": 800,
+        "vitality": 800,
         "ap": 1,
         "summon": 1,
         "heal": 20,
@@ -6990,7 +6990,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -7001,7 +7001,7 @@
         "strength": 40,
         "chance": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -7012,7 +7012,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 2,
@@ -7029,7 +7029,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 3,
@@ -7069,7 +7069,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -7080,7 +7080,7 @@
         "strength": 40,
         "chance": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -7091,7 +7091,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "prospecting": 30,
@@ -7108,7 +7108,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 1,
@@ -7148,7 +7148,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -7159,7 +7159,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -7170,7 +7170,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "prospecting": 30,
@@ -7187,7 +7187,7 @@
         "strength": 100,
         "chance": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "summon": 1,
@@ -7219,7 +7219,7 @@
     "stats": [
       {},
       {
-        "health": 120,
+        "vitality": 120,
         "mp": 1,
         "airResistPer": 10,
         "agility": 40
@@ -7246,7 +7246,7 @@
       {
         "intelligence": 20,
         "strength": 30,
-        "health": 150,
+        "vitality": 150,
         "power": 10,
         "ap": 1
       }
@@ -7359,7 +7359,7 @@
         "waterResistPer": -60,
         "airResistPer": 5,
         "neutralResistPer": 5,
-        "health": 15,
+        "vitality": 15,
         "intelligence": 15
       },
       {
@@ -7368,7 +7368,7 @@
         "waterResistPer": -55,
         "airResistPer": 10,
         "neutralResistPer": 10,
-        "health": 30,
+        "vitality": 30,
         "intelligence": 30
       },
       {
@@ -7377,7 +7377,7 @@
         "waterResistPer": -50,
         "airResistPer": 15,
         "neutralResistPer": 15,
-        "health": 50,
+        "vitality": 50,
         "intelligence": 50,
         "ap": 1
       }
@@ -7408,7 +7408,7 @@
         "waterResistPer": 5,
         "airResistPer": -60,
         "neutralResistPer": 5,
-        "health": 15,
+        "vitality": 15,
         "strength": 15
       },
       {
@@ -7417,7 +7417,7 @@
         "waterResistPer": 10,
         "airResistPer": -55,
         "neutralResistPer": 10,
-        "health": 30,
+        "vitality": 30,
         "strength": 30
       },
       {
@@ -7426,7 +7426,7 @@
         "waterResistPer": 15,
         "airResistPer": -50,
         "neutralResistPer": 15,
-        "health": 50,
+        "vitality": 50,
         "strength": 50,
         "ap": 1
       }
@@ -7457,7 +7457,7 @@
         "waterResistPer": 5,
         "airResistPer": 10,
         "neutralResistPer": 5,
-        "health": 15,
+        "vitality": 15,
         "agility": 15
       },
       {
@@ -7466,7 +7466,7 @@
         "waterResistPer": 10,
         "airResistPer": 20,
         "neutralResistPer": 10,
-        "health": 30,
+        "vitality": 30,
         "agility": 30
       },
       {
@@ -7475,7 +7475,7 @@
         "waterResistPer": 15,
         "airResistPer": 30,
         "neutralResistPer": 15,
-        "health": 50,
+        "vitality": 50,
         "agility": 50,
         "ap": 1
       }
@@ -7506,7 +7506,7 @@
         "waterResistPer": 10,
         "airResistPer": 5,
         "neutralResistPer": 5,
-        "health": 15,
+        "vitality": 15,
         "chance": 15
       },
       {
@@ -7515,7 +7515,7 @@
         "waterResistPer": 20,
         "airResistPer": 10,
         "neutralResistPer": 10,
-        "health": 30,
+        "vitality": 30,
         "chance": 30
       },
       {
@@ -7524,7 +7524,7 @@
         "waterResistPer": 30,
         "airResistPer": 15,
         "neutralResistPer": 15,
-        "health": 50,
+        "vitality": 50,
         "chance": 50,
         "ap": 1
       }
@@ -7981,7 +7981,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "wisdom": 10,
         "power": 10,
         "range": 1
@@ -7991,7 +7991,7 @@
         "mp": 1,
         "wisdom": 20,
         "range": 1,
-        "health": 30
+        "vitality": 30
       }
     ]
   },
@@ -8014,13 +8014,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "criticalChance": 2,
         "pushbackDamage": 10
       },
       {
-        "health": 30,
+        "vitality": 30,
         "criticalChance": 5,
         "agility": 30,
         "pushbackDamage": 15
@@ -8047,7 +8047,7 @@
       {},
       {
         "initiative": 100,
-        "health": 20,
+        "vitality": 20,
         "reflect": 3,
         "damage": 3
       },
@@ -8055,7 +8055,7 @@
         "damage": 5,
         "reflect": 5,
         "initiative": 200,
-        "health": 30,
+        "vitality": 30,
         "mp": 1
       }
     ]
@@ -8148,32 +8148,32 @@
     "stats": [
       {},
       {
-        "health": 2,
+        "vitality": 2,
         "initiative": 2
       },
       {
-        "health": 3,
+        "vitality": 3,
         "initiative": 3
       },
       {
         "initiative": 4,
-        "health": 4
+        "vitality": 4
       },
       {
         "initiative": 5,
-        "health": 5
+        "vitality": 5
       },
       {
         "initiative": 6,
-        "health": 6
+        "vitality": 6
       },
       {
         "initiative": 7,
-        "health": 7
+        "vitality": 7
       },
       {
         "initiative": 8,
-        "health": 8
+        "vitality": 8
       }
     ]
   },
@@ -8198,19 +8198,19 @@
     "stats": [
       {},
       {
-        "health": 10
+        "vitality": 10
       },
       {
-        "health": 20,
+        "vitality": 20,
         "power": 20
       },
       {
-        "health": 30,
+        "vitality": 30,
         "power": 30,
         "wisdom": 30
       },
       {
-        "health": 40,
+        "vitality": 40,
         "power": 40,
         "wisdom": 40,
         "mp": 1
@@ -8236,13 +8236,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "heal": 3,
         "intelligence": 15,
         "agility": 15
       },
       {
-        "health": 30,
+        "vitality": 30,
         "heal": 6,
         "intelligence": 30,
         "agility": 30
@@ -8268,13 +8268,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "summon": 1,
         "airDamage": 3
       },
       {
-        "health": 30,
+        "vitality": 30,
         "airDamage": 5,
         "summon": 2,
         "agility": 30
@@ -8517,7 +8517,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 10,
         "fireDamage": 3
       },
@@ -8525,7 +8525,7 @@
         "mpResist": 5,
         "fireDamage": 6,
         "intelligence": 20,
-        "health": 30
+        "vitality": 30
       }
     ]
   },
@@ -8548,12 +8548,12 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "dodge": 2
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "dodge": 5
       }
@@ -8578,12 +8578,12 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "dodge": 4
       },
       {
-        "health": 30,
+        "vitality": 30,
         "agility": 30,
         "dodge": 8
       }
@@ -8608,12 +8608,12 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "lock": 6
       },
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "lock": 6,
         "range": 1
@@ -8639,12 +8639,12 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "lock": 6
       },
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "lock": 6,
         "summon": 1
@@ -8754,12 +8754,12 @@
       {
         "strength": 20,
         "power": 20,
-        "health": 150,
+        "vitality": 150,
         "apResist": 7,
         "lock": 12
       },
       {
-        "health": 150,
+        "vitality": 150,
         "strength": 20,
         "power": 20,
         "apResist": 7,
@@ -8821,7 +8821,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "strength": 20,
         "wisdom": 10,
         "intelligence": 20
@@ -8830,14 +8830,14 @@
         "wisdom": 15,
         "intelligence": 35,
         "strength": 35,
-        "health": 60
+        "vitality": 60
       },
       {
         "mp": 1,
         "wisdom": 25,
         "intelligence": 50,
         "strength": 50,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -8861,7 +8861,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 20,
         "wisdom": 10,
         "agility": 20
@@ -8870,14 +8870,14 @@
         "wisdom": 15,
         "agility": 35,
         "chance": 35,
-        "health": 60
+        "vitality": 60
       },
       {
         "ap": 1,
         "wisdom": 25,
         "agility": 50,
         "chance": 50,
-        "health": 100
+        "vitality": 100
       }
     ]
   },
@@ -8901,7 +8901,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "wisdom": 10,
         "power": 20,
         "earthResist": 5,
@@ -8910,7 +8910,7 @@
         "airResist": 5
       },
       {
-        "health": 80,
+        "vitality": 80,
         "wisdom": 20,
         "power": 40,
         "earthResist": 10,
@@ -8920,7 +8920,7 @@
         "range": 1
       },
       {
-        "health": 120,
+        "vitality": 120,
         "wisdom": 30,
         "power": 60,
         "earthResist": 15,
@@ -8984,11 +8984,11 @@
       {
         "agility": 15,
         "mpReduction": 2,
-        "health": 30
+        "vitality": 30
       },
       {
         "agility": 30,
-        "health": 50,
+        "vitality": 50,
         "mpReduction": 4
       }
     ]
@@ -9012,14 +9012,14 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "pushbackResist": 10
       },
       {
         "mp": 1,
         "pushbackResist": 20,
-        "health": 40,
+        "vitality": 40,
         "strength": 30
       }
     ]
@@ -9045,13 +9045,13 @@
       {
         "agility": 15,
         "pushbackDamage": 10,
-        "health": 20,
+        "vitality": 20,
         "dodge": 4
       },
       {
         "dodge": 8,
         "pushbackDamage": 20,
-        "health": 40,
+        "vitality": 40,
         "agility": 30
       }
     ]
@@ -9077,11 +9077,11 @@
       {
         "intelligence": 20,
         "criticalResist": 5,
-        "health": 30
+        "vitality": 30
       },
       {
         "intelligence": 30,
-        "health": 50,
+        "vitality": 50,
         "criticalResist": 10
       }
     ]
@@ -9110,7 +9110,7 @@
         "fireDamage": 5,
         "waterDamage": 5,
         "airDamage": 5,
-        "health": 50,
+        "vitality": 50,
         "wisdom": 20,
         "mp": 1
       },
@@ -9119,7 +9119,7 @@
         "fireDamage": 10,
         "waterDamage": 10,
         "airDamage": 10,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 40,
         "mp": 1
       },
@@ -9128,7 +9128,7 @@
         "fireDamage": 15,
         "waterDamage": 15,
         "airDamage": 15,
-        "health": 150,
+        "vitality": 150,
         "wisdom": 60,
         "ap": 1,
         "mp": 1
@@ -9294,20 +9294,20 @@
       {
         "strength": 30,
         "chance": 30,
-        "health": 100,
+        "vitality": 100,
         "apReduction": 5
       },
       {
         "strength": 30,
         "chance": 30,
-        "health": 100,
+        "vitality": 100,
         "apReduction": 5,
         "ap": 1
       },
       {
         "strength": 40,
         "chance": 40,
-        "health": 150,
+        "vitality": 150,
         "apReduction": 10,
         "ap": 1
       }
@@ -9484,14 +9484,14 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "strength": 30,
         "agility": 30,
         "criticalDamage": 15,
         "initiative": 300
       },
       {
-        "health": 100,
+        "vitality": 100,
         "strength": 30,
         "agility": 30,
         "criticalDamage": 15,
@@ -9499,7 +9499,7 @@
         "ap": 1
       },
       {
-        "health": 200,
+        "vitality": 200,
         "strength": 40,
         "agility": 40,
         "criticalDamage": 25,
@@ -9553,20 +9553,20 @@
         "intelligence": 20,
         "strength": 20,
         "pushbackDamage": 10,
-        "health": 120
+        "vitality": 120
       },
       {
         "intelligence": 20,
         "strength": 20,
         "pushbackDamage": 10,
-        "health": 120,
+        "vitality": 120,
         "ap": 1
       },
       {
         "intelligence": 20,
         "strength": 20,
         "pushbackDamage": 20,
-        "health": 120,
+        "vitality": 120,
         "ap": 1,
         "range": 1
       }
@@ -9598,7 +9598,7 @@
         "prospecting": 10,
         "heal": 3,
         "damage": 3,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 20,
         "chance": 20,
         "strength": 20
@@ -9607,7 +9607,7 @@
         "prospecting": 20,
         "heal": 7,
         "damage": 7,
-        "health": 200,
+        "vitality": 200,
         "wisdom": 40,
         "strength": 40,
         "chance": 40,
@@ -9624,7 +9624,7 @@
         "prospecting": 30,
         "heal": 12,
         "damage": 12,
-        "health": 500,
+        "vitality": 500,
         "wisdom": 70,
         "strength": 70,
         "chance": 70,
@@ -9642,7 +9642,7 @@
         "summon": 1,
         "heal": 20,
         "damage": 20,
-        "health": 800,
+        "vitality": 800,
         "wisdom": 100,
         "chance": 100,
         "strength": 100,
@@ -9677,7 +9677,7 @@
         "prospecting": 10,
         "heal": 3,
         "damage": 3,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 20,
         "chance": 20,
         "strength": 20
@@ -9686,7 +9686,7 @@
         "prospecting": 20,
         "heal": 7,
         "damage": 7,
-        "health": 200,
+        "vitality": 200,
         "wisdom": 40,
         "strength": 40,
         "chance": 40,
@@ -9703,7 +9703,7 @@
         "prospecting": 30,
         "heal": 12,
         "damage": 12,
-        "health": 500,
+        "vitality": 500,
         "wisdom": 70,
         "strength": 70,
         "chance": 70,
@@ -9721,7 +9721,7 @@
         "summon": 1,
         "heal": 20,
         "damage": 20,
-        "health": 800,
+        "vitality": 800,
         "wisdom": 100,
         "chance": 100,
         "strength": 100,
@@ -9751,7 +9751,7 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "wisdom": 5,
         "fireDamage": 2,
         "heal": 2
@@ -9759,13 +9759,13 @@
       {
         "fireDamage": 4,
         "wisdom": 10,
-        "health": 20,
+        "vitality": 20,
         "heal": 4
       },
       {
         "fireDamage": 4,
         "wisdom": 10,
-        "health": 20,
+        "vitality": 20,
         "heal": 4,
         "ap": 1
       },
@@ -9773,7 +9773,7 @@
         "heal": 8,
         "fireDamage": 8,
         "wisdom": 20,
-        "health": 40,
+        "vitality": 40,
         "ap": 1
       }
     ]
@@ -9873,12 +9873,12 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "power": 10,
         "dodge": 2
       },
       {
-        "health": 20,
+        "vitality": 20,
         "dodge": 4,
         "power": 20
       },
@@ -9886,7 +9886,7 @@
         "range": 1,
         "dodge": 6,
         "power": 30,
-        "health": 30
+        "vitality": 30
       }
     ]
   },
@@ -9968,17 +9968,17 @@
       {},
       {
         "strength": 10,
-        "health": 20,
+        "vitality": 20,
         "lock": 2
       },
       {
         "strength": 20,
-        "health": 40,
+        "vitality": 40,
         "lock": 4
       },
       {
         "strength": 40,
-        "health": 80,
+        "vitality": 80,
         "lock": 8,
         "ap": 1
       }
@@ -10230,7 +10230,7 @@
         "criticalResist": 30,
         "criticalChance": 10,
         "agility": 30,
-        "health": 100,
+        "vitality": 100,
         "neutralDamage": 10,
         "earthDamage": 10,
         "waterDamage": 10,
@@ -10249,7 +10249,7 @@
         "agility": 60,
         "chance": 60,
         "strength": 60,
-        "health": 100,
+        "vitality": 100,
         "neutralDamage": 15,
         "earthDamage": 15,
         "waterDamage": 15,
@@ -10281,18 +10281,18 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "wisdom": 10,
         "power": 10
       },
       {
-        "health": 20,
+        "vitality": 20,
         "wisdom": 20,
         "power": 20,
         "range": 1
       },
       {
-        "health": 40,
+        "vitality": 40,
         "wisdom": 40,
         "power": 40,
         "range": 2,
@@ -10326,7 +10326,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -10337,7 +10337,7 @@
         "strength": 40,
         "chance": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -10348,7 +10348,7 @@
         "strength": 70,
         "chance": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -10365,7 +10365,7 @@
         "strength": 100,
         "chance": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "ap": 1,
@@ -10439,13 +10439,13 @@
       {
         "strength": 30,
         "intelligence": 30,
-        "health": 100,
+        "vitality": 100,
         "range": 1,
         "dodge": 10,
         "waterResistPer": 10
       },
       {
-        "health": 100,
+        "vitality": 100,
         "strength": 30,
         "intelligence": 30,
         "range": 1,
@@ -10592,13 +10592,13 @@
     "stats": [
       {},
       {
-        "health": 200,
+        "vitality": 200,
         "criticalResist": 60,
         "pushbackResist": 40,
         "lock": 30
       },
       {
-        "health": 200,
+        "vitality": 200,
         "criticalResist": 60,
         "pushbackResist": 40,
         "lock": 30,
@@ -10751,7 +10751,7 @@
     "stats": [
       {},
       {
-        "health": 300,
+        "vitality": 300,
         "strength": 60,
         "lock": 15,
         "pushbackResist": 30,
@@ -10771,7 +10771,7 @@
         "airResistPer": 5,
         "waterResistPer": 5,
         "earthResistPer": 5,
-        "health": 300,
+        "vitality": 300,
         "strength": 60,
         "lock": 15,
         "ap": 1,
@@ -10806,7 +10806,7 @@
         "dodge": 15,
         "heal": 30,
         "criticalDamage": 10,
-        "health": 150,
+        "vitality": 150,
         "fireDamage": 10
       },
       {
@@ -10816,7 +10816,7 @@
         "criticalDamage": 10,
         "criticalChance": 8,
         "intelligence": 60,
-        "health": 150,
+        "vitality": 150,
         "fireDamage": 10,
         "dodge": 15,
         "airDamage": 20,
@@ -10980,12 +10980,12 @@
       {
         "chance": 60,
         "criticalResist": 15,
-        "health": 150,
+        "vitality": 150,
         "heal": 20,
         "fireResist": 20
       },
       {
-        "health": 150,
+        "vitality": 150,
         "heal": 20,
         "fireResist": 20,
         "chance": 60,
@@ -11215,7 +11215,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "strength": 30,
         "waterDamage": 10,
         "chance": 60,
@@ -11231,7 +11231,7 @@
         "chance": 60,
         "intelligence": 60,
         "strength": 30,
-        "health": 150,
+        "vitality": 150,
         "earthResistPer": 7,
         "waterResistPer": 7
       }
@@ -11256,7 +11256,7 @@
     "stats": [
       {},
       {
-        "health": 200,
+        "vitality": 200,
         "initiative": 2000,
         "mpReduction": 10,
         "apReduction": 10,
@@ -11281,7 +11281,7 @@
         "heal": 30,
         "pushbackResist": 40,
         "pushbackDamage": 40,
-        "health": 200,
+        "vitality": 200,
         "initiative": 2000,
         "wisdom": 50,
         "lock": 15,
@@ -11317,7 +11317,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "criticalDamage": 12,
         "range": 1,
         "agility": 30,
@@ -11381,7 +11381,7 @@
     "stats": [
       {},
       {
-        "health": 60,
+        "vitality": 60,
         "strength": 40,
         "chance": 40,
         "agility": 40,
@@ -11390,7 +11390,7 @@
         "airDamage": 5
       },
       {
-        "health": 60,
+        "vitality": 60,
         "strength": 40,
         "chance": 40,
         "agility": 40,
@@ -11663,13 +11663,13 @@
       {
         "intelligence": 30,
         "chance": 30,
-        "health": 100,
+        "vitality": 100,
         "mpResist": 10,
         "lock": 10,
         "criticalChance": 5
       },
       {
-        "health": 100,
+        "vitality": 100,
         "mpResist": 10,
         "chance": 30,
         "intelligence": 30,
@@ -12254,7 +12254,7 @@
     "stats": [
       {},
       {
-        "health": 300,
+        "vitality": 300,
         "strength": 40,
         "criticalChance": 10,
         "agility": 40,
@@ -12268,7 +12268,7 @@
         "agility": 60,
         "intelligence": 60,
         "strength": 60,
-        "health": 500,
+        "vitality": 500,
         "initiative": 1000,
         "lock": 40
       }
@@ -12853,7 +12853,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "prospecting": 10,
         "heal": 3,
         "damage": 3
@@ -12864,7 +12864,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "prospecting": 20,
         "heal": 7,
         "damage": 7
@@ -12875,7 +12875,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "prospecting": 30,
         "heal": 12,
         "damage": 12,
@@ -12892,7 +12892,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "prospecting": 40,
         "heal": 20,
         "damage": 20,
@@ -13015,12 +13015,12 @@
       {
         "strength": 10,
         "chance": 10,
-        "health": 15
+        "vitality": 15
       },
       {
         "chance": 20,
         "strength": 20,
-        "health": 30
+        "vitality": 30
       }
     ]
   },
@@ -13043,10 +13043,10 @@
     "stats": [
       {},
       {
-        "health": 15
+        "vitality": 15
       },
       {
-        "health": 30
+        "vitality": 30
       }
     ]
   },
@@ -13261,7 +13261,7 @@
         "mpReduction": 10,
         "apReduction": 10,
         "criticalChance": 10,
-        "health": 150,
+        "vitality": 150,
         "dodge": 15
       },
       {
@@ -13272,7 +13272,7 @@
         "chance": 40,
         "criticalChance": 10,
         "ap": 1,
-        "health": 150,
+        "vitality": 150,
         "dodge": 15,
         "airResistPer": 10
       }
@@ -13297,7 +13297,7 @@
     "stats": [
       {},
       {
-        "health": 200,
+        "vitality": 200,
         "criticalResist": 30,
         "mpReduction": 20,
         "lock": 30,
@@ -13309,7 +13309,7 @@
         "lock": 30,
         "ap": 1,
         "criticalResist": 30,
-        "health": 200,
+        "vitality": 200,
         "power": 100,
         "initiative": 500
       }
@@ -13372,7 +13372,7 @@
         "chance": 20,
         "strength": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "prospecting": 10,
         "heal": 3,
         "damage": 3
@@ -13383,7 +13383,7 @@
         "chance": 40,
         "strength": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "prospecting": 20,
         "heal": 7,
         "damage": 7
@@ -13394,7 +13394,7 @@
         "chance": 70,
         "strength": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "prospecting": 30,
         "heal": 12,
         "damage": 12,
@@ -13411,7 +13411,7 @@
         "chance": 100,
         "strength": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "prospecting": 40,
         "heal": 20,
         "damage": 20,
@@ -14176,7 +14176,7 @@
         "prospecting": 10,
         "heal": 3,
         "damage": 3,
-        "health": 100,
+        "vitality": 100,
         "wisdom": 20,
         "strength": 20,
         "chance": 20
@@ -14185,7 +14185,7 @@
         "prospecting": 20,
         "heal": 7,
         "damage": 7,
-        "health": 200,
+        "vitality": 200,
         "wisdom": 40,
         "strength": 40,
         "chance": 40,
@@ -14202,7 +14202,7 @@
         "summon": 1,
         "heal": 12,
         "damage": 12,
-        "health": 500,
+        "vitality": 500,
         "wisdom": 70,
         "strength": 70,
         "chance": 70,
@@ -14216,7 +14216,7 @@
         "waterResistPer": 10,
         "airResistPer": 10,
         "prospecting": 40,
-        "health": 800,
+        "vitality": 800,
         "ap": 1,
         "summon": 1,
         "heal": 20,
@@ -14369,7 +14369,7 @@
       {
         "criticalResist": 10,
         "apResist": 25,
-        "health": 150,
+        "vitality": 150,
         "strength": 30,
         "intelligence": 30,
         "chance": 30,
@@ -14379,7 +14379,7 @@
         "waterDamage": 5
       },
       {
-        "health": 150,
+        "vitality": 150,
         "criticalResist": 10,
         "ap": 1,
         "apResist": 25,
@@ -14515,7 +14515,7 @@
         "criticalChance": 10,
         "initiative": 1000,
         "pushbackDamage": 30,
-        "health": 150,
+        "vitality": 150,
         "airResistPer": 3,
         "waterResistPer": 3,
         "fireResistPer": 3,
@@ -14534,7 +14534,7 @@
         "criticalChance": 10,
         "ap": 1,
         "apReduction": 15,
-        "health": 150,
+        "vitality": 150,
         "power": 30
       }
     ]
@@ -14593,12 +14593,12 @@
       {
         "dodge": 25,
         "criticalResist": 35,
-        "health": 150,
+        "vitality": 150,
         "heal": 80,
         "power": 30
       },
       {
-        "health": 150,
+        "vitality": 150,
         "heal": 80,
         "ap": 1,
         "criticalResist": 35,
@@ -14629,7 +14629,7 @@
         "heal": 80,
         "mpResist": 20,
         "criticalDamage": 30,
-        "health": 150,
+        "vitality": 150,
         "initiative": 1000,
         "lock": 10,
         "criticalChance": 10,
@@ -14639,7 +14639,7 @@
       },
       {
         "criticalDamage": 30,
-        "health": 150,
+        "vitality": 150,
         "initiative": 1000,
         "ap": 1,
         "heal": 80,
@@ -14708,7 +14708,7 @@
       {
         "initiative": 1000,
         "mpReduction": 10,
-        "health": 150,
+        "vitality": 150,
         "dodge": 15,
         "range": 2,
         "airResistPer": 4,
@@ -14720,7 +14720,7 @@
         "airResistPer": 7,
         "waterResistPer": 7,
         "fireResistPer": 7,
-        "health": 150,
+        "vitality": 150,
         "initiative": 1000,
         "ap": 1,
         "mpReduction": 10,
@@ -14790,7 +14790,7 @@
         "strength": 40,
         "intelligence": 40,
         "agility": 40,
-        "health": 150
+        "vitality": 150
       },
       {
         "ap": 1,
@@ -14800,7 +14800,7 @@
         "strength": 60,
         "intelligence": 60,
         "agility": 60,
-        "health": 150
+        "vitality": 150
       }
     ]
   },
@@ -15000,7 +15000,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "strength": 40,
         "fireResistPer": 10,
         "chance": 40,
@@ -15009,7 +15009,7 @@
       },
       {
         "fireResistPer": 10,
-        "health": 150,
+        "vitality": 150,
         "ap": 1,
         "strength": 40,
         "chance": 40,
@@ -15156,26 +15156,26 @@
       {},
       {
         "damage": 1,
-        "health": 20
+        "vitality": 20
       },
       {
         "damage": 2,
-        "health": 30
+        "vitality": 30
       },
       {
         "damage": 3,
-        "health": 40
+        "vitality": 40
       },
       {
         "range": 1,
         "damage": 4,
-        "health": 50
+        "vitality": 50
       },
       {
         "mp": 1,
         "range": 1,
         "damage": 5,
-        "health": 60
+        "vitality": 60
       }
     ]
   },
@@ -15240,7 +15240,7 @@
     "stats": [
       {},
       {
-        "health": 300,
+        "vitality": 300,
         "lock": 15,
         "agility": 40,
         "chance": 40,
@@ -15256,7 +15256,7 @@
         "ap": 1,
         "mpReduction": 15,
         "lock": 15,
-        "health": 300
+        "vitality": 300
       }
     ]
   },
@@ -15279,13 +15279,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 15,
         "dodge": 5,
         "wisdom": 10
       },
       {
-        "health": 40,
+        "vitality": 40,
         "chance": 30,
         "dodge": 10,
         "wisdom": 15
@@ -15418,20 +15418,20 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "pushbackDamage": 20,
         "power": 30
       },
       {
         "ap": 1,
         "pushbackDamage": 20,
-        "health": 150,
+        "vitality": 150,
         "power": 30
       },
       {
         "ap": 1,
         "pushbackDamage": 30,
-        "health": 200,
+        "vitality": 200,
         "power": 60
       }
     ]
@@ -16546,7 +16546,7 @@
         "strength": 20,
         "chance": 20,
         "wisdom": 20,
-        "health": 100,
+        "vitality": 100,
         "damage": 3,
         "heal": 3,
         "prospecting": 10
@@ -16557,7 +16557,7 @@
         "strength": 40,
         "chance": 40,
         "wisdom": 40,
-        "health": 200,
+        "vitality": 200,
         "damage": 7,
         "heal": 7,
         "prospecting": 20
@@ -16568,7 +16568,7 @@
         "strength": 70,
         "chance": 70,
         "wisdom": 70,
-        "health": 500,
+        "vitality": 500,
         "damage": 12,
         "heal": 12,
         "summon": 1,
@@ -16585,7 +16585,7 @@
         "strength": 100,
         "chance": 100,
         "wisdom": 100,
-        "health": 800,
+        "vitality": 800,
         "damage": 20,
         "heal": 20,
         "ap": 1,
@@ -16653,7 +16653,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "initiative": 200
       }
     ]
@@ -16676,7 +16676,7 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "intelligence": 10,
         "heal": 5,
         "criticalChance": 5
@@ -16747,7 +16747,7 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "earthDamage": 4
       }
     ]
@@ -16771,13 +16771,13 @@
     "stats": [
       {},
       {
-        "health": 15,
+        "vitality": 15,
         "chance": 15,
         "prospecting": 10,
         "dodge": 5
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "prospecting": 20,
         "dodge": 10
@@ -16829,7 +16829,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "initiative": 200,
         "criticalChance": 5
       }
@@ -16854,13 +16854,13 @@
     "stats": [
       {},
       {
-        "health": 15,
+        "vitality": 15,
         "power": 15,
         "lock": 3,
         "dodge": 3
       },
       {
-        "health": 30,
+        "vitality": 30,
         "power": 30,
         "lock": 6,
         "dodge": 6
@@ -16885,7 +16885,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "intelligence": 15
       }
     ]
@@ -16908,7 +16908,7 @@
     "stats": [
       {},
       {
-        "health": 50,
+        "vitality": 50,
         "initiative": 250,
         "criticalChance": 8
       }
@@ -17058,7 +17058,7 @@
       {},
       {
         "agility": 10,
-        "health": 20,
+        "vitality": 20,
         "lock": 5
       }
     ]
@@ -17128,7 +17128,7 @@
       {},
       {
         "power": 15,
-        "health": 20
+        "vitality": 20
       }
     ]
   },
@@ -17212,13 +17212,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 25,
         "agility": 10,
         "criticalChance": 4
       },
       {
-        "health": 40,
+        "vitality": 40,
         "chance": 35,
         "agility": 20,
         "criticalChance": 8
@@ -17244,13 +17244,13 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "pushbackDamage": 10,
         "criticalChance": 3
       },
       {
-        "health": 30,
+        "vitality": 30,
         "chance": 30,
         "pushbackDamage": 20,
         "criticalChance": 6,
@@ -17301,7 +17301,7 @@
     "stats": [
       {},
       {
-        "health": 50,
+        "vitality": 50,
         "initiative": 150,
         "power": 10
       }
@@ -17374,7 +17374,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "criticalChance": 6,
         "range": 1,
         "damage": 6
@@ -17425,7 +17425,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 10,
         "range": 1
       }
@@ -17449,7 +17449,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "neutralDamage": 5,
         "earthDamage": 5,
         "waterDamage": 5
@@ -17474,7 +17474,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "fireDamage": 5,
         "airDamage": 5
       }
@@ -17574,7 +17574,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "criticalChance": 5,
         "waterDamage": 5
       }
@@ -17598,7 +17598,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "power": 10,
         "strength": 15,
         "wisdom": 10
@@ -17623,7 +17623,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "power": 10,
         "chance": 15,
         "wisdom": 10
@@ -17648,7 +17648,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "power": 10,
         "intelligence": 15,
         "wisdom": 10
@@ -17752,7 +17752,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "dodge": 5,
         "earthDamage": 5,
         "power": 10
@@ -17777,7 +17777,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "wisdom": 10,
         "agility": 15,
         "power": 10
@@ -17802,7 +17802,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "waterResistPer": 6,
         "airResistPer": 6
       }
@@ -17851,7 +17851,7 @@
     "stats": [
       {},
       {
-        "health": 15,
+        "vitality": 15,
         "chance": 15,
         "wisdom": 15,
         "waterDamage": 3
@@ -17876,7 +17876,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "chance": 20,
         "apReduction": 5
       }
@@ -17900,7 +17900,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "initiative": 150
       }
@@ -17948,7 +17948,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "dodge": 10
       }
     ]
@@ -17997,7 +17997,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "earthDamage": 10,
         "waterDamage": 10,
         "pushbackDamage": 10
@@ -18046,7 +18046,7 @@
     "stats": [
       {},
       {
-        "health": 40,
+        "vitality": 40,
         "criticalChance": 6,
         "dodge": 6,
         "pushbackDamage": 20
@@ -18096,7 +18096,7 @@
     "stats": [
       {},
       {
-        "health": 20,
+        "vitality": 20,
         "agility": 20,
         "initiative": 100
       }
@@ -18238,7 +18238,7 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "strength": 10,
         "intelligence": 10,
         "chance": 10,
@@ -18265,7 +18265,7 @@
     "stats": [
       {},
       {
-        "health": 60,
+        "vitality": 60,
         "intelligence": 60,
         "strength": 30,
         "chance": 30,
@@ -18411,12 +18411,12 @@
     "stats": [
       {},
       {
-        "health": 10,
+        "vitality": 10,
         "strength": 10,
         "wisdom": 5
       },
       {
-        "health": 20,
+        "vitality": 20,
         "strength": 20,
         "wisdom": 10
       }
@@ -18618,7 +18618,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "power": 60,
         "airResistPer": 7,
         "lock": 10
@@ -18796,7 +18796,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "strength": 30,
         "intelligence": 30,
         "agility": 30,
@@ -18805,7 +18805,7 @@
         "criticalDamage": 10
       },
       {
-        "health": 150,
+        "vitality": 150,
         "strength": 40,
         "intelligence": 40,
         "agility": 40,
@@ -18933,14 +18933,14 @@
     "stats": [
       {},
       {
-        "health": 30,
+        "vitality": 30,
         "wisdom": 5,
         "dodge": 6,
         "damage": 6,
         "summon": 1
       },
       {
-        "health": 40,
+        "vitality": 40,
         "wisdom": 10,
         "dodge": 9,
         "damage": 9,
@@ -18948,7 +18948,7 @@
         "range": 1
       },
       {
-        "health": 50,
+        "vitality": 50,
         "wisdom": 15,
         "dodge": 12,
         "damage": 12,
@@ -18956,7 +18956,7 @@
         "range": 1
       },
       {
-        "health": 60,
+        "vitality": 60,
         "wisdom": 20,
         "dodge": 15,
         "damage": 15,
@@ -19194,7 +19194,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "chance": 40,
         "wisdom": 25,
         "heal": 20,
@@ -19339,7 +19339,7 @@
     "stats": [
       {},
       {
-        "health": 50,
+        "vitality": 50,
         "chance": 20,
         "agility": 20,
         "power": 15,
@@ -19366,7 +19366,7 @@
     "stats": [
       {},
       {
-        "health": 100,
+        "vitality": 100,
         "power": 30,
         "damage": 10,
         "intelligence": 25,
@@ -19375,7 +19375,7 @@
         "range": 1
       },
       {
-        "health": 100,
+        "vitality": 100,
         "power": 30,
         "damage": 10,
         "intelligence": 25,
@@ -19410,7 +19410,7 @@
         "mp": 1,
         "agility": 40,
         "strength": 40,
-        "health": 150,
+        "vitality": 150,
         "waterResistPer": 10,
         "fireResistPer": 10
       }
@@ -19436,7 +19436,7 @@
       {
         "waterDamage": 15,
         "airDamage": 15,
-        "health": 300,
+        "vitality": 300,
         "initiative": 400,
         "pushbackDamage": 30,
         "criticalChance": 7,
@@ -19540,14 +19540,14 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "power": 30,
         "pushbackDamage": 30,
         "criticalChance": 6,
         "damage": 10
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 30,
         "pushbackDamage": 30,
         "criticalChance": 6,
@@ -19555,7 +19555,7 @@
         "damage": 10
       },
       {
-        "health": 150,
+        "vitality": 150,
         "power": 60,
         "pushbackDamage": 30,
         "criticalChance": 10,
@@ -19585,7 +19585,7 @@
     "stats": [
       {},
       {
-        "health": 150,
+        "vitality": 150,
         "strength": 60,
         "heal": 10,
         "wisdom": 40,
@@ -19599,7 +19599,7 @@
         "wisdom": 40,
         "intelligence": 60,
         "strength": 60,
-        "health": 150,
+        "vitality": 150,
         "fireDamage": 6,
         "earthDamage": 6
       },
@@ -19610,7 +19610,7 @@
         "wisdom": 40,
         "intelligence": 100,
         "strength": 100,
-        "health": 150,
+        "vitality": 150,
         "fireDamage": 10,
         "earthDamage": 10,
         "mpReduction": 10,
@@ -19779,12 +19779,12 @@
       {
         "power": 40,
         "initiative": 500,
-        "health": 200
+        "vitality": 200
       },
       {
         "power": 80,
         "initiative": 500,
-        "health": 200,
+        "vitality": 200,
         "damage": 10
       }
     ]

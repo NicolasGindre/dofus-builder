@@ -37,7 +37,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "intelligence": 20
     }
   },
@@ -76,7 +76,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "power": 10
     }
   },
@@ -95,7 +95,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "fireDamage": 3
     }
   },
@@ -114,7 +114,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "criticalChance": 2
     }
   },
@@ -134,7 +134,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 20
     }
   },
@@ -172,7 +172,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "pods": 150,
       "lock": 3,
       "dodge": 3
@@ -194,7 +194,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "chance": 20,
       "waterDamage": 2,
       "prospecting": 5
@@ -269,7 +269,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "agility": 10
     }
   },
@@ -288,7 +288,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "chance": 11,
       "waterDamage": 1
     }
@@ -328,7 +328,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "chance": 15,
       "damage": 2
     }
@@ -390,7 +390,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10
+      "vitality": 10
     }
   },
   "2R": {
@@ -526,7 +526,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10
+      "vitality": 10
     }
   },
   "0T": {
@@ -580,7 +580,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "strength": 10
     }
   },
@@ -599,7 +599,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "chance": 10,
       "dodge": 2
     }
@@ -661,7 +661,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "intelligence": 15,
       "wisdom": 15
     }
@@ -681,7 +681,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "chance": 15,
       "wisdom": 15
     }
@@ -723,7 +723,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": -15,
       "intelligence": -15,
       "chance": -15,
@@ -826,7 +826,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": -10,
+      "vitality": -10,
       "chance": 1
     }
   },
@@ -864,28 +864,8 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 1,
+      "vitality": 1,
       "chance": -10
-    }
-  },
-  "8s": {
-    "id": "8s",
-    "idDofusDB": "674e524064788cc7414187ec",
-    "idDofusBook": 1656,
-    "name": {
-      "fr": "Fécaliseur du Magicien",
-      "en": "Magus Fecalizer",
-      "pt": "Fecalizador do Mago",
-      "de": "Magier-Fécalisator",
-      "es": "Fecalizador del Mago"
-    },
-    "level": 26,
-    "category": "ring",
-    "subCategory": "ring",
-    "stats": {
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5
     }
   },
   "8r": {
@@ -903,9 +883,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
-      "neutralResistPer": 2,
-      "earthResistPer": 2
+      "vitality": 20
     }
   },
   "aP": {
@@ -924,7 +902,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "strength": 30,
       "neutralDamage": 2,
       "earthDamage": 2
@@ -962,7 +940,7 @@
     ],
     "criterions": "CI<100&CC<100",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "lock": 3
     }
   },
@@ -982,8 +960,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "intelligence": 20,
-      "fireResistPer": 5
+      "intelligence": 20
     }
   },
   "5a": {
@@ -1002,7 +979,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "initiative": 100
     }
   },
@@ -1022,7 +999,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "criticalChance": 3,
       "damage": 3
     }
@@ -1043,7 +1020,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "damage": 3
     }
   },
@@ -1102,10 +1079,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 25,
-      "power": 5,
-      "airResistPer": 3
+      "power": 5
     }
   },
   "c5": {
@@ -1146,13 +1122,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 30,
       "damage": 2,
       "prospecting": 10,
-      "initiative": 100,
-      "earthResistPer": 2,
-      "airResistPer": 2
+      "initiative": 100
     }
   },
   "sO": {
@@ -1170,7 +1144,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 25,
       "chance": 25,
       "wisdom": 10,
@@ -1193,11 +1167,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "strength": 25,
-      "agility": 25,
-      "fireResistPer": 2,
-      "waterResistPer": 2
+      "agility": 25
     }
   },
   "vI": {
@@ -1215,7 +1187,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 30,
       "wisdom": 20,
       "power": 5,
@@ -1240,13 +1212,12 @@
     "subCategory": "ring",
     "criterions": "PG=3",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 30,
       "wisdom": 20,
       "waterDamage": 3,
       "prospecting": 15,
-      "initiative": 100,
-      "waterResistPer": 3
+      "initiative": 100
     }
   },
   "4Z": {
@@ -1265,7 +1236,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "fireDamage": 2,
       "initiative": 100
     }
@@ -1286,8 +1257,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "chance": 20,
-      "waterResistPer": 5
+      "chance": 20
     }
   },
   "zy": {
@@ -1306,16 +1276,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "chance": 30,
       "wisdom": 20,
       "neutralDamage": 4,
       "earthDamage": 4,
-      "waterDamage": 4,
-      "neutralResist": 7,
-      "fireResist": 7,
-      "airResist": 7
+      "waterDamage": 4
     }
   },
   "ei": {
@@ -1334,8 +1301,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "strength": 20,
-      "earthResistPer": 5
+      "strength": 20
     }
   },
   "ep": {
@@ -1354,8 +1320,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "agility": 20,
-      "airResistPer": 5
+      "agility": 20
     }
   },
   "tX": {
@@ -1374,14 +1339,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 30,
       "intelligence": 20,
       "agility": 20,
       "wisdom": 10,
-      "power": 5,
-      "fireResistPer": 2,
-      "waterResistPer": 2
+      "power": 5
     }
   },
   "8e": {
@@ -1399,7 +1362,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "wisdom": 5,
       "power": 10
     }
@@ -1420,14 +1383,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 35,
       "agility": 35,
       "power": 5,
-      "prospecting": 5,
-      "earthResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3
+      "prospecting": 5
     }
   },
   "sE": {
@@ -1449,9 +1409,7 @@
       "chance": 30,
       "agility": 30,
       "criticalChance": 2,
-      "prospecting": 3,
-      "earthResistPer": 2,
-      "fireResistPer": 2
+      "prospecting": 3
     }
   },
   "4P": {
@@ -1470,7 +1428,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "criticalChance": 2
     }
   },
@@ -1490,7 +1448,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "dodge": 2
     }
   },
@@ -1531,7 +1489,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "lock": 3
     }
   },
@@ -1551,7 +1509,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "dodge": 2
     }
   },
@@ -1571,7 +1529,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 15,
       "wisdom": 10,
       "criticalChance": 2
@@ -1593,10 +1551,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "strength": 20,
-      "criticalChance": 2,
-      "earthResistPer": 3
+      "criticalChance": 2
     }
   },
   "gF": {
@@ -1615,10 +1572,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "intelligence": 20,
-      "criticalChance": 2,
-      "fireResistPer": 3
+      "criticalChance": 2
     }
   },
   "gx": {
@@ -1637,10 +1593,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "agility": 20,
-      "criticalChance": 2,
-      "airResistPer": 3
+      "criticalChance": 2
     }
   },
   "gB": {
@@ -1659,10 +1614,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "chance": 20,
-      "criticalChance": 2,
-      "waterResistPer": 3
+      "criticalChance": 2
     }
   },
   "if": {
@@ -1703,7 +1657,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "criticalChance": 2
     }
   },
@@ -1722,10 +1676,8 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
-      "heal": 15,
-      "earthResistPer": 2,
-      "waterResistPer": 2
+      "vitality": 30,
+      "heal": 15
     }
   },
   "su": {
@@ -1743,7 +1695,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 30,
       "wisdom": 20,
       "heal": 6,
@@ -1766,14 +1718,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 35,
       "heal": 6,
-      "prospecting": 15,
-      "earthResistPer": 10,
-      "fireResistPer": 10,
-      "earthResist": 12,
-      "fireResist": 12
+      "prospecting": 15
     }
   },
   "mR": {
@@ -1813,7 +1761,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 30,
       "chance": 30,
       "prospecting": 5
@@ -1834,13 +1782,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "chance": 30,
       "agility": 30,
       "damage": 3,
-      "prospecting": 10,
-      "fireResistPer": 2,
-      "airResistPer": 2
+      "prospecting": 10
     }
   },
   "mw": {
@@ -1858,7 +1804,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "agility": 30,
       "criticalChance": 3,
       "damage": 3
@@ -1879,7 +1825,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "wisdom": 20,
       "criticalChance": 3
     }
@@ -1899,11 +1845,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "power": 15,
-      "initiative": 150,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "initiative": 150
     }
   },
   "4J": {
@@ -1921,7 +1865,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "lock": 3,
       "dodge": 3
     }
@@ -1941,12 +1885,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "summon": 1,
       "damage": 3,
-      "heal": 3,
-      "fireResistPer": 2,
-      "waterResistPer": 2
+      "heal": 3
     }
   },
   "lA": {
@@ -1964,11 +1906,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": -30,
+      "vitality": -30,
       "strength": 20,
-      "agility": 20,
-      "earthResistPer": 3,
-      "airResistPer": 3
+      "agility": 20
     }
   },
   "m5": {
@@ -2006,11 +1946,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
-      "earthResistPer": 2,
-      "fireResistPer": 2,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "vitality": 30
     }
   },
   "b0": {
@@ -2029,10 +1965,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 10,
-      "initiative": 150,
-      "waterResistPer": 2
+      "initiative": 150
     }
   },
   "sf": {
@@ -2051,11 +1986,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 25,
-      "damage": 4,
-      "earthResistPer": 3,
-      "waterResistPer": 3
+      "damage": 4
     }
   },
   "t6": {
@@ -2074,12 +2007,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "intelligence": 35,
       "wisdom": 20,
       "criticalChance": 3,
-      "heal": 5,
-      "waterResistPer": 3
+      "heal": 5
     }
   },
   "mg": {
@@ -2119,10 +2051,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
-      "earthResistPer": 5,
-      "waterResist": 6,
-      "airResist": 6
+      "vitality": 50
     }
   },
   "iF": {
@@ -2164,15 +2093,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "strength": 20,
       "intelligence": 20,
       "agility": 20,
       "wisdom": 7,
       "heal": 6,
-      "initiative": -50,
-      "earthResistPer": 3,
-      "fireResistPer": 3
+      "initiative": -50
     }
   },
   "le": {
@@ -2191,9 +2118,8 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
-      "summon": 1,
-      "fireResistPer": 5
+      "vitality": 30,
+      "summon": 1
     }
   },
   "7E": {
@@ -2232,7 +2158,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 15,
       "agility": 15,
       "damage": 1,
@@ -2255,7 +2181,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": -40,
+      "vitality": -40,
       "summon": 1
     }
   },
@@ -2275,10 +2201,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "criticalChance": 3,
-      "heal": 5,
-      "neutralResistPer": 3
+      "heal": 5
     }
   },
   "tx": {
@@ -2299,9 +2224,7 @@
     "stats": {
       "intelligence": 20,
       "agility": 20,
-      "range": 1,
-      "waterResistPer": 2,
-      "airResistPer": 2
+      "range": 1
     }
   },
   "1U": {
@@ -2400,7 +2323,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "airDamage": 3,
       "dodge": 2
     }
@@ -2421,15 +2344,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 40,
       "agility": 30,
       "range": 1,
       "damage": 5,
       "prospecting": 15,
-      "initiative": 200,
-      "fireResistPer": 7,
-      "neutralResist": 6
+      "initiative": 200
     }
   },
   "A3": {
@@ -2448,15 +2369,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "wisdom": 25,
       "criticalChance": 2,
       "summon": 1,
       "heal": 5,
       "prospecting": 10,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3,
       "criticalDamage": 5,
       "pushbackDamage": 5
     }
@@ -2477,17 +2395,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 130,
+      "vitality": 130,
       "chance": 40,
       "wisdom": 30,
       "power": 10,
       "damage": 6,
       "heal": 6,
       "prospecting": 20,
-      "initiative": 200,
-      "waterResistPer": 6,
-      "earthResist": 7,
-      "fireResist": 7
+      "initiative": 200
     }
   },
   "wq": {
@@ -2506,7 +2421,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "wisdom": 15,
       "power": 30,
       "criticalChance": 3,
@@ -2531,7 +2446,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "power": 20,
       "range": 1,
       "heal": 10,
@@ -2556,14 +2471,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "intelligence": 25,
       "chance": 15,
       "agility": 15,
       "wisdom": 10,
-      "power": 10,
-      "earthResistPer": 2,
-      "airResistPer": 2
+      "power": 10
     }
   },
   "Ak": {
@@ -2582,13 +2495,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "wisdom": 25,
       "range": 1,
       "prospecting": 10,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3,
       "lock": 3,
       "apReduction": 3,
       "mpReduction": 3
@@ -2610,7 +2520,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "agility": 30,
       "wisdom": 15,
@@ -2637,7 +2547,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 30,
       "chance": 30,
       "wisdom": 15,
@@ -2664,15 +2574,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 130,
+      "vitality": 130,
       "agility": 40,
       "power": 10,
       "criticalChance": 4,
       "damage": 6,
-      "prospecting": 15,
-      "airResistPer": 7,
-      "earthResist": 7,
-      "fireResist": 7
+      "prospecting": 15
     }
   },
   "Av": {
@@ -2691,13 +2598,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 130,
+      "vitality": 130,
       "strength": 30,
       "chance": 40,
       "wisdom": 35,
-      "prospecting": 10,
-      "earthResistPer": 6,
-      "waterResistPer": 6
+      "prospecting": 10
     }
   },
   "Eb": {
@@ -2716,16 +2621,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 25,
       "criticalChance": 2,
       "damage": 6,
-      "prospecting": 10,
-      "neutralResistPer": 6,
-      "earthResistPer": 6,
-      "fireResistPer": 6
+      "prospecting": 10
     }
   },
   "0q": {
@@ -2968,16 +2870,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "chance": 40,
       "agility": 40,
       "wisdom": 35,
       "range": 1,
       "damage": 7,
-      "prospecting": 15,
-      "earthResistPer": 7,
-      "earthResist": 10,
-      "waterResist": 10
+      "prospecting": 15
     }
   },
   "n5": {
@@ -2995,11 +2894,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "strength": 20,
       "chance": 20,
       "wisdom": 10,
-      "waterResistPer": 3,
       "criticalDamage": 3
     }
   },
@@ -3019,13 +2917,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 35,
       "criticalChance": 3,
       "damage": 6,
-      "prospecting": 10,
-      "waterResistPer": 7,
-      "waterResist": 7
+      "prospecting": 10
     }
   },
   "hs": {
@@ -3064,7 +2960,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "agility": 50,
       "wisdom": 50,
@@ -3072,9 +2968,7 @@
       "range": 1,
       "damage": 6,
       "heal": 10,
-      "prospecting": 10,
-      "neutralResistPer": 10,
-      "neutralResist": 10
+      "prospecting": 10
     }
   },
   "sx": {
@@ -3093,7 +2987,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "strength": 15,
       "intelligence": 15,
       "chance": 15,
@@ -3101,12 +2995,7 @@
       "power": 15,
       "range": 1,
       "damage": 5,
-      "initiative": 200,
-      "neutralResistPer": -5,
-      "earthResistPer": -5,
-      "fireResistPer": -5,
-      "waterResistPer": -5,
-      "airResistPer": -5
+      "initiative": 200
     }
   },
   "a2": {
@@ -3145,16 +3034,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 50,
       "chance": 50,
       "wisdom": 50,
       "power": 20,
       "damage": 10,
       "prospecting": 15,
-      "initiative": 700,
-      "fireResist": 10,
-      "waterResist": 10
+      "initiative": 700
     }
   },
   "it": {
@@ -3253,7 +3140,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "intelligence": 30,
       "wisdom": 15,
       "damage": 5,
@@ -3277,7 +3164,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "strength": 30,
       "wisdom": 15,
       "damage": 5,
@@ -3301,7 +3188,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "agility": 30,
       "wisdom": 15,
       "damage": 5,
@@ -3325,7 +3212,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 35,
+      "vitality": 35,
       "chance": 30,
       "wisdom": 15,
       "damage": 5,
@@ -3349,16 +3236,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "agility": 50,
       "wisdom": 40,
       "range": 1,
       "damage": 7,
       "prospecting": 20,
-      "waterResistPer": 10,
-      "neutralResist": 10,
-      "earthResist": 10,
-      "waterResist": 10,
       "trapDamage": 20
     }
   },
@@ -3378,16 +3261,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "wisdom": 25,
       "criticalChance": 4,
       "damage": 5,
-      "prospecting": 20,
-      "neutralResistPer": 10,
-      "earthResistPer": 10,
-      "earthResist": 10,
-      "waterResist": 10
+      "prospecting": 20
     }
   },
   "Kz": {
@@ -3406,16 +3285,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 50,
       "wisdom": 40,
       "summon": 2,
       "damage": 5,
       "heal": 10,
-      "prospecting": 15,
-      "airResistPer": 10,
-      "neutralResist": 10,
-      "waterResist": 10
+      "prospecting": 15
     }
   },
   "vS": {
@@ -3434,12 +3310,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "wisdom": 25,
       "power": 25,
       "summon": 1,
-      "heal": 5,
-      "airResistPer": 3
+      "heal": 5
     }
   },
   "JT": {
@@ -3458,16 +3333,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "agility": 40,
       "wisdom": 30,
       "criticalChance": 3,
       "damage": 10,
       "prospecting": 20,
-      "initiative": 400,
-      "fireResistPer": 10,
-      "fireResist": 10
+      "initiative": 400
     }
   },
   "Ja": {
@@ -3486,16 +3359,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 40,
       "chance": 40,
       "wisdom": 30,
       "criticalChance": 3,
       "damage": 10,
       "prospecting": 20,
-      "initiative": 400,
-      "earthResistPer": 10,
-      "earthResist": 10
+      "initiative": 400
     }
   },
   "ge": {
@@ -3514,10 +3385,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 10,
+      "vitality": 10,
       "strength": 15,
-      "wisdom": 10,
-      "airResistPer": 5
+      "wisdom": 10
     }
   },
   "bX": {
@@ -3617,7 +3487,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "agility": 15,
       "wisdom": 10,
       "damage": 2
@@ -3639,7 +3509,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 15,
       "wisdom": 20,
       "heal": 2,
@@ -3662,7 +3532,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "range": 1,
       "heal": 3
     }
@@ -3704,7 +3574,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "strength": 25,
       "damage": 2
     }
@@ -3726,7 +3596,7 @@
     "subCategory": "ring",
     "criterions": "PO!10119",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "power": 20,
       "pods": 200
     }
@@ -3788,7 +3658,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "criticalChance": 2,
       "summon": 1,
       "heal": 2
@@ -3812,9 +3682,7 @@
     "stats": {
       "strength": 15,
       "chance": 15,
-      "range": 1,
-      "fireResistPer": -2,
-      "airResistPer": -2
+      "range": 1
     }
   },
   "fH": {
@@ -3835,9 +3703,7 @@
     "stats": {
       "intelligence": 15,
       "agility": 15,
-      "range": 1,
-      "earthResistPer": -2,
-      "waterResistPer": -2
+      "range": 1
     }
   },
   "eY": {
@@ -3877,7 +3743,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 25,
       "wisdom": 10,
       "pushbackDamage": 6
@@ -3920,7 +3786,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "chance": 25,
       "criticalChance": 2,
       "initiative": 100
@@ -3942,7 +3808,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "power": 15,
       "heal": 2
     }
@@ -3963,7 +3829,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 1,
+      "vitality": 1,
       "initiative": 1
     }
   },
@@ -4072,7 +3938,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "agility": 10,
       "summon": 1
     }
@@ -4114,7 +3980,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 20,
       "criticalChance": 3,
       "pods": 150
@@ -4136,7 +4002,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "agility": 25,
       "wisdom": 10,
       "airDamage": 3,
@@ -4160,7 +4026,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "chance": 20,
       "wisdom": 15,
       "waterDamage": 3,
@@ -4183,7 +4049,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "intelligence": 20,
       "fireDamage": 4,
       "mpResist": 5
@@ -4205,7 +4071,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "chance": 15,
       "wisdom": 10,
       "range": 1,
@@ -4228,7 +4094,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "intelligence": 20,
       "chance": 15,
       "damage": 3,
@@ -4273,7 +4139,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 25,
       "wisdom": 10,
       "power": 10,
@@ -4296,16 +4162,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 50,
       "criticalChance": 5,
       "damage": 12,
       "prospecting": 20,
-      "initiative": 300,
-      "earthResistPer": 10,
-      "neutralResist": 10,
-      "fireResist": 10,
-      "waterResist": 10
+      "initiative": 300
     }
   },
   "L6": {
@@ -4324,14 +4186,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 40,
       "power": 40,
       "range": 1,
       "damage": 10,
-      "prospecting": 20,
-      "waterResistPer": 10,
-      "fireResist": 10
+      "prospecting": 20
     }
   },
   "E0": {
@@ -4350,18 +4210,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "strength": 30,
       "wisdom": 30,
       "power": 20,
       "criticalChance": 3,
       "earthDamage": 10,
       "waterDamage": 10,
-      "neutralResist": 7,
-      "fireResist": 7,
-      "airResist": 7,
-      "lock": 5,
-      "pushbackResist": 10
+      "lock": 5
     }
   },
   "GZ": {
@@ -4380,7 +4236,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "agility": 40,
       "wisdom": 30,
@@ -4389,8 +4245,6 @@
       "fireDamage": 7,
       "airDamage": 7,
       "prospecting": 10,
-      "neutralResist": 10,
-      "fireResist": 10,
       "lock": 5,
       "dodge": -4,
       "criticalResist": 10
@@ -4412,7 +4266,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 170,
+      "vitality": 170,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 30,
@@ -4421,8 +4275,7 @@
       "earthDamage": 7,
       "fireDamage": 7,
       "heal": 7,
-      "dodge": 5,
-      "pushbackResist": 10
+      "dodge": 5
     }
   },
   "EV": {
@@ -4440,7 +4293,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 40,
       "chance": 40,
       "agility": 40,
@@ -4448,8 +4301,6 @@
       "summon": 1,
       "heal": 10,
       "initiative": 300,
-      "neutralResist": 7,
-      "earthResist": 7,
       "dodge": 5
     }
   },
@@ -4468,14 +4319,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "agility": 40,
       "wisdom": 30,
       "airDamage": 7,
       "heal": 7,
       "prospecting": 10,
       "initiative": 200,
-      "neutralResist": 7,
       "pushbackDamage": 7
     }
   },
@@ -4494,12 +4344,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 40,
       "power": 50,
       "criticalChance": 4,
-      "prospecting": 15,
-      "pushbackResist": 10
+      "prospecting": 15
     }
   },
   "Ir": {
@@ -4518,7 +4367,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "chance": 40,
       "wisdom": 30,
@@ -4526,9 +4375,6 @@
       "neutralDamage": 9,
       "earthDamage": 9,
       "waterDamage": 9,
-      "airResistPer": 7,
-      "neutralResist": 10,
-      "waterResist": 10,
       "criticalResist": 5
     }
   },
@@ -4548,15 +4394,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 30,
       "agility": 30,
       "wisdom": 40,
       "criticalChance": 4,
       "waterDamage": 12,
       "airDamage": 12,
-      "fireResist": 10,
-      "airResist": 10,
       "apReduction": 4,
       "criticalResist": 6
     }
@@ -4577,7 +4421,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 30,
       "power": 30,
       "criticalChance": 4,
@@ -4585,7 +4429,6 @@
       "earthDamage": 12,
       "prospecting": 10,
       "initiative": 200,
-      "neutralResist": 12,
       "lock": 6,
       "apResist": 6
     }
@@ -4605,7 +4448,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 35,
       "agility": 25,
       "wisdom": 35,
@@ -4614,8 +4457,6 @@
       "airDamage": 10,
       "heal": 5,
       "initiative": 300,
-      "earthResist": 7,
-      "waterResist": 7,
       "mpReduction": -7,
       "mpResist": 5
     }
@@ -4635,7 +4476,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 50,
       "intelligence": 40,
       "wisdom": 25,
@@ -4663,7 +4504,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "criticalChance": 4,
       "range": 2,
@@ -4707,7 +4548,7 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 40,
       "power": 40,
       "criticalChance": 3,
@@ -4735,7 +4576,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "fireDamage": 6,
       "dodge": 3,
       "apReduction": 6
@@ -4757,7 +4598,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "waterDamage": 6,
       "lock": 3,
       "mpReduction": 6
@@ -4779,7 +4620,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "earthDamage": 5,
       "airDamage": 5,
       "mpReduction": 5,
@@ -4802,7 +4643,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 20,
+      "vitality": 20,
       "fireDamage": 5,
       "waterDamage": 5,
       "apReduction": 5,
@@ -4825,7 +4666,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 15,
       "agility": 25,
       "airDamage": 4,
@@ -4917,12 +4758,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "agility": 40,
       "wisdom": 20,
       "airDamage": 10,
       "prospecting": 20,
-      "waterResist": 15,
       "apReduction": 5,
       "criticalResist": 10
     }
@@ -4943,14 +4783,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "chance": 40,
       "wisdom": 20,
       "criticalChance": 5,
       "waterDamage": 10,
-      "airResist": 15,
-      "mpReduction": 5,
-      "pushbackResist": 10
+      "mpReduction": 5
     }
   },
   "Em": {
@@ -4969,7 +4807,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 140,
+      "vitality": 140,
       "strength": 40,
       "wisdom": 25,
       "criticalChance": 3,
@@ -4978,8 +4816,6 @@
       "earthDamage": 5,
       "airDamage": 10,
       "prospecting": 10,
-      "waterResistPer": 5,
-      "neutralResist": 10,
       "dodge": 6,
       "lock": -4
     }
@@ -5000,7 +4836,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "strength": 40,
       "agility": 30,
       "wisdom": 30,
@@ -5030,7 +4866,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 35,
       "chance": 35,
       "wisdom": 35,
@@ -5039,7 +4875,6 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "prospecting": 10,
-      "neutralResist": 10,
       "dodge": 4,
       "mpReduction": 4
     }
@@ -5090,16 +4925,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 30,
       "range": 1,
       "prospecting": 10,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
-      "fireResist": 20,
-      "airResist": 20,
-      "dodge": 10,
-      "pushbackResist": 15
+      "dodge": 10
     }
   },
   "Kn": {
@@ -5118,12 +4948,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "wisdom": 40,
       "summon": 2,
       "waterDamage": 20,
-      "fireResist": 25,
       "criticalResist": 10
     }
   },
@@ -5143,7 +4972,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 40,
       "mp": 1,
       "range": 1,
@@ -5152,7 +4981,6 @@
       "fireDamage": 12,
       "waterDamage": 12,
       "prospecting": 10,
-      "airResist": 15,
       "dodge": 5,
       "apReduction": 5,
       "pushbackDamage": 10
@@ -5174,7 +5002,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "agility": 60,
       "wisdom": 40,
@@ -5183,9 +5011,6 @@
       "airDamage": 12,
       "prospecting": 10,
       "initiative": 400,
-      "neutralResistPer": 7,
-      "earthResistPer": 7,
-      "fireResistPer": 7,
       "lock": 5
     }
   },
@@ -5205,7 +5030,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "intelligence": 60,
       "wisdom": 40,
@@ -5215,8 +5040,6 @@
       "fireDamage": 12,
       "heal": 8,
       "prospecting": 10,
-      "waterResistPer": 7,
-      "airResistPer": 7,
       "lock": 5
     }
   },
@@ -5236,7 +5059,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 35,
       "power": 40,
       "criticalChance": 2,
@@ -5246,9 +5069,6 @@
       "airDamage": 12,
       "prospecting": 15,
       "initiative": 300,
-      "earthResist": 10,
-      "fireResist": 10,
-      "airResist": 10,
       "lock": 5,
       "mpReduction": 5
     }
@@ -5269,7 +5089,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 60,
+      "vitality": 60,
       "wisdom": 15,
       "power": 25,
       "summon": 1,
@@ -5375,7 +5195,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "fireDamage": 5,
       "heal": 15,
       "mpReduction": 5
@@ -5397,11 +5217,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "summon": 1,
-      "earthResistPer": -1,
-      "fireResistPer": -1,
-      "waterResistPer": -1,
-      "airResistPer": -1
+      "summon": 1
     }
   },
   "mT": {
@@ -5419,7 +5235,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "agility": 20,
       "wisdom": 10,
       "airDamage": 3,
@@ -5502,7 +5318,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "chance": 10,
       "agility": 10,
       "dodge": 2
@@ -5523,7 +5339,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 50,
       "criticalChance": 4,
       "range": 2,
@@ -5548,13 +5364,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 70,
       "wisdom": 30,
       "range": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
-      "fireResistPer": 10,
       "dodge": 5,
       "mpResist": 7
     }
@@ -5575,7 +5390,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "agility": 75,
       "wisdom": 45,
       "criticalChance": 5,
@@ -5618,7 +5433,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 25,
       "lock": 3,
       "pushbackDamage": 4
@@ -5661,7 +5476,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "intelligence": 20,
       "summon": 1,
       "fireDamage": 4,
@@ -5707,16 +5522,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 40,
       "neutralDamage": 15,
       "earthDamage": 15,
       "fireDamage": 15,
-      "neutralResist": 12,
-      "earthResist": 12,
-      "fireResist": 12,
       "dodge": 8,
       "mpReduction": -4,
       "criticalResist": -7
@@ -5738,7 +5550,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 60,
       "agility": 60,
       "wisdom": 40,
@@ -5747,9 +5559,6 @@
       "summon": 1,
       "fireDamage": 7,
       "airDamage": 7,
-      "waterResistPer": 8,
-      "earthResist": 10,
-      "airResist": 10,
       "lock": -4,
       "mpResist": -3,
       "criticalDamage": 12
@@ -5792,7 +5601,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 75,
       "wisdom": 40,
       "range": 1,
@@ -5817,15 +5626,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "fireDamage": 10,
-      "initiative": 350,
-      "fireResistPer": 10,
-      "waterResistPer": -7,
-      "fireResist": 15
+      "initiative": 350
     }
   },
   "BC": {
@@ -5844,15 +5650,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "waterDamage": 10,
-      "initiative": 350,
-      "waterResistPer": 10,
-      "fireResistPer": -7,
-      "waterResist": 15
+      "initiative": 350
     }
   },
   "BA": {
@@ -5871,15 +5674,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "earthDamage": 10,
-      "initiative": 350,
-      "earthResistPer": 10,
-      "airResistPer": -7,
-      "earthResist": 15
+      "initiative": 350
     }
   },
   "BE": {
@@ -5898,15 +5698,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 3,
       "airDamage": 10,
-      "initiative": 350,
-      "airResistPer": 10,
-      "earthResistPer": -7,
-      "airResist": 15
+      "initiative": 350
     }
   },
   "Mg": {
@@ -5925,7 +5722,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 50,
       "chance": 50,
       "wisdom": 40,
@@ -5953,7 +5750,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 20,
       "agility": 40,
       "wisdom": 30,
@@ -5961,7 +5758,6 @@
       "range": 1,
       "airDamage": 10,
       "initiative": 400,
-      "earthResist": 15,
       "mpReduction": 6,
       "criticalDamage": 10
     }
@@ -5982,7 +5778,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "wisdom": 40,
       "criticalChance": 4,
@@ -6008,7 +5804,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "intelligence": 50,
       "chance": 50,
@@ -6016,7 +5812,6 @@
       "neutralDamage": 10,
       "earthDamage": 10,
       "heal": 10,
-      "earthResist": 10,
       "dodge": -7,
       "criticalDamage": 10
     }
@@ -6037,7 +5832,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 50,
       "neutralDamage": 5,
       "earthDamage": 5,
@@ -6065,16 +5860,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 50,
-      "neutralResist": 5,
-      "earthResist": 5,
-      "fireResist": 5,
-      "waterResist": 5,
-      "airResist": 5,
       "dodge": 15,
-      "mpResist": 12,
-      "pushbackResist": 40
+      "mpResist": 12
     }
   },
   "Q5": {
@@ -6093,7 +5882,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "wisdom": 50,
       "criticalChance": 7,
@@ -6119,7 +5908,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 40,
       "chance": 40,
       "wisdom": 30,
@@ -6146,7 +5935,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 40,
       "intelligence": 40,
       "agility": 40,
@@ -6155,7 +5944,6 @@
       "fireDamage": 10,
       "airDamage": 10,
       "initiative": 300,
-      "waterResistPer": 8,
       "lock": 6
     }
   },
@@ -6196,7 +5984,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 50,
+      "vitality": 50,
       "agility": 30,
       "criticalChance": 3,
       "airDamage": 4,
@@ -6219,7 +6007,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "chance": 30,
       "summon": 1,
       "waterDamage": 5,
@@ -6244,7 +6032,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 30,
       "agility": 30,
       "range": 1,
@@ -6271,7 +6059,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "power": 30,
       "criticalChance": 4,
       "earthDamage": 6,
@@ -6315,7 +6103,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "chance": 30,
       "agility": 30,
       "wisdom": 40,
@@ -6323,9 +6111,6 @@
       "range": 1,
       "waterDamage": 7,
       "airDamage": 7,
-      "earthResistPer": 7,
-      "earthResist": 7,
-      "fireResist": 7,
       "lock": -4
     }
   },
@@ -6344,7 +6129,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "criticalChance": 1
     }
   },
@@ -6364,7 +6149,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 50,
       "wisdom": 30,
       "criticalChance": 3,
@@ -6373,11 +6158,8 @@
       "waterDamage": 6,
       "airDamage": 6,
       "prospecting": 25,
-      "waterResistPer": 10,
-      "airResistPer": 10,
       "lock": 5,
-      "criticalResist": -21,
-      "pushbackResist": 30
+      "criticalResist": -21
     }
   },
   "ME": {
@@ -6396,7 +6178,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 30,
       "chance": 30,
       "wisdom": 25,
@@ -6406,8 +6188,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
-      "fireResistPer": 7,
-      "airResistPer": 7,
       "dodge": -4,
       "mpReduction": 5
     }
@@ -6428,7 +6208,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 70,
       "chance": 70,
       "wisdom": 30,
@@ -6437,7 +6217,6 @@
       "fireDamage": 12,
       "waterDamage": 12,
       "prospecting": 15,
-      "airResistPer": 7,
       "lock": 5
     }
   },
@@ -6457,7 +6236,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 30,
       "power": 40,
       "criticalChance": 2,
@@ -6486,13 +6265,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "chance": 60,
       "wisdom": 30,
       "criticalChance": 2,
       "summon": 1,
       "waterDamage": 10,
-      "airResistPer": 5,
       "dodge": 7,
       "apReduction": 5
     }
@@ -6513,13 +6291,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 40,
       "wisdom": 50,
       "summon": 1,
       "fireDamage": 12,
       "heal": 10,
-      "earthResistPer": 10,
       "dodge": 10,
       "mpReduction": 5
     }
@@ -6540,14 +6317,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "power": 50,
       "criticalChance": 4,
       "range": 2,
       "neutralDamage": 10,
       "earthDamage": 10,
-      "waterDamage": 10,
-      "neutralResistPer": 10
+      "waterDamage": 10
     }
   },
   "O8": {
@@ -6566,7 +6342,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "chance": 40,
@@ -6576,8 +6352,7 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
-      "initiative": 300,
-      "fireResistPer": 6
+      "initiative": 300
     }
   },
   "D3": {
@@ -6596,14 +6371,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 30,
       "wisdom": 30,
       "criticalChance": 4,
       "fireDamage": 10,
-      "prospecting": 15,
-      "fireResist": 12,
-      "airResist": 12
+      "prospecting": 15
     }
   },
   "Q8": {
@@ -6622,7 +6395,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 50,
       "intelligence": 50,
       "agility": 50,
@@ -6652,7 +6425,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "agility": 30,
       "wisdom": 30,
       "power": 15,
@@ -6678,13 +6451,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 40,
       "criticalChance": 4,
       "mp": 1,
       "range": 1,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "lock": 10
     }
   },
@@ -6704,7 +6475,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "agility": 40,
       "wisdom": 40,
@@ -6712,7 +6483,6 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "airDamage": 12,
-      "fireResistPer": 10,
       "mpResist": 7
     }
   },
@@ -6732,14 +6502,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "agility": 40,
       "wisdom": 25,
       "criticalChance": 3,
       "earthDamage": 6,
       "airDamage": 6,
-      "neutralResistPer": 7,
       "lock": 7,
       "criticalResist": 12
     }
@@ -6760,7 +6529,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 30,
       "intelligence": 30,
       "wisdom": 25,
@@ -6788,7 +6557,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 40,
       "chance": 30,
       "wisdom": 25,
@@ -6859,15 +6628,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "wisdom": 25,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
       "airDamage": 10,
-      "initiative": 200,
-      "pushbackResist": 10
+      "initiative": 200
     }
   },
   "Se": {
@@ -6886,13 +6654,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "wisdom": 50,
       "criticalChance": 3,
       "range": 1,
       "waterDamage": 12,
-      "fireResistPer": 10,
       "lock": 10,
       "mpResist": 5
     }
@@ -6930,11 +6697,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 40,
       "wisdom": 15,
-      "criticalChance": 3,
-      "earthResistPer": 5
+      "criticalChance": 3
     }
   },
   "w3": {
@@ -6952,7 +6718,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 80,
+      "vitality": 80,
       "intelligence": 40,
       "wisdom": 15,
       "range": 1,
@@ -6978,7 +6744,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 15,
+      "vitality": 15,
       "strength": 15,
       "wisdom": 15,
       "power": 15,
@@ -7039,7 +6805,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 90,
+      "vitality": 90,
       "chance": 35,
       "agility": 25,
       "wisdom": 20,
@@ -7082,7 +6848,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "intelligence": 20,
       "fireDamage": 3,
       "heal": 2
@@ -7104,7 +6870,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 50,
       "intelligence": 50,
       "wisdom": 40,
@@ -7114,7 +6880,6 @@
       "earthDamage": 12,
       "fireDamage": 12,
       "prospecting": 10,
-      "fireResistPer": 10,
       "dodge": -5,
       "mpReduction": 6
     }
@@ -7135,15 +6900,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "agility": 60,
       "wisdom": 40,
       "range": 1,
       "airDamage": 15,
       "prospecting": 15,
-      "earthResistPer": 10,
-      "mpResist": 6,
-      "pushbackResist": 15
+      "mpResist": 6
     }
   },
   "HP": {
@@ -7162,7 +6925,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 40,
       "chance": 40,
       "wisdom": 25,
@@ -7190,13 +6953,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 30,
       "agility": 30,
       "wisdom": 25,
       "fireDamage": 6,
       "airDamage": 6,
-      "earthResistPer": 6,
       "lock": 3
     }
   },
@@ -7216,13 +6978,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "strength": 80,
       "wisdom": 40,
       "criticalChance": 2,
       "neutralDamage": 12,
       "earthDamage": 12,
-      "waterResistPer": 7,
       "lock": 10,
       "apReduction": 10
     }
@@ -7243,11 +7004,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "wisdom": 40,
       "prospecting": 15,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
       "lock": 10,
       "apResist": 10,
       "criticalDamage": 20,
@@ -7270,14 +7029,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 80,
       "agility": 80,
       "wisdom": 40,
       "fireDamage": 7,
       "airDamage": 7,
       "heal": 15,
-      "neutralResistPer": 10,
       "criticalResist": 15
     }
   },
@@ -7297,13 +7055,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 25,
       "chance": 25,
       "range": 1,
       "damage": 3,
       "initiative": -400,
-      "fireResistPer": 2,
       "lock": 3
     }
   },
@@ -7323,7 +7080,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 150,
+      "vitality": 150,
       "intelligence": 30,
       "chance": 30,
       "agility": 30,
@@ -7351,7 +7108,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "wisdom": 30,
       "criticalChance": 2,
@@ -7379,7 +7136,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 40,
       "intelligence": 40,
       "wisdom": 40,
@@ -7389,7 +7146,6 @@
       "earthDamage": 7,
       "fireDamage": 7,
       "heal": 10,
-      "waterResistPer": 7,
       "criticalResist": 30
     }
   },
@@ -7409,15 +7165,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 400,
+      "vitality": 400,
       "intelligence": 70,
       "wisdom": 40,
       "criticalChance": 2,
       "fireDamage": 12,
       "heal": 12,
       "prospecting": 15,
-      "earthResistPer": 7,
-      "waterResistPer": 7,
       "apResist": 10,
       "criticalResist": -30
     }
@@ -7455,7 +7209,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 40,
       "intelligence": 40,
       "chance": 40,
@@ -7464,7 +7218,6 @@
       "earthDamage": 7,
       "fireDamage": 7,
       "waterDamage": 7,
-      "earthResistPer": 10,
       "criticalResist": 25
     }
   },
@@ -7484,12 +7237,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "intelligence": 40,
       "wisdom": 15,
       "fireDamage": 6,
-      "heal": 7,
-      "waterResistPer": 3
+      "heal": 7
     }
   },
   "NY": {
@@ -7508,7 +7260,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 60,
       "intelligence": 60,
       "agility": 60,
@@ -7516,9 +7268,7 @@
       "neutralDamage": 7,
       "earthDamage": 7,
       "fireDamage": 7,
-      "airDamage": 7,
-      "waterResistPer": 7,
-      "airResistPer": 7
+      "airDamage": 7
     }
   },
   "U0": {
@@ -7536,15 +7286,14 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "intelligence": 60,
       "chance": 60,
       "wisdom": 40,
       "range": 1,
       "fireDamage": 12,
       "waterDamage": 12,
-      "heal": 12,
-      "airResistPer": 10
+      "heal": 12
     }
   },
   "Qp": {
@@ -7563,12 +7312,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 40,
       "power": 40,
-      "mp": 1,
-      "fireResistPer": 7,
-      "waterResistPer": 7
+      "mp": 1
     }
   },
   "09": {
@@ -7605,7 +7352,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 50,
       "chance": 50,
       "wisdom": 40,
@@ -7613,7 +7360,6 @@
       "neutralDamage": 8,
       "earthDamage": 8,
       "waterDamage": 8,
-      "waterResistPer": 10,
       "lock": 7,
       "criticalResist": 15
     }
@@ -7634,11 +7380,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 100,
       "criticalChance": 5,
-      "waterDamage": 20,
-      "waterResistPer": 10
+      "waterDamage": 20
     }
   },
   "lo": {
@@ -7657,7 +7402,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 25,
+      "vitality": 25,
       "chance": 40,
       "wisdom": 8,
       "dodge": 8
@@ -7699,13 +7444,12 @@
     },
     "criterions": "CP<12|CM<6",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 25,
       "power": 40,
       "criticalChance": 5,
       "ap": 1,
-      "criticalResist": 20,
-      "pushbackResist": 20
+      "criticalResist": 20
     }
   },
   "Qe": {
@@ -7724,7 +7468,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 30,
       "power": 50,
       "summon": 1,
@@ -7750,14 +7494,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "chance": 50,
       "agility": 50,
       "wisdom": 30,
       "criticalChance": 3,
       "waterDamage": 10,
       "airDamage": 10,
-      "airResistPer": 10,
       "lock": -10,
       "apResist": 10,
       "criticalDamage": 10
@@ -7779,14 +7522,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "intelligence": 60,
       "wisdom": 30,
       "criticalChance": 4,
       "fireDamage": 10,
       "heal": -10,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "criticalDamage": 15
     }
   },
@@ -7806,13 +7547,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "wisdom": 20,
       "criticalChance": 7,
       "neutralDamage": 12,
       "earthDamage": 12,
-      "waterResistPer": 10,
       "apResist": -5,
       "criticalDamage": 10
     }
@@ -7833,14 +7573,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "wisdom": 30,
       "criticalChance": 3,
       "range": 1,
       "summon": 1,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "mpReduction": 7
     }
   },
@@ -7860,15 +7598,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "strength": 40,
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 8,
-      "waterResistPer": 4,
-      "earthResist": 10,
-      "dodge": 6,
-      "pushbackResist": 10
+      "dodge": 6
     }
   },
   "DV": {
@@ -7887,15 +7622,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 120,
+      "vitality": 120,
       "intelligence": 50,
       "wisdom": 20,
       "summon": 1,
       "fireDamage": 4,
       "heal": 10,
       "prospecting": 10,
-      "airResistPer": 3,
-      "fireResist": 8,
       "dodge": 5
     }
   },
@@ -7915,16 +7648,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "wisdom": 25,
       "criticalChance": 3,
       "range": 1,
-      "fireDamage": 10,
-      "waterResistPer": 5,
-      "earthResist": 10,
-      "waterResist": 10,
-      "pushbackResist": 10
+      "fireDamage": 10
     }
   },
   "Qh": {
@@ -7942,12 +7671,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "agility": 70,
       "criticalChance": 4,
       "airDamage": 10,
-      "earthResistPer": 7,
-      "airResistPer": 7,
       "dodge": -10,
       "mpResist": 8,
       "pushbackDamage": 25
@@ -7968,7 +7695,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 60,
       "chance": 60,
       "agility": 60,
@@ -7977,9 +7704,6 @@
       "fireDamage": 9,
       "waterDamage": 9,
       "airDamage": 9,
-      "fireResistPer": 3,
-      "waterResistPer": 3,
-      "airResistPer": 3,
       "dodge": 6,
       "mpResist": -12,
       "criticalDamage": 9
@@ -8001,7 +7725,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "agility": 60,
       "criticalChance": 2,
@@ -8009,8 +7733,6 @@
       "neutralDamage": 8,
       "earthDamage": 8,
       "airDamage": 8,
-      "neutralResistPer": 7,
-      "airResistPer": 7,
       "mpReduction": 8
     }
   },
@@ -8030,17 +7752,15 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 60,
       "wisdom": 20,
       "summon": 1,
       "neutralDamage": 8,
       "earthDamage": 8,
       "initiative": 300,
-      "earthResistPer": 7,
       "dodge": 8,
-      "apResist": 10,
-      "pushbackResist": 15
+      "apResist": 10
     }
   },
   "Ae": {
@@ -8058,7 +7778,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "agility": 30,
       "wisdom": 20,
       "power": 10,
@@ -8084,7 +7804,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 100,
+      "vitality": 100,
       "chance": 30,
       "wisdom": 20,
       "power": 10,
@@ -8111,14 +7831,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "chance": 60,
       "agility": 60,
       "criticalChance": 2,
       "waterDamage": 10,
       "airDamage": 10,
-      "fireResistPer": 7,
-      "airResistPer": 7,
       "mpResist": 8,
       "pushbackDamage": 10
     }
@@ -8139,7 +7857,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 25,
       "intelligence": 25,
       "chance": 50,
@@ -8149,10 +7867,6 @@
       "fireDamage": 4,
       "waterDamage": 8,
       "airDamage": 8,
-      "earthResistPer": 4,
-      "fireResistPer": 4,
-      "waterResistPer": -2,
-      "airResistPer": -2,
       "lock": 3,
       "dodge": -6,
       "apResist": -4,
@@ -8177,7 +7891,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "strength": 50,
       "intelligence": 50,
       "chance": 25,
@@ -8187,16 +7901,11 @@
       "fireDamage": 8,
       "waterDamage": 4,
       "airDamage": 4,
-      "waterResistPer": 4,
-      "airResistPer": 4,
-      "earthResistPer": -2,
-      "fireResistPer": -2,
       "dodge": 3,
       "lock": -6,
       "apResist": 2,
       "mpResist": -4,
-      "criticalResist": -24,
-      "pushbackResist": 12
+      "criticalResist": -24
     }
   },
   "EJ": {
@@ -8215,11 +7924,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "wisdom": 30,
       "range": 1,
       "heal": 10,
-      "neutralResistPer": 7,
       "lock": 10,
       "dodge": -10,
       "apReduction": 7,
@@ -8242,11 +7950,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "intelligence": 50,
       "wisdom": 20,
       "fireDamage": 10,
-      "neutralResistPer": 7,
       "lock": 7,
       "pushbackDamage": 15
     }
@@ -8267,7 +7974,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 20,
       "power": 40,
       "earthDamage": 10,
@@ -8275,9 +7982,7 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 10,
-      "earthResistPer": 10,
-      "lock": 7,
-      "pushbackResist": 10
+      "lock": 7
     }
   },
   "hH": {
@@ -8296,7 +8001,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 40,
+      "vitality": 40,
       "strength": 25,
       "intelligence": 25,
       "wisdom": 15,
@@ -8321,7 +8026,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "strength": 30,
       "intelligence": 40,
       "agility": 50,
@@ -8333,8 +8038,6 @@
       "heal": 10,
       "prospecting": 10,
       "initiative": -200,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
       "pushbackDamage": 10
     }
   },
@@ -8354,7 +8057,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 30,
+      "vitality": 30,
       "strength": 50,
       "chance": 50,
       "lock": -10,
@@ -8377,7 +8080,7 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 30,
       "power": 60,
       "earthDamage": 10,
@@ -8385,7 +8088,6 @@
       "waterDamage": 10,
       "airDamage": 10,
       "initiative": 500,
-      "neutralResistPer": 10,
       "lock": -10,
       "dodge": -10,
       "criticalResist": 10
@@ -8407,11 +8109,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 250,
+      "vitality": 250,
       "wisdom": 45,
       "power": 30,
-      "waterResistPer": 5,
-      "airResistPer": 5,
       "dodge": 10,
       "lock": -10,
       "apReduction": 20,
@@ -8434,11 +8134,9 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 350,
+      "vitality": 350,
       "wisdom": 30,
       "power": 30,
-      "earthResistPer": 5,
-      "fireResistPer": 5,
       "lock": 10,
       "dodge": -10,
       "apResist": 20,
@@ -8478,13 +8176,11 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 66,
       "wisdom": 30,
       "criticalChance": 3,
       "fireDamage": 12,
-      "earthResistPer": 6,
-      "fireResistPer": 6,
       "dodge": 9,
       "pushbackDamage": 25
     }
@@ -8505,15 +8201,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 200,
+      "vitality": 200,
       "strength": 30,
       "wisdom": 30,
       "power": 20,
       "criticalChance": 3,
       "damage": 4,
-      "heal": 6,
-      "earthResistPer": 10,
-      "earthResist": 20
+      "heal": 6
     }
   },
   "Nw": {
@@ -8532,14 +8226,12 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 30,
       "power": 30,
       "damage": 8,
       "prospecting": 15,
       "initiative": 300,
-      "fireResistPer": 7,
-      "airResistPer": 5,
       "lock": 6,
       "apReduction": 8,
       "pushbackDamage": 20
@@ -8561,16 +8253,13 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "intelligence": 100,
       "wisdom": 20,
       "criticalChance": 3,
       "prospecting": 10,
       "initiative": -300,
-      "fireResistPer": 7,
-      "waterResistPer": 7,
-      "apReduction": 10,
-      "pushbackResist": 15
+      "apReduction": 10
     }
   },
   "Um": {
@@ -8588,12 +8277,10 @@
     "category": "ring",
     "subCategory": "ring",
     "stats": {
-      "health": 300,
+      "vitality": 300,
       "wisdom": 60,
       "power": 60,
       "initiative": 600,
-      "earthResistPer": 6,
-      "fireResistPer": 6,
       "apReduction": 24,
       "apResist": 12,
       "mpResist": -24,

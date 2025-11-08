@@ -38,7 +38,7 @@ export const MIN_MAX_COEFFICIENTS: Record<StatKey, number> = {
     range: 1,
     summon: 1,
 
-    health: 70, // max 7000
+    vitality: 70, // max 7000
 
     wisdom: 8, // max 680
     prospecting: 8,
@@ -110,7 +110,7 @@ export const WEIGHT_COEFFICIENTS: Record<StatKey, number> = {
     range: 100,
     summon: 100,
 
-    health: 1,
+    vitality: 1,
 
     wisdom: 10,
     prospecting: 10,

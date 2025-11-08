@@ -4,7 +4,7 @@ import type { Item, ItemCategory, Requirement } from "./item";
 import type { StatKey, Stats } from "./stats";
 
 export const baseStats: Partial<Stats> = {
-    health: 50,
+    vitality: 50,
     ap: 6,
     mp: 3,
     range: 0,
@@ -18,7 +18,7 @@ export function getLeveledStats(level: number): Partial<Stats> {
     for (const [statKey, value] of Object.entries(baseStats)) {
         leveledStats[statKey as StatKey] = value;
     }
-    leveledStats.health! += level * 5;
+    leveledStats.vitality! += level * 5;
     leveledStats.pods! += level * 5;
     if (level >= 100) {
         leveledStats.ap! += 1;
