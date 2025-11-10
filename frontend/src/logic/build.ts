@@ -36,7 +36,7 @@ import {
     type Requirement,
 } from "../types/item";
 import { calculateStatsValue } from "./value";
-import { isItemBonusPanoCapped } from "./item";
+import { isItemBonusPanoCapped, PANO_CIRE_MOMORE_ID } from "./item";
 import type { MinItem, MinRequirement } from "../workers/orchestrator";
 import { calculateBuildToDisplay } from "./display";
 import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
@@ -311,7 +311,7 @@ function capBuildStats(build: Build) {
         }
     }
 
-    const PANO_CIRE_MOMORE_ID = "6h";
+    // const PANO_CIRE_MOMORE_ID = "6h";
     const count = build.panoplies[PANO_CIRE_MOMORE_ID];
     if (count && count >= 2) {
         switch (count) {
@@ -504,69 +504,9 @@ export function totalCombinations(minItems: MinItem[][]): number {
         if (minItemsCat.length > 0) {
             atLeast1 = true;
         }
-        // const category = cat as ItemCategory;
-        // // const categoryLocks = itemsLocked[category as ItemCategory];
-        // const items = Object.values(selectedItem);
-        // const itemCount = items.length;
-        // const itemsLockedArr = Object.values(itemsLocked[category as ItemCategory]);
-        // const lockedCount = itemsLockedArr.length;
-
-        // // console.log("category", category);
-        // // console.log("itemcount", itemCount);
-        // // console.log("lockedCount", lockedCount);
-        // // console.log("categoryLength(category)", categoryLength(category));
-
-        // let categoryCombinations = combinations(
-        //     itemCount ? Math.max(itemCount - lockedCount, 1) : 0,
-        //     categoryLength(category) - lockedCount,
-        // );
-        // // console.log("categoryCombinations", categoryCombinations);
-        // if (categoryCombinations >= 1) {
-        //     if (category == "dofus") {
-        //         if (shouldAddComboNoBonusPanoLessThan3(items, itemsLockedArr)) {
-        //             categoryCombinations += 1;
-        //         }
-        //     }
-        //     totalCombinations *= categoryCombinations;
-        //     atLeast1 = true;
-        // }
     }
     // console.log("totalCombinations", totalCombinations);
     return atLeast1 ? totalCombinations : 0;
-}
-// export function combinations(itemCount: number, groupSize: number): number {
-//     if (itemCount == 0) return 0;
-//     if (groupSize === 0 || groupSize === itemCount || groupSize > itemCount) return 1;
-//     let result = 1;
-//     for (let i = 1; i <= groupSize; i++) {
-//         result = (result * (itemCount - i + 1)) / i;
-//     }
-//     return result;
-// }
-
-export function shouldAddComboNoBonusPanoLessThan3(items: Item[], itemsLocked: Item[]): boolean {
-    for (const itemLocked of itemsLocked) {
-        if (isItemBonusPanoCapped(itemLocked)) {
-            return false;
-        }
-    }
-    let itemCountWithPanoLessThan3Req = 0;
-    for (const item of items) {
-        if (isItemBonusPanoCapped(item)) {
-            itemCountWithPanoLessThan3Req++;
-        }
-    }
-    // console.log("itemCountWithPanoLessThan3Req", itemCountWithPanoLessThan3Req);
-    if (itemCountWithPanoLessThan3Req == 0) {
-        return false;
-    }
-    const itemCountWithNOPanoLessThan3Req = items.length - itemCountWithPanoLessThan3Req;
-    // console.log("itemCountWithNOPanoLessThan3Req", itemCountWithNOPanoLessThan3Req);
-    // console.log("categoryLength() - itemsLocked.length", categoryLength("dofus") - itemsLocked.length);
-    if (itemCountWithNOPanoLessThan3Req < categoryLength("dofus") - itemsLocked.length) {
-        return true;
-    }
-    return false;
 }
 
 export function addToSavedBuilds(build: Build) {
@@ -650,7 +590,11 @@ export function checkAndRequirement(
 ): RequirementResult {
     let andStatuses: RequirementResult[] = [];
     for (const orRequirements of build.requirements) {
-        const orRequirement = checkOrRequirement(build, orRequirements);
+        const orRequirement = checkOrRequirement(
+            orRequirements,
+            build.cappedStats,
+            build.panopliesBonus,
+        );
         if (orRequirement == "invalid") {
             return "invalid";
         } else {
@@ -661,50 +605,56 @@ export function checkAndRequirement(
     return "ok";
 }
 
-export function checkOrRequirement(build: Build, orRequirements: Requirement[]): RequirementResult {
+const warningStats: StatKey[] = ["vitality", "strength", "intelligence", "chance", "agility"];
+export function checkOrRequirement(
+    orRequirements: Requirement[],
+    statsToCheck: Partial<Stats>,
+    panopliesBonus?: number,
+): RequirementResult {
     let orStatuses: RequirementResult[] = [];
     for (const requirement of orRequirements) {
         let requirementValue: number = requirement.value;
-        let statToCheck: number;
+        let statValueToCheck: number;
         let failResult: RequirementResult;
 
         if (requirement.stat == "level") {
-            statToCheck = get(level);
+            statValueToCheck = get(level);
             failResult = "invalid";
         } else if (requirement.stat == "panopliesBonus") {
-            statToCheck = build.panopliesBonus;
+            statValueToCheck = panopliesBonus ? panopliesBonus : 0;
             failResult = "invalid";
         } else {
-            statToCheck = build.cappedStats[requirement.stat] ?? 0;
-            failResult = "warning";
+            // statValueToCheck = build.cappedStats[requirement.stat] ?? 0;
+            statValueToCheck = statsToCheck[requirement.stat] ?? 0;
+            failResult = warningStats.includes(requirement.stat) ? "warning" : "invalid";
         }
         if (requirement.stat == "vitality") {
             requirementValue += get(preStats).vitality ?? 0;
         }
         switch (requirement.type) {
             case "lessThan":
-                if (requirementValue <= statToCheck) {
+                if (requirementValue <= statValueToCheck) {
                     orStatuses.push(failResult);
                 } else {
                     return "ok";
                 }
                 break;
             case "moreThan":
-                if (requirementValue >= statToCheck) {
+                if (requirementValue >= statValueToCheck) {
                     orStatuses.push(failResult);
                 } else {
                     return "ok";
                 }
                 break;
             case "lessThanOrEquals":
-                if (requirementValue < statToCheck) {
+                if (requirementValue < statValueToCheck) {
                     orStatuses.push(failResult);
                 } else {
                     return "ok";
                 }
                 break;
             case "moreThanOrEquals":
-                if (requirementValue > statToCheck) {
+                if (requirementValue > statValueToCheck) {
                     orStatuses.push(failResult);
                 } else {
                     return "ok";

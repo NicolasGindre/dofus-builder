@@ -1,7 +1,7 @@
 import { get } from "svelte/store";
-import { itemsLocked, itemsSelected } from "../stores/builder";
+import { itemsLocked, itemsSelected, level, minStats } from "../stores/builder";
 import { categoryLength } from "../types/build";
-import { getEmptyCategoriesItems, type Item, type ItemCategory } from "../types/item";
+import { getEmptyCategoriesItems, type Item, type ItemCategory, type Panoply } from "../types/item";
 import { calculatePanopliesToDisplay } from "./display";
 import { getItem } from "./frontendDB";
 
@@ -103,4 +103,69 @@ export function isItemBonusPanoCapped(item: Item): boolean {
         return true;
     }
     return false;
+}
+
+export const PANO_CIRE_MOMORE_ID = "6h";
+export function isPanoMinRequirementOK(pano: Panoply, comboCount: number): boolean {
+    if (pano.id == PANO_CIRE_MOMORE_ID) {
+        const min = get(minStats);
+        switch (comboCount) {
+            case 2:
+                if ((min["mp"] ?? 0) > 4 || (min["range"] ?? 0) > 4 || (min["summon"] ?? 0) > 4) {
+                    return false;
+                }
+                break;
+            case 3:
+            case 4:
+            case 5:
+                if ((min["mp"] ?? 0) > 3 || (min["range"] ?? 0) > 3 || (min["summon"] ?? 0) > 3) {
+                    return false;
+                }
+                break;
+            default:
+                if ((min["mp"] ?? 0) > 2 || (min["range"] ?? 0) > 2 || (min["summon"] ?? 0) > 2) {
+                    return false;
+                }
+                break;
+        }
+    }
+    return true;
+}
+export function isItemMinRequirementOK(item: Item): boolean {
+    if (item.level > get(level)) {
+        return false;
+    }
+    if (!item.minRequirement) {
+        return true;
+    }
+    const min = get(minStats);
+    switch (item.minRequirement.type) {
+        case "apLessThanOrMpLessThan":
+            if (
+                (min["ap"] ?? 0) >= item.minRequirement.value &&
+                (min["mp"] ?? 0) >= item.minRequirement.value2!
+            ) {
+                return false;
+            }
+            break;
+        case "apLessThanAndMpLessThan":
+            if (
+                (min["ap"] ?? 0) >= item.minRequirement.value ||
+                (min["mp"] ?? 0) >= item.minRequirement.value2!
+            ) {
+                return false;
+            }
+            break;
+        case "apLessThan":
+            if ((min["ap"] ?? 0) >= item.minRequirement.value) {
+                return false;
+            }
+            break;
+        case "mpLessThan":
+            if ((min["mp"] ?? 0) >= item.minRequirement.value) {
+                return false;
+            }
+            break;
+    }
+    return true;
 }

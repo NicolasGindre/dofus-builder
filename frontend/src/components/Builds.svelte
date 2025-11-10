@@ -479,7 +479,13 @@
                     />
                     <div class="requirements">
                         {#each build.requirements as orRequirements}
-                            <div class="requirement {checkOrRequirement(build, orRequirements)}">
+                            <div
+                                class="requirement {checkOrRequirement(
+                                    orRequirements,
+                                    build.cappedStats,
+                                    build.panopliesBonus,
+                                )}"
+                            >
                                 {#each orRequirements as requirement, i}
                                     <strong>{translateRequirement(requirement)}</strong>
                                     {#if i < orRequirements.length - 1}

@@ -5,8 +5,11 @@
     // import type { Stats } from "../types/stats";
     import ShowStats from "./ShowStats.svelte";
     import { diffStats } from "../types/stats";
-    import { words } from "../stores/builder";
+    import { minStats, words } from "../stores/builder";
     import { translateRequirement } from "../logic/language";
+    import { tick } from "svelte";
+    import { isPanoMinRequirementOK } from "../logic/item";
+    import { checkOrRequirement } from "../logic/build";
 
     // export let itemOrPano: { item: Item, pano: Panoply };
     export let item: Item | null = null;
@@ -45,29 +48,32 @@
         scrollTimer = window.setTimeout(() => (scrolling = false), 100);
     }
 
-    // function handleWheel(e: WheelEvent) {
-    //     if (!tooltip) return;
-
-    //     const { scrollTop, scrollHeight, clientHeight } = tooltip;
-    //     const atTop = scrollTop === 0;
-    //     const atBottom = scrollTop + clientHeight >= scrollHeight;
-
-    //     // Only intercept scrolling if tooltip can still scroll
-    //     if ((e.deltaY < 0 && !atTop) || (e.deltaY > 0 && !atBottom)) {
-    //         e.preventDefault();
-    //         e.stopPropagation();
-    //         tooltip.scrollTop += e.deltaY;
-    //     }
-    // }
-
-    function show() {
+    async function show() {
         hovered = true;
-        const rect = trigger?.getBoundingClientRect();
-        // console.log(rect);
-        if (rect) {
-            coords.top = rect.bottom + 4; // just below the trigger
-            coords.left = rect.left;
+        await tick();
+        const rect = trigger.getBoundingClientRect();
+
+        const tooltipRect = tooltip?.getBoundingClientRect();
+        const tooltipHeight = tooltipRect.height;
+        const tooltipWidth = tooltipRect.width;
+        const viewportHeight = window.innerHeight;
+        const viewportWidth = window.innerWidth;
+        if (!tooltipHeight || !tooltipWidth) {
+            return await show();
         }
+        const top =
+            rect.top > viewportHeight * 0.6 ? rect.top - tooltipHeight - 2 : rect.bottom + 2;
+
+        let left = rect.left;
+        // console.log("check view Width", viewportWidth, left);
+        // console.log("tooltipWidth", tooltipWidth);
+        if (left + tooltipWidth > viewportWidth - 10) {
+            left = viewportWidth - tooltipWidth - 10;
+        }
+        if (left < 10) left = 10;
+
+        coords.top = top;
+        coords.left = left;
     }
 </script>
 
@@ -96,11 +102,14 @@
                 </div>
                 {#if item.requirements}
                     <div class="requirements">
-                        {#each item.requirements as orRequirement}
-                            <div>
-                                {#each orRequirement as requirement, i}
+                        {#each item.requirements as orRequirements}
+                            <!-- <div> -->
+                            <div
+                                class="requirement {checkOrRequirement(orRequirements, $minStats)}"
+                            >
+                                {#each orRequirements as requirement, i}
                                     <span>{translateRequirement(requirement)}</span>
-                                    {#if i < orRequirement.length - 1}
+                                    {#if i < orRequirements.length - 1}
                                         {" "}<em>{$words.or}</em>{" "}
                                     {/if}
                                 {/each}
@@ -133,6 +142,13 @@
                     </div>
                 {/if}
                 <ShowStats stats={item.stats} />
+
+                {#if item.specialEffect}
+                    <div class="spell-effects">
+                        <!-- <span>{item.specialEffect.name.fr}</span> -->
+                        <span>{item.specialEffect.description.fr}</span>
+                    </div>
+                {/if}
             {/if}
             {#if panoply && !panoplyItemCount}
                 {#each panoply.stats as stats, i}
@@ -140,17 +156,27 @@
                         <div class="combo-header">
                             <strong class="combo-title">{i + 1} {$words.items}</strong>
                             <strong class="combo-value"
-                                >{$words.value} : +{Math.round(
-                                    panoply.value[i] - panoply.value[i - 1],
-                                )}
+                                >{$words.value} : {#if isPanoMinRequirementOK(panoply, i + 1)}{panoply
+                                        .value[i] -
+                                        panoply.value[i - 1] >=
+                                    0
+                                        ? "+"
+                                        : ""}{Math.round(
+                                        panoply.value[i] - panoply.value[i - 1],
+                                    )}{:else}+0{/if}
                             </strong>
                         </div>
                         {#if panoply.requirements}
-                            {#each panoply.requirements[i] as orRequirement}
-                                <div>
-                                    {#each orRequirement as requirement, i}
+                            {#each panoply.requirements[i] as orRequirements}
+                                <div
+                                    class="requirement {checkOrRequirement(
+                                        orRequirements,
+                                        $minStats,
+                                    )}"
+                                >
+                                    {#each orRequirements as requirement, i}
                                         <strong>{translateRequirement(requirement)}</strong>
-                                        {#if i < orRequirement.length - 1}
+                                        {#if i < orRequirements.length - 1}
                                             {" "}<strong><em>{$words.or}</em></strong>{" "}
                                         {/if}
                                     {/each}
@@ -189,6 +215,13 @@
 </div>
 
 <style>
+    .spell-effects {
+        max-width: 450px;
+        /* min-width: 450px; */
+        /* position: absolute;
+        inset: 0; */
+        opacity: 75%;
+    }
     .combo-header,
     .weapon-effects,
     .requirements,
@@ -199,6 +232,13 @@
     .weapon-effects,
     .requirements {
         padding-top: 0.2rem;
+    }
+    .requirement {
+        width: fit-content;
+        height: fit-content;
+    }
+    .requirement.invalid {
+        background-color: #8c0000;
     }
     .item-title {
         display: flex;
@@ -217,7 +257,7 @@
         border-radius: 0.5rem;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         z-index: 10;
-        max-height: 450px;
+        max-height: calc(35vh - 5px);
         /* max-height: 90vh; */
         overflow-y: auto;
     }

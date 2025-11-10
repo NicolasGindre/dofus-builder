@@ -41,9 +41,9 @@ export function calculateItemsToDisplay(category: ItemCategory) {
     }
     let i = 1;
     for (const item of itemsBest[category]) {
-        if (item.level > get(level)) {
-            continue;
-        }
+        // if (item.level > get(level)) {
+        //     continue;
+        // }
         if (!get(showBonusPanoCappedItems) && isItemBonusPanoCapped(item)) {
             continue;
         }

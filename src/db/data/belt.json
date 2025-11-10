@@ -155,7 +155,9 @@
       "vitality": 30,
       "strength": -40,
       "intelligence": 40,
-      "heal": 10
+      "heal": 10,
+      "fireResistPer": 2,
+      "neutralResistPer": -2
     }
   },
   "a3": {
@@ -409,7 +411,10 @@
       "intelligence": 30,
       "agility": -21,
       "power": 10,
-      "range": 1
+      "range": 1,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "lS": {
@@ -432,6 +437,11 @@
       "agility": -50,
       "power": 10,
       "summon": 1,
+      "neutralResistPer": 2,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2,
       "criticalResist": 10
     }
   },
@@ -475,6 +485,7 @@
     "stats": {
       "agility": 30,
       "wisdom": -10,
+      "airResistPer": 2,
       "dodge": 5
     }
   },
@@ -526,7 +537,9 @@
     "stats": {
       "vitality": 50,
       "wisdom": 25,
-      "power": 20
+      "power": 20,
+      "waterResistPer": 5,
+      "fireResistPer": -5
     }
   },
   "bp": {
@@ -556,7 +569,9 @@
     "stats": {
       "vitality": 60,
       "wisdom": 25,
-      "power": 15
+      "power": 15,
+      "airResistPer": 5,
+      "earthResistPer": -5
     }
   },
   "uN": {
@@ -621,7 +636,11 @@
     "criterions": "CA>50",
     "stats": {
       "strength": 25,
-      "agility": 25
+      "agility": 25,
+      "earthResistPer": 5,
+      "airResistPer": 5,
+      "fireResistPer": -5,
+      "waterResistPer": -5
     }
   },
   "8M": {
@@ -660,7 +679,8 @@
     "subCategory": "belt",
     "stats": {
       "criticalChance": 3,
-      "range": 1
+      "range": 1,
+      "neutralResistPer": 5
     }
   },
   "lT": {
@@ -704,6 +724,7 @@
     "stats": {
       "vitality": 30,
       "intelligence": 30,
+      "fireResistPer": 5,
       "dodge": 3
     }
   },
@@ -724,7 +745,8 @@
     "subCategory": "belt",
     "stats": {
       "strength": 30,
-      "pods": 150
+      "pods": 150,
+      "neutralResistPer": 6
     }
   },
   "8S": {
@@ -809,7 +831,10 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 30,
-      "wisdom": 15
+      "wisdom": 15,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
     }
   },
   "gg": {
@@ -829,7 +854,10 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 35,
-      "wisdom": 15
+      "wisdom": 15,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3
     }
   },
   "e9": {
@@ -850,6 +878,7 @@
     "stats": {
       "vitality": 30,
       "chance": 30,
+      "waterResistPer": 5,
       "dodge": 3
     }
   },
@@ -871,7 +900,10 @@
       "strength": 50,
       "wisdom": 40,
       "prospecting": 10,
-      "initiative": 330
+      "initiative": 330,
+      "earthResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
     }
   },
   "wE": {
@@ -892,7 +924,10 @@
       "vitality": 80,
       "strength": 50,
       "power": 15,
-      "damage": 7
+      "damage": 7,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4
     }
   },
   "fO": {
@@ -912,7 +947,8 @@
     "stats": {
       "vitality": 15,
       "strength": 30,
-      "intelligence": 30
+      "intelligence": 30,
+      "neutralResistPer": 3
     }
   },
   "no": {
@@ -1102,7 +1138,9 @@
       "strength": 40,
       "agility": 40,
       "wisdom": 25,
-      "initiative": 200
+      "initiative": 200,
+      "earthResistPer": 3,
+      "waterResistPer": 3
     }
   },
   "Dn": {
@@ -1123,7 +1161,11 @@
       "vitality": 300,
       "wisdom": 50,
       "damage": 10,
-      "initiative": 600
+      "initiative": 600,
+      "earthResist": 15,
+      "fireResist": 15,
+      "waterResist": 15,
+      "airResist": 15
     }
   },
   "wo": {
@@ -1148,7 +1190,8 @@
       "power": 20,
       "range": 1,
       "summon": 1,
-      "damage": 3
+      "damage": 3,
+      "waterResistPer": 3
     }
   },
   "i6": {
@@ -1210,7 +1253,9 @@
     "stats": {
       "chance": 25,
       "agility": 25,
-      "power": 15
+      "power": 15,
+      "fireResistPer": 5,
+      "airResistPer": 5
     }
   },
   "lp": {
@@ -1230,7 +1275,11 @@
     "criterions": "Ps=1",
     "stats": {
       "intelligence": 30,
-      "initiative": 150
+      "initiative": 150,
+      "fireResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "lq": {
@@ -1251,7 +1300,8 @@
     "stats": {
       "strength": 40,
       "earthDamage": 3,
-      "initiative": 300
+      "initiative": 300,
+      "earthResistPer": 5
     }
   },
   "sX": {
@@ -1274,7 +1324,8 @@
       "wisdom": 15,
       "summon": 1,
       "damage": 2,
-      "pods": 150
+      "pods": 150,
+      "airResistPer": 2
     }
   },
   "B6": {
@@ -1295,7 +1346,13 @@
       "vitality": 100,
       "wisdom": 50,
       "damage": 8,
-      "prospecting": 13
+      "prospecting": 13,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10
     }
   },
   "n1": {
@@ -1344,6 +1401,7 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "waterDamage": 6,
+      "airResistPer": 7,
       "lock": 4
     }
   },
@@ -1365,6 +1423,7 @@
     "stats": {
       "vitality": 30,
       "strength": 30,
+      "earthResistPer": 5,
       "dodge": 3
     }
   },
@@ -1386,6 +1445,7 @@
     "stats": {
       "vitality": 30,
       "agility": 30,
+      "airResistPer": 5,
       "dodge": 3
     }
   },
@@ -1408,7 +1468,10 @@
       "strength": 30,
       "wisdom": 15,
       "power": 10,
-      "prospecting": 5
+      "prospecting": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
     }
   },
   "3Y": {
@@ -1452,7 +1515,10 @@
       "wisdom": 25,
       "criticalChance": 4,
       "damage": 4,
-      "prospecting": 5
+      "prospecting": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "fireResistPer": -4
     }
   },
   "sA": {
@@ -1473,7 +1539,9 @@
     "stats": {
       "chance": 30,
       "agility": 30,
-      "power": 15
+      "power": 15,
+      "fireResistPer": 5,
+      "waterResistPer": 5
     }
   },
   "4N": {
@@ -1584,6 +1652,7 @@
       "chance": 20,
       "wisdom": 15,
       "pods": 300,
+      "airResistPer": 5,
       "lock": 7,
       "dodge": -3
     }
@@ -1605,7 +1674,11 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 20,
-      "wisdom": 15
+      "wisdom": 15,
+      "earthResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "gy": {
@@ -1625,7 +1698,11 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 20,
-      "wisdom": 15
+      "wisdom": 15,
+      "airResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "gG": {
@@ -1645,7 +1722,11 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 20,
-      "wisdom": 15
+      "wisdom": 15,
+      "fireResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "gC": {
@@ -1665,7 +1746,11 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 20,
-      "wisdom": 15
+      "wisdom": 15,
+      "waterResistPer": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "ib": {
@@ -1687,7 +1772,8 @@
       "vitality": 30,
       "strength": 25,
       "chance": 25,
-      "damage": 3
+      "damage": 3,
+      "earthResistPer": 3
     }
   },
   "vD": {
@@ -1719,6 +1805,7 @@
       "agility": 60,
       "heal": 15,
       "prospecting": 15,
+      "waterResistPer": 5,
       "dodge": 7
     }
   },
@@ -1762,6 +1849,9 @@
       "chance": 50,
       "agility": 50,
       "prospecting": 20,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "neutralResist": 12,
       "trapPower": 20,
       "trapDamage": 20
     }
@@ -1786,7 +1876,10 @@
       "agility": 50,
       "heal": 5,
       "prospecting": 20,
-      "initiative": 300
+      "initiative": 300,
+      "neutralResistPer": 5,
+      "fireResistPer": 5,
+      "airResistPer": 5
     }
   },
   "aY": {
@@ -1807,7 +1900,8 @@
     "stats": {
       "vitality": 30,
       "wisdom": 20,
-      "pods": 150
+      "pods": 150,
+      "waterResistPer": 5
     }
   },
   "sd": {
@@ -1830,7 +1924,8 @@
       "strength": 40,
       "summon": 2,
       "damage": 4,
-      "pods": 200
+      "pods": 200,
+      "earthResistPer": 10
     }
   },
   "t4": {
@@ -1875,7 +1970,9 @@
     "stats": {
       "vitality": 60,
       "agility": 40,
-      "wisdom": 20
+      "wisdom": 20,
+      "fireResistPer": 5,
+      "airResistPer": 5
     }
   },
   "In": {
@@ -1899,7 +1996,8 @@
       "criticalChance": 4,
       "summon": 2,
       "damage": 10,
-      "prospecting": 20
+      "prospecting": 20,
+      "neutralResist": 10
     }
   },
   "vg": {
@@ -1928,7 +2026,8 @@
       "fireDamage": 3,
       "airDamage": 3,
       "initiative": -50,
-      "pods": 300
+      "pods": 300,
+      "airResistPer": 3
     }
   },
   "ts": {
@@ -2017,7 +2116,8 @@
       "vitality": 50,
       "agility": 30,
       "criticalChance": 2,
-      "heal": 7
+      "heal": 7,
+      "neutralResistPer": 5
     }
   },
   "3P": {
@@ -2229,7 +2329,10 @@
       "wisdom": 40,
       "range": 1,
       "damage": 6,
-      "prospecting": 20
+      "prospecting": 20,
+      "neutralResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": -4
     }
   },
   "A1": {
@@ -2254,6 +2357,9 @@
       "summon": 1,
       "heal": 10,
       "prospecting": 10,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "waterResistPer": 10,
       "criticalDamage": 10,
       "pushbackDamage": 10
     }
@@ -2282,7 +2388,10 @@
       "summon": 1,
       "heal": 8,
       "prospecting": 25,
-      "pods": 500
+      "pods": 500,
+      "neutralResist": 6,
+      "earthResist": 6,
+      "airResist": 6
     }
   },
   "Bc": {
@@ -2307,6 +2416,10 @@
       "wisdom": 20,
       "summon": 1,
       "pods": 350,
+      "fireResistPer": 3,
+      "airResistPer": 3,
+      "fireResist": 10,
+      "airResist": 10,
       "criticalDamage": 10,
       "pushbackDamage": 10
     }
@@ -2330,7 +2443,10 @@
       "intelligence": 30,
       "wisdom": 15,
       "power": 10,
-      "prospecting": 5
+      "prospecting": 5,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5
     }
   },
   "Ai": {
@@ -2353,6 +2469,9 @@
       "wisdom": 40,
       "range": 1,
       "prospecting": 10,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "waterResistPer": 10,
       "lock": 4,
       "apReduction": 4,
       "mpReduction": 4
@@ -2383,6 +2502,7 @@
       "airDamage": 5,
       "prospecting": 5,
       "initiative": 150,
+      "fireResistPer": 7,
       "apResist": 6
     }
   },
@@ -2410,6 +2530,7 @@
       "waterDamage": 5,
       "prospecting": 5,
       "initiative": 150,
+      "airResistPer": 7,
       "apReduction": 4
     }
   },
@@ -2437,7 +2558,10 @@
       "summon": 1,
       "damage": 10,
       "prospecting": 15,
-      "pods": 500
+      "pods": 500,
+      "waterResistPer": 8,
+      "neutralResist": 10,
+      "waterResist": 10
     }
   },
   "At": {
@@ -2462,7 +2586,12 @@
       "wisdom": 20,
       "criticalChance": 4,
       "damage": 6,
-      "prospecting": 15
+      "prospecting": 15,
+      "neutralResist": 6,
+      "earthResist": 6,
+      "fireResist": 6,
+      "waterResist": 6,
+      "airResist": 6
     }
   },
   "E9": {
@@ -2491,7 +2620,9 @@
       "heal": 4,
       "prospecting": 15,
       "initiative": 200,
-      "pods": 600
+      "pods": 600,
+      "neutralResist": 10,
+      "airResist": 10
     }
   },
   "0n": {
@@ -2740,7 +2871,9 @@
       "criticalChance": 6,
       "range": 1,
       "damage": 7,
-      "prospecting": 15
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "waterResistPer": 10
     }
   },
   "EX": {
@@ -2766,7 +2899,10 @@
       "damage": 5,
       "heal": 5,
       "prospecting": 20,
-      "initiative": 300
+      "initiative": 300,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "airResistPer": 10
     }
   },
   "CL": {
@@ -2793,6 +2929,7 @@
       "damage": 5,
       "heal": 7,
       "prospecting": 10,
+      "airResistPer": 6,
       "dodge": 5
     }
   },
@@ -2818,7 +2955,9 @@
       "wisdom": 40,
       "power": 10,
       "prospecting": 20,
-      "initiative": 300
+      "initiative": 300,
+      "neutralResistPer": 10,
+      "fireResistPer": 10
     }
   },
   "c1": {
@@ -2865,7 +3004,9 @@
       "damage": 5,
       "heal": 10,
       "prospecting": 20,
-      "initiative": 300
+      "initiative": 300,
+      "earthResistPer": 7,
+      "fireResistPer": 7
     }
   },
   "JC": {
@@ -2891,7 +3032,10 @@
       "summon": 1,
       "damage": 5,
       "prospecting": 20,
-      "initiative": 500
+      "initiative": 500,
+      "fireResistPer": 10,
+      "earthResist": 10,
+      "waterResist": 10
     }
   },
   "Hv": {
@@ -2916,7 +3060,8 @@
       "criticalChance": 3,
       "summon": 1,
       "damage": 10,
-      "prospecting": 30
+      "prospecting": 30,
+      "earthResistPer": 10
     }
   },
   "JP": {
@@ -2941,7 +3086,8 @@
       "range": 1,
       "summon": 2,
       "damage": 10,
-      "prospecting": 20
+      "prospecting": 20,
+      "earthResistPer": 10
     }
   },
   "ir": {
@@ -3057,7 +3203,8 @@
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400
+      "pods": 400,
+      "fireResistPer": 5
     }
   },
   "us": {
@@ -3081,7 +3228,8 @@
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400
+      "pods": 400,
+      "earthResistPer": 5
     }
   },
   "ug": {
@@ -3105,7 +3253,8 @@
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400
+      "pods": 400,
+      "airResistPer": 5
     }
   },
   "uo": {
@@ -3129,7 +3278,8 @@
       "wisdom": 25,
       "criticalChance": 3,
       "prospecting": 10,
-      "pods": 400
+      "pods": 400,
+      "waterResistPer": 5
     }
   },
   "vP": {
@@ -3152,7 +3302,8 @@
       "wisdom": 30,
       "power": 35,
       "damage": 7,
-      "heal": 10
+      "heal": 10,
+      "earthResistPer": 3
     }
   },
   "Jb": {
@@ -3180,7 +3331,9 @@
       "range": 1,
       "damage": 5,
       "heal": 5,
-      "prospecting": 20
+      "prospecting": 20,
+      "neutralResistPer": 10,
+      "neutralResist": 10
     }
   },
   "hR": {
@@ -3221,6 +3374,8 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 30,
+      "neutralResistPer": 4,
+      "earthResistPer": 4,
       "criticalResist": 10
     }
   },
@@ -3307,7 +3462,8 @@
       "wisdom": 15,
       "power": 20,
       "summon": 1,
-      "damage": 5
+      "damage": 5,
+      "fireResistPer": -5
     }
   },
   "dT": {
@@ -4051,7 +4207,10 @@
       "wisdom": 50,
       "summon": 2,
       "damage": 10,
-      "prospecting": 10
+      "prospecting": 10,
+      "neutralResist": 15,
+      "earthResist": 15,
+      "airResist": 15
     }
   },
   "Bj": {
@@ -4079,6 +4238,9 @@
       "waterDamage": 8,
       "heal": 5,
       "prospecting": 15,
+      "waterResistPer": 7,
+      "fireResist": 7,
+      "airResist": 7,
       "dodge": 5,
       "pushbackDamage": 10
     }
@@ -4107,6 +4269,8 @@
       "airDamage": 10,
       "heal": 10,
       "prospecting": 15,
+      "fireResist": 10,
+      "waterResist": 10,
       "lock": 5,
       "dodge": -4,
       "criticalResist": 10
@@ -4137,6 +4301,8 @@
       "airDamage": 7,
       "prospecting": 20,
       "initiative": 400,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "lock": 5
     }
   },
@@ -4164,6 +4330,9 @@
       "fireDamage": 12,
       "prospecting": 20,
       "initiative": 300,
+      "waterResistPer": 7,
+      "earthResist": 10,
+      "fireResist": 10,
       "dodge": -7
     }
   },
@@ -4191,6 +4360,9 @@
       "neutralDamage": 10,
       "waterDamage": 10,
       "prospecting": 20,
+      "fireResistPer": 7,
+      "airResistPer": 7,
+      "waterResist": 10,
       "dodge": 5,
       "pushbackDamage": -7
     }
@@ -4220,6 +4392,9 @@
       "airDamage": 12,
       "prospecting": 20,
       "initiative": 300,
+      "airResistPer": 7,
+      "neutralResist": 7,
+      "waterResist": 7,
       "dodge": 5,
       "mpResist": 5
     }
@@ -4248,6 +4423,8 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "prospecting": 25,
+      "earthResist": 10,
+      "airResist": 10,
       "lock": 6,
       "apResist": 6
     }
@@ -4278,6 +4455,11 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "airDamage": 10,
+      "neutralResist": 12,
+      "earthResist": 12,
+      "fireResist": 12,
+      "waterResist": 12,
+      "airResist": 12,
       "dodge": 5,
       "mpReduction": 5
     }
@@ -4306,6 +4488,7 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 25,
+      "fireResistPer": 7,
       "dodge": -4,
       "apReduction": 4,
       "pushbackDamage": 10
@@ -4357,7 +4540,8 @@
       "vitality": 30,
       "chance": 30,
       "power": 15,
-      "criticalChance": 2
+      "criticalChance": 2,
+      "neutralResistPer": 3
     }
   },
   "JS": {
@@ -4382,6 +4566,9 @@
       "mp": 1,
       "heal": 6,
       "prospecting": 15,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
       "lock": -6,
       "dodge": -6,
       "mpResist": -6,
@@ -4429,7 +4616,8 @@
       "vitality": 30,
       "agility": 30,
       "airDamage": 5,
-      "pushbackDamage": 10
+      "pushbackDamage": 10,
+      "pushbackResist": 10
     }
   },
   "gk": {
@@ -4551,6 +4739,8 @@
       "earthDamage": 10,
       "waterDamage": 10,
       "prospecting": 25,
+      "waterResist": 12,
+      "airResist": 12,
       "dodge": 5,
       "mpResist": 5,
       "pushbackDamage": -7
@@ -4576,7 +4766,8 @@
       "neutralDamage": 10,
       "lock": 10,
       "mpReduction": 10,
-      "pushbackDamage": 10
+      "pushbackDamage": 10,
+      "pushbackResist": 10
     }
   },
   "Ej": {
@@ -4601,6 +4792,8 @@
       "criticalChance": 4,
       "airDamage": 12,
       "prospecting": 15,
+      "earthResistPer": 10,
+      "airResist": 15,
       "lock": -4,
       "criticalResist": 10,
       "pushbackDamage": 15
@@ -4630,8 +4823,11 @@
       "fireDamage": 15,
       "waterDamage": 15,
       "prospecting": 20,
+      "earthResist": 15,
+      "airResist": 15,
       "dodge": 5,
-      "mpReduction": 4
+      "mpReduction": 4,
+      "pushbackResist": 10
     }
   },
   "Ko": {
@@ -4656,6 +4852,7 @@
       "earthDamage": 20,
       "prospecting": 25,
       "initiative": 600,
+      "airResist": 25,
       "lock": 10
     }
   },
@@ -4717,6 +4914,9 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "prospecting": 10,
+      "fireResistPer": 6,
+      "earthResist": 6,
+      "airResist": 6,
       "lock": 4,
       "mpReduction": 3
     }
@@ -4745,6 +4945,9 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 20,
+      "neutralResist": 15,
+      "earthResist": 15,
+      "airResist": 15,
       "lock": -4,
       "mpReduction": 6
     }
@@ -4767,6 +4970,7 @@
       "vitality": 50,
       "wisdom": 25,
       "airDamage": 5,
+      "fireResist": 5,
       "pushbackDamage": 10
     }
   },
@@ -4831,7 +5035,8 @@
       "vitality": 40,
       "strength": 30,
       "wisdom": 15,
-      "earthDamage": 10
+      "earthDamage": 10,
+      "earthResistPer": 4
     }
   },
   "v3": {
@@ -4855,7 +5060,9 @@
       "wisdom": 20,
       "range": 1,
       "waterDamage": 5,
-      "pushbackDamage": 7
+      "earthResistPer": 4,
+      "pushbackDamage": 7,
+      "pushbackResist": 8
     }
   },
   "2O": {
@@ -4902,6 +5109,9 @@
       "fireDamage": 6,
       "waterDamage": 6,
       "prospecting": 10,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "airResist": 12,
       "lock": 4,
       "apReduction": -3,
       "criticalResist": 12
@@ -4967,6 +5177,7 @@
       "power": 20,
       "summon": 1,
       "prospecting": 10,
+      "waterResistPer": 5,
       "dodge": 5
     }
   },
@@ -4990,7 +5201,8 @@
       "strength": 20,
       "wisdom": 15,
       "neutralDamage": 6,
-      "criticalResist": 5
+      "criticalResist": 5,
+      "pushbackResist": 5
     }
   },
   "M4": {
@@ -5016,6 +5228,7 @@
       "range": 2,
       "neutralDamage": 18,
       "earthDamage": 18,
+      "neutralResist": 15,
       "mpResist": 7,
       "criticalResist": 15
     }
@@ -5101,6 +5314,8 @@
       "waterDamage": 10,
       "airDamage": 10,
       "prospecting": 10,
+      "earthResistPer": 7,
+      "airResist": 15,
       "lock": 5,
       "apReduction": 5
     }
@@ -5213,6 +5428,8 @@
       "waterDamage": 6,
       "prospecting": 8,
       "initiative": 150,
+      "fireResistPer": 5,
+      "airResist": 8,
       "apResist": 3,
       "pushbackDamage": 10
     }
@@ -5291,6 +5508,9 @@
       "earthDamage": 15,
       "fireDamage": 15,
       "prospecting": 20,
+      "earthResistPer": 8,
+      "neutralResist": 8,
+      "waterResist": 8,
       "dodge": 10,
       "mpReduction": -7,
       "criticalResist": -11
@@ -5320,6 +5540,7 @@
       "neutralDamage": 20,
       "earthDamage": 20,
       "airDamage": 20,
+      "neutralResistPer": 15,
       "dodge": 15,
       "criticalDamage": -16
     }
@@ -5350,6 +5571,8 @@
       "earthDamage": 8,
       "airDamage": 8,
       "prospecting": 15,
+      "fireResistPer": 7,
+      "airResistPer": 7,
       "dodge": 6,
       "mpResist": 4
     }
@@ -5376,6 +5599,8 @@
       "criticalChance": 3,
       "airDamage": 12,
       "prospecting": 20,
+      "neutralResistPer": 10,
+      "fireResist": 20,
       "dodge": 10,
       "apResist": 7,
       "criticalDamage": 12
@@ -5402,6 +5627,8 @@
       "wisdom": 50,
       "waterDamage": 20,
       "initiative": 500,
+      "waterResistPer": 9,
+      "airResistPer": 9,
       "mpReduction": 7,
       "pushbackDamage": 20
     }
@@ -5456,6 +5683,9 @@
       "neutralDamage": 16,
       "earthDamage": 16,
       "prospecting": 10,
+      "airResistPer": 10,
+      "earthResist": 15,
+      "airResist": 15,
       "lock": 10,
       "criticalDamage": 10
     }
@@ -5485,6 +5715,7 @@
       "fireDamage": 10,
       "heal": 10,
       "initiative": 300,
+      "airResistPer": 10,
       "dodge": 15,
       "criticalDamage": 15
     }
@@ -5516,6 +5747,7 @@
       "airDamage": 10,
       "heal": 7,
       "initiative": 400,
+      "neutralResistPer": 8,
       "lock": 10,
       "criticalDamage": 15,
       "criticalResist": -16
@@ -5544,6 +5776,8 @@
       "range": -1,
       "airDamage": 15,
       "prospecting": 20,
+      "waterResistPer": 10,
+      "earthResist": 20,
       "pushbackDamage": 25
     }
   },
@@ -5620,6 +5854,8 @@
       "summon": 2,
       "prospecting": 15,
       "initiative": -301,
+      "waterResistPer": 10,
+      "airResistPer": 10,
       "lock": 15,
       "mpResist": -6,
       "criticalDamage": 25,
@@ -5647,6 +5883,8 @@
       "criticalChance": 3,
       "range": 1,
       "prospecting": 15,
+      "fireResistPer": 10,
+      "airResistPer": 10,
       "dodge": 16,
       "mpResist": 8
     }
@@ -5670,6 +5908,8 @@
       "agility": 40,
       "wisdom": 30,
       "criticalChance": 3,
+      "fireResistPer": 6,
+      "airResistPer": 6,
       "lock": 7,
       "criticalDamage": 10
     }
@@ -5701,6 +5941,9 @@
       "earthDamage": 20,
       "fireDamage": 20,
       "prospecting": 15,
+      "earthResistPer": 6,
+      "airResistPer": 6,
+      "waterResist": 10,
       "mpResist": -11
     }
   },
@@ -5751,6 +5994,7 @@
       "wisdom": 20,
       "range": 1,
       "heal": 7,
+      "earthResistPer": 5,
       "mpReduction": 5
     }
   },
@@ -5777,6 +6021,7 @@
       "summon": 1,
       "neutralDamage": 6,
       "earthDamage": 6,
+      "waterResistPer": 6,
       "apResist": 7,
       "criticalDamage": 10
     }
@@ -5801,6 +6046,8 @@
       "strength": 40,
       "intelligence": 40,
       "wisdom": 15,
+      "waterResistPer": 6,
+      "airResistPer": 6,
       "apResist": 5,
       "criticalDamage": 10
     }
@@ -5827,7 +6074,9 @@
       "criticalChance": 3,
       "waterDamage": 3,
       "prospecting": 15,
-      "lock": 7
+      "airResistPer": 5,
+      "lock": 7,
+      "pushbackResist": 10
     }
   },
   "2Y": {
@@ -5893,6 +6142,8 @@
       "waterDamage": 12,
       "airDamage": 7,
       "prospecting": 15,
+      "fireResistPer": 10,
+      "earthResist": 12,
       "lock": -4
     }
   },
@@ -5961,6 +6212,7 @@
       "fireDamage": 10,
       "waterDamage": 10,
       "prospecting": 15,
+      "airResistPer": 10,
       "dodge": 5,
       "apResist": 7,
       "mpResist": -4
@@ -6020,6 +6272,9 @@
       "criticalChance": 3,
       "range": 1,
       "waterDamage": 6,
+      "fireResistPer": 10,
+      "airResistPer": 10,
+      "airResist": 12,
       "dodge": 5
     }
   },
@@ -6046,6 +6301,9 @@
       "criticalChance": 4,
       "range": 1,
       "airDamage": 7,
+      "fireResistPer": 5,
+      "waterResistPer": 7,
+      "waterResist": 12,
       "mpReduction": 5,
       "pushbackDamage": 12
     }
@@ -6096,7 +6354,10 @@
       "summon": 1,
       "waterDamage": 12,
       "airDamage": 12,
-      "prospecting": 15
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "fireResistPer": 7
     }
   },
   "ER": {
@@ -6123,7 +6384,10 @@
       "earthDamage": 8,
       "fireDamage": 8,
       "waterDamage": 8,
-      "airDamage": 8
+      "airDamage": 8,
+      "earthResistPer": 6,
+      "airResistPer": 6,
+      "pushbackResist": 20
     }
   },
   "EO": {
@@ -6150,6 +6414,8 @@
       "range": 1,
       "fireDamage": 10,
       "waterDamage": 10,
+      "airResistPer": 7,
+      "earthResist": 10,
       "lock": 10
     }
   },
@@ -6176,7 +6442,8 @@
       "neutralDamage": 6,
       "earthDamage": 6,
       "waterDamage": 6,
-      "prospecting": 15
+      "prospecting": 15,
+      "airResistPer": 7
     }
   },
   "xw": {
@@ -6202,6 +6469,7 @@
       "fireDamage": 5,
       "airDamage": 5,
       "prospecting": 15,
+      "earthResistPer": 3,
       "lock": 7
     }
   },
@@ -6245,6 +6513,8 @@
       "summon": 1,
       "fireDamage": 7,
       "initiative": 600,
+      "neutralResistPer": 10,
+      "waterResist": 12,
       "lock": 10,
       "mpReduction": 5
     }
@@ -6274,8 +6544,10 @@
       "earthDamage": 15,
       "prospecting": 15,
       "initiative": 600,
+      "fireResistPer": 10,
       "lock": 15,
-      "apReduction": 6
+      "apReduction": 6,
+      "pushbackResist": 20
     }
   },
   "OC": {
@@ -6303,6 +6575,7 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "prospecting": 15,
+      "fireResistPer": 15,
       "dodge": 10,
       "criticalDamage": 25
     }
@@ -6333,6 +6606,7 @@
       "earthDamage": 15,
       "waterDamage": 15,
       "prospecting": 15,
+      "earthResistPer": 7,
       "criticalResist": 30
     }
   },
@@ -6363,7 +6637,8 @@
       "earthDamage": 7,
       "fireDamage": 7,
       "waterDamage": 7,
-      "airDamage": 7
+      "airDamage": 7,
+      "fireResistPer": 7
     }
   },
   "9n": {
@@ -6429,9 +6704,12 @@
       "criticalChance": 4,
       "ap": 1,
       "prospecting": 15,
+      "neutralResistPer": 10,
+      "waterResistPer": 10,
       "dodge": -10,
       "mpResist": 7,
-      "criticalDamage": 20
+      "criticalDamage": 20,
+      "pushbackResist": 20
     }
   },
   "U8": {
@@ -6454,6 +6732,8 @@
       "wisdom": 50,
       "mp": 1,
       "summon": 1,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
       "lock": -15,
       "apResist": 10,
       "mpResist": 10,
@@ -6485,6 +6765,8 @@
       "airDamage": 12,
       "heal": 12,
       "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
       "apReduction": 5
     }
   },
@@ -6513,6 +6795,7 @@
       "fireDamage": 20,
       "waterDamage": 20,
       "heal": 15,
+      "airResistPer": 10,
       "pushbackDamage": 20
     }
   },
@@ -6542,6 +6825,8 @@
       "earthDamage": 7,
       "airDamage": 7,
       "initiative": 500,
+      "earthResistPer": 7,
+      "airResistPer": 7,
       "lock": 7
     }
   },
@@ -6568,7 +6853,11 @@
       "criticalChance": 3,
       "fireDamage": 10,
       "waterDamage": 10,
-      "prospecting": 15
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "airResist": 10
     }
   },
   "Bt": {
@@ -6591,6 +6880,8 @@
       "strength": 50,
       "intelligence": 50,
       "wisdom": 35,
+      "waterResistPer": 7,
+      "airResistPer": 7,
       "lock": 7,
       "mpResist": 7
     }
@@ -6684,6 +6975,7 @@
       "summon": 1,
       "earthDamage": 5,
       "airDamage": 5,
+      "waterResistPer": 3,
       "apResist": 5
     }
   },
@@ -6731,8 +7023,11 @@
       "summon": 1,
       "fireDamage": 7,
       "airDamage": 7,
+      "fireResist": 15,
+      "airResist": 15,
       "dodge": 7,
-      "mpResist": 6
+      "mpResist": 6,
+      "pushbackResist": 15
     }
   },
   "Fh": {
@@ -6761,6 +7056,8 @@
       "earthDamage": 10,
       "waterDamage": 7,
       "initiative": 300,
+      "fireResistPer": 7,
+      "fireResist": 10,
       "lock": 5
     }
   },
@@ -6788,6 +7085,8 @@
       "waterDamage": 15,
       "airDamage": 15,
       "prospecting": 15,
+      "fireResistPer": 10,
+      "waterResistPer": 10,
       "dodge": 7,
       "mpResist": -5,
       "criticalDamage": 15
@@ -6816,6 +7115,9 @@
       "range": 1,
       "prospecting": 15,
       "initiative": 600,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "lock": 12,
       "mpReduction": 7,
       "criticalResist": 15
@@ -6847,6 +7149,7 @@
       "earthDamage": 12,
       "fireDamage": 12,
       "initiative": 400,
+      "waterResistPer": 7,
       "apResist": 5,
       "pushbackDamage": 20
     }
@@ -7042,6 +7345,7 @@
       "neutralDamage": 10,
       "earthDamage": 10,
       "waterDamage": 10,
+      "fireResistPer": 7,
       "mpReduction": 5,
       "criticalDamage": 12
     }
@@ -7139,6 +7443,8 @@
       "ap": 1,
       "waterDamage": 15,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
       "apResist": 15
     }
   },
@@ -7184,6 +7490,7 @@
       "ap": 1,
       "airDamage": 20,
       "prospecting": 15,
+      "earthResistPer": 10,
       "apReduction": 12
     }
   },
@@ -7211,6 +7518,8 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "airDamage": 12,
+      "fireResistPer": 10,
+      "airResistPer": 10,
       "lock": 10,
       "apReduction": 6
     }
@@ -7245,6 +7554,7 @@
       "waterDamage": 12,
       "airDamage": 12,
       "prospecting": 15,
+      "earthResistPer": 10,
       "dodge": 10
     }
   },
@@ -7273,6 +7583,8 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
+      "fireResistPer": 7,
+      "airResistPer": 7,
       "lock": 10,
       "mpReduction": 5,
       "pushbackDamage": 20
@@ -7325,6 +7637,7 @@
       "summon": 1,
       "airDamage": 3,
       "prospecting": 10,
+      "neutralResistPer": 4,
       "apReduction": 3,
       "mpResist": 3
     }
@@ -7355,6 +7668,7 @@
       "earthDamage": 5,
       "airDamage": 5,
       "prospecting": 10,
+      "neutralResistPer": 7,
       "dodge": 5,
       "criticalDamage": 15
     }
@@ -7377,7 +7691,8 @@
     "stats": {
       "vitality": 40,
       "intelligence": 40,
-      "fireDamage": 7
+      "fireDamage": 7,
+      "waterResistPer": 3
     }
   },
   "IB": {
@@ -7404,7 +7719,10 @@
       "waterDamage": 7,
       "airDamage": 7,
       "heal": 15,
-      "mpReduction": 6
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
+      "mpReduction": 6,
+      "pushbackResist": 12
     }
   },
   "Qs": {
@@ -7430,6 +7748,8 @@
       "range": 1,
       "waterDamage": 10,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
       "dodge": 15,
       "apResist": 12,
       "mpResist": -15,
@@ -7502,6 +7822,7 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "heal": 12,
+      "airResistPer": 10,
       "lock": 10,
       "apReduction": 7
     }
@@ -7551,6 +7872,7 @@
       "neutralDamage": 3,
       "earthDamage": 3,
       "airDamage": 3,
+      "waterResistPer": 5,
       "lock": 5,
       "pushbackDamage": 10
     }
@@ -7582,6 +7904,8 @@
       "waterDamage": 15,
       "airDamage": 15,
       "prospecting": 15,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "dodge": 10
     }
   },
@@ -7609,6 +7933,8 @@
       "fireDamage": 15,
       "waterDamage": 15,
       "prospecting": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
       "mpResist": 7,
       "criticalDamage": 12
     }
@@ -7657,6 +7983,7 @@
       "neutralDamage": 18,
       "earthDamage": 18,
       "prospecting": 15,
+      "airResistPer": 10,
       "lock": -20,
       "mpResist": 15,
       "pushbackDamage": 25
@@ -7685,6 +8012,8 @@
       "range": 1,
       "airDamage": 15,
       "prospecting": 15,
+      "earthResistPer": 10,
+      "waterResistPer": 10,
       "apResist": 10,
       "criticalDamage": 12
     }
@@ -7713,9 +8042,12 @@
       "neutralDamage": 15,
       "earthDamage": 15,
       "waterDamage": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
       "dodge": 10,
       "lock": -10,
-      "apReduction": 7
+      "apReduction": 7,
+      "pushbackResist": 25
     }
   },
   "Qd": {
@@ -7742,6 +8074,7 @@
       "neutralDamage": 12,
       "earthDamage": 12,
       "waterDamage": 12,
+      "airResistPer": 15,
       "lock": 7,
       "criticalResist": 25
     }
@@ -7768,7 +8101,9 @@
       "criticalChance": 5,
       "range": 1,
       "neutralDamage": 20,
-      "earthDamage": 20
+      "earthDamage": 20,
+      "neutralResistPer": 10,
+      "earthResistPer": 10
     }
   },
   "QE": {
@@ -7792,10 +8127,29 @@
       "agility": 80,
       "wisdom": 40,
       "criticalChance": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7,
       "lock": -20,
       "apReduction": -20,
       "mpResist": 20,
       "pushbackDamage": 40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Audace de Dodge",
+        "en": "Dodge's Audacity",
+        "pt": "Audácia de Dodge",
+        "de": "Kühnheit von Dodge",
+        "es": "Audacia de Dodge"
+      },
+      "description": {
+        "fr": "Audace de Dodge :\n• À chaque début de tour, le porteur se téléporte ou échange de position sur une case adjacente aléatoire et gagne 1 PM et 10% Critique, ou n'est pas déplacé et gagne 40 de Fuite et de Dommages Poussée, pendant 1 tour.",
+        "en": "Dodge's Audacity:\n• At the start of each turn, the bearer teleports or switches places to a random adjacent cell and gains 1 MP and 10% Critical, or is not moved and gains 40 Dodge and Pushback Damage, for 1 turn.",
+        "pt": "Audácia de Dodge:\n• No começo de cada turno, o portador se teletransporta ou troca de posição para uma célula adjacente aleatória e ganha 1 PM e 10% de crítico, ou não é deslocado e ganha 40 de fuga e de danos de empurrão, durante 1 turno.",
+        "de": "Kühnheit von Dodge:\n• Zu Beginn jeder Runde begibt sich der Träger per Teleportation oder Platztausch auf ein zufälliges angrenzendes Feld und erhält 1 Runde lang 1 BP und 10 % Chance auf kritische Treffer oder er ändert seine Position nicht und erhält stattdessen 40 Ausweichen und Schubsschaden.",
+        "es": "Audacia de Dodge:\n• Al principio de cada turno, el portador se teletransporta o intercambia posición en una casilla adyacente aleatoria y gana 1 PM y 10% de críticos, o no se desplaza y gana 40 de huida y daños de empuje, durante 1 turno."
+      }
     }
   },
   "Tg": {
@@ -7819,8 +8173,25 @@
       "wisdom": 60,
       "criticalChance": -15,
       "dodge": -60,
+      "pushbackResist": 30,
       "meleeResistPer": 10,
       "spellDamagePer": 2
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Courage de Dame Jhessica",
+        "en": "Lady Jhessica's Courage",
+        "pt": "Coragem de Lady Jhéssica",
+        "de": "Mut von Madame Jhessica",
+        "es": "Valentía de la Señorita Jhessica"
+      },
+      "description": {
+        "fr": "Courage de Dame Jhessica :\n• À chaque fin de tour, le porteur retire 60 de Fuite aux ennemis à son contact et gagne 1% de dommages aux sorts pour chaque ennemi touché pendant 1 tour.",
+        "en": "Lady Jhessica's Courage:\n• At the end of each turn, the bearer removes 60 Dodge from adjacent enemies and gains 1% spell damage for each enemy hit for 1 turn.",
+        "pt": "Coragem de Lady Jhéssica:\n• No final de cada turno, o portador retira 60 de fuga dos inimigos em contato com ele e ganha 1% de danos de feitiços para cada inimigo atingido durante 1 turno.",
+        "de": "Mut von Madame Jhessica:\n• Am Ende jeder Runde entzieht der Träger 1 Runde lang Gegnern in Reichweite 60 Ausweichen und sein Zauberschaden erhöht sich um 1 % pro getroffenem Gegner.",
+        "es": "Valentía de la Señorita Jhessica:\n• Al final de cada turno, el portador retira 60 de huida a los enemigos en contacto con él y gana un 1% de daños a los hechizos por cada enemigo alcanzado durante 1 turno."
+      }
     }
   },
   "lm": {
@@ -7871,6 +8242,9 @@
       "earthDamage": 10,
       "fireDamage": 10,
       "prospecting": 10,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
+      "airResistPer": 7,
       "lock": 15,
       "mpReduction": 15,
       "pushbackResist": -20
@@ -7897,6 +8271,8 @@
       "criticalChance": 4,
       "range": 1,
       "fireDamage": 20,
+      "earthResistPer": 12,
+      "waterResistPer": 12,
       "lock": 8,
       "mpResist": 5,
       "pushbackDamage": 15
@@ -7925,6 +8301,8 @@
       "criticalChance": 3,
       "earthDamage": 12,
       "fireDamage": 12,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
       "lock": -10,
       "apResist": 10,
       "mpResist": 10,
@@ -7954,6 +8332,8 @@
       "range": 1,
       "neutralDamage": 15,
       "earthDamage": 15,
+      "neutralResistPer": 10,
+      "earthResistPer": 7,
       "mpReduction": 10,
       "apResist": -5,
       "criticalDamage": 20
@@ -7986,7 +8366,24 @@
       "lock": 20,
       "apResist": -15,
       "criticalResist": -20,
+      "pushbackResist": 40,
       "rangedResistPer": 10
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Fers de la Tyrannie",
+        "en": "Shackles of Tyranny",
+        "pt": "Ferros da Tirania",
+        "de": "Eisen der Tyrannei",
+        "es": "Cadenas de la Tiranía"
+      },
+      "description": {
+        "fr": "Fers de la Tyrannie :\n• À chaque fin de tour, le porteur attire les entités à 3 cases ou moins alignés à lui. S'il n'y a aucune entité à son contact, il devient Indéplaçable jusqu'au début de son prochain tour. L'état est retiré s'il subit des dommages.",
+        "en": "Shackles of Tyranny:\n• At the end of each turn, the bearer attracts entities in a straight line with them and within 3 cells or less. If there are no entities adjacent to the bearer, the bearer becomes Unmovable until the start of their next turn. The state is removed if they suffer damage.",
+        "pt": "Ferros da Tirania:\n• No final de cada turno, o carregador atrai entidades a até 3 células alinhadas a ele. Se não houver nenhuma entidade em contato com ele, ele ficará Irremovível até o início de seu próximo turno. O estado será retirado se ele sofrer danos.",
+        "de": "Eisen der Tyrannei:\n• Am Ende einer jeden Runde zieht der Träger alle Einheiten zu sich heran, die 3 Felder oder weniger in einer Linie zu ihm stehen Wenn sich keine Einheit in Reichweite befindet, wird er bis zum Beginn seiner nächsten Runde Unverrückbar. Der Zustand wird rückgängig gemacht, wenn er Schaden erleidet.",
+        "es": "Cadenas de la Tiranía:\n• Al final de cada turno, el portador atrae a las entidades a 3 casillas o menos alineadas con él. Si no hay ninguna entidad en su contacto, se vuelve indesplazable hasta el inicio de su próximo turno. El estado se retira si sufre daños."
+      }
     }
   },
   "CH": {
@@ -8011,6 +8408,8 @@
       "criticalChance": 5,
       "range": 1,
       "prospecting": 10,
+      "waterResistPer": 4,
+      "earthResist": 10,
       "dodge": 8,
       "mpReduction": 6
     }
@@ -8038,6 +8437,8 @@
       "heal": 20,
       "prospecting": 20,
       "initiative": 200,
+      "fireResistPer": 5,
+      "fireResist": 10,
       "dodge": 10
     }
   },
@@ -8069,6 +8470,7 @@
       "fireDamage": 10,
       "waterDamage": 5,
       "prospecting": 25,
+      "waterResistPer": 6,
       "lock": 5,
       "apReduction": 5
     }
@@ -8096,7 +8498,11 @@
       "fireDamage": 10,
       "heal": 6,
       "initiative": 400,
-      "mpResist": 7
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "neutralResist": 10,
+      "mpResist": 7,
+      "pushbackResist": 20
     }
   },
   "PC": {
@@ -8123,6 +8529,8 @@
       "range": 1,
       "fireDamage": 12,
       "waterDamage": 12,
+      "earthResistPer": 10,
+      "airResistPer": 10,
       "lock": 12,
       "dodge": -12,
       "apReduction": 10,
@@ -8157,6 +8565,7 @@
       "neutralDamage": 15,
       "earthDamage": 15,
       "airDamage": 15,
+      "earthResistPer": 15,
       "mpReduction": 6,
       "pushbackDamage": 20
     }
@@ -8187,11 +8596,16 @@
       "fireDamage": 20,
       "waterDamage": 10,
       "airDamage": 10,
+      "waterResistPer": 6,
+      "airResistPer": 6,
+      "earthResistPer": -3,
+      "fireResistPer": -3,
       "dodge": 5,
       "lock": -10,
       "apResist": 3,
       "mpResist": -6,
-      "criticalResist": -16
+      "criticalResist": -16,
+      "pushbackResist": 8
     }
   },
   "bg": {
@@ -8264,6 +8678,8 @@
       "range": 1,
       "waterDamage": 12,
       "prospecting": 20,
+      "waterResistPer": 7,
+      "airResistPer": 7,
       "dodge": 7,
       "criticalDamage": 10
     }
@@ -8310,6 +8726,8 @@
       "waterDamage": 15,
       "prospecting": 15,
       "initiative": 500,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "dodge": 7,
       "mpResist": 10
     }
@@ -8345,8 +8763,12 @@
       "wisdom": 30,
       "criticalChance": 6,
       "fireDamage": 18,
+      "fireResistPer": 12,
+      "airResistPer": 9,
+      "waterResistPer": -3,
       "dodge": 9,
-      "pushbackDamage": 30
+      "pushbackDamage": 30,
+      "waterResist": -11
     }
   },
   "T9": {
@@ -8376,6 +8798,7 @@
       "airDamage": 10,
       "prospecting": 15,
       "initiative": 200,
+      "waterResistPer": 15,
       "criticalDamage": 15
     }
   },
@@ -8404,10 +8827,13 @@
       "criticalChance": 3,
       "summon": 1,
       "damage": 10,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
       "lock": 8,
       "dodge": -10,
       "apResist": 6,
-      "pushbackDamage": 20
+      "pushbackDamage": 20,
+      "pushbackResist": 20
     }
   },
   "Nu": {
@@ -8433,6 +8859,8 @@
       "prospecting": 15,
       "initiative": 350,
       "pods": 700,
+      "waterResistPer": 7,
+      "airResistPer": 5,
       "lock": 6,
       "apResist": 10
     }
@@ -8462,6 +8890,9 @@
       "heal": 8,
       "prospecting": 15,
       "pods": 300,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
       "dodge": 6,
       "mpReduction": 6,
       "pushbackResist": -20

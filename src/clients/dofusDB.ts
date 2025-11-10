@@ -70,12 +70,16 @@ const NameSchema = z.object({
     de: z.string(),
     es: z.string(),
 });
+const SpellSchema = z.object({
+    name: NameSchema,
+    description: NameSchema,
+});
+type SpellResp = z.infer<typeof SpellSchema>;
 
 const ItemRespSchema = z.object({
     _id: z.string(),
     level: z.number().int(),
     name: NameSchema,
-    description: NameSchema,
     criterions: z.string().optional(), // max AP / MP
     itemSet: z
         .union([
@@ -230,7 +234,7 @@ export async function translateItem(
         ...(dofusDbItem.criterions ? { criterions: dofusDbItem.criterions } : {}),
         stats: {},
     };
-    const dofusDBStats = dofusDbItem.effects.filter((effect) => effect.category == 0);
+    const dofusDBStats = dofusDbItem.effects.filter((effect) => effect.category != 2);
     for (const dofusDbStat of dofusDBStats) {
         const statKey: StatKey = STAT_ID_DOFUSDB[dofusDbStat.characteristic]!;
         if (statKey == undefined) {
@@ -271,22 +275,29 @@ export async function translateItem(
         (possibleEffect) => possibleEffect.effectId == 1175,
     );
     if (dofusDBSpecialDescription[0] && dofusDBSpecialDescription[0].diceNum) {
-        item.specialEffect = await fetchDofusDBSpecialEffect(dofusDBSpecialDescription[0].diceNum);
+        const specialEffect = await fetchDofusDBSpecialEffect(dofusDBSpecialDescription[0].diceNum);
+        if (specialEffect) {
+            item.specialEffect = specialEffect;
+        }
     }
-
     return item;
 }
-async function fetchDofusDBSpecialEffect(specialEffectId: number): Promise<SpecialEffect> {
-    const url = new URL(`${dofusDBUrl}/items`);
+async function fetchDofusDBSpecialEffect(
+    specialEffectId: number,
+): Promise<SpecialEffect | undefined> {
+    const url = new URL(`${dofusDBUrl}/spells/${specialEffectId}`);
     const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
 
     const json = await resp.json();
-    const itemResp: ItemResp = ItemRespSchema.parse(json);
+    const spellResp: SpellResp = SpellSchema.parse(json);
 
+    // if (spellResp.name && spellResp.description) {
     return {
-        name: itemResp.name,
-        description: itemResp.description,
+        name: spellResp.name,
+        description: spellResp.description,
     };
+    // }
+    // return undefined;
 }
 
 function translateStat(dofusDbStat: StatResp): number {

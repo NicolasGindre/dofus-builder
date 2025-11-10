@@ -26,6 +26,7 @@
         clearAll,
         removeItem,
         removeItems,
+        isItemMinRequirementOK,
     } from "../logic/item";
     import {
         calculatePanopliesToDisplay,
@@ -94,7 +95,7 @@
     function quickSelection() {
         for (const pano of $panopliesDisplayed) {
             for (const item of Object.values(pano.itemsReal)) {
-                if (item.level <= $level) {
+                if (isItemMinRequirementOK(item)) {
                     addItem(item);
                 }
             }
@@ -286,6 +287,7 @@
                             <HoverItemOrPano {panoply}
                                 ><div class="sticky-title">
                                     {panoply.name[$lang]}
+                                    <!-- - {panoply.bestRelativeValue} -->
                                 </div></HoverItemOrPano
                             >
                         </div>
@@ -484,7 +486,7 @@
         padding: 8px;
         background: #252226;
         overflow-y: auto;
-        overscroll-behavior: contain;
+        overscroll-behavior-y: contain;
         /* min-width: 400px; */
         /* max-width: 400px; */
     }

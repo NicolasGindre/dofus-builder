@@ -94,6 +94,9 @@ function calculatePanopliesBonus() {
             pano.statsWithBonus.push(getBonusStats(stats));
             pano.value.push(0);
         }
+        // if (pano.stats.length > 6) {
+        //     console.log(pano.stats.length, pano);
+        // }
     }
 }
 

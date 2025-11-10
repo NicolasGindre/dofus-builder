@@ -1,40 +1,44 @@
-Important :
+BUG :
+
+- Build sync seems to create duplicate sometimes when saving same build ?
+
+Finishers :
 
 - Set up server hosting : Vercel -> Hetzner or OVH ?
 - meta tags
 
 - Add instructions: tooltips + tutorial (text and video ?)
 
+- example saved searches + edit saved search name
+
+- New theme
+
+WIP :
+
 - Add stat icons
 
 - Add a way to scroll to the category item from pano (and reverse) 
 - Scrolling on best items also scrolls on matching selected items category (?)
 
+- Navigation bar on left
+
+- Saved searches doesn't show on top of the view for smaller windows
+  -> OR move it between weights and best items
+
 - import from dofusDB - and more sites later ?
 - Open item in dofusDB / dofusbook 
 
-- Add item special description ?
-
-- Navigation bar on left
-
-- Better hover stat display if too low and can't see all
-
-- Improve best panos calculations ?
-- Item value = 0 when it has a requirement incompatible with min stats... ?
-- Don't include incompatible items when calculating pano value
-
 - Sort selected items by pano value
+- Separate display Dofus and Trophy with bonus pano < 3
 
-Do later :
-
-- example saved searches + edit saved search name
-
-- New theme
+- filter build by name
 
 NO :
 
-- Associate build to saved searches. Instead filter by level and requirements to always show the bests at the top...
-
 - Option for free weight/min/max input ? Wouldn't be saved precisely in url. Ask community ?
+
+- Add custom value to some items ? Maybe a multiplier or addition save in local storage
+
+- Save saved searches for each build -> NO Instead filter by level and requirements to always show the bests at the top...
 
 - No: Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)

@@ -54,7 +54,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "criticalDamage": 50
+      "criticalDamage": 50,
+      "pushbackResist": 100
     }
   },
   "63": {
@@ -132,7 +133,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "fireResist": 80
     }
   },
   "68": {
@@ -171,7 +173,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "neutralResistPer": 25
     }
   },
   "70": {
@@ -447,7 +450,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "fireResistPer": 25
     }
   },
   "5M": {
@@ -466,7 +470,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "waterResistPer": 25
     }
   },
   "5L": {
@@ -485,7 +490,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "airResistPer": 25
     }
   },
   "5O": {
@@ -504,7 +510,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "earthResistPer": 25
     }
   },
   "6C": {
@@ -699,7 +706,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 70
+      "power": 70,
+      "pushbackResist": 100
     }
   },
   "7z": {
@@ -956,7 +964,12 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
     }
   },
   "7o": {
@@ -1114,7 +1127,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "airResist": 80
     }
   },
   "6U": {
@@ -1133,7 +1147,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "waterResist": 80
     }
   },
   "6g": {
@@ -1332,7 +1347,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "criticalChance": 15
+      "criticalChance": 15,
+      "pushbackResist": 100
     }
   },
   "7p": {
@@ -1390,7 +1406,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "neutralResistPer": 10
     }
   },
   "6D": {
@@ -1589,7 +1606,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "neutralResist": 80
     }
   },
   "7w": {
@@ -1827,7 +1845,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "earthResist": 80
     }
   },
   "5A": {
@@ -2004,7 +2023,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "fireResistPer": 10
     }
   },
   "6i": {
@@ -2122,7 +2142,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "pushbackResist": 50
     }
   },
   "7r": {
@@ -2141,7 +2162,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "earthResistPer": 10
     }
   },
   "6S": {
@@ -2238,7 +2260,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "waterResistPer": 10
     }
   },
   "6I": {
@@ -2257,7 +2280,8 @@
     "subCategory": "pet",
     "criterions": "PZ=1",
     "stats": {
-      "vitality": 400
+      "vitality": 400,
+      "airResistPer": 10
     }
   },
   "6V": {
@@ -3745,7 +3769,12 @@
     "subCategory": "dragoturkey",
     "criterions": "PL>59",
     "stats": {
-      "power": 50
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "power": 50,
+      "waterResistPer": 5,
+      "airResistPer": 5,
+      "neutralResistPer": 5
     }
   },
   "nu": {
@@ -3823,7 +3852,12 @@
     "subCategory": "petmount",
     "criterions": "PZ=1",
     "stats": {
-      "power": 50
+      "power": 50,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5
     }
   },
   "pV": {
@@ -4038,7 +4072,8 @@
     "subCategory": "petmount",
     "criterions": "PZ=1",
     "stats": {
-      "criticalResist": 100
+      "criticalResist": 100,
+      "pushbackResist": 100
     }
   },
   "nh": {
@@ -4100,7 +4135,8 @@
     "subCategory": "petmount",
     "criterions": "PZ=1",
     "stats": {
-      "lock": 40
+      "lock": 40,
+      "pushbackResist": 80
     }
   },
   "oE": {
@@ -4278,7 +4314,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "waterResistPer": 8,
+      "mp": 1,
+      "airResistPer": 8
     }
   },
   "pe": {
@@ -4297,6 +4335,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 16,
       "mp": 1
     }
   },
@@ -4316,6 +4355,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 16,
       "mp": 1
     }
   },
@@ -4335,7 +4375,8 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "mp": 1,
+      "waterResistPer": 16
     }
   },
   "pj": {
@@ -4354,7 +4395,8 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "mp": 1,
+      "earthResistPer": 16
     }
   },
   "oQ": {
@@ -4513,6 +4555,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 8,
       "mp": 1,
       "power": 40
     }
@@ -4533,7 +4576,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "earthResistPer": 8,
+      "mp": 1,
+      "waterResistPer": 8
     }
   },
   "p4": {
@@ -4552,7 +4597,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "mp": 1,
+      "airResistPer": 8,
+      "earthResistPer": 8
     }
   },
   "pi": {
@@ -4571,7 +4618,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "mp": 1,
+      "earthResistPer": 8,
+      "fireResistPer": 8
     }
   },
   "oS": {
@@ -4590,6 +4639,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 8,
       "mp": 1,
       "power": 40
     }
@@ -4610,7 +4660,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "mp": 1,
+      "fireResistPer": 8,
+      "waterResistPer": 8
     }
   },
   "p3": {
@@ -4629,7 +4681,9 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
-      "mp": 1
+      "airResistPer": 8,
+      "mp": 1,
+      "fireResistPer": 8
     }
   },
   "oW": {
@@ -4648,6 +4702,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 8,
       "mp": 1,
       "power": 40
     }
@@ -4668,6 +4723,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 8,
       "lock": 30,
       "mp": 1
     }
@@ -4689,7 +4745,8 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
-      "lock": 30
+      "lock": 30,
+      "fireResistPer": 8
     }
   },
   "pD": {
@@ -4708,6 +4765,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 8,
       "lock": 30,
       "mp": 1
     }
@@ -4729,7 +4787,8 @@
     "criterions": "PL>59",
     "stats": {
       "lock": 30,
-      "mp": 1
+      "mp": 1,
+      "airResistPer": 8
     }
   },
   "pA": {
@@ -4791,6 +4850,7 @@
     "criterions": "PL>59",
     "stats": {
       "dodge": 30,
+      "earthResistPer": 8,
       "mp": 1
     }
   },
@@ -4811,7 +4871,8 @@
     "criterions": "PL>59",
     "stats": {
       "dodge": 30,
-      "mp": 1
+      "mp": 1,
+      "fireResistPer": 8
     }
   },
   "p7": {
@@ -4830,6 +4891,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 8,
       "dodge": 30,
       "mp": 1
     }
@@ -4851,7 +4913,8 @@
     "criterions": "PL>59",
     "stats": {
       "dodge": 30,
-      "mp": 1
+      "mp": 1,
+      "airResistPer": 8
     }
   },
   "oR": {
@@ -4891,6 +4954,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 8,
       "apResist": 30,
       "mp": 1
     }
@@ -4911,6 +4975,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 8,
       "apResist": 30,
       "mp": 1
     }
@@ -4932,7 +4997,8 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
-      "apResist": 30
+      "apResist": 30,
+      "waterResistPer": 8
     }
   },
   "p2": {
@@ -4951,6 +5017,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 8,
       "mp": 1,
       "apResist": 30
     }
@@ -5056,7 +5123,8 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
-      "mpResist": 30
+      "mpResist": 30,
+      "earthResistPer": 8
     }
   },
   "pO": {
@@ -5075,6 +5143,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 8,
       "mp": 1,
       "mpResist": 30
     }
@@ -5096,6 +5165,7 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
+      "waterResistPer": 8,
       "mpResist": 30
     }
   },
@@ -5116,6 +5186,7 @@
     "criterions": "PL>59",
     "stats": {
       "mpResist": 30,
+      "airResistPer": 8,
       "mp": 1
     }
   },
@@ -5199,6 +5270,7 @@
     "criterions": "PL>59",
     "stats": {
       "criticalChance": 6,
+      "earthResistPer": 8,
       "mp": 1
     }
   },
@@ -5218,6 +5290,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 8,
       "criticalChance": 6,
       "mp": 1
     }
@@ -5239,7 +5312,8 @@
     "criterions": "PL>59",
     "stats": {
       "criticalChance": 6,
-      "mp": 1
+      "mp": 1,
+      "waterResistPer": 8
     }
   },
   "pq": {
@@ -5259,7 +5333,8 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
-      "criticalChance": 6
+      "criticalChance": 6,
+      "airResistPer": 8
     }
   },
   "pp": {
@@ -5405,6 +5480,7 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
+      "earthResistPer": 8,
       "criticalDamage": 20
     }
   },
@@ -5425,6 +5501,7 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
+      "fireResistPer": 8,
       "criticalDamage": 20
     }
   },
@@ -5445,6 +5522,7 @@
     "criterions": "PL>59",
     "stats": {
       "mp": 1,
+      "waterResistPer": 8,
       "criticalDamage": 20
     }
   },
@@ -5464,6 +5542,7 @@
     "subCategory": "seemyool",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 8,
       "criticalDamage": 20,
       "mp": 1
     }
@@ -5590,6 +5669,7 @@
     "criterions": "PL>59",
     "stats": {
       "power": 40,
+      "waterResistPer": 8,
       "mp": 1
     }
   },
@@ -5709,6 +5789,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 80,
       "ap": 1
     }
   },
@@ -5828,7 +5909,8 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "ap": 1,
+      "earthResistPer": 12
     }
   },
   "rD": {
@@ -5847,6 +5929,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 12,
       "ap": 1
     }
   },
@@ -5866,6 +5949,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 12,
       "ap": 1
     }
   },
@@ -5885,6 +5969,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 12,
       "ap": 1
     }
   },
@@ -6031,6 +6116,7 @@
     "criterions": "PL>59",
     "stats": {
       "strength": 50,
+      "pushbackResist": 60,
       "ap": 1
     }
   },
@@ -6051,6 +6137,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "pushbackResist": 60,
       "intelligence": 50
     }
   },
@@ -6070,6 +6157,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 60,
       "chance": 50,
       "ap": 1
     }
@@ -6091,6 +6179,7 @@
     "criterions": "PL>59",
     "stats": {
       "agility": 50,
+      "pushbackResist": 60,
       "ap": 1
     }
   },
@@ -6110,6 +6199,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 60,
       "ap": 1,
       "pushbackDamage": 40
     }
@@ -6130,6 +6220,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 60,
       "ap": 1,
       "apReduction": 20
     }
@@ -6151,6 +6242,7 @@
     "criterions": "PL>59",
     "stats": {
       "mpReduction": 20,
+      "pushbackResist": 60,
       "ap": 1
     }
   },
@@ -6549,6 +6641,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "pushbackResist": 60,
       "criticalResist": 35
     }
   },
@@ -6757,6 +6850,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 60,
       "criticalChance": 5,
       "ap": 1
     }
@@ -6924,6 +7018,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 6,
       "strength": 50,
       "ap": 1
     }
@@ -6945,7 +7040,8 @@
     "criterions": "PL>59",
     "stats": {
       "intelligence": 50,
-      "ap": 1
+      "ap": 1,
+      "earthResistPer": 6
     }
   },
   "qS": {
@@ -6965,7 +7061,8 @@
     "criterions": "PL>59",
     "stats": {
       "chance": 50,
-      "ap": 1
+      "ap": 1,
+      "earthResistPer": 6
     }
   },
   "qQ": {
@@ -6984,6 +7081,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 6,
       "agility": 50,
       "ap": 1
     }
@@ -7004,7 +7102,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "earthResistPer": 6,
+      "ap": 1,
+      "pushbackResist": 60
     }
   },
   "qX": {
@@ -7024,6 +7124,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "earthResistPer": 6,
       "pushbackDamage": 40
     }
   },
@@ -7044,6 +7145,7 @@
     "criterions": "PL>59",
     "stats": {
       "apReduction": 20,
+      "earthResistPer": 6,
       "ap": 1
     }
   },
@@ -7063,6 +7165,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "earthResistPer": 6,
       "mpReduction": 20,
       "ap": 1
     }
@@ -7084,6 +7187,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "earthResistPer": 6,
       "criticalResist": 35
     }
   },
@@ -7104,6 +7208,7 @@
     "criterions": "PL>59",
     "stats": {
       "criticalChance": 5,
+      "earthResistPer": 6,
       "ap": 1
     }
   },
@@ -7124,6 +7229,7 @@
     "criterions": "PL>59",
     "stats": {
       "vitality": 100,
+      "earthResistPer": 6,
       "ap": 1
     }
   },
@@ -7143,7 +7249,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "ap": 1,
+      "fireResistPer": 6,
+      "earthResistPer": 6
     }
   },
   "qZ": {
@@ -7162,7 +7270,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "ap": 1,
+      "waterResistPer": 6,
+      "earthResistPer": 6
     }
   },
   "qO": {
@@ -7181,7 +7291,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "airResistPer": 6,
+      "ap": 1,
+      "earthResistPer": 6
     }
   },
   "ry": {
@@ -7201,7 +7313,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "strength": 50
+      "strength": 50,
+      "fireResistPer": 6
     }
   },
   "rx": {
@@ -7220,6 +7333,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 6,
       "ap": 1,
       "intelligence": 50
     }
@@ -7241,7 +7355,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "chance": 50
+      "chance": 50,
+      "fireResistPer": 6
     }
   },
   "rt": {
@@ -7261,7 +7376,8 @@
     "criterions": "PL>59",
     "stats": {
       "agility": 50,
-      "ap": 1
+      "ap": 1,
+      "fireResistPer": 6
     }
   },
   "rq": {
@@ -7280,7 +7396,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "ap": 1,
+      "fireResistPer": 6,
+      "pushbackResist": 60
     }
   },
   "rA": {
@@ -7300,6 +7418,7 @@
     "criterions": "PL>59",
     "stats": {
       "pushbackDamage": 40,
+      "fireResistPer": 6,
       "ap": 1
     }
   },
@@ -7320,6 +7439,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "fireResistPer": 6,
       "apReduction": 20
     }
   },
@@ -7339,6 +7459,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 6,
       "ap": 1,
       "mpReduction": 20
     }
@@ -7360,7 +7481,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "criticalResist": 35
+      "criticalResist": 35,
+      "fireResistPer": 6
     }
   },
   "ru": {
@@ -7380,7 +7502,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "criticalChance": 5
+      "criticalChance": 5,
+      "fireResistPer": 6
     }
   },
   "rs": {
@@ -7399,6 +7522,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "fireResistPer": 6,
       "ap": 1,
       "vitality": 100
     }
@@ -7419,6 +7543,8 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 6,
+      "fireResistPer": 6,
       "ap": 1
     }
   },
@@ -7438,7 +7564,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "fireResistPer": 6,
+      "ap": 1,
+      "airResistPer": 6
     }
   },
   "rM": {
@@ -7457,6 +7585,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 6,
       "strength": 50,
       "ap": 1
     }
@@ -7478,6 +7607,7 @@
     "criterions": "PL>59",
     "stats": {
       "intelligence": 50,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7498,6 +7628,7 @@
     "criterions": "PL>59",
     "stats": {
       "chance": 50,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7518,6 +7649,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "waterResistPer": 6,
       "agility": 50
     }
   },
@@ -7537,6 +7669,8 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "pushbackResist": 60,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7557,6 +7691,7 @@
     "criterions": "PL>59",
     "stats": {
       "pushbackDamage": 40,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7577,6 +7712,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "waterResistPer": 6,
       "apReduction": 20
     }
   },
@@ -7596,6 +7732,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "waterResistPer": 6,
       "ap": 1,
       "mpReduction": 20
     }
@@ -7617,7 +7754,8 @@
     "criterions": "PL>59",
     "stats": {
       "criticalResist": 35,
-      "ap": 1
+      "ap": 1,
+      "waterResistPer": 6
     }
   },
   "rI": {
@@ -7637,6 +7775,7 @@
     "criterions": "PL>59",
     "stats": {
       "criticalChance": 5,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7657,7 +7796,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "vitality": 100
+      "vitality": 100,
+      "waterResistPer": 6
     }
   },
   "rF": {
@@ -7676,6 +7816,8 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 6,
+      "waterResistPer": 6,
       "ap": 1
     }
   },
@@ -7695,6 +7837,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 6,
       "strength": 50,
       "ap": 1
     }
@@ -7716,7 +7859,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "intelligence": 50
+      "intelligence": 50,
+      "airResistPer": 6
     }
   },
   "qc": {
@@ -7736,7 +7880,8 @@
     "criterions": "PL>59",
     "stats": {
       "chance": 50,
-      "ap": 1
+      "ap": 1,
+      "airResistPer": 6
     }
   },
   "qa": {
@@ -7756,6 +7901,7 @@
     "criterions": "PL>59",
     "stats": {
       "agility": 50,
+      "airResistPer": 6,
       "ap": 1
     }
   },
@@ -7775,7 +7921,9 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
-      "ap": 1
+      "ap": 1,
+      "airResistPer": 6,
+      "pushbackResist": 60
     }
   },
   "qh": {
@@ -7795,6 +7943,7 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
+      "airResistPer": 6,
       "pushbackDamage": 40
     }
   },
@@ -7815,7 +7964,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "apReduction": 20
+      "apReduction": 20,
+      "airResistPer": 6
     }
   },
   "qi": {
@@ -7835,7 +7985,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "mpReduction": 20
+      "mpReduction": 20,
+      "airResistPer": 6
     }
   },
   "qg": {
@@ -7855,7 +8006,8 @@
     "criterions": "PL>59",
     "stats": {
       "criticalResist": 35,
-      "ap": 1
+      "ap": 1,
+      "airResistPer": 6
     }
   },
   "qb": {
@@ -7875,7 +8027,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "criticalChance": 5
+      "criticalChance": 5,
+      "airResistPer": 6
     }
   },
   "q9": {
@@ -7894,6 +8047,7 @@
     "subCategory": "rhineetle",
     "criterions": "PL>59",
     "stats": {
+      "airResistPer": 6,
       "ap": 1,
       "vitality": 100
     }
@@ -7936,7 +8090,8 @@
     "criterions": "PL>59",
     "stats": {
       "ap": 1,
-      "vitality": 100
+      "vitality": 100,
+      "pushbackResist": 60
     }
   },
   "qo": {

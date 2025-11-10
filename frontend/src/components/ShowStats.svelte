@@ -53,9 +53,12 @@
                                     <span class="overstat">{overStats[statKey]}→</span>
                                 {/if}<span
                                     class:invalid={isBuild && $minStats[statKey] > stats[statKey]}
-                                    >{Math.floor(stats[statKey])}</span
+                                    >{Math.floor(stats[statKey] ?? 0) +
+                                        (stats[statKey] < 0 && (stats[statKey] ?? 0) % 1 !== 0
+                                            ? 1
+                                            : 0)}</span
                                 >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
-                                        >{(stats[statKey] % 1).toString().slice(1)}</span
+                                        >{(Math.abs(stats[statKey]) % 1).toString().slice(1)}</span
                                     >{/if}</td
                             >
                             <td>{$words.stats[statKey]}</td>
@@ -80,13 +83,18 @@
                                             compareStats[statKey]})</span
                                     >{/if}
                                 {#if overStats && overStats[statKey] != stats[statKey]}
-                                    <span class="overstat">{overStats[statKey]}→</span>{/if}
-                                <span
+                                    <span class="overstat">{overStats[statKey]}→</span>{/if}<span
                                     class:invalid={isBuild && $minStats[statKey] > stats[statKey]}
                                 >
-                                    <span>{Math.floor(stats[statKey] ?? 0)}</span
+                                    <span
+                                        >{Math.floor(stats[statKey] ?? 0) +
+                                            (stats[statKey] < 0 && (stats[statKey] ?? 0) % 1 !== 0
+                                                ? 1
+                                                : 0)}</span
                                     >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
-                                            >{(stats[statKey] % 1).toString().slice(1)}</span
+                                            >{(Math.abs(stats[statKey]) % 1)
+                                                .toString()
+                                                .slice(1)}</span
                                         >{/if}
                                 </span></td
                             >

@@ -15,6 +15,22 @@
     "subCategory": "dofus",
     "stats": {
       "power": 80
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Pourpre Profond",
+        "en": "Deep Crimson",
+        "pt": "Púrpura Profundo",
+        "de": "Purpurrot",
+        "es": "Púrpura Profundo"
+      },
+      "description": {
+        "fr": "Pourpre Profond :\n• Lorsque le porteur est attaqué, il gagne 1% de dommages finaux pendant 2 tours (cumulable 10 fois).",
+        "en": "Deep Crimson:\n• When attacked, the bearer gains 1% final damage for 2 turns (stackable 10 times).",
+        "pt": "Púrpura Profundo:\n• Quando o portador é atacado, ele recebe 1% de danos finais por 2 turnos (acumula 10 vezes).",
+        "de": "Purpurrot:\n• Wenn der Träger angegriffen wird, erhöht sich sein Endschaden 2 Runden lang um 1 % (10-mal kumulierbar).",
+        "es": "Púrpura Profundo:\n• Cuando el portador es atacado, gana un 1% de daños finales durante 2 turnos (acumulable 10 veces)."
+      }
     }
   },
   "xQ": {
@@ -33,6 +49,22 @@
     "subCategory": "dofus",
     "stats": {
       "vitality": 200
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Vert Émeraude",
+        "en": "Emerald Green",
+        "pt": "Verde-esmeralda",
+        "de": "Smaragdgrün",
+        "es": "Verde Esmeralda"
+      },
+      "description": {
+        "fr": "Vert Émeraude :\n• Lorsque le porteur termine son tour, il gagne 100% de son niveau en bouclier pendant 1 tour pour chaque combattant ennemi à son contact.",
+        "en": "Emerald Green:\n• At the end of their turn, the bearer gains 100% of their level as shield for 1 turn for each adjacent enemy fighter.",
+        "pt": "Verde-esmeralda:\n• Quando o portador termina seu turno, ele ganha 100% de seu nível em escudo durante 1 turno por combatente inimigo em contato com ele.",
+        "de": "Smaragdgrün:\n• Am Rundenende erhält der Träger 1 Runde lang für jeden Gegner in Nahkampfentfernung 100 % seiner Stufe als Schildpunkte.",
+        "es": "Verde Esmeralda:\n• Cuando el portador termina su turno, gana un 100% de su nivel en escudo durante 1 turno por cada luchador enemigo en contacto con él."
+      }
     }
   },
   "HR": {
@@ -51,6 +83,22 @@
     "subCategory": "dofus",
     "stats": {
       "criticalChance": 10
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Bleu Turquoise",
+        "en": "Turquoise Blue",
+        "pt": "Azul-turquesa",
+        "de": "Türkisblau",
+        "es": "Azul Turquesa"
+      },
+      "description": {
+        "fr": "Bleu Turquoise :\n• Lorsque le porteur effectue un coup critique, il gagne 1% de dommages finaux pendant 3 tours (cumulable 10 fois).",
+        "en": "Turquoise Blue:\n• When the bearer lands a critical hit, they gain 1% final damage for 3 turns (stackable 10 times).",
+        "pt": "Azul-turquesa:\n• Quando o portador efetua um golpe crítico, ele recebe 1% de danos finais por 3 turnos (acumula 10 vezes).",
+        "de": "Türkisblau:\n• Wenn der Träger einen kritischen Treffer landet, erhöht sich sein Endschaden 3 Runden lang um 1 % (10-mal kumulierbar).",
+        "es": "Azul Turquesa:\n• Cuando el portador asesta un golpe crítico, gana un 1% de daños finales durante 3 turnos (acumulable 10 veces)."
+      }
     }
   },
   "nt": {
@@ -69,6 +117,22 @@
     "subCategory": "dofus",
     "stats": {
       "wisdom": 60
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Sagesse Wabbit",
+        "en": "Wabbit Wisdom",
+        "pt": "Sabedoria Wabbit",
+        "de": "Weisheit des Wabbits",
+        "es": "Sabiduría Wabbit"
+      },
+      "description": {
+        "fr": "Sagesse Wabbit :\n• Lorsque le porteur subit une tentative de retrait de PA ou de PM, il gagne 25 Esquive PA ou 25 Esquive PM pendant 1 tour (cumulable 1 fois, partagé entre les effets).",
+        "en": "Wabbit Wisdom:\n• When the bearer suffers an attempted AP or MP removal, they gain 25 AP Dodge or 25 MP Dodge for 1 turn (stackable 1 time, shared among effects).",
+        "pt": "Sabedoria Wabbit:\n• Quando o portador sofre uma tentativa de retirada de PA ou PM, ele ganha 25 de esquiva PA ou 25 de esquiva PM por 1 turno (acumula 1 vez, compartilhado entre os efeitos).",
+        "de": "Weisheit des Wabbits:\n• Wenn ein Gegner versucht, dem Träger AP oder BP zu entziehen, erhält dieser 1 Runde lang 25 Res. gg. AP-Entzug oder 25 Res. gg. BP-Entzug (1-mal kumulierbar, auf die einzelnen Wirkungen aufgeteilt).",
+        "es": "Sabiduría Wabbit:\n• Cuando el portador sufre un intento de retirada de PA o de PM, gana 25 de esquiva de PA o 25 de esquiva de PM durante 1 turno (acumulable 1 vez, compartido entre los efectos)."
+      }
     }
   },
   "Kc": {
@@ -87,6 +151,22 @@
     "subCategory": "dofus",
     "stats": {
       "mp": 1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Rouge Vermeil",
+        "en": "Ruby Red",
+        "pt": "Vermelho Colorado",
+        "de": "Leuchtend Rot",
+        "es": "Rojo Bermejo"
+      },
+      "description": {
+        "fr": "Rouge Vermeil :\n• À chaque début de tour, le porteur gagne 10% de dommages finaux s'il n'a subi aucune attaque ennemie depuis son précédent tour de jeu. Sinon, il gagne 20 de Tacle.",
+        "en": "Ruby Red:\n• At the start of each turn, the bearer gains 10% final damage if they haven't suffered any enemy attacks since their previous turn. Otherwise, the bearer gains 20 Lock.",
+        "pt": "Vermelho Colorado:\n• A cada início de turno, o portador ganha 10% de danos finais se não tiver sofrido nenhum ataque inimigo desde seu turno de jogo anterior. Do contrário, ele ganha 20 de bloqueio.",
+        "de": "Leuchtend Rot:\n• Wenn der Träger seit seiner letzten Spielrunde nicht von einem Gegner angegriffen wurde, erhöht sich sein Endschaden jeweils zu Rundenbeginn um 10 %. Ansonsten erhält er 20 Blocken.",
+        "es": "Rojo Bermejo:\n• Al principio de cada turno, el portador gana un 10% de daños finales si no ha recibido ningún ataque enemigo desde su turno de juego anterior. Si no, gana 20 de placaje."
+      }
     }
   },
   "K4": {
@@ -127,6 +207,22 @@
     "subCategory": "dofus",
     "stats": {
       "criticalResist": 30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Harmonie de Pandala",
+        "en": "Harmony of Pandala",
+        "pt": "Harmonia de Pandala",
+        "de": "Harmonie von Pandala",
+        "es": "Armonía de Pandala"
+      },
+      "description": {
+        "fr": "Harmonie de Pandala :\n• Lorsque le porteur occasionne des dommages durant son tour de jeu, lui et ses alliés porteurs du {{item,23408::Dorigami}} gagnent 20 de Dommages pendant 1 tour.\n• S'il n'occasionne aucun dommages, lui et ses alliés porteurs du {{item,23237::Domakuro}} gagnent 150% du niveau du porteur en bouclier pendant 1 tour.",
+        "en": "Harmony of Pandala:\n• When the bearer inflicts damage during their turn, they and their allies carrying the {{item,23408::Dorigami}} gain 20 Damage for 1 turn.\n• If the bearer does not inflict damage, they and their allies carrying the {{item,23237::Domakuro}} gain 150% of the bearer's level as shield for 1 turn.",
+        "pt": "Harmonia de Pandala:\n• Quando o portador causa dano durante seu turno de jogo, ele e seus aliados que estiverem portando o {{item,23408::Dorigami}} ganham 20 de danos por 1 turno.\n• Se não infligir danos, ele e seus aliados portadores do {{item,23237::Domakuro}} ganharão 150% do nível do portador em escudo durante 1 turno.",
+        "de": "Harmonie von Pandala:\n• Wenn der Träger während seiner Runde Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23408::Dorigami}} bei sich tragen, 1 Runde lang 20 Schaden.\n• Wenn er keinen Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23237::Domakuro}} bei sich tragen, 1 Runde lang 150 % der Stufe des Trägers als Schild.",
+        "es": "Armonía de Pandala:\n• Cuando el portador ocasiona daños durante su turno, él y sus aliados portadores del {{item,23408::dorigami}} ganan 20 de daño durante 1 turno.\n• Si no ocasiona daños, él y sus aliados portadores del {{item,23237::domakuro}} ganan un 150% del nivel del portador en escudo durante 1 turno."
+      }
     }
   },
   "1q": {
@@ -163,6 +259,60 @@
     "subCategory": "dofus",
     "stats": {
       "dodge": 40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Noir Ébène",
+        "en": "Ebony Black",
+        "pt": "Negro Ébano",
+        "de": "Ebenholzschwarz",
+        "es": "Negro Ébano"
+      },
+      "description": {
+        "fr": "Noir Ébène :\n• Lorsque le porteur attaque en mêlée durant son tour, il gagne 1% de dommages à distance pendant 3 tours (cumulable 10 fois).\n• Lorsqu'il attaque à distance, il gagne 1% de dommages en mêlée pendant 3 tours (cumulable 10 fois).\n• Déclencher les 2 effets dans le tour permet à la prochaine attaque d'appliquer un poison de 16 dans son élément pendant 2 tours (cumulable 2 fois, une fois tous les 2 tours).",
+        "en": "Ebony Black:\n• When the bearer attacks in close combat during their turn, they gain 1% ranged damage for 3 turns (stackable 10 times).\n• When they attack from long range, they gain 1% close-combat damage for 3 turns (stackable 10 times).\n• Triggering both effects during the turn allows the next attack to apply a 16 poison in its element for 2 turns (stackable 2 times, once every 2 turns).",
+        "pt": "Negro Ébano:\n• Quando o portador efetua um ataque no corpo a corpo durante seu turno, ele recebe 1% de danos a distância por 3 turnos (acumula 10 vezes).\n• Quando ataca a distância, ele ganha 1% de danos no corpo a corpo durante 3 turnos (acumula 10 vezes).\n• Acionar os 2 efeitos em um turno permite que o próximo ataque aplique um veneno de 16 em seu elemento durante 2 turnos (acumula 2 vezes, uma vez a cada 2 turnos).",
+        "de": "Ebenholzschwarz:\n• Wenn der Träger während seiner Runde einen Nahkampfangriff ausführt, erhöht sich sein Fernkampfschaden 3 Runden lang um 1 % (10-mal kumulierbar).\n• Wenn er einen Fernkampfangriff ausführt, erhöht sich sein Nahkampfschaden 3 Runden lang um 1 % (10-mal kumulierbar).\n• Werden beide Wirkungen in derselben Runde ausgelöst, kann der Träger beim nächsten Angriff ein Gift anwenden, das 2 Runden lang 16 Schaden in seinem Element verursacht (2-mal kumulierbar, einmal alle 2 Runden).",
+        "es": "Negro Ébano:\n• Cuando el portador ataca en cuerpo a cuerpo durante su turno, gana un 1% de daños a distancia durante 3 turnos (acumulable 10 veces).\n• Cuando ataca a distancia, gana un 1% de daños en cuerpo a cuerpo durante 3 turnos (acumulable 10 veces).\n• Activar los 2 efectos en el turno permite aplicar en el siguiente ataque un veneno de 16 con su elemento durante 2 turnos (acumulable 2 veces, una vez cada 2 turnos)."
+      }
+    }
+  },
+  "K8": {
+    "id": "K8",
+    "idDofusDB": "674e524064788cc741418d30",
+    "idDofusBook": 7115,
+    "name": {
+      "fr": "Dofus Ivoire",
+      "en": "Ivory Dofus",
+      "pt": "Dofus Marfim",
+      "de": "Elfenbein-Dofus",
+      "es": "Dofus Marfil"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "neutralResistPer": 4,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Blanc Ivoire",
+        "en": "Ivory White",
+        "pt": "Branco-marfim",
+        "de": "Elfenbeinweiß",
+        "es": "Blanco Marfil"
+      },
+      "description": {
+        "fr": "Blanc Ivoire :\n• Le porteur réduit de 50% les dommages d'une attaque sur 5. Les effets d'interception et de partage de dommages sont incompatibles.",
+        "en": "Ivory White:\n• The bearer reduces damage from one out of five attacks by 50%. Interception and damage-sharing effects are incompatible.",
+        "pt": "Branco-marfim:\n• O portador reduz em 50% os danos de um ataque em cinco. Os efeitos de interceptação e partilha de dano são incompatíveis.",
+        "de": "Elfenbeinweiß:\n• Bei jedem fünften Angriff des Trägers reduziert sich der Schaden um 50 %. Die Wirkungen von „Abfangen“ und „Schadensteilung“ sind damit nicht kompatibel.",
+        "es": "Blanco Marfil:\n• El portador reduce un 50% los daños de un ataque de cada 5. Los efectos de interceptación y de reparto de daños son incompatibles."
+      }
     }
   },
   "HQ": {
@@ -181,6 +331,22 @@
     "subCategory": "dofus",
     "stats": {
       "ap": 1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Jaune Ocre",
+        "en": "Ochre Yellow",
+        "pt": "Amarelo Ocre",
+        "de": "Ockergelb",
+        "es": "Amarillo Ocre"
+      },
+      "description": {
+        "fr": "Jaune Ocre :\n• À chaque début de tour, le porteur gagne 1 PA s'il n'a subi aucune attaque ennemie depuis son précédent tour de jeu. Sinon, il gagne 20 de Fuite.",
+        "en": "Ochre Yellow:\n• At the start of each turn, the bearer gains 1 AP if they haven't suffered any enemy attacks since their previous turn. Otherwise, the bearer gains 20 Dodge.",
+        "pt": "Amarelo Ocre:\n• A cada início de turno, o portador ganha 1 PA se não tiver sofrido nenhum ataque inimigo desde seu turno de jogo anterior. Do contrário, ele ganha 20 de fuga.",
+        "de": "Ockergelb:\n• Wenn der Träger seit seiner letzten Spielrunde nicht von einem Gegner angegriffen wurde, erhält er jeweils zu Rundenbeginn 1 AP. Ansonsten erhält er 20 Ausweichen.",
+        "es": "Amarillo Ocre:\n• Al principio de cada turno, el portador gana 1 PA si no ha sufrido ningún ataque enemigo desde su turno de juego anterior. Si no, gana 20 de huida."
+      }
     }
   },
   "xR": {
@@ -215,7 +381,23 @@
     "level": 180,
     "category": "dofus",
     "subCategory": "dofus",
-    "stats": {}
+    "stats": {},
+    "specialEffect": {
+      "name": {
+        "fr": "Rêve Nébuleux",
+        "en": "Nebulous Dream",
+        "pt": "Sonho Nebuloso",
+        "de": "Nebulöser Traum",
+        "es": "Sueño Nebuloso"
+      },
+      "description": {
+        "fr": "Rêve Nébuleux :\n• Les tours impairs, le porteur gagne 20% de dommages finaux mais perd 10% de soins finaux.\n• Les tours pairs, il gagne 20% de soins finaux mais perd 10% de dommages finaux.",
+        "en": "Nebulous Dream:\n• On odd turns, the bearer gains 20% final damage but loses 10% final healing.\n• On even turns, the bearer gains 20% final healing but loses 10% final damage.",
+        "pt": "Sonho Nebuloso:\n• Nos turnos ímpares, o portador ganha 20% de danos finais, mas perde 10% de curas finais.\n• Nos turnos pares, ele ganha 20% de curas finais, mas perde 10% de danos finais.",
+        "de": "Nebulöser Traum:\n• In ungeraden Runden erhält der Träger 20 % Endschaden zusätzlich, dafür reduziert sich seine Endheilung um 10 %.\n• In geraden Runden erhält er 20 % Endheilung zusätzlich, dafür reduziert sich sein Endschaden um 10 %.",
+        "es": "Sueño Nebuloso:\n• Los turnos impares el portador gana un 20% de daños finales pero pierde un 10% de curas finales.\n• Los turnos pares gana un 20% de curas finales pero pierde un 10% de daños finales."
+      }
+    }
   },
   "uG": {
     "id": "uG",
@@ -290,6 +472,22 @@
     "subCategory": "dofus",
     "stats": {
       "apResist": 20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Veille Dimensionnelle",
+        "en": "Dimensional Vigil",
+        "pt": "Vigilância Dimensional",
+        "de": "Dimensionswache",
+        "es": "Vigilia Dimensional"
+      },
+      "description": {
+        "fr": "Veille Dimensionnelle :\n• Lorsque le porteur termine son tour, il soigne ses alliés alignés avec lui de 7% de leur vie.",
+        "en": "Dimensional Vigil:\n• When the bearer ends their turn, heals all allies in line with the bearer for 7% of their HP.",
+        "pt": "Vigilância Dimensional:\n• Quando o portador termina seu turno, ele cura todos os aliados alinhados a ele em 7% da vida.",
+        "de": "Dimensionswache:\n• Wenn der Träger seine Runde beendet, heilt er die mit ihm in einer Linie stehenden Verbündeten um 7 % ihrer LP.",
+        "es": "Vigilia Dimensional:\n• Cuando el portador termina su turno, cura a sus aliados alineados con él un 7% de su vida."
+      }
     }
   },
   "K2": {
@@ -306,7 +504,57 @@
     "level": 180,
     "category": "dofus",
     "subCategory": "dofus",
-    "stats": {}
+    "stats": {},
+    "specialEffect": {
+      "name": {
+        "fr": "Descente aux Abysses",
+        "en": "Descent to the Abysses",
+        "pt": "Descida aos Abismos",
+        "de": "Abstieg in die Untiefen",
+        "es": "Descenso a los Abismos"
+      },
+      "description": {
+        "fr": "Descente aux Abysses :\n• À chaque début de tour, le porteur gagne 1 PM si aucun ennemi n'est à son contact. Sinon, il gagne 1 PA.",
+        "en": "Descent to the Abysses:\n• At the start of each turn, the bearer earns 1 MP if they have no adjacent enemies. Otherwise, they gain 1 AP.",
+        "pt": "Descida aos Abismos:\n• A cada início de turno, o portador ganha 1 PM se não houver nenhum inimigo em contato com ele. Caso contrário, ele ganha 1 PA.",
+        "de": "Abstieg in die Untiefen:\n• Wenn sich kein Gegner in Nahkampfentfernung befindet, erhält der Träger jeweils zu Rundenbeginn 1 BP. Andernfalls erhält er 1 AP.",
+        "es": "Descenso a los Abismos:\n• Al principio de cada turno, el portador gana 1 PM si ningún enemigo está con contacto con él. Si no, gana 1 PA."
+      }
+    }
+  },
+  "K7": {
+    "id": "K7",
+    "idDofusDB": "674e524164788cc74141b2df",
+    "idDofusBook": 19398,
+    "name": {
+      "fr": "Dofus Forgelave",
+      "en": "Lavasmith Dofus",
+      "pt": "Dofus Forjalava",
+      "de": "Lavaschmied-Dofus",
+      "es": "Dofus forjalava"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "pushbackResist": 100
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Forge du Volcan",
+        "en": "Volcano Forge",
+        "pt": "Forja do Vulcão",
+        "de": "Vulkanschmiede",
+        "es": "Forja del Volcán"
+      },
+      "description": {
+        "fr": "Forge du Volcan :\n• Le porteur gagne 100% de son niveau en bouclier selon les effets qu'il subit d'un ennemi (1 fois par type d'effet par tour) :\n • Dommages de poussée\n • Attirance ou poussée\n • Échange de positions, téléportation ou téléportail\n • Portage Pandawa",
+        "en": "Volcano Forge:\n• The bearer gains 100% of their level as shield based on the enemy effects suffered (1 time per effect type per turn):\n • pushback damage\n • attraction or pushback\n • place switching, teleportation or teleportal\n• carried by a Pandawa",
+        "pt": "Forja do Vulcão:\n• O portador recebe 100% do seu nível em escudo de acordo com os efeitos que sofrer de um inimigo (1 vez por tipo de efeito por turno):\n • Danos de empurrão\n • Atração ou empurrão\n • Troca de lugar, teletransporte ou teleportal\n• Carregamento Pandawa",
+        "de": "Vulkanschmiede:\n• Der Träger erhält entsprechend den Wirkungen, die durch einen Gegner ausgelöst wurden, 100 % seiner Stufe als Schildpunkte (1 Mal pro Wirkungsart und Runde):\n • Schubsschaden\n • Anziehung oder Schubsen\n • Positionstausch, Teleportation oder Teleportal\n• Tragen durch Pandawa",
+        "es": "Forja del Volcán:\n• El portador gana un 100% de su nivel en escudo según los efectos que sufre de un enemigo (1 vez por tipo de efecto por turno):\n • Daños de empuje\n • Atracción o empuje\n • Cambio de posiciones, teletransportación o teleportal\n• Porteo pandawa"
+      }
+    }
   },
   "K3": {
     "id": "K3",
@@ -322,7 +570,23 @@
     "level": 180,
     "category": "dofus",
     "subCategory": "dofus",
-    "stats": {}
+    "stats": {},
+    "specialEffect": {
+      "name": {
+        "fr": "Promesse d'Argent",
+        "en": "Promise of Silver",
+        "pt": "Promessa de Prata",
+        "de": "Silbernes Versprechen",
+        "es": "Promesa de Plata"
+      },
+      "description": {
+        "fr": "Promesse d'Argent :\n• Lorsque le porteur descend sous les 20% de sa vie, il est soigné de 30% de sa vie et gagne 20% de dommages finaux pendant 1 tour au début de son prochain tour (1 fois par combat).",
+        "en": "Promise of Silver:\n• When the bearer falls below 20% health, they are healed for 30% of their health and gain 20% final damage for 1 turn at the start of their next turn (once per fight).",
+        "pt": "Promessa de Prata:\n• Quando o lançador estiver com menos de 20% de sua vida, ele será curado em 30% da vida e ganhará 20% de danos finais durante 1 turno no começo do próximo turno dele (1 vez por combate).",
+        "de": "Silbernes Versprechen:\nWenn der Träger weniger als 20 % seiner Lebenspunkte besitzt, wird er um 30 % seiner LP geheilt und erhält zu Beginn seiner nächsten Runde 1 Runde lang 20 % Endschaden (1 Mal pro Kampf).",
+        "es": "Promesa de Plata:\n• Cuando el portador tiene menos de un 20% de vida, se cura un 30% de su vida y gana un 20% de daños finales durante 1 turno al principio de su próximo turno (1 vez por combate)."
+      }
+    }
   },
   "jk": {
     "id": "jk",
@@ -358,6 +622,22 @@
     "subCategory": "dofus",
     "stats": {
       "summon": 1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Rivière d'Encre",
+        "en": "Ink River",
+        "pt": "Rio de Tinta",
+        "de": "Tintenfluss",
+        "es": "Río de Tinta"
+      },
+      "description": {
+        "fr": "Rivière d'Encre :\n• À partir du tour 5, le porteur et ses invocations gagnent jusqu'à 64 de Dommages jusqu'à la fin du combat.\n• Ce bonus est réduit à chaque fois que le porteur occasionne des dommages durant son tour à un ennemi pour chacun des 4 premiers tours du combat :\n • Aucune attaque : 16 Dommages\n • 1 attaque : 8 Dommages.\n • 2 attaques et plus : 0 Dommages.",
+        "en": "Ink River:\n• Starting on turn 5, the bearer and their summons gain up to 64 Damage until the end of the fight.\n• This bonus is reduced each time the bearer inflicts damage on an enemy during their turn for each of the first 4 turns of the fight:\n • No attacks: 16 Damage\n • 1 attack: 8 Damage\n• 2 attacks or more: 0 Damage",
+        "pt": "Rio de Tinta:\n• A partir do 5º turno, o portador e suas invocações ganham até 64 de danos até o fim do combate.\n• Esse bônus diminui sempre que o portador inflige danos a um inimigo durante seu turno para cada um dos 4 primeiros turnos do combate:\n • Nenhum ataque: 16 de danos.\n • 1 ataque: 8 de danos.\n• 2 ataques e mais: 0 de danos.",
+        "de": "Tintenfluss:\n• Ab Runde 5 erhalten der Träger und seine Beschwörungen bis zu 64 Schaden bis zum Ende des Kampfes.\n• Dieser Bonus verringert sich jedes Mal, wenn der Träger einem Gegner während der ersten 4 Kampfrunden Schaden zufügt:\n • Kein Angriff: 16 Schaden.\n • 1 Angriff: 8 Schaden.\n• Ab 2 Angriffen: 0 Schaden.",
+        "es": "Río de Tinta:\n• A partir del turno 5, el portador y sus invocaciones ganan hasta 64 de daño hasta el final del combate.\n• Este bonus se reduce cada vez que el portador ocasione daños durante su turno a un enemigo en cada uno de los 4 primeros turnos del combate:\n • Ningún ataque: 16 de daño.\n • 1 ataque: 8 de daño.\n• 2 ataques o más: 0 de daño."
+      }
     }
   },
   "FM": {
@@ -376,6 +656,22 @@
     "subCategory": "dofus",
     "stats": {
       "mpResist": 20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Tigre de Papier",
+        "en": "Paper Tiger",
+        "pt": "Tigre de Papel",
+        "de": "Papiertiger",
+        "es": "Tigre de Papel"
+      },
+      "description": {
+        "fr": "Tigre de Papier :\n• À chaque début de tour sur les 5 premiers tours, le porteur gagne 100% de son niveau en bouclier pendant 1 tour.\n• Sur ces 5 premiers tours, si le porteur achève un ennemi durant son tour de jeu, il gagne un bouclier pendant 2 tours selon la nature de l'ennemi :\n • Invocation : 100% de son niveau en bouclier (cumulable 4 fois).\n • Combattant : 300% de son niveau en bouclier (cumulable 2 fois).",
+        "en": "Paper Tiger:\n• For the first 5 turns, the bearer gains 100% of their level as shield for 1 turn at the start of every turn.\n• For the first 5 turns, if the bearer kills an enemy during their turn, they gain a shield for 2 turns based on the nature of the enemy:\n • Summons: 100% of its level as shield (stackable 4 times).\n• Fighter: 300% of its level as shield (stackable 2 times).",
+        "pt": "Tigre de Papel:\n• A cada início de turno nos 5 primeiros turnos, o lançador ganha 100% de seu nível em escudo durante 1 turno.\n• Nesses 5 primeiros turnos, se o portador eliminar um inimigo durante seu turno de jogo, ele ganhará um escudo durante 2 turnos de acordo com a natureza do inimigo:\n • Invocação: 100% de seu nível em escudo (acumula 4 vezes).\n• Combatente: 300% de seu nível em escudo (acumula 2 vezes).",
+        "de": "Papiertiger:\n• In den ersten 5 Spielrunden erhält der Träger jedes Mal zu Rundenbeginn 1 Runde lang 100 % seiner Stufe als Schild.\n• Wenn der Träger in den ersten 5 Spielrunden einen Gegner besiegt, erhält er 2 Runden lang einen Schild. Der Schild hängt von der Art des Gegners ab:\n • Beschwörung: 100 % seiner Stufe als Schild (4-mal kumulierbar).\n• Kämpfer: 300 % seiner Stufe als Schild (2-mal kumulierbar).",
+        "es": "Tigre de Papel:\n• Al principio de los 5 primeros turnos, el portador gana un 100% de su nivel en escudo durante 1 turno.\n• En estos 5 primeros turnos, si el portador acaba con un enemigo durante su turno de juego, gana un escudo durante 2 turnos según la naturaleza del enemigo:\n • Invocación: 100% de su nivel en escudo (acumulable 4 veces).\n• Luchador: 300% de su nivel en escudo (acumulable 2 veces)."
+      }
     }
   },
   "K5": {
@@ -394,6 +690,22 @@
     "subCategory": "dofus",
     "stats": {
       "initiative": 1000
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Éternel Cauchemar",
+        "en": "Nightmare Eternal",
+        "pt": "Eterno Pesadelo",
+        "de": "Ewiger Alptraum",
+        "es": "Pesadilla Eterna"
+      },
+      "description": {
+        "fr": "Bouclier Bontarien :\n• Lorsque le porteur est désenvoûté ou entravé, il gagne 100% de son niveau en bouclier pour 1 tour.\n\nPuissance Brâkmarienne : \n• Lorsque le porteur occasionne ou subit des dommages de poussée, il gagne 100 de Puissance pour 1 tour. \n\nŒil du Cauchemar :\n• Si le porteur déclenche le Bouclier Bontarien et la Puissance Brâkmarienne dans le même tour, les dommages qu'il occasionne et subit sont augmentés de 10% pendant 1 tour.\n\nLes effets ne peuvent être déclenchés qu'une seule fois par tour.",
+        "en": "Bontarian Shield:\n• When the bearer is unbewitched or debuffed, the bearer gains 100% of their level as shield for 1 turn.\n\nBrakmarian Power: \n• Whenever the bearer inflicts or suffers pushback damage, the bearer gains 100 Power for 1 turn. \n\nNightmare Eye:\n• If the bearer triggers Bontarian Shield and Brakmarian Power in the same turn, the damage they inflict and suffer increases by 10% for 1 turn.\n\nThe effects can only be triggered once per turn.",
+        "pt": "Escudo Bontariano:\n• Quando o portador é desencantado ou entravado, ele ganha em escudo o equivalente a 100% de seu nível durante 1 turno.\n\nPotência Brakmariana: \n• Quando o portador inflige ou sofre danos de empurrão, ele ganha 100 de potência durante 1 turno. \n\nOlho do Pesadelo:\n• Se o portador acionar o Escudo Bontariano e a Potência Brakmariana no mesmo turno, os danos que ele inflige e sofre aumentam em 10% durante 1 turno.\n\nOs efeitos só podem ser acionados uma vez por turno.",
+        "de": "Bonta-Schild:\n• Wenn der Träger entzaubert oder gefesselt ist, erhält er 1 Runde lang 100 % Schildstufe.\n\nBrâk-Schlagkraft: \n• Wenn der Träger Schubsschaden verursacht oder erleidet, erhält er 1 Runde lang 100 Schlagkraft. \n\nAuge des Alptraums:\n• Löst der Träger den Bonta-Schild und die Brâk-Schlagkraft in derselben Runde aus, erhöht sich der von ihm verursachte und erlittene Schaden 1 Runde lang um 10 %.\n\nWirkungen können nur einmal pro Runde ausgelöst werden.",
+        "es": "Escudo Bontariano:\n• Cuando el portador es desembrujado o trabado, gana un escudo del 100% de su nivel durante 1 turno.\n\nPotencia Brakmariana: \n• Cuando el portador ocasiona o sufre daños de empuje, gana 100 de potencia durante 1 turno. \n\nOjo de Pesadilla:\n• Si el portador activa Escudo Bontariano y Potencia Brakmariana en el mismo turno, los daños que ocasiona y sufre aumentan un 10% durante 1 turno.\n\nLos efectos pueden activarse solo una vez por turno."
+      }
     }
   },
   "Ka": {
@@ -412,6 +724,22 @@
     "subCategory": "dofus",
     "stats": {
       "range": 2
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Garde Champêtre",
+        "en": "Country Ranger",
+        "pt": "Guarda Campestre",
+        "de": "Feldschütz",
+        "es": "Guarda Campestre"
+      },
+      "description": {
+        "fr": "Garde Champêtre :\n• Le porteur gagne 8 de Puissance pendant 2 tours pour chaque PM qu'il utilise (cumulable 20 fois).\n• S'il n'a utilisé aucun PM durant son tour, il est soigné de 10% de sa vie.",
+        "en": "Country Ranger:\n• The bearer gains 8 Power for 2 turns for each MP they use (stackable 20 times).\n• If the bearer doesn't use any MP during their turn, they are healed for 10% of their health.",
+        "pt": "Guarda Campestre:\n• O portador ganha 8 de potência durante 2 turnos para cada PM que ele utilizar (acumula 20 vezes).\n• Se ele não tiver usado PM durante seu turno, ele será curado em 10% da vida.",
+        "de": "Feldschütz:\n• Der Träger erhält 2 Runden lang für jeden von ihm verwendeten BP 8 Schlagkraft (20-mal kumulierbar).\n• Hat er in seiner Runde keinen BP verwendet, wird er um 10 % seiner LP geheilt.",
+        "es": "Guarda Campestre:\n• El portador gana 8 de potencia durante 2 turnos por cada PM que utiliza (acumulable 20 veces).\n• Si no ha utilizado ningún PM durante su turno, se cura un 10% de su vida."
+      }
     }
   },
   "6x": {
@@ -430,6 +758,22 @@
     "subCategory": "dofus",
     "stats": {
       "vitality": 20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Jyfus",
+        "en": "Aiwuztheya Dofus",
+        "pt": "Dofui",
+        "de": "Jyfus",
+        "es": "Jyfus"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "pt": "",
+        "de": "",
+        "es": ""
+      }
     }
   },
   "IO": {
@@ -448,6 +792,22 @@
     "subCategory": "dofus",
     "stats": {
       "summon": 1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Éclosion Explosive",
+        "en": "Explosive Hatching",
+        "pt": "Eclosão Explosiva",
+        "de": "Explosives Ausschlüpfen",
+        "es": "Eclosión Explosiva"
+      },
+      "description": {
+        "fr": "Éclosion Explosive :\n• Lorsqu'une invocation du porteur est attaquée, le porteur gagne 1% de dommages finaux pendant 2 tours (cumulable 10 fois).\n• Si elle est achevée par un ennemi, le porteur occasionne 10 dommages dans son meilleur élément aux ennemis dans un cercle de taille 2 autour d'elle.",
+        "en": "Explosive Hatching:\n• When one of the bearer's summons is attacked, the bearer gains 1% final damage for 2 turns (stackable 10 times).\n• If it is killed by an enemy, the bearer inflicts 10 damage in their best element on enemies in a 2-cell circle around the summons.",
+        "pt": "Eclosão Explosiva:\n• Quando uma invocação do portador é atacada, ele recebe 1% de danos finais por 2 turnos (acumula 10 vezes).\n• Se ela for eliminada por um inimigo, o portador inflige 10 danos em seu melhor elemento aos inimigos em um círculo de tamanho 2 ao redor dela.",
+        "de": "Explosives Ausschlüpfen:\n• Wenn eine Beschwörung des Trägers angegriffen wird, erhöht sich der Endschaden des Trägers 2 Runden lang um 1 % (10-mal kumulierbar).\n• Wenn sie von einem Gegner besiegt wurde, fügt der Träger Gegnern im Umkreis von 2 Feldern um sie 10 Schaden in seinem besten Element zu.",
+        "es": "Eclosión Explosiva:\n• Cuando una invocación del portador es atacada, el portador gana un 1% de daños finales durante 2 turnos (acumulable 10 veces).\n• Si muere a manos de un enemigo, el portador ocasiona 10 de daño con su mejor elemento a los enemigos en un círculo de tamaño 2 alrededor de esta."
+      }
     }
   },
   "kv": {
@@ -828,6 +1188,60 @@
       "pushbackDamage": 32
     }
   },
+  "il": {
+    "id": "il",
+    "idDofusDB": "674e524064788cc741419d17",
+    "idDofusBook": 12643,
+    "name": {
+      "fr": "Adamantin mineur",
+      "en": "Minor Adamantin",
+      "pt": "Adamantino Menor",
+      "de": "Kleiner Adamantiner",
+      "es": "Adamantino menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "pushbackResist": 12
+    }
+  },
+  "xb": {
+    "id": "xb",
+    "idDofusDB": "674e524064788cc741419d18",
+    "idDofusBook": 12644,
+    "name": {
+      "fr": "Adamantin",
+      "en": "Adamantin",
+      "pt": "Adamantino",
+      "de": "Adamantiner",
+      "es": "Adamantino mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "pushbackResist": 24
+    }
+  },
+  "Fa": {
+    "id": "Fa",
+    "idDofusDB": "674e524064788cc741419d19",
+    "idDofusBook": 12645,
+    "name": {
+      "fr": "Adamantin majeur",
+      "en": "Major Adamantin",
+      "pt": "Adamantino Maior",
+      "de": "Großer Adamantiner",
+      "es": "Adamantino mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "pushbackResist": 48
+    }
+  },
   "kc": {
     "id": "kc",
     "idDofusDB": "674e524064788cc741419d1a",
@@ -880,6 +1294,276 @@
     "subCategory": "trophy",
     "stats": {
       "criticalResist": 12
+    }
+  },
+  "j6": {
+    "id": "j6",
+    "idDofusDB": "674e524064788cc741419d1d",
+    "idDofusBook": 12649,
+    "name": {
+      "fr": "Cuirassé Air mineur",
+      "en": "Minor Air Defender",
+      "pt": "Defensor Aéreo Menor",
+      "de": "Kleiner Luftgepanzerter",
+      "es": "Acorazado de aire menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResist": 6
+    }
+  },
+  "xB": {
+    "id": "xB",
+    "idDofusDB": "674e524064788cc741419d1e",
+    "idDofusBook": 12650,
+    "name": {
+      "fr": "Cuirassé Air",
+      "en": "Air Defender",
+      "pt": "Defensor Aéreo",
+      "de": "Luftgepanzerter",
+      "es": "Acorazado de aire mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResist": 12
+    }
+  },
+  "Fy": {
+    "id": "Fy",
+    "idDofusDB": "674e524064788cc741419d1f",
+    "idDofusBook": 12651,
+    "name": {
+      "fr": "Cuirassé Air majeur",
+      "en": "Major Air Defender",
+      "pt": "Defensor Aéreo Maior",
+      "de": "Großer Luftgepanzerter",
+      "es": "Acorazado de aire mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResist": 24
+    }
+  },
+  "j7": {
+    "id": "j7",
+    "idDofusDB": "674e524064788cc741419d20",
+    "idDofusBook": 12652,
+    "name": {
+      "fr": "Cuirassé Eau mineur",
+      "en": "Minor Water Defender",
+      "pt": "Defensor Aquático Menor",
+      "de": "Kleiner Wassergepanzerter",
+      "es": "Acorazado de agua menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResist": 6
+    }
+  },
+  "xC": {
+    "id": "xC",
+    "idDofusDB": "674e524064788cc741419d21",
+    "idDofusBook": 12653,
+    "name": {
+      "fr": "Cuirassé Eau",
+      "en": "Water Defender",
+      "pt": "Defensor Aquático",
+      "de": "Wassergepanzerter",
+      "es": "Acorazado de agua mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResist": 12
+    }
+  },
+  "Fz": {
+    "id": "Fz",
+    "idDofusDB": "674e524064788cc741419d22",
+    "idDofusBook": 12654,
+    "name": {
+      "fr": "Cuirassé Eau majeur",
+      "en": "Major Water Defender",
+      "pt": "Defensor Aquático Maior",
+      "de": "Großer Wassergepanzerter",
+      "es": "Acorazado de agua mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResist": 24
+    }
+  },
+  "j8": {
+    "id": "j8",
+    "idDofusDB": "674e524064788cc741419d27",
+    "idDofusBook": 12659,
+    "name": {
+      "fr": "Cuirassé Feu mineur",
+      "en": "Minor Fire Defender",
+      "pt": "Defensor do Fogo Menor",
+      "de": "Kleiner Feuergepanzerter",
+      "es": "Acorazado de fuego menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResist": 6
+    }
+  },
+  "xD": {
+    "id": "xD",
+    "idDofusDB": "674e524064788cc741419d32",
+    "idDofusBook": 12678,
+    "name": {
+      "fr": "Cuirassé Feu",
+      "en": "Fire Defender",
+      "pt": "Defensor do Fogo",
+      "de": "Feuergepanzerter",
+      "es": "Acorazado de fuego mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResist": 12
+    }
+  },
+  "FA": {
+    "id": "FA",
+    "idDofusDB": "674e524064788cc741419d33",
+    "idDofusBook": 12679,
+    "name": {
+      "fr": "Cuirassé Feu majeur",
+      "en": "Major Fire Defender",
+      "pt": "Defensor do Fogo Maior",
+      "de": "Großer Feuergepanzerter",
+      "es": "Acorazado de fuego mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResist": 24
+    }
+  },
+  "ja": {
+    "id": "ja",
+    "idDofusDB": "674e524064788cc741419d34",
+    "idDofusBook": 12680,
+    "name": {
+      "fr": "Cuirassé Terre mineur",
+      "en": "Minor Earth Defender",
+      "pt": "Defensor da Terra Menor",
+      "de": "Kleiner Erdgepanzerter",
+      "es": "Acorazado de tierra menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResist": 6
+    }
+  },
+  "xF": {
+    "id": "xF",
+    "idDofusDB": "674e524064788cc741419d35",
+    "idDofusBook": 12681,
+    "name": {
+      "fr": "Cuirassé Terre",
+      "en": "Earth Defender",
+      "pt": "Defensor da Terra",
+      "de": "Erdgepanzerter",
+      "es": "Acorazado de tierra mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResist": 12
+    }
+  },
+  "FC": {
+    "id": "FC",
+    "idDofusDB": "674e524064788cc741419d36",
+    "idDofusBook": 12682,
+    "name": {
+      "fr": "Cuirassé Terre majeur",
+      "en": "Major Earth Defender",
+      "pt": "Defensor da Terra Maior",
+      "de": "Großer Erdgepanzerter",
+      "es": "Acorazado de tierra mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResist": 24
+    }
+  },
+  "j9": {
+    "id": "j9",
+    "idDofusDB": "674e524064788cc741419d37",
+    "idDofusBook": 12683,
+    "name": {
+      "fr": "Cuirassé Neutre mineur",
+      "en": "Minor Neutral Defender",
+      "pt": "Defensor Neutro Menor",
+      "de": "Kleiner Neutralgepanzerter",
+      "es": "Acorazado neutral menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResist": 6
+    }
+  },
+  "xE": {
+    "id": "xE",
+    "idDofusDB": "674e524064788cc741419d38",
+    "idDofusBook": 12684,
+    "name": {
+      "fr": "Cuirassé Neutre",
+      "en": "Neutral Defender",
+      "pt": "Defensor Neutro",
+      "de": "Neutralgepanzerter",
+      "es": "Acorazado neutral mediano"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResist": 12
+    }
+  },
+  "FB": {
+    "id": "FB",
+    "idDofusDB": "674e524064788cc741419d39",
+    "idDofusBook": 12685,
+    "name": {
+      "fr": "Cuirassé Neutre majeur",
+      "en": "Major Neutral Defender",
+      "pt": "Defensor Neutro Maior",
+      "de": "Großer Neutralgepanzerter",
+      "es": "Acorazado neutral mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResist": 24
     }
   },
   "yL": {
@@ -2055,7 +2739,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 5
+      "earthDamage": 5,
+      "airResistPer": -2
     }
   },
   "yX": {
@@ -2073,7 +2758,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 10
+      "earthDamage": 10,
+      "airResistPer": -4
     }
   },
   "Gz": {
@@ -2091,7 +2777,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "earthDamage": 20
+      "earthDamage": 20,
+      "airResistPer": -8
     }
   },
   "ko": {
@@ -2109,7 +2796,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 5
+      "neutralDamage": 5,
+      "waterResistPer": -2
     }
   },
   "yW": {
@@ -2127,7 +2815,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 10
+      "neutralDamage": 10,
+      "waterResistPer": -4
     }
   },
   "Gy": {
@@ -2145,7 +2834,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "neutralDamage": 20
+      "neutralDamage": 20,
+      "waterResistPer": -8
     }
   },
   "kn": {
@@ -2163,7 +2853,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 5
+      "fireDamage": 5,
+      "earthResistPer": -2
     }
   },
   "yV": {
@@ -2181,7 +2872,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 10
+      "fireDamage": 10,
+      "earthResistPer": -4
     }
   },
   "Gx": {
@@ -2199,7 +2891,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "fireDamage": 20
+      "fireDamage": 20,
+      "earthResistPer": -8
     }
   },
   "km": {
@@ -2217,7 +2910,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 5
+      "waterDamage": 5,
+      "neutralResistPer": -2
     }
   },
   "yU": {
@@ -2235,7 +2929,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 10
+      "waterDamage": 10,
+      "neutralResistPer": -4
     }
   },
   "Gw": {
@@ -2253,7 +2948,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "waterDamage": 20
+      "waterDamage": 20,
+      "neutralResistPer": -8
     }
   },
   "kl": {
@@ -2271,7 +2967,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 5
+      "airDamage": 5,
+      "fireResistPer": -2
     }
   },
   "yT": {
@@ -2289,7 +2986,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 10
+      "airDamage": 10,
+      "fireResistPer": -4
     }
   },
   "Gv": {
@@ -2307,7 +3005,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "airDamage": 20
+      "airDamage": 20,
+      "fireResistPer": -8
     }
   },
   "jn": {
@@ -2610,7 +3309,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -8
+      "dodge": -8,
+      "pushbackResist": 24
     }
   },
   "ye": {
@@ -2628,7 +3328,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -16
+      "dodge": -16,
+      "pushbackResist": 48
     }
   },
   "G5": {
@@ -2646,7 +3347,8 @@
     "category": "dofus",
     "subCategory": "trophy",
     "stats": {
-      "dodge": -32
+      "dodge": -32,
+      "pushbackResist": 96
     }
   },
   "k4": {
@@ -2704,6 +3406,291 @@
     "stats": {
       "vitality": -100,
       "initiative": 800
+    }
+  },
+  "jV": {
+    "id": "jV",
+    "idDofusDB": "674e524064788cc74141a0cc",
+    "idDofusBook": 13808,
+    "name": {
+      "fr": "Muraille Terre mineure",
+      "en": "Minor Earth Bulwark",
+      "pt": "Muralha Terra menor",
+      "de": "Kleine Erdmauer",
+      "es": "Muralla terráquea menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResistPer": -2,
+      "earthResist": 10
+    }
+  },
+  "yq": {
+    "id": "yq",
+    "idDofusDB": "674e524064788cc74141a0cd",
+    "idDofusBook": 13809,
+    "name": {
+      "fr": "Muraille Terre",
+      "en": "Earth Bulwark",
+      "pt": "Muralha Terra",
+      "de": "Erdmauer",
+      "es": "Muralla terráquea"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResistPer": -4,
+      "earthResist": 20
+    }
+  },
+  "Ge": {
+    "id": "Ge",
+    "idDofusDB": "674e524064788cc74141a0ce",
+    "idDofusBook": 13810,
+    "name": {
+      "fr": "Muraille Terre majeure",
+      "en": "Major Earth Bulwark",
+      "pt": "Muralha Terra maior",
+      "de": "Große Erdmauer",
+      "es": "Muralla terráquea mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "airResistPer": -8,
+      "earthResist": 40
+    }
+  },
+  "jU": {
+    "id": "jU",
+    "idDofusDB": "674e524064788cc74141a0cf",
+    "idDofusBook": 13811,
+    "name": {
+      "fr": "Muraille Neutre mineure",
+      "en": "Minor Neutral Bulwark",
+      "pt": "Muralha Neutra menor",
+      "de": "Kleine Neutralmauer",
+      "es": "Muralla neutral menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResistPer": -2,
+      "neutralResist": 10
+    }
+  },
+  "yp": {
+    "id": "yp",
+    "idDofusDB": "674e524064788cc74141a0d0",
+    "idDofusBook": 13812,
+    "name": {
+      "fr": "Muraille Neutre",
+      "en": "Neutral Bulwark",
+      "pt": "Muralha Neutra",
+      "de": "Neutralmauer",
+      "es": "Muralla neutral"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResistPer": -4,
+      "neutralResist": 20
+    }
+  },
+  "Gd": {
+    "id": "Gd",
+    "idDofusDB": "674e524064788cc74141a0d1",
+    "idDofusBook": 13813,
+    "name": {
+      "fr": "Muraille Neutre majeure",
+      "en": "Major Neutral Bulwark",
+      "pt": "Muralha Neutra maior",
+      "de": "Große Neutralmauer",
+      "es": "Muralla neutral mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "waterResistPer": -8,
+      "neutralResist": 40
+    }
+  },
+  "jT": {
+    "id": "jT",
+    "idDofusDB": "674e524064788cc74141a0d2",
+    "idDofusBook": 13814,
+    "name": {
+      "fr": "Muraille Feu mineure",
+      "en": "Minor Fire Bulwark",
+      "pt": "Muralha Fogo menor",
+      "de": "Kleine Feuermauer",
+      "es": "Muralla ígnea menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResistPer": -2,
+      "fireResist": 10
+    }
+  },
+  "yo": {
+    "id": "yo",
+    "idDofusDB": "674e524064788cc74141a0d3",
+    "idDofusBook": 13815,
+    "name": {
+      "fr": "Muraille Feu",
+      "en": "Fire Bulwark",
+      "pt": "Muralha Fogo",
+      "de": "Feuermauer",
+      "es": "Muralla ígnea"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResistPer": -4,
+      "fireResist": 20
+    }
+  },
+  "Gc": {
+    "id": "Gc",
+    "idDofusDB": "674e524064788cc74141a0d4",
+    "idDofusBook": 13816,
+    "name": {
+      "fr": "Muraille Feu majeure",
+      "en": "Major Fire Bulwark",
+      "pt": "Muralha Fogo maior",
+      "de": "Große Feuermauer",
+      "es": "Muralla ígnea mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "earthResistPer": -8,
+      "fireResist": 40
+    }
+  },
+  "jS": {
+    "id": "jS",
+    "idDofusDB": "674e524064788cc74141a0d5",
+    "idDofusBook": 13817,
+    "name": {
+      "fr": "Muraille Eau mineure",
+      "en": "Minor Water Bulwark",
+      "pt": "Muralha Água menor",
+      "de": "Kleine Wassermauer",
+      "es": "Muralla acuosa menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResistPer": -2,
+      "waterResist": 10
+    }
+  },
+  "yn": {
+    "id": "yn",
+    "idDofusDB": "674e524064788cc74141a0d6",
+    "idDofusBook": 13818,
+    "name": {
+      "fr": "Muraille Eau",
+      "en": "Water Bulwark",
+      "pt": "Muralha Água",
+      "de": "Wassermauer",
+      "es": "Muralla acuosa"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResistPer": -4,
+      "waterResist": 20
+    }
+  },
+  "Gb": {
+    "id": "Gb",
+    "idDofusDB": "674e524064788cc74141a0d7",
+    "idDofusBook": 13819,
+    "name": {
+      "fr": "Muraille Eau majeure",
+      "en": "Major Water Bulwark",
+      "pt": "Muralha Água maior",
+      "de": "Große Wassermauer",
+      "es": "Muralla acuosa mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "neutralResistPer": -8,
+      "waterResist": 40
+    }
+  },
+  "jR": {
+    "id": "jR",
+    "idDofusDB": "674e524064788cc74141a0d8",
+    "idDofusBook": 13820,
+    "name": {
+      "fr": "Muraille Air mineure",
+      "en": "Minor Air Bulwark",
+      "pt": "Muralha Ar menor",
+      "de": "Kleine Luftmauer",
+      "es": "Muralla airosa menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResistPer": -2,
+      "airResist": 10
+    }
+  },
+  "ym": {
+    "id": "ym",
+    "idDofusDB": "674e524064788cc74141a0d9",
+    "idDofusBook": 13821,
+    "name": {
+      "fr": "Muraille Air",
+      "en": "Air Bulwark",
+      "pt": "Muralha Ar",
+      "de": "Luftmauer",
+      "es": "Muralla airosa"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResistPer": -4,
+      "airResist": 20
+    }
+  },
+  "Ga": {
+    "id": "Ga",
+    "idDofusDB": "674e524064788cc74141a0da",
+    "idDofusBook": 13822,
+    "name": {
+      "fr": "Muraille Air majeure",
+      "en": "Major Air Bulwark",
+      "pt": "Muralha Ar maior",
+      "de": "Große Luftmauer",
+      "es": "Muralla airosa mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "fireResistPer": -8,
+      "airResist": 40
     }
   },
   "k5": {
@@ -4767,6 +5754,102 @@
       "pushbackDamage": 64
     }
   },
+  "kt": {
+    "id": "kt",
+    "idDofusDB": "674e524164788cc74141a94a",
+    "idDofusBook": 16308,
+    "name": {
+      "fr": "Solide mineur",
+      "en": "Minor Solid",
+      "pt": "Sólido menor",
+      "de": "Kleiner Zäher",
+      "es": "Sólido menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "pushbackResist": 24
+    }
+  },
+  "z2": {
+    "id": "z2",
+    "idDofusDB": "674e524164788cc74141a94b",
+    "idDofusBook": 16309,
+    "name": {
+      "fr": "Solide",
+      "en": "Solid",
+      "pt": "Sólido",
+      "de": "Zäher",
+      "es": "Sólido"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "pushbackResist": 48
+    }
+  },
+  "GD": {
+    "id": "GD",
+    "idDofusDB": "674e524164788cc74141a94c",
+    "idDofusBook": 16310,
+    "name": {
+      "fr": "Solide majeur",
+      "en": "Major Solid",
+      "pt": "Sólido maior",
+      "de": "Großer Zäher",
+      "es": "Sólido mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "pushbackResist": 96
+    }
+  },
   "jv": {
     "id": "jv",
     "idDofusDB": "674e524164788cc74141a94d",
@@ -4861,6 +5944,486 @@
     "criterions": "Pk<3",
     "stats": {
       "initiative": 800
+    }
+  },
+  "iY": {
+    "id": "iY",
+    "idDofusDB": "674e524164788cc74141a950",
+    "idDofusBook": 16314,
+    "name": {
+      "fr": "Carapace Terre mineur",
+      "en": "Minor Earth Carapace",
+      "pt": "Carapaça de Terra menor",
+      "de": "Kleiner Erden-Schutzpanzer",
+      "es": "Caparazón de tierra menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "earthResistPer": 3
+    }
+  },
+  "xt": {
+    "id": "xt",
+    "idDofusDB": "674e524164788cc74141a951",
+    "idDofusBook": 16315,
+    "name": {
+      "fr": "Carapace Terre",
+      "en": "Earth Carapace",
+      "pt": "Carapaça de Terra",
+      "de": "Erden-Schutzpanzer",
+      "es": "Caparazón de tierra"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "earthResistPer": 6
+    }
+  },
+  "Fu": {
+    "id": "Fu",
+    "idDofusDB": "674e524164788cc74141a952",
+    "idDofusBook": 16316,
+    "name": {
+      "fr": "Carapace Terre majeur",
+      "en": "Major Earth Carapace",
+      "pt": "Carapaça de Terra maior",
+      "de": "Großer Erden-Schutzpanzer",
+      "es": "Caparazón de tierra mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "earthResistPer": 12
+    }
+  },
+  "iX": {
+    "id": "iX",
+    "idDofusDB": "674e524164788cc74141a953",
+    "idDofusBook": 16318,
+    "name": {
+      "fr": "Carapace Neutre mineur",
+      "en": "Minor Neutral Carapace",
+      "pt": "Carapaça Neutra menor",
+      "de": "Kleiner Neutral-Schutzpanzer",
+      "es": "Caparazón neutral menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "neutralResistPer": 3
+    }
+  },
+  "xs": {
+    "id": "xs",
+    "idDofusDB": "674e524164788cc74141a954",
+    "idDofusBook": 16319,
+    "name": {
+      "fr": "Carapace Neutre",
+      "en": "Neutral Carapace",
+      "pt": "Carapaça Neutra",
+      "de": "Neutral-Schutzpanzer",
+      "es": "Caparazón neutral"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "neutralResistPer": 6
+    }
+  },
+  "Ft": {
+    "id": "Ft",
+    "idDofusDB": "674e524164788cc74141a955",
+    "idDofusBook": 16320,
+    "name": {
+      "fr": "Carapace Neutre majeur",
+      "en": "Major Neutral Carapace",
+      "pt": "Carapaça Neutra maior",
+      "de": "Großer Neutral-Schutzpanzer",
+      "es": "Caparazón neutral mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "neutralResistPer": 12
+    }
+  },
+  "iW": {
+    "id": "iW",
+    "idDofusDB": "674e524164788cc74141a956",
+    "idDofusBook": 16321,
+    "name": {
+      "fr": "Carapace Feu mineur",
+      "en": "Minor Fire Carapace",
+      "pt": "Carapaça de Fogo menor",
+      "de": "Kleiner Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "fireResistPer": 3
+    }
+  },
+  "xr": {
+    "id": "xr",
+    "idDofusDB": "674e524164788cc74141a957",
+    "idDofusBook": 16322,
+    "name": {
+      "fr": "Carapace Feu",
+      "en": "Fire Carapace",
+      "pt": "Carapaça de Fogo",
+      "de": "Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "fireResistPer": 6
+    }
+  },
+  "Fs": {
+    "id": "Fs",
+    "idDofusDB": "674e524164788cc74141a958",
+    "idDofusBook": 16323,
+    "name": {
+      "fr": "Carapace Feu majeur",
+      "en": "Major Fire Carapace",
+      "pt": "Carapaça de Fogo maior",
+      "de": "Großer Feuer-Schutzpanzer",
+      "es": "Caparazón de fuego mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "fireResistPer": 12
+    }
+  },
+  "iV": {
+    "id": "iV",
+    "idDofusDB": "674e524164788cc74141a959",
+    "idDofusBook": 16324,
+    "name": {
+      "fr": "Carapace Eau mineur",
+      "en": "Minor Water Carapace",
+      "pt": "Carapaça de Água menor",
+      "de": "Kleiner Wasser-Schutzpanzer",
+      "es": "Caparazón de agua menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "waterResistPer": 3
+    }
+  },
+  "xq": {
+    "id": "xq",
+    "idDofusDB": "674e524164788cc74141a95a",
+    "idDofusBook": 16325,
+    "name": {
+      "fr": "Carapace Eau",
+      "en": "Water Carapace",
+      "pt": "Carapaça de Água",
+      "de": "Wasser-Schutzpanzer",
+      "es": "Caparazón de agua"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "waterResistPer": 6
+    }
+  },
+  "Fr": {
+    "id": "Fr",
+    "idDofusDB": "674e524164788cc74141a95b",
+    "idDofusBook": 16326,
+    "name": {
+      "fr": "Carapace Eau majeur",
+      "en": "Major Water Carapace",
+      "pt": "Carapaça de Água maior",
+      "de": "Großer Wasser-Schutzpanzer",
+      "es": "Caparazón de agua mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "waterResistPer": 12
+    }
+  },
+  "iU": {
+    "id": "iU",
+    "idDofusDB": "674e524164788cc74141a95c",
+    "idDofusBook": 16327,
+    "name": {
+      "fr": "Carapace Air mineur",
+      "en": "Minor Air Carapace",
+      "pt": "Carapaça de Ar menor",
+      "de": "Kleiner Luft-Schutzpanzer",
+      "es": "Caparazón de aire menor"
+    },
+    "level": 50,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "airResistPer": 3
+    }
+  },
+  "xp": {
+    "id": "xp",
+    "idDofusDB": "674e524164788cc74141a95d",
+    "idDofusBook": 16328,
+    "name": {
+      "fr": "Carapace Air",
+      "en": "Air Carapace",
+      "pt": "Carapaça de Ar",
+      "de": "Luft-Schutzpanzer",
+      "es": "Caparazón de aire"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "airResistPer": 6
+    }
+  },
+  "Fq": {
+    "id": "Fq",
+    "idDofusDB": "674e524164788cc74141a95e",
+    "idDofusBook": 16329,
+    "name": {
+      "fr": "Carapace Air majeur",
+      "en": "Major Air Carapace",
+      "pt": "Carapaça de Ar maior",
+      "de": "Großer Luft-Schutzpanzer",
+      "es": "Caparazón de aire mayor"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "requirements": [
+      [
+        {
+          "stat": "panopliesBonus",
+          "type": "lessThan",
+          "value": 3
+        }
+      ]
+    ],
+    "minRequirement": {
+      "type": "panopliesBonusLessThan",
+      "value": 3
+    },
+    "criterions": "Pk<3",
+    "stats": {
+      "airResistPer": 12
     }
   },
   "kz": {

@@ -19,6 +19,7 @@ import {
 import { get } from "svelte/store";
 import { calculateAllItemsToDisplay, calculatePanopliesToDisplay } from "./display";
 import { getPanoply } from "./frontendDB";
+import { isItemMinRequirementOK, isPanoMinRequirementOK } from "./item";
 
 export type StatsValueFM = Record<StatKey, number>;
 
@@ -66,93 +67,124 @@ export function calculateStatsValue(stats: Partial<Stats>, statsKeys?: readonly 
 }
 
 export function calculateItemValue(item: Item) {
-    item.value = calculateStatsValue(item.statsWithBonus);
-    item.valueWithPano = item.value;
-    if (item.panoply) {
-        const pano = getPanoply(item.panoply);
-        calculatePanoValue(pano);
-        item.valueWithPano += pano.valuePerItem;
+    if (isItemMinRequirementOK(item)) {
+        item.value = calculateStatsValue(item.statsWithBonus);
+        item.valueWithPano = item.value;
+    } else {
+        item.value = 0;
+        item.valueWithPano = 0;
+        return;
     }
+    // if (item.panoply) {
+    //     const pano = getPanoply(item.panoply);
+    //     calculatePanoValue(pano);
+    //     item.valueWithPano += pano.valuePerItem;
+    // }
 }
 
 export function calculatePanoValue(panoply: Panoply) {
-    const panoMaxItems = panoply.statsWithBonus.length;
-    const panoplyStats = panoply.statsWithBonus.at(panoMaxItems - 1)!;
-
-    panoply.valuePerItem = calculateStatsValue(panoplyStats) / panoMaxItems;
-
     panoply.value = [];
-    for (const comboStats of panoply.statsWithBonus) {
-        panoply.value.push(calculateStatsValue(comboStats));
+    // for (const comboStats of panoply.statsWithBonus) {
+    for (let comboCount = 1; comboCount <= panoply.statsWithBonus.length; comboCount++) {
+        if (isPanoMinRequirementOK(panoply, comboCount)) {
+            panoply.value.push(calculateStatsValue(panoply.statsWithBonus[comboCount - 1]!));
+        } else {
+            panoply.value.push(0);
+        }
     }
+    calculateBestValuePerItem(panoply);
+    for (const item of panoply.itemsReal) {
+        item.valueWithPano += panoply.bestValuePerItem;
+    }
+    calculatePanoRelativeValue(panoply);
 }
 
-export function calculatePanoAvgRelativeValue(pano: Panoply) {
-    let panoAvgRelativeValue = 0;
+export function calculateBestValuePerItem(panoply: Panoply) {
+    let bestValuePerItem = 0;
+    for (let comboCount = 2; comboCount <= panoply.statsWithBonus.length; comboCount++) {
+        const comboValue = panoply.value[comboCount - 1]!;
+        const valuePerItem = comboValue / comboCount;
 
-    const catBest = get(categoryBestValue);
-    for (const item of pano.itemsReal) {
-        // const item = get(items)[itemName]!;
-        panoAvgRelativeValue += item.valueWithPano - catBest[item.category];
+        if (valuePerItem > bestValuePerItem) {
+            bestValuePerItem = valuePerItem;
+        }
     }
-    const panoItemsAmount = pano.statsWithBonus.length + 1;
-    // const panoplyStats = pano.statsWithBonus.at(-1)!;
-    // panoValue += calculateStatsValue(panoplyStats) / panoItemsAmount;
-    pano.avgRelativeValue = panoAvgRelativeValue / panoItemsAmount;
+    panoply.bestValuePerItem = bestValuePerItem;
+}
+
+export function calculatePanoRelativeValue(pano: Panoply) {
+    const catBest = get(categoryBestValue);
+    let bestPanoRelativeValue = -999999999999;
+
+    const bestRelativePanoItemsSorted = pano.itemsReal
+        .map((item) => item.value - catBest[item.category])
+        .sort((a, b) => b - a);
+
+    for (let comboCount = 2; comboCount <= pano.statsWithBonus.length; comboCount++) {
+        const topXSum = bestRelativePanoItemsSorted.slice(0, comboCount).reduce((a, b) => a + b, 0);
+
+        const panoRelativeValue = (pano.value[comboCount - 1]! + topXSum) / comboCount;
+
+        if (panoRelativeValue > bestPanoRelativeValue) {
+            bestPanoRelativeValue = panoRelativeValue;
+        }
+    }
+    pano.bestRelativeValue = bestPanoRelativeValue;
 }
 
 export function calculateBestItems() {
     let bestItemsCategories = getEmptyCategoriesItemsArr();
-    let bestItemsWithPanoCategories = getEmptyCategoriesItemsArr();
+    // let bestItemsWithPanoCategories = getEmptyCategoriesItemsArr();
     for (const [category, items] of Object.entries(get(itemsCategory))) {
         let bestValueFound = 0;
-        let bestValueWithPanoFound = 0;
+        // let bestValueWithPanoFound = 0;
 
         let bestItems: Item[] = [];
         bestItemsCategories[category as ItemCategory] = bestItems;
 
-        let bestItemsWithPano: Item[] = [];
-        bestItemsWithPanoCategories[category as ItemCategory] = bestItemsWithPano;
-
         for (const item of items) {
-            // if (item.level > get(level)) {
-            //     continue;
-            // }
             calculateItemValue(item);
             if (item.value > bestValueFound) {
                 bestValueFound = item.value;
             }
 
-            if (item.valueWithPano > bestValueWithPanoFound) {
-                bestValueWithPanoFound = item.valueWithPano;
-            }
+            // if (item.valueWithPano > bestValueWithPanoFound) {
+            //     bestValueWithPanoFound = item.valueWithPano;
+            // }
             bestItems.push(item);
-            bestItemsWithPano.push(item);
         }
         categoryBestValue.update((old) => {
             return {
                 ...old,
-                [category]: bestValueWithPanoFound,
+                [category]: bestValueFound,
             };
         });
         // console.log(bestValueFound);
         // console.log(bestValueWithPanoFound);
 
         bestItems.sort((a, b) => b.value - a.value);
-        bestItemsWithPano.sort((a, b) => b.valueWithPano - a.valueWithPano);
+        // bestItemsWithPano.sort((a, b) => b.valueWithPano - a.valueWithPano);
     }
     itemsCategoryBest.set(bestItemsCategories);
-    itemsCategoryWithPanoBest.set(bestItemsWithPanoCategories);
-    calculateAllItemsToDisplay();
+    // calculateAllItemsToDisplay();
 
     console.log("itemsCategoryBest", bestItemsCategories);
     const allPanos = get(panoplies);
     let bestPanos: Panoply[] = Object.values(allPanos);
     for (const pano of bestPanos) {
-        calculatePanoAvgRelativeValue(pano);
+        calculatePanoValue(pano);
     }
-    bestPanos.sort((a, b) => b.avgRelativeValue - a.avgRelativeValue);
+    bestPanos.sort((a, b) => b.bestRelativeValue - a.bestRelativeValue);
     panopliesBest.set(bestPanos);
 
+    let bestItemsWithPanoCategories = getEmptyCategoriesItemsArr();
+    for (const [category, items] of Object.entries(get(itemsCategory))) {
+        bestItemsWithPanoCategories[category as ItemCategory] = [...items].sort(
+            (a, b) => b.valueWithPano - a.valueWithPano,
+        );
+    }
+    itemsCategoryWithPanoBest.set(bestItemsWithPanoCategories);
+
+    calculateAllItemsToDisplay();
     calculatePanopliesToDisplay();
 }

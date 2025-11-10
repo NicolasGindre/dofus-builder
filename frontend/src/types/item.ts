@@ -62,7 +62,13 @@ export type Item = {
     value: number;
     valueWithPano: number;
     weaponEffect?: SpellEffect;
+    specialEffect?: SpecialEffect;
 };
+export type SpecialEffect = {
+    name: Name;
+    description: Name;
+};
+
 export type Name = {
     fr: string;
     en: string;
@@ -131,10 +137,9 @@ export type Panoply = {
     stats: ItemStats[];
     statsWithBonus: ItemStats[];
     value: number[];
-    bestComboValue: number[];
+    bestValuePerItem: number;
+    bestRelativeValue: number;
     requirements?: Requirement[][][]; // []and -> []or
-    valuePerItem: number;
-    avgRelativeValue: number;
 };
 export type Panoplies = Record<string, Panoply>;
 

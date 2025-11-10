@@ -52,8 +52,12 @@
     main {
         font-family: system-ui, sans-serif;
         /* padding: 1rem; */
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        max-width: 1250px;
+        min-width: 1250px;
+        /* margin-left: 5rem;
+        margin-right: 5rem; */
         /* padding-bottom: 0; */
         /* max-width: 800px; */
         margin: auto;

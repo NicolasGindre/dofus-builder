@@ -35,7 +35,8 @@
     "subCategory": "shield",
     "stats": {
       "vitality": 25,
-      "agility": 15
+      "agility": 15,
+      "airResistPer": 6
     }
   },
   "xA": {
@@ -56,6 +57,7 @@
       "vitality": 100,
       "wisdom": 20,
       "power": 30,
+      "neutralResistPer": 10,
       "dodge": 10,
       "mpResist": 10,
       "pushbackDamage": 30
@@ -80,7 +82,8 @@
       "vitality": 70,
       "agility": 40,
       "wisdom": 10,
-      "criticalChance": 3
+      "criticalChance": 3,
+      "airResistPer": 7
     }
   },
   "t9": {
@@ -103,7 +106,8 @@
       "intelligence": 40,
       "wisdom": 15,
       "criticalChance": 4,
-      "heal": 10
+      "heal": 10,
+      "fireResistPer": 10
     }
   },
   "si": {
@@ -125,7 +129,8 @@
       "vitality": 80,
       "strength": 40,
       "wisdom": 10,
-      "criticalChance": 4
+      "criticalChance": 4,
+      "earthResistPer": 7
     }
   },
   "mJ": {
@@ -146,7 +151,13 @@
     "stats": {
       "vitality": 70,
       "strength": 25,
-      "chance": 25
+      "chance": 25,
+      "neutralResist": 6,
+      "earthResist": 6,
+      "fireResist": 6,
+      "waterResist": 6,
+      "airResist": 6,
+      "pushbackResist": 20
     }
   },
   "5S": {
@@ -167,7 +178,10 @@
     "stats": {
       "vitality": 30,
       "chance": 15,
-      "wisdom": 5
+      "wisdom": 5,
+      "earthResist": 6,
+      "fireResist": 6,
+      "airResist": 6
     }
   },
   "5d": {
@@ -251,6 +265,7 @@
       "intelligence": 25,
       "agility": 25,
       "initiative": 150,
+      "neutralResistPer": 6,
       "pushbackDamage": 20
     }
   },
@@ -277,6 +292,11 @@
       "agility": 50,
       "criticalChance": 5,
       "range": -1,
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
       "dodge": -15,
       "criticalDamage": 5
     }
@@ -347,6 +367,8 @@
       "intelligence": 40,
       "wisdom": 20,
       "heal": 10,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
       "mpReduction": 6
     }
   },
@@ -370,7 +392,8 @@
       "intelligence": 35,
       "agility": 35,
       "wisdom": 20,
-      "criticalChance": 5
+      "criticalChance": 5,
+      "waterResist": 30
     }
   },
   "EB": {
@@ -391,6 +414,8 @@
       "vitality": 150,
       "range": 1,
       "heal": 10,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
       "apReduction": 7,
       "mpReduction": 7
     }
@@ -431,6 +456,8 @@
       "vitality": 120,
       "chance": 60,
       "wisdom": 30,
+      "waterResistPer": 12,
+      "waterResist": 48,
       "mpReduction": 12
     }
   },
@@ -452,6 +479,8 @@
       "vitality": 120,
       "strength": 60,
       "wisdom": 30,
+      "earthResistPer": 12,
+      "earthResist": 48,
       "apReduction": 12
     }
   },
@@ -473,6 +502,8 @@
       "vitality": 120,
       "agility": 60,
       "wisdom": 30,
+      "airResistPer": 12,
+      "airResist": 48,
       "mpResist": 12
     }
   },
@@ -494,6 +525,8 @@
       "vitality": 120,
       "intelligence": 60,
       "wisdom": 30,
+      "fireResistPer": 12,
+      "fireResist": 48,
       "apResist": 12
     }
   },
@@ -516,6 +549,7 @@
       "wisdom": 40,
       "summon": 1,
       "initiative": 500,
+      "neutralResistPer": 15,
       "apResist": 10,
       "mpResist": 10
     }
@@ -537,7 +571,9 @@
     "stats": {
       "vitality": 45,
       "strength": 25,
-      "summon": 1
+      "summon": 1,
+      "neutralResist": 10,
+      "earthResist": 10
     }
   },
   "zH": {
@@ -558,6 +594,9 @@
       "vitality": 110,
       "chance": 50,
       "wisdom": 20,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
       "apReduction": 6
     }
   },
@@ -578,6 +617,7 @@
     "stats": {
       "vitality": 120,
       "criticalChance": 10,
+      "waterResistPer": 10,
       "lock": 10,
       "apResist": 10,
       "pushbackDamage": 30
@@ -627,7 +667,10 @@
       "strength": 35,
       "chance": 35,
       "agility": 35,
-      "wisdom": 25
+      "wisdom": 25,
+      "neutralResistPer": 5,
+      "airResistPer": 10,
+      "pushbackResist": 25
     }
   },
   "b3": {
@@ -649,7 +692,8 @@
       "vitality": 40,
       "chance": 25,
       "wisdom": 7,
-      "criticalChance": 2
+      "criticalChance": 2,
+      "waterResistPer": 7
     }
   },
   "Hn": {
@@ -670,6 +714,8 @@
       "vitality": 160,
       "power": 30,
       "criticalChance": 5,
+      "fireResistPer": 6,
+      "waterResistPer": 6,
       "pushbackDamage": 30
     }
   },
@@ -692,6 +738,7 @@
       "strength": 30,
       "agility": 30,
       "range": 1,
+      "neutralResistPer": 7,
       "mpReduction": 6
     }
   },
@@ -712,6 +759,7 @@
     "stats": {
       "vitality": 80,
       "neutralDamage": 10,
+      "neutralResistPer": 10,
       "apReduction": 7,
       "mpReduction": 7,
       "criticalDamage": 10,
@@ -738,7 +786,8 @@
       "prospecting": 10,
       "dodge": 10,
       "apResist": 10,
-      "mpResist": 10
+      "mpResist": 10,
+      "pushbackResist": 40
     }
   },
   "QS": {
@@ -762,6 +811,7 @@
       "power": 50,
       "range": 1,
       "prospecting": 20,
+      "neutralResistPer": 5,
       "lock": 15,
       "pushbackDamage": 40,
       "meleeResistPer": 7
@@ -788,6 +838,8 @@
       "wisdom": 30,
       "criticalChance": 5,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
       "dodge": 7
     }
   },
@@ -810,6 +862,9 @@
       "power": 30,
       "criticalChance": 4,
       "reflect": 20,
+      "neutralResistPer": 5,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
       "lock": 12,
       "mpReduction": 10
     }
@@ -834,7 +889,8 @@
       "wisdom": 30,
       "summon": 1,
       "heal": 20,
-      "dodge": 15
+      "dodge": 15,
+      "pushbackResist": 50
     }
   },
   "Oe": {
@@ -856,6 +912,8 @@
       "wisdom": 40,
       "power": 50,
       "summon": 1,
+      "earthResistPer": 10,
+      "waterResistPer": 7,
       "dodge": 15,
       "apReduction": 12
     }
@@ -877,10 +935,12 @@
     "stats": {
       "vitality": 250,
       "wisdom": 40,
+      "neutralResistPer": 15,
       "lock": 15,
       "apResist": 15,
       "mpResist": 15,
       "criticalResist": 50,
+      "pushbackResist": 50,
       "meleeResistPer": 7,
       "rangedResistPer": 5
     }
@@ -905,6 +965,7 @@
       "agility": 50,
       "wisdom": 30,
       "range": 1,
+      "neutralResistPer": 10,
       "apReduction": 7,
       "mpReduction": 7,
       "rangedResistPer": 4
@@ -929,6 +990,7 @@
       "strength": 60,
       "wisdom": 30,
       "heal": 20,
+      "neutralResistPer": 5,
       "meleeResistPer": 3,
       "rangedResistPer": 5
     }
@@ -975,6 +1037,9 @@
       "vitality": 200,
       "power": 35,
       "reflect": 28,
+      "neutralResistPer": 5,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
       "lock": 14,
       "apReduction": 7
     }
@@ -995,6 +1060,12 @@
     "subCategory": "shield",
     "stats": {
       "vitality": 200,
+      "neutralResist": 30,
+      "earthResist": 30,
+      "fireResist": 30,
+      "waterResist": 30,
+      "airResist": 30,
+      "pushbackResist": 30,
       "rangedResistPer": 4
     }
   },
@@ -1021,6 +1092,8 @@
       "wisdom": 30,
       "criticalChance": 5,
       "heal": 15,
+      "neutralResistPer": 3,
+      "waterResistPer": 10,
       "pushbackDamage": 35
     }
   },
@@ -1044,6 +1117,9 @@
       "chance": 50,
       "wisdom": 30,
       "criticalChance": 3,
+      "neutralResistPer": 5,
+      "fireResist": 30,
+      "waterResist": 30,
       "mpResist": 12,
       "rangedResistPer": 5
     }
@@ -1065,7 +1141,8 @@
     "stats": {
       "vitality": 35,
       "power": 20,
-      "summon": 1
+      "summon": 1,
+      "neutralResist": 15
     }
   },
   "NP": {
@@ -1087,6 +1164,9 @@
       "wisdom": 30,
       "power": 40,
       "range": 1,
+      "earthResistPer": 6,
+      "fireResistPer": 6,
+      "airResistPer": 6,
       "mpReduction": 12
     }
   },
@@ -1112,8 +1192,11 @@
       "agility": 50,
       "wisdom": 30,
       "criticalChance": 6,
+      "fireResistPer": 7,
+      "airResistPer": 7,
       "dodge": 10,
-      "criticalResist": 20
+      "criticalResist": 20,
+      "pushbackResist": 20
     }
   },
   "sH": {
@@ -1135,7 +1218,10 @@
       "vitality": 70,
       "chance": 40,
       "wisdom": 10,
-      "initiative": 250
+      "initiative": 250,
+      "neutralResistPer": 3,
+      "fireResistPer": 6,
+      "waterResistPer": 6
     }
   },
   "1j": {
@@ -1204,6 +1290,9 @@
       "agility": 60,
       "wisdom": 40,
       "criticalChance": 6,
+      "earthResistPer": 8,
+      "fireResistPer": 6,
+      "airResistPer": 4,
       "lock": 10
     }
   },
@@ -1254,6 +1343,8 @@
       "chance": 60,
       "wisdom": 40,
       "prospecting": 15,
+      "earthResistPer": 10,
+      "airResistPer": 10,
       "apResist": 10,
       "criticalResist": 30
     }
@@ -1279,6 +1370,7 @@
       "chance": 30,
       "wisdom": 15,
       "criticalChance": 6,
+      "neutralResistPer": 7,
       "dodge": 7,
       "criticalDamage": 7
     }
@@ -1320,9 +1412,11 @@
       "vitality": 250,
       "power": 40,
       "initiative": 500,
+      "neutralResistPer": 10,
       "lock": 15,
       "apResist": 15,
       "pushbackDamage": 20,
+      "pushbackResist": 30,
       "rangedResistPer": 5
     }
   },
@@ -1344,6 +1438,7 @@
       "vitality": 250,
       "power": 40,
       "initiative": 500,
+      "neutralResistPer": 10,
       "dodge": 15,
       "mpResist": 15,
       "criticalDamage": 10,
@@ -1372,6 +1467,9 @@
       "agility": 70,
       "wisdom": 40,
       "criticalChance": -10,
+      "neutralResistPer": 5,
+      "waterResistPer": 10,
+      "airResistPer": 10,
       "mpResist": 10
     }
   },
@@ -1393,7 +1491,11 @@
     "stats": {
       "vitality": 250,
       "strength": 70,
-      "intelligence": 70
+      "intelligence": 70,
+      "neutralResistPer": 7,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "pushbackResist": 80
     }
   },
   "Ty": {
@@ -1414,10 +1516,28 @@
       "vitality": 300,
       "wisdom": 60,
       "power": 60,
+      "neutralResistPer": 5,
       "lock": 20,
       "dodge": -20,
       "mpResist": -20,
+      "pushbackResist": 40,
       "rangedResistPer": 10
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Droiture de Fallanster",
+        "en": "Fallanster's Rectitude",
+        "pt": "Retidão de Fallanster",
+        "de": "Rechtschaffenheit von Fallanster",
+        "es": "Rectitud de Fallanster"
+      },
+      "description": {
+        "fr": "Droiture de Fallanster :\n• Lorsque le porteur termine son tour en ligne de vue d'un ennemi, il pose un glyphe-aura dans une croix de taille 1 qui réduit les dommages subis par les alliés de 10% jusqu'au début de son prochain tour. Le glyphe est dissipé au prochain tour ou s'il est déplacé.",
+        "en": "Fallanster's Rectitude:\n• When the bearer ends their turn in an enemy's line of sight, they place a glyph-aura in a 1-cell cross, which reduces the damage suffered by allies by 10% until the start of the bearer's next turn. The glyph disappears on the next turn or if it is moved.",
+        "pt": "Retidão de Fallanster:\n• Ao terminar seu turno na linha de visão de um inimigo, o portador coloca um glifo-aura em uma cruz de tamanho 1 que reduz os danos sofridos pelos aliados em 10% até o começo do próximo turno. O glifo desaparece no próximo turno ou ao ser movido.",
+        "de": "Rechtschaffenheit von Fallanster:\n• Wenn der Träger seine Runde in Sichtlinie eines Gegners beendet, platziert er eine Aura-Glyphe in einem kreuzförmigen Bereich der Größe 1, die den von Verbündeten erlittenen Schaden bis zu Beginn seiner nächsten Runde um 10 % verringert. Die Glyphe verschwindet in der nächsten Runde oder wenn sie wegbewegt wird.",
+        "es": "Rectitud de Fallanster:\n• Cuando el portador termina su turno en línea de visión de un enemigo, coloca un glifo aura en una cruz de tamaño 1 que reduce el daño recibido por los aliados en un 10% hasta el inicio de su siguiente turno. El glifo se disipa en el siguiente turno o si es desplazado."
+      }
     }
   },
   "Ur": {
@@ -1439,9 +1559,27 @@
       "wisdom": 40,
       "power": 50,
       "initiative": 300,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
       "dodge": -50,
       "criticalResist": 30,
       "pushbackResist": -100
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Trompe-la-Mort",
+        "en": "Death-Defying",
+        "pt": "Engana-a-Morte",
+        "de": "Todesverachter",
+        "es": "Burlador de la Muerte"
+      },
+      "description": {
+        "fr": "Trompe-la-Mort :\n• Lorsque le porteur a plus de 50% de sa vie, ses dommages finaux sont augmentés de 7%, mais il perd 10% de sa vie à chaque début de tour.\n• Lorsqu'il a moins de 50% de sa vie, les dommages qu'il subit sont réduits de 20%.",
+        "en": "Death-Defying:\n• When the bearer has more than 50% health, their final damage is increased by 7%, but they lose 10% of their health at the start of each turn.\n• When they have less than 50% HP, the damage taken is reduced by 20%.",
+        "pt": "Engana-a-Morte:\n• Quando o portador tem mais de 50% de vida, seus danos finais aumentam em 7%, mas ele perde 10% da vida no começo de cada turno.\n• Quando ele tem menos de 50% de sua vida, os danos que ele sofre são reduzidos em 20%.",
+        "de": "Todesverachter:\n• Wenn der Träger mehr als 50 % seiner Lebenspunkte hat, erhöht sich sein Endschaden um 7 %. Dafür verliert er zu Beginn jeder Runde 10 % seiner LP.\n• Wenn er weniger als 50 % seiner Lebenspunkte hat, verringert sich der Schaden, den er erleidet, um 20 %.",
+        "es": "Burlador de la Muerte:\n• Cuando el portador tiene más de un 50% de vida, sus daños finales aumentan un 7%, pero pierde un 10% de su vida al principio de cada turno.\n• Cuando tiene menos del 50% de su vida, los daños que sufre se reducen un 20%."
+      }
     }
   },
   "OW": {
@@ -1467,6 +1605,8 @@
       "agility": 40,
       "wisdom": 40,
       "summon": 1,
+      "neutralResistPer": 10,
+      "earthResistPer": 10,
       "lock": 15,
       "mpReduction": 15
     }
@@ -1491,6 +1631,7 @@
       "power": 50,
       "criticalChance": 7,
       "initiative": 800,
+      "waterResistPer": 15,
       "lock": 15,
       "mpResist": 12
     }
@@ -1516,6 +1657,8 @@
       "wisdom": 40,
       "criticalChance": 5,
       "range": -1,
+      "neutralResistPer": 5,
+      "fireResistPer": 15,
       "lock": 15,
       "mpReduction": 10
     }
@@ -1539,7 +1682,12 @@
       "vitality": 110,
       "wisdom": 20,
       "power": 30,
-      "criticalChance": 5
+      "criticalChance": 5,
+      "neutralResist": 5,
+      "earthResist": 5,
+      "fireResist": 5,
+      "waterResist": 5,
+      "airResist": 5
     }
   },
   "Dt": {
@@ -1584,6 +1732,10 @@
       "chance": 35,
       "wisdom": 25,
       "summon": 1,
+      "neutralResistPer": 4,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
       "apReduction": 6
     }
   },
@@ -1607,6 +1759,8 @@
       "strength": 70,
       "agility": 70,
       "wisdom": 40,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "dodge": 15,
       "pushbackDamage": 30
     }
@@ -1632,6 +1786,7 @@
       "chance": 50,
       "wisdom": 30,
       "criticalChance": 5,
+      "neutralResistPer": 15,
       "lock": 10,
       "meleeResistPer": 6
     }
@@ -1656,6 +1811,7 @@
       "wisdom": 40,
       "power": 50,
       "reflect": 30,
+      "neutralResistPer": 15,
       "mpReduction": 10,
       "mpResist": -15,
       "criticalResist": 20
@@ -1700,6 +1856,8 @@
       "wisdom": 30,
       "criticalChance": 5,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
       "mpResist": 7
     }
   },
@@ -1746,6 +1904,10 @@
       "agility": 70,
       "wisdom": 40,
       "criticalChance": -3,
+      "earthResistPer": 8,
+      "airResistPer": 8,
+      "fireResistPer": -3,
+      "waterResistPer": -3,
       "dodge": 12,
       "mpReduction": 10,
       "apResist": 10,
@@ -1773,9 +1935,14 @@
       "chance": 70,
       "wisdom": 40,
       "criticalChance": 3,
+      "fireResistPer": 8,
+      "waterResistPer": 8,
+      "earthResistPer": -3,
+      "airResistPer": -3,
       "lock": 12,
       "apReduction": 10,
-      "mpResist": 10
+      "mpResist": 10,
+      "pushbackResist": 15
     }
   },
   "DR": {
@@ -1800,7 +1967,8 @@
       "wisdom": 25,
       "criticalChance": 5,
       "criticalResist": 20,
-      "pushbackDamage": 15
+      "pushbackDamage": 15,
+      "pushbackResist": 20
     }
   },
   "DS": {
@@ -1821,6 +1989,9 @@
       "vitality": 140,
       "power": 30,
       "initiative": 400,
+      "neutralResistPer": 10,
+      "waterResistPer": 3,
+      "airResistPer": 3,
       "lock": 10,
       "dodge": 10,
       "apResist": 7,
@@ -1845,9 +2016,13 @@
       "vitality": 140,
       "power": 30,
       "initiative": 400,
+      "neutralResistPer": 10,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
       "lock": 10,
       "dodge": 10,
-      "criticalResist": 15
+      "criticalResist": 15,
+      "pushbackResist": 15
     }
   },
   "8Y": {
@@ -1868,7 +2043,8 @@
     "stats": {
       "vitality": 30,
       "intelligence": 30,
-      "wisdom": 5
+      "wisdom": 5,
+      "fireResistPer": 3
     }
   },
   "uH": {
@@ -1915,6 +2091,8 @@
       "wisdom": 30,
       "criticalChance": 5,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "fireResistPer": 7,
       "apResist": 7
     }
   },
@@ -1939,6 +2117,8 @@
       "wisdom": 30,
       "criticalChance": 5,
       "prospecting": 15,
+      "neutralResistPer": 7,
+      "waterResistPer": 7,
       "lock": 7
     }
   },
@@ -1980,7 +2160,13 @@
       "intelligence": 50,
       "wisdom": 25,
       "range": 1,
-      "reflect": 15
+      "reflect": 15,
+      "neutralResist": 10,
+      "earthResist": 10,
+      "fireResist": 10,
+      "waterResist": 10,
+      "airResist": 10,
+      "pushbackResist": 20
     }
   },
   "AV": {
@@ -2002,6 +2188,7 @@
       "intelligence": 40,
       "agility": 40,
       "wisdom": 20,
+      "airResistPer": 10,
       "dodge": 10,
       "mpResist": 7
     }
@@ -2021,7 +2208,13 @@
     "panoply": "01",
     "category": "shield",
     "subCategory": "shield",
-    "stats": {}
+    "stats": {
+      "neutralResist": 1,
+      "earthResist": 1,
+      "fireResist": 1,
+      "waterResist": 1,
+      "airResist": 1
+    }
   },
   "R3": {
     "id": "R3",
@@ -2044,6 +2237,8 @@
       "wisdom": 40,
       "mp": 1,
       "heal": 15,
+      "earthResistPer": 10,
+      "airResistPer": 5,
       "dodge": 15,
       "pushbackDamage": 30
     }
@@ -2069,7 +2264,9 @@
       "power": 30,
       "criticalChance": 3,
       "summon": 1,
-      "heal": 12
+      "heal": 12,
+      "neutralResistPer": 10,
+      "neutralResist": 20
     }
   },
   "Tj": {
@@ -2094,6 +2291,8 @@
       "wisdom": 40,
       "criticalChance": 4,
       "prospecting": 15,
+      "fireResistPer": 7,
+      "airResistPer": 7,
       "mpReduction": 10,
       "pushbackDamage": 25
     }
@@ -2119,6 +2318,9 @@
       "power": 30,
       "prospecting": 15,
       "initiative": 200,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
       "dodge": 8,
       "apResist": 8,
       "pushbackDamage": 25
@@ -2153,7 +2355,13 @@
       "vitality": 250,
       "wisdom": 50,
       "initiative": 500,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "airResistPer": 5,
       "pushbackDamage": 30,
+      "pushbackResist": 60,
       "rangedResistPer": 5
     }
   },
@@ -2180,7 +2388,11 @@
       "agility": 40,
       "wisdom": 30,
       "criticalChance": 3,
-      "pushbackDamage": 20
+      "neutralResistPer": 4,
+      "waterResistPer": 4,
+      "airResistPer": 4,
+      "pushbackDamage": 20,
+      "pushbackResist": 20
     }
   },
   "S9": {
@@ -2207,6 +2419,22 @@
       "criticalResist": -20,
       "rangedResistPer": 4,
       "meleeResistPer": -3
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Reflet Aveuglant",
+        "en": "Blinding Reflection",
+        "pt": "Reflexo Cegante",
+        "de": "Blendende Spiegelung",
+        "es": "Reflejo Cegador"
+      },
+      "description": {
+        "fr": "Reflet Aveuglant :\n• À chaque fin de tour, le porteur retire 4 de Portée pendant 1 tour à tous les ennemis dans sa ligne de vue et les dévoile s'ils sont invisibles (cumulable 1 fois).",
+        "en": "Blinding Reflection:\n• At the end of each turn, the bearer removes 4 Range from all enemies in their line of sight for 1 turn and reveals them if they're Invisible (stackable 1 time).",
+        "pt": "Reflexo Cegante:\n• No fim de cada turno, o portador retira 4 de alcance durante 1 turno de todos os inimigos em sua linha de visão e os revela se eles estiverem invisíveis (acumula 1 vez).",
+        "de": "Blendende Spiegelung:\n• Am Ende jeder Runde entzieht der Träger allen Gegnern in seiner Sichtlinie 1 Runde lang 4 Reichweite und enthüllt sie, wenn sie unsichtbar sind (1-mal kumulierbar).",
+        "es": "Reflejo Cegador:\n• Al final de cada turno, el portador reduce en 4 el alcance durante 1 turno a todos los enemigos en su línea de visión y los revela si están invisibles (acumulable 1 vez)."
+      }
     }
   }
 }
