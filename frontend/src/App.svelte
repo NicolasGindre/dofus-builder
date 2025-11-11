@@ -37,7 +37,7 @@
 </script>
 
 <main>
-    <SavedSearches />
+    <!-- <SavedSearches /> -->
     <LanguageSelect />
     <h1>Dofus MinMax - Builder</h1>
     {#if error}

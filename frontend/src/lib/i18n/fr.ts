@@ -132,7 +132,7 @@ export default {
         pushbackDamage: "Dommages Poussée",
 
         trapPower: "Puissance Pièges",
-        trapDamage: "Dommage Pièges",
+        trapDamage: "Dommages Pièges",
 
         neutralResistPer: "% Résistance Neutre",
         earthResistPer: "% Résistance Terre",
@@ -212,5 +212,7 @@ export default {
         damage: "dommages",
         steal: "vol",
         heal: "soin",
+        pull: "case attiré",
+        push: "case repoussé",
     },
 };

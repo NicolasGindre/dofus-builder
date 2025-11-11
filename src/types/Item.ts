@@ -48,7 +48,7 @@ export const SUB_CATEGORIES = [
 
 export type Item = {
     id: string;
-    idDofusDB: string;
+    idDofusDB: number;
     idDofusBook: number;
     level: number;
     name: Name;
@@ -81,13 +81,17 @@ export const ELEMENT = [
     "earth",
     "water",
     "air",
+    "bestElem",
+
     "mpReduce",
     "apReduce",
-    "bestElem",
+
+    "pull",
+    "push",
 ] as const;
 export type Element = (typeof ELEMENT)[number];
 
-export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
+export const EFFECT_TYPE = ["damage", "steal", "heal", "pull", "push", "other"] as const;
 export type EffectType = (typeof EFFECT_TYPE)[number];
 export type SpellEffect = {
     name?: string;
@@ -123,7 +127,7 @@ export type Items = Record<string, Item>;
 
 export type Panoply = {
     id: string;
-    idDofusDB: string;
+    idDofusDB: number;
     name: Name;
     level: number;
     items: string[];

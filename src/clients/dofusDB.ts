@@ -27,7 +27,7 @@ import { nextValue } from "../db/base62inc";
 export type ItemMap = Record<string, ItemMapValue>;
 export type ItemMapValue = {
     id: string;
-    dofusDBId: string;
+    dofusDBId: number;
     dofusBookId: number;
     name: string;
     level: number;
@@ -37,7 +37,7 @@ export type ItemMapValue = {
 export type PanoMap = Record<string, PanoMapValue>;
 export type PanoMapValue = {
     id: string;
-    dofusDBId: string;
+    dofusDBId: number;
     name: string;
     level: number;
     requirements?: Requirement[][][];
@@ -78,6 +78,7 @@ type SpellResp = z.infer<typeof SpellSchema>;
 
 const ItemRespSchema = z.object({
     _id: z.string(),
+    id: z.number(),
     level: z.number().int(),
     name: NameSchema,
     criterions: z.string().optional(), // max AP / MP
@@ -215,7 +216,7 @@ export async function translateItem(
     const minRequirement = convertItemRequirement(requirements);
     let item: Item = {
         id: itemMap.id,
-        idDofusDB: dofusDbItem._id,
+        idDofusDB: dofusDbItem.id,
         idDofusBook: itemMap.dofusBookId,
         name: {
             fr: dofusDbItem.name.fr,
@@ -257,7 +258,14 @@ export async function translateItem(
             min: effect.from,
             max: effect.to,
         };
-        if (element != "apReduce" && element != "mpReduce" && dofusDbItem.criticalHitBonus) {
+        if (
+            (type == "damage" || type == "steal" || type == "heal") &&
+            dofusDbItem.criticalHitBonus &&
+            element != "pull" &&
+            element != "push" &&
+            element != "apReduce" &&
+            element != "mpReduce"
+        ) {
             line.minCrit = effect.from + dofusDbItem.criticalHitBonus;
             line.maxCrit = effect.to ? effect.to + dofusDbItem.criticalHitBonus : 0;
         }
@@ -360,6 +368,7 @@ function translateCriterions(criterions: string | undefined): Requirement[][] {
 
 const PanoplyRespSchema = z.object({
     _id: z.string(),
+    id: z.number(),
     name: NameSchema,
     effects: z.array(z.array(StatSchema)), // stats
     criterions: z.string().optional(), // max AP / MP
@@ -416,7 +425,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
             }
             panoplies[panoMap.id] = {
                 id: panoMap.id,
-                idDofusDB: dofusDbPano._id,
+                idDofusDB: dofusDbPano.id,
                 name: {
                     fr: dofusDbPano.name.fr,
                     en: dofusDbPano.name.en,
@@ -481,8 +490,11 @@ export const ELEMENT_ID_DOFUSDB: Record<number, [Element, EffectType]> = {
 
     108: ["fire", "heal"],
 
-    125: ["mpReduce", "damage"],
-    101: ["apReduce", "damage"],
+    127: ["mpReduce", "other"],
+    101: ["apReduce", "other"],
+
+    5: ["push", "push"],
+    6: ["pull", "pull"],
 };
 
 export const STAT_ID_DOFUSDB: Record<number, StatKey> = {

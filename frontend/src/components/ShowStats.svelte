@@ -9,6 +9,8 @@
     import { minStats, words } from "../stores/builder";
     import { calculateStatsValue } from "../logic/value";
     import { object } from "zod/v4-mini";
+    import Icon from "../lib/Icon.svelte";
+    import { getIconFromStat } from "../lib/iconMap";
 
     export let stats: Partial<Stats>;
     export let compareStats: Partial<Stats> | null = null;
@@ -61,7 +63,10 @@
                                         >{(Math.abs(stats[statKey]) % 1).toString().slice(1)}</span
                                     >{/if}</td
                             >
-                            <td>{$words.stats[statKey]}</td>
+                            <td
+                                ><Icon name={getIconFromStat(statKey)} size={20} />
+                                {$words.stats[statKey]}</td
+                            >
                         </tr>
                     {/if}
                 {/each}
@@ -98,7 +103,10 @@
                                         >{/if}
                                 </span></td
                             >
-                            <td>{$words.stats[statKey]}</td>
+                            <td
+                                ><Icon name={getIconFromStat(statKey)} size={20} />
+                                {$words.stats[statKey]}</td
+                            >
                         </tr>
                     {/if}
                 {/each}
@@ -141,6 +149,7 @@
     }
     .build-stats td:last-child {
         text-align: left;
+        white-space: nowrap;
     }
     /* .build-stats table + table {
         margin-left: 2rem;

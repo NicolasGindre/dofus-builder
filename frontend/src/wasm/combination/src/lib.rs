@@ -413,7 +413,7 @@ fn prepare_items(
             // build_value = build_stats.value(&weights, &min_adj, &max_adj);
         }
 
-        if heap.len() < 100 || build_value > lowest_best_value {
+        if heap.len() < 500 || build_value > lowest_best_value {
             let ids_resp: Vec<String> = idx
                 .iter()
                 .enumerate()
@@ -422,7 +422,7 @@ fn prepare_items(
 
             let build = BuildResult { value: build_value, ids: ids_resp };
 
-            if heap.len() == 100 {
+            if heap.len() == 500 {
                 heap.pop(); // drop the smallest
             }
             heap.push(Reverse(build));

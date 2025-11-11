@@ -150,7 +150,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
                             // merge top-K from all workers
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
-                            const top = merged.slice(0, 100);
+                            const top = merged.slice(0, 500);
                             cancel();
                             // bestBuilds.set(buildsFromWasm(msg.value));
                             return resolve(top);

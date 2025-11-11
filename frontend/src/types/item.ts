@@ -83,13 +83,18 @@ export const ELEMENT = [
     "earth",
     "water",
     "air",
+    "bestElem",
+
     "mpReduce",
     "apReduce",
-    "bestElem",
-] as const;
-export type Element = (typeof ELEMENT)[number];
 
-export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
+    "pull",
+    "push",
+] as const;
+export type DamageElement = (typeof ELEMENT)[number];
+
+// export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
+export const EFFECT_TYPE = ["damage", "steal", "heal", "pull", "push", "other"] as const;
 export type EffectType = (typeof EFFECT_TYPE)[number];
 export type SpellEffect = {
     name?: string;
@@ -98,7 +103,7 @@ export type SpellEffect = {
     effects: [
         {
             type: EffectType;
-            element: Element;
+            element: DamageElement;
             min: number;
             max: number;
             minCrit?: number;

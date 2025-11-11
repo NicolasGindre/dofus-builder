@@ -117,7 +117,7 @@ export default {
 
         spellDamagePer: "% Daño de Hechizos",
         rangedDamagePer: "% Daño a Distancia",
-        meleeDamagePer: "% Daño Cuerpo a Cuerpo",
+        meleeDamagePer: "% Daño CaC",
         weaponDamagePer: "% Daño de Arma",
 
         criticalDamage: "Daño Crítico",
@@ -134,7 +134,7 @@ export default {
         airResistPer: "% Resistencia de Aire",
         waterResistPer: "% Resistencia de Agua",
 
-        meleeResistPer: "% Resistencia Cuerpo a Cuerpo",
+        meleeResistPer: "% Resistencia CaC",
         rangedResistPer: "% Resistencia a Distancia",
 
         criticalResist: "Resistencia Crítica",

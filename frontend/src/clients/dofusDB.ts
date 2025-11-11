@@ -1,5 +1,5 @@
 import { get } from "svelte/store";
-import { getLeveledStats, type Build } from "../types/build";
+import { type Build } from "../types/build";
 import { exoAp, exoMp, exoRange, level } from "../stores/builder";
 import type { StatKey, Stats } from "../types/stats";
 import { STAT_ID_DOFUSDB } from "../../../src/clients/dofusDB";
@@ -21,23 +21,23 @@ export async function createDofusDBBuild(build: Build): Promise<string> {
         shared: "public",
 
         items: {
-            amulet: build.slots.amulet?.idDofusBook ?? null,
-            rings: [build.slots.ring1?.idDofusBook, build.slots.ring2?.idDofusBook].filter(Boolean),
-            boots: build.slots.boots?.idDofusBook ?? null,
-            helmet: build.slots.hat?.idDofusBook ?? null,
-            cape: build.slots.cloak?.idDofusBook ?? null,
-            belt: build.slots.belt?.idDofusBook ?? null,
-            pet: build.slots.pet?.idDofusBook ?? null,
+            amulet: build.slots.amulet?.idDofusDB ?? null,
+            rings: [build.slots.ring1?.idDofusDB, build.slots.ring2?.idDofusDB].filter(Boolean),
+            boots: build.slots.boots?.idDofusDB ?? null,
+            helmet: build.slots.hat?.idDofusDB ?? null,
+            cape: build.slots.cloak?.idDofusDB ?? null,
+            belt: build.slots.belt?.idDofusDB ?? null,
+            pet: build.slots.pet?.idDofusDB ?? null,
             dofus: [
-                build.slots.dofus1?.idDofusBook,
-                build.slots.dofus2?.idDofusBook,
-                build.slots.dofus3?.idDofusBook,
-                build.slots.dofus4?.idDofusBook,
-                build.slots.dofus5?.idDofusBook,
-                build.slots.dofus6?.idDofusBook,
+                build.slots.dofus1?.idDofusDB,
+                build.slots.dofus2?.idDofusDB,
+                build.slots.dofus3?.idDofusDB,
+                build.slots.dofus4?.idDofusDB,
+                build.slots.dofus5?.idDofusDB,
+                build.slots.dofus6?.idDofusDB,
             ].filter(Boolean),
-            weapon: build.slots.weapon?.idDofusBook ?? null,
-            shield: build.slots.shield?.idDofusBook ?? null,
+            weapon: build.slots.weapon?.idDofusDB ?? null,
+            shield: build.slots.shield?.idDofusDB ?? null,
         },
 
         stats: getDofusDBStats(build.stats),

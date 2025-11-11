@@ -16,7 +16,6 @@
         maxStatsIndex,
         minStatsIndex,
     } from "../stores/builder";
-    import { get } from "svelte/store";
     import {
         checkWeightUpdate,
         copyDefaultWeightsIndex,
@@ -24,14 +23,14 @@
         defaultMinIndex,
         getDefaultWeightIndex,
     } from "../types/statWeights";
-    // import { Crosshair } from "lucide-svelte";
-    import Plus from "lucide-svelte/icons/plus";
     import {
         findClosestMinMaxIndex,
         findClosestWeightIndex,
         MIN_MAX_ENCODING,
         WEIGHT_ENCODING,
     } from "../logic/encoding/valueEncoding";
+    import Icon from "../lib/Icon.svelte";
+    import { getIconFromStat } from "../lib/iconMap";
 
     function resetAll() {
         weightsIndex.set({});
@@ -185,7 +184,10 @@
         <tbody>
             {#each stats as statKey}
                 <tr>
-                    <td>{$words.stats[statKey]} </td>
+                    <td
+                        >{$words.stats[statKey]}
+                        <Icon name={getIconFromStat(statKey)} size={20} /></td
+                    >
                     <td>
                         <div class="weight-input">
                             <input
@@ -376,25 +378,27 @@
         </tbody>
     </table>
 {/snippet}
+<div>
+    <div class="controls">
+        <button on:click={resetAll}>{$words.reset}</button>
+        <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>
 
-<div class="controls">
-    <button on:click={resetAll}>{$words.reset}</button>
-    <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>
-
-    <label class="checkbox-label">
-        <input
-            type="checkbox"
-            bind:checked={$automaticWeights}
-            on:change={() => checkWeightUpdate()}
-        />
-        {$words.automaticWeightCalculation}
-    </label>
-</div>
-<div class="stats-grid">
-    <!-- <h3>ok</h3> -->
-    {@render showStatsWeights($words.statsType.utility, STAT_UTILITY_KEYS)}
-    {@render showStatsWeights($words.statsType.offense, STAT_OFFENSE_KEYS)}
-    {@render showStatsWeights($words.statsType.defense, STAT_DEFENSE_KEYS)}
+        <label class="checkbox-label">
+            <input
+                type="checkbox"
+                bind:checked={$automaticWeights}
+                on:change={() => checkWeightUpdate()}
+            />
+            {$words.automaticWeightCalculation}
+        </label>
+    </div>
+    <div class="stats-grid">
+        <!-- <h3>ok</h3> -->
+        {@render showStatsWeights($words.statsType.utility, STAT_UTILITY_KEYS)}
+        {@render showStatsWeights($words.statsType.offense, STAT_OFFENSE_KEYS)}
+        {@render showStatsWeights($words.statsType.defense, STAT_DEFENSE_KEYS)}
+    </div>
+    <!-- <SavedSearches /> -->
 </div>
 
 <style>
@@ -470,6 +474,7 @@
     .stats-grid td:first-child {
         text-align: right;
         padding-right: 10px;
+        white-space: nowrap;
     }
     .stats-grid td:nth-last-child(3) > :first-child {
         border-top-left-radius: 6px;

@@ -1,8 +1,6 @@
 <script lang="ts">
     import { lang } from "../stores/builder";
-    import { get } from "svelte/store";
     import type { CountryCode } from "../types/language";
-    import { calculateBestItems } from "../logic/value";
     import { calculateBuildToDisplay } from "../logic/display";
 
     type LangOption = {

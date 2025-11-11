@@ -5,11 +5,13 @@
     // import type { Stats } from "../types/stats";
     import ShowStats from "./ShowStats.svelte";
     import { diffStats } from "../types/stats";
-    import { minStats, words } from "../stores/builder";
+    import { lang, minStats, words } from "../stores/builder";
     import { translateRequirement } from "../logic/language";
     import { tick } from "svelte";
     import { isPanoMinRequirementOK } from "../logic/item";
     import { checkOrRequirement } from "../logic/build";
+    import Icon from "../lib/Icon.svelte";
+    import { getIconFromElement } from "../lib/iconMap";
 
     // export let itemOrPano: { item: Item, pano: Panoply };
     export let item: Item | null = null;
@@ -122,14 +124,24 @@
                     <div class="weapon-effects">
                         <span>{$words.cost}: {item.weaponEffect.cost} {$words.stats.ap}</span>
                         <br />
-                        <span>{$words.criticalChance}: {item.weaponEffect.critChance} %</span>
+                        <span
+                            >{$words.criticalChance}: {item.weaponEffect.critChance} %<Icon
+                                name="criticalChance"
+                                size={20}
+                            /></span
+                        >
                         <br />
                         {#each item.weaponEffect.effects as effect}
-                            <span>{effect.min}</span>
+                            <span
+                                ><Icon name={getIconFromElement(effect.element)} size={20} />
+                                {effect.min}</span
+                            >
                             {#if effect.max}<span>{$words.to} {effect.max}</span>{/if}
                             {#if effect.minCrit}
-                                <span>[{effect.minCrit}</span>{#if effect.maxCrit}<span
-                                        >&nbsp{$words.to} {effect.maxCrit}</span
+                                <span
+                                    >[<Icon name="criticalDamage" size={20} />
+                                    {effect.minCrit}</span
+                                >{#if effect.maxCrit}<span>&nbsp{$words.to} {effect.maxCrit}</span
                                     >{/if}]{/if}
                             <span
                                 >{effect.element != "mpReduce" && effect.element != "apReduce"
@@ -146,7 +158,7 @@
                 {#if item.specialEffect}
                     <div class="spell-effects">
                         <!-- <span>{item.specialEffect.name.fr}</span> -->
-                        <span>{item.specialEffect.description.fr}</span>
+                        <span>{item.specialEffect.description[$lang]}</span>
                     </div>
                 {/if}
             {/if}

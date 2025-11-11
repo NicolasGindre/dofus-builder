@@ -13,6 +13,7 @@
         totalPossibilities,
         itemsLocked,
         urlHash,
+        previousStatsSearch,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item, ItemCategory, Items } from "../types/item";
@@ -43,6 +44,7 @@
     import { getEncodedStatsFromHash, saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { categoryLength } from "../types/build";
     import { onMount } from "svelte";
+    import SavedSearches from "./SavedSearches.svelte";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -127,7 +129,7 @@
         return false;
     }
 
-    let previousStatsSearch: string = getEncodedStatsFromHash(window.location.hash.slice(1));
+    // let previousStatsSearch: string = getEncodedStatsFromHash(window.location.hash.slice(1));
 </script>
 
 {#snippet addItemToSelecteds(items: Item[])}
@@ -193,15 +195,17 @@
         </div>
 
         <button
-            class:modified={getEncodedStatsFromHash($urlHash) != previousStatsSearch}
+            class:modified={getEncodedStatsFromHash($urlHash) != $previousStatsSearch}
             on:click={() => {
                 calculateBestItems();
                 saveHistoryEntry();
-                previousStatsSearch = getEncodedStatsFromHash($urlHash);
+                previousStatsSearch.set(getEncodedStatsFromHash($urlHash));
             }}>{$words.calculateBestItems}</button
         >
         <!-- <button on:click={addAll}>Add All</button> -->
+        <SavedSearches />
     </div>
+
     <div class="lists">
         <div class="list-container">
             <div class="list-header">

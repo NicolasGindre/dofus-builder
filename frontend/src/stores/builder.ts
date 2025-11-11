@@ -40,6 +40,7 @@ const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
 
 export const urlHash = writable<string>("");
+export const previousStatsSearch = writable<string>("");
 export const savedSearch = writable<string | undefined>(undefined);
 savedSearch.subscribe((savedSearch) => {
     document.title = savedSearch ? `${savedSearch} - Dofus MinMax` : "Dofus MinMax";
@@ -64,7 +65,7 @@ export const categoryDisplaySize = writable<Record<ItemCategory, number>>({
     shield: 15,
 });
 export const showBonusPanoCappedItems = writable<boolean>(true);
-export const sortBestItemsWithPanoValue = writable<boolean>(true);
+export const sortBestItemsWithPanoValue = writable<boolean>(false);
 export const showOnlySelectedPanos = writable<boolean>(false);
 
 export const automaticWeights = writable<boolean>(true);

@@ -4,6 +4,7 @@ import {
     itemsSelected,
     maxStatsIndex,
     minStatsIndex,
+    previousStatsSearch,
     urlHash,
     weightsIndex,
 } from "../../stores/builder";
@@ -104,6 +105,7 @@ export function decodeFromUrl(hash?: string) {
         try {
             decodeStats(encodedStats);
             calculateBestItems();
+            previousStatsSearch.set(encodedStats);
         } catch (err) {
             console.log(err);
         }

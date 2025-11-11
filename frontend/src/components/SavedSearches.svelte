@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { onDestroy } from "svelte";
+    import { onDestroy, onMount } from "svelte";
     import { decodeFromUrl, encodeToUrl, saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { savedSearch, savedSearches, urlHash, words } from "../stores/builder";
     import { get } from "svelte/store";
@@ -77,88 +77,122 @@
             return updated;
         });
     }
+
+    // let savedSearchesEl: HTMLDivElement;
+    // let stopAtEl: HTMLDivElement;
+    // onMount(() => {
+    //     const start = 1000; // px offset where it starts sticking
+
+    //     const onScroll = () => {
+    //         const scroll = window.scrollY;
+    //         const stop =
+    //             stopAtEl.getBoundingClientRect().top +
+    //             window.scrollY -
+    //             savedSearchesEl.offsetHeight;
+
+    //         if (scroll < start) {
+    //             savedSearchesEl.style.position = "absolute";
+    //             savedSearchesEl.style.top = `${start}px`;
+    //         } else if (scroll >= start && scroll < stop) {
+    //             savedSearchesEl.style.position = "fixed";
+    //             savedSearchesEl.style.top = "0px";
+    //         } else {
+    //             savedSearchesEl.style.position = "absolute";
+    //             savedSearchesEl.style.top = `${stop}px`;
+    //         }
+    //     };
+
+    //     window.addEventListener("scroll", onScroll);
+    //     return () => window.removeEventListener("scroll", onScroll);
+    // });
 </script>
 
-<div class="saved-searches" class:active={showSavedSearches || inputSearchName !== ""}>
-    <div class="">
-        <h4
-            class:is-saved-search-name={$savedSearch}
-            class:saved={$urlHash == $savedSearches[$savedSearch]}
-        >
-            {$savedSearch ? $savedSearch : $words.savedSearches}
-        </h4>
+<!-- bind:this={savedSearchesEl} -->
+<div class="saved-searches-container">
+    <div class="saved-searches" class:active={showSavedSearches || inputSearchName !== ""}>
+        <div class="">
+            <h4
+                class:is-saved-search-name={$savedSearch}
+                class:saved={$urlHash == $savedSearches[$savedSearch]}
+            >
+                {$savedSearch ? $savedSearch : $words.savedSearches}
+            </h4>
 
-        <div
-            class="save-search-name"
-            tabindex="-1"
-            on:focusout={(e) => {
-                if (!e.currentTarget.contains(e.relatedTarget as Node)) {
-                    inputSearchName = "";
-                    showSavedSearches = false;
-                }
-            }}
-        >
-            <div class="search-input-select">
-                <input
-                    type="text"
-                    bind:value={inputSearchName}
-                    bind:this={inputEl}
-                    on:dblclick={() => (showSavedSearches = !showSavedSearches)}
-                    on:input={() => (showSavedSearches = false)}
-                    on:keydown={(e) => {
-                        if (e.key === "Escape") showSavedSearches = false;
-                    }}
-                    placeholder={$words.SavedSearchName}
-                    class="search-input"
-                />
-                <button on:click={() => (showSavedSearches = !showSavedSearches)}
-                    >{showSavedSearches ? "▲" : "▼"}</button
-                >
-            </div>
-            {#if Object.keys($savedSearches).length > 0 && showSavedSearches}
-                <ul class="results">
-                    {#each Object.keys($savedSearches) as name}
-                        <button
-                            on:click={() => {
-                                inputSearchName = name;
-                                showSavedSearches = false;
-                                inputEl.focus();
-                            }}
-                        >
-                            {name}
-                        </button>
-                    {/each}
-                </ul>
-            {/if}
-            <div class="buttons-control">
-                <button
-                    class="save-button"
-                    on:click={saveSearch}
-                    disabled={($savedSearches[inputSearchName] != undefined &&
-                        inputSearchName != $savedSearch) ||
-                        (!$savedSearch && !inputSearchName)}>{$words.save}</button
-                >
-                <button
-                    class="load-button"
-                    on:click={loadSearch}
-                    disabled={$savedSearches[inputSearchName] == undefined}>{$words.load}</button
-                >
-                <button
-                    class="delete-button"
-                    on:click={deleteSearch}
-                    disabled={$savedSearches[inputSearchName] == undefined}>X</button
-                >
+            <div
+                class="save-search-name"
+                tabindex="-1"
+                on:focusout={(e) => {
+                    if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+                        inputSearchName = "";
+                        showSavedSearches = false;
+                    }
+                }}
+            >
+                <div class="search-input-select">
+                    <input
+                        type="text"
+                        bind:value={inputSearchName}
+                        bind:this={inputEl}
+                        on:dblclick={() => (showSavedSearches = !showSavedSearches)}
+                        on:input={() => (showSavedSearches = false)}
+                        on:keydown={(e) => {
+                            if (e.key === "Escape") showSavedSearches = false;
+                        }}
+                        placeholder={$words.SavedSearchName}
+                        class="search-input"
+                    />
+                    <button on:click={() => (showSavedSearches = !showSavedSearches)}
+                        >{showSavedSearches ? "▲" : "▼"}</button
+                    >
+                </div>
+                {#if Object.keys($savedSearches).length > 0 && showSavedSearches}
+                    <ul class="results">
+                        {#each Object.keys($savedSearches) as name}
+                            <button
+                                on:click={() => {
+                                    inputSearchName = name;
+                                    showSavedSearches = false;
+                                    inputEl.focus();
+                                }}
+                            >
+                                {name}
+                            </button>
+                        {/each}
+                    </ul>
+                {/if}
+                <div class="buttons-control">
+                    <button
+                        class="save-button"
+                        on:click={saveSearch}
+                        disabled={($savedSearches[inputSearchName] != undefined &&
+                            inputSearchName != $savedSearch) ||
+                            (!$savedSearch && !inputSearchName)}>{$words.save}</button
+                    >
+                    <button
+                        class="load-button"
+                        on:click={loadSearch}
+                        disabled={$savedSearches[inputSearchName] == undefined}
+                        >{$words.load}</button
+                    >
+                    <button
+                        class="delete-button"
+                        on:click={deleteSearch}
+                        disabled={$savedSearches[inputSearchName] == undefined}>X</button
+                    >
+                </div>
             </div>
         </div>
+        <button class="share-button" on:click={copyToClipboard} class:copied>
+            {#if copied}
+                {$words.copied}! 📋
+            {:else}
+                {$words.share} 🔗
+            {/if}
+        </button>
     </div>
-    <button class="share-button" on:click={copyToClipboard} class:copied>
-        {#if copied}
-            {$words.copied}! 📋
-        {:else}
-            {$words.share} 🔗
-        {/if}
-    </button>
 </div>
+
+<!-- <div bind:this={stopAtEl} class="footer-spacer"></div> -->
 
 <style>
     .is-saved-search-name {
@@ -173,10 +207,14 @@
     }
     .search-input-select {
         display: inline-flex;
+        width: 100%;
     }
     .search-input-select button {
         padding: 0px 5px;
         height: 32px;
+    }
+    .search-input {
+        width: 100%;
     }
     .buttons-control {
         display: inline-flex;
@@ -200,21 +238,30 @@
         transition: border-color 0.2s ease;
         font-size: 0.9rem;
     }
+    .saved-searches-container {
+        position: relative;
+        margin-left: auto;
+    }
     .saved-searches {
-        position: fixed;
+        /* position: sticky; */
+        /* position: fixed; */
+        /* position: relative; */
+        position: absolute;
+        /* margin-left: auto; */
         right: 0px;
-        top: 150px;
+        top: -20px;
         z-index: 100;
         padding: 10px 15px;
         background-color: #4a4a4a;
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-        width: 232px;
+        border-radius: 4px;
+        /* border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px; */
+        width: 257px;
         overflow: hidden;
         transition:
             max-height 0.3s ease,
             opacity 0.3s ease;
-        opacity: 50%;
+        /* opacity: 50%; */
         max-height: 20px;
     }
     .saved-searches:hover,
