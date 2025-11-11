@@ -1,6 +1,6 @@
 import { nextValue } from "../db/base62inc";
 import * as itemDB from "../db/itemDB";
-import type { Requirement } from "../types/item";
+import type { Requirement } from "../../shared/types/item";
 import type { PanoMap } from "./dofusDB";
 
 await itemDB.loadItemsAndPanos();

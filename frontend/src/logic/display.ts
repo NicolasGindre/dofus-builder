@@ -20,9 +20,9 @@ import {
     showSavedBuilds,
     sortBestItemsWithPanoValue,
 } from "../stores/builder";
-import { ITEM_CATEGORIES, type Item, type ItemCategory, type Panoply } from "../types/item";
-import type { Build } from "../types/build";
+import { type Item, type Panoply } from "../types/item";
 import { isItemBonusPanoCapped } from "./item";
+import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
 
 export function calculateAllItemsToDisplay() {
     for (const category of ITEM_CATEGORIES) {

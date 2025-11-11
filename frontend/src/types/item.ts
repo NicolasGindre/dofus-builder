@@ -1,150 +1,29 @@
-import type { MinRequirement } from "../workers/orchestrator";
-import type { StatKey, Stats } from "./stats";
+import {
+    ITEM_CATEGORIES,
+    type Item as BaseItem,
+    type Panoply as BasePanoply,
+    type ItemCategory,
+    type ItemStats,
+} from "../../../shared/types/item";
+import type { Stats } from "../../../shared/types/stats";
 
-export const ITEM_CATEGORIES = [
-    "amulet",
-    "ring",
-    "hat",
-    "cloak",
-    "belt",
-    "boots",
-    "weapon",
-    "shield",
-    "pet",
-    "dofus",
-] as const;
-export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
-
-export type SubCategory = (typeof SUB_CATEGORIES)[number];
-export const SUB_CATEGORIES = [
-    "amulet",
-    "belt",
-    "boots",
-    "cloak",
-    "dofus",
-    "trophy",
-    "ring",
-    "hat",
-    "shield",
-
-    "hammer",
-    "scythe",
-    "lance",
-    "bow",
-    "sword",
-    "staff",
-    "dagger",
-    "axe",
-    "shovel",
-    "wand",
-    "pickaxe",
-
-    "pet",
-    "dragoturkey", // mount
-    "rhineetle", // volkorne petsmount ?
-    "seemyool", // petsmount ?
-    "petmount", // montilier
-] as const;
-
-export type Item = {
-    id: string;
-    idDofusDB: string;
-    idDofusBook: number;
-    level: number;
-    name: Name;
-    requirements?: Requirement[][]; // []and -> []or
-    minRequirement?: MinRequirement;
-    panoply?: string;
-    category: ItemCategory;
-    stats: ItemStats;
-    subCategory: SubCategory;
+export type Item = BaseItem & {
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;
-    weaponEffect?: SpellEffect;
-    specialEffect?: SpecialEffect;
 };
-export type SpecialEffect = {
-    name: Name;
-    description: Name;
-};
-
-export type Name = {
-    fr: string;
-    en: string;
-    de: string;
-    pt: string;
-    es: string;
-};
-
-export const ELEMENT = [
-    "neutral",
-    "fire",
-    "earth",
-    "water",
-    "air",
-    "bestElem",
-
-    "mpReduce",
-    "apReduce",
-
-    "pull",
-    "push",
-] as const;
-export type DamageElement = (typeof ELEMENT)[number];
-
-// export const EFFECT_TYPE = ["damage", "steal", "heal"] as const;
-export const EFFECT_TYPE = ["damage", "steal", "heal", "pull", "push", "other"] as const;
-export type EffectType = (typeof EFFECT_TYPE)[number];
-export type SpellEffect = {
-    name?: string;
-    cost: number;
-    critChance: number;
-    effects: [
-        {
-            type: EffectType;
-            element: DamageElement;
-            min: number;
-            max: number;
-            minCrit?: number;
-            maxCrit?: number;
-        },
-    ];
-};
-
-export const REQUIREMENT_TYPE = [
-    "lessThan",
-    "moreThan",
-    "lessThanOrEquals",
-    "moreThanOrEquals",
-] as const;
-export type RequirementType = (typeof REQUIREMENT_TYPE)[number];
-export type Requirement = {
-    type: RequirementType;
-    stat: StatKey | "level" | "panopliesBonus";
-    value: number;
-};
-
-export type ItemStats = Partial<Stats>;
 
 export type Items = Record<string, Item>;
 
 export type CategoryItems = Record<ItemCategory, Items>;
-
 export type CategoryItemsArr = Record<ItemCategory, Item[]>;
 
-export type Panoply = {
-    id: string;
-    name: Name;
-    level: number;
-    items: string[];
+export type Panoply = BasePanoply & {
     itemsReal: Item[];
-    stats: ItemStats[];
     statsWithBonus: ItemStats[];
     value: number[];
     bestValuePerItem: number;
     bestRelativeValue: number;
-    requirements?: Requirement[][][]; // []and -> []or
 };
 export type Panoplies = Record<string, Panoply>;
 

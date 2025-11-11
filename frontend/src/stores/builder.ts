@@ -1,9 +1,7 @@
 import { derived, get, writable, type Readable } from "svelte/store";
-import type { StatKey, Stats } from "../types/stats";
 import {
     getEmptyCategoriesItems,
     getEmptyCategoriesItemsArr,
-    type ItemCategory,
     type Items,
     type Panoplies,
     type Panoply,
@@ -33,6 +31,8 @@ import {
 import { encodeToUrl } from "../logic/encoding/urlEncode";
 import { refreshBuildsValue, totalCombinations, updateBestBuildsNames } from "../logic/build";
 import { convertToMinItems, type MinItem } from "../workers/orchestrator";
+import type { ItemCategory } from "../../../shared/types/item";
+import type { StatKey, Stats } from "../../../shared/types/stats";
 
 // export const appReady = writable<boolean>(false);
 

@@ -1,5 +1,5 @@
-import type { StatKey } from "../types/stats";
-import type { DamageElement } from "../types/item";
+import type { StatKey } from "../../../shared/types/stats";
+import type { Element } from "../../../shared/types/item";
 
 export const statIconMap: Partial<Record<StatKey, string>> = {
     strength: "earth",
@@ -28,7 +28,7 @@ export function getIconFromStat(statKey: StatKey): string {
         return statKey;
     }
 }
-export const elementIconMap: Record<DamageElement, string> = {
+export const elementIconMap: Record<Element, string> = {
     bestElem: "bestElemDamage",
     neutral: "neutral",
     earth: "earth",
@@ -43,7 +43,7 @@ export const elementIconMap: Record<DamageElement, string> = {
     push: "pushbackDamage",
 };
 
-export function getIconFromElement(element: DamageElement): string {
+export function getIconFromElement(element: Element): string {
     // console.log(statKey);
     if (elementIconMap[element]) {
         return elementIconMap[element];

@@ -1,6 +1,6 @@
 import { nextValue } from "../../db/base62inc";
 import * as itemDB from "../../db/itemDB";
-import type { Item, ItemCategory, Items, SubCategory } from "../../types/item";
+import type { Item, ItemCategory, SubCategory } from "../../../shared/types/item";
 import type { ItemMap } from "../dofusDB";
 
 const dbPath = "./src/db/data";

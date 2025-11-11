@@ -16,8 +16,7 @@
         previousStatsSearch,
     } from "../stores/builder";
     import { get } from "svelte/store";
-    import type { Item, ItemCategory, Items } from "../types/item";
-    import { getEmptyCategoriesItems, ITEM_CATEGORIES } from "../types/item";
+    import type { Item } from "../types/item";
     import { calculateBestItems } from "../logic/value";
     import {
         lockItem,
@@ -45,6 +44,7 @@
     import { categoryLength } from "../types/build";
     import { onMount } from "svelte";
     import SavedSearches from "./SavedSearches.svelte";
+    import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;

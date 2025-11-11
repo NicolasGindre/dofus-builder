@@ -5,33 +5,20 @@ import {
     sumStatsWithBonus,
     type CategoryItems,
     type Item,
-    type ItemCategory,
     type Items,
     type Panoply,
-    type Requirement,
 } from "../types/item";
-import type { Stats } from "../types/stats";
 import type { Payload } from "./combinationSearch";
 import CombinationSearchWorker from "./combinationSearch.ts?worker";
 import { isItemBonusPanoCapped } from "../logic/item";
+import type { ItemCategory, MinRequirement } from "../../../shared/types/item";
+import type { Stats } from "../../../shared/types/stats";
 
 export type MinItem = {
     id: string;
     stats: Partial<Stats>;
     panoplies: string[];
     requirement?: MinRequirement;
-};
-export const MIN_REQUIREMENT_TYPE = [
-    "apLessThanOrMpLessThan",
-    "apLessThanAndMpLessThan",
-    "apLessThan",
-    "mpLessThan",
-] as const;
-export type RequirementType = (typeof MIN_REQUIREMENT_TYPE)[number] | string;
-export type MinRequirement = {
-    type: string;
-    value: number;
-    value2?: number;
 };
 
 export type CombinationPayload = {

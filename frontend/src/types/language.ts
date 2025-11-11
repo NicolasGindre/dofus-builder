@@ -1,5 +1,5 @@
-import type { ItemCategory, SubCategory } from "./item";
-import type { StatKey } from "./stats";
+import type { ItemCategory, SubCategory } from "../../../shared/types/item";
+import type { StatKey } from "../../../shared/types/stats";
 
 export const LANGUAGES = ["en", "fr", "pt", "es", "de"];
 

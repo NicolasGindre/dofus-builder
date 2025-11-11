@@ -26,21 +26,21 @@ import {
     SLOT_TO_CATEGORY,
     CATEGORY_TO_SLOTS,
 } from "../types/build";
-import { concatStats, type StatKey, type Stats } from "../types/stats";
+import { concatStats } from "../types/stats";
 import { getItem, getPanoply } from "./frontendDB";
+import { type Item, type Items } from "../types/item";
+import { calculateStatsValue } from "./value";
+import { PANO_CIRE_MOMORE_ID } from "./item";
+import type { MinItem } from "../workers/orchestrator";
+import { calculateBuildToDisplay } from "./display";
+import { sortItemsIds } from "./encoding/encodeItems";
 import {
     ITEM_CATEGORIES,
-    type Item,
     type ItemCategory,
-    type Items,
+    type MinRequirement,
     type Requirement,
-} from "../types/item";
-import { calculateStatsValue } from "./value";
-import { isItemBonusPanoCapped, PANO_CIRE_MOMORE_ID } from "./item";
-import type { MinItem, MinRequirement } from "../workers/orchestrator";
-import { calculateBuildToDisplay } from "./display";
-import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
-import { sortItemsIds } from "./encoding/encodeItems";
+} from "../../../shared/types/item";
+import type { StatKey, Stats } from "../../../shared/types/stats";
 
 function initBuild(name: string, buildId?: string, value?: number): Build {
     return {

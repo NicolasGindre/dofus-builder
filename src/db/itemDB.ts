@@ -2,10 +2,9 @@ import {
     type Item,
     type Items,
     type ItemCategory,
-    type Panoply,
     type Panoplies,
     ITEM_CATEGORIES,
-} from "../types/item";
+} from "../../shared/types/item";
 import * as dofusDB from "../clients/dofusDB";
 import { sortItemsIds } from "./base62inc";
 

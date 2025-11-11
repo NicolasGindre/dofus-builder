@@ -1,11 +1,10 @@
 <script lang="ts">
     import {
         STAT_DEFENSE_KEYS,
-        STAT_KEYS,
         STAT_OFFENSE_KEYS,
         STAT_UTILITY_KEYS,
         type StatKey,
-    } from "../types/stats";
+    } from "../../../shared/types/stats";
     import {
         automaticWeights,
         weightsIndex,

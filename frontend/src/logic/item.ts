@@ -1,7 +1,7 @@
 import { get } from "svelte/store";
 import { itemsLocked, itemsSelected, level, minStats } from "../stores/builder";
 import { categoryLength } from "../types/build";
-import { getEmptyCategoriesItems, type Item, type ItemCategory, type Panoply } from "../types/item";
+import { getEmptyCategoriesItems, type Item, type Panoply } from "../types/item";
 import { calculatePanopliesToDisplay } from "./display";
 import { getItem } from "./frontendDB";
 

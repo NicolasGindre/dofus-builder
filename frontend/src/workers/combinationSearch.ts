@@ -3,10 +3,9 @@ console.log("new worker starting");
 
 import init, { best_combo } from "../wasm/combination/pkg/combination";
 import type { BestBuildsResp } from "../types/build";
-import { sumStats, sumStatsWithBonus } from "../types/item";
-import type { CategoryItems, Item, Requirement, Panoply } from "../types/item";
-import type { Stats } from "../types/stats";
-import type { MinRequirement } from "./orchestrator";
+import type { Panoply } from "../types/item";
+import type { Stats } from "../../../shared/types/stats";
+import type { MinRequirement } from "../../../shared/types/item";
 
 type MinItem = {
     id: string;

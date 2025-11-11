@@ -2,7 +2,7 @@ import { encode } from "@msgpack/msgpack";
 import { CATEGORY_TO_SLOTS, getLeveledStats, type Slots } from "../types/build";
 import { get } from "svelte/store";
 import { exoAp, exoMp, exoRange, level, preStats } from "../stores/builder";
-import type { ItemCategory } from "../types/item";
+import type { ItemCategory } from "../../../shared/types/item";
 
 // Default number of picks per category (must be 17 entries). Dofus = 6.
 const NUM_PICK_MAP: ItemCategory[] = [

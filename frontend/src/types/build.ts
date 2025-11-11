@@ -1,7 +1,6 @@
-// import { panoplies } from "../db/itemDB";
-import type { MinRequirement } from "../workers/orchestrator";
-import type { Item, ItemCategory, Requirement } from "./item";
-import type { StatKey, Stats } from "./stats";
+import type { ItemCategory, MinRequirement, Requirement } from "../../../shared/types/item";
+import type { StatKey, Stats } from "../../../shared/types/stats";
+import type { Item } from "./item";
 
 export const baseStats: Partial<Stats> = {
     vitality: 50,

@@ -1,16 +1,16 @@
 <script lang="ts">
+    import { minStats, words } from "../stores/builder";
+    import { calculateStatsValue } from "../logic/value";
+    import { object } from "zod/v4-mini";
+    import Icon from "../lib/Icon.svelte";
+    import { getIconFromStat } from "../lib/iconMap";
     import {
         STAT_DEFENSE_KEYS,
         STAT_OFFENSE_KEYS,
         STAT_UTILITY_KEYS,
         type StatKey,
         type Stats,
-    } from "../types/stats";
-    import { minStats, words } from "../stores/builder";
-    import { calculateStatsValue } from "../logic/value";
-    import { object } from "zod/v4-mini";
-    import Icon from "../lib/Icon.svelte";
-    import { getIconFromStat } from "../lib/iconMap";
+    } from "../../../shared/types/stats";
 
     export let stats: Partial<Stats>;
     export let compareStats: Partial<Stats> | null = null;

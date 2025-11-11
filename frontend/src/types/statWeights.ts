@@ -9,7 +9,7 @@ import {
     STAT_STAT_KEYS,
     type StatKey,
     type Stats,
-} from "./stats";
+} from "../../../shared/types/stats";
 import {
     findClosestMinMaxIndex,
     findClosestMinMaxValue,

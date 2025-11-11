@@ -1,5 +1,4 @@
 import { get } from "svelte/store";
-import { STAT_KEYS, type StatKey, type Stats } from "../../types/stats";
 import { decodeStatIndexes, encodeStatValues } from "./valueEncoding";
 import {
     automaticWeights,
@@ -21,6 +20,7 @@ import {
     defaultMinIndex,
     // getDefaultWeight,
 } from "../../types/statWeights";
+import type { StatKey, Stats } from "../../../../shared/types/stats";
 
 export const ALPHABET = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-" as const;
 

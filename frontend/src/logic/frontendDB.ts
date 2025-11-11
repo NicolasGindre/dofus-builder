@@ -11,7 +11,6 @@ import {
 import {
     getEmptyCategoriesItemsArr,
     type Item,
-    type ItemCategory,
     type Items,
     type Panoplies,
     type Panoply,

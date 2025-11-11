@@ -1,11 +1,4 @@
-import type { StatKey, Stats } from "../types/stats";
-import {
-    getEmptyCategoriesItemsArr,
-    type Item,
-    type ItemCategory,
-    type Items,
-    type Panoply,
-} from "../types/item";
+import { getEmptyCategoriesItemsArr, type Item, type Items, type Panoply } from "../types/item";
 import {
     categoryBestValue,
     itemsCategory,
@@ -20,6 +13,8 @@ import { get } from "svelte/store";
 import { calculateAllItemsToDisplay, calculatePanopliesToDisplay } from "./display";
 import { getPanoply } from "./frontendDB";
 import { isItemMinRequirementOK, isPanoMinRequirementOK } from "./item";
+import type { StatKey, Stats } from "../../../shared/types/stats";
+import type { ItemCategory } from "../../../shared/types/item";
 
 export type StatsValueFM = Record<StatKey, number>;
 

@@ -4,8 +4,6 @@
         buildsDisplayed,
         buildShownCount,
         comparedBuild,
-        itemsLocked,
-        itemsSelected,
         maxStats,
         minItems,
         minStats,
@@ -25,20 +23,9 @@
         diffBuild,
         getSavedBuild,
     } from "../logic/build";
-    import { ITEM_CATEGORIES } from "../types/item";
     import { get } from "svelte/store";
     import { bestBuilds, totalPossibilities, panoplies } from "../stores/builder";
-    import {
-        STAT_DEFENSE_KEYS,
-        STAT_OFFENSE_KEYS,
-        STAT_UTILITY_KEYS,
-        type StatKey,
-        type Stats,
-    } from "../types/stats";
-    import { includes } from "zod/v4";
-    // import ShowStats from "./ShowStats.svelte";
     import ShowStats from "./ShowStats.svelte";
-    import HoverItemStats from "./HoverItemOrPano.svelte";
     import HoverItemOrPano from "./HoverItemOrPano.svelte";
     import { getPanoply } from "../logic/frontendDB";
     import { lang } from "../stores/builder";
@@ -49,8 +36,8 @@
     import { saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { translateRequirement } from "../logic/language";
     import { tick } from "svelte";
-    import { createDofusDBBuild } from "../clients/dofusDB";
     import ExportBuild from "./ExportBuild.svelte";
+    import { ITEM_CATEGORIES } from "../../../shared/types/item";
     // let bestBuilds: { score: number; names: string[] }[] | null = null;
     // let error: string | null = null;
     // let running = false;

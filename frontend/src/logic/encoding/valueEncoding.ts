@@ -1,4 +1,4 @@
-import type { StatKey } from "../../types/stats";
+import type { StatKey } from "../../../../shared/types/stats";
 import { ALPHABET } from "./encoding";
 
 // Weight encoding table - 128 values (7 bits)
