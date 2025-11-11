@@ -205,6 +205,13 @@ export const minItems: Readable<MinItem[][]> = derived(
 export const totalPossibilities: Readable<number> = derived(minItems, ($minItems) => {
     return totalCombinations($minItems);
 });
+export const millionComboPerMin = writable<number>(400);
+export const timeEstimated: Readable<number> = derived(
+    [totalPossibilities, millionComboPerMin],
+    ([$totalPossibilities, $buildsPerMinute]) => {
+        return $totalPossibilities / 1000000 / ($buildsPerMinute / 60);
+    },
+);
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
     const panoplies: Panoplies = {};

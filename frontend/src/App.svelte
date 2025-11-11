@@ -5,10 +5,7 @@
     import BestItems from "./components/BestItems.svelte";
     import LanguageSelect from "./components/LanguageSelect.svelte";
     import { decodeFromUrl, setLastHistoryEntry } from "./logic/encoding/urlEncode";
-    import { itemsSelected } from "./stores/builder";
-    import { getEmptyCategoriesItems } from "./types/item";
     import Builds from "./components/Builds.svelte";
-    import SavedSearches from "./components/SavedSearches.svelte";
 
     let error: string | null = null;
 

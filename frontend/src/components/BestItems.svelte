@@ -14,6 +14,8 @@
         itemsLocked,
         urlHash,
         previousStatsSearch,
+        timeEstimated,
+        millionComboPerMin,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item } from "../types/item";
@@ -129,7 +131,26 @@
         return false;
     }
 
-    // let previousStatsSearch: string = getEncodedStatsFromHash(window.location.hash.slice(1));
+    function formatDuration(seconds: number): string {
+        const units = [
+            { label: "year", value: 365 * 24 * 3600 },
+            { label: "day", value: 24 * 3600 },
+            { label: "hour", value: 3600 },
+            { label: "min", value: 60 },
+            { label: "sec", value: 1 },
+        ];
+
+        const parts: string[] = [];
+
+        for (const { label, value } of units) {
+            const amount = Math.floor(seconds / value);
+            if (amount > 0) {
+                parts.push(`${amount} ${label}${amount > 1 ? "s" : ""}`);
+                seconds %= value;
+            }
+        }
+        return parts.length ? parts.slice(0, 2).join(", ") : "0 sec";
+    }
 </script>
 
 {#snippet addItemToSelecteds(items: Item[])}
@@ -392,6 +413,10 @@
                     notation: "compact",
                     compactDisplay: "short",
                 }).format($totalPossibilities)}
+                <br />
+                {$words.estimatedTime}: {formatDuration($timeEstimated)}
+                <br />
+                [{Math.round($millionComboPerMin)}M / min]
             </div>
         </div>
     </div>

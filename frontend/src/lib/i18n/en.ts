@@ -51,6 +51,7 @@ export default {
     calculating: "Calculating",
     calculateBestBuilds: "Calculate Best Builds",
     totalCombinations: "Total Combinations",
+    estimatedTime: "Estimated time",
     combinationsCalculated: "Combinations calculated",
     cancel: "Cancel",
 
@@ -207,5 +208,7 @@ export default {
         damage: "damage",
         steal: "steal",
         heal: "heal",
+        pull: "cell pulled",
+        push: "cell pushed",
     },
 };

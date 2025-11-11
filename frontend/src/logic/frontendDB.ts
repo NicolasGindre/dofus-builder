@@ -2,6 +2,7 @@ import { get } from "svelte/store";
 import {
     items,
     itemsCategory,
+    millionComboPerMin,
     panoplies,
     savedBuilds,
     savedSearch,
@@ -68,6 +69,7 @@ export async function loadItemsAndPanos() {
 export function initFrontendDB() {
     initSavedSearches();
     initSavedBuilds();
+    initComputeSpeed();
     init = true;
 }
 
@@ -202,5 +204,19 @@ export function initSavedBuilds() {
         savedBuilds.set(raw ? buildsFromIds(JSON.parse(raw)) : []);
     } catch (err) {
         console.error("init saved builds", err);
+    }
+}
+
+export function saveComputeSpeed(millionComboPerMinNew: number) {
+    localStorage.setItem("millionComboPerMin", JSON.stringify(millionComboPerMinNew));
+    millionComboPerMin.set(millionComboPerMinNew);
+}
+
+function initComputeSpeed() {
+    try {
+        const raw = localStorage.getItem("millionComboPerMin");
+        millionComboPerMin.set(raw ? JSON.parse(raw) : 400);
+    } catch (err) {
+        console.error("init Compute Speed", err);
     }
 }

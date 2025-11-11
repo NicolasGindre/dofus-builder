@@ -2,15 +2,15 @@ import type { StatKey, Stats } from "./stats";
 
 export const ITEM_CATEGORIES = [
     "amulet",
-    "belt",
-    "boots",
-    "cloak",
-    "dofus",
     "ring",
     "hat",
-    "pet",
-    "weapon",
+    "cloak",
+    "belt",
+    "boots",
     "shield",
+    "weapon",
+    "pet",
+    "dofus",
 ] as const;
 export type ItemCategory = (typeof ITEM_CATEGORIES)[number];
 

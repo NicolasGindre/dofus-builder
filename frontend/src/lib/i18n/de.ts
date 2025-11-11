@@ -51,6 +51,7 @@ export default {
     calculating: "Berechne...",
     calculateBestBuilds: "Beste Builds Berechnen",
     totalCombinations: "Gesamtanzahl der Kombinationen",
+    estimatedTime: "Geschätzte Zeit",
     combinationsCalculated: "Kombinationen berechnet",
     cancel: "Abbrechen",
 
@@ -206,5 +207,7 @@ export default {
         damage: "Schaden",
         steal: "Diebstahl",
         heal: "Heilung",
+        pull: "Zelle gezogen",
+        push: "Zelle gestoßen",
     },
 };

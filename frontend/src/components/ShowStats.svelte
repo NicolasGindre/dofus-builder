@@ -131,12 +131,12 @@
         white-space: nowrap;
     }
     .build-stats {
-        margin-left: auto;
+        /* margin-left: auto; */
         display: flex;
         align-items: flex-start;
-        vertical-align: right;
-        gap: 2rem;
-        padding-bottom: 2px;
+        /* vertical-align: right; */
+        gap: 0.5rem;
+        /* padding-bottom: 2px; */
         /* align-self: right; */
     }
     .build-stats td + td {

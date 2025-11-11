@@ -53,6 +53,7 @@ export default {
     calculating: "Calcul",
     calculateBestBuilds: "Calculer les Meilleurs Builds",
     totalCombinations: "Combinaisons Totales",
+    estimatedTime: "Temps estimé",
     combinationsCalculated: "Combinaisons calculées",
     cancel: "Annuler",
 

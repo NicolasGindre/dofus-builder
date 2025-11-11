@@ -27,7 +27,7 @@
     import { bestBuilds, totalPossibilities, panoplies } from "../stores/builder";
     import ShowStats from "./ShowStats.svelte";
     import HoverItemOrPano from "./HoverItemOrPano.svelte";
-    import { getPanoply } from "../logic/frontendDB";
+    import { getPanoply, saveComputeSpeed } from "../logic/frontendDB";
     import { lang } from "../stores/builder";
     import { words } from "../stores/builder";
     import { CATEGORY_TO_SLOTS, type Build } from "../types/build";
@@ -38,6 +38,7 @@
     import { tick } from "svelte";
     import ExportBuild from "./ExportBuild.svelte";
     import { ITEM_CATEGORIES } from "../../../shared/types/item";
+    import { Save } from "lucide-svelte";
     // let bestBuilds: { score: number; names: string[] }[] | null = null;
     // let error: string | null = null;
     // let running = false;
@@ -227,6 +228,12 @@
                 notation: "compact",
                 compactDisplay: "short",
             }).format(combosPerMin)} / min]
+            <button
+                class="save-compute-speed-btn"
+                on:click={() => saveComputeSpeed(combosPerMin / 1000000)}
+            >
+                <Save size={24} />
+            </button>
         </p>
     {/if}
 </div>
@@ -494,6 +501,10 @@
 <style>
     p {
         font-variant-numeric: tabular-nums;
+    }
+    .save-compute-speed-btn {
+        padding: 0px;
+        vertical-align: middle;
     }
     .builds-header {
         display: inline-flex;
