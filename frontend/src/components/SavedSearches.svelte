@@ -77,39 +77,11 @@
             return updated;
         });
     }
-
-    // let savedSearchesEl: HTMLDivElement;
-    // let stopAtEl: HTMLDivElement;
-    // onMount(() => {
-    //     const start = 1000; // px offset where it starts sticking
-
-    //     const onScroll = () => {
-    //         const scroll = window.scrollY;
-    //         const stop =
-    //             stopAtEl.getBoundingClientRect().top +
-    //             window.scrollY -
-    //             savedSearchesEl.offsetHeight;
-
-    //         if (scroll < start) {
-    //             savedSearchesEl.style.position = "absolute";
-    //             savedSearchesEl.style.top = `${start}px`;
-    //         } else if (scroll >= start && scroll < stop) {
-    //             savedSearchesEl.style.position = "fixed";
-    //             savedSearchesEl.style.top = "0px";
-    //         } else {
-    //             savedSearchesEl.style.position = "absolute";
-    //             savedSearchesEl.style.top = `${stop}px`;
-    //         }
-    //     };
-
-    //     window.addEventListener("scroll", onScroll);
-    //     return () => window.removeEventListener("scroll", onScroll);
-    // });
 </script>
 
 <!-- bind:this={savedSearchesEl} -->
 <div class="saved-searches-container">
-    <div class="saved-searches" class:active={showSavedSearches || inputSearchName !== ""}>
+    <div class="saved-searches">
         <div class="">
             <h4
                 class:is-saved-search-name={$savedSearch}
@@ -249,7 +221,7 @@
         position: absolute;
         /* margin-left: auto; */
         right: 0px;
-        top: -20px;
+        top: -150px;
         z-index: 100;
         padding: 10px 15px;
         background-color: #4a4a4a;
@@ -258,18 +230,13 @@
         border-bottom-left-radius: 4px; */
         width: 257px;
         overflow: hidden;
-        transition:
+        /* transition:
             max-height 0.3s ease,
-            opacity 0.3s ease;
+            opacity 0.3s ease; */
         /* opacity: 50%; */
-        max-height: 20px;
+        /* max-height: 20px; */
     }
-    .saved-searches:hover,
-    .saved-searches.active {
-        opacity: 100%;
-        max-height: 500px;
-        overflow: visible;
-    }
+    /* .saved-searches:hover, */
     .saved-searches h4 {
         margin: 0px;
         padding-bottom: 6px;
@@ -286,7 +253,7 @@
         /* border-color: #fff; */
         background: #2a2a2a;
         list-style: none;
-        max-height: 200px;
+        max-height: 250px;
         overflow-y: auto;
         overscroll-behavior: contain;
         z-index: 1001;

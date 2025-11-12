@@ -63,14 +63,15 @@ export type Item = {
 };
 
 export const MIN_REQUIREMENT_TYPE = [
+    "panopliesBonusLessThan",
     "apLessThanOrMpLessThan",
     "apLessThanAndMpLessThan",
     "apLessThan",
     "mpLessThan",
 ] as const;
-export type MinRequirementType = (typeof MIN_REQUIREMENT_TYPE)[number] | string;
+export type MinRequirementType = (typeof MIN_REQUIREMENT_TYPE)[number];
 export type MinRequirement = {
-    type: string;
+    type: MinRequirementType;
     value: number;
     value2?: number;
 };

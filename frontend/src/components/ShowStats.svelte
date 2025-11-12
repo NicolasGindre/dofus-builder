@@ -135,7 +135,7 @@
         display: flex;
         align-items: flex-start;
         /* vertical-align: right; */
-        gap: 0.5rem;
+        gap: 0.7rem;
         /* padding-bottom: 2px; */
         /* align-self: right; */
     }

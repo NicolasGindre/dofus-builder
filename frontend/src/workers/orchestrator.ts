@@ -66,9 +66,21 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         error.set(null);
 
         const cores = navigator.hardwareConcurrency || 4;
-        let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
+        console.log("cores count", cores);
 
+        let workerCount = multiThreading ? Math.max(1, Math.min(cores, 8)) : 1;
+        // let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
+
+        // const isFirefox = navigator.userAgent.includes("Firefox");
+
+        // let workerCount = multiThreading
+        //     ? isFirefox
+        //         ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16)
+        //         : Math.max(1, Math.min(cores - 1, 8))
+        //     : 1;
+        // let workerCount = 16;
         let partialPayload: Payload[] = [];
+        console.log("starting workers count", workerCount);
         // performance.now()
         // const now = performance.now();
         // const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);

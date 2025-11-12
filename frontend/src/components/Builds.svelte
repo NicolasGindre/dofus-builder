@@ -241,261 +241,268 @@
 {#if $error}
     <p style="color: red;">{$error}</p>
 {/if}
-<div class="builds-header">
-    <div class="compare-label">
-        {#if $comparedBuild}
-            <button on:click={() => compareBuild(undefined)} aria-label="Remove comparison">
-                ✕
+<div id="builds">
+    <div class="builds-header">
+        <div class="compare-label">
+            {#if $comparedBuild}
+                <button on:click={() => compareBuild(undefined)} aria-label="Remove comparison">
+                    ✕
+                </button>
+                <span>{$words.comparing}: </span>
+                <span class="compare-build-name">{$comparedBuild.name}</span>
+            {/if}
+        </div>
+        <div class="view-toggle">
+            <!-- <h2></h2> -->
+            <button
+                class="toggle-btn"
+                on:click={() => showSavedBuildsOr(false)}
+                disabled={!$showSavedBuilds}
+                aria-pressed={!$showSavedBuilds}
+            >
+                {$words.results}
             </button>
-            <span>{$words.comparing}: </span>
-            <span class="compare-build-name">{$comparedBuild.name}</span>
-        {/if}
+            <button
+                class="toggle-btn"
+                on:click={() => showSavedBuildsOr(true)}
+                disabled={$showSavedBuilds}
+                aria-pressed={$showSavedBuilds}
+            >
+                {$words.savedBuilds}
+            </button>
+        </div>
+        <div class="pager">
+            <span>{$words.page} {currPage}/{total}</span>
+            <button on:click={prev} disabled={currPage === 1} aria-label="Previous page">←</button
+            ><button on:click={next} disabled={currPage === total} aria-label="Next page">→</button>
+        </div>
     </div>
-    <div class="view-toggle">
-        <!-- <h2></h2> -->
-        <button
-            class="toggle-btn"
-            on:click={() => showSavedBuildsOr(false)}
-            disabled={!$showSavedBuilds}
-            aria-pressed={!$showSavedBuilds}
-        >
-            {$words.results}
-        </button>
-        <button
-            class="toggle-btn"
-            on:click={() => showSavedBuildsOr(true)}
-            disabled={$showSavedBuilds}
-            aria-pressed={$showSavedBuilds}
-        >
-            {$words.savedBuilds}
-        </button>
-    </div>
-    <div class="pager">
-        <span>{$words.page} {currPage}/{total}</span>
-        <button on:click={prev} disabled={currPage === 1} aria-label="Previous page">←</button
-        ><button on:click={next} disabled={currPage === total} aria-label="Next page">→</button>
-    </div>
-</div>
-<div class="builds" bind:this={scrollEl}>
-    {#if $buildsDisplayed.length > 0}
-        {#each $buildsDisplayed as build, index}
-            <div class="build">
-                <div class="build-info">
-                    <div class="build-name">
-                        {#if index != savingBuildIndex}
-                            <!-- svelte-ignore a11y_click_events_have_key_events -->
-                            <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
-                            <h2 on:click={() => startSavingBuild(index, build.name)}>
-                                {build.name}
-                            </h2>
-                        {:else}
-                            <div
-                                class="edit-name"
-                                bind:this={wrapperEl}
-                                on:focusout={(e) => {
-                                    if (!wrapperEl.contains(e.relatedTarget as Node)) {
-                                        cancelSaveBuild();
-                                    }
-                                }}
-                            >
-                                <input
-                                    bind:this={inputEl}
-                                    bind:value={tempBuildName}
-                                    on:keydown={(e) => {
-                                        if (e.key === "Enter") saveBuild(build);
-                                        if (e.key === "Escape") cancelSaveBuild();
-                                    }}
-                                />
-                                <button aria-label="Save" on:click={() => saveBuild(build)}>
-                                    <svg viewBox="0 0 24 24" width="34" height="34">
-                                        <path
-                                            fill="currentColor"
-                                            d="M9 16.17l-3.5-3.5L4 14l5 5L20 8l-1.5-1.5z"
-                                        />
-                                    </svg>
-                                </button>
-                            </div>
-                        {/if}
-                    </div>
-                    <div class="build-header">
-                        <div class="build-controls">
-                            {#if getSavedBuild(build.id)}
-                                <button
-                                    class="button-save delete"
-                                    on:click={() => deleteSavedBuild(build.id)}
-                                    disabled={index == savingBuildIndex}>{$words.delete}</button
-                                >
+    <div class="builds" bind:this={scrollEl}>
+        {#if $buildsDisplayed.length > 0}
+            {#each $buildsDisplayed as build, index}
+                <div class="build">
+                    <div class="build-info">
+                        <div class="build-name">
+                            {#if index != savingBuildIndex}
+                                <!-- svelte-ignore a11y_click_events_have_key_events -->
+                                <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+                                <h2 on:click={() => startSavingBuild(index, build.name)}>
+                                    {build.name}
+                                </h2>
                             {:else}
-                                <button
-                                    class="button-save"
-                                    on:click={() => startSavingBuild(index, build.name)}
-                                    disabled={index == savingBuildIndex}>{$words.save}</button
+                                <div
+                                    class="edit-name"
+                                    bind:this={wrapperEl}
+                                    on:focusout={(e) => {
+                                        if (!wrapperEl.contains(e.relatedTarget as Node)) {
+                                            cancelSaveBuild();
+                                        }
+                                    }}
                                 >
+                                    <input
+                                        bind:this={inputEl}
+                                        bind:value={tempBuildName}
+                                        on:keydown={(e) => {
+                                            if (e.key === "Enter") saveBuild(build);
+                                            if (e.key === "Escape") cancelSaveBuild();
+                                        }}
+                                    />
+                                    <button aria-label="Save" on:click={() => saveBuild(build)}>
+                                        <svg viewBox="0 0 24 24" width="34" height="34">
+                                            <path
+                                                fill="currentColor"
+                                                d="M9 16.17l-3.5-3.5L4 14l5 5L20 8l-1.5-1.5z"
+                                            />
+                                        </svg>
+                                    </button>
+                                </div>
                             {/if}
-                            <ExportBuild {build} />
-                            <!-- <button class="button-export" on:click={() => await createDofusDBBuild(build)}
+                        </div>
+                        <div class="build-header">
+                            <div class="build-controls">
+                                {#if getSavedBuild(build.id)}
+                                    <button
+                                        class="button-save delete"
+                                        on:click={() => deleteSavedBuild(build.id)}
+                                        disabled={index == savingBuildIndex}>{$words.delete}</button
+                                    >
+                                {:else}
+                                    <button
+                                        class="button-save"
+                                        on:click={() => startSavingBuild(index, build.name)}
+                                        disabled={index == savingBuildIndex}>{$words.save}</button
+                                    >
+                                {/if}
+                                <ExportBuild {build} />
+                                <!-- <button class="button-export" on:click={() => await createDofusDBBuild(build)}
                                 >{$words.export}</button
                             > -->
-                        </div>
-                        <div class="value-compare">
-                            <button class="button-compare" on:click={() => compareBuild(build)}
-                                >{$words.compare}</button
-                            >
-                            <h3>
-                                {$words.value}
-                                {build.value?.toFixed(0)}
-
-                                {#if build.diffBuild}
-                                    <span
-                                        class:green-text={build.diffBuild.value > 0}
-                                        class:red-text={build.diffBuild.value < 0}
-                                    >
-                                        ({build.diffBuild.value >= 0
-                                            ? "+"
-                                            : ""}{build.diffBuild.value.toFixed(0)})
-                                    </span>
-                                {/if}
-                                <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="panoplies">
-                        {#if !build.diffBuild}
-                            {#each Object.entries(build.panoplies) as [panoId, count]}
-                                {#if count > 1}
-                                    <div class="panoply">
-                                        <HoverItemOrPano panoply={getPanoply(panoId)}>
-                                            <span>
-                                                {getPanoply(panoId).name[$lang]}
-                                            </span><span>&nbsp;-&nbsp;</span>
-                                        </HoverItemOrPano>
-                                        <HoverItemOrPano
-                                            panoply={getPanoply(panoId)}
-                                            panoplyItemCount={count}
-                                        >
-                                            <span>
-                                                {count}
-                                                {$words.items}
-                                            </span>
-                                        </HoverItemOrPano>
-                                    </div>
-                                {/if}
-                            {/each}
-                        {:else}
-                            {#each Object.entries(build.diffBuild.panoplies) as [panoId, comparedCount]}
-                                {#if comparedCount > 1 || build.panoplies[panoId] > 1}
-                                    <div class="panoply">
-                                        <HoverItemOrPano panoply={getPanoply(panoId)}>
-                                            <span
-                                                class:crossed-text={!build.panoplies[panoId] ||
-                                                    build.panoplies[panoId] < 2}
-                                                class:red-background={!build.panoplies[panoId] ||
-                                                    build.panoplies[panoId] < 2}
-                                                class:green-background={build.panoplies[panoId] &&
-                                                    comparedCount < 2}
-                                            >
-                                                {getPanoply(panoId).name[$lang]}
-                                            </span><span>&nbsp;-&nbsp;</span>
-                                        </HoverItemOrPano>
-                                        {#if comparedCount != build.panoplies[panoId]}
-                                            <!-- <span>
-                                            {comparedCount}
-                                        </span> -->
-                                            <!-- <span class="arrow">→</span> -->
-                                            <span
-                                                class:green-text={(build.panoplies[panoId] ?? 0) -
-                                                    (comparedCount ?? 0) >
-                                                    0}
-                                                class:red-text={(build.panoplies[panoId] ?? 0) -
-                                                    (comparedCount ?? 0) <
-                                                    0}
-                                                >({(build.panoplies[panoId] ?? 0) -
-                                                    (comparedCount ?? 0) >
-                                                0
-                                                    ? "+"
-                                                    : ""}{(build.panoplies[panoId] ?? 0) -
-                                                    (comparedCount ?? 0)})&nbsp;</span
-                                            >
-                                        {/if}
-                                        <HoverItemOrPano
-                                            panoply={getPanoply(panoId)}
-                                            panoplyItemCount={build.panoplies[panoId]}
-                                        >
-                                            <span
-                                                >{build.panoplies[panoId] ?? 0}
-                                                {$words.items}
-                                            </span>
-                                        </HoverItemOrPano>
-                                    </div>
-                                {/if}
-                            {/each}
-                        {/if}
-                    </div>
-
-                    <ul class="slots">
-                        {#each ITEM_CATEGORIES as category}
-                            <div class="category-slots">
-                                <strong>{$words.category[category]}:</strong>
-                                <div class="item-tag-container">
-                                    {#each CATEGORY_TO_SLOTS[category] as slot}
-                                        {#if build.diffBuild && build.diffBuild.slots[slot] && build.diffBuild.slots[slot] != build.slots[slot]}
-                                            <HoverItemOrPano item={build.diffBuild.slots[slot]}>
-                                                <span class="item-tag red-background crossed-text">
-                                                    {build.diffBuild.slots[slot].name[$lang]}
-                                                </span>
-                                            </HoverItemOrPano>
-                                        {/if}
-                                        {#if build.slots[slot]}
-                                            <HoverItemOrPano item={build.slots[slot]}>
-                                                <span
-                                                    class="item-tag"
-                                                    class:green-background={build.diffBuild &&
-                                                        build.diffBuild.slots[slot] !=
-                                                            build.slots[slot]}
-                                                >
-                                                    {build.slots[slot].name[$lang]}
-                                                </span>
-                                            </HoverItemOrPano>
-                                        {/if}
-                                    {/each}
-                                </div>
                             </div>
-                        {/each}
-                    </ul>
-                </div>
+                            <div class="value-compare">
+                                <button class="button-compare" on:click={() => compareBuild(build)}
+                                    >{$words.compare}</button
+                                >
+                                <h3>
+                                    {$words.value}
+                                    {build.value?.toFixed(0)}
 
-                <div class="build-stats">
-                    <ShowStats
-                        stats={build.cappedStats}
-                        isBuild={true}
-                        compareStats={build.diffBuild?.cappedStats}
-                        overStats={build.stats}
-                    />
-                    <div class="requirements">
-                        {#each build.requirements as orRequirements}
-                            <div
-                                class="requirement {checkOrRequirement(
-                                    orRequirements,
-                                    build.cappedStats,
-                                    build.panopliesBonus,
-                                )}"
-                            >
-                                {#each orRequirements as requirement, i}
-                                    <strong>{translateRequirement(requirement)}</strong>
-                                    {#if i < orRequirements.length - 1}
-                                        {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                    {#if build.diffBuild}
+                                        <span
+                                            class:green-text={build.diffBuild.value > 0}
+                                            class:red-text={build.diffBuild.value < 0}
+                                        >
+                                            ({build.diffBuild.value >= 0
+                                                ? "+"
+                                                : ""}{build.diffBuild.value.toFixed(0)})
+                                        </span>
+                                    {/if}
+                                    <!-- {#if build.diffBuild}({build.diffBuild.value.toFixed(0)}){/if} -->
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="panoplies">
+                            {#if !build.diffBuild}
+                                {#each Object.entries(build.panoplies) as [panoId, count]}
+                                    {#if count > 1}
+                                        <div class="panoply">
+                                            <HoverItemOrPano panoply={getPanoply(panoId)}>
+                                                <span>
+                                                    {getPanoply(panoId).name[$lang]}
+                                                </span><span>&nbsp;-&nbsp;</span>
+                                            </HoverItemOrPano>
+                                            <HoverItemOrPano
+                                                panoply={getPanoply(panoId)}
+                                                panoplyItemCount={count}
+                                            >
+                                                <span>
+                                                    {count}
+                                                    {$words.items}
+                                                </span>
+                                            </HoverItemOrPano>
+                                        </div>
                                     {/if}
                                 {/each}
-                                <br />
-                            </div>
-                        {/each}
+                            {:else}
+                                {#each Object.entries(build.diffBuild.panoplies) as [panoId, comparedCount]}
+                                    {#if comparedCount > 1 || build.panoplies[panoId] > 1}
+                                        <div class="panoply">
+                                            <HoverItemOrPano panoply={getPanoply(panoId)}>
+                                                <span
+                                                    class:crossed-text={!build.panoplies[panoId] ||
+                                                        build.panoplies[panoId] < 2}
+                                                    class:red-background={!build.panoplies[
+                                                        panoId
+                                                    ] || build.panoplies[panoId] < 2}
+                                                    class:green-background={build.panoplies[
+                                                        panoId
+                                                    ] && comparedCount < 2}
+                                                >
+                                                    {getPanoply(panoId).name[$lang]}
+                                                </span><span>&nbsp;-&nbsp;</span>
+                                            </HoverItemOrPano>
+                                            {#if comparedCount != build.panoplies[panoId]}
+                                                <!-- <span>
+                                            {comparedCount}
+                                        </span> -->
+                                                <!-- <span class="arrow">→</span> -->
+                                                <span
+                                                    class:green-text={(build.panoplies[panoId] ??
+                                                        0) -
+                                                        (comparedCount ?? 0) >
+                                                        0}
+                                                    class:red-text={(build.panoplies[panoId] ?? 0) -
+                                                        (comparedCount ?? 0) <
+                                                        0}
+                                                    >({(build.panoplies[panoId] ?? 0) -
+                                                        (comparedCount ?? 0) >
+                                                    0
+                                                        ? "+"
+                                                        : ""}{(build.panoplies[panoId] ?? 0) -
+                                                        (comparedCount ?? 0)})&nbsp;</span
+                                                >
+                                            {/if}
+                                            <HoverItemOrPano
+                                                panoply={getPanoply(panoId)}
+                                                panoplyItemCount={build.panoplies[panoId]}
+                                            >
+                                                <span
+                                                    >{build.panoplies[panoId] ?? 0}
+                                                    {$words.items}
+                                                </span>
+                                            </HoverItemOrPano>
+                                        </div>
+                                    {/if}
+                                {/each}
+                            {/if}
+                        </div>
+
+                        <ul class="slots">
+                            {#each ITEM_CATEGORIES as category}
+                                <div class="category-slots">
+                                    <strong>{$words.category[category]}:</strong>
+                                    <div class="item-tag-container">
+                                        {#each CATEGORY_TO_SLOTS[category] as slot}
+                                            {#if build.diffBuild && build.diffBuild.slots[slot] && build.diffBuild.slots[slot] != build.slots[slot]}
+                                                <HoverItemOrPano item={build.diffBuild.slots[slot]}>
+                                                    <span
+                                                        class="item-tag red-background crossed-text"
+                                                    >
+                                                        {build.diffBuild.slots[slot].name[$lang]}
+                                                    </span>
+                                                </HoverItemOrPano>
+                                            {/if}
+                                            {#if build.slots[slot]}
+                                                <HoverItemOrPano item={build.slots[slot]}>
+                                                    <span
+                                                        class="item-tag"
+                                                        class:green-background={build.diffBuild &&
+                                                            build.diffBuild.slots[slot] !=
+                                                                build.slots[slot]}
+                                                    >
+                                                        {build.slots[slot].name[$lang]}
+                                                    </span>
+                                                </HoverItemOrPano>
+                                            {/if}
+                                        {/each}
+                                    </div>
+                                </div>
+                            {/each}
+                        </ul>
+                    </div>
+
+                    <div class="build-stats">
+                        <ShowStats
+                            stats={build.cappedStats}
+                            isBuild={true}
+                            compareStats={build.diffBuild?.cappedStats}
+                            overStats={build.stats}
+                        />
+                        <div class="requirements">
+                            {#each build.requirements as orRequirements}
+                                <div
+                                    class="requirement {checkOrRequirement(
+                                        orRequirements,
+                                        build.cappedStats,
+                                        build.panopliesBonus,
+                                    )}"
+                                >
+                                    {#each orRequirements as requirement, i}
+                                        <strong>{translateRequirement(requirement)}</strong>
+                                        {#if i < orRequirements.length - 1}
+                                            {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                        {/if}
+                                    {/each}
+                                    <br />
+                                </div>
+                            {/each}
+                        </div>
                     </div>
                 </div>
-            </div>
-        {/each}
-    {:else}
-        <h3>{$words.noBuild}</h3>
-    {/if}
+            {/each}
+        {:else}
+            <h3>{$words.noBuild}</h3>
+        {/if}
+    </div>
 </div>
 
 <style>

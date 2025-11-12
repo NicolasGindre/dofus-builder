@@ -9,7 +9,6 @@
     import { setUrlHash } from "../logic/encoding/urlEncode";
 
     export let build: Build;
-    // export let words = { export: "Export", dofusDB: "DofusDB", dofusBook: "DofusBook" };
 
     let open = false;
     let loading = false;

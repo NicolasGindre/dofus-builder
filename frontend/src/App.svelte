@@ -6,6 +6,7 @@
     import LanguageSelect from "./components/LanguageSelect.svelte";
     import { decodeFromUrl, setLastHistoryEntry } from "./logic/encoding/urlEncode";
     import Builds from "./components/Builds.svelte";
+    import Navigation from "./components/Navigation.svelte";
 
     let error: string | null = null;
 
@@ -33,9 +34,9 @@
     });
 </script>
 
+<LanguageSelect />
 <main>
     <!-- <SavedSearches /> -->
-    <LanguageSelect />
     <h1>Dofus MinMax - Builder</h1>
     {#if error}
         <p style="color: red;">{error}</p>
@@ -43,10 +44,12 @@
     <StatWeights />
     <BestItems />
     <Builds />
+    <Navigation />
 </main>
 
 <style>
     main {
+        position: relative;
         font-family: system-ui, sans-serif;
         /* padding: 1rem; */
         padding-left: 5rem;

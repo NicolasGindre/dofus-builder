@@ -377,7 +377,7 @@
         </tbody>
     </table>
 {/snippet}
-<div>
+<div id="weights">
     <div class="controls">
         <button on:click={resetAll}>{$words.reset}</button>
         <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>

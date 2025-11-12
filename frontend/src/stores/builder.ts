@@ -12,6 +12,7 @@ import {
     calculateAllItemsToDisplay,
     calculateBuildToDisplay,
     calculateItemsToDisplay,
+    calculateSelectedItemsToDisplay,
 } from "../logic/display";
 import type { CountryCode, Translations } from "../types/language";
 
@@ -149,9 +150,15 @@ export const itemsCategoryWithPanoBest = writable(getEmptyCategoriesItemsArr());
 export const itemsCategoryDisplayed = writable(getEmptyCategoriesItemsArr());
 
 export const itemsSelected = writable(getEmptyCategoriesItems());
-// itemsSelected.subscribe(() => {
-//     encodeToUrl();
-// });
+export const itemsSelectedDisplayed = writable(getEmptyCategoriesItemsArr());
+subscribeWithDelay(
+    itemsSelected,
+    () => {
+        calculateSelectedItemsToDisplay();
+    },
+    1,
+);
+
 export const itemsLocked = writable(getEmptyCategoriesItems());
 
 export const categoryBestValue = writable<Record<ItemCategory, number>>();
@@ -163,9 +170,6 @@ export const buildsDisplayed = writable<Build[]>([]);
 export const buildShownCount = writable<number>(10);
 
 export const bestBuildsPage = writable<number>(1);
-// export const bestBuildsTotPage: Readable<number> = derived(bestBuildsPage, ($bestBuildsPage) ={
-//     return $
-// })
 export const savedBuildsPage = writable<number>(1);
 
 export const showSavedBuilds = writable<boolean>(false);
@@ -181,16 +185,6 @@ savedBuilds.subscribe((savedBuilds) => {
 
 export const comparedBuild = writable<Build>(undefined);
 
-// export const totalPossibilities: Readable<number> = derived(
-//     [itemsSelected, itemsLocked],
-//     ([$itemsSelected, $itemsLocked], set) => {
-//         encodeToUrl();
-//         clearTimeout((totalPossibilities as any)._timeout);
-//         (totalPossibilities as any)._timeout = setTimeout(() => {
-//             set(totalCombinations($itemsSelected, $itemsLocked));
-//         }, 0);
-//     },
-// );
 export const minItems: Readable<MinItem[][]> = derived(
     [itemsSelected, itemsLocked],
     ([$itemsSelected, $itemsLocked], set) => {
@@ -198,10 +192,10 @@ export const minItems: Readable<MinItem[][]> = derived(
         clearTimeout((minItems as any)._timeout);
         (minItems as any)._timeout = setTimeout(() => {
             set(convertToMinItems($itemsSelected, $itemsLocked));
-        }, 0);
+        }, 1);
     },
 );
-// export const weights: Readable<Partial<Stats>> = derived(weightsIndex, ($weightsIndex) => {
+
 export const totalPossibilities: Readable<number> = derived(minItems, ($minItems) => {
     return totalCombinations($minItems);
 });
@@ -228,6 +222,7 @@ export const panopliesDisplayed = writable<Panoply[]>([]);
 
 sortBestItemsWithPanoValue.subscribe(() => {
     calculateAllItemsToDisplay();
+    calculateSelectedItemsToDisplay();
 });
 showBonusPanoCappedItems.subscribe(() => {
     calculateItemsToDisplay("dofus");
@@ -235,3 +230,11 @@ showBonusPanoCappedItems.subscribe(() => {
 categoryDisplaySize.subscribe(() => {
     calculateAllItemsToDisplay();
 });
+
+function subscribeWithDelay<T>(store: Readable<T>, callback: (value: T) => void, delay = 0) {
+    let timeoutId: ReturnType<typeof setTimeout>;
+    return store.subscribe((value) => {
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(() => callback(value), delay);
+    });
+}

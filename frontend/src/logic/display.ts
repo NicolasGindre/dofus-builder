@@ -8,6 +8,8 @@ import {
     itemsCategoryBest,
     itemsCategoryDisplayed,
     itemsCategoryWithPanoBest,
+    itemsSelected,
+    itemsSelectedDisplayed,
     level,
     panopliesBest,
     panopliesDisplayed,
@@ -20,7 +22,7 @@ import {
     showSavedBuilds,
     sortBestItemsWithPanoValue,
 } from "../stores/builder";
-import { type Item, type Panoply } from "../types/item";
+import { getEmptyCategoriesItemsArr, type Item, type Panoply } from "../types/item";
 import { isItemBonusPanoCapped } from "./item";
 import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
 
@@ -116,6 +118,32 @@ export function showOnlySelected(showOnlySelected: boolean) {
 
 export function orderByValueWithPano(withPanoValue: boolean) {
     sortBestItemsWithPanoValue.set(withPanoValue);
+}
+
+export function calculateSelectedItemsToDisplay() {
+    const selected = get(itemsSelected);
+    let itemsSelectedArr: Record<ItemCategory, Item[]> = getEmptyCategoriesItemsArr();
+    const sortByPanoValue = get(sortBestItemsWithPanoValue);
+
+    for (const [category, items] of Object.entries(selected)) {
+        let itemsArr = Object.values(items);
+        if (sortByPanoValue) {
+            itemsArr.sort((a, b) => b.valueWithPano - a.valueWithPano);
+        } else {
+            itemsArr.sort((a, b) => b.value - a.value);
+        }
+        itemsArr.sort((a, b) => {
+            const aIsBonus = isItemBonusPanoCapped(a);
+            const bIsBonus = isItemBonusPanoCapped(b);
+            if (aIsBonus && !bIsBonus) return 1;
+            if (!aIsBonus && bIsBonus) return -1;
+            return 0;
+        });
+
+        itemsSelectedArr[category as ItemCategory] = itemsArr;
+    }
+
+    itemsSelectedDisplayed.set(itemsSelectedArr);
 }
 
 export function calculateBuildToDisplay() {

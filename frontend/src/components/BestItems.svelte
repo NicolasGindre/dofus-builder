@@ -16,6 +16,7 @@
         previousStatsSearch,
         timeEstimated,
         millionComboPerMin,
+        itemsSelectedDisplayed,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item } from "../types/item";
@@ -29,6 +30,7 @@
         removeItem,
         removeItems,
         isItemMinRequirementOK,
+        isItemBonusPanoCapped,
     } from "../logic/item";
     import {
         calculatePanopliesToDisplay,
@@ -44,7 +46,6 @@
     import { slide } from "svelte/transition";
     import { getEncodedStatsFromHash, saveHistoryEntry } from "../logic/encoding/urlEncode";
     import { categoryLength } from "../types/build";
-    import { onMount } from "svelte";
     import SavedSearches from "./SavedSearches.svelte";
     import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
 
@@ -151,6 +152,8 @@
         }
         return parts.length ? parts.slice(0, 2).join(", ") : "0 sec";
     }
+    $: firstDofusPanoCappedIndex =
+        $itemsSelectedDisplayed["dofus"].findIndex(isItemBonusPanoCapped);
 </script>
 
 {#snippet addItemToSelecteds(items: Item[])}
@@ -227,7 +230,7 @@
         <SavedSearches />
     </div>
 
-    <div class="lists">
+    <div id="selection" class="lists">
         <div class="list-container">
             <div class="list-header">
                 <h2>{$words.bestItems}</h2>
@@ -364,8 +367,17 @@
                             <div transition:slide>
                                 <table>
                                     <tbody>
-                                        {#each Object.values($itemsSelected[cat]) as item}
-                                            <!-- <li class="selected-item"> -->
+                                        {#each $itemsSelectedDisplayed[cat] as item, i}
+                                            {#if i === firstDofusPanoCappedIndex && cat == "dofus"}
+                                                <tr class="separator-row">
+                                                    <td>
+                                                        <hr class="bonus-separator" />
+                                                    </td>
+                                                    <!-- <td>
+                                                        <hr class="bonus-separator" />
+                                                    </td> -->
+                                                </tr>
+                                            {/if}
                                             <tr class="selected-item">
                                                 <td>
                                                     <HoverItemStats {item}>
@@ -465,6 +477,7 @@
         height: calc(100vh - 125px);
 
         min-height: 500px;
+        padding-top: 0.7rem;
     }
     .list-container {
         /* height: 100%; */
@@ -639,7 +652,16 @@
         width: 50%; /* force half the table */
     }
 
+    .bonus-separator {
+        margin: 8px 0;
+        width: 100%;
+    }
+    .separator-row td {
+        width: 100%;
+        padding: 0;
+    }
     /* th:first-child, */
+    .separator-row td,
     .selected-item td:first-child {
         width: 84%;
         /* display: flex; */

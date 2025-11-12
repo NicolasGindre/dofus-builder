@@ -42,7 +42,6 @@ export function encodeDofusStufferUrlFromSlots(slots: Slots): string {
         10: 0, // po
         11: leveledStats.summon, // 1
         23: leveledStats.pods,
-        // 23: 1000,
     };
 
     // --- additional points ---
@@ -54,12 +53,8 @@ export function encodeDofusStufferUrlFromSlots(slots: Slots): string {
     if (get(exoMp)) flags |= 1 << 1;
     if (get(exoRange)) flags |= 1 << 0;
 
-    // --- item IDs, ordered as the site expects ---
     const ids: number[] = [];
-    // const push = (id?: number) => {
-    //     if (id) ids.push(id);
-    // };
-    // --- numPick overrides (zeros for categories 1–16) ---
+
     const numPickOverrides: Record<number, number> = {};
     for (let i = 0; i <= 16; i++) {
         const category = NUM_PICK_MAP[i];
@@ -92,10 +87,8 @@ export function encodeDofusStufferUrlFromSlots(slots: Slots): string {
     };
     // console.log("t", t);
 
-    // --- MessagePack → Base64 ---
     const packed = encode(t);
 
-    // Bun/browser-safe Base64 encoder
     const base64 = btoa(String.fromCharCode(...packed));
 
     const baseUrl = "https://www.dofusbook.net/fr/equipement/dofus-stuffer/objets";
