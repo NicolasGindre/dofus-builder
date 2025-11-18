@@ -71,14 +71,14 @@ export function checkWeightUpdate() {
             break;
         }
     }
-    for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
-        if (weightsIn[statKey] != globalCacRangeDefense) {
-            globalCacRangeDefense = weightsIn[statKey];
-            updateWeights(weightsOut, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
-            isUpdated = true;
-            break;
-        }
-    }
+    // for (const statKey of STAT_CACRANGE_DEFENSE_KEYS) {
+    //     if (weightsIn[statKey] != globalCacRangeDefense) {
+    //         globalCacRangeDefense = weightsIn[statKey];
+    //         updateWeights(weightsOut, STAT_CACRANGE_DEFENSE_KEYS, globalCacRangeDefense);
+    //         isUpdated = true;
+    //         break;
+    //     }
+    // }
     // console.log("weightsOut", weightsIn);
     // const displayedWeights = get(weights);
     let statSum = 0;

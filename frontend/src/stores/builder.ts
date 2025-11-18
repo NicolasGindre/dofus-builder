@@ -69,6 +69,8 @@ export const showBonusPanoCappedItems = writable<boolean>(true);
 export const sortBestItemsWithPanoValue = writable<boolean>(false);
 export const showOnlySelectedPanos = writable<boolean>(false);
 
+export const showValueAsPercent = writable<boolean>(false);
+
 export const automaticWeights = writable<boolean>(true);
 // export const displayedWeights = writable<Partial<Stats>>({});
 export const weightsIndex = writable<Partial<Stats>>({});
@@ -162,6 +164,7 @@ subscribeWithDelay(
 export const itemsLocked = writable(getEmptyCategoriesItems());
 
 export const categoryBestValue = writable<Record<ItemCategory, number>>();
+export const categoryBestValueWithPano = writable<Record<ItemCategory, number>>();
 
 export const panopliesBest = writable<Panoply[]>([]);
 

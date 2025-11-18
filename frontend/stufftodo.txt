@@ -4,34 +4,43 @@ BUG :
 
 Finishers :
 
-- Set up server hosting : Vercel -> Hetzner or OVH ?
+- Set up server hosting : Vercel -> Hetzner ? Or Sami
 - meta tags
 
 - Add instructions: tooltips + tutorial (text and video ?)
 
-- example saved searches + edit saved search name
+- Exported build name dofusminmax.fr
+- Clear console logs
 
-- New theme
-
-- Referer and exported build name dofusMinMax.com
+- Deactivate api endpoint to refresh items
 
 WIP :
 
-- Add a way to scroll to the category item from pano (and reverse) 
-- Scrolling on best items also scrolls on matching selected items category (?)
-
-- import from dofusDB - and more sites later ?
-- Open item in dofusDB / dofusbook 
-
 Later Maybe :
 
-- Automatic saved search save
+- New theme
 
-- filter build by name.. filter build by item ?
+- example saved searches + edit saved search name
+
+- import from dofusDB - and more sites later ?
+
+- Add next/previous build buttons
+- Show most common items from build results
+- filter build by name
+ - filter build by item ? By locked item ?
+
+- Show items and pano affecting stat when hovering on stat
 
 - Calculate offensive weights from spells
+ => Or implement full solution that calculates final damage
 
 NO :
+
+- Automatic saved search save ?
+
+- Add class selection for class specific items + export to dofusDB ?
+
+- Open item in dofusDB / dofusbook : not sure is any use honestly and takes precious UI space
 
 - Option for free weight/min/max input ? Wouldn't be saved precisely in url. Ask community ?
 
@@ -42,3 +51,5 @@ NO :
 - No: Show indirect weights applied from derived stats (init, pods, ret pm.., tacle / lock, prospecting)
 
 - Refresh best items automatically on weight/min/max change ?
+
+- Add panoply to list of things you can search for in "add item"

@@ -65,7 +65,7 @@ export async function createDofusDBBuild(build: Build): Promise<string> {
     try {
         const res = await fetch(`${dofusDBApi}/stuffs`, {
             method: "POST",
-            headers: { "Content-Type": "application/json", Referer: "https://secret-project.net" },
+            headers: { "Content-Type": "application/json", Referer: "dofusminmax.fr" },
             body: JSON.stringify(payload),
         });
 

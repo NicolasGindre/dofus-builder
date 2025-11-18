@@ -72,10 +72,6 @@ h1 {
     background: #694c4c;
     color: #959595;
 }
-.highlight {
-    border-color: #646cff;
-    background: #7e417b;
-}
 button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -116,7 +112,7 @@ button:focus-visible {
     cursor: pointer;
     user-select: none;
     /* font-size: 1rem; */
-    font-size: 1em;
+    /* font-size: 1em; */
     font-weight: 500;
     font-family: inherit;
     transition: background 0.2s ease;

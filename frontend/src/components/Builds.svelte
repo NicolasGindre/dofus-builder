@@ -38,7 +38,7 @@
     import { tick } from "svelte";
     import ExportBuild from "./ExportBuild.svelte";
     import { ITEM_CATEGORIES } from "../../../shared/types/item";
-    import { Save } from "lucide-svelte";
+    import { Save, ArrowLeftToLine, MoveLeft, MoveRight } from "lucide-svelte";
     // let bestBuilds: { score: number; names: string[] }[] | null = null;
     // let error: string | null = null;
     // let running = false;
@@ -120,12 +120,12 @@
 
     let scrollEl: HTMLDivElement;
     let scrollPos = {
-        saved: 0,
+        savedBuilds: 0,
         result: 0,
     };
     function showSavedBuildsOr(show: boolean) {
         if (scrollEl) {
-            if (!show) scrollPos.saved = scrollEl.scrollTop;
+            if (!show) scrollPos.savedBuilds = scrollEl.scrollTop;
             else scrollPos.result = scrollEl.scrollTop;
         }
         showSavedBuilds.set(show);
@@ -137,7 +137,7 @@
 
         // restore previous scroll when switching
         requestAnimationFrame(() => {
-            scrollEl.scrollTop = show ? scrollPos.saved : scrollPos.result;
+            scrollEl.scrollTop = show ? scrollPos.savedBuilds : scrollPos.result;
         });
     }
 
@@ -175,7 +175,21 @@
     );
     $: currPage = $showSavedBuilds ? $savedBuildsPage : $bestBuildsPage;
 
-    function prev() {
+    function firstPage() {
+        const pageW = $showSavedBuilds ? savedBuildsPage : bestBuildsPage;
+        pageW.set(1);
+
+        calculateBuildToDisplay();
+        if ($comparedBuild) {
+            compareBuild($comparedBuild);
+        }
+        requestAnimationFrame(() => {
+            // scrollEl.scrollTop = $showSavedBuilds ? scrollPos.saved : scrollPos.result;
+            scrollEl.scrollTop = 0;
+        });
+        $showSavedBuilds ? (scrollPos.savedBuilds = 0) : (scrollPos.result = 0);
+    }
+    function prevPage() {
         const pageW = $showSavedBuilds ? savedBuildsPage : bestBuildsPage;
         pageW.set(Math.max(1, currPage - 1));
         // console.log(currPage);
@@ -185,7 +199,7 @@
             compareBuild($comparedBuild);
         }
     }
-    function next() {
+    function nextPage() {
         const pageW = $showSavedBuilds ? savedBuildsPage : bestBuildsPage;
         pageW.set(Math.min(total, currPage + 1));
         // console.log(currPage);
@@ -195,11 +209,17 @@
         }
 
         requestAnimationFrame(() => {
-            scrollEl.scrollTop = $showSavedBuilds ? scrollPos.saved : scrollPos.result;
+            // scrollEl.scrollTop = $showSavedBuilds ? scrollPos.saved : scrollPos.result;
+            scrollEl.scrollTop = 0;
         });
-        // $showSavedBuilds ? (scrollPos.saved = 0) : (scrollPos.result = 0);
+        $showSavedBuilds ? (scrollPos.savedBuilds = 0) : (scrollPos.result = 0);
     }
     // const next = () => (current = Math.min(total, current + 1));
+
+    let hoveredPano: string | undefined = undefined;
+    function setHoveredPano(panoId: string) {
+        hoveredPano = panoId;
+    }
 </script>
 
 <div class="calculations">
@@ -216,7 +236,7 @@
         >
     {/if}
     {#if combinationStart > 0}
-        <p>
+        <p class="calcul-progress">
             {$words.combinationsCalculated}: {new Intl.NumberFormat("en-US", {
                 notation: "compact",
                 compactDisplay: "short",
@@ -273,8 +293,13 @@
         </div>
         <div class="pager">
             <span>{$words.page} {currPage}/{total}</span>
-            <button on:click={prev} disabled={currPage === 1} aria-label="Previous page">←</button
-            ><button on:click={next} disabled={currPage === total} aria-label="Next page">→</button>
+            <button on:click={firstPage} disabled={currPage === 1} aria-label="Previous page"
+                ><ArrowLeftToLine size={18} /></button
+            ><button on:click={prevPage} disabled={currPage === 1} aria-label="Previous page"
+                ><MoveLeft size={18} /></button
+            ><button on:click={nextPage} disabled={currPage === total} aria-label="Next page"
+                ><MoveRight size={18} /></button
+            >
         </div>
     </div>
     <div class="builds" bind:this={scrollEl}>
@@ -364,7 +389,12 @@
                             {#if !build.diffBuild}
                                 {#each Object.entries(build.panoplies) as [panoId, count]}
                                     {#if count > 1}
-                                        <div class="panoply">
+                                        <!-- svelte-ignore a11y-no-static-element-interactions -->
+                                        <div
+                                            class="panoply"
+                                            on:mouseenter={() => setHoveredPano(panoId)}
+                                            on:mouseleave={() => (hoveredPano = undefined)}
+                                        >
                                             <HoverItemOrPano panoply={getPanoply(panoId)}>
                                                 <span>
                                                     {getPanoply(panoId).name[$lang]}
@@ -385,7 +415,12 @@
                             {:else}
                                 {#each Object.entries(build.diffBuild.panoplies) as [panoId, comparedCount]}
                                     {#if comparedCount > 1 || build.panoplies[panoId] > 1}
-                                        <div class="panoply">
+                                        <!-- svelte-ignore a11y-no-static-element-interactions -->
+                                        <div
+                                            class="panoply"
+                                            on:mouseenter={() => setHoveredPano(panoId)}
+                                            on:mouseleave={() => (hoveredPano = undefined)}
+                                        >
                                             <HoverItemOrPano panoply={getPanoply(panoId)}>
                                                 <span
                                                     class:crossed-text={!build.panoplies[panoId] ||
@@ -458,6 +493,9 @@
                                                         class:green-background={build.diffBuild &&
                                                             build.diffBuild.slots[slot] !=
                                                                 build.slots[slot]}
+                                                        class:pano-hovered={hoveredPano &&
+                                                            hoveredPano ==
+                                                                build.slots[slot].panoply}
                                                     >
                                                         {build.slots[slot].name[$lang]}
                                                     </span>
@@ -506,9 +544,6 @@
 </div>
 
 <style>
-    p {
-        font-variant-numeric: tabular-nums;
-    }
     .save-compute-speed-btn {
         padding: 0px;
         vertical-align: middle;
@@ -520,8 +555,27 @@
         width: 100%;
     }
     .pager {
+        /* align-items: center;
+        justify-content: center;
+        line-height: 0; */
         margin-left: auto;
+        display: flex;
     }
+    .pager span {
+        display: flex;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+        margin-right: 5px;
+    }
+    .pager button {
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+    }
+
     .compare-label {
         font-size: 1.1rem;
         min-width: 40%;
@@ -611,13 +665,15 @@
         background-color: #8c0000;
     }
     .button-calculate {
-        margin-top: 0.6rem;
+        margin-top: 2.2rem;
+        font-size: 1.2rem;
     }
     .button-cancel:hover {
         background: rgb(139, 10, 10);
     }
     .builds {
         /* height: 90vh; */
+        /* background: #282629; */
         background: #252226;
         height: calc(100vh - 70px);
         min-height: 500px;
@@ -670,7 +726,12 @@
     }
 
     .calculations {
-        height: 120px;
+        height: 140px;
+    }
+    .calcul-progress {
+        margin-top: 0.6rem;
+        /* margin-bottom: 1rem; */
+        font-variant-numeric: tabular-nums;
     }
     .green-background {
         background-color: #13552f !important;
@@ -722,6 +783,11 @@
         font-weight: 500;
         line-height: 1;
         /* white-space: nowrap; */
+        border: 1px solid rgba(0, 0, 0, 0);
+    }
+    .pano-hovered {
+        border: 1px solid #ffea00;
+        /* border-style:; */
     }
     .panoplies {
         display: grid;

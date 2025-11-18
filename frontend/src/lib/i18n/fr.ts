@@ -9,6 +9,7 @@ export default {
 
     level: "Niveau",
 
+    stat: "Caractéristique",
     weight: "Poids",
     setAllWeightsTo0: "Effacer tous les poids",
     reset: "Réinitialiser",
@@ -18,6 +19,7 @@ export default {
     automaticWeightCalculation: "Calcul automatique des poids",
 
     calculateBestItems: "Calculer les Meilleurs Objets",
+    showValueAsPercentFromBest: "Afficher les valeurs en % du meilleur",
     bestItems: "Meilleurs Objets",
 
     orderByValue: "Trier par Valeur",
@@ -36,6 +38,8 @@ export default {
     panoplies: "Panoplies",
     onlySelected: "Sélectionnées",
     bestAndSelected: "Meilleures + Sélectionnées",
+    score: "Score",
+    bestValuePerItem: "Meilleure valeur / objet",
 
     // add: "Ajouter",
     baseVitality: "Vitalité de base",

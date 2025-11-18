@@ -84,17 +84,20 @@ export function calculatePanopliesToDisplayNow() {
     let i = 1;
     for (const pano of get(panopliesBest)) {
         if (i < get(panoplyDisplaySize) && !get(showOnlySelectedPanos)) {
-            let panoOverLevel = true;
-            for (const item of pano.itemsReal) {
-                if (item.level <= get(level)) {
-                    panoOverLevel = false;
-                    break;
-                }
+            // let panoOverLevel = true;
+            // for (const item of pano.itemsReal) {
+            //     if (item.level <= get(level)) {
+            //         panoOverLevel = false;
+            //         break;
+            //     }
+            // }
+            // if (!panoOverLevel) {
+            if (pano.bestRelativeValue == -Infinity || pano.bestValuePerItem <= 0) {
+                continue;
             }
-            if (!panoOverLevel) {
-                panosToDisplay.push(pano);
-                i++;
-            }
+            panosToDisplay.push(pano);
+            i++;
+            // }
         } else {
             for (const panoSelected of get(panopliesSelected)) {
                 if (panoSelected.name == pano.name) {

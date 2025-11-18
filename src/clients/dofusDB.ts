@@ -134,7 +134,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
 
-        const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
+        const resp = await fetch(url, { headers: { Referer: "dofusminmax.fr" } });
 
         if (!resp.ok) {
             const jsonErr = (await resp.json()) as { message: string };
@@ -295,7 +295,7 @@ async function fetchDofusDBSpecialEffect(
     specialEffectId: number,
 ): Promise<SpecialEffect | undefined> {
     const url = new URL(`${dofusDBUrl}/spells/${specialEffectId}`);
-    const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
+    const resp = await fetch(url, { headers: { Referer: "dofusminmax.fr" } });
 
     const json = await resp.json();
     const spellResp: SpellResp = SpellSchema.parse(json);
@@ -397,7 +397,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
 
-        const resp = await fetch(url, { headers: { Referer: "https://secret-project.net" } });
+        const resp = await fetch(url, { headers: { Referer: "dofusminmax.fr" } });
 
         if (!resp.ok) {
             const jsonErr = (await resp.json()) as { message: string };

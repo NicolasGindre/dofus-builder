@@ -174,7 +174,7 @@
         <caption>{title}</caption>
         <thead>
             <tr>
-                <th>Stat</th>
+                <th>{$words.stat}</th>
                 <th>{$words.weight}</th>
                 <th>Min</th>
                 <th>Max</th>
@@ -222,12 +222,12 @@
                                         incrementWeight(statKey, -1);
                                     }
                                 }}
-                                on:wheel={(e) => {
+                            />
+                            <!-- on:wheel={(e) => {
                                     e.preventDefault();
                                     if (e.deltaY < 0) incrementWeight(statKey, 1);
                                     else if (e.deltaY > 0) incrementWeight(statKey, -1);
-                                }}
-                            />
+                                }} -->
                             <div class="buttons">
                                 <button
                                     tabindex="-1"
@@ -282,11 +282,6 @@
                                         e.preventDefault();
                                         incrementMinStat(statKey, -1);
                                     }
-                                }}
-                                on:wheel={(e) => {
-                                    e.preventDefault();
-                                    if (e.deltaY < 0) incrementMinStat(statKey, 1);
-                                    else if (e.deltaY > 0) incrementMinStat(statKey, -1);
                                 }}
                             />
                             <div class="buttons">
@@ -343,11 +338,6 @@
                                         e.preventDefault();
                                         incrementMaxStat(statKey, -1);
                                     }
-                                }}
-                                on:wheel={(e) => {
-                                    e.preventDefault();
-                                    if (e.deltaY < 0) incrementMaxStat(statKey, 1);
-                                    else if (e.deltaY > 0) incrementMaxStat(statKey, -1);
                                 }}
                             />
                             <div class="buttons">
@@ -492,7 +482,6 @@
     .stats-grid table tbody tr:nth-child(even) {
         background-color: #1e1e1e;
     }
-
     .stats-grid table tbody tr:hover {
         background-color: #333;
     }

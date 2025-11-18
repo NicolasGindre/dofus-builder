@@ -17,6 +17,9 @@
         timeEstimated,
         millionComboPerMin,
         itemsSelectedDisplayed,
+        showValueAsPercent,
+        categoryBestValue,
+        categoryBestValueWithPano,
     } from "../stores/builder";
     import { get } from "svelte/store";
     import type { Item } from "../types/item";
@@ -37,17 +40,20 @@
         orderByValueWithPano,
         showOnlySelected,
     } from "../logic/display";
-    import HoverItemStats from "./HoverItemOrPano.svelte";
     import HoverItemOrPano from "./HoverItemOrPano.svelte";
     import { lang } from "../stores/builder";
     import PreStats from "./PreStats.svelte";
     import { words } from "../stores/builder";
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
-    import { getEncodedStatsFromHash, saveHistoryEntry } from "../logic/encoding/urlEncode";
+    import {
+        getEncodedStatsAndLockedFromHash,
+        saveHistoryEntry,
+    } from "../logic/encoding/urlEncode";
     import { categoryLength } from "../types/build";
     import SavedSearches from "./SavedSearches.svelte";
     import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
+    import { Eye } from "lucide-svelte";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -92,9 +98,46 @@
         collapsedSelected[id] = !collapsedSelected[id];
     }
 
-    let hoveredId: string = null;
-    function setHovered(id: string) {
-        hoveredId = id;
+    let hoveredItem: Item | undefined = undefined;
+    function setHovered(item: Item) {
+        hoveredItem = item;
+    }
+    type OriginListId = "best-panos" | "best-items" | "selected-items";
+    function scrollToItem(item: Item, originListId: OriginListId) {
+        let targetListIds: OriginListId[];
+        if (originListId == "best-panos") {
+            targetListIds = ["best-items", "selected-items"];
+        }
+        if (originListId == "best-items") {
+            targetListIds = ["best-panos", "selected-items"];
+        }
+        if (originListId == "selected-items") {
+            targetListIds = ["best-items", "best-panos"];
+        }
+        for (const targetListId of targetListIds) {
+            const targetList = document.getElementById(targetListId);
+            let targetItem = document.getElementById(`${targetListId}-${item.id}`);
+            if (!targetItem) {
+                if (targetListId == "best-items") {
+                    targetItem = document.getElementById(`show-more-${item.category}`);
+                } else {
+                    continue;
+                }
+            }
+            const itemRect = targetItem.getBoundingClientRect();
+            const containerRect = targetList.getBoundingClientRect();
+
+            const offset =
+                itemRect.top -
+                containerRect.top +
+                targetList.scrollTop -
+                targetList.clientHeight / 2 +
+                itemRect.height / 2;
+
+            targetList.scrollTo({ top: offset, behavior: "smooth" });
+        }
+        // targetItem.classList.add("highlight");
+        // setTimeout(() => targetItem.classList.remove("highlight"), 800);
     }
 
     function quickSelection() {
@@ -156,7 +199,7 @@
         $itemsSelectedDisplayed["dofus"].findIndex(isItemBonusPanoCapped);
 </script>
 
-{#snippet addItemToSelecteds(items: Item[])}
+{#snippet addItemToSelecteds(items: Item[], listId: OriginListId)}
     <table>
         <thead>
             <tr>
@@ -168,29 +211,42 @@
         </thead>
         <tbody>
             {#each items as item}
-                <tr>
-                    <td>
-                        <HoverItemStats {item}>
-                            <button
-                                class="item-button"
-                                class:item-selected={$itemsSelected[item.category][item.id]}
-                                type="button"
-                                class:highlight={hoveredId === item.id}
-                                on:mouseenter={() => setHovered(item.id)}
-                                on:mouseleave={() => (hoveredId = null)}
-                                on:click={() => addOrRemoveItem(item.id)}
-                            >
-                                {item.name[$lang]}
-                            </button>
-                        </HoverItemStats>
+                <tr id={`${listId}-${item.id}`}>
+                    <td
+                        class="item-buttons-container"
+                        on:mouseenter={() => setHovered(item)}
+                        on:mouseleave={() => (hoveredItem = undefined)}
+                    >
+                        <div class="item-button-wrapper">
+                            <HoverItemOrPano {item}>
+                                <button
+                                    class="item-button"
+                                    class:item-selected={$itemsSelected[item.category][item.id]}
+                                    class:skipped-item={isSkipped(item.category, item)}
+                                    class:highlight={hoveredItem && hoveredItem.id === item.id}
+                                    type="button"
+                                    on:click={() => addOrRemoveItem(item.id)}
+                                >
+                                    {item.name[$lang]}
+                                </button>
+                            </HoverItemOrPano>
+                        </div>
+                        <button
+                            class="nav-to-item-button"
+                            on:click={() => scrollToItem(item, listId)}><Eye size={20} /></button
+                        >
                     </td>
                     <td class:red={item.level > $level}>{item.level}</td>
                     <td>
-                        {Math.round(item.value)}
+                        {$showValueAsPercent
+                            ? `${Math.round((item.value * 100) / $categoryBestValue[item.category])}%`
+                            : Math.round(item.value)}
                     </td>
                     <td>
                         {#if item.panoply}
-                            {Math.round(item.valueWithPano)}
+                            {$showValueAsPercent
+                                ? `${Math.round((item.valueWithPano * 100) / $categoryBestValueWithPano[item.category])}%`
+                                : Math.round(item.valueWithPano)}
                         {/if}
                     </td>
                 </tr>
@@ -199,7 +255,7 @@
     </table>
 {/snippet}
 
-<div class="container">
+<div id="selection" class="container">
     <div class="controls">
         <div class="level-input">
             {$words.level}
@@ -219,18 +275,24 @@
         </div>
 
         <button
-            class:modified={getEncodedStatsFromHash($urlHash) != $previousStatsSearch}
+            class="button-calculate-best-items"
+            class:modified={getEncodedStatsAndLockedFromHash($urlHash) != $previousStatsSearch}
             on:click={() => {
                 calculateBestItems();
                 saveHistoryEntry();
-                previousStatsSearch.set(getEncodedStatsFromHash($urlHash));
+                previousStatsSearch.set(getEncodedStatsAndLockedFromHash($urlHash));
             }}>{$words.calculateBestItems}</button
         >
+        <label class="checkbox-label">
+            <input type="checkbox" bind:checked={$showValueAsPercent} />
+            {$words.showValueAsPercentFromBest}
+            <!-- Show Value As % -->
+        </label>
         <!-- <button on:click={addAll}>Add All</button> -->
         <SavedSearches />
     </div>
 
-    <div id="selection" class="lists">
+    <div class="lists">
         <div class="list-container">
             <div class="list-header">
                 <h2>{$words.bestItems}</h2>
@@ -245,7 +307,7 @@
                     </button>
                 {/if}
             </div>
-            <div class="list">
+            <div id="best-items" class="list">
                 {#each ITEM_CATEGORIES as category}
                     <div class="list-elem">
                         <div class="sticky">
@@ -268,9 +330,20 @@
                                         />
                                     </label>
                                 {/if}
-                                {@render addItemToSelecteds($itemsCategoryDisplayed[category])}
+                                {@render addItemToSelecteds(
+                                    $itemsCategoryDisplayed[category],
+                                    "best-items",
+                                )}
                                 <div class="end-list-elem">
-                                    <button on:click={() => showMore(5, category)}>
+                                    <button
+                                        id={`show-more-${category}`}
+                                        on:click={() => showMore(5, category)}
+                                        class:highlight={hoveredItem &&
+                                            hoveredItem.category === category &&
+                                            !$itemsCategoryDisplayed[category].some(
+                                                (item) => item.id === hoveredItem.id,
+                                            )}
+                                    >
                                         {$words.showMore}
                                     </button>
                                     <button on:click={() => showMore(-5, category)}>
@@ -303,7 +376,7 @@
                     >
                 {/if}
             </div>
-            <div class="list">
+            <div id="best-panos" class="list">
                 {#each $panopliesDisplayed as panoply}
                     <div class="list-elem">
                         <div class="sticky">
@@ -315,13 +388,21 @@
                             <HoverItemOrPano {panoply}
                                 ><div class="sticky-title">
                                     {panoply.name[$lang]}
-                                    <!-- - {panoply.bestRelativeValue} -->
+                                    <!-- | {panoply.bestRelativeValue} -->
                                 </div></HoverItemOrPano
                             >
                         </div>
                         {#if !collapsedPanos[panoply.id]}
                             <div transition:slide>
-                                {@render addItemToSelecteds(panoply.itemsReal)}
+                                <div class="pano-score">
+                                    <em>{$words.score}: {Math.round(panoply.bestRelativeValue)}</em>
+                                    <em
+                                        >{$words.bestValuePerItem}: +{Math.round(
+                                            panoply.bestValuePerItem,
+                                        )}</em
+                                    >
+                                </div>
+                                {@render addItemToSelecteds(panoply.itemsReal, "best-panos")}
                                 <div class="end-list-elem">
                                     <button
                                         type="button"
@@ -352,7 +433,7 @@
                 <button on:click={clearAll}>{$words.clear}</button>
             </div>
             <ItemSearch />
-            <div class="list">
+            <div id="selected-items" class="list">
                 {#each ITEM_CATEGORIES as cat}
                     <div class="list-elem">
                         <div class="sticky">
@@ -365,7 +446,7 @@
                         </div>
                         {#if !collapsedSelected[cat]}
                             <div transition:slide>
-                                <table>
+                                <table class="selected-items-table">
                                     <tbody>
                                         {#each $itemsSelectedDisplayed[cat] as item, i}
                                             {#if i === firstDofusPanoCappedIndex && cat == "dofus"}
@@ -378,30 +459,40 @@
                                                     </td> -->
                                                 </tr>
                                             {/if}
-                                            <tr class="selected-item">
-                                                <td>
-                                                    <HoverItemStats {item}>
-                                                        <button
-                                                            class="item-button"
-                                                            type="button"
-                                                            class:highlight={hoveredId === item.id}
-                                                            class:skipped-item={isSkipped(
-                                                                cat,
-                                                                item,
-                                                            )}
-                                                            on:mouseenter={() =>
-                                                                setHovered(item.id)}
-                                                            on:mouseleave={() => (hoveredId = null)}
-                                                            on:click={() => {
-                                                                removeItem(item);
-                                                                hoveredId = null;
-                                                            }}
-                                                        >
-                                                            {item.name[$lang]}
-                                                        </button>
-                                                    </HoverItemStats>
-                                                </td>
-                                                <td>
+                                            <tr
+                                                id={`selected-items-${item.id}`}
+                                                class="selected-item"
+                                            >
+                                                <td
+                                                    class="item-buttons-container"
+                                                    on:mouseenter={() => setHovered(item)}
+                                                    on:mouseleave={() => (hoveredItem = undefined)}
+                                                >
+                                                    <div class="item-button-wrapper">
+                                                        <HoverItemOrPano {item}>
+                                                            <button
+                                                                class="item-button"
+                                                                class:highlight={hoveredItem &&
+                                                                    hoveredItem.id === item.id}
+                                                                class:skipped-item={isSkipped(
+                                                                    cat,
+                                                                    item,
+                                                                )}
+                                                                type="button"
+                                                                on:click={() =>
+                                                                    addOrRemoveItem(item.id)}
+                                                            >
+                                                                {item.name[$lang]}
+                                                            </button>
+                                                        </HoverItemOrPano>
+                                                    </div>
+                                                    <button
+                                                        class="nav-to-item-button"
+                                                        class:skipped-item={isSkipped(cat, item)}
+                                                        on:click={() =>
+                                                            scrollToItem(item, "selected-items")}
+                                                        ><Eye size={20} /></button
+                                                    >
                                                     <button
                                                         class="lock"
                                                         class:locked={$itemsLocked[cat][item.id]}
@@ -410,7 +501,6 @@
                                                         {$itemsLocked[cat][item.id] ? "🔒" : "🔓"}
                                                     </button>
                                                 </td>
-                                                <!-- </li> -->
                                             </tr>
                                         {/each}
                                     </tbody>
@@ -435,6 +525,23 @@
 </div>
 
 <style>
+    .button-calculate-best-items {
+        /* border-color: #e5b826; */
+        font-size: 1.2rem;
+    }
+    table:not(.selected-items-table) tbody tr:nth-child(odd) {
+        background-color: #222222;
+    }
+    table:not(.selected-items-table) tbody tr:nth-child(even) {
+        background-color: #1e1e1e;
+    }
+    table:not(.selected-items-table) tbody tr:hover {
+        background-color: #333;
+    }
+    .highlight {
+        border-color: #646cff;
+        background: #7e417b;
+    }
     .modified {
         color: #f89f33;
     }
@@ -468,24 +575,25 @@
         width: 100%; /* stretch full width of parent */
         /* max-width: 1200px; */
         margin: 0 auto; /* center if you set a max-width */
-        margin-top: 1rem;
+        /* margin-top: 1rem; */
+        padding-top: 1rem;
     }
     .lists {
         display: flex;
         gap: 2rem;
         /* height: 90vh; */
-        height: calc(100vh - 125px);
+        height: calc(100vh - 190px);
 
         min-height: 500px;
-        padding-top: 0.7rem;
+        /* padding-top: 0.7rem; */
     }
     .list-container {
         /* height: 100%; */
         flex: 1;
         display: flex;
         flex-direction: column;
-        min-width: 36%;
-        max-width: 36%;
+        min-width: 35.5%;
+        max-width: 35.5%;
         position: relative;
         /* max-height: 100%;
         min-height: 100%; */
@@ -527,6 +635,7 @@
         border-radius: 8px;
         padding: 8px;
         background: #252226;
+        /* background: #282629; */
         overflow-y: auto;
         overscroll-behavior-y: contain;
         /* min-width: 400px; */
@@ -543,12 +652,14 @@
         margin-bottom: 1rem;
     } */
     .list-elem {
-        margin-bottom: 3px;
+        margin-bottom: 2px;
+        /* margin-bottom: 0px; */
     }
     .list-elem:has(.selected-item) {
-        margin-bottom: 0px;
+        margin-bottom: 1px;
     }
     .end-list-elem {
+        margin-top: 0.25rem;
         margin-bottom: 0.6rem;
     }
     .sticky {
@@ -597,61 +708,57 @@
         justify-content: center;
         align-items: center;
     }
-
-    /* ul {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        list-style: none;
-        padding: 0;
-    }
-    ul li {
-        margin-top: 3px;
-        margin-bottom: 3px;
-    } */
     table {
         table-layout: fixed;
         width: 100%;
+        /* border-collapse: collapse; */
+        border-spacing: 0px;
     }
-    /* .selected-item {
-        display: flex;
-    } */
-    .skipped-item {
+    .skipped-item:not(.item-selected) {
         /* background-color: #694c4c; */
         color: #959595;
         opacity: 55%;
     }
-    .lock {
-        /* background-color: #343434; */
-        opacity: 35%;
-        margin: 0px;
-        margin-right: 3px;
 
-        padding-left: 9px;
-        padding-right: 9px;
+    /* td:first-child  */
+    th:first-child {
+        width: 55%;
+    }
 
-        padding-top: 0px;
-        padding-bottom: 0px;
-
-        border-radius: 4px;
+    .item-buttons-container {
+        display: inline-flex;
         width: 100%;
-        height: 100%;
-        /* flex: 1; */
-        /* height: 31px; */
-        display: block;
-        /* line-height: normal; */
-        position: absolute;
-        inset: 0;
+        align-items: stretch;
+    }
+
+    .item-button-wrapper {
+        flex: 1;
+    }
+    .nav-to-item-button {
+        width: 30px;
+        flex-shrink: 0;
+        padding: 0px;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+        color: rgb(187, 187, 187);
+        border-radius: 4px;
+    }
+    .lock {
+        width: 44px;
+        opacity: 40%;
+        padding: 0px;
+        border-radius: 4px;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        line-height: 0;
+        /* display: block; */
         font-size: 1.281rem;
     }
     .locked {
         opacity: 100%;
     }
-
-    th:first-child,
-    td:first-child {
-        width: 50%; /* force half the table */
-    }
-
     .bonus-separator {
         margin: 8px 0;
         width: 100%;
@@ -661,22 +768,25 @@
         padding: 0;
     }
     /* th:first-child, */
-    .separator-row td,
+    /* .separator-row td,
     .selected-item td:first-child {
         width: 84%;
-        /* display: flex; */
-    }
-    .selected-item td {
-        padding: 0px;
+    } */
+    /* .selected-item td {
         position: relative;
-
-        /* height: ; */
-    }
+    } */
 
     .pano-display-size {
         display: flex;
         align-items: center;
         gap: 0.4rem;
+    }
+    .pano-score {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        margin-top: 0.2rem;
     }
     .arrows {
         display: flex;
@@ -699,15 +809,11 @@
     .arrows button:hover {
         background: #4caf50;
     }
-    /* .item-button {
-        padding: 0.25rem 0.5rem;
-        cursor: pointer;
-        border-radius: 4px;
-        width: 100%;
-        background: #571414;
+    .item-button {
+        min-height: 30px;
     }
 
-    .item-button:hover {
+    /* .item-button:hover {
         background: #7e417b;
     } */
 

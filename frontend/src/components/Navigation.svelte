@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { writable } from "svelte/store";
-    import { Sword, Shirt, Dna } from "lucide-svelte"; // any external-link icon
+    import { Sword, Shirt, Dna } from "lucide-svelte";
 
     const checkpoints = ["weights", "selection", "builds"];
     const activeCheckpoint = writable("weights");

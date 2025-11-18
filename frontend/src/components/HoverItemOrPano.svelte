@@ -165,38 +165,39 @@
             {#if panoply && !panoplyItemCount}
                 {#each panoply.stats as stats, i}
                     {#if Object.keys(stats).length > 0}
-                        <div class="combo-header">
-                            <strong class="combo-title">{i + 1} {$words.items}</strong>
-                            <strong class="combo-value"
-                                >{$words.value} : {#if isPanoMinRequirementOK(panoply, i + 1)}{panoply
-                                        .value[i] -
-                                        panoply.value[i - 1] >=
-                                    0
-                                        ? "+"
-                                        : ""}{Math.round(
-                                        panoply.value[i] - panoply.value[i - 1],
-                                    )}{:else}+0{/if}
-                            </strong>
+                        <div class:impossible-combo={panoply.value[i] === undefined ? true : false}>
+                            <div class="combo-header">
+                                <strong class="combo-title">{i + 1} {$words.items}</strong>
+                                <strong class="combo-value"
+                                    >{$words.value} : {#if panoply.value[i]}{panoply.value[i] -
+                                            panoply.value[i - 1] >=
+                                        0
+                                            ? "+"
+                                            : ""}{Math.round(
+                                            panoply.value[i] - panoply.value[i - 1],
+                                        )}{:else}+0{/if}
+                                </strong>
+                            </div>
+                            {#if panoply.requirements}
+                                {#each panoply.requirements[i] as orRequirements}
+                                    <div
+                                        class="requirement {checkOrRequirement(
+                                            orRequirements,
+                                            $minStats,
+                                        )}"
+                                    >
+                                        {#each orRequirements as requirement, i}
+                                            <strong>{translateRequirement(requirement)}</strong>
+                                            {#if i < orRequirements.length - 1}
+                                                {" "}<strong><em>{$words.or}</em></strong>{" "}
+                                            {/if}
+                                        {/each}
+                                        <br />
+                                    </div>
+                                {/each}
+                            {/if}
+                            <ShowStats stats={diffStats(stats, panoply.stats[i - 1])} />
                         </div>
-                        {#if panoply.requirements}
-                            {#each panoply.requirements[i] as orRequirements}
-                                <div
-                                    class="requirement {checkOrRequirement(
-                                        orRequirements,
-                                        $minStats,
-                                    )}"
-                                >
-                                    {#each orRequirements as requirement, i}
-                                        <strong>{translateRequirement(requirement)}</strong>
-                                        {#if i < orRequirements.length - 1}
-                                            {" "}<strong><em>{$words.or}</em></strong>{" "}
-                                        {/if}
-                                    {/each}
-                                    <br />
-                                </div>
-                            {/each}
-                        {/if}
-                        <ShowStats stats={diffStats(stats, panoply.stats[i - 1])} />
                     {/if}
                 {/each}
             {/if}
@@ -227,6 +228,10 @@
 </div>
 
 <style>
+    .impossible-combo {
+        background-color: #272727;
+        opacity: 45%;
+    }
     .spell-effects {
         max-width: 450px;
         /* min-width: 450px; */
@@ -268,7 +273,7 @@
         padding: 0.5rem;
         border-radius: 0.5rem;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-        z-index: 10;
+        z-index: 30;
         max-height: calc(35vh - 5px);
         /* max-height: 90vh; */
         overflow-y: auto;

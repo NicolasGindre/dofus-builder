@@ -215,6 +215,9 @@ export function saveComputeSpeed(millionComboPerMinNew: number) {
 function initComputeSpeed() {
     try {
         const raw = localStorage.getItem("millionComboPerMin");
+        // if(!raw) {
+        //     saveComputeSpeed(400)
+        // }
         millionComboPerMin.set(raw ? JSON.parse(raw) : 400);
     } catch (err) {
         console.error("init Compute Speed", err);

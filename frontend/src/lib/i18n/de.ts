@@ -8,6 +8,7 @@ export default {
 
     level: "Stufe",
 
+    stat: "Eigenschaft",
     weight: "Gewicht",
     setAllWeightsTo0: "Alle Gewichte löschen",
     reset: "Zurücksetzen",
@@ -17,6 +18,7 @@ export default {
     automaticWeightCalculation: "Automatische Gewichtsberechnung",
 
     calculateBestItems: "Beste Gegenstände Berechnen",
+    showValueAsPercentFromBest: "Werte als % vom besten anzeigen",
     bestItems: "Beste Gegenstände",
 
     orderByValue: "Nach Wert Sortieren",
@@ -35,6 +37,8 @@ export default {
     panoplies: "Sets",
     onlySelected: "Ausgewählt",
     bestAndSelected: "Beste + Ausgewählt",
+    score: "Punktzahl",
+    bestValuePerItem: "Bester Wert / Gegenstand",
 
     baseVitality: "Basisvitalität",
 

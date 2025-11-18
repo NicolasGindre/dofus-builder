@@ -1,9 +1,12 @@
 import { getEmptyCategoriesItemsArr, type Item, type Items, type Panoply } from "../types/item";
 import {
     categoryBestValue,
+    categoryBestValueWithPano,
     itemsCategory,
     itemsCategoryBest,
     itemsCategoryWithPanoBest,
+    itemsLocked,
+    level,
     panoplies,
     panopliesBest,
     panoplyDisplaySize,
@@ -15,6 +18,7 @@ import { getPanoply } from "./frontendDB";
 import { isItemMinRequirementOK, isPanoMinRequirementOK } from "./item";
 import type { StatKey, Stats } from "../../../shared/types/stats";
 import type { ItemCategory } from "../../../shared/types/item";
+import { categoryLength } from "../types/build";
 
 export type StatsValueFM = Record<StatKey, number>;
 
@@ -78,25 +82,16 @@ export function calculateItemValue(item: Item) {
 }
 
 export function calculatePanoValue(panoply: Panoply) {
-    panoply.value = [];
-    // for (const comboStats of panoply.statsWithBonus) {
-    for (let comboCount = 1; comboCount <= panoply.statsWithBonus.length; comboCount++) {
-        if (isPanoMinRequirementOK(panoply, comboCount)) {
-            panoply.value.push(calculateStatsValue(panoply.statsWithBonus[comboCount - 1]!));
-        } else {
-            panoply.value.push(0);
-        }
-    }
+    calculatePanoRelativeValue(panoply);
     calculateBestValuePerItem(panoply);
     for (const item of panoply.itemsReal) {
         item.valueWithPano += panoply.bestValuePerItem;
     }
-    calculatePanoRelativeValue(panoply);
 }
 
 export function calculateBestValuePerItem(panoply: Panoply) {
     let bestValuePerItem = 0;
-    for (let comboCount = 2; comboCount <= panoply.statsWithBonus.length; comboCount++) {
+    for (let comboCount = 2; comboCount <= panoply.value.length; comboCount++) {
         const comboValue = panoply.value[comboCount - 1]!;
         const valuePerItem = comboValue / comboCount;
 
@@ -109,16 +104,63 @@ export function calculateBestValuePerItem(panoply: Panoply) {
 
 export function calculatePanoRelativeValue(pano: Panoply) {
     const catBest = get(categoryBestValue);
-    let bestPanoRelativeValue = -999999999999;
+    const locked = get(itemsLocked);
+    const levelNow = get(level);
+    let bestPanoRelativeValue = -Infinity;
 
     const bestRelativePanoItemsSorted = pano.itemsReal
-        .map((item) => item.value - catBest[item.category])
-        .sort((a, b) => b - a);
+        .map((item) => {
+            return {
+                id: item.id,
+                value: item.value - catBest[item.category],
+                category: item.category,
+                level: item.level,
+            };
+        })
+        .sort((a, b) => b.value - a.value);
 
-    for (let comboCount = 2; comboCount <= pano.statsWithBonus.length; comboCount++) {
-        const topXSum = bestRelativePanoItemsSorted.slice(0, comboCount).reduce((a, b) => a + b, 0);
+    const lockedCount: Record<string, number> = {};
+    for (const [category, items] of Object.entries(locked)) {
+        lockedCount[category] = Object.keys(items).length;
+    }
+    let bestRelativePanoItemsSortedFiltered: number[] = [];
+    for (const relativePanoItem of bestRelativePanoItemsSorted) {
+        if (relativePanoItem.level > levelNow) {
+            continue;
+        }
+        if (locked[relativePanoItem.category]?.[relativePanoItem.id]) {
+            bestRelativePanoItemsSortedFiltered.push(relativePanoItem.value);
+            continue;
+        }
+        const used = lockedCount[relativePanoItem.category] || 0;
 
-        const panoRelativeValue = (pano.value[comboCount - 1]! + topXSum) / comboCount;
+        // if all slots for this category are already locked, skip
+        if (used >= categoryLength(relativePanoItem.category)) continue;
+
+        // otherwise, we can use it — reserve one slot
+        lockedCount[relativePanoItem.category] = used + 1;
+        bestRelativePanoItemsSortedFiltered.push(relativePanoItem.value);
+    }
+
+    pano.value = [0];
+    for (
+        let comboCount = 2;
+        comboCount <= bestRelativePanoItemsSortedFiltered.length;
+        comboCount++
+    ) {
+        const panoComboValue = calculateStatsValue(pano.statsWithBonus[comboCount - 1]!);
+
+        if (isPanoMinRequirementOK(pano, comboCount)) {
+            pano.value.push(panoComboValue);
+        } else {
+            continue;
+        }
+
+        const diffValueSum = bestRelativePanoItemsSortedFiltered
+            .slice(0, comboCount)
+            .reduce((a, b) => a + b, 0);
+
+        const panoRelativeValue = (panoComboValue + diffValueSum) / comboCount;
 
         if (panoRelativeValue > bestPanoRelativeValue) {
             bestPanoRelativeValue = panoRelativeValue;
@@ -129,10 +171,8 @@ export function calculatePanoRelativeValue(pano: Panoply) {
 
 export function calculateBestItems() {
     let bestItemsCategories = getEmptyCategoriesItemsArr();
-    // let bestItemsWithPanoCategories = getEmptyCategoriesItemsArr();
     for (const [category, items] of Object.entries(get(itemsCategory))) {
         let bestValueFound = 0;
-        // let bestValueWithPanoFound = 0;
 
         let bestItems: Item[] = [];
         bestItemsCategories[category as ItemCategory] = bestItems;
@@ -142,10 +182,6 @@ export function calculateBestItems() {
             if (item.value > bestValueFound) {
                 bestValueFound = item.value;
             }
-
-            // if (item.valueWithPano > bestValueWithPanoFound) {
-            //     bestValueWithPanoFound = item.valueWithPano;
-            // }
             bestItems.push(item);
         }
         categoryBestValue.update((old) => {
@@ -177,6 +213,14 @@ export function calculateBestItems() {
         bestItemsWithPanoCategories[category as ItemCategory] = [...items].sort(
             (a, b) => b.valueWithPano - a.valueWithPano,
         );
+
+        categoryBestValueWithPano.update((old) => {
+            return {
+                ...old,
+                [category]:
+                    bestItemsWithPanoCategories[category as ItemCategory][0]?.valueWithPano ?? 0,
+            };
+        });
     }
     itemsCategoryWithPanoBest.set(bestItemsWithPanoCategories);
 

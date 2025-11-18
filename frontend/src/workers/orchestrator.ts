@@ -78,7 +78,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         //         ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16)
         //         : Math.max(1, Math.min(cores - 1, 8))
         //     : 1;
-        // let workerCount = 16;
+        // workerCount = 7;
         let partialPayload: Payload[] = [];
         console.log("starting workers count", workerCount);
         // performance.now()
@@ -252,7 +252,9 @@ export function convertToMinItems(
             const freeSpots = categoryLength("dofus") - itemsLockedArr.length;
 
             let bonusPanoCombo: MinItem[];
-            if (bonusPanoItems.length < freeSpots) {
+            if (freeSpots == 0) {
+                bonusPanoCombo = [];
+            } else if (bonusPanoItems.length < freeSpots) {
                 bonusPanoCombo = getCombinations(
                     itemsArr,
                     [...itemsLockedArr, ...bonusPanoItems],

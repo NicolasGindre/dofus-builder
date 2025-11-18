@@ -2,12 +2,14 @@
     import { get } from "svelte/store";
     import { items, lang, itemsSelected, words } from "../stores/builder";
     import { addOrRemoveItem } from "../logic/item";
+    import HoverItemOrPano from "./HoverItemOrPano.svelte";
+    import type { Item } from "../types/item";
 
     // Props
     // export let items: { id: number; name: string }[] = [];
 
     let query = "";
-    let results: { id: string; name: string; category: string }[] = [];
+    let results: Item[] = [];
 
     // Reactive filter: updates whenever query or items changes
     $: {
@@ -17,11 +19,7 @@
                 // console.log(item.name[$lang]);
                 if (item.name[$lang].toLowerCase().includes(query.toLowerCase())) {
                     // console.log(results.length);
-                    results.push({
-                        id: item.id,
-                        name: item.name[$lang],
-                        category: item.category,
-                    });
+                    results.push(item);
                 }
             }
         }
@@ -51,14 +49,16 @@
     {#if results.length > 0}
         <ul class="results">
             {#each results as item}
-                <button
-                    class="item-button"
-                    class:item-selected={$itemsSelected[item.category][item.id]}
-                    type="button"
-                    on:click={() => addOrRemoveItemSearched(item.id)}
-                >
-                    {item.name}
-                </button>
+                <HoverItemOrPano {item}>
+                    <button
+                        class="item-button"
+                        class:item-selected={$itemsSelected[item.category][item.id]}
+                        type="button"
+                        on:click={() => addOrRemoveItemSearched(item.id)}
+                    >
+                        {item.name[$lang]}
+                    </button>
+                </HoverItemOrPano>
             {/each}
         </ul>
     {/if}
@@ -107,7 +107,7 @@
 
     .results button {
         padding: 0.3rem 0.5rem;
-        background-color: #1a1a1a;
+        background-color: #221f1f;
         border-radius: 0px;
         margin: 1px 0px;
         border-width: 3px;
@@ -115,6 +115,10 @@
         /* background: ; */
         /* cursor: pointer; */
         /* transition: background 0.2s ease; */
+    }
+    .item-selected {
+        background-color: #4e3a3a !important;
+        /* color: ; */
     }
 
     /* .results button:hover {

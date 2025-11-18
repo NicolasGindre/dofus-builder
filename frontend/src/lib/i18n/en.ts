@@ -8,6 +8,7 @@ export default {
 
     level: "Level",
 
+    stat: "Characteristic",
     weight: "Weight",
     setAllWeightsTo0: "Clear all Weights",
     reset: "Reset",
@@ -17,6 +18,7 @@ export default {
     automaticWeightCalculation: "Automatic Weight Calculation",
 
     calculateBestItems: "Calculate Best Items",
+    showValueAsPercentFromBest: "Show values as % from best",
     bestItems: "Best Items",
 
     orderByValue: "Order by Value",
@@ -35,6 +37,8 @@ export default {
     panoplies: "Sets",
     onlySelected: "Selected",
     bestAndSelected: "Best + Selected",
+    score: "Score",
+    bestValuePerItem: "Best value / item",
 
     baseVitality: "Base Vitality",
 

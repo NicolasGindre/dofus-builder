@@ -180,6 +180,7 @@
     .search-input-select {
         display: inline-flex;
         width: 100%;
+        /* max-height: 40vh; */
     }
     .search-input-select button {
         padding: 0px 5px;
@@ -229,7 +230,7 @@
         /* border-top-left-radius: 4px;
         border-bottom-left-radius: 4px; */
         width: 257px;
-        overflow: hidden;
+        overflow: visible;
         /* transition:
             max-height 0.3s ease,
             opacity 0.3s ease; */
@@ -253,7 +254,7 @@
         /* border-color: #fff; */
         background: #2a2a2a;
         list-style: none;
-        max-height: 250px;
+        max-height: 35vh;
         overflow-y: auto;
         overscroll-behavior: contain;
         z-index: 1001;
