@@ -199,7 +199,7 @@ export function calculateBestItems() {
     itemsCategoryBest.set(bestItemsCategories);
     // calculateAllItemsToDisplay();
 
-    console.log("itemsCategoryBest", bestItemsCategories);
+    // console.log("itemsCategoryBest", bestItemsCategories);
     const allPanos = get(panoplies);
     let bestPanos: Panoply[] = Object.values(allPanos);
     for (const pano of bestPanos) {

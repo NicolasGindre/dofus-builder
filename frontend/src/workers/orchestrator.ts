@@ -80,7 +80,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         //     : 1;
         // workerCount = 7;
         let partialPayload: Payload[] = [];
-        console.log("starting workers count", workerCount);
+        // console.log("starting workers count", workerCount);
         // performance.now()
         // const now = performance.now();
         // const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
@@ -95,7 +95,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
             workerCount = itemschunks.length;
         }
         console.log("workerCount", workerCount);
-        console.log("itemschunks", itemschunks);
+        // console.log("itemschunks", itemschunks);
 
         for (let i = 0; i < workerCount; i++) {
             let minItemsCategoryWorker = [...minItemsCategory];
@@ -164,7 +164,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
                     reject(evt);
                 };
 
-                console.log("partial payload of worker: ", partialPayload[i]);
+                // console.log("partial payload of worker: ", partialPayload[i]);
                 w.postMessage(partialPayload[i]);
             }
         });
@@ -268,7 +268,7 @@ export function convertToMinItems(
                 );
             }
             minItemsCategory.push([...noBonusPanoCombo, ...bonusPanoCombo]);
-            console.log("minItemsCategory", minItemsCategory);
+            // console.log("minItemsCategory", minItemsCategory);
         } else {
             minItemsCategory.push(
                 getCombinations(itemsArr, itemsLockedArr, categoryLength(category as ItemCategory)),
@@ -336,7 +336,7 @@ export function getComboItemsWithBonusPanoLessThan3(items: Item[]): MinItem {
         (item) => !isItemBonusPanoCapped(item),
     );
     // itemsNoBonusPano.push();
-    console.log(noBonusPanoItems);
+    // console.log(noBonusPanoItems);
     return mergeItems(noBonusPanoItems);
 }
 
@@ -347,6 +347,6 @@ export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
         (item) => !isItemBonusPanoCapped(item),
     );
     // itemsNoBonusPano.push();
-    console.log(noBonusPanoItems);
+    // console.log(noBonusPanoItems);
     return mergeItems(noBonusPanoItems);
 }

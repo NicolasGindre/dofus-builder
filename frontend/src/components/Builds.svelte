@@ -57,8 +57,8 @@
     const orchestrator = createCombinationOrchestrator(true);
     const { running, combinationDone, error } = orchestrator;
 
-    console.log("getPanoToCalculate");
-    console.log(get(panopliesSelected));
+    // console.log("getPanoToCalculate");
+    // console.log(get(panopliesSelected));
 
     async function runComboSearch() {
         saveHistoryEntry();

@@ -1,5 +1,5 @@
 /// <reference lib="webworker" />
-console.log("new worker starting");
+// console.log("new worker starting");
 
 import init, { best_combo } from "../wasm/combination/pkg/combination";
 import type { BestBuildsResp } from "../types/build";

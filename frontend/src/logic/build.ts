@@ -84,7 +84,7 @@ function addItemToBuild(
 
 export function buildsFromIds(buildIds: Record<string, string>): Build[] {
     let builds: Build[] = [];
-    console.log("buildsIds", buildIds);
+    // console.log("buildsIds", buildIds);
 
     for (const [buildId, name] of Object.entries(buildIds)) {
         builds.push(buildFromId(buildId, name));
@@ -122,7 +122,7 @@ export function buildFromId(buildId: string, name: string): Build {
 
 export function buildsFromWasm(bestBuildsResp: BestBuildsResp): Build[] {
     let bestBuilds: Build[] = [];
-    console.log("rust response", bestBuildsResp);
+    // console.log("rust response", bestBuildsResp);
 
     let buildIndex = 1;
     for (const buildResp of bestBuildsResp) {

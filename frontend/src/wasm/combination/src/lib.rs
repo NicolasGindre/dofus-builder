@@ -1,5 +1,5 @@
 use wasm_bindgen::prelude::*;
-use web_sys::console;
+// use web_sys::console;
 use serde::{Deserialize, Serialize};
 use web_sys::js_sys::Function;
 use crate::stats::{Stats, MaxStats, MinStats};
@@ -13,9 +13,9 @@ pub fn main() {
     console_error_panic_hook::set_once();
 }
 
-fn log<T: AsRef<str>>(msg: T) {
-    console::log_1(&msg.as_ref().into());
-}
+// fn log<T: AsRef<str>>(msg: T) {
+//     console::log_1(&msg.as_ref().into());
+// }
 
 #[derive(Serialize, Deserialize, Clone)]
 pub struct MinItem {
@@ -211,7 +211,7 @@ fn prepare_items(
     let pans_in: Vec<PanoplyIn> = serde_wasm_bindgen::from_value(panoplies_js)
             .map_err(|e| JsValue::from_str(&format!("deserialize panoplies: {e}")))?;
 
-    log(format!("Rust starts calculating items in X categories: {:?}", items_category.len()));
+    // log(format!("Rust starts calculating items in X categories: {:?}", items_category.len()));
 
     // let min_adj = &min_stats - &pre_stats;
     // let max_adj = &max_stats - &pre_stats;
