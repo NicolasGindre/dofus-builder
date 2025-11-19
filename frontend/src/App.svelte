@@ -1,12 +1,14 @@
 <script lang="ts">
-    import { onDestroy, onMount } from "svelte";
-    import StatWeights from "./components/StatWeights.svelte";
     import { checkHashIsSavedSearch, initFrontendDB, loadItemsAndPanos } from "./logic/frontendDB";
-    import BestItems from "./components/BestItems.svelte";
-    import LanguageSelect from "./components/LanguageSelect.svelte";
     import { decodeFromUrl, setLastHistoryEntry } from "./logic/encoding/urlEncode";
-    import Builds from "./components/Builds.svelte";
-    import Navigation from "./components/Navigation.svelte";
+
+    import Navigation from "./components/layout/Navigation.svelte";
+    import TopBar from "./components/layout/TopBar.svelte";
+    import StatWeights from "./components/weightsMinMax/StatWeights.svelte";
+    import BestItems from "./components/selection/BestItems.svelte";
+    import Builds from "./components/builds/Builds.svelte";
+
+    import { onDestroy, onMount } from "svelte";
 
     let error: string | null = null;
 
@@ -34,10 +36,9 @@
     });
 </script>
 
-<LanguageSelect />
+<TopBar />
 <main>
-    <!-- <SavedSearches /> -->
-    <h1>Dofus MinMax - Builder</h1>
+    <h1 class="section">Dofus MinMax - Builder</h1>
     {#if error}
         <p style="color: red;">{error}</p>
     {/if}
@@ -48,14 +49,19 @@
 </main>
 
 <style>
+    h1 {
+        margin-bottom: 0px;
+    }
     main {
+        /* height: 60px; */
+        padding-top: 50px;
         position: relative;
         font-family: system-ui, sans-serif;
         /* padding: 1rem; */
         padding-left: 5rem;
         padding-right: 5rem;
-        max-width: 1250px;
-        min-width: 1250px;
+        max-width: 1282px;
+        min-width: 1282px;
         /* margin-left: 5rem;
         margin-right: 5rem; */
         /* padding-bottom: 0; */

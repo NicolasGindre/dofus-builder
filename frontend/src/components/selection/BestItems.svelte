@@ -20,10 +20,10 @@
         showValueAsPercent,
         categoryBestValue,
         categoryBestValueWithPano,
-    } from "../stores/builder";
+    } from "../../stores/storeBuilder";
     import { get } from "svelte/store";
-    import type { Item } from "../types/item";
-    import { calculateBestItems } from "../logic/value";
+    import type { Item } from "../../types/item";
+    import { calculateBestItems } from "../../logic/value";
     import {
         lockItem,
         addItem,
@@ -34,26 +34,27 @@
         removeItems,
         isItemMinRequirementOK,
         isItemBonusPanoCapped,
-    } from "../logic/item";
+    } from "../../logic/item";
     import {
         calculatePanopliesToDisplay,
         orderByValueWithPano,
         showOnlySelected,
-    } from "../logic/display";
-    import HoverItemOrPano from "./HoverItemOrPano.svelte";
-    import { lang } from "../stores/builder";
+    } from "../../logic/display";
+    // import HoverItemOrPano from "../tooltips/HoverItemOrPano.svelte";
+    import { lang } from "../../stores/storeBuilder";
     import PreStats from "./PreStats.svelte";
-    import { words } from "../stores/builder";
+    import { words } from "../../stores/storeBuilder";
     import ItemSearch from "./ItemSearch.svelte";
     import { slide } from "svelte/transition";
     import {
         getEncodedStatsAndLockedFromHash,
         saveHistoryEntry,
-    } from "../logic/encoding/urlEncode";
-    import { categoryLength } from "../types/build";
-    import SavedSearches from "./SavedSearches.svelte";
-    import { ITEM_CATEGORIES, type ItemCategory } from "../../../shared/types/item";
+    } from "../../logic/encoding/urlEncode";
+    import { categoryLength } from "../../types/build";
+    import { ITEM_CATEGORIES, type ItemCategory } from "../../../../shared/types/item";
     import { Eye } from "lucide-svelte";
+    import CalculateBuilds from "./CalculateBuilds.svelte";
+    import HoverItemOrPano from "../tooltips/HoverItemOrPano.svelte";
 
     function showMore(more: number, category: ItemCategory) {
         let newCatDisplaySize = get(categoryDisplaySize)[category] + more;
@@ -255,7 +256,7 @@
     </table>
 {/snippet}
 
-<div id="selection" class="container">
+<div id="selection" class="section">
     <div class="controls">
         <div class="level-input">
             {$words.level}
@@ -289,7 +290,6 @@
             <!-- Show Value As % -->
         </label>
         <!-- <button on:click={addAll}>Add All</button> -->
-        <SavedSearches />
     </div>
 
     <div class="lists">
@@ -522,9 +522,23 @@
             </div>
         </div>
     </div>
+    <CalculateBuilds />
 </div>
 
 <style>
+    #selection {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        font-family: system-ui, sans-serif;
+        /* width: 100%; */
+        /* max-width: 1200px; */
+        /* margin: 0 auto; */
+        /* scroll-margin-top: 50px; */
+        /* margin-top: 1rem; */
+        /* padding-top: 0.5rem; */
+        /* background-color: #474747; */
+    }
     .button-calculate-best-items {
         /* border-color: #e5b826; */
         font-size: 1.2rem;
@@ -567,22 +581,11 @@
         text-align: center;
         width: 100%;
     }
-    .container {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        font-family: system-ui, sans-serif;
-        width: 100%; /* stretch full width of parent */
-        /* max-width: 1200px; */
-        margin: 0 auto; /* center if you set a max-width */
-        /* margin-top: 1rem; */
-        padding-top: 1rem;
-    }
     .lists {
         display: flex;
         gap: 2rem;
         /* height: 90vh; */
-        height: calc(100vh - 190px);
+        height: calc(100vh - 240px);
 
         min-height: 500px;
         /* padding-top: 0.7rem; */
@@ -634,7 +637,8 @@
         border: 1px solid #ddd;
         border-radius: 8px;
         padding: 8px;
-        background: #252226;
+        /* background: #252226; */
+        background: #28252b;
         /* background: #282629; */
         overflow-y: auto;
         overscroll-behavior-y: contain;
@@ -670,9 +674,13 @@
         align-items: center;
         justify-content: center;
         top: 0;
-        /* background: #5a0707; same as your list background */
-        /* background: #3f2d53; */
         background: #3e2857;
+
+        box-shadow:
+            0 1px 5px rgba(0, 0, 0, 0.2),
+            0 2px 2px rgba(0, 0, 0, 0.14),
+            0 3px 1px -2px rgba(0, 0, 0, 0.12);
+        /* background: #412166; */
         margin: 0;
         /* padding: 0.25rem 0.5rem; */
         /* padding: 1rem 1rem; */

@@ -1,6 +1,6 @@
 import { get } from "svelte/store";
 import { type Build } from "../types/build";
-import { exoAp, exoMp, exoRange, level } from "../stores/builder";
+import { exoAp, exoMp, exoRange, level } from "../stores/storeBuilder";
 import type { StatKey, Stats } from "../../../shared/types/stats";
 import { STAT_ID_DOFUSDB } from "../../../shared/dofusDBMap";
 const dofusDBApi = "https://api.dofusdb.fr";

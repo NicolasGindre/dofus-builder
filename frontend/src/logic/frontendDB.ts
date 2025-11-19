@@ -8,7 +8,7 @@ import {
     savedSearch,
     savedSearches,
     urlHash,
-} from "../stores/builder";
+} from "../stores/storeBuilder";
 import {
     getEmptyCategoriesItemsArr,
     type Item,

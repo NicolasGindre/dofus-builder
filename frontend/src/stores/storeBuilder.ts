@@ -186,7 +186,7 @@ savedBuilds.subscribe((savedBuilds) => {
     // }
 });
 
-export const comparedBuild = writable<Build>(undefined);
+export const comparedBuild = writable<Build | undefined>(undefined);
 
 export const minItems: Readable<MinItem[][]> = derived(
     [itemsSelected, itemsLocked],

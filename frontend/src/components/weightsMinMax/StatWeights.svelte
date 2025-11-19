@@ -4,7 +4,7 @@
         STAT_OFFENSE_KEYS,
         STAT_UTILITY_KEYS,
         type StatKey,
-    } from "../../../shared/types/stats";
+    } from "../../../../shared/types/stats";
     import {
         automaticWeights,
         weightsIndex,
@@ -14,22 +14,22 @@
         words,
         maxStatsIndex,
         minStatsIndex,
-    } from "../stores/builder";
+    } from "../../stores/storeBuilder";
     import {
         checkWeightUpdate,
         copyDefaultWeightsIndex,
         defaultMaxIndex,
         defaultMinIndex,
         getDefaultWeightIndex,
-    } from "../types/statWeights";
+    } from "../../types/statWeights";
     import {
         findClosestMinMaxIndex,
         findClosestWeightIndex,
         MIN_MAX_ENCODING,
         WEIGHT_ENCODING,
-    } from "../logic/encoding/valueEncoding";
-    import Icon from "../lib/Icon.svelte";
-    import { getIconFromStat } from "../lib/iconMap";
+    } from "../../logic/encoding/valueEncoding";
+    import Icon from "../../lib/Icon.svelte";
+    import { getIconFromStat } from "../../lib/iconMap";
 
     function resetAll() {
         weightsIndex.set({});
@@ -367,7 +367,8 @@
         </tbody>
     </table>
 {/snippet}
-<div id="weights">
+
+<div id="weights" class="section">
     <div class="controls">
         <button on:click={resetAll}>{$words.reset}</button>
         <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>
@@ -391,6 +392,12 @@
 </div>
 
 <style>
+    /* #weights { */
+    /* scroll-margin-top: 50px; */
+    /* padding: 1rem; */
+    /* background-color: #474747; */
+    /* background-color: #333; */
+    /* } */
     .weight-input {
         display: flex;
         align-items: center;

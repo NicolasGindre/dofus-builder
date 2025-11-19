@@ -4,119 +4,30 @@
         buildsDisplayed,
         buildShownCount,
         comparedBuild,
-        maxStats,
-        minItems,
-        minStats,
-        panopliesSelected,
-        preStats,
         savedBuilds,
         savedBuildsPage,
         showSavedBuilds,
-        weights,
-    } from "../stores/builder";
+    } from "../../stores/storeBuilder";
     import {
         addToSavedBuilds,
-        buildsFromWasm,
-        calculateBuildValue,
         checkOrRequirement,
+        compareBuild,
         deleteSavedBuild,
-        diffBuild,
         getSavedBuild,
-    } from "../logic/build";
-    import { get } from "svelte/store";
-    import { bestBuilds, totalPossibilities, panoplies } from "../stores/builder";
-    import ShowStats from "./ShowStats.svelte";
-    import HoverItemOrPano from "./HoverItemOrPano.svelte";
-    import { getPanoply, saveComputeSpeed } from "../logic/frontendDB";
-    import { lang } from "../stores/builder";
-    import { words } from "../stores/builder";
-    import { CATEGORY_TO_SLOTS, type Build } from "../types/build";
-    import { createCombinationOrchestrator } from "../workers/orchestrator";
-    import { calculateBuildToDisplay } from "../logic/display";
-    import { saveHistoryEntry } from "../logic/encoding/urlEncode";
-    import { translateRequirement } from "../logic/language";
+    } from "../../logic/build";
+    import { bestBuilds } from "../../stores/storeBuilder";
+    import { getPanoply } from "../../logic/frontendDB";
+    import { lang } from "../../stores/storeBuilder";
+    import { words } from "../../stores/storeBuilder";
+    import { CATEGORY_TO_SLOTS, type Build } from "../../types/build";
+    import { calculateBuildToDisplay } from "../../logic/display";
+    import { translateRequirement } from "../../logic/language";
     import { tick } from "svelte";
     import ExportBuild from "./ExportBuild.svelte";
-    import { ITEM_CATEGORIES } from "../../../shared/types/item";
-    import { Save, ArrowLeftToLine, MoveLeft, MoveRight } from "lucide-svelte";
-    // let bestBuilds: { score: number; names: string[] }[] | null = null;
-    // let error: string | null = null;
-    // let running = false;
-    let combinationStart = 0;
-    let timeStart: number;
-    let elapsedSec: number;
-    let combosPerMin: number = 0;
-    let intervalId: number;
-
-    // function runComboSearch() {
-    // error = null;
-    // bestBuilds = null;
-    // running = true;
-
-    // multithr
-    const orchestrator = createCombinationOrchestrator(true);
-    const { running, combinationDone, error } = orchestrator;
-
-    // console.log("getPanoToCalculate");
-    // console.log(get(panopliesSelected));
-
-    async function runComboSearch() {
-        saveHistoryEntry();
-        combinationStart = $totalPossibilities;
-        timeStart = performance.now();
-
-        intervalId = setInterval(() => {
-            refreshCalculSpeed();
-            // console.log(
-            //     `⏱ ${elapsedMin.toFixed(1)}s elapsed — ${combosPerMin.toFixed(2)} combos/s`,
-            // );
-        }, 1000);
-
-        const raw = await orchestrator.start({
-            // selectedItems: $itemsSelected,
-            // lockedItems: $itemsLocked,
-            minItems: $minItems,
-            weights: $weights,
-            minStats: $minStats,
-            maxStats: $maxStats,
-            preStats: $preStats,
-            panoplies: $panopliesSelected,
-        });
-        clearInterval(intervalId);
-        refreshCalculSpeed();
-
-        bestBuilds.set(buildsFromWasm(raw));
-        calculateBuildToDisplay();
-        for (const savedBuild of $savedBuilds) {
-            calculateBuildValue(savedBuild);
-        }
-        if ($comparedBuild) {
-            calculateBuildValue($comparedBuild);
-            compareBuild($comparedBuild);
-        }
-    }
-    function refreshCalculSpeed() {
-        if (!running) return;
-        const now = performance.now();
-        elapsedSec = (now - timeStart) / 1000;
-        combosPerMin = (60 * $combinationDone) / elapsedSec;
-    }
-    function cancelCalcul() {
-        orchestrator.cancel();
-        clearInterval(intervalId);
-    }
-
-    function compareBuild(buildToCompare: Build | undefined) {
-        const builds = get(buildsDisplayed);
-        for (const build of builds) {
-            // if (build.diffBuild?.id != buildToCompare?.id) {
-            //     console.log(build.diffBuild?.id, buildToCompare?.id);
-            diffBuild(build, buildToCompare);
-            // }
-        }
-        buildsDisplayed.set([...builds]);
-        comparedBuild.set(buildToCompare);
-    }
+    import { ITEM_CATEGORIES } from "../../../../shared/types/item";
+    import { ArrowLeftToLine, MoveLeft, MoveRight } from "lucide-svelte";
+    import ShowStats from "../tooltips/ShowStats.svelte";
+    import HoverItemOrPano from "../tooltips/HoverItemOrPano.svelte";
 
     let scrollEl: HTMLDivElement;
     let scrollPos = {
@@ -222,46 +133,7 @@
     }
 </script>
 
-<div class="calculations">
-    <button
-        class="button-calculate"
-        on:click={runComboSearch}
-        disabled={$running || $totalPossibilities < 1}
-    >
-        {$running ? `${$words.calculating}...` : $words.calculateBestBuilds}
-    </button>
-    {#if $running}
-        <button class="button-cancel" on:click={() => cancelCalcul()} disabled={!$running}
-            >{$words.cancel}</button
-        >
-    {/if}
-    {#if combinationStart > 0}
-        <p class="calcul-progress">
-            {$words.combinationsCalculated}: {new Intl.NumberFormat("en-US", {
-                notation: "compact",
-                compactDisplay: "short",
-            }).format($combinationDone)}
-            - {(() => {
-                const percent = ($combinationDone / combinationStart) * 100;
-                return percent === 100 ? "100%" : `${percent.toFixed(1)}%`;
-            })()} [{new Intl.NumberFormat("en-US", {
-                notation: "compact",
-                compactDisplay: "short",
-            }).format(combosPerMin)} / min]
-            <button
-                class="save-compute-speed-btn"
-                on:click={() => saveComputeSpeed(combosPerMin / 1000000)}
-            >
-                <Save size={24} />
-            </button>
-        </p>
-    {/if}
-</div>
-
-{#if $error}
-    <p style="color: red;">{$error}</p>
-{/if}
-<div id="builds">
+<div id="builds" class="section">
     <div class="builds-header">
         <div class="compare-label">
             {#if $comparedBuild}
@@ -544,9 +416,11 @@
 </div>
 
 <style>
-    .save-compute-speed-btn {
-        padding: 0px;
-        vertical-align: middle;
+    #builds {
+        /* scroll-margin-top: 50px; */
+        /* padding: 1rem;
+        background-color: #333; */
+        padding-bottom: 9px;
     }
     .builds-header {
         display: inline-flex;
@@ -601,8 +475,8 @@
         /* flex: 1; */
     }
     .view-toggle button:disabled {
-        /* background: #6a4f91; */
         background: #3e2857;
+        /* background: #412166; */
         border: 1px solid #ccc;
         color: unset;
     }
@@ -664,24 +538,19 @@
     .requirements .invalid {
         background-color: #8c0000;
     }
-    .button-calculate {
-        margin-top: 2.2rem;
-        font-size: 1.2rem;
-    }
-    .button-cancel:hover {
-        background: rgb(139, 10, 10);
-    }
     .builds {
         /* height: 90vh; */
         /* background: #282629; */
-        background: #252226;
-        height: calc(100vh - 70px);
+        /* background: #252226; */
+        background: #28252b;
+
+        height: calc(100vh - 124px);
         min-height: 500px;
         overflow: scroll;
         overscroll-behavior-y: contain;
         border: 1px solid #ccc;
         border-radius: 8px;
-        margin-bottom: 9px;
+        /* margin-bottom: 9px; */
     }
     .build {
         display: flex;
@@ -725,14 +594,6 @@
         /* height: 40px; */
     }
 
-    .calculations {
-        height: 140px;
-    }
-    .calcul-progress {
-        margin-top: 0.6rem;
-        /* margin-bottom: 1rem; */
-        font-variant-numeric: tabular-nums;
-    }
     .green-background {
         background-color: #13552f !important;
     }

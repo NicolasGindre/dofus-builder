@@ -11,7 +11,7 @@ import {
     panopliesBest,
     panoplyDisplaySize,
     weights,
-} from "../stores/builder";
+} from "../stores/storeBuilder";
 import { get } from "svelte/store";
 import { calculateAllItemsToDisplay, calculatePanopliesToDisplay } from "./display";
 import { getPanoply } from "./frontendDB";

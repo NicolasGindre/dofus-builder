@@ -1,9 +1,9 @@
 <script lang="ts">
     import { get } from "svelte/store";
-    import { items, lang, itemsSelected, words } from "../stores/builder";
-    import { addOrRemoveItem } from "../logic/item";
-    import HoverItemOrPano from "./HoverItemOrPano.svelte";
-    import type { Item } from "../types/item";
+    import { items, lang, itemsSelected, words } from "../../stores/storeBuilder";
+    import { addOrRemoveItem } from "../../logic/item";
+    import type { Item } from "../../types/item";
+    import HoverItemOrPano from "../tooltips/HoverItemOrPano.svelte";
 
     // Props
     // export let items: { id: number; name: string }[] = [];

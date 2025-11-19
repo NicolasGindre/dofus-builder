@@ -22,10 +22,10 @@ export default {
     bestItems: "Best Items",
 
     orderByValue: "Order by Value",
-    orderByValueWithPano: "Order by Value with Pano",
+    orderByValueWithPano: "Order by Value with Set",
 
     value: "Value",
-    valueWithPano: "Value with Set",
+    valueWithPano: "With Set",
 
     showMore: "Show more",
     showLess: "Show less",

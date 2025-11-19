@@ -14,7 +14,7 @@ import {
     preStats,
     savedBuilds,
     weights,
-} from "../stores/builder";
+} from "../stores/storeBuilder";
 import {
     categoryLength,
     type BestBuildsResp,
@@ -268,7 +268,10 @@ export function refreshBuildsValueNoThrottle(builds: Build[]): Build[] {
     builds.sort((a, b) => b.value - a.value);
     return builds;
 }
-export function refreshBuildValue(build: Build) {
+export function refreshBuildValue(build: Build | undefined) {
+    if (!build) {
+        return;
+    }
     build.stats = concatStats(build.noCharStats, get(preStats));
 
     calculateBuildValue(build);
@@ -538,6 +541,18 @@ export function getSavedBuild(id: string): Build | undefined {
         }
     }
     return undefined;
+}
+
+export function compareBuild(buildToCompare: Build | undefined) {
+    const builds = get(buildsDisplayed);
+    for (const build of builds) {
+        // if (build.diffBuild?.id != buildToCompare?.id) {
+        //     console.log(build.diffBuild?.id, buildToCompare?.id);
+        diffBuild(build, buildToCompare);
+        // }
+    }
+    buildsDisplayed.set([...builds]);
+    comparedBuild.set(buildToCompare);
 }
 
 export function updateComparedBuildName(build: Build) {

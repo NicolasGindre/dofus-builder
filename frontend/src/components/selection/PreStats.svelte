@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { exoAp, exoMp, exoRange, preStats, words } from "../stores/builder";
+    import { exoAp, exoMp, exoRange, preStats, words } from "../../stores/storeBuilder";
 </script>
 
 <div class="stats">

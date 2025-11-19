@@ -33,6 +33,9 @@ Later Maybe :
 - Calculate offensive weights from spells
  => Or implement full solution that calculates final damage
 
+- Skip impossible combinations early with bonus pano < 3
+ - And min stats ? nah
+
 NO :
 
 - Automatic saved search save ?

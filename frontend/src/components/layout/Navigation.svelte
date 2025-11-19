@@ -69,7 +69,6 @@
         position: fixed;
         top: 30%;
         transform: translateY(-30%);
-        /* left: calc((50% - 1250px / 2) - 5rem); */
         left: max(0px, calc((50% - 1250px / 2) - 5rem));
 
         /* left: 0; */

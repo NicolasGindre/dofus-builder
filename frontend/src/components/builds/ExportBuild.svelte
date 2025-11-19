@@ -1,12 +1,12 @@
 <script lang="ts">
     import { ExternalLink } from "lucide-svelte"; // any external-link icon
     import { onMount } from "svelte";
-    import { createDofusDBBuild } from "../clients/dofusDB";
-    import type { Build } from "../types/build";
-    import { encodeDofusStufferUrlFromSlots } from "../clients/dofusBookUrl";
-    import { words } from "../stores/builder";
-    import { encodeBuildItems } from "../logic/encoding/encodeItems";
-    import { setUrlHash } from "../logic/encoding/urlEncode";
+    import { createDofusDBBuild } from "../../clients/dofusDB";
+    import type { Build } from "../../types/build";
+    import { encodeDofusStufferUrlFromSlots } from "../../clients/dofusBookUrl";
+    import { words } from "../../stores/storeBuilder";
+    import { encodeBuildItems } from "../../logic/encoding/encodeItems";
+    import { setUrlHash } from "../../logic/encoding/urlEncode";
 
     export let build: Build;
 

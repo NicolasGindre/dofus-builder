@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
-    import { decodeFromUrl, encodeToUrl, saveHistoryEntry } from "../logic/encoding/urlEncode";
-    import { savedSearch, savedSearches, urlHash, words } from "../stores/builder";
+    import { decodeFromUrl, encodeToUrl, saveHistoryEntry } from "../../logic/encoding/urlEncode";
+    import { savedSearch, savedSearches, urlHash, words } from "../../stores/storeBuilder";
     import { get } from "svelte/store";
 
     let copied = false;
@@ -213,17 +213,17 @@
     }
     .saved-searches-container {
         position: relative;
-        margin-left: auto;
+        /* margin-left: auto; */
     }
     .saved-searches {
         /* position: sticky; */
         /* position: fixed; */
         /* position: relative; */
-        position: absolute;
+        /* position: absolute; */
         /* margin-left: auto; */
-        right: 0px;
-        top: -150px;
-        z-index: 100;
+        /* right: 0px; */
+        /* top: -150px; */
+        /* z-index: 100; */
         padding: 10px 15px;
         background-color: #4a4a4a;
         border-radius: 4px;

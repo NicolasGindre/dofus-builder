@@ -1,5 +1,5 @@
 import { get } from "svelte/store";
-import { itemsLocked, itemsSelected, panoplies } from "../../stores/builder";
+import { itemsLocked, itemsSelected, panoplies } from "../../stores/storeBuilder";
 import {
     ALPHABET,
     decodeBase64,

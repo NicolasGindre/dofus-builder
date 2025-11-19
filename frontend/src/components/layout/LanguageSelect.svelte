@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { lang } from "../stores/builder";
-    import type { CountryCode } from "../types/language";
-    import { calculateBuildToDisplay } from "../logic/display";
+    import { lang } from "../../stores/storeBuilder";
+    import type { CountryCode } from "../../types/language";
+    import { calculateBuildToDisplay } from "../../logic/display";
 
     type LangOption = {
         countryCode: CountryCode;
@@ -46,10 +46,11 @@
 
 <style>
     .lang-dropdown {
-        position: absolute;
+        /* position: absolute;
         display: inline-block;
         top: 0;
-        right: 0;
+        right: 0; */
+        height: 100%;
     }
 
     select {
@@ -76,7 +77,7 @@
     /* Custom dropdown arrow */
     .lang-dropdown::after {
         content: "▾";
-        position: absolute;
+        /* position: absolute; */
         right: 0.6rem;
         top: 50%;
         transform: translateY(-50%);

@@ -1,5 +1,5 @@
 import { get, readonly } from "svelte/store";
-import { automaticWeights, maxStatsIndex, weights, weightsIndex } from "../stores/builder";
+import { automaticWeights, maxStatsIndex, weights, weightsIndex } from "../stores/storeBuilder";
 import {
     STAT_CACRANGE_DEFENSE_KEYS,
     STAT_DAMAGE_KEYS,

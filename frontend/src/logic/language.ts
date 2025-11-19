@@ -1,5 +1,5 @@
 import { get } from "svelte/store";
-import { preStats, words } from "../stores/builder";
+import { preStats, words } from "../stores/storeBuilder";
 import type { Requirement } from "../../../shared/types/item";
 
 export function translateRequirement(requirement: Requirement): string {

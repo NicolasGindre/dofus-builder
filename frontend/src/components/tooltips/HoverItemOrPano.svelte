@@ -1,17 +1,17 @@
 <script lang="ts">
     import { portal } from "svelte-portal";
 
-    import type { Item, Panoply } from "../types/item";
+    import type { Item, Panoply } from "../../types/item";
     // import type { Stats } from "../types/stats";
     import ShowStats from "./ShowStats.svelte";
-    import { diffStats } from "../types/stats";
-    import { lang, minStats, words } from "../stores/builder";
-    import { translateRequirement } from "../logic/language";
+    import { diffStats } from "../../types/stats";
+    import { lang, minStats, words } from "../../stores/storeBuilder";
+    import { translateRequirement } from "../../logic/language";
     import { tick } from "svelte";
-    import { isPanoMinRequirementOK } from "../logic/item";
-    import { checkOrRequirement } from "../logic/build";
-    import Icon from "../lib/Icon.svelte";
-    import { getIconFromElement } from "../lib/iconMap";
+    import { checkOrRequirement } from "../../logic/build";
+    import Icon from "../../lib/Icon.svelte";
+    import { getIconFromElement } from "../../lib/iconMap";
+    import { getPanoply } from "../../logic/frontendDB";
 
     // export let itemOrPano: { item: Item, pano: Panoply };
     export let item: Item | null = null;
@@ -101,6 +101,9 @@
                 <div class="item-title">
                     <strong>{$words.subCategory[item.subCategory]}</strong>
                     <strong>{$words.level} {item.level}</strong>
+                    {#if item.panoply}
+                        <em>{getPanoply(item.panoply).name[$lang]}</em>
+                    {/if}
                 </div>
                 {#if item.requirements}
                     <div class="requirements">
@@ -259,12 +262,18 @@
     }
     .item-title {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
-    .item-title strong:first-child {
-        margin-right: 1rem;
-    }
-    .item-title strong:last-child {
+    .item-title > strong:last-child {
         margin-left: auto;
+    }
+    .item-title > em {
+        width: 100%;
+        /* margin-top: 1px; */
+        display: block;
+        color: #b2b2b2;
     }
     .hover-stats-tooltip {
         position: fixed;

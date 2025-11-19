@@ -7,7 +7,7 @@ import {
     previousStatsSearch,
     urlHash,
     weightsIndex,
-} from "../../stores/builder";
+} from "../../stores/storeBuilder";
 import { decodeStats, encodeStats } from "./encoding";
 import { getEmptyCategoriesItems, type Item } from "../../types/item";
 import { calculateBestItems } from "../value";

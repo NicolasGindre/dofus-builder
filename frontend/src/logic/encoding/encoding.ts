@@ -12,7 +12,7 @@ import {
     minStatsIndex,
     weights,
     weightsIndex,
-} from "../../stores/builder";
+} from "../../stores/storeBuilder";
 import { partial } from "zod/v4-mini";
 import {
     // copyDefaultWeights,
