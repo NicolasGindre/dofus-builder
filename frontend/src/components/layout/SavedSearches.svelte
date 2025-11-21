@@ -27,146 +27,173 @@
         clearTimeout(timeout);
     });
 
+    let createSavedSearch = false;
     let inputSearchName = "";
-    // let results: string[] = [];
-    // $: {
-    //     results = [];
-    //     for (const name of Object.values(get(savedSearches))) {
-    //         if (name.toLowerCase().includes(inputSearchName.toLowerCase())) {
-    //             results.push(name);
-    //         }
-    //     }
-    // }
     let showSavedSearches = false;
-    function saveSearch() {
-        if (!inputSearchName) {
-            if (!$savedSearch) {
-                return;
-            } else {
-                inputSearchName = $savedSearch;
-            }
+
+    let container: HTMLDivElement;
+    function handleClickOutside(e: MouseEvent) {
+        if (showSavedSearches && !container.contains(e.target as Node)) {
+            showSavedSearches = false;
         }
-        savedSearch.set(inputSearchName);
+        if (createSavedSearch && !container.contains(e.target as Node)) {
+            createSavedSearch = false;
+        }
+    }
+
+    $: if (showSavedSearches || createSavedSearch) {
+        document.addEventListener("mousedown", handleClickOutside);
+    } else {
+        document.removeEventListener("mousedown", handleClickOutside);
+    }
+
+    function createSearch(searchName: string) {
+        if (!createSavedSearch) {
+            createSavedSearch = true;
+            return;
+        }
+        if (!searchName) {
+            return;
+        }
+        savedSearch.set(searchName);
         savedSearches.update((current) => ({
             ...current,
-            [inputSearchName]: window.location.hash.slice(1),
+            [searchName]: window.location.hash.slice(1),
+        }));
+
+        inputSearchName = "";
+        createSavedSearch = false;
+        // console.log("hashUrl", $urlHash);
+        // console.log($savedSearches);
+        saveHistoryEntry();
+    }
+    function saveSearch(searchName: string) {
+        if (!searchName) {
+            return;
+        }
+        // savedSearch.set(inputSearchName);
+        savedSearches.update((current) => ({
+            ...current,
+            [searchName]: window.location.hash.slice(1),
         }));
         // console.log("hashUrl", $urlHash);
         // console.log($savedSearches);
-
-        inputSearchName = "";
         saveHistoryEntry();
     }
-    function loadSearch() {
+    function loadSearch(searchName: string) {
         // console.log("hashUrl", $urlHash);
         // console.log($savedSearches);
         // console.log($savedSearches[inputSearchName]);
-        decodeFromUrl($savedSearches[inputSearchName]);
+        decodeFromUrl($savedSearches[searchName]);
         // encodeToUrl();
-        savedSearch.set(inputSearchName);
-        inputSearchName = "";
+        savedSearch.set(searchName);
+        // inputSearchName = "";
+        showSavedSearches = false;
         saveHistoryEntry();
     }
-    function deleteSearch() {
-        if ($savedSearch == inputSearchName) {
+    function deleteSearch(searchName: string) {
+        if ($savedSearch == searchName) {
             $savedSearch = undefined;
         }
         savedSearches.update((current) => {
             const updated = { ...current };
-            delete updated[inputSearchName];
+            delete updated[searchName];
             return updated;
         });
     }
 </script>
 
 <!-- bind:this={savedSearchesEl} -->
-<div class="saved-searches-container">
-    <div class="saved-searches">
-        <div class="">
-            <h4
-                class:is-saved-search-name={$savedSearch}
-                class:saved={$urlHash == $savedSearches[$savedSearch]}
+<div class="saved-searches-container" bind:this={container}>
+    {#if !createSavedSearch}
+        <div class="saved-search-name">
+            <button
+                class="saved-search-name-button"
+                on:click={() => (showSavedSearches = !showSavedSearches)}
             >
-                {$savedSearch ? $savedSearch : $words.savedSearches}
-            </h4>
-
-            <div
-                class="save-search-name"
-                tabindex="-1"
-                on:focusout={(e) => {
-                    if (!e.currentTarget.contains(e.relatedTarget as Node)) {
-                        inputSearchName = "";
-                        showSavedSearches = false;
-                    }
-                }}
+                <h3
+                    class:is-saved-search-name={$savedSearch}
+                    class:saved={$urlHash == $savedSearches[$savedSearch]}
+                >
+                    {$savedSearch ? $savedSearch : $words.savedSearches}
+                </h3>
+                <span>{showSavedSearches ? "▲" : "▼"}</span></button
             >
-                <div class="search-input-select">
-                    <input
-                        type="text"
-                        bind:value={inputSearchName}
-                        bind:this={inputEl}
-                        on:dblclick={() => (showSavedSearches = !showSavedSearches)}
-                        on:input={() => (showSavedSearches = false)}
-                        on:keydown={(e) => {
-                            if (e.key === "Escape") showSavedSearches = false;
-                        }}
-                        placeholder={$words.SavedSearchName}
-                        class="search-input"
-                    />
-                    <button on:click={() => (showSavedSearches = !showSavedSearches)}
-                        >{showSavedSearches ? "▲" : "▼"}</button
-                    >
-                </div>
-                {#if Object.keys($savedSearches).length > 0 && showSavedSearches}
-                    <ul class="results">
+            {#if Object.keys($savedSearches).length > 0 && showSavedSearches}
+                <div
+                    class="all-saved-searches"
+                    tabindex="-1"
+                    on:focusout={(e) => {
+                        if (!e.currentTarget.contains(e.relatedTarget as Node)) {
+                            showSavedSearches = false;
+                        }
+                    }}
+                >
+                    <ul>
                         {#each Object.keys($savedSearches) as name}
-                            <button
-                                on:click={() => {
-                                    inputSearchName = name;
-                                    showSavedSearches = false;
-                                    inputEl.focus();
-                                }}
-                            >
-                                {name}
-                            </button>
+                            <li class="save-search-load-delete">
+                                <button class="load-button" on:click={() => loadSearch(name)}
+                                    >{name}</button
+                                >
+                                <button class="delete-button" on:click={() => deleteSearch(name)}
+                                    >X</button
+                                >
+                            </li>
                         {/each}
                     </ul>
-                {/if}
-                <div class="buttons-control">
-                    <button
-                        class="save-button"
-                        on:click={saveSearch}
-                        disabled={($savedSearches[inputSearchName] != undefined &&
-                            inputSearchName != $savedSearch) ||
-                            (!$savedSearch && !inputSearchName)}>{$words.save}</button
-                    >
-                    <button
-                        class="load-button"
-                        on:click={loadSearch}
-                        disabled={$savedSearches[inputSearchName] == undefined}
-                        >{$words.load}</button
-                    >
-                    <button
-                        class="delete-button"
-                        on:click={deleteSearch}
-                        disabled={$savedSearches[inputSearchName] == undefined}>X</button
-                    >
                 </div>
-            </div>
-        </div>
-        <button class="share-button" on:click={copyToClipboard} class:copied>
-            {#if copied}
-                {$words.copied}! 📋
-            {:else}
-                {$words.share} 🔗
             {/if}
-        </button>
-    </div>
+        </div>
+        <button
+            class="save-button"
+            on:click={() => saveSearch($savedSearch)}
+            disabled={!$savedSearch}
+            class:hidden={!$savedSearch}>{$words.save}</button
+        >
+    {:else}
+        <input
+            class="new-saved-search-input"
+            type="text"
+            bind:value={inputSearchName}
+            bind:this={inputEl}
+            on:dblclick={() => (showSavedSearches = !showSavedSearches)}
+            on:input={() => (showSavedSearches = false)}
+            on:keydown={(e) => {
+                if (e.key === "Escape") showSavedSearches = false;
+            }}
+            placeholder={$words.SavedSearchName}
+        />
+        <!-- </input> -->
+    {/if}
+    <button
+        class="create-button"
+        on:click={() => createSearch(inputSearchName)}
+        disabled={createSavedSearch &&
+            (inputSearchName == "" || $savedSearches[inputSearchName] != undefined)}
+        class:confirm={createSavedSearch &&
+            inputSearchName != "" &&
+            $savedSearches[inputSearchName] == undefined}>{$words.create}</button
+    >
+    <button class="share-button" on:click={copyToClipboard} class:copied>
+        {#if copied}
+            {$words.copied} 📋
+        {:else}
+            {$words.share} 🔗
+        {/if}
+    </button>
 </div>
 
 <!-- <div bind:this={stopAtEl} class="footer-spacer"></div> -->
 
 <style>
+    /* .drop-down {
+        display: none;
+    } */
+    button {
+        background-color: unset;
+        height: 100%;
+        /* vertical-align: center; */
+    }
     .is-saved-search-name {
         color: #f89f33;
     }
@@ -174,121 +201,112 @@
         color: #2ecc71;
     }
 
-    .delete-button:hover:not(:disabled) {
-        background-color: #b70a0a;
-    }
-    .search-input-select {
-        display: inline-flex;
-        width: 100%;
-        /* max-height: 40vh; */
-    }
-    .search-input-select button {
-        padding: 0px 5px;
-        height: 32px;
-    }
-    .search-input {
-        width: 100%;
-    }
-    .buttons-control {
-        display: inline-flex;
-        /* font-size: 0.9rem; */
-        font-size: 14px;
-    }
-    .buttons-control button {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .saved-searches input {
-        box-sizing: border-box;
-        width: 100%;
-        /* margin-bottom: 5px; */
-        padding: 0.4rem 0.6rem;
-        border: 1px solid #555;
-        border-radius: 0.4rem;
-        /* background: #1e1e1e; */
-        /* color: #fff; */
-        outline: none;
-        transition: border-color 0.2s ease;
-        font-size: 0.9rem;
-    }
-    .saved-searches-container {
+    .saved-search-name {
         position: relative;
-        /* margin-left: auto; */
+        display: inline-flex;
+        height: 100%;
+        /* overflow: hidden; */
     }
-    .saved-searches {
-        /* position: sticky; */
-        /* position: fixed; */
-        /* position: relative; */
-        /* position: absolute; */
-        /* margin-left: auto; */
-        /* right: 0px; */
-        /* top: -150px; */
-        /* z-index: 100; */
-        padding: 10px 15px;
-        background-color: #4a4a4a;
-        border-radius: 4px;
-        /* border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px; */
-        width: 257px;
-        overflow: visible;
-        /* transition:
-            max-height 0.3s ease,
-            opacity 0.3s ease; */
-        /* opacity: 50%; */
-        /* max-height: 20px; */
+    .saved-search-name-button {
+        display: inline-flex;
+        min-width: 300px;
+        max-width: 400px;
+        /* align-items: flex-end; */
     }
-    /* .saved-searches:hover, */
-    .saved-searches h4 {
+    .saved-search-name h3 {
         margin: 0px;
-        padding-bottom: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .saved-search-name span {
+        margin-left: 10px;
+
+        /* position: relative;
+        top: 2px; */
+
+        display: flex;
+        align-items: center;
+        /* line-height: 1;
+        display: inline-block; */
+        /* display: inline; */
+        /* vertical-align: bottom; */
     }
 
-    .results {
+    .all-saved-searches {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+    .all-saved-searches ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
         /* display:abs; */
         /* position: relative; */
-        position: absolute;
-        width: inherit;
-        margin: 0rem;
-        padding: 0rem;
+        /* position: absolute; */
+        /* width: inherit; */
         border-radius: 0.3rem;
         /* border-color: #fff; */
         background: #2a2a2a;
-        list-style: none;
-        max-height: 35vh;
+        max-height: 40vh;
         overflow-y: auto;
         overscroll-behavior: contain;
-        z-index: 1001;
-        width: 232px;
-    }
-    .results button {
-        /* position: relative; */
-        padding: 0.28rem 0.5rem;
-        background-color: #323232;
-        border-radius: 0px;
-        margin: 1px 0px;
-        border-width: 3px;
-        font-size: 14px;
+        /* z-index: 1001; */
         width: 100%;
-        /* border-color: 1px; */
-        /* background: ; */
-        /* cursor: pointer; */
-        /* transition: background 0.2s ease; */
     }
-    .share-button {
-        /* color: white; */
-        /* border: none; */
-        /* cursor: pointer; */
-        font-size: 14px;
-        transition: all 0.2s ease;
-        z-index: 1000;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        margin-top: 10px;
+    .all-saved-searches li {
+        width: 100%;
+        border-bottom: 1px solid #555;
     }
 
-    .share-button:hover {
-        /* background-color: #5a5a5a; */
-        transform: translateY(-1px);
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+    .save-search-load-delete {
+        display: inline-flex;
+        align-items: center;
+    }
+    .load-button {
+        flex: 1;
+    }
+    .delete-button {
+        flex: 0 0 auto;
+    }
+
+    .delete-button:hover:not(:disabled) {
+        background-color: #b70a0a;
+    }
+
+    .create-button.confirm {
+        color: #2ecc71;
+    }
+
+    .save-button.hidden {
+        display: hidden;
+    }
+    .new-saved-search-input {
+        font-size: 1.2rem;
+        width: 390px;
+        height: 50%;
+        align-items: center;
+        display: flex;
+        padding: 0.2rem 0.75rem;
+        margin-left: 1rem;
+    }
+    .saved-searches-container {
+        /* padding-left: 2rem; */
+        position: relative;
+        /* display: inline-flex; */
+        display: flex;
+        align-items: center;
+        height: 100%;
+        /* margin-left: auto; */
+    }
+    .share-button {
+        transition: all 0.2s ease;
+        white-space: nowrap;
     }
 
     .share-button:active {

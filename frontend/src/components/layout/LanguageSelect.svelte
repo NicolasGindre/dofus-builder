@@ -55,34 +55,35 @@
 
     select {
         appearance: none;
-        background: #1e1e1e;
-        color: white;
-        border: 1px solid #333;
+        /* background: #1e1e1e; */
+        background: unset;
+        /* color: white; */
+        border: 1px solid transparent;
         border-radius: 0.5rem;
-        padding: 0.4rem 1.8rem 0.4rem 0.8rem;
+        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
         font-size: 1.2rem;
         cursor: pointer;
+        height: 100%;
         /* transition: background 0.2s ease; */
     }
 
     select:hover {
-        background: #2a2a2a;
-    }
-
-    select:focus {
-        outline: none;
+        /* background: #1e1e1e; */
         border-color: #4c8bf5;
     }
 
+    /* select:focus {
+        outline: none;
+    } */
+
     /* Custom dropdown arrow */
-    .lang-dropdown::after {
+    /* .lang-dropdown::after {
         content: "▾";
-        /* position: absolute; */
         right: 0.6rem;
         top: 50%;
         transform: translateY(-50%);
         pointer-events: none;
         color: #aaa;
         font-size: 0.8rem;
-    }
+    } */
 </style>

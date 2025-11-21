@@ -99,10 +99,12 @@
         >
             {#if item}
                 <div class="item-title">
-                    <strong>{$words.subCategory[item.subCategory]}</strong>
-                    <strong>{$words.level} {item.level}</strong>
+                    <div class="item-title-name">
+                        <strong>{$words.subCategory[item.subCategory]}</strong>
+                        <strong>{$words.level} {item.level}</strong>
+                    </div>
                     {#if item.panoply}
-                        <em>{getPanoply(item.panoply).name[$lang]}</em>
+                        <em class="item-title-panoply">{getPanoply(item.panoply).name[$lang]}</em>
                     {/if}
                 </div>
                 {#if item.requirements}
@@ -261,16 +263,20 @@
         background-color: #8c0000;
     }
     .item-title {
+        display: block;
+    }
+    .item-title-name {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        column-gap: 2rem;
     }
-    .item-title > strong:last-child {
+    .item-title-name > strong:last-child {
         margin-left: auto;
     }
-    .item-title > em {
-        width: 100%;
+    .item-title-panoply {
+        /* width: 100%; */
         /* margin-top: 1px; */
         display: block;
         color: #b2b2b2;

@@ -66,11 +66,17 @@ The 500 best results will be displayed in this section, sorted by value. If ther
 If a build's characteristic is 0 it is not displayed.
 Characteristics are separated in 3 groups : Utility, Offense and Defense. The value that each group adds to the final build's value is shown at the top.
 
+A characteristic that is over the Max input or limited by one of its items requirement is capped to the max input.
+A characteristic that is under the Min input is displayed with red background and the build's value is set to 0.
+
 One of the main feature of this section is that you can compare a build. Other builds will show which items and sets differ, and the difference in stat, value and grouped characteristics value.
 
 All requirements from the build are shown under the characteristics. If a requirement overlap another, they will be merged into the more restrictive one. E.g AP < 11 and AP < 10 would be merged into just AP < 10.
 
-You can also export a build that you like to DofusDB or DofusBook.
+If a build doesn't fit a requirement for : Vitality, Strength, Chance, Intelligence and Agility it is displayed with a yellow background.
+Other requirements failing are displayed with a red background and the build's value is set to 0.
+
+You can export a build that you like to DofusDB or DofusBook.
 
 The reason for returning so many results is that you can go back to the weights/min/max section and update the inputs if you're not satisfied with the results or want to filter builds with specific characteristic. It will dynamically recalculate all 500 build's values and sort them again. Same thing happens if you update the level or exos.
 If you set a more restrictive Min input, builds that don't fit the requirement anymore will have their value set to 0 and be shown at the bottom of the list.

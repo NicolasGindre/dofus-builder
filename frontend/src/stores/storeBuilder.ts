@@ -7,14 +7,15 @@ import {
     type Panoply,
 } from "../types/item";
 import { getLeveledStats, type Build } from "../types/build";
-import { getPanoply, saveBuildsStorage, saveSearchStorage } from "../logic/frontendDB";
+import type { CountryCode, Translations } from "../types/language";
+
+import { saveBuildsStorage, saveSearchStorage } from "../logic/frontendDB";
 import {
     calculateAllItemsToDisplay,
     calculateBuildToDisplay,
     calculateItemsToDisplay,
     calculateSelectedItemsToDisplay,
 } from "../logic/display";
-import type { CountryCode, Translations } from "../types/language";
 
 export const lang = writable<CountryCode>("en");
 
@@ -39,6 +40,8 @@ import type { StatKey, Stats } from "../../../shared/types/stats";
 
 const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
+
+export const dofusVersion = writable<string>("");
 
 export const urlHash = writable<string>("");
 export const previousStatsSearch = writable<string>("");
@@ -72,6 +75,10 @@ export const showOnlySelectedPanos = writable<boolean>(false);
 export const showValueAsPercent = writable<boolean>(false);
 
 export const automaticWeights = writable<boolean>(true);
+automaticWeights.subscribe(() => {
+    encodeToUrl();
+});
+
 // export const displayedWeights = writable<Partial<Stats>>({});
 export const weightsIndex = writable<Partial<Stats>>({});
 
@@ -211,15 +218,18 @@ export const timeEstimated: Readable<number> = derived(
 );
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
-    const panoplies: Panoplies = {};
+    const panoSelected: Panoplies = {};
+    const allPanos = get(panoplies);
+
     for (const items of Object.values($itemsCategory)) {
         for (const item of Object.values(items)) {
-            if (item.panoply && !panoplies[item.panoply]) {
-                panoplies[item.panoply] = getPanoply(item.panoply);
+            if (item.panoply && !panoSelected[item.panoply]) {
+                // panoplies[item.panoply] = getPanoply(item.panoply);
+                panoSelected[item.panoply] = allPanos[item.panoply]!;
             }
         }
     }
-    return Object.values(panoplies);
+    return Object.values(panoSelected);
 });
 export const panopliesDisplayed = writable<Panoply[]>([]);
 

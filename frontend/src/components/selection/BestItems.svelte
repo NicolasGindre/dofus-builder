@@ -585,7 +585,7 @@
         display: flex;
         gap: 2rem;
         /* height: 90vh; */
-        height: calc(100vh - 240px);
+        height: calc(100vh - 248px);
 
         min-height: 500px;
         /* padding-top: 0.7rem; */
@@ -634,11 +634,11 @@
     .list {
         /* flex: 1; */
         flex: 1 1 auto;
-        border: 1px solid #ddd;
+        border: 1px solid #555;
         border-radius: 8px;
         padding: 8px;
         /* background: #252226; */
-        background: #28252b;
+        background: #29262d;
         /* background: #282629; */
         overflow-y: auto;
         overscroll-behavior-y: contain;

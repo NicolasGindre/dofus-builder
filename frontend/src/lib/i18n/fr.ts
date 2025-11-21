@@ -3,6 +3,7 @@ export default {
     savedSearches: "Recherches Sauvegardées",
     SavedSearchName: "Nom de la Recherche",
 
+    create: "Créer",
     load: "Charger",
     copied: "Copié",
     share: "Partager",

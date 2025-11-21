@@ -2,6 +2,8 @@ export default {
     // saveSearch: "Suche speichern",
     savedSearches: "Gespeicherte Suchen",
     SavedSearchName: "Name der Suche",
+
+    create: "Erstellen",
     share: "Teilen",
     load: "Laden",
     copied: "Kopiert",

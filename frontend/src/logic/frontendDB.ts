@@ -1,5 +1,6 @@
 import { get } from "svelte/store";
 import {
+    dofusVersion,
     items,
     itemsCategory,
     millionComboPerMin,
@@ -21,8 +22,8 @@ import type { Build } from "../types/build";
 import { buildsFromIds } from "./build";
 
 let init = false;
-const itemsVersionDisplayed = "3.3.13.12";
-const itemsVersion = "7";
+const itemsVersionDisplayed = "v3.3.18.17";
+const itemsVersion = itemsVersionDisplayed + ".1";
 
 export async function loadItemsAndPanos() {
     let itemsUpToDate = false;
@@ -32,6 +33,8 @@ export async function loadItemsAndPanos() {
             itemsUpToDate = true;
         }
     }
+    dofusVersion.set(itemsVersionDisplayed);
+
     const itemsStorage = localStorage.getItem("items");
     // const itemsStorage = false;
     if (itemsStorage && itemsUpToDate) {
@@ -127,8 +130,13 @@ export function getItem(id: string): Item {
 // }
 
 export function saveSearchStorage(savedSearches: Record<string, string>) {
-    if (!init) {
+    try {
+        if (!init) {
+            return;
+        }
+    } catch (err) {
         return;
+        // console.error(err);
     }
     localStorage.setItem("savedSearches", JSON.stringify(savedSearches));
 }
@@ -161,8 +169,13 @@ export function checkHashIsSavedSearch() {
 }
 
 export function saveBuildsStorage(savedBuilds: Build[]) {
-    if (!init) {
+    try {
+        if (!init) {
+            return;
+        }
+    } catch (err) {
         return;
+        // console.error(err);
     }
     let savedBuildsStorage: Record<string, string> = {};
     for (const build of savedBuilds) {

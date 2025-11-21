@@ -1,4 +1,4 @@
-import { getEmptyCategoriesItemsArr, type Item, type Items, type Panoply } from "../types/item";
+import { getEmptyCategoriesItemsArr, type Item, type Panoply } from "../types/item";
 import {
     categoryBestValue,
     categoryBestValueWithPano,
@@ -9,12 +9,10 @@ import {
     level,
     panoplies,
     panopliesBest,
-    panoplyDisplaySize,
     weights,
 } from "../stores/storeBuilder";
 import { get } from "svelte/store";
 import { calculateAllItemsToDisplay, calculatePanopliesToDisplay } from "./display";
-import { getPanoply } from "./frontendDB";
 import { isItemMinRequirementOK, isPanoMinRequirementOK } from "./item";
 import type { StatKey, Stats } from "../../../shared/types/stats";
 import type { ItemCategory } from "../../../shared/types/item";

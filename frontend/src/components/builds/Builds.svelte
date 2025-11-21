@@ -266,6 +266,8 @@
                                             class="panoply"
                                             on:mouseenter={() => setHoveredPano(panoId)}
                                             on:mouseleave={() => (hoveredPano = undefined)}
+                                            class:pano-hovered={hoveredPano &&
+                                                hoveredPano == panoId}
                                         >
                                             <HoverItemOrPano panoply={getPanoply(panoId)}>
                                                 <span>
@@ -292,6 +294,8 @@
                                             class="panoply"
                                             on:mouseenter={() => setHoveredPano(panoId)}
                                             on:mouseleave={() => (hoveredPano = undefined)}
+                                            class:pano-hovered={hoveredPano &&
+                                                hoveredPano == panoId}
                                         >
                                             <HoverItemOrPano panoply={getPanoply(panoId)}>
                                                 <span
@@ -360,12 +364,19 @@
                                             {/if}
                                             {#if build.slots[slot]}
                                                 <HoverItemOrPano item={build.slots[slot]}>
+                                                    <!-- svelte-ignore a11y-no-static-element-interactions -->
                                                     <span
+                                                        on:mouseenter={() =>
+                                                            setHoveredPano(
+                                                                build.slots[slot].panoply,
+                                                            )}
+                                                        on:mouseleave={() =>
+                                                            (hoveredPano = undefined)}
                                                         class="item-tag"
                                                         class:green-background={build.diffBuild &&
                                                             build.diffBuild.slots[slot] !=
                                                                 build.slots[slot]}
-                                                        class:pano-hovered={hoveredPano &&
+                                                        class:pano-hovered-item={hoveredPano &&
                                                             hoveredPano ==
                                                                 build.slots[slot].panoply}
                                                     >
@@ -542,19 +553,19 @@
         /* height: 90vh; */
         /* background: #282629; */
         /* background: #252226; */
-        background: #28252b;
+        background: #29262d;
 
         height: calc(100vh - 124px);
         min-height: 500px;
         overflow: scroll;
         overscroll-behavior-y: contain;
-        border: 1px solid #ccc;
+        border: 1px solid #555;
         border-radius: 8px;
         /* margin-bottom: 9px; */
     }
     .build {
         display: flex;
-        border-bottom: 1px solid #ccc;
+        border-bottom: 1px solid #555;
         padding: 1rem;
         /* margin-bottom: 1rem; */
     }
@@ -595,10 +606,10 @@
     }
 
     .green-background {
-        background-color: #13552f !important;
+        background-color: #005122 !important;
     }
     .red-background {
-        background-color: #650f05 !important;
+        background-color: #6a180e !important;
     }
     .crossed-text {
         text-decoration: line-through;
@@ -637,7 +648,7 @@
         display: inline-block;
         padding: 0.25rem 0.5rem;
         margin: 3px;
-        background: #333;
+        background: #393939;
         color: #fff;
         font-size: 1rem;
         border-radius: 0.5rem;
@@ -646,7 +657,7 @@
         /* white-space: nowrap; */
         border: 1px solid rgba(0, 0, 0, 0);
     }
-    .pano-hovered {
+    .pano-hovered-item {
         border: 1px solid #ffea00;
         /* border-style:; */
     }
@@ -659,6 +670,19 @@
         display: inline-flex;
         white-space: nowrap;
     }
+
+    .panoplies .panoply:nth-child(odd) {
+        background-color: #222222;
+    }
+    .panoplies .panoply:nth-child(even) {
+        background-color: #1e1e1e;
+    }
+    .panoplies .pano-hovered {
+        background-color: #333 !important;
+    }
+    /* .panoplies .panoply:hover {
+        background-color: #333;
+    } */
     /* .panoply span:first-child { */
     /* margin-right: 5px; */
     /* display: inline-flex; */

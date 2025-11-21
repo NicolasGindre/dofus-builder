@@ -10,7 +10,6 @@ import {
     itemsCategoryWithPanoBest,
     itemsSelected,
     itemsSelectedDisplayed,
-    level,
     panopliesBest,
     panopliesDisplayed,
     panopliesSelected,

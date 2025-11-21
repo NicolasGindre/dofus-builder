@@ -49,22 +49,33 @@
     {#if results.length > 0}
         <ul class="results">
             {#each results as item}
-                <HoverItemOrPano {item}>
-                    <button
-                        class="item-button"
-                        class:item-selected={$itemsSelected[item.category][item.id]}
-                        type="button"
-                        on:click={() => addOrRemoveItemSearched(item.id)}
-                    >
-                        {item.name[$lang]}
-                    </button>
-                </HoverItemOrPano>
+                <button
+                    class="item-button"
+                    class:item-selected={$itemsSelected[item.category][item.id]}
+                    type="button"
+                    on:click={() => addOrRemoveItemSearched(item.id)}
+                >
+                    <HoverItemOrPano {item}>
+                        <span>{item.name[$lang]}</span>
+                    </HoverItemOrPano>
+                </button>
             {/each}
         </ul>
     {/if}
 </div>
 
 <style>
+    .item-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .item-button span {
+        margin-inline: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .item-search {
         width: 100%;
         /* max-width: 300px; */

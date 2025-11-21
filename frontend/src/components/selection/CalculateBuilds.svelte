@@ -125,7 +125,7 @@
 
 <style>
     .calculations {
-        height: 100px;
+        height: 84px;
     }
     .calcul-progress {
         margin-top: 0.5rem;
@@ -134,7 +134,7 @@
         font-variant-numeric: tabular-nums;
     }
     .button-calculate {
-        margin-top: 1rem;
+        margin-top: 0rem;
         font-size: 1.2rem;
     }
     .button-cancel:hover {
