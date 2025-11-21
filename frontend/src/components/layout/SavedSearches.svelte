@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { onDestroy, onMount } from "svelte";
+    import { onDestroy, onMount, tick } from "svelte";
     import { decodeFromUrl, encodeToUrl, saveHistoryEntry } from "../../logic/encoding/urlEncode";
     import { savedSearch, savedSearches, urlHash, words } from "../../stores/storeBuilder";
     import { get } from "svelte/store";
@@ -50,9 +50,13 @@
     function createSearch(searchName: string) {
         if (!createSavedSearch) {
             createSavedSearch = true;
+            tick().then(() => inputEl?.focus());
             return;
         }
         if (!searchName) {
+            return;
+        }
+        if ($savedSearches[searchName] != undefined) {
             return;
         }
         savedSearch.set(searchName);
@@ -110,6 +114,9 @@
             <button
                 class="saved-search-name-button"
                 on:click={() => (showSavedSearches = !showSavedSearches)}
+                on:keydown={(e) => {
+                    if (e.key === "Escape") showSavedSearches = false;
+                }}
             >
                 <h3
                     class:is-saved-search-name={$savedSearch}
@@ -156,10 +163,9 @@
             type="text"
             bind:value={inputSearchName}
             bind:this={inputEl}
-            on:dblclick={() => (showSavedSearches = !showSavedSearches)}
-            on:input={() => (showSavedSearches = false)}
             on:keydown={(e) => {
-                if (e.key === "Escape") showSavedSearches = false;
+                if (e.key === "Escape") createSavedSearch = false;
+                if (e.key === "Enter") createSearch(inputSearchName);
             }}
             placeholder={$words.SavedSearchName}
         />
