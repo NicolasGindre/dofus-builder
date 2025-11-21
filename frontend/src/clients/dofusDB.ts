@@ -15,7 +15,7 @@ export async function createDofusDBBuild(build: Build): Promise<string> {
 
     const payload = {
         level: build.level ?? 200,
-        name: "Export - " + (build.name ?? build.id),
+        name: "dofusminmax.fr - " + (build.name ?? build.id),
         breed: 1, // 1–18 means class
         sexe: "female",
         shared: "public",
