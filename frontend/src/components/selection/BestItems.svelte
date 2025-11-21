@@ -674,7 +674,7 @@
         align-items: center;
         justify-content: center;
         top: 0;
-        background: #3e2857;
+        background: #2a265e;
 
         box-shadow:
             0 1px 5px rgba(0, 0, 0, 0.2),

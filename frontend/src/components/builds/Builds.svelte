@@ -486,7 +486,8 @@
         /* flex: 1; */
     }
     .view-toggle button:disabled {
-        background: #3e2857;
+        /* background: #3e2857; */
+        background: #2a265e;
         /* background: #412166; */
         border: 1px solid #ccc;
         color: unset;
