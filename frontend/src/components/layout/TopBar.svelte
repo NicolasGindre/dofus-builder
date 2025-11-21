@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { dofusVersion } from "../../stores/storeBuilder";
+    import { dofusVersion, words } from "../../stores/storeBuilder";
     import LanguageSelect from "./LanguageSelect.svelte";
     import SavedSearches from "./SavedSearches.svelte";
 </script>
@@ -11,11 +11,7 @@
     </div>
     <div class="right-div">
         <!-- <span>{$dofusVersion}</span> -->
-        <a
-            href="https://www.dofus.com/en/mmorpg/news/update/patches"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
+        <a href={$words.patchNoteURL} target="_blank" rel="noopener noreferrer">
             {$dofusVersion}
         </a>
         <LanguageSelect />

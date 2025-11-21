@@ -8,6 +8,8 @@ export default {
     load: "Cargar",
     copied: "Copiado",
 
+    patchNoteURL: "https://www.dofus.com/es/mmorpg/actualidad/actualizacion/correctivos",
+
     level: "Nivel",
 
     stat: "Característica",

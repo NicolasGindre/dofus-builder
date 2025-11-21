@@ -8,6 +8,8 @@ export default {
     copied: "Copié",
     share: "Partager",
 
+    patchNoteURL: "https://www.dofus.com/fr/mmorpg/actualites/maj/correctifs",
+
     level: "Niveau",
 
     stat: "Caractéristique",

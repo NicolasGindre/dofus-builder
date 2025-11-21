@@ -8,6 +8,8 @@ export default {
     load: "Load",
     copied: "Copied",
 
+    patchNoteURL: "https://www.dofus.com/en/mmorpg/news/update/patches",
+
     level: "Level",
 
     stat: "Characteristic",
