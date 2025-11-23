@@ -118,14 +118,16 @@
                     if (e.key === "Escape") showSavedSearches = false;
                 }}
             >
-                <h3
-                    class:is-saved-search-name={$savedSearch}
-                    class:saved={$urlHash == $savedSearches[$savedSearch]}
-                >
-                    {$savedSearch ? $savedSearch : $words.savedSearches}
-                </h3>
-                <span>{showSavedSearches ? "▲" : "▼"}</span></button
-            >
+                <div class="inner-saved-search-name-button">
+                    <h3
+                        class:is-saved-search-name={$savedSearch}
+                        class:saved={$urlHash == $savedSearches[$savedSearch]}
+                    >
+                        {$savedSearch ? $savedSearch : $words.savedSearches}
+                    </h3>
+                    <span>{showSavedSearches ? "▲" : "▼"}</span>
+                </div>
+            </button>
             {#if Object.keys($savedSearches).length > 0 && showSavedSearches}
                 <div
                     class="all-saved-searches"
@@ -213,7 +215,7 @@
         height: 100%;
         /* overflow: hidden; */
     }
-    .saved-search-name-button {
+    .inner-saved-search-name-button {
         display: inline-flex;
         min-width: 300px;
         max-width: 400px;

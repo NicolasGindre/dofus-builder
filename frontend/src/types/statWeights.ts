@@ -81,7 +81,7 @@ export function checkWeightUpdate() {
     // }
     // console.log("weightsOut", weightsIn);
     // const displayedWeights = get(weights);
-    let statSum = 0;
+    let statSum = -0.001;
     for (const statKey of STAT_STAT_KEYS) {
         // const w = getWeightFromIndex(weightsIn[statKey]);
         statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
@@ -102,7 +102,7 @@ export function checkWeightUpdate() {
         isUpdated = true;
     }
 
-    statSum = 0;
+    statSum = -0.001;
     for (const statKey of STAT_DAMAGE_KEYS) {
         statSum += getWeightFromIndex(statKey, weightsIn[statKey]);
     }
@@ -143,7 +143,7 @@ const defaultWeights: Stats = {
     ap: 150,
     mp: 130,
     range: 50,
-    summon: 40,
+    summon: 30,
 
     vitality: 0.4,
 
@@ -157,7 +157,7 @@ const defaultWeights: Stats = {
 
     power: 2,
 
-    neutralDamage: 3,
+    neutralDamage: 0.1,
     earthDamage: 3,
     airDamage: 3,
     fireDamage: 3,

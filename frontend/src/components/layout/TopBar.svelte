@@ -32,6 +32,9 @@
         vertical-align: center;
         color: #b2b2b2;
     }
+    .right-div a:hover {
+        color: #535bf2;
+    }
     .topbar {
         position: fixed;
         top: 0;
