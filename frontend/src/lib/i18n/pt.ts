@@ -58,6 +58,12 @@ export default {
     clear: "Limpar",
     itemsSelected: "Selecionados",
 
+    year: "ano",
+    day: "dia",
+    hour: "hora",
+    min: "min",
+    sec: "seg",
+
     calculating: "Calculando",
     calculateBestBuilds: "Calcular Melhores Builds",
     totalCombinations: "Total de Combinações",

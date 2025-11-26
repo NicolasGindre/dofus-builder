@@ -59,6 +59,12 @@ export default {
     clear: "Tout Effacer",
     itemsSelected: "Sélection",
 
+    year: "an",
+    day: "jour",
+    hour: "heure",
+    min: "min",
+    sec: "sec",
+
     calculating: "Calcul",
     calculateBestBuilds: "Calculer les Meilleurs Builds",
     totalCombinations: "Combinaisons Totales",

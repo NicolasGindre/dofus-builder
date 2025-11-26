@@ -176,13 +176,13 @@
         return false;
     }
 
-    function formatDuration(seconds: number): string {
+    function formatDuration(seconds: number, lang: string): string {
         const units = [
-            { label: "year", value: 365 * 24 * 3600 },
-            { label: "day", value: 24 * 3600 },
-            { label: "hour", value: 3600 },
-            { label: "min", value: 60 },
-            { label: "sec", value: 1 },
+            { label: $words.year, value: 365 * 24 * 3600 },
+            { label: $words.day, value: 24 * 3600 },
+            { label: $words.hour, value: 3600 },
+            { label: $words.min, value: 60 },
+            { label: $words.sec, value: 1 },
         ];
 
         const parts: string[] = [];
@@ -525,7 +525,7 @@
                     compactDisplay: "short",
                 }).format($totalPossibilities)}
                 <br />
-                {$words.estimatedTime}: {formatDuration($timeEstimated)}
+                {$words.estimatedTime}: {formatDuration($timeEstimated, $lang)}
                 <br />
                 [{Math.round($millionComboPerMin)}M / min]
             </div>

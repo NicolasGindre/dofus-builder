@@ -28,19 +28,19 @@ export default {
     bestItems: "Objetos",
 
     orderByValue: "Ordenar por Valor",
-    orderByValueWithPano: "Ordenar por Valor con Conjunto",
+    orderByValueWithPano: "Ordenar por Valor con Set",
 
     value: "Valor",
-    valueWithPano: "Valor con Conjunto",
+    valueWithPano: "Valor con Set",
 
     showMore: "Mostrar más",
     showLess: "Mostrar menos",
 
     displayItems: "Mostrar Objetos",
-    panoBonusLessThan3: "Bono de Conjunto < 3",
-    panopliesBonus: "Bono de conjuntos",
+    panoBonusLessThan3: "Bonus de set < 3",
+    panopliesBonus: "Bonus de set",
 
-    panoplies: "Conjuntos",
+    panoplies: "Sets",
     onlySelected: "Seleccionados",
     bestAndSelected: "Mejores + Seleccionados",
     score: "Puntuación",
@@ -48,8 +48,8 @@ export default {
 
     baseVitality: "Vitalidad base",
 
-    addPanoply: "Añadir Conjunto",
-    removePanoply: "Eliminar Conjunto",
+    addPanoply: "Añadir Set",
+    removePanoply: "Eliminar Set",
 
     quickSelection: "Selección rápida",
 
@@ -57,6 +57,12 @@ export default {
 
     clear: "Limpiar",
     itemsSelected: "Seleccionados",
+
+    year: "año",
+    day: "día",
+    hour: "hora",
+    min: "min",
+    sec: "seg",
 
     calculating: "Calculando",
     calculateBestBuilds: "Calcular Mejores Builds",
@@ -89,10 +95,10 @@ export default {
         defense: "Defensivo",
     },
     stats: {
-        mp: "PM",
         ap: "PA",
+        mp: "PM",
         range: "Alcance",
-        summon: "Invocaciones",
+        summon: "Invocación",
         initiative: "Iniciativa",
 
         vitality: "Vitalidad",
@@ -101,7 +107,7 @@ export default {
         prospecting: "Prospección",
 
         lock: "Placaje",
-        dodge: "Esquiva",
+        dodge: "Huida",
 
         mpReduction: "Retirada de PM",
         apReduction: "Retirada de PA",

@@ -266,8 +266,8 @@ Es recomendable, y más sencillo, mantener una sola combinación de Dofus / Trof
 Una posible forma de usarlo es comparar diferentes resultados cuando dudas sobre el último o los dos últimos huecos disponibles.  
 Para eso, tienes que bloquear los Dofus / Trofeos que tengas claros y dejar sin bloquear los pocos sobre los que dudas.
 
-Por ejemplo, puedes bloquear 5 Dofus / Trofeos y dejar **Turbulento** (+1 PA, −1 PM) y otro trofeo útil para tu build sin bloquear.  
-Eso generaría solo 2 combinaciones, permitiéndote comparar fácilmente los resultados con y sin Turbulento en una sola búsqueda.
+Por ejemplo, puedes bloquear 5 Dofus / Trofeos y dejar **Hiperactivo** (+1 PA, −1 PM) y otro trofeo útil para tu build sin bloquear.  
+Eso generaría solo 2 combinaciones, permitiéndote comparar fácilmente los resultados con y sin Hiperactivo en una sola búsqueda.
 
 ## Trofeos con bonus de set < 3
 
@@ -340,7 +340,7 @@ El ratio óptimo **daños / potencia** sigue la fórmula:
 
 Cuanto más altos sean los daños base del hechizo, menos peso deberías poner en daños.
 
-Por ejemplo, si solo usas el hechizo de Sacrógrito **«Decimación»**: pega de 29 a 32 daños Tierra, o sea una media de 30,5.  
+Por ejemplo, si solo usas el hechizo de Sacrógrito **«Aniquilamiento»**: pega de 29 a 32 daños Tierra, o sea una media de 30,5.  
 El ratio sería **100 / 30,5 ≈ 3,3**.  
 Si tienes un peso de 1 en Fuerza, deberías poner un peso de 3,3 en daños Tierra.
 
@@ -399,7 +399,7 @@ Los prerrequisitos en **Vitalidad, Inteligencia, Fuerza, Suerte, Agilidad y Sabi
 
 Sin embargo, si quieres usar sí o sí un objeto con un prerrequisito difícil, puedes bloquear ese objeto y definir un parámetro Min para mostrar solo builds en los que sea posible alcanzar la condición.
 
-Por ejemplo, para la **Furia de Gargandyas**, que requiere al menos **5000 de Vitalidad** al nivel 200.  
+Por ejemplo, para la **Furor de Gargandias**, que requiere al menos **5000 de Vitalidad** al nivel 200.  
 Si quieres gastar como máximo **600 puntos de características** (del nivel) en Vitalidad y ya tienes al máximo el pergaminado de vita, puedes definir un Min de:
 
 > **5000 − 600 − 100 = 4300**

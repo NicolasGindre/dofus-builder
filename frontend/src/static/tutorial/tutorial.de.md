@@ -311,8 +311,8 @@ Ein sinnvoller Anwendungsfall: Du willst verschiedene Builds vergleichen, bei de
 Dafür kannst du die Dofus/Trophäen, die du **auf jeden Fall** verwenden willst, **locken**, und ein paar andere un-gelockt lassen.
 
 Beispiel:  
-Du lockst 5 Dofus/Trophäen und lässt **Turbulent** (+1 AP, −1 BP) sowie eine weitere für deinen Build nützliche Trophäe offen.  
-So entstehen nur 2 Kombinationen – mit und ohne Turbulent – und du kannst sie in einer einzigen Suche direkt vergleichen.
+Du lockst 5 Dofus/Trophäen und lässt **Turbulenter** (+1 AP, −1 BP) sowie eine weitere für deinen Build nützliche Trophäe offen.  
+So entstehen nur 2 Kombinationen – mit und ohne Turbulenter – und du kannst sie in einer einzigen Suche direkt vergleichen.
 
 ## Trophäen mit „Set-Bonus < 3“
 
@@ -397,7 +397,7 @@ Das optimale Verhältnis **Schaden / Power** folgt ungefähr der Formel:
 Je höher der Basis-Schaden eines Zaubers, desto weniger Gewicht sollte in Schaden gehen.
 
 Beispiel:  
-Du nutzt nur den Sacrieur-Zauber „Décimation“: Er macht 29 bis 32 Erdschaden, also im Schnitt 30,5.  
+Du nutzt nur den Sacrieur-Zauber „Dezimierung“: Er macht 29 bis 32 Erdschaden, also im Schnitt 30,5.  
 Das Verhältnis wäre also 100 / 30,5 ≈ 3,3.  
 Wenn du ein Gewicht von 1 für Stärke hast, solltest du ein Gewicht von 3,3 für Erdschaden setzen.
 
@@ -473,7 +473,7 @@ Wenn du aber unbedingt ein Item mit einer sehr hohen Voraussetzung nutzen willst
 - und einen passenden **Min-Parameter** setzen, damit nur Builds angezeigt werden, die diese Bedingung erfüllbar machen.
 
 Beispiel:  
-Die „Fureur de Gargandyas“ verlangt mindestens **5000 Vitalität auf Level 200**.  
+Die „Fell des Gargandyas“ verlangt mindestens **5000 Vitalität auf Level 200**.  
 Wenn du maximal 600 Levelpunkte in Vitalität investieren willst und bereits voll auf Vitalität gescrollt bist, kannst du:
 
 - 5000 − 600 − 100 = **4300** als Min-Vitalität setzen

@@ -58,6 +58,12 @@ export default {
     clear: "Clear All",
     itemsSelected: "Items Selected",
 
+    year: "year",
+    day: "day",
+    hour: "hour",
+    min: "min",
+    sec: "sec",
+
     calculating: "Calculating",
     calculateBestBuilds: "Calculate Best Builds",
     totalCombinations: "Total Combinations",
