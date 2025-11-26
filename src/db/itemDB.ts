@@ -64,13 +64,8 @@ export async function loadItemsAndPanos(): Promise<void> {
         const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json();
 
         for (const [itemId, item] of Object.entries(itemsCategoryDB)) {
-            // itemsCategory[category][itemId] = item;
-
             newItemsCategory[itemId] = item;
             newItemsDB[itemId] = item;
-            // }
-
-            // itemsDB[itemId] = item;
         }
         itemsCategory[category] = newItemsCategory;
 

@@ -23,12 +23,21 @@ import * as itemDB from "../db/itemDB";
 // }
 
 const PASSWORD = "n0h4ckm3plz";
+let lastReloadAt = 0;
 export async function reloadAllItems(c: Context) {
     const auth = c.req.header("authorization");
     if (!auth?.startsWith("Bearer ")) return c.text("Unauthorized", 401);
 
     const provided = auth.slice("Bearer ".length).trim();
     if (provided !== PASSWORD) return c.text("Forbidden", 403);
+
+    const now = Date.now();
+    const diff = now - lastReloadAt;
+
+    if (diff < 10_000) {
+        return c.text(`Why hack ? wait ${Math.ceil((10_000 - diff) / 1000)}s`, 429);
+    }
+    lastReloadAt = now;
 
     try {
         console.log("Reloading items and panos");
