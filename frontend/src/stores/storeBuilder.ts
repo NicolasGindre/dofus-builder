@@ -43,7 +43,7 @@ export const words = derived(lang, ($lang) => translations[$lang]);
 
 export const dofusVersion = writable<string>("");
 
-export const showTutorial = writable<boolean>(true);
+export const showTutorial = writable<boolean>(false);
 
 export const urlHash = writable<string>("");
 export const previousStatsSearch = writable<string>("");

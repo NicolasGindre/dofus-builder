@@ -68,16 +68,20 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         const cores = navigator.hardwareConcurrency || 4;
         console.log("cores count", cores);
 
-        let workerCount = multiThreading ? Math.max(1, Math.min(cores, 8)) : 1;
+        // let workerCount = multiThreading ? Math.max(1, Math.min(cores, 8)) : 1;
         // let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
 
-        // const isFirefox = navigator.userAgent.includes("Firefox");
-
-        // let workerCount = multiThreading
-        //     ? isFirefox
-        //         ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16)
-        //         : Math.max(1, Math.min(cores - 1, 8))
-        //     : 1;
+        const isFirefox = navigator.userAgent.includes("Firefox");
+        console.log(isFirefox);
+        let workerCount = multiThreading
+            ? isFirefox
+                ? cores <= 8
+                    ? cores
+                    : cores <= 16
+                      ? 8
+                      : Math.floor(cores / 2)
+                : Math.min(cores - 1, 8)
+            : 1;
         // workerCount = 7;
         let partialPayload: Payload[] = [];
         // console.log("starting workers count", workerCount);
