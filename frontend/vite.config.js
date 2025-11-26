@@ -4,7 +4,7 @@ import { svelte } from "@sveltejs/vite-plugin-svelte";
 // https://vite.dev/config/
 export default defineConfig({
     plugins: [svelte()],
-    assetsInclude: ["**/*.wasm"],
+    assetsInclude: ["**/*.wasm", "**/*.md"],
     build: {
         outDir: "dist",
     },

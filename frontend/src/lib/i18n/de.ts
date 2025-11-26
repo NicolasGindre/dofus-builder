@@ -8,6 +8,8 @@ export default {
     load: "Laden",
     copied: "Kopiert",
 
+    tutorial: "Tutorial",
+
     patchNoteURL: "https://www.dofus.com/en/mmorpg/news/update/patches",
 
     level: "Stufe",
@@ -23,7 +25,7 @@ export default {
 
     calculateBestItems: "Beste Gegenstände Berechnen",
     showValueAsPercentFromBest: "Werte als % vom besten anzeigen",
-    bestItems: "Beste Gegenstände",
+    bestItems: "Gegenstände",
 
     orderByValue: "Nach Wert Sortieren",
     orderByValueWithPano: "Nach Wert mit Set Sortieren",

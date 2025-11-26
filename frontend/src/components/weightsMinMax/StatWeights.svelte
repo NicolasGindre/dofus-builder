@@ -28,8 +28,8 @@
         MIN_MAX_ENCODING,
         WEIGHT_ENCODING,
     } from "../../logic/encoding/valueEncoding";
-    import Icon from "../../lib/Icon.svelte";
-    import { getIconFromStat } from "../../lib/iconMap";
+    import Icon from "../Icon.svelte";
+    import { getIconFromStat } from "../../types/iconMap";
 
     function resetAll() {
         weightsIndex.set({});

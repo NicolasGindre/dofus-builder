@@ -73,8 +73,8 @@ export function encodeItems(): string {
     const encodedItemsStr = encodeConsecutive(encodedItems);
 
     return lockedItemsStr
-        ? `${encodedPanosStr}|${encodedItemsStr}|${lockedItemsStr}`
-        : `${encodedPanosStr}|${encodedItemsStr}`;
+        ? `${encodedPanosStr}.${encodedItemsStr}.${lockedItemsStr}`
+        : `${encodedPanosStr}.${encodedItemsStr}`;
 }
 
 export function encodeBuildItems(build: Build): string {
@@ -86,7 +86,7 @@ export function encodeBuildItems(build: Build): string {
     const encodedPanosStr = encodePanoplies(itemIdsArr);
     const encodedItemsStr = encodeConsecutive(itemIdsArr);
 
-    return `${encodedPanosStr}|${encodedItemsStr}`;
+    return `${encodedPanosStr}.${encodedItemsStr}`;
 }
 
 // Modifies encodedItems : Takes out items that were encoded in pano
@@ -199,7 +199,7 @@ export function decodeItems(encodedItems: string) {
     if (!encodedItems) {
         return;
     }
-    const split = encodedItems.split("|");
+    const split = encodedItems.split(".");
     let decodedItems: string[] = [];
     if (split[0]) {
         decodedItems.push(...decodePanoplies(split[0]));

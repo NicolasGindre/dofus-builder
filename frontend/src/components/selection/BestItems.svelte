@@ -240,13 +240,22 @@
                     <td class:red={item.level > $level}>{item.level}</td>
                     <td>
                         {$showValueAsPercent
-                            ? `${Math.round((item.value * 100) / $categoryBestValue[item.category])}%`
+                            ? item.value === 0
+                                ? "0%"
+                                : Math.round(
+                                      (item.value * 100) / $categoryBestValue[item.category],
+                                  ) + "%"
                             : Math.round(item.value)}
                     </td>
                     <td>
                         {#if item.panoply}
                             {$showValueAsPercent
-                                ? `${Math.round((item.valueWithPano * 100) / $categoryBestValueWithPano[item.category])}%`
+                                ? item.valueWithPano === 0
+                                    ? "0%"
+                                    : Math.round(
+                                          (item.valueWithPano * 100) /
+                                              $categoryBestValueWithPano[item.category],
+                                      ) + "%"
                                 : Math.round(item.valueWithPano)}
                         {/if}
                     </td>

@@ -8,6 +8,8 @@ export default {
     load: "Load",
     copied: "Copied",
 
+    tutorial: "Tutorial",
+
     patchNoteURL: "https://www.dofus.com/en/mmorpg/news/update/patches",
 
     level: "Level",

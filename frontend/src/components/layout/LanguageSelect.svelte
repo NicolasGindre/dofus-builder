@@ -50,7 +50,8 @@
         display: inline-block;
         top: 0;
         right: 0; */
-        height: 100%;
+        align-items: center;
+        /* height: 100%; */
     }
 
     select {

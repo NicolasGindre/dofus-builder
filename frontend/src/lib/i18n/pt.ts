@@ -8,6 +8,8 @@ export default {
     load: "Carregar",
     copied: "Copiado",
 
+    tutorial: "Tutorial",
+
     patchNoteURL: "https://www.dofus.com/pt/mmorpg/noticias/atualizacao/corretivos",
 
     level: "Nível",
@@ -23,7 +25,7 @@ export default {
 
     calculateBestItems: "Calcular Melhores Itens",
     showValueAsPercentFromBest: "Mostrar valores como % do melhor",
-    bestItems: "Melhores Itens",
+    bestItems: "Itens",
 
     orderByValue: "Ordenar por Valor",
     orderByValueWithPano: "Ordenar por Valor com Conjunto",

@@ -1,5 +1,5 @@
 <script lang="ts">
-    const modules = import.meta.glob("../icons/*.png", { eager: true }) as Record<
+    const modules = import.meta.glob("../static/icons/*.png", { eager: true }) as Record<
         string,
         { default: string }
     >;

@@ -1,9 +1,9 @@
 <script lang="ts">
-    import { minStats, words } from "../../stores/storeBuilder";
+    import { minStats, weights, words } from "../../stores/storeBuilder";
     import { calculateStatsValue } from "../../logic/value";
     import { object } from "zod/v4-mini";
-    import Icon from "../../lib/Icon.svelte";
-    import { getIconFromStat } from "../../lib/iconMap";
+    import Icon from "../Icon.svelte";
+    import { getIconFromStat } from "../../types/iconMap";
     import {
         STAT_DEFENSE_KEYS,
         STAT_OFFENSE_KEYS,
@@ -21,6 +21,10 @@
     //     const [intPart, decPart] = num.toFixed(2).split(".");
     //     return `${intPart}<span class="decimals">.${decPart}</span>`;
     // }
+    function round1(x: number) {
+        const n = Math.round(x * 10) / 10; // 1 decimal
+        return Number(n.toString()); // removes trailing .0
+    }
 </script>
 
 <div class="build-stats">
@@ -48,8 +52,8 @@
             <!-- {#if Object.keys(stats).length > 0} -->
             <tbody>
                 {#each statsKeys as statKey}
-                    {#if stats[statKey]}
-                        <tr>
+                    {#if stats[statKey] || (isBuild && $weights[statKey] > 0)}
+                        <tr class:empty-weight={isBuild && !$weights[statKey]}>
                             <td>
                                 {#if overStats && overStats[statKey] != stats[statKey]}
                                     <span class="overstat">{overStats[statKey]}→</span>
@@ -60,7 +64,9 @@
                                             ? 1
                                             : 0)}</span
                                 >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
-                                        >{(Math.abs(stats[statKey]) % 1).toString().slice(1)}</span
+                                        >{(Math.abs(stats[statKey]) % 1)
+                                            .toString()
+                                            .slice(1, 3)}</span
                                     >{/if}</td
                             >
                             <td
@@ -74,8 +80,8 @@
         {:else}
             <tbody>
                 {#each statsKeys as statKey}
-                    {#if compareStats[statKey] || stats[statKey]}
-                        <tr>
+                    {#if compareStats[statKey] || stats[statKey] || (isBuild && $weights[statKey] > 0)}
+                        <tr class:empty-weight={isBuild && !$weights[statKey]}>
                             <td>
                                 {#if stats[statKey] != compareStats[statKey]}<span
                                         class:green-text={(stats[statKey] ?? 0) >
@@ -84,8 +90,9 @@
                                             compareStats[statKey]}
                                         >({(stats[statKey] ?? 0) > compareStats[statKey]
                                             ? "+"
-                                            : ""}{(stats[statKey] ?? 0) -
-                                            compareStats[statKey]})</span
+                                            : ""}{round1(
+                                            (stats[statKey] ?? 0) - compareStats[statKey],
+                                        )})</span
                                     >{/if}
                                 {#if overStats && overStats[statKey] != stats[statKey]}
                                     <span class="overstat">{overStats[statKey]}→</span>{/if}<span
@@ -99,7 +106,7 @@
                                     >{#if (stats[statKey] ?? 0) % 1 !== 0}<span class="decimals"
                                             >{(Math.abs(stats[statKey]) % 1)
                                                 .toString()
-                                                .slice(1)}</span
+                                                .slice(1, 3)}</span
                                         >{/if}
                                 </span></td
                             >
@@ -116,6 +123,9 @@
 {/snippet}
 
 <style>
+    .empty-weight {
+        opacity: 55%;
+    }
     .decimals {
         font-size: 0.7em; /* smaller relative to main number */
         vertical-align: baseline; /* or 'text-top' / 'baseline' depending on taste */
@@ -158,7 +168,7 @@
         display: none;
     }
     .overstat {
-        opacity: 35%;
+        opacity: 55%;
     }
     /* .build-stats td + td:last-child {
         padding: 0rem;

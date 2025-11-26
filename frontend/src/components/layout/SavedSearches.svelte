@@ -249,12 +249,13 @@
         position: absolute;
         top: 100%;
         width: 100%;
+        /* max-height: ; */
+        z-index: 10000000;
     }
     .all-saved-searches ul {
         list-style: none;
         margin: 0;
         padding: 0;
-        /* display:abs; */
         /* position: relative; */
         /* position: absolute; */
         /* width: inherit; */

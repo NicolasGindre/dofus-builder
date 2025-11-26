@@ -9,8 +9,8 @@
     import { translateRequirement } from "../../logic/language";
     import { tick } from "svelte";
     import { checkOrRequirement } from "../../logic/build";
-    import Icon from "../../lib/Icon.svelte";
-    import { getIconFromElement } from "../../lib/iconMap";
+    import Icon from "../Icon.svelte";
+    import { getIconFromElement } from "../../types/iconMap";
     import { getPanoply } from "../../logic/frontendDB";
 
     // export let itemOrPano: { item: Item, pano: Panoply };

@@ -6,6 +6,8 @@ export function registerRoutes(app: Hono) {
     // app.get("/load-items-dofusDB", (c) => handler.loadItemsDofusDB(c));
     // app.get("/load-panoplies-dofusDB", (c) => handler.loadPanopliesDofusDB(c));
 
+    app.post("/reload-all-items", (c) => handler.reloadAllItems(c));
+
     app.get("/api/items", (c) => handler.getAllItems(c));
     app.get("/api/panoplies", (c) => handler.getAllPanoplies(c));
 }

@@ -67,7 +67,7 @@ export function getEncodedStatsAndLockedFromHash(hash: string): string {
     const pairs = Object.fromEntries(hash.split("&").map((p) => p.split("=")));
     const encodedStats = pairs.s || "";
     // const encodedItems = pairs.i || "";
-    // const split = encodedItems.split("|");
+    // const split = encodedItems.split(".");
     let lockedIdsArr = [];
     const lockeds = Object.values(get(itemsLocked));
     for (const items of lockeds) {

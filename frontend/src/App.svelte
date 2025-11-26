@@ -9,11 +9,15 @@
     import Builds from "./components/builds/Builds.svelte";
 
     import { onDestroy, onMount } from "svelte";
+    import Tutorial from "./components/tooltips/Tutorial.svelte";
 
     let error: string | null = null;
 
     onMount(async () => {
         try {
+            if ("scrollRestoration" in history) {
+                history.scrollRestoration = "manual";
+            }
             await loadItemsAndPanos();
             decodeFromUrl();
             initFrontendDB();
@@ -38,6 +42,7 @@
 
 <TopBar />
 <main>
+    <Tutorial />
     <h1 class="section">Dofus MinMax - Builder</h1>
     {#if error}
         <p style="color: red;">{error}</p>

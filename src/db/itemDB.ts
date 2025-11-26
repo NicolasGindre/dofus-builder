@@ -58,21 +58,28 @@ export function getAllPanoplies(): Panoplies {
 export async function loadItemsAndPanos(): Promise<void> {
     panoplies = await Bun.file(`${dbPath}/panoplies.json`).json();
 
+    let newItemsDB: Items = {};
     for (const category of ITEM_CATEGORIES) {
+        let newItemsCategory: Record<string, Item> = {};
         const itemsCategoryDB: Items = await Bun.file(`${dbPath}/${category}.json`).json();
 
         for (const [itemId, item] of Object.entries(itemsCategoryDB)) {
-            // if (item.level >= levelMin && item.level <= levelMax) {
-            // itemsFiltered[itemName] = item
-            itemsCategory[category][itemId] = item;
+            // itemsCategory[category][itemId] = item;
+
+            newItemsCategory[itemId] = item;
+            newItemsDB[itemId] = item;
             // }
-            itemsDB[itemId] = item;
+
+            // itemsDB[itemId] = item;
         }
+        itemsCategory[category] = newItemsCategory;
 
         console.log("Loaded " + Object.keys(itemsCategory[category]).length + " " + category);
     }
+    itemsDB = newItemsDB;
     console.log("Loaded " + Object.keys(itemsDB).length + " items");
 }
+
 export function filterPanoplies(panopliesToFilter: string[]) {
     for (const panoplyName of panopliesToFilter) {
         const panoply = panoplies[panoplyName];

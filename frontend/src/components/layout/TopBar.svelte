@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { dofusVersion, words } from "../../stores/storeBuilder";
+    import { dofusVersion, showTutorial, words } from "../../stores/storeBuilder";
     import LanguageSelect from "./LanguageSelect.svelte";
     import SavedSearches from "./SavedSearches.svelte";
 </script>
@@ -14,6 +14,7 @@
         <a href={$words.patchNoteURL} target="_blank" rel="noopener noreferrer">
             {$dofusVersion}
         </a>
+        <button on:click={() => ($showTutorial = !$showTutorial)}>{$words.tutorial}</button>
         <LanguageSelect />
     </div>
     <!-- </div> -->
@@ -41,7 +42,9 @@
         width: 100%;
         right: 0;
 
-        z-index: 100000;
+        z-index: 100001;
+
+        overflow-x: scroll;
 
         height: 50px;
         display: flex;

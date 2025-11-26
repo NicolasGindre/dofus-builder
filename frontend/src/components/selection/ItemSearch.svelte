@@ -47,7 +47,7 @@
     />
 
     {#if results.length > 0}
-        <ul class="results">
+        <ul class="results" tabindex="-1">
             {#each results as item}
                 <button
                     class="item-button"

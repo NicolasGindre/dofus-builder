@@ -17,7 +17,7 @@ import {
     calculateSelectedItemsToDisplay,
 } from "../logic/display";
 
-export const lang = writable<CountryCode>("en");
+export const lang = writable<CountryCode>("fr");
 
 import en from "../lib/i18n/en";
 import fr from "../lib/i18n/fr";
@@ -42,6 +42,8 @@ const translations: Translations = { en, fr, pt, de, es };
 export const words = derived(lang, ($lang) => translations[$lang]);
 
 export const dofusVersion = writable<string>("");
+
+export const showTutorial = writable<boolean>(true);
 
 export const urlHash = writable<string>("");
 export const previousStatsSearch = writable<string>("");

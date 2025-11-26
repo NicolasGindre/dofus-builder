@@ -12,6 +12,12 @@ try {
     // itemDB.addPanopliesLevel();
     // itemDB.savePanoplies(itemDB.panoplies);
 
+    app.use("/favicon/*", async (c, next) => {
+        await next();
+        const res = c.res;
+        if (res) res.headers.set("Cache-Control", "public, max-age=86400"); // 1 day
+    });
+
     app.use("/assets/*", async (c, next) => {
         await next();
         const res = c.res;
@@ -19,7 +25,6 @@ try {
             res.headers.set("Cache-Control", "public, max-age=31536000, immutable");
         }
     });
-    // app.use("/assets/*", serveStatic({ root: "./frontend/dist" }));
     app.use(serveStatic({ root: "./frontend/dist" }));
 
     app.get("*", serveStatic({ path: "./frontend/dist/index.html" }));

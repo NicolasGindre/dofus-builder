@@ -189,7 +189,7 @@ const defaultWeights: Stats = {
     fireResist: 2,
 
     pods: 0.1,
-    initiative: 0.03,
+    initiative: 0.08,
 
     trapPower: 1,
     trapDamage: 3,

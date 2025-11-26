@@ -7,7 +7,7 @@ import {
 } from "../../../shared/types/item";
 import type { Stats } from "../../../shared/types/stats";
 
-export type Item = BaseItem & {
+export type Item = Omit<BaseItem, "criterions"> & {
     statsWithBonus: ItemStats;
     value: number;
     valueWithPano: number;

@@ -231,7 +231,7 @@ export function encodeStats(): string {
         get(exoRange),
         get(level),
     );
-    return encodedExosAndlevel.concat("|", encodedStats);
+    return encodedExosAndlevel.concat(".", encodedStats);
 }
 
 function encodeStatsKeys(statKeys: StatKey[]): string {
@@ -266,13 +266,13 @@ function encodeStatsKeys(statKeys: StatKey[]): string {
         // }
     }
     encodedStats = compressRepeats(encodedStats);
-    return encodeBase64(rank).concat("|", encodedStats.join(""));
+    return encodeBase64(rank).concat(".", encodedStats.join(""));
 }
 
 export function decodeStats(encoded: string) {
     // if (encoded.length === 0) return [];
 
-    const encodedSplit = encoded.split("|");
+    const encodedSplit = encoded.split(".");
 
     if (encodedSplit[0]) {
         decodeExosAndLevel(encodedSplit[0]);
