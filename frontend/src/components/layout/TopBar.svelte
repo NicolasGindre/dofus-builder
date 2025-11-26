@@ -44,7 +44,8 @@
 
         z-index: 100001;
 
-        overflow-x: scroll;
+        /* overflow-x: scroll; */
+        overflow: visible;
 
         height: 50px;
         display: flex;

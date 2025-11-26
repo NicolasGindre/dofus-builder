@@ -248,6 +248,7 @@
     .all-saved-searches {
         position: absolute;
         top: 100%;
+        left: 0;
         width: 100%;
         /* max-height: ; */
         z-index: 10000000;
@@ -278,10 +279,23 @@
         align-items: center;
     }
     .load-button {
+        /* overflow: clip; */
         flex: 1;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
     }
     .delete-button {
+        /* flex: 1 1 0; */
         flex: 0 0 auto;
+        white-space: nowrap;
+        align-self: stretch;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: unset;
     }
 
     .delete-button:hover:not(:disabled) {
@@ -311,6 +325,7 @@
         display: flex;
         align-items: center;
         height: 100%;
+        overflow: visible;
         /* margin-left: auto; */
     }
     .share-button {
