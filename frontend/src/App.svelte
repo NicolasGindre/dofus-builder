@@ -46,7 +46,7 @@
     <div class="section">
         <img
             class="icon"
-            src="favicon/favicon-96x96.png"
+            src="favicon/apple-touch-icon.png"
             alt=""
             width="60"
             height="60"
