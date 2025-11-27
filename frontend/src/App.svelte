@@ -43,10 +43,20 @@
 <TopBar />
 <main>
     <Tutorial />
-    <h1 class="section">Dofus MinMax - Builder</h1>
-    {#if error}
-        <p style="color: red;">{error}</p>
-    {/if}
+    <div class="section">
+        <img
+            class="icon"
+            src="favicon/favicon-96x96.png"
+            alt=""
+            width="60"
+            height="60"
+            loading="lazy"
+        />
+        <h1>Dofus MinMax</h1>
+        {#if error}
+            <p style="color: red;">{error}</p>
+        {/if}
+    </div>
     <StatWeights />
     <BestItems />
     <Builds />
@@ -54,8 +64,15 @@
 </main>
 
 <style>
+    .section {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap: 12px;
+        /* padding: 12px 0; */
+    }
     h1 {
-        margin-bottom: 0px;
+        margin: 0px;
     }
     main {
         /* height: 60px; */
