@@ -112,7 +112,7 @@ button:focus-visible {
 }
 
 .checkbox-label {
-    display: inline-flex;
+    /* display: inline-flex; */
     align-items: center;
     border: 1px solid transparent;
     /* gap: 0.6rem; */

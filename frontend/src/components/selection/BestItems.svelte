@@ -330,7 +330,7 @@
                         {#if !collapsedCategories[category]}
                             <div transition:slide>
                                 {#if category == "dofus"}
-                                    <label class="checkbox-label">
+                                    <label class="checkbox-label show-bonus-pano-capped-button">
                                         {$words.displayItems}
                                         <span>{$words.panoBonusLessThan3}</span>
                                         <input
@@ -783,6 +783,9 @@
     .separator-row td {
         width: 100%;
         padding: 0;
+    }
+    .show-bonus-pano-capped-button {
+        display: inline-flex;
     }
     /* th:first-child, */
     /* .separator-row td,
