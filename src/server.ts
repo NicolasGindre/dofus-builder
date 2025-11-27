@@ -72,6 +72,7 @@ try {
     //     }
     // });
     app.use(serveStatic({ root: "./frontend/dist" }));
+    app.get("/privacy", serveStatic({ path: "./frontend/dist/privacy.html" }));
 
     app.get("*", serveStatic({ path: "./frontend/dist/index.html" }));
 
