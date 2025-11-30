@@ -187,11 +187,13 @@ export default {
         belt: "Ceinture",
         boots: "Bottes",
         cloak: "Cape",
-        dofus: "Dofus",
-        trophy: "Trophée",
         ring: "Anneau",
         hat: "Chapeau",
         shield: "Bouclier",
+
+        dofus: "Dofus",
+        trophy: "Trophée",
+        prysmaradite: "Prysmaradite",
 
         hammer: "Masse",
         scythe: "Faux",

@@ -13,7 +13,7 @@ Mon but est que cette application soit la plus complète possible, mais je souha
 
 ## TL;DR :
 
-- Cliquez sur le poids des caractéristiques que vous voulez dans votre build
+- Cliquez sur le poids des caractéristiques que vous voulez dans votre build. Ne touchez pas au Min / Max.
 - Indiquez votre niveau
 - Cliquez sur **« Calculer les meilleurs objets »**
 - Cliquez sur **« Sélection rapide »**

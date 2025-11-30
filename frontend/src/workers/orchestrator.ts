@@ -9,10 +9,32 @@ import {
     type Panoply,
 } from "../types/item";
 import type { Payload } from "./combinationSearch";
-import CombinationSearchWorker from "./combinationSearch.ts?worker";
+import CombinationSearchWorker from "./combinationSearch.ts?worker&module";
 import { isItemBonusPanoCapped } from "../logic/item";
 import type { ItemCategory, MinRequirement } from "../../../shared/types/item";
 import type { Stats } from "../../../shared/types/stats";
+
+import wasmUrl from "../wasm/combination/pkg/combination_bg.wasm?url";
+
+const cores = navigator.hardwareConcurrency || 4;
+// const isFirefox = navigator.userAgent.includes("Firefox");
+const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
+
+// Preload wasm bytes once
+const wasmBytesPromise = fetch(wasmUrl).then((r) => r.arrayBuffer());
+
+// Create worker pool once
+const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
+    const w = new CombinationSearchWorker();
+    return w;
+});
+
+// Initialize WASM in all workers once at module load
+wasmBytesPromise.then((bytes) => {
+    for (const w of workerPool) {
+        w.postMessage({ type: "init", bytes: bytes.slice(0) }, [bytes.slice(0)]);
+    }
+});
 
 export type MinItem = {
     id: string;
@@ -55,8 +77,12 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
 
     function cancel() {
         for (const w of workers) w.terminate();
-        workers = [];
+        // workers = [];
         running.set(false);
+
+        for (const w of workers) {
+            w.postMessage({ type: "cancel" });
+        }
     }
 
     function start(payload: CombinationPayload) {
@@ -66,23 +92,9 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         error.set(null);
 
         const cores = navigator.hardwareConcurrency || 4;
-        console.log("cores count", cores);
+        console.log("shown cores", cores);
 
-        // let workerCount = multiThreading ? Math.max(1, Math.min(cores, 8)) : 1;
-        // let workerCount = multiThreading ? Math.min(Math.max(1, Math.floor(cores * 0.75)), 16) : 1;
-
-        const isFirefox = navigator.userAgent.includes("Firefox");
-        console.log(isFirefox);
-        let workerCount = multiThreading
-            ? isFirefox
-                ? cores <= 8
-                    ? cores
-                    : cores <= 16
-                      ? 8
-                      : Math.floor(cores / 2)
-                : Math.min(cores - 1, 8)
-            : 1;
-        // workerCount = 7;
+        // let workerCount = 4;
         let partialPayload: Payload[] = [];
         // console.log("starting workers count", workerCount);
         // performance.now()
@@ -93,11 +105,17 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
         // console.log("Elapsed secs", elapsedSec);
         const biggestCategoryIndex = getBiggestCategoryIndex(minItemsCategory);
 
-        const itemschunks = partitionEven(minItemsCategory, biggestCategoryIndex, workerCount);
+        const itemschunks = partitionEven(
+            minItemsCategory,
+            biggestCategoryIndex,
+            workerPool.length,
+        );
 
-        if (itemschunks.length < workerCount) {
-            workerCount = itemschunks.length;
-        }
+        const workerCount =
+            itemschunks.length < workerPool.length ? itemschunks.length : workerPool.length;
+        // if (itemschunks.length < workerPool.length) {
+        //     workerCount = itemschunks.length;
+        // }
         console.log("workerCount", workerCount);
         // console.log("itemschunks", itemschunks);
 
@@ -127,11 +145,15 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
 
             let finished = 0;
 
+            // const bytes = await wasmBytesPromise;
+            workers = workerPool.slice(0, workerCount);
+
             for (let i = 0; i < workerCount; i++) {
-                const w = new CombinationSearchWorker();
+                // const w = new CombinationSearchWorker();
 
                 // const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
-                workers.push(w);
+                // workers.push(w);
+                const w = workers[i]!;
 
                 w.onmessage = (e: MessageEvent) => {
                     const msg = e.data;
@@ -169,7 +191,7 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
                 };
 
                 // console.log("partial payload of worker: ", partialPayload[i]);
-                w.postMessage(partialPayload[i]);
+                w.postMessage({ type: "compute", payload: partialPayload[i] });
             }
         });
     }

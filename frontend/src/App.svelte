@@ -38,11 +38,25 @@
     onDestroy(() => {
         window.removeEventListener("popstate", handler);
     });
+    // function keepMainThreadActive() {
+    //     function loop() {
+    //         requestAnimationFrame(loop);
+    //         console.log("UYOLO");
+    //     }
+    //     loop();
+    // }
+    // keepMainThreadActive();
+    // setInterval(() => {
+    //     document.body.dataset.heartbeat = performance.now().toString();
+    //     console.log("hehehehe");
+    // }, 300);
+    document.addEventListener("visibilitychange", () => {
+        console.log("Visibility changed:", document.visibilityState);
+    });
 </script>
 
 <TopBar />
 <main>
-    <Tutorial />
     <div class="section">
         <img
             class="icon"
@@ -61,6 +75,7 @@
     <BestItems />
     <Builds />
     <Navigation />
+    <Tutorial />
 </main>
 
 <style>

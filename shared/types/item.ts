@@ -20,11 +20,13 @@ export const SUB_CATEGORIES = [
     "belt",
     "boots",
     "cloak",
-    "dofus",
-    "trophy",
     "ring",
     "hat",
     "shield",
+
+    "dofus",
+    "trophy",
+    "prysmaradite",
 
     "hammer",
     "scythe",

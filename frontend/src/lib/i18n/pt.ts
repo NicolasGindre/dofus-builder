@@ -182,11 +182,13 @@ export default {
         belt: "Cinto",
         boots: "Botas",
         cloak: "Capa",
-        dofus: "Dofus",
-        trophy: "Troféu",
         ring: "Anel",
         hat: "Chapéu",
         shield: "Escudo",
+
+        dofus: "Dofus",
+        trophy: "Troféu",
+        prysmaradite: "Prysmaradita",
 
         hammer: "Martelo",
         scythe: "Foice",

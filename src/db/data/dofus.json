@@ -6845,5 +6845,906 @@
       "rangedResistPer": -9,
       "meleeResistPer": -9
     }
+  },
+  "US": {
+    "id": "US",
+    "idDofusDB": 21451,
+    "idDofusBook": 21451,
+    "name": {
+      "fr": "Prytek",
+      "en": "Prytekt",
+      "pt": "Pritek",
+      "de": "Prytektion",
+      "es": "Priscudo"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "vitality": -200,
+      "neutralResist": 25,
+      "earthResist": 25,
+      "fireResist": 25,
+      "waterResist": 25,
+      "airResist": 25
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prytek",
+        "en": "Prytekt",
+        "pt": "Pritek",
+        "de": "Prytektion",
+        "es": "Priscudo"
+      },
+      "description": {
+        "fr": "Le porteur gagne 550% de son niveau en bouclier au premier tour, puis 200% au deuxième tour, et 100% au troisième tour.",
+        "en": "The bearer gains 550% of their level as shield on the first turn, 200% on the second turn and 100% on the third turn.",
+        "pt": "O portador ganha 550% de seu nível em escudo no primeiro turno, 200% no segundo e 100% no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 550 % seiner Stufe als Schild, in der zweiten Runde 200 % und in der dritten Runde 100 %.",
+        "es": "El portador gana un 550% de su nivel en puntos de escudo en el primer turno, un 200% en el segundo turno y un 100% en el tercer turno."
+      }
+    }
+  },
+  "UR": {
+    "id": "UR",
+    "idDofusDB": 21452,
+    "idDofusBook": 21452,
+    "name": {
+      "fr": "Prytek Brillante",
+      "en": "Shiny Prytekt",
+      "pt": "Pritek Brilhante",
+      "de": "Brillante Prytektion",
+      "es": "Priscudo brillante"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "vitality": -200,
+      "neutralResist": 25,
+      "earthResist": 25,
+      "fireResist": 25,
+      "waterResist": 25,
+      "airResist": 25
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prytek Brillante",
+        "en": "Shiny Prytekt",
+        "pt": "Pritek Brilhante",
+        "de": "Brillante Prytektion",
+        "es": "Priscudo Brillante"
+      },
+      "description": {
+        "fr": "Le porteur gagne 150% de son niveau en bouclier au premier tour, puis 450% au deuxième tour et 150% au troisième tour.",
+        "en": "The bearer gains 150% of their level as shield on the first turn, 450% on the second turn and 150% on the third turn.",
+        "pt": "O portador ganha 150% de seu nível em escudo no primeiro turno, 450% no segundo e 150% no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 150 % seiner Stufe als Schild, in der zweiten Runde 450 % und in der dritten Runde 150 %.",
+        "es": "El portador gana un 150% de su nivel en puntos de escudo en el primer turno, un 450% en el segundo turno y un 150% en el tercer turno."
+      }
+    }
+  },
+  "UQ": {
+    "id": "UQ",
+    "idDofusDB": 21453,
+    "idDofusBook": 21453,
+    "name": {
+      "fr": "Prytek Iridescente",
+      "en": "Iridescent Prytekt",
+      "pt": "Pritek Iridescente",
+      "de": "Schillernde Prytektion",
+      "es": "Priscudo iridiscente"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "vitality": -200,
+      "neutralResist": 25,
+      "earthResist": 25,
+      "fireResist": 25,
+      "waterResist": 25,
+      "airResist": 25
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prytek Iridescente",
+        "en": "Iridescent Prytekt",
+        "pt": "Pritek Iridescente",
+        "de": "Schillernde Prytektion",
+        "es": "Priscudo Iridiscente"
+      },
+      "description": {
+        "fr": "Le porteur gagne 100% de son niveau en bouclier au premier tour, puis 200% au deuxième tour et 350% au troisième tour.",
+        "en": "The bearer gains 100% of their level as shield on the first turn, 200% on the second turn and 350% on the third turn.",
+        "pt": "O portador ganha 100% de seu nível em escudo no primeiro turno, 200% no segundo e 350% no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 100 % seiner Stufe als Schild, in der zweiten Runde 200 % und in der dritten Runde 350 %.",
+        "es": "El portador gana un 100% de su nivel en puntos de escudo en el primer turno, un 200% en el segundo turno y un 350% en el tercer turno."
+      }
+    }
+  },
+  "UO": {
+    "id": "UO",
+    "idDofusDB": 21996,
+    "idDofusBook": 21996,
+    "name": {
+      "fr": "Pryssion",
+      "en": "Pryssure",
+      "pt": "Prissão",
+      "de": "Pryssion",
+      "es": "Pristrés"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "pushbackDamage": -40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Pryssion",
+        "en": "Pryssure",
+        "pt": "Prissão",
+        "de": "Pryssion",
+        "es": "Pristrés"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 10% de dommages finaux pour gagner 2 PA pendant 3 tours.",
+        "en": "The bearer sacrifices 10% final damage to gain 2 AP for 3 turns.",
+        "pt": "O portador sacrifica 10% de danos finais para ganhar 2 PA durante 3 turnos.",
+        "de": "Der Träger opfert 10 % Endschaden, um 3 Runden lang 2 AP zu erhalten.",
+        "es": "El portador sacrifica un 10% de daños finales para ganar 2 PA durante 3 turnos."
+      }
+    }
+  },
+  "UN": {
+    "id": "UN",
+    "idDofusDB": 21997,
+    "idDofusBook": 21997,
+    "name": {
+      "fr": "Pryssion Brillante",
+      "en": "Shiny Pryssure",
+      "pt": "Prissão Brilhante",
+      "de": "Brillante Pryssion",
+      "es": "Pristrés brillante"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "pushbackDamage": -40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Pryssion Brillante",
+        "en": "Shiny Pryssure",
+        "pt": "Prissão Brilhante",
+        "de": "Brillante Pryssion",
+        "es": "Pristrés Brillante"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 35% de dommages finaux pour gagner 3 PA pendant 2 tours.",
+        "en": "The bearer sacrifices 35% final damage to gain 3 AP for 2 turns.",
+        "pt": "O portador sacrifica 35% de danos finais para ganhar 3 PA durante 2 turnos;",
+        "de": "Der Träger opfert 35 % Endschaden, um 2 Runden lang 3 AP zu erhalten.",
+        "es": "El portador sacrifica un 35% de daños finales para ganar 3 PA durante 2 turnos."
+      }
+    }
+  },
+  "UM": {
+    "id": "UM",
+    "idDofusDB": 21998,
+    "idDofusBook": 21998,
+    "name": {
+      "fr": "Pryssion Iridescente",
+      "en": "Iridescent Pryssure",
+      "pt": "Prissão Iridescente",
+      "de": "Schillernde Pryssion",
+      "es": "Pristrés iridiscente"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "pushbackDamage": -40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Pryssion Iridescente",
+        "en": "Iridescent Pryssure",
+        "pt": "Prissão Iridescente",
+        "de": "Schillernde Pryssion",
+        "es": "Pristrés Iridiscente"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 50% de dommages finaux pour gagner 4 PA pendant 1 tour.",
+        "en": "The bearer sacrifices 50% final damage to gain 4 AP for 1 turn.",
+        "pt": "O portador sacrifica 50% de danos finais para ganhar 4 PA durante 1 turno.",
+        "de": "Der Träger opfert 50 % Endschaden, um 1 Runde lang 4 AP zu erhalten.",
+        "es": "El portador sacrifica un 50% de daños finales para ganar 4 PA durante 1 turno."
+      }
+    }
+  },
+  "UL": {
+    "id": "UL",
+    "idDofusDB": 22001,
+    "idDofusBook": 22001,
+    "name": {
+      "fr": "Surpryz",
+      "en": "Surpryz",
+      "pt": "Surprisma",
+      "de": "Pryberraschung",
+      "es": "Prisorpresa"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "criticalChance": 10,
+      "initiative": -1000
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Surpryz",
+        "en": "Surpryz",
+        "pt": "Surprisma",
+        "de": "Pryberraschung",
+        "es": "Prisorpresa"
+      },
+      "description": {
+        "fr": "Le porteur gagne 100% de Critique au premier tour, puis 35% au deuxième tour, et 15% au troisième tour.",
+        "en": "The bearer gains 100% Critical on the first turn, 35% on the second turn and 15% on the third turn.",
+        "pt": "O portador ganha 100% de crítico no primeiro turno, 35% no segundo e 15% no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 100 % Chance auf kritische Treffer, in der zweiten Runde 35 % und in der dritten Runde 15 %.",
+        "es": "El portador gana un 100% de críticos en el primer turno, luego un 35% en el segundo turno y un 15% en el tercer turno."
+      }
+    }
+  },
+  "UK": {
+    "id": "UK",
+    "idDofusDB": 22004,
+    "idDofusBook": 22004,
+    "name": {
+      "fr": "Prynyang",
+      "en": "Prynyang",
+      "pt": "Pringyang",
+      "de": "Prynyang",
+      "es": "Prisyingyang"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "range": -2,
+      "criticalDamage": 25
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prynyang",
+        "en": "Prynyang",
+        "pt": "Pringyang",
+        "de": "Prynyang",
+        "es": "Prisyingyang"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 10% de résistance pour gagner 10% de dommages finaux au premier tour, puis gagne 3% de dommages finaux et de résistance au deuxième tour, et sacrifie 10% de dommages finaux pour gagner 10% de résistance au troisième tour.",
+        "en": "The bearer sacrifices 10% resistance to gain 10% final damage on the first turn, then gains 3% final damage and resistance on the second turn, and sacrifices 10% final damage to gain 10% resistance on the third turn.",
+        "pt": "O portador sacrifica 10% de resistência para ganhar 10% de danos finais no primeiro turno, depois ganha 3% de danos finais e de resistência no segundo turno e sacrifica 10% de danos finais para ganhar 10% de resistência no terceiro turno.",
+        "de": "Der Träger opfert in der ersten Runde 10 % Resistenz, um 10 % Endschaden zu erhalten, erhält dann 3 % Endschaden und Resistenz in der zweiten Runde und opfert in der dritten Runde schließlich 10 % Endschaden, um 10 % Resistenz zu erhalten.",
+        "es": "El portador sacrifica un 10% de resistencia para ganar un 10% de daños finales en el primer turno, después gana un 3% de daños finales y de resistencia en el segundo turno, y sacrifica un 10% de daños finales para ganar un 10% de resistencia en el tercer turno."
+      }
+    }
+  },
+  "UJ": {
+    "id": "UJ",
+    "idDofusDB": 22007,
+    "idDofusBook": 22007,
+    "name": {
+      "fr": "Ratrapry",
+      "en": "Prycapture",
+      "pt": "Aprissar",
+      "de": "Prynholjagd",
+      "es": "Pristeza"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "mp": 1,
+      "lock": -40
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Ratrapry",
+        "en": "Prycapture",
+        "pt": "Aprissar",
+        "de": "Prynholjagd",
+        "es": "Pristeza"
+      },
+      "description": {
+        "fr": "Le porteur gagne 1 PM pendant 3 tours pour chaque combattant ennemi à plus de 9 cases de lui au début du combat.",
+        "en": "The bearer gains 1 MP for 3 turns for each enemy fighter more than 9 cells away from them at the start of the fight.",
+        "pt": "O portador ganha 1 PM durante 3 turnos para cada combatente inimigo a mais de 9 células de distância dele no começo do combate.",
+        "de": "Der Träger erhält 3 Runden lang 1 BP pro gegnerischem Kämpfer, der zu Beginn des Kampfes mehr als 9 Felder von ihm entfernt ist.",
+        "es": "El portador gana 1 PM durante 3 turnos por cada luchador enemigo a más de 9 casillas de él al inicio del combate."
+      }
+    }
+  },
+  "UI": {
+    "id": "UI",
+    "idDofusDB": 22010,
+    "idDofusBook": 22010,
+    "name": {
+      "fr": "Prygen",
+      "en": "Prygenerate",
+      "pt": "Prigen",
+      "de": "Prygeneration",
+      "es": "Prisanación"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "vitality": 200,
+      "summon": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prygen",
+        "en": "Prygenerate",
+        "pt": "Prigen",
+        "de": "Prygeneration",
+        "es": "Prisanación"
+      },
+      "description": {
+        "fr": "Soigne 100% des dommages ennemis subis au premier tour, puis 35% au deuxième tour, et 15% au troisième tour.",
+        "en": "Heals 100% of enemy damage suffered on the first turn, 35% on the second turn and 15% on the third turn.",
+        "pt": "Cura 100% dos danos inimigos sofridos no primeiro turno, 35% no segundo e 15% no terceiro.",
+        "de": "Heilt in der ersten Runde 100 % des durch Gegner erlittenen Schadens, in der zweiten Runde 35 % und in der dritten Runde 15 %.",
+        "es": "Cura un 100% de los daños enemigos sufridos en el primer turno, un 35% en el segundo turno y un 15% en el tercer turno."
+      }
+    }
+  },
+  "UH": {
+    "id": "UH",
+    "idDofusDB": 22011,
+    "idDofusBook": 22011,
+    "name": {
+      "fr": "Prycipithon",
+      "en": "Prysipitate",
+      "pt": "Pricipitada",
+      "de": "Pryberstürzung",
+      "es": "Prismacción"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "mp": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prycipithon",
+        "en": "Prysipitate",
+        "pt": "Pricipitada",
+        "de": "Pryberstürztheit",
+        "es": "Prismacción"
+      },
+      "description": {
+        "fr": "Le porteur gagne 2 PA pendant son premier tour.",
+        "en": "The bearer gains +2 AP for their first turn.",
+        "pt": "O portador ganha 2 PA durante seu primeiro turno.",
+        "de": "Der Träger erhält während seiner ersten Spielrunde 2 AP.",
+        "es": "El portador gana 2 PA durante su primer turno."
+      }
+    }
+  },
+  "UG": {
+    "id": "UG",
+    "idDofusDB": 22012,
+    "idDofusBook": 22012,
+    "name": {
+      "fr": "Prycipithon Brillante",
+      "en": "Shiny Prysipitate",
+      "pt": "Pricipitada Brilhante",
+      "de": "Brillante Pryberstürzung",
+      "es": "Prismacción brillante"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "mp": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prycipithon Brillante",
+        "en": "Shiny Prysipitate",
+        "pt": "Pricipitada Brilhante",
+        "de": "Brillante Pryberstürzung",
+        "es": "Prismacción brillante"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 2 PM pour gagner 3 PA pendant son premier tour.",
+        "en": "The bearer sacrifices 2 MP to gain 3 AP for their first turn.",
+        "pt": "O portador sacrifica 2 PM para ganhar 3 PA durante seu primeiro turno.",
+        "de": "Der Träger opfert 2 BP, um während seiner ersten Runde 3 AP zu erhalten.",
+        "es": "El portador sacrifica 2 PM para ganar 3 PA durante su primer turno."
+      }
+    }
+  },
+  "UF": {
+    "id": "UF",
+    "idDofusDB": 22013,
+    "idDofusBook": 22013,
+    "name": {
+      "fr": "Prycipithon Iridescente",
+      "en": "Iridescent Prysipitate",
+      "pt": "Pricipitada Iridescente",
+      "de": "Schillernde Pryberstürzung",
+      "es": "Prismacción iridiscente"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "ap": 1,
+      "mp": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prycipithon Iridescente",
+        "en": "Iridescent Prysipitate",
+        "pt": "Pricipitada Iridescente",
+        "de": "Schillernde Pryberstürztheit",
+        "es": "Prismacción Iridiscente"
+      },
+      "description": {
+        "fr": "Le porteur sacrifie 4 PM pour gagner 4 PA pendant son premier tour.",
+        "en": "The bearer sacrifices 4 MP to gain 4 AP for their first turn.",
+        "pt": "O portador sacrifica 4 PM para ganhar 4 PA durante seu primeiro turno.",
+        "de": "Der Träger opfert 4 BP, um während seiner ersten Runde 4 AP zu erhalten.",
+        "es": "El portador sacrifica 4 PM para ganar 4 PA durante su primer turno."
+      }
+    }
+  },
+  "UE": {
+    "id": "UE",
+    "idDofusDB": 22014,
+    "idDofusBook": 22014,
+    "name": {
+      "fr": "Espryt",
+      "en": "Spryritual",
+      "pt": "Esprírito",
+      "de": "Espryt",
+      "es": "Prispíritu"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "apReduction": 20,
+      "mpReduction": 20,
+      "apResist": -20,
+      "mpResist": -20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Espryt",
+        "en": "Spryritual",
+        "pt": "Esprírito",
+        "de": "Espryt",
+        "es": "Prispíritu"
+      },
+      "description": {
+        "fr": "Le porteur gagne 100 de Retrait au premier tour, puis 30 au deuxième tour, et 10 au troisième tour.",
+        "en": "The bearer gains 100 AP/MP removal on the first turn, 30% on the second turn and 10% on the third turn.",
+        "pt": "O portador ganha 100 de retirada no primeiro turno, 30 no segundo e 10 no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 100 Entzug, in der zweiten Runde 30 und in der dritten Runde 10.",
+        "es": "El portador gana 100 de retirada en el primer turno, después 30 en el segundo turno y 10 en el tercer turno."
+      }
+    }
+  },
+  "UD": {
+    "id": "UD",
+    "idDofusDB": 22015,
+    "idDofusBook": 22015,
+    "name": {
+      "fr": "Korprys",
+      "en": "Prysical",
+      "pt": "Korpris",
+      "de": "Körprys",
+      "es": "Prisencia"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "apReduction": -30,
+      "mpReduction": -30,
+      "apResist": 30,
+      "mpResist": 30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Korprys",
+        "en": "Prysical",
+        "pt": "Korpris",
+        "de": "Körprys",
+        "es": "Prisencia"
+      },
+      "description": {
+        "fr": "Le porteur gagne 250 d'Esquive au premier tour, puis 50 au deuxième tour, et 10 au troisième tour.",
+        "en": "The bearer gains 250 Parry on the first turn, 50% on the second turn and 10% on the third turn.",
+        "pt": "O portador ganha 250 de esquiva no primeiro turno, 50 no segundo e 10 no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 250 Ausweichen, in der zweiten Runde 50 und in der dritten Runde 10.",
+        "es": "El portador gana 250 de esquiva en el primer turno, después 50 en el segundo turno y 10 en el tercer turno."
+      }
+    }
+  },
+  "UC": {
+    "id": "UC",
+    "idDofusDB": 22018,
+    "idDofusBook": 22018,
+    "name": {
+      "fr": "Caraprys",
+      "en": "Caraprys",
+      "pt": "Carapris",
+      "de": "Prystektion",
+      "es": "Caparapris"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "mp": -1,
+      "summon": 2
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Caraprys",
+        "en": "Caraprys",
+        "pt": "Carapris",
+        "de": "Prystektion",
+        "es": "Caparapris"
+      },
+      "description": {
+        "fr": "Le porteur donne 15% de résistances à ses invocations au premier tour, puis 10% au deuxième tour, et 5% au troisième tour.",
+        "en": "The bearer gives 15% resistance to their summons on the first turn, 10% on the second turn and 5% on the third turn.",
+        "pt": "O portador concede 15% de resistência a suas invocações no primeiro turno, 10% no segundo e 5% no terceiro.",
+        "de": "In der ersten Runde gibt der Träger 15 % Resistenzen an seine Beschwörungen weiter, in der zweiten Runde 10 % und in der dritten Runde 5 %.",
+        "es": "El portador otorga un 15% de resistencias a sus invocaciones en el primer turno, un 10% en el segundo turno y un 5% en el tercer turno."
+      }
+    }
+  },
+  "UB": {
+    "id": "UB",
+    "idDofusDB": 22019,
+    "idDofusBook": 22019,
+    "name": {
+      "fr": "Prysmaru",
+      "en": "Disaprys",
+      "pt": "Prismaparecido",
+      "de": "Ausgepryxt",
+      "es": "Prismausente"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "dodge": 40,
+      "apResist": -30,
+      "mpResist": -30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prysmaru",
+        "en": "Disaprys",
+        "pt": "Prismaparecido",
+        "de": "Ausgepryxt",
+        "es": "Prismausente"
+      },
+      "description": {
+        "fr": "Le porteur devient invisible pendant 1 tour au début de son premier tour de jeu.",
+        "en": "The bearer becomes Invisible for 1 turn at the start of their first turn.",
+        "pt": "O portador fica invisível durante 1 turno no começo de seu primeiro turno de jogo.",
+        "de": "Der Träger wird zu Beginn seiner ersten Spielrunde 1 Runde lang unsichtbar.",
+        "es": "El portador se vuelve invisible durante 1 turno al principio de su primer turno de juego."
+      }
+    }
+  },
+  "UA": {
+    "id": "UA",
+    "idDofusDB": 22020,
+    "idDofusBook": 22020,
+    "name": {
+      "fr": "Prysmenvout",
+      "en": "Prywitchment",
+      "pt": "Prismencanto",
+      "de": "Pryszauberung",
+      "es": "Prisortilegio"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "power": 80,
+      "initiative": -1000
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prysmenvout",
+        "en": "Prywitchment",
+        "pt": "Prismencanto",
+        "de": "Pryverzauberung",
+        "es": "Prisortilegio"
+      },
+      "description": {
+        "fr": "Le porteur réduit de 4 tours la durée des effets actifs sur lui au début de son premier tour de jeu.",
+        "en": "The bearer reduces the duration of active effects on themself by 4 turns at the start of their first turn.",
+        "pt": "O portador reduz em 4 turnos a duração dos efeitos ativos sobre ele no começo de seu primeiro turno de jogo.",
+        "de": "Der Träger verringert die Dauer der Effekte, die auf ihn einwirken, zu Beginn seiner ersten Spielrunde um 4 Runden.",
+        "es": "El portador reduce en 4 turnos la duración de los efectos activos en sí mismo al principio de su primer turno de juego."
+      }
+    }
+  },
+  "Uy": {
+    "id": "Uy",
+    "idDofusDB": 22022,
+    "idDofusBook": 22022,
+    "name": {
+      "fr": "Aprybou",
+      "en": "Pryshield",
+      "pt": "Prismeiros",
+      "de": "Nachpryschild",
+      "es": "Prismuralla"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "initiative": -1000,
+      "neutralResist": 25,
+      "earthResist": 25,
+      "fireResist": 25,
+      "waterResist": 25,
+      "airResist": 25
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Aprybou",
+        "en": "Pryshield",
+        "pt": "Prismeiros",
+        "de": "Nachpryschild",
+        "es": "Prismuralla"
+      },
+      "description": {
+        "fr": "Le porteur gagne 200% de son niveau en bouclier à durée infinie au début du tour de chaque combattant ennemi qui joue avant lui.",
+        "en": "The bearer gains 200% of their level as shield for an infinite duration at the start of turn of each enemy fighter that plays before them.",
+        "pt": "O portador ganha 200% de seu nível em escudo com duração infinita no começo do turno de cada combatente inimigo que joga antes dele.",
+        "de": "Der Träger erhält zu Beginn der Runde jedes gegnerischen Kämpfers, der vor ihm an der Reihe ist, auf unbestimmte Zeit 200 % seiner Stufe als Schild.",
+        "es": "El portador gana un 200% de su nivel en puntos de escudo de duración infinita al inicio del turno de cada luchador enemigo que juegue antes que él."
+      }
+    }
+  },
+  "Ux": {
+    "id": "Ux",
+    "idDofusDB": 22023,
+    "idDofusBook": 22023,
+    "name": {
+      "fr": "Pryximite",
+      "en": "Pryximity",
+      "pt": "Priximidade",
+      "de": "Pryximität",
+      "es": "Priximidad"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "reflect": 30,
+      "criticalResist": -30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Pryximite",
+        "en": "Pryximity",
+        "pt": "Priximidade",
+        "de": "Prymgebung",
+        "es": "Priximidad"
+      },
+      "description": {
+        "fr": "Le porteur gagne 2% de dommages en mêlée pendant 3 tours pour chaque combattant ennemi à 3 cases ou moins de lui au début de son premier tour.",
+        "en": "The bearer gains 2% close-combat damage for 3 turns for each enemy fighter within 3 cells or less of the bearer at the start of their first turn.",
+        "pt": "O portador ganha 2% de danos corpo a corpo durante 3 turnos para cada combatente inimigo a até 3 células dele no começo de seu primeiro turno.",
+        "de": "Der Träger erhält zu Beginn seiner ersten Runde 3 Runden lang 2 % Nahkampfschaden pro gegnerischem Kämpfer, der nicht mehr als 3 Felder von ihm entfernt ist.",
+        "es": "El portador gana un 2% de daños en cuerpo a cuerpo durante 3 turnos por cada luchador enemigo a 3 casillas o menos de él al principio de su primer turno."
+      }
+    }
+  },
+  "Uw": {
+    "id": "Uw",
+    "idDofusDB": 22024,
+    "idDofusBook": 22024,
+    "name": {
+      "fr": "Prymune",
+      "en": "Prymune",
+      "pt": "Primune",
+      "de": "Prymmun",
+      "es": "Prismantelación"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "neutralResistPer": 3,
+      "earthResistPer": 3,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "apResist": -30,
+      "mpResist": -30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prymune",
+        "en": "Prymune",
+        "pt": "Primune",
+        "de": "Prymun",
+        "es": "Prismantelación"
+      },
+      "description": {
+        "fr": "Le porteur réduit tout type de dommages subis de 80% au premier tour.",
+        "en": "The bearer reduces all types of damage suffered by 80% on the first turn.",
+        "pt": "O portador reduz todo tipo de dano sofrido em 80% no primeiro turno.",
+        "de": "Verringert den erlittenen Schaden des Trägers in der ersten Runde um 80 %.",
+        "es": "El portador reduce toda clase de daños sufridos un 80% en el primer turno."
+      }
+    }
+  },
+  "Uv": {
+    "id": "Uv",
+    "idDofusDB": 22025,
+    "idDofusBook": 22025,
+    "name": {
+      "fr": "Prysantor",
+      "en": "Gravprysy",
+      "pt": "Prisada",
+      "de": "Pryrkraft",
+      "es": "Prismazacote"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "criticalResist": 30,
+      "pushbackResist": -60
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Prysantor",
+        "en": "Gravprysy",
+        "pt": "Prisada",
+        "de": "Pryrkraft",
+        "es": "Prismazacote"
+      },
+      "description": {
+        "fr": "Le porteur est dans l'état Pesanteur tant qu'il n'a pas subi de dommages. S'il en subit, la durée de l'état passe à 1 tour.",
+        "en": "The bearer is in the Gravity state as long as they have not suffered any damage. If they suffer damage, the duration of the state changes to 1 turn.",
+        "pt": "O portador fica no estado Gravidade contanto que não tenha sofrido danos. Se tiver sofrido, a duração do estado passa a ser de 1 turno.",
+        "de": "Der Träger befindet sich im Zustand „Schwerkraft“, solange er keinen Schaden erleidet. Wenn er Schaden erleidet, wird die Dauer des Zustands auf 1 Runde gesetzt.",
+        "es": "El portador permanece en el estado Pesante mientras no sufra daños. Si los sufre, el estado dura 1 turno."
+      }
+    }
+  },
+  "UP": {
+    "id": "UP",
+    "idDofusDB": 21995,
+    "idDofusBook": 21995,
+    "name": {
+      "fr": "Sprynt",
+      "en": "Sprynt",
+      "pt": "Sprint",
+      "de": "Sprynt",
+      "es": "Prisprint"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "mp": 1,
+      "range": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Sprynt",
+        "en": "Sprynt",
+        "pt": "Sprint",
+        "de": "Sprynt",
+        "es": "Prisprint"
+      },
+      "description": {
+        "fr": "Le porteur est Intaclable tant qu'il n'a pas occasionné de dommages. S'il en occasionne, la durée de l'état passe à 1 tour.",
+        "en": "The bearer is Unlockable as long as they have not inflicted any damage. If they inflict damage, the duration of the state changes to 1 turn.",
+        "pt": "O portador fica Imbloqueável contanto que não tenha infligido danos. Se infligir, a duração do estado passará a ser de 1 turno.",
+        "de": "Der Träger ist unblockbar, solange er keinen Schaden verursacht. Wenn er Schaden verursacht, wird die Dauer des Zustands auf 1 Runde gesetzt.",
+        "es": "El portador es no placable mientras no haya recibido daños. Si los ocasiona, el estado dura 1 turno."
+      }
+    }
+  },
+  "Uz": {
+    "id": "Uz",
+    "idDofusDB": 22021,
+    "idDofusBook": 22021,
+    "name": {
+      "fr": "Supprys",
+      "en": "Aspryst",
+      "pt": "Pristeção",
+      "de": "Suppryt",
+      "es": "Prismapoyo"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "heal": 40,
+      "criticalDamage": -30
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Supprys",
+        "en": "Aspryst",
+        "pt": "Pristeção",
+        "de": "Suppryt",
+        "es": "Prismapoyo"
+      },
+      "description": {
+        "fr": "Le porteur augmente les soins reçus par ses combattants alliés de 50% pendant son tour de jeu au premier tour, puis de 35% au deuxième tour, et de 10% au troisième tour.",
+        "en": "The bearer increases the healing received by their allied fighters by 50% during the bearer's turn on the first turn, then by 35% on the second turn and by 10% on the third turn.",
+        "pt": "O portador aumenta as curas recebidas pelos combatentes aliados em 50% durante seu turno de jogo no primeiro turno, em 35% no segundo e em 10% no terceiro.",
+        "de": "Der Träger erhöht während seiner Spielrunde die von verbündeten Kämpfern erhaltene Heilung, und zwar in der ersten Runde um 50 %, in der zweiten Runde um 35 % und in der dritten Runde um 10 %.",
+        "es": "El portador aumenta los cuidados recibidos por sus luchadores aliados en un 50% durante su turno de juego en el primer turno, después un 35% en el segundo turno y un 10% en el tercer turno."
+      }
+    }
+  },
+  "Uu": {
+    "id": "Uu",
+    "idDofusDB": 32164,
+    "idDofusBook": 32164,
+    "name": {
+      "fr": "Indeprys",
+      "en": "Unmovaprys",
+      "pt": "Indepris",
+      "de": "Unverpryt",
+      "es": "Indespris"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "criticalResist": -50,
+      "pushbackResist": 100
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Indeprys",
+        "en": "Unmovaprys",
+        "pt": "Indepris",
+        "de": "Unverpryt",
+        "es": "Indespris"
+      },
+      "description": {
+        "fr": "Le porteur est Indéplaçable tant qu'il n'a pas subi de dommages. S'il en subit, la durée de l'état passe à 1 tour.",
+        "en": "The bearer is Unmovable as long as they have not suffered any damage. If they suffer damage, the duration of the state changes to 1 turn.",
+        "pt": "O portador fica Irremovível contanto que não tenha sofrido danos. Se tiver sofrido, a duração do estado passa a ser de 1 turno.",
+        "de": "Der Träger ist unverrückbar, solange er keinen Schaden erleidet. Wenn er Schaden erleidet, wird die Dauer des Zustands auf 1 Runde gesetzt.",
+        "es": "El portador es Indesplazable mientras no haya recibido daños. Si los sufre, el estado dura 1 turno."
+      }
+    }
   }
 }

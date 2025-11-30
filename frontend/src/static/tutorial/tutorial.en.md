@@ -13,7 +13,7 @@ I want this application to be as thorough as possible however I also want more c
 
 ## TL;DR :
 
-- Click on the weight of the characteristics you want in your build
+- Click on the weight of the characteristics you want in your build. Avoid using Min.
 - Set your level
 - Click on **"Calculate Best Items"**
 - Click on **"Quick Selection"**

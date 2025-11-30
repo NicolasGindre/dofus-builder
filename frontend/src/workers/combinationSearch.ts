@@ -1,7 +1,7 @@
 /// <reference lib="webworker" />
-// console.log("new worker starting");
+console.log("WORKER STARTED", performance.now());
 
-import init, { best_combo } from "../wasm/combination/pkg/combination";
+import { initSync, best_combo } from "../wasm/combination/pkg/combination";
 import type { BestBuildsResp } from "../types/build";
 import type { Panoply } from "../types/item";
 import type { Stats } from "../../../shared/types/stats";
@@ -26,18 +26,21 @@ export type Payload = {
 };
 
 onmessage = async (e: MessageEvent) => {
-    const parameters = e.data as Payload;
+    const msg = e.data;
 
-    if (!initialized) {
-        await init();
+    // const parameters = e.data as Payload;
+
+    if (msg.type === "init") {
+        initSync({ module: msg.bytes });
         initialized = true;
+        // postMessage({ type: "ready" });
+        return;
     }
 
-    // console.log("Weights sent to rust : ", parameters.weights);
-    // console.log("MinStats sent to rust : ", parameters.minStats);
-    // console.log("maxStats sent to rust : ", parameters.maxStats);
-    // console.log("Items sent to rust : ", parameters.minItemsCategory);
-    // console.log("panoplies sent to rust : ", parameters.panoplies);
+    if (!initialized) {
+        throw new Error("WASM not initialized");
+    }
+    const parameters = msg.payload as Payload;
 
     try {
         const progress = (p: number) => {

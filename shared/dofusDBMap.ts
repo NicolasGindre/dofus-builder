@@ -11,7 +11,7 @@ export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {
     weapon: [2, 3, 4, 5, 6, 7, 8, 19, 20, 21, 22, 83, 99, 102, 114, 271],
     shield: [82],
     pet: [18, 97, 121, 196, 207],
-    dofus: [151, 23],
+    dofus: [151, 23, 217],
 };
 
 export const ELEMENT_ID_DOFUSDB: Record<number, [Element, EffectType]> = {

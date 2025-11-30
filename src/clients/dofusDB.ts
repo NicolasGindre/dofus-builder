@@ -15,6 +15,7 @@ import {
 import { type StatKey } from "../../shared/types/stats";
 import { convertItemRequirement } from "./convertItemRequirement";
 import { CATEGORY_ID_DOFUSDB, ELEMENT_ID_DOFUSDB, STAT_ID_DOFUSDB } from "../../shared/dofusDBMap";
+import { itemsToSkip } from "./excludedItems";
 
 // export type DofusBookDBIdMap = Record<
 //     string,
@@ -127,7 +128,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
     let itemNames: string[] = [];
 
     const dofusBookIdMap: ItemMap = await Bun.file(`${dbPath}/dofusBookMap/idMap.json`).json();
-    const dofusBookNameMap: ItemMap = await Bun.file(`${dbPath}/dofusBookMap/nameMap.json`).json();
+    // const dofusBookNameMap: ItemMap = await Bun.file(`${dbPath}/dofusBookMap/nameMap.json`).json();
     const panoIdMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoIdMap.json`).json();
     // const panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
 
@@ -153,13 +154,13 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             // let dofusBookId: number;
             // let dofusMinMaxId: string;
             if (!dofusBookIdMap[dofusDbItem._id]) {
-                if (!dofusBookNameMap[dofusDbItem.name.fr]) {
-                    console.error("item has no match in dofusbook", dofusDbItem.name.fr);
-                    continue;
-                } else {
-                    itemMap = dofusBookNameMap[dofusDbItem.name.fr]!;
-                    console.log("There was no id match but found name match", dofusDbItem.name.fr);
-                }
+                // if (!dofusBookNameMap[dofusDbItem.name.fr]) {
+                console.error("item has no match in dofusbook", dofusDbItem.name.fr);
+                continue;
+                // } else {
+                //     itemMap = dofusBookNameMap[dofusDbItem.name.fr]!;
+                //     console.log("There was no id match but found name match", dofusDbItem.name.fr);
+                // }
             } else {
                 itemMap = dofusBookIdMap[dofusDbItem._id]!;
             }
@@ -392,7 +393,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
     let itemIndex = 0;
 
     let panoIdMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoIdMap.json`).json();
-    let panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
+    // let panoNameMap: PanoMap = await Bun.file(`${dbPath}/dofusBookMap/panoNameMap.json`).json();
 
     while (itemIndex < totalItems) {
         url.searchParams.set("$skip", itemIndex.toString());
@@ -414,13 +415,13 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
             }
             let panoMap: PanoMapValue;
             if (!panoIdMap[dofusDbPano._id]) {
-                if (!panoNameMap[dofusDbPano.name.fr]) {
-                    console.error("item has no match in dofusbook", dofusDbPano.name.fr);
-                    continue;
-                } else {
-                    panoMap = panoNameMap[dofusDbPano.name.fr]!;
-                    console.log("There was no id match but found name match", panoMap);
-                }
+                // if (!panoNameMap[dofusDbPano.name.fr]) {
+                console.error("item has no match in dofusbook", dofusDbPano.name.fr);
+                continue;
+                // } else {
+                //     panoMap = panoNameMap[dofusDbPano.name.fr]!;
+                //     console.log("There was no id match but found name match", panoMap);
+                // }
             } else {
                 panoMap = panoIdMap[dofusDbPano._id]!;
             }
@@ -478,13 +479,6 @@ function shouldSkipItem(dofusDbItem: ItemResp): boolean {
     return false;
 }
 
-const itemsToSkip: string[] = [
-    "Amourlette Hernel",
-    "Amourlette Hernelle",
-    "La Broche Céleste Ankarton",
-    "Pagniglou défectueux",
-    "Dofus Verdoyant",
-];
 function shouldSkipPano(dofusDbPano: PanoplyResp): boolean {
     if (panopliesToSkip.includes(dofusDbPano.name.fr)) {
         return true;

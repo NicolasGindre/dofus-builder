@@ -182,11 +182,13 @@ export default {
         belt: "Gürtel",
         boots: "Stiefel",
         cloak: "Umhang",
-        dofus: "Dofus",
-        trophy: "Trophäe",
         ring: "Ring",
         hat: "Hut",
         shield: "Schild",
+
+        dofus: "Dofus",
+        trophy: "Trophäe",
+        prysmaradite: "Prysmaradit",
 
         hammer: "Hammer",
         scythe: "Sense",

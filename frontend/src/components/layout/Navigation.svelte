@@ -67,7 +67,7 @@
         /* background-color: #d0d0d036; */
         z-index: 10000;
         position: fixed;
-        top: 221px;
+        top: 225px;
         transform: translateY(-30%);
         left: max(0px, calc((50% - 1250px / 2) - 5rem));
 
