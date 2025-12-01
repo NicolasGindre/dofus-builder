@@ -6,6 +6,7 @@ import type { BestBuildsResp } from "../types/build";
 import type { Panoply } from "../types/item";
 import type { Stats } from "../../../shared/types/stats";
 import type { MinRequirement } from "../../../shared/types/item";
+import { payloadWarmup } from "./payloadWarmup";
 
 type MinItem = {
     id: string;
@@ -32,6 +33,21 @@ onmessage = async (e: MessageEvent) => {
 
     if (msg.type === "init") {
         initSync({ module: msg.bytes });
+        try {
+            // Call heavy function on absolutely tiny input
+            // This forces Chrome to JIT-compile the hot WASM paths
+            best_combo(
+                payloadWarmup.minItems,
+                payloadWarmup.weights,
+                payloadWarmup.minStats,
+                payloadWarmup.maxStats,
+                payloadWarmup.preStats,
+                payloadWarmup.panoplies,
+                () => {},
+            );
+        } catch (_) {
+            // ignore errors from bogus input
+        }
         initialized = true;
         // postMessage({ type: "ready" });
         return;

@@ -22,8 +22,6 @@ Mon but est que cette application soit la plus complète possible, mais je souha
 - Comparez les résultats
 - Recommencez si nécessaire jusqu’à être satisfait
 
-Je recommande d’utiliser **Firefox** car le calcul des meilleurs builds y est 30% plus rapide que sur Chrome.
-
 ---
 
 # Utilisation basique

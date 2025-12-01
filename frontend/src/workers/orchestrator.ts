@@ -19,22 +19,31 @@ import wasmUrl from "../wasm/combination/pkg/combination_bg.wasm?url";
 const cores = navigator.hardwareConcurrency || 4;
 // const isFirefox = navigator.userAgent.includes("Firefox");
 const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
+// const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
+//     const w = new CombinationSearchWorker();
+//     return w;
+// });
 
-// Preload wasm bytes once
-const wasmBytesPromise = fetch(wasmUrl).then((r) => r.arrayBuffer());
+let workerPool: Worker[] = [];
 
-// Create worker pool once
-const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
-    const w = new CombinationSearchWorker();
-    return w;
-});
+function createFreshWorkerPool() {
+    return Array.from({ length: maxWorkers }, () => new CombinationSearchWorker());
+}
 
-// Initialize WASM in all workers once at module load
-wasmBytesPromise.then((bytes) => {
+export async function initWorkerPool() {
+    // if already initialized, do nothing
+    // if (workerPool.length > 0) return;
+
+    workerPool = createFreshWorkerPool();
+
+    const bytes = await fetch(wasmUrl).then((r) => r.arrayBuffer());
+
     for (const w of workerPool) {
         w.postMessage({ type: "init", bytes: bytes.slice(0) }, [bytes.slice(0)]);
     }
-});
+}
+// workerPool = createFreshWorkerPool();
+// await initWorkerPool();
 
 export type MinItem = {
     id: string;
@@ -66,7 +75,7 @@ export type Orchestrator = {
 };
 
 // const workerUrl = "combinationSearch.ts";
-export function createCombinationOrchestrator(multiThreading: boolean): Orchestrator {
+export function createCombinationOrchestrator(): Orchestrator {
     const running = writable(false);
     const combinationDone = writable(0);
     const error = writable<string | null>(null);
@@ -75,18 +84,19 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
     let resolve!: (v: any) => void;
     let reject!: (e: any) => void;
 
-    function cancel() {
+    async function cancel() {
         for (const w of workers) w.terminate();
         // workers = [];
         running.set(false);
 
-        for (const w of workers) {
-            w.postMessage({ type: "cancel" });
-        }
+        // workerPool = createFreshWorkerPool();
+        await initWorkerPool();
     }
 
     function start(payload: CombinationPayload) {
-        cancel();
+        // await initWorkerPool()
+        // cancel();
+        console.log(payload);
         running.set(true);
         combinationDone.set(0);
         error.set(null);
@@ -184,10 +194,12 @@ export function createCombinationOrchestrator(multiThreading: boolean): Orchestr
                     }
                 };
 
+                // w.addEventListener("onerror", (evt) => {
                 w.onerror = (evt) => {
                     error.set(`Worker error: ${evt.message ?? "unknown"}`);
                     cancel();
                     reject(evt);
+                    // });
                 };
 
                 // console.log("partial payload of worker: ", partialPayload[i]);

@@ -22,8 +22,6 @@ I want this application to be as thorough as possible however I also want more c
 - Compare results
 - Repeat if necessary until satisfied
 
-I recommend using **Firefox** because calculating the best builds is **30% faster** than on Chrome.
-
 ---
 
 # Basic usage
