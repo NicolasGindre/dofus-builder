@@ -1,5 +1,5 @@
 /// <reference lib="webworker" />
-console.log("WORKER STARTED", performance.now());
+// console.log("WORKER STARTED", performance.now());
 
 import { initSync, best_combo } from "../wasm/combination/pkg/combination";
 import type { BestBuildsResp } from "../types/build";

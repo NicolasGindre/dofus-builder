@@ -292,6 +292,7 @@
         max-height: calc(35vh - 5px);
         /* max-height: 90vh; */
         overflow-y: auto;
+        overflow-x: hidden;
     }
     .combo-header {
         display: flex;

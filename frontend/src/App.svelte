@@ -50,9 +50,6 @@
     //     document.body.dataset.heartbeat = performance.now().toString();
     //     console.log("hehehehe");
     // }, 300);
-    document.addEventListener("visibilitychange", () => {
-        console.log("Visibility changed:", document.visibilityState);
-    });
 </script>
 
 <TopBar />

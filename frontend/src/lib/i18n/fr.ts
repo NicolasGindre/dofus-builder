@@ -84,7 +84,11 @@ export default {
     page: "Page",
     comparing: "Comparaison",
 
-    noBuild: "Aucun Builds",
+    noSavedBuild: "Aucun build sauvegardé",
+    startSearchToSeeBuilds: "Lance une recherche pour voir des builds",
+    noBuildFound: "Aucun build trouvé avec les paramètres.",
+    useBetterParameters:
+        "Utilise des paramètres Min moins restrictifs → utilise plutôt des paramètres de poids.",
 
     compare: "Comparer",
     items: "Objets",

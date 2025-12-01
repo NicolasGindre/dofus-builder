@@ -4,6 +4,7 @@
         buildsDisplayed,
         buildShownCount,
         comparedBuild,
+        ranOneSearch,
         savedBuilds,
         savedBuildsPage,
         showSavedBuilds,
@@ -22,7 +23,7 @@
     import { CATEGORY_TO_SLOTS, type Build } from "../../types/build";
     import { calculateBuildToDisplay } from "../../logic/display";
     import { translateRequirement } from "../../logic/language";
-    import { tick } from "svelte";
+    import { onMount, tick } from "svelte";
     import ExportBuild from "./ExportBuild.svelte";
     import { ITEM_CATEGORIES } from "../../../../shared/types/item";
     import {
@@ -143,80 +144,76 @@
         });
         $showSavedBuilds ? (scrollPos.savedBuilds = 0) : (scrollPos.result = 0);
     }
-    // const next = () => (current = Math.min(total, current + 1));
 
     let buildRefs = [] as HTMLElement[];
     function nextBuild() {
-        const current = getCurrentIndex();
-        // const target = Math.min(current + 1, buildRefs.length - 1);
-        if (current + 1 >= buildRefs.length) {
-            if (currPage < total) {
-                nextPage();
-            }
+        if (currentIndex + 1 >= buildRefs.length) {
+            if (currPage < total) nextPage();
         } else {
-            scrollToBuild(current + 1);
+            scrollToBuild(currentIndex + 1);
         }
     }
     function prevBuild() {
-        const current = getCurrentIndex();
-        const el = buildRefs[current];
-        if (!el) return;
+        if (currentIndex === 0) {
+            // We are at the top of the page
+            if (currPage > 1) {
+                prevPage(); // loads previous page
 
-        const top = scrollEl.scrollTop;
-        const elTop = el.offsetTop;
-
-        const isAtTop = Math.abs(top - elTop) < 5;
-        if (isAtTop) {
-            if (current - 1 < 0) {
-                if (currPage > 1) {
-                    prevPage();
-                    requestAnimationFrame(() => {
-                        scrollToBuild(buildRefs.length - 1);
-                    });
-                }
-            } else {
-                scrollToBuild(current - 1);
+                // After page loads, scroll to last build
+                requestAnimationFrame(() => {
+                    const lastIndex = buildRefs.length - 1;
+                    scrollToBuild(lastIndex);
+                });
             }
         } else {
-            scrollToBuild(current);
+            // Normal case: just go to previous item
+            scrollToBuild(currentIndex - 1);
         }
     }
-
     function scrollToBuild(index: number) {
         const el = buildRefs[index];
         if (!el) return;
 
-        scrollEl.scrollTop = el.offsetTop;
-
-        // Double-check next frame
-        requestAnimationFrame(() => {
-            if (scrollEl.scrollTop !== el.offsetTop) {
-                scrollEl.scrollTop = el.offsetTop;
-            }
+        el.scrollIntoView({
+            behavior: "instant",
+            block: "start",
         });
     }
+    let currentIndex = 0;
+    let observer: IntersectionObserver | null = null;
+    async function resetObserver() {
+        await tick();
+        await tick();
 
-    // Detect which build is currently in view
-    function getCurrentIndex() {
-        const top = scrollEl.scrollTop;
-        const bottom = top + scrollEl.clientHeight;
-
-        for (let i = 0; i < buildRefs.length; i++) {
-            const el = buildRefs[i];
-            if (!el) continue;
-
-            const elTop = el.offsetTop;
-            const elBottom = elTop + el.offsetHeight;
-
-            // element intersects the viewport
-            const isVisible = elBottom > top && elTop < bottom;
-
-            if (isVisible) {
-                return i;
-            }
+        if (observer) {
+            observer.disconnect();
         }
-        return 0;
+        observer = new IntersectionObserver(
+            (entries) => {
+                for (const entry of entries) {
+                    if (entry.isIntersecting) {
+                        const idx = buildRefs.indexOf(entry.target as HTMLElement);
+                        if (idx !== -1) currentIndex = idx;
+                    }
+                }
+            },
+            {
+                root: scrollEl,
+                threshold: 0.5, // reliably triggers on zoomed layouts
+            },
+        );
+
+        buildRefs.forEach((el) => observer.observe(el));
     }
+    $: {
+        // run only when the DOM ref array length changes
+        if (buildRefs.length === $buildsDisplayed.length) {
+            resetObserver();
+        }
+    }
+    // $: if ($buildsDisplayed && $buildsDisplayed.length > 0) {
+    //     resetObserver();
+    // }
 
     let hoveredPano: string | undefined = undefined;
     function setHoveredPano(panoId: string) {
@@ -546,8 +543,15 @@
                     </div>
                 </div>
             {/each}
+        {:else if $showSavedBuilds}
+            <h3>{$words.noSavedBuild}</h3>
+        {:else if !$ranOneSearch}
+            <h3>{$words.startSearchToSeeBuilds}</h3>
         {:else}
-            <h3>{$words.noBuild}</h3>
+            <h3>
+                {$words.noBuildFound} <br />
+                {$words.useBetterParameters}
+            </h3>
         {/if}
     </div>
 </div>
@@ -699,7 +703,8 @@
 
         height: calc(100vh - 124px);
         min-height: 500px;
-        overflow: scroll;
+        overflow-y: scroll;
+        overflow-x: hidden;
         overscroll-behavior-y: contain;
         border: 1px solid #555;
         border-radius: 8px;

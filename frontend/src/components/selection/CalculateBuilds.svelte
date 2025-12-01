@@ -12,6 +12,7 @@
         minStats,
         panopliesSelected,
         preStats,
+        ranOneSearch,
         savedBuilds,
         totalPossibilities,
         weights,
@@ -72,6 +73,7 @@
             calculateBuildValue($comparedBuild);
             compareBuild($comparedBuild);
         }
+        ranOneSearch.set(true);
     }
     function refreshCalculSpeed() {
         if (!running) return;

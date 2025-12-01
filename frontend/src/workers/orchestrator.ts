@@ -186,7 +186,8 @@ export function createCombinationOrchestrator(): Orchestrator {
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
                             const top = merged.slice(0, 500);
-                            cancel();
+                            // cancel();
+                            running.set(false);
                             // bestBuilds.set(buildsFromWasm(msg.value));
                             return resolve(top);
                         }

@@ -42,7 +42,7 @@ Cliquez sur le poids des caractéristiques pour ajouter la valeur par défaut. A
 
 Les paramètres **Min** pour **PA, PM et Portée** sont les plus importantes si vous savez ce que vous voulez.
 
-Une fois vos poids et limites Min / Max définis, cliquez sur **« Calculer les meilleurs objets »**. N’oubliez pas non plus de définir le niveau souhaité.
+Une fois vos poids et limites Min / Max définis, cliquez sur **« Calculer les meilleurs objets »**. N’oubliez pas de définir le niveau souhaité.
 
 ---
 

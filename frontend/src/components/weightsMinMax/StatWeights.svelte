@@ -36,9 +36,9 @@
         minStatsIndex.set({});
         maxStatsIndex.set({ ...defaultMaxIndex });
     }
-    function setAllWeightsToDefault() {
-        weightsIndex.set(copyDefaultWeightsIndex());
-    }
+    // function setAllWeightsToDefault() {
+    //     weightsIndex.set(copyDefaultWeightsIndex());
+    // }
 
     let holdTimeout: number;
     let holdInterval: number;
@@ -371,7 +371,7 @@
 <div id="weights" class="section">
     <div class="controls">
         <button on:click={resetAll}>{$words.reset}</button>
-        <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button>
+        <!-- <button on:click={setAllWeightsToDefault}>{$words.setAllWeightsToDefault}</button> -->
 
         <label class="checkbox-label">
             <input
@@ -419,6 +419,7 @@
         height: 100%;
         outline: none;
         box-sizing: border-box;
+        background: #2b2a33;
     }
 
     .show-crosshair {

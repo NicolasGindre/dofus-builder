@@ -509,23 +509,17 @@ export function totalCombinations(minItems: MinItem[][]): number {
 }
 
 export function addToSavedBuilds(build: Build) {
-    let alreadyExists = false;
-    for (const savedBuild of get(savedBuilds)) {
-        if (savedBuild.id == build.id) {
-            alreadyExists = true;
-            savedBuild.name = build.name;
+    savedBuilds.update((builds) => {
+        const exists = builds.some((b) => b.id === build.id);
 
-            // const updated = [...savBuilds];
-            // updated[index] = { ...updated[index], name: build.name } as Build;
-            // savedBuilds.set(updated);
-            savedBuilds.update((builds) => [...builds, savedBuild]);
-            break;
+        if (exists) {
+            // Replace existing
+            return builds.map((b) => (b.id === build.id ? { ...b, name: build.name } : b));
         }
-    }
-    if (!alreadyExists) {
-        // savedBuilds.update((builds) => [...builds, build]);
-        savedBuilds.update((builds) => [...builds, build].sort((a, b) => b.value - a.value));
-    }
+
+        // Add new (sorted)
+        return [...builds, build].sort((a, b) => b.value - a.value);
+    });
 }
 export function deleteSavedBuild(id: string) {
     savedBuilds.update((builds) => builds.filter((b) => b.id !== id));

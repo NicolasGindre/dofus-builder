@@ -231,7 +231,8 @@ export function encodeStats(): string {
         get(exoRange),
         get(level),
     );
-    return encodedExosAndlevel.concat(".", encodedStats);
+    const encodedConcat = encodedExosAndlevel.concat(".", encodedStats);
+    return encodedConcat == "1O." ? "" : encodedConcat;
 }
 
 function encodeStatsKeys(statKeys: StatKey[]): string {

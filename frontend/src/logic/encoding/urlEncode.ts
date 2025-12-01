@@ -13,6 +13,7 @@ import { getEmptyCategoriesItems, type Item } from "../../types/item";
 import { calculateBestItems } from "../value";
 import { defaultMaxIndex } from "../../types/statWeights";
 import { decodeItems, encodeItems, sortItemsIds } from "./encodeItems";
+import type { ItemCategory } from "../../../../shared/types/item";
 
 let canEncode: boolean = false;
 let timeout: number;
@@ -68,17 +69,24 @@ export function getEncodedStatsAndLockedFromHash(hash: string): string {
     const encodedStats = pairs.s || "";
     // const encodedItems = pairs.i || "";
     // const split = encodedItems.split(".");
-    let lockedIdsArr = [];
+    const lockedCounts = new Map<ItemCategory, number>();
+
+    // let lockedIdsArr: Partial<Record<ItemCategory, number>> = {};
     const lockeds = Object.values(get(itemsLocked));
     for (const items of lockeds) {
         for (const item of Object.values(items)) {
             if (item.category != "dofus" && item.category != "pet") {
-                lockedIdsArr.push(item.id);
+                // lockedIdsArr.push(item.id);
+                lockedCounts.set(item.category, (lockedCounts.get(item.category) ?? 0) + 1);
             }
         }
     }
-    lockedIdsArr = sortItemsIds(lockedIdsArr);
-    return lockedIdsArr.length > 0 ? `${encodedStats}|${lockedIdsArr.join("")}` : encodedStats;
+    const lockedsString = [...lockedCounts.entries()]
+        .sort(([a], [b]) => a.localeCompare(b))
+        .map(([name, count]) => `${name}:${count}`)
+        .join(",");
+    // lockedIdsArr = sortItemsIds(lockedIdsArr);
+    return lockedsString.length > 0 ? `${encodedStats}|${lockedsString}` : encodedStats;
 }
 
 export function decodeFromUrl(hash?: string) {

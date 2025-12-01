@@ -194,7 +194,7 @@
                 seconds %= value;
             }
         }
-        return parts.length ? parts.slice(0, 2).join(", ") : "0 sec";
+        return parts.length ? parts.slice(0, 2).join(", ") : `<1 ${$words.sec}`;
     }
     $: firstDofusPanoCappedIndex =
         $itemsSelectedDisplayed["dofus"].findIndex(isItemBonusPanoCapped);
