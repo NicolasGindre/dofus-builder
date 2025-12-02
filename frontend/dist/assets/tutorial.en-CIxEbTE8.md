@@ -13,7 +13,7 @@ I want this application to be as thorough as possible however I also want more c
 
 ## TL;DR :
 
-- Click on the weight of the characteristics you want in your build
+- Click on the weight of the characteristics you want in your build. Avoid using Min.
 - Set your level
 - Click on **"Calculate Best Items"**
 - Click on **"Quick Selection"**
@@ -21,8 +21,6 @@ I want this application to be as thorough as possible however I also want more c
 - Click on **"Calculate Best Builds"**... And wait
 - Compare results
 - Repeat if necessary until satisfied
-
-I recommend using **Firefox** because calculating the best builds is **30% faster** than on Chrome.
 
 ---
 

@@ -24,8 +24,6 @@ Mein Ziel ist, dass diese Anwendung so vollständig wie möglich ist, aber ich m
 - Vergleiche die Ergebnisse
 - Wiederhole den Vorgang, bis du zufrieden bist
 
-Ich empfehle **Firefox**, weil die Berechnung der besten Builds dort etwa 30 % schneller ist als in Chrome.
-
 ---
 
 # Grundlegende Nutzung
