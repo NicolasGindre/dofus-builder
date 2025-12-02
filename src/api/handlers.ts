@@ -22,33 +22,33 @@ export async function loadPanopliesDofusDB(c: Context) {
     return c.body(null, 200);
 }
 
-const PASSWORD = "n0h4ckm3plz";
-let lastReloadAt = 0;
-export async function reloadAllItems(c: Context) {
-    console.log("received refresh item request");
-    const auth = c.req.header("authorization");
-    if (!auth?.startsWith("Bearer ")) return c.text("Unauthorized", 401);
+// const PASSWORD = "n0h4ckm3plz";
+// let lastReloadAt = 0;
+// export async function reloadAllItems(c: Context) {
+//     console.log("received refresh item request");
+//     const auth = c.req.header("authorization");
+//     if (!auth?.startsWith("Bearer ")) return c.text("Unauthorized", 401);
 
-    const provided = auth.slice("Bearer ".length).trim();
-    if (provided !== PASSWORD) return c.text("Forbidden", 403);
+//     const provided = auth.slice("Bearer ".length).trim();
+//     if (provided !== PASSWORD) return c.text("Forbidden", 403);
 
-    const now = Date.now();
-    const diff = now - lastReloadAt;
+//     const now = Date.now();
+//     const diff = now - lastReloadAt;
 
-    if (diff < 10_000) {
-        return c.text(`Why hack ? wait ${Math.ceil((10_000 - diff) / 1000)}s`, 429);
-    }
-    lastReloadAt = now;
+//     if (diff < 10_000) {
+//         return c.text(`Why hack ? wait ${Math.ceil((10_000 - diff) / 1000)}s`, 429);
+//     }
+//     lastReloadAt = now;
 
-    try {
-        console.log("Reloading items and panos");
-        await itemDB.loadItemsAndPanos();
-        return c.text("Reloaded", 200);
-    } catch (err) {
-        logError("reload All Items failed", err);
-        return c.text("Internal Server Error", 500);
-    }
-}
+//     try {
+//         console.log("Reloading items and panos");
+//         await itemDB.loadItemsAndPanos();
+//         return c.text("Reloaded", 200);
+//     } catch (err) {
+//         logError("reload All Items failed", err);
+//         return c.text("Internal Server Error", 500);
+//     }
+// }
 
 export async function getAllItems(c: Context) {
     try {
