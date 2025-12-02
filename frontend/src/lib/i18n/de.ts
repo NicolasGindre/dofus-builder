@@ -82,7 +82,11 @@ export default {
     page: "Seite",
     comparing: "Vergleich",
 
-    noBuild: "Kein Build",
+    noSavedBuild: "Keine gespeicherten Builds",
+    startSearchToSeeBuilds: "Starte eine Suche, um Builds zu sehen",
+    noBuildFound: "Kein Build mit diesen Parametern gefunden.",
+    useBetterParameters:
+        "Nutze weniger restriktive Min-Parameter → verwende stattdessen Gewichtsparameter.",
 
     compare: "Vergleichen",
     items: "Gegenstände",
@@ -182,11 +186,13 @@ export default {
         belt: "Gürtel",
         boots: "Stiefel",
         cloak: "Umhang",
-        dofus: "Dofus",
-        trophy: "Trophäe",
         ring: "Ring",
         hat: "Hut",
         shield: "Schild",
+
+        dofus: "Dofus",
+        trophy: "Trophäe",
+        prysmaradite: "Prysmaradit",
 
         hammer: "Hammer",
         scythe: "Sense",

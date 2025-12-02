@@ -14,7 +14,7 @@
         pt: tutorialPt,
         de: tutorialDe,
     };
-    console.log("Tutorials:", tutorials);
+    // console.log("Tutorials:", tutorials);
 
     let content = "";
 

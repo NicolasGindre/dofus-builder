@@ -205,41 +205,37 @@ function addBuildRequirement(build: Build, requirements?: Requirement[][]) {
         build.requirements.push(...requirements);
     }
 }
+
 function addBuildMinRequirement(build: Build, requirement?: MinRequirement) {
-    if (!requirement) {
-        return;
-    }
+    if (!requirement) return;
+
+    // Work with a copy to avoid mutating the original item requirement
+    const reqCopy: MinRequirement = { ...requirement };
 
     let requirementExists = false;
     for (const buildReq of build.minRequirements) {
-        if (buildReq.type == requirement.type) {
+        if (buildReq.type == reqCopy.type) {
             requirementExists = true;
-            if (requirement.type.includes("LessThan")) {
-                if (requirement.value && requirement.value < buildReq.value!) {
-                    buildReq.value = requirement.value;
+            if (reqCopy.type.includes("LessThan")) {
+                if (reqCopy.value != null && reqCopy.value < (buildReq.value ?? Infinity)) {
+                    buildReq.value = reqCopy.value;
                 }
-                if (requirement.value2 && requirement.value2 < buildReq.value2!) {
-                    buildReq.value2 = requirement.value2;
-                }
-                if (requirement.value && requirement.value < buildReq.value!) {
-                    buildReq.value = requirement.value;
+                if (reqCopy.value2 != null && reqCopy.value2 < (buildReq.value2 ?? Infinity)) {
+                    buildReq.value2 = reqCopy.value2;
                 }
             } else {
-                if (requirement.value && requirement.value > buildReq.value!) {
-                    buildReq.value = requirement.value;
+                if (reqCopy.value != null && reqCopy.value > (buildReq.value ?? -Infinity)) {
+                    buildReq.value = reqCopy.value;
                 }
-                if (requirement.value2 && requirement.value2 > buildReq.value2!) {
-                    buildReq.value2 = requirement.value2;
-                }
-                if (requirement.value && requirement.value > buildReq.value!) {
-                    buildReq.value = requirement.value;
+                if (reqCopy.value2 != null && reqCopy.value2 > (buildReq.value2 ?? -Infinity)) {
+                    buildReq.value2 = reqCopy.value2;
                 }
             }
             break;
         }
     }
     if (!requirementExists) {
-        build.minRequirements.push(requirement);
+        build.minRequirements.push(reqCopy);
     }
 }
 
@@ -395,7 +391,7 @@ function capBuildStats(build: Build) {
                     build.cappedStats["mp"] &&
                     build.cappedStats["mp"] >= (requirement.value ?? 9999)
                 ) {
-                    capStat(build.cappedStats, "mp", requirement.value2! - 1);
+                    capStat(build.cappedStats, "mp", requirement.value! - 1);
                 }
                 break;
         }
@@ -513,23 +509,17 @@ export function totalCombinations(minItems: MinItem[][]): number {
 }
 
 export function addToSavedBuilds(build: Build) {
-    let alreadyExists = false;
-    for (const savedBuild of get(savedBuilds)) {
-        if (savedBuild.id == build.id) {
-            alreadyExists = true;
-            savedBuild.name = build.name;
+    savedBuilds.update((builds) => {
+        const exists = builds.some((b) => b.id === build.id);
 
-            // const updated = [...savBuilds];
-            // updated[index] = { ...updated[index], name: build.name } as Build;
-            // savedBuilds.set(updated);
-            savedBuilds.update((builds) => [...builds, savedBuild]);
-            break;
+        if (exists) {
+            // Replace existing
+            return builds.map((b) => (b.id === build.id ? { ...b, name: build.name } : b));
         }
-    }
-    if (!alreadyExists) {
-        // savedBuilds.update((builds) => [...builds, build]);
-        savedBuilds.update((builds) => [...builds, build].sort((a, b) => b.value - a.value));
-    }
+
+        // Add new (sorted)
+        return [...builds, build].sort((a, b) => b.value - a.value);
+    });
 }
 export function deleteSavedBuild(id: string) {
     savedBuilds.update((builds) => builds.filter((b) => b.id !== id));

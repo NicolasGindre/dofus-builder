@@ -82,7 +82,10 @@ export default {
     page: "Página",
     comparing: "Comparación",
 
-    noBuild: "Ninguna build",
+    noSavedBuild: "Ninguna build guardada",
+    startSearchToSeeBuilds: "Inicia una búsqueda para ver builds",
+    noBuildFound: "No se encontró ninguna build con los parámetros.",
+    useBetterParameters: "Usa parámetros Mín menos restrictivos → usa parámetros de peso.",
 
     compare: "Comparar",
     items: "Objetos",
@@ -182,11 +185,13 @@ export default {
         belt: "Cinturón",
         boots: "Botas",
         cloak: "Capa",
-        dofus: "Dofus",
-        trophy: "Trofeo",
         ring: "Anillo",
         hat: "Sombrero",
         shield: "Escudo",
+
+        dofus: "Dofus",
+        trophy: "Trofeo",
+        prysmaradite: "Prysmaradita",
 
         hammer: "Martillo",
         scythe: "Guadaña",

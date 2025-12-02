@@ -149,7 +149,8 @@ button:focus-visible {
     }
 } */
 
-pre,
-code {
-    background-color: #412c2c;
+.svelte-select {
+    --item-padding: 6px 10px;
+    --item-border-radius: 4px;
+    --dropdown-border-radius: 6px;
 }

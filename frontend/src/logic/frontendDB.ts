@@ -23,7 +23,15 @@ import { buildsFromIds } from "./build";
 
 let init = false;
 const itemsVersionDisplayed = "v3.3.18.17";
-const itemsVersion = itemsVersionDisplayed + ".1";
+const itemsVersion = itemsVersionDisplayed + ".2";
+
+// let last = performance.now();
+// setInterval(() => {
+//     const now = performance.now();
+//     const delta = now - last;
+//     last = now;
+//     console.log("delta", Math.round(delta));
+// }, 100);
 
 export async function loadItemsAndPanos() {
     let itemsUpToDate = false;

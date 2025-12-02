@@ -12,12 +12,14 @@
         minStats,
         panopliesSelected,
         preStats,
+        ranOneSearch,
         savedBuilds,
         totalPossibilities,
         weights,
         words,
     } from "../../stores/storeBuilder";
-    import { createCombinationOrchestrator } from "../../workers/orchestrator";
+    import { createCombinationOrchestrator, initWorkerPool } from "../../workers/orchestrator";
+    import { onMount } from "svelte";
 
     let combinationStart = 0;
     let timeStart: number;
@@ -31,7 +33,7 @@
     // running = true;
 
     // multithr
-    const orchestrator = createCombinationOrchestrator(true);
+    const orchestrator = createCombinationOrchestrator();
     const { running, combinationDone, error } = orchestrator;
 
     // console.log("getPanoToCalculate");
@@ -71,6 +73,7 @@
             calculateBuildValue($comparedBuild);
             compareBuild($comparedBuild);
         }
+        ranOneSearch.set(true);
     }
     function refreshCalculSpeed() {
         if (!running) return;
@@ -82,6 +85,9 @@
         orchestrator.cancel();
         clearInterval(intervalId);
     }
+    onMount(async () => {
+        initWorkerPool();
+    });
 </script>
 
 {#if $error}

@@ -218,6 +218,7 @@ export const timeEstimated: Readable<number> = derived(
         return $totalPossibilities / 1000000 / ($buildsPerMinute / 60);
     },
 );
+export const ranOneSearch = writable<boolean>(false);
 
 export const panopliesSelected = derived(itemsSelected, ($itemsCategory) => {
     const panoSelected: Panoplies = {};

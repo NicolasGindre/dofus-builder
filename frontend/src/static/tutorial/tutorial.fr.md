@@ -13,7 +13,7 @@ Mon but est que cette application soit la plus complète possible, mais je souha
 
 ## TL;DR :
 
-- Cliquez sur le poids des caractéristiques que vous voulez dans votre build
+- Cliquez sur le poids des caractéristiques que vous voulez dans votre build. Ne touchez pas au Min / Max.
 - Indiquez votre niveau
 - Cliquez sur **« Calculer les meilleurs objets »**
 - Cliquez sur **« Sélection rapide »**
@@ -21,8 +21,6 @@ Mon but est que cette application soit la plus complète possible, mais je souha
 - Cliquez sur **« Calculer les meilleurs builds »**… et attendez
 - Comparez les résultats
 - Recommencez si nécessaire jusqu’à être satisfait
-
-Je recommande d’utiliser **Firefox** car le calcul des meilleurs builds y est 30% plus rapide que sur Chrome.
 
 ---
 
@@ -44,7 +42,7 @@ Cliquez sur le poids des caractéristiques pour ajouter la valeur par défaut. A
 
 Les paramètres **Min** pour **PA, PM et Portée** sont les plus importantes si vous savez ce que vous voulez.
 
-Une fois vos poids et limites Min / Max définis, cliquez sur **« Calculer les meilleurs objets »**. N’oubliez pas non plus de définir le niveau souhaité.
+Une fois vos poids et limites Min / Max définis, cliquez sur **« Calculer les meilleurs objets »**. N’oubliez pas de définir le niveau souhaité.
 
 ---
 
