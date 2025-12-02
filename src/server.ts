@@ -78,7 +78,7 @@ try {
 
     serve({
         fetch: app.fetch,
-        port: 8081,
+        port: 3001,
         idleTimeout: 30,
         hostname: "0.0.0.0",
     });
