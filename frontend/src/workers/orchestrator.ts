@@ -55,17 +55,13 @@ let workerPool: Worker[] = [];
 type Mode = "cpu" | "gpu";
 let mode: Mode = "gpu";
 
-function createFreshWorkerPool(mode: Mode) {
-    if (mode == "gpu") {
-        return Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerGpu());
-    } else {
-        return Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerCpu());
-    }
-}
-
 export async function initWorkerPool() {
-    workerPool = createFreshWorkerPool(mode);
-
+    let mode: Mode = "gpu" in navigator ? "gpu" : "cpu";
+    if (mode == "gpu") {
+        workerPool = Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerGpu());
+    } else {
+        workerPool = Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerCpu());
+    }
     const bytes =
         mode == "gpu"
             ? await fetch(wasmGpuUrl).then((r) => r.arrayBuffer())
