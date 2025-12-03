@@ -53,7 +53,7 @@ const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
 
 let workerPool: Worker[] = [];
 type Mode = "cpu" | "gpu";
-let mode: Mode = "cpu";
+let mode: Mode = "gpu";
 
 function createFreshWorkerPool(mode: Mode) {
     if (mode == "gpu") {

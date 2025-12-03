@@ -25,7 +25,6 @@ pub fn best_combo_cpu(
     max_js: JsValue,
     pre_stats_js: JsValue,
     panoplies_js: JsValue,
-    min_pano_bonus: usize,
     progress_cb: Option<Function>,
 ) -> Result<JsValue, JsValue> {
     cpu::best_combo_cpu_impl(
@@ -35,7 +34,6 @@ pub fn best_combo_cpu(
         max_js,
         pre_stats_js,
         panoplies_js,
-        min_pano_bonus,
         progress_cb,
     )
 }
@@ -50,7 +48,6 @@ pub async fn best_combo_gpu(
     max_js: JsValue,
     pre_stats_js: JsValue,
     panoplies_js: JsValue,
-    min_pano_bonus: u32,
     progress_cb: Option<Function>,
 ) -> Result<JsValue, JsValue> {
     crate::gpu::best_combo_gpu_impl(
@@ -60,7 +57,6 @@ pub async fn best_combo_gpu(
         max_js,
         pre_stats_js,
         panoplies_js,
-        min_pano_bonus,
         progress_cb,
     )
     .await

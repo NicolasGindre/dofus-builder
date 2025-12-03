@@ -18,7 +18,6 @@ pub fn best_combo_cpu_impl(
     max_js: JsValue,
     pre_stats_js: JsValue,
     panoplies_js: JsValue,
-    min_pano_bonus: usize,
     progress_cb: Option<Function>,
 ) -> Result<JsValue, JsValue> {
     // Deserialize input
@@ -109,20 +108,11 @@ pub fn best_combo_cpu_impl(
         for &pid in &touched { pcount[pid] = 0; }
         touched.clear();
 
-        let mut has_pano_req = false;
-        let mut min_req_pano: usize = usize::MAX;
-
         for (ci, &ii) in idx.iter().enumerate() {
             let item = &items[ci][ii];
 
             build_stats += &item.stats;
 
-            if let Some(Requirement::PanopliesBonusLessThan { value }) = &item.requirement {
-                has_pano_req = true;
-                if *value < min_req_pano {
-                    min_req_pano = *value;
-                }
-            }
             // log(format!("item.pan_sparse: {:?}", item.pan_sparse));
 
             // add sparse panoply counts
@@ -149,92 +139,97 @@ pub fn best_combo_cpu_impl(
                 panoplies_bonus += count.saturating_sub(1);
             }
         }
+        // log(format!("panoplies_bonus: {:?}", panoplies_bonus));
+
+        if let Some(pid_momore) = pano_cire_momore_pid {
+            if touched.contains(&pid_momore) {
+                let count = *pcount.get(pid_momore).unwrap_or(&0);
+                if count >= 2 {
+                    match count {
+                        2 => {
+                            if build_stats.mp > 4.0 { build_stats.mp = 4.0; }
+                            if build_stats.range > 4.0 { build_stats.range = 4.0; }
+                            if build_stats.summon > 4.0 { build_stats.summon = 4.0; }
+                        }
+                        3 | 4 | 5 => {
+                            if build_stats.mp > 3.0 { build_stats.mp = 3.0; }
+                            if build_stats.range > 3.0 { build_stats.range = 3.0; }
+                            if build_stats.summon > 3.0 { build_stats.summon = 3.0; }
+                        }
+                        6.. => {
+                            if build_stats.mp > 2.0 { build_stats.mp = 2.0; }
+                            if build_stats.range > 2.0 { build_stats.range = 2.0; }
+                            if build_stats.summon > 2.0 { build_stats.summon = 2.0; }
+                        }
+                        _ => {}
+                    }
+                }
+            }
+        }
+        // log(format!("build_stats: {:?}", build_stats));
         
+        let mut skip_build = false;
 
-        let mut build_value = 0.0;
-        if panoplies_bonus >= min_pano_bonus && (!has_pano_req || panoplies_bonus < min_req_pano) {
+        for (category_i, &item_i) in idx.iter().enumerate() {
+            let item = &items[category_i][item_i];
 
-            if let Some(pid_momore) = pano_cire_momore_pid {
-                if touched.contains(&pid_momore) {
-                    let count = *pcount.get(pid_momore).unwrap_or(&0);
-                    if count >= 2 {
-                        match count {
-                            2 => {
-                                if build_stats.mp > 4.0 { build_stats.mp = 4.0; }
-                                if build_stats.range > 4.0 { build_stats.range = 4.0; }
-                                if build_stats.summon > 4.0 { build_stats.summon = 4.0; }
-                            }
-                            3 | 4 | 5 => {
-                                if build_stats.mp > 3.0 { build_stats.mp = 3.0; }
-                                if build_stats.range > 3.0 { build_stats.range = 3.0; }
-                                if build_stats.summon > 3.0 { build_stats.summon = 3.0; }
-                            }
-                            6.. => {
-                                if build_stats.mp > 2.0 { build_stats.mp = 2.0; }
-                                if build_stats.range > 2.0 { build_stats.range = 2.0; }
-                                if build_stats.summon > 2.0 { build_stats.summon = 2.0; }
-                            }
-                            _ => {}
+            // log(format!("item.requirement: {:?}", item.requirement));
+
+            if let Some(req) = &item.requirement {
+                match req {
+                    Requirement::PanopliesBonusLessThan { value } => {
+                        if panoplies_bonus >= *value {
+                            skip_build = true;
+                            break;
+                        }
+                    }
+                    Requirement::ApLessThan { value } => {
+                        if build_stats.ap >= *value {
+                            build_stats.ap = *value - 1.0;
+                        }
+                    }
+                    Requirement::MpLessThan { value } => {
+                        if build_stats.mp >= *value {
+                            build_stats.mp = *value - 1.0;
+                        }
+                    }
+                    Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
+                        if build_stats.ap >= *value {
+                            build_stats.ap = *value - 1.0;
+                        }
+                        if build_stats.mp >= *value_2 {
+                            build_stats.mp = *value_2 - 1.0;
+                        }
+                    }
+                    Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
+                        if build_stats.ap < *value
+                            || build_stats.mp < *value_2
+                            || max_stats.ap < *value
+                            || max_stats.mp < *value_2
+                        {
+                            // if either one of the stat is already capped no need to do anything
+                        } else if min_stats.ap >= *value && min_stats.mp >= *value_2 {
+                            skip_build = true;
+                            break;
+                        } else if min_stats.ap >= *value {
+                            build_stats.mp = *value_2 - 1.0;
+                        } else if min_stats.mp >= *value_2 {
+                            build_stats.ap = *value - 1.0;
+                        } else if weights.ap > weights.mp {
+                            build_stats.mp = *value_2 - 1.0;
+                        } else {
+                            build_stats.ap = *value - 1.0; // default to cap ap if equal weights
                         }
                     }
                 }
             }
-            // log(format!("build_stats: {:?}", build_stats));
-            let mut skip_build = false;
-
-            for (category_i, &item_i) in idx.iter().enumerate() {
-                let item = &items[category_i][item_i];
-
-                // log(format!("item.requirement: {:?}", item.requirement));
-
-                if let Some(req) = &item.requirement {
-                    match req {
-                        Requirement::PanopliesBonusLessThan { .. } => {}
-                        Requirement::ApLessThan { value } => {
-                            if build_stats.ap >= *value {
-                                build_stats.ap = *value - 1.0;
-                            }
-                        }
-                        Requirement::MpLessThan { value } => {
-                            if build_stats.mp >= *value {
-                                build_stats.mp = *value - 1.0;
-                            }
-                        }
-                        Requirement::ApLessThanAndMpLessThan { value, value_2 } => {
-                            if build_stats.ap >= *value {
-                                build_stats.ap = *value - 1.0;
-                            }
-                            if build_stats.mp >= *value_2 {
-                                build_stats.mp = *value_2 - 1.0;
-                            }
-                        }
-                        Requirement::ApLessThanOrMpLessThan { value, value_2 } => {
-                            if build_stats.ap < *value
-                                || build_stats.mp < *value_2
-                                || max_stats.ap < *value
-                                || max_stats.mp < *value_2
-                            {
-                                // if either one of the stat is already capped no need to do anything
-                            } else if min_stats.ap >= *value && min_stats.mp >= *value_2 {
-                                skip_build = true;
-                                break;
-                            } else if min_stats.ap >= *value {
-                                build_stats.mp = *value_2 - 1.0;
-                            } else if min_stats.mp >= *value_2 {
-                                build_stats.ap = *value - 1.0;
-                            } else if weights.ap > weights.mp {
-                                build_stats.mp = *value_2 - 1.0;
-                            } else {
-                                build_stats.ap = *value - 1.0; // default to cap ap if equal weights
-                            }
-                        }
-                    }
-                }
-            }
-
-            if !skip_build {
-                build_value = build_stats.value(&weights, &min_stats, &max_stats);
-            }
+        }
+        let build_value;
+        if skip_build {
+            build_value = 0.0;
+        } else {
+            build_value = build_stats.value(&weights, &min_stats, &max_stats);
+            // build_value = build_stats.value(&weights, &min_adj, &max_adj);
         }
 
         if heap.len() < 500 || build_value > lowest_best_value {

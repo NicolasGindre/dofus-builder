@@ -19,7 +19,6 @@ function runBestCombo(params: Payload, progress: (p: number) => void): BestBuild
         params.maxStats,
         params.preStats,
         params.panoplies,
-        8,
         progress,
     );
 }

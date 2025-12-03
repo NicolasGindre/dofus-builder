@@ -22,7 +22,6 @@ async function runBestCombo(
         params.maxStats,
         params.preStats,
         params.panoplies,
-        2,
         progress,
     );
 }

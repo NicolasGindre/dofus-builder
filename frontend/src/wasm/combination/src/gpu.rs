@@ -35,7 +35,7 @@ struct Params {
     num_panoplies: u32,
     momore_pid: u32,
     chunk_start: u32,
-    min_pano_bonus: u32,
+    _pad0: u32,
     _pad1: u32,
     _pad2: u32,
 
@@ -108,23 +108,10 @@ fn main(@builtin(global_invocation_id) gid: vec3<u32>) {
 
     var panoplies_bonus: u32 = 0u;
 
-    var has_pano_req: bool = false;
-    var min_req_pano_thr: u32 = 0xffffffffu;
-
     // Accumulate item stats & panoply counts
     for (var c: u32 = 0u; c < params.num_categories; c = c + 1u) {
         let cat_off = u32_at(params.off_category_offsets, c);
         let base_item = cat_off + idx[c];
-
-        let kind = u32_at(params.off_item_req_kind, base_item);
-        if (kind == 1u) {
-            let thr_f = f32_at(params.off_item_req_v1, base_item);
-            let thr = u32(thr_f);
-            if (thr < min_req_pano_thr) {
-                min_req_pano_thr = thr;
-            }
-            has_pano_req = true;
-        }
 
         let stats_base = params.off_items_stats + base_item * NUM_STATS;
         for (var s: u32 = 0u; s < NUM_STATS; s = s + 1u) {
@@ -158,15 +145,6 @@ fn main(@builtin(global_invocation_id) gid: vec3<u32>) {
                 }
             }
         }
-    }
-
-    if (panoplies_bonus < params.min_pano_bonus) {
-        out_values[local] = 0.0;
-        return;
-    }
-    if (has_pano_req && panoplies_bonus >= min_req_pano_thr) {
-        out_values[local] = 0.0;
-        return;
     }
 
     // Momore rules
@@ -213,7 +191,13 @@ fn main(@builtin(global_invocation_id) gid: vec3<u32>) {
         let v1 = f32_at(params.off_item_req_v1, base_item);
         let v2 = f32_at(params.off_item_req_v2, base_item);
 
-        if (kind == 2u) {
+        if (kind == 1u) {
+            let thr = u32(v1);
+            if (panoplies_bonus >= thr) {
+                skip = true;
+                break;
+            }
+        } else if (kind == 2u) {
             if (build_stats[STAT_AP] >= v1) {
                 build_stats[STAT_AP] = v1 - 1.0;
             }
@@ -294,7 +278,7 @@ struct Params {
     num_panoplies: u32,
     momore_pid: u32,
     chunk_start: u32,
-    min_pano_bonus: u32,
+    _pad0: u32,
     _pad1: u32,
     _pad2: u32,
 
@@ -746,7 +730,6 @@ pub async fn best_combo_gpu_impl(
     max_js: JsValue,
     pre_stats_js: JsValue,
     panoplies_js: JsValue,
-    min_pano_bonus: u32,
     progress_cb: Option<Function>,
 ) -> Result<JsValue, JsValue> {
     // Deserialize input
@@ -1034,7 +1017,7 @@ pub async fn best_combo_gpu_impl(
             num_panoplies: pan.bonus.len() as u32,
             momore_pid: momore_pid_u32,
             chunk_start,
-            min_pano_bonus,
+            _pad0: 0,
             _pad1: 0,
             _pad2: 0,
 
