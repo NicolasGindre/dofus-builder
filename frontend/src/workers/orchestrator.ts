@@ -8,42 +8,14 @@ import {
     type Items,
     type Panoply,
 } from "../types/item";
-import type { Payload } from "./combinationSearch";
-import CombinationSearchWorker from "./combinationSearch.ts?worker&module";
 import { isItemBonusPanoCapped } from "../logic/item";
 import type { ItemCategory, MinRequirement } from "../../../shared/types/item";
 import type { Stats } from "../../../shared/types/stats";
 
-import wasmUrl from "../wasm/combination/pkg/combination_bg.wasm?url";
-
-const cores = navigator.hardwareConcurrency || 4;
-// const isFirefox = navigator.userAgent.includes("Firefox");
-const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
-// const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
-//     const w = new CombinationSearchWorker();
-//     return w;
-// });
-
-let workerPool: Worker[] = [];
-
-function createFreshWorkerPool() {
-    return Array.from({ length: maxWorkers }, () => new CombinationSearchWorker());
-}
-
-export async function initWorkerPool() {
-    // if already initialized, do nothing
-    // if (workerPool.length > 0) return;
-
-    workerPool = createFreshWorkerPool();
-
-    const bytes = await fetch(wasmUrl).then((r) => r.arrayBuffer());
-
-    for (const w of workerPool) {
-        w.postMessage({ type: "init", bytes: bytes.slice(0) }, [bytes.slice(0)]);
-    }
-}
-// workerPool = createFreshWorkerPool();
-// await initWorkerPool();
+import CombinationSearchWorkerCpu from "./combinationSearchCpu.ts?worker&module";
+import CombinationSearchWorkerGpu from "./combinationSearchGpu.ts?worker&module";
+import wasmCpuUrl from "../wasm/combination/pkg_cpu/combination_bg.wasm?url";
+import wasmGpuUrl from "../wasm/combination/pkg_gpu/combination_bg.wasm?url";
 
 export type MinItem = {
     id: string;
@@ -51,7 +23,14 @@ export type MinItem = {
     panoplies: string[];
     requirement?: MinRequirement;
 };
-
+export type Payload = {
+    minItemsCategory: MinItem[][];
+    weights: Partial<Stats>;
+    minStats: Partial<Stats>;
+    maxStats: Partial<Stats>;
+    preStats: Partial<Stats>;
+    panoplies: Panoply[];
+};
 export type CombinationPayload = {
     // selectedItems: Record<ItemCategory, Items>;
     // lockedItems: Record<ItemCategory, Items>;
@@ -62,6 +41,42 @@ export type CombinationPayload = {
     preStats: Partial<Stats>;
     panoplies: Panoply[];
 };
+
+const cores = navigator.hardwareConcurrency || 4;
+// const isFirefox = navigator.userAgent.includes("Firefox");
+const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
+// const maxWorkers = 8;
+// const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
+//     const w = new CombinationSearchWorker();
+//     return w;
+// });
+
+let workerPool: Worker[] = [];
+type Mode = "cpu" | "gpu";
+let mode: Mode = "cpu";
+
+function createFreshWorkerPool(mode: Mode) {
+    if (mode == "gpu") {
+        return Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerGpu());
+    } else {
+        return Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerCpu());
+    }
+}
+
+export async function initWorkerPool() {
+    workerPool = createFreshWorkerPool(mode);
+
+    const bytes =
+        mode == "gpu"
+            ? await fetch(wasmGpuUrl).then((r) => r.arrayBuffer())
+            : await fetch(wasmCpuUrl).then((r) => r.arrayBuffer());
+
+    for (const w of workerPool) {
+        w.postMessage({ type: "init", bytes: bytes.slice(0) });
+    }
+}
+// workerPool = createFreshWorkerPool();
+// await initWorkerPool();
 
 export type Orchestrator = {
     running: Writable<boolean>;

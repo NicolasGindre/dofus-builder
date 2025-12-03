@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
-    "wasm:build": "RUSTFLAGS='-C opt-level=3 -C codegen-units=1 -C target-feature=+simd128' wasm-pack build src/wasm/combination --target web --release --out-dir pkg",
-    "build": "npm run wasm:build && vite build"
+    "wasm:build-cpu": "RUSTFLAGS='-C opt-level=3 -C codegen-units=1 -C target-feature=+simd128' wasm-pack build src/wasm/combination --target web --release --out-dir pkg_cpu",
+    "wasm:build-gpu": "cd src/wasm/combination && RUSTFLAGS='-C opt-level=3 -C codegen-units=1 -C target-feature=+simd128' wasm-pack build --target web --release --no-default-features --features gpu && rm -rf pkg_gpu && mv pkg pkg_gpu && cd -",
+    "build": "bun run wasm:build-cpu && bun run wasm:build-gpu && vite build"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^6.2.0",

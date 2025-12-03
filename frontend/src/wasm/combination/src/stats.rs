@@ -32,20 +32,20 @@ macro_rules! define_stats {
         #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct Stats {
-            $( pub $field: f64, )+
+            $( pub $field: f32, )+
         }
 
         #[derive(Serialize, Deserialize, Clone, Debug)]
         #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct MaxStats {
-            $( pub $field: f64, )+
+            $( pub $field: f32, )+
         }
 
         impl Default for MaxStats {
             fn default() -> Self {
                 Self {
-                    $( $field: f64::INFINITY, )+
+                    $( $field: f32::INFINITY, )+
                 }
             }
         }
@@ -54,25 +54,26 @@ macro_rules! define_stats {
         #[serde(rename_all = "camelCase")]
         #[serde(default)]
         pub struct MinStats {
-            $( pub $field: f64, )+
+            $( pub $field: f32, )+
         }
 
         impl Default for MinStats {
             fn default() -> Self {
                 Self {
-                    $( $field: f64::NEG_INFINITY, )+
+                    $( $field: f32::NEG_INFINITY, )+
                 }
             }
         }
     };
 }
 
-stat_fields!(define_stats);
 
+stat_fields!(define_stats);
 macro_rules! define_value {
     ( $( $field:ident ),+ ) => {
+        #[cfg(feature = "cpu")]
         impl Stats {
-            pub fn value(&self, weights: &Stats, min: &MinStats, max: &MaxStats) -> f64 {
+            pub fn value(&self, weights: &Stats, min: &MinStats, max: &MaxStats) -> f32 {
                 let mut total = 0.0;
                 $(
                     if self.$field < min.$field {
@@ -107,42 +108,3 @@ macro_rules! define_add_assign {
 }
 
 stat_fields!(define_add_assign);
-
-// macro_rules! define_sub {
-//     ( $( $field:ident ),+ ) => {
-//         impl Sub<&Stats> for &Stats {
-//             type Output = Stats;
-//             fn sub(self, rhs: &Stats) -> Stats {
-//                 Stats {
-//                     $( $field: self.$field - rhs.$field, )+
-//                 }
-//             }
-//         }
-//     };
-// }
-
-// stat_fields!(define_sub);
-
-// macro_rules! define_sub_minmax {
-//     ( $( $field:ident ),+ ) => {
-//         impl Sub<&Stats> for &MaxStats {
-//             type Output = MaxStats;
-//             fn sub(self, rhs: &Stats) -> MaxStats {
-//                 MaxStats {
-//                     $( $field: self.$field - rhs.$field, )+
-//                 }
-//             }
-//         }
-
-//         impl Sub<&Stats> for &MinStats {
-//             type Output = MinStats;
-//             fn sub(self, rhs: &Stats) -> MinStats {
-//                 MinStats {
-//                     $( $field: self.$field - rhs.$field, )+
-//                 }
-//             }
-//         }
-//     };
-// }
-
-// stat_fields!(define_sub_minmax);
