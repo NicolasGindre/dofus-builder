@@ -91,12 +91,12 @@ export function createCombinationOrchestrator(): Orchestrator {
     const combinationDone = writable(0);
     const error = writable<string | null>(null);
 
-    let workers: Worker[] = [];
+    // let workers: Worker[] = [];
     let resolve!: (v: any) => void;
     let reject!: (e: any) => void;
 
     async function cancel() {
-        for (const w of workers) w.terminate();
+        for (const w of workerPool) w.terminate();
         // workers = [];
         running.set(false);
 
@@ -116,7 +116,7 @@ export function createCombinationOrchestrator(): Orchestrator {
         console.log("shown cores", cores);
 
         // let workerCount = 4;
-        let partialPayload: Payload[] = [];
+        let partitionPayload: Payload[] = [];
         // console.log("starting workers count", workerCount);
         // performance.now()
         // const now = performance.now();
@@ -129,18 +129,19 @@ export function createCombinationOrchestrator(): Orchestrator {
         const itemschunks = partitionEven(
             minItemsCategory,
             biggestCategoryIndex,
-            workerPool.length,
+            minItemsCategory[biggestCategoryIndex]!.length,
         );
 
-        const workerCount =
-            itemschunks.length < workerPool.length ? itemschunks.length : workerPool.length;
+        // const workerCount =
+        //     itemschunks.length < workerPool.length ? itemschunks.length : workerPool.length;
+
         // if (itemschunks.length < workerPool.length) {
         //     workerCount = itemschunks.length;
         // }
-        console.log("workerCount", workerCount);
+        // console.log("workerCount", workerCount);
         // console.log("itemschunks", itemschunks);
 
-        for (let i = 0; i < workerCount; i++) {
+        for (let i = 0; i < itemschunks.length; i++) {
             let minItemsCategoryWorker = [...minItemsCategory];
             minItemsCategoryWorker[biggestCategoryIndex] = itemschunks[i]!;
             // console.log("selectedItemsWorker", selectedItemsWorker);
@@ -153,35 +154,43 @@ export function createCombinationOrchestrator(): Orchestrator {
                 preStats: payload.preStats,
                 panoplies: payload.panoplies,
             };
-            partialPayload.push(payloadWorker);
+            partitionPayload.push(payloadWorker);
         }
+        console.log("partial payload length", partitionPayload.length);
 
-        // aggregate results here
-        const partialResults: Build[][] = Array.from({ length: workerCount }, () => []);
-        const partialDone: number[] = Array(workerCount).fill(0);
+        const partialResults: Build[][] = Array.from({ length: partitionPayload.length }, () => []);
+        const partialBuildsProcessed: number[] = Array(partitionPayload.length).fill(0);
+        let partitionIndex: number = 0;
+        // let finished = 0;
+        // let workersFinishedCombination = 0;
 
         return new Promise<any>((res, rej) => {
             resolve = res;
             reject = rej;
 
-            let finished = 0;
-
             // const bytes = await wasmBytesPromise;
-            workers = workerPool.slice(0, workerCount);
+            // workers = workerPool.slice(0, workerCount);
 
-            for (let i = 0; i < workerCount; i++) {
+            for (let i = 0; i < workerPool.length; i++) {
                 // const w = new CombinationSearchWorker();
 
                 // const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
                 // workers.push(w);
-                const w = workers[i]!;
+
+                if (partitionIndex >= partitionPayload.length) {
+                    break;
+                }
+                const w = workerPool[i]!;
 
                 w.onmessage = (e: MessageEvent) => {
                     const msg = e.data;
                     if (msg?.type === "progress") {
-                        // msg.done is "combinations done" for THIS worker
-                        partialDone[i] = msg.value;
-                        combinationDone.set(partialDone.reduce((a, b) => a + b, 0));
+                        partialBuildsProcessed[msg.partitionIndex] = msg.value;
+
+                        combinationDone.set(
+                            // workersFinishedCombination +
+                            partialBuildsProcessed.reduce((a, b) => a + b, 0),
+                        );
                         return;
                     }
                     if (msg?.type === "error") {
@@ -190,16 +199,27 @@ export function createCombinationOrchestrator(): Orchestrator {
                         return reject(new Error(msg.error ?? "Unknown error"));
                     }
                     if (msg?.type === "done") {
-                        partialResults[i] = msg.value ?? [];
-                        finished++;
-                        if (finished === workerCount) {
+                        console.log("saving index result", msg.partitionIndex);
+                        partialResults[msg.partitionIndex] = msg.value ?? [];
+                        // workersFinishedCombination += partialBuildsProcessed[i]!;
+
+                        // finished++;
+                        // console.log("finished", finished);
+                        if (partitionIndex < partitionPayload.length) {
+                            w.postMessage({
+                                type: "compute",
+                                payload: partitionPayload[partitionIndex],
+                                partitionIndex: partitionIndex,
+                            });
+                            partitionIndex++;
+                            console.log("starting index", partitionIndex);
+                        }
+                        if (msg.partitionIndex === partitionPayload.length - 1) {
                             // merge top-K from all workers
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
                             const top = merged.slice(0, 500);
-                            // cancel();
                             running.set(false);
-                            // bestBuilds.set(buildsFromWasm(msg.value));
                             return resolve(top);
                         }
                         return;
@@ -215,7 +235,15 @@ export function createCombinationOrchestrator(): Orchestrator {
                 };
 
                 // console.log("partial payload of worker: ", partialPayload[i]);
-                w.postMessage({ type: "compute", payload: partialPayload[i] });
+                // w.postMessage({ type: "compute", payload: partialPayload[partialPayloadIndex] });
+                // partialPayloadIndex++;
+
+                w.postMessage({
+                    type: "compute",
+                    payload: partitionPayload[partitionIndex],
+                    partitionIndex: partitionIndex,
+                });
+                partitionIndex++;
             }
         });
     }
@@ -377,26 +405,4 @@ function mergeItemsRequirement(items: Item[]): MinRequirement | undefined {
         }
     }
     return undefined;
-}
-
-export function getComboItemsWithBonusPanoLessThan3(items: Item[]): MinItem {
-    // let itemsNoBonusPano: MinItem[] = [];
-    const noBonusPanoItems = items.filter(
-        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
-        (item) => !isItemBonusPanoCapped(item),
-    );
-    // itemsNoBonusPano.push();
-    // console.log(noBonusPanoItems);
-    return mergeItems(noBonusPanoItems);
-}
-
-export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
-    // let itemsNoBonusPano: MinItem[] = [];
-    const noBonusPanoItems = items.filter(
-        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
-        (item) => !isItemBonusPanoCapped(item),
-    );
-    // itemsNoBonusPano.push();
-    // console.log(noBonusPanoItems);
-    return mergeItems(noBonusPanoItems);
 }

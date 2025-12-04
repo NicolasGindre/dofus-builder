@@ -61,12 +61,18 @@ onmessage = async (e: MessageEvent) => {
 
         try {
             const progress = (p: number) => {
-                postMessage({ type: "progress", value: p });
+                // postMessage({ type: "progress", value: p });
+                postMessage({ type: "progress", value: p, partitionIndex: msg.partitionIndex });
             };
 
             const bestBuildsResp: BestBuildsResp = await runBestCombo(parameters, progress);
 
-            postMessage({ type: "done", value: bestBuildsResp });
+            // postMessage({ type: "done", value: bestBuildsResp });
+            postMessage({
+                type: "done",
+                value: bestBuildsResp,
+                partitionIndex: msg.partitionIndex,
+            });
         } catch (err) {
             postMessage({ type: "error", error: String(err) });
         }
