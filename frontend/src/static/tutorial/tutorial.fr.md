@@ -222,12 +222,15 @@ Après avoir verrouillé un objet, il peut être utile de recalculer les meilleu
 
 ## Sélection rapide
 
-La **sélection rapide** ajoute tous les objets visibles des panoplies visibles. Si un objet est non sélectionnable (niveau ou Min incompatible), il n’est pas ajouté.
+La **sélection rapide** ajoute tous les objets des panoplies dans le **top X**. Si un objet est non sélectionnable (niveau ou paramètre Min incompatible), il n’est pas ajouté.
 
-Vous pouvez ajuster la quantité de panoplies affichées (Top 20) pour ajouter plus ou moins d’objets.
+Vous pouvez ajuster la quantité de panoplies affichées (Top 20) pour ajouter plus ou moins d’objets. Attention, le nombre de combinaisons augmente exponentiellement.
 
-La sélection rapide ajoute également l'objet ayant la valeur la plus élevée dans chaque catégorie (2 pour les anneaux).  
-La logique : si cet objet est le meilleur de sa catégorie hors panoplie, en choisir un autre apporte à priori moins de valeur. Bien sûr, si les caractéristiques d’un objet interagissent avec des valeurs plafonnées, cela peut avoir un impact important. Mais comme il s’agit d’une sélection rapide, il est préférable de vérifier quels objets ont été ajoutés et d’en ajouter d’autres si vous souhaitez obtenir de meilleurs résultats.
+La sélection rapide ajoute également les objets ayant une valeur proche de la valeur la plus élevée dans leur catégorie respective.
+
+Enfin, si le score le plus faible des panoplies sélectionnées est négatif, on ajoute aussi tous les objets dont la différence entre _leur valeur et la valeur du meilleur objet de sa catégorie_, est inférieure à ce score négatif.
+
+Seul le meilleur familier est ajouté à la sélection. Les **Dofus / Trophées** sont ignorés.
 
 ## Panoplie Momore
 
@@ -412,6 +415,30 @@ Même principe que les Volkornes, sauf que la valeur est légèrement meilleure.
 
 En plus de ces familiers, je recommande d'inclure un familier sans résistances élémentaires mais qui apporte de la valeur à votre build, pour que ce familier soit sélectionné si un build a déjà toutes ses résistances élémentaires plafonnées.  
 Ce familier devrait avoir une valeur plus faible que les familiers résistances, sinon il sera priorisé même si les résistances ne sont pas plafonnées. Si vous avez inclus des Volkornes, il faudrait aussi ajouter un autre familier qui donne des PA pour avoir une meilleure comparaison.
+
+---
+
+# Utilisation de la carte graphique - GPU
+
+Il est possible d'utiliser la carte graphique (GPU) au lieu du processeur (CPU) pour calculer les meilleurs builds. Cela peut grandement augmenter la vitesse du calcul selon votre carte graphique.
+
+Attention, l'utilisation du GPU dans le navigateur est une technologie relativement récente et pas encore parfaitement stable. Il est recommandé de mettre à jour votre OS, votre navigateur et le driver de votre carte graphique si vous souhaitez le faire. Cette fonctionnalitée fonctionne normalement sur les navigateurs Chromium (Chrome, Edge, Safari...) mais n'est pas encore pleinement supportée sur Firefox à ce jour (Décembre 2025).
+
+Si vous utilisez un ordinateur portable et que vous avez une carte graphique intégrée, il est probable que votre navigateur utilise cette carte graphique beaucoup moins puissante que votre carte graphique dédiée. Il faut donc indiquer à votre OS d'utiliser la carte graphique performante. Sur Windows vous pouvez le faire depuis le panneau de configuration Nvidia / AMD, ou bien depuis les paramètres Windows :
+
+- Paramètres Windows → Système → Affichage
+- Descendre jusqu'à trouver **Paramètres graphiques**
+- Choisir une appli (**Parcourir**)
+- Sélectionner l'executable de votre navigateur. Par example `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- Ensuite activez l'option **Haute performance**
+- Redémarrez le navigateur
+
+Utiliser le GPU ajoute deux contraintes :
+
+- Le nombre de panoplies sélectionnées est de **64** maximum
+- Le nombre de combinaisons à calculer doit rester sous une certaine valeur qui varie selon la sélection, atteinte aux alentours de **1 trillion** de combinaisons.
+
+Ces limites sont très grandes donc elles ne devraient jamais être atteintes en pratique.
 
 ---
 

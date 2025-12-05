@@ -270,14 +270,15 @@ Du kannst so schrittweise einen Build aufbauen, indem du nach und nach Objekte o
 
 ## Schnellauswahl
 
-Die **Schnellauswahl** fügt alle sichtbaren Objekte der sichtbaren Sets hinzu.  
-Wenn ein Objekt nicht auswählbar ist (Level oder Min-Parameter inkompatibel), wird es nicht hinzugefügt.
+Die **Schnellauswahl** fügt alle Gegenstände aus den Sets im **Top X** hinzu. Wenn ein Gegenstand nicht auswählbar ist (Stufe oder Min-Parameter nicht kompatibel), wird er nicht hinzugefügt.
 
-Du kannst die Anzahl der angezeigten Sets (Top 20) anpassen, um mehr oder weniger Objekte zu berücksichtigen.
+Du kannst die Anzahl der angezeigten Sets (Top 20) anpassen, um mehr oder weniger Gegenstände hinzuzufügen. Achtung: Die Anzahl der Kombinationen steigt exponentiell.
 
-Die Schnellauswahl fügt außerdem das Objekt mit dem höchsten Wert in jeder Kategorie hinzu (bei Ringen 2 Stück).  
-Die Logik dahinter: Wenn dieses Objekt das beste in seiner Kategorie außerhalb von Sets ist, bringt ein anderes Objekt tendenziell weniger Wert.  
-Natürlich können gedeckelte Eigenschaften (Max-Parameter) die Effektivität beeinflussen. Aber da es sich um eine „Schnellauswahl“ handelt, solltest du danach prüfen, welche Objekte hinzugefügt wurden, und bei Bedarf weitere ergänzen, um bessere Ergebnisse zu erzielen.
+Die Schnellauswahl fügt außerdem Gegenstände hinzu, deren Wert nahe am höchsten Wert ihrer jeweiligen Kategorie liegt.
+
+Schließlich werden, wenn der niedrigste Wert unter den ausgewählten Set-Scores negativ ist, auch alle Gegenstände hinzugefügt, bei denen die Differenz zwischen ihrem Wert und dem Wert des besten Gegenstands ihrer Kategorie _kleiner ist als dieser negative Score_.
+
+Nur das beste Pet wird zur Auswahl hinzugefügt. **Dofus / Trophäen** werden ignoriert.
 
 ## Momore-Set
 
@@ -546,6 +547,31 @@ So kann dieser Begleiter im Build landen, wenn alle elementaren Resistenzen bere
 
 Dieser Begleiter sollte etwas weniger Wert haben als die Resistenz-Begleiter, sonst wird er bevorzugt – auch wenn die Resistenzen noch nicht am Limit sind.  
 Wenn du Naskäfers aufgenommen hast, ist es außerdem sinnvoll, einen anderen Begleiter mit **AP** hinzuzufügen, um einen besseren Vergleich zu haben.
+
+---
+
+# Nutzung der Grafikkarte – GPU
+
+Es ist möglich, die Grafikkarte (GPU) statt der CPU zu verwenden, um die besten Builds zu berechnen. Je nach Grafikkarte kann das die Rechengeschwindigkeit stark erhöhen.
+
+Achtung: Die Nutzung der GPU im Browser ist eine relativ neue Technologie und noch nicht vollständig stabil. Es wird empfohlen, dein Betriebssystem, deinen Browser und den Treiber deiner Grafikkarte zu aktualisieren, wenn du sie verwenden möchtest. Diese Funktionalität funktioniert im Normalfall in Chromium-basierten Browsern (Chrome, Edge, Safari...), wird aber Stand heute (Dezember 2025) noch nicht vollständig von Firefox unterstützt.
+
+Wenn du einen Laptop verwendest und eine integrierte Grafikkarte hast, nutzt dein Browser sehr wahrscheinlich diese deutlich schwächere integrierte GPU anstelle deiner dedizierten Grafikkarte. Du musst deinem Betriebssystem sagen, dass es die leistungsstarke Grafikkarte verwenden soll. Unter Windows kannst du das im Nvidia-/AMD-Control Panel oder in den Windows-Einstellungen machen:
+
+- Windows-Einstellungen → System → Anzeige
+- Nach unten scrollen, bis du **Grafikeinstellungen** findest
+- Eine App auswählen (**Durchsuchen/Browse**)
+- Die ausführbare Datei deines Browsers auswählen. Zum Beispiel:  
+  `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- Dann die Option **„Hohe Leistung“** aktivieren
+- Den Browser neu starten
+
+Die Nutzung der GPU bringt zwei Einschränkungen mit sich:
+
+- Die Anzahl der ausgewählten Sets ist auf maximal **64** begrenzt
+- Die Anzahl der zu berechnenden Kombinationen muss unter einem bestimmten Wert bleiben, der je nach Auswahl variiert und ungefähr bei **1 Billion** Kombinationen erreicht wird
+
+Diese Limits sind sehr hoch und sollten in der Praxis praktisch nie erreicht werden.
 
 ---
 

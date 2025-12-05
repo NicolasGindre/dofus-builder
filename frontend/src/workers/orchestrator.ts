@@ -9,6 +9,7 @@ import CombinationSearchWorkerCpu from "./combinationSearchCpu.ts?worker&module"
 import CombinationSearchWorkerGpu from "./combinationSearchGpu.ts?worker&module";
 import wasmCpuUrl from "../wasm/combination/pkg_cpu/combination_bg.wasm?url";
 import wasmGpuUrl from "../wasm/combination/pkg_gpu/combination_bg.wasm?url";
+import { string } from "zod/v4-mini";
 
 export type MinItem = {
     id: string;
@@ -127,8 +128,7 @@ export function createCombinationOrchestrator(): Orchestrator {
         combinationDone.set(0);
         error.set(null);
 
-        const cores = navigator.hardwareConcurrency || 4;
-        console.log("shown cores", cores);
+        const panosToCalculate = filterPanosWithAtLeast2Items(payload.panoplies, payload.minItems);
 
         let partitionPayload: Payload[] = [];
         const minItemsCategory = payload.minItems;
@@ -149,7 +149,7 @@ export function createCombinationOrchestrator(): Orchestrator {
                 minStats: payload.minStats,
                 maxStats: payload.maxStats,
                 preStats: payload.preStats,
-                panoplies: payload.panoplies,
+                panoplies: panosToCalculate,
             };
             partitionPayload.push(payloadWorker);
         }
@@ -239,6 +239,29 @@ function getBiggestCategoryIndex(minItemsCategory: MinItem[][]): number {
         }
     }
     return biggestIndex;
+}
+
+function filterPanosWithAtLeast2Items(panos: Panoply[], minItems: MinItem[][]): Panoply[] {
+    console.log(panos.length);
+    let panoCount: Record<string, number> = {};
+    for (const minItemsCat of minItems) {
+        for (const minItem of minItemsCat) {
+            for (const pano of minItem.panoplies) {
+                panoCount[pano] = 1 + (panoCount[pano] ?? 0);
+            }
+        }
+    }
+    let panosToCalculate: Panoply[] = [];
+    for (const pano of panos) {
+        if ((panoCount[pano.id] ?? 0) >= 2) {
+            panosToCalculate.push(pano);
+        } else {
+            console.log(pano.id);
+        }
+    }
+    console.log(panoCount);
+    console.log(panosToCalculate.length);
+    return panosToCalculate;
 }
 
 function partitionEven(
