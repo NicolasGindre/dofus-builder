@@ -3,10 +3,11 @@
     import { buildsFromWasm, calculateBuildValue, compareBuild } from "../../logic/build";
     import { calculateBuildToDisplay } from "../../logic/display";
     import { saveHistoryEntry } from "../../logic/encoding/urlEncode";
-    import { saveComputeSpeed } from "../../logic/frontendDB";
+    import { initComputeMode, saveComputeSpeed } from "../../logic/frontendDB";
     import {
         bestBuilds,
         comparedBuild,
+        computeMode,
         maxStats,
         minItems,
         minStats,
@@ -18,26 +19,22 @@
         weights,
         words,
     } from "../../stores/storeBuilder";
-    import { createCombinationOrchestrator, initWorkerPool } from "../../workers/orchestrator";
+    import {
+        createCombinationOrchestrator,
+        gpuAvailable,
+        initWorkerPool,
+    } from "../../workers/orchestrator";
     import { onMount } from "svelte";
 
     let combinationStart = 0;
     let timeStart: number;
     let elapsedSec: number;
     let combosPerMin: number = 0;
+    let combosPerMinDisplayed: number = 0;
     let intervalId: number;
 
-    // function runComboSearch() {
-    // error = null;
-    // bestBuilds = null;
-    // running = true;
-
-    // multithr
     const orchestrator = createCombinationOrchestrator();
-    const { running, combinationDone, error } = orchestrator;
-
-    // console.log("getPanoToCalculate");
-    // console.log(get(panopliesSelected));
+    const { ready, running, combinationDone, error } = orchestrator;
 
     async function runComboSearch() {
         saveHistoryEntry();
@@ -45,15 +42,10 @@
         timeStart = performance.now();
 
         intervalId = setInterval(() => {
-            refreshCalculSpeed();
-            // console.log(
-            //     `⏱ ${elapsedMin.toFixed(1)}s elapsed — ${combosPerMin.toFixed(2)} combos/s`,
-            // );
+            refreshCalculSpeedDisplayed();
         }, 1000);
 
         const raw = await orchestrator.start({
-            // selectedItems: $itemsSelected,
-            // lockedItems: $itemsLocked,
             minItems: $minItems,
             weights: $weights,
             minStats: $minStats,
@@ -62,7 +54,8 @@
             panoplies: $panopliesSelected,
         });
         clearInterval(intervalId);
-        refreshCalculSpeed();
+        // refreshCalculSpeed();
+        refreshCalculSpeedDisplayed();
 
         bestBuilds.set(buildsFromWasm(raw));
         calculateBuildToDisplay();
@@ -75,18 +68,24 @@
         }
         ranOneSearch.set(true);
     }
-    function refreshCalculSpeed() {
+
+    $: refreshCalculSpeed($combinationDone);
+    function refreshCalculSpeed(combinationDone: number) {
         if (!running) return;
         const now = performance.now();
         elapsedSec = (now - timeStart) / 1000;
-        combosPerMin = (60 * $combinationDone) / elapsedSec;
+        combosPerMin = (60 * combinationDone) / elapsedSec;
+    }
+    function refreshCalculSpeedDisplayed() {
+        combosPerMinDisplayed = combosPerMin;
     }
     function cancelCalcul() {
         orchestrator.cancel();
         clearInterval(intervalId);
     }
     onMount(async () => {
-        initWorkerPool();
+        initComputeMode();
+        // computeMode.set("cpu");
     });
 </script>
 
@@ -97,13 +96,26 @@
     <button
         class="button-calculate"
         on:click={runComboSearch}
-        disabled={$running || $totalPossibilities < 1}
+        disabled={$running || $totalPossibilities < 1 || !$ready}
     >
         {$running ? `${$words.calculating}...` : $words.calculateBestBuilds}
     </button>
     {#if $running}
         <button class="button-cancel" on:click={() => cancelCalcul()} disabled={!$running}
             >{$words.cancel}</button
+        >
+    {:else}
+        <button
+            class="button-cpu-gpu"
+            class:active={$computeMode == "cpu"}
+            disabled={!$ready}
+            on:click={() => computeMode.set("cpu")}>CPU</button
+        >
+        <button
+            class="button-cpu-gpu"
+            class:active={$computeMode == "gpu"}
+            on:click={() => computeMode.set("gpu")}
+            disabled={!gpuAvailable() || !$ready}>GPU</button
         >
     {/if}
     {#if combinationStart > 0}
@@ -118,7 +130,7 @@
             })()} [{new Intl.NumberFormat("en-US", {
                 notation: "compact",
                 compactDisplay: "short",
-            }).format(combosPerMin)} / min]
+            }).format(combosPerMinDisplayed)} / min]
             <button
                 class="save-compute-speed-btn"
                 on:click={() => saveComputeSpeed(combosPerMin / 1000000)}
@@ -130,6 +142,13 @@
 </div>
 
 <style>
+    .button-cpu-gpu {
+        padding: 0.25rem 0.5rem;
+        /* padding: ; */
+    }
+    .button-cpu-gpu.active {
+        background-color: #3a853d;
+    }
     .calculations {
         height: 84px;
     }

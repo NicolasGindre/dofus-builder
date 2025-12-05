@@ -48,7 +48,7 @@ onmessage = async (e: MessageEvent) => {
         }
 
         initialized = true;
-        // postMessage({ type: "ready", mode });
+        self.postMessage({ type: "ready" });
         return;
     }
 

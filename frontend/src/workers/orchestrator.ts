@@ -1,13 +1,6 @@
 import { writable, type Writable } from "svelte/store";
 import { categoryLength, type BestBuildsResp, type Build } from "../types/build";
-import {
-    // getBiggestCategory,
-    sumStatsWithBonus,
-    type CategoryItems,
-    type Item,
-    type Items,
-    type Panoply,
-} from "../types/item";
+import { sumStatsWithBonus, type Item, type Items, type Panoply } from "../types/item";
 import { isItemBonusPanoCapped } from "../logic/item";
 import type { ItemCategory, MinRequirement } from "../../../shared/types/item";
 import type { Stats } from "../../../shared/types/stats";
@@ -52,11 +45,23 @@ const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
 // });
 
 let workerPool: Worker[] = [];
-type Mode = "cpu" | "gpu";
-let mode: Mode = "gpu";
+export type Mode = "cpu" | "gpu";
+let mode: Mode;
 
-export async function initWorkerPool() {
-    let mode: Mode = "gpu" in navigator ? "gpu" : "cpu";
+const ready = writable(false);
+
+export function gpuAvailable(): boolean {
+    return "gpu" in navigator;
+}
+
+export async function initWorkerPool(newMode?: Mode) {
+    // let mode: Mode = gpuAvailable() && get(computeMode) == "gpu" ? "gpu" : "cpu";
+    ready.set(false);
+
+    for (const w of workerPool) w.terminate();
+    if (newMode) {
+        mode = newMode;
+    }
     if (mode == "gpu") {
         workerPool = Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerGpu());
     } else {
@@ -67,14 +72,28 @@ export async function initWorkerPool() {
             ? await fetch(wasmGpuUrl).then((r) => r.arrayBuffer())
             : await fetch(wasmCpuUrl).then((r) => r.arrayBuffer());
 
-    for (const w of workerPool) {
-        w.postMessage({ type: "init", bytes: bytes.slice(0) });
-    }
+    // for (const w of workerPool) {
+    //     w.postMessage({ type: "init", bytes: bytes.slice(0) });
+    // }
+
+    await new Promise<void>((resolve) => {
+        let remaining = workerPool.length;
+
+        for (const w of workerPool) {
+            w.onmessage = (e: MessageEvent) => {
+                if (e.data?.type === "ready") {
+                    if (--remaining === 0) resolve();
+                }
+            };
+            w.postMessage({ type: "init", bytes: bytes.slice(0) });
+        }
+    });
+    ready.set(true);
+    // console.log("ready");
 }
-// workerPool = createFreshWorkerPool();
-// await initWorkerPool();
 
 export type Orchestrator = {
+    ready: Writable<boolean>;
     running: Writable<boolean>;
     combinationDone: Writable<number>;
     error: Writable<string | null>;
@@ -96,7 +115,6 @@ export function createCombinationOrchestrator(): Orchestrator {
     let reject!: (e: any) => void;
 
     async function cancel() {
-        for (const w of workerPool) w.terminate();
         // workers = [];
         running.set(false);
 
@@ -105,9 +123,6 @@ export function createCombinationOrchestrator(): Orchestrator {
     }
 
     function start(payload: CombinationPayload) {
-        // await initWorkerPool()
-        // cancel();
-        console.log(payload);
         running.set(true);
         combinationDone.set(0);
         error.set(null);
@@ -115,15 +130,8 @@ export function createCombinationOrchestrator(): Orchestrator {
         const cores = navigator.hardwareConcurrency || 4;
         console.log("shown cores", cores);
 
-        // let workerCount = 4;
         let partitionPayload: Payload[] = [];
-        // console.log("starting workers count", workerCount);
-        // performance.now()
-        // const now = performance.now();
-        // const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
         const minItemsCategory = payload.minItems;
-        // const elapsedSec = (now - performance.now()) / 1000;
-        // console.log("Elapsed secs", elapsedSec);
         const biggestCategoryIndex = getBiggestCategoryIndex(minItemsCategory);
 
         const itemschunks = partitionEven(
@@ -132,20 +140,9 @@ export function createCombinationOrchestrator(): Orchestrator {
             minItemsCategory[biggestCategoryIndex]!.length,
         );
 
-        // const workerCount =
-        //     itemschunks.length < workerPool.length ? itemschunks.length : workerPool.length;
-
-        // if (itemschunks.length < workerPool.length) {
-        //     workerCount = itemschunks.length;
-        // }
-        // console.log("workerCount", workerCount);
-        // console.log("itemschunks", itemschunks);
-
         for (let i = 0; i < itemschunks.length; i++) {
             let minItemsCategoryWorker = [...minItemsCategory];
             minItemsCategoryWorker[biggestCategoryIndex] = itemschunks[i]!;
-            // console.log("selectedItemsWorker", selectedItemsWorker);
-            // console.log("i", i);
             const payloadWorker: Payload = {
                 minItemsCategory: minItemsCategoryWorker,
                 weights: payload.weights,
@@ -156,27 +153,17 @@ export function createCombinationOrchestrator(): Orchestrator {
             };
             partitionPayload.push(payloadWorker);
         }
-        console.log("partial payload length", partitionPayload.length);
+        // console.log("partial payload length", partitionPayload.length);
 
         const partialResults: Build[][] = Array.from({ length: partitionPayload.length }, () => []);
         const partialBuildsProcessed: number[] = Array(partitionPayload.length).fill(0);
         let partitionIndex: number = 0;
-        // let finished = 0;
-        // let workersFinishedCombination = 0;
 
         return new Promise<any>((res, rej) => {
             resolve = res;
             reject = rej;
 
-            // const bytes = await wasmBytesPromise;
-            // workers = workerPool.slice(0, workerCount);
-
             for (let i = 0; i < workerPool.length; i++) {
-                // const w = new CombinationSearchWorker();
-
-                // const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
-                // workers.push(w);
-
                 if (partitionIndex >= partitionPayload.length) {
                     break;
                 }
@@ -199,12 +186,9 @@ export function createCombinationOrchestrator(): Orchestrator {
                         return reject(new Error(msg.error ?? "Unknown error"));
                     }
                     if (msg?.type === "done") {
-                        console.log("saving index result", msg.partitionIndex);
+                        // console.log("saving index result", msg.partitionIndex);
                         partialResults[msg.partitionIndex] = msg.value ?? [];
-                        // workersFinishedCombination += partialBuildsProcessed[i]!;
 
-                        // finished++;
-                        // console.log("finished", finished);
                         if (partitionIndex < partitionPayload.length) {
                             w.postMessage({
                                 type: "compute",
@@ -212,32 +196,26 @@ export function createCombinationOrchestrator(): Orchestrator {
                                 partitionIndex: partitionIndex,
                             });
                             partitionIndex++;
-                            console.log("starting index", partitionIndex);
+                            // console.log("starting index", partitionIndex);
                         }
                         if (msg.partitionIndex === partitionPayload.length - 1) {
                             // merge top-K from all workers
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
                             const top = merged.slice(0, 500);
-                            running.set(false);
-                            return resolve(top);
+                            // running.set(false);
+                            resolve(top);
+                            cancel();
+                            return;
                         }
                         return;
                     }
                 };
-
-                // w.addEventListener("onerror", (evt) => {
                 w.onerror = (evt) => {
                     error.set(`Worker error: ${evt.message ?? "unknown"}`);
                     cancel();
                     reject(evt);
-                    // });
                 };
-
-                // console.log("partial payload of worker: ", partialPayload[i]);
-                // w.postMessage({ type: "compute", payload: partialPayload[partialPayloadIndex] });
-                // partialPayloadIndex++;
-
                 w.postMessage({
                     type: "compute",
                     payload: partitionPayload[partitionIndex],
@@ -248,7 +226,7 @@ export function createCombinationOrchestrator(): Orchestrator {
         });
     }
 
-    return { start, cancel, running, combinationDone, error };
+    return { ready, start, cancel, running, combinationDone, error };
 }
 
 function getBiggestCategoryIndex(minItemsCategory: MinItem[][]): number {

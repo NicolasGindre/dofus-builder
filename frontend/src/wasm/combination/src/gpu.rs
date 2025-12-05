@@ -12,6 +12,148 @@ use wgpu::util::DeviceExt;
 use futures_channel::oneshot;
 use bytemuck::{cast_slice, Pod, Zeroable};
 
+use std::cell::RefCell;
+
+#[derive(Clone)]
+struct GpuContext {
+    device: wgpu::Device,
+    queue: wgpu::Queue,
+    pipeline: wgpu::ComputePipeline,
+    bind_group_layout: wgpu::BindGroupLayout,
+}
+
+// One context per thread/worker
+thread_local! {
+    static GPU_CONTEXT: RefCell<Option<GpuContext>> = RefCell::new(None);
+}
+
+async fn new_gpu_context() -> Result<GpuContext, JsValue> {
+    let instance = wgpu::Instance::new(&wgpu::InstanceDescriptor {
+        ..Default::default()
+    });
+
+    let adapter = instance
+        .request_adapter(&wgpu::RequestAdapterOptions {
+            power_preference: wgpu::PowerPreference::HighPerformance,
+            compatible_surface: None,
+            force_fallback_adapter: false,
+        })
+        .await
+        .map_err(|e| JsValue::from_str(&format!("request_adapter failed: {e:?}")))?;
+
+    let (device, queue) = adapter
+        .request_device(
+            &wgpu::DeviceDescriptor {
+                label: Some("combo-device"),
+                required_features: wgpu::Features::empty(),
+                required_limits: if cfg!(target_arch = "wasm32") {
+                    wgpu::Limits::downlevel_webgl2_defaults()
+                } else {
+                    wgpu::Limits::default()
+                },
+                experimental_features: wgpu::ExperimentalFeatures::disabled(),
+                memory_hints: wgpu::MemoryHints::Performance,
+                trace: wgpu::Trace::Off,
+            },
+        )
+        .await
+        .map_err(|e| JsValue::from_str(&format!("request_device failed: {e:?}")))?;
+
+    let shader = device.create_shader_module(wgpu::ShaderModuleDescriptor {
+        label: Some("build-eval-shader"),
+        source: wgpu::ShaderSource::Wgsl(Cow::Borrowed(BUILD_SHADER)),
+    });
+
+    let bind_group_layout = device.create_bind_group_layout(&wgpu::BindGroupLayoutDescriptor {
+        label: Some("build-bgl"),
+        entries: &[
+            // 0: meta_u32
+            wgpu::BindGroupLayoutEntry {
+                binding: 0,
+                visibility: wgpu::ShaderStages::COMPUTE,
+                ty: wgpu::BindingType::Buffer {
+                    ty: wgpu::BufferBindingType::Storage { read_only: true },
+                    has_dynamic_offset: false,
+                    min_binding_size: None,
+                },
+                count: None,
+            },
+            // 1: meta_f32
+            wgpu::BindGroupLayoutEntry {
+                binding: 1,
+                visibility: wgpu::ShaderStages::COMPUTE,
+                ty: wgpu::BindingType::Buffer {
+                    ty: wgpu::BufferBindingType::Storage { read_only: true },
+                    has_dynamic_offset: false,
+                    min_binding_size: None,
+                },
+                count: None,
+            },
+            // 2: out_values
+            wgpu::BindGroupLayoutEntry {
+                binding: 2,
+                visibility: wgpu::ShaderStages::COMPUTE,
+                ty: wgpu::BindingType::Buffer {
+                    ty: wgpu::BufferBindingType::Storage { read_only: false },
+                    has_dynamic_offset: false,
+                    min_binding_size: None,
+                },
+                count: None,
+            },
+            // 3: params (uniform)
+            wgpu::BindGroupLayoutEntry {
+                binding: 3,
+                visibility: wgpu::ShaderStages::COMPUTE,
+                ty: wgpu::BindingType::Buffer {
+                    ty: wgpu::BufferBindingType::Uniform,
+                    has_dynamic_offset: false,
+                    min_binding_size: None,
+                },
+                count: None,
+            },
+        ],
+    });
+
+    let pipeline_layout =
+        device.create_pipeline_layout(&wgpu::PipelineLayoutDescriptor {
+            label: Some("build-pipeline-layout"),
+            bind_group_layouts: &[&bind_group_layout],
+            push_constant_ranges: &[],
+        });
+
+    let pipeline = device.create_compute_pipeline(&wgpu::ComputePipelineDescriptor {
+        label: Some("build-pipeline").into(),
+        layout: Some(&pipeline_layout),
+        module: &shader,
+        entry_point: Some("main"),
+        compilation_options: wgpu::PipelineCompilationOptions::default(),
+        cache: None,
+    });
+
+    Ok(GpuContext {
+        device,
+        queue,
+        pipeline,
+        bind_group_layout,
+    })
+}
+async fn get_gpu_context() -> Result<GpuContext, JsValue> {
+    // Fast path: already initialized
+    if let Some(ctx) = GPU_CONTEXT.with(|cell| cell.borrow().clone()) {
+        return Ok(ctx);
+    }
+
+    // Slow path: create it
+    let ctx = new_gpu_context().await?;
+
+    // Store for future calls
+    GPU_CONTEXT.with(|cell| {
+        *cell.borrow_mut() = Some(ctx.clone());
+    });
+
+    Ok(ctx)
+}
+
 const N_STATS: usize = 52;
 const MAX_CATEGORIES: usize = 10;
 const MAX_PANOPLIES: usize = 64;
@@ -807,107 +949,12 @@ pub async fn best_combo_gpu_impl(
         .unwrap_or(u32::MAX);
 
     // WGPU setup
-    let instance = wgpu::Instance::new(&wgpu::InstanceDescriptor {
-        ..Default::default()
-    });
-
-    let adapter = instance
-        .request_adapter(&wgpu::RequestAdapterOptions {
-            power_preference: wgpu::PowerPreference::HighPerformance,
-            compatible_surface: None,
-            force_fallback_adapter: false,
-        })
-        .await
-        .map_err(|e| JsValue::from_str(&format!("request_adapter failed: {e:?}")))?;
-
-    let (device, queue) = adapter
-        .request_device(
-            &wgpu::DeviceDescriptor {
-                label: Some("combo-device"),
-                required_features: wgpu::Features::empty(),
-                required_limits: if cfg!(target_arch = "wasm32") {
-                    wgpu::Limits::downlevel_webgl2_defaults()
-                } else {
-                    wgpu::Limits::default()
-                },
-                experimental_features: wgpu::ExperimentalFeatures::disabled(),
-                memory_hints: wgpu::MemoryHints::Performance,
-                trace: wgpu::Trace::Off,
-            },
-        )
-        .await
-        .map_err(|e| JsValue::from_str(&format!("request_device failed: {e:?}")))?;
-
-    let shader = device.create_shader_module(wgpu::ShaderModuleDescriptor {
-        label: Some("build-eval-shader"),
-        source: wgpu::ShaderSource::Wgsl(Cow::Borrowed(BUILD_SHADER)),
-    });
-
-    let bind_group_layout = device.create_bind_group_layout(&wgpu::BindGroupLayoutDescriptor {
-        label: Some("build-bgl"),
-        entries: &[
-            // 0: meta_u32
-            wgpu::BindGroupLayoutEntry {
-                binding: 0,
-                visibility: wgpu::ShaderStages::COMPUTE,
-                ty: wgpu::BindingType::Buffer {
-                    ty: wgpu::BufferBindingType::Storage { read_only: true },
-                    has_dynamic_offset: false,
-                    min_binding_size: None,
-                },
-                count: None,
-            },
-            // 1: meta_f32
-            wgpu::BindGroupLayoutEntry {
-                binding: 1,
-                visibility: wgpu::ShaderStages::COMPUTE,
-                ty: wgpu::BindingType::Buffer {
-                    ty: wgpu::BufferBindingType::Storage { read_only: true },
-                    has_dynamic_offset: false,
-                    min_binding_size: None,
-                },
-                count: None,
-            },
-            // 2: out_values
-            wgpu::BindGroupLayoutEntry {
-                binding: 2,
-                visibility: wgpu::ShaderStages::COMPUTE,
-                ty: wgpu::BindingType::Buffer {
-                    ty: wgpu::BufferBindingType::Storage { read_only: false },
-                    has_dynamic_offset: false,
-                    min_binding_size: None,
-                },
-                count: None,
-            },
-            // 3: params (uniform)
-            wgpu::BindGroupLayoutEntry {
-                binding: 3,
-                visibility: wgpu::ShaderStages::COMPUTE,
-                ty: wgpu::BindingType::Buffer {
-                    ty: wgpu::BufferBindingType::Uniform,
-                    has_dynamic_offset: false,
-                    min_binding_size: None,
-                },
-                count: None,
-            },
-        ],
-    });
-
-    let pipeline_layout =
-        device.create_pipeline_layout(&wgpu::PipelineLayoutDescriptor {
-            label: Some("build-pipeline-layout"),
-            bind_group_layouts: &[&bind_group_layout],
-            push_constant_ranges: &[],
-        });
-
-    let pipeline = device.create_compute_pipeline(&wgpu::ComputePipelineDescriptor {
-        label: Some("build-pipeline").into(),
-        layout: Some(&pipeline_layout),
-        module: &shader,
-        entry_point: Some("main"),
-        compilation_options: wgpu::PipelineCompilationOptions::default(),
-        cache: None,
-    });
+        // WGPU context: reused across calls in this worker
+    let ctx = get_gpu_context().await?;
+    let device = &ctx.device;
+    let queue = &ctx.queue;
+    let pipeline = &ctx.pipeline;
+    let bind_group_layout = &ctx.bind_group_layout;
 
     let mut f32_data = flattened.f32_data;
     let mut offsets = flattened.offsets;
