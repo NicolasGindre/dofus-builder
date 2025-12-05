@@ -229,12 +229,15 @@ Puedes incluso usar este método para construir un build bloqueando poco a poco 
 
 ## Selección rápida
 
-La **selección rápida** añade todos los objetos visibles de los sets visibles. Si un objeto no se puede seleccionar (nivel o Min incompatible), no se añade.
+La **Selección rápida** añade todos los objetos de los sets que están en el **Top X**. Si un objeto no se puede seleccionar (nivel o parámetro Min incompatible), no se añade.
 
-Puedes ajustar cuántos sets se muestran (**Top 20**) para añadir más o menos objetos.
+Puedes ajustar la cantidad de sets mostrados (Top 20) para añadir más o menos objetos. Ojo: el número de combinaciones crece de forma exponencial.
 
-La selección rápida también añade el objeto con el valor más alto de cada categoría (2 en el caso de anillos).  
-La lógica es: si ese objeto es el mejor de su categoría fuera de set, elegir otro en principio aporta menos valor. Obviamente, si las características de un objeto interactúan con valores cappeados, eso puede tener un impacto importante. Pero como se trata de una selección **rápida**, es buena idea revisar qué objetos se han añadido y sumar otros si quieres resultados más finos.
+La Selección rápida también añade los objetos cuyo valor está cerca del valor más alto de su categoría.
+
+Por último, si la puntuación más baja entre los sets seleccionados es negativa, también se añaden todos los objetos cuya diferencia entre su valor y el valor del mejor objeto de su categoría sea _inferior a esa puntuación negativa_.
+
+Solo se añade la mejor mascota a la selección. Los **Dofus / Trofeos** se ignoran.
 
 ## Set Momore
 
@@ -465,6 +468,31 @@ Además de estos familiares, recomiendo incluir **un familiar sin resistencias e
 
 Este familiar debería tener menos valor que los familiares de resistencias; de lo contrario, se priorizaría incluso aunque las resistencias no estén al máximo.  
 Si has incluido Vuelocerontes, también deberías añadir otro familiar que dé PA para tener una mejor comparación.
+
+---
+
+# Uso de la tarjeta gráfica – GPU
+
+Es posible usar la tarjeta gráfica (GPU) en lugar del procesador (CPU) para calcular los mejores builds. Según tu tarjeta gráfica, esto puede aumentar mucho la velocidad de cálculo.
+
+Ojo: el uso de la GPU en el navegador es una tecnología relativamente reciente y aún no es perfectamente estable. Se recomienda actualizar tu sistema operativo, tu navegador y el driver de tu tarjeta gráfica si quieres usarla. Esta funcionalidad normalmente funciona en navegadores basados en Chromium (Chrome, Edge, Safari...) pero todavía no está completamente soportada en Firefox a día de hoy (diciembre de 2025).
+
+Si usas un portátil y tienes una tarjeta gráfica integrada, es muy probable que el navegador esté usando esa GPU integrada, mucho menos potente que tu tarjeta gráfica dedicada. Tienes que indicar a tu sistema operativo que use la GPU de alto rendimiento. En Windows puedes hacerlo desde el panel de control de Nvidia / AMD o desde la configuración de Windows:
+
+- Configuración de Windows → Sistema → Pantalla
+- Bajar hasta encontrar **Configuración de gráficos**
+- Elegir una aplicación (**Examinar/Browse**)
+- Seleccionar el ejecutable de tu navegador. Por ejemplo:  
+  `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- Activar la opción **«Alto rendimiento»**
+- Reiniciar el navegador
+
+Usar la GPU añade dos restricciones:
+
+- El número de sets seleccionados está limitado a **64** como máximo
+- El número de combinaciones a calcular debe mantenerse por debajo de cierto valor, que varía según la selección, y que se alcanza aproximadamente alrededor de **1 billón** de combinaciones (1 trillion en inglés)
+
+Estos límites son muy grandes, así que en la práctica casi nunca deberías llegar a ellos.
 
 ---
 

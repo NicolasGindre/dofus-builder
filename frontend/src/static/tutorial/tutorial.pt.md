@@ -230,12 +230,15 @@ Você pode usar essa lógica para montar um build travando aos poucos alguns ite
 
 ## Seleção rápida
 
-A **« Seleção rápida »** adiciona todos os itens visíveis das conjuntos visíveis. Se um item não puder ser selecionado (por causa de nível ou Min incompatível), ele não é adicionado.
+A **seleção rápida** adiciona todos os itens das panóplias que estão no **Top X**. Se um item não puder ser selecionado (nível ou parâmetro Min incompatível), ele não é adicionado.
 
-Você pode ajustar a quantidade de conjuntos mostradas (Top 20) para adicionar mais ou menos itens.
+Você pode ajustar a quantidade de panóplias exibidas (Top 20) para adicionar mais ou menos itens. Atenção: o número de combinações aumenta exponencialmente.
 
-A seleção rápida também adiciona o item de maior valor em cada categoria (2 nos anéis).  
-A lógica é: se esse item é o melhor da categoria fora de conjunto, escolher outro costuma significar menos valor. Claro que se as características de um item interagem com valores capados, isso pode mudar bastante as coisas. Mas como estamos falando de uma seleção **rápida**, é melhor verificar que itens foram adicionados e incluir outros manualmente se você quiser resultados ainda melhores.
+A seleção rápida também adiciona os itens cujo valor é próximo do valor mais alto na sua categoria.
+
+Por fim, se a menor pontuação entre as panóplias selecionadas for negativa, também são adicionados todos os itens cuja diferença entre o seu valor e o valor do melhor item da categoria seja _menor do que essa pontuação negativa_.
+
+Apenas o melhor mascote é adicionado à seleção. **Dofus / Troféus** são ignorados.
 
 ## Conjunto Momore
 
@@ -445,6 +448,31 @@ Geralmente é fácil chegar no limite de 6 PM, então eu recomendo testar esses 
 Além desses mascotes, eu recomendo incluir **um mascote sem resistências elementares**, mas que ainda traga valor para o seu build, para que ele seja escolhido se o build já tiver todas as resistências elementares capadas.  
 Esse mascote deveria ter um valor menor do que os mascotes de resistência; caso contrário, ele seria escolhido mesmo quando as resistências ainda não estiverem no limite.  
 Se você estiver usando Vulkórnios, também vale a pena adicionar outro mascote que dê PA, para ter uma comparação melhor.
+
+---
+
+# Utilização da placa gráfica – GPU
+
+É possível usar a placa gráfica (GPU) em vez do processador (CPU) para calcular os melhores builds. Dependendo da sua placa gráfica, isso pode aumentar bastante a velocidade do cálculo.
+
+Atenção: o uso da GPU no navegador é uma tecnologia relativamente recente e ainda não é totalmente estável. É recomendado atualizar o seu sistema operativo, o navegador e o driver da placa gráfica se quiser usar essa opção. Esta funcionalidade normalmente funciona em navegadores Chromium (Chrome, Edge, Safari...), mas ainda não é totalmente suportada no Firefox até a data de hoje (dezembro de 2025).
+
+Se você usa um notebook e tem uma placa gráfica integrada, é bem provável que o navegador esteja usando essa GPU integrada, muito menos potente que a placa gráfica dedicada. Você precisa dizer ao sistema operativo para usar a placa de alto desempenho. No Windows, é possível fazer isso pelo painel de controlo da Nvidia / AMD ou pelas definições do Windows:
+
+- Definições do Windows → Sistema → Ecrã (Display)
+- Descer até encontrar **Definições gráficas**
+- Escolher uma aplicação (**Procurar / Browse**)
+- Selecionar o executável do seu navegador. Por exemplo:  
+  `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- Ativar a opção **"Alto desempenho"**
+- Reiniciar o navegador
+
+Usar a GPU adiciona duas limitações:
+
+- O número de panóplias selecionadas é no máximo **64**
+- O número de combinações a calcular deve ficar abaixo de um certo valor, que varia conforme a seleção, e é atingido por volta de **1 trilhão** de combinações
+
+Esses limites são muito altos, então na prática é improvável que sejam atingidos.
 
 ---
 

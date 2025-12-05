@@ -75,13 +75,25 @@ export function calculatePanopliesToDisplay() {
 }
 export function calculatePanopliesToDisplayNow() {
     let panosToDisplay: Panoply[] = [];
+    const seen = new Set<string>();
+
+    const addUnique = (panos: Panoply[]) => {
+        for (const pano of panos) {
+            if (seen.has(pano.id)) continue;
+            seen.add(pano.id);
+            panosToDisplay.push(pano);
+        }
+    };
 
     if (!get(showOnlySelectedPanos)) {
-        panosToDisplay.push(...getTopXPanos());
+        addUnique(getTopXPanos());
     }
-    panosToDisplay.push(...get(panopliesSelected));
 
-    panopliesDisplayed.set(panosToDisplay);
+    addUnique(get(panopliesSelected));
+
+    panopliesDisplayed.set(
+        panosToDisplay.sort((a, b) => b.bestRelativeValue - a.bestRelativeValue),
+    );
 }
 export function getTopXPanos(): Panoply[] {
     return get(panopliesBest)
