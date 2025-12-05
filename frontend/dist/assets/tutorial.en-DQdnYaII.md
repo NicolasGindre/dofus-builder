@@ -1,6 +1,6 @@
 # Tutorial
 
-**Dofus Minmax** is an application that calculates the best builds in Dofus.  
+**Dofus MinMax** is an application that calculates the best builds in Dofus.  
 It is divided into 3 sections :
 
 - **Weights / Min / Max (inputs)** : Define what you want in your build.
