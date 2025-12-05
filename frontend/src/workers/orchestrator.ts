@@ -1,49 +1,14 @@
 import { writable, type Writable } from "svelte/store";
 import { categoryLength, type BestBuildsResp, type Build } from "../types/build";
-import {
-    // getBiggestCategory,
-    sumStatsWithBonus,
-    type CategoryItems,
-    type Item,
-    type Items,
-    type Panoply,
-} from "../types/item";
-import type { Payload } from "./combinationSearch";
-import CombinationSearchWorker from "./combinationSearch.ts?worker&module";
+import { sumStatsWithBonus, type Item, type Items, type Panoply } from "../types/item";
 import { isItemBonusPanoCapped } from "../logic/item";
 import type { ItemCategory, MinRequirement } from "../../../shared/types/item";
 import type { Stats } from "../../../shared/types/stats";
 
-import wasmUrl from "../wasm/combination/pkg/combination_bg.wasm?url";
-
-const cores = navigator.hardwareConcurrency || 4;
-// const isFirefox = navigator.userAgent.includes("Firefox");
-const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
-// const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
-//     const w = new CombinationSearchWorker();
-//     return w;
-// });
-
-let workerPool: Worker[] = [];
-
-function createFreshWorkerPool() {
-    return Array.from({ length: maxWorkers }, () => new CombinationSearchWorker());
-}
-
-export async function initWorkerPool() {
-    // if already initialized, do nothing
-    // if (workerPool.length > 0) return;
-
-    workerPool = createFreshWorkerPool();
-
-    const bytes = await fetch(wasmUrl).then((r) => r.arrayBuffer());
-
-    for (const w of workerPool) {
-        w.postMessage({ type: "init", bytes: bytes.slice(0) }, [bytes.slice(0)]);
-    }
-}
-// workerPool = createFreshWorkerPool();
-// await initWorkerPool();
+import CombinationSearchWorkerCpu from "./combinationSearchCpu.ts?worker&module";
+import CombinationSearchWorkerGpu from "./combinationSearchGpu.ts?worker&module";
+import wasmCpuUrl from "../wasm/combination/pkg_cpu/combination_bg.wasm?url";
+import wasmGpuUrl from "../wasm/combination/pkg_gpu/combination_bg.wasm?url";
 
 export type MinItem = {
     id: string;
@@ -51,7 +16,14 @@ export type MinItem = {
     panoplies: string[];
     requirement?: MinRequirement;
 };
-
+export type Payload = {
+    minItemsCategory: MinItem[][];
+    weights: Partial<Stats>;
+    minStats: Partial<Stats>;
+    maxStats: Partial<Stats>;
+    preStats: Partial<Stats>;
+    panoplies: Panoply[];
+};
 export type CombinationPayload = {
     // selectedItems: Record<ItemCategory, Items>;
     // lockedItems: Record<ItemCategory, Items>;
@@ -63,7 +35,65 @@ export type CombinationPayload = {
     panoplies: Panoply[];
 };
 
+const cores = navigator.hardwareConcurrency || 4;
+// const isFirefox = navigator.userAgent.includes("Firefox");
+const maxWorkers = cores <= 8 ? cores : cores <= 16 ? 8 : Math.floor(cores / 2);
+// const maxWorkers = 8;
+// const workerPool: Worker[] = Array.from({ length: maxWorkers }, () => {
+//     const w = new CombinationSearchWorker();
+//     return w;
+// });
+
+let workerPool: Worker[] = [];
+export type Mode = "cpu" | "gpu";
+let mode: Mode;
+
+const ready = writable(false);
+
+export function gpuAvailable(): boolean {
+    return "gpu" in navigator;
+}
+
+export async function initWorkerPool(newMode?: Mode) {
+    // let mode: Mode = gpuAvailable() && get(computeMode) == "gpu" ? "gpu" : "cpu";
+    ready.set(false);
+
+    for (const w of workerPool) w.terminate();
+    if (newMode) {
+        mode = newMode;
+    }
+    if (mode == "gpu") {
+        workerPool = Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerGpu());
+    } else {
+        workerPool = Array.from({ length: maxWorkers }, () => new CombinationSearchWorkerCpu());
+    }
+    const bytes =
+        mode == "gpu"
+            ? await fetch(wasmGpuUrl).then((r) => r.arrayBuffer())
+            : await fetch(wasmCpuUrl).then((r) => r.arrayBuffer());
+
+    // for (const w of workerPool) {
+    //     w.postMessage({ type: "init", bytes: bytes.slice(0) });
+    // }
+
+    await new Promise<void>((resolve) => {
+        let remaining = workerPool.length;
+
+        for (const w of workerPool) {
+            w.onmessage = (e: MessageEvent) => {
+                if (e.data?.type === "ready") {
+                    if (--remaining === 0) resolve();
+                }
+            };
+            w.postMessage({ type: "init", bytes: bytes.slice(0) });
+        }
+    });
+    ready.set(true);
+    // console.log("ready");
+}
+
 export type Orchestrator = {
+    ready: Writable<boolean>;
     running: Writable<boolean>;
     combinationDone: Writable<number>;
     error: Writable<string | null>;
@@ -80,12 +110,11 @@ export function createCombinationOrchestrator(): Orchestrator {
     const combinationDone = writable(0);
     const error = writable<string | null>(null);
 
-    let workers: Worker[] = [];
+    // let workers: Worker[] = [];
     let resolve!: (v: any) => void;
     let reject!: (e: any) => void;
 
     async function cancel() {
-        for (const w of workers) w.terminate();
         // workers = [];
         running.set(false);
 
@@ -94,9 +123,6 @@ export function createCombinationOrchestrator(): Orchestrator {
     }
 
     function start(payload: CombinationPayload) {
-        // await initWorkerPool()
-        // cancel();
-        console.log(payload);
         running.set(true);
         combinationDone.set(0);
         error.set(null);
@@ -104,36 +130,19 @@ export function createCombinationOrchestrator(): Orchestrator {
         const cores = navigator.hardwareConcurrency || 4;
         console.log("shown cores", cores);
 
-        // let workerCount = 4;
-        let partialPayload: Payload[] = [];
-        // console.log("starting workers count", workerCount);
-        // performance.now()
-        // const now = performance.now();
-        // const minItemsCategory = convertToMinItems(payload.selectedItems, payload.lockedItems);
+        let partitionPayload: Payload[] = [];
         const minItemsCategory = payload.minItems;
-        // const elapsedSec = (now - performance.now()) / 1000;
-        // console.log("Elapsed secs", elapsedSec);
         const biggestCategoryIndex = getBiggestCategoryIndex(minItemsCategory);
 
         const itemschunks = partitionEven(
             minItemsCategory,
             biggestCategoryIndex,
-            workerPool.length,
+            minItemsCategory[biggestCategoryIndex]!.length,
         );
 
-        const workerCount =
-            itemschunks.length < workerPool.length ? itemschunks.length : workerPool.length;
-        // if (itemschunks.length < workerPool.length) {
-        //     workerCount = itemschunks.length;
-        // }
-        console.log("workerCount", workerCount);
-        // console.log("itemschunks", itemschunks);
-
-        for (let i = 0; i < workerCount; i++) {
+        for (let i = 0; i < itemschunks.length; i++) {
             let minItemsCategoryWorker = [...minItemsCategory];
             minItemsCategoryWorker[biggestCategoryIndex] = itemschunks[i]!;
-            // console.log("selectedItemsWorker", selectedItemsWorker);
-            // console.log("i", i);
             const payloadWorker: Payload = {
                 minItemsCategory: minItemsCategoryWorker,
                 weights: payload.weights,
@@ -142,35 +151,33 @@ export function createCombinationOrchestrator(): Orchestrator {
                 preStats: payload.preStats,
                 panoplies: payload.panoplies,
             };
-            partialPayload.push(payloadWorker);
+            partitionPayload.push(payloadWorker);
         }
+        // console.log("partial payload length", partitionPayload.length);
 
-        // aggregate results here
-        const partialResults: Build[][] = Array.from({ length: workerCount }, () => []);
-        const partialDone: number[] = Array(workerCount).fill(0);
+        const partialResults: Build[][] = Array.from({ length: partitionPayload.length }, () => []);
+        const partialBuildsProcessed: number[] = Array(partitionPayload.length).fill(0);
+        let partitionIndex: number = 0;
 
         return new Promise<any>((res, rej) => {
             resolve = res;
             reject = rej;
 
-            let finished = 0;
-
-            // const bytes = await wasmBytesPromise;
-            workers = workerPool.slice(0, workerCount);
-
-            for (let i = 0; i < workerCount; i++) {
-                // const w = new CombinationSearchWorker();
-
-                // const w = new Worker(new URL(workerUrl, import.meta.url), { type: "module" });
-                // workers.push(w);
-                const w = workers[i]!;
+            for (let i = 0; i < workerPool.length; i++) {
+                if (partitionIndex >= partitionPayload.length) {
+                    break;
+                }
+                const w = workerPool[i]!;
 
                 w.onmessage = (e: MessageEvent) => {
                     const msg = e.data;
                     if (msg?.type === "progress") {
-                        // msg.done is "combinations done" for THIS worker
-                        partialDone[i] = msg.value;
-                        combinationDone.set(partialDone.reduce((a, b) => a + b, 0));
+                        partialBuildsProcessed[msg.partitionIndex] = msg.value;
+
+                        combinationDone.set(
+                            // workersFinishedCombination +
+                            partialBuildsProcessed.reduce((a, b) => a + b, 0),
+                        );
                         return;
                     }
                     if (msg?.type === "error") {
@@ -179,37 +186,47 @@ export function createCombinationOrchestrator(): Orchestrator {
                         return reject(new Error(msg.error ?? "Unknown error"));
                     }
                     if (msg?.type === "done") {
-                        partialResults[i] = msg.value ?? [];
-                        finished++;
-                        if (finished === workerCount) {
+                        // console.log("saving index result", msg.partitionIndex);
+                        partialResults[msg.partitionIndex] = msg.value ?? [];
+
+                        if (partitionIndex < partitionPayload.length) {
+                            w.postMessage({
+                                type: "compute",
+                                payload: partitionPayload[partitionIndex],
+                                partitionIndex: partitionIndex,
+                            });
+                            partitionIndex++;
+                            // console.log("starting index", partitionIndex);
+                        }
+                        if (msg.partitionIndex === partitionPayload.length - 1) {
                             // merge top-K from all workers
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
                             const top = merged.slice(0, 500);
-                            // cancel();
-                            running.set(false);
-                            // bestBuilds.set(buildsFromWasm(msg.value));
-                            return resolve(top);
+                            // running.set(false);
+                            resolve(top);
+                            cancel();
+                            return;
                         }
                         return;
                     }
                 };
-
-                // w.addEventListener("onerror", (evt) => {
                 w.onerror = (evt) => {
                     error.set(`Worker error: ${evt.message ?? "unknown"}`);
                     cancel();
                     reject(evt);
-                    // });
                 };
-
-                // console.log("partial payload of worker: ", partialPayload[i]);
-                w.postMessage({ type: "compute", payload: partialPayload[i] });
+                w.postMessage({
+                    type: "compute",
+                    payload: partitionPayload[partitionIndex],
+                    partitionIndex: partitionIndex,
+                });
+                partitionIndex++;
             }
         });
     }
 
-    return { start, cancel, running, combinationDone, error };
+    return { ready, start, cancel, running, combinationDone, error };
 }
 
 function getBiggestCategoryIndex(minItemsCategory: MinItem[][]): number {
@@ -366,26 +383,4 @@ function mergeItemsRequirement(items: Item[]): MinRequirement | undefined {
         }
     }
     return undefined;
-}
-
-export function getComboItemsWithBonusPanoLessThan3(items: Item[]): MinItem {
-    // let itemsNoBonusPano: MinItem[] = [];
-    const noBonusPanoItems = items.filter(
-        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
-        (item) => !isItemBonusPanoCapped(item),
-    );
-    // itemsNoBonusPano.push();
-    // console.log(noBonusPanoItems);
-    return mergeItems(noBonusPanoItems);
-}
-
-export function getComboItemsNoBonusPanoLessThan3(items: Item[]): MinItem {
-    // let itemsNoBonusPano: MinItem[] = [];
-    const noBonusPanoItems = items.filter(
-        // (item) => item.requirement?.type !== "panopliesBonusLessThan",
-        (item) => !isItemBonusPanoCapped(item),
-    );
-    // itemsNoBonusPano.push();
-    // console.log(noBonusPanoItems);
-    return mergeItems(noBonusPanoItems);
 }

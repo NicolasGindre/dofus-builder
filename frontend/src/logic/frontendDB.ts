@@ -1,5 +1,6 @@
 import { get } from "svelte/store";
 import {
+    computeMode,
     dofusVersion,
     items,
     itemsCategory,
@@ -20,6 +21,7 @@ import {
 import { getBonusStats } from "../types/stats";
 import type { Build } from "../types/build";
 import { buildsFromIds } from "./build";
+import type { Mode } from "../workers/orchestrator";
 
 let init = false;
 const itemsVersionDisplayed = "v3.3.18.17";
@@ -242,5 +244,18 @@ function initComputeSpeed() {
         millionComboPerMin.set(raw ? JSON.parse(raw) : 400);
     } catch (err) {
         console.error("init Compute Speed", err);
+    }
+}
+
+export function saveComputeMode(mode: Mode) {
+    localStorage.setItem("computeMode", JSON.stringify(mode));
+}
+
+export function initComputeMode() {
+    try {
+        const raw = localStorage.getItem("computeMode");
+        computeMode.set(raw ? JSON.parse(raw) : "cpu");
+    } catch (err) {
+        computeMode.set("cpu");
     }
 }

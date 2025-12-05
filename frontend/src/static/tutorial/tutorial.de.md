@@ -2,7 +2,7 @@
 
 Dieses Tutorial wurde mit ChatGPT übersetzt und enthält daher wahrscheinlich Fehler. Die englischen und französischen Tutorials wurden manuell geschrieben, nutze also nach Möglichkeit diese Versionen.
 
-**Dofus Minmax** ist eine Anwendung, die die besten Builds in Dofus berechnet.  
+**Dofus MinMax** ist eine Anwendung, die die besten Builds in Dofus berechnet.  
 Sie ist in 3 Bereiche aufgeteilt:
 
 - **Gewicht / Min / Max (Parameter):** Definiere, was du in deinem Build haben möchtest.

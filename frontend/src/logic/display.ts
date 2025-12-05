@@ -74,40 +74,19 @@ export function calculatePanopliesToDisplay() {
     }, 0);
 }
 export function calculatePanopliesToDisplayNow() {
-    // panopliesBest: Panoply[],
-    // panopliesSelected: Panoply[],
-    // : Panoply[]
-    // let panosBest: Panoply[];
     let panosToDisplay: Panoply[] = [];
 
-    let i = 1;
-    for (const pano of get(panopliesBest)) {
-        if (i < get(panoplyDisplaySize) && !get(showOnlySelectedPanos)) {
-            // let panoOverLevel = true;
-            // for (const item of pano.itemsReal) {
-            //     if (item.level <= get(level)) {
-            //         panoOverLevel = false;
-            //         break;
-            //     }
-            // }
-            // if (!panoOverLevel) {
-            if (pano.bestRelativeValue == -Infinity || pano.bestValuePerItem <= 0) {
-                continue;
-            }
-            panosToDisplay.push(pano);
-            i++;
-            // }
-        } else {
-            for (const panoSelected of get(panopliesSelected)) {
-                if (panoSelected.name == pano.name) {
-                    panosToDisplay.push(pano);
-                }
-            }
-        }
+    if (!get(showOnlySelectedPanos)) {
+        panosToDisplay.push(...getTopXPanos());
     }
-    // console.log(panosToDisplay);
-    // return panosToDisplay;
+    panosToDisplay.push(...get(panopliesSelected));
+
     panopliesDisplayed.set(panosToDisplay);
+}
+export function getTopXPanos(): Panoply[] {
+    return get(panopliesBest)
+        .filter((pano) => pano.bestRelativeValue !== -Infinity && pano.bestValuePerItem > 0)
+        .slice(0, get(panoplyDisplaySize));
 }
 
 export function showOnlySelected(showOnlySelected: boolean) {

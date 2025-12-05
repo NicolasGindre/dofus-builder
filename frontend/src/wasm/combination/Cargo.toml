@@ -6,10 +6,21 @@ edition = "2024"
 [lib]
 crate-type = ["cdylib"]
 
+[features]
+cpu = []
+gpu = ["wgpu", "wasm-bindgen-futures", "futures-channel", "bytemuck"]
+default = ["cpu"]
+
 [dependencies]
 wasm-bindgen = "0.2"
 serde = { version = "1.0.228", features = ["derive"] }
 serde-wasm-bindgen = "0.6.5"
-web-sys = { version = "0.3", features = ["console"] }
+
+wgpu = { version = "27", features = ["webgpu"], optional = true }
+wasm-bindgen-futures = { version = "0.4", optional = true }
+futures-channel = { version = "0.3", optional = true }
+bytemuck = { version = "1", features = ["derive"], optional = true }
+
+js-sys = "0.3"
 console_error_panic_hook = "0.1"
 smallvec = "1.15.1"

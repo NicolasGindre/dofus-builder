@@ -73,6 +73,7 @@ export async function loadItemsAndPanos(): Promise<void> {
     }
     itemsDB = newItemsDB;
     console.log("Loaded " + Object.keys(itemsDB).length + " items");
+    console.log("Loaded " + Object.keys(panoplies).length + " panoplies");
 }
 
 export function filterPanoplies(panopliesToFilter: string[]) {

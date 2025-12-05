@@ -9,7 +9,7 @@ import {
 import { getLeveledStats, type Build } from "../types/build";
 import type { CountryCode, Translations } from "../types/language";
 
-import { saveBuildsStorage, saveSearchStorage } from "../logic/frontendDB";
+import { saveBuildsStorage, saveComputeMode, saveSearchStorage } from "../logic/frontendDB";
 import {
     calculateAllItemsToDisplay,
     calculateBuildToDisplay,
@@ -32,7 +32,13 @@ import {
 } from "../logic/encoding/valueEncoding";
 import { encodeToUrl } from "../logic/encoding/urlEncode";
 import { refreshBuildsValue, totalCombinations, updateBestBuildsNames } from "../logic/build";
-import { convertToMinItems, type MinItem } from "../workers/orchestrator";
+import {
+    convertToMinItems,
+    gpuAvailable,
+    initWorkerPool,
+    type MinItem,
+    type Mode,
+} from "../workers/orchestrator";
 import type { ItemCategory } from "../../../shared/types/item";
 import type { StatKey, Stats } from "../../../shared/types/stats";
 
@@ -44,6 +50,19 @@ export const words = derived(lang, ($lang) => translations[$lang]);
 export const dofusVersion = writable<string>("");
 
 export const showTutorial = writable<boolean>(false);
+
+export const computeMode = writable<Mode>();
+computeMode.subscribe(($computeMode) => {
+    if (!$computeMode) {
+        return;
+    }
+    if (gpuAvailable() && $computeMode == "gpu") {
+        initWorkerPool("gpu");
+    } else {
+        initWorkerPool("cpu");
+    }
+    saveComputeMode($computeMode);
+});
 
 export const urlHash = writable<string>("");
 export const previousStatsSearch = writable<string>("");

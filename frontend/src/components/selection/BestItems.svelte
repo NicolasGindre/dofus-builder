@@ -37,6 +37,7 @@
     } from "../../logic/item";
     import {
         calculatePanopliesToDisplay,
+        getTopXPanos,
         orderByValueWithPano,
         showOnlySelected,
     } from "../../logic/display";
@@ -77,11 +78,11 @@
         });
     }
     function showMorePano() {
-        panoplyDisplaySize.set(get(panoplyDisplaySize) + 5);
+        panoplyDisplaySize.set(Math.min(500, get(panoplyDisplaySize) + 5));
         calculatePanopliesToDisplay();
     }
     function showLessPano() {
-        panoplyDisplaySize.set(Math.max(0, get(panoplyDisplaySize) - 5));
+        panoplyDisplaySize.set(Math.max(5, get(panoplyDisplaySize) - 5));
         calculatePanopliesToDisplay();
     }
 
@@ -142,7 +143,8 @@
     }
 
     function quickSelection() {
-        for (const pano of $panopliesDisplayed) {
+        const panosToInclude = getTopXPanos();
+        for (const pano of panosToInclude) {
             for (const item of Object.values(pano.itemsReal)) {
                 if (isItemMinRequirementOK(item)) {
                     addItem(item);
@@ -165,6 +167,26 @@
                 }
             }
         }
+        const lowestScore = panosToInclude[panosToInclude.length - 1].bestRelativeValue;
+        console.log(lowestScore);
+        for (const [category, items] of Object.entries($itemsCategoryBest)) {
+            if (category == "dofus" || category == "pet") {
+                continue;
+            }
+            for (const item of Object.values(items)) {
+                if (item.value <= 0) {
+                    break;
+                }
+                if (
+                    item.level <= $level &&
+                    (item.value - $categoryBestValue[category] > lowestScore ||
+                        item.value > $categoryBestValue[category] * 0.97)
+                ) {
+                    addItem(item);
+                }
+            }
+        }
+        calculatePanopliesToDisplay();
     }
 
     function isSkipped(category: ItemCategory, item: Item): boolean {
