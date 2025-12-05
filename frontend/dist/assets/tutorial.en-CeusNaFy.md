@@ -207,14 +207,17 @@ If only one item of an item set can be selected (or none) then its score will be
 
 If you lock an item, it can be good to recalculate best items to get the updated score and value per item of the item sets. This tells you **"given the items you have locked, these are the best items and item sets that fit the remaining slots"**. You could even use this to come up with a build by incrementally locking items/sets and recalculating the best items at every step.
 
-## Quick selection
+## Quick Selection
 
-**Quick selection** adds visible items from all visible sets in the second column. But if an item in a visible set is not selectable because of level being too low or incompatible with Min inputs, it won't be selected.
+**Quick Selection** adds all the items from the sets in the **Top X**. If an item cannot be selected (because of level or incompatible Min parameter), it is not added.
 
-You can adjust the displayed set amount (**"Top 20"**) up and down to quickly add more (or less) sets in the selection when clicking **"Quick Selection"**.
+You can adjust how many sets are displayed (Top 20) to add more or fewer items. Be careful: the number of combinations grows exponentially.
 
-On top of that, Quick selection adds the item with highest value (or 2 for rings) of each category. The logic behind it is that since this item has the highest value without being linked to an item set then selecting another one would bring less value.  
-Of course if the item's characteristics interact with capped values it could matter a lot. But this is a quick selection, that's why you should probably review which items are added and add more options if you want better results.
+Quick Selection also adds items whose value is close to the highest value in their respective category.
+
+Finally, if the lowest score among the selected sets is negative, all items whose difference between their value and the value of the best item in their category is _smaller than that negative score_ are also added.
+
+Only the best pet is added to the selection. **Dofus / Trophies** are ignored.
 
 ## Momore set
 
@@ -392,6 +395,31 @@ A little bit less value compared to previous Pets but the AP it gives can make a
 Same thing as Rhineetles except that the value is a bit better. It is usually easy to reach the MP cap so I would recommend only testing these if you include items that reduce MP or if you have some specific idea in mind.
 
 On top of these Pets, you may want to include a Pet that brings value to your build so that if a build already has all elements capped then it would select that Pet instead. That pet should have a lower value than the resistances Pets otherwise it would prioritise it even if the resistances are not capped. If you have included Rhineetles then you may want to also add another Pet that gives AP for a more accurate comparison.
+
+---
+
+# Using the Graphics Card – GPU
+
+It is possible to use the graphics card (GPU) instead of the processor (CPU) to calculate the best builds. Depending on your graphics card, this can greatly increase calculation speed.
+
+Be aware that using the GPU in the browser is a relatively new technology and not yet perfectly stable. It is recommended to update your OS, your browser, and your graphics card driver if you want to use it. This feature normally works on Chromium-based browsers (Chrome, Edge, Safari...) but is not yet fully supported on Firefox as of today (December 2025).
+
+If you are using a laptop and you have an integrated graphics card, it is likely that your browser is using this much weaker integrated GPU instead of your dedicated graphics card. You must tell your OS to use the high-performance GPU. On Windows, you can do this from the Nvidia / AMD control panel, or from Windows settings:
+
+- Windows Settings → System → Display
+- Scroll down until you find **Graphics settings**
+- Choose an app (**Browse**)
+- Select your browser executable. For example:  
+  `C:\Program Files\Google\Chrome\Application\chrome.exe`
+- Then enable the **“High performance”** option
+- Restart the browser
+
+Using the GPU adds two constraints:
+
+- The number of selected sets is limited to **64** maximum
+- The number of combinations to calculate must stay under a certain value which varies depending on the selection, and is reached around **1 trillion** combinations
+
+These limits are very large, so in practice they should almost never be reached.
 
 ---
 
