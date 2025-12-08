@@ -8,10 +8,7 @@ import type { MinItem, Payload } from "./orchestrator";
 
 let initialized = false;
 
-// Helper that routes to the right implementation
 function runBestCombo(params: Payload, progress: (p: number) => void): BestBuildsResp {
-    // if (!wasmCpu) throw new Error("Cpu wasm not loaded");
-    // Cpu version is async (Promise)
     return best_combo_cpu(
         params.minItemsCategory,
         params.weights,
@@ -28,8 +25,6 @@ onmessage = async (e: MessageEvent) => {
 
     if (msg.type === "init") {
         initSync({ module: msg.bytes });
-
-        // Optional warmup with a tiny payload for chosen mode
         try {
             const warmParams: Payload = {
                 minItemsCategory: payloadWarmup.minItems as MinItem[][],
@@ -40,8 +35,8 @@ onmessage = async (e: MessageEvent) => {
                 panoplies: payloadWarmup.panoplies as Panoply[],
             };
             runBestCombo(warmParams, () => {});
-        } catch {
-            // you can post an init-error if you want
+        } catch (err) {
+            console.error(err);
         }
 
         initialized = true;

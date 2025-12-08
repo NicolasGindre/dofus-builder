@@ -168,7 +168,7 @@
             }
         }
         const lowestScore = panosToInclude[panosToInclude.length - 1].bestRelativeValue;
-        console.log(lowestScore);
+        // console.log(lowestScore);
         for (const [category, items] of Object.entries($itemsCategoryBest)) {
             if (category == "dofus" || category == "pet") {
                 continue;
