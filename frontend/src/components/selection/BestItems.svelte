@@ -170,7 +170,6 @@
         if (!panosToInclude.length) {
             return;
         }
-
         const lowestScore = panosToInclude[panosToInclude.length - 1].bestRelativeValue;
         // console.log(lowestScore);
         for (const [category, items] of Object.entries($itemsCategoryBest)) {
