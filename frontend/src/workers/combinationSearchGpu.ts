@@ -8,13 +8,10 @@ import type { MinItem, Payload } from "./orchestrator";
 
 let initialized = false;
 
-// Helper that routes to the right implementation
 async function runBestCombo(
     params: Payload,
     progress: (p: number) => void,
 ): Promise<BestBuildsResp> {
-    // if (!wasmGpu) throw new Error("GPU wasm not loaded");
-    // GPU version is async (Promise)
     return await best_combo_gpu(
         params.minItemsCategory,
         params.weights,
@@ -32,7 +29,6 @@ onmessage = async (e: MessageEvent) => {
     if (msg.type === "init") {
         initSync({ module: msg.bytes });
 
-        // Optional warmup with a tiny payload for chosen mode
         try {
             const warmParams: Payload = {
                 minItemsCategory: payloadWarmup.minItems as MinItem[][],
@@ -43,9 +39,11 @@ onmessage = async (e: MessageEvent) => {
                 panoplies: payloadWarmup.panoplies as Panoply[],
             };
             await runBestCombo(warmParams, () => {});
-        } catch {
-            // you can post an init-error if you want
+        } catch (err: any) {
+            console.error(err);
+            return self.postMessage({ type: "init-error", error: err?.message ?? "Init failed" });
         }
+        // return self.postMessage({ type: "init-error" });
 
         initialized = true;
         self.postMessage({ type: "ready" });

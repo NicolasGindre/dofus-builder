@@ -230,6 +230,9 @@
     tabindex="0"
     aria-label="Builds"
     on:keydown={(e) => {
+        if (savingBuildIndex != undefined) {
+            return;
+        }
         if (e.key === "ArrowUp") {
             e.preventDefault();
             prevBuild();

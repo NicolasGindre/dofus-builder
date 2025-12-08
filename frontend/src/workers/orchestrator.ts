@@ -10,6 +10,7 @@ import CombinationSearchWorkerGpu from "./combinationSearchGpu.ts?worker&module"
 import wasmCpuUrl from "../wasm/combination/pkg_cpu/combination_bg.wasm?url";
 import wasmGpuUrl from "../wasm/combination/pkg_gpu/combination_bg.wasm?url";
 import { string } from "zod/v4-mini";
+import { computeMode } from "../stores/storeBuilder";
 
 export type MinItem = {
     id: string;
@@ -77,7 +78,7 @@ export async function initWorkerPool(newMode?: Mode) {
     //     w.postMessage({ type: "init", bytes: bytes.slice(0) });
     // }
 
-    await new Promise<void>((resolve) => {
+    await new Promise<void>((resolve, reject) => {
         let remaining = workerPool.length;
 
         for (const w of workerPool) {
@@ -85,6 +86,22 @@ export async function initWorkerPool(newMode?: Mode) {
                 if (e.data?.type === "ready") {
                     if (--remaining === 0) resolve();
                 }
+                if (e.data?.type === "init-error") {
+                    const errMsg = e.data.error ?? "Worker init failed.";
+                    reject(new Error(errMsg + " Switching back to CPU"));
+                    if (mode == "gpu") {
+                        computeMode.set("cpu");
+                    }
+                    return;
+                }
+            };
+            w.onerror = (evt) => {
+                const errMsg = evt.message ?? "Worker script crashed";
+                reject(new Error(errMsg + " Switching back to CPU"));
+                if (mode == "gpu") {
+                    computeMode.set("cpu");
+                }
+                return;
             };
             w.postMessage({ type: "init", bytes: bytes.slice(0) });
         }
@@ -242,7 +259,6 @@ function getBiggestCategoryIndex(minItemsCategory: MinItem[][]): number {
 }
 
 function filterPanosWithAtLeast2Items(panos: Panoply[], minItems: MinItem[][]): Panoply[] {
-    console.log(panos.length);
     let panoCount: Record<string, number> = {};
     for (const minItemsCat of minItems) {
         for (const minItem of minItemsCat) {
@@ -255,12 +271,10 @@ function filterPanosWithAtLeast2Items(panos: Panoply[], minItems: MinItem[][]): 
     for (const pano of panos) {
         if ((panoCount[pano.id] ?? 0) >= 2) {
             panosToCalculate.push(pano);
-        } else {
-            console.log(pano.id);
         }
     }
-    console.log(panoCount);
-    console.log(panosToCalculate.length);
+    // console.log(panoCount);
+    // console.log(panosToCalculate.length);
     return panosToCalculate;
 }
 
