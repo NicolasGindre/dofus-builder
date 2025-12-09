@@ -2436,5 +2436,205 @@
         "es": "Reflejo Cegador:\n• Al final de cada turno, el portador reduce en 4 el alcance durante 1 turno a todos los enemigos en su línea de visión y los revela si están invisibles (acumulable 1 vez)."
       }
     }
+  },
+  "V9": {
+    "id": "V9",
+    "idDofusDB": 32215,
+    "idDofusBook": 32215,
+    "name": {
+      "fr": "Coquille de Vengeuse Masquée",
+      "en": "Masked Avenger Shell",
+      "pt": "Concha da Vingadora Mascarada",
+      "de": "Schale der Maskierten Rächerin",
+      "es": "Concha de Vengadora Enmascarada"
+    },
+    "level": 166,
+    "panoply": "7T",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 180,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "range": 1,
+      "prospecting": 15,
+      "earthResistPer": 4,
+      "waterResistPer": 4
+    }
+  },
+  "V6": {
+    "id": "V6",
+    "idDofusDB": 32218,
+    "idDofusBook": 32218,
+    "name": {
+      "fr": "Bras du YeCh'Ti",
+      "en": "YeCh'Ti Arm",
+      "pt": "Braço do YeCh'Ti",
+      "de": "Arm von YeCh'Ti",
+      "es": "Brazo de YeCh'Ti"
+    },
+    "level": 180,
+    "panoply": "7U",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 180,
+      "strength": 40,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "summon": 2,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "apResist": 8,
+      "mpResist": 8
+    }
+  },
+  "Ve": {
+    "id": "Ve",
+    "idDofusDB": 32224,
+    "idDofusBook": 32224,
+    "name": {
+      "fr": "Boucliéclair de Flasho",
+      "en": "Flasho's Flashy Shield",
+      "pt": "Escudelâmpago do Flashugo",
+      "de": "Blitzeschild von Daxoflash",
+      "es": "Escudámpago de Tejash"
+    },
+    "level": 192,
+    "panoply": "7X",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 200,
+      "intelligence": 35,
+      "wisdom": 30,
+      "power": 35,
+      "range": 1,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 12,
+      "apReduction": 6
+    }
+  },
+  "Vk": {
+    "id": "Vk",
+    "idDofusDB": 32233,
+    "idDofusBook": 32233,
+    "name": {
+      "fr": "Pavois frigorifié du Chevalier de Glace",
+      "en": "Ice Knight's Frigid Pavise",
+      "pt": "Broquel congelado do Cavaleiro de Gelo",
+      "de": "Durchgefrorene Pavese des Eisritters",
+      "es": "Pavés congelado del Caballero de Hielo"
+    },
+    "level": 200,
+    "panoply": "80",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 250,
+      "chance": 40,
+      "wisdom": 40,
+      "power": 40,
+      "summon": 1,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "dodge": 10,
+      "mpReduction": 10,
+      "apResist": 15
+    }
+  },
+  "Vn": {
+    "id": "Vn",
+    "idDofusDB": 32236,
+    "idDofusBook": 32236,
+    "name": {
+      "fr": "Disque de Culbutœuf",
+      "en": "Erotegg Disc",
+      "pt": "Disco do Estrovo",
+      "de": "Scheibe von Kuhklebei",
+      "es": "Disco de Tentenhuevo"
+    },
+    "level": 200,
+    "panoply": "81",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 250,
+      "strength": 60,
+      "chance": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "range": 1,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 12,
+      "pushbackDamage": 25
+    }
+  },
+  "Vz": {
+    "id": "Vz",
+    "idDofusDB": 32239,
+    "idDofusBook": 32239,
+    "name": {
+      "fr": "Bouclier de Glourdorak",
+      "en": "Bearendizer Shield",
+      "pt": "Escudo do Glurdorak",
+      "de": "Barbärdizers Schild",
+      "es": "Escudo de Golosorak"
+    },
+    "level": 200,
+    "panoply": "82",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 250,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "summon": 2,
+      "heal": 10,
+      "prospecting": 20,
+      "earthResistPer": 10,
+      "waterResistPer": 6,
+      "airResistPer": 3,
+      "apResist": 6,
+      "pushbackDamage": 30,
+      "pushbackResist": -30
+    }
+  },
+  "Vu": {
+    "id": "Vu",
+    "idDofusDB": 32245,
+    "idDofusBook": 32245,
+    "name": {
+      "fr": "Bouton de Psikopompe",
+      "en": "Psychopump Button",
+      "pt": "Botão do Psikopompo",
+      "de": "Psychopomps' Knospe",
+      "es": "Botón de Psikopomzopato"
+    },
+    "level": 200,
+    "panoply": "84",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 250,
+      "agility": 40,
+      "wisdom": 40,
+      "power": 40,
+      "range": 1,
+      "heal": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "fireResistPer": 10,
+      "mpReduction": 10,
+      "criticalResist": 15
+    }
   }
 }

@@ -635,11 +635,11 @@
         "es": "Bendición de los Dofus"
       },
       "description": {
-        "fr": "Bénédiction des Dofus :\n• Augmente une caractéristique élémentaire du porteur par tour de jeu :\n • 400 Chance > 400 Force > 400 Agilité > 400 Intelligence",
-        "en": "Dofus Blessing:\n• Increases one of the bearer's elemental characteristics per turn:\n • 400 Chance > 400 Strength > 400 Agility > 400 Intelligence",
-        "pt": "Bênção dos Dofus:\n• Aumenta uma característica elementar do portador a cada turno de jogo:\n• 400 de sorte > 400 de força > 400 de agilidade > 400 de inteligência",
-        "de": "Segen der Dofus:\n• Erhöht pro Runde eine Elementareigenschaft des Trägers:\n• 400 Glück > 400 Stärke > 400 Flinkheit > 400 Intelligenz",
-        "es": "Bendición de los Dofus:\n• Aumenta una característica elemental del portador por turno de juego:\n• 400 de suerte > 400 de fuerza > 400 de agilidad > 400 de inteligencia"
+        "fr": "Bénédiction des Dofus :\n• Augmente une caractéristique élémentaire du porteur par tour de jeu :\n • <sprite name=\"eau\"> 400 Chance > <sprite name=\"terre\"> 400 Force > <sprite name=\"air\"> 400 Agilité > <sprite name=\"feu\"> 400 Intelligence",
+        "en": "Dofus Blessing:\n• Increases one of the bearer's elemental characteristics per turn:\n• <sprite name=\"eau\"> 400 Chance > <sprite name=\"terre\"> 400 Strength > <sprite name=\"air\"> 400 Agility > <sprite name=\"feu\"> 400 Intelligence",
+        "pt": "Bênção dos Dofus:\n• Aumenta uma característica elementar do portador a cada turno de jogo:\n• <sprite name=\"eau\"> 400 de sorte > <sprite name=\"terre\"> 400 de força > <sprite name=\"air\"> 400 de agilidade > <sprite name=\"feu\"> 400 de inteligência",
+        "de": "Segen der Dofus:\n• Erhöht pro Runde eine Elementareigenschaft des Trägers:\n• <sprite name=\"eau\"> 400 Glück > <sprite name=\"terre\"> 400 Stärke > <sprite name=\"air\"> 400 Flinkheit > <sprite name=\"feu\"> 400 Intelligenz",
+        "es": "Bendición de los Dofus:\n• Aumenta una característica elemental del portador por turno de juego:\n• <sprite name=\"eau\"> 400 de suerte > <sprite name=\"terre\"> 400 de fuerza > <sprite name=\"air\"> 400 de agilidad > <sprite name=\"feu\"> 400 de inteligencia"
       }
     }
   },
@@ -1013,16 +1013,6 @@
     "level": 61,
     "category": "cloak",
     "subCategory": "cloak",
-    "requirements": [
-      [
-        {
-          "stat": "intelligence",
-          "type": "moreThan",
-          "value": 90
-        }
-      ]
-    ],
-    "criterions": "CI>90",
     "stats": {
       "vitality": 90,
       "power": 25,
@@ -4450,8 +4440,7 @@
       "initiative": 300,
       "earthResistPer": 8,
       "earthResist": 8,
-      "apResist": 5,
-      "criticalDamage": -16
+      "apResist": 5
     }
   },
   "M1": {
@@ -6778,13 +6767,14 @@
     "subCategory": "cloak",
     "stats": {
       "vitality": 500,
-      "strength": 100,
-      "intelligence": 100,
       "wisdom": 40,
+      "power": 100,
       "range": -1,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
       "initiative": 400,
       "neutralResistPer": 7,
       "earthResistPer": 7,
@@ -7013,20 +7003,19 @@
     "subCategory": "cloak",
     "stats": {
       "vitality": 400,
-      "strength": 70,
-      "chance": 70,
-      "agility": 70,
       "wisdom": 50,
+      "power": 70,
       "criticalChance": -10,
       "summon": 2,
+      "neutralDamage": 20,
       "earthDamage": 20,
+      "fireDamage": 20,
       "waterDamage": 20,
       "airDamage": 20,
       "neutralResistPer": 5,
       "earthResistPer": 5,
       "waterResistPer": 5,
       "airResistPer": 5,
-      "fireResistPer": -5,
       "lock": 20,
       "meleeResistPer": 5
     },
@@ -7588,6 +7577,131 @@
       "waterResistPer": 5,
       "dodge": 12,
       "pushbackResist": 30
+    }
+  },
+  "Vv": {
+    "id": "Vv",
+    "idDofusDB": 32207,
+    "idDofusBook": 32207,
+    "name": {
+      "fr": "Cape de Katigrou",
+      "en": "Katigger Cape",
+      "pt": "Capa de Katigre",
+      "de": "Umhang von Katigger",
+      "es": "Capa de Katigrú"
+    },
+    "level": 144,
+    "panoply": "7R",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 25,
+      "criticalChance": 10,
+      "summon": 2,
+      "prospecting": 10
+    }
+  },
+  "V3": {
+    "id": "V3",
+    "idDofusDB": 32210,
+    "idDofusBook": 32210,
+    "name": {
+      "fr": "Voile de Fantômayte",
+      "en": "Pirate Bhey Sail",
+      "pt": "Véu do Fantomaite",
+      "de": "Schleier von Phantomaytje",
+      "es": "Manto de Phantomeyt"
+    },
+    "level": 155,
+    "panoply": "7S",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 200,
+      "wisdom": 30,
+      "power": 50,
+      "range": 2,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "fireDamage": 6,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "prospecting": 15,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "lock": -10,
+      "dodge": -10,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  "VC": {
+    "id": "VC",
+    "idDofusDB": 32228,
+    "idDofusBook": 32228,
+    "name": {
+      "fr": "Pot de miel de Viti Glourson",
+      "en": "Vinnie the Bearbarian Honey Pot",
+      "pt": "Pote de Mel de Viti Glurso",
+      "de": "Wini Barbärs Honigtopf",
+      "es": "Bote de miel de Huini Golosote"
+    },
+    "level": 199,
+    "panoply": "7Z",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 8,
+      "fireResistPer": 5,
+      "waterResistPer": 2,
+      "lock": 6,
+      "pushbackDamage": 15
+    }
+  },
+  "Vy": {
+    "id": "Vy",
+    "idDofusDB": 32237,
+    "idDofusBook": 32237,
+    "name": {
+      "fr": "Cape de Glourdorak",
+      "en": "Bearendizer Cape",
+      "pt": "Capa do Glurdorak",
+      "de": "Barbärdizers Umhang",
+      "es": "Capa de Golosorak"
+    },
+    "level": 200,
+    "panoply": "82",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 400,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "range": 2,
+      "heal": 10,
+      "prospecting": 20,
+      "earthResistPer": 3,
+      "waterResistPer": 6,
+      "airResistPer": 10,
+      "dodge": 10,
+      "criticalDamage": 30,
+      "criticalResist": -30
     }
   }
 }

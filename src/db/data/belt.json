@@ -8122,10 +8122,8 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 400,
-      "intelligence": 80,
-      "chance": 80,
-      "agility": 80,
       "wisdom": 40,
+      "power": 80,
       "criticalChance": 7,
       "fireResistPer": 7,
       "waterResistPer": 7,
@@ -8133,6 +8131,7 @@
       "lock": -20,
       "apReduction": -20,
       "mpResist": 20,
+      "criticalDamage": 12,
       "pushbackDamage": 40
     },
     "specialEffect": {
@@ -8168,9 +8167,8 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 500,
-      "chance": 100,
-      "agility": 100,
       "wisdom": 60,
+      "power": 100,
       "criticalChance": -15,
       "dodge": -60,
       "pushbackResist": 30,
@@ -8355,13 +8353,14 @@
     "subCategory": "belt",
     "stats": {
       "vitality": 400,
-      "strength": 100,
-      "chance": 100,
       "wisdom": 50,
+      "power": 100,
       "summon": 2,
       "neutralDamage": 10,
       "earthDamage": 10,
+      "fireDamage": 10,
       "waterDamage": 10,
+      "airDamage": 10,
       "initiative": 500,
       "lock": 20,
       "apResist": -15,
@@ -8896,6 +8895,130 @@
       "dodge": 6,
       "mpReduction": 6,
       "pushbackResist": -20
+    }
+  },
+  "UV": {
+    "id": "UV",
+    "idDofusDB": 32203,
+    "idDofusBook": 32203,
+    "name": {
+      "fr": "Ceinture de Bouflouth",
+      "en": "Mastoslob Belt",
+      "pt": "Cinto do Papodonte",
+      "de": "Gürtel von Fressglut",
+      "es": "Cinturón de Jalalut"
+    },
+    "level": 130,
+    "panoply": "7P",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 200,
+      "strength": 40,
+      "agility": 40,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "summon": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "airDamage": 6,
+      "prospecting": 10,
+      "waterResistPer": 7
+    }
+  },
+  "UZ": {
+    "id": "UZ",
+    "idDofusDB": 32205,
+    "idDofusBook": 32205,
+    "name": {
+      "fr": "Sangle de Monsieur Pingouin",
+      "en": "Mister Penguin Belt",
+      "pt": "Cinta do Senhor Pinguim",
+      "de": "Gurt von Mister Ping",
+      "es": "Cinto de Elpin Güino"
+    },
+    "level": 140,
+    "panoply": "7Q",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 250,
+      "strength": 35,
+      "intelligence": 50,
+      "chance": 20,
+      "wisdom": 30,
+      "earthDamage": 8,
+      "fireDamage": 10,
+      "waterDamage": 6,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "apReduction": 6,
+      "criticalResist": 10
+    }
+  },
+  "Vc": {
+    "id": "Vc",
+    "idDofusDB": 32219,
+    "idDofusBook": 32219,
+    "name": {
+      "fr": "Ceinture de San Jifu",
+      "en": "San Jifu Belt",
+      "pt": "Cinto de San Jifu",
+      "de": "Gürtel von San Jifu",
+      "es": "Cinturón de San Jifu"
+    },
+    "level": 196,
+    "panoply": "7V",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 300,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 25,
+      "criticalChance": 4,
+      "range": 1,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "airResistPer": 7,
+      "dodge": 5,
+      "apReduction": 5
+    }
+  },
+  "VB": {
+    "id": "VB",
+    "idDofusDB": 32230,
+    "idDofusBook": 32230,
+    "name": {
+      "fr": "Pagne de Viti Glourson",
+      "en": "Vinnie the Bearbarian Loincloth",
+      "pt": "Tanga do Viti Glurso",
+      "de": "Schurz von Wini Barbär",
+      "es": "Taparrabos de Huini Golosote"
+    },
+    "level": 198,
+    "panoply": "7Z",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 300,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 2,
+      "fireResistPer": 5,
+      "waterResistPer": 8,
+      "lock": 6,
+      "mpReduction": 6
     }
   }
 }

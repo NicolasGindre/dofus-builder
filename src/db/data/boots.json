@@ -2116,7 +2116,7 @@
       "summon": 2,
       "prospecting": 15,
       "initiative": 200,
-      "pods": 300,
+      "pods": 200,
       "waterResistPer": 9,
       "airResistPer": 9,
       "earthResistPer": -4,
@@ -5373,7 +5373,7 @@
       "fr": "Bottokami",
       "en": "Imakoboots",
       "pt": "Botokami",
-      "de": "O-Kamiefel",
+      "de": "Okamimikry-Stiefel",
       "es": "Botokami"
     },
     "level": 56,
@@ -5499,7 +5499,6 @@
       "heal": 10,
       "prospecting": 15,
       "airResistPer": 10,
-      "criticalDamage": -16,
       "pushbackDamage": 15
     }
   },
@@ -8578,7 +8577,8 @@
       "airResistPer": 10,
       "dodge": 20,
       "lock": -20,
-      "mpResist": 20
+      "mpResist": 20,
+      "rangedResistPer": 5
     },
     "specialEffect": {
       "name": {
@@ -9231,26 +9231,6 @@
     "level": 200,
     "category": "boots",
     "subCategory": "boots",
-    "requirements": [
-      [
-        {
-          "stat": "ap",
-          "type": "lessThan",
-          "value": 12
-        },
-        {
-          "stat": "mp",
-          "type": "lessThan",
-          "value": 6
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "apLessThanOrMpLessThan",
-      "value": 12,
-      "value2": 6
-    },
-    "criterions": "CP<12|CM<6",
     "stats": {
       "vitality": 200,
       "wisdom": 60,
@@ -9266,8 +9246,7 @@
       "airResistPer": 4,
       "dodge": 40,
       "criticalDamage": -20,
-      "spellDamagePer": 4,
-      "meleeResistPer": -10
+      "spellDamagePer": 4
     },
     "specialEffect": {
       "name": {
@@ -9278,12 +9257,71 @@
         "es": "Clarividencia de Mériana"
       },
       "description": {
-        "fr": "Clairvoyance de Mériana :\n• Lorsque le porteur subit des dommages élémentaires, il gagne des caractéristiques selon l'élément pendant 2 tours (cumulable 6 fois, partagé entre les effets) :\n • Terre : +10 Fuite\n • Feu : +10 Tacle\n • Eau : +10 Retrait PM\n • Air : +10 Retrait PA",
-        "en": "Meriana's Clairvoyance:\n• When the bearer suffers elemental damage, they gain characteristics depending on the element for 2 turns (stackable 6 times, shared among effects):\n • Earth: +10 Dodge\n • Fire: +10 Lock\n • Water: +10 MP Reduction\n• Air: +10 AP Reduction",
-        "pt": "Clarividência de Meriana:\n• Quando o portador sofre danos elementares, ele ganha características de acordo com o elemento durante 2 turnos (acumula até 6 vezes, repartido entre os efeitos):\n • Terra: +10 de fuga\n • Fogo: +10 de bloqueio\n • Água: +10 de retirada de PM\n• Ar: +10 de retirada de PA",
-        "de": "Merianas Hellsicht:\n• Wenn der Träger Elementarschaden erleidet, erhält er 2 Runden lang auf dem jeweiligen Element basierende Attribute (6-mal kumulierbar, auf die einzelnen Wirkungen aufgeteilt):\n • Erde: +10 Ausweichen\n • Feuer: +10 Blocken\n • Wasser: +10 BP-Entzug\n• Luft: +10 AP-Entzug",
-        "es": "Clarividencia de Mériana:\n• Cuando el portador recibe daños elementales, gana características según el elemento durante 2 turnos (acumulable 6 veces, compartido entre los efectos):\n • Tierra: +10 de huida\n • Fuego: +10 de placaje\n • Agua: +10 de retirada de PM\n• Aire: +10 de retirada de PA"
+        "fr": "Clairvoyance de Mériana :\n• Lorsque le porteur occasionne des dommages élémentaires, il gagne des caractéristiques selon l'élément pendant 2 tours (cumulable 6 fois, partagé entre les effets) :\n • Terre : 10 Fuite\n • Feu : 10 Tacle\n • Eau : 10 Retrait PM\n • Air : 10 Retrait PA",
+        "en": "Meriana's Clairvoyance:\n• When the bearer inflicts elemental damage, they gain characteristics depending on the element for 2 turns (stackable 6 times, shared among effects):\n • Earth: 10 Dodge\n • Fire: 10 Lock\n • Water: 10 MP Reduction\n• Air: 10 AP Reduction",
+        "pt": "Clarividência de Meriana:\n• Quando o portador inflige danos elementares, ele ganha características de acordo com o elemento durante 2 turnos (pode ser acumulado 6 vezes, repartido entre os efeitos):\n • Terra: 10 de fuga\n • Fogo: 10 de bloqueio\n • Água: 10 de retirada de PM\n• Ar: 10 de retirada de PA",
+        "de": "Merianas Hellsicht:\n• Wenn der Träger Elementarschaden verursacht, erhält er 2 Runden lang auf dem jeweiligen Element basierende Attribute (6-mal kumulierbar, auf die einzelnen Wirkungen aufgeteilt):\n • Erde: 10 Ausweichen\n • Feuer: 10 Blocken\n • Wasser: 10 BP-Entzug\n• Luft: 10 AP-Entzug",
+        "es": "Clarividencia de Mériana:\n• Cuando el portador ocasiona daños elementales, gana características según el elemento durante 2 turnos (acumulable 6 veces, compartido entre los efectos):\n • Tierra: 10 de huida\n • Fuego: 10 de placaje\n • Agua: 10 de retirada de PM\n• Aire: 10 de retirada de PA"
       }
+    }
+  },
+  "V0": {
+    "id": "V0",
+    "idDofusDB": 32206,
+    "idDofusBook": 32206,
+    "name": {
+      "fr": "Palmes de Monsieur Pingouin",
+      "en": "Mister Penguin Flippers",
+      "pt": "Barbatanas do Senhor Pinguim",
+      "de": "Flossen von Mister Ping",
+      "es": "Aletas de Elpin Güino"
+    },
+    "level": 138,
+    "panoply": "7Q",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 200,
+      "strength": 50,
+      "intelligence": 20,
+      "chance": 35,
+      "wisdom": 15,
+      "mp": 1,
+      "earthDamage": 10,
+      "fireDamage": 6,
+      "waterDamage": 8,
+      "prospecting": 10,
+      "earthResistPer": 7,
+      "apReduction": 4,
+      "criticalResist": 10
+    }
+  },
+  "Vx": {
+    "id": "Vx",
+    "idDofusDB": 32208,
+    "idDofusBook": 32208,
+    "name": {
+      "fr": "Pattes de Katigrou",
+      "en": "Katigger Paws",
+      "pt": "Patas de Katigre",
+      "de": "Katigger-Pfoten",
+      "es": "Patas de Katigrú"
+    },
+    "level": 146,
+    "panoply": "7R",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 200,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "mp": 1,
+      "summon": 1,
+      "prospecting": 10
     }
   }
 }

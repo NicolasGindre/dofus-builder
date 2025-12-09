@@ -5653,7 +5653,7 @@
       "fr": "Annokami",
       "en": "Imakoring",
       "pt": "Arokami",
-      "de": "Okamring",
+      "de": "Okamimikry-Ring",
       "es": "Arokami"
     },
     "level": 54,
@@ -8609,11 +8609,389 @@
       },
       "description": {
         "fr": "Ponctualité d'Henual :\n• Lorsque le porteur subit une tentative de retrait de PA ou de PM, il est téléporté à sa position précédente, une fois maximum pour chaque type de retrait.",
-        "en": "Henual's Punctuality:\n• When the bearer suffers an attempted AP or MP removal, they are teleported to their previous position.",
-        "pt": "Pontualidade de Henual:\n• Ao sofrer uma tentativa de retirada de PA ou de PM, o portador é teletransportado para sua posição anterior.",
-        "de": "Henuals Pünktlichkeit:\n• Wenn ein Gegner versucht, dem Träger AP oder BP zu entziehen, wird er auf seine vorherige Position zurückteleportiert.",
-        "es": "Puntualidad de Henual:\n• Cuando el portador sufre un intento de retirada de PA o PM, es teletransportado a su posición anterior."
+        "en": "Henual's Punctuality:\n• When the bearer suffers an attempted AP or MP removal, they are teleported to their previous position up to one time for each type of removal.",
+        "pt": "Pontualidade de Henual:\n• Ao sofrer uma tentativa de retirada de PA ou de PM, o portador é teletransportado para sua posição anterior, no máximo uma vez para cada tipo de retirada.",
+        "de": "Henuals Pünktlichkeit:\n• Wenn ein Gegner versucht, dem Träger AP oder BP zu entziehen, wird er auf seine vorherige Position zurückteleportiert, und zwar höchstens einmal pro Entzugsart.",
+        "es": "Puntualidad de Henual:\n• Cuando el portador sufre un intento de retirada de PA o PM, es teletransportado a su posición anterior, una vez como máximo por cada tipo de retirada."
       }
+    }
+  },
+  "Vw": {
+    "id": "Vw",
+    "idDofusDB": 32209,
+    "idDofusBook": 32209,
+    "name": {
+      "fr": "Mitaine de Katigrou",
+      "en": "Katigger Glove",
+      "pt": "Luvas de Katigre",
+      "de": "Katigger-Handschuh",
+      "es": "Mitón de Katigrú"
+    },
+    "level": 142,
+    "panoply": "7R",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 150,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "range": 1,
+      "summon": 1,
+      "prospecting": 10
+    }
+  },
+  "V2": {
+    "id": "V2",
+    "idDofusDB": 32212,
+    "idDofusBook": 32212,
+    "name": {
+      "fr": "Bracelet de Fantômayte",
+      "en": "Pirate Bhey Bracelet",
+      "pt": "Bracelete do Fantomaite",
+      "de": "Armreif von Phantomaytje",
+      "es": "Brazalete de Phantomeyt"
+    },
+    "level": 153,
+    "panoply": "7S",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 150,
+      "wisdom": 25,
+      "power": 30,
+      "range": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "lock": -10,
+      "dodge": -10
+    }
+  },
+  "V7": {
+    "id": "V7",
+    "idDofusDB": 32214,
+    "idDofusBook": 32214,
+    "name": {
+      "fr": "Brassard de Vengeuse Masquée",
+      "en": "Masked Avenger Armband",
+      "pt": "Braçadeira da Vingadora Mascarada",
+      "de": "Armschiene der Maskierten Rächerin",
+      "es": "Brazalete de Vengadora Enmascarada"
+    },
+    "level": 168,
+    "panoply": "7T",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 180,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 4,
+      "fireResistPer": 4,
+      "lock": -10
+    }
+  },
+  "V5": {
+    "id": "V5",
+    "idDofusDB": 32217,
+    "idDofusBook": 32217,
+    "name": {
+      "fr": "Mitaine du YeCh'Ti",
+      "en": "YeCh'Ti Mitten",
+      "pt": "Luva do YeCh'Ti",
+      "de": "Halbhandschuh von YeCh'Ti",
+      "es": "Mitón de YeCh'Ti"
+    },
+    "level": 178,
+    "panoply": "7U",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 25,
+      "summon": 1,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "airDamage": 15,
+      "prospecting": 10,
+      "earthResistPer": 8,
+      "apResist": 6
+    }
+  },
+  "Va": {
+    "id": "Va",
+    "idDofusDB": 32220,
+    "idDofusBook": 32220,
+    "name": {
+      "fr": "Bague de San Jifu",
+      "en": "San Jifu Ring",
+      "pt": "Anel de San Jifu",
+      "de": "Ring von San Jifu",
+      "es": "Anillo de San Jifu"
+    },
+    "level": 192,
+    "panoply": "7V",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "wisdom": 35,
+      "power": 40,
+      "criticalChance": 2,
+      "summon": 2,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "initiative": 300,
+      "neutralResist": 10,
+      "waterResist": 10,
+      "dodge": 5,
+      "apReduction": 5,
+      "criticalResist": 10
+    }
+  },
+  "Vd": {
+    "id": "Vd",
+    "idDofusDB": 32222,
+    "idDofusBook": 32222,
+    "name": {
+      "fr": "Anneau de Flasho",
+      "en": "Flasho Ring",
+      "pt": "Anel do Flashugo",
+      "de": "Ring von Daxoflash",
+      "es": "Anillo de Tejash"
+    },
+    "level": 194,
+    "panoply": "7X",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "intelligence": 30,
+      "wisdom": 25,
+      "power": 30,
+      "range": 1,
+      "fireDamage": 12,
+      "fireResistPer": 10,
+      "apReduction": 6
+    }
+  },
+  "Vg": {
+    "id": "Vg",
+    "idDofusDB": 32226,
+    "idDofusBook": 32226,
+    "name": {
+      "fr": "Anneau doré du Docteur Eggob",
+      "en": "Doctor Gobotnegg Golden Ring",
+      "pt": "Anel Dourado do Goblotnik",
+      "de": "Goldring von Doktor Eggob",
+      "es": "Anillo dorado del doctor Eggob"
+    },
+    "level": 193,
+    "panoply": "7Y",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "range": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "waterDamage": 8,
+      "prospecting": 10,
+      "fireResistPer": 8,
+      "pushbackDamage": 10
+    }
+  },
+  "Vj": {
+    "id": "Vj",
+    "idDofusDB": 32231,
+    "idDofusBook": 32231,
+    "name": {
+      "fr": "Ceste gelé du Chevalier de Glace",
+      "en": "Ice Knight's Frozen Gauntlet",
+      "pt": "Manopla Gelada do Cavaleiro de Gelo",
+      "de": "Eingefrorener Cestus des Eisritters",
+      "es": "Cesto helado del Caballero de Hielo"
+    },
+    "level": 200,
+    "panoply": "80",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 300,
+      "chance": 30,
+      "wisdom": 30,
+      "power": 30,
+      "range": 1,
+      "damage": 5,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "waterResistPer": 10,
+      "dodge": 6,
+      "mpReduction": 6
+    }
+  },
+  "Vm": {
+    "id": "Vm",
+    "idDofusDB": 32234,
+    "idDofusBook": 32234,
+    "name": {
+      "fr": "Anneau de Culbutœuf",
+      "en": "Erotegg Ring",
+      "pt": "Anel do Estrovo",
+      "de": "Ring von Kuhklebei",
+      "es": "Anillo de Tentenhuevo"
+    },
+    "level": 200,
+    "panoply": "81",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "strength": 50,
+      "chance": 50,
+      "agility": 50,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 8,
+      "pushbackDamage": 15
+    }
+  },
+  "Vp": {
+    "id": "Vp",
+    "idDofusDB": 32240,
+    "idDofusBook": 32240,
+    "name": {
+      "fr": "Boulon de Mekamouth",
+      "en": "Mekstagob Nut",
+      "pt": "Parafuso do Mekamute",
+      "de": "Bolzen von Mechmut",
+      "es": "Rosca de Mecanimut"
+    },
+    "level": 200,
+    "panoply": "83",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 350,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 40,
+      "criticalChance": 3,
+      "range": 1,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "apReduction": 6
+    }
+  },
+  "Vq": {
+    "id": "Vq",
+    "idDofusDB": 32241,
+    "idDofusBook": 32241,
+    "name": {
+      "fr": "Écrou de Mekamouth",
+      "en": "Mekstagob Bolt",
+      "pt": "Porca do Mekamute",
+      "de": "Mutter von Mechmut",
+      "es": "Tuerca de Mecanimut"
+    },
+    "level": 200,
+    "panoply": "83",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 300,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "waterResistPer": 10,
+      "apResist": -10
+    }
+  },
+  "Vs": {
+    "id": "Vs",
+    "idDofusDB": 32243,
+    "idDofusBook": 32243,
+    "name": {
+      "fr": "Gant de Psikopompe",
+      "en": "Psychopump Glove",
+      "pt": "Luva do Psikopompo",
+      "de": "Psychopomps' Handschuh",
+      "es": "Guante de Psikopomzopato"
+    },
+    "level": 200,
+    "panoply": "84",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "agility": 30,
+      "wisdom": 30,
+      "power": 30,
+      "summon": 1,
+      "damage": 5,
+      "airDamage": 10,
+      "heal": 6,
+      "prospecting": 10,
+      "airResistPer": 10,
+      "criticalResist": 15
+    }
+  },
+  "VF": {
+    "id": "VF",
+    "idDofusDB": 32439,
+    "idDofusBook": 32439,
+    "name": {
+      "fr": "Osanneau",
+      "en": "Osamoodring",
+      "pt": "Osanel",
+      "de": "Osamodasring",
+      "es": "Osanillo"
+    },
+    "level": 200,
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 300,
+      "power": 50,
+      "criticalChance": 4,
+      "summon": 2,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 2,
+      "fireResistPer": 2,
+      "waterResistPer": 2,
+      "airResistPer": 2,
+      "apResist": -15
     }
   }
 }
