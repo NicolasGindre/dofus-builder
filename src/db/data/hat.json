@@ -8427,14 +8427,13 @@
     "subCategory": "hat",
     "stats": {
       "vitality": 400,
-      "strength": 80,
-      "intelligence": 80,
-      "chance": 80,
       "wisdom": 60,
+      "power": 80,
       "neutralDamage": 10,
       "earthDamage": 10,
       "fireDamage": 10,
       "waterDamage": 10,
+      "airDamage": 10,
       "initiative": -200,
       "mpResist": 20,
       "rangedResistPer": 10,
@@ -8472,26 +8471,6 @@
     "level": 200,
     "category": "hat",
     "subCategory": "hat",
-    "requirements": [
-      [
-        {
-          "stat": "ap",
-          "type": "lessThan",
-          "value": 12
-        },
-        {
-          "stat": "mp",
-          "type": "lessThan",
-          "value": 6
-        }
-      ]
-    ],
-    "minRequirement": {
-      "type": "apLessThanOrMpLessThan",
-      "value": 12,
-      "value2": 6
-    },
-    "criterions": "CP<12|CM<6",
     "stats": {
       "vitality": 350,
       "wisdom": 60,
@@ -9354,6 +9333,96 @@
         "de": "Leidenschaft der Dunklen Stadt:\n• Zu Beginn jeder Runde erhöht sich der Endschaden des Trägers und seiner Verbündeten 1 Runde lang um 1 % pro am Leben befindlichem gegnerischen Kämpfer (4-mal kumulierbar).",
         "es": "Ardor de la Ciudad Oscura:\n• Al inicio de cada turno, el portador y sus aliados ganan un 1% de daños finales durante 1 turno por cada luchador enemigo vivo (acumulable hasta 4 veces)."
       }
+    }
+  },
+  "UX": {
+    "id": "UX",
+    "idDofusDB": 32201,
+    "idDofusBook": 32201,
+    "name": {
+      "fr": "Coiffe de Bouflouth",
+      "en": "Mastoslob Headgear",
+      "pt": "Chapéu do Papodonte",
+      "de": "Kopfbedeckung von Fressglut",
+      "es": "Tocado de Jalalut"
+    },
+    "level": 132,
+    "panoply": "7P",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 250,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "criticalChance": 5,
+      "range": 1,
+      "waterDamage": 6,
+      "airDamage": 6,
+      "prospecting": 10,
+      "earthResistPer": 7
+    }
+  },
+  "V8": {
+    "id": "V8",
+    "idDofusDB": 32213,
+    "idDofusBook": 32213,
+    "name": {
+      "fr": "Masque de Vengeuse Masquée",
+      "en": "Masked Avenger Mask",
+      "pt": "Máscara da Vingadora Mascarada",
+      "de": "Maske der Maskierten Rächerin",
+      "es": "Máscara de Vengadora Enmascarada"
+    },
+    "level": 170,
+    "panoply": "7T",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 200,
+      "strength": 40,
+      "intelligence": 40,
+      "chance": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "range": 1,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "fireDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 10,
+      "fireResistPer": 4,
+      "waterResistPer": 4,
+      "lock": -10
+    }
+  },
+  "Vh": {
+    "id": "Vh",
+    "idDofusDB": 32225,
+    "idDofusBook": 32225,
+    "name": {
+      "fr": "Lunettes du Docteur Eggob",
+      "en": "Doctor Gobotnegg Goggles",
+      "pt": "Óculos do Goblotnik",
+      "de": "Brille von Doktor Eggob",
+      "es": "Gafas del doctor Eggob"
+    },
+    "level": 191,
+    "panoply": "7Y",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 350,
+      "strength": 70,
+      "chance": 70,
+      "wisdom": 50,
+      "neutralDamage": 12,
+      "earthDamage": 12,
+      "waterDamage": 12,
+      "prospecting": 20,
+      "earthResistPer": 7,
+      "waterResistPer": 7,
+      "pushbackDamage": 20
     }
   }
 }

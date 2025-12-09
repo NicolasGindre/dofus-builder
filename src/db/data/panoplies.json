@@ -1374,21 +1374,21 @@
       {
         "airDamage": 20,
         "waterDamage": 20,
-        "dodge": 5,
-        "fireDamage": 20,
-        "earthDamage": 20,
+        "pushbackResist": 20,
         "neutralDamage": 20,
-        "pushbackResist": 20
+        "earthDamage": 20,
+        "fireDamage": 20,
+        "dodge": 5
       },
       {
-        "dodge": 5,
-        "airDamage": 20,
-        "waterDamage": 20,
-        "fireDamage": 20,
-        "earthDamage": 20,
+        "pushbackResist": 20,
+        "ap": 1,
         "neutralDamage": 20,
-        "mp": 1,
-        "pushbackResist": 20
+        "earthDamage": 20,
+        "fireDamage": 20,
+        "waterDamage": 20,
+        "airDamage": 20,
+        "dodge": 5
       }
     ]
   },
@@ -2099,25 +2099,23 @@
       {
         "intelligence": 30,
         "chance": 30,
-        "waterDamage": 10,
-        "fireDamage": 10,
-        "vitality": 150,
-        "heal": 40,
-        "criticalChance": -20,
+        "airResistPer": 8,
         "earthResistPer": 10,
-        "airResistPer": 8
+        "heal": 40,
+        "vitality": 150,
+        "fireDamage": 10,
+        "waterDamage": 10
       },
       {
-        "waterDamage": 10,
-        "fireDamage": 10,
-        "vitality": 150,
-        "intelligence": 30,
-        "chance": 30,
-        "heal": 40,
-        "criticalChance": -20,
-        "ap": 1,
+        "airResistPer": 8,
         "earthResistPer": 10,
-        "airResistPer": 8
+        "ap": 1,
+        "heal": 40,
+        "chance": 30,
+        "intelligence": 30,
+        "vitality": 150,
+        "fireDamage": 10,
+        "waterDamage": 10
       }
     ]
   },
@@ -2226,19 +2224,17 @@
       {
         "neutralDamage": 15,
         "earthDamage": 15,
-        "waterDamage": 15,
-        "range": 1,
         "mpReduction": 7,
-        "dodge": -5
+        "range": 1,
+        "waterDamage": 15
       },
       {
-        "neutralDamage": 15,
-        "earthDamage": 15,
-        "waterDamage": 15,
-        "range": 1,
+        "ap": 1,
         "mpReduction": 7,
-        "dodge": -5,
-        "ap": 1
+        "range": 1,
+        "waterDamage": 15,
+        "earthDamage": 15,
+        "neutralDamage": 15
       }
     ]
   },
@@ -2263,25 +2259,27 @@
       {
         "strength": 30,
         "chance": 30,
-        "initiative": 500,
-        "lock": 20,
-        "apReduction": 10,
-        "vitality": 200,
-        "neutralDamage": 15,
+        "waterDamage": 15,
         "earthDamage": 15,
-        "waterDamage": 15
+        "neutralDamage": 15,
+        "vitality": 200,
+        "apReduction": 10,
+        "lock": 20,
+        "initiative": 500,
+        "earthResistPer": 15
       },
       {
-        "ap": 1,
-        "initiative": 500,
-        "lock": 20,
-        "apReduction": 10,
-        "chance": 30,
-        "strength": 30,
-        "vitality": 200,
-        "neutralDamage": 15,
+        "waterDamage": 15,
         "earthDamage": 15,
-        "waterDamage": 15
+        "neutralDamage": 15,
+        "vitality": 200,
+        "strength": 30,
+        "chance": 30,
+        "apReduction": 10,
+        "lock": 20,
+        "initiative": 500,
+        "ap": 1,
+        "earthResistPer": 15
       }
     ]
   },
@@ -2642,21 +2640,27 @@
       {
         "intelligence": 30,
         "agility": 30,
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "chance": 30,
+        "pushbackDamage": 30,
         "criticalChance": 12,
-        "pushbackDamage": 30
+        "chance": 30,
+        "fireResistPer": 10,
+        "waterResistPer": 10,
+        "fireDamage": 10,
+        "waterDamage": 10,
+        "airDamage": 10
       },
       {
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "intelligence": 60,
-        "agility": 60,
-        "chance": 60,
-        "criticalChance": 12,
+        "ap": 1,
         "pushbackDamage": 30,
-        "ap": 1
+        "criticalChance": 12,
+        "chance": 60,
+        "agility": 60,
+        "intelligence": 60,
+        "fireResistPer": 10,
+        "waterResistPer": 10,
+        "fireDamage": 10,
+        "waterDamage": 10,
+        "airDamage": 10
       }
     ]
   },
@@ -2817,19 +2821,218 @@
       {
         "agility": 40,
         "chance": 40,
-        "pushbackDamage": 30,
-        "apReduction": 15,
+        "airResistPer": 7,
         "waterResistPer": 7,
-        "airResistPer": 7
+        "apReduction": 15,
+        "pushbackDamage": 30,
+        "waterDamage": 10,
+        "airDamage": 10
       },
       {
-        "pushbackDamage": 30,
-        "ap": 1,
-        "apReduction": 15,
-        "chance": 40,
-        "agility": 40,
+        "airResistPer": 7,
         "waterResistPer": 7,
-        "airResistPer": 7
+        "agility": 40,
+        "chance": 40,
+        "apReduction": 15,
+        "ap": 1,
+        "pushbackDamage": 30,
+        "waterDamage": 10,
+        "airDamage": 10
+      }
+    ]
+  },
+  "80": {
+    "id": "80",
+    "idDofusDB": 1044,
+    "name": {
+      "fr": "Panoplie du Chevalier de Glace",
+      "en": "Ice Knight Set",
+      "pt": "Conjunto do Cavaleiro de Gelo",
+      "de": "Ausrüstungsset des Eisritters",
+      "es": "Set del Caballero de Hielo"
+    },
+    "level": 200,
+    "items": [
+      "Vj",
+      "Vk",
+      "Vl"
+    ],
+    "stats": [
+      {},
+      {
+        "chance": 30,
+        "power": 30,
+        "apResist": 15,
+        "dodge": 10,
+        "mpReduction": 10
+      },
+      {
+        "ap": 1,
+        "chance": 30,
+        "power": 30,
+        "apResist": 15,
+        "dodge": 10,
+        "mpReduction": 10
+      }
+    ]
+  },
+  "81": {
+    "id": "81",
+    "idDofusDB": 1045,
+    "name": {
+      "fr": "Panoplie de Culbutœuf",
+      "en": "Erotegg Set",
+      "pt": "Conjunto do Estrovo",
+      "de": "Ausrüstungsset von Kuhklebei",
+      "es": "Set de Tentenhuevo"
+    },
+    "level": 200,
+    "items": [
+      "Vm",
+      "Vn",
+      "Vo"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 30,
+        "chance": 30,
+        "range": 1,
+        "pushbackDamage": 20,
+        "airDamage": 10,
+        "waterDamage": 10,
+        "earthDamage": 10,
+        "neutralDamage": 10,
+        "agility": 30,
+        "criticalChance": 12
+      },
+      {
+        "range": 1,
+        "pushbackDamage": 30,
+        "airDamage": 15,
+        "waterDamage": 15,
+        "earthDamage": 15,
+        "neutralDamage": 15,
+        "agility": 50,
+        "chance": 50,
+        "strength": 50,
+        "ap": 1,
+        "criticalChance": 18
+      }
+    ]
+  },
+  "82": {
+    "id": "82",
+    "idDofusDB": 1046,
+    "name": {
+      "fr": "Panoplie de Glourdorak",
+      "en": "Bearendizer Set",
+      "pt": "Conjunto do Glurdorak",
+      "de": "Ausrüstungsset von Barbärdizer",
+      "es": "Set de Golosorak"
+    },
+    "level": 200,
+    "items": [
+      "Vy",
+      "Vz",
+      "VA"
+    ],
+    "stats": [
+      {},
+      {
+        "initiative": 1000,
+        "criticalDamage": 20,
+        "pushbackDamage": 20,
+        "heal": 30,
+        "criticalChance": 5
+      },
+      {
+        "ap": 1,
+        "initiative": 1000,
+        "criticalDamage": 20,
+        "pushbackDamage": 20,
+        "heal": 30,
+        "criticalChance": 5
+      }
+    ]
+  },
+  "83": {
+    "id": "83",
+    "idDofusDB": 1047,
+    "name": {
+      "fr": "Panoplie de Mekamouth",
+      "en": "Mekstagob Set",
+      "pt": "Conjunto do Mekamute",
+      "de": "Ausrüstungsset von Mechmut",
+      "es": "Set de Mecanimut"
+    },
+    "level": 200,
+    "items": [
+      "Vp",
+      "Vq",
+      "Vr"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 40,
+        "chance": 40,
+        "range": 1,
+        "criticalChance": 5,
+        "apReduction": 10,
+        "waterDamage": 10,
+        "fireDamage": 10,
+        "earthDamage": 10,
+        "neutralDamage": 10,
+        "intelligence": 40
+      },
+      {
+        "range": 1,
+        "criticalChance": 8,
+        "apReduction": 15,
+        "waterDamage": 15,
+        "fireDamage": 15,
+        "earthDamage": 15,
+        "neutralDamage": 15,
+        "intelligence": 70,
+        "chance": 70,
+        "strength": 70,
+        "ap": 1
+      }
+    ]
+  },
+  "84": {
+    "id": "84",
+    "idDofusDB": 1048,
+    "name": {
+      "fr": "Panoplie de Psikopompe",
+      "en": "Psychopump Set",
+      "pt": "Conjunto do Psikopompo",
+      "de": "Ausrüstungsset von Psychopomps",
+      "es": "Set de Psikopomzopato"
+    },
+    "level": 200,
+    "items": [
+      "Vs",
+      "Vt",
+      "Vu"
+    ],
+    "stats": [
+      {},
+      {
+        "agility": 30,
+        "power": 30,
+        "criticalResist": 15,
+        "heal": 30,
+        "mpReduction": 10
+      },
+      {
+        "criticalResist": 15,
+        "heal": 30,
+        "mpReduction": 10,
+        "power": 30,
+        "agility": 30,
+        "ap": 1
       }
     ]
   },
@@ -7737,6 +7940,7 @@
     },
     "level": 185,
     "items": [
+      "Je",
       "JT",
       "JU",
       "JV"
@@ -7746,15 +7950,22 @@
       {
         "prospecting": 20,
         "criticalChance": 5,
-        "strength": 30,
-        "agility": 30
-      },
-      {
-        "ap": 1,
-        "prospecting": 20,
-        "criticalChance": 5,
         "agility": 30,
         "strength": 30
+      },
+      {
+        "strength": 30,
+        "agility": 30,
+        "criticalChance": 5,
+        "prospecting": 20,
+        "ap": 1
+      },
+      {
+        "strength": 50,
+        "agility": 50,
+        "criticalChance": 8,
+        "prospecting": 20,
+        "ap": 1
       }
     ]
   },
@@ -7773,38 +7984,29 @@
       "Ja",
       "Jb",
       "Jc",
-      "Jd",
-      "Je"
+      "Jd"
     ],
     "stats": [
       {},
       {
         "intelligence": 30,
         "chance": 30,
-        "prospecting": 20,
-        "criticalChance": 5
-      },
-      {
-        "ap": 1,
-        "prospecting": 20,
         "criticalChance": 5,
+        "prospecting": 20
+      },
+      {
+        "intelligence": 30,
         "chance": 30,
-        "intelligence": 30
+        "criticalChance": 5,
+        "prospecting": 20,
+        "ap": 1
       },
       {
-        "ap": 1,
-        "prospecting": 20,
-        "criticalChance": 8,
-        "chance": 50,
-        "intelligence": 50
-      },
-      {
-        "ap": 1,
-        "prospecting": 20,
-        "criticalChance": 8,
-        "chance": 50,
         "intelligence": 50,
-        "range": 1
+        "chance": 50,
+        "criticalChance": 8,
+        "prospecting": 20,
+        "ap": 1
       }
     ]
   },
@@ -8357,20 +8559,26 @@
     "items": [
       "L4",
       "L5",
-      "L6"
+      "L6",
+      "LA"
     ],
     "stats": [
       {},
       {
         "strength": 30,
         "chance": 30,
+        "airResistPer": 7,
+        "fireResistPer": 7,
         "neutralDamage": 10,
         "earthDamage": 10,
         "waterDamage": 10,
         "initiative": 300,
-        "prospecting": 20
+        "prospecting": 20,
+        "apReduction": 10
       },
       {
+        "airResistPer": 7,
+        "fireResistPer": 7,
         "strength": 30,
         "chance": 30,
         "neutralDamage": 10,
@@ -8378,7 +8586,22 @@
         "waterDamage": 10,
         "initiative": 300,
         "prospecting": 20,
-        "ap": 1
+        "ap": 1,
+        "apReduction": 10
+      },
+      {
+        "airResistPer": 7,
+        "fireResistPer": 7,
+        "strength": 30,
+        "chance": 30,
+        "neutralDamage": 10,
+        "earthDamage": 10,
+        "waterDamage": 10,
+        "initiative": 300,
+        "prospecting": 20,
+        "ap": 1,
+        "range": 1,
+        "apReduction": 20
       }
     ]
   },
@@ -8475,26 +8698,23 @@
       {
         "agility": 30,
         "intelligence": 30,
-        "dodge": -5,
+        "criticalResist": 10,
+        "lock": 5
+      },
+      {
+        "agility": 30,
+        "intelligence": 30,
+        "criticalResist": 10,
         "lock": 5,
-        "criticalResist": 10
+        "ap": 1
       },
       {
         "ap": 1,
-        "dodge": -5,
         "lock": 5,
         "criticalResist": 10,
-        "intelligence": 30,
-        "agility": 30
-      },
-      {
-        "criticalChance": 10,
-        "agility": 40,
         "intelligence": 40,
-        "criticalResist": 10,
-        "lock": 5,
-        "dodge": -5,
-        "ap": 1
+        "agility": 40,
+        "criticalChance": 10
       }
     ]
   },
@@ -9486,25 +9706,31 @@
       {
         "vitality": 100,
         "strength": 30,
-        "agility": 30,
-        "criticalDamage": 15,
-        "initiative": 300
-      },
-      {
-        "vitality": 100,
-        "strength": 30,
-        "agility": 30,
-        "criticalDamage": 15,
         "initiative": 300,
-        "ap": 1
+        "criticalDamage": 15,
+        "agility": 30,
+        "lock": 7,
+        "mpReduction": 7
       },
       {
-        "vitality": 200,
-        "strength": 40,
-        "agility": 40,
-        "criticalDamage": 25,
+        "ap": 1,
+        "initiative": 300,
+        "criticalDamage": 15,
+        "agility": 30,
+        "strength": 30,
+        "vitality": 100,
+        "lock": 7,
+        "mpReduction": 7
+      },
+      {
+        "ap": 1,
         "initiative": 500,
-        "ap": 1
+        "criticalDamage": 25,
+        "agility": 40,
+        "strength": 40,
+        "vitality": 200,
+        "lock": 12,
+        "mpReduction": 12
       }
     ]
   },
@@ -10946,16 +11172,18 @@
       {
         "apResist": 10,
         "power": 50,
-        "criticalDamage": 15,
-        "lock": 15
+        "lock": 15,
+        "criticalDamage": 20,
+        "vitality": 100
       },
       {
-        "criticalChance": 5,
-        "ap": 1,
-        "criticalDamage": 20,
-        "power": 50,
+        "lock": 15,
         "apResist": 10,
-        "lock": 15
+        "power": 50,
+        "criticalDamage": 20,
+        "ap": 1,
+        "criticalChance": 5,
+        "vitality": 100
       }
     ]
   },
@@ -11015,20 +11243,25 @@
       {
         "agility": 60,
         "lock": 15,
-        "mp": 1,
+        "range": -1,
         "criticalChance": 8,
-        "range": -1
+        "mp": 1,
+        "fireResistPer": 8,
+        "waterResistPer": 8,
+        "airResistPer": 8,
+        "vitality": 100
       },
       {
-        "airResistPer": 8,
-        "waterResistPer": 8,
-        "fireResistPer": 8,
-        "agility": 60,
-        "lock": 15,
-        "ap": 1,
-        "mp": 1,
+        "range": -1,
         "criticalChance": 8,
-        "range": -1
+        "mp": 1,
+        "ap": 1,
+        "lock": 15,
+        "agility": 60,
+        "fireResistPer": 8,
+        "waterResistPer": 8,
+        "airResistPer": 8,
+        "vitality": 200
       }
     ]
   },
@@ -11053,31 +11286,34 @@
       {
         "earthDamage": 30,
         "waterDamage": 30,
+        "neutralDamage": 45,
+        "vitality": 100,
         "prospecting": 20,
-        "neutralResist": 20,
-        "fireResist": 20,
-        "agility": 30,
-        "chance": 30,
-        "strength": 30,
-        "airDamage": 30
+        "agility": 60,
+        "chance": 60,
+        "strength": 60,
+        "airDamage": 30,
+        "earthResistPer": 7,
+        "waterResistPer": 7,
+        "airResistPer": 7
       },
       {
-        "airResist": 10,
-        "waterResist": 10,
-        "earthResist": 10,
+        "neutralDamage": 65,
+        "vitality": 150,
         "prospecting": 20,
-        "neutralResist": 30,
-        "fireResist": 30,
         "ap": 1,
-        "agility": 50,
-        "chance": 50,
-        "strength": 50,
+        "agility": 100,
+        "chance": 100,
+        "strength": 100,
         "airDamage": 50,
         "waterDamage": 50,
         "earthDamage": 50,
         "range": 1,
         "criticalChance": 7,
-        "criticalDamage": 15
+        "criticalDamage": 15,
+        "earthResistPer": 7,
+        "waterResistPer": 7,
+        "airResistPer": 7
       }
     ]
   },
@@ -11217,23 +11453,23 @@
       {
         "vitality": 150,
         "strength": 30,
-        "waterDamage": 10,
-        "chance": 60,
-        "fireDamage": 10,
-        "intelligence": 60,
+        "waterResistPer": 7,
         "earthResistPer": 7,
-        "waterResistPer": 7
+        "intelligence": 60,
+        "fireDamage": 10,
+        "chance": 60,
+        "waterDamage": 10
       },
       {
-        "ap": 1,
-        "waterDamage": 10,
-        "fireDamage": 10,
-        "chance": 60,
-        "intelligence": 60,
-        "strength": 30,
-        "vitality": 150,
+        "waterResistPer": 7,
         "earthResistPer": 7,
-        "waterResistPer": 7
+        "vitality": 150,
+        "strength": 30,
+        "intelligence": 100,
+        "chance": 100,
+        "fireDamage": 10,
+        "waterDamage": 10,
+        "ap": 1
       }
     ]
   },
@@ -11626,19 +11862,21 @@
       {
         "strength": 30,
         "intelligence": 30,
-        "criticalChance": 5,
-        "apResist": 10,
+        "chance": 30,
         "dodge": 10,
-        "chance": 30
+        "apResist": 10,
+        "criticalChance": 5,
+        "waterResistPer": 10
       },
       {
-        "ap": 1,
-        "criticalChance": 5,
-        "apResist": 10,
+        "strength": 60,
+        "intelligence": 60,
+        "chance": 60,
         "dodge": 10,
-        "chance": 30,
-        "intelligence": 30,
-        "strength": 30
+        "apResist": 10,
+        "criticalChance": 8,
+        "ap": 1,
+        "waterResistPer": 10
       }
     ]
   },
@@ -11824,21 +12062,23 @@
       {
         "dodge": 10,
         "heal": 30,
-        "fireResistPer": 10,
-        "range": 1,
-        "mpReduction": 15,
+        "airResistPer": 10,
         "intelligence": 60,
-        "airResistPer": 10
+        "mpReduction": 15,
+        "range": 1,
+        "fireResistPer": 10,
+        "fireDamage": 10
       },
       {
-        "fireResistPer": 10,
-        "range": 1,
-        "mpReduction": 15,
-        "ap": 1,
-        "heal": 30,
-        "dodge": 10,
+        "airResistPer": 10,
         "intelligence": 60,
-        "airResistPer": 10
+        "dodge": 10,
+        "heal": 30,
+        "ap": 1,
+        "mpReduction": 15,
+        "range": 1,
+        "fireResistPer": 10,
+        "fireDamage": 10
       }
     ]
   },
@@ -11951,23 +12191,29 @@
       {
         "strength": 40,
         "agility": 40,
-        "waterResistPer": 10,
-        "initiative": 800,
-        "criticalResist": 10,
-        "apResist": 10,
+        "range": 1,
         "mpReduction": 10,
-        "range": 1
+        "apResist": 10,
+        "criticalResist": 10,
+        "initiative": 800,
+        "waterResistPer": 10,
+        "neutralDamage": 5,
+        "earthDamage": 5,
+        "airDamage": 5
       },
       {
-        "waterResistPer": 10,
-        "initiative": 800,
-        "criticalResist": 10,
-        "apResist": 10,
-        "mpReduction": 10,
-        "strength": 40,
-        "agility": 40,
+        "ap": 1,
         "range": 1,
-        "ap": 1
+        "agility": 40,
+        "strength": 40,
+        "mpReduction": 10,
+        "apResist": 10,
+        "criticalResist": 10,
+        "initiative": 800,
+        "waterResistPer": 10,
+        "neutralDamage": 5,
+        "earthDamage": 5,
+        "airDamage": 5
       }
     ]
   },
@@ -12143,19 +12389,19 @@
     "stats": [
       {},
       {
-        "initiative": 500,
+        "initiative": 1000,
         "strength": 60,
-        "apReduction": 10,
+        "lock": 15,
         "criticalChance": 10,
-        "lock": 10
+        "apReduction": 15
       },
       {
-        "initiative": 500,
-        "strength": 60,
-        "apReduction": 10,
-        "ap": 1,
+        "lock": 15,
         "criticalChance": 10,
-        "lock": 10
+        "ap": 1,
+        "apReduction": 15,
+        "strength": 60,
+        "initiative": 1000
       }
     ]
   },
@@ -12180,15 +12426,18 @@
       {
         "strength": 40,
         "intelligence": 40,
-        "criticalDamage": 40,
-        "dodge": 15
+        "dodge": 15,
+        "criticalDamage": 30,
+        "summon": 1
       },
       {
-        "strength": 40,
-        "intelligence": 40,
-        "criticalDamage": 40,
+        "dodge": 15,
         "ap": 1,
-        "dodge": 15
+        "criticalDamage": 30,
+        "intelligence": 40,
+        "strength": 40,
+        "summon": 1,
+        "criticalChance": 7
       }
     ]
   },
@@ -12502,26 +12751,26 @@
       {
         "mp": 1,
         "ap": 1,
-        "summon": 1,
-        "range": 1,
-        "heal": 35,
-        "mpResist": 35,
-        "apResist": 35,
-        "lock": 20,
+        "power": 120,
         "dodge": 25,
-        "power": 80
+        "lock": 20,
+        "apResist": 35,
+        "mpResist": 35,
+        "heal": 35,
+        "range": 1,
+        "summon": 1
       },
       {
-        "summon": 1,
-        "range": 1,
-        "heal": 50,
-        "mpResist": 50,
-        "apResist": 50,
-        "lock": 30,
-        "dodge": 40,
-        "mp": 1,
+        "power": 200,
         "ap": 2,
-        "power": 120
+        "mp": 1,
+        "dodge": 40,
+        "lock": 30,
+        "apResist": 50,
+        "mpResist": 50,
+        "heal": 50,
+        "range": 1,
+        "summon": 1
       }
     ]
   },
@@ -12546,19 +12795,19 @@
       {
         "intelligence": 40,
         "chance": 40,
-        "waterResistPer": 10,
-        "fireResistPer": 10,
+        "heal": 25,
         "pushbackDamage": 25,
-        "heal": 20
+        "fireResistPer": 10,
+        "waterResistPer": 10
       },
       {
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "intelligence": 40,
+        "ap": 1,
+        "heal": 40,
+        "pushbackDamage": 40,
         "chance": 40,
-        "pushbackDamage": 25,
-        "heal": 20,
-        "ap": 1
+        "intelligence": 40,
+        "fireResistPer": 10,
+        "waterResistPer": 10
       }
     ]
   },
@@ -13566,13 +13815,15 @@
       {
         "agility": 60,
         "airDamage": 10,
-        "mpResist": 10
+        "mpResist": 10,
+        "pushbackResist": 15
       },
       {
-        "mpResist": 10,
-        "ap": 1,
+        "airDamage": 10,
         "agility": 60,
-        "airDamage": 10
+        "ap": 1,
+        "mpResist": 10,
+        "pushbackResist": 15
       }
     ]
   },
@@ -13813,21 +14064,21 @@
       {
         "fireDamage": 15,
         "waterDamage": 15,
-        "criticalChance": 7,
-        "heal": 30,
-        "mpReduction": 15,
+        "fireResistPer": 10,
         "range": 1,
-        "fireResistPer": 10
+        "mpReduction": 15,
+        "heal": 30,
+        "criticalChance": 10
       },
       {
-        "criticalChance": 7,
-        "heal": 30,
-        "ap": 1,
-        "mpReduction": 15,
-        "waterDamage": 15,
-        "fireDamage": 15,
+        "fireResistPer": 10,
         "range": 1,
-        "fireResistPer": 10
+        "fireDamage": 15,
+        "waterDamage": 15,
+        "mpReduction": 15,
+        "ap": 1,
+        "heal": 30,
+        "criticalChance": 10
       }
     ]
   },
@@ -14749,19 +15000,19 @@
     "stats": [
       {},
       {
-        "airDamage": 10,
-        "waterDamage": 10,
-        "heal": 80,
+        "airDamage": 15,
+        "waterDamage": 15,
+        "mpResist": 10,
         "criticalChance": -10,
-        "mpResist": 10
+        "heal": 80
       },
       {
-        "airDamage": 10,
-        "waterDamage": 10,
-        "heal": 80,
-        "criticalChance": -10,
+        "mpResist": 10,
         "ap": 1,
-        "mpResist": 10
+        "criticalChance": -10,
+        "heal": 80,
+        "waterDamage": 15,
+        "airDamage": 15
       }
     ]
   },
@@ -14961,14 +15212,19 @@
       {
         "apReduction": 10,
         "range": 1,
+        "waterDamage": 5,
+        "earthDamage": 5,
+        "neutralDamage": 5,
         "summon": 1,
         "strength": 40,
         "chance": 40,
         "dodge": 10,
-        "lock": -10,
         "earthResistPer": 10
       },
       {
+        "waterDamage": 5,
+        "earthDamage": 5,
+        "neutralDamage": 5,
         "summon": 1,
         "apReduction": 10,
         "ap": 1,
@@ -14976,7 +15232,6 @@
         "strength": 40,
         "chance": 40,
         "dodge": 10,
-        "lock": -10,
         "earthResistPer": 10
       }
     ]
@@ -15039,17 +15294,21 @@
       {
         "initiative": 1500,
         "dodge": 10,
-        "apResist": 10,
+        "agility": 40,
         "intelligence": 40,
-        "agility": 40
+        "apResist": 10,
+        "fireDamage": 5,
+        "airDamage": 5
       },
       {
-        "apResist": 10,
-        "dodge": 10,
-        "ap": 1,
-        "initiative": 1500,
+        "agility": 40,
         "intelligence": 40,
-        "agility": 40
+        "initiative": 1500,
+        "ap": 1,
+        "dodge": 10,
+        "apResist": 10,
+        "fireDamage": 5,
+        "airDamage": 5
       }
     ]
   },
@@ -15457,21 +15716,27 @@
       {
         "chance": 20,
         "agility": 20,
-        "criticalDamage": 20,
-        "mpResist": 20,
-        "apResist": 20,
+        "criticalChance": 5,
         "power": 30,
-        "criticalChance": 5
+        "apResist": 20,
+        "mpResist": 20,
+        "criticalDamage": 20,
+        "waterDamage": 2,
+        "airDamage": 2
       },
       {
-        "chance": 20,
-        "agility": 20,
-        "mpResist": 40,
-        "apResist": 40,
-        "criticalDamage": 20,
-        "ap": 1,
+        "criticalChance": 5,
         "power": 30,
-        "criticalChance": 5
+        "ap": 1,
+        "criticalDamage": 20,
+        "apResist": 40,
+        "mpResist": 40,
+        "agility": 20,
+        "chance": 20,
+        "waterDamage": 5,
+        "airDamage": 5,
+        "earthDamage": 3,
+        "fireDamage": 3
       }
     ]
   },
@@ -15538,17 +15803,19 @@
       {
         "initiative": 500,
         "pushbackResist": 50,
-        "lock": 10,
+        "chance": 60,
         "mpResist": 10,
-        "chance": 60
+        "lock": 10,
+        "waterDamage": 10
       },
       {
-        "mpResist": 10,
-        "chance": 60,
-        "ap": 1,
-        "pushbackResist": 50,
+        "lock": 10,
         "initiative": 500,
-        "lock": 10
+        "pushbackResist": 50,
+        "ap": 1,
+        "chance": 60,
+        "mpResist": 10,
+        "waterDamage": 10
       }
     ]
   },
@@ -16507,7 +16774,7 @@
         "earthDamage": 15
       },
       {
-        "mp": 1,
+        "ap": 1,
         "airDamage": 15,
         "waterDamage": 15,
         "fireDamage": 15,
@@ -16516,7 +16783,8 @@
         "earthDamage": 15,
         "apReduction": 10,
         "mpReduction": 10,
-        "apResist": 10
+        "apResist": 10,
+        "neutralDamage": 200
       }
     ]
   },
@@ -17960,7 +18228,7 @@
       "fr": "Panokami",
       "en": "Imako Set",
       "pt": "Conjuntokami",
-      "de": "Okami-Set",
+      "de": "Okamimikry-Set",
       "es": "Setokami"
     },
     "level": 56,
@@ -18493,10 +18761,11 @@
     "stats": [
       {},
       {
-        "power": 100,
+        "power": 60,
         "criticalResist": 15,
+        "waterResistPer": 7,
         "criticalChance": 5,
-        "waterResistPer": 7
+        "criticalDamage": 30
       }
     ]
   },
@@ -18620,8 +18889,9 @@
       {
         "vitality": 150,
         "power": 60,
+        "lock": 10,
         "airResistPer": 7,
-        "lock": 10
+        "damage": 25
       }
     ]
   },
@@ -19152,27 +19422,24 @@
       {
         "power": 50,
         "strength": 40,
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "criticalDamage": 10,
-        "pushbackDamage": 25,
-        "criticalChance": 10,
+        "intelligence": 40,
         "fireDamage": 16,
-        "intelligence": 40
+        "criticalChance": 10,
+        "pushbackDamage": 25,
+        "fireResistPer": 10,
+        "waterResistPer": 10
       },
       {
-        "ap": 1,
-        "lock": 15,
-        "initiative": 400,
-        "waterResistPer": 10,
-        "fireResistPer": 10,
-        "criticalDamage": 10,
-        "pushbackDamage": 25,
-        "criticalChance": 15,
-        "fireDamage": 16,
-        "intelligence": 100,
+        "power": 50,
         "strength": 40,
-        "power": 50
+        "intelligence": 100,
+        "fireDamage": 16,
+        "criticalChance": 15,
+        "pushbackDamage": 25,
+        "fireResistPer": 10,
+        "waterResistPer": 10,
+        "lock": 15,
+        "ap": 1
       }
     ]
   },
@@ -19786,6 +20053,392 @@
         "initiative": 500,
         "vitality": 200,
         "damage": 10
+      }
+    ]
+  },
+  "7P": {
+    "id": "7P",
+    "idDofusDB": 1034,
+    "name": {
+      "fr": "Panoplie de Bouflouth",
+      "en": "Mastoslob Set",
+      "pt": "Conjunto do Papodonte",
+      "de": "Ausrüstungsset von Fressglut",
+      "es": "Set de Jalalut"
+    },
+    "level": 132,
+    "items": [
+      "UT",
+      "UV",
+      "UX"
+    ],
+    "stats": [
+      {},
+      {
+        "airDamage": 10,
+        "waterDamage": 10,
+        "earthDamage": 10,
+        "neutralDamage": 10,
+        "criticalDamage": 10,
+        "agility": 30,
+        "chance": 30,
+        "strength": 30
+      },
+      {
+        "strength": 60,
+        "chance": 60,
+        "agility": 60,
+        "criticalDamage": 15,
+        "neutralDamage": 15,
+        "earthDamage": 15,
+        "waterDamage": 15,
+        "airDamage": 15,
+        "ap": 1
+      }
+    ]
+  },
+  "7Q": {
+    "id": "7Q",
+    "idDofusDB": 1035,
+    "name": {
+      "fr": "Panoplie de Monsieur Pingouin",
+      "en": "Mister Penguin Set",
+      "pt": "Conjunto do Senhor Pinguim",
+      "de": "Ausrüstungsset von Mister Ping",
+      "es": "Set de Elpin Güino"
+    },
+    "level": 142,
+    "items": [
+      "UY",
+      "UZ",
+      "V0"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 25,
+        "chance": 25,
+        "intelligence": 25,
+        "apReduction": 5,
+        "criticalResist": 10,
+        "range": 2,
+        "earthDamage": 5,
+        "fireDamage": 5,
+        "waterDamage": 5
+      },
+      {
+        "intelligence": 50,
+        "ap": 1,
+        "strength": 50,
+        "chance": 50,
+        "apReduction": 10,
+        "criticalResist": 20,
+        "range": 2,
+        "earthDamage": 10,
+        "fireDamage": 10,
+        "waterDamage": 10
+      }
+    ]
+  },
+  "7R": {
+    "id": "7R",
+    "idDofusDB": 1036,
+    "name": {
+      "fr": "Panoplie de Katigrou",
+      "en": "Katigger Set",
+      "pt": "Conjunto do Katigre",
+      "de": "Ausrüstungsset von Katigger",
+      "es": "Set de Katigrú"
+    },
+    "level": 146,
+    "items": [
+      "Vv",
+      "Vw",
+      "Vx"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 40,
+        "intelligence": 40,
+        "criticalChance": 5,
+        "airResistPer": 3,
+        "waterResistPer": 3,
+        "fireResistPer": 3,
+        "earthResistPer": 3,
+        "agility": 40,
+        "chance": 40
+      },
+      {
+        "criticalChance": 10,
+        "airResistPer": 6,
+        "waterResistPer": 6,
+        "fireResistPer": 6,
+        "earthResistPer": 6,
+        "agility": 80,
+        "chance": 80,
+        "intelligence": 80,
+        "strength": 80,
+        "ap": 1
+      }
+    ]
+  },
+  "7S": {
+    "id": "7S",
+    "idDofusDB": 1037,
+    "name": {
+      "fr": "Panoplie de Fantômayte",
+      "en": "Pirate Bhey Set",
+      "pt": "Conjunto do Fantomaite",
+      "de": "Ausrüstungsset von Phantomaytje",
+      "es": "Set de Phantomeyt"
+    },
+    "level": 157,
+    "items": [
+      "V1",
+      "V2",
+      "V3"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 30,
+        "initiative": 500,
+        "mpReduction": 12,
+        "apReduction": 12,
+        "wisdom": 30
+      },
+      {
+        "mpReduction": 12,
+        "apReduction": 12,
+        "wisdom": 30,
+        "initiative": 500,
+        "power": 30,
+        "ap": 1
+      }
+    ]
+  },
+  "7T": {
+    "id": "7T",
+    "idDofusDB": 1038,
+    "name": {
+      "fr": "Panoplie de Vengeuse Masquée",
+      "en": "Masked Avenger Set",
+      "pt": "Conjunto da Vingadora Mascarada",
+      "de": "Ausrüstungsset der Maskierten Rächerin",
+      "es": "Set de Vengadora Enmascarada"
+    },
+    "level": 170,
+    "items": [
+      "V7",
+      "V8",
+      "V9"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 30,
+        "intelligence": 30,
+        "range": 1,
+        "summon": 1,
+        "chance": 30,
+        "neutralDamage": 5,
+        "earthDamage": 5,
+        "fireDamage": 5,
+        "waterDamage": 5
+      },
+      {
+        "range": 1,
+        "summon": 1,
+        "chance": 60,
+        "intelligence": 60,
+        "strength": 60,
+        "ap": 1,
+        "neutralDamage": 10,
+        "earthDamage": 10,
+        "fireDamage": 10,
+        "waterDamage": 10
+      }
+    ]
+  },
+  "7U": {
+    "id": "7U",
+    "idDofusDB": 1039,
+    "name": {
+      "fr": "Panoplie du YeCh'Ti",
+      "en": "YeCh'Ti Set",
+      "pt": "Conjunto do YeCh'Ti",
+      "de": "Ausrüstungsset von YeCh'Ti",
+      "es": "Set de YeCh'Ti"
+    },
+    "level": 180,
+    "items": [
+      "V4",
+      "V5",
+      "V6"
+    ],
+    "stats": [
+      {},
+      {
+        "vitality": 100,
+        "strength": 30,
+        "intelligence": 30,
+        "agility": 30,
+        "apResist": 5,
+        "mpResist": 5,
+        "criticalChance": 5
+      },
+      {
+        "ap": 1,
+        "vitality": 200,
+        "strength": 30,
+        "intelligence": 30,
+        "agility": 30,
+        "apResist": 10,
+        "mpResist": 10,
+        "criticalChance": 10
+      }
+    ]
+  },
+  "7V": {
+    "id": "7V",
+    "idDofusDB": 1040,
+    "name": {
+      "fr": "Panoplie de San Jifu",
+      "en": "San Jifu Set",
+      "pt": "Conjunto do San Jifu",
+      "de": "Ausrüstungsset von San Jifu",
+      "es": "Set de San Jifu"
+    },
+    "level": 196,
+    "items": [
+      "Va",
+      "Vb",
+      "Vc"
+    ],
+    "stats": [
+      {},
+      {
+        "chance": 30,
+        "intelligence": 30,
+        "criticalChance": 7,
+        "dodge": 7,
+        "apReduction": 7
+      },
+      {
+        "ap": 1,
+        "chance": 30,
+        "intelligence": 30,
+        "criticalChance": 7,
+        "dodge": 7,
+        "apReduction": 7
+      }
+    ]
+  },
+  "7X": {
+    "id": "7X",
+    "idDofusDB": 1041,
+    "name": {
+      "fr": "Panoplie de Flasho",
+      "en": "Flasho Set",
+      "pt": "Conjunto do Flashugo",
+      "de": "Ausrüstungsset von Daxoflash",
+      "es": "Set de Tejash"
+    },
+    "level": 194,
+    "items": [
+      "Vd",
+      "Ve",
+      "Vf"
+    ],
+    "stats": [
+      {},
+      {
+        "vitality": 150,
+        "intelligence": 20,
+        "power": 20,
+        "dodge": 12,
+        "apReduction": 7
+      },
+      {
+        "ap": 1,
+        "vitality": 150,
+        "intelligence": 20,
+        "power": 20,
+        "dodge": 12,
+        "apReduction": 7
+      }
+    ]
+  },
+  "7Y": {
+    "id": "7Y",
+    "idDofusDB": 1042,
+    "name": {
+      "fr": "Panoplie du Docteur Eggob",
+      "en": "Doctor Gobotnegg Set",
+      "pt": "Conjunto do Goblotnik",
+      "de": "Ausrüstungsset von Doktor Eggob",
+      "es": "Set del doctor Eggob"
+    },
+    "level": 195,
+    "items": [
+      "Vg",
+      "Vh",
+      "Vi"
+    ],
+    "stats": [
+      {},
+      {
+        "initiative": 500,
+        "strength": 30,
+        "chance": 30,
+        "dodge": 25,
+        "pushbackDamage": 20
+      },
+      {
+        "ap": 1,
+        "initiative": 500,
+        "strength": 30,
+        "chance": 30,
+        "dodge": 25,
+        "pushbackDamage": 20
+      }
+    ]
+  },
+  "7Z": {
+    "id": "7Z",
+    "idDofusDB": 1043,
+    "name": {
+      "fr": "Panoplie de Viti Glourson",
+      "en": "Vinnie the Bearbarian Set",
+      "pt": "Conjunto do Viti Glurso",
+      "de": "Ausrüstungsset von Wini Barbär",
+      "es": "Set de Huini Golosote"
+    },
+    "level": 199,
+    "items": [
+      "VB",
+      "VC",
+      "VD"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 30,
+        "intelligence": 30,
+        "chance": 30,
+        "lock": 10,
+        "mpReduction": 10,
+        "pushbackDamage": 20
+      },
+      {
+        "ap": 1,
+        "pushbackDamage": 40,
+        "mpReduction": 20,
+        "lock": 20,
+        "chance": 60,
+        "intelligence": 60,
+        "strength": 60
       }
     ]
   }

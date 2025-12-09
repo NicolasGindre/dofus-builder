@@ -193,4 +193,11 @@ export const itemsToSkip = [
     "Dokoko",
     "Dofus Argenté",
     "Dom de Pin",
+    "Petite pierre d'âme",
+    "Moyenne pierre d'âme",
+    "Grande pierre d'âme",
+    "Énorme pierre d'âme",
+    "Gigantesque pierre d'âme",
+    "Gargantuesque pierre d'âme",
+    "Pierre d'âme renforcée",
 ];

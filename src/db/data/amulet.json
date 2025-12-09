@@ -5385,8 +5385,7 @@
       "prospecting": 10,
       "neutralResist": 15,
       "airResist": 15,
-      "dodge": 6,
-      "criticalDamage": -11
+      "dodge": 6
     }
   },
   "M2": {
@@ -8107,6 +8106,160 @@
         "de": "Helsefines Liebe:\n• Wenn der Träger einen Schild wirkt oder Nahkampfschaden verursacht, heilt er Verbündete, die nicht weiter als 2 Felder von ihm entfernt sind, um 8 % ihrer LP (einmal pro Runde).",
         "es": "Amor de Helsefina:\n• Cuando el portador aplica escudo o inflige daños cuerpo a cuerpo, cura a sus aliados en un 8% de su vida si están a 2 casillas o menos (una vez por turno)."
       }
+    }
+  },
+  "UT": {
+    "id": "UT",
+    "idDofusDB": 32202,
+    "idDofusBook": 32202,
+    "name": {
+      "fr": "Amulette de Bouflouth",
+      "en": "Mastoslob Amulet",
+      "pt": "Amuleto do Papodonte",
+      "de": "Amulett von Fressglut",
+      "es": "Amuleto de Jalalut"
+    },
+    "level": 128,
+    "panoply": "7P",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 150,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 25,
+      "criticalChance": 3,
+      "ap": 1,
+      "neutralDamage": 6,
+      "earthDamage": 6,
+      "waterDamage": 6,
+      "prospecting": 10,
+      "airResistPer": 7
+    }
+  },
+  "UY": {
+    "id": "UY",
+    "idDofusDB": 32204,
+    "idDofusBook": 32204,
+    "name": {
+      "fr": "Chaîne de Monsieur Pingouin",
+      "en": "Mister Penguin Chain",
+      "pt": "Corrente do Senhor Pinguim",
+      "de": "Kette von Mister Ping",
+      "es": "Cadena de Elpin Güino"
+    },
+    "level": 142,
+    "panoply": "7Q",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 200,
+      "strength": 20,
+      "intelligence": 35,
+      "chance": 50,
+      "wisdom": 15,
+      "ap": 1,
+      "earthDamage": 6,
+      "fireDamage": 8,
+      "waterDamage": 10,
+      "prospecting": 10,
+      "waterResistPer": 7,
+      "apReduction": 4,
+      "criticalResist": 10
+    }
+  },
+  "V1": {
+    "id": "V1",
+    "idDofusDB": 32211,
+    "idDofusBook": 32211,
+    "name": {
+      "fr": "Collier de Fantômayte",
+      "en": "Pirate Bhey Necklace",
+      "pt": "Colar do Fantomaite",
+      "de": "Halskette von Phantomaytje",
+      "es": "Collar de Phantomeyt"
+    },
+    "level": 157,
+    "panoply": "7S",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 200,
+      "wisdom": 40,
+      "power": 50,
+      "ap": 1,
+      "range": 1,
+      "neutralDamage": 8,
+      "earthDamage": 8,
+      "fireDamage": 8,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "earthResistPer": 4,
+      "waterResistPer": 4,
+      "lock": -10,
+      "dodge": -10
+    }
+  },
+  "V4": {
+    "id": "V4",
+    "idDofusDB": 32216,
+    "idDofusBook": 32216,
+    "name": {
+      "fr": "Collier du YeCh'Ti",
+      "en": "YeCh'Ti Collar",
+      "pt": "Colar do YeCh'Ti",
+      "de": "Halskette von YeCh'Ti",
+      "es": "Collar de YeCh'Ti"
+    },
+    "level": 176,
+    "panoply": "7U",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "agility": 50,
+      "wisdom": 30,
+      "ap": 1,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 10,
+      "airResistPer": 8,
+      "mpResist": 6
+    }
+  },
+  "VD": {
+    "id": "VD",
+    "idDofusDB": 32229,
+    "idDofusBook": 32229,
+    "name": {
+      "fr": "Amulette de Viti Glourson",
+      "en": "Vinnie the Bearbarian Amulet",
+      "pt": "Amuleto do Viti Glurso",
+      "de": "Amulett von Wini Barbär",
+      "es": "Amuleto de Huini Golosote"
+    },
+    "level": 197,
+    "panoply": "7Z",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 250,
+      "strength": 50,
+      "intelligence": 50,
+      "chance": 50,
+      "wisdom": 30,
+      "criticalChance": 5,
+      "ap": 1,
+      "mp": 1,
+      "summon": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "waterDamage": 10,
+      "criticalResist": 30
     }
   }
 }

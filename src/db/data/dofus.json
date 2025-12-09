@@ -6851,17 +6851,17 @@
     "idDofusDB": 21451,
     "idDofusBook": 21451,
     "name": {
-      "fr": "Prytek",
-      "en": "Prytekt",
-      "pt": "Pritek",
-      "de": "Prytektion",
-      "es": "Priscudo"
+      "fr": "Prytek Mate",
+      "en": "Prytekt-O-Mat",
+      "pt": "Pritek Mate",
+      "de": "Prytektion-Matte",
+      "es": "Priscudo mate"
     },
     "level": 200,
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "vitality": -200,
+      "vitality": -100,
       "neutralResist": 25,
       "earthResist": 25,
       "fireResist": 25,
@@ -6870,11 +6870,11 @@
     },
     "specialEffect": {
       "name": {
-        "fr": "Prytek",
-        "en": "Prytekt",
-        "pt": "Pritek",
-        "de": "Prytektion",
-        "es": "Priscudo"
+        "fr": "Prytek Mate",
+        "en": "Prytekt-O-Mat",
+        "pt": "Pritek Mate",
+        "de": "Prytektion-Matte",
+        "es": "Priscudo Mate"
       },
       "description": {
         "fr": "Le porteur gagne 550% de son niveau en bouclier au premier tour, puis 200% au deuxième tour, et 100% au troisième tour.",
@@ -6900,7 +6900,7 @@
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "vitality": -200,
+      "vitality": -100,
       "neutralResist": 25,
       "earthResist": 25,
       "fireResist": 25,
@@ -6939,7 +6939,7 @@
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "vitality": -200,
+      "vitality": -100,
       "neutralResist": 25,
       "earthResist": 25,
       "fireResist": 25,
@@ -6968,33 +6968,33 @@
     "idDofusDB": 21996,
     "idDofusBook": 21996,
     "name": {
-      "fr": "Pryssion",
-      "en": "Pryssure",
-      "pt": "Prissão",
-      "de": "Pryssion",
-      "es": "Pristrés"
+      "fr": "Pryssion Mate",
+      "en": "Pryssure-O-Mat",
+      "pt": "Prissão Mate",
+      "de": "Pryssion-Matte",
+      "es": "Pristrés mate"
     },
     "level": 200,
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
       "ap": 1,
-      "pushbackDamage": -40
+      "pushbackDamage": -50
     },
     "specialEffect": {
       "name": {
-        "fr": "Pryssion",
-        "en": "Pryssure",
-        "pt": "Prissão",
-        "de": "Pryssion",
-        "es": "Pristrés"
+        "fr": "Pryssion Mate",
+        "en": "Pryssure-O-Mat",
+        "pt": "Prissão Mate",
+        "de": "Pryssion-Matte",
+        "es": "Pristrés Mate"
       },
       "description": {
-        "fr": "Le porteur sacrifie 10% de dommages finaux pour gagner 2 PA pendant 3 tours.",
-        "en": "The bearer sacrifices 10% final damage to gain 2 AP for 3 turns.",
-        "pt": "O portador sacrifica 10% de danos finais para ganhar 2 PA durante 3 turnos.",
-        "de": "Der Träger opfert 10 % Endschaden, um 3 Runden lang 2 AP zu erhalten.",
-        "es": "El portador sacrifica un 10% de daños finales para ganar 2 PA durante 3 turnos."
+        "fr": "Le porteur sacrifie 10% de dommages finaux pour gagner 1 PA pendant 3 tours.",
+        "en": "The bearer sacrifices 10% final damage to gain 1 AP for 3 turns.",
+        "pt": "O portador sacrifica 10% de danos finais para ganhar 1 PA durante 3 turnos.",
+        "de": "Der Träger opfert 10 % Endschaden, um 3 Runden lang 1 AP zu erhalten.",
+        "es": "El portador sacrifica un 10% de daños finales para ganar 1 PA durante 3 turnos."
       }
     }
   },
@@ -7014,7 +7014,7 @@
     "subCategory": "prysmaradite",
     "stats": {
       "ap": 1,
-      "pushbackDamage": -40
+      "pushbackDamage": -50
     },
     "specialEffect": {
       "name": {
@@ -7025,11 +7025,11 @@
         "es": "Pristrés Brillante"
       },
       "description": {
-        "fr": "Le porteur sacrifie 35% de dommages finaux pour gagner 3 PA pendant 2 tours.",
-        "en": "The bearer sacrifices 35% final damage to gain 3 AP for 2 turns.",
-        "pt": "O portador sacrifica 35% de danos finais para ganhar 3 PA durante 2 turnos;",
-        "de": "Der Träger opfert 35 % Endschaden, um 2 Runden lang 3 AP zu erhalten.",
-        "es": "El portador sacrifica un 35% de daños finales para ganar 3 PA durante 2 turnos."
+        "fr": "Le porteur sacrifie 35% de dommages finaux pour gagner 2 PA pendant 2 tours.",
+        "en": "The bearer sacrifices 35% final damage to gain 2 AP for 2 turns.",
+        "pt": "O portador sacrifica 35% de danos finais para ganhar 2 PA durante 2 turnos.",
+        "de": "Der Träger opfert 35 % Endschaden, um 2 Runden lang 2 AP zu erhalten.",
+        "es": "El portador sacrifica un 35% de daños finales para ganar 2 PA durante 2 turnos."
       }
     }
   },
@@ -7049,7 +7049,7 @@
     "subCategory": "prysmaradite",
     "stats": {
       "ap": 1,
-      "pushbackDamage": -40
+      "pushbackDamage": -50
     },
     "specialEffect": {
       "name": {
@@ -7060,11 +7060,11 @@
         "es": "Pristrés Iridiscente"
       },
       "description": {
-        "fr": "Le porteur sacrifie 50% de dommages finaux pour gagner 4 PA pendant 1 tour.",
-        "en": "The bearer sacrifices 50% final damage to gain 4 AP for 1 turn.",
-        "pt": "O portador sacrifica 50% de danos finais para ganhar 4 PA durante 1 turno.",
-        "de": "Der Träger opfert 50 % Endschaden, um 1 Runde lang 4 AP zu erhalten.",
-        "es": "El portador sacrifica un 50% de daños finales para ganar 4 PA durante 1 turno."
+        "fr": "Le porteur sacrifie 50% de dommages finaux pour gagner 3 PA pendant 1 tour.",
+        "en": "The bearer sacrifices 50% final damage to gain 3 AP for 1 turn.",
+        "pt": "O portador sacrifica 50% de danos finais para ganhar 3 PA durante 1 turno.",
+        "de": "Der Träger opfert 50 % Endschaden, um 1 Runde lang 3 AP zu erhalten.",
+        "es": "El portador sacrifica un 50% de daños finales para ganar 3 PA durante 1 turno."
       }
     }
   },
@@ -7200,11 +7200,11 @@
         "es": "Prisanación"
       },
       "description": {
-        "fr": "Soigne 100% des dommages ennemis subis au premier tour, puis 35% au deuxième tour, et 15% au troisième tour.",
-        "en": "Heals 100% of enemy damage suffered on the first turn, 35% on the second turn and 15% on the third turn.",
-        "pt": "Cura 100% dos danos inimigos sofridos no primeiro turno, 35% no segundo e 15% no terceiro.",
-        "de": "Heilt in der ersten Runde 100 % des durch Gegner erlittenen Schadens, in der zweiten Runde 35 % und in der dritten Runde 15 %.",
-        "es": "Cura un 100% de los daños enemigos sufridos en el primer turno, un 35% en el segundo turno y un 15% en el tercer turno."
+        "fr": "Soigne 80% des dommages ennemis subis au premier tour, puis 30% au deuxième tour, et 10% au troisième tour.",
+        "en": "Heals 80% of enemy damage suffered on the first turn, 30% on the second turn and 10% on the third turn.",
+        "pt": "Cura 80% dos danos inimigos sofridos no primeiro turno, 30% no segundo e 10% no terceiro.",
+        "de": "Heilt in der ersten Runde 80 % des durch Gegner erlittenen Schadens, in der zweiten Runde 30 % und in der dritten Runde 10 %.",
+        "es": "Cura un 80% de los daños enemigos sufridos en el primer turno, un 30% en el segundo turno y un 10% en el tercer turno."
       }
     }
   },
@@ -7213,11 +7213,11 @@
     "idDofusDB": 22011,
     "idDofusBook": 22011,
     "name": {
-      "fr": "Prycipithon",
-      "en": "Prysipitate",
-      "pt": "Pricipitada",
-      "de": "Pryberstürzung",
-      "es": "Prismacción"
+      "fr": "Prycipithon Mate",
+      "en": "Prysipitate-O-Mat",
+      "pt": "Pricipitada Mate",
+      "de": "Pryberstürzung-Matte",
+      "es": "Prismacción mate"
     },
     "level": 200,
     "category": "dofus",
@@ -7228,11 +7228,11 @@
     },
     "specialEffect": {
       "name": {
-        "fr": "Prycipithon",
-        "en": "Prysipitate",
-        "pt": "Pricipitada",
-        "de": "Pryberstürztheit",
-        "es": "Prismacción"
+        "fr": "Prycipithon Mate",
+        "en": "Prysipitate-O-Mat",
+        "pt": "Pricipitada Mate",
+        "de": "Pryberstürzung-Matte",
+        "es": "Prismacción Mate"
       },
       "description": {
         "fr": "Le porteur gagne 2 PA pendant son premier tour.",
@@ -7342,11 +7342,11 @@
         "es": "Prispíritu"
       },
       "description": {
-        "fr": "Le porteur gagne 100 de Retrait au premier tour, puis 30 au deuxième tour, et 10 au troisième tour.",
-        "en": "The bearer gains 100 AP/MP removal on the first turn, 30% on the second turn and 10% on the third turn.",
-        "pt": "O portador ganha 100 de retirada no primeiro turno, 30 no segundo e 10 no terceiro.",
-        "de": "In der ersten Runde erhält der Träger 100 Entzug, in der zweiten Runde 30 und in der dritten Runde 10.",
-        "es": "El portador gana 100 de retirada en el primer turno, después 30 en el segundo turno y 10 en el tercer turno."
+        "fr": "Le porteur gagne 100 de Retrait au premier tour, puis 50 au deuxième tour, et 25 au troisième tour.",
+        "en": "The bearer gains 100 AP/MP removal on the first turn, 50 on the second turn and 25 on the third turn.",
+        "pt": "O portador ganha 100 de retirada no primeiro turno, 50 no segundo e 25 no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 100 Entzug, in der zweiten Runde 50 und in der dritten Runde 25.",
+        "es": "El portador gana 100 de retirada en el primer turno, 50 en el segundo turno y 25 en el tercer turno."
       }
     }
   },
@@ -7379,11 +7379,11 @@
         "es": "Prisencia"
       },
       "description": {
-        "fr": "Le porteur gagne 250 d'Esquive au premier tour, puis 50 au deuxième tour, et 10 au troisième tour.",
-        "en": "The bearer gains 250 Parry on the first turn, 50% on the second turn and 10% on the third turn.",
-        "pt": "O portador ganha 250 de esquiva no primeiro turno, 50 no segundo e 10 no terceiro.",
-        "de": "In der ersten Runde erhält der Träger 250 Ausweichen, in der zweiten Runde 50 und in der dritten Runde 10.",
-        "es": "El portador gana 250 de esquiva en el primer turno, después 50 en el segundo turno y 10 en el tercer turno."
+        "fr": "Le porteur gagne 200 d'Esquive au premier tour, puis 100 au deuxième tour, et 50 au troisième tour.",
+        "en": "The bearer gains 200 Parry on the first turn, 100 on the second turn and 50 on the third turn.",
+        "pt": "O portador ganha 200 de esquiva no primeiro turno, 100 no segundo e 50 no terceiro.",
+        "de": "In der ersten Runde erhält der Träger 200 Ausweichen, in der zweiten Runde 100 und in der dritten Runde 50.",
+        "es": "El portador gana 200 de esquiva en el primer turno, 100 en el segundo turno y 50 en el tercer turno."
       }
     }
   },
@@ -7548,7 +7548,7 @@
     "subCategory": "prysmaradite",
     "stats": {
       "reflect": 30,
-      "criticalResist": -30
+      "pushbackResist": -30
     },
     "specialEffect": {
       "name": {
@@ -7623,7 +7623,7 @@
     "subCategory": "prysmaradite",
     "stats": {
       "criticalResist": 30,
-      "pushbackResist": -60
+      "pushbackResist": -30
     },
     "specialEffect": {
       "name": {
@@ -7693,7 +7693,7 @@
     "subCategory": "prysmaradite",
     "stats": {
       "heal": 40,
-      "criticalDamage": -30
+      "initiative": -1000
     },
     "specialEffect": {
       "name": {
@@ -7704,11 +7704,11 @@
         "es": "Prismapoyo"
       },
       "description": {
-        "fr": "Le porteur augmente les soins reçus par ses combattants alliés de 50% pendant son tour de jeu au premier tour, puis de 35% au deuxième tour, et de 10% au troisième tour.",
-        "en": "The bearer increases the healing received by their allied fighters by 50% during the bearer's turn on the first turn, then by 35% on the second turn and by 10% on the third turn.",
-        "pt": "O portador aumenta as curas recebidas pelos combatentes aliados em 50% durante seu turno de jogo no primeiro turno, em 35% no segundo e em 10% no terceiro.",
-        "de": "Der Träger erhöht während seiner Spielrunde die von verbündeten Kämpfern erhaltene Heilung, und zwar in der ersten Runde um 50 %, in der zweiten Runde um 35 % und in der dritten Runde um 10 %.",
-        "es": "El portador aumenta los cuidados recibidos por sus luchadores aliados en un 50% durante su turno de juego en el primer turno, después un 35% en el segundo turno y un 10% en el tercer turno."
+        "fr": "Le porteur augmente les soins reçus par ses combattants alliés de 10% pendant son tour de jeu au premier tour, puis de 35% au deuxième tour, et de 50% au troisième tour.",
+        "en": "The bearer increases the healing received by their allied fighters by 10% during the bearer's turn on the first turn, then by 35% on the second turn and by 50% on the third turn.",
+        "pt": "O portador aumenta as curas recebidas pelos combatentes aliados em 10% durante seu turno de jogo no primeiro turno, em 35% no segundo e em 50% no terceiro.",
+        "de": "Der Träger erhöht während seiner Spielrunde die von verbündeten Kämpfern erhaltene Heilung, und zwar in der ersten Runde um 10 %, in der zweiten Runde um 35 % und in der dritten Runde um 50 %.",
+        "es": "El portador aumenta las curas recibidas por sus luchadores aliados un 10% durante su turno de juego en el primer turno, un 35% en el segundo turno y un 50% en el tercer turno."
       }
     }
   },
@@ -7727,7 +7727,7 @@
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "criticalResist": -50,
+      "criticalResist": -25,
       "pushbackResist": 100
     },
     "specialEffect": {

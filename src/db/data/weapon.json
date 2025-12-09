@@ -2593,17 +2593,17 @@
         {
           "type": "damage",
           "element": "fire",
-          "min": 6,
+          "min": 15,
           "max": 19,
-          "minCrit": 16,
+          "minCrit": 25,
           "maxCrit": 29
         },
         {
           "type": "damage",
           "element": "air",
-          "min": 6,
+          "min": 15,
           "max": 19,
-          "minCrit": 16,
+          "minCrit": 25,
           "maxCrit": 29
         }
       ]
@@ -2657,17 +2657,17 @@
         {
           "type": "damage",
           "element": "earth",
-          "min": 10,
+          "min": 17,
           "max": 21,
-          "minCrit": 20,
+          "minCrit": 27,
           "maxCrit": 31
         },
         {
           "type": "damage",
           "element": "fire",
-          "min": 10,
+          "min": 17,
           "max": 21,
-          "minCrit": 20,
+          "minCrit": 27,
           "maxCrit": 31
         }
       ]
@@ -3247,24 +3247,24 @@
           "element": "fire",
           "min": 21,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 29
+          "minCrit": 29,
+          "maxCrit": 33
         },
         {
           "type": "steal",
           "element": "water",
           "min": 6,
           "max": 10,
-          "minCrit": 10,
-          "maxCrit": 14
+          "minCrit": 14,
+          "maxCrit": 18
         },
         {
           "type": "steal",
           "element": "water",
           "min": 6,
           "max": 10,
-          "minCrit": 10,
-          "maxCrit": 14
+          "minCrit": 14,
+          "maxCrit": 18
         }
       ]
     }
@@ -3299,7 +3299,7 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
@@ -3374,16 +3374,16 @@
           "element": "water",
           "min": 20,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 30
+          "minCrit": 29,
+          "maxCrit": 34
         },
         {
           "type": "steal",
           "element": "air",
           "min": 20,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 30
+          "minCrit": 29,
+          "maxCrit": 34
         }
       ]
     }
@@ -3555,6 +3555,7 @@
       "wisdom": 60,
       "criticalChance": 10,
       "range": 1,
+      "airDamage": 10,
       "airResistPer": 10,
       "mpResist": -20,
       "pushbackDamage": 30
@@ -3702,15 +3703,15 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "water",
-          "min": 44,
-          "max": 50,
-          "minCrit": 54,
-          "maxCrit": 60
+          "min": 47,
+          "max": 54,
+          "minCrit": 62,
+          "maxCrit": 69
         }
       ]
     }
@@ -3880,15 +3881,75 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "earth",
-          "min": 48,
-          "max": 52,
-          "minCrit": 58,
-          "maxCrit": 62
+          "min": 49,
+          "max": 55,
+          "minCrit": 69,
+          "maxCrit": 75
+        }
+      ]
+    }
+  },
+  "Vo": {
+    "id": "Vo",
+    "idDofusDB": 32235,
+    "idDofusBook": 32235,
+    "name": {
+      "fr": "Arc de Culbutœuf",
+      "en": "Erotegg Bow",
+      "pt": "Arco do Estrovo",
+      "de": "Bogen von Kuhklebei",
+      "es": "Arco de Tentenhuevo"
+    },
+    "level": 200,
+    "panoply": "81",
+    "category": "weapon",
+    "subCategory": "bow",
+    "stats": {
+      "vitality": 400,
+      "strength": 70,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 30,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "airDamage": 15,
+      "prospecting": 15,
+      "airResistPer": 10,
+      "pushbackDamage": 20
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 20,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 34,
+          "max": 41,
+          "minCrit": 40,
+          "maxCrit": 47
+        },
+        {
+          "type": "steal",
+          "element": "water",
+          "min": 7,
+          "max": 9,
+          "minCrit": 13,
+          "maxCrit": 15
+        },
+        {
+          "type": "steal",
+          "element": "air",
+          "min": 7,
+          "max": 9,
+          "minCrit": 13,
+          "maxCrit": 15
         }
       ]
     }
@@ -6881,24 +6942,20 @@
       "pushbackResist": 20
     },
     "weaponEffect": {
-      "cost": 4,
-      "critChance": 15,
+      "cost": 3,
+      "critChance": 0,
       "effects": [
         {
-          "type": "damage",
+          "type": "steal",
           "element": "earth",
-          "min": 24,
-          "max": 30,
-          "minCrit": 29,
-          "maxCrit": 35
+          "min": 11,
+          "max": 14
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "water",
-          "min": 24,
-          "max": 30,
-          "minCrit": 29,
-          "maxCrit": 35
+          "min": 11,
+          "max": 14
         }
       ]
     }
@@ -7297,7 +7354,6 @@
       "range": -1,
       "initiative": -300,
       "earthResistPer": 10,
-      "waterResistPer": -5,
       "dodge": -20,
       "apResist": 15,
       "mpResist": 15,
@@ -7561,6 +7617,64 @@
         {
           "type": "pull",
           "element": "pull",
+          "min": 2,
+          "max": 0
+        }
+      ]
+    }
+  },
+  "Vi": {
+    "id": "Vi",
+    "idDofusDB": 32227,
+    "idDofusBook": 32227,
+    "name": {
+      "fr": "Fléau du Docteur Eggob",
+      "en": "Doctor Gobotnegg Flail",
+      "pt": "Flagelo do Goblotnik",
+      "de": "Geißel von Doktor Eggob",
+      "es": "Mangual del doctor Eggob"
+    },
+    "level": 195,
+    "panoply": "7Y",
+    "category": "weapon",
+    "subCategory": "wand",
+    "stats": {
+      "vitality": 300,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 50,
+      "range": 1,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 7,
+      "fireResistPer": 7,
+      "pushbackDamage": 15
+    },
+    "weaponEffect": {
+      "cost": 4,
+      "critChance": 10,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 15,
+          "max": 20,
+          "minCrit": 23,
+          "maxCrit": 28
+        },
+        {
+          "type": "damage",
+          "element": "water",
+          "min": 13,
+          "max": 17,
+          "minCrit": 21,
+          "maxCrit": 25
+        },
+        {
+          "type": "push",
+          "element": "push",
           "min": 2,
           "max": 0
         }
@@ -10185,17 +10299,17 @@
         {
           "type": "steal",
           "element": "earth",
-          "min": 1,
+          "min": 6,
           "max": 8,
-          "minCrit": 8,
+          "minCrit": 13,
           "maxCrit": 15
         },
         {
           "type": "steal",
           "element": "water",
-          "min": 1,
+          "min": 6,
           "max": 8,
-          "minCrit": 8,
+          "minCrit": 13,
           "maxCrit": 15
         }
       ]
@@ -10213,12 +10327,13 @@
       "es": "Granizetro"
     },
     "level": 192,
+    "panoply": "5C",
     "category": "weapon",
     "subCategory": "staff",
     "stats": {
       "vitality": 350,
-      "intelligence": 60,
-      "agility": 60,
+      "strength": 60,
+      "chance": 60,
       "wisdom": 50,
       "range": 1,
       "damage": 7,
@@ -10241,7 +10356,7 @@
         },
         {
           "type": "damage",
-          "element": "fire",
+          "element": "earth",
           "min": 8,
           "max": 12,
           "minCrit": 15,
@@ -10249,7 +10364,7 @@
         },
         {
           "type": "damage",
-          "element": "air",
+          "element": "water",
           "min": 8,
           "max": 12,
           "minCrit": 15,
@@ -10477,7 +10592,7 @@
       "pushbackResist": 10
     },
     "weaponEffect": {
-      "cost": 5,
+      "cost": 4,
       "critChance": 20,
       "effects": [
         {
@@ -10833,7 +10948,7 @@
       "criticalDamage": -11
     },
     "weaponEffect": {
-      "cost": 4,
+      "cost": 3,
       "critChance": 40,
       "effects": [
         {
@@ -10841,16 +10956,16 @@
           "element": "neutral",
           "min": 9,
           "max": 14,
-          "minCrit": 24,
-          "maxCrit": 29
+          "minCrit": 12,
+          "maxCrit": 17
         },
         {
           "type": "damage",
           "element": "neutral",
           "min": 9,
           "max": 14,
-          "minCrit": 24,
-          "maxCrit": 29
+          "minCrit": 12,
+          "maxCrit": 17
         },
         {
           "type": "other",
@@ -11263,16 +11378,16 @@
           "element": "water",
           "min": 12,
           "max": 15,
-          "minCrit": 18,
-          "maxCrit": 21
+          "minCrit": 22,
+          "maxCrit": 25
         },
         {
           "type": "steal",
           "element": "water",
           "min": 4,
           "max": 5,
-          "minCrit": 10,
-          "maxCrit": 11
+          "minCrit": 14,
+          "maxCrit": 15
         }
       ]
     }
@@ -11326,23 +11441,23 @@
     },
     "weaponEffect": {
       "cost": 4,
-      "critChance": 15,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "earth",
           "min": 34,
           "max": 40,
-          "minCrit": 39,
-          "maxCrit": 45
+          "minCrit": 44,
+          "maxCrit": 50
         },
         {
           "type": "steal",
           "element": "fire",
           "min": 16,
           "max": 20,
-          "minCrit": 21,
-          "maxCrit": 25
+          "minCrit": 26,
+          "maxCrit": 30
         }
       ]
     }
@@ -12796,6 +12911,52 @@
       ]
     }
   },
+  "VE": {
+    "id": "VE",
+    "idDofusDB": 6713,
+    "idDofusBook": 6713,
+    "name": {
+      "fr": "Lorsotheuses",
+      "en": "Lordsoth Daggers",
+      "pt": "Adagas de Lordsoth",
+      "de": "Lorsotheuse",
+      "es": "Lorsothisas"
+    },
+    "level": 100,
+    "category": "weapon",
+    "subCategory": "dagger",
+    "criterions": "PN~Lordsoth",
+    "stats": {
+      "vitality": 70,
+      "strength": 70,
+      "agility": 40,
+      "criticalChance": 3,
+      "ap": 1,
+      "dodge": 7
+    },
+    "weaponEffect": {
+      "cost": 3,
+      "critChance": 25,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "earth",
+          "min": 6,
+          "max": 15,
+          "minCrit": 16,
+          "maxCrit": 25
+        },
+        {
+          "type": "damage",
+          "element": "air",
+          "min": 6,
+          "max": 15,
+          "minCrit": 16,
+          "maxCrit": 25
+        }
+      ]
+    }
+  },
   "3B": {
     "id": "3B",
     "idDofusDB": 6784,
@@ -13593,26 +13754,26 @@
         {
           "type": "damage",
           "element": "water",
-          "min": 8,
-          "max": 13,
-          "minCrit": 11,
-          "maxCrit": 16
+          "min": 3,
+          "max": 6,
+          "minCrit": 9,
+          "maxCrit": 12
         },
         {
           "type": "damage",
           "element": "air",
-          "min": 8,
-          "max": 13,
-          "minCrit": 11,
-          "maxCrit": 16
+          "min": 3,
+          "max": 6,
+          "minCrit": 9,
+          "maxCrit": 12
         },
         {
           "type": "steal",
           "element": "neutral",
           "min": 1,
           "max": 2,
-          "minCrit": 4,
-          "maxCrit": 5
+          "minCrit": 7,
+          "maxCrit": 8
         }
       ]
     }
@@ -13848,30 +14009,30 @@
       "es": "Daga 'Mberra"
     },
     "level": 182,
-    "panoply": "5r",
+    "panoply": "5l",
     "category": "weapon",
     "subCategory": "dagger",
     "requirements": [
       [
         {
-          "stat": "intelligence",
+          "stat": "strength",
           "type": "moreThan",
           "value": 199
         }
       ],
       [
         {
-          "stat": "chance",
+          "stat": "agility",
           "type": "moreThan",
           "value": 199
         }
       ]
     ],
-    "criterions": "CI>199&CC>199",
+    "criterions": "CS>199&CA>199",
     "stats": {
       "vitality": 300,
-      "intelligence": 50,
-      "chance": 50,
+      "strength": 50,
+      "agility": 50,
       "criticalChance": 3,
       "damage": 6,
       "airResistPer": 10,
@@ -13879,31 +14040,31 @@
     },
     "weaponEffect": {
       "cost": 3,
-      "critChance": 25,
+      "critChance": 10,
       "effects": [
         {
           "type": "damage",
+          "element": "earth",
+          "min": 6,
+          "max": 8,
+          "minCrit": 9,
+          "maxCrit": 11
+        },
+        {
+          "type": "damage",
+          "element": "air",
+          "min": 6,
+          "max": 8,
+          "minCrit": 9,
+          "maxCrit": 11
+        },
+        {
+          "type": "steal",
           "element": "neutral",
-          "min": 8,
-          "max": 17,
-          "minCrit": 15,
-          "maxCrit": 24
-        },
-        {
-          "type": "damage",
-          "element": "fire",
-          "min": 6,
-          "max": 10,
-          "minCrit": 13,
-          "maxCrit": 17
-        },
-        {
-          "type": "damage",
-          "element": "water",
-          "min": 6,
-          "max": 10,
-          "minCrit": 13,
-          "maxCrit": 17
+          "min": 3,
+          "max": 5,
+          "minCrit": 6,
+          "maxCrit": 8
         }
       ]
     }
@@ -13936,26 +14097,9 @@
           "type": "moreThan",
           "value": 199
         }
-      ],
-      [
-        {
-          "stat": "ap",
-          "type": "lessThan",
-          "value": 12
-        },
-        {
-          "stat": "mp",
-          "type": "lessThan",
-          "value": 6
-        }
       ]
     ],
-    "minRequirement": {
-      "type": "apLessThanOrMpLessThan",
-      "value": 12,
-      "value2": 6
-    },
-    "criterions": "CS>199&CA>199&(CP<12|CM<6)",
+    "criterions": "CS>199&CA>199",
     "stats": {
       "vitality": 200,
       "strength": 50,
@@ -14421,8 +14565,8 @@
         {
           "type": "steal",
           "element": "earth",
-          "min": 4,
-          "max": 5
+          "min": 6,
+          "max": 8
         },
         {
           "type": "steal",
@@ -14602,23 +14746,23 @@
     },
     "weaponEffect": {
       "cost": 3,
-      "critChance": 15,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
           "min": 9,
           "max": 12,
-          "minCrit": 15,
-          "maxCrit": 18
+          "minCrit": 19,
+          "maxCrit": 22
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "earth",
           "min": 9,
           "max": 12,
-          "minCrit": 15,
-          "maxCrit": 18
+          "minCrit": 19,
+          "maxCrit": 22
         }
       ]
     }
@@ -14639,26 +14783,14 @@
     "subCategory": "dagger",
     "stats": {
       "vitality": 450,
-      "strength": 120,
       "wisdom": 50,
+      "power": 120,
       "initiative": 400,
       "neutralResistPer": 10,
       "lock": 20,
       "dodge": -20,
       "mpResist": 20,
       "meleeResistPer": -5
-    },
-    "weaponEffect": {
-      "cost": 3,
-      "critChance": 0,
-      "effects": [
-        {
-          "type": "steal",
-          "element": "neutral",
-          "min": 30,
-          "max": 0
-        }
-      ]
     },
     "specialEffect": {
       "name": {
@@ -16133,7 +16265,7 @@
       "pushbackDamage": 10
     },
     "weaponEffect": {
-      "cost": 6,
+      "cost": 5,
       "critChance": 30,
       "effects": [
         {
@@ -17879,17 +18011,17 @@
         {
           "type": "damage",
           "element": "water",
-          "min": 6,
+          "min": 21,
           "max": 28,
-          "minCrit": 16,
+          "minCrit": 31,
           "maxCrit": 38
         },
         {
           "type": "damage",
           "element": "air",
-          "min": 6,
+          "min": 21,
           "max": 28,
-          "minCrit": 16,
+          "minCrit": 31,
           "maxCrit": 38
         }
       ]
@@ -18351,31 +18483,31 @@
     },
     "weaponEffect": {
       "cost": 4,
-      "critChance": 5,
+      "critChance": 10,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
-          "min": 7,
-          "max": 12,
-          "minCrit": 12,
-          "maxCrit": 17
+          "min": 9,
+          "max": 14,
+          "minCrit": 14,
+          "maxCrit": 19
         },
         {
           "type": "damage",
           "element": "neutral",
-          "min": 7,
-          "max": 12,
-          "minCrit": 12,
-          "maxCrit": 17
+          "min": 9,
+          "max": 14,
+          "minCrit": 14,
+          "maxCrit": 19
         },
         {
           "type": "damage",
           "element": "neutral",
-          "min": 7,
-          "max": 12,
-          "minCrit": 12,
-          "maxCrit": 17
+          "min": 9,
+          "max": 14,
+          "minCrit": 14,
+          "maxCrit": 19
         }
       ]
     }
@@ -18412,15 +18544,15 @@
     },
     "weaponEffect": {
       "cost": 4,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
           "min": 36,
           "max": 44,
-          "minCrit": 46,
-          "maxCrit": 54
+          "minCrit": 51,
+          "maxCrit": 59
         }
       ]
     }
@@ -18460,14 +18592,14 @@
       "effects": [
         {
           "type": "damage",
-          "element": "neutral",
+          "element": "air",
           "min": 30,
           "max": 37,
           "minCrit": 36,
           "maxCrit": 43
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "air",
           "min": 9,
           "max": 14,
@@ -18587,31 +18719,31 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
           "min": 41,
           "max": 45,
-          "minCrit": 44,
-          "maxCrit": 48
+          "minCrit": 46,
+          "maxCrit": 50
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "earth",
-          "min": 5,
-          "max": 8,
-          "minCrit": 8,
-          "maxCrit": 11
+          "min": 7,
+          "max": 12,
+          "minCrit": 12,
+          "maxCrit": 17
         },
         {
           "type": "steal",
           "element": "air",
           "min": 7,
           "max": 12,
-          "minCrit": 10,
-          "maxCrit": 15
+          "minCrit": 12,
+          "maxCrit": 17
         }
       ]
     }
@@ -18757,7 +18889,7 @@
       "criticalDamage": 15
     },
     "weaponEffect": {
-      "cost": 6,
+      "cost": 5,
       "critChance": 15,
       "effects": [
         {
@@ -18765,24 +18897,24 @@
           "element": "fire",
           "min": 20,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 30
+          "minCrit": 23,
+          "maxCrit": 28
         },
         {
           "type": "damage",
           "element": "water",
           "min": 20,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 30
+          "minCrit": 23,
+          "maxCrit": 28
         },
         {
           "type": "damage",
           "element": "air",
           "min": 20,
           "max": 25,
-          "minCrit": 25,
-          "maxCrit": 30
+          "minCrit": 23,
+          "maxCrit": 28
         },
         {
           "type": "other",
@@ -18903,20 +19035,20 @@
       "critChance": 25,
       "effects": [
         {
-          "type": "damage",
-          "element": "earth",
-          "min": 23,
-          "max": 28,
-          "minCrit": 30,
-          "maxCrit": 35
+          "type": "steal",
+          "element": "neutral",
+          "min": 21,
+          "max": 25,
+          "minCrit": 28,
+          "maxCrit": 32
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "water",
-          "min": 23,
-          "max": 28,
-          "minCrit": 30,
-          "maxCrit": 35
+          "min": 21,
+          "max": 25,
+          "minCrit": 28,
+          "maxCrit": 32
         }
       ]
     }
@@ -19020,23 +19152,23 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 15,
+      "critChance": 20,
       "effects": [
         {
           "type": "steal",
           "element": "fire",
           "min": 25,
           "max": 30,
-          "minCrit": 35,
-          "maxCrit": 40
+          "minCrit": 37,
+          "maxCrit": 42
         },
         {
           "type": "steal",
           "element": "water",
           "min": 25,
           "max": 30,
-          "minCrit": 35,
-          "maxCrit": 40
+          "minCrit": 37,
+          "maxCrit": 42
         }
       ]
     }
@@ -19057,11 +19189,8 @@
     "subCategory": "sword",
     "stats": {
       "vitality": 500,
-      "strength": 100,
-      "intelligence": 50,
-      "chance": 70,
-      "agility": 70,
       "wisdom": 40,
+      "power": 100,
       "neutralDamage": 20,
       "earthDamage": 20,
       "fireDamage": 20,
@@ -19077,7 +19206,7 @@
       "effects": [
         {
           "type": "damage",
-          "element": "neutral",
+          "element": "bestElem",
           "min": 41,
           "max": 60,
           "minCrit": 48,
@@ -19487,23 +19616,23 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
           "min": 45,
           "max": 50,
-          "minCrit": 50,
-          "maxCrit": 55
+          "minCrit": 53,
+          "maxCrit": 58
         },
         {
           "type": "steal",
           "element": "fire",
-          "min": 4,
-          "max": 5,
-          "minCrit": 9,
-          "maxCrit": 10
+          "min": 8,
+          "max": 10,
+          "minCrit": 16,
+          "maxCrit": 18
         },
         {
           "type": "other",
@@ -19718,18 +19847,18 @@
       "critChance": 5,
       "effects": [
         {
-          "type": "other",
-          "element": "apReduce",
-          "min": -1,
-          "max": 0
-        },
-        {
           "type": "damage",
           "element": "bestElem",
           "min": 76,
           "max": 90,
           "minCrit": 96,
           "maxCrit": 110
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
         },
         {
           "type": "push",
@@ -19773,18 +19902,18 @@
       "critChance": 15,
       "effects": [
         {
-          "type": "other",
-          "element": "apReduce",
-          "min": -1,
-          "max": 0
-        },
-        {
           "type": "damage",
           "element": "bestElem",
           "min": 44,
           "max": 50,
           "minCrit": 59,
           "maxCrit": 65
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
         }
       ]
     },
@@ -19803,6 +19932,64 @@
         "de": "Eifer der Weißen Stadt:\n• Zu Beginn jeder Runde erhöht sich die Resistenz des Trägers und seiner Verbündeten 1 Runde lang um 1 % pro am Leben befindlichem gegnerischen Kämpfer (4-mal kumulierbar).",
         "es": "Fervor de la Ciudad Blanca:\n• Al inicio de cada turno, el portador y sus aliados ganan un 1% de resistencia durante 1 turno por cada luchador enemigo vivo (acumulable hasta 4 veces)."
       }
+    }
+  },
+  "Vl": {
+    "id": "Vl",
+    "idDofusDB": 32232,
+    "idDofusBook": 32232,
+    "name": {
+      "fr": "Lame givrée du Chevalier de Glace",
+      "en": "Ice Knight's Frozen Blade",
+      "pt": "Lâmina Gélida do Cavaleiro de Gelo",
+      "de": "Frostige Klinge des Eisritters",
+      "es": "Hoja helada del Caballero de Hielo"
+    },
+    "level": 200,
+    "panoply": "80",
+    "category": "weapon",
+    "subCategory": "sword",
+    "stats": {
+      "vitality": 450,
+      "chance": 40,
+      "wisdom": 40,
+      "power": 40,
+      "range": 1,
+      "damage": 6,
+      "waterDamage": 12,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "waterResistPer": 8,
+      "dodge": 7,
+      "mpReduction": 7
+    },
+    "weaponEffect": {
+      "cost": 4,
+      "critChance": 20,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 38,
+          "max": 46,
+          "minCrit": 48,
+          "maxCrit": 56
+        },
+        {
+          "type": "steal",
+          "element": "water",
+          "min": 11,
+          "max": 13,
+          "minCrit": 21,
+          "maxCrit": 23
+        },
+        {
+          "type": "other",
+          "element": "mpReduce",
+          "min": -1,
+          "max": 0
+        }
+      ]
     }
   },
   "1t": {
@@ -22222,17 +22409,17 @@
         {
           "type": "damage",
           "element": "neutral",
-          "min": 19,
+          "min": 26,
           "max": 35,
-          "minCrit": 29,
+          "minCrit": 36,
           "maxCrit": 45
         },
         {
           "type": "steal",
           "element": "water",
-          "min": 2,
+          "min": 5,
           "max": 7,
-          "minCrit": 12,
+          "minCrit": 15,
           "maxCrit": 17
         }
       ]
@@ -22529,7 +22716,7 @@
           "maxCrit": 54
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "earth",
           "min": 6,
           "max": 10,
@@ -22862,7 +23049,7 @@
       "pushbackDamage": 20
     },
     "weaponEffect": {
-      "cost": 5,
+      "cost": 4,
       "critChance": 25,
       "effects": [
         {
@@ -22994,7 +23181,7 @@
     },
     "weaponEffect": {
       "cost": 4,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
@@ -23069,24 +23256,24 @@
       "apResist": 10
     },
     "weaponEffect": {
-      "cost": 5,
+      "cost": 4,
       "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
-          "min": 31,
-          "max": 35,
-          "minCrit": 41,
-          "maxCrit": 45
+          "min": 26,
+          "max": 31,
+          "minCrit": 34,
+          "maxCrit": 39
         },
         {
           "type": "damage",
           "element": "air",
-          "min": 31,
-          "max": 35,
-          "minCrit": 41,
-          "maxCrit": 45
+          "min": 26,
+          "max": 31,
+          "minCrit": 34,
+          "maxCrit": 39
         }
       ]
     }
@@ -23416,7 +23603,7 @@
       "lock": 12
     },
     "weaponEffect": {
-      "cost": 5,
+      "cost": 4,
       "critChance": 20,
       "effects": [
         {
@@ -23424,24 +23611,24 @@
           "element": "earth",
           "min": 18,
           "max": 21,
-          "minCrit": 28,
-          "maxCrit": 31
+          "minCrit": 21,
+          "maxCrit": 24
         },
         {
           "type": "damage",
           "element": "fire",
           "min": 18,
           "max": 21,
-          "minCrit": 28,
-          "maxCrit": 31
+          "minCrit": 21,
+          "maxCrit": 24
         },
         {
           "type": "damage",
           "element": "air",
           "min": 18,
           "max": 21,
-          "minCrit": 28,
-          "maxCrit": 31
+          "minCrit": 21,
+          "maxCrit": 24
         }
       ]
     }
@@ -23650,14 +23837,6 @@
       "effects": [
         {
           "type": "damage",
-          "element": "neutral",
-          "min": 15,
-          "max": 18,
-          "minCrit": 19,
-          "maxCrit": 22
-        },
-        {
-          "type": "damage",
           "element": "fire",
           "min": 15,
           "max": 18,
@@ -23671,6 +23850,20 @@
           "max": 18,
           "minCrit": 19,
           "maxCrit": 22
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
+          "min": 15,
+          "max": 18,
+          "minCrit": 19,
+          "maxCrit": 22
+        },
+        {
+          "type": "push",
+          "element": "push",
+          "min": 1,
+          "max": 0
         }
       ]
     }
@@ -23843,24 +24036,24 @@
           "element": "water",
           "min": 16,
           "max": 20,
-          "minCrit": 22,
-          "maxCrit": 26
+          "minCrit": 25,
+          "maxCrit": 29
         },
         {
           "type": "damage",
           "element": "air",
           "min": 16,
           "max": 20,
-          "minCrit": 22,
-          "maxCrit": 26
+          "minCrit": 25,
+          "maxCrit": 29
         },
         {
           "type": "steal",
           "element": "neutral",
           "min": 16,
           "max": 20,
-          "minCrit": 22,
-          "maxCrit": 26
+          "minCrit": 25,
+          "maxCrit": 29
         }
       ]
     }
@@ -23903,14 +24096,6 @@
       "effects": [
         {
           "type": "damage",
-          "element": "neutral",
-          "min": 14,
-          "max": 17,
-          "minCrit": 17,
-          "maxCrit": 20
-        },
-        {
-          "type": "damage",
           "element": "fire",
           "min": 14,
           "max": 17,
@@ -23920,6 +24105,14 @@
         {
           "type": "damage",
           "element": "water",
+          "min": 14,
+          "max": 17,
+          "minCrit": 17,
+          "maxCrit": 20
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
           "min": 14,
           "max": 17,
           "minCrit": 17,
@@ -24030,15 +24223,15 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "air",
           "min": 48,
           "max": 56,
-          "minCrit": 63,
-          "maxCrit": 71
+          "minCrit": 68,
+          "maxCrit": 76
         },
         {
           "type": "push",
@@ -24082,7 +24275,7 @@
       "criticalResist": 20
     },
     "weaponEffect": {
-      "cost": 5,
+      "cost": 4,
       "critChance": 20,
       "effects": [
         {
@@ -24105,6 +24298,70 @@
           "type": "pull",
           "element": "pull",
           "min": 1,
+          "max": 0
+        }
+      ]
+    }
+  },
+  "VA": {
+    "id": "VA",
+    "idDofusDB": 32238,
+    "idDofusBook": 32238,
+    "name": {
+      "fr": "Masse de Glourdorak",
+      "en": "Bearendizer Mace",
+      "pt": "Maça do Glurdorak",
+      "de": "Barbärdizers Vorschlaghammer",
+      "es": "Maza de Golosorak"
+    },
+    "level": 200,
+    "panoply": "82",
+    "category": "weapon",
+    "subCategory": "hammer",
+    "stats": {
+      "vitality": 500,
+      "wisdom": 50,
+      "criticalChance": 8,
+      "heal": 10,
+      "prospecting": 30,
+      "neutralResistPer": 15,
+      "lock": 10,
+      "mpResist": 6,
+      "criticalDamage": 20,
+      "pushbackDamage": 20
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 10,
+      "effects": [
+        {
+          "type": "steal",
+          "element": "neutral",
+          "min": 9,
+          "max": 14,
+          "minCrit": 13,
+          "maxCrit": 18
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
+          "min": 9,
+          "max": 14,
+          "minCrit": 13,
+          "maxCrit": 18
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
+          "min": 9,
+          "max": 14,
+          "minCrit": 13,
+          "maxCrit": 18
+        },
+        {
+          "type": "push",
+          "element": "push",
+          "min": 2,
           "max": 0
         }
       ]
@@ -25863,13 +26120,13 @@
         {
           "type": "damage",
           "element": "neutral",
-          "min": 8,
+          "min": 12,
           "max": 18
         },
         {
           "type": "damage",
           "element": "water",
-          "min": 12,
+          "min": 19,
           "max": 26
         }
       ]
@@ -26121,7 +26378,7 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 5,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
@@ -26259,7 +26516,7 @@
         },
         {
           "type": "steal",
-          "element": "air",
+          "element": "neutral",
           "min": 5,
           "max": 7,
           "minCrit": 8,
@@ -26442,31 +26699,31 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 20,
+      "critChance": 25,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
           "min": 22,
           "max": 28,
-          "minCrit": 29,
-          "maxCrit": 35
+          "minCrit": 33,
+          "maxCrit": 39
         },
         {
           "type": "damage",
           "element": "fire",
           "min": 23,
           "max": 34,
-          "minCrit": 30,
-          "maxCrit": 41
+          "minCrit": 34,
+          "maxCrit": 45
         },
         {
           "type": "steal",
           "element": "water",
           "min": 7,
           "max": 10,
-          "minCrit": 14,
-          "maxCrit": 17
+          "minCrit": 18,
+          "maxCrit": 21
         }
       ]
     }
@@ -26585,24 +26842,24 @@
           "element": "neutral",
           "min": 33,
           "max": 40,
-          "minCrit": 36,
-          "maxCrit": 43
+          "minCrit": 39,
+          "maxCrit": 46
         },
         {
           "type": "steal",
           "element": "water",
           "min": 4,
           "max": 6,
-          "minCrit": 7,
-          "maxCrit": 9
+          "minCrit": 10,
+          "maxCrit": 12
         },
         {
           "type": "steal",
           "element": "air",
           "min": 4,
           "max": 6,
-          "minCrit": 7,
-          "maxCrit": 9
+          "minCrit": 10,
+          "maxCrit": 12
         }
       ]
     }
@@ -26637,15 +26894,15 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 5,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "air",
           "min": 61,
           "max": 70,
-          "minCrit": 68,
-          "maxCrit": 77
+          "minCrit": 71,
+          "maxCrit": 80
         }
       ]
     }
@@ -26752,24 +27009,24 @@
       "apResist": 15
     },
     "weaponEffect": {
-      "cost": 5,
-      "critChance": 10,
+      "cost": 4,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
-          "min": 36,
-          "max": 40,
-          "minCrit": 42,
-          "maxCrit": 46
+          "min": 26,
+          "max": 31,
+          "minCrit": 32,
+          "maxCrit": 37
         },
         {
           "type": "damage",
           "element": "water",
-          "min": 36,
-          "max": 40,
-          "minCrit": 42,
-          "maxCrit": 46
+          "min": 26,
+          "max": 31,
+          "minCrit": 32,
+          "maxCrit": 37
         }
       ]
     }
@@ -26818,10 +27075,10 @@
         {
           "type": "damage",
           "element": "air",
-          "min": 18,
-          "max": 25,
-          "minCrit": 26,
-          "maxCrit": 33
+          "min": 23,
+          "max": 30,
+          "minCrit": 31,
+          "maxCrit": 38
         },
         {
           "type": "steal",
@@ -26865,7 +27122,7 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 15,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
@@ -26882,6 +27139,84 @@
           "max": 32,
           "minCrit": 38,
           "maxCrit": 42
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
+          "min": 4,
+          "max": 6,
+          "minCrit": 14,
+          "maxCrit": 16
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
+        }
+      ]
+    }
+  },
+  "Vr": {
+    "id": "Vr",
+    "idDofusDB": 32242,
+    "idDofusBook": 32242,
+    "name": {
+      "fr": "Bêche de Mekamouth",
+      "en": "Mekstagob Spade",
+      "pt": "Pá do Mekamute",
+      "de": "Mechmuts Spaten",
+      "es": "Pala de Mecanimut"
+    },
+    "level": 200,
+    "panoply": "83",
+    "category": "weapon",
+    "subCategory": "shovel",
+    "stats": {
+      "vitality": 450,
+      "strength": 60,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "neutralDamage": 15,
+      "earthDamage": 15,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "fireResistPer": 7,
+      "lock": -15,
+      "apReduction": 6,
+      "apResist": -10
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 15,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 39,
+          "max": 45,
+          "minCrit": 46,
+          "maxCrit": 52
+        },
+        {
+          "type": "steal",
+          "element": "fire",
+          "min": 6,
+          "max": 8,
+          "minCrit": 13,
+          "maxCrit": 15
+        },
+        {
+          "type": "steal",
+          "element": "water",
+          "min": 6,
+          "max": 8,
+          "minCrit": 13,
+          "maxCrit": 15
         },
         {
           "type": "other",
@@ -28334,22 +28669,16 @@
       "critChance": 0,
       "effects": [
         {
-          "type": "damage",
+          "type": "steal",
           "element": "water",
           "min": 11,
           "max": 14
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "water",
           "min": 11,
           "max": 14
-        },
-        {
-          "type": "other",
-          "element": "mpReduce",
-          "min": -1,
-          "max": 0
         }
       ]
     }
@@ -29523,31 +29852,31 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
           "min": 15,
           "max": 19,
-          "minCrit": 19,
-          "maxCrit": 23
+          "minCrit": 21,
+          "maxCrit": 25
         },
         {
           "type": "damage",
           "element": "air",
           "min": 21,
           "max": 27,
-          "minCrit": 25,
-          "maxCrit": 31
+          "minCrit": 27,
+          "maxCrit": 33
         },
         {
           "type": "steal",
           "element": "earth",
           "min": 8,
           "max": 11,
-          "minCrit": 12,
-          "maxCrit": 15
+          "minCrit": 14,
+          "maxCrit": 17
         }
       ]
     }
@@ -29606,24 +29935,24 @@
           "element": "neutral",
           "min": 24,
           "max": 32,
-          "minCrit": 28,
-          "maxCrit": 36
+          "minCrit": 31,
+          "maxCrit": 39
         },
         {
           "type": "damage",
           "element": "water",
           "min": 18,
           "max": 24,
-          "minCrit": 22,
-          "maxCrit": 28
+          "minCrit": 25,
+          "maxCrit": 31
         },
         {
           "type": "steal",
           "element": "water",
           "min": 6,
           "max": 8,
-          "minCrit": 10,
-          "maxCrit": 12
+          "minCrit": 13,
+          "maxCrit": 15
         }
       ]
     }
@@ -29699,25 +30028,31 @@
     },
     "weaponEffect": {
       "cost": 4,
-      "critChance": 0,
+      "critChance": 10,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
           "min": 26,
-          "max": 30
+          "max": 30,
+          "minCrit": 28,
+          "maxCrit": 32
         },
         {
           "type": "steal",
           "element": "fire",
           "min": 6,
-          "max": 10
+          "max": 10,
+          "minCrit": 8,
+          "maxCrit": 12
         },
         {
           "type": "steal",
           "element": "fire",
           "min": 6,
-          "max": 10
+          "max": 10,
+          "minCrit": 8,
+          "maxCrit": 12
         }
       ]
     }
@@ -29786,24 +30121,24 @@
           "element": "earth",
           "min": 16,
           "max": 20,
-          "minCrit": 21,
-          "maxCrit": 25
+          "minCrit": 24,
+          "maxCrit": 28
         },
         {
           "type": "damage",
           "element": "fire",
           "min": 16,
           "max": 20,
-          "minCrit": 21,
-          "maxCrit": 25
+          "minCrit": 24,
+          "maxCrit": 28
         },
         {
           "type": "damage",
           "element": "water",
           "min": 16,
           "max": 20,
-          "minCrit": 21,
-          "maxCrit": 25
+          "minCrit": 24,
+          "maxCrit": 28
         }
       ]
     }
@@ -29997,10 +30332,16 @@
           "max": 16
         },
         {
-          "type": "damage",
+          "type": "steal",
           "element": "earth",
           "min": 12,
           "max": 16
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
         }
       ]
     }
@@ -30034,21 +30375,15 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 15,
       "effects": [
         {
           "type": "damage",
           "element": "fire",
           "min": 46,
           "max": 55,
-          "minCrit": 61,
-          "maxCrit": 70
-        },
-        {
-          "type": "other",
-          "element": "mpReduce",
-          "min": -2,
-          "max": 0
+          "minCrit": 66,
+          "maxCrit": 75
         }
       ]
     },
@@ -30548,23 +30883,23 @@
     },
     "weaponEffect": {
       "cost": 5,
-      "critChance": 10,
+      "critChance": 20,
       "effects": [
         {
           "type": "damage",
           "element": "water",
           "min": 38,
           "max": 45,
-          "minCrit": 43,
-          "maxCrit": 50
+          "minCrit": 46,
+          "maxCrit": 53
         },
         {
           "type": "steal",
           "element": "water",
-          "min": 4,
-          "max": 5,
-          "minCrit": 9,
-          "maxCrit": 10
+          "min": 8,
+          "max": 10,
+          "minCrit": 16,
+          "maxCrit": 18
         },
         {
           "type": "other",
@@ -30882,14 +31217,6 @@
       "effects": [
         {
           "type": "damage",
-          "element": "neutral",
-          "min": 13,
-          "max": 16,
-          "minCrit": 17,
-          "maxCrit": 20
-        },
-        {
-          "type": "damage",
           "element": "earth",
           "min": 13,
           "max": 16,
@@ -30899,6 +31226,14 @@
         {
           "type": "damage",
           "element": "air",
+          "min": 13,
+          "max": 16,
+          "minCrit": 17,
+          "maxCrit": 20
+        },
+        {
+          "type": "steal",
+          "element": "neutral",
           "min": 13,
           "max": 16,
           "minCrit": 17,
@@ -30969,6 +31304,121 @@
         "de": "Thanatenas Urteil:\n• Zu Beginn jeder Runde erodiert der Träger alle und erhöht den von ihnen erlittenen Schaden 1 Runde lang um 4 % (1-mal kumulierbar).\n• Wenn er einen Gegner besiegt, wird er um 20 % seiner LP geheilt und sein Endschaden erhöht sich 1 Runde lang um 10 %. Handelt es sich um eine Beschwörung, werden die Wirkungen um die Hälfte verringert.",
         "es": "Juicio de Thanatena:\n• Al inicio de cada turno, el portador erosiona y aumenta los daños recibidos por todos en un 4% durante 1 turno (acumulable 1 vez).\n• Cuando elimina a un enemigo, se cura un 20% de su vida y gana un 10% de daños finales durante 1 turno. Los efectos se reducen a la mitad si se trata de una invocación."
       }
+    }
+  },
+  "Vb": {
+    "id": "Vb",
+    "idDofusDB": 32221,
+    "idDofusBook": 32221,
+    "name": {
+      "fr": "Faux de San Jifu",
+      "en": "San Jifu Scythe",
+      "pt": "Foice de San Jifu",
+      "de": "Sense von San Jifu",
+      "es": "Guadaña de San Jifu"
+    },
+    "level": 194,
+    "panoply": "7V",
+    "category": "weapon",
+    "subCategory": "scythe",
+    "stats": {
+      "vitality": 250,
+      "intelligence": 60,
+      "chance": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "fireDamage": 15,
+      "waterDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 7,
+      "waterResistPer": 7,
+      "dodge": 5,
+      "apReduction": 5
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 15,
+      "effects": [
+        {
+          "type": "steal",
+          "element": "fire",
+          "min": 18,
+          "max": 24,
+          "minCrit": 28,
+          "maxCrit": 34
+        },
+        {
+          "type": "steal",
+          "element": "water",
+          "min": 18,
+          "max": 24,
+          "minCrit": 28,
+          "maxCrit": 34
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
+        }
+      ]
+    }
+  },
+  "Vf": {
+    "id": "Vf",
+    "idDofusDB": 32223,
+    "idDofusBook": 32223,
+    "name": {
+      "fr": "Flashaux",
+      "en": "Flaschythe",
+      "pt": "Foishugo",
+      "de": "Sturmsense von Daxoflash",
+      "es": "Guadashña"
+    },
+    "level": 190,
+    "panoply": "7X",
+    "category": "weapon",
+    "subCategory": "scythe",
+    "stats": {
+      "vitality": 350,
+      "intelligence": 40,
+      "wisdom": 40,
+      "power": 40,
+      "criticalChance": 6,
+      "summon": 1,
+      "fireDamage": 15,
+      "prospecting": 15,
+      "fireResistPer": 8,
+      "airResistPer": 8,
+      "apReduction": 6
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 15,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 43,
+          "max": 49,
+          "minCrit": 51,
+          "maxCrit": 57
+        },
+        {
+          "type": "steal",
+          "element": "fire",
+          "min": 6,
+          "max": 8,
+          "minCrit": 14,
+          "maxCrit": 16
+        },
+        {
+          "type": "other",
+          "element": "apReduce",
+          "min": -1,
+          "max": 0
+        }
+      ]
     }
   },
   "9i": {
@@ -31374,32 +31824,32 @@
       "pushbackDamage": 30
     },
     "weaponEffect": {
-      "cost": 3,
-      "critChance": 15,
+      "cost": 4,
+      "critChance": 0,
       "effects": [
         {
           "type": "damage",
           "element": "neutral",
           "min": 11,
-          "max": 15,
-          "minCrit": 14,
-          "maxCrit": 18
+          "max": 15
         },
         {
           "type": "steal",
           "element": "earth",
-          "min": 6,
-          "max": 8,
-          "minCrit": 9,
-          "maxCrit": 11
+          "min": 9,
+          "max": 12
         },
         {
           "type": "steal",
           "element": "air",
-          "min": 6,
-          "max": 8,
-          "minCrit": 9,
-          "maxCrit": 11
+          "min": 9,
+          "max": 12
+        },
+        {
+          "type": "push",
+          "element": "push",
+          "min": 2,
+          "max": 0
         }
       ]
     }
@@ -31434,16 +31884,16 @@
       "pushbackResist": -30
     },
     "weaponEffect": {
-      "cost": 3,
+      "cost": 5,
       "critChance": 25,
       "effects": [
         {
           "type": "damage",
           "element": "air",
-          "min": 20,
-          "max": 25,
-          "minCrit": 30,
-          "maxCrit": 35
+          "min": 51,
+          "max": 57,
+          "minCrit": 66,
+          "maxCrit": 72
         }
       ]
     }
@@ -31492,6 +31942,12 @@
           "max": 6,
           "minCrit": 9,
           "maxCrit": 11
+        },
+        {
+          "type": "push",
+          "element": "push",
+          "min": 1,
+          "max": 0
         }
       ]
     }
@@ -31717,13 +32173,13 @@
       "vitality": 500,
       "wisdom": 50,
       "power": 100,
+      "mp": 1,
       "initiative": 500,
       "neutralResistPer": -10,
       "dodge": -40,
       "apResist": 20,
       "pushbackDamage": 30,
-      "meleeResistPer": 5,
-      "rangedResistPer": 5
+      "meleeResistPer": 5
     },
     "weaponEffect": {
       "cost": 5,
@@ -31754,12 +32210,70 @@
         "es": "Orden del Trueno"
       },
       "description": {
-        "fr": "Ordre du Tonnerre :\n• Tant que le porteur est en vie, lui et ses alliés gagnent 1 PM (cumulable 1 fois).\n• Lorsqu'un combattant allié meurt, le porteur augmente les dommages finaux de tous les autres de 4% jusqu'à la fin du combat (cumulable 2 fois).\n• Lorsque le porteur occasionne des dommages d'armes, il gagne 25 de Dommages Poussée pendant 2 tours.\n• Les effets sont retirés à la mort du porteur.",
-        "en": "Order of Thunder:\n• As long as the bearer is alive, they and their allies gain 1 MP (stackable 1 time).\n• When an allied fighter dies, the bearer increases the final damage of all others by 4% until the end of the fight (stackable 2 times).\n• When the bearer inflicts weapon damage, they gain 25 Pushback Damage for 2 turns.\n• The effects are removed when the bearer dies.",
-        "pt": "Ordem do Trovão:\n• Enquanto o portador estiver vivo, ele e seus aliados ganham 1 PM (acumula 1 vez).\n• Quando um combatente aliado morre, o portador aumenta os danos finais de todos os outros em 4% até o fim do combate (acumula até 2 vezes).\n• Quando o portador inflige danos de armas, ele ganha 25 de danos de empurrão durante 2 turnos.\n• Os efeitos são retirados quando o portador morre.",
-        "de": "Orden des Donners:\n• Solange der Träger am Leben ist, erhalten er und seine Verbündeten 1 BP (1-mal kumulierbar).\n• Wenn ein verbündeter Kämpfer stirbt, erhöht der Träger den Endschaden aller anderen bis zum Ende des Kampfes um 4 % (2-mal kumulierbar).\n• Wenn der Träger Waffenschaden verursacht, erhält er 2 Runden lang 25 Schubsschaden.\n• Die Effekte werden aufgehoben, wenn der Träger stirbt.",
-        "es": "Orden del Trueno:\n• Mientras el portador esté vivo, él y sus aliados ganan 1 PM (acumulable 1 vez).\n• Cuando muere un luchador aliado, el portador aumenta los daños finales de todos los demás en un 4% hasta el final del combate (acumulable 2 veces).\n• Cuando el portador ocasiona daños con armas, gana 25 de daños de empuje durante 2 turnos.\n• Los efectos se eliminan al morir el portador."
+        "fr": "Ordre du Tonnerre :\n• À chaque fin de tour, le porteur donne 1 PM pendant 1 tour à tous les alliés dans sa ligne de vue (cumulable 1 fois).\n• Lorsqu'un combattant allié meurt, le porteur augmente les dommages finaux de tous les autres de 4% jusqu'à la fin du combat (cumulable 2 fois).\n• Lorsque le porteur occasionne des dommages d'armes, il gagne 25 de Dommages Poussée pendant 2 tours.\n• Les effets sont retirés à la mort du porteur.",
+        "en": "Order of Thunder:\n• At the end of each turn, the bearer gives 1 MP to all allies in their line of sight for 1 turn (stackable 1 time).\n• When an allied fighter dies, the bearer increases the final damage of all others by 4% until the end of the fight (stackable 2 times).\n• When the bearer inflicts weapon damage, they gain 25 Pushback Damage for 2 turns.\n• The effects are removed when the bearer dies.",
+        "pt": "Ordem do Trovão:\n• No fim de cada turno, o portador concede 1 PM durante 1 turno a todos os aliados em sua linha de visão (acumula 1 vez).\n• Quando um combatente aliado morre, o portador aumenta os danos finais de todos os outros em 4% até o fim do combate (acumula até 2 vezes).\n• Quando o portador inflige danos de armas, ele ganha 25 de danos de empurrão durante 2 turnos.\n• Os efeitos são retirados quando o portador morre.",
+        "de": "Orden des Donners:\n• Am Ende jeder Runde gewährt der Träger allen Verbündeten in seiner Sichtlinie 1 Runde lang 1 BP (1-mal kumulierbar).\n• Wenn ein verbündeter Kämpfer stirbt, erhöht der Träger den Endschaden aller anderen bis zum Ende des Kampfes um 4 % (2-mal kumulierbar).\n• Wenn der Träger Waffenschaden verursacht, erhält er 2 Runden lang 25 Schubsschaden.\n• Die Effekte werden aufgehoben, wenn der Träger stirbt.",
+        "es": "Orden del Trueno:\n• Al final de cada turno, el portador da 1 PM durante 1 turno a todos los aliados en su línea de visión (acumulable 1 vez).\n• Cuando muere un luchador aliado, el portador aumenta los daños finales de todos los demás en un 4% hasta el final del combate (acumulable 2 veces).\n• Cuando el portador ocasiona daños con armas, gana 25 de daños de empuje durante 2 turnos.\n• Los efectos se eliminan al morir el portador."
       }
+    }
+  },
+  "Vt": {
+    "id": "Vt",
+    "idDofusDB": 32244,
+    "idDofusBook": 32244,
+    "name": {
+      "fr": "Aiguille de Psikopompe",
+      "en": "Psychopump Needle",
+      "pt": "Agulha do Psikopompo",
+      "de": "Psychopomps' Nadel",
+      "es": "Aguja de Psikopomzopato"
+    },
+    "level": 200,
+    "panoply": "84",
+    "category": "weapon",
+    "subCategory": "lance",
+    "stats": {
+      "vitality": 450,
+      "agility": 40,
+      "wisdom": 30,
+      "power": 40,
+      "range": 1,
+      "damage": 6,
+      "airDamage": 12,
+      "prospecting": 15,
+      "neutralResistPer": 7,
+      "airResistPer": 7,
+      "mpReduction": 6,
+      "criticalResist": 15
+    },
+    "weaponEffect": {
+      "cost": 5,
+      "critChance": 10,
+      "effects": [
+        {
+          "type": "damage",
+          "element": "neutral",
+          "min": 45,
+          "max": 53,
+          "minCrit": 55,
+          "maxCrit": 63
+        },
+        {
+          "type": "steal",
+          "element": "air",
+          "min": 14,
+          "max": 18,
+          "minCrit": 24,
+          "maxCrit": 28
+        },
+        {
+          "type": "other",
+          "element": "mpReduce",
+          "min": -1,
+          "max": 0
+        }
+      ]
     }
   }
 }
