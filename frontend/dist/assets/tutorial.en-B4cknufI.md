@@ -316,7 +316,7 @@ Spells with additional effects usually have a lower base damage and so a higher 
 
 A spell that is a critical has their base damage multiplied by 1.2 in most cases. So the damage/power ratio should be divided by 1.2 if you play a critical build.
 
-Calculating the **Critical Chance weight** is a little bit difficult. It is better to decide beforehand if you want to play Critical, and if so use a Min input instead of Weight or have both a high Weight and a Min input.
+Calculating the **Critical Chance weight** is a little bit difficult. It is better to decide beforehand if you want to play Critical, and if so add a Min input on top of the weight.
 
 ## Defense Weights
 
