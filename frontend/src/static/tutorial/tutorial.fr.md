@@ -330,7 +330,7 @@ Les sorts avec des effets supplémentaires ont en général des dommages de base
 
 Un sort en coup critique voit ses dommages de base multipliés par 1,2 dans la plupart des cas. Le ratio dommages / puissance doit donc être divisé par 1,2 si vous jouez un build Critique.
 
-Calculer le poids du **Taux de coup critique** est un peu plus compliqué. Il est préférable de décider à l’avance si vous voulez jouer Critique, et dans ce cas utiliser un paramètre Min plutôt qu’un poids, ou mettre à la fois un poids élevé et un paramètre Min.
+Calculer le poids du **Taux de coup critique** est un peu plus compliqué. Il est préférable de décider à l’avance si vous voulez jouer Critique, et dans ce cas ajouter un paramètre Min en plus d'un poids élevé.
 
 ## Poids défensifs
 
