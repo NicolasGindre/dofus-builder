@@ -56,13 +56,15 @@
     }
     .tutorial {
         position: fixed;
-        left: 0;
         top: 50px;
+        left: 0;
+        right: 0;
+        bottom: 0;
 
-        width: 100%;
-        height: calc(100vh - 50px);
+        /* width: 100%; */
+        /* height: calc(100vh - 50px); */
 
-        overflow: scroll;
+        overflow-y: auto;
         overscroll-behavior-y: contain;
 
         z-index: 100000;

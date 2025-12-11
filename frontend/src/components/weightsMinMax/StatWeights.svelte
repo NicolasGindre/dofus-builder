@@ -135,7 +135,10 @@
     function incrementMinStat(statKey: StatKey, increment: number) {
         let newIndex = increment;
         if (!$minStatsIndex[statKey]) {
-            newIndex = defaultMaxIndex[statKey] ?? 31;
+            if (!$weightsIndex[statKey]) {
+                incrementWeight(statKey, 1);
+            }
+            newIndex = defaultMaxIndex[statKey] ?? 20;
         } else {
             newIndex += $minStatsIndex[statKey];
             if (newIndex == 0) {
@@ -232,20 +235,24 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, 1, incrementWeight)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, 1, incrementWeight)}
-                                    on:touchend={stopHold}>▲</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, 1, incrementWeight);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, -1, incrementWeight)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, -1, incrementWeight)}
-                                    on:touchend={stopHold}>▼</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, -1, incrementWeight);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▼</button
                                 >
                             </div>
                         </div>
@@ -288,20 +295,24 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, 1, incrementMinStat)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, 1, incrementMinStat)}
-                                    on:touchend={stopHold}>▲</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, 1, incrementMinStat);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, -1, incrementMinStat)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, -1, incrementMinStat)}
-                                    on:touchend={stopHold}>▼</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, -1, incrementMinStat);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▼</button
                                 >
                             </div>
                         </div>
@@ -344,20 +355,24 @@
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, 1, incrementMaxStat)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, 1, incrementMaxStat)}
-                                    on:touchend={stopHold}>▲</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, 1, incrementMaxStat);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▲</button
                                 >
                                 <button
                                     tabindex="-1"
                                     class="btn"
-                                    on:mousedown={() => startHold(statKey, -1, incrementMaxStat)}
-                                    on:mouseup={stopHold}
-                                    on:mouseleave={stopHold}
-                                    on:touchstart={() => startHold(statKey, -1, incrementMaxStat)}
-                                    on:touchend={stopHold}>▼</button
+                                    on:pointerdown={(event) => {
+                                        event.preventDefault();
+                                        startHold(statKey, -1, incrementMaxStat);
+                                    }}
+                                    on:pointerup={stopHold}
+                                    on:pointerleave={stopHold}
+                                    on:pointercancel={stopHold}>▼</button
                                 >
                             </div>
                         </div>
