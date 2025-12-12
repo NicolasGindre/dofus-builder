@@ -14792,6 +14792,18 @@
       "mpResist": 20,
       "meleeResistPer": -5
     },
+    "weaponEffect": {
+      "cost": 3,
+      "critChance": 0,
+      "effects": [
+        {
+          "type": "steal",
+          "element": "bestElem",
+          "min": 30,
+          "max": 0
+        }
+      ]
+    },
     "specialEffect": {
       "name": {
         "fr": "Destin Fatidique",
@@ -31279,6 +31291,14 @@
           "min": 44,
           "max": 0,
           "minCrit": 48,
+          "maxCrit": 0
+        },
+        {
+          "type": "steal",
+          "element": "bestElem",
+          "min": 8,
+          "max": 0,
+          "minCrit": 12,
           "maxCrit": 0
         },
         {

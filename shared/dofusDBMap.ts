@@ -27,6 +27,7 @@ export const ELEMENT_ID_DOFUSDB: Record<number, [Element, EffectType]> = {
     92: ["earth", "steal"],
     91: ["water", "steal"],
     93: ["air", "steal"],
+    2828: ["bestElem", "steal"],
 
     108: ["fire", "heal"],
 

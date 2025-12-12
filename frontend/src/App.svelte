@@ -55,14 +55,16 @@
 <TopBar />
 <main>
     <div class="section">
-        <img
-            class="icon"
-            src="favicon/apple-touch-icon.png"
-            alt=""
-            width="60"
-            height="60"
-            loading="lazy"
-        />
+        <a href="dofusminmax.fr">
+            <img
+                class="icon"
+                src="favicon/apple-touch-icon.png"
+                alt=""
+                width="60"
+                height="60"
+                loading="lazy"
+            />
+        </a>
         <h1>Dofus MinMax</h1>
         {#if error}
             <p style="color: red;">{error}</p>
@@ -76,6 +78,9 @@
 </main>
 
 <style>
+    .section a {
+        line-height: 0;
+    }
     .section {
         display: flex;
         align-items: center;

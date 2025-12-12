@@ -24,7 +24,7 @@ import { buildsFromIds } from "./build";
 import type { Mode } from "../workers/orchestrator";
 
 let init = false;
-const itemsVersionDisplayed = "v3.4.1.1";
+const itemsVersionDisplayed = "v3.4.8.7";
 const itemsVersion = itemsVersionDisplayed + ".1";
 
 // let last = performance.now();
