@@ -175,6 +175,7 @@ export function createCombinationOrchestrator(): Orchestrator {
         const partialResults: Build[][] = Array.from({ length: partitionPayload.length }, () => []);
         const partialBuildsProcessed: number[] = Array(partitionPayload.length).fill(0);
         let partitionIndex: number = 0;
+        let working: number = 0;
 
         return new Promise<any>((res, rej) => {
             resolve = res;
@@ -204,6 +205,7 @@ export function createCombinationOrchestrator(): Orchestrator {
                     }
                     if (msg?.type === "done") {
                         // console.log("saving index result", msg.partitionIndex);
+                        working--;
                         partialResults[msg.partitionIndex] = msg.value ?? [];
 
                         if (partitionIndex < partitionPayload.length) {
@@ -213,9 +215,11 @@ export function createCombinationOrchestrator(): Orchestrator {
                                 partitionIndex: partitionIndex,
                             });
                             partitionIndex++;
+                            working++;
                             // console.log("starting index", partitionIndex);
                         }
-                        if (msg.partitionIndex === partitionPayload.length - 1) {
+                        // if (msg.partitionIndex === partitionPayload.length - 1) {
+                        if (working <= 0) {
                             // merge top-K from all workers
                             const merged = ([] as Build[]).concat(...partialResults);
                             merged.sort((a, b) => (b.value ?? 0) - (a.value ?? 0));
@@ -239,6 +243,7 @@ export function createCombinationOrchestrator(): Orchestrator {
                     partitionIndex: partitionIndex,
                 });
                 partitionIndex++;
+                working++;
             }
         });
     }
