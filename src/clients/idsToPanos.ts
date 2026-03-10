@@ -4,32 +4,32 @@ import type { Requirement } from "../../shared/types/item";
 import type { PanoMap } from "./dofusDB";
 
 await itemDB.loadItemsAndPanos();
-let dofusMinMaxId = "Z";
+// let dofusMinMaxId = "Z";
 
 let panoplies = Object.values(itemDB.panoplies);
 
 panoplies = panoplies.sort((a, b) => {
     if (a.level !== b.level) return a.level - b.level;
-    return a.name.fr.localeCompare(b.name.fr);
+    return a.id.localeCompare(b.id);
 });
 
 let panopliesIdMap: PanoMap = {};
 let panopliesNameMap: PanoMap = {};
 
 for (const pano of panoplies) {
-    dofusMinMaxId = nextValue(dofusMinMaxId);
+    // dofusMinMaxId = nextValue(dofusMinMaxId);
     panopliesIdMap[pano.idDofusDB] = {
-        id: dofusMinMaxId,
+        id: pano.id,
         name: pano.name.fr,
         level: pano.level,
         dofusDBId: pano.idDofusDB,
     };
-    panopliesNameMap[pano.name.fr] = {
-        id: dofusMinMaxId,
-        name: pano.name.fr,
-        level: pano.level,
-        dofusDBId: pano.idDofusDB,
-    };
+    // panopliesNameMap[pano.name.fr] = {
+    //     id: dofusMinMaxId,
+    //     name: pano.name.fr,
+    //     level: pano.level,
+    //     dofusDBId: pano.idDofusDB,
+    // };
     if (pano.name.fr == "Malédiction de Cire Momore") {
         const req: Requirement[][][] = [
             [],
@@ -60,13 +60,13 @@ for (const pano of panoplies) {
             ],
         ];
         panopliesIdMap[pano.idDofusDB]!.requirements = req;
-        panopliesNameMap[pano.name.fr]!.requirements = req;
+        // panopliesNameMap[pano.name.fr]!.requirements = req;
     }
 }
 
 const dbPath = "./src/db/data";
 await Bun.write(`${dbPath}/dofusBookMap/panoIdMap.json`, JSON.stringify(panopliesIdMap, null, 2));
-await Bun.write(
-    `${dbPath}/dofusBookMap/panoNameMap.json`,
-    JSON.stringify(panopliesNameMap, null, 2),
-);
+// await Bun.write(
+//     `${dbPath}/dofusBookMap/panoNameMap.json`,
+//     JSON.stringify(panopliesNameMap, null, 2),
+// );

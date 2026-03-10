@@ -8993,5 +8993,208 @@
       "airResistPer": 2,
       "apResist": -15
     }
+  },
+  "VV": {
+    "id": "VV",
+    "idDofusDB": 33559,
+    "idDofusBook": 33559,
+    "name": {
+      "fr": "Mitaine des Scalarcin",
+      "en": "Scalarcin Glove",
+      "pt": "Luvas dos Scafurtado",
+      "de": "Handschuh der Scalarcin",
+      "es": "Mitón de los Scarratero"
+    },
+    "level": 51,
+    "panoply": "8a",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "chance": 20,
+      "power": 20,
+      "criticalChance": 4,
+      "neutralDamage": 2,
+      "waterDamage": 2
+    }
+  },
+  "VZ": {
+    "id": "VZ",
+    "idDofusDB": 33563,
+    "idDofusBook": 33563,
+    "name": {
+      "fr": "Bracelet de Marzwel",
+      "en": "Marzwel Bracelet",
+      "pt": "Bracelete de Marzwel",
+      "de": "Marzwel-Armband",
+      "es": "Brazalete de Marzwelo"
+    },
+    "level": 64,
+    "panoply": "8b",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "intelligence": 25,
+      "agility": 25,
+      "prospecting": 5,
+      "mpReduction": 4,
+      "criticalResist": 10
+    }
+  },
+  "W1": {
+    "id": "W1",
+    "idDofusDB": 33566,
+    "idDofusBook": 33566,
+    "name": {
+      "fr": "Anneau de Qil Bil",
+      "en": "Qil Bil Ring",
+      "pt": "Anel de Qil Bil",
+      "de": "Ring von Qil Bil",
+      "es": "Anillo de Qil Bil"
+    },
+    "level": 75,
+    "panoply": "8c",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 50,
+      "power": 20,
+      "criticalChance": 4,
+      "summon": 1,
+      "pushbackDamage": 10
+    }
+  },
+  "W5": {
+    "id": "W5",
+    "idDofusDB": 33570,
+    "idDofusBook": 33570,
+    "name": {
+      "fr": "Gant de Tyranne",
+      "en": "Tyranna Glove",
+      "pt": "Luvas de Tyrana",
+      "de": "Handschuh von Tyrana",
+      "es": "Guante de Tirana"
+    },
+    "level": 85,
+    "panoply": "8d",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 60,
+      "strength": 40,
+      "summon": 1,
+      "prospecting": 10,
+      "waterResistPer": 4,
+      "pushbackDamage": 10
+    }
+  },
+  "W7": {
+    "id": "W7",
+    "idDofusDB": 33571,
+    "idDofusBook": 33571,
+    "name": {
+      "fr": "Bague des Scalptaras",
+      "en": "Scalptaras Ring",
+      "pt": "Anel dos Scalptaras",
+      "de": "Ring der Scalptaras",
+      "es": "Anillo de los Scalptaras"
+    },
+    "level": 82,
+    "panoply": "8e",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 60,
+      "strength": 20,
+      "intelligence": 20,
+      "chance": 20,
+      "wisdom": 10,
+      "earthResistPer": 4,
+      "apReduction": 4
+    }
+  },
+  "VJ": {
+    "id": "VJ",
+    "idDofusDB": 33579,
+    "idDofusBook": 33579,
+    "name": {
+      "fr": "Patte de Simbadas",
+      "en": "Simbadas Paw",
+      "pt": "Pata de Simbadas",
+      "de": "Tatze von Simbadas",
+      "es": "Pata de Simbadás"
+    },
+    "level": 96,
+    "panoply": "86",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 40,
+      "wisdom": 15,
+      "criticalChance": 6,
+      "summon": 1,
+      "neutralResistPer": 4,
+      "criticalDamage": 15,
+      "pushbackResist": -20
+    }
+  },
+  "VS": {
+    "id": "VS",
+    "idDofusDB": 33603,
+    "idDofusBook": 33603,
+    "name": {
+      "fr": "Anneau Debruk'Sayl",
+      "en": "Ptidoop Ring",
+      "pt": "Anel Shushu Rasco",
+      "de": "Ring von Shushu Nakol",
+      "es": "Any'oldbru'Selas"
+    },
+    "level": 187,
+    "panoply": "89",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 200,
+      "strength": 60,
+      "agility": 60,
+      "wisdom": 25,
+      "criticalChance": 2,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "airDamage": 10,
+      "fireResistPer": 3,
+      "waterResistPer": 3,
+      "airResistPer": 3,
+      "dodge": -10,
+      "apReduction": 4,
+      "apResist": 4
+    }
+  },
+  "Wb": {
+    "id": "Wb",
+    "idDofusDB": 33605,
+    "idDofusBook": 33605,
+    "name": {
+      "fr": "Bracelet de Predagob",
+      "en": "Predagob Bracelet",
+      "pt": "Bracelete de Predagob",
+      "de": "Armband von Predagob",
+      "es": "Brazalete de Predagob"
+    },
+    "level": 192,
+    "panoply": "8f",
+    "category": "ring",
+    "subCategory": "ring",
+    "stats": {
+      "vitality": 250,
+      "chance": 50,
+      "agility": 50,
+      "wisdom": 40,
+      "waterDamage": 8,
+      "airDamage": 8,
+      "prospecting": 15,
+      "earthResistPer": 10,
+      "dodge": 6,
+      "pushbackDamage": 10
+    }
   }
 }

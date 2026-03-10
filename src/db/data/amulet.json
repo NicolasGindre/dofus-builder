@@ -8261,5 +8261,147 @@
       "waterDamage": 10,
       "criticalResist": 30
     }
+  },
+  "VK": {
+    "id": "VK",
+    "idDofusDB": 33577,
+    "idDofusBook": 33577,
+    "name": {
+      "fr": "Cage de Simbadas",
+      "en": "Simbadas Cage",
+      "pt": "Gaiola de Simbadas",
+      "de": "Käfig von Simbadas",
+      "es": "Jaula de Simbadás"
+    },
+    "level": 92,
+    "panoply": "86",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 50,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "ap": 1,
+      "summon": 1,
+      "neutralResistPer": 4,
+      "criticalDamage": 15
+    }
+  },
+  "VN": {
+    "id": "VN",
+    "idDofusDB": 33580,
+    "idDofusBook": 33580,
+    "name": {
+      "fr": "Porte-bonheur de Rok Gnorok",
+      "en": "Rok Gnorok Lucky Charm",
+      "pt": "Amuleto da Sorte de Rok Gnorok",
+      "de": "Glücksbringer von Rok Gnorok",
+      "es": "Amuleto de Rok Gnorok"
+    },
+    "level": 94,
+    "panoply": "87",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 90,
+      "intelligence": 40,
+      "agility": 40,
+      "wisdom": 20,
+      "ap": 1,
+      "prospecting": 10,
+      "earthResistPer": 5,
+      "waterResistPer": 5,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  "VQ": {
+    "id": "VQ",
+    "idDofusDB": 33587,
+    "idDofusBook": 33587,
+    "name": {
+      "fr": "Collier de Naganita",
+      "en": "Naganita Necklace",
+      "pt": "Colar de Naganita",
+      "de": "Halskette von Naganita",
+      "es": "Collar de Naganita"
+    },
+    "level": 107,
+    "panoply": "88",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 130,
+      "chance": 40,
+      "wisdom": 25,
+      "ap": 1,
+      "waterDamage": 8,
+      "heal": 4,
+      "prospecting": 10,
+      "airResistPer": 5,
+      "lock": 4
+    }
+  },
+  "VT": {
+    "id": "VT",
+    "idDofusDB": 33602,
+    "idDofusBook": 33602,
+    "name": {
+      "fr": "Collier Debruk'Sayl",
+      "en": "Ptidoop Collar",
+      "pt": "Colar Shushu Rasco",
+      "de": "Halskette von Shushu Nakol",
+      "es": "Colla'rdbru'Selas"
+    },
+    "level": 185,
+    "panoply": "89",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 300,
+      "strength": 60,
+      "intelligence": 60,
+      "wisdom": 30,
+      "criticalChance": 3,
+      "ap": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "fireDamage": 10,
+      "prospecting": 10,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "lock": 4,
+      "dodge": -5,
+      "apReduction": 4
+    }
+  },
+  "VG": {
+    "id": "VG",
+    "idDofusDB": 33608,
+    "idDofusBook": 33608,
+    "name": {
+      "fr": "Col du Ventrublion",
+      "en": "Potbellion Collar",
+      "pt": "Gola do Pancerigoso",
+      "de": "Kragen von Störfridick",
+      "es": "Cuello de barrilicoso"
+    },
+    "level": 200,
+    "panoply": "85",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 500,
+      "intelligence": 40,
+      "wisdom": 50,
+      "power": 50,
+      "ap": 1,
+      "earthResistPer": 12,
+      "airResistPer": 12,
+      "pushbackDamage": 40,
+      "pushbackResist": -40
+    }
   }
 }

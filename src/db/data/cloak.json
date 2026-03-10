@@ -7703,5 +7703,136 @@
       "criticalDamage": 30,
       "criticalResist": -30
     }
+  },
+  "Wd": {
+    "id": "Wd",
+    "idDofusDB": 33575,
+    "idDofusBook": 33575,
+    "name": {
+      "fr": "Voile de Musha",
+      "en": "Musha Veil",
+      "pt": "Véu de Musha",
+      "de": "Schleier von Musha",
+      "es": "Velo de Musha"
+    },
+    "level": 85,
+    "panoply": "8g",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 70,
+      "wisdom": 15,
+      "criticalChance": -10,
+      "damage": 10,
+      "prospecting": 10,
+      "fireResistPer": 5,
+      "waterResistPer": 5,
+      "dodge": 6
+    }
+  },
+  "VP": {
+    "id": "VP",
+    "idDofusDB": 33586,
+    "idDofusBook": 33586,
+    "name": {
+      "fr": "Cape de Naganita",
+      "en": "Naganita Cape",
+      "pt": "Capa de Naganita",
+      "de": "Umhang von Naganita",
+      "es": "Capa de Naganita"
+    },
+    "level": 105,
+    "panoply": "88",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 120,
+      "chance": 50,
+      "wisdom": 20,
+      "criticalChance": 5,
+      "waterDamage": 8,
+      "heal": 8,
+      "prospecting": 15,
+      "airResistPer": 6,
+      "lock": 4
+    }
+  },
+  "VR": {
+    "id": "VR",
+    "idDofusDB": 33601,
+    "idDofusBook": 33601,
+    "name": {
+      "fr": "Cape Debruk'Sayl",
+      "en": "Ptidoop Cape",
+      "pt": "Capa Shushu Rasco",
+      "de": "Umhang von Shushu Nakol",
+      "es": "Capbru'Selas"
+    },
+    "level": 183,
+    "panoply": "89",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 300,
+      "intelligence": 60,
+      "agility": 60,
+      "wisdom": 40,
+      "criticalChance": 4,
+      "summon": 1,
+      "fireDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "airResistPer": 5,
+      "lock": 4,
+      "dodge": -5,
+      "apResist": 4
+    }
+  },
+  "Wr": {
+    "id": "Wr",
+    "idDofusDB": 34254,
+    "idDofusBook": 34254,
+    "name": {
+      "fr": "Capomuldo",
+      "en": "Seemyool Cloak",
+      "pt": "Caparmula",
+      "de": "Quaggaumhang",
+      "es": "Capulagua"
+    },
+    "level": 55,
+    "panoply": "8l",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 40,
+      "wisdom": 20,
+      "earthResistPer": 4,
+      "waterResistPer": 4
+    }
+  },
+  "Wv": {
+    "id": "Wv",
+    "idDofusDB": 34256,
+    "idDofusBook": 34256,
+    "name": {
+      "fr": "Capovolko",
+      "en": "Rhineetle Cloak",
+      "pt": "Capokórnio",
+      "de": "Naskumhang",
+      "es": "Capiceronte"
+    },
+    "level": 60,
+    "panoply": "8m",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 30,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "agility": 30
+    }
   }
 }

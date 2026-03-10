@@ -5507,10 +5507,10 @@
     "idDofusDB": 13643,
     "idDofusBook": 13643,
     "name": {
-      "fr": "Getas de Padgref",
+      "fr": "Geta de Padgref",
       "en": "Nomarow's Getas",
-      "pt": "Getas de Nondome",
-      "de": "Getas des Knöchernen Marks",
+      "pt": "Geta de Nondome",
+      "de": "Geta des Knöchernen Marks",
       "es": "Getas de Noai Aludem"
     },
     "level": 196,
@@ -9322,6 +9322,129 @@
       "mp": 1,
       "summon": 1,
       "prospecting": 10
+    }
+  },
+  "VU": {
+    "id": "VU",
+    "idDofusDB": 33560,
+    "idDofusBook": 33560,
+    "name": {
+      "fr": "Chaussettes des Scalarcin",
+      "en": "Scalarcin Socks",
+      "pt": "Meias dos Scafurtado",
+      "de": "Socken der Scalarcin",
+      "es": "Calcetines de los Scarratero"
+    },
+    "level": 53,
+    "panoply": "8a",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "agility": 20,
+      "power": 20,
+      "criticalChance": 4,
+      "mp": 1,
+      "neutralDamage": 2,
+      "airDamage": 2
+    }
+  },
+  "W6": {
+    "id": "W6",
+    "idDofusDB": 33573,
+    "idDofusBook": 33573,
+    "name": {
+      "fr": "Bottines des Scalptaras",
+      "en": "Scalptaras Boots",
+      "pt": "Botinas dos Scalptaras",
+      "de": "Stiefeletten der Scalptaras",
+      "es": "Botines de los Scalptaras"
+    },
+    "level": 86,
+    "panoply": "8e",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 60,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "mp": 1,
+      "prospecting": 10,
+      "initiative": 200,
+      "waterResistPer": 4
+    }
+  },
+  "Wp": {
+    "id": "Wp",
+    "idDofusDB": 33599,
+    "idDofusBook": 33599,
+    "name": {
+      "fr": "Geta de Fojumo",
+      "en": "Buddy Dubble Getas",
+      "pt": "Getas de Dizigoto",
+      "de": "Geta von Dizigota",
+      "es": "Geta de Gemalo"
+    },
+    "level": 144,
+    "panoply": "8k",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 200,
+      "agility": 60,
+      "wisdom": 30,
+      "mp": 1,
+      "airDamage": 10,
+      "prospecting": 25,
+      "initiative": 150,
+      "fireResistPer": 7,
+      "lock": 5,
+      "dodge": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Wt": {
+    "id": "Wt",
+    "idDofusDB": 34253,
+    "idDofusBook": 34253,
+    "name": {
+      "fr": "Botomuldo",
+      "en": "Seemyool Boots",
+      "pt": "Botamarmula",
+      "de": "Quaggastiefel",
+      "es": "Mulaguatines"
+    },
+    "level": 55,
+    "panoply": "8l",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 20,
+      "mp": 1,
+      "fireResistPer": 4,
+      "airResistPer": 4
+    }
+  },
+  "Ww": {
+    "id": "Ww",
+    "idDofusDB": 34255,
+    "idDofusBook": 34255,
+    "name": {
+      "fr": "Botovolko",
+      "en": "Rhineetle Boots",
+      "pt": "Botakórnio",
+      "de": "Naskstiefel",
+      "es": "Boticeronte"
+    },
+    "level": 60,
+    "panoply": "8m",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 30,
+      "ap": 1,
+      "mp": -1
     }
   }
 }

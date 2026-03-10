@@ -13,7 +13,7 @@
         <!-- <span>{$dofusVersion}</span> -->
         <a
             class="discord-link"
-            href="https://discord.gg/ZMmm3mnB"
+            href="https://discord.gg/e2EHKdJJn8"
             target="_blank"
             rel="noopener noreferrer"
         >

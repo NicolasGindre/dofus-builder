@@ -55,7 +55,7 @@
 <TopBar />
 <main>
     <div class="section">
-        <a href="dofusminmax.fr">
+        <a href="/">
             <img
                 class="icon"
                 src="favicon/apple-touch-icon.png"

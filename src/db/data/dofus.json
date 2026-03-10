@@ -59,11 +59,11 @@
         "es": "Verde Esmeralda"
       },
       "description": {
-        "fr": "Vert Émeraude :\n• Lorsque le porteur termine son tour, il gagne 100% de son niveau en bouclier pendant 1 tour pour chaque combattant ennemi à son contact.",
-        "en": "Emerald Green:\n• At the end of their turn, the bearer gains 100% of their level as shield for 1 turn for each adjacent enemy fighter.",
-        "pt": "Verde-esmeralda:\n• Quando o portador termina seu turno, ele ganha 100% de seu nível em escudo durante 1 turno por combatente inimigo em contato com ele.",
-        "de": "Smaragdgrün:\n• Am Rundenende erhält der Träger 1 Runde lang für jeden Gegner in Nahkampfentfernung 100 % seiner Stufe als Schildpunkte.",
-        "es": "Verde Esmeralda:\n• Cuando el portador termina su turno, gana un 100% de su nivel en escudo durante 1 turno por cada luchador enemigo en contacto con él."
+        "fr": "Vert Émeraude :\n• Lorsque le porteur termine son tour, il gagne 100% de son niveau en bouclier pendant 1 tour pour chaque ennemi à son contact. Les effets sont réduits de moitié si l'ennemi est une invocation.",
+        "en": "Emerald Green:\n• At the end of their turn, the bearer gains 100% of their level as shield for 1 turn for each adjacent enemy fighter. The effects are halved if the enemy is a summons.",
+        "pt": "Verde-esmeralda:\n• Quando o portador termina seu turno, ele ganha 100% de seu nível em escudo durante 1 turno por inimigo em contato com ele. Os efeitos são reduzidos pela metade se o inimigo for uma invocação.",
+        "de": "Smaragdgrün:\n• Am Rundenende erhält der Träger 1 Runde lang für jeden Gegner in Nahkampfentfernung 100 % seiner Stufe als Schildpunkte. Handelt es sich beim Gegner um eine Beschwörung, werden die Wirkungen um die Hälfte verringert.",
+        "es": "Verde Esmeralda:\n• Cuando el portador termina su turno, gana un 100% de su nivel en escudo durante 1 turno por cada enemigo en contacto con él. Los efectos se reducen a la mitad si el enemigo es una invocación."
       }
     }
   },
@@ -217,11 +217,11 @@
         "es": "Armonía de Pandala"
       },
       "description": {
-        "fr": "Harmonie de Pandala :\n• Lorsque le porteur occasionne des dommages durant son tour de jeu, lui et ses alliés porteurs du {{item,23408::Dorigami}} gagnent 20 de Dommages pendant 1 tour.\n• S'il n'occasionne aucun dommages, lui et ses alliés porteurs du {{item,23237::Domakuro}} gagnent 150% du niveau du porteur en bouclier pendant 1 tour.",
-        "en": "Harmony of Pandala:\n• When the bearer inflicts damage during their turn, they and their allies carrying the {{item,23408::Dorigami}} gain 20 Damage for 1 turn.\n• If the bearer does not inflict damage, they and their allies carrying the {{item,23237::Domakuro}} gain 150% of the bearer's level as shield for 1 turn.",
-        "pt": "Harmonia de Pandala:\n• Quando o portador causa dano durante seu turno de jogo, ele e seus aliados que estiverem portando o {{item,23408::Dorigami}} ganham 20 de danos por 1 turno.\n• Se não infligir danos, ele e seus aliados portadores do {{item,23237::Domakuro}} ganharão 150% do nível do portador em escudo durante 1 turno.",
-        "de": "Harmonie von Pandala:\n• Wenn der Träger während seiner Runde Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23408::Dorigami}} bei sich tragen, 1 Runde lang 20 Schaden.\n• Wenn er keinen Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23237::Domakuro}} bei sich tragen, 1 Runde lang 150 % der Stufe des Trägers als Schild.",
-        "es": "Armonía de Pandala:\n• Cuando el portador ocasiona daños durante su turno, él y sus aliados portadores del {{item,23408::dorigami}} ganan 20 de daño durante 1 turno.\n• Si no ocasiona daños, él y sus aliados portadores del {{item,23237::domakuro}} ganan un 150% del nivel del portador en escudo durante 1 turno."
+        "fr": "Harmonie de Pandala :\n• Lorsque le porteur occasionne des dommages durant son tour de jeu, lui et ses alliés porteurs du {{item,23408::Dorigami}} gagnent 20 de Dommages pendant 1 tour (cumulable 1 fois).\n• S'il n'en occasionne pas, lui et ses alliés porteurs du {{item,23237::Domakuro}} gagnent 150% de son niveau en bouclier pendant 1 tour.",
+        "en": "Harmony of Pandala:\n• When the bearer inflicts damage during their turn, they and their allies carrying the {{item,23408::Dorigami}} gain 20 Damage for 1 turn (stackable 1 time).\n• If the bearer does not inflict damage, they and their allies carrying the {{item,23237::Domakuro}} gain 150% of the bearer's level as shield for 1 turn.",
+        "pt": "Harmonia de Pandala:\n• Quando o portador causa dano durante seu turno de jogo, ele e seus aliados que estiverem portando o {{item,23408::Dorigami}} ganham 20 de danos por 1 turno (acumula 1 vez).\n• Se não causar dano, ele e seus aliados portadores do {{item,23237::Domakuro}} ganharão 150% de seu nível em escudo durante 1 turno.",
+        "de": "Harmonie von Pandala:\n• Wenn der Träger während seiner Runde Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23408::Dorigami}} bei sich tragen, 1 Runde lang 20 Schaden (1-mal kumulierbar).\n• Wenn er keinen Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23237::Domakuro}} bei sich tragen, 1 Runde lang 150 % seiner Stufe als Schild.",
+        "es": "Armonía de Pandala:\n• Cuando el portador ocasiona daños durante su turno, él y sus aliados portadores del {{item,23408::dorigami}} ganan 20 de daño durante 1 turno (acumulable 1 vez).\n• Si no ocasiona daños, gana, al igual que sus aliados portadores del {{item,23237::domakuro}}, el 150% de su nivel en escudo durante 1 turno."
       }
     }
   },
@@ -269,11 +269,11 @@
         "es": "Negro Ébano"
       },
       "description": {
-        "fr": "Noir Ébène :\n• Lorsque le porteur attaque en mêlée durant son tour, il gagne 1% de dommages à distance pendant 3 tours (cumulable 10 fois).\n• Lorsqu'il attaque à distance, il gagne 1% de dommages en mêlée pendant 3 tours (cumulable 10 fois).\n• Déclencher les 2 effets dans le tour permet à la prochaine attaque d'appliquer un poison de 16 dans son élément pendant 2 tours (cumulable 2 fois, une fois tous les 2 tours).",
-        "en": "Ebony Black:\n• When the bearer attacks in close combat during their turn, they gain 1% ranged damage for 3 turns (stackable 10 times).\n• When they attack from long range, they gain 1% close-combat damage for 3 turns (stackable 10 times).\n• Triggering both effects during the turn allows the next attack to apply a 16 poison in its element for 2 turns (stackable 2 times, once every 2 turns).",
-        "pt": "Negro Ébano:\n• Quando o portador efetua um ataque no corpo a corpo durante seu turno, ele recebe 1% de danos a distância por 3 turnos (acumula 10 vezes).\n• Quando ataca a distância, ele ganha 1% de danos no corpo a corpo durante 3 turnos (acumula 10 vezes).\n• Acionar os 2 efeitos em um turno permite que o próximo ataque aplique um veneno de 16 em seu elemento durante 2 turnos (acumula 2 vezes, uma vez a cada 2 turnos).",
-        "de": "Ebenholzschwarz:\n• Wenn der Träger während seiner Runde einen Nahkampfangriff ausführt, erhöht sich sein Fernkampfschaden 3 Runden lang um 1 % (10-mal kumulierbar).\n• Wenn er einen Fernkampfangriff ausführt, erhöht sich sein Nahkampfschaden 3 Runden lang um 1 % (10-mal kumulierbar).\n• Werden beide Wirkungen in derselben Runde ausgelöst, kann der Träger beim nächsten Angriff ein Gift anwenden, das 2 Runden lang 16 Schaden in seinem Element verursacht (2-mal kumulierbar, einmal alle 2 Runden).",
-        "es": "Negro Ébano:\n• Cuando el portador ataca en cuerpo a cuerpo durante su turno, gana un 1% de daños a distancia durante 3 turnos (acumulable 10 veces).\n• Cuando ataca a distancia, gana un 1% de daños en cuerpo a cuerpo durante 3 turnos (acumulable 10 veces).\n• Activar los 2 efectos en el turno permite aplicar en el siguiente ataque un veneno de 16 con su elemento durante 2 turnos (acumulable 2 veces, una vez cada 2 turnos)."
+        "fr": "Noir Ébène :\n• Lorsque le porteur attaque en mêlée durant son tour, il gagne 2% de dommages à distance, et s'il attaque à distance, il gagne 2% de dommages en mêlée pendant 3 tours (cumulable 5 fois).\n• Déclencher les 2 effets dans le tour permet à la prochaine attaque d'appliquer un poison de 16 dans son élément pendant 2 tours (cumulable 2 fois).\n• Le temps de relance du poison est de 2 tours, mais peut être réinitialisé si la cible est achevée.",
+        "en": "Ebony Black:\n• When the bearer attacks in close combat during their turn, they gain 2% ranged damage, and if they attack from range, they gain 2% close-combat damage, for 3 turns (stackable 5 times).\n• Triggering both effects during the turn allows the next attack to apply a 16 poison in its element for 2 turns (stackable 2 times).\n• The poison's cooldown period is 2 turns but can be reset if the target is killed.",
+        "pt": "Negro Ébano:\n• Quando o portador efetua um ataque corpo a corpo durante seu turno, ele recebe 2% de danos à distância, e, quando ataca à distância, ele recebe 2% de danos corpo a corpo durante 3 turnos (acumula 5 vezes).\n• Acionar os 2 efeitos em um turno permite que o próximo ataque aplique um veneno de 16 em seu elemento durante 2 turnos (acumula 2 vezes).\n• O intervalo de relançamento do veneno é de 2 turnos, mas pode ser reinicializado se o alvo for derrotado.",
+        "de": "Ebenholzschwarz:\n• Wenn der Träger während seiner Runde einen Nahkampfangriff ausführt, erhöht sich sein Fernkampfschaden 3 Runden lang um 2 %, und wenn er einen Fernkampfangriff ausführt, erhöht sich sein Nahkampfschaden 3 Runden lang um 2 % (5-mal kumulierbar).\n• Werden beide Wirkungen in derselben Runde ausgelöst, kann der Träger beim nächsten Angriff ein Gift anwenden, das 2 Runden lang 16 Schaden in seinem Element verursacht (2-mal kumulierbar).\n• Die Abklingzeit des Gifts beträgt 2 Runden, sie kann aber zurückgesetzt werden, wenn das Ziel besiegt wird.",
+        "es": "Negro Ébano:\n• El portador gana un 2% de daños a distancia si ataca en cuerpo a cuerpo durante su turno y un 2% de daños en cuerpo a cuerpo durante 3 turnos si ataca a distancia (acumulable 5 veces).\n• Activar los 2 efectos en el turno permite que el siguiente ataque aplique un veneno de 16 con su elemento durante 2 turnos (acumulable 2 veces).\n• El tiempo de espera del veneno es de 2 turnos, pero puede reiniciarse si se acaba con el objetivo."
       }
     }
   },
@@ -391,11 +391,11 @@
         "es": "Sueño Nebuloso"
       },
       "description": {
-        "fr": "Rêve Nébuleux :\n• Les tours impairs, le porteur gagne 20% de dommages finaux mais perd 10% de soins finaux.\n• Les tours pairs, il gagne 20% de soins finaux mais perd 10% de dommages finaux.",
-        "en": "Nebulous Dream:\n• On odd turns, the bearer gains 20% final damage but loses 10% final healing.\n• On even turns, the bearer gains 20% final healing but loses 10% final damage.",
-        "pt": "Sonho Nebuloso:\n• Nos turnos ímpares, o portador ganha 20% de danos finais, mas perde 10% de curas finais.\n• Nos turnos pares, ele ganha 20% de curas finais, mas perde 10% de danos finais.",
-        "de": "Nebulöser Traum:\n• In ungeraden Runden erhält der Träger 20 % Endschaden zusätzlich, dafür reduziert sich seine Endheilung um 10 %.\n• In geraden Runden erhält er 20 % Endheilung zusätzlich, dafür reduziert sich sein Endschaden um 10 %.",
-        "es": "Sueño Nebuloso:\n• Los turnos impares el portador gana un 20% de daños finales pero pierde un 10% de curas finales.\n• Los turnos pares gana un 20% de curas finales pero pierde un 10% de daños finales."
+        "fr": "Rêve Nébuleux :\n• Les tours impairs, le porteur sacrifie 10% de soins finaux pour gagner 20% de dommages finaux.\n• Les tours pairs, il sacrifie 10% de dommages finaux pour gagner 20% de soins finaux.",
+        "en": "Nebulous Dream:\n• On odd turns, the bearer sacrifices 10% final healing to gain 20% final damage.\n• On even turns, the bearer sacrifices 10% final damage to gain 20% final healing.",
+        "pt": "Sonho Nebuloso:\n• Nos turnos ímpares, o portador sacrifica 10% de curas finais para ganhar 20% de danos finais.\n• Nos turnos pares, ele sacrifica 10% de danos finais para ganhar 20% de curas finais.",
+        "de": "Nebulöser Traum:\n• In ungeraden Runden opfert der Träger 10 % Endheilung und erhält dafür 20 % Endschaden zusätzlich.\n• In geraden Runden opfert er 10 % Endschaden und erhält dafür 20 % Endheilung zusätzlich.",
+        "es": "Sueño Nebuloso:\n• Los turnos impares, el portador sacrifica un 10% de curas finales para ganar un 20% de daños finales.\n• Los turnos pares, sacrifica un 10% de daños finales para ganar un 20% de curas finales."
       }
     }
   },
@@ -415,399 +415,6 @@
     "subCategory": "dofus",
     "stats": {
       "prospecting": 10
-    }
-  },
-  "xS": {
-    "id": "xS",
-    "idDofusDB": 13344,
-    "idDofusBook": 13344,
-    "name": {
-      "fr": "Dolmanax",
-      "en": "Dolmanax",
-      "pt": "Dolmanax",
-      "de": "Dolmanax",
-      "es": "Dolmanax"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "strength": 70,
-      "intelligence": 70,
-      "chance": 70,
-      "agility": 70
-    }
-  },
-  "Ap": {
-    "id": "Ap",
-    "idDofusDB": 15235,
-    "idDofusBook": 15235,
-    "name": {
-      "fr": "Dotruche",
-      "en": "Dotrich",
-      "pt": "Dotruz",
-      "de": "Domelspatz",
-      "es": "Dotruz"
-    },
-    "level": 110,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "heal": 25
-    }
-  },
-  "xP": {
-    "id": "xP",
-    "idDofusDB": 16061,
-    "idDofusBook": 16061,
-    "name": {
-      "fr": "Dofus des Veilleurs",
-      "en": "Watchers Dofus",
-      "pt": "Dofus dos Vigilantes",
-      "de": "Dofus der Wachenden",
-      "es": "Dofus de los vigilantes"
-    },
-    "level": 100,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "apResist": 20
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Veille Dimensionnelle",
-        "en": "Dimensional Vigil",
-        "pt": "Vigilância Dimensional",
-        "de": "Dimensionswache",
-        "es": "Vigilia Dimensional"
-      },
-      "description": {
-        "fr": "Veille Dimensionnelle :\n• Lorsque le porteur termine son tour, il soigne ses alliés alignés avec lui de 7% de leur vie.",
-        "en": "Dimensional Vigil:\n• When the bearer ends their turn, heals all allies in line with the bearer for 7% of their HP.",
-        "pt": "Vigilância Dimensional:\n• Quando o portador termina seu turno, ele cura todos os aliados alinhados a ele em 7% da vida.",
-        "de": "Dimensionswache:\n• Wenn der Träger seine Runde beendet, heilt er die mit ihm in einer Linie stehenden Verbündeten um 7 % ihrer LP.",
-        "es": "Vigilia Dimensional:\n• Cuando el portador termina su turno, cura a sus aliados alineados con él un 7% de su vida."
-      }
-    }
-  },
-  "K2": {
-    "id": "K2",
-    "idDofusDB": 18043,
-    "idDofusBook": 18043,
-    "name": {
-      "fr": "Dofus Abyssal",
-      "en": "Abyssal Dofus",
-      "pt": "Dofus Abissal",
-      "de": "Tiefsee-Dofus",
-      "es": "Dofus abisal"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {},
-    "specialEffect": {
-      "name": {
-        "fr": "Descente aux Abysses",
-        "en": "Descent to the Abysses",
-        "pt": "Descida aos Abismos",
-        "de": "Abstieg in die Untiefen",
-        "es": "Descenso a los Abismos"
-      },
-      "description": {
-        "fr": "Descente aux Abysses :\n• À chaque début de tour, le porteur gagne 1 PM si aucun ennemi n'est à son contact. Sinon, il gagne 1 PA.",
-        "en": "Descent to the Abysses:\n• At the start of each turn, the bearer earns 1 MP if they have no adjacent enemies. Otherwise, they gain 1 AP.",
-        "pt": "Descida aos Abismos:\n• A cada início de turno, o portador ganha 1 PM se não houver nenhum inimigo em contato com ele. Caso contrário, ele ganha 1 PA.",
-        "de": "Abstieg in die Untiefen:\n• Wenn sich kein Gegner in Nahkampfentfernung befindet, erhält der Träger jeweils zu Rundenbeginn 1 BP. Andernfalls erhält er 1 AP.",
-        "es": "Descenso a los Abismos:\n• Al principio de cada turno, el portador gana 1 PM si ningún enemigo está con contacto con él. Si no, gana 1 PA."
-      }
-    }
-  },
-  "K7": {
-    "id": "K7",
-    "idDofusDB": 19398,
-    "idDofusBook": 19398,
-    "name": {
-      "fr": "Dofus Forgelave",
-      "en": "Lavasmith Dofus",
-      "pt": "Dofus Forjalava",
-      "de": "Lavaschmied-Dofus",
-      "es": "Dofus forjalava"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "pushbackResist": 100
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Forge du Volcan",
-        "en": "Volcano Forge",
-        "pt": "Forja do Vulcão",
-        "de": "Vulkanschmiede",
-        "es": "Forja del Volcán"
-      },
-      "description": {
-        "fr": "Forge du Volcan :\n• Le porteur gagne 100% de son niveau en bouclier selon les effets qu'il subit d'un ennemi (1 fois par type d'effet par tour) :\n • Dommages de poussée\n • Attirance ou poussée\n • Échange de positions, téléportation ou téléportail\n • Portage Pandawa",
-        "en": "Volcano Forge:\n• The bearer gains 100% of their level as shield based on the enemy effects suffered (1 time per effect type per turn):\n • pushback damage\n • attraction or pushback\n • place switching, teleportation or teleportal\n• carried by a Pandawa",
-        "pt": "Forja do Vulcão:\n• O portador recebe 100% do seu nível em escudo de acordo com os efeitos que sofrer de um inimigo (1 vez por tipo de efeito por turno):\n • Danos de empurrão\n • Atração ou empurrão\n • Troca de lugar, teletransporte ou teleportal\n• Carregamento Pandawa",
-        "de": "Vulkanschmiede:\n• Der Träger erhält entsprechend den Wirkungen, die durch einen Gegner ausgelöst wurden, 100 % seiner Stufe als Schildpunkte (1 Mal pro Wirkungsart und Runde):\n • Schubsschaden\n • Anziehung oder Schubsen\n • Positionstausch, Teleportation oder Teleportal\n• Tragen durch Pandawa",
-        "es": "Forja del Volcán:\n• El portador gana un 100% de su nivel en escudo según los efectos que sufre de un enemigo (1 vez por tipo de efecto por turno):\n • Daños de empuje\n • Atracción o empuje\n • Cambio de posiciones, teletransportación o teleportal\n• Porteo pandawa"
-      }
-    }
-  },
-  "K3": {
-    "id": "K3",
-    "idDofusDB": 20286,
-    "idDofusBook": 20286,
-    "name": {
-      "fr": "Dofus Argenté Scintillant",
-      "en": "Sparkling Silver Dofus",
-      "pt": "Dofus Prateado Cintilante",
-      "de": "Glänzender Silberdofus",
-      "es": "Dofus plateado centelleante"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {},
-    "specialEffect": {
-      "name": {
-        "fr": "Promesse d'Argent",
-        "en": "Promise of Silver",
-        "pt": "Promessa de Prata",
-        "de": "Silbernes Versprechen",
-        "es": "Promesa de Plata"
-      },
-      "description": {
-        "fr": "Promesse d'Argent :\n• Lorsque le porteur descend sous les 20% de sa vie, il est soigné de 30% de sa vie et gagne 20% de dommages finaux pendant 1 tour au début de son prochain tour (1 fois par combat).",
-        "en": "Promise of Silver:\n• When the bearer falls below 20% health, they are healed for 30% of their health and gain 20% final damage for 1 turn at the start of their next turn (once per fight).",
-        "pt": "Promessa de Prata:\n• Quando o lançador estiver com menos de 20% de sua vida, ele será curado em 30% da vida e ganhará 20% de danos finais durante 1 turno no começo do próximo turno dele (1 vez por combate).",
-        "de": "Silbernes Versprechen:\nWenn der Träger weniger als 20 % seiner Lebenspunkte besitzt, wird er um 30 % seiner LP geheilt und erhält zu Beginn seiner nächsten Runde 1 Runde lang 20 % Endschaden (1 Mal pro Kampf).",
-        "es": "Promesa de Plata:\n• Cuando el portador tiene menos de un 20% de vida, se cura un 30% de su vida y gana un 20% de daños finales durante 1 turno al principio de su próximo turno (1 vez por combate)."
-      }
-    }
-  },
-  "jk": {
-    "id": "jk",
-    "idDofusDB": 20833,
-    "idDofusBook": 20987,
-    "name": {
-      "fr": "Dofus Cacao",
-      "en": "Cocoa Dofus",
-      "pt": "Dofus Cacau",
-      "de": "Kakao-Dofus",
-      "es": "Dofus cacao"
-    },
-    "level": 50,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "lock": 10
-    }
-  },
-  "BH": {
-    "id": "BH",
-    "idDofusDB": 23237,
-    "idDofusBook": 23237,
-    "name": {
-      "fr": "Domakuro",
-      "en": "Domakuro",
-      "pt": "Domakuro",
-      "de": "Domakuro",
-      "es": "Domakuro"
-    },
-    "level": 120,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "summon": 1
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Rivière d'Encre",
-        "en": "Ink River",
-        "pt": "Rio de Tinta",
-        "de": "Tintenfluss",
-        "es": "Río de Tinta"
-      },
-      "description": {
-        "fr": "Rivière d'Encre :\n• À partir du tour 5, le porteur et ses invocations gagnent jusqu'à 64 de Dommages jusqu'à la fin du combat.\n• Ce bonus est réduit à chaque fois que le porteur occasionne des dommages durant son tour à un ennemi pour chacun des 4 premiers tours du combat :\n • Aucune attaque : 16 Dommages\n • 1 attaque : 8 Dommages.\n • 2 attaques et plus : 0 Dommages.",
-        "en": "Ink River:\n• Starting on turn 5, the bearer and their summons gain up to 64 Damage until the end of the fight.\n• This bonus is reduced each time the bearer inflicts damage on an enemy during their turn for each of the first 4 turns of the fight:\n • No attacks: 16 Damage\n • 1 attack: 8 Damage\n• 2 attacks or more: 0 Damage",
-        "pt": "Rio de Tinta:\n• A partir do 5º turno, o portador e suas invocações ganham até 64 de danos até o fim do combate.\n• Esse bônus diminui sempre que o portador inflige danos a um inimigo durante seu turno para cada um dos 4 primeiros turnos do combate:\n • Nenhum ataque: 16 de danos.\n • 1 ataque: 8 de danos.\n• 2 ataques e mais: 0 de danos.",
-        "de": "Tintenfluss:\n• Ab Runde 5 erhalten der Träger und seine Beschwörungen bis zu 64 Schaden bis zum Ende des Kampfes.\n• Dieser Bonus verringert sich jedes Mal, wenn der Träger einem Gegner während der ersten 4 Kampfrunden Schaden zufügt:\n • Kein Angriff: 16 Schaden.\n • 1 Angriff: 8 Schaden.\n• Ab 2 Angriffen: 0 Schaden.",
-        "es": "Río de Tinta:\n• A partir del turno 5, el portador y sus invocaciones ganan hasta 64 de daño hasta el final del combate.\n• Este bonus se reduce cada vez que el portador ocasione daños durante su turno a un enemigo en cada uno de los 4 primeros turnos del combate:\n • Ningún ataque: 16 de daño.\n • 1 ataque: 8 de daño.\n• 2 ataques o más: 0 de daño."
-      }
-    }
-  },
-  "FM": {
-    "id": "FM",
-    "idDofusDB": 23408,
-    "idDofusBook": 23408,
-    "name": {
-      "fr": "Dorigami",
-      "en": "Dorigami",
-      "pt": "Dorigami",
-      "de": "Dorigami",
-      "es": "Dorigami"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "mpResist": 20
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Tigre de Papier",
-        "en": "Paper Tiger",
-        "pt": "Tigre de Papel",
-        "de": "Papiertiger",
-        "es": "Tigre de Papel"
-      },
-      "description": {
-        "fr": "Tigre de Papier :\n• À chaque début de tour sur les 5 premiers tours, le porteur gagne 100% de son niveau en bouclier pendant 1 tour.\n• Sur ces 5 premiers tours, si le porteur achève un ennemi durant son tour de jeu, il gagne un bouclier pendant 2 tours selon la nature de l'ennemi :\n • Invocation : 100% de son niveau en bouclier (cumulable 4 fois).\n • Combattant : 300% de son niveau en bouclier (cumulable 2 fois).",
-        "en": "Paper Tiger:\n• For the first 5 turns, the bearer gains 100% of their level as shield for 1 turn at the start of every turn.\n• For the first 5 turns, if the bearer kills an enemy during their turn, they gain a shield for 2 turns based on the nature of the enemy:\n • Summons: 100% of its level as shield (stackable 4 times).\n• Fighter: 300% of its level as shield (stackable 2 times).",
-        "pt": "Tigre de Papel:\n• A cada início de turno nos 5 primeiros turnos, o lançador ganha 100% de seu nível em escudo durante 1 turno.\n• Nesses 5 primeiros turnos, se o portador eliminar um inimigo durante seu turno de jogo, ele ganhará um escudo durante 2 turnos de acordo com a natureza do inimigo:\n • Invocação: 100% de seu nível em escudo (acumula 4 vezes).\n• Combatente: 300% de seu nível em escudo (acumula 2 vezes).",
-        "de": "Papiertiger:\n• In den ersten 5 Spielrunden erhält der Träger jedes Mal zu Rundenbeginn 1 Runde lang 100 % seiner Stufe als Schild.\n• Wenn der Träger in den ersten 5 Spielrunden einen Gegner besiegt, erhält er 2 Runden lang einen Schild. Der Schild hängt von der Art des Gegners ab:\n • Beschwörung: 100 % seiner Stufe als Schild (4-mal kumulierbar).\n• Kämpfer: 300 % seiner Stufe als Schild (2-mal kumulierbar).",
-        "es": "Tigre de Papel:\n• Al principio de los 5 primeros turnos, el portador gana un 100% de su nivel en escudo durante 1 turno.\n• En estos 5 primeros turnos, si el portador acaba con un enemigo durante su turno de juego, gana un escudo durante 2 turnos según la naturaleza del enemigo:\n • Invocación: 100% de su nivel en escudo (acumulable 4 veces).\n• Luchador: 300% de su nivel en escudo (acumulable 2 veces)."
-      }
-    }
-  },
-  "K5": {
-    "id": "K5",
-    "idDofusDB": 26066,
-    "idDofusBook": 26066,
-    "name": {
-      "fr": "Dofus du Cauchemar",
-      "en": "Nightmare Dofus",
-      "pt": "Dofus do Pesadelo",
-      "de": "Dofus des Alptraums",
-      "es": "Dofus de pesadilla"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "initiative": 1000
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Éternel Cauchemar",
-        "en": "Nightmare Eternal",
-        "pt": "Eterno Pesadelo",
-        "de": "Ewiger Alptraum",
-        "es": "Pesadilla Eterna"
-      },
-      "description": {
-        "fr": "Bouclier Bontarien :\n• Lorsque le porteur est désenvoûté ou entravé, il gagne 100% de son niveau en bouclier pour 1 tour.\n\nPuissance Brâkmarienne : \n• Lorsque le porteur occasionne ou subit des dommages de poussée, il gagne 100 de Puissance pour 1 tour. \n\nŒil du Cauchemar :\n• Si le porteur déclenche le Bouclier Bontarien et la Puissance Brâkmarienne dans le même tour, les dommages qu'il occasionne et subit sont augmentés de 10% pendant 1 tour.\n\nLes effets ne peuvent être déclenchés qu'une seule fois par tour.",
-        "en": "Bontarian Shield:\n• When the bearer is unbewitched or debuffed, the bearer gains 100% of their level as shield for 1 turn.\n\nBrakmarian Power: \n• Whenever the bearer inflicts or suffers pushback damage, the bearer gains 100 Power for 1 turn. \n\nNightmare Eye:\n• If the bearer triggers Bontarian Shield and Brakmarian Power in the same turn, the damage they inflict and suffer increases by 10% for 1 turn.\n\nThe effects can only be triggered once per turn.",
-        "pt": "Escudo Bontariano:\n• Quando o portador é desencantado ou entravado, ele ganha em escudo o equivalente a 100% de seu nível durante 1 turno.\n\nPotência Brakmariana: \n• Quando o portador inflige ou sofre danos de empurrão, ele ganha 100 de potência durante 1 turno. \n\nOlho do Pesadelo:\n• Se o portador acionar o Escudo Bontariano e a Potência Brakmariana no mesmo turno, os danos que ele inflige e sofre aumentam em 10% durante 1 turno.\n\nOs efeitos só podem ser acionados uma vez por turno.",
-        "de": "Bonta-Schild:\n• Wenn der Träger entzaubert oder gefesselt ist, erhält er 1 Runde lang 100 % Schildstufe.\n\nBrâk-Schlagkraft: \n• Wenn der Träger Schubsschaden verursacht oder erleidet, erhält er 1 Runde lang 100 Schlagkraft. \n\nAuge des Alptraums:\n• Löst der Träger den Bonta-Schild und die Brâk-Schlagkraft in derselben Runde aus, erhöht sich der von ihm verursachte und erlittene Schaden 1 Runde lang um 10 %.\n\nWirkungen können nur einmal pro Runde ausgelöst werden.",
-        "es": "Escudo Bontariano:\n• Cuando el portador es desembrujado o trabado, gana un escudo del 100% de su nivel durante 1 turno.\n\nPotencia Brakmariana: \n• Cuando el portador ocasiona o sufre daños de empuje, gana 100 de potencia durante 1 turno. \n\nOjo de Pesadilla:\n• Si el portador activa Escudo Bontariano y Potencia Brakmariana en el mismo turno, los daños que ocasiona y sufre aumentan un 10% durante 1 turno.\n\nLos efectos pueden activarse solo una vez por turno."
-      }
-    }
-  },
-  "Ka": {
-    "id": "Ka",
-    "idDofusDB": 29136,
-    "idDofusBook": 29136,
-    "name": {
-      "fr": "Dofus Sylvestre",
-      "en": "Sylvan Dofus",
-      "pt": "Dofus Silvestre",
-      "de": "Wald-Dofus",
-      "es": "Dofus silvestre"
-    },
-    "level": 180,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "range": 2
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Garde Champêtre",
-        "en": "Country Ranger",
-        "pt": "Guarda Campestre",
-        "de": "Feldschütz",
-        "es": "Guarda Campestre"
-      },
-      "description": {
-        "fr": "Garde Champêtre :\n• Le porteur gagne 8 de Puissance pendant 2 tours pour chaque PM qu'il utilise (cumulable 20 fois).\n• S'il n'a utilisé aucun PM durant son tour, il est soigné de 10% de sa vie.",
-        "en": "Country Ranger:\n• The bearer gains 8 Power for 2 turns for each MP they use (stackable 20 times).\n• If the bearer doesn't use any MP during their turn, they are healed for 10% of their health.",
-        "pt": "Guarda Campestre:\n• O portador ganha 8 de potência durante 2 turnos para cada PM que ele utilizar (acumula 20 vezes).\n• Se ele não tiver usado PM durante seu turno, ele será curado em 10% da vida.",
-        "de": "Feldschütz:\n• Der Träger erhält 2 Runden lang für jeden von ihm verwendeten BP 8 Schlagkraft (20-mal kumulierbar).\n• Hat er in seiner Runde keinen BP verwendet, wird er um 10 % seiner LP geheilt.",
-        "es": "Guarda Campestre:\n• El portador gana 8 de potencia durante 2 turnos por cada PM que utiliza (acumulable 20 veces).\n• Si no ha utilizado ningún PM durante su turno, se cura un 10% de su vida."
-      }
-    }
-  },
-  "6x": {
-    "id": "6x",
-    "idDofusDB": 30356,
-    "idDofusBook": 30356,
-    "name": {
-      "fr": "Jyfus",
-      "en": "Aiwuztheya Dofus",
-      "pt": "Dofui",
-      "de": "Jyfus",
-      "es": "Jyfus"
-    },
-    "level": 20,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "vitality": 20
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Jyfus",
-        "en": "Aiwuztheya Dofus",
-        "pt": "Dofui",
-        "de": "Jyfus",
-        "es": "Jyfus"
-      },
-      "description": {
-        "fr": "",
-        "en": "",
-        "pt": "",
-        "de": "",
-        "es": ""
-      }
-    }
-  },
-  "IO": {
-    "id": "IO",
-    "idDofusDB": 31794,
-    "idDofusBook": 31794,
-    "name": {
-      "fr": "Dofoozbz",
-      "en": "Dofzzbz",
-      "pt": "Dofzzbz",
-      "de": "Dsfssbs",
-      "es": "Dofzzbz"
-    },
-    "level": 170,
-    "category": "dofus",
-    "subCategory": "dofus",
-    "stats": {
-      "summon": 1
-    },
-    "specialEffect": {
-      "name": {
-        "fr": "Éclosion Explosive",
-        "en": "Explosive Hatching",
-        "pt": "Eclosão Explosiva",
-        "de": "Explosives Ausschlüpfen",
-        "es": "Eclosión Explosiva"
-      },
-      "description": {
-        "fr": "Éclosion Explosive :\n• Lorsqu'une invocation du porteur est attaquée, le porteur gagne 1% de dommages finaux pendant 2 tours (cumulable 10 fois).\n• Si elle est achevée par un ennemi, le porteur occasionne 10 dommages dans son meilleur élément aux ennemis dans un cercle de taille 2 autour d'elle.",
-        "en": "Explosive Hatching:\n• When one of the bearer's summons is attacked, the bearer gains 1% final damage for 2 turns (stackable 10 times).\n• If it is killed by an enemy, the bearer inflicts 10 damage in their best element on enemies in a 2-cell circle around the summons.",
-        "pt": "Eclosão Explosiva:\n• Quando uma invocação do portador é atacada, ele recebe 1% de danos finais por 2 turnos (acumula 10 vezes).\n• Se ela for eliminada por um inimigo, o portador inflige 10 danos em seu melhor elemento aos inimigos em um círculo de tamanho 2 ao redor dela.",
-        "de": "Explosives Ausschlüpfen:\n• Wenn eine Beschwörung des Trägers angegriffen wird, erhöht sich der Endschaden des Trägers 2 Runden lang um 1 % (10-mal kumulierbar).\n• Wenn sie von einem Gegner besiegt wurde, fügt der Träger Gegnern im Umkreis von 2 Feldern um sie 10 Schaden in seinem besten Element zu.",
-        "es": "Eclosión Explosiva:\n• Cuando una invocación del portador es atacada, el portador gana un 1% de daños finales durante 2 turnos (acumulable 10 veces).\n• Si muere a manos de un enemigo, el portador ocasiona 10 de daño con su mejor elemento a los enemigos en un círculo de tamaño 2 alrededor de esta."
-      }
     }
   },
   "kv": {
@@ -2266,6 +1873,27 @@
     "subCategory": "trophy",
     "stats": {
       "earthDamage": 3
+    }
+  },
+  "xS": {
+    "id": "xS",
+    "idDofusDB": 13344,
+    "idDofusBook": 13344,
+    "name": {
+      "fr": "Dolmanax",
+      "en": "Dolmanax",
+      "pt": "Dolmanax",
+      "de": "Dolmanax",
+      "es": "Dolmanax"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "strength": 70,
+      "intelligence": 70,
+      "chance": 70,
+      "agility": 70
     }
   },
   "iO": {
@@ -3928,6 +3556,58 @@
       "waterDamage": 12,
       "airDamage": 12,
       "criticalDamage": -24
+    }
+  },
+  "Ap": {
+    "id": "Ap",
+    "idDofusDB": 15235,
+    "idDofusBook": 15235,
+    "name": {
+      "fr": "Dotruche",
+      "en": "Dotrich",
+      "pt": "Dotruz",
+      "de": "Domelspatz",
+      "es": "Dotruz"
+    },
+    "level": 110,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "heal": 25
+    }
+  },
+  "xP": {
+    "id": "xP",
+    "idDofusDB": 16061,
+    "idDofusBook": 16061,
+    "name": {
+      "fr": "Dofus des Veilleurs",
+      "en": "Watchers Dofus",
+      "pt": "Dofus dos Vigilantes",
+      "de": "Dofus der Wachenden",
+      "es": "Dofus de los vigilantes"
+    },
+    "level": 100,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "apResist": 20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Veille Dimensionnelle",
+        "en": "Dimensional Vigil",
+        "pt": "Vigilância Dimensional",
+        "de": "Dimensionswache",
+        "es": "Vigilia Dimensional"
+      },
+      "description": {
+        "fr": "Veille Dimensionnelle :\n• Lorsque le porteur termine son tour, il soigne ses alliés alignés avec lui de 7% de leur vie.",
+        "en": "Dimensional Vigil:\n• When the bearer ends their turn, heals all allies in line with the bearer for 7% of their HP.",
+        "pt": "Vigilância Dimensional:\n• Quando o portador termina seu turno, ele cura todos os aliados alinhados a ele em 7% da vida.",
+        "de": "Dimensionswache:\n• Wenn der Träger seine Runde beendet, heilt er die mit ihm in einer Linie stehenden Verbündeten um 7 % ihrer LP.",
+        "es": "Vigilia Dimensional:\n• Cuando el portador termina su turno, cura a sus aliados alineados con él un 7% de su vida."
+      }
     }
   },
   "jX": {
@@ -6726,124 +6406,120 @@
       "airDamage": 12
     }
   },
-  "Gk": {
-    "id": "Gk",
-    "idDofusDB": 30451,
-    "idDofusBook": 30451,
+  "K2": {
+    "id": "K2",
+    "idDofusDB": 18043,
+    "idDofusBook": 18043,
     "name": {
-      "fr": "Prudent",
-      "en": "Cautious",
-      "pt": "Prudente",
-      "de": "Vorsichtig",
-      "es": "Prudente"
+      "fr": "Dofus Abyssal",
+      "en": "Abyssal Dofus",
+      "pt": "Dofus Abissal",
+      "de": "Tiefsee-Dofus",
+      "es": "Dofus abisal"
     },
-    "level": 150,
+    "level": 180,
     "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "rangedResistPer": 6,
-      "rangedDamagePer": -9,
-      "meleeDamagePer": -9
+    "subCategory": "dofus",
+    "stats": {},
+    "specialEffect": {
+      "name": {
+        "fr": "Descente aux Abysses",
+        "en": "Descent to the Abysses",
+        "pt": "Descida aos Abismos",
+        "de": "Abstieg in die Untiefen",
+        "es": "Descenso a los Abismos"
+      },
+      "description": {
+        "fr": "Descente aux Abysses :\n• À chaque début de tour, le porteur gagne 1 PM si aucun ennemi n'est à son contact. Sinon, il gagne 1 PA.",
+        "en": "Descent to the Abysses:\n• At the start of each turn, the bearer earns 1 MP if they have no adjacent enemies. Otherwise, they gain 1 AP.",
+        "pt": "Descida aos Abismos:\n• A cada início de turno, o portador ganha 1 PM se não houver nenhum inimigo em contato com ele. Caso contrário, ele ganha 1 PA.",
+        "de": "Abstieg in die Untiefen:\n• Wenn sich kein Gegner in Nahkampfentfernung befindet, erhält der Träger jeweils zu Rundenbeginn 1 BP. Andernfalls erhält er 1 AP.",
+        "es": "Descenso a los Abismos:\n• Al principio de cada turno, el portador gana 1 PM si ningún enemigo está con contacto con él. Si no, gana 1 PA."
+      }
     }
   },
-  "Fd": {
-    "id": "Fd",
-    "idDofusDB": 30452,
-    "idDofusBook": 30452,
+  "K7": {
+    "id": "K7",
+    "idDofusDB": 19398,
+    "idDofusBook": 19398,
     "name": {
-      "fr": "Audacieux",
-      "en": "Audacious",
-      "pt": "Audacioso",
-      "de": "Kühn",
-      "es": "Valiente"
+      "fr": "Dofus Forgelave",
+      "en": "Lavasmith Dofus",
+      "pt": "Dofus Forjalava",
+      "de": "Lavaschmied-Dofus",
+      "es": "Dofus forjalava"
     },
-    "level": 150,
+    "level": 180,
     "category": "dofus",
-    "subCategory": "trophy",
+    "subCategory": "dofus",
     "stats": {
-      "meleeResistPer": 6,
-      "rangedDamagePer": -9,
-      "meleeDamagePer": -9
+      "pushbackResist": 100
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Forge du Volcan",
+        "en": "Volcano Forge",
+        "pt": "Forja do Vulcão",
+        "de": "Vulkanschmiede",
+        "es": "Forja del Volcán"
+      },
+      "description": {
+        "fr": "Forge du Volcan :\n• Le porteur gagne 100% de son niveau en bouclier selon les effets qu'il subit d'un ennemi (1 fois par type d'effet par tour) :\n • Dommages de poussée\n • Attirance ou poussée\n • Échange de positions, téléportation ou téléportail\n • Portage Pandawa",
+        "en": "Volcano Forge:\n• The bearer gains 100% of their level as shield based on the enemy effects suffered (1 time per effect type per turn):\n • pushback damage\n • attraction or pushback\n • place switching, teleportation or teleportal\n• carried by a Pandawa",
+        "pt": "Forja do Vulcão:\n• O portador recebe 100% do seu nível em escudo de acordo com os efeitos que sofrer de um inimigo (1 vez por tipo de efeito por turno):\n • Danos de empurrão\n • Atração ou empurrão\n • Troca de lugar, teletransporte ou teleportal\n• Carregamento Pandawa",
+        "de": "Vulkanschmiede:\n• Der Träger erhält entsprechend den Wirkungen, die durch einen Gegner ausgelöst wurden, 100 % seiner Stufe als Schildpunkte (1 Mal pro Wirkungsart und Runde):\n • Schubsschaden\n • Anziehung oder Schubsen\n • Positionstausch, Teleportation oder Teleportal\n• Tragen durch Pandawa",
+        "es": "Forja del Volcán:\n• El portador gana un 100% de su nivel en escudo según los efectos que sufre de un enemigo (1 vez por tipo de efecto por turno):\n • Daños de empuje\n • Atracción o empuje\n • Cambio de posiciones, teletransportación o teleportal\n• Porteo pandawa"
+      }
     }
   },
-  "G3": {
-    "id": "G3",
-    "idDofusDB": 30453,
-    "idDofusBook": 30453,
+  "K3": {
+    "id": "K3",
+    "idDofusDB": 20286,
+    "idDofusBook": 20286,
     "name": {
-      "fr": "Impétueux",
-      "en": "Impetuous",
-      "pt": "Impetuoso",
-      "de": "Ungestüm",
-      "es": "Impetuoso"
+      "fr": "Dofus Argenté Scintillant",
+      "en": "Sparkling Silver Dofus",
+      "pt": "Dofus Prateado Cintilante",
+      "de": "Glänzender Silberdofus",
+      "es": "Dofus plateado centelleante"
     },
-    "level": 150,
+    "level": 180,
     "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "rangedDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+    "subCategory": "dofus",
+    "stats": {},
+    "specialEffect": {
+      "name": {
+        "fr": "Promesse d'Argent",
+        "en": "Promise of Silver",
+        "pt": "Promessa de Prata",
+        "de": "Silbernes Versprechen",
+        "es": "Promesa de Plata"
+      },
+      "description": {
+        "fr": "Promesse d'Argent :\n• Lorsque le porteur descend sous les 20% de sa vie, il est soigné de 30% de sa vie et gagne 20% de dommages finaux pendant 1 tour au début de son prochain tour (1 fois par combat).",
+        "en": "Promise of Silver:\n• When the bearer falls below 20% health, they are healed for 30% of their health and gain 20% final damage for 1 turn at the start of their next turn (once per fight).",
+        "pt": "Promessa de Prata:\n• Quando o lançador estiver com menos de 20% de sua vida, ele será curado em 30% da vida e ganhará 20% de danos finais durante 1 turno no começo do próximo turno dele (1 vez por combate).",
+        "de": "Silbernes Versprechen:\nWenn der Träger weniger als 20 % seiner Lebenspunkte besitzt, wird er um 30 % seiner LP geheilt und erhält zu Beginn seiner nächsten Runde 1 Runde lang 20 % Endschaden (1 Mal pro Kampf).",
+        "es": "Promesa de Plata:\n• Cuando el portador tiene menos de un 20% de vida, se cura un 30% de su vida y gana un 20% de daños finales durante 1 turno al principio de su próximo turno (1 vez por combate)."
+      }
     }
   },
-  "Gl": {
-    "id": "Gl",
-    "idDofusDB": 30454,
-    "idDofusBook": 30454,
+  "jk": {
+    "id": "jk",
+    "idDofusDB": 20833,
+    "idDofusBook": 20987,
     "name": {
-      "fr": "Pugiliste",
-      "en": "Pugilist",
-      "pt": "Pugilista",
-      "de": "Faustkämpfer",
-      "es": "Pugilista"
+      "fr": "Dofus Cacao",
+      "en": "Cocoa Dofus",
+      "pt": "Dofus Cacau",
+      "de": "Kakao-Dofus",
+      "es": "Dofus cacao"
     },
-    "level": 150,
+    "level": 50,
     "category": "dofus",
-    "subCategory": "trophy",
+    "subCategory": "dofus",
     "stats": {
-      "meleeDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
-    }
-  },
-  "Fb": {
-    "id": "Fb",
-    "idDofusDB": 30455,
-    "idDofusBook": 30455,
-    "name": {
-      "fr": "Arcaniste",
-      "en": "Arcanist",
-      "pt": "Arcanista",
-      "de": "Eingeweiht",
-      "es": "Arcanista"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "spellDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
-    }
-  },
-  "Fe": {
-    "id": "Fe",
-    "idDofusDB": 30456,
-    "idDofusBook": 30456,
-    "name": {
-      "fr": "Barbare",
-      "en": "Barbaric",
-      "pt": "Bárbaro",
-      "de": "Barbar",
-      "es": "Bárbaro"
-    },
-    "level": 150,
-    "category": "dofus",
-    "subCategory": "trophy",
-    "stats": {
-      "weaponDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+      "lock": 10
     }
   },
   "US": {
@@ -6960,6 +6636,41 @@
         "pt": "O portador ganha 100% de seu nível em escudo no primeiro turno, 200% no segundo e 350% no terceiro.",
         "de": "In der ersten Runde erhält der Träger 100 % seiner Stufe als Schild, in der zweiten Runde 200 % und in der dritten Runde 350 %.",
         "es": "El portador gana un 100% de su nivel en puntos de escudo en el primer turno, un 200% en el segundo turno y un 350% en el tercer turno."
+      }
+    }
+  },
+  "UP": {
+    "id": "UP",
+    "idDofusDB": 21995,
+    "idDofusBook": 21995,
+    "name": {
+      "fr": "Sprynt",
+      "en": "Sprynt",
+      "pt": "Sprint",
+      "de": "Sprynt",
+      "es": "Prisprint"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "mp": 1,
+      "range": -1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Sprynt",
+        "en": "Sprynt",
+        "pt": "Sprint",
+        "de": "Sprynt",
+        "es": "Prisprint"
+      },
+      "description": {
+        "fr": "Le porteur est Intaclable tant qu'il n'a pas occasionné de dommages.\nS'il en occasionne, la durée de l'état passe à 1 tour.",
+        "en": "The bearer is Unlockable as long as they have not inflicted any damage.\nIf they inflict damage, the duration of the state changes to 1 turn.",
+        "pt": "O portador fica Imbloqueável contanto que não tenha infligido danos.\nSe infligir, a duração do estado passará a ser de 1 turno.",
+        "de": "Der Träger ist unblockbar, solange er keinen Schaden verursacht.\nWenn er Schaden verursacht, wird die Dauer des Zustands auf 1 Runde gesetzt.",
+        "es": "El portador es no placable mientras no haya recibido daños.\nSi los ocasiona, el estado dura 1 turno."
       }
     }
   },
@@ -7165,11 +6876,11 @@
         "es": "Pristeza"
       },
       "description": {
-        "fr": "Le porteur gagne 1 PM pendant 3 tours pour chaque combattant ennemi à plus de 9 cases de lui au début du combat.",
-        "en": "The bearer gains 1 MP for 3 turns for each enemy fighter more than 9 cells away from them at the start of the fight.",
-        "pt": "O portador ganha 1 PM durante 3 turnos para cada combatente inimigo a mais de 9 células de distância dele no começo do combate.",
-        "de": "Der Träger erhält 3 Runden lang 1 BP pro gegnerischem Kämpfer, der zu Beginn des Kampfes mehr als 9 Felder von ihm entfernt ist.",
-        "es": "El portador gana 1 PM durante 3 turnos por cada luchador enemigo a más de 9 casillas de él al inicio del combate."
+        "fr": "Le porteur gagne 1 PM pendant 1 tour pour chaque combattant ennemi à plus de 9 cases de lui au début des 3 premiers tours de jeu (cumulable 3 fois).",
+        "en": "The bearer gains 1 MP for 1 turn for each enemy fighter more than 9 cells away from them at the start of the first 3 turns (stackable 3 times).",
+        "pt": "O portador ganha 1 PM durante 1 turno para cada combatente inimigo a mais de 9 células de distância dele no começo dos 3 primeiros turnos de jogo (acumula até 3 vezes).",
+        "de": "Der Träger erhält 1 Runde lang 1 BP pro gegnerischem Kämpfer, der zu Beginn der ersten drei Spielrunden (3-mal kumulierbar) mehr als 9 Felder von ihm entfernt ist.",
+        "es": "El portador gana 1 PM durante 1 turno por cada luchador enemigo a más de 9 casillas de él al inicio de los 3 primeros turnos de juego (acumulable 3 veces)."
       }
     }
   },
@@ -7235,11 +6946,11 @@
         "es": "Prismacción Mate"
       },
       "description": {
-        "fr": "Le porteur gagne 2 PA pendant son premier tour.",
-        "en": "The bearer gains +2 AP for their first turn.",
-        "pt": "O portador ganha 2 PA durante seu primeiro turno.",
-        "de": "Der Träger erhält während seiner ersten Spielrunde 2 AP.",
-        "es": "El portador gana 2 PA durante su primer turno."
+        "fr": "Le porteur gagne 2 PA au premier tour.",
+        "en": "The bearer gains 2 AP on their first turn.",
+        "pt": "O portador ganha 2 PA no primeiro turno.",
+        "de": "Der Träger erhält in der ersten Runde 2 AP.",
+        "es": "El portador gana 2 PA en el primer turno."
       }
     }
   },
@@ -7270,11 +6981,11 @@
         "es": "Prismacción brillante"
       },
       "description": {
-        "fr": "Le porteur sacrifie 2 PM pour gagner 3 PA pendant son premier tour.",
-        "en": "The bearer sacrifices 2 MP to gain 3 AP for their first turn.",
-        "pt": "O portador sacrifica 2 PM para ganhar 3 PA durante seu primeiro turno.",
-        "de": "Der Träger opfert 2 BP, um während seiner ersten Runde 3 AP zu erhalten.",
-        "es": "El portador sacrifica 2 PM para ganar 3 PA durante su primer turno."
+        "fr": "Le porteur sacrifie 2 PM pour gagner 3 PA au premier tour.",
+        "en": "The bearer sacrifices 2 MP to gain 3 AP on their first turn.",
+        "pt": "O portador sacrifica 2 PM para ganhar 3 PA no primeiro turno.",
+        "de": "Der Träger opfert 2 BP, um in der ersten Runde 3 AP zu erhalten.",
+        "es": "El portador sacrifica 2 PM para ganar 3 PA en el primer turno."
       }
     }
   },
@@ -7305,11 +7016,11 @@
         "es": "Prismacción Iridiscente"
       },
       "description": {
-        "fr": "Le porteur sacrifie 4 PM pour gagner 4 PA pendant son premier tour.",
-        "en": "The bearer sacrifices 4 MP to gain 4 AP for their first turn.",
-        "pt": "O portador sacrifica 4 PM para ganhar 4 PA durante seu primeiro turno.",
-        "de": "Der Träger opfert 4 BP, um während seiner ersten Runde 4 AP zu erhalten.",
-        "es": "El portador sacrifica 4 PM para ganar 4 PA durante su primer turno."
+        "fr": "Le porteur sacrifie 4 PM pour gagner 4 PA au premier tour.",
+        "en": "The bearer sacrifices 4 MP to gain 4 AP on their first turn.",
+        "pt": "O portador sacrifica 4 PM para ganhar 4 PA no primeiro turno.",
+        "de": "Der Träger opfert 4 BP, um in der ersten Runde 4 AP zu erhalten.",
+        "es": "El portador sacrifica 4 PM para ganar 4 PA en el primer turno."
       }
     }
   },
@@ -7437,7 +7148,7 @@
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "dodge": 40,
+      "initiative": 1000,
       "apResist": -30,
       "mpResist": -30
     },
@@ -7450,11 +7161,11 @@
         "es": "Prismausente"
       },
       "description": {
-        "fr": "Le porteur devient invisible pendant 1 tour au début de son premier tour de jeu.",
-        "en": "The bearer becomes Invisible for 1 turn at the start of their first turn.",
-        "pt": "O portador fica invisível durante 1 turno no começo de seu primeiro turno de jogo.",
-        "de": "Der Träger wird zu Beginn seiner ersten Spielrunde 1 Runde lang unsichtbar.",
-        "es": "El portador se vuelve invisible durante 1 turno al principio de su primer turno de juego."
+        "fr": "Le porteur devient invisible pendant 1 tour au début de son premier tour de jeu.\nL'invisibilité ne se dissipe pas lorsqu'il attaque, mais elle est retirée s'il subit des dommages.",
+        "en": "The bearer becomes Invisible for 1 turn at the start of their first turn.\nThe invisibility does not wear off when the bearer attacks, but it is removed if they suffer any damage.",
+        "pt": "O portador fica invisível durante 1 turno no começo de seu primeiro turno de jogo.\nA invisibilidade não se dissipa quando ele ataca, mas é retirada quando ele sofre danos.",
+        "de": "Der Träger wird zu Beginn seiner ersten Spielrunde 1 Runde lang unsichtbar.\nDie Unsichtbarkeit verfliegt nicht, wenn er angreift, aber sie wird aufgehoben, wenn er Schaden erleidet.",
+        "es": "El portador se vuelve invisible durante 1 turno al principio de su primer turno de juego.\nLa invisibilidad no se disipa cuando este ataca, pero sí se le retira si sufre daños."
       }
     }
   },
@@ -7485,11 +7196,46 @@
         "es": "Prisortilegio"
       },
       "description": {
-        "fr": "Le porteur réduit de 4 tours la durée des effets actifs sur lui au début de son premier tour de jeu.",
+        "fr": "Le porteur réduit la durée des effets actifs sur lui de 4 tours au début de son premier tour de jeu.",
         "en": "The bearer reduces the duration of active effects on themself by 4 turns at the start of their first turn.",
         "pt": "O portador reduz em 4 turnos a duração dos efeitos ativos sobre ele no começo de seu primeiro turno de jogo.",
         "de": "Der Träger verringert die Dauer der Effekte, die auf ihn einwirken, zu Beginn seiner ersten Spielrunde um 4 Runden.",
-        "es": "El portador reduce en 4 turnos la duración de los efectos activos en sí mismo al principio de su primer turno de juego."
+        "es": "El portador reduce la duración de los efectos activos en sí mismo 4 turnos al principio de su primer turno de juego."
+      }
+    }
+  },
+  "Uz": {
+    "id": "Uz",
+    "idDofusDB": 22021,
+    "idDofusBook": 22021,
+    "name": {
+      "fr": "Supprys",
+      "en": "Aspryst",
+      "pt": "Pristeção",
+      "de": "Suppryt",
+      "es": "Prismapoyo"
+    },
+    "level": 200,
+    "category": "dofus",
+    "subCategory": "prysmaradite",
+    "stats": {
+      "heal": 40,
+      "initiative": -1000
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Supprys",
+        "en": "Aspryst",
+        "pt": "Pristeção",
+        "de": "Suppryt",
+        "es": "Prismapoyo"
+      },
+      "description": {
+        "fr": "Le porteur augmente les soins reçus par ses combattants alliés de 10% pendant son tour de jeu au premier tour, puis de 35% au deuxième tour, et de 50% au troisième tour.",
+        "en": "The bearer increases the healing received by their allied fighters by 10% during the bearer's turn on the first turn, then by 35% on the second turn and by 50% on the third turn.",
+        "pt": "O portador aumenta as curas recebidas pelos combatentes aliados em 10% durante seu turno de jogo no primeiro turno, em 35% no segundo e em 50% no terceiro.",
+        "de": "Der Träger erhöht während seiner Spielrunde die von verbündeten Kämpfern erhaltene Heilung, und zwar in der ersten Runde um 10 %, in der zweiten Runde um 35 % und in der dritten Runde um 50 %.",
+        "es": "El portador aumenta las curas recibidas por sus luchadores aliados un 10% durante su turno de juego en el primer turno, un 35% en el segundo turno y un 50% en el tercer turno."
       }
     }
   },
@@ -7524,11 +7270,11 @@
         "es": "Prismuralla"
       },
       "description": {
-        "fr": "Le porteur gagne 200% de son niveau en bouclier à durée infinie au début du tour de chaque combattant ennemi qui joue avant lui.",
-        "en": "The bearer gains 200% of their level as shield for an infinite duration at the start of turn of each enemy fighter that plays before them.",
-        "pt": "O portador ganha 200% de seu nível em escudo com duração infinita no começo do turno de cada combatente inimigo que joga antes dele.",
-        "de": "Der Träger erhält zu Beginn der Runde jedes gegnerischen Kämpfers, der vor ihm an der Reihe ist, auf unbestimmte Zeit 200 % seiner Stufe als Schild.",
-        "es": "El portador gana un 200% de su nivel en puntos de escudo de duración infinita al inicio del turno de cada luchador enemigo que juegue antes que él."
+        "fr": "Le porteur gagne 200% de son niveau en bouclier jusqu'à la fin du combat au début du premier tour de jeu de chaque combattant ennemi qui joue avant lui.",
+        "en": "The bearer gains 200% of their level as shield until the end of the fight at the start of the first turn of each enemy fighter that plays before them.",
+        "pt": "O portador ganha 200% de seu nível em escudo até o fim do combate no começo do primeiro turno de jogo de cada combatente inimigo que jogar antes dele.",
+        "de": "Der Träger erhält zu Beginn der ersten Spielrunde jedes gegnerischen Kämpfers, der vor ihm an der Reihe ist, bis zum Ende des Kampfes 200 % seiner Stufe als Schild.",
+        "es": "El portador gana un 200% de su nivel en escudo hasta el final del combate al inicio del primer turno de juego de cada luchador enemigo que juegue antes que él."
       }
     }
   },
@@ -7634,81 +7380,335 @@
         "es": "Prismazacote"
       },
       "description": {
-        "fr": "Le porteur est dans l'état Pesanteur tant qu'il n'a pas subi de dommages. S'il en subit, la durée de l'état passe à 1 tour.",
-        "en": "The bearer is in the Gravity state as long as they have not suffered any damage. If they suffer damage, the duration of the state changes to 1 turn.",
-        "pt": "O portador fica no estado Gravidade contanto que não tenha sofrido danos. Se tiver sofrido, a duração do estado passa a ser de 1 turno.",
-        "de": "Der Träger befindet sich im Zustand „Schwerkraft“, solange er keinen Schaden erleidet. Wenn er Schaden erleidet, wird die Dauer des Zustands auf 1 Runde gesetzt.",
-        "es": "El portador permanece en el estado Pesante mientras no sufra daños. Si los sufre, el estado dura 1 turno."
+        "fr": "Le porteur est dans l'état Pesanteur tant qu'il n'a pas subi de dommages.\nS'il en subit, la durée de l'état passe à 1 tour.",
+        "en": "The bearer is in the Gravity state as long as they have not suffered any damage.\nIf they suffer damage, the duration of the state changes to 1 turn.",
+        "pt": "O portador fica no estado Gravidade contanto que não tenha sofrido danos.\nSe tiver sofrido, a duração do estado passa a ser de 1 turno.",
+        "de": "Der Träger befindet sich im Zustand „Schwerkraft“, solange er keinen Schaden erleidet.\nWenn er Schaden erleidet, wird die Dauer des Zustands auf 1 Runde gesetzt.",
+        "es": "El portador permanece en el estado Pesante mientras no sufra daños.\nSi los sufre, el estado dura 1 turno."
       }
     }
   },
-  "UP": {
-    "id": "UP",
-    "idDofusDB": 21995,
-    "idDofusBook": 21995,
+  "BH": {
+    "id": "BH",
+    "idDofusDB": 23237,
+    "idDofusBook": 23237,
     "name": {
-      "fr": "Sprynt",
-      "en": "Sprynt",
-      "pt": "Sprint",
-      "de": "Sprynt",
-      "es": "Prisprint"
+      "fr": "Domakuro",
+      "en": "Domakuro",
+      "pt": "Domakuro",
+      "de": "Domakuro",
+      "es": "Domakuro"
     },
-    "level": 200,
+    "level": 120,
     "category": "dofus",
-    "subCategory": "prysmaradite",
+    "subCategory": "dofus",
     "stats": {
-      "mp": 1,
-      "range": -1
+      "summon": 1
     },
     "specialEffect": {
       "name": {
-        "fr": "Sprynt",
-        "en": "Sprynt",
-        "pt": "Sprint",
-        "de": "Sprynt",
-        "es": "Prisprint"
+        "fr": "Rivière d'Encre",
+        "en": "Ink River",
+        "pt": "Rio de Tinta",
+        "de": "Tintenfluss",
+        "es": "Río de Tinta"
       },
       "description": {
-        "fr": "Le porteur est Intaclable tant qu'il n'a pas occasionné de dommages. S'il en occasionne, la durée de l'état passe à 1 tour.",
-        "en": "The bearer is Unlockable as long as they have not inflicted any damage. If they inflict damage, the duration of the state changes to 1 turn.",
-        "pt": "O portador fica Imbloqueável contanto que não tenha infligido danos. Se infligir, a duração do estado passará a ser de 1 turno.",
-        "de": "Der Träger ist unblockbar, solange er keinen Schaden verursacht. Wenn er Schaden verursacht, wird die Dauer des Zustands auf 1 Runde gesetzt.",
-        "es": "El portador es no placable mientras no haya recibido daños. Si los ocasiona, el estado dura 1 turno."
+        "fr": "Rivière d'Encre :\n• À partir du tour 5, le porteur et ses invocations gagnent jusqu'à 64 de Dommages jusqu'à la fin du combat.\n• Ce bonus est réduit à chaque fois que le porteur occasionne des dommages durant son tour à un ennemi pour chacun des 4 premiers tours du combat :\n • Aucune attaque : 16 Dommages\n • 1 attaque : 8 Dommages.\n • 2 attaques et plus : 0 Dommages.",
+        "en": "Ink River:\n• Starting on turn 5, the bearer and their summons gain up to 64 Damage until the end of the fight.\n• This bonus is reduced each time the bearer inflicts damage on an enemy during their turn for each of the first 4 turns of the fight:\n • No attacks: 16 Damage\n • 1 attack: 8 Damage\n• 2 attacks or more: 0 Damage",
+        "pt": "Rio de Tinta:\n• A partir do 5º turno, o portador e suas invocações ganham até 64 de danos até o fim do combate.\n• Esse bônus diminui sempre que o portador inflige danos a um inimigo durante seu turno para cada um dos 4 primeiros turnos do combate:\n • Nenhum ataque: 16 de danos.\n • 1 ataque: 8 de danos.\n• 2 ataques e mais: 0 de danos.",
+        "de": "Tintenfluss:\n• Ab Runde 5 erhalten der Träger und seine Beschwörungen bis zu 64 Schaden bis zum Ende des Kampfes.\n• Dieser Bonus verringert sich jedes Mal, wenn der Träger einem Gegner während der ersten 4 Kampfrunden Schaden zufügt:\n • Kein Angriff: 16 Schaden.\n • 1 Angriff: 8 Schaden.\n• Ab 2 Angriffen: 0 Schaden.",
+        "es": "Río de Tinta:\n• A partir del turno 5, el portador y sus invocaciones ganan hasta 64 de daño hasta el final del combate.\n• Este bonus se reduce cada vez que el portador ocasione daños durante su turno a un enemigo en cada uno de los 4 primeros turnos del combate:\n • Ningún ataque: 16 de daño.\n • 1 ataque: 8 de daño.\n• 2 ataques o más: 0 de daño."
       }
     }
   },
-  "Uz": {
-    "id": "Uz",
-    "idDofusDB": 22021,
-    "idDofusBook": 22021,
+  "FM": {
+    "id": "FM",
+    "idDofusDB": 23408,
+    "idDofusBook": 23408,
     "name": {
-      "fr": "Supprys",
-      "en": "Aspryst",
-      "pt": "Pristeção",
-      "de": "Suppryt",
-      "es": "Prismapoyo"
+      "fr": "Dorigami",
+      "en": "Dorigami",
+      "pt": "Dorigami",
+      "de": "Dorigami",
+      "es": "Dorigami"
     },
-    "level": 200,
+    "level": 150,
     "category": "dofus",
-    "subCategory": "prysmaradite",
+    "subCategory": "dofus",
     "stats": {
-      "heal": 40,
-      "initiative": -1000
+      "mpResist": 20
     },
     "specialEffect": {
       "name": {
-        "fr": "Supprys",
-        "en": "Aspryst",
-        "pt": "Pristeção",
-        "de": "Suppryt",
-        "es": "Prismapoyo"
+        "fr": "Tigre de Papier",
+        "en": "Paper Tiger",
+        "pt": "Tigre de Papel",
+        "de": "Papiertiger",
+        "es": "Tigre de Papel"
       },
       "description": {
-        "fr": "Le porteur augmente les soins reçus par ses combattants alliés de 10% pendant son tour de jeu au premier tour, puis de 35% au deuxième tour, et de 50% au troisième tour.",
-        "en": "The bearer increases the healing received by their allied fighters by 10% during the bearer's turn on the first turn, then by 35% on the second turn and by 50% on the third turn.",
-        "pt": "O portador aumenta as curas recebidas pelos combatentes aliados em 10% durante seu turno de jogo no primeiro turno, em 35% no segundo e em 50% no terceiro.",
-        "de": "Der Träger erhöht während seiner Spielrunde die von verbündeten Kämpfern erhaltene Heilung, und zwar in der ersten Runde um 10 %, in der zweiten Runde um 35 % und in der dritten Runde um 50 %.",
-        "es": "El portador aumenta las curas recibidas por sus luchadores aliados un 10% durante su turno de juego en el primer turno, un 35% en el segundo turno y un 50% en el tercer turno."
+        "fr": "Tigre de Papier :\n• À chaque début de tour sur les 5 premiers tours, le porteur gagne 100% de son niveau en bouclier pendant 1 tour.\n• Sur ces 5 premiers tours, si le porteur achève un ennemi durant son tour de jeu, il gagne un bouclier pendant 2 tours selon la nature de l'ennemi :\n • Invocation : 100% de son niveau en bouclier (cumulable 4 fois).\n • Combattant : 300% de son niveau en bouclier (cumulable 2 fois).",
+        "en": "Paper Tiger:\n• For the first 5 turns, the bearer gains 100% of their level as shield for 1 turn at the start of every turn.\n• For the first 5 turns, if the bearer kills an enemy during their turn, they gain a shield for 2 turns based on the nature of the enemy:\n • Summons: 100% of its level as shield (stackable 4 times).\n• Fighter: 300% of its level as shield (stackable 2 times).",
+        "pt": "Tigre de Papel:\n• A cada início de turno nos 5 primeiros turnos, o lançador ganha 100% de seu nível em escudo durante 1 turno.\n• Nesses 5 primeiros turnos, se o portador eliminar um inimigo durante seu turno de jogo, ele ganhará um escudo durante 2 turnos de acordo com a natureza do inimigo:\n • Invocação: 100% de seu nível em escudo (acumula 4 vezes).\n• Combatente: 300% de seu nível em escudo (acumula 2 vezes).",
+        "de": "Papiertiger:\n• In den ersten 5 Spielrunden erhält der Träger jedes Mal zu Rundenbeginn 1 Runde lang 100 % seiner Stufe als Schild.\n• Wenn der Träger in den ersten 5 Spielrunden einen Gegner besiegt, erhält er 2 Runden lang einen Schild. Der Schild hängt von der Art des Gegners ab:\n • Beschwörung: 100 % seiner Stufe als Schild (4-mal kumulierbar).\n• Kämpfer: 300 % seiner Stufe als Schild (2-mal kumulierbar).",
+        "es": "Tigre de Papel:\n• Al principio de los 5 primeros turnos, el portador gana un 100% de su nivel en escudo durante 1 turno.\n• En estos 5 primeros turnos, si el portador acaba con un enemigo durante su turno de juego, gana un escudo durante 2 turnos según la naturaleza del enemigo:\n • Invocación: 100% de su nivel en escudo (acumulable 4 veces).\n• Luchador: 300% de su nivel en escudo (acumulable 2 veces)."
+      }
+    }
+  },
+  "K5": {
+    "id": "K5",
+    "idDofusDB": 26066,
+    "idDofusBook": 26066,
+    "name": {
+      "fr": "Dofus du Cauchemar",
+      "en": "Nightmare Dofus",
+      "pt": "Dofus do Pesadelo",
+      "de": "Dofus des Alptraums",
+      "es": "Dofus de pesadilla"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "initiative": 1000
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Éternel Cauchemar",
+        "en": "Nightmare Eternal",
+        "pt": "Eterno Pesadelo",
+        "de": "Ewiger Alptraum",
+        "es": "Pesadilla Eterna"
+      },
+      "description": {
+        "fr": "Éternel Cauchemar :\n• Bouclier Bontarien : lorsque le porteur est désenvoûté ou entravé, il gagne 100% de son niveau en bouclier pour 1 tour.\n• Puissance Brâkmarienne : lorsque le porteur occasionne ou subit des dommages de poussée, il gagne 100 de Puissance pour 1 tour. \n• Œil du Cauchemar : si le porteur déclenche les 2 effets dans le même tour, les dommages qu'il occasionne et subit sont augmentés de 10% pendant 1 tour.\n• Les effets ne peuvent être déclenchés qu'une seule fois par tour.",
+        "en": "Nightmare Eternal:\n• Bontarian Shield: when the bearer is unbewitched or hindered, the bearer gains 100% of their level as shield for 1 turn.\n• Brakmarian Power: when the bearer inflicts or suffers pushback damage, the bearer gains 100 Power for 1 turn. \n• Nightmare Eye: if the bearer triggers 2 effects in the same turn, the damage they inflict and suffer increases by 10% for 1 turn.\n• The effects can only be triggered once per turn.",
+        "pt": "Eterno Pesadelo:\n• Escudo Bontariano: quando o portador é desencantado ou entravado, ele ganha em escudo o equivalente a 100% de seu nível durante 1 turno.\n• Potência Brakmariana: quando o portador inflige ou sofre danos de empurrão, ele ganha 100 de potência durante 1 turno. \n• Olho do Pesadelo: se o portador acionar os 2 efeitos no mesmo turno, os danos que ele infligir e sofrer aumentarão em 10% durante 1 turno.\n• Os efeitos só podem ser acionados uma vez por turno.",
+        "de": "Ewiger Alptraum:\n• Bonta-Schild: Wenn der Träger entzaubert oder gefesselt wird, erhält er 1 Runde lang 100 % seiner Stufe als Schild.\n• Brâk-Schlagkraft: Wenn der Träger Schubsschaden verursacht oder erleidet, erhält er 1 Runde lang 100 Schlagkraft. \n• Auge des Alptraums: Löst der Träger beide Wirkungen in derselben Runde aus, erhöht sich der von ihm verursachte und erlittene Schaden 1 Runde lang um 10 %.\n• Die Wirkungen können nur einmal pro Runde ausgelöst werden.",
+        "es": "Pesadilla Eterna:\n• Escudo Bontariano: cuando el portador es desembrujado o trabado, gana un escudo del 100% de su nivel durante 1 turno.\n• Potencia Brakmariana: cuando el portador ocasiona o sufre daños de empuje, gana 100 de potencia durante 1 turno. \n• Ojo de Pesadilla: si el portador activa los 2 efectos en el mismo turno, los daños que ocasiona y sufre aumentan un 10% durante 1 turno.\n• Los efectos pueden activarse solo una vez por turno."
+      }
+    }
+  },
+  "Ka": {
+    "id": "Ka",
+    "idDofusDB": 29136,
+    "idDofusBook": 29136,
+    "name": {
+      "fr": "Dofus Sylvestre",
+      "en": "Sylvan Dofus",
+      "pt": "Dofus Silvestre",
+      "de": "Wald-Dofus",
+      "es": "Dofus silvestre"
+    },
+    "level": 180,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "range": 2
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Garde Champêtre",
+        "en": "Country Ranger",
+        "pt": "Guarda Campestre",
+        "de": "Feldschütz",
+        "es": "Guarda Campestre"
+      },
+      "description": {
+        "fr": "Garde Champêtre :\n• Le porteur gagne 8 de Puissance pendant 2 tours pour chaque PM qu'il utilise.\n• S'il n'a utilisé aucun PM durant son tour, il est soigné de 10% de sa vie.",
+        "en": "Country Ranger:\n• The bearer gains 8 Power for 2 turns for each MP they use.\n• If the bearer doesn't use any MP during their turn, they are healed for 10% of their health.",
+        "pt": "Guarda Campestre:\n• O portador ganha 8 de potência durante 2 turnos para cada PM que ele utilizar.\n• Se ele não tiver usado PM durante seu turno, ele será curado em 10% da vida.",
+        "de": "Feldschütz:\n• Der Träger erhält 2 Runden lang für jeden von ihm verwendeten BP 8 Schlagkraft.\n• Hat er in seiner Runde keinen BP verwendet, wird er um 10 % seiner LP geheilt.",
+        "es": "Guarda Campestre:\n• El portador gana 8 de potencia durante 2 turnos por cada PM que utilice.\n• Si no ha utilizado ningún PM durante su turno, se cura un 10% de su vida."
+      }
+    }
+  },
+  "6x": {
+    "id": "6x",
+    "idDofusDB": 30356,
+    "idDofusBook": 30356,
+    "name": {
+      "fr": "Jyfus",
+      "en": "Aiwuztheya Dofus",
+      "pt": "Dofui",
+      "de": "Jyfus",
+      "es": "Jyfus"
+    },
+    "level": 20,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "vitality": 20
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Jyfus",
+        "en": "Aiwuztheya Dofus",
+        "pt": "Dofui",
+        "de": "Jyfus",
+        "es": "Jyfus"
+      },
+      "description": {
+        "fr": "",
+        "en": "",
+        "pt": "",
+        "de": "",
+        "es": ""
+      }
+    }
+  },
+  "Gk": {
+    "id": "Gk",
+    "idDofusDB": 30451,
+    "idDofusBook": 30451,
+    "name": {
+      "fr": "Prudent",
+      "en": "Cautious",
+      "pt": "Prudente",
+      "de": "Vorsichtig",
+      "es": "Prudente"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "rangedResistPer": 6,
+      "rangedDamagePer": -9,
+      "meleeDamagePer": -9
+    }
+  },
+  "Fd": {
+    "id": "Fd",
+    "idDofusDB": 30452,
+    "idDofusBook": 30452,
+    "name": {
+      "fr": "Audacieux",
+      "en": "Audacious",
+      "pt": "Audacioso",
+      "de": "Kühn",
+      "es": "Valiente"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "meleeResistPer": 6,
+      "rangedDamagePer": -9,
+      "meleeDamagePer": -9
+    }
+  },
+  "G3": {
+    "id": "G3",
+    "idDofusDB": 30453,
+    "idDofusBook": 30453,
+    "name": {
+      "fr": "Impétueux",
+      "en": "Impetuous",
+      "pt": "Impetuoso",
+      "de": "Ungestüm",
+      "es": "Impetuoso"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "rangedDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Gl": {
+    "id": "Gl",
+    "idDofusDB": 30454,
+    "idDofusBook": 30454,
+    "name": {
+      "fr": "Pugiliste",
+      "en": "Pugilist",
+      "pt": "Pugilista",
+      "de": "Faustkämpfer",
+      "es": "Pugilista"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "meleeDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Fb": {
+    "id": "Fb",
+    "idDofusDB": 30455,
+    "idDofusBook": 30455,
+    "name": {
+      "fr": "Arcaniste",
+      "en": "Arcanist",
+      "pt": "Arcanista",
+      "de": "Eingeweiht",
+      "es": "Arcanista"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "spellDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "Fe": {
+    "id": "Fe",
+    "idDofusDB": 30456,
+    "idDofusBook": 30456,
+    "name": {
+      "fr": "Barbare",
+      "en": "Barbaric",
+      "pt": "Bárbaro",
+      "de": "Barbar",
+      "es": "Bárbaro"
+    },
+    "level": 150,
+    "category": "dofus",
+    "subCategory": "trophy",
+    "stats": {
+      "weaponDamagePer": 6,
+      "rangedResistPer": -9,
+      "meleeResistPer": -9
+    }
+  },
+  "IO": {
+    "id": "IO",
+    "idDofusDB": 31794,
+    "idDofusBook": 31794,
+    "name": {
+      "fr": "Dofoozbz",
+      "en": "Dofzzbz",
+      "pt": "Dofzzbz",
+      "de": "Dsfssbs",
+      "es": "Dofzzbz"
+    },
+    "level": 170,
+    "category": "dofus",
+    "subCategory": "dofus",
+    "stats": {
+      "summon": 1
+    },
+    "specialEffect": {
+      "name": {
+        "fr": "Éclosion Explosive",
+        "en": "Explosive Hatching",
+        "pt": "Eclosão Explosiva",
+        "de": "Explosives Ausschlüpfen",
+        "es": "Eclosión Explosiva"
+      },
+      "description": {
+        "fr": "Éclosion Explosive :\n• Lorsqu'une invocation du porteur est attaquée, le porteur gagne 1% de dommages finaux pendant 2 tours (cumulable 10 fois).\n• Si elle est achevée par un ennemi, le porteur occasionne 10 dommages dans son meilleur élément aux ennemis dans un cercle de taille 2 autour d'elle.",
+        "en": "Explosive Hatching:\n• When one of the bearer's summons is attacked, the bearer gains 1% final damage for 2 turns (stackable 10 times).\n• If it is killed by an enemy, the bearer inflicts 10 damage in their best element on enemies in a 2-cell circle around the summons.",
+        "pt": "Eclosão Explosiva:\n• Quando uma invocação do portador é atacada, ele recebe 1% de danos finais por 2 turnos (acumula 10 vezes).\n• Se ela for eliminada por um inimigo, o portador inflige 10 danos em seu melhor elemento aos inimigos em um círculo de tamanho 2 ao redor dela.",
+        "de": "Explosives Ausschlüpfen:\n• Wenn eine Beschwörung des Trägers angegriffen wird, erhöht sich der Endschaden des Trägers 2 Runden lang um 1 % (10-mal kumulierbar).\n• Wenn sie von einem Gegner besiegt wurde, fügt der Träger Gegnern im Umkreis von 2 Feldern um sie 10 Schaden in seinem besten Element zu.",
+        "es": "Eclosión Explosiva:\n• Cuando una invocación del portador es atacada, el portador gana un 1% de daños finales durante 2 turnos (acumulable 10 veces).\n• Si muere a manos de un enemigo, el portador ocasiona 10 de daño con su mejor elemento a los enemigos en un círculo de tamaño 2 alrededor de esta."
       }
     }
   },

@@ -1254,6 +1254,7 @@
       "es": "Escudo de estalarkmis"
     },
     "level": 200,
+    "panoply": "85",
     "category": "shield",
     "subCategory": "shield",
     "stats": {
@@ -2635,6 +2636,189 @@
       "fireResistPer": 10,
       "mpReduction": 10,
       "criticalResist": 15
+    }
+  },
+  "Wc": {
+    "id": "Wc",
+    "idDofusDB": 33576,
+    "idDofusBook": 33576,
+    "name": {
+      "fr": "Boucliœil de Musha",
+      "en": "Musha Sheyeld",
+      "pt": "Escudolho de Musha",
+      "de": "Augenschild von Musha",
+      "es": "Escudojo de Musha"
+    },
+    "level": 87,
+    "panoply": "8g",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 80,
+      "wisdom": 10,
+      "criticalChance": -10,
+      "range": 2,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "fireResistPer": 5,
+      "waterResistPer": 5
+    }
+  },
+  "VI": {
+    "id": "VI",
+    "idDofusDB": 33578,
+    "idDofusBook": 33578,
+    "name": {
+      "fr": "Barrière de Simbadas",
+      "en": "Simbadas Barrier",
+      "pt": "Barreira de Simbadas",
+      "de": "Barriere von Simbadas",
+      "es": "Barrera de Simbadás"
+    },
+    "level": 94,
+    "panoply": "86",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 80,
+      "wisdom": 15,
+      "criticalChance": 8,
+      "range": 1,
+      "summon": 1,
+      "prospecting": 10,
+      "neutralResistPer": 6
+    }
+  },
+  "VL": {
+    "id": "VL",
+    "idDofusDB": 33582,
+    "idDofusBook": 33582,
+    "name": {
+      "fr": "Rempierre de Rok Gnorok",
+      "en": "Rok Gnorok Bastione",
+      "pt": "Pedralha de Rok Gnorok",
+      "de": "Felsfestung von Rok Gnorok",
+      "es": "Rocadarga de Rok Gnorok"
+    },
+    "level": 98,
+    "panoply": "87",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 100,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 20,
+      "prospecting": 10,
+      "fireResistPer": 5,
+      "airResistPer": 5,
+      "lock": 4,
+      "apReduction": 4,
+      "mpReduction": 4
+    }
+  },
+  "Wi": {
+    "id": "Wi",
+    "idDofusDB": 33591,
+    "idDofusBook": 33591,
+    "name": {
+      "fr": "Ékukipik",
+      "en": "Spykutcheon",
+      "pt": "Escukispeta",
+      "de": "Pieksschild",
+      "es": "Eskukepika"
+    },
+    "level": 106,
+    "panoply": "8i",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 120,
+      "wisdom": 20,
+      "power": 20,
+      "range": 1,
+      "summon": 1,
+      "prospecting": 10,
+      "criticalResist": 15,
+      "pushbackResist": 15
+    }
+  },
+  "Wl": {
+    "id": "Wl",
+    "idDofusDB": 33593,
+    "idDofusBook": 33593,
+    "name": {
+      "fr": "Lotus de Nenufor",
+      "en": "War T Lotus",
+      "pt": "Lótus de Nenufor",
+      "de": "Lotus von Nelumbor",
+      "es": "Loto de Nenúflor"
+    },
+    "level": 127,
+    "panoply": "8j",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 130,
+      "intelligence": 35,
+      "chance": 35,
+      "agility": 35,
+      "wisdom": 25,
+      "summon": 1,
+      "heal": 10,
+      "initiative": 150,
+      "earthResistPer": 7,
+      "waterResistPer": 7
+    }
+  },
+  "Wx": {
+    "id": "Wx",
+    "idDofusDB": 33596,
+    "idDofusBook": 33596,
+    "name": {
+      "fr": "Bouclier des Demoël",
+      "en": "Transplent Shield",
+      "pt": "Escudo dos Dula",
+      "de": "Schild der Kainsdaff Ürmisch",
+      "es": "Escudo de los Aludem"
+    },
+    "level": 137,
+    "panoply": "8n",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 60,
+      "strength": 40,
+      "chance": 40,
+      "wisdom": 30,
+      "criticalChance": 6,
+      "prospecting": 15,
+      "fireResist": 15,
+      "airResist": 15,
+      "dodge": 7
+    }
+  },
+  "Wu": {
+    "id": "Wu",
+    "idDofusDB": 34257,
+    "idDofusBook": 34257,
+    "name": {
+      "fr": "Bouclovolko",
+      "en": "Rhineetle Shield",
+      "pt": "Escudokórnio",
+      "de": "Naskschild",
+      "es": "Escuceronte"
+    },
+    "level": 60,
+    "panoply": "8m",
+    "category": "shield",
+    "subCategory": "shield",
+    "stats": {
+      "vitality": 60,
+      "strength": 20,
+      "intelligence": 20,
+      "chance": 20,
+      "agility": 20
     }
   }
 }

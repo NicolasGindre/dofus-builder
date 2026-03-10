@@ -36,7 +36,7 @@ export type ItemMapValue = {
     subcategory: SubCategory;
 };
 
-export type PanoMap = Record<string, PanoMapValue>;
+export type PanoMap = Record<number, PanoMapValue>;
 export type PanoMapValue = {
     id: string;
     dofusDBId: number;
@@ -89,6 +89,7 @@ const ItemRespSchema = z.object({
             z.object({
                 // panoply
                 _id: z.string(),
+                id: z.number(),
                 name: NameSchema,
             }),
             z.any().transform(() => undefined),
@@ -150,11 +151,13 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             if (shouldSkipItem(dofusDbItem)) {
                 continue;
             }
-            let itemMap: ItemMapValue;
+            // let itemMap: ItemMapValue || undefined;
             // let dofusBookId: number;
             // let dofusMinMaxId: string;
-            if (!dofusBookIdMap[dofusDbItem._id]) {
-                console.error("item has no match in dofusbook", dofusDbItem.name.fr);
+            const itemMap: ItemMapValue | undefined = dofusBookIdMap[dofusDbItem.id]
+            if (!itemMap) {
+            // if (!dofusBookIdMap[dofusDbItem._id]) {
+                console.error("item is not mapped", dofusDbItem.name.fr, dofusDbItem._id, dofusDbItem.id);
                 // if (!dofusBookNameMap[dofusDbItem.name.fr]) {
                 // console.log({
                 //     "dofusDbItem._id": {
@@ -172,12 +175,18 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
                 //     itemMap = dofusBookNameMap[dofusDbItem.name.fr]!;
                 //     console.log("There was no id match but found name match", dofusDbItem.name.fr);
                 // }
-            } else {
-                itemMap = dofusBookIdMap[dofusDbItem._id]!;
-            }
+            } 
+            // else {
+            //     itemMap = dofusBookIdMap[dofusDbItem._id]!;
+            // }
             let panoMinMaxId: string = "";
             if (dofusDbItem.itemSet) {
-                panoMinMaxId = panoIdMap[dofusDbItem.itemSet._id]!.id;
+                const panoFromMap = panoIdMap[`${dofusDbItem.itemSet.id}`]
+                if(!panoFromMap) {
+                    console.error("couldn't find pano id", dofusDbItem.name.fr, dofusDbItem.itemSet.id)
+                } else {
+                    panoMinMaxId = panoFromMap.id;
+                }
             }
 
             const newItem = await translateItem(
@@ -425,7 +434,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
                 continue;
             }
             let panoMap: PanoMapValue;
-            if (!panoIdMap[dofusDbPano._id]) {
+            if (!panoIdMap[dofusDbPano.id]) {
                 // if (!panoNameMap[dofusDbPano.name.fr]) {
                 console.error("pano has no match in dofusbook", dofusDbPano.name.fr);
                 // console.log({
@@ -442,7 +451,7 @@ export async function downloadPanopliesStats(): Promise<Panoplies> {
                 //     console.log("There was no id match but found name match", panoMap);
                 // }
             } else {
-                panoMap = panoIdMap[dofusDbPano._id]!;
+                panoMap = panoIdMap[dofusDbPano.id]!;
             }
             panoplies[panoMap.id] = {
                 id: panoMap.id,
