@@ -3036,6 +3036,195 @@
       }
     ]
   },
+  "85": {
+    "id": "85",
+    "idDofusDB": 1077,
+    "name": {
+      "fr": "Panoplie des Armutins",
+      "en": "Armarines Set",
+      "pt": "Conjunto dos Armutinados",
+      "de": "Ausrüstungsset der Rüstebellen",
+      "es": "Set de los armadutinados"
+    },
+    "level": 200,
+    "items": [
+      "S8",
+      "VG",
+      "VH"
+    ],
+    "stats": [
+      {},
+      {
+        "fireDamage": 30,
+        "waterDamage": 30,
+        "power": 50,
+        "pushbackDamage": 20,
+        "mpResist": 15,
+        "dodge": 10,
+        "airDamage": 30
+      },
+      {
+        "power": 50,
+        "pushbackDamage": 40,
+        "mpResist": 30,
+        "dodge": 20,
+        "airDamage": 60,
+        "waterDamage": 60,
+        "fireDamage": 60,
+        "ap": 1
+      }
+    ]
+  },
+  "86": {
+    "id": "86",
+    "idDofusDB": 1067,
+    "name": {
+      "fr": "Panoplie de Simbadas",
+      "en": "Simbadas Set",
+      "pt": "Conjunto de Simbadas",
+      "de": "Ausrüstungsset von Simbadas",
+      "es": "Set de Simbadás"
+    },
+    "level": 96,
+    "items": [
+      "VI",
+      "VJ",
+      "VK"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 20,
+        "dodge": 15,
+        "criticalChance": 5
+      },
+      {
+        "ap": 1,
+        "power": 30,
+        "dodge": 15,
+        "criticalChance": 5
+      }
+    ]
+  },
+  "87": {
+    "id": "87",
+    "idDofusDB": 1068,
+    "name": {
+      "fr": "Panoplie de Rok Gnorok",
+      "en": "Rok Gnorok Set",
+      "pt": "Conjunto de Rok Gnorok",
+      "de": "Ausrüstungsset von Rok Gnorok",
+      "es": "Set de Rok Gnorok"
+    },
+    "level": 98,
+    "items": [
+      "VL",
+      "VM",
+      "VN"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 20,
+        "intelligence": 20,
+        "chance": 20,
+        "agility": 20,
+        "lock": 5,
+        "apReduction": 5,
+        "mpReduction": 5
+      },
+      {
+        "ap": 1,
+        "strength": 20,
+        "intelligence": 20,
+        "chance": 20,
+        "agility": 20,
+        "lock": 5,
+        "apReduction": 5,
+        "mpReduction": 5
+      }
+    ]
+  },
+  "88": {
+    "id": "88",
+    "idDofusDB": 1070,
+    "name": {
+      "fr": "Panoplie de Naganita",
+      "en": "Naganita Set",
+      "pt": "Conjunto de Naganita",
+      "de": "Ausrüstungsset von Naganita",
+      "es": "Set de Naganita"
+    },
+    "level": 109,
+    "items": [
+      "VO",
+      "VP",
+      "VQ"
+    ],
+    "stats": [
+      {},
+      {
+        "chance": 30,
+        "heal": 10,
+        "lock": 10,
+        "criticalChance": 8
+      },
+      {
+        "ap": 1,
+        "chance": 30,
+        "heal": 10,
+        "lock": 10,
+        "criticalChance": 8
+      }
+    ]
+  },
+  "89": {
+    "id": "89",
+    "idDofusDB": 1075,
+    "name": {
+      "fr": "Panoplie du Shushu Debruk'Sayl",
+      "en": "Shushu Ptidoop Set",
+      "pt": "Conjunto do Shushu Rasco",
+      "de": "Ausrüstungsset von Shushu Nakol",
+      "es": "Set del fab'huritu Coldbru'Selas"
+    },
+    "level": 187,
+    "items": [
+      "VR",
+      "VS",
+      "VT"
+    ],
+    "stats": [
+      {},
+      {
+        "neutralDamage": 15,
+        "earthDamage": 15,
+        "range": 1,
+        "lock": 7,
+        "apReduction": 7,
+        "apResist": 7,
+        "airDamage": 15,
+        "fireDamage": 15,
+        "strength": 30,
+        "intelligence": 30,
+        "agility": 30
+      },
+      {
+        "range": 1,
+        "lock": 12,
+        "apReduction": 12,
+        "apResist": 12,
+        "airDamage": 25,
+        "fireDamage": 25,
+        "earthDamage": 25,
+        "neutralDamage": 25,
+        "ap": 1,
+        "strength": 50,
+        "intelligence": 50,
+        "agility": 50
+      }
+    ]
+  },
   "0m": {
     "id": "0m",
     "idDofusDB": 1,
@@ -4888,11 +5077,11 @@
     "id": "1X",
     "idDofusDB": 42,
     "name": {
-      "fr": "Panoplie Dindo",
-      "en": "Turko Set",
-      "pt": "Conjunto Perueiro",
+      "fr": "Panodindo",
+      "en": "Turkoset",
+      "pt": "Conjuperueiro",
       "de": "Truter-Set",
-      "es": "Set Pavuesco"
+      "es": "Set dragopavil"
     },
     "level": 50,
     "items": [
@@ -4906,27 +5095,27 @@
       {
         "agility": 20,
         "vitality": 40,
-        "strength": 20,
-        "intelligence": 20,
+        "prospecting": 10,
         "chance": 20,
-        "prospecting": 10
+        "intelligence": 20,
+        "strength": 20
       },
       {
-        "agility": 25,
-        "prospecting": 15,
-        "vitality": 50,
-        "strength": 25,
+        "chance": 25,
         "intelligence": 25,
-        "chance": 25
+        "strength": 25,
+        "vitality": 50,
+        "prospecting": 15,
+        "agility": 25
       },
       {
-        "ap": 1,
-        "prospecting": 20,
-        "vitality": 60,
-        "agility": 30,
-        "strength": 30,
+        "chance": 30,
         "intelligence": 30,
-        "chance": 30
+        "strength": 30,
+        "agility": 30,
+        "vitality": 60,
+        "prospecting": 20,
+        "ap": 1
       }
     ]
   },
@@ -10434,11 +10623,11 @@
     "id": "5x",
     "idDofusDB": 245,
     "name": {
-      "fr": "Panoplie d'Ogivol Scalarcin",
-      "en": "Ogivol Scalarcin Set",
-      "pt": "Conjunto de Ogivol Scafurtado",
-      "de": "Ausrüstungsset von Ogivol Scalarcin",
-      "es": "Set de Ogivol Scarratero"
+      "fr": "Panoplie d'Ogivol",
+      "en": "Ogivol Set",
+      "pt": "Conjunto de Ogivol",
+      "de": "Ogivol-Set",
+      "es": "Set de Ogivol"
     },
     "level": 195,
     "items": [
@@ -10451,39 +10640,39 @@
       {
         "strength": 30,
         "chance": 30,
-        "airResistPer": 7,
-        "fireResistPer": 7,
-        "criticalResist": 30,
-        "criticalChance": 10,
-        "agility": 30,
-        "vitality": 100,
-        "neutralDamage": 10,
-        "earthDamage": 10,
-        "waterDamage": 10,
-        "airDamage": 10,
-        "range": 1,
-        "summon": 1,
+        "prospecting": 20,
         "initiative": 300,
-        "prospecting": 20
+        "summon": 1,
+        "range": 1,
+        "airDamage": 10,
+        "waterDamage": 10,
+        "earthDamage": 10,
+        "neutralDamage": 10,
+        "vitality": 100,
+        "agility": 30,
+        "criticalChance": 10,
+        "criticalResist": 30,
+        "fireResistPer": 7,
+        "airResistPer": 7
       },
       {
-        "airResistPer": 7,
-        "fireResistPer": 7,
-        "ap": 1,
-        "criticalResist": 30,
-        "criticalChance": 10,
-        "agility": 60,
-        "chance": 60,
-        "strength": 60,
-        "vitality": 100,
-        "neutralDamage": 15,
-        "earthDamage": 15,
-        "waterDamage": 15,
-        "airDamage": 15,
-        "range": 1,
-        "summon": 1,
+        "prospecting": 20,
         "initiative": 300,
-        "prospecting": 20
+        "summon": 1,
+        "range": 1,
+        "airDamage": 15,
+        "waterDamage": 15,
+        "earthDamage": 15,
+        "neutralDamage": 15,
+        "vitality": 100,
+        "strength": 60,
+        "chance": 60,
+        "agility": 60,
+        "criticalChance": 10,
+        "criticalResist": 30,
+        "ap": 1,
+        "fireResistPer": 7,
+        "airResistPer": 7
       }
     ]
   },
@@ -10729,10 +10918,10 @@
     "id": "5Z",
     "idDofusDB": 260,
     "name": {
-      "fr": "Panoplie de Padgref Demoël",
-      "en": "Nomarow Transplent Set",
-      "pt": "Conjunto de Nondome Dula",
-      "de": "Ausrüstungsset vom Knöchernen Mark von Kainsdaff Ürmisch",
+      "fr": "Panoplie de Padgref",
+      "en": "Nomarow Set",
+      "pt": "Conjunto de Nondome",
+      "de": "Set des Knöchernen Marks",
       "es": "Set de Noai Aludem"
     },
     "level": 198,
@@ -10746,15 +10935,15 @@
       {
         "intelligence": 30,
         "agility": 30,
-        "criticalDamage": 10,
-        "criticalChance": 8
+        "criticalChance": 8,
+        "criticalDamage": 10
       },
       {
-        "ap": 1,
-        "criticalDamage": 10,
-        "criticalChance": 8,
+        "intelligence": 30,
         "agility": 30,
-        "intelligence": 30
+        "criticalChance": 8,
+        "criticalDamage": 10,
+        "ap": 1
       }
     ]
   },
@@ -16708,11 +16897,11 @@
     "id": "5u",
     "idDofusDB": 513,
     "name": {
-      "fr": "Panoplie de Barbéryl Clochecuivre",
-      "en": "Berylbell Copperbeard Set",
-      "pt": "Conjunto de Barberila Sinocobre",
-      "de": "Ausrüstungsset von Barberyl Glockenleder",
-      "es": "Set de Demena Decobre"
+      "fr": "Panoplie de Barbéryl",
+      "en": "Berylbell Set",
+      "pt": "Conjunto de Barberila",
+      "de": "Barberyl-Set",
+      "es": "Set de Demena"
     },
     "level": 194,
     "items": [
@@ -16728,10 +16917,10 @@
         "dodge": 7
       },
       {
-        "dodge": 7,
-        "criticalDamage": 10,
+        "chance": 40,
         "ap": 1,
-        "chance": 40
+        "criticalDamage": 10,
+        "dodge": 7
       }
     ]
   },
@@ -20045,14 +20234,12 @@
       {},
       {
         "power": 40,
-        "initiative": 500,
-        "vitality": 200
+        "initiative": 500
       },
       {
-        "power": 80,
-        "initiative": 500,
-        "vitality": 200,
-        "damage": 10
+        "summon": 1,
+        "power": 40,
+        "initiative": 500
       }
     ]
   },
@@ -20439,6 +20626,493 @@
         "chance": 60,
         "intelligence": 60,
         "strength": 60
+      }
+    ]
+  },
+  "8a": {
+    "id": "8a",
+    "idDofusDB": 1061,
+    "name": {
+      "fr": "Panoplie des Scalarcin",
+      "en": "Scalarcin Set",
+      "pt": "Conjunto dos Scafurtado",
+      "de": "Ausrüstungsset der Scalarcin",
+      "es": "Set de los Scarratero"
+    },
+    "level": 55,
+    "items": [
+      "VU",
+      "VV",
+      "VW"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 15,
+        "mpReduction": 10,
+        "range": 1
+      },
+      {
+        "power": 15,
+        "mpReduction": 10,
+        "range": 2
+      }
+    ]
+  },
+  "8b": {
+    "id": "8b",
+    "idDofusDB": 1062,
+    "name": {
+      "fr": "Panoplie de Marzwel",
+      "en": "Marzwel Set",
+      "pt": "Conjunto de Marzwel",
+      "de": "Ausrüstungsset von Marzwel",
+      "es": "Set de Marzwelo"
+    },
+    "level": 66,
+    "items": [
+      "VX",
+      "VY",
+      "VZ"
+    ],
+    "stats": [
+      {},
+      {
+        "fireDamage": 10,
+        "airDamage": 10,
+        "lock": 5,
+        "mpReduction": 5
+      },
+      {
+        "range": 1,
+        "fireDamage": 10,
+        "airDamage": 10,
+        "lock": 5,
+        "mpReduction": 5
+      }
+    ]
+  },
+  "8c": {
+    "id": "8c",
+    "idDofusDB": 1063,
+    "name": {
+      "fr": "Panoplie de Qil Bil",
+      "en": "Qil Bil Set",
+      "pt": "Conjunto de Qil Bil",
+      "de": "Ausrüstungsset von Qil Bil",
+      "es": "Set de Qil Bil"
+    },
+    "level": 77,
+    "items": [
+      "W0",
+      "W1",
+      "W2"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 20,
+        "pushbackDamage": 15,
+        "criticalChance": 5
+      },
+      {
+        "power": 20,
+        "pushbackDamage": 15,
+        "criticalChance": 5,
+        "mp": 1
+      }
+    ]
+  },
+  "8d": {
+    "id": "8d",
+    "idDofusDB": 1064,
+    "name": {
+      "fr": "Panoplie de la Terrible",
+      "en": "The Terrible Set",
+      "pt": "Conjunto da Terrível",
+      "de": "Ausrüstungsset der Schrecklichen",
+      "es": "Set de la Terrible"
+    },
+    "level": 85,
+    "items": [
+      "W3",
+      "W4",
+      "W5"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 30,
+        "pushbackDamage": 10,
+        "earthDamage": 5,
+        "neutralDamage": 5
+      },
+      {
+        "strength": 30,
+        "pushbackDamage": 10,
+        "earthDamage": 5,
+        "neutralDamage": 5,
+        "ap": 1
+      }
+    ]
+  },
+  "8e": {
+    "id": "8e",
+    "idDofusDB": 1065,
+    "name": {
+      "fr": "Panoplie des Scalptaras",
+      "en": "Scalptaras Set",
+      "pt": "Conjunto dos Scalptaras",
+      "de": "Ausrüstungsset der Scalptaras",
+      "es": "Set de los Scalptaras"
+    },
+    "level": 86,
+    "items": [
+      "W6",
+      "W7",
+      "W8"
+    ],
+    "stats": [
+      {},
+      {
+        "initiative": 300,
+        "earthDamage": 10,
+        "fireDamage": 10,
+        "waterDamage": 10,
+        "neutralDamage": 10,
+        "apReduction": 5
+      },
+      {
+        "ap": 1,
+        "initiative": 300,
+        "earthDamage": 10,
+        "fireDamage": 10,
+        "waterDamage": 10,
+        "neutralDamage": 10,
+        "apReduction": 5
+      }
+    ]
+  },
+  "8g": {
+    "id": "8g",
+    "idDofusDB": 1066,
+    "name": {
+      "fr": "Panoplie de Musha",
+      "en": "Musha Set",
+      "pt": "Conjunto de Musha",
+      "de": "Ausrüstungsset von Musha",
+      "es": "Set de Musha"
+    },
+    "level": 87,
+    "items": [
+      "Wc",
+      "Wd",
+      "We"
+    ],
+    "stats": [
+      {},
+      {
+        "range": 2,
+        "criticalChance": -10,
+        "waterResistPer": 5,
+        "fireResistPer": 5,
+        "earthResistPer": 5,
+        "neutralResistPer": 5,
+        "damage": 10
+      },
+      {
+        "damage": 10,
+        "neutralResistPer": 5,
+        "earthResistPer": 5,
+        "fireResistPer": 5,
+        "waterResistPer": 5,
+        "criticalChance": -10,
+        "ap": 1,
+        "range": 2
+      }
+    ]
+  },
+  "8h": {
+    "id": "8h",
+    "idDofusDB": 1069,
+    "name": {
+      "fr": "Panoplie de l'Aguerfelde",
+      "en": "Augerfeld Set",
+      "pt": "Conjunto da Largafelde",
+      "de": "Ausrüstungsset von La Garfield",
+      "es": "Set de La Guerfeld"
+    },
+    "level": 106,
+    "items": [
+      "Wf",
+      "Wg",
+      "Wh"
+    ],
+    "stats": [
+      {},
+      {
+        "strength": 20,
+        "intelligence": 20,
+        "criticalChance": 5,
+        "criticalDamage": 10,
+        "mpReduction": 5,
+        "summon": 1
+      },
+      {
+        "ap": 1,
+        "summon": 1,
+        "mpReduction": 5,
+        "criticalDamage": 10,
+        "criticalChance": 5,
+        "intelligence": 20,
+        "strength": 20
+      }
+    ]
+  },
+  "8i": {
+    "id": "8i",
+    "idDofusDB": 1071,
+    "name": {
+      "fr": "Panokipik",
+      "en": "Stingset",
+      "pt": "Conjundor",
+      "de": "Piksiges Set",
+      "es": "Setkepika"
+    },
+    "level": 106,
+    "items": [
+      "Wi",
+      "Wj",
+      "Wk"
+    ],
+    "stats": [
+      {},
+      {
+        "power": 20,
+        "criticalResist": 15,
+        "pushbackResist": 15,
+        "summon": 1,
+        "range": 1,
+        "vitality": 100
+      },
+      {
+        "ap": 1,
+        "power": 20,
+        "criticalResist": 15,
+        "pushbackResist": 15,
+        "summon": 1,
+        "range": 1,
+        "vitality": 100
+      }
+    ]
+  },
+  "8j": {
+    "id": "8j",
+    "idDofusDB": 1072,
+    "name": {
+      "fr": "Panoplie de Nenufor Tilotus",
+      "en": "War T'Lillyput Set",
+      "pt": "Conjunto de Nenufor Tilótus",
+      "de": "Ausrüstungsset von Nelumbor Klotus",
+      "es": "Set de Nenúflor Deloto"
+    },
+    "level": 129,
+    "items": [
+      "Wl",
+      "Wm",
+      "Wn"
+    ],
+    "stats": [
+      {},
+      {
+        "intelligence": 30,
+        "chance": 30,
+        "agility": 30,
+        "summon": 2,
+        "heal": 20,
+        "initiative": 300
+      },
+      {
+        "ap": 1,
+        "intelligence": 30,
+        "chance": 30,
+        "agility": 30,
+        "heal": 20,
+        "summon": 2,
+        "initiative": 300
+      }
+    ]
+  },
+  "8n": {
+    "id": "8n",
+    "idDofusDB": 1073,
+    "name": {
+      "fr": "Panoplie des Demoël",
+      "en": "Transplent Set",
+      "pt": "Conjunto dos Dula",
+      "de": "Ausrüstungsset der Kainsdaff Ürmisch",
+      "es": "Set de los Aludem"
+    },
+    "level": 139,
+    "items": [
+      "Wx",
+      "Wy",
+      "Wz"
+    ],
+    "stats": [
+      {},
+      {
+        "criticalDamage": 10,
+        "dodge": 7,
+        "criticalChance": 5
+      },
+      {
+        "dodge": 7,
+        "criticalChance": 5,
+        "criticalDamage": 10,
+        "ap": 1
+      }
+    ]
+  },
+  "8k": {
+    "id": "8k",
+    "idDofusDB": 1074,
+    "name": {
+      "fr": "Panoplie de Fojumo",
+      "en": "Buddy Dubble Set",
+      "pt": "Conjunto de Dizigoto",
+      "de": "Ausrüstungsset von Dizigota",
+      "es": "Set de Gemalo"
+    },
+    "level": 146,
+    "items": [
+      "Wo",
+      "Wp",
+      "Wq"
+    ],
+    "stats": [
+      {},
+      {
+        "initiative": 400,
+        "apResist": 5,
+        "dodge": 5,
+        "agility": 40,
+        "mpResist": 5,
+        "lock": 5
+      },
+      {
+        "ap": 1,
+        "dodge": 10,
+        "mpResist": 10,
+        "apResist": 10,
+        "agility": 40,
+        "initiative": 400,
+        "lock": 5
+      }
+    ]
+  },
+  "8f": {
+    "id": "8f",
+    "idDofusDB": 1076,
+    "name": {
+      "fr": "Panoplie de Predagob",
+      "en": "Predagob Set",
+      "pt": "Conjunto de Predagob",
+      "de": "Ausrüstungsset von Predagob",
+      "es": "Set de Predagob"
+    },
+    "level": 194,
+    "items": [
+      "W9",
+      "Wa",
+      "Wb"
+    ],
+    "stats": [
+      {},
+      {
+        "pushbackDamage": 15,
+        "waterDamage": 15,
+        "airDamage": 15,
+        "lock": 10,
+        "dodge": 10
+      },
+      {
+        "ap": 1,
+        "pushbackDamage": 25,
+        "waterDamage": 15,
+        "airDamage": 15,
+        "lock": 15,
+        "dodge": 15
+      }
+    ]
+  },
+  "8l": {
+    "id": "8l",
+    "idDofusDB": 1086,
+    "name": {
+      "fr": "Panomuldo",
+      "en": "Seemyoolset",
+      "pt": "Marmujunto",
+      "de": "Quaggset",
+      "es": "Set mulacuoso"
+    },
+    "level": 55,
+    "items": [
+      "Wr",
+      "Ws",
+      "Wt"
+    ],
+    "stats": [
+      {},
+      {
+        "neutralDamage": 5,
+        "earthDamage": 5,
+        "fireDamage": 5,
+        "waterDamage": 5,
+        "airDamage": 5
+      },
+      {
+        "neutralDamage": 5,
+        "earthDamage": 5,
+        "fireDamage": 5,
+        "waterDamage": 5,
+        "airDamage": 5,
+        "range": 1
+      }
+    ]
+  },
+  "8m": {
+    "id": "8m",
+    "idDofusDB": 1087,
+    "name": {
+      "fr": "Panovolko",
+      "en": "Rhineetleset",
+      "pt": "Vulkonjunto",
+      "de": "Naskset",
+      "es": "Set vueloceróntico"
+    },
+    "level": 60,
+    "items": [
+      "Wu",
+      "Wv",
+      "Ww"
+    ],
+    "stats": [
+      {},
+      {
+        "neutralResistPer": 4,
+        "earthResistPer": 4,
+        "fireResistPer": 4,
+        "waterResistPer": 4,
+        "airResistPer": 4
+      },
+      {
+        "neutralResistPer": 4,
+        "earthResistPer": 4,
+        "fireResistPer": 4,
+        "waterResistPer": 4,
+        "airResistPer": 4,
+        "ap": 1
       }
     ]
   }

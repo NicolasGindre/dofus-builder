@@ -9424,5 +9424,265 @@
       "waterResistPer": 7,
       "pushbackDamage": 20
     }
+  },
+  "VY": {
+    "id": "VY",
+    "idDofusDB": 33562,
+    "idDofusBook": 33562,
+    "name": {
+      "fr": "Oreilles de Marzwel",
+      "en": "Marzwel Ears",
+      "pt": "Orelhas de Marzwel",
+      "de": "Marzwel-Ohren",
+      "es": "Orejas de Marzwelo"
+    },
+    "level": 62,
+    "panoply": "8b",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 60,
+      "intelligence": 30,
+      "agility": 30,
+      "wisdom": 15,
+      "criticalChance": 6,
+      "lock": 4
+    }
+  },
+  "W0": {
+    "id": "W0",
+    "idDofusDB": 33565,
+    "idDofusBook": 33565,
+    "name": {
+      "fr": "Casque de Qil Bil",
+      "en": "Qil Bil Helmet",
+      "pt": "Capacete de Qil Bil",
+      "de": "Helm von Qil Bil",
+      "es": "Casco de Qil Bil"
+    },
+    "level": 73,
+    "panoply": "8c",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 60,
+      "wisdom": 15,
+      "power": 25,
+      "criticalChance": 6,
+      "range": 1,
+      "pushbackDamage": 15
+    }
+  },
+  "W3": {
+    "id": "W3",
+    "idDofusDB": 33568,
+    "idDofusBook": 33568,
+    "name": {
+      "fr": "Capuche de Tyranne",
+      "en": "Tyranna Hood",
+      "pt": "Capuz de Tyrana",
+      "de": "Kapuze von Tyrana",
+      "es": "Capucha de Tirana"
+    },
+    "level": 81,
+    "panoply": "8d",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 90,
+      "strength": 50,
+      "wisdom": 20,
+      "summon": 1,
+      "fireResistPer": 4,
+      "pushbackDamage": 15
+    }
+  },
+  "We": {
+    "id": "We",
+    "idDofusDB": 33574,
+    "idDofusBook": 33574,
+    "name": {
+      "fr": "Capuche de Musha",
+      "en": "Musha Hood",
+      "pt": "Capuz de Musha",
+      "de": "Kapuze von Musha",
+      "es": "Capucha de Musha"
+    },
+    "level": 83,
+    "panoply": "8g",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 70,
+      "wisdom": 15,
+      "criticalChance": -10,
+      "damage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 5,
+      "earthResistPer": 5,
+      "lock": 6
+    }
+  },
+  "Wf": {
+    "id": "Wf",
+    "idDofusDB": 33583,
+    "idDofusBook": 33583,
+    "name": {
+      "fr": "Bandeau de Carlita",
+      "en": "Carlita Headband",
+      "pt": "Faixa de Carlita",
+      "de": "Stirnband von Carlita",
+      "es": "Pañuelo de Carlita"
+    },
+    "level": 102,
+    "panoply": "8h",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 130,
+      "strength": 40,
+      "intelligence": 40,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "summon": 1,
+      "prospecting": 10,
+      "earthResistPer": 5,
+      "criticalDamage": 10
+    }
+  },
+  "Wj": {
+    "id": "Wj",
+    "idDofusDB": 33589,
+    "idDofusBook": 33589,
+    "name": {
+      "fr": "Chapokipik",
+      "en": "Spykhat",
+      "pt": "Chapeukispeta",
+      "de": "Piekshut",
+      "es": "Caskokepika"
+    },
+    "level": 102,
+    "panoply": "8i",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 120,
+      "wisdom": 30,
+      "power": 30,
+      "range": 1,
+      "damage": 6,
+      "prospecting": 10,
+      "criticalResist": 10,
+      "pushbackResist": 10
+    }
+  },
+  "Wn": {
+    "id": "Wn",
+    "idDofusDB": 33592,
+    "idDofusBook": 33592,
+    "name": {
+      "fr": "Nénuphar de Nenufor",
+      "en": "War T Lily",
+      "pt": "Nenúfar de Nenufor",
+      "de": "Seerose von Nelumbor",
+      "es": "Nenúfar de Nenúflor"
+    },
+    "level": 125,
+    "panoply": "8j",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 150,
+      "intelligence": 40,
+      "chance": 40,
+      "agility": 40,
+      "wisdom": 25,
+      "fireDamage": 7,
+      "waterDamage": 7,
+      "airDamage": 7,
+      "heal": 7,
+      "initiative": 400,
+      "waterResistPer": 7
+    }
+  },
+  "Wo": {
+    "id": "Wo",
+    "idDofusDB": 33598,
+    "idDofusBook": 33598,
+    "name": {
+      "fr": "Masque de Fojumo",
+      "en": "Buddy Dubble Mask",
+      "pt": "Máscara do Dizigoto",
+      "de": "Maske von Dizigota",
+      "es": "Máscara de Gemalo"
+    },
+    "level": 142,
+    "panoply": "8k",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 200,
+      "agility": 50,
+      "wisdom": 40,
+      "range": 1,
+      "airDamage": 12,
+      "prospecting": 15,
+      "initiative": 300,
+      "airResistPer": 7,
+      "lock": 5,
+      "mpResist": 10,
+      "criticalResist": 10
+    }
+  },
+  "W9": {
+    "id": "W9",
+    "idDofusDB": 33604,
+    "idDofusBook": 33604,
+    "name": {
+      "fr": "Perruque de Predagob",
+      "en": "Predagob Wig",
+      "pt": "Peruca do Predagob",
+      "de": "Perücke von Predagob",
+      "es": "Peluca de Predagob"
+    },
+    "level": 190,
+    "panoply": "8f",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 350,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "waterDamage": 12,
+      "airDamage": 12,
+      "prospecting": 15,
+      "waterResistPer": 7,
+      "airResistPer": 7,
+      "lock": 6,
+      "pushbackDamage": 20,
+      "pushbackResist": 15
+    }
+  },
+  "Ws": {
+    "id": "Ws",
+    "idDofusDB": 34252,
+    "idDofusBook": 34252,
+    "name": {
+      "fr": "Chapomuldo",
+      "en": "Seemyool Hat",
+      "pt": "Chapermula",
+      "de": "Quaggahut",
+      "es": "Gorrulagua"
+    },
+    "level": 55,
+    "panoply": "8l",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 30,
+      "mp": 1,
+      "neutralResistPer": 4
+    }
   }
 }

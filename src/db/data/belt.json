@@ -9020,5 +9020,145 @@
       "lock": 6,
       "mpReduction": 6
     }
+  },
+  "W4": {
+    "id": "W4",
+    "idDofusDB": 33569,
+    "idDofusBook": 33569,
+    "name": {
+      "fr": "Ceinture de Tyranne",
+      "en": "Tyranna Belt",
+      "pt": "Cinto de Tyrana",
+      "de": "Gürtel von Tyrana",
+      "es": "Cinturón de Tirana"
+    },
+    "level": 83,
+    "panoply": "8d",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 90,
+      "wisdom": 25,
+      "range": 1,
+      "neutralDamage": 10,
+      "earthDamage": 10,
+      "prospecting": 10,
+      "neutralResistPer": 4,
+      "pushbackDamage": 10
+    }
+  },
+  "W8": {
+    "id": "W8",
+    "idDofusDB": 33572,
+    "idDofusBook": 33572,
+    "name": {
+      "fr": "Tablier des Scalptaras",
+      "en": "Scalptaras Apron",
+      "pt": "Avental dos Scalptaras",
+      "de": "Schürze der Scalptaras",
+      "es": "Delantal de los Scalptaras"
+    },
+    "level": 84,
+    "panoply": "8e",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 70,
+      "strength": 30,
+      "intelligence": 30,
+      "chance": 30,
+      "wisdom": 20,
+      "prospecting": 10,
+      "initiative": 150,
+      "fireResistPer": 4,
+      "apReduction": 4
+    }
+  },
+  "Wg": {
+    "id": "Wg",
+    "idDofusDB": 33584,
+    "idDofusBook": 33584,
+    "name": {
+      "fr": "Sangle de Carlita",
+      "en": "Carlita Belt",
+      "pt": "Cinta de Carlita",
+      "de": "Gurt von Carlita",
+      "es": "Correa de Carlita"
+    },
+    "level": 104,
+    "panoply": "8h",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 120,
+      "strength": 30,
+      "intelligence": 30,
+      "wisdom": 30,
+      "criticalChance": 2,
+      "summon": 1,
+      "prospecting": 15,
+      "fireResistPer": 5,
+      "mpReduction": 5,
+      "criticalDamage": 12
+    }
+  },
+  "Wy": {
+    "id": "Wy",
+    "idDofusDB": 33595,
+    "idDofusBook": 33595,
+    "name": {
+      "fr": "Ceinture des Demoël",
+      "en": "Transplent Belt",
+      "pt": "Cinto dos Dula",
+      "de": "Gürtel der Kainsdaff Ürmisch",
+      "es": "Cinturón de los Aludem"
+    },
+    "level": 135,
+    "panoply": "8n",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 60,
+      "strength": 50,
+      "chance": 50,
+      "wisdom": 25,
+      "criticalChance": 6,
+      "range": 1,
+      "earthDamage": 7,
+      "waterDamage": 7,
+      "prospecting": 10,
+      "dodge": 6,
+      "criticalDamage": 10
+    }
+  },
+  "Wa": {
+    "id": "Wa",
+    "idDofusDB": 33606,
+    "idDofusBook": 33606,
+    "name": {
+      "fr": "Pagne de Predagob",
+      "en": "Predagob Loincloth",
+      "pt": "Tanga de Predagob",
+      "de": "Lendenschurz von Predagob",
+      "es": "Taparrabos de Predagob"
+    },
+    "level": 194,
+    "panoply": "8f",
+    "category": "belt",
+    "subCategory": "belt",
+    "stats": {
+      "vitality": 300,
+      "chance": 70,
+      "agility": 70,
+      "wisdom": 40,
+      "waterDamage": 10,
+      "airDamage": 10,
+      "prospecting": 15,
+      "waterResistPer": 10,
+      "airResistPer": 10,
+      "lock": 6,
+      "dodge": 6,
+      "pushbackResist": 15
+    }
   }
 }
