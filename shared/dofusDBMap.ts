@@ -10,7 +10,8 @@ export const CATEGORY_ID_DOFUSDB: Record<ItemCategory, number[]> = {
     hat: [16],
     weapon: [2, 3, 4, 5, 6, 7, 8, 19, 20, 21, 22, 83, 99, 102, 114, 271],
     shield: [82],
-    pet: [18, 97, 121, 196, 207],
+    // pet: [18, 97, 121, 196, 207],
+    pet: [18, 121, 331, 332, 333],
     dofus: [151, 23, 217],
 };
 

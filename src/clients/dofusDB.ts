@@ -157,7 +157,7 @@ export async function downloadItems(category: ItemCategory): Promise<Record<stri
             const itemMap: ItemMapValue | undefined = dofusBookIdMap[dofusDbItem.id]
             if (!itemMap) {
             // if (!dofusBookIdMap[dofusDbItem._id]) {
-                console.error("item is not mapped", dofusDbItem.name.fr, dofusDbItem._id, dofusDbItem.id);
+                console.error("item is not mapped", dofusDbItem.name.fr, dofusDbItem.id);
                 // if (!dofusBookNameMap[dofusDbItem.name.fr]) {
                 // console.log({
                 //     "dofusDbItem._id": {
