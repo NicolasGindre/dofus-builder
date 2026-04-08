@@ -65,7 +65,7 @@
                 loading="lazy"
             />
         </a>
-        <h1 class="what">Dofus MinMax</h1>
+        <h1>Dofus MinMax</h1>
         {#if error}
             <p style="color: red;">{error}</p>
         {/if}
