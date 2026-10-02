@@ -25,7 +25,7 @@ import type { Mode } from "../workers/orchestrator";
 
 let init = false;
 const itemsVersionDisplayed = "v3.6.12.6";
-const itemsVersion = itemsVersionDisplayed + ".1";
+const itemsVersion = itemsVersionDisplayed + ".2";
 
 // let last = performance.now();
 // setInterval(() => {
