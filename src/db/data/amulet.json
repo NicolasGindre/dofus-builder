@@ -8100,11 +8100,11 @@
         "es": "Amor de Helsefina"
       },
       "description": {
-        "fr": "Amour d'Helséphine :\n• Lorsque le porteur applique du bouclier ou occasionne des dommages en mêlée, il soigne ses alliés de 8% de leur vie à 2 cases ou moins autour de lui (une fois par tour).",
-        "en": "Helsephine's Love:\n• When the bearer applies shield or inflicts close-combat damage, they heal allies for 8% of their health within 2 cells or less around them (once per turn).",
-        "pt": "Amor de Helsefina:\n• Ao aplicar escudo ou infligir danos corpo a corpo, o portador cura 8% da vida dos aliados a até 2 células ao redor de si (uma vez por turno).",
-        "de": "Helsefines Liebe:\n• Wenn der Träger einen Schild wirkt oder Nahkampfschaden verursacht, heilt er Verbündete, die nicht weiter als 2 Felder von ihm entfernt sind, um 8 % ihrer LP (einmal pro Runde).",
-        "es": "Amor de Helsefina:\n• Cuando el portador aplica escudo o inflige daños cuerpo a cuerpo, cura a sus aliados en un 8% de su vida si están a 2 casillas o menos (una vez por turno)."
+        "fr": "Amour d'Helséphine :\n• Lorsque le porteur applique du bouclier ou occasionne des dommages en mêlée, il soigne ses alliés de 8% de leur vie à 3 cases ou moins autour de lui (une fois par tour).",
+        "en": "Helsephine's Love:\n• When the bearer applies shield or inflicts close-combat damage, they heal allies for 8% of their health within 3 cells or less around them (once per turn).",
+        "pt": "Amor de Helsefina:\n• Ao aplicar escudo ou infligir danos corpo a corpo, o portador cura 8% da vida dos aliados a até 3 células ao redor de si (uma vez por turno).",
+        "de": "Helsefines Liebe:\n• Wenn der Träger einen Schild wirkt oder Nahkampfschaden verursacht, heilt er Verbündete, die nicht weiter als 3 Felder von ihm entfernt sind, um 8 % ihrer LP (einmal pro Runde).",
+        "es": "Amor de Helsefina:\n• Cuando el portador aplica escudo o inflige daños cuerpo a cuerpo, cura a sus aliados en un 8% de su vida si están a 3 casillas o menos (una vez por turno)."
       }
     }
   },
@@ -8402,6 +8402,37 @@
       "airResistPer": 12,
       "pushbackDamage": 40,
       "pushbackResist": -40
+    }
+  },
+  "Xu": {
+    "id": "Xu",
+    "idDofusDB": 34329,
+    "idDofusBook": 34329,
+    "name": {
+      "fr": "Étreinte Végétale",
+      "en": "Vegegrip",
+      "pt": "Aperto Vegetal",
+      "de": "Blumige Erdrosselung",
+      "es": "Apretón vegetal"
+    },
+    "level": 200,
+    "panoply": "8o",
+    "category": "amulet",
+    "subCategory": "amulet",
+    "stats": {
+      "vitality": 450,
+      "wisdom": 40,
+      "power": 70,
+      "criticalChance": -7,
+      "ap": 1,
+      "earthDamage": 13,
+      "fireDamage": 13,
+      "waterDamage": 13,
+      "airDamage": 13,
+      "heal": 10,
+      "prospecting": 15,
+      "waterResistPer": 15,
+      "criticalResist": -15
     }
   }
 }

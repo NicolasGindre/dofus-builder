@@ -15792,23 +15792,24 @@
       {
         "apReduction": 15,
         "mpReduction": 15,
-        "power": 50,
-        "initiative": 500,
+        "dodge": 15,
         "range": 1,
-        "dodge": 15
+        "initiative": 500,
+        "power": 50
       },
       {
-        "ap": 1,
-        "power": 100,
-        "initiative": 1000,
-        "range": 1,
-        "apReduction": 30,
-        "mpReduction": 30,
-        "dodge": 30,
-        "earthDamage": 15,
-        "fireDamage": 12,
+        "airDamage": 10,
         "waterDamage": 12,
-        "airDamage": 10
+        "fireDamage": 12,
+        "earthDamage": 15,
+        "dodge": 30,
+        "mpReduction": 30,
+        "apReduction": 30,
+        "range": 1,
+        "initiative": 1000,
+        "power": 100,
+        "ap": 1,
+        "neutralDamage": 10
       }
     ]
   },
@@ -21113,6 +21114,78 @@
         "waterResistPer": 4,
         "airResistPer": 4,
         "ap": 1
+      }
+    ]
+  },
+  "8o": {
+    "id": "8o",
+    "idDofusDB": 1090,
+    "name": {
+      "fr": "Panoplie du Sanctuaire des Jardins éternels",
+      "en": "Eternal Gardens Sanctuary Set",
+      "pt": "Conjunto do Santuário dos Jardins Eternos",
+      "de": "Set des Heiligtums der Ewigen Gärten",
+      "es": "Set del Santuario de los Jardines Eternos"
+    },
+    "level": 200,
+    "items": [
+      "Xs",
+      "Xt",
+      "Xu"
+    ],
+    "stats": [
+      {},
+      {
+        "heal": 60,
+        "power": 50,
+        "fireResistPer": 5,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "earthResistPer": 5,
+        "damage": 10,
+        "summon": 1
+      },
+      {
+        "fireResistPer": 10,
+        "ap": 1,
+        "airResistPer": 5,
+        "waterResistPer": 5,
+        "earthResistPer": 5,
+        "damage": 15,
+        "power": 50,
+        "heal": 60,
+        "summon": 1
+      }
+    ]
+  },
+  "8p": {
+    "id": "8p",
+    "idDofusDB": 1091,
+    "name": {
+      "fr": "Panoplie du Gouffre",
+      "en": "Chasm Set",
+      "pt": "Conjunto da Fenda",
+      "de": "Set des Abgrunds",
+      "es": "Set de la sima"
+    },
+    "level": 200,
+    "items": [
+      "Xv",
+      "Xw",
+      "Xx"
+    ],
+    "stats": [
+      {},
+      {
+        "chance": 60,
+        "criticalChance": 7,
+        "lock": 10
+      },
+      {
+        "ap": 1,
+        "criticalChance": 7,
+        "lock": 10,
+        "chance": 60
       }
     ]
   }

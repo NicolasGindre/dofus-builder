@@ -8449,11 +8449,11 @@
         "es": "Rey Bajo la Montaña"
       },
       "description": {
-        "fr": "Roi sous la Montagne :\n• Lorsque le porteur effectue ou subit une tentative de retrait de PA ou PM, il gagne 2% de dommages en mêlée pendant 2 tours (cumulable 5 fois).",
-        "en": "King Under the Mountain:\n• When the bearer performs or suffers an attempted AP or MP removal, they gain 2% close-combat damage for 2 turns (stackable 5 times).",
-        "pt": "Rei Debaixo da Montanha:\n• Ao realizar ou sofrer uma tentativa de retirada de PA ou PM, o portador ganha 2% de danos corpo a corpo durante 2 turnos (acumula até 5 vezes).",
-        "de": "König unter dem Berg:\n• Wenn der Träger versucht, einem Gegner AP oder BP zu entziehen, oder ein Gegner dies bei ihm versucht, erhöht sich sein Nahkampfschaden 2 Runden lang um 2 % (5-mal kumulierbar).",
-        "es": "Rey Bajo la Montaña:\n• Cuando el portador realiza o sufre un intento de retirada de PA o de PM, gana un 2% de daños en cuerpo a cuerpo durante 2 turnos (acumulable 5 veces)."
+        "fr": "Roi sous la Montagne :\n• Lorsque le porteur effectue ou subit une tentative de retrait de PA ou PM, il gagne 2% de dommages finaux pendant 2 tours (cumulable 5 fois).\n• Les effets ne peuvent pas être déclenchés si le porteur est à la fois l'attaquant et la cible.",
+        "en": "King Under the Mountain:\n• When the bearer performs or suffers an attempted AP or MP removal, they gain 2% final damage for 2 turns (stackable 5 times).\n• The effects cannot be triggered if the bearer is both the attacker and the target.",
+        "pt": "Rei Debaixo da Montanha:\n• Ao realizar ou sofrer uma tentativa de retirada de PA ou PM, o portador ganha 2% de danos finais durante 2 turnos (acumula até 5 vezes).\n• Os efeitos não poderão ser acionados se o portador for, ao mesmo tempo, atacante e alvo.",
+        "de": "König unter dem Berg:\n• Wenn der Träger versucht, einem Gegner AP oder BP zu entziehen, oder ein Gegner dies bei ihm versucht, erhöht sich sein Endschaden 2 Runden lang um 2 % (5-mal kumulierbar).\n• Wenn der Träger sowohl der Angreifer als auch das Ziel ist, wird die Wirkung nicht ausgelöst.",
+        "es": "Rey Bajo la Montaña:\n• Cuando el portador realiza o sufre un intento de retirada de PA o PM, gana un 2% de daños finales durante 2 turnos (acumulable 5 veces).\n• Los efectos no pueden activarse si el portador es atacante y objetivo al mismo tiempo."
       }
     }
   },
@@ -9683,6 +9683,66 @@
       "vitality": 30,
       "mp": 1,
       "neutralResistPer": 4
+    }
+  },
+  "Xs": {
+    "id": "Xs",
+    "idDofusDB": 34327,
+    "idDofusBook": 34327,
+    "name": {
+      "fr": "Heaume des Gardiens du Sanctuaire",
+      "en": "Sanctuary Guardian Helm",
+      "pt": "Elmo dos Guardiões do Santuário",
+      "de": "Helm der Wächter des Heiligtums",
+      "es": "Yelmo de los guardianes del santuario"
+    },
+    "level": 200,
+    "panoply": "8o",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 500,
+      "wisdom": 50,
+      "power": 80,
+      "criticalChance": -7,
+      "earthDamage": 20,
+      "airDamage": 20,
+      "heal": 15,
+      "prospecting": 15,
+      "airResistPer": 15,
+      "apResist": 12,
+      "criticalResist": -15
+    }
+  },
+  "Xv": {
+    "id": "Xv",
+    "idDofusDB": 34330,
+    "idDofusBook": 34330,
+    "name": {
+      "fr": "Visage de Mureine",
+      "en": "Moraympress Face",
+      "pt": "Rosto de Morestade",
+      "de": "Gesicht der Königsmuräne",
+      "es": "Cara de Morreina"
+    },
+    "level": 200,
+    "panoply": "8p",
+    "category": "hat",
+    "subCategory": "hat",
+    "stats": {
+      "vitality": 500,
+      "chance": 80,
+      "wisdom": 50,
+      "criticalChance": 5,
+      "summon": 1,
+      "waterDamage": 20,
+      "prospecting": 20,
+      "initiative": -300,
+      "waterResistPer": 10,
+      "airResistPer": 7,
+      "lock": 15,
+      "dodge": -15,
+      "criticalDamage": 10
     }
   }
 }
