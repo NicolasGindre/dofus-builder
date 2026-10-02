@@ -7834,5 +7834,36 @@
       "chance": 30,
       "agility": 30
     }
+  },
+  "Xx": {
+    "id": "Xx",
+    "idDofusDB": 34332,
+    "idDofusBook": 34332,
+    "name": {
+      "fr": "Dorsale de Willorque",
+      "en": "Willorka Dorsal Fin",
+      "pt": "Dorsal de Willorca",
+      "de": "Rückenflosse von Willorca",
+      "es": "Dorsal de Willorca"
+    },
+    "level": 200,
+    "panoply": "8p",
+    "category": "cloak",
+    "subCategory": "cloak",
+    "stats": {
+      "vitality": 500,
+      "chance": 100,
+      "wisdom": 50,
+      "criticalChance": 6,
+      "waterDamage": 10,
+      "heal": 12,
+      "prospecting": 15,
+      "initiative": -300,
+      "earthResistPer": 7,
+      "waterResistPer": 10,
+      "lock": 10,
+      "mpResist": -10,
+      "criticalDamage": 25
+    }
   }
 }

@@ -8589,11 +8589,11 @@
         "es": "Mil Leguas"
       },
       "description": {
-        "fr": "Mille Lieues :\n• Le porteur gagne 2 PM les tours impairs, et perd 1 PM les tours pairs.",
-        "en": "Thousand Leagues:\n• The bearer gains 2 MP on odd turns and loses 1 MP on even turns.",
-        "pt": "Mil Léguas:\n• O carregador ganha 2 PM nos turnos ímpares e perde 1 PM nos turnos pares.",
-        "de": "Tausend Meilen:\n• Der Träger erhält in den ungeraden Runden 2 BP und verliert in den geraden Runden 1 BP.",
-        "es": "Mil Leguas:\n• El portador gana 2 PM en los turnos impares y pierde 1 PM en los turnos pares."
+        "fr": "Mille Lieues :\n• Le porteur gagne 2 PM les tours impairs.",
+        "en": "Thousand Leagues:\n• The bearer gains 2 MP on odd turns.",
+        "pt": "Mil Léguas:\n• O portador ganha 2 PM nos turnos ímpares.",
+        "de": "Tausend Meilen:\n• Der Träger erhält in den ungeraden Runden 2 BP.",
+        "es": "Mil Leguas:\n• El portador gana 2 PM en los turnos impares."
       }
     }
   },
@@ -9257,11 +9257,11 @@
         "es": "Clarividencia de Mériana"
       },
       "description": {
-        "fr": "Clairvoyance de Mériana :\n• Lorsque le porteur occasionne des dommages élémentaires, il gagne des caractéristiques selon l'élément pendant 2 tours (cumulable 6 fois, partagé entre les effets) :\n • Terre : 10 Fuite\n • Feu : 10 Tacle\n • Eau : 10 Retrait PM\n • Air : 10 Retrait PA",
-        "en": "Meriana's Clairvoyance:\n• When the bearer inflicts elemental damage, they gain characteristics depending on the element for 2 turns (stackable 6 times, shared among effects):\n • Earth: 10 Dodge\n • Fire: 10 Lock\n • Water: 10 MP Reduction\n• Air: 10 AP Reduction",
-        "pt": "Clarividência de Meriana:\n• Quando o portador inflige danos elementares, ele ganha características de acordo com o elemento durante 2 turnos (pode ser acumulado 6 vezes, repartido entre os efeitos):\n • Terra: 10 de fuga\n • Fogo: 10 de bloqueio\n • Água: 10 de retirada de PM\n• Ar: 10 de retirada de PA",
-        "de": "Merianas Hellsicht:\n• Wenn der Träger Elementarschaden verursacht, erhält er 2 Runden lang auf dem jeweiligen Element basierende Attribute (6-mal kumulierbar, auf die einzelnen Wirkungen aufgeteilt):\n • Erde: 10 Ausweichen\n • Feuer: 10 Blocken\n • Wasser: 10 BP-Entzug\n• Luft: 10 AP-Entzug",
-        "es": "Clarividencia de Mériana:\n• Cuando el portador ocasiona daños elementales, gana características según el elemento durante 2 turnos (acumulable 6 veces, compartido entre los efectos):\n • Tierra: 10 de huida\n • Fuego: 10 de placaje\n • Agua: 10 de retirada de PM\n• Aire: 10 de retirada de PA"
+        "fr": "Clairvoyance de Mériana :\n• Lorsque le porteur occasionne des dommages élémentaires, il gagne du Retrait selon l'élément pendant 2 tours (cumulable 8 fois, partagé entre les effets) :\n • Terre & Eau : 5 Retrait PM\n • Feu & Air : 5 Retrait PA",
+        "en": "Meriana's Clairvoyance:\n• When the bearer inflicts elemental damage, they gain Reduction based on the element for 2 turns (stackable 8 times, shared among effects):\n • Earth & Water: 5 MP Reduction\n• Fire & Air: 5 AP Reduction",
+        "pt": "Clarividência de Meriana:\n• Quando o portador inflige danos elementares, ele ganha Retirada de acordo com o elemento durante 2 turnos (acumula até 8 vezes, repartido entre os efeitos):\n • Terra e Água: 5 de retirada de PM\n• Fogo e Ar: 5 de retirada de PA",
+        "de": "Merianas Hellsicht:\n• Wenn der Träger Elementarschaden verursacht, erhält er 2 Runden lang einen Entzug im jeweiligen Element (8-mal kumulierbar, auf die einzelnen Wirkungen aufgeteilt):\n • Erde und Wasser: 5 BP-Entzug\n• Feuer und Luft: 5 AP-Entzug",
+        "es": "Clarividencia de Mériana:\n• Cuando el portador ocasiona daños elementales, gana retirada según el elemento durante 2 turnos (acumulable 8 veces, compartido entre los efectos):\n • Tierra y agua: 5 de retirada de PM\n• Fuego y aire: 5 de retirada de PA"
       }
     }
   },
@@ -9445,6 +9445,36 @@
       "vitality": 30,
       "ap": 1,
       "mp": -1
+    }
+  },
+  "Xt": {
+    "id": "Xt",
+    "idDofusDB": 34328,
+    "idDofusBook": 34328,
+    "name": {
+      "fr": "Grèves Écarlates",
+      "en": "Scarlet Greaves",
+      "pt": "Grevas Escarlates",
+      "de": "Scharlachrote Schienen",
+      "es": "Grebas escarlata"
+    },
+    "level": 200,
+    "panoply": "8o",
+    "category": "boots",
+    "subCategory": "boots",
+    "stats": {
+      "vitality": 450,
+      "wisdom": 40,
+      "power": 80,
+      "criticalChance": -7,
+      "mp": 1,
+      "fireDamage": 20,
+      "waterDamage": 20,
+      "heal": 15,
+      "prospecting": 15,
+      "earthResistPer": 15,
+      "mpResist": 12,
+      "criticalResist": -15
     }
   }
 }

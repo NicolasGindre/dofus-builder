@@ -217,11 +217,11 @@
         "es": "Armonía de Pandala"
       },
       "description": {
-        "fr": "Harmonie de Pandala :\n• Lorsque le porteur occasionne des dommages durant son tour de jeu, lui et ses alliés porteurs du {{item,23408::Dorigami}} gagnent 20 de Dommages pendant 1 tour (cumulable 1 fois).\n• S'il n'en occasionne pas, lui et ses alliés porteurs du {{item,23237::Domakuro}} gagnent 150% de son niveau en bouclier pendant 1 tour.",
-        "en": "Harmony of Pandala:\n• When the bearer inflicts damage during their turn, they and their allies carrying the {{item,23408::Dorigami}} gain 20 Damage for 1 turn (stackable 1 time).\n• If the bearer does not inflict damage, they and their allies carrying the {{item,23237::Domakuro}} gain 150% of the bearer's level as shield for 1 turn.",
-        "pt": "Harmonia de Pandala:\n• Quando o portador causa dano durante seu turno de jogo, ele e seus aliados que estiverem portando o {{item,23408::Dorigami}} ganham 20 de danos por 1 turno (acumula 1 vez).\n• Se não causar dano, ele e seus aliados portadores do {{item,23237::Domakuro}} ganharão 150% de seu nível em escudo durante 1 turno.",
-        "de": "Harmonie von Pandala:\n• Wenn der Träger während seiner Runde Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23408::Dorigami}} bei sich tragen, 1 Runde lang 20 Schaden (1-mal kumulierbar).\n• Wenn er keinen Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23237::Domakuro}} bei sich tragen, 1 Runde lang 150 % seiner Stufe als Schild.",
-        "es": "Armonía de Pandala:\n• Cuando el portador ocasiona daños durante su turno, él y sus aliados portadores del {{item,23408::dorigami}} ganan 20 de daño durante 1 turno (acumulable 1 vez).\n• Si no ocasiona daños, gana, al igual que sus aliados portadores del {{item,23237::domakuro}}, el 150% de su nivel en escudo durante 1 turno."
+        "fr": "Harmonie de Pandala :\n• Lorsque le porteur occasionne des dommages durant son tour de jeu, lui et ses alliés porteurs du {{item,23408::Dorigami}} gagnent 20 de Dommages pendant 1 tour (cumulable 1 fois).\n• S'il n'en occasionne pas, lui et ses alliés porteurs du {{item,23237::Domakuro}} gagnent 100% de son niveau en bouclier pendant 1 tour.",
+        "en": "Harmony of Pandala:\n• When the bearer inflicts damage during their turn, they and their allies carrying the {{item,23408::Dorigami}} gain 20 Damage for 1 turn (stackable 1 time).\n• If the bearer does not inflict damage, they and their allies carrying the {{item,23237::Domakuro}} gain 100% of the bearer's level as shield for 1 turn.",
+        "pt": "Harmonia de Pandala:\n• Quando o portador causa dano durante seu turno de jogo, ele e seus aliados que estiverem portando o {{item,23408::Dorigami}} ganham 20 de danos por 1 turno (acumula 1 vez).\n• Se não causar dano, ele e seus aliados portadores do {{item,23237::Domakuro}} ganharão 100% de seu nível em escudo durante 1 turno.",
+        "de": "Harmonie von Pandala:\n• Wenn der Träger während seiner Runde Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23408::Dorigami}} bei sich tragen, 1 Runde lang 20 Schaden (1-mal kumulierbar).\n• Wenn er keinen Schaden verursacht, erhalten er und seine Verbündeten, die einen {{item,23237::Domakuro}} bei sich tragen, 1 Runde lang 100 % seiner Stufe als Schild.",
+        "es": "Armonía de Pandala:\n• Cuando el portador ocasiona daños durante su turno, él y sus aliados portadores del {{item,23408::dorigami}} ganan 20 de daño durante 1 turno (acumulable 1 vez).\n• Si no ocasiona daños, gana, al igual que sus aliados portadores del {{item,23237::domakuro}}, el 100% de su nivel en escudo durante 1 turno."
       }
     }
   },
@@ -6486,7 +6486,9 @@
     "level": 180,
     "category": "dofus",
     "subCategory": "dofus",
-    "stats": {},
+    "stats": {
+      "vitality": 300
+    },
     "specialEffect": {
       "name": {
         "fr": "Promesse d'Argent",
@@ -6538,11 +6540,11 @@
     "subCategory": "prysmaradite",
     "stats": {
       "vitality": -100,
-      "neutralResist": 25,
-      "earthResist": 25,
-      "fireResist": 25,
-      "waterResist": 25,
-      "airResist": 25
+      "neutralResist": 40,
+      "earthResist": 40,
+      "fireResist": 40,
+      "waterResist": 40,
+      "airResist": 40
     },
     "specialEffect": {
       "name": {
@@ -6577,11 +6579,11 @@
     "subCategory": "prysmaradite",
     "stats": {
       "vitality": -100,
-      "neutralResist": 25,
-      "earthResist": 25,
-      "fireResist": 25,
-      "waterResist": 25,
-      "airResist": 25
+      "neutralResist": 40,
+      "earthResist": 40,
+      "fireResist": 40,
+      "waterResist": 40,
+      "airResist": 40
     },
     "specialEffect": {
       "name": {
@@ -6616,11 +6618,11 @@
     "subCategory": "prysmaradite",
     "stats": {
       "vitality": -100,
-      "neutralResist": 25,
-      "earthResist": 25,
-      "fireResist": 25,
-      "waterResist": 25,
-      "airResist": 25
+      "neutralResist": 40,
+      "earthResist": 40,
+      "fireResist": 40,
+      "waterResist": 40,
+      "airResist": 40
     },
     "specialEffect": {
       "name": {
@@ -6911,11 +6913,11 @@
         "es": "Prisanación"
       },
       "description": {
-        "fr": "Soigne 80% des dommages ennemis subis au premier tour, puis 30% au deuxième tour, et 10% au troisième tour.",
-        "en": "Heals 80% of enemy damage suffered on the first turn, 30% on the second turn and 10% on the third turn.",
-        "pt": "Cura 80% dos danos inimigos sofridos no primeiro turno, 30% no segundo e 10% no terceiro.",
-        "de": "Heilt in der ersten Runde 80 % des durch Gegner erlittenen Schadens, in der zweiten Runde 30 % und in der dritten Runde 10 %.",
-        "es": "Cura un 80% de los daños enemigos sufridos en el primer turno, un 30% en el segundo turno y un 10% en el tercer turno."
+        "fr": "Soigne 60% des dommages ennemis subis au premier tour, puis 30% au deuxième tour, et 10% au troisième tour.",
+        "en": "Heals 60% of enemy damage suffered on the first turn, 30% on the second turn and 10% on the third turn.",
+        "pt": "Cura 60% dos danos inimigos sofridos no primeiro turno, 30% no segundo e 10% no terceiro.",
+        "de": "Heilt in der ersten Runde 60 % des durch Gegner erlittenen Schadens, in der zweiten Runde 30 % und in der dritten Runde 10 %.",
+        "es": "Cura un 60% de los daños enemigos sufridos en el primer turno, un 30% en el segundo turno y un 10% en el tercer turno."
       }
     }
   },
@@ -7255,11 +7257,11 @@
     "subCategory": "prysmaradite",
     "stats": {
       "initiative": -1000,
-      "neutralResist": 25,
-      "earthResist": 25,
-      "fireResist": 25,
-      "waterResist": 25,
-      "airResist": 25
+      "neutralResist": 40,
+      "earthResist": 40,
+      "fireResist": 40,
+      "waterResist": 40,
+      "airResist": 40
     },
     "specialEffect": {
       "name": {
@@ -7293,8 +7295,8 @@
     "category": "dofus",
     "subCategory": "prysmaradite",
     "stats": {
-      "reflect": 30,
-      "pushbackResist": -30
+      "pushbackResist": -30,
+      "weaponDamagePer": 6
     },
     "specialEffect": {
       "name": {
@@ -7305,11 +7307,11 @@
         "es": "Priximidad"
       },
       "description": {
-        "fr": "Le porteur gagne 2% de dommages en mêlée pendant 3 tours pour chaque combattant ennemi à 3 cases ou moins de lui au début de son premier tour.",
-        "en": "The bearer gains 2% close-combat damage for 3 turns for each enemy fighter within 3 cells or less of the bearer at the start of their first turn.",
-        "pt": "O portador ganha 2% de danos corpo a corpo durante 3 turnos para cada combatente inimigo a até 3 células dele no começo de seu primeiro turno.",
-        "de": "Der Träger erhält zu Beginn seiner ersten Runde 3 Runden lang 2 % Nahkampfschaden pro gegnerischem Kämpfer, der nicht mehr als 3 Felder von ihm entfernt ist.",
-        "es": "El portador gana un 2% de daños en cuerpo a cuerpo durante 3 turnos por cada luchador enemigo a 3 casillas o menos de él al principio de su primer turno."
+        "fr": "Le porteur gagne 2% de dommages en mêlée pendant 3 tours pour chaque combattant ennemi à 3 cases ou moins de lui au début et à la fin de son premier tour.",
+        "en": "The bearer gains 2% close-combat damage for 3 turns for each enemy fighter within 3 cells or less of the bearer at the start and end of their first turn.",
+        "pt": "O portador ganha 2% de danos corpo a corpo durante 3 turnos para cada combatente inimigo a até 3 células dele no começo e no fim de seu primeiro turno.",
+        "de": "Der Träger erhält zu Beginn und am Ende seiner ersten Runde 3 Runden lang 2 % Nahkampfschaden pro gegnerischem Kämpfer, der nicht mehr als 3 Felder von ihm entfernt ist.",
+        "es": "El portador gana un 2% de daños en cuerpo a cuerpo durante 3 turnos por cada luchador enemigo a 3 casillas o menos de él al principio y al final de su primer turno."
       }
     }
   },
@@ -7414,11 +7416,11 @@
         "es": "Río de Tinta"
       },
       "description": {
-        "fr": "Rivière d'Encre :\n• À partir du tour 5, le porteur et ses invocations gagnent jusqu'à 64 de Dommages jusqu'à la fin du combat.\n• Ce bonus est réduit à chaque fois que le porteur occasionne des dommages durant son tour à un ennemi pour chacun des 4 premiers tours du combat :\n • Aucune attaque : 16 Dommages\n • 1 attaque : 8 Dommages.\n • 2 attaques et plus : 0 Dommages.",
-        "en": "Ink River:\n• Starting on turn 5, the bearer and their summons gain up to 64 Damage until the end of the fight.\n• This bonus is reduced each time the bearer inflicts damage on an enemy during their turn for each of the first 4 turns of the fight:\n • No attacks: 16 Damage\n • 1 attack: 8 Damage\n• 2 attacks or more: 0 Damage",
-        "pt": "Rio de Tinta:\n• A partir do 5º turno, o portador e suas invocações ganham até 64 de danos até o fim do combate.\n• Esse bônus diminui sempre que o portador inflige danos a um inimigo durante seu turno para cada um dos 4 primeiros turnos do combate:\n • Nenhum ataque: 16 de danos.\n • 1 ataque: 8 de danos.\n• 2 ataques e mais: 0 de danos.",
-        "de": "Tintenfluss:\n• Ab Runde 5 erhalten der Träger und seine Beschwörungen bis zu 64 Schaden bis zum Ende des Kampfes.\n• Dieser Bonus verringert sich jedes Mal, wenn der Träger einem Gegner während der ersten 4 Kampfrunden Schaden zufügt:\n • Kein Angriff: 16 Schaden.\n • 1 Angriff: 8 Schaden.\n• Ab 2 Angriffen: 0 Schaden.",
-        "es": "Río de Tinta:\n• A partir del turno 5, el portador y sus invocaciones ganan hasta 64 de daño hasta el final del combate.\n• Este bonus se reduce cada vez que el portador ocasione daños durante su turno a un enemigo en cada uno de los 4 primeros turnos del combate:\n • Ningún ataque: 16 de daño.\n • 1 ataque: 8 de daño.\n• 2 ataques o más: 0 de daño."
+        "fr": "Rivière d'Encre :\n• À chaque fin de tour sur les 4 premiers tours, le porteur et ses invocations gagnent jusqu'à 16 Dommages jusqu'à la fin du combat.\n• Ce bonus est réduit à chaque fois que le porteur attaque un ennemi durant son tour :\n • Aucune attaque : 16 Dommages.\n • 1 attaque : 8 Dommages.\n • 2 attaques et plus : 0 Dommages.",
+        "en": "Ink River:\n• At the end of each turn for the first 4 turns, the bearer and their summons gain up to 16 Damage until the end of the fight.\n• This bonus is reduced each time the bearer attacks an enemy during their turn:\n • No attacks: 16 Damage\n • 1 attack: 8 Damage\n• 2 attacks or more: 0 Damage",
+        "pt": "Rio de Tinta:\n• Ao final de cada turno nos 4 primeiros turnos, o portador e suas invocações ganham até 16 de danos até o fim do combate.\n• Esse bônus diminui sempre que o portador ataca um inimigo durante seu turno:\n • Nenhum ataque: 16 de danos.\n • 1 ataque: 8 de danos.\n• 2 ataques e mais: 0 de danos.",
+        "de": "Tintenfluss:\n• In den ersten 4 Runden erhalten der Träger und seine Beschwörungen jeweils am Rundenende bis zu 16 Schadenspunkte zusätzlich, die sie bis zum Ende des Kampfes behalten.\n• Jedes Mal, wenn der Träger während seiner Runde einen Gegner angreift, verringert sich dieser Bonus:\n • Kein Angriff: 16 Schaden.\n • 1 Angriff: 8 Schaden.\n• Ab 2 Angriffen: 0 Schaden.",
+        "es": "Río de Tinta:\n• Al final de cada turno de los primeros 4 turnos, el portador y sus invocaciones ganan hasta 16 de daño hasta el final del combate.\n• Este bonus se reduce cada vez que el portador ataque durante su turno a un enemigo:\n • Ningún ataque: 16 de daño.\n • 1 ataque: 8 de daño.\n• 2 ataques o más: 0 de daño."
       }
     }
   },
@@ -7484,9 +7486,9 @@
       "description": {
         "fr": "Éternel Cauchemar :\n• Bouclier Bontarien : lorsque le porteur est désenvoûté ou entravé, il gagne 100% de son niveau en bouclier pour 1 tour.\n• Puissance Brâkmarienne : lorsque le porteur occasionne ou subit des dommages de poussée, il gagne 100 de Puissance pour 1 tour. \n• Œil du Cauchemar : si le porteur déclenche les 2 effets dans le même tour, les dommages qu'il occasionne et subit sont augmentés de 10% pendant 1 tour.\n• Les effets ne peuvent être déclenchés qu'une seule fois par tour.",
         "en": "Nightmare Eternal:\n• Bontarian Shield: when the bearer is unbewitched or hindered, the bearer gains 100% of their level as shield for 1 turn.\n• Brakmarian Power: when the bearer inflicts or suffers pushback damage, the bearer gains 100 Power for 1 turn. \n• Nightmare Eye: if the bearer triggers 2 effects in the same turn, the damage they inflict and suffer increases by 10% for 1 turn.\n• The effects can only be triggered once per turn.",
-        "pt": "Eterno Pesadelo:\n• Escudo Bontariano: quando o portador é desencantado ou entravado, ele ganha em escudo o equivalente a 100% de seu nível durante 1 turno.\n• Potência Brakmariana: quando o portador inflige ou sofre danos de empurrão, ele ganha 100 de potência durante 1 turno. \n• Olho do Pesadelo: se o portador acionar os 2 efeitos no mesmo turno, os danos que ele infligir e sofrer aumentarão em 10% durante 1 turno.\n• Os efeitos só podem ser acionados uma vez por turno.",
-        "de": "Ewiger Alptraum:\n• Bonta-Schild: Wenn der Träger entzaubert oder gefesselt wird, erhält er 1 Runde lang 100 % seiner Stufe als Schild.\n• Brâk-Schlagkraft: Wenn der Träger Schubsschaden verursacht oder erleidet, erhält er 1 Runde lang 100 Schlagkraft. \n• Auge des Alptraums: Löst der Träger beide Wirkungen in derselben Runde aus, erhöht sich der von ihm verursachte und erlittene Schaden 1 Runde lang um 10 %.\n• Die Wirkungen können nur einmal pro Runde ausgelöst werden.",
-        "es": "Pesadilla Eterna:\n• Escudo Bontariano: cuando el portador es desembrujado o trabado, gana un escudo del 100% de su nivel durante 1 turno.\n• Potencia Brakmariana: cuando el portador ocasiona o sufre daños de empuje, gana 100 de potencia durante 1 turno. \n• Ojo de Pesadilla: si el portador activa los 2 efectos en el mismo turno, los daños que ocasiona y sufre aumentan un 10% durante 1 turno.\n• Los efectos pueden activarse solo una vez por turno."
+        "pt": "{{spell,20981,1::Eterno Pesadelo}}:\n• Escudo Bontariano: quando o portador é desencantado ou entravado, ele ganha em escudo o equivalente a 100% de seu nível durante 1 turno.\n• Potência Brakmariana: quando o portador inflige ou sofre danos de empurrão, ele ganha 100 de potência durante 1 turno.\n• Olho do Pesadelo: se o portador acionar os 2 efeitos no mesmo turno, os danos que ele infligir e sofrer aumentarão em 10% durante 1 turno.\n• Os efeitos só podem ser acionados uma vez por turno.",
+        "de": "{{spell,20981,1::Ewiger Alptraum}}:\n• Bonta-Schild: Wenn der Träger entzaubert oder gefesselt wird, erhält er 1 Runde lang 100 % seiner Stufe als Schild.\n• Brâk-Schlagkraft: Wenn der Träger Schubsschaden verursacht oder erleidet, erhält er 1 Runde lang 100 Schlagkraft.\n• Auge des Alptraums: Löst der Träger beide Wirkungen in derselben Runde aus, erhöht sich der von ihm verursachte und erlittene Schaden 1 Runde lang um 10 %.\n• Die Wirkungen können nur einmal pro Runde ausgelöst werden.",
+        "es": "{{spell,20981,1::Pesadilla Eterna}}:\n• Escudo Bontariano: cuando se desembruja o traba al portador, este gana el 100% de su nivel en escudo durante 1 turno.\n• Potencia Brakmariana: cuando el portador ocasiona o sufre daños de empuje, gana 100 de potencia durante 1 turno. \n• Ojo de Pesadilla: si el portador activa ambos efectos en el mismo turno, los daños que ocasiona y sufre aumentan un 10% durante 1 turno.\n• Los efectos pueden activarse solo una vez por turno."
       }
     }
   },
@@ -7516,11 +7518,11 @@
         "es": "Guarda Campestre"
       },
       "description": {
-        "fr": "Garde Champêtre :\n• Le porteur gagne 8 de Puissance pendant 2 tours pour chaque PM qu'il utilise.\n• S'il n'a utilisé aucun PM durant son tour, il est soigné de 10% de sa vie.",
-        "en": "Country Ranger:\n• The bearer gains 8 Power for 2 turns for each MP they use.\n• If the bearer doesn't use any MP during their turn, they are healed for 10% of their health.",
-        "pt": "Guarda Campestre:\n• O portador ganha 8 de potência durante 2 turnos para cada PM que ele utilizar.\n• Se ele não tiver usado PM durante seu turno, ele será curado em 10% da vida.",
-        "de": "Feldschütz:\n• Der Träger erhält 2 Runden lang für jeden von ihm verwendeten BP 8 Schlagkraft.\n• Hat er in seiner Runde keinen BP verwendet, wird er um 10 % seiner LP geheilt.",
-        "es": "Guarda Campestre:\n• El portador gana 8 de potencia durante 2 turnos por cada PM que utilice.\n• Si no ha utilizado ningún PM durante su turno, se cura un 10% de su vida."
+        "fr": "Garde Champêtre :\n• Le porteur gagne 8 de Puissance pendant 2 tours pour chaque PM qu'il utilise.\n• S'il n'a utilisé aucun PM durant son tour, il est soigné de 8% de sa vie.",
+        "en": "Country Ranger:\n• The bearer gains 8 Power for 2 turns for each MP they use.\n• If the bearer doesn't use any MP during their turn, they are healed for 8% of their health.",
+        "pt": "Guarda Campestre:\n• O portador ganha 8 de potência durante 2 turnos para cada PM que ele utilizar.\n• Se ele não tiver usado PM durante seu turno, ele será curado em 8% da vida.",
+        "de": "Feldschütz:\n• Der Träger erhält 2 Runden lang für jeden von ihm verwendeten BP 8 Schlagkraft.\n• Hat er in seiner Runde keinen BP verwendet, wird er um 8 % seiner LP geheilt.",
+        "es": "Guarda Campestre:\n• El portador gana 8 de potencia durante 2 turnos por cada PM que utilice.\n• Si no ha utilizado ningún PM durante su turno, se cura un 8% de su vida."
       }
     }
   },
@@ -7574,8 +7576,7 @@
     "subCategory": "trophy",
     "stats": {
       "rangedResistPer": 6,
-      "rangedDamagePer": -9,
-      "meleeDamagePer": -9
+      "rangedDamagePer": -6
     }
   },
   "Fd": {
@@ -7594,8 +7595,7 @@
     "subCategory": "trophy",
     "stats": {
       "meleeResistPer": 6,
-      "rangedDamagePer": -9,
-      "meleeDamagePer": -9
+      "rangedDamagePer": -6
     }
   },
   "G3": {
@@ -7614,8 +7614,7 @@
     "subCategory": "trophy",
     "stats": {
       "rangedDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+      "rangedResistPer": -6
     }
   },
   "Gl": {
@@ -7634,8 +7633,7 @@
     "subCategory": "trophy",
     "stats": {
       "meleeDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+      "rangedResistPer": -6
     }
   },
   "Fb": {
@@ -7654,8 +7652,8 @@
     "subCategory": "trophy",
     "stats": {
       "spellDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+      "rangedResistPer": -6,
+      "meleeResistPer": -6
     }
   },
   "Fe": {
@@ -7674,8 +7672,8 @@
     "subCategory": "trophy",
     "stats": {
       "weaponDamagePer": 6,
-      "rangedResistPer": -9,
-      "meleeResistPer": -9
+      "rangedResistPer": -3,
+      "meleeResistPer": -3
     }
   },
   "IO": {
@@ -7693,7 +7691,7 @@
     "category": "dofus",
     "subCategory": "dofus",
     "stats": {
-      "summon": 1
+      "summon": 2
     },
     "specialEffect": {
       "name": {
